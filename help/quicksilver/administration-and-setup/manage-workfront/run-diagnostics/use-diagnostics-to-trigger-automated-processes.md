@@ -10,8 +10,8 @@ author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 92%
+source-wordcount: '329'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez utiliser les Diagnostics pour déclencher manuellement des processus
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1358'
 ht-degree: 96%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez configurer les paramètres suivants pour la visionneuse de relecture
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ Pour configurer les paramètres de la visionneuse de relecture :
 
      Ce paramètre affecte toutes les épreuves que vous ouvrez.
 
-   * **Utiliser les outils de balisage développés** (toujours disponible dans la visionneuse de relecture web et la visionneuse de relecture de bureau) : par défaut, les options de l’outil de balisage s’affichent en haut de la visionneuse de relecture.Vous pouvez les configurer pour qu’elles s’affichent dans un menu vertical qui ne s’ouvre que lorsque vous cliquez dessus.
+   * **Utiliser les outils de balisage développés** (toujours disponible dans la visionneuse de relecture web et la visionneuse de relecture de bureau) : par défaut, les options de l’outil de balisage s’affichent en haut de la visionneuse de relecture. Vous pouvez les configurer pour qu’elles s’affichent dans un menu vertical qui ne s’ouvre que lorsque vous cliquez dessus.
 
      Ce paramètre s’applique à toutes les épreuves que vous ouvrez.
 

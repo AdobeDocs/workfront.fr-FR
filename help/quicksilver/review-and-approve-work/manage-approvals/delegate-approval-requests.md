@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1199'
 ht-degree: 76%
 
 ---
@@ -73,10 +73,10 @@ Pendant la période d’approbation désignée, la personne à laquelle vous dé
 
   >[!NOTE]
   >
-  >L’administration d’Adobe Workfront peut restreindre l’accès utilisateur à certains types d’objets.Lorsqu’une personne n’a pas accès à un type d’objet et qu’une approbation de ce type lui est déléguée, l’accès en affichage à l’objet ne lui est pas accordé. Toutefois, la personne peut toujours approuver ou refuser les demandes d’approbation à partir de la page **Accueil**, comme décrit dans la section [Approuver le travail](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  > L’administration d’Adobe Workfront peut restreindre l’accès utilisateur à certains types d’objets. Lorsqu’une personne n’a pas accès à un type d’objet et qu’une approbation de ce type lui est déléguée, l’accès en affichage à l’objet ne lui est pas accordé. Toutefois, la personne peut toujours approuver ou refuser les demandes d’approbation à partir de la page **Accueil**, comme décrit dans la section [Approuver le travail](../../review-and-approve-work/manage-approvals/approving-work.md).\
   >Par exemple, la personne A appartient au groupe A. L’administration de Workfront a restreint les droits d’accès du groupe A de sorte que les personnes membres de ce groupe ne peuvent pas visualiser les tâches dans Workfront. Si une demande d’approbation de tâche est déléguée à la personne A, celle-ci ne peut pas voir la tâche à laquelle l’approbation est associée. Toutefois, la personne A peut approuver ou refuser la demande d’approbation à partir de la page d’accueil.
 
-  Pour plus d’informations sur la façon dont l’administration de Workfront peut restreindre l’accès aux types d’objets dans la configuration, consultez la section [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Pour plus d’informations sur la façon dont l’administration de Workfront peut restreindre l’accès aux types d’objets dans la configuration, consultez la section [Créer ou modifier des niveaux d’accès personnalisés](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Après l’arrêt ou l’annulation de la délégation d’approbation, la personne approbatrice :
 

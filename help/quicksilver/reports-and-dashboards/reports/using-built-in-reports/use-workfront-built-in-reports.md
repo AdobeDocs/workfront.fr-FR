@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2978'
-ht-degree: 57%
+source-wordcount: '2996'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 57%
 
 Adobe Workfront dispose d’une liste étendue de rapports intégrés que vous pouvez utiliser.
 
-Les administrateurs et administratrices de Workfront peuvent masquer les rapports intégrés afin que les utilisateurs et utilisatrices n’y aient pas accès. Pour plus d’informations sur la façon de masquer les rapports intégrés, voir [Masquer les rapports intégrés](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Les équipes d’administration de Workfront peuvent masquer les rapports intégrés pour que les utilisateurs et utilisatrices n’y aient pas accès. Pour plus d’informations sur la façon de masquer les rapports intégrés, voir [Masquer les rapports intégrés](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Conditions d’accès
 
@@ -119,7 +119,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Facturation des revenus par mois</td> 
-   <td>Enregistrement de facturation qui affiche le nom du projet, les revenus facturés du projet et la date de facturation des enregistrements de facturation. Le rapport est regroupé par mois de la date de facturation des enregistrements de facturation et comprend un graphique.</td> 
+   <td>Enregistrement de facturation qui affiche le nom du projet, le revenus facturés du projet et la date de facturation des enregistrements de facturation. Le rapport est regroupé par mois de la date de facturation des enregistrements de facturation et comprend un graphique.</td> 
   </tr> 
   <tr> 
    <td>Événements conclus par semaine</td> 
@@ -143,7 +143,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Heures, par utilisateur, par semaine</td> 
-   <td>Rapport de matrice sur les heures qui affiche le nombre d'heures consignées au cours des quatre dernières semaines et la date de saisie des heures. Le rapport est présenté en fonction de la date d’entrée des heures et est regroupé par nom de propriétaire et par mois de la date d’entrée des heures.</td> 
+   <td>Rapport sur les heures qui affiche le nombre d'heures consignées au cours de quatre dernières semaines et la date de saisie des heures. Le rapport est présenté en fonction de la date d’entrée des heures et est regroupé par nom de propriétaire et par mois de la date d’entrée des heures.</td> 
   </tr> 
   <tr> 
    <td>Événements par statut</td> 
@@ -163,23 +163,23 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Coûts prévus/coûts réels mensuels du portefeuille par projet</td> 
-   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d'allocation, les coûts prévus totaux, les coûts réels totaux et la variance des coûts totaux des projets. Le rapport est regroupé par nom de projet, trimestre et mois de la date d’attribution.</td> 
+   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d’affectation, les coûts prévus totaux, les coûts réels totaux et la variance des coûts totaux des projets. Le rapport est regroupé par nom de projet, trimestre et mois de la date d’attribution.</td> 
   </tr> 
   <tr> 
    <td>Revenus prévus/revenus réels mensuels du portefeuille par projet</td> 
-   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d'affectation, les revenus prévus totaux, les revenus réels totaux et la variance des revenus totaux des projets. Le rapport est regroupé par nom de projet, trimestre et mois de la date d’attribution.</td> 
+   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d’affectation, les revenus prévus totaux, les revenus réels totaux et la variance des revenus totaux des projets. Le rapport est regroupé par nom de projet, trimestre et mois de la date d’attribution.</td> 
   </tr> 
   <tr> 
    <td>Coûts prévus/coûts réels mensuels du projet</td> 
-   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d'allocation, les coûts prévus totaux, les coûts réels totaux et la variance des coûts totaux des projets. Le rapport est regroupé par nom de projet, par trimestre et par mois de la date d’allocation et est présenté par le nom du projet.</td> 
+   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d’affectation, les coûts prévus totaux, les coûts réels totaux et la variance des coûts totaux des projets. Le rapport est regroupé par nom de projet, par trimestre et par mois de la date d’allocation et est présenté par le nom du projet.</td> 
   </tr> 
   <tr> 
    <td>Revenus prévus/revenus réels mensuels du projet</td> 
-   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d'affectation, les revenus prévus totaux, les revenus réels totaux et la variance des revenus totaux des projets. Le rapport est regroupé par nom de projet, par trimestre et par mois de la date d’allocation et est présenté par le nom du projet.</td> 
+   <td>Rapport de matrice sur les projets (données financières) qui affiche la date d’affectation, les revenus prévus totaux, les revenus réels totaux et la variance des revenus totaux des projets. Le rapport est regroupé par nom de projet, par trimestre et par mois de la date d’allocation et est présenté par le nom du projet.</td> 
   </tr> 
   <tr> 
    <td>Mes documents</td> 
-   <td>Rapport sur les documents qui affiche les documents chargés par l'utilisateur connecté. Le rapport affiche les champs suivants : le nom de la personne propriétaire, la date de modification, la taille, le nombre de versions, la source et le type des documents.</td> 
+   <td>Rapport sur les documents qui affiche les documents chargés par la personne connectée. Le rapport affiche les champs suivants : le nom de la personne propriétaire, la date de modification, la taille, le nombre de versions, la source et le type des documents.</td> 
   </tr> 
   <tr> 
    <td>Mes favoris</td> 
@@ -191,7 +191,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Mes portefeuilles</td> 
-   <td>Rapport Portfolio qui affiche les portefeuilles actifs où l'utilisateur connecté est le gestionnaire Portfolio.</td> 
+   <td>Rapport sur les portefeuilles qui affiche les portefeuilles actifs où l'utilisateur connecté est le gestionnaire de portefeuille.</td> 
   </tr> 
   <tr> 
    <td>Mes programmes</td> 
@@ -199,7 +199,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Mes événements ouverts dans le projet</td> 
-   <td>Rapport sur les événements qui affiche les problèmes incomplets dans les projets dont l'équipe du projet inclut l'utilisateur connecté. Le rapport affiche les champs suivants : le nom de la source, le type de problème, la personne cessionnaire principale, la date d’entrée, le statut et la priorité des problèmes.</td> 
+   <td>Rapports sur les événements qui affiche les problèmes incomplets dans les projets dont l'équipe du projet inclut l'utilisateur connecté. Le rapport affiche les champs suivants : le nom de la source, le type de problème, la personne cessionnaire principale, la date d’entrée, le statut et la priorité des problèmes.</td> 
   </tr> 
   <tr> 
    <td>Mes projets</td> 
@@ -219,7 +219,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Mes événements non affectés</td> 
-   <td>Rapport sur les événements qui affiche les événements ouverts affectés à l'une des fonctions de l'utilisateur connecté et qui ne sont pas affectés à l'utilisateur. Le rapport affiche les champs suivants : le nom de la source, le type de problème, la date d’entrée, le statut et la priorité des problèmes.</td> 
+   <td>Rapports sur les événements qui affiche les événements ouverts affectés à l'une des fonctions de l'utilisateur connecté et qui ne sont pas affectés à l'utilisateur. Le rapport affiche les champs suivants : le nom de la source, le type de problème, la date d’entrée, le statut et la priorité des problèmes.</td> 
   </tr> 
   <tr> 
    <td>Mes tâches non affectées</td> 
@@ -255,7 +255,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Coûts prévus / coûts réels par portefeuille</td> 
-   <td>Rapport sur les projets qui affiche le coût prévu et le coût réel des projets par Portfolio. Le rapport est regroupé par nom de portfolio et comprend un graphique.</td> 
+   <td>Rapport sur les projets qui affiche le coût prévu et le coût réel des projets par portefeuille. Le rapport est regroupé par nom de portfolio et comprend un graphique.</td> 
   </tr> 
   <tr> 
    <td>Coûts prévus / coûts réels par programme</td> 
@@ -279,15 +279,15 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Projets du portefeuille regroupés par statut et portefeuille</td> 
-   <td>Rapport sur les projets qui affiche le nom du Portfolio et le statut des projets. Le rapport est regroupé en fonction du nom du portfolio et du statut des projets, et il comprend un graphique.</td> 
+   <td>Rapport sur les projets qui affiche le nom du portefeuille et le statut des projets. Le rapport est regroupé en fonction du nom du portfolio et du statut des projets, et il comprend un graphique.</td> 
   </tr> 
   <tr> 
    <td>Revenu du portefeuille par programme</td> 
-   <td>Rapport sur les projets qui affiche le nom du Portfolio, le nom du programme, le revenu prévu et le revenu réel des projets. Le rapport est regroupé par nom de portfolio et par nom de programme, et il comprend un graphique.</td> 
+   <td>Rapport sur les projets qui affiche le nom du portefeuille, le nom du programme, le revenu prévu et le revenu réel des projets. Le rapport est regroupé par nom de portfolio et par nom de programme, et il comprend un graphique.</td> 
   </tr> 
   <tr> 
    <td>Revenus du portefeuille, regroupés par programme et par mois</td> 
-   <td>Rapport de matrice sur les projets qui affiche le revenu prévu, le revenu réel, le nom du Portfolio et le nom du programme. Le rapport est regroupé par nom de portfolio, nom de programme et mois de la date de début prévue des projets.</td> 
+   <td>Rapport de matrice sur les projets qui affiche le revenu prévu, le coût réel, le nom du portefeuille et le nom du programme. Le rapport est regroupé par nom de portfolio, nom de programme et mois de la date de début prévue des projets.</td> 
   </tr> 
   <tr> 
    <td>Coûts et revenus du projet par statut de la tâche</td> 
@@ -295,7 +295,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Revenus du projet / revenus par portefeuille</td> 
-   <td>Rapport sur les projets qui affiche le nom du Portfolio, le coût réel et le revenu réel des projets. Le rapport est regroupé par nom de portfolio et comprend un graphique.</td> 
+   <td>Rapport sur les projets qui affiche le nom du portefeuille, le coût réel et le revenu réel des projets. Le rapport est regroupé par nom de portfolio et comprend un graphique.</td> 
   </tr> 
   <tr> 
    <td>Frais du projet, par mois et par trimestre</td> 
@@ -307,15 +307,15 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Coûts des frais et de travail du projet, par mois et par trimestre</td> 
-   <td>Rapport de matrice sur les projets qui affiche le coût prévu de la main-d'œuvre, le coût réel de la main-d'œuvre, le coût prévu de dépense et le coût réel de dépense des projets. Le rapport est regroupé par nom de projet et par trimestre et mois de la date de début effective des projets.</td> 
+   <td>Rapport de matrice sur les projets qui affiche le coût prévu de la main-d'œuvre, le coût réel de la main-d'œuvre, le montant de charge prévu et le montant de charge réel des projets. Le rapport est regroupé par nom de projet et par trimestre et mois de la date de début effective des projets.</td> 
   </tr> 
   <tr> 
    <td>Performances du projet</td> 
-   <td>Rapport sur les projets qui affiche les champs suivants des projets actuels : date d'échéance, ICP, IHP, ICH, coût prévu, budget, CRE et Dépenses des projets.</td> 
+   <td>Rapports sur les projets qui affiche les champs suivants des projets actuels : date d'échéance, ICP, IHP, ICH, coût prévu, budget, CRE et Dépenses des projets.</td> 
   </tr> 
   <tr> 
    <td>Demandes de projet</td> 
-   <td>Rapport sur les projets qui affiche les projets demandés. Le rapport affiche les champs suivants : la description, la date d’achèvement prévue, la date d’achèvement prévisionnelle, le pourcentage terminé, le statut et la priorité des projets.</td> 
+   <td>Rapports sur les projets qui affiche les projets demandés. Le rapport affiche les champs suivants : la description, la date d’achèvement prévue, la date d’achèvement prévisionnelle, le pourcentage terminé, le statut et la priorité des projets.</td> 
   </tr> 
   <tr> 
    <td>Projets par condition</td> 
@@ -347,7 +347,7 @@ Les rapports suivants sont fournis avec le package Workfront. Les rapports sont 
   </tr> 
   <tr> 
    <td>Tâches problématiques</td> 
-   <td>Rapports sur les tâches qui affiche les tâches incomplètes avec un statut de progression Tardif ou En retard, une date de remise antérieure à demain et où l'utilisateur connecté fait partie de l'équipe du projet auquel les tâches sont associées. Le rapport affiche les champs suivants : Durée prévue, Nom du projet, Personne cessionnaire principale, Date de début prévue, Date d’achèvement prévue, Pourcentage terminé et Priorité des tâches.</td> 
+   <td>Rapport sur les tâches qui affiche les tâches incomplètes avec un statut de progression Tardif ou En retard, une date de remise antérieure à demain et où l'utilisateur connecté fait partie de l'équipe du projet auquel les tâches sont associées. Le rapport affiche les champs suivants : Durée prévue, Nom du projet, Personne cessionnaire principale, Date de début prévue, Date d’achèvement prévue, Pourcentage terminé et Priorité des tâches.</td> 
   </tr> 
   <tr> 
    <td>Connexions utilisateur</td> 

@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 97%
+source-wordcount: '302'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez marquer les commentaires comme résolus une fois qu’ils ont été 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

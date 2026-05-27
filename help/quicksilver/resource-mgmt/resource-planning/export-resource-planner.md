@@ -9,7 +9,7 @@ exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez exporter des informations à partir de n’importe quelle vue du pla
  <tbody> 
   <tr> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step1-to-resourcing}}
 
-Le **planificateur** s’affiche par défaut.
+Le **Planificateur** s’affiche par défaut.
 
 1. Sélectionnez la vue pour le Planificateur. Vous pouvez sélectionner l’une des options suivantes :
 
@@ -93,7 +93,7 @@ Vous pouvez choisir d’exporter les informations suivantes :
 
    * Dans la vue de l’utilisateur ou l’utilisatrice, sélectionnez pour export :
 
-      * Utilisateurs
+      * Utilisateurs et utilisatrices
       * Utilisateurs et projets
       * Tout (option par défaut)
 
@@ -113,7 +113,8 @@ Vous pouvez choisir d’exporter les informations suivantes :
 1. Cliquez sur **Export** pour exporter les informations du planificateur de ressources.\
    Seules les informations que vous avez enregistrées sont exportées.
 
-1. (Le cas échéant) Si vous avez des heures budgétées non enregistrées dans les vues Rôle ou Projet, cliquez sur **Enregistrer et continuer.** Un fichier Excel (.xlsx) est téléchargé sur votre ordinateur.\
+1. (Le cas échéant) Si vous avez des heures budgétées non enregistrées dans les vues Rôle ou Projet, cliquez sur **Enregistrer et continuer.**
+Un fichier Excel (.xlsx) est téléchargé sur votre ordinateur.\
    L’export à partir du planificateur de ressources n’est pas disponible pendant que le fichier est préparé pour le téléchargement.\
    (Le cas échéant) Si vous exportez une grande quantité de données, vous recevez un e-mail contenant un lien qui vous permet de télécharger le fichier.\
    ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)

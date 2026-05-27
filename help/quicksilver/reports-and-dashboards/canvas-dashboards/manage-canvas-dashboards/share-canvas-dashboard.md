@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 12%
+source-wordcount: '610'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
@@ -87,7 +87,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 * Lorsqu’un rapport sur un tableau de bord est configuré avec l’option Exécuter en tant qu’utilisateur , toutes les visionneuses voient les données en fonction des autorisations de l’utilisateur sélectionné plutôt que des leurs. Cela signifie que les visiteurs peuvent voir des données auxquelles ils n’ont normalement pas accès. Si certains rapports d’un tableau de bord utilisent Exécuter en tant qu’utilisateur et d’autres pas, les observateurs peuvent voir des données incohérentes entre les rapports.
 
 
-## Partager un tableau de bord de zones de travail
+## Partager un tableau de bord de la zone de travail
 
 
 {{step1-to-dashboards}}

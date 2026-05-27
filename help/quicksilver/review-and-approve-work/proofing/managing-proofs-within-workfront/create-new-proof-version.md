@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 32%
+source-wordcount: '1460'
+ht-degree: 33%
 
 ---
 
@@ -41,7 +41,7 @@ Tenez compte des informations suivantes lors de la création d’une nouvelle ve
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

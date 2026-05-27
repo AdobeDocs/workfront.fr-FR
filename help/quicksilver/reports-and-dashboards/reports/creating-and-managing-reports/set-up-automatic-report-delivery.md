@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 65%
+source-wordcount: '1298'
+ht-degree: 64%
 
 ---
 
@@ -111,7 +111,7 @@ Pour planifier la diffusion automatique d&#39;un rapport, procédez comme suit &
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Remettre ce rapport avec les droits d’accès suivants</p> </td> 
-      <td> <p>Commencez à saisir le nom d’une personne ayant accès au rapport, puis cliquez sur le nom qui apparaît dans la liste déroulante. Les personnes qui reçoivent le rapport auront le même niveau d’accès à ce dernier que la personne spécifiée ici.<br> Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Exécuter et diffuser un rapport avec les droits d’accès d’un autre utilisateur ou d’une autre utilisatrice</a>.</p> <p>Note : ce champ ne prend pas en charge les caractères génériques. Par exemple, le caractère générique <em>$$User.ID</em> n’exécute pas le rapport avec les droits d’accès de l’utilisateur qui reçoit le rapport.</p> </td> 
+      <td> <p>Commencez à saisir le nom d’une personne ayant accès au rapport, puis cliquez sur le nom qui apparaît dans la liste déroulante. Les utilisateurs qui reçoivent le rapport se verront accorder le même niveau d’accès au rapport que l’utilisateur que vous spécifiez ici.<br> Pour plus d’informations, voir <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Exécuter et diffuser un rapport avec les droits d’accès d’une autre personne</a>.</p> <p>Note : ce champ ne prend pas en charge les caractères génériques. Par exemple, le caractère générique <em>$$User.ID</em> n’exécute pas le rapport avec les droits d’accès de l’utilisateur qui reçoit le rapport.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Format</p> </td> 

@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 23010732-dab7-461d-876a-56f9928a2a23
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 97%
+source-wordcount: '230'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez ajuster le délai pour les épreuves que vous créez ou que vous pos
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -79,4 +79,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 
 1. Pour enregistrer votre modification, cliquez en dehors de la zone d’échéance.
-1. Dans l’invite qui s’affiche, indiquez si vous souhaitez envoyer une alerte par e-mails aux personnes réviseuses. 
+1. Dans l’invite qui s’affiche, indiquez si vous souhaitez envoyer une alerte par e-mails aux personnes réviseuses. 

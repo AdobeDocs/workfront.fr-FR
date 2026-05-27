@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1784'
 ht-degree: 99%
 
 ---
@@ -28,7 +28,7 @@ Un workflow automatisé facilite la gestion du processus de révision si votre p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -231,4 +231,4 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Ouvrir l&#39;épreuve](assets/open-proof-350x132.png)
 
-   Les utilisateurs et utilisatrices qui n’ont pas la vérification activée sur leur compte peuvent toujours consulter le document et envoyer des commentaires à l’épreuve[.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Les utilisateurs et utilisatrices qui n’ont pas la relecture activée sur leur compte peuvent toujours consulter le document et envoyer des commentaires à l’épreuve [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

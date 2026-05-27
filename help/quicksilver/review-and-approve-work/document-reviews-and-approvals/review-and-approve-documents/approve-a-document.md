@@ -85,7 +85,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
 
-   * Le menu déroulant **Approuver** propose deux options :
+   * La liste déroulante **Approuver** contient deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
@@ -113,7 +113,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’une des deux options d’approbation suivantes dans le coin supérieur droit de la page :
 
-   * Le menu déroulant **Approuver** propose deux options :
+   * La liste déroulante **Approuver** contient deux options :
 
       * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 

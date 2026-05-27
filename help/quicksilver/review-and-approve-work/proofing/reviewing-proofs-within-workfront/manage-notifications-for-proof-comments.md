@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
 source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 20%
+source-wordcount: '731'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsque vous travaillez sur une épreuve, que vous soyez un utilisateur d’Adob
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -88,15 +88,15 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader">Décision finale</td> 
-      <td>Un e-mail est envoyé lorsque la décision finale est prise sur le BAT.<br><p>Cette alerte est souvent utilisée par le concepteur, qui n’a pas besoin de prendre part à la discussion de révision proprement dite. Une fois la décision finale prise, le concepteur en est informé et peut prendre des mesures pour apporter les modifications nécessaires.<br></p></td> 
+      <td>Un e-mail est envoyé lorsque la décision finale est prise sur le BAT.<br><p>Cette alerte est souvent utilisée par le concepteur, qui n’a pas besoin de prendre part à la discussion de révision proprement dite. Lorsque la décision finale est prise, le concepteur ou la conceptrice reçoit une notification et peut alors agir sur les modifications nécessaires.<br></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Résumé horaire</td> 
-      <td>Un e-mail est envoyé au réviseur toutes les heures avec un résumé de tous les commentaires, réponses et décisions qui se sont produits au cours de la dernière heure.<br><p>L’e-mail n’est envoyé que lorsque d’autres activités que la vôtre ont lieu au cours de la dernière heure. Si aucune activité n’est effectuée par d’autres utilisateurs, aucun e-mail n’est envoyé.<br></p><p>Cette alerte est un bon moyen de voir un aperçu du projet au fur et à mesure de son avancement.</p></td> 
+      <td>Un e-mail est envoyé au réviseur toutes les heures avec un résumé de tous les commentaires, réponses et décisions qui se sont produits au cours de la dernière heure.<br><p>L’e-mail n’est envoyé que lorsqu’une activité autre que la vôtre s’est produite au cours de la dernière heure. Si aucune activité n’est effectuée par d’autres utilisateurs, aucun e-mail n’est envoyé.<br></p><p>Cette alerte est un bon moyen de voir un aperçu du projet au fur et à mesure de son avancement.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Résumé quotidien</td> 
-      <td>(Paramètre par défaut) : un e-mail est envoyé chaque jour avec tous les commentaires, réponses et décisions répertoriés. Elle est envoyée uniquement les jours où il y a une activité en dehors de la vôtre.<br><p>Cette alerte est un bon moyen d’afficher un résumé du projet sans être submergé par de multiples mises à jour tout au long de la journée.<br></p></td> 
+      <td>(Paramètre par défaut) : un e-mail est envoyé chaque jour avec tous les commentaires, réponses et décisions répertoriés. Elle est envoyée uniquement les jours où il y a une activité en dehors de la vôtre.<br><p>Cette alerte est une bonne façon de voir un résumé du projet sans se laisser submerger par plusieurs mises à jour tout au long de la journée.<br></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aucun e-mail</td> 

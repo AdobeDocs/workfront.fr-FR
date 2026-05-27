@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1164'
 ht-degree: 94%
 
 ---
@@ -32,7 +32,7 @@ Si vous partagez l’épreuve, comme expliqué dans cet article, votre destinata
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ Le partage d’un lien vers l’épreuve accorde aux utilisateurs et utilisatric
           <tbody>
            <tr>
             <td role="rowheader">Envoyer un lien public</td>
-            <td><p>Inclut un bouton dans la notification par e-mail qui dirige les utilisateurs et utilisatrices vers l’épreuve dans la visionneuse de relcture qu’ils utilisent et leur accorde l’accès en affichage.</p><p>Si l’option <strong>S’abonner à l’épreuve via une URL publique ou un code intégré</strong> est désactivée pour l’épreuve, les utilisateurs et utilisatrices peuvent se connecter à l’aide de leurs informations de connexion Workfront pour ajouter des commentaires à l’épreuve. Si elle est activée, toute personne fournissant son adresse e-mail et son nom (aucun mot de passe requis) peut se connecter et ajouter des commentaires à l’épreuve.</p></td>
+            <td><p>Inclut un bouton dans la notification par e-mail qui dirige les utilisateurs et utilisatrices vers l’épreuve dans la visionneuse de relecture utilisée et leur accorde l’accès en affichage.</p><p>Si l’option <strong>S’abonner à l’épreuve via une URL publique ou un code intégré</strong> est désactivée pour l’épreuve, les utilisateurs et utilisatrices peuvent se connecter à l’aide de leurs informations de connexion Workfront pour ajouter des commentaires à l’épreuve. Si elle est activée, toute personne fournissant son adresse e-mail et son nom (aucun mot de passe requis) peut se connecter et ajouter des commentaires à l’épreuve.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Envoyer un lien de téléchargement</td>
@@ -158,7 +158,7 @@ Pour plus d’informations, voir [Partager une épreuve en y ajoutant des utilis
 
 ## Rapport sur les approbations de relecture
 
-Vous pouvez créer un rapport qui tient compte des approbations d’épreuves partagées dans Workfront. Ce rapport fournit les informations d’approbation d’épreuve suivantes dans votre système :
+Vous pouvez créer un rapport qui tient compte des approbations de relecture partagées dans Workfront. Ce rapport fournit les informations d’approbation d’épreuve suivantes dans votre système :
 
 * Document soumis à approbation
 * Nom de la personne chargée de l’approbation

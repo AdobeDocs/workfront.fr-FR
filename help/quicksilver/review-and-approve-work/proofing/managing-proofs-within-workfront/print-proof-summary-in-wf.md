@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '674'
 ht-degree: 91%
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez imprimer un résumé d’épreuve, l’enregistrer au format PDF ou 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

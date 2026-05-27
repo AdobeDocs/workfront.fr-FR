@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
 source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 56%
+source-wordcount: '704'
+ht-degree: 57%
 
 ---
 
@@ -33,7 +33,7 @@ Lors du balisage des utilisateurs dans les commentaires d’une épreuve, les ut
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >Cela s’applique uniquement aux outils de balisage d’annotation standard, et non aux outils de balisage de texte.
 
 1. Saisissez votre commentaire dans la zone **Ajouter un commentaire** à droite.
-1. (Facultatif) Pour taguer une autre personne dans votre commentaire et l’ajouter au workflow de l’épreuve, saisissez @ dans la zone de commentaire, puis saisissez le nom ou l’adresse e-mail de la personne et sélectionnez la personne dans le menu qui s’affiche.Pour plus d’informations, voir la section [Taguer des personnes pour partager une épreuve](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
+1. (Facultatif) Pour taguer une autre personne dans votre commentaire et l’ajouter au workflow de l’épreuve, saisissez @ dans la zone de commentaire, puis saisissez le nom ou l’adresse e-mail de la personne et sélectionnez la personne dans le menu qui s’affiche. Pour plus d’informations, voir la section [Taguer des personnes pour partager une épreuve](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Facultatif) Pour joindre un fichier à un commentaire, effectuez l’une des opérations suivantes :
 
    * Cliquez sur l’icône de trombone dans le coin supérieur droit du commentaire, puis recherchez et sélectionnez le fichier à charger.

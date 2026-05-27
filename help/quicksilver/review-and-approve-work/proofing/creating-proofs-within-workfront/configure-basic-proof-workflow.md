@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1749'
 ht-degree: 99%
 
 ---
@@ -28,7 +28,7 @@ Avec un workflow de base, vous pouvez créer plusieurs réviseurs et réviseuses
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>
    <p>Tous</p>
     </td> 
@@ -328,8 +328,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td role="rowheader">S’abonner à l’épreuve via une URL publique ou un code intégré</td> 
       <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
        <ul>
-        <li><strong>Rôle de personne abonnée :</strong> rôle par défaut pour l’épreuve affecté à toutes les personnes chargées de la révision qui s’abonnent à l’épreuve.</li>
-        <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> alerte e-mail par défaut qui est affectée à toutes les personnes chargées de la révision qui s’abonnent à l’épreuve.</li>
+        <li><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve. </li>
+        <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> l’alerte par défaut qui est affectée à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li>
        </ul><p>
         <ul>
          <li><strong>Un accès à l’épreuve via un lien e-mail requis pour :</strong> Indiquez si la personne abonnée reçoit un e-mail avec un lien vers l’épreuve. Vous pouvez sélectionner <strong>Aucun e-mail</strong> (aucun lien d’e-mail n’est nécessaire pour accéder à l’épreuve), <strong>E-mail de notification de l’épreuve uniquement</strong> (la personne abonnée reçoit un lien vers l’épreuve par e-mail sans vérification), ou <strong>E-mails de validation et de notification de l’épreuve</strong> (la personne abonnée reçoit un lien vers l’épreuve par e-mail et doit cliquer sur le lien pour accéder à une épreuve ; l’objectif de cette option est de s’assurer que la personne a saisi une adresse e-mail correcte à laquelle elle a accès).</li>
@@ -340,10 +340,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur **Créer une épreuve**.
 
-   Workfront commence à générer une épreuve des documents ou des sites web sélectionnés.Selon la taille et le type du fichier, le délai de chargement d’un document peut varier. Faites preuve de patience, car la génération de fichiers volumineux prend plus de temps. Vous pouvez quitter la page et Workfront continue à générer votre fichier.La taille maximale du chargement de fichier est de 4 Go.
+   Workfront commence à générer une épreuve des documents ou des sites web sélectionnés. Selon la taille et le type du fichier, le délai de chargement d’un document peut varier. Faites preuve de patience, car la génération de fichiers volumineux prend plus de temps. Vous pouvez quitter la page et Workfront continue à générer votre fichier. La taille maximale du chargement de fichier est de 4 Go.
 
 1. Une fois l’épreuve générée, cliquez sur **Ouvrir l’épreuve** pour lancer la visionneuse de relecture.
 
    ![Ouvrir l&#39;épreuve](assets/open-proof-350x132.png)
 
-   Les personnes pour qui la vérification du compte n’est pas activée peuvent toujours afficher le document et effectuer des commentaires sur l’épreuve.
+   Les personnes sur le compte desquelles la relecture n’est pas activée peuvent toujours afficher le document et effectuer des commentaires sur l’épreuve.

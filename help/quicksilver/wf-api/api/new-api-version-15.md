@@ -9,8 +9,8 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 100%
+source-wordcount: '2294'
+ht-degree: 99%
 
 ---
 
@@ -362,7 +362,8 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
       <td>
         <ul>
           <li>
-            <p><b>objectCategories</b>
+            <p><b>objectCategories
+</b>
             </p>
           </li>
         </ul>
@@ -825,7 +826,8 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b>objectIntegrations</b>
+            <p style="font-weight: bold;"><b>objectIntegrations
+</b>
             </p>
             <p style="font-weight: normal;">Ajout.</p>
             <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>

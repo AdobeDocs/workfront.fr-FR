@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Request a legacy document approval
+title: Demander l'approbation d'un document existant
 description: Vous pouvez demander l’approbation d’un document à des responsables ou à d’autres utilisateurs et utilisatrices dans Adobe Workfront. Vous pouvez également demander l’approbation de documents à des personnes qui n’ont pas de compte Workfront si votre équipe d’administration Workfront a activé cette fonctionnalité, comme décrit dans la section Configurer les préférences de sécurité du système.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -13,14 +13,14 @@ ht-degree: 92%
 
 ---
 
-# Request a legacy document approval
+# Demander l&#39;approbation d&#39;un document existant
 
 Vous pouvez demander l’approbation d’un document à des responsables ou à d’autres utilisateurs et utilisatrices dans Adobe Workfront. Vous pouvez également demander l’approbation de documents à des personnes qui n’ont pas de compte Workfront si votre équipe d’administration Workfront a activé cette fonctionnalité, comme décrit dans la section [Configurer les préférences de sécurité du système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 >[!NOTE]
 >
->The information in this article refers to legacy document approvals. <br>
->For information about new Unified Review and Approval, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+>Les informations de cet article se rapportent aux approbations de documents hérités. <br>
+>Pour plus d’informations sur la nouvelle révision et approbation unifiées, voir [Présentation de la révision et approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 
 ## Conditions d’accès
@@ -39,7 +39,7 @@ Vous pouvez demander l’approbation d’un document à des responsables ou à d
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td>
-   <p>Contrbute or higher</p>
+   <p>Contribuer ou plus</p>
    <p>Révision ou supérieur</p>
    </td> 
   </tr> 
@@ -80,7 +80,7 @@ Les décisions d’approbation des documents ne sont pas automatiquement réinit
 
 1. Faites défiler la page jusqu’à la section **Approbations** dans le résumé, cliquez sur l’icône Plus, puis sur Soumettre à nouveau.
 
-   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
+   ![Envoyer à nouveau la validation](assets/nwe-resubmit-approval-350x149.png)
 
 ## Supprimer une demande d’approbation de document
 

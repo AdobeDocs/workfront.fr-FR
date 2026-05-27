@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
 source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 60%
+source-wordcount: '486'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 
 <!--Audited: 10/2024-->
 
-Les utilisateurs peuvent demander l’accès à des objets dans Adobe Workfront.
+Les utilisateurs et utilisatrices peuvent demander l’accès aux objets dans Adobe Workfront.
 
 Pour plus d’informations sur la demande d’accès, voir [Demande d’accès aux objets](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
@@ -32,7 +32,7 @@ Si vous êtes la ou le propriétaire d’un objet, vous pouvez accorder ou refus
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -58,9 +58,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Autoriser l’accès aux objets de la zone d’accueil
 
-1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
+1. Cliquez sur le ![](assets/dots-main-menu.png) **Menu principal** dans le coin supérieur droit de l’écran, ou sur le ![](assets/lines-main-menu.png) **Menu principal** dans le coin supérieur gauche, le cas échéant, puis cliquez sur **Accueil**
 Ou
-Cliquez sur le **de l’icône** Accueil![](assets/home-icon-30x29.png) dans le coin supérieur gauche d’Adobe Workfront.
+Cliquez sur le ![](assets/home-icon-30x29.png) de l’icône **Accueil** dans le coin supérieur gauche d’Adobe Workfront.
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Vous pouvez configurer la réception de notifications par e-mail pour les demand
 
 1. Accédez à votre profil utilisateur en effectuant l’une des opérations suivantes :
 
-   * Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/dots-main-menu.png) dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
+   * Cliquez sur le ![](assets/dots-main-menu.png) **Menu principal** dans le coin supérieur droit de l’écran, puis cliquez sur votre nom.
    * Cliquez sur Adobe **Menu principal** ![icône de profil](assets/adobe-blue-main-menu.png) dans le coin supérieur droit, le cas échéant, puis cliquez sur **Profil Workfront**.
 
 1. Cliquez sur le menu **Plus** ![icône plus](assets/more-icon.png) à droite de votre nom dans l’en-tête, puis cliquez sur **Modifier**.

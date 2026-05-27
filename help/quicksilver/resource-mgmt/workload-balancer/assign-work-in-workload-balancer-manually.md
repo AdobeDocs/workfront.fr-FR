@@ -9,8 +9,8 @@ role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 81%
+source-wordcount: '748'
+ht-degree: 82%
 
 ---
 
@@ -29,7 +29,7 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 

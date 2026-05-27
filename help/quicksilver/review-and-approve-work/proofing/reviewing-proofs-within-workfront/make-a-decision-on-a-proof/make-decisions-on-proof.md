@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 99%
+source-wordcount: '326'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez prendre une décision sur une épreuve directement dans la visionneu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader">Personnaliser une décision</td> 
-      <td> <p>Sur les plans Select et Premium, l’administrateur ou administratrice Workfront ou Workfront Proof peut renommer, réorganiser et masquer les décisions.Pour plus d’informations, voir <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configurer des options de décision d’approbation dans Workfront Proof</a>.</p> </td> 
+      <td> <p>Sur les plans Select et Premium, l’administrateur ou administratrice Workfront ou Workfront Proof peut renommer, réorganiser et masquer les décisions. Pour plus d’informations, voir <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configurer des options de décision d’approbation dans Workfront Proof</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>

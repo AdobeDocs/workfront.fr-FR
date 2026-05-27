@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 96%
+source-wordcount: '354'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez choisir d’envoyer un e-mail de rappel générique ou d’envoyer u
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
