@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1308'
 ht-degree: 93%
 
 ---
@@ -108,7 +108,7 @@ Pour modifier la priorité de planification de projet :
 >
 >Votre société doit disposer d’un package Prime ou d’un package Workfront supérieur pour donner la priorité aux projets dans Portfolio Optimizer.
 >
->Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/fr/products/workfront/pricing.html).
+>Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Pour plus d’informations sur la hiérarchisation des projets dans l’optimisateur de portfolio, voir [Hiérarchiser des projets dans l’optimisateur de portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
@@ -120,7 +120,7 @@ Pour modifier la priorité de planification de projet :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Priorité &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorité ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Les priorités de portfolio des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 

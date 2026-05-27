@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2386'
 ht-degree: 96%
 
 ---
@@ -340,7 +340,7 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
    * Partagez le filtre avec d’autres utilisateurs ou utilisatrices ou rendez-le disponible à l’échelle du système. Pour plus d’informations, consultez la section [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-   * Supprimez le filtre s’il n’est plus valide ou si c’est un doublon.Vous ne pouvez supprimer que vos propres filtres. Vous pouvez supprimer les filtres qui ont été partagés avec vous. Pour plus d’informations, consultez la section [Supprimer des filtres, des vues et des regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Supprimez le filtre s’il n’est plus valide ou si c’est un doublon. Vous ne pouvez supprimer que vos propres filtres. Vous pouvez supprimer les filtres qui ont été partagés avec vous. Pour plus d’informations, consultez la section [Supprimer des filtres, des vues et des regroupements](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 ## Créer ou modifier un filtre dans le créateur hérité {#create-filter-in-legacy-builder}
 

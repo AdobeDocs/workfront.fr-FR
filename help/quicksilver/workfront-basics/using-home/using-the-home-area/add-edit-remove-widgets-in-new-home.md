@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
 source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 48%
+source-wordcount: '1123'
+ht-degree: 52%
 
 ---
 
@@ -84,7 +84,7 @@ Par défaut, la page d’accueil est renseignée avec des widgets spécifiques e
 
 ## Ajout d’un widget à l’Accueil
 
-Les widgets sont la base de l’Accueil. En ajoutant des widgets à votre page d’accueil, vous pouvez choisir le type d’informations qui s’affichent pour répondre au mieux à vos besoins professionnels. Certains widgets ne sont disponibles que pour des types de licence spécifiques, car les objets qu’ils suivent ne sont disponibles que pour ces licences. Pour plus d’informations, reportez-vous à la section [Widgets disponibles pour des types de licence spécifiques](#widgets-available-for-specific-license-types) ci-dessus.
+Les widgets sont la base de l’Accueil. En ajoutant des widgets à votre page d’accueil, vous pouvez choisir le type d’informations qui s’affichent pour répondre au mieux à vos besoins professionnels. Certains widgets ne sont disponibles que pour des types de licences spécifiques, car les objets qu’ils suivent ne sont disponibles que pour ces licences. Pour plus d’informations, reportez-vous à la section [Widgets disponibles pour des types de licence spécifiques](#widgets-available-for-specific-license-types) ci-dessus.
 
 Pour ajouter un widget :
 
@@ -119,7 +119,7 @@ Pour ajouter un widget :
        Affiche toutes les demandes en attente classées par équipe pour les équipes dont vous faites partie, ainsi que des boutons permettant d’attribuer directement une demande à un utilisateur ou à une utilisatrice ou d’y travailler soi-même.
 
    * **Mes approbations**\
-       Affiche toutes vos approbations affectées ou déléguées en attente, un bouton pour déléguer les approbations et des boutons pour prendre des décisions d’approbation directement dans le widget. Les validations sont classées de la manière suivante :
+       Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget. Les validations sont classées de la manière suivante :
       * Échéances échues
       * Prochaines échéances
       * Éléments sans échéance

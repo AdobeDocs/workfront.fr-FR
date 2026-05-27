@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 64%
+source-wordcount: '479'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 <!--Audited: 10/2024-->
 
-Vous pouvez avoir un statut de tâche affecté au groupe A nommé *Nouveau statut* avec la clé à 3 lettres *« NST »*. Un autre statut de tâche peut être affecté au groupe B, également nommé *Nouveau statut* avec la clé à 3 lettres *« NES ».* Bien que les noms des deux statuts puissent être identiques, le code à 3 lettres est toujours unique.
+Vous pouvez avoir un statut de tâche affecté au groupe A nommé *Nouveau statut* avec la clé à 3 lettres *« NST »*. Vous pouvez avoir un autre statut de tâche affecté au groupe B également nommé *Nouveau statut* avec la clé de 3 lettres *NES.* Bien que les noms des deux statuts puissent être identiques, le code à 3 lettres est toujours unique.
 
 Pour plus d’informations sur les statuts de groupe, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1593'
 ht-degree: 67%
 
 ---
@@ -171,7 +171,7 @@ Old info:
 
    Une confirmation s’affiche en bas de l’écran indiquant que les feuilles de temps ont bien été générées. De nouvelles feuilles de temps sont générées en fonction des nouveaux profils que vous avez créés.
 
-   Pour plus d’informations, voir [&#x200B; Générer manuellement des feuilles de temps &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+   Pour plus d’informations, voir [ Générer manuellement des feuilles de temps ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
    La première fois que le profil de feuille de temps génère des feuilles de temps, deux feuilles de temps sont créées pour chaque utilisateur, pour la période qui inclut l’heure actuelle ainsi que pour la période suivante.
 

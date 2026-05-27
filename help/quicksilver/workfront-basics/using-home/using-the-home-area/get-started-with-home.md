@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 73%
+source-wordcount: '1003'
+ht-degree: 75%
 
 ---
 
@@ -74,7 +74,7 @@ Vous trouverez ci-dessous les 11 widgets actuellement disponibles, ainsi qu’un
         Affiche 2 graphiques avec des informations sur le temps moyen d&#39;approbation des documents et les décisions, ainsi que des vues de listes des approbations en attente et en retard. Pour utiliser ce widget, vous devez avoir activé [Approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 * **Mentions**\
-        Elle affiche les commentaires récents que vous avez faits ou les commentaires dans lesquels d’autres utilisateurs vous ont identifié et qui ont été ajoutés au cours des 2 dernières semaines. Vous pouvez utiliser le bouton Répondre pour composer une réponse dans le widget.
+        Elle affiche les commentaires récents que vous avez faits ou les commentaires dans lesquels d’autres utilisateurs vous ont identifié et qui ont été ajoutés au cours des 2 dernières semaines. Vous pouvez utiliser le bouton de réponse pour rédiger une réponse dans le widget.
 
   <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 

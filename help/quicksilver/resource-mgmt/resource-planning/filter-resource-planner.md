@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2381'
 ht-degree: 96%
 
 ---
@@ -31,7 +31,7 @@ Les filtres permettent de modifier les informations qui s’affichent dans le pl
  <tbody> 
   <tr> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Vous pouvez dupliquer un filtre existant. Les critères de filtre d’origine re
 1. Pointez sur le nom d’un filtre enregistré que vous souhaitez dupliquer.
 1. Cliquez sur l’icône **Dupliquer**.
 
-   ![&#x200B; Dupliquer le filtre &#x200B;](assets/rp-filter-options---duplicate-350x154.png)\
+   ![ Dupliquer le filtre ](assets/rp-filter-options---duplicate-350x154.png)\
    La zone Dupliquer le filtre s’affiche.
 
 1. Dans le champ **Nom du filtre**, donnez un nouveau nom au filtre dupliqué.\

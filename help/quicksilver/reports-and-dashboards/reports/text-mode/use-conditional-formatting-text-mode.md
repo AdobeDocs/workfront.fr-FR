@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 92%
 
 ---
 
@@ -268,7 +268,7 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 
 Si vous souhaitez remplacer les valeurs par défaut qui apparaissent dans une colonne par une valeur de votre choix, vous pouvez le faire en appliquant du texte à la colonne.
 
-Par exemple, dans un rapport sur les projets, définissez la valeur de la colonne « Date de début prévue » pour qu’au lieu d’afficher la date de début prévue pour le projet, elle affiche le texte « Pas aujourd’hui ». Utilisez le code suivant pour la colonne « Date de début prévue » :
+Par exemple, sur un rapport de projet, définissez la valeur de la colonne Date de début prévue pour n’afficher pas la date de début prévue du projet, mais plutôt le texte « Pas aujourd’hui ». Utilisez le code suivant pour la colonne Date de début prévue :
 
 ```
 case.0.comparison.leftmethod=plannedStartDate
