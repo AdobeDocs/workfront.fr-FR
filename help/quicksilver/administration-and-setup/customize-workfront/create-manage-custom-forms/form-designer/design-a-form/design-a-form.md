@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
+source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
 workflow-type: tm+mt
-source-wordcount: '7329'
-ht-degree: 94%
+source-wordcount: '7447'
+ht-degree: 92%
 
 ---
 
@@ -237,7 +237,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <tr>
     <td>Étiquette</td>
     <td><p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.<p>
-    <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés des champs</a>.</p></td>
+    <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
@@ -248,7 +248,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <tr>
      <td>Nom</td>
     <td><p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
-    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés des champs</a>.</p>
+    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p>
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -260,7 +260,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque vous remplissez le formulaire personnalisé, pointez sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations saisies ici
+    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -393,7 +393,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr>
     <tr> 
      <td role="rowheader">Étiquette</td> 
-     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      <td><ul>
     <li>Boutons radio</li>
     <li>Groupe de cases à cocher</li>
@@ -567,7 +567,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
     </tr>
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
        <td><ul>
     <li>Saisie semi-automatique</li>
     <li>Date</li>
@@ -684,7 +684,7 @@ Pour ajouter une recherche externe, procédez comme suit :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
@@ -698,7 +698,7 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Format</td>
       <td><p>Sélectionnez le type de données qui seront capturées dans le champ personnalisé.</p>
       <p><strong>Note :</strong></p>
-      <ul><li>Il est possible de modifier le type de format une fois le formulaire enregistré, mais toutes les valeurs existantes sur les objets doivent être convertibles au nouveau type de format. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur « abc », vous ne pouvez pas convertir le champ. Une erreur s’affiche, indiquant que le système ne peut pas convertir « abc » en nombre/devise.) Si vous envisagez d’utiliser votre champ dans des calculs mathématiques, veillez à sélectionner un format numérique ou monétaire.</li>
+      <ul><li>Il est possible de modifier le type de format une fois le formulaire enregistré, mais toutes les valeurs existantes sur les objets doivent être convertibles au nouveau type de format. (Par exemple, si le type de format est Texte et qu’un objet stocke la valeur « abc », vous ne pouvez pas convertir le champ et une erreur s’affichera, indiquant que le système ne peut pas convertir « abc » en nombre/devise.) Pour utiliser votre champ dans des calculs mathématiques, assurez-vous de sélectionner le format « Nombre » ou « Devise ».</li>
       <li>Lorsque vous sélectionnez Nombre ou Devise, le système tronque automatiquement les nombres qui commencent par 0.</li>
       <li>Les champs au format « Nombre » sont limités à 16 caractères. Vous pouvez également utiliser un champ Texte pour saisir des nombres et éviter la limite.</li>
       </ul></td>
@@ -725,7 +725,7 @@ Pour ajouter une recherche externe, procédez comme suit :
       <p><strong>Note</strong> : si vous n’utilisez pas $$QUERY et que l’utilisateur ou l’utilisatrice saisit du texte dans la zone de recherche, les choix déjà disponibles seront filtrés. Toutefois, si vous utilisez $$QUERY et que l’utilisateur ou l’utilisatrice saisit quelque chose, un nouvel appel réseau à votre API est effectué. Par conséquent, si votre API contient plus de 2 000 valeurs et que l’API prend en charge l’interrogation, vous pouvez utiliser $$QUERY pour effectuer une recherche non seulement à partir des 2 000 valeurs existantes, mais aussi à partir de l’API d’origine avec les options restreintes.</p></li>
       <li><p>{fieldName} - Lorsque fieldName est n’importe quel champ personnalisé ou natif dans Workfront. Vous pouvez ainsi implémenter des filtres d’options de liste déroulante en cascade lorsque vous transmettez la valeur d’un champ déjà sélectionné au champ de recherche externe pour filtrer les options. (Par exemple, le champ Zone géographique existe déjà dans le formulaire et vous réduisez une liste de pays de l’API à ceux qui se trouvent dans une zone géographique spécifique.)</p>
       <p>Pour un champ de recherche externe dépendant d’autres champs (à l’aide de la syntaxe {fieldName}), les options renvoyées par l’API sont limitées à celles qui correspondent aux chaînes ou aux valeurs saisies dans les autres champs. (Cette fonctionnalité n’est pas prise en charge dans les listes et les rapports.)</p></li>
-      <li>{referenceObject}.{fieldName} - Lorsque le champ fait partie d’un objet. Cette syntaxe est similaire à celle des expressions personnalisées. (Par exemple, portfolioID={project}.{portfolioID})</li></ul>
+      <li>{referenceObject}.{fieldName} - Où le champ fait partie d’un objet. Cette syntaxe est similaire à celle des expressions personnalisées. (Par exemple, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>Conseil :</strong> consultez la documentation de l’API que vous utilisez pour connaître les requêtes spécifiques que vous pouvez définir.</p></td>
      </tr>
      <tr> 
@@ -734,14 +734,14 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Chemin JSON</td>
-      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de l’API renvoie le JSON au format suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
+      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
-      &lbrace;
-data: &lbrace;
-{ name: "USA"},
-{ name: "Canada"}
-&rbrace;
-&rbrace;
+      {
+       data : {
+         { name : « USA »},
+         { name : « Canada »}
+       }
+      }
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -827,7 +827,7 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
      </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
@@ -900,24 +900,32 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 
 | Nom du champ | Projet | Tâche | Problème | Modèle | Tâche de modèle | Portfolio | Programme | Groupe |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Date d’achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
+| </span> <span class="preview"> avantages réels | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
+| Date d&#39;achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durée effective | ✓ |   |   |   |   |   |   |   |
 | Heures effectives | ✓ |   | ✓ |   |   |   |   |   |
 | Date de début effective | ✓ | ✓ | ✓ |   |   |   |   |   |
+| </span> du budget <span class="preview"> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
 | Entreprise | ✓ |   |   | ✓ |   |   |   |   |
 | Condition | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Type de condition | ✓ |   |   | ✓ |   |   |   |   |
+| </span> de devise <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Description | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Durée |   | ✓ |   |   | ✓ |   |   |   |
 | Type de durée |   | ✓ |   |   | ✓ |   |   |   |
 | Unité de durée |   | ✓ |   |   | ✓ |   |   |   |
 | Entré par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Date d’entrée | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Date de saisie | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| </span> de date du taux de change <span class="preview"> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
+| </span> de coût fixe <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| </span> de revenu fixe <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Groupe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Dernière mise à jour par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Date de dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nom | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Propriétaire | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| </span> de la méthode d’indice de performance <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| </span> des avantages prévus <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Date d’achèvement prévue | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Durée prévue | ✓ |   |   | ✓ |   |   |   |   |
 | Heures prévues | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -935,9 +943,29 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 | Statut | ✓ | ✓ |   |   |   |   |   |   |
 | Points de l’histoire |   | ✓ |   |   |   |   |   |   |
 | Modèle | ✓ |   |   |   |   |   |   |   |
+| <span class="preview"> Coûts estimés totaux </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> total des revenus estimés </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+Ces types d’objets de formulaire personnalisés supplémentaires prennent également en charge les références de champ natives.
+
+* Enregistrement de facturation : champ Revenu fixe
+* Document : champs Nom et Description.
+* Société : Nom, Champs du groupe
+* Carte tarifaire : nom, description, entreprise, champs de groupe
+* Fonction : nom, champs de description
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -954,7 +982,7 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
      </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td>
@@ -1025,7 +1053,7 @@ Pour ajouter un fichier Adobe XD :
      </tr> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
@@ -1126,7 +1154,7 @@ Pour ajouter un champ de connexion Planning :
       <td> <p>(Obligatoire) Sélectionnez l’espace de travail Planning d’où proviennent les enregistrements à afficher dans Workfront.</p> <p> Seuls les espaces de travail connectés aux types d’objet que vous avez sélectionnés dans le champ Type d’objet s’affichent. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Type d’enregistrement</td> 
+      <td role="rowheader">Type d'enregistrement</td> 
       <td><p>(Obligatoire) Sélectionnez le type d’enregistrement Workfront Planning ayant une connexion avec le type d’objet Workfront.</p><p>Seuls les types d’enregistrement ayant des connexions avec le type d’objet que vous avez sélectionné dans le champ Type d’objet s’affichent. </p></td> 
      </tr>
      <tr> 
@@ -1174,6 +1202,4 @@ Vous pouvez incorporer une application dans un formulaire personnalisé Workfron
 ## Organiser et prévisualiser un formulaire avec le concepteur de formulaire
 
 Pour plus d’informations sur la manière d’organiser un formulaire avec des sauts de section et de le prévisualiser, voir [Organisation et prévisualisation d’un formulaire avec le concepteur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
 
