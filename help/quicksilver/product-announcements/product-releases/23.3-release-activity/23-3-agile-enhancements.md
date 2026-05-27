@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 91%
+source-wordcount: '1323'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsque vous vous trouvez dans le tableau, vous pouvez choisir de passer à l’
 
 Pour plus d’informations, voir [Gérer un projet dans la vue Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Trier par colonnes du tableau
 
@@ -44,7 +44,7 @@ L’option « ordre utilisateur » renvoie les cartes dans l’ordre dans lequ
 
 Pour plus d’informations, voir [Filtrer et rechercher dans un tableau](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## Mode sombre désormais disponible sur les tableaux Adobe Workfront
 
@@ -74,7 +74,7 @@ Vous pouvez maintenant ajouter des commentaires aux cartes ad hoc et connectées
 
 Pour plus d’informations, voir [Ajouter une carte ad hoc à un tableau](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utiliser des cartes connectées sur les tableaux](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Améliorations apportées au gestionnaire de balises des tableaux
 
@@ -92,7 +92,7 @@ Des filtres simplifiés ont été ajoutés à la configuration de la colonne de 
 
 Pour plus d’informations, voir [Ajouter une colonne de saisie à un tableau](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Filtres simples ajoutés au modèle de tableau dynamique
 
@@ -116,7 +116,7 @@ Le panorama dynamique vous permet de remplir automatiquement un panorama de cart
 
 Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3418600/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Migrer les cartes Kanban de l’équipe Agile vers les tableaux
 
@@ -128,7 +128,7 @@ Les cartes ne sont pas supprimées du tableau Kanban de l’équipe Agile et les
 
 Pour plus d’informations, voir [Migrer les cartes Kanban de l’équipe Agile vers les tableaux Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
 ## Navigation de gauche ajoutée aux détails des cartes sur les panoramas
 
@@ -142,7 +142,7 @@ En outre, vous pouvez maintenant ajouter des URL dans le champ Description ; el
 
 Pour plus d’informations, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) et [Utiliser des cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
 ## Notifications par e-mail et préférences des panoramas
 
@@ -154,4 +154,4 @@ Les notifications par e-mail sont désormais disponibles pour les panoramas Adob
 
 Pour plus d’informations, voir [Notifications par e-mail et préférences des panoramas](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3418597/){target=_blank}

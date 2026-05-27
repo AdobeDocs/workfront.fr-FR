@@ -8,8 +8,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '965'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Pour plus d’informations, voir [Modifier des projets](/help/quicksilver/manage
 
 NOTE : d’autres champs utilisateur pour les projets, les tâches et les problèmes seront mis à jour avec cette fonctionnalité dans les prochaines versions.
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Les champs calculés de date sont toujours enregistrés en fonction du temps universel coordonné (UTC).
 
@@ -78,13 +78,13 @@ Sur la base de vos commentaires, nous avons introduit les améliorations suivant
 
   Pour plus d’informations sur le filtre rapide, voir [Appliquer le filtre rapide à une liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
-## Version bêta publique : nouvelle expérience de filtrage pour les projets, les tâches et les problèmes
+## Version Beta publique : nouvelle expérience de filtrage pour les projets, les tâches et les problèmes
 
 Le filtrage dans les listes de projets, de tâches et de problèmes a été repensé afin de vous aider à créer et partager rapidement des filtres. Les fonctionnalités incluent :
 
-* Une interface intuitive de « création bêta » pour créer un filtre
+* Une interface intuitive de « création Beta » pour créer un filtre
 
 * La possibilité de marquer un filtre comme favori
 
@@ -99,7 +99,7 @@ Le filtrage dans les listes de projets, de tâches et de problèmes a été repe
 
 La nouvelle expérience de filtrage est également disponible dans les listes de feuilles de temps et dans le planificateur de scénarios.
 
-Le mode Texte reste disponible pour l’édition avancée de filtres, et les administrateurs et administratrices système peuvent toujours attribuer des filtres par défaut à toutes les personnes par le biais des modèles de disposition.
+Le mode Texte reste disponible pour l’édition avancée de filtres, et les administrateurs et administratrices système peuvent toujours attribuer des filtres par défaut à toutes les personnes par le biais des modèles de mise en page.
 
 ### Où cela sera-t-il disponible ?
 
@@ -110,9 +110,9 @@ Le mode Texte reste disponible pour l’édition avancée de filtres, et les adm
 * Feuilles de temps
 
 
-### Nous voulons connaitre votre avis.
+### Faites-nous part de vos commentaires !
 
-Avec cette version bêta publique, les personnes ont la possibilité d’envoyer leurs commentaires directement à l’équipe qui travaille sur l’expérience de filtrage en cliquant sur le bouton de commentaire. Il nous tarde d’avoir de vos nouvelles et de celles de vos utilisateurs et utilisatrices sur la nouvelle expérience de filtrage en version bêta publique. Si votre équipe souhaite découvrir directement un produit afin de fournir des commentaires supplémentaires, n’hésitez pas à programmer une réunion ici : https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Avec cette version Beta publique, les personnes ont la possibilité d’envoyer leurs commentaires directement à l’équipe qui travaille sur l’expérience de filtrage en cliquant sur le bouton de commentaire. Il nous tarde d’avoir de vos nouvelles et de celles de vos utilisateurs et utilisatrices sur la nouvelle expérience de filtrage en version Beta publique. Si votre équipe souhaite découvrir directement un produit afin de fournir des commentaires supplémentaires, n’hésitez pas à programmer une réunion ici : https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Quelle est la suite ?
 
@@ -129,4 +129,4 @@ Nous voulons améliorer votre expérience de manière itérative, de sorte que n
 
 Pour plus d’informations, voir [Vue d’ensemble des filtres](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) et [Créer ou modifier des filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412391/)
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412391/)

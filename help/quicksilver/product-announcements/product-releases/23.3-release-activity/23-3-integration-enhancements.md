@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
 source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '738'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 ## Nouvelle intégration de Google Workspace désormais disponible
 
-Une nouvelle intégration Google Workspace est désormais disponible dans Google Marketplace. La nouvelle intégration s’authentifie à l’aide d’OAuth2 et remplace l’intégration précédente.
+Une nouvelle intégration de Google Workspace est désormais disponible sur Google Marketplace. La nouvelle intégration s’authentifie à l’aide d’OAuth2 et remplace l’intégration précédente.
 
 L’intégration précédente de Google Workspace est désormais obsolète et sera automatiquement désinstallée.
 
@@ -101,7 +101,7 @@ Vous pouvez désormais ajuster les paramètres des modèles de workflow automati
 * Mettre à jour les notifications par e-mail
 * et plus...
 
-Pour plus d’informations, voir [Charger des documents et des épreuves à l’aide du plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+Pour plus d’informations, voir [Charger des documents et des épreuves à l’aide du plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
 
 Ces améliorations sont disponibles pour les applications Creative Cloud suivantes :
 

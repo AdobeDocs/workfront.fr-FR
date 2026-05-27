@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: '3384'
 ht-degree: 99%
 
 ---
@@ -37,7 +37,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Intégrer Adobe Workfront avec JumpSeat
@@ -97,7 +97,8 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">L’éditeur de calcul de champ de formulaire personnalisé affiche les informations d’erreur</a><span style="color: #ff0000; font-weight: bold;"> (temporairement indisponible)</span></p></p> <p>La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous pointez sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.</p>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">L’éditeur de calcul de champ de formulaire personnalisé affiche des informations d’erreur
+</a><span style="color: #ff0000; font-weight: bold;"> (temporairement indisponible)</span></p></p> <p>La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous pointez sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.</p>
     </td> 
     <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
@@ -170,7 +171,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Délégation du travail lors d’absences du bureau</a></p> <p>Vous pouvez déléguer les tâches et les problèmes qui vous sont affectés à d’autres personnes lorsque vous prévoyez de vous absenter du bureau pour une brève période. Cela permet de s’assurer que votre absence ne constitue pas un obstacle à la réalisation du travail.</p> 
@@ -209,7 +210,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Tags intelligents dans le flux de mises à jour</a></p> <p>Nous avons amélioré la façon de taguer des personnes dans le flux de mises à jour lorsque vous créez une mise à jour ou répondez à une mise à jour existante. Désormais, lorsque vous taguez une personne pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son rôle principal et son e-mail. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Balises intelligentes dans le flux de mises à jour</a></p> <p>Nous avons amélioré la façon de taguer des personnes dans le flux de mises à jour lorsque vous créez une mise à jour ou répondez à une mise à jour existante. Désormais, lorsque vous taguez une personne pour l’inclure dans une mise à jour, en plus de son nom et de son avatar, nous affichons également son rôle principal et son e-mail. Cela permet de distinguer plusieurs utilisateurs portant des noms similaires ou identiques.</p> </td> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
      <li> <p>Version préliminaire : 19 mai 2022<br></p> </li> 
@@ -239,7 +240,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -294,10 +295,10 @@ Ces améliorations ont été apportées à l’environnement de production au co
   </tr> 
   <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (version bêta)</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (Beta)</a> </p>
                         <p>Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail. </p>
                         <p>Les campagnes Workfront vous permettent d’organiser des projets provenant de différents portfolios et programmes dans un nouveau conteneur de travail.
-Les campagnes ont été publiées en juillet 2022 dans la version préliminaire bêta 22.3. Pour plus d’informations, consultez la section <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au projet dans la version 22.3 </a> </p>
+Les campagnes ont été publiées en juillet 2022 dans la version préliminaire Beta 22.3. Pour plus d’informations, consultez la section <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées au projet dans la version 22.3 </a> </p>
 <p>Ce nouveau conteneur évoluera dans les prochaines versions pour relier des objets de travail qui sont actuellement gérés dans des silos séparés.</p>
 
 </td>
@@ -323,10 +324,10 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Préférences de tri et améliorations de la convivialité dans l’équilibreur de charge de travail</a> </p> <p>Afin d’améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons introduit les améliorations suivantes : un meilleur tri dans les sections « Non affecté » et « Affecté », une nouvelle présentation des barres de projet, un design actualisé et plus facile à lire pour les dates prévisionnelles, et bien plus encore.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Préférences de tri et améliorations de la convivialité dans l’équilibreur de charge de travail</a> </p> <p>Afin d’améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons introduit les améliorations suivantes : un meilleur tri dans les sections « Non affecté » et « Affecté », une nouvelle présentation des barres de projet, un design mis à jour et plus facile à lire pour les dates prévisionnelles, et bien plus encore.</p> 
    <td> <p><b>Disponible à ces dates :</b> </p> 
     <ul> 
      <li> <p>Version préliminaire : 2 juin 2022<br></p> </li> 
@@ -347,7 +348,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Suppression et ajout de champs de budgétisation des ressources dans les listes et les rapports
@@ -372,7 +373,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Intégration d’Adobe Workfront pour Experience Manager Assets</a> </p> <p>Nous sommes heureux d’annoncer que l’intégration d’Adobe Workfront pour Experience Manager Assets est désormais disponible pour Cloud Service.</p>
@@ -421,7 +422,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations de l’application mobile de relecture</a> </p> <p>L’application mobile Adobe Workfront vous permet désormais d’afficher les pièces jointes aux commentaires des épreuves et d’ajouter de nouvelles pièces jointes. Vous pouvez joindre des fichiers de type image, document ou vidéo.</p> </td>
@@ -446,7 +447,7 @@ Les campagnes ont été publiées en juillet 2022 dans la version préliminaire
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Mise à jour des feuilles de temps</a> </p> <p>Nous continuons à améliorer et à mettre à jour votre expérience lorsque vous utilisez des feuilles de temps. </p> </td>
@@ -531,7 +532,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouve
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](../../../wf-api/api/api-version-support-schedule.md).
 
-## Mises à jour de maintenance pour Workfront 
+## Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez la section [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 

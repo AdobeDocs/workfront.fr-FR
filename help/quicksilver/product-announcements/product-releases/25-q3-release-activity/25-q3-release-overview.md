@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 39%
+source-wordcount: '2048'
+ht-degree: 42%
 
 ---
 
@@ -34,7 +34,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>25.5 (vendredi 15 mai 2025)</li><li>25.6 (vendredi 12 juin 2025)</li><li>25.7 (17 Juillet 2025)</li></ul> | <ul><li>25.7 (17 Juillet 2025)</li></ul> |
+>| <ul><li>Version 25.5 (15 Mai 2025)</li><li>25.6 (12 Juin 2025)</li><li>25.7 (17 Juillet 2025)</li></ul> | <ul><li>25.7 (17 Juillet 2025)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (25.7 ce trimestre), les utilisateurs disposant du planning de version rapide recevront la version un jour plus tôt que prévu.
 >
@@ -261,7 +261,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> de sécurité améliorée de la diffusion de rapports </a><p>[!BADGE Hors planning]{type=Neutral}</p>
+            </a> de sécurité améliorée de la diffusion de rapports <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"><p>[!BADGE Hors planning]{type=Neutral}</p>
             <p>Nous avons amélioré la diffusion de rapports planifiés pour nous assurer que les notifications Workfront sont envoyées uniquement aux domaines d’e-mail approuvés dans la place sur la liste autorisée.</p>
             <p></p>
         </td>
@@ -383,7 +383,7 @@ Dans le cadre de cette modification, Microsoft a pris la décision de modifier l
 
 ### Version 20 de l’API
 
-La version 20 de l’API Workfront a été publiée le lundi 4 mai 2025. Pour la version 20 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
+L’API Workfront version 20 a été publiée le 4 mai 2025. Pour la version 20 de l’API, nous avons modifié certaines ressources et certains points d’entrée. Certains des changements prennent en charge de nouvelles fonctionnalités, tandis que d’autres facilitent l’utilisation des informations disponibles via l’API.
 
 Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 20 de l’API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
@@ -391,7 +391,7 @@ Pour plus d’informations sur les versions de l’API, voir [Calendrier des ver
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2025, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

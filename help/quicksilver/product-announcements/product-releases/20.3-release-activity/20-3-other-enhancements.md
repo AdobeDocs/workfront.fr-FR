@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 99%
+source-wordcount: '1532'
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Il existe également un lien Détails sur l’utilisateur ou l’utilisatrice qu
 >
 >Cette fonctionnalité est disponible uniquement dans la nouvelle expérience Adobe Workfront.
 
-Désormais, vous pouvez utiliser un modèle de disposition pour modifier les logos de la zone de navigation supérieure et du menu principal pour des groupes, des équipes, des fonctions et des utilisateurs et utilisatrices spécifiques ayant leur propre branding.
+Désormais, vous pouvez utiliser un modèle de mise en page pour modifier les logos de la zone de navigation supérieure et du menu principal pour des groupes, des équipes, des fonctions et des utilisateurs et utilisatrices spécifiques ayant leur propre branding.
 
 Pour plus d’informations, voir [Personnaliser le branding de votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 

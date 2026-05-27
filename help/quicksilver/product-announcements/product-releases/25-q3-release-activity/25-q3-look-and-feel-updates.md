@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
 source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 52%
+source-wordcount: '158'
+ht-degree: 77%
 
 ---
 
@@ -28,6 +28,6 @@ Pour obtenir la liste de toutes les modifications apportées par la version du t
 
 Les messages du Centre d’annonces correspondent désormais au style des notifications électroniques de Workfront.
 
-## Modernisation des interfaces
+## Modernisation de l’interface
 
-Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont publiées en dehors du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Nous mettons à jour l’interface d’Adobe Workfront afin d’améliorer l’expérience client et de l’harmoniser avec les autres applications Adobe. Ces modifications sont publiées selon un rythme différent du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

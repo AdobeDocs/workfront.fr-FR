@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 98%
+source-wordcount: '3985'
+ht-degree: 97%
 
 ---
 
@@ -43,10 +43,10 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">Workfront Fusion 2.0 est là !</a> </p> <p>Workfront a récemment acquis une technologie pour une toute nouvelle génération de Workfront Fusion, la puissante plateforme d’intégration qui permet de travailler librement dans pratiquement toutes les applications basées sur le web.</p> <p>Les anciennes clientes et les anciens clients de Workfront Fusion peuvent s’attendre à une puissance, une vitesse, une convivialité et une prévisibilité accrues dans Workfront Fusion 2.0. Nous migrons actuellement les clientes et clients existants de Workfront Fusion vers Workfront Fusion 2.0. Contactez votre responsable de compte pour plus de détails.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">Workfront Fusion 2.0 est là !</a> </p> <p>Workfront a récemment acquis une technologie pour une toute nouvelle génération de Workfront Fusion, la puissante plateforme d’intégration qui permet de travailler librement dans pratiquement toutes les applications basées sur le web.</p> <p>Les clients Workfront Fusion précédents peuvent s’attendre à une plus grande puissance, vitesse, convivialité et prévisibilité dans Workfront Fusion 2.0. Nous effectuons actuellement une migration des clients Workfront Fusion vers Workfront Fusion 2.0. Veuillez contacter votre chargé de compte pour plus d’informations.</p> </td> 
    <td> <p><strong>Disponible à ces dates :</strong> </p> <p>Version préliminaire Beta : S/O</p> <p>Version de production : 1er juillet 2020</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -118,7 +118,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >
 >Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 >
->* Une [formule Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html) Pro ou version supérieure.
+>* Une [formule Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) Pro ou version supérieure.
 >* Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >  Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -133,7 +133,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Objectifs Workfront avec la version 20.3 - 14 août 2020</a> </p> <p>Grâce aux Objectifs Workfront, vous pouvez aligner une stratégie, des objectifs et des activités afin de stimuler l’exécution dans l’ensemble de l’organisation et de fournir des résultats commerciaux mesurables. Définissez ce que vous allez accomplir et en quoi cela est important.</p> </td> 
@@ -151,32 +151,32 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >Vous devez disposer des éléments suivants :
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/fr/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
->&gt;   <td>Entreprises ou niveau supérieur</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
->&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Produit</td> 
->&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, consultez la section <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
->&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Autorisations d’objet</strong> </p> </td> 
->&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
+&gt;   <td>Entreprises ou niveau supérieur</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Type de licence*</p> </td> 
+&gt;   <td> <p>Révision ou niveau supérieur Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences Adobe Workfront</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Produit</td> 
+&gt;   <td>Planificateur de scénarios Workfront <p>Pour plus d’informations sur le planificateur de scénarios Workfront, voir <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Vue d’ensemble du planificateur de scénarios</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Niveau d’accès*</strong> </td> 
+&gt;   <td> <p>Accès Affichage ou niveau supérieur au planificateur de scénarios</p> <p>Remarque : si vous n’avez toujours pas d’accès, demandez à votre équipe d’administration Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, consultez la section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Créer ou modifier les niveaux d’accès personnalisés</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Autorisations d’objets</strong> </p> </td> 
+&gt;   <td> <p>Autorisations d’affichage ou niveau supérieur pour un plan</p> <p>Pour plus d’informations sur la demande d’un accès supplémentaire à une formule, consultez la section <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Demander l’accès à une formule dans le planificateur de scénarios</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Pour connaître la formule, le type de licence ou l’accès dont vous disposez, contactez votre administrateur ou votre administratrice Workfront.
 
  
 
@@ -186,7 +186,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Planificateur de scénarios Workfront avec la version 20.3 - 14 août 2020</a> </p> <p>À l’aide du planificateur de scénarios, créez et comparez plusieurs scénarios pour décider de la meilleure marche à suivre. Lorsque vos priorités changent, vous pouvez planifier à nouveau de façon itérative sans affecter le travail en cours.</p> </td> 
@@ -203,7 +203,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md#enhanced" class="MCXref xref">Analytique améliorée est disponible.</a> </p> <p>Analytique améliorée est désormais disponible dans Workfront. Cette fonctionnalité vous donne une vue d’ensemble de votre travail avec des visualisations qui vous montrent ce qui s’est passé sur un projet, les projets qui reçoivent le plus d’attention, et bien plus encore.</p> </td> 
@@ -220,7 +220,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#choose" class="MCXref xref">Choisir la durée de conservation des cartes sur le tableau Kanban</a> </p> <p>Vous pouvez maintenant choisir la durée pendant laquelle les cartes terminées restent sur le tableau Kanban.</p> <p>Auparavant, les cartes étaient retirées du tableau Kanban au bout de 14 jours.</p> </td> 
@@ -241,7 +241,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#display" class="MCXref xref">Inclure les heures à partir des problèmes dans la zone de travail affecté de l’équilibreur de charge de travail</a> </p> <p>Pour vous permettre d’avoir une vue d’ensemble complète des charges de travail de vos employées et employés, nous avons introduit un paramètre qui vous permet d’inclure des heures à partir des problèmes de la zone de travail affecté de l’équilibreur de charge de travail.</p> </td> 
@@ -278,7 +278,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#custom" class="MCXref xref">Formater des champs personnalisés dans les listes</a> </p> <p>Désormais, lorsque l’administration système configure des champs de formulaires personnalisés pour le formatage, vous pouvez formater le texte dans les champs les plus utilisés : ceux des listes dans Workfront. Au lieu d’aller dans la zone de détails pour formater le texte dans le formulaire personnalisé, vous pouvez cliquer sur un champ d’une liste et mettre en gras, italique ou souligner le texte qui s’y trouve.</p> </td> 
@@ -311,7 +311,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de version et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#improved" class="MCXref xref">Amélioration de la visibilité entre l’onglet Mises à jour et les commentaires sur les épreuves</a> </p> <p>Diverses améliorations sont disponibles dans la zone des documents, notamment lorsqu’un commentaire sur une épreuve s’affiche dans l’onglet Mises à jour, un nouveau bouton Répondre dans l’épreuve apparait, vous permettant d’accéder à la visionneuse de relecture pour répondre. </p> <p>En outre, lorsqu’un commentaire sur une épreuve est tagué avec une action dans la visionneuse de relecture, l’action s’affiche dans l’onglet Mises à jour. </p> </td> 
@@ -340,7 +340,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de version et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#introduc" class="MCXref xref">Présentation de Workfront pour MobileIron</a> <span style="color: #dc143c; font-weight: bold;">Nouveau !</span></p> <p>Workfront s’est associé à MobileIron, une plateforme de gestion des appareils mobiles (MDM), pour offrir aux entreprises une expérience mobile plus sécurisée et mieux contrôlée.</p> </td> 
@@ -365,7 +365,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de version et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#share" class="MCXref xref">Partager un calendrier avec un lien privé</a> </p> <p>Pour faciliter le partage de calendriers dans Workfront, vous pouvez partager un lien privé qui permet aux utilisateurs et utilisatrices d’accéder directement au calendrier. Le calendrier doit être partagé avec l’utilisateur ou l’utilisatrice, qui doit alors se connecter pour le consulter.</p> <p>Auparavant, vous pouviez partager une URL publique qui ne nécessitait pas de connexion pour afficher le calendrier.</p> </td> 
@@ -420,7 +420,7 @@ Pour plus d’informations sur les versions de l’API, voir [Planning du contr�
 
 .
 
-## Mises à jour de maintenance pour Workfront 
+## Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 20.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -451,7 +451,7 @@ Pour plus d’informations, consultez [Configurer la liste autorisée de votre p
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://business.adobe.com/fr/products/workfront.html).
+[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinaire sur la version 20.3 {#20-3-release-webinar}
 

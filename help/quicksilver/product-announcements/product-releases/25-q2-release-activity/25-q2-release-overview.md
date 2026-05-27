@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1739'
 ht-degree: 38%
 
 ---
@@ -28,7 +28,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 | Version mensuelle | Version trimestrielle |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (vendredi 13 février 2025)</li><li>25.3 (vendredi 13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
+| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Améliorations de la logique des formulaires personnalisés</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            Améliorations de la logique des formulaires personnalisés</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Le créateur logique de formulaires personnalisés dispose d’une interface mise à jour afin de vous offrir plus d’espace pour créer des règles logiques. Cette nouvelle conception peut s’adapter plus facilement à d’autres types de logiques qui pourraient être ajoutés à l’avenir.</p><p>Outre les options logiques d’affichage et d’omission actuelles, une logique de validation est également disponible.</p>
         </td>
         <td>
@@ -70,7 +70,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressions ajoutées aux champs calculés personnalisés</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Les expressions suivantes sont désormais disponibles dans les champs personnalisés calculés de Workfront : ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT et ADDHOUR. Les définitions et des exemples de chaque expression sont disponibles dans l’éditeur de calcul et sur Experience League.</p>
         </td>
         <td>
@@ -109,7 +109,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Mise à jour de la visionneuse de relecture de bureau </a></p>[!BADGE In production &#x200B;]{type=Informative}
+            Mise à jour de la visionneuse de relecture de bureau </a></p>[!BADGE In production ]{type=Informative}
             <p>Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.45. Cette mise à jour permet à l’observateur d’utiliser les éléments suivants :
             <ul><li>Electron version 35</li><li>Chromium version 134</li><ul></p>
         </td>
@@ -124,7 +124,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Modifier plusieurs documents à la fois dans un rapport de document </a></p>[!BADGE In production &#x200B;]{type=Informative}
+            Modifier plusieurs documents à la fois dans un rapport de document </a></p>[!BADGE In production ]{type=Informative}
             <p>Vous pouvez désormais modifier plusieurs documents à la fois dans un rapport de document. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.</p>
         </td>
         <td>
@@ -147,7 +147,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Améliorations apportées aux BAT dans l’application mobile (iOS uniquement)</a><p>[!BADGE In production &#x200B;]{type=Informative}</p></p>
+            Améliorations apportées aux BAT dans l’application mobile (iOS uniquement)</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Plusieurs améliorations sont disponibles pour la fonctionnalité BAT dans l’application mobile Adobe Workfront :
             <ul>
             <li>Vous pouvez désormais ouvrir un fichier BAT à partir de votre application de messagerie mobile, à partir d'un lien qui a été partagé avec vous. Auparavant, les liens provenant des e-mails n’étaient pas pris en charge et vous deviez accéder aux épreuves à partir de l’application mobile Workfront.</li>
@@ -179,7 +179,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Ajoutez un commentaire aux projets lorsque vous les modifiez dans la zone Modifier le projet .</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            Ajoutez un commentaire aux projets lorsque vous les modifiez dans la zone Modifier le projet .</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>Vous pouvez maintenant ajouter un commentaire à un projet tel que vous l’avez modifié dans la zone Modifier le projet . Vous pouvez également ajouter un commentaire à plusieurs projets à la fois lors de leur modification en bloc. Avant cette mise à jour, cette fonctionnalité n’existait pas lors de la modification des projets.</p>
         </td>
         <td>
@@ -203,7 +203,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Les données d’approbation de document et de décision sont désormais disponibles dans Data Connect</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            Les données d’approbation de document et de décision sont désormais disponibles dans Data Connect</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>Vous pouvez désormais accéder aux données pour les approbations de documents et les décisions dans Data Connect. Ce jeu de données associe les approbations de documents aux fonctionnalités de relecture de Workfront et aux approbations Frame.io qui ont lieu sur les documents Workfront. Vous pourrez désormais illustrer la durée du cycle, le nombre de cycles et l’impact sur le calendrier pour les approbations tardives par le biais de vos visualisations BI.</p>
         </td>
         <td>
@@ -216,7 +216,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour du calendrier Workfront</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Mises à jour du calendrier Workfront</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Nous avons mis à jour l’aspect du calendrier Workfront pour le rendre moderne et cohérent avec les autres aspects de Workfront. Il existe de petites différences de fonctionnalité par rapport au calendrier Workfront actuel, notamment :
             <ul>
             <li>Comment ajouter des éléments ad hoc au calendrier</li>
@@ -246,7 +246,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Effectuez la mise à niveau vers la nouvelle version d’abonnement aux événements avec les points d’entrée de mise à niveau de version</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Workfront dispose désormais de versions d’abonnements aux événements. La nouvelle version ne constitue pas une modification de l’API Workfront, mais plutôt une modification de la fonctionnalité d’abonnement aux événements. Vous pouvez passer vos abonnements aux événements à la nouvelle version sans créer d’écart dans votre abonnement aux événements</p>
         </td>
         <td>
@@ -259,13 +259,13 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
+            Représenter les modifications utilisateur de Adobe Admin Console sous la forme « Système » dans le flux de mise à jour de Workfront</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Désormais, lorsque l’administrateur du Adobe Admin Console apporte une modification aux informations utilisateur d’un utilisateur Workfront, Workfront enregistre cette modification dans l’onglet Activité système de la zone Mises à jour de l’utilisateur comme appartenant au « Système ». Fait référence à l’administrateur Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 23 janvier 2025</li>
-                <li>Production pour une version rapide : avec la version 25.2 (vendredi 13 février 2025)</li>
+                <li>Production pour une version rapide : avec la version 25.2 (13 février 2025)</li>
                 <li>Version de production pour tous les clients : avec la version 25.4 (avril 2025)</li>
             </ul>
         </td>
@@ -322,7 +322,7 @@ Nous mettons à jour l’interface d’Adobe Workfront afin d’améliorer l’e
 
 >[!IMPORTANT]
 >
->La documentation de Workfront Fusion a été déplacée vers un nouvel emplacement. Pour plus d’informations, d’instructions et de versions pour Fusion, consultez la [documentation de Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/home).
+>La documentation de Workfront Fusion a été déplacée vers un nouvel emplacement. Pour plus d’informations, d’instructions et de versions pour Fusion, consultez la [documentation de Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 >
 >Chaque article de documentation Fusion actuel contient un lien vers l’article correspondant dans le nouvel emplacement. Mettez à jour vos signets.
 >
@@ -332,7 +332,7 @@ Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en producti
 
 ### Améliorations apportées à Workfront Planning
 
-De nouvelles fonctionnalités Workfront Planning sont disponibles en production. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de la version du deuxième trimestre 2025 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+De nouvelles fonctionnalités Workfront Planning sont disponibles en production. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de la version du deuxième trimestre 2025 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 ### Améliorations du planificateur de scénarios Workfront
 
