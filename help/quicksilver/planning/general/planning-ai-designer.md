@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1529'
 ht-degree: 8%
 
 ---
@@ -40,7 +40,7 @@ Pour plus d’informations sur Workfront Planning, consultez les articles suivan
 * [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> des exigences d’accès
+## <!--edit theses??--> des exigences d’accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article. 
 

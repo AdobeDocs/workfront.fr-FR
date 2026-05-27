@@ -8,13 +8,13 @@ recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
 source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
 
-# Notifications Adobe Workfront Planning : index des articles
+# Notifications d’Adobe Workfront Planning : index des articles
 
 <!--add this to major TOC and Planning article index-->
 

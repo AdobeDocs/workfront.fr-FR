@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '426'
 ht-degree: 9%
 
 ---
@@ -146,7 +146,7 @@ OLD:
 
 1. (Conditionnel) Lorsqu’un utilisateur vous a identifié ou identifié vos équipes dans un commentaire sur un enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
-   ![&#x200B; Exemple de notification in-app &#x200B;](assets/in-app-notification-example.png)
+   ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
 
 1. Cliquez sur la notification.
 
@@ -167,6 +167,6 @@ Pour plus d’informations sur la gestion des notifications Workfront Planning, 
 
 Vous recevez une notification in-app lorsqu’une personne soumet une demande pour approbation ou lorsqu’une personne approuve une demande que vous avez soumise.
 
-Pour plus d’informations sur l’envoi de demandes, voir [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur l’envoi de demandes, voir [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 Pour plus d’informations sur l’approbation des demandes, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

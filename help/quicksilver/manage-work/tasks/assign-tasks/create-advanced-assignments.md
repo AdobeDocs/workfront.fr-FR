@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3474'
 ht-degree: 32%
 
 ---
@@ -169,7 +169,7 @@ Cette disposition des affectations avancées s&#39;applique uniquement aux tâch
 
    >[!TIP]
    >
-   >* Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous ne pouvez affecter que des utilisateurs actifs, des fonctions et des équipes. Un maximum de 200 personnes désignées par tâche est autorisé.
+   >* Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs. Un maximum de 200 personnes désignées par tâche est autorisé.
    >
    >
    >* Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom.
@@ -240,7 +240,7 @@ Des champs doivent exister avant de pouvoir les ajouter à la liste.
 
 1. Recherchez un champ d’objet existant dans la section **Disponible**, puis cliquez sur **+** à droite du nom du champ pour l’ajouter à la colonne **Sélectionné**.
 1. Cliquez sur **-** à droite d’un champ dans la section **Sélectionné** pour le supprimer de la liste.
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
    Pour plus d’informations sur le gestionnaire de colonnes, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 

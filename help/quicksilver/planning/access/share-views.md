@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2021'
 ht-degree: 15%
 
 ---
@@ -350,9 +350,9 @@ Les utilisateurs et utilisatrices qui accèdent à un lien vers une vue pour laq
 1. (Conditionnel) Si vous êtes le responsable d&#39;une vue, il se peut que vous receviez une demande d&#39;un autre utilisateur pour accéder à la vue dans les domaines suivants :
 
    * Une notification in-app
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
    * Notification par e-mail
-     ![&#x200B; Notification in-app pour la demande d’accès à la vue &#x200B;](assets/in-app-notification-for-access-request-for-view.png)
+     ![ Notification in-app pour la demande d’accès à la vue ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditionnel) Dans la zone de notification de Workfront, cliquez sur la notification in-app
 Ou
 Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications**, puis cliquez sur la notification dans la liste.

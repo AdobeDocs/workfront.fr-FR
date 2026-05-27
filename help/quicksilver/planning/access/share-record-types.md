@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 4%
+source-wordcount: '1535'
+ht-degree: 6%
 
 ---
 
@@ -207,7 +207,7 @@ Vous pouvez ajuster les autorisations aux types d’enregistrements individuels 
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![Autorisations pour les types d’enregistrements avec des autorisations héritées sur ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations d’affichage ou supérieures pour l’espace de travail peuvent afficher le type d’enregistrement.
 
