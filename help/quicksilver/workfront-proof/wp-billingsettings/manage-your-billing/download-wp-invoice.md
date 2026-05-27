@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Télécharger votre facture  [!DNL Workfront Proof]
+title: 'Télécharger votre facture  [!DNL Workfront Proof] '
 description: La facture d’abonnement est envoyée le premier jour d’une nouvelle période de facturation au contact de facturation principal de votre compte et à l’adresse email de facturation en copie, si celle-ci est définie.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 La facture d’abonnement est envoyée le premier jour d’une nouvelle période de facturation au contact de facturation principal de votre compte et à l’adresse e-mail de [!UICONTROL facturation en copie], si celle-ci est définie.
 

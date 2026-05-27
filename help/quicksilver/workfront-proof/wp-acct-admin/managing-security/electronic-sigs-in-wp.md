@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: caff2a03-cccc-4779-9dcc-3362c527dcb9
 source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 L’emploi de signatures électroniques permet de sécuriser vos documents et de répondre aux exigences de normes industrielles comme la norme ISO.
 

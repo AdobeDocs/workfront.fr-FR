@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Profils des autorisations d’épreuve dans Workfront Proof
-description: En tant que personne membre de l’administration Workfront ou de l’administration Workfront Proof, vous pouvez assigner un profil d’autorisation pour l’épreuve à un utilisateur ou à une utilisatrice afin de spécifier ses droits pour toutes les épreuves du système. Pour plus d’informations sur la configuration du profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice, consultez la section « Configurer le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice dans Workfront Proof ».
+description: En tant que personne membre de l’administration Workfront ou de l’administration Workfront Proof, vous pouvez assigner un profil d’autorisation pour l’épreuve à un utilisateur ou à une utilisatrice afin de spécifier ses capacités de relecture pour toutes les épreuves du système. Pour plus d’informations sur la configuration du profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice, consultez la section « Configurer le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice dans Workfront Proof ».
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 53%
+source-wordcount: '1840'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 53%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-En tant que personne membre de l’administration [!DNL Workfront] ou de l’administration [!DNL Workfront Proof], vous pouvez assigner un profil d’autorisation pour l’épreuve à un utilisateur ou à une utilisatrice afin de spécifier ses droits pour toutes les épreuves du système. Pour plus d’informations sur la configuration du profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice, consultez la section [Configurer le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md).
+En tant que personne membre de l’administration [!DNL Workfront] ou de l’administration [!DNL Workfront Proof], vous pouvez assigner un profil d’autorisation pour l’épreuve à un utilisateur ou à une utilisatrice afin de spécifier ses capacités de relecture pour toutes les épreuves du système. Pour plus d’informations sur la configuration du profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice, consultez la section [Configurer le profil d’autorisation pour l’épreuve d’un utilisateur ou d’une utilisatrice dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md).
 
 >[!NOTE]
 >
@@ -300,9 +300,9 @@ Les administrateurs et administratrices de facturation peuvent modifier les prof
 
    * Accédez à la page **[!UICONTROL Contacts]**.
 
-1. Cliquez sur le nom de l’utilisateur dont vous souhaitez modifier les autorisations. ![Sélectionner un utilisateur](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Cliquez sur le nom de la personne dont vous souhaitez modifier les autorisations. ![Sélectionner un utilisateur](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
-1. Cliquez sur le menu déroulant **[!UICONTROL Profil d’autorisation]** et sélectionnez un nouveau profil d’autorisation.
+1. Cliquez sur le menu déroulant **[!UICONTROL Profil d’autorisations]** et sélectionnez un nouveau profil d’autorisation. :
 
    ![Profil des autorisations](assets/screenshot-2018-03-30-14-18-03a.png)
 

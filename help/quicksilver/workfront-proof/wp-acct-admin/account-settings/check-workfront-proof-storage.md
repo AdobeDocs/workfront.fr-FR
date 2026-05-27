@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Vérifier le stockage  [!DNL Workfront Proof]
+title: 'Vérifier le stockage  [!DNL Workfront Proof] '
 description: Votre plan de compte est fourni avec une quantité fixe de stockage. L’espace de stockage prévu ne se renouvelle pas à chaque abonnement, car les épreuves et les fichiers des abonnements précédents sont toujours sauvegardés sur votre compte.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Votre plan de compte est fourni avec une quantité fixe de stockage. L’espace de stockage prévu ne se renouvelle pas à chaque abonnement, car les épreuves et les fichiers des abonnements précédents sont toujours sauvegardés sur votre compte.
 

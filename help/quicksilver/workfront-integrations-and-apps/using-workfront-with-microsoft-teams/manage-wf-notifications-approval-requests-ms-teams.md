@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 87%
+source-wordcount: '1423'
+ht-degree: 92%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Comme [Microsoft passe au client Nouvelles équipes](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. Pour continuer à utiliser Microsoft Teams et les applications intégrées telles que Workfront, les clients doivent passer au client New Teams avant cette date.
+>Comme [Microsoft passe au nouveau client Teams](https://learn.microsoft.com/fr-fr/microsoftteams/teams-classic-client-end-of-availability), le client Teams classique ne sera plus disponible après le 1er juillet 2025. Pour continuer à utiliser Microsoft Teams et les applications intégrées telles que Workfront, les clients et clientes devront passer au nouveau client Teams avant cette date.
 >
->L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Équipes . Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de Microsoft Teams App Store. Pour installer ou vérifier l’intégration de Workfront dans le client New Teams, voir [Installer [!DNL Adobe Workfront] pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Teams. Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de l’App Store Microsoft Teams. Pour installer ou vérifier l’intégration de Workfront dans le nouveau client Teams, voir [Installer  [!DNL Adobe Workfront]  pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Vous pouvez recevoir des notifications d’[!DNL Adobe Workfront] concernant les éléments que vous devez approuver, les affectations que vous avez reçues ou les commentaires et modifications apportés aux éléments auxquels vous vous associez.
 
@@ -116,7 +116,7 @@ Pour gérer les notifications [!DNL Workfront] que vous pouvez recevoir dans [!D
 
 ### Notifications d’approbation {#approval-notifications}
 
-Vous recevez des notifications d’approbation lorsque vous recevez une invitation à approuver un objet, tel qu’une tâche, une feuille de temps ou une épreuve. Toutefois, vous pouvez toujours commenter la notification. Dans la notification d’approbation, vous pouvez effectuer les actions suivantes :
+Vous recevez des notifications d’approbation lorsque vous recevez une invitation à approuver un objet, tel qu’une tâche, une feuille de temps ou une épreuve. Vous pouvez toutefois ajouter des commentaires sur la notification.À partir de la notification d’approbation, vous pouvez effectuer les actions suivantes :
 
 * **[!UICONTROL Approuver]** : cliquez pour approuver l’élément.
 * **[!UICONTROL Modifier]** : cliquez pour approuver l’élément avec les modifications.
