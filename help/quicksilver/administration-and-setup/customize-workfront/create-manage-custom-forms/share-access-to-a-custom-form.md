@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 51%
@@ -190,3 +190,4 @@ Plutôt que de laisser un formulaire personnalisé à l’état de partage par d
 1. Dans la zone de partage, cliquez sur le menu déroulant situé à droite du nom de l’utilisateur, de l’équipe, du rôle, du groupe, de la société ou du profil d’entreprise dont vous ne souhaitez plus disposer d’un accès spécial au formulaire, puis sélectionnez **Supprimer**.
 1. (Facultatif) Répétez l’étape précédente pour les autres noms que vous souhaitez supprimer.
 1. Cliquez sur **Enregistrer**.
+
