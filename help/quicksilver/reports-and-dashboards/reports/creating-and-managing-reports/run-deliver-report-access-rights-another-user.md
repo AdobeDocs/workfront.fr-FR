@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1194'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Si vous exécutez un rapport avec les droits d’accès d’un autre utilisateur
 
 >[!TIP]
 >
->Vous ne devez remplacer le champ **Exécuter ce rapport avec les droits d’accès suivants :** par une personne active que si vous souhaitez que le rapport s’affiche avec les droits d’accès de cette personne.Par exemple, un utilisateur ou utilisatrice avec une licence de travail peut ne pas avoir le droit de voir tous les éléments d’un rapport créé par une personne avec une licence de plan ou par un administrateur ou une administratrice système, à moins que le rapport ne s’affiche avec les droits d’accès d’une personne responsable de la planification ou d’un administrateur ou d’une adminsitratrice système.\
+>Vous ne devez remplacer le champ **Exécuter ce rapport avec les droits d’accès suivants :** par une personne active que si vous souhaitez que le rapport s’affiche avec les droits d’accès de cette personne. Par exemple, un utilisateur ou utilisatrice avec une licence de travail peut ne pas avoir le droit de voir tous les éléments d’un rapport créé par une personne avec une licence de plan ou par un administrateur ou une administratrice système, à moins que le rapport ne s’affiche avec les droits d’accès d’une personne responsable de la planification ou d’un administrateur ou d’une adminsitratrice système.\
 >Si le rapport est partagé avec des utilisateurs et utilisatrices disposant d’un accès similaire à celui de la personne spécifiée dans le champ **Exécuter ce rapport avec les droits d’accès suivants :**, vous pouvez laisser ce champ vide.
 
 ## Conditions d’accès
@@ -81,7 +81,7 @@ Pour exécuter un rapport avec les droits d’accès d’une autre personne, pro
 1. Cliquez sur **Paramètres du rapport**.
 
 1. Dans le champ **Exécuter ce rapport avec les droits d’accès suivants :**, commencez à saisir le nom de la personne pour laquelle vous souhaitez que le rapport s’affiche, puis sélectionnez-le lorsqu’il apparaît dans la liste.\
-   ![Exécuter avec les droits d’accès de &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![Exécuter avec les droits d’accès de ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ Pour remettre un rapport avec les droits d’accès d’une autre personne, proc
 1. Cliquez sur **Envoyer le rapport**.
 
 1. Dans le champ **Diffuser ce rapport avec les droits d’accès de :**, commencez à taper le nom de la personne sous lequelle vous souhaitez que le rapport s’affiche lorsqu’il est envoyé par e-mail, puis sélectionnez-le lorsqu’il apparaît dans la liste. La valeur par défaut est le nom de la personne qui crée le rapport.\
-   ![Rapport envoyé avec droits d’accès de &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![Rapport envoyé avec droits d’accès de ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

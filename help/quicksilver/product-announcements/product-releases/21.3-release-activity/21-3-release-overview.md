@@ -10,8 +10,8 @@ recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
 source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 99%
+source-wordcount: '2403'
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">Plans directeurs disponibles en production avec la version 21.3</a> </p> <p>La fonctionnalité de plans directeurs est disponible depuis la semaine du 21 juin 2021 de la version de production 21.3.</p> <p>Les plans directeurs fournissent des éléments de base pour vous aider à créer un système de gestion du travail qui s’adapte à vos besoins. Les administrateurs et administratrices système peuvent parcourir le catalogue de plans directeurs et installer des modèles de projet prêts à l’emploi.</p> </td> 
@@ -104,7 +104,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#associat" class="MCXref xref" xrefformat="{para}">Associer un modèle à un groupe</a> </p> <p>Pour vous aider à rationaliser le processus de création de projet et à identifier plus facilement les groupes qui possèdent les modèles de projet, nous avons ajouté la possibilité d’attribuer un groupe à un modèle de projet.</p> <p>Lorsque vous affectez un groupe à un modèle de projet, tous les projets créés à partir du modèle sont automatiquement associés au groupe du modèle.</p> <p>Vous pouvez également associer un processus d’approbation de groupe à un modèle et à ses tâches de modèle si le modèle est associé à votre groupe. </p> </td> 
@@ -136,7 +136,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#group" class="MCXref xref" xrefformat="{para}">Préférences pour les projets, tâches et problèmes de groupes</a> </p> <p>Comme précédemment indiqué, nous avons déployé les personnalisations au niveau du groupe pour les préférences de projet, de tâche et de problèmes par phases. Jusqu’au 24 juin 2021, elles étaient disponibles en production pour toute la clientèle EMEA et pour un sous-ensemble des autres clientes et clients. Elles sont désormais disponibles pour l’ensemble de la clientèle.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version de prévisualisation :</p> <p>9 juillet 2020 (préférences des projets pour les groupes)</p> <p>3 décembre 2020 (préférences des tâches et des problèmes pour les groupes)<br></p> <p>Version de production : avec la version 21.3 (disponible uniquement pour un nombre limité de clientes et de clients, disponible pour l’ensemble de la clientèle le 24 juin 2021)</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version de prévisualisation : </p> <p>9 juillet 2020 (préférences des projets pour les groupes)</p> <p>3 décembre 2020 (préférences des tâches et des problèmes pour les groupes)<br></p> <p>Version de production : avec la version 21.3 (disponible uniquement pour un nombre limité de clientes et de clients, disponible pour l’ensemble de la clientèle le 24 juin 2021)</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#allow" class="MCXref xref" xrefformat="{para}">Autoriser les utilisateurs et les utilisatrices externes à approuver un document</a> </p> <p>Vous pouvez désormais utiliser des adresses e-mail externes pour affecter des personnes chargées de l’approbation à un document dans la nouvelle expérience Workfront.</p> <p>Dans Workfront Classic, auparavant, vous pouviez uniquement ajouter des utilisateurs et des utilisatrices externes par adresse e-mail.</p> </td> 
@@ -165,7 +165,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de version et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">Désactiver les rôles qui ne sont plus utilisés</a> </p> <p>Pour vous offrir la même expérience qu’avec les utilisateurs et utilisatrices, équipes et entreprises, nous avons introduit une nouvelle fonctionnalité qui vous permet de désactiver les rôles que vous n’utilisez plus. Lorsque vous désactivez un rôle, celui-ci n’est plus disponible pour la sélection dans les champs de saisie semi-automatique pour l’affectation et le partage d’objets. Les rôles désactivés apparaissent toujours dans les champs de recherche et les options de filtrage.</p> <p>Les tâches et problèmes affectés à un rôle désactivé, ainsi que les processus d’approbation ou les règles de routage, sont toujours affectés à ces rôles. Vous devez mettre à jour ces objets pour remplacer le rôle inactif par un rôle actif si ceux-ci ne sont pas encore terminés.</p> </td> 
@@ -182,7 +182,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md#find" class="MCXref xref" xrefformat="{para}">Rechercher des demandes selon des chemins d’accès récents ou à l’aide d’un mot-clé</a> </p> <p>Pour vous aider à trouver plus rapidement la file d’attente des demandes appropriée vous référant à des demandes récemment enregistrées, nous avons introduit les améliorations suivantes pour trouver une file d’attente récemment utilisée :</p> 
@@ -203,7 +203,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#remove" class="MCXref xref" xrefformat="{para}">Suppression de la possibilité de créer un nouvelle version d’un document ou d’une épreuve dans un dossier lié</a> </p> <p>Nous avons supprimé la possibilité de créer une nouvelle version d’un document ou d’une épreuve dans un dossier lié. Vous pouvez toujours créer une nouvelle version d’un document ou d’une épreuve lié s’ils se trouvent en dehors d’un dossier lié.</p> <p>Auparavant, cette option s’affichait toujours pour les documents et les épreuves dans les dossiers liés, mais les utilisateurs et utilisatrices ne pouvaient pas créer une nouvelle version d’un document.</p> </td> 
@@ -224,7 +224,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">Nouvelle conception de la zone d’accueil pour l’application mobile</a> </p> <p>Diverses améliorations ont été apportées à la zone d’accueil de l’application mobile Adobe Workfront : un nouveau widget d’élément de travail et une zone de recherche plus grande vous aident à trouver rapidement ce dont vous avez besoin ; la barre de navigation pour l’accueil, l’assistant virtuel, la tâche rapide, les notifications et le profil de l’utilisateur ou l’utilisatrice « flotte » maintenant sur la zone d’accueil pour un accès simplifié ; et le menu Mon travail fait défiler horizontalement et affiche les éléments suivants : projets, tâches et problèmes, demandes, approbations et feuilles de temps. Jusqu’à trois cartes pour l’élément sélectionné sont affichées sous le menu.</p> </td> 

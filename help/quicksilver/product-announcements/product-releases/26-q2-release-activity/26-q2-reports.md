@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 11%
+source-wordcount: '929'
+ht-degree: 5%
 
 ---
 
@@ -24,9 +24,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : jeudi 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 
 Nous avons ajouté un champ booléen `currentVersion` à l’objet Version du document pour faciliter l’identification et la création de rapports sur la dernière version d’un document.
 Avec cette mise à jour :
@@ -47,9 +45,7 @@ Les filtres existants pour les rapports classiques utilisant `isCurrentVersion` 
 
 >[!NOTE]
 >
->Aperçu : 3 avril 2026
->Version rapide de production : jeudi 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 3 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 
 Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher `{{$include }}` données les plus récentes dans l’application.
 
@@ -63,9 +59,7 @@ Pour plus d’informations, voir [Planification de la diffusion automatique des 
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : jeudi 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 >
 >Les tableaux de bord de la zone de travail sont actuellement en version bêta.
 
@@ -79,9 +73,7 @@ Pour plus d’informations, consultez les sections [Créer un rapport d’indica
 
 >[!NOTE]
 >
->Aperçu : 12 mars 2026
->Version rapide de production : vendredi 12 mars 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 12 mars 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais vous authentifier auprès de Data Connect à l’aide de clés RSA ou de connexions PAT (Programmatic Access Tokens), ajoutant ainsi des alternatives plus sécurisées et flexibles aux informations d’identification traditionnelles de nom d’utilisateur/mot de passe.
 
@@ -95,9 +87,7 @@ Ces nouvelles options permettent aux entreprises de maintenir des connexions sta
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026
->Version rapide de production : vendredi 12 mars 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
 
 Le libellé du champ personnalisé s’affiche désormais avant le nom du champ et l’objet dans les outils de création de rapports, ce qui vous permet de localiser plus facilement les champs. Les libellés des champs s’affichent également lors de la définition de filtres, de vues et de regroupements dans des listes.
 
@@ -109,9 +99,7 @@ Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksi
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026
->Version rapide de production : vendredi 12 mars 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais organiser et partager des rapports à l’aide de dossiers de rapports partageables. Cette nouvelle fonctionnalité permet aux équipes qui gèrent d’importants volumes de rapports de maintenir un contrôle d’accès évolutif et cohérent :
 
@@ -129,9 +117,7 @@ Pour plus d’informations, voir [Utilisation de dossiers de rapports partageabl
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026
->Version rapide de production : vendredi 12 mars 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
 
 >[!NOTE]
 >
@@ -139,6 +125,6 @@ Pour plus d’informations, voir [Utilisation de dossiers de rapports partageabl
 
 Les graphiques qui regroupent les données par date affichent désormais des libellés de date plus clairs et plus lisibles. Grâce à cette mise à jour, les libellés de date s’ajustent dynamiquement en fonction de l’option Regrouper par sélectionnée (par jour, semaine, mois ou année, par exemple), ce qui facilite la lecture et l’interprétation des graphiques en un coup d’œil :
 
-<table> <tbody> <tr> <td>Jour</td> <td>Affiche la date complète. Exemple : 3/12/2026</td> </tr> <tr> <td>Semaine</td> <td>Affiche une date de début de semaine formatée. Exemple : 8 Mars 2026</td> </tr> <tr> <td>Mois</td> <td>Affiche le mois et l’année. Exemple mars 2026</td> </tr> <tr> <td>Année</td> <td>Affiche l’année uniquement. Exemple : 2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>Jour</td> <td>Affiche la date complète. Exemple : 3/12/2026</td> </tr> <tr> <td>Semaine</td> <td>Affiche une date de début de semaine formatée. Exemple : 8 Mars 2026</td> </tr> <tr> <td>Mois</td> <td>Affiche le mois et l’année. Exemple mars 2026</td> </tr> <tr> <td>Year</td> <td>Affiche l’année uniquement. Exemple : 2026</td> </tr> </tbody> </table>
 
 Auparavant, les regroupements de graphiques affichaient toujours la date de début de la période sélectionnée au format numérique.

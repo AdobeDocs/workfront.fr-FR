@@ -8,14 +8,14 @@ feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1149'
 ht-degree: 96%
 
 ---
 
 # Créer ou modifier un workflow automatisé pour une épreuve existante
 
-Les workflows automatisés facilitent la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu pour révision aux mêmes groupes de personnes.Lorsque vous créez une épreuve avec un workflow automatisé, l’épreuve passe d’une étape à l’autre jusqu’à l’approbation finale. Les personnes participantes sont averties lorsque c’est à leur tour de réviser le document.
+Les workflows automatisés facilitent la gestion du processus de révision si votre processus est complexe ou si vous envoyez régulièrement du contenu pour révision aux mêmes groupes de personnes. Lorsque vous créez une épreuve avec un workflow automatisé, l’épreuve passe d’une étape à l’autre jusqu’à l’approbation finale. Les personnes participantes sont averties lorsque c’est à leur tour de réviser le document.
 
 Pour plus d’informations sur la création d’un workflow automatisé pour une nouvelle épreuve, voir [Créer une épreuve avancée avec un workflow automatisé](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur la création d’un workflow automatisé pour une
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
        <tbody>
         <tr>
          <td role="rowheader"><strong>Options de date d’échéance</strong> </td>
-         <td><p>Pour définir une échéance pour l’étape, cliquez sur une option dans la liste déroulante des <strong>Options de date d’échéance</strong>. Ensuite, sous <strong>Date d’échéance</strong>, effectuez l’une des opérations suivantes :</p>
+         <td><p>Pour définir une date d’échéance pour l’étape, cliquez sur une option dans la liste déroulante <strong>Options de date d’échéance</strong>. Ensuite, sous <strong>Date d’échéance</strong>, effectuez l’une des opérations suivantes :</p>
           <ul>
            <li>Si vous choisissez <strong>Définir la date spécifique</strong> : sélectionnez la date et l’heure d’échéance de votre choix.</li>
            <li>Si vous choisissez <strong>Calculer à partir de la date d’activation de l’étape</strong> : sélectionnez le nombre de jours ouvrés à ajouter à la date d’activation de l’étape pour déterminer l’échéance.</li>

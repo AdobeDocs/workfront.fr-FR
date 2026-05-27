@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1301'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Les améliorations suivantes sont désormais disponibles lors de l’affichage d
   Pour plus d’informations, voir [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) dans [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **Modifiez le pourcentage terminé directement à partir de la vue jalonnée :** vous pouvez désormais modifier le pourcentage terminé de tâches et de projets directement à partir de la vue jalonnée.\
-  Pour plus d’informations, voir [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) dans [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  Pour plus d’informations, voir [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) dans [Utiliser la vue jalonnée](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Mise à jour de l’aspect de plusieurs pages de configuration du système
 

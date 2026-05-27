@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
@@ -102,8 +102,8 @@ Les sections suivantes décrivent les améliorations disponibles pour les utilis
 
 ### Autres améliorations
 
-* [Version 2017.2, version bêta finale](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#user-calendar-enhancements-in-the-my-work-area)
-* [Version 2017.2, version bêta finale](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [Version Beta finale 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#user-calendar-enhancements-in-the-my-work-area)
+* [Version Beta finale 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * [Mise à jour de l’aspect de la liste des tableaux de bord](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#updated-look-and-feel-in-the-dashboard-list)
 * [Inclure la légende du graphique de Gantt lors de l’export au format PDF](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Configurer l’affichage des jalons sur le graphique de Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md#configure-how-milestones-are-displayed-on-the-gantt-chart)
@@ -121,7 +121,7 @@ Les sections suivantes décrivent les améliorations disponibles pour les utilis
 
 L’accès anticipé est obsolète dans les environnements de prévisualisation et de production.
 
-Suite à cette modification, la fonctionnalité suivante a été supprimée de l’accès anticipé dans l’environnement de prévisualisation de la version 2017.2 bêta 1. 
+Suite à cette modification, la fonctionnalité suivante a été supprimée de l’accès anticipé dans l’environnement de prévisualisation de la version 2017.2 Beta 1. 
 
 * [Réorganiser les colonnes de n’importe quelle liste par glisser-déposer (fonctionnalité en cours de suppression)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#reorder)
 
@@ -129,7 +129,7 @@ Cette fonctionnalité sera supprimée de l’environnement en accès anticipé d
 
 ## Webinaires sur la version {#release-webinars}
 
-Pour afficher les webinaires enregistrés pour la version 2017.2, voir [Webinaires de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md).
+Pour afficher les webinaires enregistrés pour la version 2017.2, voir [Webinaires de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md). 
 
 ## Webinaire sur la feuille de route du produit
 

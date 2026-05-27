@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3370'
 ht-degree: 99%
 
 ---
@@ -158,8 +158,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                                 <p>Version préliminaire : pendant la période de publication de la version 22.3 <br /></p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4
-</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td> 
@@ -179,7 +178,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -248,8 +247,7 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                                 <p>Version préliminaire : 18 août 2022</p>
                             </li>
                             <li>
-                                <p>Version de production : avec la version 22.4
-</p>
+                                <p>Version de production : avec la version 22.4</p>
                             </li>
                         </ul>
                     </td>
@@ -334,7 +332,7 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -428,8 +426,7 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                         </p>
                         <ul>
                             <li>
-                                <p>Version préliminaire : 4 août 2022
-<br /></p>
+                                <p>Version préliminaire : 4 août 2022<br /></p>
                             </li>
                             <li>
                                 <p>Publication en production pour l’opt-in anticipé : 11 août 2022</p>
@@ -493,7 +490,7 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de sortie</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -734,7 +731,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouve
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors du lancement de la version 22.3, consultez la section [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 

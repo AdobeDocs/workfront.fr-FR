@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '594'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Pour obtenir la liste de toutes les modifications apportées par la version 201
    </tr>
   --> 
   <tr> 
-   <td> <strong>Empêcher les doublons d’adresses e-mail</strong> <p>Dans Workfront, vous ne pouvez plus enregistrer plusieurs utilisateurs et utilisatrices avec une adresse e-mail identique, même en modifiant la casse des lettres. Par exemple, vous ne pouvez pas créer un utilisateur ou une utilisatrice avec l’adresse e-mail PierreDurand@exemple.com et un autre utilisateur ou une autre utilisatrice avec l’adresse e-mail pierredurand@exemple.com. </p> <p>Avant cette modification, il était possible de créer des utilisateurs et des utilisatrices dont les adresses e-mail correspondaient et ne différaient que par la casse des lettres. </p> <p>Note : les comptes existants des utilisateurs et des utilisatrices ayant des adresses e-mail similaires et ne différant que par la casse des lettres devront être actualisés ultérieurement. Workfront vous informera et vous communiquera une chronologie s’il est découvert que des utilisateurs et des utilisatrices de la même instance ont des adresses e-mail qui ne diffèrent que par la casse des lettres.</p> </td> 
+   <td> <strong>Empêcher les doublons d’adresses e-mail</strong> <p>Dans Workfront, vous ne pouvez plus enregistrer plusieurs utilisateurs et utilisatrices avec une adresse e-mail identique, même en modifiant la casse des lettres. Par exemple, vous ne pouvez pas créer un utilisateur ou une utilisatrice avec l’adresse e-mail PierreDurand@exemple.com et un autre utilisateur ou une autre utilisatrice avec l’adresse e-mail pierredurand@exemple.com. </p> <p>Avant cette modification, il était possible de créer des utilisateurs et des utilisatrices dont les adresses e-mail correspondaient et ne différaient que par la casse des lettres. </p> <p>Remarque : les comptes existants des utilisateurs et des utilisatrices ayant des adresses e-mail similaires et ne différant que par la casse des lettres devront être mise à jour ultérieurement. Si votre instance Workfront contient des utilisateurs et utilisatrices dont les adresses e-mail correspondent, mais ne diffèrent que par la casse, Workfront vous contactera avec des informations supplémentaires ainsi qu’un calendrier indiquant quand ces adresses devront être mises à jour.</p> </td> 
   </tr> 
   <tr> 
    <td> 

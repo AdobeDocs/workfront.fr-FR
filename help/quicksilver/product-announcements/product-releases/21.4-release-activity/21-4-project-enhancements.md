@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
 source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications introduites par la version 21
 
 ## Inclure des images dans les mises à jour
 
-Dans l’onglet Mises à jour d’un objet, vous pouvez désormais ajouter des images en cliquant sur l’icône Image de la barre d’outils. Vous pouvez également glisser-déposer une image dans la zone de mise à jour. Notez que votre administrateur ou administratrice Workfront doit autoriser l’ajout d’images pour que vous puissiez voir l’icône Image.
+Dans l’onglet Mises à jour d’un objet, vous pouvez désormais ajouter des images en cliquant sur l’icône Image de la barre d’outils. Vous pouvez également glisser-déposer une image dans la zone de mise à jour. Notez que votre administrateur ou administratrice Workfront doit activer l’ajout d’images pour que vous puissiez voir l’icône Image.
 
 Vous pouvez ajouter des images dans les mises à jour et les réponses. Une miniature d’image dans la mise à jour indique que les personnes destinataires peuvent prévisualiser l’image dans le navigateur ou la télécharger, et les notifications par e-mail et in-app montrent que des images sont jointes à la mise à jour.
 
