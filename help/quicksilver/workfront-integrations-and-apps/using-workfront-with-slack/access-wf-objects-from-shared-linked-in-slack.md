@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
 source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 98%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsqu’une personne partage avec vous un lien vers un objet dans [!DNL Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Avant de pouvoir accéder à vos favoris et à vos éléments récents à partir de [!DNL Slack], vous devez
 
-* configurer [!DNL Workfront for Slack].\
+* Configurer [!DNL Workfront for Slack]\
    Pour obtenir des instructions sur la configuration de [!DNL Workfront for Slack], voir [Configurer  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Accéder aux projets à partir de [!DNL Slack]
@@ -72,7 +72,7 @@ Avant de pouvoir accéder à vos favoris et à vos éléments récents à partir
 
    * **[!UICONTROL Date d’achèvement prévue]** : pour plus d’informations sur la date d’achèvement prévue, voir [Définir la date d’achèvement prévue du projet](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * **[!UICONTROL Portfolio]** Nom : pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie des portefeuilles](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **** Nom : pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie des portefeuilles](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]** : pour plus d’informations sur la condition du projet, voir [Vue d’ensemble de la condition du projet et du type de condition](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 

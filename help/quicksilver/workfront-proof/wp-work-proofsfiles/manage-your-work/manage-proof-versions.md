@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Gérer les versions d’épreuves dans  [!DNL Workfront Proof]
-description: Gérer les commentaires sur plusieurs versions ou révisions d’un travail peut s’avérer être un énorme défi. [!DNL Workfront Proof]  simplifie ce processus en vous permettant de créer et de comparer les différentes versions d’une épreuve.
+description: La gestion des commentaires sur plusieurs versions ou révisions d’un élément de travail peut s’avérer un énorme défi.  [!DNL Workfront Proof]  simplifie ce processus en vous permettant de créer et de comparer plusieurs versions d’une épreuve.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
