@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Lorsqu’une autre personne vous envoie une URL d’épreuve et que vous l’ouvrez dans votre navigateur, la visionneuse de relecture est lancée en mode Lecture seule. Avant de pouvoir travailler sur l’épreuve, vous devez vous identifier en vous y abonnant.
 

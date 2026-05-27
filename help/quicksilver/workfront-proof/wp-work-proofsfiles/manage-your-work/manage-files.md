@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 95%
+source-wordcount: '526'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez gérer, partager et afficher des informations sur les fichiers (pas les épreuves) chargés sur Workfront Proof (voir [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)).
 
@@ -32,7 +32,7 @@ Vous pouvez gérer, partager et afficher des informations sur les fichiers (pas 
 1. (Facultatif) Si vous disposez des droits de modification du fichier, utilisez les boutons d’action dans le coin supérieur droit pour gérer et partager le fichier :
 
 * **[!UICONTROL Balises]**. Gérez les balises appliquées au fichier.\
-   ![Bouton Balises &#x200B;](assets/tags-button.png)\
+   ![Bouton Balises ](assets/tags-button.png)\
    Sous les boutons d’action, vous pouvez voir toutes les balises appliquées au fichier. Vous pouvez supprimer une balise indésirable en cliquant sur le x situé à côté.\
    ![Afficher les balises de fichier](assets/view-file-tags-350x64.png)
 
@@ -45,7 +45,7 @@ Vous pouvez gérer, partager et afficher des informations sur les fichiers (pas 
 * **[!UICONTROL Corbeille]**. Vous pouvez supprimer le fichier en le déplaçant vers la Corbeille. Veuillez noter que le fichier sera pris en compte dans votre limite de stockage jusqu’à ce que la corbeille soit vidée (voir [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)).\
    ![Bouton Corbeille](assets/trash-button.png)
 
-* **[!UICONTROL Plus]**. Dans cette liste déroulante, vous pouvez cliquer sur **[!UICONTROL Convertir en épreuve]** pour créer une épreuve pour un fichier (voir [Créer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Le fichier doit être conforme à nos exigences en matière de types de fichiers pour les épreuves (voir [Vue d’ensemble des types de fichiers d’épreuve pris en charge et des limites de taille](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)). Si le nom du fichier correspond au nom d’une épreuve existante, [!DNL Workfront Proof] affiche un message avec un lien vous permettant de convertir le fichier en une **[!UICONTROL Nouvelle version]** de cette épreuve.\
+* **[!UICONTROL Plus]**. Dans cette liste déroulante, vous pouvez cliquer sur **[!UICONTROL Convertir en épreuve]** pour créer une épreuve pour un fichier (voir [Créer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Le fichier doit être conforme à nos exigences en matière de types de fichiers pour les épreuves (voir [Vue d’ensemble des types de fichiers de relecture pris en charge et des limites de taille](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)). Si le nom du fichier correspond au nom d’une épreuve existante, [!DNL Workfront Proof] affiche un message avec un lien vous permettant de convertir le fichier en une **[!UICONTROL Nouvelle version]** de cette épreuve.\
    ![bouton Plus](assets/more-button-text-version.png)
 
   >[!TIP]

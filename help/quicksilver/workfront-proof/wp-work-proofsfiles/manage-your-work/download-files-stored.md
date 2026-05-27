@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront] Proof. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront] Proof. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez télécharger les fichiers d’origine à partir d’épreuves actives, verrouillées et archivées sur votre ordinateur local. Vous pouvez ensuite les imprimer et les ouvrir dans l’application logicielle utilisée pour les créer (si vous disposez de celle-ci). Vous pouvez télécharger des fichiers d’origine à partir d’une seule ou plusieurs épreuves.
 
@@ -36,7 +36,7 @@ Vous pouvez télécharger les fichiers d’origine à partir d’épreuves activ
    Vous pouvez également sélectionner l’épreuve dans la liste, cliquer sur le bouton **[!UICONTROL Plus]** au-dessus de la liste, puis sur **[!UICONTROL Télécharger]**.\
    Vous pouvez également télécharger des fichiers :
 
-   * Lors de l’affichage de la page Détails de l’épreuve.\
+   * Lors de l’affichage de la page Détails de l’épreuve.
 
      ![Download_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
 

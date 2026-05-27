@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 53%
+source-wordcount: '1895'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 53%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 [!DNL Workfront Proof] vous permet de créer des épreuves à partir de documents ou de sites web et de les partager avec d’autres personnes. Les étapes suivantes décrivent les différentes options de configuration disponibles :
 
@@ -76,7 +76,7 @@ ht-degree: 53%
 
    * **De base :** sélectionnez cette option pour désigner les utilisateurs et utilisatrices qui doivent avoir accès à l’épreuve immédiatement après sa création. Vous pouvez également partager l’épreuve avec plusieurs utilisateurs et utilisatrices.
 
-     Pour plus d’informations sur le partage d’une épreuve, voir [&#x200B; Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Pour plus d’informations sur le partage d’une épreuve, voir [ Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
    * **Automatisé :** sélectionnez cette option pour gérer la révision et l’approbation du contenu lorsque vous disposez de processus de révision complexes, ou si vous envoyez régulièrement du contenu à des groupes de personnes identiques. Avec un workflow automatisé, le BAT passe d’une étape à l’autre jusqu’à l’approbation finale. Les utilisateurs concernés sont avertis à tout moment qu&#39;ils doivent donner leur accord.
 

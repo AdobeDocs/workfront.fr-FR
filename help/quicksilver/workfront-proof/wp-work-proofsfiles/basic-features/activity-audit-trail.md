@@ -3,14 +3,14 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
-title: Comprendre le journal d’audit d’activité  [!DNL Workfront Proof]
+title: 'Comprendre le journal d’audit d’activité  [!DNL Workfront Proof] '
 description: La page [!UICONTROL Journal d’audit d’activité] fournit une liste exhaustive de toutes les activités survenues dans votre compte.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eded97f7-19d6-4bd0-be8f-eecc274aaab8
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---

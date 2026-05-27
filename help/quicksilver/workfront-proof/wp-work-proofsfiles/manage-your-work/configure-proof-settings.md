@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez configurer une épreuve que vous créez ou modifiez de l’une des manières suivantes :
 

@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
-title: Gérer Adobe Workfront
-description: En tant qu’administrateur Workfront, vous pouvez configurer les fonctionnalités de vérification, les rapports, les emails, la sécurité, les taux d’exchange, les éléments supprimés et les diagnostics.
+title: Gestion d’Adobe Workfront
+description: En tant qu’administrateur ou administratrice Workfront, vous pouvez configurer les fonctionnalités de relecture, les rapports, les e-mails, la sécurité, les taux de change, les éléments supprimés et les diagnostics.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
@@ -12,12 +12,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 59%
+source-wordcount: '45'
+ht-degree: 100%
 
 ---
 
-# Gérer Adobe Workfront
+# Gestion d’Adobe Workfront
 
 Cette section contient les sous-sections suivantes :
 

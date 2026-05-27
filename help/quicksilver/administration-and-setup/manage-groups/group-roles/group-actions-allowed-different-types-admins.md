@@ -10,8 +10,8 @@ role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 86%
+source-wordcount: '450'
+ht-degree: 84%
 
 ---
 
@@ -235,7 +235,7 @@ Ce tableau répertorie les activités d’administration disponibles pour :
 * Workflow Prime et versions ultérieures
 * Workfront Prime et versions ultérieures
 
-Consultez la page de tarification et de conditionnement d’[Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html) pour plus d’informations sur les packages.
+Consultez la page de tarification et de conditionnement d’[](https://business.adobe.com/products/workfront/pricing.html) pour plus d’informations sur les packages.
 
 Contrôles d’entreprise avancés :
 
