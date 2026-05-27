@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '932'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Pour plus d’informations sur l’ajout d’une personne travaillant en freelan
 
 >[!NOTE]
 >
->Toutes les personnes travaillant en freelance ajoutées à votre compte en tant qu’utilisateurs ou utilisatrices auront une visibilité sur votre compte et pourront également consulter les détails du client (en fonction de leur profil d’utilisateur ou utilisatrice). Ce n’est peut-être pas ce que vous souhaitez. Configurer un compte satellite pour les personnes travaillant en freelance serait dans ce cas une option plus appropriée. Voir [Configurer un compte satellite pour les personnes travaillant en freelance](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) ci-dessous.
+>Toutes les personnes travaillant en freelance ajoutées à votre compte en tant qu’utilisateurs ou utilisatrices auront une visibilité sur votre compte et pourront également consulter les détails du client (en fonction de leur profil d’utilisateur ou utilisatrice). Ce n’est peut-être pas ce que vous souhaitez. Configurer un compte satellite pour les personnes travaillant en freelance serait dans ce cas une option plus appropriée. Voir [Configurer un compte satellite pour les personnes travaillant en freelance](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) ci-dessous.
 
 ## Configurer un compte satellite pour les personnes travaillant en freelance
 
@@ -66,7 +66,7 @@ Pour plus d’informations sur la configuration d’un compte satellite pour les
 
 Cette option est utile si vous ne souhaitez pas que les clientes et clients et les personnes travaillant en freelance se voient dans [!DNL Workfront Proof]. Vous pouvez donner aux personnes travaillant en freelance un accès à votre [!UICONTROL Zone de dépôt] (disponible avec les plans [!UICONTROL Entreprise] et [!UICONTROL Illimité] uniquement). Pour plus d’informations, voir [La [!UICONTROL zone de dépôt]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
-![freelancers_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
+![freelancers _-_ option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. La personne travaillant en freelance accède à votre page de [!UICONTROL Zone de dépôt] publique.
 1. Elle utilise la [!UICONTROL Zone de dépôt] pour créer une épreuve dans votre compte.

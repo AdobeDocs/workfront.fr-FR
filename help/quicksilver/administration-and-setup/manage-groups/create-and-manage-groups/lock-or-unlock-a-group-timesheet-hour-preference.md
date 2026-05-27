@@ -11,7 +11,7 @@ exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

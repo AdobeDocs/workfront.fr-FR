@@ -10,8 +10,8 @@ role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 81%
+source-wordcount: '239'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez déplacer un groupe sous un autre groupe que vous gérez.
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Sélectionnez le groupe de destination vers lequel vous souhaitez déplacer le groupe, puis cliquez sur l’icône Modifier ![icône Modifier](assets/edit-icon.png).
 1. Dans la case **Modifier le groupe** qui s’affiche, sous **Personnes membres du groupe et administrateurs et administratrices de groupe**, commencez à saisir le nom du groupe que vous souhaitez déplacer, puis cliquez dessus lorsqu’il apparaît.
-1. Cliquer sur **Enregistrer**.
+1. Cliquez sur **Enregistrer**.
 
 >[!TIP]
 >

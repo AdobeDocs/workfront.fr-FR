@@ -21,7 +21,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture : index d’article](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture : index d’article](../../../review-and-approve-work/proofing/proofing.md).
 
 Cet exemple explique le processus de base entre un concepteur ou un chef de projet et un ou plusieurs réviseurs, tels qu&#39;un client. Vous pouvez répéter ce processus jusqu’à ce que l’épreuve soit approuvée.
 

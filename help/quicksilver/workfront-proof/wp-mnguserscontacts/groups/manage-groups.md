@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '598'
+ht-degree: 95%
 
 ---
 
@@ -59,9 +59,10 @@ Sur la page [!UICONTROL Groupes], vous pouvez effectuer les opérations suivante
 Vous pouvez trier les groupes par nom de groupe, statut de confidentialité et description.
 
 1. Cliquez sur l’en-tête de la colonne à partir de laquelle vous souhaitez effectuer le tri.
-Ou sélectionnez une option de tri dans le menu Tri.
+Ou
+Sélectionnez une option de tri dans le menu Trier .
    ![Groups_page-Sort_menu.png](assets/groups-page-sort-menu-350x80.png)
-Le triangle d’un en-tête de colonne indique l’ordre de tri. Pointé vers le haut, il indique l’ordre croissant ; pointé vers le bas, il indique l’ordre décroissant.
+Le triangle sur un en-tête de colonne indique l’ordre de tri. Pointé vers le haut, il indique l’ordre croissant ; pointé vers le bas, il indique l’ordre décroissant.
 
 ## Filtrer des groupes
 

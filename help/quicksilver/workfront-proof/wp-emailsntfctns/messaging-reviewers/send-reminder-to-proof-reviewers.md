@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 78%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez également rappeler à une personne plusieurs épreuves qui ont ét�
 
      Le message par défaut rappelle aux réviseurs et réviseuses qu’ils ont été ajoutés à l’épreuve et indique l’échéance de l’épreuve.
 
-   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].** Un e-mail de rappel personnalisé contient les mêmes informations que l’e-mail de rappel par défaut, mais il inclut également votre ligne d’objet personnalisé et votre message personnalisé dans le corps de l’e-mail.
+   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].**&#x200B;Un e-mail de rappel personnalisé contient les mêmes informations que l’e-mail de rappel par défaut, mais il inclut également votre ligne d’objet personnalisée et votre message personnalisé dans le corps de l’e-mail.
 
 ## Envoyer un message aux réviseurs et réviseuses d’une étape
 
@@ -65,4 +65,4 @@ Vous pouvez également rappeler à une personne plusieurs épreuves qui ont ét�
 
      Le message par défaut rappelle aux réviseurs et réviseuses qu’ils ont été ajoutés à l’épreuve et indique l’échéance de l’épreuve.
 
-   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].** Un e-mail de rappel personnalisé contient les mêmes informations que l’e-mail de rappel par défaut, mais il inclut également votre ligne d’objet personnalisé et votre message personnalisé dans le corps de l’e-mail.
+   * Si vous souhaitez créer votre propre message personnalisé, saisissez un **[!UICONTROL Objet]** et le **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].**&#x200B;Un e-mail de rappel personnalisé contient les mêmes informations que l’e-mail de rappel par défaut, mais il inclut également votre ligne d’objet personnalisée et votre message personnalisé dans le corps de l’e-mail.

@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
 source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez améliorer le workflow de relecture pour la personne responsable de la gestion de projet (la personne qui gère le processus de révision) et la personne responsable de la conception qui travaillent ensemble sur un projet de deux manières décrites ci-dessous.
 

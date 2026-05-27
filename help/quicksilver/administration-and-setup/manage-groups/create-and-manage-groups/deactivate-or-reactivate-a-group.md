@@ -10,7 +10,7 @@ role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '753'
 ht-degree: 91%
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez désactiver un groupe que vous gérez et que vous n’utilisez plus.
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

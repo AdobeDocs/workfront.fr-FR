@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 99%
+source-wordcount: '875'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ La façon la plus courante d’organiser les épreuves et les fichiers consiste 
 
 Par exemple, vous pouvez créer des dossiers distincts pour chaque client ou cliente, puis des sous-dossiers différents pour chaque projet. Vous pouvez également créer des dossiers pour les projets et créer des sous-dossiers différents pour les différentes ressources. Si vous préférez, les créateurs et créatrices d’épreuves peuvent simplement créer chacun leur propre dossier pour les épreuves qu’ils ont créées. Les dossiers sont décrits dans l’article [Dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-Les *balises* sont une autre façon d’organiser les épreuves et les fichiers dans votre compte. Vous pouvez appliquer plusieurs balises à vos épreuves et à vos fichiers, de sorte que vous pouvez les utiliser pour les noms de projets, les types de contenu, les noms de clientes et clients, etc. Vous pouvez effectuer des recherches dans le compte à l’aide de balises, puis exécuter différentes actions en fonction des résultats de votre recherche. Vous pouvez également les utiliser dans vos vues personnalisées. Consultez l’article [[!UICONTROL Créer et gérer des balises] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) pour en savoir plus sur les balises.
+Les *balises* sont une autre façon d’organiser les épreuves et les fichiers dans votre compte. Vous pouvez appliquer plusieurs balises à vos épreuves et fichiers afin de les utiliser pour les noms de projet, les types de contenu, les noms de client, etc. Vous pouvez rechercher le compte à l’aide de balises, puis effectuer différentes actions sur les résultats de votre recherche. Vous pouvez également les utiliser dans vos vues personnalisées. Consultez l’article [[!UICONTROL Créer et gérer des balises] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) pour en savoir plus sur les balises.
 
 ## Comment puis-je donner un tableau de bord à mes clientes et clients ?
 

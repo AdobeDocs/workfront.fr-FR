@@ -10,8 +10,8 @@ role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
 source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 97%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur l’utilisation de niveaux d’accès personnalis
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Un e-mail [!UICONTROL Épreuve effectuée] est envoyé à la personne à l’origine de l’épreuve uniquement lorsqu’elle a créé une épreuve. Si une personne a créé une épreuve et a désigné une autre personne comme propriétaire, seul la nouvelle personne propriétaire reçoit également l’e-mail [!UICONTROL Épreuve effectuée]. La personne créatrice et/ou la personne propriétaire n’en recevront pas ; elles ne recevront que l’e-mail [!UICONTROL Épreuve effectuée]. Pour plus d’informations sur l’e-mail [!UICONTROL Nouvelle épreuve], voir [[!UICONTROL E-mail Nouvelle épreuve]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 

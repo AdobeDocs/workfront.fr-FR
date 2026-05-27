@@ -11,7 +11,7 @@ role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1659'
 ht-degree: 91%
 
 ---
@@ -37,7 +37,7 @@ Si vous faites partie de l’équipe d’administration de groupes ou Workfront,
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -163,7 +163,7 @@ Pour créer un nouveau groupe de premier niveau en copiant un groupe ou un sous-
      </tr> 
      <tr> 
       <td role="rowheader">Rendre ce groupe et ses sous-groupes publics</td> 
-      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe de niveau supérieur, et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs du groupe disposant d’un accès utilisateur en modification (qui ne sont pas administrateurs du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur d’autres utilisateurs.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>REMARQUE</b> :  
+      <td> <p>(Disponible uniquement si vous affichez les détails d’un groupe de niveau supérieur, et non d’un sous-groupe.) Activez cette option pour permettre aux utilisateurs du groupe disposant d’un accès utilisateur en modification (qui ne sont pas administrateurs du groupe) d’ajouter ce groupe et ses sous-groupes au profil utilisateur d’autres utilisateurs.</p> <p>Pour un groupe public, toute personne (faisant partie ou non du groupe) disposant d’un accès d’édition peut ajouter le groupe au profil d’autres utilisateurs et utilisatrices. Cette personne ne peut pas effectuer cette action pour un groupe privé.</p> <p>Vous ne pouvez modifier cette option que pour le groupe parent situé au niveau le plus haut d’une hiérarchie de groupes à plusieurs niveaux. Tous les sous-groupes du groupe parent héritent de ce paramètre.</p> <p><b>NOTE</b> :  
         <ul> 
          <li>Vous ne pouvez pas rendre public un sous-groupe seul, mais vous pouvez rendre public son groupe parent de niveau supérieur, ce qui a pour effet de rendre également publics tous les sous-groupes du groupe parent.</li> 
          <li>Un sous-groupe appartenant à un groupe public est public par défaut. Par conséquent, toute personne disposant d’un accès d’édition peut également ajouter le sous-groupe à d’autres utilisateurs et utilisatrices.</li> 
