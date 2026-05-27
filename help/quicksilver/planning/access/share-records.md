@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 7%
@@ -210,7 +210,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement.
 
@@ -224,9 +224,9 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    1. Sélectionnez **Désactiver** dans le menu déroulant **Autorisations héritées**.
 
-   >[!TIP]
-   >
-   >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement et l’enregistrement.
+      >[!TIP]
+      >
+      >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement et l’enregistrement.
 
    1. (Facultatif) Sélectionnez **Seules les personnes invitées peuvent accéder** dans la zone **Qui a accès**. Vous devez indiquer les utilisateurs individuels, les groupes, les équipes ou les sociétés avec lesquels partager les enregistrements.
 
