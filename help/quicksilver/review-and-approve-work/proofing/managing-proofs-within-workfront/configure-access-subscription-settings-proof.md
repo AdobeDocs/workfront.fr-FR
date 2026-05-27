@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '861'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ Vous pouvez configurer certains paramètres d’accès et d’abonnement pour de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Pour configurer les paramètres d’accès et d’abonnement pour une épreuve p
       <td role="rowheader"><strong>Autoriser l’abonnement à l’épreuve via une URL publique ou un code intégré</strong> </td> 
       <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
        <ul>
-        <li><p><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
+        <li><p><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve. </p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
         <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> l’alerte par défaut qui est affectée à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li>
        </ul><p>
         <ul>
@@ -105,7 +105,7 @@ Pour configurer les paramètres d’accès et d’abonnement pour une épreuve q
       <td role="rowheader"><strong>Autoriser l’abonnement à l’épreuve via une URL publique ou un code intégré</strong> </td> 
       <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
        <ul>
-        <li><p><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
+        <li><p><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve. </p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
         <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> l’alerte par défaut qui est affectée à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li>
        </ul><p>
         <ul>

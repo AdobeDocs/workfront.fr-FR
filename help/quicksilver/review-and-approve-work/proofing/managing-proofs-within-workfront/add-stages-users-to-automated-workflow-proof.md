@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 97%
+source-wordcount: '229'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Si vous êtes la personne propriétaire de l’épreuve, vous pouvez ajouter des
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

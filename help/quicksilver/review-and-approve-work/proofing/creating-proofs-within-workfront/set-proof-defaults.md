@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 98%
+source-wordcount: '477'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez définir des paramètres personnels de relecture par défaut qui s�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

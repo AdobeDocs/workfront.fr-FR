@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 6%
+source-wordcount: '965'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ Il existe des différences clés dans le workflow lors de l’utilisation conjoi
 ## Charger un document et créer une épreuve
 
 1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
-1. Cliquez sur l&#39;onglet **Documents**, puis sur le menu déroulant **Ajouter**.
+1. Cliquez sur l’onglet **Documents**, puis sur le menu déroulant **Ajouter**.
 Ou
 Glissez-déposez le document dans la liste des documents.
 

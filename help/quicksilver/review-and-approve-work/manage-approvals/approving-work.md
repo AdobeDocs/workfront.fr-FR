@@ -8,8 +8,8 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
 source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 76%
+source-wordcount: '851'
+ht-degree: 77%
 
 ---
 
@@ -34,13 +34,13 @@ Pour plus d’informations sur l’association des approbations à du travail da
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
   <tr> 

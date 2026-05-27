@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants
+title: Vue d’ensemble du statut de décision limitée des documents et de l’épreuve pour les utilisateurs et utilisatrices non payants 
 description: Les décisions concernant les épreuves et les documents sont limitées pour toutes les licences Workfront non payantes. Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 82%
+source-wordcount: '292'
+ht-degree: 83%
 
 ---
 
@@ -75,7 +75,7 @@ Limites réinitialisées chaque mois selon l’utilisateur ou l’utilisatrice. 
    </td>
   </tr>
   <tr>
-   <td><strong>Select</strong> 
+   <td><strong>Sélectionner</strong> 
    </td>
    <td>3 
    </td>
