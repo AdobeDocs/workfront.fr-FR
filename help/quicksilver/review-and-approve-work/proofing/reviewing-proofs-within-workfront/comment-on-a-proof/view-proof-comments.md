@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '612'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Vous devez disposer des accès suivants pour effectuer les étapes de cet articl
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -70,8 +70,8 @@ Pour afficher les commentaires dans la visionneuse de relecture, procédez comme
 
 1. (Le cas échéant) Si la zone de commentaires n’est pas ouverte, cliquez sur **Afficher les commentaires** dans le coin supérieur droit.
 1. Cliquez sur un commentaire pour afficher les marques de commentaire sur l’épreuve,
-1. ou
-1. dans une épreuve vidéo, passez la souris sur le point de la chronologie où un commentaire a été fait, puis cliquez sur le ballon numéroté qui s’affiche.
+1.  ou
+1.  dans une épreuve vidéo, passez la souris sur le point de la chronologie où un commentaire a été fait, puis cliquez sur le ballon numéroté qui s’affiche.
 1. ![proof_comment_video.png](assets/proof-comment-video-350x190.png)
 
 1. (Facultatif) Pour ajuster la taille de la liste de commentaires, pointez sur le bord gauche de la zone de commentaire (et non sur le commentaire actuellement ouvert) jusqu’à ce que le pointeur de la souris change pour le redimensionnement horizontal, puis faites glisser le bord là où vous le souhaitez.

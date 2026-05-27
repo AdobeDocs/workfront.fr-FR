@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1446'
 ht-degree: 98%
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez partager une épreuve à partir de la visionneuse de relecture si le
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -64,13 +64,13 @@ Vous pouvez partager une épreuve via une URL si la personne propriétaire a con
 
    ![Icône de menu](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Dans le menu des icônes de gauche de la visionneuse de relecture, cliquez sur l’icône **Partager** 
+1. Dans le menu des icônes de gauche de la visionneuse de relecture, cliquez sur l’icône **Partager**
 
    ![Share_btn_in_viewer.png](assets/share-btn-in-viewer.png)
 
 1. Dans les options **Partager l’épreuve** qui s’affichent, veillez à ce que **Obtenir un lien partageable** soit sélectionné.
 
-1. Faites ce qui suit :
+1.  Faites ce qui suit :
 
    * Pour copier le lien dans le presse-papiers, cliquez sur **Copier le lien**.
 
@@ -92,7 +92,7 @@ Vous pouvez partager une épreuve via une URL si la personne propriétaire a con
           <tbody>
            <tr>
             <td role="rowheader">Envoyer un lien public</td>
-            <td><p>Inclut un bouton dans la notification par e-mail qui dirige les utilisateurs et utilisatrices vers l’épreuve dans la visionneuse de relcture qu’ils utilisent et leur accorde l’accès en affichage.</p><p>Si l’option <strong>S’abonner à l’épreuve via une URL publique ou un code intégré</strong> est désactivée pour l’épreuve, les utilisateurs et utilisatrices peuvent se connecter à l’aide de leurs informations de connexion Workfront pour ajouter des commentaires à l’épreuve. Si elle est activée, toute personne fournissant son adresse e-mail et son nom (aucun mot de passe requis) peut se connecter et ajouter des commentaires à l’épreuve.</p></td>
+            <td><p>Inclut un bouton dans la notification par e-mail qui dirige les utilisateurs et utilisatrices vers l’épreuve dans la visionneuse de relecture utilisée et leur accorde l’accès en affichage.</p><p>Si l’option <strong>S’abonner à l’épreuve via une URL publique ou un code intégré</strong> est désactivée pour l’épreuve, les utilisateurs et utilisatrices peuvent se connecter à l’aide de leurs informations de connexion Workfront pour ajouter des commentaires à l’épreuve. Si elle est activée, toute personne fournissant son adresse e-mail et son nom (aucun mot de passe requis) peut se connecter et ajouter des commentaires à l’épreuve.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Envoyer un lien de téléchargement</td>

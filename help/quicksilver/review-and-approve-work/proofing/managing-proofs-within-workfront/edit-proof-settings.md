@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez modifier les paramètres de l’épreuve que vous avez créée à to
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Certains paramètres peuvent être verrouillés si l’équipe d’administratio
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Authentification requise. Impossible de partager cette épreuve avec des utilisateurs invités</td> 
+      <td role="rowheader">Exiger une connexion. Impossible de partager cette épreuve avec des utilisateurs invités</td> 
       <td> <p>Si vous avez besoin de niveaux de sécurité supérieurs pour votre processus de révision et d’approbation, vous pouvez utiliser l’option Connexion requise pour l’épreuve. Cela signifie que seules les personnes utilisant Workfront peuvent être ajoutées à l’épreuve. Elles doivent également saisir leur adresse e-mail et leur mot de passe avant de pouvoir y accéder.</p> <p>Note : <em style="font-style: normal;">si l’option Connexion requise est activée, les abonnements ne peuvent pas être activés.</em> </p> </td> 
      </tr> 
      <tr> 

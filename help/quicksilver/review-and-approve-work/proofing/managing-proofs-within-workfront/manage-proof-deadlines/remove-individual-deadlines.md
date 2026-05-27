@@ -10,7 +10,7 @@ exl-id: 80daeadb-5780-4f83-b757-54146a4dcd6e
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez supprimer une échéance pour l’étape sur laquelle se trouve le r
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

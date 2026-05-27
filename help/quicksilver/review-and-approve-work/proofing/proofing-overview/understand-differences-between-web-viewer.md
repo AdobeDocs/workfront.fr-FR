@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Adobe Workfront fournit deux visionneuses de relecture :
 
 * **Visionneuse de relecture web :** conçue principalement pour la relecture des fichiers statiques et vidéo. Elle s’exécute dans Google Chrome, Firefox ou Safari.
-* **Visionneuse de relecture de bureau :** conçu pour la relecture des fichiers interactifs, ainsi que des fichiers vidéo et statiques.Elle s’exécute en tant qu’application autonome sur votre poste de travail. Pour plus d’informations, voir [Comprendre la visionneuse de relecture de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Visionneuse de relecture de bureau :** conçu pour la relecture des fichiers interactifs, ainsi que des fichiers vidéo et statiques. Elle s’exécute en tant qu’application autonome sur votre poste de travail. Pour plus d’informations, voir [Comprendre la visionneuse de relecture de bureau](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
 * Si votre entreprise ne peut pas utiliser l’application de la visionneuse de relecture de bureau pour des raisons de sécurité, votre administrateur ou administratrice Workfront peut configurer votre système afin que vous puissiez réviser le contenu interactif, regroupé dans un fichier d’archive ZIP, dans la visionneuse de relecture web. Pour plus d’informations, voir  [Configurer la relecture de contenu interactif dans la visionneuse de relecture web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
@@ -39,12 +39,12 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
 | Panoramique | ✓ | ✓&#42; |
 | Zoom | ✓ | ✓&#42; |
 | Faire pivoter | ✓ | ✓&#42; |
-| Outil de mesure | ✓ (définissez une zone de taille personnalisée) | ✓&#42; |
+| Outil de mesure | ✓ (définir une zone de taille personnalisée) | ✓&#42; |
 | Vue Miniature | ✓ | ✓&#42; |
 | Navigateur d’épreuves statiques | ✓ | ✓&#42; |
 | Recherche de documents | ✓ | ✓&#42; |
-| Publier un commentaire sur plusieurs pages | ✓ (disponible sur toutes les vues) | ✓&#42; (disponible sur toutes les vues) |
-| Raccourcis d’épreuve statique avancés | ✓ (pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Publier un commentaire sur plusieurs pages | ✓ (disponible dans toutes les vues) | ✓&#42; (disponible dans toutes les vues) |
+| Raccourcis d’épreuve statique avancés | ✓ (pour plus d&#39;informations, voir [Raccourcis clavier dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(pour plus d&#39;informations, voir [Raccourcis clavier dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
@@ -61,9 +61,9 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
 | Révision plus rapide ou plus lente | ✓ | ✓&#42; |
 | Régulation des volumes | ✓ | ✓&#42;  |
 | Mode Plein écran | ✓ | ✓&#42;  |
-| Commentaires sur plage | ✓ | ✓&#42; |
+| Commentaires sur plage | ✓ | ✓&#42;  |
 | Épreuves vidéo en boucle (les vidéos se terminent et démarrent automatiquement) | ✓ | ✓&#42;  |
-| Raccourcis vidéo avancés | ✓ (pour plus d’informations, voir [Raccourcis clavier dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Raccourcis vidéo avancés | ✓ (pour plus d&#39;informations, voir [Raccourcis clavier dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
@@ -71,7 +71,7 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
 
 ## Épreuves interactives
 
-| **Fonctionnalité** | **Visionneuse de relecture web** | **Visionneuse de relecture de bureau** |
+| **Fonctionnalité**  | **Visionneuse de relecture web** | **Visionneuse de relecture de bureau** |
 |---|---|---|
 | Ouvrir les épreuves interactives créées à partir de contenu compressé dans un fichier ZIP | ✓ | ✓ (recommandé) |
 | Ouvrir une épreuve interactive créée à partir d’une URL | Non pris en charge | ✓ |
@@ -128,18 +128,18 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
   </tr> 
   <tr> 
    <td> <p>Modifier la couleur du balisage</p> </td> 
-   <td>✓ (32 couleurs disponibles)</td> 
-   <td>✓ (32 couleurs disponibles)</td> 
+   <td>✓ (32 couleurs disponibles) </td> 
+   <td>✓ (32 couleurs disponibles) </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier l’opacité du balisage</p> </td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Modifier l’épaisseur du balisage</p> </td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Couper, copier et coller des balises</p> </td> 
@@ -149,7 +149,7 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
   <tr> 
    <td> <p>Annuler et rétablir la dernière opération</p> </td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Balises en double</p> </td> 
@@ -189,7 +189,7 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
   <tr> 
    <td> <p>Afficher la liste des commentaires de manière compacte</p> </td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td> ✓ </td> 
   </tr> 
   <tr> 
    <td> <p>Afficher la liste des commentaires dans une vue standard, complète ou unique</p> </td> 
@@ -275,7 +275,7 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Modifier la version de l’épreuve</td> 
+   <td>Modifier la version de l’épreuve </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -285,7 +285,7 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
    <td>Disponible uniquement dans Workfront Proof (prévu ultérieurement lors de la relecture dans Workfront)</td> 
   </tr> 
   <tr> 
-   <td>Réviser les détails de l’épreuve</td> 
+   <td>Réviser les détails de l’épreuve </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -342,36 +342,36 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
   <tr> 
    <td>Image de marque (logos personnalisés)</td> 
    <td>✓</td> 
-   <td>✓<br>(Logo Workfront sur la page de lancement) </td> 
+   <td> ✓<br>(Logo Workfront sur la page de lancement) </td> 
   </tr> 
   <tr> 
    <td>Liens personnalisés (Workfront Proof uniquement)</td> 
    <td>Non pris en charge</td> 
-   <td> Non pris en charge</td> 
+   <td> Non pris en charge </td> 
   </tr> 
   <tr> 
-   <td>Intégrations Basecamp (Workfront Proof uniquement)</td> 
+   <td>Intégrations Basecamp (Workfront Proof uniquement) </td> 
    <td>Sortie prévue ultérieurement</td> 
    <td>Sortie prévue ultérieurement</td> 
   </tr> 
   <tr> 
-   <td>Indicateur de présence</td> 
+   <td>Indicateur de présence </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Mises à jour automatiques de l’épreuve (changements d’autorisation et nouvelles versions)</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Mini-visionneuse
 
-| **Fonctionnalité** | **Visionneuse de relecture web** | **Visionneuse de relecture de bureau** |
+| **Fonctionnalité**  | **Visionneuse de relecture web**  | **Visionneuse de relecture de bureau** |
 |---|---|---|
-| Code intégré | Sortie prévue ultérieurement pour les épreuves vidéo statiques et natives | Non pris en charge |
+| Code intégré | Sortie prévue ultérieurement pour les épreuves vidéo statiques et natives | Non pris en charge  |
 
 {style="table-layout:auto"}
 
@@ -383,7 +383,7 @@ La liste suivante peut vous aider à comprendre quelle visionneuse de relecture 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Fonctionnalité</strong></th> 
+   <th><strong>Fonctionnalité</strong> </th> 
    <th><strong>Visionneuse de relecture web</strong> </th> 
    <th><strong>Visionneuse de relecture de bureau</strong> </th> 
   </tr> 

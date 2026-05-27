@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 96%
 
 ---
@@ -31,7 +31,7 @@ Lorsque vous taguez des utilisateurs et utilisatrices dans des commentaires sur 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p> </td> 
   </tr> 
   <tr> 
