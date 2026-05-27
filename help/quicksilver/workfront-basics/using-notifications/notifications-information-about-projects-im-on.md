@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1516'
 ht-degree: 100%
 
 ---
@@ -84,7 +84,7 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Le statut d’un projet auquel je participe est modifié</strong>. </p> <p>Les personnes membres d’une équipe de projet reçoivent une notification par e-mail lorsque le statut du projet change. <br>Pour plus d’informations sur l’équipe de projet, voir <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe de projet</a>.</p> <p>L’objet de l’e-mail de notification instantanée est <em>[!UICONTROL Project Status Change] : &lt;Project Name&gt;</em>.</p> <p> L’objet de la notification de synthèse quotidienne est <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em>.</p> </td> 
+   <td> <p><strong>Le statut d’un projet auquel je participe est modifié</strong>. </p> <p>Les personnes membres d’une équipe de projet reçoivent une notification par e-mail lorsque le statut du projet change. <br>Pour plus d’informations sur l’équipe de projet, voir <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe de projet</a>.</p> <p>L’objet de l’e-mail de notification instantanée est <em>[!UICONTROL Project Status Change] : &lt;Project Name&gt;</em>.</p> <p> L’objet de la notification de synthèse quotidienne est <em>[!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> Nom du projet<br>Nom du portfolio<br>Numéro de référence du projet<br>Nom de la personne qui a modifié le statut du projet.<br>Nouveau statut du projet<br>Date et heure de modification du statut du projet<br>Statut précédent du projet<br><strong>Bouton [!UICONTROL See More Details]</strong><br>*Nom du projet<br>*Numéro de référence du projet<br>*Statut du projet<br>*Date de synthèse quotidienne </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 

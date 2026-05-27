@@ -7,8 +7,8 @@ feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 85%
+source-wordcount: '986'
+ht-degree: 84%
 
 ---
 
@@ -43,7 +43,7 @@ Pour obtenir une liste des notifications d’éléments de travail et d’annonc
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ L’icône numérotée dans le coin supérieur droit de [!DNL Workfront] affiche
    * Toutes les autres notifications sont indiquées par des icônes qui suggèrent le type d’élément de travail auquel elles sont associées.
 
      ![Icônes de notification](assets/ntfcntype&icon-350x330.png)
-L’icône située à droite du point bleu affiche l’un des éléments suivants :
+L’icône située à droite du point bleu affiche l’un des éléments suivants :
 
    * Photo de profil de la personne qui a saisi l’information, généralement une mise à jour concernant un objet [!DNL Workfront] sur lequel vous travaillez.
    * Logo [!DNL Workfront], si la notification est une annonce système.

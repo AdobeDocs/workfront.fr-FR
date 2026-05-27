@@ -19,7 +19,7 @@ Les notifications suivantes vous informent des délégations de tâches et de pr
 
 Pour plus d’informations sur la configuration des notifications que vous recevez, voir la section [Modifier vos propres notifications par e-mail](activate-or-deactivate-your-own-event-notifications.md).
 
-Voir aussi [Notifications d’événements](event-notifications.md).
+Consultez également la section [Notifications d’événements](event-notifications.md).
 
 >[!NOTE]
 >

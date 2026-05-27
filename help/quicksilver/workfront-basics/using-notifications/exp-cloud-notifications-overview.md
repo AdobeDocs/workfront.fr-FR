@@ -69,7 +69,7 @@ Workfront fait partie de la suite de produits d’expérience digitale d’Adobe
 
 1. Dans le coin supérieur droit de Workfront, cliquez sur l’icône **Notifications** ![Icône Notifications](assets/bell-icon.png).
 
-1. Dans le coin supérieur droit du panneau **&#x200B;**, cliquez sur l’icône **Paramètres** Icône![Paramètres](assets/settings-icon.png).
+1. Dans le coin supérieur droit du panneau ****, cliquez sur l’icône **Paramètres** Icône![Paramètres](assets/settings-icon.png).
 
 1. Dans la section **Notifications**, cliquez sur l’icône de flèche ![flèche de la mosaïque Workfront](assets/arrow-icon.png) sur la mosaïque **Workfront**.
 

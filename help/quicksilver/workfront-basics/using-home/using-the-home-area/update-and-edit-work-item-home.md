@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 26%
+source-wordcount: '843'
+ht-degree: 29%
 
 ---
 
@@ -103,7 +103,7 @@ Vous pouvez modifier des éléments de travail dans les widgets suivants de la z
 
 ## Ajouter un commentaire à un élément de travail dans le widget Mes tâches
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL &#x200B; Mon travail &#x200B;] :
+Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL  Mon travail ] :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget [!UICONTROL **Mon travail**].
@@ -120,7 +120,7 @@ Vous pouvez fournir des mises à jour sur n’importe quel élément de travail 
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
+   >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
    Pour plus d’informations sur l’ajout de mises à jour, voir [Tâche de mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -142,7 +142,7 @@ Vous pouvez fournir des mises à jour sur n’importe quel élément de travail 
 
    >[!IMPORTANT]
    >
-   >Vous ne pouvez modifier votre commentaire que dans les 15 minutes suivant sa soumission. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
+   >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
    Pour plus d’informations sur l’ajout de mises à jour, voir [Tâche de mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
