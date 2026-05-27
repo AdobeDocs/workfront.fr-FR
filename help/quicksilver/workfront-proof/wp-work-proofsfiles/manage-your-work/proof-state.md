@@ -75,7 +75,7 @@ Pour plus d’informations sur l’affichage d’une liste de toutes les épreuv
 
    La section **[!UICONTROL Processus de workflow]** s’affiche.
 
-   ![ Processus de workflow ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![&#x200B; Processus de workflow &#x200B;](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Affichez l’**[!UICONTROL état]** dans le **[!UICONTROL Processus de workflow]**.
 
