@@ -118,7 +118,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >
 >Votre organisation doit disposer des éléments suivants pour utiliser les fonctionnalités décrites dans cet article :
 >
->* Une [formule Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) Pro ou version supérieure.
+>* Une [formule Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html) Pro ou version supérieure.
 >* Une licence Objectifs Adobe Workfront en plus d’une licence Workfront.
 >
 >  Contactez la personne chargée de la gestion de votre compte Workfront pour en savoir plus sur la licence Objectifs Workfront.
@@ -155,7 +155,7 @@ La version 2020.3 contient les améliorations suivantes pour tout le monde :
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/fr/products/workfront/pricing.html" target="_blank">Formule Workfront</a>*</p> </td> 
 >&gt;   <td>Entreprises ou niveau supérieur</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -451,7 +451,7 @@ Pour plus d’informations, consultez [Configurer la liste autorisée de votre p
 
 Avec Workfront One, vous découvrirez le contenu, les ressources et les nouveautés de Workfront les plus importants, le tout au même endroit, avec la même connexion. Nous avons unifié les sites Expérience, Communauté et Formation pour faciliter la recherche.
 
-[En savoir plus sur Workfront One](https://business.adobe.com/products/workfront.html).
+[En savoir plus sur Workfront One](https://business.adobe.com/fr/products/workfront.html).
 
 ### Webinaire sur la version 20.3 {#20-3-release-webinar}
 
