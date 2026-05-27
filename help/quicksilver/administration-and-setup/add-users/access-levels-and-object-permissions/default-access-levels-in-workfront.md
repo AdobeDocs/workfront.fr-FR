@@ -12,8 +12,8 @@ role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 84%
+source-wordcount: '1663'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Chacun des six niveaux d’accès intégrés actuels est conçu pour un type particulier d’utilisateur ou d’utilisatrice. Ces niveaux d’accès vous permettent de contrôler ce que les personnes peuvent modifier et afficher dans le système.
@@ -107,8 +107,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets a
 | Modèles |   |   | ✓ |
 | Données financières |   |   | ✓ |
 | Gestion des ressources |   |   | ✓ |
-| Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
-| Objectifs Workfront |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
+| Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
+| Objectifs Workfront |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
 
 {style="table-layout:auto"}
 
@@ -134,8 +134,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Projets |   |   | ✓ (Limité : les utilisateurs peuvent uniquement partager le projet, y créer des tâches et des événements, et modifier les données de formulaires personnalisés déjà joints à celui-ci.) |
 | Tâches |   |   | ✓ |
 | Problèmes |   |   | ✓ |
-| Portefeuilles |   | ✓ (le paramètre par défaut est Aucun accès.) |   |
-| Programmes |   | ✓ (le paramètre par défaut est Aucun accès.) |   |
+| Portefeuilles |   | ✓ (Le paramètre par défaut est Pas d’accès.) |   |
+| Programmes |   | ✓ (Le paramètre par défaut est Pas d’accès.) |   |
 | Rapports, tableaux de bord et calendriers |   | ✓ |   |
 | Filtres, vues et regroupements |   |   | ✓ |
 | Documents |   |   | ✓ |
@@ -144,8 +144,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Modèles | ✓ |   |   |
 | Données financières |   | ✓ (Le paramètre par défaut est Aucun accès. Le paramètre Vue permet à la personne de n’afficher que la zone Finance dans les détails du projet.) |   |
 | Gestion des ressources |   | ✓ |   |
-| Planificateur de scénarios |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
-| Objectifs Workfront |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
+| Planificateur de scénarios |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
+| Objectifs Workfront |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
 
 {style="table-layout:auto"}
 
@@ -307,7 +307,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 | Données financières | ✓ |   |   |
 | Gestion des ressources | ✓ |   |   |
 | Planificateur de scénarios | ✓ |   |   |
-| Objectifs Workfront |   |   | ✓ (le paramètre par défaut est Aucun accès.) |
+| Objectifs Workfront |   |   | ✓ (Le paramètre par défaut est Pas d’accès.) |
 
 {style="table-layout:auto"}
 
@@ -338,7 +338,7 @@ Bien que ces paramètres ne soient pas visibles dans la zone Niveaux d’accès 
 | Problème | ✓ |   |   |
 | Portefeuilles | ✓ |   |   |
 | Programmes | ✓ |   |   |
-| Rapports, tableaux de bord et calendriers |   | ✓ (uniquement pour les rapports de calendrier ; pas de possibilité de partager des rapports) |   |
+| Rapports, tableaux de bord et calendriers |   | ✓ (Uniquement pour les rapports de calendrier, pas de partage des rapports possible) |   |
 | Filtres, vues et regroupements | ✓ |   |   |
 | Documents |   | ✓ (sans possibilité de partager des documents) |   |
 | Utilisateurs et utilisatrices |   | ✓ |   |

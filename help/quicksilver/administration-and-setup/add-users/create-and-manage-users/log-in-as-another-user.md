@@ -10,8 +10,8 @@ role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 62%
+source-wordcount: '716'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 62%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-En tant qu’administrateur Adobe Workfront, vous devrez peut-être parfois accéder à Workfront au nom d’un autre utilisateur. Ou, en tant qu’administrateur ou administratrice de groupe, vous pouvez avoir besoin d’accéder à Workfront au nom d’une personne membre d’un groupe que vous gérez.
+En tant qu’administrateur ou administratrice Adobe Workfront, il peut arriver que vous deviez accéder à Workfront au nom d’une autre personne. Ou, en tant qu’administrateur ou administratrice de groupe, vous pouvez avoir besoin d’accéder à Workfront au nom d’une personne membre d’un groupe que vous gérez.
 
 Par exemple, si une tâche ne peut pas progresser tant qu’une personne en vacances n’a pas effectué une certaine action, vous pouvez vous connecter en tant que cette personne et effectuer l’action à sa place.
 
@@ -53,7 +53,7 @@ Some users, such as executives, need to be able to control which administrators 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Some users, such as executives, need to be able to control which administrators 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
      <li> <p>Niveau d’accès Administrateur ou administratrice système. Vous pouvez ainsi vous connecter en tant que personne.</li> 
-     <li> <p>Le paramètre <b>Utilisateurs</b> dans votre niveau d’accès configuré sur <b>Modifier</b> l’accès, avec <b>Créer</b> et au moins l’une des deux options <b>Administrateur d’utilisateurs</b> activées sous <b>Ajustez vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. Vous pouvez ainsi vous connecter en tant qu’utilisateur avec un niveau de licence inférieur. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. Vous pouvez ainsi vous connecter en tant qu’utilisateur avec un niveau de licence inférieur. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

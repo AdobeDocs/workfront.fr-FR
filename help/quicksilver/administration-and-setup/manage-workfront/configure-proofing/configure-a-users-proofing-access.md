@@ -10,7 +10,7 @@ role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
 source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1104'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,7 @@ Le profil d’autorisation que vous sélectionnez est attribué aux personnes po
       <td> <p> Les utilisateurs et utilisatrices peuvent gérer et afficher les épreuves créées ou détenues sur le compte de votre entreprise. Ils peuvent afficher les épreuves d’autres utilisateurs et utilisatrices uniquement lorsqu’ils sont ajoutés en tant que personnes réviseuses. Il s’agit du paramètre par défaut. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Administrateur ou administratrice</strong> </td> 
+      <td role="rowheader"><strong>Équipe d’administration</strong> </td> 
       <td> Les utilisateurs et utilisatrices disposent d’autorisations d’administration dans Workfront Proof et peuvent modifier les paramètres du compte. Les utilisateurs et utilisatrices peuvent gérer et afficher toutes les épreuves créées sur le compte de votre entreprise. Cela inclut l’ajout et la suppression de personnes réviseuses, d’épreuves et de commentaires.</td> 
      </tr> 
      <tr> 

@@ -11,8 +11,8 @@ role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
 source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 94%
+source-wordcount: '1115'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ Dans le cadre de la migration, la gesion des utilisateurs et utilisatrices passe
 
 * **Les administrateurs et administratrices du profil du produit (administrateurs et administratrices du système Workfront)** gèrent les personnes de l’organisation qui ont accès à Workfront.
 
-* **Les personnes se connecteront avec Adobe Identity.** Après la migration des utilisateurs et utilisatrices existants vers Adobe Admin Console, les personnes se connecteront à leurs instances Workfront à l’aide de leur nouvelle identité Adobe Identity, qu’il s’agisse d’un Adobe ID ou d’un Adobe Federated ID (SSO).
+* **Les utilisateurs se connecteront avec Adobe Identity.** Une fois qu’Adobe a migré les utilisateurs existants vers Adobe Admin Console, les utilisateurs se connectent à leurs instances Workfront à l’aide de leur nouvelle identité Adobe, à savoir une connexion Adobe ID ou Adobe Federated ID (SSO).
 
 * **Il n’y a aucun changement dans la façon dont vous gérez toutes les autres fonctionnalités** dans l’application Workfront elle-même, y compris la gestion des fonctions, des rôles d’utilisateur ou d’utilisatrice, des espaces de travail, des fonctionnalités et du comportement.
 
@@ -77,7 +77,7 @@ En tant qu’administrateur ou administratrice de profil de produit Workfront (
 
 * **La migration des personnes commencera à minuit dans le centre de données Workfront d’hébergement de la clientèle.**
 
-* **Adobe migrera automatiquement les administrateurs et administratrices Workfront en premier.** Lorsque les administrateurs et administratrices Workfront migrent vers Adobe Identity, ils se voient attribuer le rôle d’administrateurs et administratrices de profil de produit Adobe (administrateurs et administratrices système Workfront). Les rôles existants qu’une personne pouvait avoir avant la migration ne seront pas affectés.
+* **Adobe migre automatiquement les administrateurs Workfront en premier.** Lorsque les administrateurs Workfront sont migrés vers Adobe Identity, le rôle d’administrateur de profil de produit Adobe (administrateur système Workfront) leur est attribué. Les rôles existants qu’une personne pouvait avoir avant la migration ne seront pas affectés.
 
   >[!NOTE]
   >
@@ -85,7 +85,7 @@ En tant qu’administrateur ou administratrice de profil de produit Workfront (
 
 
 
-* **Au fur et à mesure de la migration, les personnes recevront un e-mail d’Adobe les informant de la modification de leur mode de connexion à Workfront.** Les personnes seront invitées à accepter une invitation à se connecter pour la première fois à l’aide d’Adobe Identity, soit en se connectant avec un Adobe ID existant, soit en créant un Adobe ID en utilisant la même adresse e-mail.
+* **À mesure que les utilisateurs migrent, ils reçoivent un e-mail d’Adobe les informant du changement de leur méthode de connexion à Workfront.** Les utilisateurs seront invités à accepter une invitation à se connecter pour la première fois à l’aide d’Adobe Identity, soit en se connectant à l’aide d’une Adobe ID existante, soit en configurant une nouvelle Adobe ID à l’aide de la même adresse électronique.
 
   Pour plus d’informations sur la façon de se connecter à Workfront avec un Adobe ID, voir [Se connecter à Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 

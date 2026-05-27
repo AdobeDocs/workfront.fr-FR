@@ -13,7 +13,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1841'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -135,8 +135,8 @@ Vous pouvez également désigner la propriété du modèle avant d’installer l
    >[!INFO]
    >
    >**Exemple :** les nouvelles préférences de problème de ce plan directeur fournissent quatre rubriques de file d’attente. La personne sélectionne l’une de ces rubriques lors de la création d’un problème. (Puisqu&#39;il n&#39;existe qu&#39;un seul groupe de sujets, il est automatiquement appliqué et l&#39;utilisateur n&#39;a pas à le sélectionner.) Lorsque l’utilisateur termine et soumet le problème, les règles de transmission déterminent la fonction ou l’équipe à laquelle il est affecté.
-   >![Exemples de préférences de nouveau problème](assets/Blueprints_IssuePrefsDetails.png)
-   >![Rubriques de file d’attente pour le nouveau problème](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Exemples de nouvelles préférences de problème](assets/Blueprints_IssuePrefsDetails.png)
+   >![Rubriques de file d&#39;attente pour un nouveau problème](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![Problème transmis à la fonction](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
@@ -223,7 +223,7 @@ Section ![[!UICONTROL Mappage d’entreprises]](assets/Blueprints_CompanyMapping
 1. Si une entreprise existe, vous pouvez choisir l’une des options suivantes :
 
    1. Créez une entreprise portant un nom différent, puis saisissez le nom dans la zone de texte.
-   1. Utilisez une entreprise existante, puis sélectionnez une entreprise dans la zone de sélection.\
+   1. Utiliser une société existante, puis sélectionner une société dans la zone de sélection.\
 
       L’entreprise principale du plan directeur est mappée à l’entreprise principale de votre environnement, même si elle ne porte pas le même nom.
    1. N’utilisez pas l’entreprise mappée. Cette option n’est pas recommandée, car les références de l’entreprise dans d’autres objets seront vides.
@@ -253,7 +253,7 @@ Certains plans directeurs comportent des groupes prescrits. Un groupe est un gro
 
 Le plan directeur effectue des recherches par nom de groupe pour déterminer si des groupes existants correspondent. La recherche respectant la casse, les noms doivent correspondre exactement. Si aucun groupe existant ne correspond, le plan directeur peut les créer pour vous.
 
-Section ![[!UICONTROL Mapper des groupes] &#x200B;](assets/Blueprints_GroupMapping.png)
+Section ![[!UICONTROL Mapper des groupes] ](assets/Blueprints_GroupMapping.png)
 
 1. Si un groupe existe, vous pouvez sélectionner **[!UICONTROL Remapper un groupe]** et sélectionnez l’une des options suivantes :
 
