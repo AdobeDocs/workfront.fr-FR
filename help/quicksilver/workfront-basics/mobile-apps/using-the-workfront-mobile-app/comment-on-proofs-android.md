@@ -21,13 +21,13 @@ Votre accès pour commenter sur les épreuves est le même que dans [!DNL Adobe 
 
 >[!NOTE]
 >
->Si le ou la propriétaire de l’épreuve a verrouillé l’épreuve, vous ne pouvez pas commenter sur celle-ci. Pour plus d’informations, voir [Verrouiller ou déverrouiller une épreuve](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock) dans l’article [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+>Si le ou la propriétaire de l’épreuve a verrouillé l’épreuve, vous ne pouvez pas commenter sur celle-ci. Pour plus d’informations, voir [Verrouiller ou déverrouiller une épreuve](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock) dans l’article [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Réviser les commentaires existants dans une épreuve
 
 Vous pouvez consulter les commentaires laissés sur un document d’épreuve. Les commentaires sont souvent associés à des dessins pour indiquer la zone du document à laquelle le commentaire fait référence. Les dessins peuvent inclure des flèches, des lignes, des rectangles, une mise en surbrillance et des dessins à main levée.
 
-1. Ouvrez l’épreuve de document. Pour plus d’informations, voir [Examiner les épreuves et prendre des décisions à leur sujet dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+1. Ouvrez l’épreuve de document. Pour plus d’informations, voir [Examiner les épreuves et prendre des décisions à leur sujet dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 1. Sélectionnez une icône de commentaire sur la page du document ![Icône de commentaire sur un document](assets/mobile-comment-icon-on-proofdoc-30x34.png) pour ouvrir le commentaire, ainsi que les dessins et pièces jointes associés.
 
    Si le commentaire comporte plusieurs réponses, vous pouvez sélectionner **[!UICONTROL Afficher les réponses]** pour afficher toutes les réponses, ou faire glisser la feuille de commentaires vers le haut et vers le bas pour afficher davantage de contenu.
@@ -39,7 +39,7 @@ Vous pouvez consulter les commentaires laissés sur un document d’épreuve. Le
 
 1. Pour afficher la liste de tous les commentaires par numéro de page, sélectionnez l’icône de commentaire ![Icône de commentaire](assets/mobile-comment-icon-30x25.png) dans le coin supérieur droit.
 
-   Le nombre de commentaires non lus est indiqué sur l’icône de commentaire. ![Nombre de commentaires non lus](assets/mobile-unread-comments-icon-30x27.png) Les commentaires non lus dans la liste sont marqués d’un point bleu. Les commentaires accompagnés de pièces jointes comportent une icône de trombone ![[!UICONTROL Pièce jointe] ](assets/mobile-paper-clip-icon.png).
+   Le nombre de commentaires non lus est indiqué sur l’icône de commentaire. ![Nombre de commentaires non lus](assets/mobile-unread-comments-icon-30x27.png) Les commentaires non lus dans la liste sont marqués d’un point bleu. Les commentaires accompagnés de pièces jointes comportent une icône de trombone ![[!UICONTROL Pièce jointe] &#x200B;](assets/mobile-paper-clip-icon.png).
 
 1. Dans la liste, sélectionnez un commentaire individuel pour afficher le commentaire et les dessins associés sur la page du document.
 1. Sélectionnez le X pour fermer la liste de commentaires et revenir à l’épreuve.
@@ -50,7 +50,7 @@ Vous pouvez consulter les commentaires laissés sur un document d’épreuve. Le
 >
 >Les options disponibles dans le menu de la vue de sélection **[!UICONTROL Plus]** peuvent varier en fonction des configurations de votre administration de [!DNL Workfront] ou [!DNL Workfront Proof].
 
-1. Pour afficher d’autres options de commentaire, sélectionnez l’icône ![[!UICONTROL Liste des commentaires] ](assets/mobile-listofcommentsicon-30x27.png) dans le coin supérieur droit de la liste des commentaires.
+1. Pour afficher d’autres options de commentaire, sélectionnez l’icône ![[!UICONTROL Liste des commentaires] &#x200B;](assets/mobile-listofcommentsicon-30x27.png) dans le coin supérieur droit de la liste des commentaires.
 
    Une case à cocher s’affiche en regard de chaque commentaire.
 
@@ -62,7 +62,7 @@ Vous pouvez consulter les commentaires laissés sur un document d’épreuve. Le
 
    Pour sélectionner tous les commentaires, sélectionnez le menu **[!UICONTROL Plus]** dans le coin supérieur droit ![menu Plus](assets/mobile-verticalmoremenu-20x33.png) et choisissez **[!UICONTROL Tout sélectionner]**.
 
-1. Pour résoudre le commentaire sélectionné, sélectionnez l’icône ![[!UICONTROL Résoudre le commentaire] ](assets/mobile-resolvecomment-icon-30x30.png) dans le coin supérieur droit.
+1. Pour résoudre le commentaire sélectionné, sélectionnez l’icône ![[!UICONTROL Résoudre le commentaire] &#x200B;](assets/mobile-resolvecomment-icon-30x30.png) dans le coin supérieur droit.
 
    Vous ne pouvez résoudre qu’un seul commentaire à la fois. Le commentaire est marqué d’une icône verte pour indiquer qu’il a été résolu.
 
@@ -81,7 +81,7 @@ Vous pouvez consulter les commentaires laissés sur un document d’épreuve. Le
 
 Vous pouvez associer vos commentaires d’épreuves à une zone spécifique du document. Utilisez les outils de dessin pour sélectionner une zone à commenter.
 
-1. Ouvrez l’épreuve de document. Pour plus d’informations, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+1. Ouvrez l’épreuve de document. Pour plus d’informations, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 1. Sélectionnez un outil de dessin dans la barre d’outils située au bas de l’écran de l’épreuve.
 
    ![Barre d’outils de commentaire de l’épreuve](assets/android-proof-comment-toolbar-350x102.png)
@@ -103,7 +103,7 @@ Vous pouvez associer vos commentaires d’épreuves à une zone spécifique du d
 
    Le contact recevra une notification par e-mail lorsque le commentaire sera ajouté à l’épreuve.
 
-1. Pour ajouter une pièce jointe au commentaire, sélectionnez l’icône ![[!UICONTROL Pièce jointe] ](assets/mobile-paper-clip-icon.png). Choisissez **[!UICONTROL Sélectionner un document]** ou **[!UICONTROL Prendre une photo]**, puis suivez les invites pour joindre le fichier ou la photo au commentaire.
+1. Pour ajouter une pièce jointe au commentaire, sélectionnez l’icône ![[!UICONTROL Pièce jointe] &#x200B;](assets/mobile-paper-clip-icon.png). Choisissez **[!UICONTROL Sélectionner un document]** ou **[!UICONTROL Prendre une photo]**, puis suivez les invites pour joindre le fichier ou la photo au commentaire.
 
    Cliquez sur le X de la miniature pour supprimer la pièce jointe.
 

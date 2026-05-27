@@ -31,7 +31,7 @@ Les annonces peuvent se présenter de deux façons :
 
 Dans les deux cas, lorsque l’administrateur ou l’utilisateur clique sur l’icône numérotée ![Icône de notifications](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir sa liste de notifications, l’objet du message s’affiche avec une icône de mégaphone ![Icône d’annonce](assets/announcement.png) et le mot « [!UICONTROL Annonce] ».
 
-Notification d’![[!UICONTROL annonce] ](assets/notification-list-announcement-350x271.png)
+Notification d’![[!UICONTROL annonce] &#x200B;](assets/notification-list-announcement-350x271.png)
 
 Pour plus d’informations sur la page [!UICONTROL Annonces], consultez [Afficher et gérer les notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
