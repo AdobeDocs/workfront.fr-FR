@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: fd62db43-bc45-4ede-b1ef-a198323793ca
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Après avoir configuré votre intégration [!DNL Basecamp], vous pouvez commencer à ajouter des épreuves aux projets dans votre compte [!DNL Basecamp].
 
@@ -43,7 +43,7 @@ Après avoir ajouté une épreuve à un projet [!DNL Basecamp], vos réviseurs e
    Les personnes sélectionnées en charge de la révision recevront un message dans [!DNL Basecamp] pour cette épreuve et une notification par e-mail de [!DNL Workfront Proof].
 
 1. Cliquez sur **[!UICONTROL OK]**.
-1. Appliquez tous les autres paramètres dont vous avez besoin pour votre épreuve (de façon normale), puis cliquez sur **[!UICONTROL Enregistrer]** pour soumettre votre épreuve.
+1. Appliquez tous les autres paramètres requis pour votre épreuve (comme d’habitude), puis cliquez sur **[!UICONTROL Enregistrer]** pour envoyer votre épreuve.
 
 >[!NOTE]
 >

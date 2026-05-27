@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ec52948-0317-4ffa-b135-1c9696a937b7
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 95%
 
 ---
 
@@ -42,5 +42,5 @@ Les personnes membres du groupe sont désormais affichées.<br><img src="assets/
 Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Gérer les rôles de l’épreuve dans [!DNL Workfront Proof]</a> et <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configurer les paramètres de notification par e-mail dans [!DNL Workfront Proof]</a>.
 1. (Facultatif) Supprimez une personne membre du groupe de l’épreuve en pointant le curseur de la souris sur les informations de l’utilisateur ou de l’utilisatrice et en cliquant sur le bouton **[!UICONTROL X]**.
 Ou
-Supprimez toutes les personnes membres de l’épreuve en cliquant sur **[!UICONTROL Supprimer tout]**.
-1. Continuez à créer l’épreuve, comme décrit dans la section <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Générer des épreuves dans [!DNL Workfront Proof]</a> ou <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copier des épreuves dans [!DNL Workfront Proof]</a>.
+Supprimez tous les membres de l’épreuve en cliquant sur **[!UICONTROL Tout supprimer]**.
+1. Continuez à créer l’épreuve, comme décrit dans la section <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Générer des épreuves dans [!DNL Workfront Proof]</a> ou <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copier des épreuves dans [!DNL Workfront Proof]</a>. 

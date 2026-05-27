@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
 source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 L’e-mail d’[!UICONTROL épreuve en retard] est envoyé aux personnes destinataires lorsqu’une épreuve est proche de la date d’échéance ou si elle atteint la date d’échéance. Ces types d’e-mails ne peuvent pas être désactivés au niveau de l’épreuve, mais peuvent être configurés au niveau du compte et des paramètres personnels de l’utilisateur ou de l’utilisatrice.
 

@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 99%
+source-wordcount: '875'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ## Comment ouvrir un nouveau compte [!DNL Workfront Proof] ?
 
-Pour ouvrir un nouveau compte, rendez-vous sur la [page d’inscription à l’essai](https://business.adobe.com/fr/products/workfront/proofing-approvals.html) et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec [!DNL Workfront Proof].
+Pour ouvrir un nouveau compte, rendez-vous sur la [page d’inscription à l’essai](https://business.adobe.com/products/workfront/proofing-approvals.html) et ouvrez un compte d’essai. Une personne membre de notre équipe prendra ensuite contact avec vous pour vous aider à commencer avec [!DNL Workfront Proof].
 
 Si vous connaissez déjà le système et que vous souhaitez vous abonner à une formule payante, rendez-vous sur *[!UICONTROL Paramètres]* *>* *[!UICONTROL Facturation]* et mettez votre compte à niveau vers l’une de nos formules payantes.
 
@@ -55,7 +55,7 @@ La façon la plus courante d’organiser les épreuves et les fichiers consiste 
 
 Par exemple, vous pouvez créer des dossiers distincts pour chaque client ou cliente, puis des sous-dossiers différents pour chaque projet. Vous pouvez également créer des dossiers pour les projets et créer des sous-dossiers différents pour les différentes ressources. Si vous préférez, les créateurs et créatrices d’épreuves peuvent simplement créer chacun leur propre dossier pour les épreuves qu’ils ont créées. Les dossiers sont décrits dans l’article [Dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-Les *balises* sont une autre façon d’organiser les épreuves et les fichiers dans votre compte. Vous pouvez appliquer plusieurs balises à vos épreuves et à vos fichiers, de sorte que vous pouvez les utiliser pour les noms de projets, les types de contenu, les noms de clientes et clients, etc. Vous pouvez effectuer des recherches dans le compte à l’aide de balises, puis exécuter différentes actions en fonction des résultats de votre recherche. Vous pouvez également les utiliser dans vos vues personnalisées. Consultez l’article [[!UICONTROL Créer et gérer des balises] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) pour en savoir plus sur les balises.
+Les *balises* sont une autre façon d’organiser les épreuves et les fichiers dans votre compte. Vous pouvez appliquer plusieurs balises à vos épreuves et fichiers afin de les utiliser pour les noms de projet, les types de contenu, les noms de client, etc. Vous pouvez rechercher le compte à l’aide de balises, puis effectuer différentes actions sur les résultats de votre recherche. Vous pouvez également les utiliser dans vos vues personnalisées. Consultez l’article [[!UICONTROL Créer et gérer des balises] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) pour en savoir plus sur les balises.
 
 ## Comment puis-je donner un tableau de bord à mes clientes et clients ?
 
@@ -67,7 +67,7 @@ Cette configuration vous permet de donner un tableau de bord à vos clientes et 
 
 Les vues personnalisées disponibles dans les éditions [!UICONTROL Entreprise] et [!UICONTROL Illimité] vous permettent de créer vos propres vues dans le compte. Vous pouvez choisir les informations que vous souhaitez inclure dans cette vue, les filtres que vous souhaitez utiliser et la manière de trier les informations. C’est un outil formidable pour suivre les épreuves et les fichiers de votre compte, mais il peut également être utilisé comme outil de création de rapports : les vues personnalisées peuvent être exportées vers un fichier [!DNL Excel], ce qui vous permet de traiter les données de manière plus approfondie.
 
-Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Que puis-je faire si une personne supprime une épreuve par accident ?
 

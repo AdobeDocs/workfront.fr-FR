@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez gérer vos collègues, membres et personnes invitées sur la page Contacts.
 
@@ -67,7 +67,7 @@ Sélectionnez une option dans le menu **[!UICONTROL Trier]** dans le coin supér
    * Cliquez sur **[!UICONTROL Supprimer les contacts]** pour supprimer les contacts sélectionnés de votre liste.
 
      ![Trash_button.png](assets/trash-button.png)
-La suppression d’un contact ne signifie pas que l’utilisateur ou l’utilisatrice est supprimé de votre compte ; toutefois, si un administrateur ou une administratrice, ou un administrateur ou une administratrice de facturation supprime une personne de la liste des contacts, cette personne sera entièrement supprimée du compte de votre organisation.
+La suppression d’un contact ne signifie pas qu’un utilisateur est supprimé de votre compte. Cependant, si un administrateur ou un administrateur de facturation supprime une personne de la liste de contacts, cette personne est complètement supprimée du compte de votre organisation.
 
    * Cliquez sur l’icône **[!UICONTROL Plus]** à la fin de la ligne d’un contact et utilisez l’une des options du menu déroulant qui apparaît.
 

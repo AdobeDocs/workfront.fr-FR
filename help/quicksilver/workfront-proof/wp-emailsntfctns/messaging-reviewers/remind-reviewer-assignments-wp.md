@@ -10,7 +10,7 @@ exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez envoyer un seul message à une personne réviseuse lui rappelant plusieurs éléments qui ont été partagés avec elle.
 
@@ -35,6 +35,6 @@ L’e-mail répliquera l’e-mail de notification qui lui a été envoyé initia
 
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Message.]**
 
-1. Dans la zone **[!UICONTROL Envoyer un message]** qui s’affiche, saisissez un **[!UICONTROL titre]** et **[!UICONTROL message],** puis cliquez sur **[!UICONTROL Envoyer].** Le contact reçoit un e-mail contenant des informations et des liens personnels pour toutes les épreuves dans un seul e-mail.
+1. Dans la zone **[!UICONTROL Envoyer le message]** qui s’affiche, saisissez un **[!UICONTROL Titre]** et un **[!UICONTROL Message],** puis cliquez sur **[!UICONTROL Envoyer].**&#x200B;Le contact reçoit un e-mail contenant des informations et des liens personnels pour toutes les épreuves dans un seul e-mail.
 
 

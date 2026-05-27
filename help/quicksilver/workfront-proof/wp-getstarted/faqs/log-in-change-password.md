@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '550'
 ht-degree: 98%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 98%
 1. Si vous souhaitez maintenir la connexion (sans expiration de la session après 30 minutes d’inactivité), sélectionnez **[!UICONTROL Maintenir la connexion]**.
 1. Cliquez sur **[!UICONTROL Se connecter]**.
 
-L’équipe d’administration [!DNL Workfront Proof] peut configurer un branding personnalisé pour la page [!UICONTROL Se connecter]. Consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Ou, si vous utilisez une formule d’édition [!UICONTROL Entreprise] ou [!UICONTROL Illimité], consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof]  - Avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+L’équipe d’administration [!DNL Workfront Proof] peut configurer un branding personnalisé pour la page [!UICONTROL Se connecter]. Consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Ou, si vous utilisez une formule d’édition [!UICONTROL Entreprise] ou [!UICONTROL Illimité], consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof]  - Avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Pour les formules [!UICONTROL Entreprise] et [!UICONTROL Illimité], nous offrons une fonctionnalité d’authentification unique (SSO) qui permet à vos utilisateurs et vos utilisatrices de se connecter à [!DNL Workfront Proof] à l’aide de leur nom d’utilisateur ou d’utilisatrice et de leur mot de passe pour votre organisation. Consultez la section [Configurer l’authentification unique pour les utilisateurs et les utilisatrices  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) pour plus d’informations.
+Pour les formules [!UICONTROL Entreprise] et [!UICONTROL Illimité], nous offrons une fonctionnalité d’authentification unique (SSO) qui permet à vos utilisateurs et vos utilisatrices de se connecter à [!DNL Workfront Proof] à l’aide de leur nom d’utilisateur ou d’utilisatrice et de leur mot de passe pour votre organisation. Consultez la section [Configurer l’authentification unique pour les utilisateurs et les utilisatrices  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) pour plus d’informations.
 
 ## Se déconnecter
 
 1. Cliquez sur **[!UICONTROL Se déconnecter]** dans le coin supérieur droit de Workfront Proof.\
    Un message s’affiche pour confirmer que la déconnexion est effective. Cliquez sur **[!UICONTROL Retour à la page de connexion]** pour vous reconnecter si vous le souhaitez.\
-   L’équipe d’administration [!DNL Workfront Proof] peut configurer un branding personnalisé pour ce message. Consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Ou, si vous utilisez une formule d’édition [!UICONTROL Enterprise] ou [!UICONTROL &#x200B; Illimité], consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof]  - Avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+   L’équipe d’administration [!DNL Workfront Proof] peut configurer un branding personnalisé pour ce message. Consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Ou, si vous utilisez une formule d’édition [!UICONTROL Enterprise] ou [!UICONTROL  Illimité], consultez la section [Personnaliser le branding du site  [!DNL Workfront Proof]  - Avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Lorsque vous oubliez votre mot de passe. {#when-you-forget-your-password}
 
