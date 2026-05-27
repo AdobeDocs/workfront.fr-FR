@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 78%
+source-wordcount: '1072'
+ht-degree: 76%
 
 ---
 
@@ -81,7 +81,7 @@ Old:
 
 ## Conditions préalables
 
-* L’équipe d’administration Workfront ou l’utilisateur ou utilisatrice Plan ayant accès à des formulaires personnalisés doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Votre administrateur Workfront, ou un utilisateur de Standard ou de Plan disposant d’un accès administratif aux formulaires personnalisés, doit créer des formulaires personnalisés dans votre environnement. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous devez avoir des formulaires personnalisés joints à un objet.
 
   Pour plus d’informations sur l’application de formulaires personnalisés à un objet, voir [Ajouter un formulaire personnalisé à un objet](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -92,7 +92,7 @@ Old:
 
    **Exemple :** par exemple, pour gérer les formulaires personnalisés d’un projet, accédez au projet, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Modifier** .
 
-1. Dans la section Forms personnalisé&#x200B;**pour les projets, les tâches et les événements, cliquez sur l’icône** Déplacer![&#x200B; en regard du nom d’un formulaire personnalisé. &#x200B;](assets/move-icon---dots.png) Pour tous les autres objets, cliquez sur **Gérer les Formulaires**. Cette option s’affiche uniquement si au moins un formulaire personnalisé est associé à l’objet.
+1. Dans la section Forms personnalisé&#x200B;**pour les projets, les tâches et les événements, cliquez sur l’icône ![Déplacer](assets/move-icon---dots.png) en regard du nom d’un formulaire personnalisé.** Pour tous les autres objets, cliquez sur **Gérer les Formulaires**. Cette option s’affiche uniquement si au moins un formulaire personnalisé est associé à l’objet.
 1. Faites glisser un formulaire ![icône Déplacer](assets/move-icon---dots.png) vers un nouvel emplacement de la liste.
 1. Pour les projets, tâches et problèmes de formulaires personnalisés, cliquez sur **Enregistrer**.
 
