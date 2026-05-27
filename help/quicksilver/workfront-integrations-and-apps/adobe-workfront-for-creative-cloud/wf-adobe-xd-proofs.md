@@ -116,7 +116,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Nommez le PDF.
 
-   ![Options ](assets/pdf-options.png)
+   ![Options &#x200B;](assets/pdf-options.png)
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.

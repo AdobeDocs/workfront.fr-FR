@@ -854,7 +854,7 @@ Le fournisseur du webhook enregistre les actions personnalisées avec Workfront 
 ![Exécuter une action personnalisée](assets/mceclip0-350x262.png)
 
 Les utilisateurs peuvent déclencher l’action personnalisée en sélectionnant la section sous Actions de document.\
-![ Déclencher des actions personnalisées ](assets/mceclip1-350x95.png)
+![&#x200B; Déclencher des actions personnalisées &#x200B;](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -893,7 +893,7 @@ GET /customAction
 
 Chaîne JSON indiquant le succès ou l’échec, tel que spécifié dans la section Gestion des erreurs ci-dessous. En cas d’échec (c’est-à-dire si le statut = «échec »), Workfront affichera le message d’erreur envoyé à l’utilisateur ou l’utilisatrice.
 
-**Exemple :** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Exemple :** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 response
 

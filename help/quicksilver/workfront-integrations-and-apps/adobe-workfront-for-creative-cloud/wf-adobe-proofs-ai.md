@@ -129,7 +129,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du plug-in.
 1. Activez l’option **[!UICONTROL Créer une épreuve]**.
 
-1. Dans la section *[!UICONTROL *Approbation d’épreuve]**, choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
+1. Dans la section *[!UICONTROL *Approbation d’épreuve]&#x200B;**, choisissez &#x200B;** [!UICONTROL De base] **&#x200B; ou &#x200B;** [!UICONTROL Automatique]**.
 
 1. Ajoutez des **[!UICONTROL Réviseurs ou réviseuses]** ou un **[!UICONTROL Modèle de workflow]** en fonction du type d’approbation que vous avez sélectionné lors de l’étape 7.
 
