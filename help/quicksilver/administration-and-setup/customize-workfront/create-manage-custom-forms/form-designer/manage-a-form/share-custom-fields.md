@@ -137,7 +137,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
      Limite l’accès aux seuls éléments que vous avez ajoutés à la liste.
 
-   ![Options de partage ](assets/share-field-in-designer.png)
+   ![Options de partage &#x200B;](assets/share-field-in-designer.png)
 
 1. Cliquer sur **Enregistrer**.
 
