@@ -13,7 +13,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2877'
 ht-degree: 100%
 
 ---
@@ -135,7 +135,7 @@ Pour exporter un modèle Kickstart, procédez comme suit :
      <tr> 
       <td> <p>Equipe</p> </td> 
       <td scope="col"> <p>Exporte sous forme de fichier Excel.</p> </td> 
-      <td> <p> Membre d'équipe</p> <p>Equipe</p> <p>Préférences </p> </td> 
+      <td> <p> Membre d'équipe</p> <p>Équipe</p> <p>Préférences </p> </td> 
      </tr> 
      <tr> 
       <td> <p>l’utilisateur ou de l’utilisatrice</p> </td> 

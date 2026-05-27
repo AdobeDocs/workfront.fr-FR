@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2352'
 ht-degree: 3%
 
 ---
@@ -144,7 +144,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >
    >* Vous avez accès à l’affichage d’au moins un espace de travail.
 
-1. Cliquez dans le champ **Quelle requête souhaitez-vous soumettre ?** la barre pour ouvrir une liste de formulaires de demande.
+1. Cliquez dans le **Quelle requête souhaitez-vous soumettre ?** pour ouvrir une liste de formulaires de demande.
 1. Sélectionnez un formulaire de demande dans la liste ou commencez à saisir son nom, puis sélectionnez-le lorsqu’il apparaît dans la liste.
 
    Une fenêtre s’ouvre avec le nom du formulaire de demande en haut.
@@ -186,7 +186,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
      Pour plus d’informations, voir [Ajouter une approbation à un formulaire de demande](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * Vous pouvez ajouter le champ de connexion **Demande d&#39;origine** à un type d&#39;enregistrement dans Planning afin d&#39;afficher le nom de la demande d&#39;origine qui a créé un enregistrement. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Vous pouvez ajouter le champ de connexion **Demande d&#39;origine** à un type d&#39;enregistrement dans Planning afin d&#39;afficher le nom de la demande d&#39;origine qui a créé un enregistrement. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
    * La demande est visible uniquement par le propriétaire, l&#39;approbateur et les personnes qui disposent au moins des autorisations d&#39;affichage de l&#39;espace de travail. Les administrateurs et administratrices de Workfront peuvent afficher toutes les demandes envoyées à n’importe quel espace de travail du système.
    * Vous recevez une notification in-app et un e-mail vous informant que la demande a été soumise avec succès ou envoyée pour révision.
    * Si le formulaire de demande a été associé à une approbation, les approbateurs reçoivent une notification in-app et par e-mail pour examiner et approuver la demande.

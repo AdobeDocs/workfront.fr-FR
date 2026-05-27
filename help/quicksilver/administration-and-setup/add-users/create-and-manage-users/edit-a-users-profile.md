@@ -10,7 +10,7 @@ role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3451'
 ht-degree: 64%
 
 ---
@@ -42,7 +42,7 @@ Pour plus d’informations sur les utilisateurs qui mettent à jour leur propre 
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul>
     <p>Pour modifier les taux de facturation et de coût pour un utilisateur, vous devez également activer les options de réglage fin Modifier les taux de facturation et Modifier les taux de coût .</p> </td> 
@@ -113,7 +113,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
   L’image de profil devient l’avatar de l’utilisateur et elle est visible dans tout le système Workfront, quel que soit l’endroit où le nom d’utilisateur est affiché.
 
 * **Informations sur le poste** : informations sur le poste, comme le titre du poste (dans le champ **Titre**) et le domaine d’expertise dont l’utilisateur est responsable (dans le champ **Me parler de**).
-* **Informations de contact** : numéro de téléphone de l’utilisateur (dans la zone **Numéro de téléphone**, **Ext.** et **Champs du numéro de mobile**) et l’adresse (dans les champs **Adresse**, **Ville**, **État**, **Code postal** et **Pays**).
+* **Informations de contact** : numéro de téléphone de l’utilisateur (dans les champs **Numéro de téléphone**, **Ext.** et **Numéro de mobile**) et adresse (dans les champs **Adresse**, **Ville**, **État**, **Code postal** et **Country**).
 
   Le champ **Pays** de la section Informations de contact accepte uniquement les valeurs de code de pays (par exemple, États-Unis, France, Italie).
 
@@ -227,7 +227,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
 * **Définir la date de désactivation** : cliquez sur ce bouton si vous souhaitez planifier la désactivation de cet utilisateur à une certaine date et à une certaine heure.
-* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [&#x200B; Planification de la désactivation d’utilisateurs &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [&#x200B; Désactiver ou réactiver un utilisateur &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Rôle principal** : le rôle principal de tâche que l’utilisateur ou l’utilisatrice peut remplir dans Workfront. Chaque tâche et chaque problème affecté à un utilisateur ou à une utilisatrice est également affecté à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Standard ou Plan avec un accès utilisateur administratif ou si vous êtes un administrateur Workfront. Pour plus d’informations sur la configuration des utilisateurs et des utilisatrices disposant d’un accès d’administration, consultez la section [Accorder un accès aux utilisateurs et aux utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Seules les fonctions actives s’affichent dans la liste.
@@ -282,7 +282,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
    * Les utilisateurs disposant d&#39;une licence Standard ou Plan et ayant accès à la modification d&#39;utilisateurs ne peuvent afficher que les profils de feuilles de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Type d’heure par défaut** : sélectionner le type d’heure par défaut pour l’utilisateur ou l’utilisatrice. Il s’agit du type d’heure utilisé par défaut lorsque l’utilisateur ou l’utilisatrice consigne les heures.
-* **Types d’heure disponibles** : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+* **Types d’heure disponibles** : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [ Définir les types d’heures et la disponibilité ](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 * **Enregistrer le temps dans** : indiquez si l’utilisateur doit enregistrer le temps passé sur des tâches en heures ou en jours. Pour plus d’informations, consultez la section [Configurer si le temps est enregistré en heures ou en jours](/help/quicksilver/timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 * **Équivalent temps complet** : il s’agit de l’équivalent temps complet de l’utilisateur ou de l’utilisatrice. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
 

@@ -10,8 +10,8 @@ role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '2587'
-ht-degree: 64%
+source-wordcount: '2612'
+ht-degree: 65%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez modifier les comptes des utilisateurs et utilisatrices en masse. Lor
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -160,7 +160,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
 * **Définir la date de désactivation** : cliquez sur ce bouton si vous souhaitez planifier la désactivation de ces utilisateurs à une certaine date et à une certaine heure.
-* **Date de désactivation** : date et heure de désactivation des utilisateurs. Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [&#x200B; Planification de la désactivation d’utilisateurs &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [&#x200B; Désactiver ou réactiver un utilisateur &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Date de désactivation** : date et heure de désactivation des utilisateurs. Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Rôle de Principal** : il s’agit de la fonction principale que les utilisateurs peuvent remplir dans Workfront. Chaque tâche et événement affecté aux utilisateurs est également affecté à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Standard ou Plan avec un accès utilisateur administratif ou si vous êtes un administrateur Workfront. Pour plus d’informations sur la configuration des utilisateurs et des utilisatrices disposant d’un accès d’administration, consultez la section [Accorder un accès aux utilisateurs et aux utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Seules les fonctions actives s’affichent dans la liste.
@@ -203,7 +203,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
    * Les utilisateurs disposant d&#39;une licence Standard ou Plan et ayant accès à la modification d&#39;utilisateurs ne peuvent afficher que les profils de feuilles de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Type d’heure par défaut** : sélectionnez le type d’heure par défaut pour les utilisateurs et les utilisatrices. Il s’agit du type d’heure utilisé par défaut lorsque les utilisateurs et les utilisatrices consignent des heures.
-* **Types d’heures disponibles** : sélectionnez les types d’heures qui doivent être disponibles pour les utilisateurs. Ces types d’heures sont visibles partout dans Workfront où les personnes peuvent consigner des heures. Les utilisateurs peuvent uniquement voir les types d’heures activés au niveau du projet ainsi qu’au niveau de l’utilisateur. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+* **Types d’heures disponibles** : sélectionnez les types d’heures qui doivent être disponibles pour les utilisateurs. Ces types d’heures sont visibles partout dans Workfront où les personnes peuvent consigner des heures. Les utilisateurs peuvent uniquement voir les types d’heures activés au niveau du projet ainsi qu’au niveau de l’utilisateur. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [ Définir les types d’heures et la disponibilité ](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 * **ETP** : il s’agit de l’équivalent temps plein des utilisateurs. Workfront utilise ce nombre pour calculer la disponibilité des utilisateurs en fonction de la planification par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur la planification par défaut.
 
   L’équivalent temps complet indique le temps que les utilisateurs peuvent passer au travail. Cela comprend les durées supplémentaires, ainsi que le temps consacré au travail sur les projets. Par exemple, le temps passé en réunion ou en formation est également inclus dans l’équivalent temps complet.

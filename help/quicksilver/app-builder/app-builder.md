@@ -6,14 +6,14 @@ feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 1%
+source-wordcount: '2329'
+ht-degree: 3%
 
 ---
 
 # Création d’applications personnalisées pour Workfront avec Adobe App Builder
 
-Les extensions d’interface utilisateur de Workfront, optimisées par Adobe App Builder, permettent aux clients et aux partenaires de créer des expériences utilisateur personnalisées. Ces outils améliorent l’efficacité, offrent des expériences connectées transparentes, améliorent considérablement la satisfaction des utilisateurs et aident les entreprises à réaliser leur vision unique.
+Les extensions d’interface d’utilisation de Workfront, optimisées par Adobe App Builder, permettent aux clientes et clients et aux partenaires de créer des expériences d’utilisation personnalisées. Ces outils améliorent l’efficacité, offrent des expériences connectées transparentes, améliorent considérablement la satisfaction des utilisateurs et aident les entreprises à réaliser leur vision unique.
 
 Par exemple, sans les extensions de l’interface utilisateur de Workfront, un gestionnaire de projet peut avoir besoin de basculer entre Workfront et un système de suivi temporel distinct pour consigner les heures. Avec les extensions de l’interface utilisateur, le suivi du temps peut être intégré directement à l’expérience Workfront, ce qui simplifie le workflow et permet de gagner du temps. Vous pouvez également ajouter des composants personnalisés pour améliorer la convivialité, automatiser les tâches répétitives et améliorer la gestion de contenu grâce à des fonctionnalités telles que le balisage des métadonnées et les aperçus de contenu. Adobe App Builder offre également l’évolutivité et une gestion des identités (IMS) robuste, assurant ainsi une personnalisation sécurisée et efficace à n’importe quelle échelle.
 
@@ -42,9 +42,9 @@ Vous devez disposer des éléments suivants :
 
 ## Accès à Adobe App Builder
 
-Pour créer des extensions d’interface utilisateur, vous devez avoir accès à Adobe App Builder dans Adobe Developer Console.
+Pour créer des extensions d’interface d’utilisation, vous devez avoir accès à Adobe App Builder dans Adobe Developer Console.
 
-Des instructions supplémentaires sont disponibles sur le site [Adobe Developer](https://developer.adobe.com/uix/docs/guides/get-access/).
+Des instructions supplémentaires sont disponibles sur le site [](https://developer.adobe.com/uix/docs/guides/get-access/).
 
 ### Ajout de développeurs au Adobe Admin Console
 
@@ -76,7 +76,7 @@ Si AppBuilder est correctement configuré, vous devriez voir Créer un projet à
 
 Vous devez utiliser Adobe Developer Console pour créer votre extension d’interface utilisateur.
 
-Des instructions supplémentaires sont disponibles sur le site [Adobe Developer](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
+Des instructions supplémentaires sont disponibles sur le site [](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Connectez-vous au Adobe Developer Console à l’aide de votre Adobe ID.
 1. Choisissez votre compte et votre profil ou organisation.
@@ -88,7 +88,7 @@ Des instructions supplémentaires sont disponibles sur le site [Adobe Developer]
 
    ![Créer à partir d’un modèle](assets/create-from-template.png)
 
-1. Sélectionnez **App Builder**.
+1. Sélectionnez ****.
 1. Saisissez un **Titre du projet** et **Nom de l’application**. Les deux comportent des valeurs par défaut, mais il est plus facile d’identifier le projet souhaité ultérieurement si vous personnalisez la valeur.
 1. Laissez **Inclure le runtime** sélectionné.
 1. Cliquer sur **Enregistrer**.
@@ -110,7 +110,7 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
    ![résultat de la commande](assets/1-command-result.png)
    ![Sélectionner un projet](assets/2-select-a-project.png)
 
-1. Parcourez tous les modèles disponibles et choisissez le **@adobe/workfront-ui-ext-tpl** pour votre projet.
+1. Parcourez tous les modèles disponibles et choisissez le **** pour votre projet.
 
    ![Choisir un modèle](assets/3-choose-template.png)
 
@@ -133,9 +133,9 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
 
 1. Patientez jusqu’à ce qu’un message indiquant que l’initialisation de l’application est terminée s’affiche. Vous pouvez ensuite ouvrir le projet dans un IDE (Visual Studio Code est recommandé) et accéder au dossier src.
 
-   Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+   Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site du développeur ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
-Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site d’Adobe Developer](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site d’](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Création des extensions dans VSCode
 
@@ -181,7 +181,7 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 
 1. Ajoutez le fragment de code suivant :
 
-   ![](assets/7-extension-registration-step1-from-sam.png) de fragment de code
+   ](assets/7-extension-registration-step1-from-sam.png) de fragment de code![
 
    Cet exemple montre un élément du menu principal. Vous devez mettre à jour l’identifiant, le libellé, l’icône et l’URL vers les noms corrects pour votre application. Lors de l’ajout de plusieurs éléments, assurez-vous que l’identifiant est unique.
 
@@ -304,7 +304,7 @@ widgets: {
 
 * maxWidth (nombre) : largeur maximale du widget en pixels
 
-**Propriétés Dimension**
+**Propriétés**
 
 L’objet dimensions vous permet de contrôler les contraintes de taille et de disposition de votre widget :
 
@@ -396,10 +396,10 @@ Une application peut être incorporée dans un formulaire personnalisé Workfron
            /> 
    ```
 
-   ![&#x200B; exemple de code &#x200B;](assets/9-app-file-step-1-from-sam.png)
+   ![ exemple de code ](assets/9-app-file-step-1-from-sam.png)
 1. Enregistrez votre travail.
 
-Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
+Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
 
 ## Contexte partagé
@@ -448,4 +448,4 @@ Pour désactiver l’indicateur
 
 ## Publier les demandes et approuver l&#39;envoi
 
-Pour publier la demande et l&#39;approuver, suivez les instructions sur le site [Adobe Developer](https://developer.adobe.com/uix/docs/guides/publication/).
+Pour publier la demande et l&#39;approuver, suivez les instructions sur le site [](https://developer.adobe.com/uix/docs/guides/publication/).

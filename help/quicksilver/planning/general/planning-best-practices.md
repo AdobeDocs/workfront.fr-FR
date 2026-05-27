@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 2%
+source-wordcount: '3415'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Cet article présente quelques questions fréquentes et bonnes pratiques que nou
 
 ### Espaces de travail
 
-Les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail. Un espace de travail est un ensemble de types d’enregistrements utilisés par une équipe et représente le cycle de vie de travail de l’équipe.
+Les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail. Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe.
 
 Vous trouverez ci-dessous quelques questions fréquentes sur la configuration de Workfront Planning.
 
@@ -235,15 +235,15 @@ Utilisez la fonction de partage pour accorder aux autres utilisateurs les autori
   >
   >Si une vue n&#39;a pas été partagée et que vous partagez un lien vers cette vue avec d&#39;autres personnes, ces dernières pourront voir les enregistrements dans la **Vue Tableau par défaut**. S’ils disposent d’une licence Workfront standard, ils peuvent créer leur propre vue.
 
-#### En quoi le partage de **&#x200B;**&#x200B;est-il différent du partage de **Afficher** ?
+#### En quoi le partage de **** est-il différent du partage de **Afficher** ?
 
-* Le partage de **&#x200B;**&#x200B;définit l&#39;accès des personnes à l&#39;espace de travail, ses types d&#39;enregistrements, enregistrements et leurs champs.
+* Le partage de **** définit l&#39;accès des personnes à l&#39;espace de travail, ses types d&#39;enregistrements, enregistrements et leurs champs.
 
 * **Partage d’affichage** définit si l’utilisateur peut voir l’affichage que vous avez créé et s’il peut modifier le filtre, les champs de regroupement ou une autre configuration de l’affichage. La visibilité des enregistrements affichés dans la Vue est contrôlée par le partage de Workspace, et non par le partage de la Vue.
 
 #### Comment les types de licence Workfront affectent-ils les autorisations Workfront Planning ?
 
-* Pour le partage de **&#x200B;**&#x200B;: les utilisateurs disposant d&#39;une licence Light et Contribute peuvent uniquement obtenir un accès en affichage à un espace de travail. Pour accorder à une personne l’autorisation Contribuer ou Gérer d’un espace de travail, elle doit disposer d’une licence Standard.
+* Pour le partage de **** : les utilisateurs disposant d&#39;une licence Light et Contribute peuvent uniquement obtenir un accès en affichage à un espace de travail. Pour accorder à une personne l’autorisation Contribuer ou Gérer d’un espace de travail, elle doit disposer d’une licence Standard.
 
 * **Partage de vues** : les utilisateurs sous licence standard disposant d’autorisations de niveau Gérer sur un espace de travail peuvent créer une vue. Les utilisateurs de licences Light et Contribute ne peuvent utiliser que les vues créées et partagées par les utilisateurs standard. Sinon, si rien n’a été partagé, les utilisateurs pourront voir la **Vue du tableau par défaut**.
 
@@ -355,10 +355,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -366,7 +366,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 

@@ -11,7 +11,7 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1214'
 ht-degree: 53%
 
 ---
@@ -29,7 +29,7 @@ Lorsque vous commencez à implémenter Adobe Workfront, plutôt que de saisir m
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Le tableau suivant répertorie les sociétés, les groupes et les rôles à impo
 
 | Entreprises | Groupes | Rôles |
 |---|---|---|
-| Acme, Co <p>Workfront, Inc. <p>_Votre entreprise_ <p>XYZ, Inc. | Finances <p>IT <p>Marketing <p>Ventes | Personne chargée de l’analyse d’affaires <p>Personne responsable de la création <p>Designer <p>Gestionnaire des ressources <p>Personnes maîtresse Scrum <p>Personne chargée de la rédaction technique <p>Personne chargée du développement web |
+| Acme, Co <p>Workfront, Inc. <p>_Votre entreprise_ <p>XYZ, Inc. | Finances <p>IT <p>Marketing <p>Ventes | Personne chargée de l’analyse d’affaires <p>Personne responsable de la création <p>Concepteur <p>Gestionnaire des ressources <p>Personnes maîtresse Scrum <p>Personne chargée de la rédaction technique <p>Personne chargée du développement web |
 
 {style="table-layout:auto"}
 
@@ -274,7 +274,7 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 1. Saisissez les détails du groupe principal de l’utilisateur.
 
-   Selon le scénario, Chris Manning appartient au groupe Marketing. Dans la feuille **GROUP**, recherchez l’ID du groupe marketing, copiez-le et, dans la feuille **USER**, collez-le dans la colonne **setHomeGroupID** de la ligne de l’utilisateur. &#x200B;Répétez cette étape pour chaque affectation de personne et de groupe.
+   Selon le scénario, Chris Manning appartient au groupe Marketing. Dans la feuille **GROUP**, recherchez l’ID du groupe marketing, copiez-le et, dans la feuille **USER**, collez-le dans la colonne **setHomeGroupID** de la ligne de l’utilisateur. &#x200B;Répétez cette étape pour chaque affectation d’utilisateur et de groupe.
 
    ![Copier l’ID de groupe](assets/copygroupid-1-350x133.png) ![Coller l’ID de groupe](assets/pastegroupid-350x59.png)
 
@@ -288,7 +288,7 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 
 1. Saisissez les détails de la fonction de l’utilisateur.
 
-   Selon le scénario, Chris Manning aura le rôle de personne chargée de l’analyse d’affaires. Dans la feuille **Rôle**, localisez l’ID du rôle Analyste métier, copiez-le et, dans la feuille **Utilisateur**, collez-le dans la colonne **setRoleID** sur la ligne de l’utilisateur. &#x200B;Répétez cette étape pour chaque affectation de personne et de groupe.
+   Selon le scénario, Chris Manning aura le rôle de personne chargée de l’analyse d’affaires. Dans la feuille **Rôle**, localisez l’ID du rôle Analyste métier, copiez-le et, dans la feuille **Utilisateur**, collez-le dans la colonne **setRoleID** sur la ligne de l’utilisateur. &#x200B;Répétez cette étape pour chaque affectation d’utilisateur et de groupe.
 
    ![Copier l’ID du rôle](assets/copyroleid-350x149.png) ![Coller l’ID du rôle](assets/pasteroleid-350x95.png)
 
@@ -303,4 +303,4 @@ Les tableaux suivants présentent les utilisateurs et utilisatrices à importer 
 > 
 >Si votre organisation a été migrée vers Adobe Admin Console et qu’un utilisateur ne quitte pas le statut Désactivé et Approbation en attente dans les minutes qui suivent, vous pouvez ajouter directement le lot d’utilisateurs au Adobe Admin Console.
 >
->Pour obtenir des instructions, voir la section [Gérer plusieurs utilisateurs et utilisatrices | Chargement CSV en masse](https://helpx.adobe.com/fr/enterprise/using/bulk-upload-users.html?lang=fr) dans la documentation Adobe.
+>Pour obtenir des instructions, voir la section [Gérer plusieurs utilisateurs et utilisatrices | Chargement CSV en masse](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html?lang=fr) dans la documentation Adobe.

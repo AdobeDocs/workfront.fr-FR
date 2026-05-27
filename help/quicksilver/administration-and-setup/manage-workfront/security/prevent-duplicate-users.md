@@ -10,8 +10,8 @@ role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 98%
+source-wordcount: '577'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Lors de la création d’un utilisateur ou d’une utilisatrice dans Adobe Work
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -116,4 +116,4 @@ Pour corriger les adresses e-mail dupliquées dans une instance de Workfront, p
      >
      >Choisissez cette option uniquement pour les comptes qui ont été créés par erreur ou à des fins de test. Cette option n’est généralement utilisée que pour les comptes ayant zéro connexion ou bien une connexion erronée. Les comptes qui ont régulièrement été utilisés ne doivent jamais être supprimés.
 
-Workfront vous informera et vous communiquera une chronologie s’il est découvert que des utilisateurs et des utilisatrices de la même instance ont des adresses e-mail qui ne diffèrent que par la casse des lettres.
+Si votre instance Workfront contient des utilisateurs et utilisatrices dont les adresses e-mail correspondent, mais ne diffèrent que par la casse, Workfront vous contactera avec des informations supplémentaires ainsi qu’un calendrier indiquant quand ces adresses devront être mises à jour.

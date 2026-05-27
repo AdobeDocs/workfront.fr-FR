@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
 source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '626'
 ht-degree: 99%
 
 ---
@@ -23,12 +23,12 @@ Cette page décrit toutes les autres améliorations apportées à la version 21
 
 Workfront s’appelle maintenant Adobe Workfront.
 
-Les zones les plus visibles de l’application Adobe Workfront et nos sites web accessibles aux clientes et clients reflètent ce changement. D’autres zones suivront le pas.
+Les zones les plus visibles de l’application Adobe Workfront et nos sites web accessibles aux clientes et clients ont été mises à jour. D’autres zones le seront bientôt.
 
-**Zones renommées**
+**Zones mises à jour**
 
 * Écran de connexion, Navigation supérieure, Relecture
-* Interface utilisateur des modèles de disposition, Menu principal, Export des formulaires personnalisés (disponible uniquement dans la nouvelle expérience Adobe Workfront)
+* Interface d’utilisation des modèles de mise en page, Menu principal, Export des formulaires personnalisés (disponible uniquement dans la nouvelle expérience Adobe Workfront)
 * Application mobile Workfront (iOS et Android)
 
 Zones bientôt renommées
@@ -37,7 +37,7 @@ Zones bientôt renommées
 * Exports de PDF pour les listes et les rapports
 * Icône Favicon dans l’onglet du navigateur
 
-**Zones renommées ultérieurement**
+**Zones mises à jour ultérieurement**
 
 * Notifications par e-mail
 
@@ -88,7 +88,7 @@ Tous les payloads d’abonnement aux événements contiennent désormais chaque 
 
 Gardez à l’esprit que chaque objet possède son propre jeu de champs associés, y compris un jeu de champs unique se terminant par ID. Cela signifie que même si chaque payload contient tous les champs associés de cet objet qui se terminent par ID, chaque objet a un jeu différent de champs qui se terminent par ID.
 
-## La version bêta des plans directeurs est désormais disponible dans l’environnement de prévisualisation.
+## La version Beta des plans directeurs est désormais disponible dans l’environnement de prévisualisation.
 
 >[!NOTE]
 >
