@@ -8,8 +8,8 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
 source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez utiliser l’API pour migrer les dossiers et documents liés vers Ad
 
 ## Informations sur l’API
 
-Pour plus d’informations sur les API Workfront de cette section, voir [Documentation destinée à l’équipe de développement : documents](https://developer.workfront.com/documents.html).
+Pour plus d’informations sur les API Workfront dans cette section, voir [Documentation destinée aux développeurs:Documents](https://developer.workfront.com/documents.html).
 
 ### Rechercher tous les documents
 
@@ -57,7 +57,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[Référence API DOCS](https://developer.workfront.com/documents.html#get-/docu/search)
+[Référence des documents d’API](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### Rechercher tous les dossiers
 

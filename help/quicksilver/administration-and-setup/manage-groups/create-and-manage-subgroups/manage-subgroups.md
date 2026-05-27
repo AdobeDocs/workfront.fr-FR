@@ -11,7 +11,7 @@ role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1397'
 ht-degree: 52%
 
 ---
@@ -47,7 +47,7 @@ Pour plus d’informations sur les sous-groupes, voir [Vue d’ensemble des sous
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ Vous pouvez faire d’un sous-groupe un groupe de niveau supérieur en le retira
 >[!TIP]
 >
 >Lorsque vous désactivez un groupe qui a des sous-groupes sous-jacents, ces sous-groupes deviennent également inactifs. Si vous souhaitez que l’un d’entre eux soit actif, vous pouvez suivre ces instructions pour le retirer de son groupe parent, puis le réactiver.
->&#x200B;>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [&#x200B; Désactiver ou réactiver un groupe &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>Pour obtenir des instructions sur la désactivation et la réactivation de groupes, voir [ Désactiver ou réactiver un groupe ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

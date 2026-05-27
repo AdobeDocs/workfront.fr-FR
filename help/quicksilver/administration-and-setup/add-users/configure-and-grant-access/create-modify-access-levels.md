@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1424'
 ht-degree: 86%
 
 ---
@@ -183,7 +183,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td>Empêche les personnes de supprimer des annonces dans le Centre des annonces. Pour plus d’informations, voir <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Envoyer des annonces</a>.</td> 
      </tr> 
      <tr>
-      <td role="rowheader">Autoriser les utilisateurs à accéder à Marques</td> 
+      <td role="rowheader">Autoriser les utilisateurs et utilisatrice à accéder aux Marques</td> 
       <td>Permet aux utilisateurs d’accéder aux marques GenStudio et de les gérer dans Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Octroi de l’accès aux autorisations de marque</a>.</td> 
      </tr>
     </tbody> 

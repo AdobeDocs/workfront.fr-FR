@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '810'
 ht-degree: 51%
 
 ---
@@ -75,4 +75,4 @@ Supposons, par exemple, que l&#39;article A contienne la sous-tâche 1 et la sou
 
 Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâches de sous-tâches). Si une sous-tâche comporte une ou plusieurs sous-tâches de second niveau affectées à la même équipe Agile et appartenant à l&#39;itération, seule la sous-tâche de second niveau est affichée dans la liste d&#39;attente.
 
-Pour plus d’informations sur la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

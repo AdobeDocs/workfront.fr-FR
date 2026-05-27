@@ -11,7 +11,7 @@ role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '742'
 ht-degree: 91%
 
 ---
@@ -31,7 +31,7 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et ad
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td role="rowheader">Modifier les informations de profil d’un utilisateur ou d’une utilisatrice</td> 
       <td> 
        <ol> 
-        <li>Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur le <strong> </strong>Modifier<img src="assets/edit-icon.png">.</li> 
+        <li>Sélectionnez un ou plusieurs noms d’utilisateur, puis cliquez sur le <img src="assets/edit-icon.png"> <strong>Modifier</strong>.</li> 
         <li> <p>Modifiez les informations de profil de l’utilisateur ou l’utilisatrice.</p> <p>Pour plus d’informations sur les modifications que vous pouvez apporter, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.</p> </li> 
        </ol> </td> 
      </tr> 

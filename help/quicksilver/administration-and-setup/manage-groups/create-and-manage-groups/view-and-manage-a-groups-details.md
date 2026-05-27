@@ -7,7 +7,7 @@ role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '609'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ Pour plus d’informations sur la désactivation ou la réactivation d’un grou
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

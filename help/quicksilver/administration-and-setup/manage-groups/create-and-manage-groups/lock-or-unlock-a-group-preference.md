@@ -51,7 +51,7 @@ Pour plus d’informations sur la façon dont un administrateur ou administratri
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
