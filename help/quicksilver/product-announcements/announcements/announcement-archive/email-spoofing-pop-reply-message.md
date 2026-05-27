@@ -31,4 +31,4 @@ Certaines notifications électroniques permettent de répondre par e-mail. La r�
 
 Les e-mails provenant directement du système Workfront Proof ne seront pas modifiés. Vous continuerez à les recevoir comme par le passé.
 
-Pour toute autre question ou préoccupation, contactez l’[Équipe d’assistance Workfront](https://experienceleague.adobe.com/?support-tab=home&lang=fr#support).
+Pour toute autre question ou préoccupation, contactez l’[Équipe d’assistance Workfront](https://experienceleague.adobe.com/fr?support-tab=home&lang=fr#support).

@@ -29,4 +29,4 @@ Le paramètre mis en évidence dans cette capture d’écran est automatiquement
 
 Si vous avez configuré un serveur de messagerie SMTP personnalisé, **nous vous recommandons vivement de contacter votre équipe informatique** pour vous assurer que les e-mails de notifications@my.workfront.com ne seront pas bloqués pour les e-mails entrants sur votre système. Vous pouvez également vous reporter à Configuration de votre pare-feu pour plus d’informations sur les adresses IP d’où viennent notre trafic et nos e-mails.
 
-Si vous avez d’autres questions, veuillez contacter l’[équipe d’assistance Workfront](https://experienceleague.adobe.com/?support-tab=home&lang=fr#support).
+Si vous avez d’autres questions, veuillez contacter l’[équipe d’assistance Workfront](https://experienceleague.adobe.com/fr?support-tab=home&lang=fr#support).
