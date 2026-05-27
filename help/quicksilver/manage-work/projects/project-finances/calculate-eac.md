@@ -9,8 +9,8 @@ feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
 source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 77%
+source-wordcount: '835'
+ht-degree: 71%
 
 ---
 
@@ -113,11 +113,11 @@ EAC = EAC Labor + EAC Expense
      Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
      ```
 
-   * **Pour une tâche parent :**
-Total du coût budgété du travail réalisé = somme du champ de coût budgété total du travail réalisé pour toutes les tâches enfant directes.
+   * **Pour une tâche parent :**
+Coût budgété total du travail effectué = somme du champ Coût budgété total du travail effectué pour toutes les tâches enfants directes.
 
-   * **Pour un projet :**
-Total du coût budgété du travail réalisé = somme du champ de coût budgété total du travail réalisé pour toutes les tâches de niveau supérieur (tâches parent et autonomes).
+   * **Pour un projet :**
+Coût budgété total du travail effectué = somme du champ Coût budgété total du travail effectué pour toutes les tâches de niveau supérieur (parents et tâches autonomes).
 
 * Dépenses CRE = résultat de l&#39;ajout du coût réel des dépenses engagées au coût prévu des dépenses non engagées. Elles sont calculées selon la formule suivante :
 

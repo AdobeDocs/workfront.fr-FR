@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 78%
+source-wordcount: '771'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ Les mêmes remarques que pour le partage d’objets s’appliquent à la suppres
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td> <p>Contributeur ou version ultérieure</p> 
+   <td> <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p>
    <p><strong>Remarque </strong> : certains objets nécessitent un accès supérieur à celui de la demande.</p>
    </td> 

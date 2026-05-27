@@ -179,7 +179,7 @@ Old:
          <td role="rowheader"><strong>Priorité</strong></td> 
          <td><p>Il s’agit simplement d’un indicateur visuel qui vous permet de hiérarchiser vos projets futurs. Sélectionnez l’une des options suivantes :</p> 
          <ul> 
-         <li><p><strong>Aucun</strong></p></li> 
+         <li><p><strong>Aucune</strong></p></li> 
          <li><p><strong>Faible</strong></p></li> 
          <li><p><strong>Normal</strong></p></li> 
          <li><p><strong>Élevé</strong></p></li> 

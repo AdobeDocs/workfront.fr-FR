@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 99%
 
 ---
@@ -111,7 +111,7 @@ Vous pouvez facilement gérer vos fichiers à partir de la page [!UICONTROL Dét
 1. (Facultatif) Cliquez sur **[!UICONTROL Activité]** pour afficher toutes les actions effectuées dans le dossier par ordre chronologique.
 1. (Facultatif) Cliquez sur la section **[!UICONTROL Messages]** pour afficher les messages qui ont été envoyés aux personnes du dossier.\
    Lorsque vous survolez un message, vous pouvez cliquer sur l’icône **i** à droite pour afficher le message complet.\
-   ![&#x200B; Messages &#x200B;](assets/messages-1-350x74.png)\
+   ![Messages](assets/messages-1-350x74.png)\
    Une fenêtre contextuelle contenant l’intégralité de l’e-mail s’affiche :\
    ![Fenêtre contextuelle de message](assets/messages-2-350x252.png)
 

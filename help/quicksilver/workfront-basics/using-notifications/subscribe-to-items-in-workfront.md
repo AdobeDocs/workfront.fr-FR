@@ -7,8 +7,8 @@ feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 90%
+source-wordcount: '1563'
+ht-degree: 91%
 
 ---
 
@@ -49,7 +49,7 @@ Pour plus d’informations sur l’utilisation des abonnements, consultez [À pr
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 

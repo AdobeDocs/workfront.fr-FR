@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 100%
 
 ---
@@ -52,12 +52,12 @@ Les ressources suivantes ont été modifiées pour la version 13 de l’API.
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#project" class="MCXref xref">Project</a> </p> </li> 
+     <li> <p><a href="#project" class="MCXref xref">Projet</a> </p> </li> 
      <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
-     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Tâche</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Équipe</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Feuille de temps</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">TimesheetProfile</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
      <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegation</a> </p> </li> 

@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2306'
 ht-degree: 81%
 
 ---
@@ -53,13 +53,13 @@ Méthode EAC = calcul au niveau du projet **&#x200B;**
       <td><p>Tâche 1</p></td>
       <td><p>5 heures</p></td>
       <td><p>25 heures</p></td>
-      <td><p>20 %</p></td>
+      <td><p>20%</p></td>
      </tr>
      <tr>
       <td><p>Tâche 2</p></td>
       <td><p>10 heures</p></td>
       <td><p>25 heures</p></td>
-      <td><p>30 %</p></td>
+      <td><p>30%</p></td>
      </tr>
      <tr>
       <td><p>Tâche 3</p></td>
@@ -144,7 +144,7 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>Tâche 2</p> </td> 
    <td> <p>5 heures</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
@@ -156,13 +156,13 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>Tâche 4</p> </td> 
    <td> <p>10 heures</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>40 %</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>15 heures</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>50 %</p> </td> 
+   <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
@@ -256,32 +256,32 @@ Méthode EAC = Calcul au niveau du projet
    <th> <br> <p><strong>Ct M-o Pré</strong> </p> </th> 
    <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
    <th> <br> <p><strong>Cts trv eff</strong> </p> </th> 
-   <th> <p><strong>% effectué</strong> </p> </th> 
+   <th> <p><strong>% terminé</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>5 heures</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>30 %</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>30%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> <p>15 heures</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>40 %</p> </td> 
   </tr> 
  </tbody> 
@@ -306,25 +306,25 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 1 Tâche 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép Tâche 2</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> <p>Dép Tâche 3</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$800.00</p> </td> 
    <td> <p>700,00 $</p> </td> 
   </tr> 
  </tbody> 
@@ -346,12 +346,12 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Dép Projet 1</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>0,00 $</p> </td> 
   </tr> 
  </tbody> 
@@ -375,26 +375,26 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>3 000,00 $</p> </td> 
-   <td> <p>2 300,00 $</p> </td> 
+   <td> <p>$3,000.00</p> </td> 
+   <td> <p>$2,300.00</p> </td> 
    <td> <p> 2 700,00 $ <strong></strong></p> </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ Méthode EAC = Calcul au niveau du projet
 
    SINON CPI_Labor = 1\
    **IPC Travail** **pour la tâche 1** = 100/2500\
-   **Main-d&#39;œuvre de l&#39;IPC** **pour la tâche 1** = .04&#x200B;**&#x200B;**&#x200B;**Main-d&#39;œuvre de l&#39;EAC &#x200B;**&#x200B;**pour la tâche 1**=* IF *CPI_Labor &lt;> 0* THEN *Main-d&#39;œuvre de l&#39;EAC = Coût de main-d&#39;œuvre prévu/CPI_Labor
+   **Main-d&#39;œuvre de l&#39;IPC** **pour la tâche 1** = .04 **&#x200B;**&#x200B;**Main-d&#39;œuvre de l&#39;EAC**&#x200B;**pour la tâche 1**= *IF* CPI_Labor &lt;> 0 *THEN* Main-d&#39;œuvre de l&#39;EAC = Coût de main-d&#39;œuvre prévu/CPI_Labor
    * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
      **EAC main d’œuvre**&#x200B;**de la tâche 1** = 500/0,04\
      **EAC main d’œuvre**&#x200B;**de la tâche 1** = 12 500,00 $\
@@ -439,7 +439,7 @@ Méthode EAC = Calcul au niveau du projet
    Tâche 3 = 0,44 / 6 950,00 $
 
 1. **ICP pour le projet** = .32 calculé comme suit :\
-   **ICP**&#x200B;**pour le projet** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **ICP**&#x200B;**&#x200B; pour le projet &#x200B;** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
@@ -462,7 +462,7 @@ Méthode EAC = Calcul au niveau du projet
    **ICP de la main d’œuvre**&#x200B;**pour le projet** = 0,13333\
    **ICP de la main d’œuvre**&#x200B;**pour le projet** = 0,13
 
-   **EAC de la main d’œuvre**&#x200B;**pour le projet** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC de la main d’œuvre**&#x200B;**&#x200B; pour le projet &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -529,47 +529,47 @@ Méthode EAC = Calcul au niveau du projet
    <td> </td> 
    <td> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>5 heures</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> </td> 
    <td> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>40 %</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>15 heures</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>50 %</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
    <td> <p>20 heures</p> </td> 
-   <td> <p>2 000,00 $</p> </td> 
+   <td> <p>$2,000.00</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>60 %</p> </td> 
   </tr> 
  </tbody> 
@@ -595,20 +595,20 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 1 Tâche 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>-$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>- 500,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 3 Tâche 1</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,26 +619,26 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 1 Tâche 2</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 2 Tâche 2</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 3 Tâche 2</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
+   <td> <p>-$200.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 4 Tâche 2</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -649,8 +649,8 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> <p>Dép Tâche 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -661,20 +661,20 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 4</p> </td> 
    <td> <p>Dép 1 Tâche 4</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
    <td> <p>Dép 2 Tâche 4</p> </td> 
-   <td> <p>- 100,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4 </p> </td> 
    <td> <p>Dép 3 Tâche 4</p> </td> 
-   <td> <p>-200,00</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>-200.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -685,20 +685,20 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>Dép 1 Tâche 5</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>Dép 2 Tâche 5</p> </td> 
-   <td> <p>- 100,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>Dép 3 Tâche 5</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -709,13 +709,13 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 6</p> </td> 
    <td> <p>Dép 1 Tâche 6</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
    <td> <p>Dép 2 Tâche 6</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>- 300,0 $</p> </td> 
   </tr> 
  </tbody> 
@@ -737,12 +737,12 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Dép Projet 1</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p> 0,00 $ <strong></strong></p> </td> 
   </tr> 
  </tbody> 
@@ -766,44 +766,44 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-   <td> <p>- 500,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>1 300,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$1,300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>- 100,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>1 100,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$1,100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$1000.00</p> </td> 
    <td> <p>1 500,00 $</p> </td> 
   </tr> 
  </tbody> 
@@ -823,7 +823,7 @@ Méthode EAC = Calcul au niveau du projet
    **Main-d’oeuvre ICP**&#x200B;**Tâche 2** = 100/1 000\
    **Main-d’oeuvre ICP**&#x200B;**Tâche 2** = 0,1
 
-   **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Main-d’oeuvre EAC**&#x200B;**&#x200B; Tâche 2 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -831,7 +831,7 @@ Méthode EAC = Calcul au niveau du projet
 
    * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
      **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = 500,00/0,1\
-     **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = 5 000,00 $**&#x200B;**&#x200B;**&#x200B; Dépenses EAC &#x200B;**&#x200B;**Tâche 2 &#x200B;**= Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+     **Main-d’oeuvre EAC**&#x200B;**Tâche 2** = 5 000,00 $**&#x200B;**&#x200B;**Dépenses EAC &#x200B;**&#x200B;**Tâche 2** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
      **Dépenses EAC &#x200B;**&#x200B;**Tâche 2** = 1 300,00 $ + - 400,00 $\
      **Dépenses EAC**&#x200B;**Tâche 2** = 900,00 $
 
@@ -845,7 +845,7 @@ Méthode EAC = Calcul au niveau du projet
    Tâche 6 : 1,06 / 2 366,67 $
 
 1. ICP pour la tâche 3 = 0,31 calculé comme suit :\
-   **CPI**&#x200B;**Tâche 3** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Tâche 3 &#x200B;** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -854,7 +854,7 @@ Méthode EAC = Calcul au niveau du projet
    * SINON* ICP = CPI_Labor\
      **IPC**&#x200B;**tâche 3** = (1 150 + 500) / (3 000 + 2 400)\
      **ICP**&#x200B;**Tâche 3** = 1 650/5 400\
-     **ICP**&#x200B;**Tâche 3** = .31 **&#x200B;**&#x200B;**&#x200B; CRE pour la Tâche 3 &#x200B;**= 9 521,74 $ calculé comme suit :\
+     **ICP**&#x200B;**Tâche 3** = .31 **&#x200B;**&#x200B;**CRE pour la Tâche 3** = 9 521,74 $ calculé comme suit :\
      **Main-d’œuvre ICP &#x200B;**&#x200B;**Tâche 3** = IF Coût réel de main-d’œuvre &lt;> 0 THEN
 
    ```
@@ -866,7 +866,7 @@ Méthode EAC = Calcul au niveau du projet
    **Main-d’œuvre ICP**&#x200B;**Tâche 3** = 0,383333\
    **Main-d’œuvre ICP**&#x200B;**Tâche 3** = 0,38
 
-   **Main-d’œuvre EAC**&#x200B;**Tâche 3** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Main-d’œuvre EAC**&#x200B;**&#x200B; Tâche 3 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -885,7 +885,7 @@ Méthode EAC = Calcul au niveau du projet
    **CRE**&#x200B;**tâche 3** = 9 521,74 $
 
 1. ICP de la tâche 1 = 0,16 calculé comme suit :\
-   **CPI**&#x200B;**Tâche 1** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Tâche 1 &#x200B;** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -907,7 +907,7 @@ Méthode EAC = Calcul au niveau du projet
    **ICP de main-d’œuvre**&#x200B;**Tâche 1** = 1 250 / 5 000\
    **ICP de main-d’œuvre**&#x200B;**Tâche 1** = 0,25
 
-   **EAC de main-d’œuvre**&#x200B;**Tâche 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC de main-d’œuvre = Coût prévu de main-d’œuvre / CPI_Labor
+   **EAC de main-d’œuvre**&#x200B;**&#x200B; Tâche 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN* EAC de main-d’œuvre = Coût prévu de main-d’œuvre / CPI_Labor
    * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
      **EAC de main-d’œuvre**&#x200B;**Tâche 1** = 3 000,00 $ / 0,25\
      **EAC de main-d’œuvre**&#x200B;**Tâche 1** = 12 000 $
@@ -921,7 +921,7 @@ Méthode EAC = Calcul au niveau du projet
    **CRE**&#x200B;**Tâche 1** = 17 100 $
 
 1. L’ICP du projet est de 0,25.\
-   **ICP**&#x200B;**pour le projet** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **ICP**&#x200B;**&#x200B; pour le projet &#x200B;** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -930,7 +930,7 @@ Méthode EAC = Calcul au niveau du projet
    * SINON* ICP = CPI_Labor
 
    **ICP**&#x200B;**du projet** = (2 450 + 1 900) / (11 000 + 6 700)\
-   **ICP**&#x200B;**pour le projet** =   4350 / 17700\
+   **ICP**&#x200B;**pour le projet** = 4 350 / 17700\
    **ICP**&#x200B;**du projet** = 0,25
 
 1. **EAC du projet** = 32 248,98 $ calculé comme suit :\
@@ -945,7 +945,7 @@ Méthode EAC = Calcul au niveau du projet
    **ICP du coût de main-d’œuvre**&#x200B;**pour le projet** = 0,22272\
    **ICP du coût de main-d’œuvre**&#x200B;**pour le projet** = 0,22
 
-   **EAC de main-d’œuvre**&#x200B;**pour le projet** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC de main-d’œuvre**&#x200B;**&#x200B; pour le projet &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor

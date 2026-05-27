@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: financials
 title: Gestion des informations dans la zone de financement des projets
-description: Vous pouvez afficher ou modifier les informations financières d’un projet en accédant à la zone Finances de la section Détails du projet .
+description: Vous pouvez afficher ou modifier les données financières d’un projet en accédant à la zone Finances de la section Détails du projet.
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 86%
+source-wordcount: '1282'
+ht-degree: 82%
 
 ---
 
@@ -86,7 +86,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
      </tr> 
      <tr> 
       <td role="rowheader">ICP/SPI/CSI</td> 
-      <td> <p>Il s’agit de mesures de performances de projet qui indiquent les performances de votre projet à un moment donné. Leurs valeurs sont calculées selon la méthode d’indice de performances.<br>Pour plus d’informations, voir les articles suivants : </p> 
+      <td> <p>Il s’agit de mesures de performances de projet qui indiquent les performances de votre projet à un moment donné. Leurs valeurs sont calculées en fonction de la méthode d’indice de performance.<br>Pour plus d’informations, consultez les articles suivants : </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculer l’Indice Coûts Performances (ICP)</a> </p> </li> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calculer l’Indice Horaire Performances (IHP) </a> </p> </li> 
@@ -95,7 +95,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
      </tr> 
      <tr> 
       <td role="rowheader">Estimation à l'achèvement</td> 
-      <td> Coût total prévisionnel de votre projet, représenté en heures si la méthode d’indice de performances (PIM) est basée sur les heures et représenté avec une valeur monétaire si la méthode d’indice de performances (PIM) est basée sur les coûts.<br>Pour plus d’informations sur le calcul de l’estimation à l’achèvement, consultez l’article <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculer l’estimation à l’achèvement (EAC)</a></td> 
+      <td> Coût total projeté de votre projet, exprimé en heures si la méthode d'indice de performance (PIM) est basée sur les heures, et représenté dans une valeur de devise, si la méthode d'indice de performance (PIM) est basée sur les coûts.<br>Pour plus d'informations sur le calcul de l'estimation à l'achèvement, consultez l'article <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculer l'estimation à l'achèvement (EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Budget</td> 

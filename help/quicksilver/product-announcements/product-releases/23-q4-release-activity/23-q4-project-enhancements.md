@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Dans cette version, le processus d’approbation a été simplifié pour la cré
 
 Pour plus d’informations sur l’utilisation des nouvelles approbations de documents, voir [Vue d’ensemble des nouvelles approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Mise à jour de la conception lors de l’ajout d’un nouveau problème à un projet
 
@@ -50,11 +50,11 @@ Sur les pages qui n’ont pas été modernisées, un petit nombre de champs de f
 
 Pour plus d’informations, voir [Modifier les informations dans les champs de formulaire personnalisés](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Définir le nombre d’heures prévues sur les tâches enfant récurrentes avec un type de durée simple sans affectations
 
-Nous avons modifié le mode d’affectation du nombre d’heures prévues aux tâches récurrentes sans affectations et avec un type de durée simple. Désormais, lorsque vous définissez un nombre d’heures prévues sur une nouvelle tâche récurrente avec un type de durée simple et sans affectations, les heures sont également affectées aux récurrences individuelles. Avant cette modification, les heures n’étaient pas enregistrées pour les récurrences individuelles lorsque les tâches parent n’étaient pas affectées.
+Nous avons modifié le mode d’affectation du nombre d’heures prévues aux tâches récurrentes sans affectations et avec un type de durée simple. Désormais, lorsque vous définissez un nombre d’heures prévues sur une nouvelle tâche récurrente avec un type de durée simple et sans affectations, les heures sont également affectées aux récurrences individuelles. Avant cette modification, les heures n’étaient pas enregistrées pour les récurrences individuelles lorsque les tâches parentes n’étaient pas affectées.
 
 Pour plus d’informations sur la création de tâches récurrentes, voir [Créer des tâches récurrentes](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
 

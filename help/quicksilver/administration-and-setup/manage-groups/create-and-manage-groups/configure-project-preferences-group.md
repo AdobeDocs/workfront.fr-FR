@@ -1,5 +1,5 @@
 ---
-title: Configure Project Preferences for a Group
+title: Configuration des préférences de projet pour un groupe
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2696'
 ht-degree: 95%
 
 ---
@@ -62,7 +62,7 @@ Pour plus d’informations sur la façon dont un administrateur ou une administr
   </tr>
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td>You must be a group administrator of the group or a system administrator.</td>
+   <td>Vous devez être un administrateur de groupe du groupe ou un administrateur système.</td>
   </tr>
  </tbody> 
 </table>
@@ -79,7 +79,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![Groups icon](assets/groups-icon.png).
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![icône Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe dont vous souhaitez configurer les préférences de projet.
 1. Dans le panneau de gauche, cliquez sur **Préférences de projet**.
@@ -143,7 +143,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
    <td> <p>Cette préférence crée automatiquement une référence (instantané) des détails de la tâche et du projet lorsque le statut du projet passe à Actuel. Pour plus d’informations sur la création de références, voir la section <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Créer des références de projet</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Méthode d'indice de performances </p> </td> 
+   <td role="rowheader"> <p>Méthode d’indice de performances </p> </td> 
    <td> <p>La méthode d’indice de performances (PIM) du projet contrôle la méthode utilisée par Workfront pour calculer les mesures de valeur acquise, telles que l’indice coûts/performances (CPI) et l’estimation à l’achèvement (EAC). Pour plus d’informations, voir les sections <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculer l’Indice Coûts Performances (CPI)</a> et <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculer l’estimation à l’achèvement (EAC)</a>.</p> 
     <ul> 
      <li><strong>Basé sur les heures</strong> : Workfront utilise le nombre d’heures prévues pour calculer les mesures de performances telles que l’EAC et le CPI. Lorsque le PIM est calculé en fonction des heures, l’EAC s’affiche sous la forme d’un nombre d’heures. Assurez-vous de disposer d’une valeur non nulle pour le nombre d’heures prévues.</li> 
@@ -178,8 +178,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Congés de l’utilisateur ou de l’utilisatrice
-</b></td> 
+   <td role="rowheader"><b>Congés de l’utilisateur ou de l’utilisatrice</b></td> 
    <td> <p>Ce paramètre détermine si les congés de la personne cessionnaire principale d’une tâche modifient les dates prévues pour cette tâche dans le projet.</p> 
     <ul> 
      <li> <p><strong>Tenir compte des congés de l’utilisateur ou de l’utilisatrice dans les durées de tâche</strong> : tous les congés planifiés pour la personne cessionnaire principale d’une tâche impactent les dates prévues de la tâche si les congés surviennent pendant la durée de la tâche. Il s’agit du paramètre par défaut. </p> <p>Par exemple, si une tâche dont la contrainte est définie sur Aussi Tôt que Possible doit commencer le 1er juin et se terminer le 3 juin, et que la personne cessionnaire principale a enregistré des congés pour le 2 juin, les dates prévues de la tâche passent du 1er au 4 juin.</p> <p><b>IMPORTANT</b> : la durée de la tâche ne change pas lorsque vous sélectionnez ce paramètre. Seules les dates prévues changent, en fonction de la contrainte de tâche.</p> </li> 
@@ -209,7 +208,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>When multiple users are assigned to a task use the schedule of the ...</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>Lorsque plusieurs utilisateurs sont affectés à une tâche, utilisez le planning de ...</strong> </p> </td> 
    <td> <p>Si aucun planning n’est affecté à un projet ou si aucun planning n’est affecté aux personnes affectées à ses tâches, Workfront utilise le planning par défaut du système pour calculer la chronologie des tâches.</p> <p>Si vous affectez plusieurs personnes à la même tâche dans un projet auquel un planning est affecté (et qu’un planning est également affecté aux personnes affectées aux tâches), Workfront utilise les plannings suivants :</p> 
     <ul> 
      <li><strong>Affectation principale</strong> : Workfront utilise le planning de l’affectation principale sur la tâche pour calculer les chronologies.</li> 
@@ -217,13 +216,13 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p> </td> 
   </tr> 
  <tr> 
-   <td role="rowheader"> <p><strong>When one user is assigned to a task, use the schedule of the...</strong> </p> </td> 
+   <td role="rowheader"> <p><strong>Lorsqu’un utilisateur est affecté à une tâche, utiliser la planification de...</strong> </p> </td> 
    <td> <p>Si aucun planning n’est affecté à un projet ou si aucun planning n’est affecté aux personnes affectées à ses tâches, [!DNL Workfront] utilise le planning par défaut du système pour calculer la chronologie des tâches.</p>
 
-<p>If you assign one user to a task in a project and both the project and the user have a schedule associated with them, [!UICONTROL Workfront] uses the following schedules:</p> 
+<p>Si vous affectez un utilisateur à une tâche dans un projet et qu'un planning est associé au projet et à l'utilisateur, [!UICONTROL Workfront] utilise les plannings suivants :</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
+     <li><strong>[!UICONTROL User]</strong> : planification de l’utilisateur affecté à la tâche pour calculer les chronologies.</li> 
+     <li><strong>[!UICONTROL Project]</strong> : calendrier du projet pour calculer la chronologie de la tâche.</li> 
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 

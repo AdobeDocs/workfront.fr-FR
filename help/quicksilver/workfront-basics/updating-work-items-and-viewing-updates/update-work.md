@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3154'
-ht-degree: 75%
+source-wordcount: '3171'
+ht-degree: 73%
 
 ---
 
@@ -325,7 +325,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
    >* Lorsque vous ajoutez un commentaire au nom d’une autre personne (lorsque vous vous connectez avec un autre identifiant en tant qu’administrateur ou administratrice Workfront ou de groupe), vous ne pouvez pas le modifier en cas de connexion en tant l’autre utilisateur ou utilisatrice. Vous ne pouvez modifier le commentaire que si vous vous déconnectez en tant que cet autre utilisateur ou cette autre utilisatrice et que vous vous reconnectez sous votre propre identifiant.
 
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [&#x200B; Répondre aux mises à jour &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Le cas échéant - Facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière bleue des nouveaux commentaires** en bas de l’écran pour les afficher.
 

@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Le workflow automatisé facilite la gestion de la révision et de l&#39;approbation des contenus lorsque vous avez des processus de révision complexes ou si vous envoyez régulièrement des contenus à réviser aux mêmes groupes de personnes.
 
@@ -79,9 +79,9 @@ Vous pouvez ajouter un workflow automatisé à une épreuve lors du chargement d
 
    * Une personne chargée dela révision ne peut être ajoutée à une épreuve qu’une seule fois. (Vous ne pouvez pas ajouter la même personne à plus d’une étape de l’épreuve).
    * Les personnes en charge de la révision qui sont ajoutées à une étape privée ne peuvent voir que l’étape à laquelle elles ont été ajoutées dans l’épreuve et les commentaires faits dans cette étape.
-   * Par défaut, l’ajout d’un utilisateur ou d’une utilisatrice à une étape lui donne accès pour afficher l’épreuve à partir du moment où l’épreuve est créée.\
+   * Par défaut, l’ajout d’un utilisateur à une étape lui accorde l’accès à l’affichage de l’épreuve à partir du moment où l’épreuve est créée.
 
-     L’administrateur ou l’administratrice du système peut configurer le système de vérification pour empêcher des personnes d’accéder à l’épreuve jusqu’à ce que le workflow entre dans l’étape où la personne a été ajoutée. Pour plus d’informations, consultez les ressources suivantes :
+     L’administrateur ou l’administratrice du système peut configurer le système de relecture pour empêcher des personnes d’accéder à l’épreuve jusqu’à ce que le workflow entre dans l’étape où la personne a été ajoutée. Pour plus d’informations, consultez les ressources suivantes :
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Nouvelle étape]**, puis répétez les étapes 4 et 5 pour ajouter plusieurs étapes au workflow automatisé.
 1. Poursuivez la création de l’épreuve en spécifiant les informations nécessaires dans les sections [!UICONTROL Organiser] et [!UICONTROL Autres paramètres] de la page [!UICONTROL Nouvelle épreuve], comme décrit dans la section

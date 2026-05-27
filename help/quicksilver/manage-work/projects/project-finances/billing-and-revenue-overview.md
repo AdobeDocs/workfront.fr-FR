@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4540'
-ht-degree: 73%
+source-wordcount: '4555'
+ht-degree: 74%
 
 ---
 
@@ -242,7 +242,7 @@ Il s’agit du type de revenu par défaut lorsque vous créez une tâche.</p> </
   </tr> 
   <tr> 
    <td> <p>Utilisateur ou utilisatrice et rôle par heure plus fixe</p> </td> 
-   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées toutes les heures comme dans les rôles et les utilisateurs toutes les heures, mais vous pouvez ajouter un montant fixe supplémentaire au taux. Le montant fixe spécifié dans la tâche peut être inclus dans les enregistrements de facturation du projet. Le montant fixe n'est pas multiplié par les heures de la tâche.</p></td> 
+   <td> <p>Ce type ne peut être utilisé que pour les tâches.</p> <p>Les tâches sont facturées toutes les heures comme dans les rôles et les utilisateurs toutes les heures, mais vous pouvez ajouter un montant fixe supplémentaire au taux. Le montant fixe spécifié dans la tâche peut être inclus dans les enregistrements de facturation du projet. Le montant fixe n’est pas multiplié par les heures consacrées à la tâche.</p></td> 
   </tr>
   <tr> 
    <td> <p>Fixe par heure</p> </td> 
@@ -317,7 +317,7 @@ Les scénarios suivants existent lors du calcul des revenus des tâches sur la b
     </tr> 
     <tr> 
      <td role="rowheader">Taux de facturation par heure pour les revenus réels</td> 
-     <td>Si l’utilisateur ou l’utilisatrice qui enregistre les heures a un taux de facturation dans son profil, ce taux est utilisé.
+     <td>Si l’utilisateur ou l’utilisatrice qui consigne les heures a un taux de facturation dans son profil, c’est ce taux qui est utilisé.
      <br>Dans le cas contraire, c’est le taux de facturation de leur fonction principale qui est utilisé. Si aucun taux de facturation n’est associé à l’utilisateur ou à l’utilisatrice ou à sa fonction principale, les revenus réels sont de 0,00 $. <br><p><b>NOTE</b>
 
   Seuls les taux associés à l’utilisateur ou à l’utilisatrice qui consigne les heures sont pris en compte pour le calcul, même si une autre personne est affectée à la tâche.</p></td>

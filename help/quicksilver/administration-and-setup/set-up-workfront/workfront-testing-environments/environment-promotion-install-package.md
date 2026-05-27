@@ -11,8 +11,8 @@ role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 7%
+source-wordcount: '950'
+ht-degree: 8%
 
 ---
 
@@ -33,13 +33,13 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td> <p>Standard</p>&gt;
    </td>

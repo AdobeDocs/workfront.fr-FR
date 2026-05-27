@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2427'
 ht-degree: 99%
 
 ---
@@ -105,9 +105,9 @@ Les ressources suivantes ont été modifiées pour la version 12 de l’API Wor
      <li> <p><a href="#accessrule" class="MCXref xref">AccessRule</a> </p> </li> 
      <li> <p><a href="#activitylog" class="MCXref xref">ActivityLog</a> </p> </li> 
      <li> <p><a href="#announcementattachment" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
-     <li> <p><a href="#approval" class="MCXref xref">Approval</a> </p> </li> 
+     <li> <p><a href="#approval" class="MCXref xref">Approbation</a> </p> </li> 
      <li> <p><a href="#calendarsection" class="MCXref xref">CalendarSection</a> </p> </li> 
-     <li> <p><a href="#company" class="MCXref xref">Company</a> </p> </li> 
+     <li> <p><a href="#company" class="MCXref xref">Entreprise</a> </p> </li> 
      <li> <p><a href="#customer" class="MCXref xref">Customer</a> </p> </li> 
     </ul> </td> 
    <td> 
@@ -120,7 +120,7 @@ Les ressources suivantes ont été modifiées pour la version 12 de l’API Wor
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
      <li> <p><a href="#parameter" class="MCXref xref">Paramètre</a> </p> </li> 
      <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
-     <li> <p><a href="#program" class="MCXref xref">Program</a> </p> </li> 
+     <li> <p><a href="#program" class="MCXref xref">Programme</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -128,11 +128,11 @@ Les ressources suivantes ont été modifiées pour la version 12 de l’API Wor
      <li> <p><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </p> </li> 
      <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Tâche</a> </p> </li> 
-     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Équipe</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
-     <li> <p><a href="#user" class="MCXref xref">User</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">Work</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Feuille de temps</a> </p> </li> 
+     <li> <p><a href="#user" class="MCXref xref">Utilisateur ou utilisatrice</a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref">Travail</a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -481,7 +481,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
      <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Ajout des valeurs possibles :</p> 
       <ul> 
        <li style="font-weight: normal;">password:zoomInegrationEnabled (Activer l’intégration Zoom dans le flux de mises à jour)</li> 
-       <li style="font-weight: normal;"> password:quipIntegrationEnabled (config.general.quip.enabled)</li> 
+       <li style="font-weight: normal;"> password:quipIntegrationEnabled (config.general.quip.enabled)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -804,7 +804,7 @@ Pour plus d’informations sur les questions relatives aux cartes de performance
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible RICH (champ de texte avec formatage) </p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Champs de texte enrichi dans l’API Adobe Workfront</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible RICH (champ de texte avec formatage) </p> <p style="font-weight: normal;">Pour plus d’informations, voir <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Champs de texte enrichi dans l’API Adobe Workfront</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1008,7 +1008,7 @@ Un objet Work est une interface commune dont Task et OpTask héritent tous deux 
        <li> <p>1 (petit)</p> </li> 
        <li> <p>2 (moyen)</p> </li> 
        <li> <p>3 (grand)</p> </li> 
-      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, voir <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Vue d’ensemble de l’effort de travail</a>.</p> </li> 
+      </ul> <p>Pour plus d’informations sur l’effort de travail dans Workfront, voir la section <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Vue d’ensemble de l’effort de travail</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 
