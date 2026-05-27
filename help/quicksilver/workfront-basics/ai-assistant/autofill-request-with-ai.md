@@ -1,5 +1,5 @@
 ---
-title: Remplir automatiquement une demande à l’aide de l’IA
+title: Remplir automatiquement une requête à l’aide de l’IA
 content-type: reference
 description: Vous pouvez utiliser l’IA pour remplir automatiquement les champs de requête.
 author: Becky
@@ -7,12 +7,12 @@ feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 0%
+source-wordcount: '142'
+ht-degree: 8%
 
 ---
 
-# Remplir automatiquement une demande à l’aide de l’IA
+# Remplir automatiquement une requête à l’aide de l’IA
 
 L’IA peut vous aider à remplir automatiquement les champs de requête. Il peut suggérer des valeurs de champ en fonction de requêtes précédentes ou les analyser à partir de texte tel que des e-mails ou des documents chargés.
 

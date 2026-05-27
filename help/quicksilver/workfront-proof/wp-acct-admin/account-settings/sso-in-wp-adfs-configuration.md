@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
 source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 99%
+source-wordcount: '952'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Si vous êtes administrateur ou administratrice sur votre serveur AD, vous pouvez installer et configurer AD FS.
 
@@ -49,21 +49,21 @@ Si vous êtes administrateur ou administratrice [!DNL Workfront Proof], vous pou
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**, puis ouvrez l’onglet **[!UICONTROL Authentification unique]**.
 
 1. Dans la boîte **URL SSO**, collez votre identifiant d’entité.
-Voici un exemple d’identifiant d’entité :
-http://*&lt;adfs.your-company.com>*/adfs/services/trust
-Votre identifiant d’entité se trouve dans votre fichier XML de métadonnées de fédération.
+Voici un exemple d’ID d’entité :
+*&lt;adfs.your-company.com>*/adfs/services/trust
+Votre ID d’entité se trouve dans votre fichier XML de métadonnées de fédération.
    ![ProofHQ_configuration_02.png](assets/proofhq-configuration-02-350x80.png)
 
-1. Les métadonnées de fédération se trouvent dans le dossier Composant logiciel enfichable AD FS 2.0 > Service > Points d’entrée. Dans la section Métadonnées, recherchez celles qui possèdent le type de métadonnées de fédération. Pour afficher les métadonnées, collez ce point d’entrée dans votre navigateur. Vous pouvez également accéder directement à ce lien : https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml après avoir remplacé {adfs.your-company.com} par vos propres détails.
+1. Les métadonnées de fédération se trouvent dans le dossier Composant logiciel enfichable AD FS 2.0 > Service > Points d’entrée. Dans la section Métadonnées, recherchez celles qui possèdent le type de métadonnées de fédération. Pour afficher les métadonnées, collez ce point d’entrée dans votre navigateur. Vous pouvez également accéder directement à ce lien : *&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml après avoir remplacé le {adfs.your-company.com} par vos propres détails.
 1. Dans la zone **[!UICONTROL URL de connexion]**, collez votre connexion SSO.
 1. Voici un exemple de connexion SSO :
-1. http://*&lt;adfs.your-company.com>*/adfs/ls.
+1. http://*<adfs.your-company.com>*/adfs/ls.
 1. Ce lien se trouve dans le fichier XML des métadonnées de fédération.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
 1. Dans la boite **[!UICONTROL URL de déconnexion]**, saisissez le lien et enregistrez.
-Voici un exemple d’URL de déconnexion :
-https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
+Voici un exemple d’URL de déconnexion :
+*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
    1. Accédez à votre gestionnaire AD FS > Relations de confiance > Parties de confiance - propriétés ProofHQ.
    1. Sous Points d’entrée, cliquez sur [!UICONTROL Ajouter et saisir] avec les détails suivants :
@@ -87,14 +87,14 @@ Une fois la configuration terminée, vous devez travailler dans la section Parti
 1. Accédez au dossier **[!UICONTROL Relations de confiance]** > **[!UICONTROL Parties de confiance]**, puis cliquez sur **[!UICONTROL Ajouter une partie confiance]** pour lancer l’assistant de configuration.
 
 1. Sélectionnez votre source de données.
-Toutes les métadonnées de votre compte [!DNL ProofHQ] sont accessibles via un lien comme celui-ci :
+Toutes les métadonnées de votre compte [!DNL ProofHQ] se trouvent sous un lien comme celui-ci :
 https://`<yoursubdomain*>`.proofhq.com/saml/module.php/saml/sp/metadata.php/phq
-Cela effectue la majorité de la configuration de la partie de confiance.
+Cela configure la plupart de l&#39;approbation de partie de confiance.
 
    >[!NOTE]
    >
    >* Si vous rencontrez des problèmes lors de l’établissement de la connexion à partir de l’URL, enregistrez les métadonnées sous forme de fichier et choisissez d’importer les données à partir d’un fichier.
-   >* Si vous disposez d’un domaine personnalisé complet (par exemple, www.votre-relecture.com) configuré sur votre compte [!DNL ProofHQ] remplacez tout la partie « {yoursubdomain}.proofhq.com » par votre propre domaine pour créer votre lien de métadonnées [!DNL ProofHQ].
+   >* Lorsqu’un domaine personnalisé complet (par exemple, www.your-proofing.com) est configuré sur votre compte [!DNL ProofHQ], remplacez l’ensemble de la partie « {yoursubdomain}.proofhq.com » par votre propre domaine pour créer votre lien de métadonnées [!DNL ProofHQ].
 
 
 ## Configurer des règles de revendication

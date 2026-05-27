@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '3974'
+source-wordcount: '4155'
 ht-degree: 98%
 
 ---
@@ -47,7 +47,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
-the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/fr-fr/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/fr-fr/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Améliorations apportées à Adobe Workfront
@@ -68,7 +68,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">Configurer un formulaire personnalisé pour qu’il fonctionne avec plusieurs types d’objets</a> </p> <p>Vous pouvez désormais configurer un formulaire personnalisé nouveau ou existant pour qu’il fonctionne avec plusieurs types d’objets, ce qui rend le formulaire beaucoup plus utile. Les utilisateurs et utilisatrices pourront joindre et remplir le formulaire sur tous les types d’objets pour lesquels vous l’avez configuré.</p> <p>Auparavant, vous pouviez configurer un formulaire personnalisé pour qu’il ne fonctionne qu’avec un seul type d’objet.</p> <p>Cette fonctionnalité fonctionne avec tous les formulaires personnalisés créés précédemment dans votre système Workfront. Par exemple, si vous disposez déjà d’un formulaire personnalisé créé pour le type d’objet Tâche, vous pouvez maintenant le configurer pour qu’il fonctionne également avec d’autres types d’objets, tels que Projet et Problème.</p> </td> 
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -159,7 +159,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de sortie et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Les panoramas Adobe Workfront sont désormais disponibles !</a> </p> <p>Les panoramas sont des outils flexibles qui permettent la collaboration en équipe en donnant accès à un panorama partagé contenant des colonnes et des cartes. </p> <p>Grâce aux panoramas, vous pouvez rapidement configurer un panorama de tâches avec plusieurs colonnes, configurer les colonnes pour qu’elles affichent un statut ou une catégorie, ajouter d’autres utilisateurs et utilisatrices au panorama et les affecter à des cartes, etc.</p> </td> 
@@ -234,7 +234,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de la conversion d’un problème en projet à l’aide d’un modèle à l’échelle du problème</a> </p> <p>Afin d’harmoniser votre utilisation de Workfront avec la nouvelle expérience Workfront, nous avons repensé l’interface de conversion d’un problème en projet lorsque vous utilisez un modèle et que vous le convertissez à partir de la page du problème.</p> <p>Vous pouvez désormais accéder plus facilement à votre liste de favoris immédiatement après avoir choisi de convertir le problème.</p> <p>L’interface reconçue correspond à l’expérience de création d’un projet à partir d’un modèle que nous avons mis à jour récemment.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de la conversion d’un problème en projet à l’aide d’un modèle au niveau du problème</a> </p> <p>Afin d’harmoniser votre utilisation de Workfront avec la nouvelle expérience Workfront, nous avons repensé l’interface de conversion d’un problème en projet lorsque vous utilisez un modèle et que vous le convertissez à partir de la page du problème.</p> <p>Vous pouvez désormais accéder plus facilement à votre liste de favoris immédiatement après avoir choisi de convertir le problème.</p> <p>L’interface reconçue correspond à l’expérience de création d’un projet à partir d’un modèle que nous avons mis à jour récemment.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 8 décembre 2021<br></p> </li> 
@@ -260,8 +260,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 18 février 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -292,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -318,7 +317,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">Amélioration de la navigation dans l’équilibreur de charge de travail</a> </p> <p>Afin d’améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons introduit les améliorations suivantes :</p> 
@@ -372,7 +371,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-home-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">Amélioration des filtres dans la liste de travail de l’accueil</a> </p> <p>Pour mieux contrôler et vous concentrer sur votre liste de travail, nous avons apporté plusieurs améliorations aux filtres de la zone Accueil. Grâce aux nouvelles améliorations, vous pouvez sélectionner des filtres par type d’objet et affiner davantage vos résultats en fonction de l’état de vos éléments de travail (par exemple, Prêt à démarrer, En cours de traitement ou Demandé). Les nouveaux filtres de la page d’accueil fournissent désormais un nombre correct de tâches, de problèmes, d’éléments de travail personnels et d’approbations lorsque vous appliquez une combinaison de filtres de type d’objet et d’état de l’élément de travail.</p> <p>Avant cette expérience, les filtres de la zone Accueil ne fournissaient pas un décompte précis du nombre d’éléments de travail dans la liste lorsque vous sélectionniez un ou plusieurs filtres, ce qui créait une confusion quant à l’état des éléments de travail.</p> </td> 
@@ -396,7 +395,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-mobile-enhancements.md#drawings" class="MCXref xref" xrefformat="{para}">Dessins et commentaires sur les documents épreuve dans l’application mobile</a></p> <p>L’application mobile Adobe Workfront permet désormais d’ajouter des dessins et des commentaires sur les documents épreuve. Une nouvelle barre d’outils sur l’épreuve contient des outils de dessin pour les formes. Vous pouvez choisir des paramètres tels que la couleur et l’épaisseur du trait pour chaque forme. Dessiner une forme sur l’épreuve connecte votre commentaire à cette zone du document épreuve.</p> <p>Vous pouvez également répondre aux commentaires d’autres personnes sur l’épreuve.</p> </td> 
@@ -438,15 +437,14 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de sortie et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Adobe Workfront avec intégration à Anaplan désormais disponible</a> </p> <p>Pour vous donner plus de flexibilité et de visibilité sur les aspects financiers de vos projets Workfront, Workfront peut désormais s’intégrer à votre compte Anaplan. En reliant les objets Workfront à ceux d’Anaplan, vous pouvez mettre à jour automatiquement les informations entre les deux comptes, ce qui garantit que les informations contenues dans les deux comptes sont à jour et identiques. </p> <p>Vous pouvez également déclencher des processus automatisés dans Anaplan sur la base d’actions dans Workfront (et vice versa).</p> <p>Par exemple, vous pouvez créer une campagne dans Anaplan, puis créer un projet ou un programme Workfront lié à la campagne. Tous les coûts suivis dans Workfront peuvent ensuite être chargés dans Anaplan pour examiner les performances de la campagne.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 10 mars 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -476,8 +474,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 3 mars 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -488,8 +485,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 24 février 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -500,8 +496,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 17 février 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -540,7 +535,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de sortie et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md#enhancem" class="MCXref xref" xrefformat="{para}">Mises à jour de l’aspect pendant la période de la version 22.2</a> </p> <p>Des mises à jour mineures de l’aspect de diverses zones de l’application Adobe Workfront sont effectuées pendant la période de la version 22.2. Ces améliorations seront disponibles dans l’environnement de production au moins deux semaines après le lancement de la version préliminaire. </p> </td> 
@@ -563,8 +558,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 10 mars 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -579,8 +573,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>Disponible à ces dates :</strong> 
     <ul> 
      <li> <p>Version préliminaire : 10 mars 2022<br></p> </li> 
-     <li> <p>Version de production : avec la version 22.2
-</p> </li> 
+     <li> <p>Version de production : avec la version 22.2</p> </li> 
     </ul> <p><strong>Disponible dans ces environnements :</strong> </p> 
     <ul> 
      <li> <p>La nouvelle expérience Adobe Workfront </p> </li> 
@@ -625,13 +618,13 @@ Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouve
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](../../../wf-api/api/api-version-support-schedule.md).
 
-## Mises à jour de maintenance pour Workfront 
+## Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la sortie de la version 22.2, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 
 ## Webinaire sur la version 22.2
 
-Le webinaire sur la version 22.2 de Workfront sera présenté le 24 mars 2022 à 8 h 00 (UTC-7). Vous pouvez vous inscrire à cet événement sur la [page des événements sur Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+Le webinaire sur la version 22.2 de Workfront sera présenté le 24 mars 2022 à 8:00 HNR. Vous pouvez vous inscrire à cet événement sur la [page des événements sur Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

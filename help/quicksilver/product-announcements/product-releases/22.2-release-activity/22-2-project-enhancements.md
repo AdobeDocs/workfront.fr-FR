@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1099'
 ht-degree: 99%
 
 ---
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-la semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+La semaine du 4 avril 2022. Pour obtenir la liste de toutes les modifications disponibles avec la version 22.2, voir [Présentation de la version 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Les panoramas Adobe Workfront sont désormais disponibles !
 
