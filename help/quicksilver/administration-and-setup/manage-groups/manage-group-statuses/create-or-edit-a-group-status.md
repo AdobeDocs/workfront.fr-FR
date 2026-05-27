@@ -10,7 +10,7 @@ role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
 source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1337'
 ht-degree: 89%
 
 ---
@@ -19,8 +19,7 @@ ht-degree: 89%
 
 En tant qu’administrateur ou administratrice de groupe, vous pouvez créer des statuts personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines de statuts personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
 
-Vous pouvez également modifier le statut d’un groupe que vous gérez à l’échelle du système si un administrateur ou une administratrice Workfront a déverrouillé le statut.
-Pour plus d’informations, voir [Statuts verrouillés et déverrouillés à l’échelle du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+Vous pouvez également modifier le statut d’un groupe que vous gérez à l’échelle du système si un administrateur ou une administratrice Workfront a déverrouillé le statut. Pour plus d’informations, voir [Statuts verrouillés et déverrouillés à l’échelle du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 
@@ -83,7 +82,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![Liste de Principal &#x200B;](assets/master-list.png)
+   ![Liste de Principal ](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -171,7 +170,7 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 1. Cochez la case correspondant au statut à modifier, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
 
-   ![Modifier le statut &#x200B;](assets/group-statuses-edit-new.png)
+   ![Modifier le statut ](assets/group-statuses-edit-new.png)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 

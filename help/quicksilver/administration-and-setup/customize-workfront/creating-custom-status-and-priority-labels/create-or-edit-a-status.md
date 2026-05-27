@@ -10,7 +10,7 @@ role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '950'
 ht-degree: 95%
 
 ---
@@ -83,7 +83,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    Si vous modifiez un statut existant, cochez la case correspondante, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
-   ![&#x200B; Modifier le statut personnalisé &#x200B;](assets/edit-in-banner.png)
+   ![ Modifier le statut personnalisé ](assets/edit-in-banner.png)
 
 1. Configurez le statut à l’aide des options suivantes :
 

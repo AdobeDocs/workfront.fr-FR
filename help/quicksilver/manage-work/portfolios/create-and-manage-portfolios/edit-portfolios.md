@@ -2,7 +2,7 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Modifier les portefeuilles
-description: Vous pouvez modifier les informations des portefeuilles que vous avez créés ou que d’autres utilisateurs ont créés s’ils les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un portfolio, si vous disposez des autorisations nécessaires pour le faire.
+description: Vous pouvez modifier des informations sur les portfolios que vous avez créés ou que d’autres personnes ont créés si elles les ont partagés avec vous. Cet article décrit comment rechercher, rechercher et modifier un portfolio, si vous disposez des autorisations nécessaires pour le faire.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 60%
+source-wordcount: '1084'
+ht-degree: 62%
 
 ---
 
@@ -103,7 +103,7 @@ Old:
 
    1. Cliquez sur le nom d’un portfolio pour l’ouvrir, puis cliquez sur **[!UICONTROL Détails du]** dans le panneau de gauche.
 
-      ![Onglet Détails de &#x200B;](assets/portfolio-details-tab-nwe-350x163.png)
+      ![Onglet Détails de ](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -197,7 +197,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Ajoutez le nom d’un groupe unique si le groupe est associé au portfolio ou a la responsabilité de le terminer. </p> <p>Conseil :  <p>Lors de l’accès au champ [!UICONTROL Group] à partir de la page [!UICONTROL Portfolio Details], procédez comme suit : </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en le survolant et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celui-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Cette option n’est pas disponible dans la zone [!UICONTROL Edit Portfolio]. </p> </p> </td> 
+      <td> <p>Ajoutez le nom d’un groupe unique si le groupe est associé au portfolio ou a la responsabilité de le terminer. </p> <p>Conseil :  <p>Lors de l’accès au champ [!UICONTROL Group] à partir de la page [!UICONTROL Portfolio Details], procédez comme suit : </p> <p>Vous pouvez vous assurer que vous sélectionnez le groupe approprié en pointant dessus et en cliquant sur l’icône [!UICONTROL information] <img src="assets/info-icon.png"> qui s’affiche en regard de celle-ci. Une info-bulle s’affiche, répertoriant les informations relatives au groupe, telles que la hiérarchie des groupes au-dessus et son équipe d’administration.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Cette option n’est pas disponible dans la zone [!UICONTROL Edit Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
@@ -221,7 +221,7 @@ Old:
 
    >[!NOTE]
    >
-   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé. tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur [!UICONTROL **Enregistrer**] et continuez à modifier les sections suivantes.
 

@@ -10,8 +10,8 @@ role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 28%
+source-wordcount: '1220'
+ht-degree: 26%
 
 ---
 
@@ -130,7 +130,7 @@ Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksil
 
 1. (Conditionnel) Pour un taux de facturation, saisissez le **Taux de facturation** pour cette fonction.
 
-   Il s’agit du taux horaire de facturation de la fonction. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les revenus prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
+   Il s’agit du taux de facturation horaire de la fonction. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les revenus prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
 
    Si vous utilisez des attributs, les attributs et la fonction se combinent pour définir un taux unique. Par exemple, un rôle Designer à New York pour l’Agence A peut avoir un taux distinct d’un rôle Designer à Paris pour l’Agence B.
 
@@ -148,7 +148,7 @@ Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksil
 
 1. (Conditionnel) Pour un taux de coût, saisissez le **Taux de coût** pour cette fonction.
 
-   Il s’agit du coût horaire de la fonction. Cette valeur calcule les coûts prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les coûts prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
+   Il s’agit du taux de coût horaire de la fonction. Cette valeur calcule les coûts prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les coûts prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
 
    Si vous utilisez des attributs, les attributs et la fonction se combinent pour définir un taux unique. Par exemple, un rôle Designer à New York pour l’Agence A peut avoir un taux distinct d’un rôle Designer à Paris pour l’Agence B.
 

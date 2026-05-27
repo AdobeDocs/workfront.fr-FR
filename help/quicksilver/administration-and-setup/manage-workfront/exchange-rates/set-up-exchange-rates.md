@@ -10,7 +10,7 @@ author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '839'
 ht-degree: 41%
 
 ---
@@ -111,7 +111,7 @@ Les dates de validité des taux de change d&#39;une devise sont configurées de 
 
 1. Saisissez la nouvelle valeur **Taux de change**.
 1. (Facultatif) Cliquez sur **Ajouter une date de validité du taux** pour ajouter d&#39;autres taux de change avec des dates de validité pour cette devise.
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
 ## Permettre aux utilisateurs et utilisatrices de modifier la devise par défaut d’un projet
 
