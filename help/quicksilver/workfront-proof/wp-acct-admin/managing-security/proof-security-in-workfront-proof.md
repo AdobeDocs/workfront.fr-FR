@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 99%
+source-wordcount: '349'
+ht-degree: 97%
 
 ---
 
@@ -55,4 +55,4 @@ Par défaut, les réviseurs et réviseuses peuvent télécharger le fichier orig
 
 Les paramètres enregistrés dans vos paramètres personnels sont appliqués à toutes les épreuves que vous avez créées, mais ils peuvent être remplacés lors de la création d’une épreuve ou lors de la modification d’une épreuve, comme décrit dans la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Vous pouvez désactiver les téléchargements de fichiers en modifiant vos paramètres d’épreuve personnels, comme décrit dans la section [Configurer des paramètres d’épreuve dans [!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Vous pouvez désactiver les téléchargements de fichiers en modifiant vos paramètres d’épreuve personnels, comme décrit dans la section [Configurer des paramètres d’épreuve dans [!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

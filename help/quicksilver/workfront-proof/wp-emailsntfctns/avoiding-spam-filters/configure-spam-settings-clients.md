@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -196,7 +196,7 @@ Pour supprimer des adresses [!DNL Workfront Proof] « [!UICONTROL de] » de la
 Dans cette section :
 
 * Ajoutez les deux adresses [!DNL Workfront Proof] « [!UICONTROL de] » à votre [!DNL Aol] [!UICONTROL Carnet d’adresses]
-* Supprimer tous les e-mails [!DNL Workfront Proof] existants du dossier [!DNL Aol] [!UICONTROL Spam] et toutes les adresses [!DNL Workfront Proof] « [!UICONTROL De] » de la liste d’adresses bloquées dans le filtre [!UICONTROL Spam] [!DNL Aol]r 
+* Supprimer tous les e-mails [!DNL Workfront Proof] existants du dossier [!DNL Aol] [!UICONTROL Spam] et toutes les adresses [!DNL Workfront Proof] « [!UICONTROL De] » de la liste d’adresses bloquées dans le filtre [!UICONTROL Spam] [!DNL Aol]r
 
 ### Pour les nouveaux e-mails [!DNL Workfront Proof]
 

@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
-title: Gérer une relation de partenariat entre des comptes  [!DNL Workfront Proof]
+title: 'Gérer une relation de partenariat entre des comptes  [!DNL Workfront Proof] '
 description: Si vous collaborez avec une autre organisation qui utilise également un  [!DNL Workfront Proof]  (par exemple, un autre service de votre société ou un client), vous pouvez configurer une relation de partenariat entre les deux comptes. La configuration d’une relation de partenariat entre votre compte et une autre organisation vous permettra de partager des épreuves, des fichiers, des dossiers et des coordonnées avec vos partenaires.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ee06c9a7-baeb-4c2b-a6c5-ec4ac542dd5a
 source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '721'
 ht-degree: 100%
 
 ---

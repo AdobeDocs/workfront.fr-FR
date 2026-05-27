@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: '« Workfront Proof : index des articles »'
+title: 'Workfront Proof : index des articles'
 description: Apprenez à utiliser le produit autonome Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents

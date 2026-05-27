@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configurer les e-mails  [!DNL Workfront Proof]  pour éviter les filtres anti-spam
-description: '« Le filtre anti-spam de votre client de messagerie a un objectif important : vous protéger contre les spams embêtants et potentiellement malveillants. Cependant, si vous ne disposez pas des paramètres appropriés dans le filtre anti-spam, cela peut vous empêcher de voir les e-mails  [!DNL Workfront Proof]  importants suivants : notifications d’épreuve par e-mail, newsletters, et communications spéciales. »'
+description: 'Le filtre anti-spam de votre client de messagerie a un objectif important : vous protéger contre les spams embêtants et potentiellement malveillants. Cependant, si le filtre anti-spam ne contient pas les paramètres corrects, il peut vous empêcher de voir les e [!DNL Workfront Proof] mails importants suivants : les notifications par e-mail concernant les épreuves, les newsletters et les communications spéciales.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 94%
 
 ---
 

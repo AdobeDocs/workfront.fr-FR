@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Personnaliser le branding du site  [!DNL Workfront Proof]
+title: 'Personnaliser le branding du site  [!DNL Workfront Proof] '
 description: En tant qu’administrateur ou administratrice de  [!DNL Workfront Proof] , vous pouvez personnaliser votre compte  [!DNL Workfront Proof]  pour vous offrir, ainsi qu’à vos utilisateurs et utilisatrices, une expérience plus personnalisée.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '591'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ Pour configurer l’image de branding des e-mails, procédez comme suit :
 
    Pour plus d’informations sur les différents paramètres de compte que vous pouvez configurer, consultez [Paramètres du compte.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Sélectionnez l’onglet **[!UICONTROL Paramètres]**.
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**.
 1. Dans la section **[!UICONTROL Branding]**, cliquez sur **[!UICONTROL Modifier]** en regard de l’image de l’application E-mail (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
