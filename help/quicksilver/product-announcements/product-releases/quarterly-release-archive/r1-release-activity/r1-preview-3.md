@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1353'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Cette page décrit toutes les modifications disponibles dans l’environnement de prévisualisation avec la version R1.3. La fonctionnalité de cette page a été rendue disponible dans l’environnement de prévisualisation le 1er février 2017.
 
-Pour obtenir la liste de toutes les modifications apportées à la version R1, voir [Vue d’ensemble de l’activité de la version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version R1, voir [Vue d’ensemble de l’activité de la version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Méthode améliorée de liaison de fichiers externes
 
@@ -103,7 +103,7 @@ Lorsque vous effectuez ce remplacement, les zones suivantes de l’application a
 
 * Barre de navigation globale
 * Tous les onglets
-* Tous les menus
+* Tous les menus 
 * Les éléments de Report Builder et de création de rapports (vues, filtres et regroupements)
 * Boutons Enregistrer
 * Fichiers exportés
@@ -116,7 +116,7 @@ Les zones suivantes n’affichent pas le nom mis à jour des objets :
 * Planificateur de capacités
 * Grille des ressources
 * Team Builder
-* Optimisateur de portfolio
+* Optimisateur de portfolio 
 * Applications mobiles
 * Module complémentaire Outlook
 

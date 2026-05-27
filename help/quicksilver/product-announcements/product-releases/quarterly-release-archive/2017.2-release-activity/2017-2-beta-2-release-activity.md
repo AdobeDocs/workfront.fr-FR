@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2017.2 bêta 2
-description: Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
+title: Activité de la version 2017.2 Beta 2
+description: Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2017.2 bêta 2
+# Activité de la version 2017.2 Beta 2
 
-Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
+Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Cette page décrit tous les changements disponibles dans l’environnement de pr
 
 Pour une liste de tous les changements apportés avec la version 2017.2, voir [Vue d’ensemble de l’activité de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La version 2017.2 bêta 2 contient des améliorations pour les équipes d’administration de Workfront et les autres utilisateurs et utilisatrices :
+La version 2017.2 Beta 2 contient des améliorations pour les équipes d’administration de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices :**
 
@@ -43,7 +43,7 @@ La version 2017.2 bêta 2 contient des améliorations pour les équipes d’ad
 
 Désormais, lorsqu’une action se produit sur un objet Workfront qui est pris en charge par les abonnements aux événements, vous pouvez configurer Workfront pour qu’il envoie une réponse au point d’entrée de votre choix. Cela signifie que vos intégrations peuvent interagir avec l’API Workfront en temps réel.
 
-Pour plus d’informations, voir [API d’abonnement aux événements](../../../../wf-api/general/event-subs-api.md).
+Pour plus d’informations, voir [API d’abonnement aux événements](../../../../wf-api/general/event-subs-api.md). 
 
 ## S’abonner aux projets {#subscribe-to-projects}
 
@@ -55,7 +55,7 @@ Pour plus d’informations sur l’abonnement aux éléments, voir [S’abonner 
 
 Vous pouvez vous désabonner d’éléments en utilisant le lien « Se désabonner » dans l’e-mail d’abonnement. Auparavant, vous ne pouviez vous désabonner d’un élément qu’à partir de l’interface Workfront.
 
-Pour plus d’informations sur la désinscription à partir des e-mails d’abonnement, voir la section « Désactiver les notifications par e-mail » dans [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md)
+Pour plus d’informations sur la désinscription à partir des e-mails d’abonnement, voir la section « Désactiver les notifications par e-mail » dans [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md) 
 
 ## Configurer l’affichage des jalons sur le graphique de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
@@ -106,7 +106,7 @@ Le nouvel objet Demande du rapport d’approbation d’épreuve contient tous le
 
 >[!NOTE]
 >
->Ces informations ne sont disponibles dans le rapport qu’à partir du moment où cette fonctionnalité a été introduite pour la première fois dans les environnements de prévisualisation ou de production respectifs ; les informations contenues dans les rapports concernant l’objet Demande avant l’introduction de cette fonctionnalité ne sont pas disponibles.
+> Ces informations ne sont disponibles dans le rapport qu’à partir du moment où cette fonctionnalité a été introduite pour la première fois dans les environnements de prévisualisation ou de production respectifs ; les informations contenues dans les rapports concernant l’objet Demande avant l’introduction de cette fonctionnalité ne sont pas disponibles.
 
 Vous accédez à l’objet Demande lors de la création d’un rapport d’approbation d’épreuve, comme décrit dans [Créer un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

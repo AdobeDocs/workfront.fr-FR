@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 6b9b847c-dfb5-4285-b8fc-72f33c6a54d0
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ VIDÉO
 
 ## Modifier la couleur d’arrière-plan dans la visionneuse de relecture de bureau {#change-the-background-color-in-the-desktop-proofing-viewer}
 
-Vous pouvez désormais modifier la couleur d’arrière-plan de la visionneuse de relecture de bureau, de la couleur par défaut proche du noir à la couleur blanche. Il est ainsi plus facile de réviser le contenu d’une épreuve qui a un arrière-plan transparent.
+Vous pouvez désormais modifier la couleur d’arrière-plan de la visionneuse de relecture de bureau, de la couleur par défaut proche du noir à la couleur blanche. Il est ainsi plus facile d’effectuer la relecture d’un contenu dont l’arrière-plan est transparent.
 
 Pour plus d’informations, consultez la section [Configurer les paramètres de la visionneuse de relecture](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 

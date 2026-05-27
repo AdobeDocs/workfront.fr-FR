@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 99%
+source-wordcount: '1158'
+ht-degree: 97%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->La version 18.2 a été publiée dans l’environnement de production aux dates suivantes :
+> La version 18.2 a été publiée dans l’environnement de production aux dates suivantes :
 >
 >* Environnement de production Workfront Proof - Mardi 17 juillet
->* Environnement de production Workfront pour les clusters 2 et 4 - Jeudi 19 juillet
+>* Environnement de production Workfront pour les clusters 2 et 4 - Jeudi 19 juillet 
 >* Environnement de production Workfront pour les clusters 1, 3 et 5 - Vendredi 20 juillet
 >
 
@@ -36,9 +36,9 @@ La version 2018.2 contient des améliorations pour les équipes d’administrat
 ## Améliorations pour les administrateurs et administratrices {#enhancements-for-administrators}
 
 * [Spécifier les services de diffusion par e-mail pour répondre aux notifications par e-mail de Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [Afficher les modifications déclenchées par l’utilisateur ou l’utilisatrice à l’aide des journaux d’audit](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-user-triggered-changes-with-audit-logs)
-* [Afficher les informations sur les licences en tant qu’administrateur ou administratrice de groupes](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-license-information-as-a-group-administrator)
-* [Réglage du système : informations de session dans les pages externes](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#system-setting-session-information-in-external-pages)
+* [Afficher les modifications déclenchées par l’utilisateur ou l’utilisatrice à l’aide des journaux d’audit](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-user-triggered-changes-with-audit-logs) 
+* [Afficher les informations sur les licences en tant qu’administrateur ou administratrice de groupes](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-license-information-as-a-group-administrator) 
+* [Réglage du système : informations de session dans les pages externes](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#system-setting-session-information-in-external-pages) 
 * [Gérer les licences dans votre système](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#manage-licenses)
 * [Temps de connexion en jours](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#log-time-in-days)
 
@@ -49,10 +49,10 @@ La version 2018.2 contient des améliorations pour les équipes d’administrat
 * [Prise en chage des icônes pour les nouvelles listes de projets](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
 * [Redimensionnement de la largeur des colonnes pour les listes de projets](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
 * [Ajout d’un champ « Grande miniature » dans les vues de documents](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
-* [Filtres rapides pour les listes de projets](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists)
-* [Augmentation de la limite d’export Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit)
-* [Prise en charge de Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives)
-* [Nouvelle limite d’export pour le graphique de Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart)
+* [Filtres rapides pour les listes de projets](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
+* [Augmentation de la limite d’export Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
+* [Prise en charge de Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
+* [Nouvelle limite d’export pour le graphique de Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [Affichage des relations de projet transversal antérieur dans le graphique de Gantt d’une liste de projets](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
 * [Utilisation des coûts budgétés dans l’optimisateur de portfolio pour calculer les finances du portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [Modification des dates des tâches dans le graphique de Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
@@ -62,15 +62,15 @@ La version 2018.2 contient des améliorations pour les équipes d’administrat
 
 ### Zone Page de départ (zone Mon travail mis à jour)
 
-* [Vue du calendrier dans la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
-* [Mises à jour supplémentaires de la liste de travail (panneau de gauche) dans la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)
-* [Mise à jour de la liste de travail (panneau de gauche) dans la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area)
+* [Vue du calendrier dans la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
+* [Mises à jour supplémentaires de la liste de travail (panneau de gauche) dans la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home) 
+* [Mise à jour de la liste de travail (panneau de gauche) dans la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [Modification des champs directement à partir de la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
 ### Amélioration apportées à la gestion des ressources.
 
-* [Amélioration des vues de projet et de rôle dans le planificateur de ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner)
-* [Configuration des limites de fonction pour la planification automatisée des ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling)
+* [Amélioration des vues de projet et de rôle dans le planificateur de ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner) 
+* [Configuration des limites de fonction pour la planification automatisée des ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling) 
 * [Exporter la vue utilisateur dans le planificateur de ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#exporting-the-user-view-in-the-resource-planner)
 * [Rapport d’utilisation : remplit les heures budgétées à partir de la nouvelle zone de budgétisation des ressources](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-populates-budgeted-hours-from-new-resource-budgeting-area).
 * [Rapport d’utilisation : affiche les heures budgétées par utilisateur ou utilisatrice sur un projet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-view-budgeted-hours-by-user)
@@ -81,63 +81,63 @@ La version 2018.2 contient des améliorations pour les équipes d’administrat
 * [Améliorations des limites du travail en cours (Work in Progress, WIP) dans le tableau Kanban](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
 * [Interface améliorée pour la configuration des statuts d’une équipe Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
 
-* [Définition d’indicateurs pour les histoires sur le tableau Kanban](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board)
-* [Modification des champs directement sur une carte d’histoire Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
+* [Définition d’indicateurs pour les histoires sur le tableau Kanban](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
+* [Modification des champs directement sur une carte d’histoire Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
 
 ### Amélioration des rapports
 
-* [Collections de problèmes de référence dans les rapports de projets et de tâches](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports)
+* [Collections de problèmes de référence dans les rapports de projets et de tâches](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports) 
 
 ### Améliorations mobiles
 
-* [Améliorations apportées à l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) Nouveau (en version bêta finale)
+* [Améliorations apportées à l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) Nouveau (en version Beta finale)
 
-* [Améliorations apportées à la version bêta de l’application mobile Android](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app)
-* [Nouvel environnement bêta pour Android et nouvelles fonctionnalités](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features)
+* [Améliorations mobiles dans la version Beta de l’application mobile Android](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
+* [Nouvel environnement Beta pour Android et nouvelles fonctionnalités](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
 
 ### Améliorations de l’intégration
 
 * [Workfront pour Salesforce](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Bientôt disponible
 
-* [Améliorations de Workfront pour Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Nouveau (en version bêta finale)
+* [Améliorations de Workfront pour Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Nouveau (en version Beta finale)
 
 ### Améliorations apportées à l’API
 
-* [Exemples de filtres pour les messages d’abonnements aux événements](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#examples-of-filters-for-event-subscription-messages)
+* [Exemples de filtres pour les messages d’abonnements aux événements](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#examples-of-filters-for-event-subscription-messages) 
 
 ### Améliorations de la visionneuse de relecture
 
-* [Ajouter directement des utilisateurs et utilisatrices à une épreuve à partir de la visionneuse de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof)
-* [Afficher tous les outils de balisage dans la visionneuse de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools)
+* [Ajouter directement des utilisateurs et utilisatrices à une épreuve à partir de la visionneuse de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) 
+* [Afficher tous les outils de balisage dans la visionneuse de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools) 
 * [Configurer les options de tri par défaut dans la visionneuse de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-default-sorting-options)
 * [Afficher les approbations de documents Workfront dans la visionneuse de relecture de bureau](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
-* [Configurer les liens qui ouvrent de nouveaux onglets et de nouvelles fenêtres dans la visionneuse de relecture de bureau](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
+* [Configurer des liens qui ouvrent de nouveaux onglets et fenêtres pour qu’ils s’ouvrent dans la visionneuse de relecture de l’application de bureau.](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
 * [Indicateur de présence dans la visionneuse de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#presence-indicator-in-the-proofing-viewer)
 * [Filtrer les commentaires pour afficher une seule page pour les épreuves d’URL interactives dans la visionneuse de relecture de l’application de bureau](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs)
 * [Visionneuse de relecture de l’application de bureau pour le contenu statique et vidéo](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#desktop-proofing-viewer-for-static-and-video-content)
-* [Ajouter des appareils personnalisés à votre système](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) 
-* [Nouvelle visionneuse de relecture de bureau pour la relecture de contenu interactif (Rich Media)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content)
+* [Ajouter des appareils personnalisés à votre système](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) 
+* [Nouvelle visionneuse de relecture de bureau pour la relecture de contenu interactif (Rich Media)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
 
 ### Améliorations de la relecture dans Workfront
 
-* [Partager le lien de l’épreuve directement depuis Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#share-the-proof-link-directly-from-workfront) 
-* [Générer des rapports sur des données de relecture supplémentaires dans Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#report-on-additional-proofing-data-in-workfront) 
-* [Afficher les données historiques pour les approbations de relecture dans Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront) 
+* [Partager le lien de l’épreuve directement depuis Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#share-the-proof-link-directly-from-workfront) 
+* [Générer des rapports sur des données de relecture supplémentaires dans Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#report-on-additional-proofing-data-in-workfront) 
+* [Afficher les données historiques pour les approbations de relecture dans Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront) 
 * [Progression de la relecture à partir de la liste des documents disponibles pour les utilisateurs et les utilisatrices n’effectuant pas de relecture](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#proof-progress-from-the-document-list-available)
 
 ### Améliorations de la relecture dans Workfront Proof
 
 * [Créer une nouvelle version d’une épreuve directement à partir de la visionneuse de relecture (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
-* [Nouveau lien vers les détails de l’épreuve dans la visionneuse de relecture et la visionneuse de relecture de bureau (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
+* [Nouveau lien vers les détails de l’épreuve dans la visionneuse de relecture et la visionneuse de relecture de bureau (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
 
 ### Autres améliorations
 
-* [Nouveau menu de version plus robuste lors de l’ajout de nouvelles versions de documents dans Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
+* [Nouveau menu de version plus robuste lors de l’ajout de nouvelles versions de documents dans Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
 * [L’option de collage à partir du presse-papiers s’affiche désormais en grisé lorsqu’Internet Explorer ou Safari sont utilisés](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#paste-from-clipboard-option-now-disaplys-as-dimmed-in-ie-and-safari)
-* [Amélioration de la pertinence de la recherche pour les mots multiples](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
+* [Amélioration de la pertinence de la recherche pour les mots multiples](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
 * [Améliorations apportées à l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
 * [Réintroduction de divers liens dans les documents de la liste des documents](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
-* Nouveau ! [Recevoir des notifications par e-mail pour les commentaires sur les documents](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents) 
+* Nouveau ! [Recevoir des notifications par e-mail pour les commentaires sur les documents](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)
 
 * Nouveau ! [Les mises à jour suivies par le système ne contiennent plus d’icône](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon)
 
@@ -152,7 +152,7 @@ La version 2018.2 contient des améliorations pour les équipes d’administrat
 
 ### Fin de la prise en charge de TLS {#tls-support-is-ending}
 
-Afin d’assurer une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.0 ou une version antérieure soient mis à jour pour utiliser TLS 1.1 ou une version ultérieure.
+Afin d’assurer une sécurité optimale, Workfront exige que toutes les intégrations et le trafic web utilisant TLS 1.0 ou une version antérieure soient mis à niveau pour utiliser TLS 1.1 ou une version ultérieure.
 
 Pour plus d’informations, voir [TLS 1.2 requis dans Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
@@ -202,8 +202,8 @@ Cette fonctionnalité comprend :
 
   Pour plus d’informations, consultez les ressources suivantes :
 
-   * [Réviser des épreuves dans la visionneuse de relecture web](https://support.workfront.com/hc/fr-fr/sections/115000275214)
-   * [Réviser des épreuves dans la visionneuse de relecture de bureau](https://support.workfront.com/hc/fr-fr/sections/360000686434)
+   * [Révision de BAT dans le lecteur de vérification web](https://support.workfront.com/hc/fr-fr/sections/115000275214)
+   * [Révision de BAT dans le lecteur de vérification pour bureau](https://support.workfront.com/hc/fr-fr/sections/360000686434)
 
 ### Fin de la prise en charge des modules complémentaires Microsoft Outlook {#microsoft-outlook-add-in-support-is-ending}
 
@@ -215,11 +215,11 @@ Lorsque vous installez le nouveau Workfront pour Outlook sur n’importe lequel 
 
 Utilisez les ressources suivantes pour en savoir plus sur Workfront pour Outlook et commencer à travailler :
 
-* [Site web et vidéo](https://business.adobe.com/fr/products/workfront/integrations.html) 
+* [Site web et vidéo](https://business.adobe.com/products/workfront/integrations.html) 
 * [Utiliser Workfront avec Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (article d’aide)
 
 ### Suppression des anciennes versions de l’API {#removing-old-api-versions}
 
 Dans le cadre de nos efforts continus pour améliorer notre API, nous supprimons les anciennes versions de l’API qui ne sont plus compatibles avec les versions plus récentes de Workfront.
 
-Pour plus d’informations, consultez le [planning du contrôle de version et de l’assistance de l’API](../../../../wf-api/api/api-version-support-schedule.md).
+Pour plus d’informations, consultez le [planning du contrôle de version et de l’assistance de l’API](../../../../wf-api/api/api-version-support-schedule.md). 

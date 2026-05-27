@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1b5d231b-c08a-4dea-bcbb-278527ccc4bd
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '842'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version 2017.3. 
 
-La fonctionnalité décrite sur cette page est actuellement disponible dans l’environnement de prévisualisation et sera disponible dans l’environnement de production en novembre. 
+La fonctionnalité décrite sur cette page est actuellement disponible dans l’environnement de prévisualisation et sera disponible dans l’environnement de production en novembre.  
 
 >[!IMPORTANT]
 >
->Les fonctionnalités de l’environnement de prévisualisation sont susceptibles d’être modifiées avant d’être publiées dans l’environnement de production.
+> Les fonctionnalités de l’environnement de prévisualisation sont susceptibles d’être modifiées avant d’être publiées dans l’environnement de production.
 
 La version 2017.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices.
 
@@ -39,7 +39,7 @@ La version 2017.3 contient des améliorations pour les administrateurs et admin
 
 Les sections suivantes décrivent les améliorations disponibles pour les administrateurs et administratrices Workfront dans la version 2017.3 de Workfront :
 
-* [Mise à jour du modèle de disposition pour la prise en charge de la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated-layout-template-to-support-the-home-area) (Prévisualisation uniquement)
+* [Mise à jour du modèle de mise en page pour la prise en charge de la zone d’accueil](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated-layout-template-to-support-the-home-area) (Prévisualisation uniquement)
 
 * [Nouvelle zone de préférences pour la gestion des ressources dans la zone de configuration](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-resource-management-preferences-area-in-the-setup-area)
 * [Empêcher la suppression des tâches et des problèmes lorsque des heures sont consignées](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#new-setting-to-prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
@@ -80,7 +80,7 @@ Les sections suivantes décrivent les améliorations disponibles pour les utilis
 * [Redimensionner et réorganiser les colonnes dans des rapports et des listes](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#resize-and-reorder-columns-in-reports-and-lists)
 * [Informations du tableau de bord sur les listes de rapports](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#dashboar)
 * [Planificateur de ressources : exporter les données du planificateur de ressources vers Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-export-data)
-* [Les rapports intégrés contiennent des descriptions actualisées](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#built-in-reports-contain-updated-descriptions)
+* [Les rapports intégrés contiennent des descriptions mises à jour](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#built-in-reports-contain-updated-descriptions)
 * [Nouveau regroupement pour les rapports sur les heures budgétées des ressources : date d’attribution](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#new-grouping-for-resource-budgeted-hour-reports)
 
 ### Améliorations de la méthode Agile
@@ -151,8 +151,8 @@ Les sections suivantes décrivent les améliorations disponibles pour les utilis
 
 ### Améliorations apportées à l’API
 
-* [L’API 8 est désormais disponible.](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#api-8-now-availabe)
-* [Versions supprimées et obsolètes de l’API](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#removed-and-deprecated-versions-of-the-api)
+* [L’API 8 est désormais disponible.](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#api-8-now-availabe) 
+* [Versions supprimées et obsolètes de l’API](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#removed-and-deprecated-versions-of-the-api) 
 * [Reprise des tentatives d’abonnement aux événements pour les messages non distribuables](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#event-subscription-retries-for-undeliverable-messages)
 * [Mise à jour du format des messages pour les abonnements aux événements](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated)
 * [Ajout d’une ressource Heure aux abonnements aux événements](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#hour-resource-added-to-event-subscription)
@@ -182,4 +182,4 @@ Les fonctionnalités supplémentaires suivantes seront disponibles avant la vers
 
 ## Webinaires sur la version {#release-webinars}
 
-Pour consulter les enregistrements des webinaires sur la version 2017.3, consultez les [Webinaires sur la version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md).
+ Pour consulter les enregistrements des webinaires sur la version 2017.3, consultez les [Webinaires sur la version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md).

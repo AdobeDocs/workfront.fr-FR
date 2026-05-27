@@ -1,30 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2017.3, version bêta 2
-description: Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version bêta 2 de la version 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 23 août 2017. Elles ont été rendues disponibles dans l’environnement de production début novembre 2017.
+title: Activité de la version 2017.3 Beta 2
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2017.3 Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 23 août 2017. Elles ont été rendues disponibles dans l’environnement de production début novembre 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2017.3, version bêta 2
+# Activité de la version 2017.3 Beta 2
 
-Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version bêta 2 de la version 2017.3. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 23 août 2017. Elle ont été rendues disponibles dans l’environnement de production début novembre 2017.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2017.3 Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 23 août 2017. Elle ont été rendues disponibles dans l’environnement de production début novembre 2017.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2017.3, voir [Vue d’ensemble de l’activité Version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-La version 2017.3 bêta 2 contient des améliorations pour les administrateurs et administratrices Workfront et pour les autres utilisateurs et utilisatrices :
+La version 2017.3, version Beta 2 contient des améliorations pour l’équipe d’administration de Workfront et les autres personnes :
 
 **Pour les administrateurs et administratrices**
 

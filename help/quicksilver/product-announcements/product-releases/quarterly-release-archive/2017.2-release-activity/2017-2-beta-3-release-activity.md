@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2017.2, version bêta 3
-description: Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
+title: Activité de la version 2017.2 Beta 3
+description: Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1394'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2017.2, version bêta 3
+# Activité de la version 2017.2 Beta 3
 
-Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 bêta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
+Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Cette page décrit tous les changements disponibles dans l’environnement de pr
 
 Pour une liste de tous les changements apportés avec la version 2017.2, voir [Vue d’ensemble de l’activité de la version 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-La version 2017.2 bêta 2 contient des améliorations pour les équipes d’administration de Workfront et les autres utilisateurs et utilisatrices :
+La version 2017.2 Beta 2 contient des améliorations pour les équipes d’administration de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices :**
 
@@ -57,7 +57,7 @@ Vous pouvez maintenant voir qui s’abonne à un élément en développant le no
 
 Avant cette amélioration, vous n’aviez aucune visibilité sur l’identité des personnes abonnées aux éléments.
 
-Pour plus d’informations sur l’abonnement aux éléments, voir [S’abonner aux éléments dans Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Pour plus d’informations sur l’abonnement aux éléments, voir [S’abonner aux éléments dans Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md). 
 
 ## Configurer l’affichage des jalons sur le graphique de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
@@ -99,7 +99,7 @@ Le nouvel objet Créateur ou créatrice de l’épreuve du rapport Version du do
 
 >[!NOTE]
 >
->Ces informations ne sont disponibles dans le rapport qu’à partir du moment où cette fonctionnalité a été introduite pour la première fois dans les environnements de prévisualisation ou de production respectifs ; les informations contenues dans les rapports concernant l’objet Demande avant l’introduction de cette fonctionnalité ne sont pas disponibles.
+> Ces informations ne sont disponibles dans le rapport qu’à partir du moment où cette fonctionnalité a été introduite pour la première fois dans les environnements de prévisualisation ou de production respectifs ; les informations contenues dans les rapports concernant l’objet Demande avant l’introduction de cette fonctionnalité ne sont pas disponibles.
 
 Vous accédez à l’objet Créateur ou créatrice de l’épreuve lors de la création d’un rapport Version du document, comme décrit dans la section [Créer un rapport personnalisé](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -123,7 +123,7 @@ Pour plus d’informations, consultez la section [Afficher les approbations](../
 
 Désormais, lorsque vous approuvez les approbations de relecture dans la zone Mon travail, le nom de l’utilisateur ou de l’utilisatrice qui a demandé l’approbation s’affiche.
 
-Pour plus d’informations, consultez la section [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Pour plus d’informations, consultez la section [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Amélioration de la visionneuse de relecture pour les épreuves vidéo (ProofHQ et Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -157,7 +157,7 @@ Dans cette version, la nouvelle visionneuse de relecture prend uniquement en cha
 
 Une fois publiée dans l’environnement de production avec la version 17.2, l’administration peut choisir quelle visionneuse de relecture, nouvelle ou héritée, convient aux utilisateurs et utilisatrices de leur entreprise. Par défaut, la visionneuse de relecture héritée sera utilisée.
 
-Pour plus d’informations sur l’utilisation de la nouvelle visionneuse de relecture vidéo, voir
+Pour plus d’informations sur l’utilisation de la nouvelle visionneuse de relecture vidéo, voir  
 
 ## Afficher les épreuves pour les médias riches dans d’autres résolutions (ProofHQ et Workfront) {#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront}
 
@@ -167,7 +167,7 @@ Avant cette modification, vous pouviez passer en revue les épreuves à l’aide
 
 Vous pouvez utiliser le mode Comparer pour comparer différentes résolutions d’épreuves.
 
-Pour plus d’informations, consultez la section [Ouvrir des épreuves dans la visionneuse de relecture de bureau](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md).
+Pour plus d’informations, consultez la section [Ouvrir des épreuves dans la visionneuse de relecture de bureau](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
 
 ## Nouvelle fonctionnalité Groupe de ressources temporairement supprimée de la prévisualisation {#new-resource-pool-functionality-temporarily-removed-from-preview}
 

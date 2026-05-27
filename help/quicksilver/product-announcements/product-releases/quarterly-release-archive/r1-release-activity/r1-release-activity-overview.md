@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '903'
 ht-degree: 100%
 
 ---
@@ -96,11 +96,11 @@ Pour plus d’informations sur les modifications apportées à notre processus d
 
 ## Améliorations apportées à l’application mobile et à Outlook {#mobile-and-outlook-enhancements}
 
-La fonctionnalité suivante n’est actuellement pas disponible dans la version bêta ou préliminaire, mais est actuellement disponible dans l’environnement de production dans R1 :
+La fonctionnalité suivante n’est actuellement pas disponible dans la version Beta ou préliminaire, mais est actuellement disponible dans l’environnement de production dans R1 :
 
 * [Copier du texte dans l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#copy-text-in-the-mobile-app)
 * [Partager l’URL d’un objet dans l’application mobile](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#share-the-url-of-an-object-in-the-mobile-app)
-* [Version bêta d’Outlook 365](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#outlook-365-beta)
+* [Outlook 365 Beta](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#outlook-365-beta) 
 * [Rechercher dans l’application mobile (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-the-mobile-app)
 * [Aide améliorée dans l’application mobile : tutoriels (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improved-help-in-the-mobile-app-tutorials)
 
@@ -154,7 +154,7 @@ La fonctionnalité décrite dans cette section était disponible dans l’enviro
 
 ## Webinaires de version préliminaire R1 2017 {#2017-r1-preview-release-webinars}
 
-Pour afficher les enregistrements de webinaires pour la version R1, voir [Webinaires de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).
+Pour afficher les enregistrements de webinaires pour la version R1, voir [Webinaires de version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).   
 
 ## Mises à jour de maintenance {#maintenance-updates}
 

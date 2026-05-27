@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1153'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 Cette page décrit toutes les modifications disponibles dans l’environnement de prévisualisation avec les versions R1.1 et R1.2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 19 janvier 2017.
 
-Pour obtenir la liste de toutes les modifications apportées à la version R1, voir [Vue d’ensemble de l’activité de la version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Pour obtenir la liste de toutes les modifications apportées à la version R1, voir [Vue d’ensemble de l’activité de la version R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
-## Restaurer des projets, des tâches et des problèmes à partir de la corbeille
+## Restaurer des projets, des tâches et des problèmes à partir de la corbeille 
 
 L’équipe d’administration de Workfront peut désormais restaurer des projets, des tâches et des problèmes qui ont été supprimés au cours des 30 derniers jours. Toutes les informations associées au projet, à la tâche ou au problème sont restaurées, y compris les documents et les données personnalisées.
 
@@ -55,13 +55,13 @@ Lorsqu’un projet, une tâche ou un problème est en attente d’approbation, v
 
 Avant cette modification, les projets, tâches et problèmes en attente d’approbation ne pouvaient pas être modifiés. De plus, les problèmes ne pouvaient pas être ajoutés aux projets en attente d’approbation, et les tâches et problèmes ne pouvaient pas être modifiés dans les projets en attente d’approbation.
 
-## Affecter des modèles de disposition à des groupes
+## Affecter des modèles de mise en page à des groupes
 
-Vous pouvez désormais attribuer des modèles de disposition à des groupes.
+Vous pouvez désormais attribuer des modèles de mise en page à des groupes.
 
-Avant cette modification, vous pouviez affecter des modèles de disposition aux utilisateurs et utilisatrices, aux équipes et aux fonctions. L’affectation d’un modèle de mise en page à des groupes a la priorité d’affectation de modèle de mise en page la plus basse. 
+Avant cette modification, vous pouviez affecter des modèles de mise en page aux utilisateurs et utilisatrices, aux équipes et aux fonctions. L’affectation d’un modèle de mise en page à des groupes a la priorité d’affectation de modèle de mise en page la plus basse. 
 
-Pour plus d’informations, consultez « Créer et gérer des modèles de disposition ».
+Pour plus d’informations, consultez « Créer et gérer des modèles de mise en page ».
 
 ## Changements apportés aux notifications de modification en masse destinées aux utilisateurs et utilisatrices
 
@@ -83,7 +83,7 @@ L’aspect des notifications par e-mail suivantes a été mis à jour avec une n
 * En attente d’approbation (projet, tâche, problèmes)
 * Changement de statut sur les projets, tâches, problèmes
 
-N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de prévisualisation des sandbox efface les adresses e-mail de tous les utilisateurs et toutes les utilisatrices.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).
+N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de prévisualisation des sandbox efface les adresses e-mail de tous les utilisateurs et toutes les utilisatrices.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## Nouvelles options de synthèse par e-mail pour plusieurs zones de notifications
 
@@ -95,7 +95,7 @@ L’option « Synthèse quotidienne » a été ajoutée dans les zones de noti
 * Informations sur le travail qui m&#39;a été affecté
 * Communication
 
-Pour plus d’informations, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de prévisualisation des sandbox efface les adresses e-mail de tous les utilisateurs et toutes les utilisatrices.
+Pour plus d’informations, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de prévisualisation des sandbox efface les adresses e-mail de tous les utilisateurs et toutes les utilisatrices. 
 
 ## Rendre un groupe public
 
@@ -103,7 +103,7 @@ Lorsque vous rendez un groupe public, vous pouvez désormais l’ajouter à des 
 
 Pour plus d’informations sur le rendu d’un groupe public, voir la section [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) dans [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-## Partager l’URL d’un objet dans l’application mobile
+## Partager l’URL d’un objet dans l’application mobile 
 
 Vous pouvez maintenant partager l’URL sur les objets suivants de l’application mobile Workfront :
 
@@ -119,11 +119,11 @@ Vous pouvez partager l’URL d’un objet dans les applications suivantes :
 * E-mail
 * Lecteur de stockage (par exemple, iCloud Drive)
 * Une autre application installée (par exemple, Notes, Facebook)
-* Vous pouvez copier un lien vers l’objet dans le presse-papiers et le coller ultérieurement dans une autre application. 
+* Vous pouvez copier un lien vers l’objet dans le presse-papiers et le coller ultérieurement dans une autre application. 
 
 ## Aide contextuelle dans la Configuration
 
-Toutes les zones du menu Configuration ont été mises à jour avec une icône Aide dans le coin supérieur droit de la zone. Cette icône fournit un lien vers un article du site d’aide relatif à cette zone. Certaines sections des zones Configuration ont également été mises à jour avec l’icône Aide. 
+Toutes les zones du menu Configuration ont été mises à jour avec une icône Aide dans le coin supérieur droit de la zone. Cette icône fournit un lien vers un article du site d’aide relatif à cette zone. Certaines sections des zones Configuration ont également été mises à jour avec l’icône Aide. 
 
 ## Ajouter des taux de dépenses plus précis
 
@@ -143,7 +143,7 @@ This feature focuses primarily on improving the performance of large lists of ta
 </MadCap:conditionalText>
 -->
 
- 
+ 
 
 ## Enregistrement du webinaire version R1 Prévisualisation 1 et 2
 

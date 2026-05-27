@@ -9,14 +9,14 @@ recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 100%
 
 ---
 
 # Version R1 finale
 
-La fonctionnalité suivante n’est actuellement pas disponible dans la version bêta ou préliminaire, mais est actuellement disponible dans l’environnement de production dans R1 :
+La fonctionnalité suivante n’est actuellement pas disponible dans la version Beta ou préliminaire, mais est actuellement disponible dans l’environnement de production dans R1 :
 
 ## Prendre des décisions d’approbation pour les épreuves à partir de la zone Mon travail (Workfront)
 
@@ -24,7 +24,7 @@ Désormais, lorsqu’un utilisateur ou une utilisatrice vous ajoute à une épre
 
 Pour plus d’informations sur l’ajout d’utilisateurs et d’utilisatrices à une épreuve à l’aide d’un workflow automatisé, voir [Partager une épreuve dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) dans [Partager une épreuve dans Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Pour plus d’informations sur la façon de prendre des décisions d’approbation depuis la zone Mon travail, voir [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Pour plus d’informations sur la façon de prendre des décisions d’approbation depuis la zone Mon travail, voir [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md) dans [Approuver du travail](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Créer un rapport sur les approbations de relecture dans la zone Mon travail (Workfront)
 
@@ -94,7 +94,7 @@ Vous pouvez désormais rechercher des objets dans l’application mobile, comme 
 >
 >Cette fonctionnalité est disponible depuis la première semaine de mai 2017.
 
-Pour plus d’informations sur l’application mobile, voir la section Recherche mobile dans
+Pour plus d’informations sur l’application mobile, voir la section Recherche mobile dans  
 
 ## Aide améliorée dans l’application mobile : tutoriels (Workfront)
 
@@ -112,7 +112,7 @@ Pour plus d’informations, voir [Rechercher du contenu dans une épreuve](../..
 
 Les comptes ProofHQ Premium intégrés à Workfront voient maintenant les améliorations suivantes apportées à la barre de navigation globale dans ProofHQ :
 
-* Nouvelle image de profil utilisateur
+* Nouvelle image de profil utilisateur 
 * Aspect mis à jour
 
 ## Inclure des informations supplémentaires dans les vues personnalisées (ProofHQ)
