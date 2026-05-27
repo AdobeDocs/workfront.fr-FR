@@ -77,7 +77,7 @@ ProofHQ vous permet désormais de tester de nouvelles fonctionnalités dans un e
 
 ## AMÉLIORATIONS DE WORKFRONT DAM {#workfront-dam-enhancements}
 
-![Améliorations de la gestion des ressources numériques de ](assets/mceclip6-350x195.png)\
+![Améliorations de la gestion des ressources numériques de &#x200B;](assets/mceclip6-350x195.png)\
 **Liens incorporés DAM**
 Pour les équipes marketing qui ont besoin d’un meilleur moyen de gérer, de publier et de suivre l’utilisation des ressources numériques sur des plateformes externes, la fonctionnalité de liens incorporés offre le contrôle dont vous avez besoin pour gérer le processus de partage du contenu approprié au bon moment.
 
