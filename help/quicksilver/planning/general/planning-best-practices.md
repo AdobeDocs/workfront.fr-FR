@@ -235,15 +235,15 @@ Utilisez la fonction de partage pour accorder aux autres utilisateurs les autori
   >
   >Si une vue n&#39;a pas été partagée et que vous partagez un lien vers cette vue avec d&#39;autres personnes, ces dernières pourront voir les enregistrements dans la **Vue Tableau par défaut**. S’ils disposent d’une licence Workfront standard, ils peuvent créer leur propre vue.
 
-#### En quoi le partage de **** est-il différent du partage de **Afficher** ?
+#### En quoi le partage de **&#x200B;**&#x200B;est-il différent du partage de **Afficher** ?
 
-* Le partage de **** définit l&#39;accès des personnes à l&#39;espace de travail, ses types d&#39;enregistrements, enregistrements et leurs champs.
+* Le partage de **&#x200B;**&#x200B;définit l&#39;accès des personnes à l&#39;espace de travail, ses types d&#39;enregistrements, enregistrements et leurs champs.
 
 * **Partage d’affichage** définit si l’utilisateur peut voir l’affichage que vous avez créé et s’il peut modifier le filtre, les champs de regroupement ou une autre configuration de l’affichage. La visibilité des enregistrements affichés dans la Vue est contrôlée par le partage de Workspace, et non par le partage de la Vue.
 
 #### Comment les types de licence Workfront affectent-ils les autorisations Workfront Planning ?
 
-* Pour le partage de **** : les utilisateurs disposant d&#39;une licence Light et Contribute peuvent uniquement obtenir un accès en affichage à un espace de travail. Pour accorder à une personne l’autorisation Contribuer ou Gérer d’un espace de travail, elle doit disposer d’une licence Standard.
+* Pour le partage de **&#x200B;**&#x200B;: les utilisateurs disposant d&#39;une licence Light et Contribute peuvent uniquement obtenir un accès en affichage à un espace de travail. Pour accorder à une personne l’autorisation Contribuer ou Gérer d’un espace de travail, elle doit disposer d’une licence Standard.
 
 * **Partage de vues** : les utilisateurs sous licence standard disposant d’autorisations de niveau Gérer sur un espace de travail peuvent créer une vue. Les utilisateurs de licences Light et Contribute ne peuvent utiliser que les vues créées et partagées par les utilisateurs standard. Sinon, si rien n’a été partagé, les utilisateurs pourront voir la **Vue du tableau par défaut**.
 

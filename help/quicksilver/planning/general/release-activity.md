@@ -314,7 +314,7 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements Co
 Production : 12 août 2024
 Prévisualisation : à déterminer
 
-L’assistant Workfront AI a été temporairement supprimé et sera disponible à une date ultérieure. Pour plus d’informations sur l’assistant AI, consultez [Présentation de l’assistant AI Planning ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+L’assistant Workfront AI a été temporairement supprimé et sera disponible à une date ultérieure. Pour plus d’informations sur l’assistant AI, consultez [Présentation de l’assistant AI Planning &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Conserver la dernière période affichée dans la vue chronologique
 
@@ -800,7 +800,7 @@ Production : jeudi 8 mai 2024
 
 Aperçu : à déterminer
 
-Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [ Préférences et notifications du compte ](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
+Si vous êtes un client Adobe Unified Experience et que quelqu’un vous ajoute à un commentaire sur la page d’enregistrement, vous recevez une notification in-app et un e-mail concernant le commentaire. Vous pouvez gérer vos préférences de notification dans la zone Préférences de votre profil Adobe Experience Cloud. Pour plus d’informations, voir [&#x200B; Préférences et notifications du compte &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
 
 Pour plus d’informations sur les notifications de planification Workfront, voir [Notifications Adobe Workfront Planning : index des articles](/help/quicksilver/planning/notifications/notifications-information.md).
 

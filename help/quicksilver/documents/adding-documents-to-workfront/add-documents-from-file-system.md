@@ -22,7 +22,7 @@ Adobe Workfront possède actuellement les deux types de stockage de documents su
 * Stockage Workfront hérité
 * Espace de stockage Adobe
 
-Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!NOTE]
 >
