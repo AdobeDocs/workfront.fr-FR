@@ -9,8 +9,8 @@ feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
 source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '600'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ Tenez compte des éléments suivants lorsque vous passez en revue les valeurs du
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

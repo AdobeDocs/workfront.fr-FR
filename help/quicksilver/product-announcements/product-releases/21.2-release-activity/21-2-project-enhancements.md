@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1698'
 ht-degree: 99%
 
 ---
@@ -61,9 +61,9 @@ Pour plus d’informations, voir [Gérer des histoires et des problèmes sur le 
 
 Dans le cadre de la mise à jour de l’aspect et de la convivialité de la nouvelle expérience Workfront, nous avons redessiné la zone de modification des problèmes. Vous pouvez accéder à la nouvelle zone de modification des problèmes à partir d’un problème individuel ou lors de la modification d’un problème unique à partir d’une liste.
 
-Outre un nouvel aspect, les modifications suivantes sont également disponibles dans la zone Tâche de problème :
+Outre une apparence mise à jour, les modifications suivantes sont également disponibles dans la zone Tâche de problème :
 
-* Vous pouvez personnaliser votre modèle de disposition une seule fois et refléter ces personnalisations sur la page Détails et dans la zone Modifier le problème.
+* Vous pouvez personnaliser votre modèle de mise en page une seule fois et refléter ces personnalisations sur la page Détails et dans la zone Modifier le problème.
 * Les noms de formulaire personnalisés individuels sont maintenant disponibles dans le panneau de gauche de la zone Modifier le problème. Vous pouvez ainsi accéder rapidement à chaque formulaire à partir de cet emplacement.
 * Nous avons ajouté le champ Nombre d’heures prévues à la section Affectations afin de faciliter la mise à jour du temps nécessaire à l’achèvement du problème avec les ressources.
 * Nous avons supprimé la fonctionnalité de commentaires de l’écran Modifier le problème afin d’éliminer la redondance avec la section Mises à jour.
@@ -103,7 +103,7 @@ Pour plus d’informations sur le remplissage de formulaires personnalisés, voi
 
 Lors de la conversion du problème en projet, la personne qui demande le problème est transférée au projet et visible dans le champ « Créateur ou créatrice du problème converti ». Vous pouvez visualiser ce champ dans la zone « Détails du projet », ainsi que dans les rapports et les listes de projets. Ces informations sont également visibles pour les tâches, uniquement dans les rapports et les listes.
 
-Vous devez activer ce champ dans votre modèle de disposition pour pouvoir l’afficher dans la nouvelle expérience Adobe Workfront pour les projets.
+Vous devez activer ce champ dans votre modèle de mise en page pour pouvoir l’afficher dans la nouvelle expérience Adobe Workfront pour les projets.
 
 Pour plus d’informations sur la conversion de problèmes, voir [Vue d’ensemble de la conversion des problèmes dans Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -149,9 +149,9 @@ Dans le cadre de la mise à jour de l’aspect de la nouvelle expérience Workfr
 >
 >Dans le cadre de cette mise à jour, le champ Portée des ressources sera supprimé de la nouvelle expérience Adobe Workfront.
 
-En plus d’un nouvel aspect, les modifications suivantes sont également disponibles dans la boîte de dialogue Modifier la tâche :
+Outre une apparence mise à jour, les modifications suivantes sont également disponibles dans la boîte de dialogue Modifier la tâche :
 
-* Vous pouvez personnaliser votre modèle de disposition une seule fois et refléter ces personnalisations à la fois dans la page Détails et dans la boîte de dialogue Modifier la tâche.
+* Vous pouvez personnaliser votre modèle de mise en page une seule fois et refléter ces personnalisations à la fois dans la page Détails et dans la boîte de dialogue Modifier la tâche.
 * Les noms des formulaires personnalisés sont désormais disponibles dans le panneau de gauche, à l’intérieur de la boîte de dialogue « Modifier la tâche », et vous pouvez accéder rapidement à chaque formulaire à partir de là.
 * Nous avons ajouté les champs Durée, Type de durée et Nombre d’heures prévues à la section Affectations afin d’assurer la cohérence lors de la mise à jour des affectations entre les différents types de durée et les heures ou la durée consacrées à la tâche.
 * Nous avons supprimé la fonctionnalité de commentaires de l’écran de modification des tâches afin d’éliminer la redondance avec la section Mises à jour.
@@ -170,10 +170,10 @@ Lors de la mise à jour de l’aspect de la nouvelle expérience Workfront, nous
 >
 >Dans le cadre de cette mise à jour, le champ Portée des ressources sera supprimé de la nouvelle expérience Adobe Workfront.
 
-En plus d’un nouvel aspect, les modifications suivantes sont également disponibles dans le workflow Nouvelle tâche :
+Outre une apparence mise à jour, les modifications suivantes sont également disponibles dans le workflow Nouvelle tâche :
 
 * Lorsque vous cliquez pour la première fois sur Nouvelle tâche dans une liste de projets, un écran plus petit est disponible avec un nombre limité de champs à mettre à jour afin de vous faire gagner du temps lorsque vous souhaitez ajouter rapidement des tâches à des projets. Vous pouvez accéder au nouveau formulaire de tâche complet qui contient tous les champs de tâche que nous avons renommé Créer une tâche.
-* Vous pouvez personnaliser votre modèle de disposition une seule fois et refléter ces personnalisations à la fois dans la page Détails et dans la boîte de dialogue Nouvelle tâche.
+* Vous pouvez personnaliser votre modèle de mise en page une seule fois et refléter ces personnalisations à la fois dans la page Détails et dans la boîte de dialogue Nouvelle tâche.
 * Nous avons ajouté les champs Durée, Type de durée et Nombre d’heures prévues à la section Affectations afin d’assurer une cohérence lors de la mise à jour des affectations et des heures ou de la durée consacrées à la tâche.
 
 Pour plus d’informations sur la nouvelle case Nouvelle tâche, voir [Créer des tâches dans un projet](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).

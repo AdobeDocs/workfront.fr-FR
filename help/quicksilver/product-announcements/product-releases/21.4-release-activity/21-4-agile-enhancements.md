@@ -7,8 +7,8 @@ feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 79%
+source-wordcount: '412'
+ht-degree: 80%
 
 ---
 

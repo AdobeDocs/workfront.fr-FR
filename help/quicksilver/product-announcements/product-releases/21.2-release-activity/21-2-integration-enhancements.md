@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Pour en savoir plus sur ce que vous pouvez faire avec Adobe Workfront pour XD, 
 
 ## Rechercher des dossiers dans les intégrations de documents
 
-Pour faciliter la navigation dans vos intégrations de documents, nous avons rendu possible la recherche de dossiers. Désormais, lorsque vous saisissez un terme dans la barre de recherche, Workfront renvoie les documents, dossiers et sous-dossiers dont le nom contient le terme recherché.
+Pour faciliter la navigation dans vos intégrations de documents, nous avons rendu possible la recherche de dossiers. Désormais, lorsque vous saisissez un terme dans la barre de recherche, Workfront renvoie les documents, dossiers et sous-dossiers dont le nom contient le terme de recherche.
 
 Auparavant, les sous-dossiers ne pouvaient être localisés qu’en ouvrant les dossiers parent.
 
