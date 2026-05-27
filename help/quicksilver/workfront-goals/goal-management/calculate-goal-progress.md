@@ -150,21 +150,21 @@ Le tableau ci-dessous répertorie les libellés de condition d’objectif et les
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Dans les temps</span> </p> </td> 
+   <td> <p><span>Cible</span> </p> </td> 
    <td>La progression vers l’objectif avance comme prévu et il est très probable qu’il serat atteint dans les temps. </td> 
    <td>90 à 100 %</td> 
    <td>Vert</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>À risque</span> </p> </td> 
+   <td> <p><span>En danger</span> </p> </td> 
    <td>La progression vers l’objectif prend du retard, mais il peut encore être atteint dans les temps. </td> 
    <td>70 à 89,99 %</td> 
    <td>Jaune</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>En difficulté</span> </p> </td> 
+   <td> <p><span>À problème</span> </p> </td> 
    <td> <p>Il est très probable que l’objectif ne sera pas atteint à temps. </p> </td> 
    <td>0 à 69,99 %</td> 
    <td>Rouge</td> 
