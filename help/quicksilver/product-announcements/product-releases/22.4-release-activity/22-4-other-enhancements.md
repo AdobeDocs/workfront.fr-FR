@@ -23,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 
 Ce plug-in peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails des éléments de travail, de collaborer avec les personnes avec qui vous travaillez dans la zone des mises à jour et de soumettre des épreuves pour révision, le tout sans quitter XD. Accédez à la marketplace Adobe Creative Cloud pour télécharger le plug-in dès aujourd’hui.
 
-Pour plus d’informations sur le plug-in, consultez la section Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Pour plus d’informations sur le plug-in, consultez la section Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [Téléchargez Adobe Workfront pour InDesign sur la marketplace dès aujourd’hui](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
