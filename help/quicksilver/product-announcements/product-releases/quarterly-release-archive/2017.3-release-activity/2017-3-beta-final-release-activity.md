@@ -139,7 +139,7 @@ Avant cette modification, seules les tâches pouvaient être ajoutées à la lis
 
 Comme vous avez désormais accès à plus que les tâches de la liste d’attente, toutes les vues de tâches personnalisées disponibles précédemment dans la liste d’attente sont copiées et ajoutées à la liste d’attente en tant que vues d’élément de travail de la liste d’attente personnalisées.
 
-Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 Pour plus d’informations sur l’activation de problèmes dans la liste d’attente d’une équipe Agile Scrum, voir [Configurer la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
