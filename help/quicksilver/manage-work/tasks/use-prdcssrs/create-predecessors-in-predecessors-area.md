@@ -92,7 +92,7 @@ Pour créer une tâche antérieure pour une tâche de projet :
 
 1. Saisissez un montant **Décalage**.
 
-   &#x200B; Pour plus d’informations, voir Présentation [ types décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   &#x200B; Pour plus d’informations, voir Présentation [&#x200B; types décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
    ![Boîte de dialogue Ajouter le prédécesseur](assets/add-predecessor-dialog-box.png)
 
