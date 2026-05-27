@@ -101,7 +101,7 @@ Vous pouvez désormais ajuster les paramètres des modèles de workflow automati
 * Mettre à jour les notifications par e-mail
 * et plus...
 
-Pour plus d’informations, voir [Charger des documents et des épreuves à l’aide du plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+Pour plus d’informations, voir [Charger des documents et des épreuves à l’aide du plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
 
 Ces améliorations sont disponibles pour les applications Creative Cloud suivantes :
 

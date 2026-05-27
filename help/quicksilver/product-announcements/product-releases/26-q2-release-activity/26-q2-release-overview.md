@@ -510,7 +510,7 @@ Pour une présentation de l’automatisation et de l’intégration de Workfront
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, consultez [Mises à jour de maintenance de ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, consultez [Mises à jour de maintenance de &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
