@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 96%
+source-wordcount: '741'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 
 Pour plus d’informations, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:47)
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:47)
 
 ## L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.
 
@@ -72,7 +72,7 @@ Les commentaires apportés aux enregistrements d’activité du système dans l�
 
 Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:00)
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:00)
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 
@@ -86,7 +86,7 @@ L’onglet Tous est un onglet en lecture seule. Vous ne pouvez pas répondre aux
 
 Pour en savoir plus, consultez la [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 0:31)
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 0:31)
 
 ## Nouveau flux de commentaires maintenant disponible dans le panneau Résumé
 
@@ -98,4 +98,4 @@ Nous avons ajouté la nouvelle fonctionnalité de commentaires au panneau Résum
 
 Pour en savoir plus, consultez la [vue d’ensemble du Résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3427991/){target=_blank}

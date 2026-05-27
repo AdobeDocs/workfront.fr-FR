@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
 source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '738'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 ## Nouvelle intégration de Google Workspace désormais disponible
 
-Une nouvelle intégration Google Workspace est désormais disponible dans Google Marketplace. La nouvelle intégration s’authentifie à l’aide d’OAuth2 et remplace l’intégration précédente.
+Une nouvelle intégration de Google Workspace est désormais disponible sur Google Marketplace. La nouvelle intégration s’authentifie à l’aide d’OAuth2 et remplace l’intégration précédente.
 
 L’intégration précédente de Google Workspace est désormais obsolète et sera automatiquement désinstallée.
 

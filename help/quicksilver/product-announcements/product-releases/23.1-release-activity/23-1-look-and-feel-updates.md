@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '751'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Les pages Filtres, Vues et Regroupements sous Configuration > Interface ont mai
 
 Dans le cadre de la mise à jour de l’aspect de Workfront, nous avons repensé la zone Modifier le modèle. Vous pouvez accéder à la nouvelle zone Modifier le modèle à partir d’un modèle individuel ou d’une liste de modèles.
 
-En plus d’un nouvel aspect, les changements suivants sont également disponibles dans la zone Nouveau modèle :
+Outre une apparence mise à jour, les changements suivants sont également disponibles dans la zone Nouveau modèle :
 
 * Vous pouvez personnaliser votre modèle de mise en page une seule fois et refléter ces personnalisations à la fois dans la page Détails et dans la zone Modifier le modèle.
 * Les noms des formulaires personnalisés sont désormais disponibles dans le panneau de gauche, à l’intérieur de la zone Modifier le modèle, et vous pouvez accéder rapidement à chaque formulaire à partir de là.
@@ -95,7 +95,7 @@ La page Notifications a désormais une apparence moderne, en accord avec les aut
 
 ## Mises à jour des filtres pendant la période de publication de la version 23.1
 
-L’expérience de filtres bêta a été ajoutée aux listes de projets, de tâches et de problèmes le 4 août 2022. Les nouveaux filtres sont également disponibles dans les listes de feuilles de temps et dans le planificateur de scénarios.
+L’expérience de filtres Beta a été ajoutée aux listes de projets, de tâches et de problèmes le 4 août 2022. Les nouveaux filtres sont également disponibles dans les listes de feuilles de temps et dans le planificateur de scénarios.
 
 Cette page indique quand les nouveaux filtres sont ajoutés à d’autres zones de l’application Adobe Workfront pendant la période de publication de la version 23.1.
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur l’utilisation des nouveaux filtres, voir [Crée
 
 ### Listes mises à jour avec les nouveaux filtres
 
-Les listes présentées ici offrent désormais l’expérience de filtres bêta en plus du créateur de filtres standard.
+Les listes présentées ici offrent désormais l’expérience de filtres Beta en plus du créateur de filtres standard.
 
 #### Version de prévisualisation : 13 octobre 2022 ; version de production prévue : 27 octobre 2022
 
@@ -111,7 +111,7 @@ Les listes présentées ici offrent désormais l’expérience de filtres bêta 
 
 * Programmes
 
-* Utilisateurs
+* Utilisateurs et utilisatrices
 
 * Risques liés au projet
 

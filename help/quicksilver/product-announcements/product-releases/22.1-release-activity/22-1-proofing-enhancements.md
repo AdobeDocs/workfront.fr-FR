@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 94%
 
 ---
@@ -63,10 +63,10 @@ Pour plus d’informations, voir [Vue d’ensemble de la sécurité des épreuve
 
 ## Mise à niveau de la visionneuse de bureau
 
-Nous avons mis à jour la visionneuse de relecture de bureau pour qu’elle prenne en charge la version 91 de Chrome afin d’améliorer la compatibilité avec les épreuves interactives.
+Nous avons mis à niveau la visionneuse de relecture de bureau pour qu’elle prenne en charge la version 91 de Chrome afin d’améliorer la compatibilité avec les épreuves interactives.
 
 >[!IMPORTANT]
 >
 >Les utilisateurs et utilisatrices de Windows doivent réinstaller manuellement la visionneuse de bureau pour passer à la dernière version. Ensuite, les futures mises à jour de la visionneuse de relecture de bureau seront automatiques. Pour obtenir de l’aide pour l’installation, voir [Installer la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
-La mise à jour vers la dernière version sera automatique pour les utilisateurs et utilisatrices Mac.
+La mise à niveau vers la dernière version sera automatique pour les utilisateurs et utilisatrices Mac.

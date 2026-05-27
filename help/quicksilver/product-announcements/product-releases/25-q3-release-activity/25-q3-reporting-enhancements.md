@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 17%
+source-wordcount: '282'
+ht-degree: 15%
 
 ---
 
@@ -39,7 +39,7 @@ Pour plus d’informations, voir [Planification de la diffusion automatique des 
 >[!NOTE]
 >
 >* Aperçu : 30 avril 2025
->* Version rapide de production : vendredi 15 mai 2025
+>* Version rapide de production : 15 mai 2025
 >* Production pour tous les clients : 17 juillet 2025
 
 Nous avons mis à jour le comportement du caractère générique utilisateur pour exclure la valeur nulle lors du filtrage d’un rapport. Cette modification permet au filtre de produire des résultats plus précis, plutôt que de renvoyer des résultats qui ne sont pas correctement configurés par un utilisateur (résultat nul).

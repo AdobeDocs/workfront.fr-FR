@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1739'
 ht-degree: 38%
 
 ---
@@ -28,7 +28,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
 
 | Version mensuelle | Version trimestrielle |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (vendredi 13 février 2025)</li><li>25.3 (vendredi 13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
+| <ul><li>25.2 (13 Février 2025)</li><li>25.3 (13 mars 2025)</li><li>25.4 (vendredi 10 avril 2025)</li></ul> | <ul><li>25.4 (vendredi 10 avril 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -265,7 +265,7 @@ Sauf indication contraire, les versions mensuelles et trimestrielles devraient �
             <p><b>Disponible à ces dates :</b></p>
             <ul>
                 <li>Version préliminaire : vendredi 23 janvier 2025</li>
-                <li>Production pour une version rapide : avec la version 25.2 (vendredi 13 février 2025)</li>
+                <li>Production pour une version rapide : avec la version 25.2 (13 février 2025)</li>
                 <li>Version de production pour tous les clients : avec la version 25.4 (avril 2025)</li>
             </ul>
         </td>

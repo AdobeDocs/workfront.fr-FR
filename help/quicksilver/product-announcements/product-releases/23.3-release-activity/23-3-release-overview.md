@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2965'
 ht-degree: 97%
 
 ---
@@ -62,7 +62,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de sortie</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -258,7 +258,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                                 <p>Version préliminaire : 27 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour l’opt-in anticipé : 28 avril 2023.<span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’option opt-in anticipé aux fonctionnalités pour les panoramas Workfront.</span></p>
+                                 <p>Version de production pour l’opt-in anticipé : 28 avril 2023.<span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’opt-in anticipé aux fonctionnalités pour les panoramas Workfront.</span></p>
                                 <p>Version de production pour l’ensemble des clientes et clients : avec la version 23.3</p>
                             </li>
                         </ul>
@@ -344,7 +344,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Fonctionnalités</span>
+                        <p><span class="bold">Fonctionnalité</span>
                         </p>
                     </td>
                     <td>
@@ -354,7 +354,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date d’entrée en vigueur des coûts et des taux de facturation</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date d’entrée en vigueur des taux de facturation et de coût</a></p>
                         <p>La date d’entrée en vigueur des coûts et des taux de facturation est désormais disponible sur les objets « Entreprise », « Utilisateur ou utilisatrice » et « Fonction » dans Workfront. Lorsque les taux de date d’entrée en vigueur sont appliqués à un projet et que les heures sont consignées dans les tâches du projet, les coûts et les revenus sont calculés à l’aide des taux spécifiés pour chaque période.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -364,8 +364,8 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                             </li>
                             <li>
                                 <p>Version de production pour les clientes et les clients de la version rapide : à annoncer, après la version de production 23.3</p>
-                                <p>Version de production pour toute la clientèle : à annoncer<br>
- La fonctionnalité de remplacement des taux d’affectation a été temporairement désactivée dans la version de prévisualisation du 30 juin au 13 juillet 2023.</p>
+                                <p>Version de production pour tous les clients : à annoncer<br>
+                                La fonction de remplacement du taux d’affectation a été temporairement désactivée dans l’aperçu du 30 juin au 13 juillet 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +540,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience d’approbation de documents</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau processus d’approbation de documents</a> </p>
                         <p>Les approbations de documents sont en cours de reconception dans le cadre d’un déploiement échelonné qui sera mis à la disposition d’un plus grand nombre d’utilisateurs et d’utilisatrices avec chaque version.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -586,7 +586,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>   
@@ -621,7 +621,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>

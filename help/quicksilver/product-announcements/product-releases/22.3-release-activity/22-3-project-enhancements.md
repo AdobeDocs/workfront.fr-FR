@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
 source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1545'
 ht-degree: 99%
 
 ---
@@ -47,7 +47,7 @@ Pour que votre utilisation de Workfront soit cohérente avec la nouvelle expéri
 
 Cette mise à jour comprend ce qui suit :
 
-* Interface d’utilisation actualisée qui s’harmonise avec le reste de la nouvelle expérience Workfront.
+* Interface d’utilisation mise à jour qui s’harmonise avec le reste de la nouvelle expérience Workfront.
 
 * Accès pour convertir un problème en tâche à partir d’une liste ou d’un rapport.
 

@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2430'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
 
 >[!IMPORTANT]
 >
->La version 23.3 incluait l’option permettant d’opter pour des versions mensuelles dans votre organisation. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
+>La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront a modifié le schéma de numérotation des versions afin de tenir compte des suivis de versions mensuels et trimestriels. Le premier chiffre désigne l’année, le second le mois de la version. Exemple : la version d’avril 2024 est 24.4.
 >
 >Sauf indication contraire, la sortie des versions mensuelles et trimestrielles est prévue le jeudi de la deuxième semaine complète du mois.
 >
@@ -67,8 +67,8 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique d’affichage et la logique de saut sont désormais disponibles en mode d’aperçu du créateur de formulaire.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>La version bêta du créateur de formulaire personnalisé vous permet désormais de tester votre logique d’affichage et logique de saut en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique d’affichage et la logique de saut sont désormais disponibles en mode d’aperçu du concepteur de formulaires.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>La version Beta du concepteur de formulaires personnalisés vous permet désormais de tester votre logique d’affichage et logique de saut en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -118,7 +118,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs natifs de Workfront sont disponibles dans la version bêta du créateur de formulaire</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les champs natifs de Workfront sont disponibles dans la version Beta du concepteur de formulaires</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Les champs natifs de Workfront sont désormais disponibles pour l’ajout dans vos formulaires personnalisés. Ce nouveau type de champ vous permet d’organiser et de présenter les données à vos utilisateurs et utilisatrices de manière logique, sans avoir à recréer des données existantes dans des champs personnalisés.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -153,8 +153,8 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Les logiques de saut et d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Vous pouvez désormais modifier les logiques d’affichage et de saut existantes et ajouter des nouvelles logiques aux formulaires personnalisés dans la version bêta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logique de saut et la logique d’affichage sont désormais disponibles dans la version Beta du concepteur de formulaires.</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>Vous pouvez désormais modifier les logiques d’affichage et de saut existantes et ajouter des nouvelles logiques aux formulaires personnalisés dans la version Beta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -280,14 +280,14 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles d’Administration pour la nouvelle page d’accueil à l’aide des modèles de disposition</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Les administrateurs et administratrices peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs et utilisatrices de nouveaux widgets d’accueil spécifiques à l’aide de modèles de disposition. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Options de colonne ajoutées aux contrôles Administration pour la nouvelle page d’accueil à l’aide des modèles de mise en page</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+                        <p>Les administrateurs et administratrices peuvent désormais personnaliser les colonnes disponibles pour les utilisateurs et utilisatrices de nouveaux widgets d’accueil spécifiques à l’aide de modèles de mise en page. Les options incluent le masquage ou l’affichage des colonnes par défaut et l’ajout de champs existants en tant que nouvelles colonnes.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -609,7 +609,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
