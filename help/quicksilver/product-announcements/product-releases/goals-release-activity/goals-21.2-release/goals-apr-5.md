@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: '« Activité de version 21.2 des Objectifs Adobe Workfront : semaine du 5 avril 2021 »'
+title: 'Activité Version des Objectifs Adobe Workfront 21.2 : semaine du 5 avril 2021'
 description: Cette page décrit toutes les améliorations apportées à la version 21.2 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 5 avril 2021. Ces améliorations seront disponibles dans l’environnement de production au cours du premier trimestre 2022.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---

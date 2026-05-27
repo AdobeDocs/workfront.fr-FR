@@ -9,8 +9,8 @@ feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 94%
+source-wordcount: '381'
+ht-degree: 92%
 
 ---
 
@@ -42,4 +42,4 @@ Les actions de partage, modification, suppression, ou copie d’un objectif suiv
 
 Pour plus d’informations sur les objectifs Workfront, consultez les articles disponibles dans la section [Objectifs Adobe Workfront : index des articles](/help/quicksilver/workfront-goals/workfront-goals.md) de la documentation Workfront.
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3413327/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3413327/){target=_blank}

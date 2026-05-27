@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2782'
 ht-degree: 94%
 
 ---
@@ -195,7 +195,7 @@ Ces informations peuvent servir à faciliter les audits et illustrer la qualité
       <td> <p>Le nom de l’utilisateur ou de l’utilisatrice qui a mis à jour le statut.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
+      <td> <p style="font-weight: bold;">Date de saisie</p> </td> 
       <td> <p>La date de modification du statut.</p> </td> 
      </tr> 
      <tr> 
@@ -277,7 +277,7 @@ Vous pouvez configurer le rapport d’entrée du journal de manière à ce qu’
 
 Pour savoir quand la suppression d’une tâche ou d’un problème est survenue :
 
-1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![&#x200B; Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
+1. Cliquez sur l’icône du **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône du **[!UICONTROL Menu principal]** ![ Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **Rapports**.
 1. Cliquez sur **Nouveau rapport**, puis sélectionnez **Entrée du journal**.
 
    ![Sélectionner une entrée de journal](assets/nwe-select-journal-entry-350x273.png)
@@ -305,7 +305,7 @@ Pour savoir quand la suppression d’une tâche ou d’un problème est survenue
       <td> <p>Type de modification qui a été réalisée. La modification <strong>Supprimer</strong> s’affiche dans cette colonne.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
+      <td> <p style="font-weight: bold;">Date de saisie</p> </td> 
       <td> <p>Date de la suppression de la tâche ou du problème.</p> </td> 
      </tr> 
      <tr> 
@@ -395,7 +395,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
       <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a mis à jour le champ personnalisé.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
+      <td> <p style="font-weight: bold;">Date de saisie</p> </td> 
       <td> <p>Date à laquelle la valeur du champ personnalisé a été modifiée.</p> <p>Vous devez trier ce champ par ordre décroissant.</p> </td> 
      </tr> 
      <tr> 
@@ -497,7 +497,7 @@ Vous pouvez paramétrer le rapport d’entrée du journal pour montrer à quelle
       <td> <p>Nom de l’utilisateur ou de l’utilisatrice qui a mis à jour la date d’achèvement prévue du projet.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Date d’entrée</p> </td> 
+      <td> <p style="font-weight: bold;">Date de saisie</p> </td> 
       <td> <p>Date à laquelle la date d’achèvement prévue du projet a été modifiée.</p> <p>Vous devez trier ce champ par ordre décroissant.</p> </td> 
      </tr> 
      <tr> 

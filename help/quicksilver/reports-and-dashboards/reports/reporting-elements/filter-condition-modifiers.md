@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1600'
 ht-degree: 91%
 
 ---
@@ -87,7 +87,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans les filtres et
   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>contains</strong> </p> </td> 
-   <td> <p> Recherche le texte <i>sensible à la casse</i> spécifié dans toute une chaîne de texte.</p> <p>Par exemple, l’utilisation de <code>contains Inf</code> permet de capturer tout ce qui contient <code>Inf</code>, par exemple, le mot <code>Infinity.</code></p> <p>Ce modificateur ne peut être utilisé que dans les filtres du mode texte. Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
+   <td> <p> Recherche le texte <i>sensible à la casse</i> spécifié dans toute une chaîne de texte.</p> <p>Par exemple, l’utilisation de <code>contains Inf</code> permet de capturer tout ce qui contient <code>Inf</code>, par exemple, le mot <code>Infinity.</code></p> <p>Ce modificateur ne peut être utilisé que dans les filtres du mode texte.Pour plus d’informations sur le mode texte dans les filtres, voir <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modifier un filtre à l’aide du mode texte</a>.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notcontains</strong> </p> </td> 

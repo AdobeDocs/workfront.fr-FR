@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 100%
+source-wordcount: '2553'
+ht-degree: 98%
 
 ---
 
@@ -411,7 +411,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>Renvoie l’élément au numéro spécifié dans le tableau. Si l’index est hors limites, il renvoie un élément vide.</p> 
+   <td> <p>Renvoie l’élément au nombre spécifié dans le tableau . Si l’index est hors limites, il renvoie vide.</p> 
    <p>L’expression est au format suivant :</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
