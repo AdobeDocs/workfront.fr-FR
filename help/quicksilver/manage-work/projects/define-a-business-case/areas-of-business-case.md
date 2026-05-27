@@ -50,7 +50,7 @@ Envisagez de modifier les champs suivants :
 
 * **Sponsor du projet** : sélectionnez un utilisateur actif qui sera le sponsor du projet. Le promoteur reçoit l&#39;approbation de l&#39;analyse de rentabilité.
 
-* **** : sélectionnez un Portfolio pour le projet. Vous devez créer le Portfolio et le placer à l’état Actif avant qu’il ne puisse être sélectionné dans ce menu déroulant.
+* **&#x200B;**&#x200B;: sélectionnez un Portfolio pour le projet. Vous devez créer le Portfolio et le placer à l’état Actif avant qu’il ne puisse être sélectionné dans ce menu déroulant.
 
   Pour plus d’informations sur les portfolios, voir [Vue d’ensemble des portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 

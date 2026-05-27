@@ -87,7 +87,7 @@ Les applications créées avec Adobe App Builder sont répertoriées comme _Appl
 
 Pour afficher des applications pour Workfront, accédez à Adobe Exchange et recherchez des applications compatibles avec Workfront. Vous pouvez également filtrer les listes pour les applications Workfront App Builder :
 
-1. Cliquez sur **** dans le panneau de gauche.
+1. Cliquez sur **&#x200B;**&#x200B;dans le panneau de gauche.
 1. Dans le panneau de gauche, recherchez **Produit**, puis sélectionnez **Workfront**.
 1. Développez **Type d’application**, puis choisissez **App Builder**.
 
