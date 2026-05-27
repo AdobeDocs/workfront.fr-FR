@@ -10,7 +10,7 @@ role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '415'
 ht-degree: 91%
 
 ---
@@ -36,7 +36,7 @@ Pour plus d’informations sur les éléments supprimés, consultez [Gérer les 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Exporter la liste complète des objets de l’onglet</p> </td> 
-      <td> <p>Cliquez sur <strong>Exporter</strong>.</p> </td> 
+      <td> <p>Cliquez sur <strong>Exporter</strong>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>Modifier l’affichage des informations dans la liste</p> </td> 
