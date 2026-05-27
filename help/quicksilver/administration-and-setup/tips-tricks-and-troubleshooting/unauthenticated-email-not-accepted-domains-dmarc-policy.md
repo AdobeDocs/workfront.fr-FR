@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Le message non authentifié n’est pas accepté en raison de la stratégie DMARC du domaine
+title: Les e-mails non authentifiés ne sont pas acceptés en raison de la politique DMARC du domaine
 description: Si un e-mail envoyé depuis le système  [!DNL Workfront]  n’est pas accepté en raison de la politique DMARC du domaine, votre administrateur ou administratrice de messagerie peut résoudre le problème en configurant votre système de messagerie pour autoriser tous les e-mails provenant de workfront.com.
 author: Lisa
 feature: System Setup and Administration
@@ -11,8 +11,8 @@ role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
 source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 93%
+source-wordcount: '177'
+ht-degree: 94%
 
 ---
 

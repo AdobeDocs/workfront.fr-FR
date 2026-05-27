@@ -6,8 +6,8 @@ feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 1%
+source-wordcount: '1301'
+ht-degree: 3%
 
 ---
 
@@ -65,7 +65,7 @@ WorkFocus souhaite discuter de la manière dont il peut servir de partenaire str
 
 ## Conditions préalables et autorisations
 
-**Approvisionnement d’App Builder**
+**Approvisionnement d’**
 
 * App Builder doit être configuré dans le Adobe Admin Console des clients. Il s’agit d’un prérequis pour installer des applications à partir d’Adobe Exchange.
 
@@ -87,7 +87,7 @@ Les applications créées avec Adobe App Builder sont répertoriées comme _Appl
 
 Pour afficher des applications pour Workfront, accédez à Adobe Exchange et recherchez des applications compatibles avec Workfront. Vous pouvez également filtrer les listes pour les applications Workfront App Builder :
 
-1. Cliquez sur **Experience Cloud** dans le panneau de gauche.
+1. Cliquez sur **&#x200B;**&#x200B;dans le panneau de gauche.
 1. Dans le panneau de gauche, recherchez **Produit**, puis sélectionnez **Workfront**.
 1. Développez **Type d’application**, puis choisissez **App Builder**.
 

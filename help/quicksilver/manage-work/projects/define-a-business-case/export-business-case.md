@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
 source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '177'
+ht-degree: 54%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez exporter le business case vers un fichier PDF au cas où vous auriez
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> <p>Prime ou version ultérieure </p>  </td> 
   </tr> 
   <tr> 

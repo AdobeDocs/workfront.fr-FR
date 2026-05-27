@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Créer une relation de prédécesseur à l’aide de la zone Prédécesseurs
-description: Vous pouvez utiliser des tâches antérieures (ou simplement des prédécesseurs) pour lier des tâches qui dépendent d'autres tâches à démarrer ou à terminer.
+description: Vous pouvez utiliser des tâches antérieures (ou plus simplement des prédécesseurs) pour lier des tâches dont le démarrage ou l’achèvement dépend d’autres tâches.
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 39%
+source-wordcount: '422'
+ht-degree: 44%
 
 ---
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur les tâches antérieures, voir [Vue d’ensemble 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

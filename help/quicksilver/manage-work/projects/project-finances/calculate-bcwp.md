@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '573'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Tenez compte de ce qui suit lorsque vous passez en revue les valeurs du BCWP sur
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

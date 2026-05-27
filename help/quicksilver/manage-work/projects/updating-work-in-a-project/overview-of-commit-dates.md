@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '878'
 ht-degree: 38%
 
 ---
@@ -78,7 +78,7 @@ La définition manuelle de la date d’engagement d’une tâche ou d’un probl
 
   ![Notification de modification de la date d&#39;engagement](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  La modification de la date d’engagement s’affiche dans la zone Mises à jour de la tâche ou de l’événement lorsque l’administrateur Workfront active cette mise à jour dans la zone Flux de mises à jour de la configuration.Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  La modification de la date d’engagement s’affiche dans la zone Mises à jour de la tâche ou de l’événement lorsque l’administrateur Workfront active cette mise à jour dans la zone Flux de mises à jour de la configuration. Pour plus d’informations, voir [Mises à jour suivies par le système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Si un propriétaire de projet ne souhaite pas accepter la modification, nous lui recommandons de renvoyer un commentaire à l’utilisateur proposant une nouvelle date à l’aide de l’onglet Commentaires de la section Mises à jour , de lui demander de rétablir la date prévue d’origine de la date d’engagement ou de sélectionner une nouvelle date.
 

@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '696'
 ht-degree: 49%
 
 ---
@@ -40,7 +40,7 @@ Les fonctionnalités suivantes peuvent avoir un impact sur le chemin critique d�
      >Lorsque la date du successeur d&#39;une tâche n&#39;a pas d&#39;incidence directe sur la date de ses tâches dépendantes ou sur les dates du projet, la tâche du successeur ne se trouve pas sur le chemin critique.
      >
      >
-     >![Le successeur n&#39;est pas sur le chemin critique](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Le successeur n’est pas sur le chemin critique](assets/successor-not-on-critical-path-350x150.png) >
      >
 
    * Lorsqu&#39;une sous-tâche est identifiée comme tâche de chemin critique, la tâche parent est également identifiée comme tâche de chemin critique si la date de début prévue et l&#39;heure de la tâche parent sont identiques à celles de la sous-tâche.

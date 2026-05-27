@@ -8,12 +8,12 @@ feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 43%
+source-wordcount: '1560'
+ht-degree: 44%
 
 ---
 
-# Aperçu des domaines de l’analyse de rentabilité
+# Vue d’ensemble des domaines de l’analyse de rentabilité
 
 <!-- Audited: 4/2025 -->
 
@@ -50,7 +50,7 @@ Envisagez de modifier les champs suivants :
 
 * **Sponsor du projet** : sélectionnez un utilisateur actif qui sera le sponsor du projet. Le promoteur reçoit l&#39;approbation de l&#39;analyse de rentabilité.
 
-* **Portfolio** : sélectionnez un Portfolio pour le projet. Vous devez créer le Portfolio et le placer à l’état Actif avant qu’il ne puisse être sélectionné dans ce menu déroulant.
+* **&#x200B;**&#x200B;: sélectionnez un Portfolio pour le projet. Vous devez créer le Portfolio et le placer à l’état Actif avant qu’il ne puisse être sélectionné dans ce menu déroulant.
 
   Pour plus d’informations sur les portfolios, voir [Vue d’ensemble des portfolios dans Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
@@ -86,7 +86,7 @@ Pour plus d’informations, voir [Création d’objectifs de business case](../.
 
 ## Frais
 
-Les charges représentent les coûts non liés à la main-d&#39;œuvre qui pourraient être engagés pendant la durée de vie d&#39;un projet. Cette zone est activée par défaut dans l’analyse de rentabilité, mais l’administrateur Workfront peut choisir de ne pas l’afficher.
+Les dépenses représentent les coûts non liés à la main-d’œuvre qui peuvent être engagés pendant la durée de vie d’un projet. Cette zone est activée par défaut dans l’analyse de rentabilité, mais l’administrateur Workfront peut choisir de ne pas l’afficher.
 
 Toutes les dépenses que vous entrez dans l&#39;Analyse de rentabilité sont également entrées comme Dépenses prévues dans l&#39;onglet Dépenses du projet.
 

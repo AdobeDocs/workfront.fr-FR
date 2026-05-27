@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Afficher et mettre à jour le pourcentage d'achèvement pour les tâches
-description: Vous pouvez mettre à jour le pourcentage d’achèvement d’une tâche afin d’indiquer la progression de la tâche vers son achèvement. La mise à jour du pourcentage terminé pour les événements est similaire à la mise à jour d’une tâche. Cet article décrit comment mettre à jour le pourcentage d’achèvement d’une tâche.
+description: Vous pouvez mettre à jour le pourcentage terminé d’une tâche pour indiquer la progression de la tâche vers son achèvement. La mise à jour du pourcentage terminé pour les événements est similaire à la mise à jour d’une tâche. Cet article décrit comment mettre à jour le pourcentage d’achèvement d’une tâche.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
@@ -11,7 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 42%
+ht-degree: 45%
 
 ---
 

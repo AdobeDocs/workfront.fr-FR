@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1367'
 ht-degree: 79%
 
 ---
@@ -186,7 +186,7 @@ Pour affecter des problèmes dans une liste :
 
    >[!TIP]
    >
-   >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, la fonction principale de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques.
+   >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, le rôle principal de l’utilisateur ou de l’utilisatrice ou son adresse e-mail, pour faire la distinction entre les utilisateurs et utilisatrices portant le même nom.
    >
    >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    >

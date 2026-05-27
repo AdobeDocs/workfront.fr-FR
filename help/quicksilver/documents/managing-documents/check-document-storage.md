@@ -11,7 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -72,7 +72,7 @@ Le quota de stockage est actualisé tous les jours afin d’afficher le décompt
 
 <div class="preview">
 
-## Adobe cloud storage
+## Espace de stockage Adobe
 
 
 Si votre entreprise utilise le stockage dans le cloud Adobe, votre quota de stockage est signalé comme une allocation de pool unique qui combine le stockage fourni par votre licence Workfront et tout stockage fourni par le biais d’un module complémentaire Frame.io Enterprise. L’utilisation du stockage n’est pas soumise à une limite stricte. Les utilisateurs peuvent continuer à charger des documents même lorsque l’utilisation dépasse votre quota.

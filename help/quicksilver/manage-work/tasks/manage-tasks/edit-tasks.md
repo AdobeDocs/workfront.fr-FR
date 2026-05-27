@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifier tâches
-description: Vous pouvez modifier les informations sur les tâches que vous avez créées ou pour lesquelles vous disposez des autorisations de niveau Contribution ou Gestion. Cet article décrit comment rechercher, rechercher et modifier une tâche, si vous disposez des autorisations nécessaires pour le faire.
+description: Vous pouvez modifier les détails des tâches que vous avez créées ou pour lesquelles vous disposez des autorisations « Contribuer » ou « Gérer ». Cet article décrit comment rechercher, rechercher et modifier une tâche, si vous disposez des autorisations nécessaires pour le faire.
 author: Alina
 feature: Work Management, Tasks
 role: User
@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4076'
-ht-degree: 77%
+source-wordcount: '4104'
+ht-degree: 76%
 
 ---
 
@@ -288,12 +288,12 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <td role="rowheader">Priorité</td> 
       <td> <p>Il s’agit d’un indicateur visuel qui vous permet de hiérarchiser vos tâches. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
-      <li> <p> Aucun</p> </li> 
+      <li> <p> Aucune</p> </li> 
       <li> <p> Faible </p> </li> 
       <li> <p>Normal </p> </li> 
       <li> <p>Élevé </p> </li> 
       <li> <p> Urgent </p> </li> 
-       </ul> <p>Selon les préférences du projet sélectionnées par votre administrateur ou administratrice Workfront, les noms des priorités peuvent être différents pour vous. Pour plus d’informations sur les priorités des tâches, voir <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Mettre à jour les priorités des tâches</a>. </p> </td> 
+       </ul> <p>Selon les préférences du projet sélectionnées par votre administrateur ou administratrice Workfront, les noms des priorités peuvent être différents pour vous. Pour plus d’informations sur les priorités des tâches, voir la section <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Mettre à jour une priorité de tâche</a>. </p> </td> 
      </tr> 
      <tr> 
       <td colspan="2" role="rowheader"><span style="font-weight: bold;">Section dates et contraintes de tâche</span> </td> 
@@ -303,18 +303,18 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <td> <p>Déterminez quand la tâche doit être terminée en indiquant une contrainte de tâche. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
       <li> <p><span>Dates fixes</span> </p> <p>Indiquez une <strong>Date de début prévue</strong> et une <strong>Date d’achèvement prévue</strong>. </p> </li> 
-      <li> <p><span>Il Faut Commencer Le</span> </p> <p>Indiquez une <strong>Date de début prévue</strong>. </p> </li> 
-      <li> <p><span>Doit se terminer le</span> </p> <p>Indiquez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
+      <li> <p><span>Il Faut Commencer Le</span> </p> <p>Spécifiez une <strong>Date de début prévue</strong>. </p> </li> 
+      <li> <p><span>Doit se terminer le</span> </p> <p>Spécifiez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>Aussi Tôt Que Possible</span></p> </li> 
       <li> <p><span>Aussi Tard Que Possible</span></p> </li> 
       <li> <p><span>Première Heure Disponible</span></p> </li> 
-      <li> <p> <span>Dernière Heure Disponible</span></p> </li> 
+      <li> <p> <span>Dernière heure disponible</span></p> </li> 
       <li> <p><span>Commencer Au Plus Tard</span> </p> </li> 
       <li> <p>Indiquer une Date de début prévue</p> </li> 
-      <li> <p><span>Commencer Au Plus Tôt</span> </p> <p>Indiquez une <strong>Date de début prévue</strong>. </p> </li> 
-      <li> <p> Finir <span>Au plus tard</span></p> <p>Indiquez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
+      <li> <p><span>Commencer Au Plus Tôt</span> </p> <p>Spécifiez une <strong>Date de début prévue</strong>. </p> </li> 
+      <li> <p> Finir <span>Au plus tard</span></p> <p>Spécifiez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
       <li> <p> Finir <span>Au Plus Tôt</span></p> <p>Indiquer une <strong>Date d’achèvement prévue</strong></p> </li> 
        </ul> <p>Pour plus d’informations sur la contrainte de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble de la contrainte de tâche</a>.</p> </td> 
      </tr> 
@@ -326,7 +326,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <td role="rowheader">Date et heure de début prévues</td> 
       <td> <p>Date et heure auxquelles la tâche devrait commencer. La date de début prévue d’une tâche est définie et influencée par un certain nombre de facteurs :</p> 
        <ul> 
-      <li>Selon la préférence système pour la date de début prévue de la tâche, la date de début d’une nouvelle tâche sur un projet peut être aujourd’hui, ou par défaut, la date de début du projet. <span>L’équipe d’administration de groupes associée au projet peut également définir cette préférence pour le groupe.</span>Pour plus d’informations sur les préférences de tâche au niveau du système ou du groupe, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurer les préférences de tâche et de problème à l’échelle du système</a>.</li> 
+      <li>Selon la préférence système pour la date de début prévue de la tâche, la date de début d’une nouvelle tâche sur un projet peut être aujourd’hui, ou par défaut, la date de début du projet. <span>L’administrateur de groupes pour le groupe associé au projet peut également définir cette préférence pour le groupe.</span> Pour plus d’informations sur les préférences de tâches au niveau du système ou du groupe, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurer les préférences de tâches et de problèmes à l’échelle du système</a>.</li> 
       <li>Selon les tâches antérieures de la tâche, Workfront choisit la date de début prévue comme prochaine date disponible après la fin ou le début de la relation antérieure. Pour plus d’informations sur les relations antérieures, voir <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Vue d’ensemble des tâches antérieures</a>.</li> 
       <li>La personne responsable du projet ainsi que la personne propriétaire de la tâche peuvent définir manuellement la date de début prévue si la contrainte de tâche est définie sur Dates fixes ou Il Faut Commencer Le. Pour plus d’informations sur les contraintes de tâche, voir <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble des contraintes de tâches</a>.</li> 
        </ul> </td> 
@@ -504,7 +504,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
 
    <p>Le temps écoulé est une unité de temps pour la durée d’une tâche. Il s’agit de la durée entre la date de début et la date d’achèvement prévues d’une tâche qui comprend les jours fériés, les week-ends et les jours de congé. En d’autres termes, le temps écoulé est le nombre de jours calendaires écoulés.
 
-   Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche. Pour plus d’informations sur la durée de la tâche, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>. </p>
+   Le temps normal prend en compte les jours fériés, les week-ends et les jours de congé et les exclut de la durée de la tâche. Pour plus d’informations sur la durée des tâches, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée des tâches et du type de durée</a>. </p>
    </div> 
       </div> </td> 
       </tr> 
@@ -658,7 +658,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
    <p><b>IMPORTANT</b>
 
-   Si le groupe du projet change, le processus d’approbation spécifique au groupe précédemment joint devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Comment les modifications du processus d’approbation et de groupe influencent les processus d’approbation affectés</a>. </p>
+   Si le groupe du projet change, le processus d’approbation spécifique au groupe précédemment joint devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>. </p>
 
    </li>
 

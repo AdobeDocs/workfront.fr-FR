@@ -7,7 +7,7 @@ exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
 source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '1117'
-ht-degree: 96%
+ht-degree: 87%
 
 ---
 
@@ -88,9 +88,9 @@ Lorsque vous associez un type d’objet qui utilise des options d’autorisation
 
 ### Compatibilité des champs personnalisés calculés
 
-Dans un formulaire personnalisé à plusieurs objets, si un champ calculé fait référence à des champs pouvant être utilisés avec tous les types d’objets associés au formulaire (tels que {name}, {description} et {entryDate}, disponibles pour plusieurs types d’objets), les données sont correctement calculées, quel que soit l’objet auquel vous le joignez.
+Dans un formulaire personnalisé multi-objets, si un champ calculé fait référence à des champs disponibles pour être utilisés avec tous les types d’objets associés au formulaire (tels que {name}, {description} et {entryDate}, disponibles pour plusieurs types d’objets), les données sont calculées correctement, quel que soit l’objet auquel vous le joignez.
 
-Par exemple, si vous disposez d’un formulaire à plusieurs objets pour les projets et les problèmes et que vous ajoutez un champ calculé contenant l’expression {name}, le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet et le nom de la tâche lorsque vous ajoutez le formulaire à une tâche.
+Par exemple, si vous disposez d’un formulaire à plusieurs objets pour des projets et des événements et que vous ajoutez un champ calculé contenant l’expression {name}, le champ affiche le nom du projet lorsque vous ajoutez le formulaire à un projet et le nom de la tâche que vous ajoutez au formulaire.
 
 Les champs non compatibles avec l’objet s’affichent sans objet sur le formulaire.
 
