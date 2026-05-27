@@ -9,8 +9,8 @@ feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 86%
+source-wordcount: '592'
+ht-degree: 82%
 
 ---
 
@@ -99,8 +99,8 @@ CPI = 1
   Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete / 100)
   ```
 
-* **Pour une tâche parent :**
-Coût total budgété du travail effectué (BCWP) = somme du champ Coût total budgété du travail effectué pour toutes les tâches enfant directes.
+* **Pour une tâche parent :**
+Coût budgété total du travail effectué = somme du champ Coût budgété total du travail effectué pour toutes les tâches enfants directes.
 
 * **Pour un projet :**
 Coût budgété total du travail effectué = somme du champ Coût budgété total du travail effectué pour toutes les tâches de niveau supérieur (tâches parents et tâches autonomes).
