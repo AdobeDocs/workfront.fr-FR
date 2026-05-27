@@ -8,7 +8,7 @@ exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -109,7 +109,7 @@ En plus des priorités par défaut fournies dans Workfront, vous pouvez ajouter 
 
    * **Couleur** : choisissez une couleur pour la priorité.
 
-     La couleur de la priorité est utilisée dans les rapports sous forme de graphique et dans les paramètres de l’équipe Agile. Pour plus d&#39;informations sur les rapports graphiques, voir [Ajouter un graphique à un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Pour plus d&#39;informations sur les paramètres d&#39;équipe Agile, voir [Créer une équipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     La couleur de la priorité est utilisée dans les rapports sous forme de graphique et dans les paramètres de l’équipe Agile. Pour plus d’informations sur les rapports sous forme de graphiques, voir [Ajouter un graphique à un rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Pour plus d&#39;informations sur les paramètres d&#39;équipe Agile, voir [Créer une équipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **Priorité par défaut** : sélectionnez la priorité que Workfront doit appliquer automatiquement à tous les nouveaux projets, tâches ou événements.
 

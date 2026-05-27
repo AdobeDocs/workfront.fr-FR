@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
-title: Gestion des éléments supprimés
+title: Gérer les éléments supprimés
 description: En tant qu’administrateur ou administratrice Workfront, vous pouvez restaurer des projets, des tâches, des problèmes, des documents et des modèles Workfront s’ils ont été supprimés au cours des 30 derniers jours. Lorsque vous restaurez un objet, tous ses objets et champs enfant sont également restaurés.
 feature: System Setup and Administration
 role: Admin

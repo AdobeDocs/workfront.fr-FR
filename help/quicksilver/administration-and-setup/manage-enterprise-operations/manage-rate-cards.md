@@ -10,8 +10,8 @@ role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 14%
+source-wordcount: '1338'
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez également verrouiller les taux sur une carte tarifaire pour éviter
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Pour modifier une carte tarifaires partagée avec vous, vous devez disposer des autorisations Gérer sur la carte tarifaire.</td> 
+   <td>Pour modifier une carte tarifaire partagée avec vous, vous devez disposer des autorisations de niveau Gérer sur la carte tarifaire.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Cartes tarifaires**].
+1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Carte tarifaire**].
 1. Cliquez sur [!UICONTROL **Nouvelle carte tarifaire**], puis sur [!UICONTROL **Créer une carte tarifaire**].
 1. Saisissez un nom et une description pour la carte tarifaire dans la zone [!UICONTROL **Nouvelle carte tarifaire**].
 

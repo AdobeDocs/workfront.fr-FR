@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Statuts des groupes verrouillé et déverrouillé
-description: Le verrouillage des statuts personnalisés d’un groupe permet de s’assurer que les membres du groupe et ses sous-groupes utilisent les mêmes processus dans leur workflow. Lorsqu’un statut de groupe est verrouillé, il est disponible pour tous les utilisateurs et utilisatrices du groupe et des groupes inférieurs.
+description: Le verrouillage des statuts personnalisés d’un groupe permet de s’assurer que les membres du groupe et ses sous-groupes utilisent les mêmes processus dans leur workflow. Lorsqu’un statut de groupe est verrouillé, il est disponible pour tous les utilisateurs et toutes les utilisatrices du groupe et dans les groupes inférieurs.
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 

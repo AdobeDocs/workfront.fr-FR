@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 91%
+source-wordcount: '2112'
+ht-degree: 89%
 
 ---
 
@@ -152,7 +152,7 @@ Old:
       <td role="rowheader">Priorité</td> 
       <td> <p>Il s’agit d’un indicateur visuel qui vous permet de hiérarchiser vos tâches. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
-        <li> <p> Aucun</p> </li> 
+        <li> <p> Aucune</p> </li> 
         <li> <p> Faible </p> </li> 
         <li> <p>Normal </p> </li> 
         <li> <p>Élevé </p> </li> 
@@ -284,18 +284,18 @@ Old:
       <td> <p>Déterminez quand la tâche doit être terminée en indiquant une contrainte de tâche. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
         <li> <p><span>Dates fixes</span> </p> <p>Indiquez une <strong>Date de début prévue</strong> et une <strong>Date d’achèvement prévue</strong>. </p> </li> 
-        <li> <p><span>Il Faut Commencer Le</span> </p> <p>Indiquez une <strong>Date de début prévue</strong>. </p> </li> 
-        <li> <p><span>Doit se terminer le</span> </p> <p>Indiquez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
+        <li> <p><span>Il Faut Commencer Le</span> </p> <p>Spécifiez une <strong>Date de début prévue</strong>. </p> </li> 
+        <li> <p><span>Doit se terminer le</span> </p> <p>Spécifiez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
        </ul> 
        <ul> 
         <li> <p><span>Aussi Tôt Que Possible</span></p> </li> 
         <li> <p><span>Aussi Tard Que Possible</span></p> </li> 
         <li> <p><span>Première Heure Disponible</span></p> </li> 
-        <li> <p> <span>Dernière Heure Disponible</span></p> </li> 
+        <li> <p> <span>Dernière heure disponible</span></p> </li> 
         <li> <p><span>Commencer Au Plus Tard</span> </p> </li> 
         <li> <p>Indiquer une Date de début prévue</p> </li> 
-        <li> <p><span>Commencer Au Plus Tôt</span> </p> <p>Indiquez une <strong>Date de début prévue</strong>. </p> </li> 
-        <li> <p> Finir <span>Au plus tard</span></p> <p>Indiquez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
+        <li> <p><span>Commencer Au Plus Tôt</span> </p> <p>Spécifiez une <strong>Date de début prévue</strong>. </p> </li> 
+        <li> <p> Finir <span>Au plus tard</span></p> <p>Spécifiez une <strong>Date d’achèvement prévue</strong>. </p> </li> 
         <li> <p> Finir <span>Au Plus Tôt</span></p> <p>Indiquer une <strong>Date d’achèvement prévue</strong></p> </li> 
        </ul> <p>Pour plus d’informations sur les contraintes de tâches, voir la section <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble des contraintes de tâches</a>.</p> </td> 
      </tr> 
@@ -303,7 +303,7 @@ Old:
       <td role="rowheader">Date de début prévue</td> 
       <td> <p>Date et heure auxquelles la tâche devrait commencer. La date de début prévue d’une tâche est définie et influencée par un certain nombre de facteurs :</p> 
        <ul> 
-        <li>Selon la préférence système pour la date de début prévue de la tâche, la date de début d’une nouvelle tâche sur un projet peut être aujourd’hui, ou par défaut, la date de début du projet. <span>L’équipe d’administration de groupes associée au projet peut également définir cette préférence pour le groupe.</span>Pour plus d’informations sur les préférences de tâche au niveau du système ou du groupe, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurer les préférences de tâche et de problème à l’échelle du système</a>.</li> 
+        <li>Selon la préférence système pour la date de début prévue de la tâche, la date de début d’une nouvelle tâche sur un projet peut être aujourd’hui, ou par défaut, la date de début du projet. <span>L’administrateur de groupes pour le groupe associé au projet peut également définir cette préférence pour le groupe.</span> Pour plus d’informations sur les préférences de tâches au niveau du système ou du groupe, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurer les préférences de tâches et de problèmes à l’échelle du système</a>.</li> 
         <li>Selon les tâches antérieures de la tâche, Workfront choisit la date de début prévue comme prochaine date disponible après la fin ou le début de la relation antérieure. Pour plus d’informations sur les relations antérieures, voir <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Vue d’ensemble des tâches antérieures</a>.</li> 
         <li>La personne responsable du projet ainsi que la personne propriétaire de la tâche peuvent définir manuellement la date de début prévue si la contrainte de tâche est définie sur Dates fixes ou Il Faut Commencer Le. Pour plus d’informations sur les contraintes de tâches, voir la section <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Vue d’ensemble des contraintes de tâches</a>.</li> 
        </ul> </td> 
@@ -317,7 +317,7 @@ Old:
       <td> <p>Spécifiez la date de début effective de la tâche. La valeur par défaut est généralement renseignée automatiquement lorsque vous définissez le statut de la tâche sur En cours. La personne responsable du projet ou la personne propriétaire de la tâche peut également modifier manuellement la date de début effective. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Date d'achèvement prévue</td> 
+      <td role="rowheader">Date d’achèvement prévue</td> 
       <td> <p>Date d’achèvement prévue, comme indiqué lors de la planification de la tâche. La date d’achèvement prévue peut être définie par plusieurs facteurs :</p> 
        <ul> 
         <li>La date d’achèvement prévue est calculée à partir de la date de début prévue en ajoutant la durée de la tâche à la date de début prévue. Lorsque la personne responsable du projet ou Workfront spécifie la durée de la tâche, une mise à jour de la date d’achèvement prévue est déclenchée. Si la date planifiée est modifiée, il est probable que ce soit en raison d’une mise à jour de la durée de la tâche.</li> 

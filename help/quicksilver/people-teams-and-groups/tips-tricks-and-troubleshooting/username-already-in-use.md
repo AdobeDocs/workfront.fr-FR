@@ -9,12 +9,12 @@ feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 97%
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
-# Nom d’utilisateur déjà utilisé
+# Nom d’utilisateur ou d’utilisatrice déjà utilisé
 
 ## Conditions d’accès
 
@@ -25,7 +25,7 @@ ht-degree: 97%
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

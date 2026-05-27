@@ -10,8 +10,8 @@ role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 65%
+source-wordcount: '631'
+ht-degree: 66%
 
 ---
 
@@ -38,7 +38,7 @@ Vos utilisateurs et utilisatrices peuvent utiliser des gravités pour définir l
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ En tant qu’administrateur ou administratrice de Workfront, vous pouvez créer 
      >
      >Au lieu de supprimer les gravités que vous ne souhaitez plus utiliser, nous vous suggérons de les masquer. De cette façon, vous conservez toutes vos données historiques sur les objets déjà terminés avec leurs gravités, tout en empêchant les personnes d’utiliser ces gravités à l’avenir.
 
-1. (Facultatif) Modifiez l’ordre de classement de vos gravités en les faisant glisser et en les déposant dans l’ordre souhaité.
+1. (Facultatif) Modifiez l’ordre de classement de vos gravités en effectuant un glisser-déposer de ces dernières dans l’ordre souhaité.
 
    Cela modifie l’ordre dans lequel elles s’affichent pour les problèmes. Cela ne modifie pas le numéro d’**Importance**.
 

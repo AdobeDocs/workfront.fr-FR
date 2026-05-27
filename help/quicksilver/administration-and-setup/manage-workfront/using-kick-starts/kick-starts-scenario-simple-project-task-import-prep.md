@@ -11,8 +11,8 @@ role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 94%
+source-wordcount: '1513'
+ht-degree: 80%
 
 ---
 
@@ -277,18 +277,18 @@ Accédez à la page Kickstart. Sélectionnez les objets Entreprise, Groupe, Proj
 
 Ouvrez le fichier Workfront.xlsx que vous venez de télécharger. Accédez à la feuille de projet PROJ.
 
-![Ensemble de projets PROJ](assets/im2.png)
+Ensemble de projets ![PROJ](assets/im2.png)
 À moins que vous n’ayez déjà créé des projets dans Workfront, il doit être vide.
 
 ![Feuille de projet vide](assets/im10.png)
 
 Définissez les valeurs des champs de projet suivants :
 
-* **Définir la colonne isNew**
-Saisissez TRUE dans les lignes 3 à 6 de la colonne isNew.
-* **Définir des identifiants uniques**
-Saisissez un identifiant unique dans chaque ligne de la colonne ID ; des nombres entiers commençant par 1 conviennent généralement bien lors de la création de nouveaux enregistrements.
-* **Définir les noms des projets**
+* **Définir une colonne isNew**
+Saisissez TRUE dans les lignes 3 à 6 pour la colonne isNew.
+* **Définition d’ID uniques**
+Saisir un identifiant unique dans chaque ligne pour la colonne d’identifiant — En règle générale, les entiers commençant à 1 fonctionnent bien lors de la création de nouveaux enregistrements.
+* **Définir les noms de projet**
 Saisissez les noms de chaque projet dans la colonne setName.
 * **Définir le planning du projet**
 
@@ -298,12 +298,12 @@ Saisissez les noms de chaque projet dans la colonne setName.
 
   Saisissez la date et l’heure dans la colonne setPlannedStartDate avec l’heure et la date auxquelles le projet doit démarrer. Si ce champ n’est pas renseigné, Workfront importe le projet avec la date du jour et la date et l’heure de ce jour à minuit en fonction du fuseau horaire du navigateur.
 
-* **Définir les numéros de tâches**
-Saisissez des valeurs dans la colonne setTaskNumber pour déterminer l’ordre dans lequel les tâches apparaîtront dans le plan du projet.
+* **Définir les numéros de tâche**
+Entrez des valeurs dans la colonne setTaskNumber pour contrôler l&#39;ordre dans lequel les tâches apparaîtront dans le plan de projet.
 * **Indiquer les dates du projet**
-Saisissez la date de début prévue de chaque projet dans la colonne setPlannedStartDate.
+Saisissez la date de début prévue pour chaque projet dans la colonne setPlannedStartDate.
 * **Définir les autres détails nécessaires**
-Renseignez d’autres détails, comme une description ou le statut actuel, si nécessaire. Recherchez les identifiants de groupes de chaque projet sur la feuille de groupe GROUP et saisissez-les dans la colonne setGroupID des projets respectifs. Recherchez l’identifiant d’entreprise des projets sur la feuille d’entreprise CMPY et saisissez-le dans la colonne setCompanyID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne propriétaire de projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setOwnerID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne sponsor du projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setSponsorID.
+Renseignez d’autres détails, tels qu’une description ou le statut actuel, si nécessaire. Recherchez les identifiants de groupes de chaque projet sur la feuille de groupe GROUP et saisissez-les dans la colonne setGroupID des projets respectifs. Recherchez l’identifiant d’entreprise des projets sur la feuille d’entreprise CMPY et saisissez-le dans la colonne setCompanyID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne propriétaire de projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setOwnerID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne sponsor du projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setSponsorID.
 
 ![Définir les valeurs](assets/im9.png)
 
@@ -329,18 +329,18 @@ La façon la plus simple de mapper des tâches consiste à le faire projet par p
 
 Définissez les valeurs des champs de tâche suivants :
 
-* **Définir les identifiants**
-Saisissez un identifiant unique dans chaque ligne de la colonne ID.
+* **Définition des ID**
+Saisissez un identifiant unique dans chaque ligne pour la colonne d’identifiant.
 * **Définir les noms**
 Saisissez les noms des tâches dans la colonne setName.
-* **Confirmer l’identifiant du projet**
-Saisissez l’identifiant que vous avez défini pour le projet Implementez Workfront ; vérifiez la feuille de projet PROJ pour vous assurer qu’il s’agit du bon identifiant.
-* **Définir les utilisateurs et utilisatrices**
-Accédez à la feuille d’utilisateur ou d’utilisatrice USER pour rechercher l’identifiant de la personne affectée à chaque tâche et saisissez ces valeurs dans les cellules respectives de la colonne setAssignedToID.
-* **Identifier les relations entre les tâches**
-Pour les tâches 2 à 5, saisissez 1 dans la colonne setParentID. Pour la tâche 9, saisissez le chiffre 8 dans la colonne setParentID. Dans la colonne setPredecessorString, saisissez le numéro de tâche pour chaque tâche de prédécesseur. Lorsqu’une tâche a plusieurs tâches antérieures, comme la tâche 8 dans ce scénario, vous devez utiliser une virgule pour séparer chaque identifiant de tâche antérieure. Les tâches antérieures peuvent être définies avec des décalages sur des relations autres que Terminer-Démarrer en utilisant les raccourcis décrits dans l’article Création de relations antérieures.
+* **Confirmer l’ID de projet**
+Saisissez l’ID que vous avez défini pour le projet Implémentation de Workfront ; consultez la fiche Projet PROJ pour vous assurer qu’il s’agit de l’ID correct.
+* **Définir les utilisateurs**
+Accédez à la feuille Utilisateur pour rechercher l’ID de l’utilisateur affecté à chaque tâche et saisissez ces valeurs dans les cellules respectives de la colonne setAssignedToID .
+* **Identification des relations entre les tâches**
+Pour les tâches 2 à 5, saisissez un 1 dans la colonne setParentID. Pour la tâche 9, saisissez le chiffre 8 dans la colonne setParentID. Dans la colonne setPredecessorString, saisissez le numéro de tâche pour chaque tâche de prédécesseur. Lorsqu’une tâche a plusieurs tâches antérieures, comme la tâche 8 dans ce scénario, vous devez utiliser une virgule pour séparer chaque identifiant de tâche antérieure. Les tâches antérieures peuvent être définies avec des décalages sur des relations autres que Terminer-Démarrer en utilisant les raccourcis décrits dans l’article Création de relations antérieures.
 * **Définir la durée**
-Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jours, de semaines ou de mois pour la tâche dans le champ setDuration. Saisissez ensuite l’unité de durée dans le champ setDurationUnit.
+Définissez la durée de chaque tâche en saisissant le nombre d’heures, de jours, de semaines ou de mois correspondant dans le champ setDuration. Saisissez ensuite l’unité de durée dans le champ setDurationUnit.
 
   |   | Valeur acceptable |
   |---|---|

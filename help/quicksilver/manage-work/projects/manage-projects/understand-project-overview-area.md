@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: Gérer les informations dans la zone Aperçu du projet
-description: Vous pouvez afficher ou modifier les informations d’un projet en accédant à la zone Vue d’ensemble de la section Détails du projet. Vous pouvez afficher ou modifier un nombre limité de champs dans cette zone.
+description: Vous pouvez afficher ou modifier les informations d’un projet en accédant à la zone Vue d’ensemble de la section Détails du projet. Il existe un nombre limité de champs que vous pouvez afficher ou modifier dans cette zone.
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 82%
+source-wordcount: '1405'
+ht-degree: 83%
 
 ---
 

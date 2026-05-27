@@ -10,7 +10,7 @@ role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3451'
 ht-degree: 64%
 
 ---
@@ -42,7 +42,7 @@ Pour plus d’informations sur les utilisateurs qui mettent à jour leur propre 
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul>
     <p>Pour modifier les taux de facturation et de coût pour un utilisateur, vous devez également activer les options de réglage fin Modifier les taux de facturation et Modifier les taux de coût .</p> </td> 
@@ -113,7 +113,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
   L’image de profil devient l’avatar de l’utilisateur et elle est visible dans tout le système Workfront, quel que soit l’endroit où le nom d’utilisateur est affiché.
 
 * **Informations sur le poste** : informations sur le poste, comme le titre du poste (dans le champ **Titre**) et le domaine d’expertise dont l’utilisateur est responsable (dans le champ **Me parler de**).
-* **Informations de contact** : numéro de téléphone de l’utilisateur (dans la zone **Numéro de téléphone**, **Ext.** et **Champs du numéro de mobile**) et l’adresse (dans les champs **Adresse**, **Ville**, **État**, **Code postal** et **Pays**).
+* **Informations de contact** : numéro de téléphone de l’utilisateur (dans les champs **Numéro de téléphone**, **Ext.** et **Numéro de mobile**) et adresse (dans les champs **Adresse**, **Ville**, **État**, **Code postal** et **Country**).
 
   Le champ **Pays** de la section Informations de contact accepte uniquement les valeurs de code de pays (par exemple, États-Unis, France, Italie).
 

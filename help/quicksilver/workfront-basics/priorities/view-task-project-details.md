@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '409'
+ht-degree: 19%
 
 ---
 
-# Afficher les détails du projet et de l&#39;élément de travail dans Priorités
+# Afficher les détails du projet et de l’élément de travail dans Priorités
 
 Vous pouvez afficher les détails des projets, des tâches et des événements dans la liste de travail des priorités.
 
@@ -35,7 +35,7 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

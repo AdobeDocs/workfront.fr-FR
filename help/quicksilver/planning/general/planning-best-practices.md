@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 2%
+source-wordcount: '3415'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Cet article présente quelques questions fréquentes et bonnes pratiques que nou
 
 ### Espaces de travail
 
-Les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail. Un espace de travail est un ensemble de types d’enregistrements utilisés par une équipe et représente le cycle de vie de travail de l’équipe.
+Les espaces de travail sont des emplacements centralisés pour que les équipes puissent planifier le travail. Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe.
 
 Vous trouverez ci-dessous quelques questions fréquentes sur la configuration de Workfront Planning.
 

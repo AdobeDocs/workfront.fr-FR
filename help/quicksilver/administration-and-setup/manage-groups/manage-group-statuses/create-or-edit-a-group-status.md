@@ -10,7 +10,7 @@ role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
 source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1337'
 ht-degree: 89%
 
 ---
@@ -19,8 +19,7 @@ ht-degree: 89%
 
 En tant qu’administrateur ou administratrice de groupe, vous pouvez créer des statuts personnalisés pour un groupe que vous gérez. Cela permet d’éliminer le besoin de dizaines de statuts personnalisés à l’échelle de l’entreprise et d’accroître l’autonomie de vos hiérarchies de groupe.
 
-Vous pouvez également modifier le statut d’un groupe que vous gérez à l’échelle du système si un administrateur ou une administratrice Workfront a déverrouillé le statut.
-Pour plus d’informations, voir [Statuts verrouillés et déverrouillés à l’échelle du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+Vous pouvez également modifier le statut d’un groupe que vous gérez à l’échelle du système si un administrateur ou une administratrice Workfront a déverrouillé le statut. Pour plus d’informations, voir [Statuts verrouillés et déverrouillés à l’échelle du système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et administratrices peuvent également effectuer ces opérations pour votre groupe. Il en va de même pour les administrateurs et administratrices de Workfront (pour n’importe quel groupe).
 

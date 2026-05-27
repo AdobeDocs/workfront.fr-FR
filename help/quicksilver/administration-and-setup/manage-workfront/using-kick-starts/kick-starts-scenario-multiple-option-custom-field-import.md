@@ -11,8 +11,8 @@ role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 88%
+source-wordcount: '2175'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ Ces champs peuvent parfois comporter de nombreuses options (parfois des centaine
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -269,7 +269,7 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 
 1. Recherchez la feuille de calcul Excel que vous avez préparée, sur votre ordinateur, et sélectionnez-la lorsque vous la trouvez.
 
-   Le fichier se charge automatiquement et une notification indiquant que l’importation a réussi s’affiche. Selon le volume d’informations que vous importez, cette étape peut prendre quelques secondes à une minute.
+   Le fichier se charge automatiquement et une notification indiquant que l’import a réussi s’affiche. Selon le volume d’informations que vous importez, cette étape peut prendre quelques secondes à une minute.
 
    Les nouveaux champs et formulaires personnalisés se trouvent désormais dans votre système Workfront. Vous pouvez les trouver dans la zone Formulaires personnalisés de Configuration.
 
@@ -279,7 +279,7 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 
    Pour plus d’informations sur l’ajout de champs aux formulaires personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditionnel) Si l’importation a échoué, vous recevez un message d’erreur indiquant l’origine du problème. Essayez d&#39;identifier le champ, la feuille et le numéro de ligne dans lequel le problème a été rencontré et corrigez les informations dans le fichier Excel. Réessayez ensuite d’importer le fichier.
+1. (Le cas échéant) Si l’import a échoué, vous recevez un message d’erreur signalant le problème. Essayez d’identifier le champ, la feuille et le numéro de ligne dans lesquels le problème s’est produit et corrigez les informations du fichier Excel. Réessayez ensuite d’importer le fichier.
 
 1. (Le cas échéant) Selon le problème, comme indiqué dans le message d’erreur, certaines informations ont peut-être déjà été importées. Vous devez effectuer l’une des opérations suivantes avant de pouvoir réimporter la feuille :
 

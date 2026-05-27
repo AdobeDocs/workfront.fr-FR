@@ -11,8 +11,8 @@ role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 87%
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
@@ -48,7 +48,7 @@ Comme les noms d’utilisateur ou d’utilisatrice GUID peuvent être difficiles
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Déterminez le nom d’utilisateur ou d’utilisatrice GUID d’une personne en transmettant une requête API, comme illustré dans l’exemple suivant :
 
-   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>` où *`<domain>`* correspond au domaine de votre société et *`<ID of User>`* à l’ID Workfront de la personne.
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=`<ID of User>` où *`<domain>`* correspond au domaine de votre société et *`<ID of User>`* à l’ID Workfront de la personne.
 
    Vous recevez une réponse similaire à celle-ci :
 

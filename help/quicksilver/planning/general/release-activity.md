@@ -8,13 +8,13 @@ recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7392'
-ht-degree: 37%
+source-wordcount: '7679'
+ht-degree: 39%
 
 ---
 
 
-# Activité de publication de la planification Adobe Workfront pour 2024
+# Activité de publication Adobe Workfront Planning pour 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -32,7 +32,7 @@ Le tableau ci-dessous présente la chronologie de la publication de Workfront Pl
 |--------------------|-----------------------------------------|
 | Août - Décembre 2023 | Version bêta de Workfront Planning* |
 | Janvier - Août 2024 | Version préliminaire de Workfront Planning* |
-| 28 août 2024 | Disponibilité générale de Workfront Planning |
+| jeudi 28 août 2024 | Disponibilité générale de Workfront Planning |
 
 *Les phases Beta et de publication anticipée étaient disponibles pour un groupe limité de clients.
 
@@ -150,7 +150,7 @@ Grâce à la publication de l’API publique de Workfront Planning, vous pouvez 
 Pour plus d’informations, voir les articles suivants :
 
 * [Exemples du champ Recherche externe dans un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-* [Principes de base des API de planification d’Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Principes de base des API Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
 
 ### Menu Nouveaux paramètres en mode Calendrier
 
@@ -188,7 +188,7 @@ Pour plus d’informations sur l’assistant Workfront Planning AI Assistant, co
 
 Prévisualisation et production : jeudi 28 août 2024
 
-Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Vous pouvez désormais afficher les informations de planification Workfront dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [Vue d’ensemble des tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Semaine du mardi 19 août 2024
 
@@ -286,7 +286,7 @@ Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/
 
 ### Ajouter des options de type de connexion
 
-Production : vendredi 22 août 2024
+Production : 22 Août 2024
 Prévisualisation : à déterminer
 
 Désormais, lorsque vous configurez une connexion entre deux types d’enregistrements, vous pouvez définir si les utilisateurs peuvent connecter un ou plusieurs enregistrements dans chacun des types d’enregistrements de la connexion. Vous pouvez ainsi concevoir de manière fiable les workflows de votre équipe et vous assurer que les utilisateurs sélectionnent uniquement les informations attendues en fonction de leurs processus.
@@ -311,10 +311,10 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements Co
 
 ### L’assistant AI a été temporairement supprimé
 
-Production : mardi 12 août 2024
+Production : 12 août 2024
 Prévisualisation : à déterminer
 
-L’assistant Workfront AI a été temporairement supprimé et sera disponible à une date ultérieure. Pour plus d’informations sur l’assistant AI, consultez [Présentation de l’assistant AI Planning Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+L’assistant Workfront AI a été temporairement supprimé et sera disponible à une date ultérieure. Pour plus d’informations sur l’assistant AI, consultez [Présentation de l’assistant AI Planning &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Conserver la dernière période affichée dans la vue chronologique
 
@@ -340,7 +340,7 @@ Pour plus d’informations, voir [Principes de base de l’API Adobe Workfront P
 
 ### Insérer et dupliquer des enregistrements en mode Tableau
 
-Production : vendredi 1 août 2024
+Production : 1Er Août 2024
 Prévisualisation : à déterminer
 
 Nous avons introduit les fonctionnalités suivantes lors de l’utilisation d’enregistrements en mode Tableau :
@@ -479,9 +479,9 @@ Cette mise à jour comprend les améliorations suivantes :
 
 * Nous avons supprimé le modèle Gestion marketing . Nous avons ajouté les modèles suivants pour la gestion marketing et nous vous recommandons d’utiliser le modèle approprié en fonction de la complexité de vos workflows :
 
-   * De base : Marketing Management
-   * Avancé : Marketing Management
-   * Entreprise : Marketing Management
+   * De base : Gestion marketing
+   * Avancé : Gestion marketing
+   * Entreprise : Gestion marketing
 
 Pour plus d’informations, voir les articles suivants :
 
@@ -581,7 +581,7 @@ Vous pouvez désormais référencer des champs qui se trouvent à 4 niveaux de l
 
 * Trier
 
-* Regroupement 
+* Regroupement
 
 * Champ de formule
 
