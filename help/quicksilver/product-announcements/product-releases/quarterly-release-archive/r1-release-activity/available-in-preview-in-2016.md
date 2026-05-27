@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
 source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Les fonctionnalités suivantes ont été rendues disponibles dans l’environnement de prévisualisation en 2016. Ces fonctionnalités doivent être publiées dans l’environnement de production avec la version R1.
 
-## Amélioration de la planification des ressources
+## Améliorations de la planification des ressources
 
 >[!NOTE]
 >
@@ -44,11 +44,12 @@ L’ombrage de l’affectation d’utilisateurs et utilisatrices sur la chronolo
 
 Auparavant, l’ombrage de l’affectation s’affichait par défaut et ne pouvait pas être désactivé.
 
-Pour plus d’informations sur la manière d’activer les options d’affectation des utilisateurs et utilisatrices, voir « Gérer les affectations d’utilisateurs et utilisatrices dans les zones Planification ».
+Pour plus d’informations sur l’activation des options d’affectation des utilisateurs, voir
+« Gérer les allocations d’utilisateurs dans les zones de Planification ».
 
 ## Le modèle de mise en page détermine si le calendrier nouveau ou hérité s’affiche dans la zone Mon travail.
 
-**Sandbox de prévisualisation : 7 décembre 2016 ; accès anticipé : 14 décembre 2016**
+**Sandbox de prévisualisation : 7 décembre 2016 ; accès anticipé : 14 décembre 2016** 
 
 Le nouveau calendrier s’affiche par défaut dans la zone Mon travail lorsqu’aucun modèle de mise en page n’est appliqué.
 

@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
 source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1234'
 ht-degree: 99%
 
 ---
@@ -116,7 +116,7 @@ En outre, si vous trouvez un bug ou si vous avez un problème concernant les nou
 Vous êtes la personne la mieux placée pour déterminer les informations et les fonctionnalités les plus utiles à vos utilisateurs et utilisatrices. Vous pouvez également contrôler le moment où les informations sont diffusées et les nouvelles fonctionnalités présentées à vos utilisateurs et utilisatrices.
 
 * [Communiquer les informations sur les versions à vos utilisateurs et utilisatrices](#communicate-release-information-to-your-users)
-* [Envisager d’utiliser des modèles de disposition pour contrôler la disponibilité des fonctionnalités](#consider-using-layout-templates-to-control-feature-availability)
+* [Envisager d’utiliser des modèles de mise en page pour contrôler la disponibilité des fonctionnalités](#consider-using-layout-templates-to-control-feature-availability)
 
 ### Communiquer les informations sur les versions à vos utilisateurs et utilisatrices
 
@@ -132,11 +132,11 @@ Vous pouvez choisir l’équilibre entre les ressources [!DNL Workfront] (telles
 
 Avec le temps, vous saurez identifier la communication la plus efficace pour votre organisation. Nous vous recommandons de documenter vos processus, d’évaluer le succès et d’ajuster votre communication pour la prochaine version.
 
-### Envisager d’utiliser des modèles de disposition pour contrôler la disponibilité des fonctionnalités
+### Envisager d’utiliser des modèles de mise en page pour contrôler la disponibilité des fonctionnalités
 
-Lors de la collecte d’informations sur la version, vous pouvez décider que vos utilisateurs et utilisatrices ne sont pas prêts pour une nouvelle fonctionnalité. Dans ce cas, vous pouvez utiliser des modèles de disposition pour limiter ce que vos utilisateurs et utilisatrices voient, et donc les empêcher de découvrir et d’utiliser la nouvelle fonctionnalité. Ensuite, lorsque vos utilisateurs et utilisatrices auront été suffisamment informés et formés à la nouvelle fonctionnalité, vous pourrez mettre à jour le modèle pour rendre la fonctionnalité disponible.
+Lors de la collecte d’informations sur la version, vous pouvez décider que vos utilisateurs et utilisatrices ne sont pas prêts pour une nouvelle fonctionnalité. Dans ce cas, vous pouvez utiliser des modèles de mise en page pour limiter ce que vos utilisateurs et utilisatrices voient, et donc les empêcher de découvrir et d’utiliser la nouvelle fonctionnalité. Ensuite, lorsque vos utilisateurs et utilisatrices auront été suffisamment informés et formés à la nouvelle fonctionnalité, vous pourrez mettre à jour le modèle de mise en page pour rendre la fonctionnalité disponible.
 
-Pour plus d’informations sur les modèles de disposition, voir [Créer et gérer des modèles de disposition](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Pour plus d’informations sur les modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Utiliser un projet [!DNL Workfront] pour suivre le travail de version
 

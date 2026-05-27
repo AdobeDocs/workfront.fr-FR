@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
 source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 4%
+source-wordcount: '2204'
+ht-degree: 5%
 
 ---
 
-# Activité de la version du premier trimestre 2025 pour Adobe Workfront Planning
+# Activité de publication du premier trimestre 2025 pour Adobe Workfront Planning
 
 Cet article décrit les fonctionnalités publiées pour Workfront Planning dans la version du premier trimestre 2025.
 
@@ -28,7 +28,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 >
 >Version de prévisualisation : samedi 20 décembre 2024. Version de production pour l’ensemble des clientes et clients : vendredi 16 janvier 2025.
 
-Vous pouvez désormais ajouter des champs de connexion contenant des ressources AEM à un formulaire de demande de type d’enregistrement dans Workfront Planning.
+Vous pouvez désormais ajouter des champs de connexion contenant des ressources AEM à un formulaire de demande de type enregistrement dans Workfront Planning.
 
 Avant cette amélioration, ces types de champs ne pouvaient pas être ajoutés aux formulaires de demande.
 
@@ -61,11 +61,11 @@ Vous recevrez désormais une notification in-app et une notification par e-mail 
 
 >[!NOTE]
 >
->L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée d’Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
+>L’instance de Workfront de votre entreprise doit être intégrée à l’expérience unifiée Adobe pour que les utilisateurs puissent recevoir des notifications par e-mail et in-app.
 
 Pour plus d’informations sur l’envoi ou la validation des demandes, consultez les articles suivants :
 
-* [Envoi de requêtes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+* [Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
 
 * [Valider une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
@@ -201,7 +201,7 @@ Vous pouvez désormais afficher les enregistrements dans la vue Calendrier par s
 
 Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-## Restaurer les enregistrements supprimés
+## Restaurer des enregistrements supprimés
 
 >[!NOTE]
 >
@@ -215,13 +215,13 @@ Avant cette amélioration, les enregistrements supprimés ne pouvaient pas être
 
 Pour plus d’informations, voir [Restaurer les enregistrements supprimés](/help/quicksilver/planning/records/records-information.md).
 
-## Adobe AI Assistant disponible dans les zones de détails de l’enregistrement
+## Assistant Adobe AI disponible dans les zones de détails de l’enregistrement
 
 >[!NOTE]
 >
 >Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (janvier 2025)
 
-Pour vous faciliter la tâche, nous avons ajouté l’assistant IA dédiée à l’Adobe à l’aperçu des détails d’un enregistrement ou à la page de l’enregistrement. Vous pouvez utiliser l’assistant AI à l’intérieur d’une page d’enregistrement pour mettre à jour les informations sur l’enregistrement.
+Pour vous faciliter la tâche, nous avons ajouté l&#39;assistant Adobe AI à l&#39;aperçu des détails d&#39;un enregistrement ou à la page de l&#39;enregistrement. Vous pouvez utiliser l’assistant AI à l’intérieur d’une page d’enregistrement pour mettre à jour les informations sur l’enregistrement.
 
 Pour plus d’informations, consultez [Présentation de l’assistant Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
@@ -302,10 +302,10 @@ Pour continuer à relier les objets Workfront aux enregistrements Workfront Plan
 
 * Connectez et déconnectez les enregistrements Workfront Planning d’un objet Workfront.
 
-Vous pouvez ajouter le nouveau champ aux formulaires pour tous les types d’objet. Cependant, vous ne pouvez modifier les informations du champ qu’à partir des formulaires joints aux objets Workfront ci-dessous qui peuvent être connectés à partir des types d’enregistrements Workfront Planning : Portfolio, Programme, Projet, Société, Groupe.
+Vous pouvez ajouter le nouveau champ aux formulaires pour tous les types d’objet. Cependant, vous ne pouvez modifier les informations du champ qu’à partir des formulaires joints aux objets Workfront suivants, qui peuvent être connectés à partir des types d’enregistrements Workfront Planning : Portfolio, Programme, Projet, Société, Groupe.
 
 La modification en bloc des champs de connexion Planning pour les objets Workfront n’est pas encore disponible.
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3435633/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3435633/){target=_blank}

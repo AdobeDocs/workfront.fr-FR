@@ -1,30 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.3 bêta 4
-description: Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version bêta 4 de la version 2018.3. Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 30 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
+title: Activité de la version 2018.3 Beta 4
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 4. Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 30 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1134'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2018.3 bêta 4
+# Activité de la version 2018.3 Beta 4
 
-Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version bêta 4 de la version 2018.3.Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 30 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 4. Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 30 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
 
 Pour une liste de tous les changements apportés à la version 2018.3, voir [Vue d’ensemble de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version bêta 4 de la version 2018.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
+La version Beta 4 de la version 2018.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices**
 
-* [Mettre à jour la structure de création de rapports dans le profil de l’utilisateur ou de l’utilisatrice en tant qu’administrateur ou administratrice de groupe](#update-reporting-structure-in-the-user-profile-as-a-group-administrator)
+* [Mettre à jour la structure de création de rapports dans le profil de l’utilisateur ou de l’utilisatrice en tant qu’administrateur ou administratrice de groupe](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
 **Pour tous les utilisateurs et utilisatrices**
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur les administrateurs et administratrices de groupe
 
 ## Exporter plus d’informations à partir du planificateur de ressources {#export-more-information-from-the-resource-planner}
 
-Vous pouvez désormais exporter des informations jusqu’à 52 semaines, 36 mois ou 12 trimestres dans le planificateur de ressources.Si la quantité d’informations que vous exportez est trop importante, vous recevez un e-mail contenant le fichier exporté. Le fichier peut être téléchargé pendant une semaine au maximum à partir du début du téléchargement.
+Vous pouvez désormais exporter des informations jusqu’à 52 semaines, 36 mois ou 12 trimestres dans le planificateur de ressources. Si la quantité d’informations que vous exportez est trop importante, vous recevez un e-mail contenant le fichier exporté. Le fichier peut être téléchargé pendant une semaine au maximum à partir du début du téléchargement.
 
 Auparavant, vous pouviez uniquement exporter jusqu’à 4 semaines, mois ou trimestres à la fois.
 
@@ -160,4 +160,4 @@ Auparavant, vous pouviez consigner le temps en utilisant uniquement les heures d
 
 Pour plus d’informations sur la consignation du temps dans l’application mobile, voir . 
 
-Cette fonctionnalité est disponible immédiatement pour les tests avec l’application bêta Android. 
+Cette fonctionnalité est disponible immédiatement pour les tests avec l’application Beta Android. 

@@ -1,30 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.1 bêta 4
-description: Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 4. La fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 24 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
+title: Activité de la version 2018.1 Beta 4
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 4. La fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 24 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2444'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2018.1 bêta 4
+# Activité de la version 2018.1 Beta 4
 
-Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 4.La fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 24 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 4. La fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 24 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées dans la version 2018.1, consultez [Vue d’ensemble de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version 2018.1 bêta 4 contient des améliorations pour les administrateurs et administratrices Workfront et les autres personnes :
+La version 2018.1 Beta 4 contient des améliorations pour les administrateurs et administratrices Workfront et les autres personnes :
 
 **Pour les administrateurs et administratrices**
 
@@ -49,7 +49,7 @@ La version 2018.1 bêta 4 contient des améliorations pour les administrateurs
 
 ## Améliorations de la relecture dans Workfront {#proofing-improvements-within-workfront}
 
-Les améliorations suivantes ont été apportées à la liste des documents dans Workfront :
+Les améliorations suivantes ont été apportées à la liste des documents dans Workfront : 
 
 * [Afficher la progression de la relecture à partir de la liste des documents](#view-proof-progress-from-the-document-list)
 * [Nouvelle option pour afficher le résumé de l’impression à partir de la liste des documents](#new-option-to-view-the-print-summary-from-the-document-list)
@@ -97,7 +97,7 @@ Les actions suivantes ne sont plus disponibles en tant que liens sur des documen
 
 Les actions suivantes sont désormais disponibles sous forme de bouton dans le document au sein de la liste de documents :
 
-* Ouvrir une épreuve (disponible après la génération de l’épreuve)
+* Ouvrir une épreuve (disponible après la génération de l’épreuve) 
 * Générer une épreuve (disponible lorsque l’épreuve n’est pas encore générée)
 
 Les actions suivantes sont désormais disponibles dans le menu déroulant en regard du bouton Ouvrir une épreuve ou Générer une épreuve :
@@ -121,18 +121,18 @@ Pour plus d’informations, voir Afficher tous les fichiers contenus dans une é
 
 Désormais, lorsque vous sélectionnez une épreuve dans la liste de documents, les étapes actives actuelles s’affichent dans la colonne de droite de l’onglet Détails. 
 
-Pour plus d’informations, voir [Afficher les étapes actives sur une épreuve](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).
+Pour plus d’informations, voir [Afficher les étapes actives sur une épreuve](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
 ## Création d’épreuves dans Workfront Proof - Expérience d’utilisation améliorée et fonctionnalités supplémentaires {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
 Outre une meilleure expérience d’utilisation lors de la création d’épreuves dans Workfront Proof, les fonctionnalités supplémentaires suivantes sont désormais disponibles :
 
-* Combiner plusieurs images en une seule épreuve.
+* Fusionner plusieurs images dans une seule épreuve.
 * Relire des sites web en plusieurs résolutions (plusieurs résolutions peuvent être créées sous la forme d’épreuves individuelles ou combinées en une seule épreuve).
 * Modifier le nom du fichier pendant le processus de chargement.
 * Inclure des champs personnalisés dans le formulaire de création d’épreuve.
 * Ajouter un message personnalisé pour les notifications d’épreuves par e-mail.
-* Paramètres supplémentaires d’épreuves
+* Paramètres supplémentaires d’épreuves 
 * Validation des erreurs en temps réel lors de la relecture d’une URL (auparavant, vous deviez attendre plusieurs minutes avant qu’une erreur ne s’affiche)
 
 >[!NOTE]
@@ -188,9 +188,9 @@ Les améliorations suivantes sont disponibles lorsque des documents à réviser 
    * Décisionnaire principal
    * Exiger une seule décision
 
-## Aspect actualisé de l’intégration Basecamp dans Workfront Proof {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
+## Mise à jour de l’apparence avec l’intégration Basecamp dans Workfront Proof {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
-L’aspect de l’intégration Basecamp dans Workfront Proof a été actualisé. La fonctionnalité reste la même.
+L’apparence de l’intégration Basecamp dans Workfront Proof a été mise à jour. La fonctionnalité reste la même.
 
 ## Coller des images dans Workfront à partir du presse-papiers {#paste-images-to-workfront-from-the-clipboard}
 
@@ -198,7 +198,7 @@ Vous pouvez désormais ajouter des fichiers images à Workfront en collant une i
 
 La possibilité de coller à partir du presse-papiers avait été supprimée de Workfront dans une version précédente ; elle est réintroduite dans cette version. La nouvelle méthode est plus simple et intuitive.
 
-Pour plus d’informations, consultez la section [Coller des images à partir du presse-papiers](../../../../documents/managing-documents/paste-image-clipboard.md).
+Pour plus d’informations, consultez la section [Coller des images à partir du presse-papiers](../../../../documents/managing-documents/paste-image-clipboard.md). 
 
 ## Améliorations des rapports d’utilisation {#utilization-report-improvements}
 
@@ -235,7 +235,7 @@ Pour résoudre les problèmes de performances, le champ des heures budgétées p
 
 Pour rappel, les heures budgétées pour les ressources sont les heures que vous budgétisez pour vos ressources ou vos projets dans le planificateur de ressources. Pour l’instant, vous ne pouvez plus générer de rapports sur ce champ dans l’application web ni via l’API. Le champ sera rétabli dans une version ultérieure, une fois les problèmes de performances résolus.
 
-Pour plus d’informations sur la budgétisation des heures dans le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d’informations sur la budgétisation des heures dans le planificateur de ressources, voir [Vue d’ensemble du planificateur de ressources](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Statistiques d’utilisation des rapports {#report-usage-statistics}
 

@@ -1,30 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.3, version bêta 2
-description: Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version bêta 2 de la version 2018.3. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations apportées à la relecture par la version bêta 2 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
+title: Activité de la version 2018.3 Beta 2
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 2. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations apportées à la relecture par la version Beta 2 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '913'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2018.3, version bêta 2
+# Activité de la version 2018.3 Beta 2
 
-Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version bêta 2 de la version 2018.3.La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018.Les améliorations apportées à la relecture par la version bêta 2 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 2. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations apportées à la relecture par la version Beta 2 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
 
 >[!NOTE]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour une liste de tous les changements apportés à la version 2018.3, voir [Vue d’ensemble de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version bêta 2 de la version 2018.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
+La version Beta 2 de la version 2018.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices**
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur l’export de données à partir du planificateur
 >
 >Les outils de planification des ressources ont été retirés de Workfront avec la version 23.1. Pour plus d’informations sur la planification des ressources à l’aide de l’équilibreur de charge de travail, voir [Vue d’ensemble de l’équilibreur de charge de travail](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Lorsqu’une personne a trop d’affectations, les totaux journaliers pour les jours où la personne a trop d’affectations s’affichent désormais en rouge.Cette option ne s’affiche que lorsque l’option Afficher les totaux des heures planifiées par jour est activée dans les paramètres du journal de planification. Avant cette amélioration, il y avait un indicateur de barre rouge pour les jours où une personne avait trop d’affectations, mais les totaux quotidiens s’affichaient sans surbrillance rouge.
+Lorsqu’une personne a trop d’affectations, les totaux journaliers pour les jours où la personne a trop d’affectations s’affichent désormais en rouge. Cette option ne s’affiche que lorsque l’option Afficher les totaux des heures planifiées par jour est activée dans les paramètres du journal de planification. Avant cette amélioration, il y avait un indicateur de barre rouge pour les jours où une personne avait trop d’affectations, mais les totaux quotidiens s’affichaient sans surbrillance rouge.
 
 Pour plus d’informations sur les affectations de personnes, voir « Gérer les attributions de personnes dans les zones de planification ».
 

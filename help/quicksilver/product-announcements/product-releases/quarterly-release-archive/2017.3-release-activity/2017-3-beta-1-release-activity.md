@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2017.3, version bêta 1
+title: Activité de la version 2017.3 Beta 1
 description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2017.3, version bêta 1. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 9 août 2017. Elles ont été rendues disponibles dans l’environnement de production début novembre 2017.
 author: Luke
 feature: Product Announcements
@@ -9,22 +9,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 33a91c25-98ec-4f08-b444-4e11e05e464b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1451'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2017.3, version bêta 1
+# Activité de la version 2017.3 Beta 1
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2017.3, version bêta 1. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 9 août 2017. Elle ont été rendues disponibles dans l’environnement de production début novembre 2017.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2017.3, voir [Vue d’ensemble de l’activité Version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-La version bêta 1 de la version 2017.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
+La version 2017.3 Beta 1 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices :**
 
@@ -57,7 +57,7 @@ Les améliorations de planification des ressources suivantes sont disponibles lo
 
 ### Afficher la zone de planification en mode plein écran {#view-scheduling-area-in-full-screen-mode}
 
-Vous pouvez afficher la chronologie de la planification en mode plein écran, ce qui vous permet d’afficher plus d’informations dans une seule vue. 
+Vous pouvez afficher la chronologie de la planification en mode plein écran, ce qui vous permet d’afficher plus d’informations dans une seule vue. 
 
 Pour plus d’informations, voir « Commencer avec la planification des ressources ».
 
@@ -77,7 +77,7 @@ Pour plus d’informations, voir « Commencer avec la planification des ressour
 
 ### Afficher les dates prévisionnelles dans la chronologie de planification {#view-projected-dates-on-the-scheduling-timeline}
 
-Vous pouvez maintenant configurer la chronologie de la planification afin qu’elle affiche les dates prévisionnelles plutôt que les dates prévues pour les tâches et les problèmes. 
+Vous pouvez maintenant configurer la chronologie de la planification afin qu’elle affiche les dates prévisionnelles plutôt que les dates prévues pour les tâches et les problèmes. 
 
 Avant cette modification, les tâches et les problèmes dans la chronologie de la planification n’affichaient que les dates prévues.
 
@@ -108,7 +108,7 @@ Pour plus d’informations sur le redimensionnement et la réorganisation des co
 
 ## Effacer l’option Données personnalisées lors de la copie de tâches et de problèmes {#clear-custom-data-option-when-copying-tasks-and-issues}
 
-Lors de la copie d’une tâche ou d’un problème, vous pouvez désormais sélectionner une option pour effacer toute donnée personnalisée.Lorsque vous choisissez d’effacer les données personnalisées d’une tâche ou d’un problème, le formulaire est copié dans le nouvel élément, mais pas les données personnalisées du formulaire. L’effacement de données personnalisées affecte également les formulaires personnalisés joints aux documents joints aux éléments, ou les formulaires personnalisés joints aux dépenses de la tâche.
+Lors de la copie d’une tâche ou d’un problème, vous pouvez désormais sélectionner une option pour effacer toute donnée personnalisée. Lorsque vous choisissez d’effacer les données personnalisées d’une tâche ou d’un problème, le formulaire est copié dans le nouvel élément, mais pas les données personnalisées du formulaire. L’effacement de données personnalisées affecte également les formulaires personnalisés joints aux documents joints aux éléments, ou les formulaires personnalisés joints aux dépenses de la tâche.
 
 Avant cette modification, les données personnalisées incluses dans un formulaire personnalisé étaient également copiées dans le nouvel élément lors de la copie de la tâche ou du problème. 
 

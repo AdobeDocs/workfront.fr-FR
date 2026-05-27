@@ -1,26 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version finale bêta de la version 2018.2
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation apportées par la version finale bêta 2018.2. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 20 juin 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
+title: Activité de la version Beta finale 2018.2
+description: Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2018.2. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 20 juin 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '825'
 ht-degree: 100%
 
 ---
 
-# Activité Version finale bêta de la version 2018.2
+# Activité de la version Beta finale 2018.2
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation apportées par la version finale bêta 2018.2.Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 20 juin 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
+Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2018.2. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 20 juin 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -50,7 +50,7 @@ Vous recevez désormais une notification par e-mail lorsqu’une personne commen
 
 Avant cette modification, aucune notification n’était envoyée lorsqu’une personne commentait un document que vous déteniez. 
 
-Pour plus d’informations, consultez la section [Modifier vos propres notifications par e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, voir [Modifier vos propres notifications par e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -99,15 +99,15 @@ Pour plus d’informations sur les notifications Workfront dans Slack, voir [Rec
 
 Les nouvelles fonctionnalités suivantes seront publiées dans les boutiques mobiles avec la version de production 18.2 :
 
-* Modifier en ligne des noms d’objet
+* Modifier en ligne des noms d’objet 
 
   Vous pouvez désormais modifier en ligne des champs tels que le nom d’un projet, d’une tâche ou d’un problème dans l’application mobile.
 
-* Charger les documents
+* Charger les documents 
 
   Vous pouvez désormais charger des documents vers des objets dans l’application mobile Workfront.
 
-* Charger une photo de profil
+* Charger une photo de profil 
 
   Vous pouvez désormais charger une photo de profil dans votre application mobile iOS.
 
@@ -115,8 +115,8 @@ Les nouvelles fonctionnalités suivantes seront publiées dans les boutiques mob
 
 Les fonctionnalités suivantes ont déjà été publiées dans la version beta d’Android de l’application mobile Workfront et sont également publiées dans les applications mobiles Android et iOS publiques. L’expérience de la plateforme iOS contient les différences suivantes par rapport à l’expérience Android déjà publiée :
 
-* Nouvelle barre de navigation inférieure pour iOS
+* Nouvelle barre de navigation inférieure pour iOS 
 
-* Nouvelle expérience de tutoriel pour iOS
+* Nouvelle expérience de tutoriel pour iOS 
 
 Pour plus d’informations sur ces fonctionnalités et pour regarder des vidéos les présentant, voir [Activité de version 2018.2 beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) et [Activité de version 2018.2 beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
