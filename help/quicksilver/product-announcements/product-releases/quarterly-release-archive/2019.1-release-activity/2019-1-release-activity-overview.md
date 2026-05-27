@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: da5e3490-da33-4f96-84cb-f539f07064a1
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 >[!IMPORTANT]
 >
->Les fonctionnalités de l’environnement de prévisualisation peuvent être modifiées avant leur publication dans l’environnement de production. Si vous affichez une version PDF de ce document, accédez à la version en ligne pour obtenir les informations les plus récentes (les liens de ce document se trouvent dans la version en ligne).
+> Les fonctionnalités de l’environnement de prévisualisation peuvent être modifiées avant leur publication dans l’environnement de production. Si vous affichez une version PDF de ce document, accédez à la version en ligne pour obtenir les informations les plus récentes (les liens de ce document se trouvent dans la version en ligne).
 
 La version 2019.1 contient des améliorations à la fois pour les administrateurs et administratrices Workfront et pour les autres utilisateurs et utilisatrices.
 
@@ -34,7 +34,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
   Les administrateurs et les administratrices Workfront peuvent désormais choisir d’afficher ou de masquer les horodatages des dates d’échéance dans la liste de travail et le calendrier à l’aide des modèles de mise en page.
 
-* [Configurer le rôle de relecture par défaut pour les personnes non destinataires qui ouvrent une épreuve](https://support.workfront.com/hc/fr-fr/articles/360016372633#configure-default-proofing-role).
+* [Configurer le rôle de relecture par défaut pour les personnes non-destinataires ayant ouvert une épreuve](https://support.workfront.com/hc/fr-fr/articles/360016372633#configure-default-proofing-role)
 
   Les administrateurs et les administratrices Workfront peuvent désormais configurer le rôle de relecture par défaut pour les personnes qui ne sont pas désignées comme destinataires dans le workflow de l’épreuve, mais qui ont accès à l’épreuve via son objet Workfront (projet, tâche ou problème, par exemple).
 
@@ -80,7 +80,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
 * [Améliorations de la liste des tâches](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#task)
 
-  Les listes de tâches nouvellement repensées ont été réactivées, après une brève suppression au cours de la version 18.3, version bêta 4. Plusieurs fonctions supplémentaires sont désormais disponibles.
+  Les listes de tâches nouvellement repensées ont été réactivées, après une brève suppression au cours de la version 18.3, version Beta 4. Plusieurs fonctions supplémentaires sont désormais disponibles.
 
 * [Afficher les listes en plein écran](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#display)
 
@@ -94,34 +94,33 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
   Vous pouvez désormais planifier la diffusion d’un rapport au format MS Excel (.xlsx), en plus de tous les autres formats actuels.
 
-* [Exporter les journaux d’audit](https://support.workfront.com/hc/fr-fr/articles/360016246394#export-audit-logs)
+* [Export de journaux d’audit](https://support.workfront.com/hc/fr-fr/articles/360016246394#export-audit-logs)
 
   Vous pouvez désormais exporter les entrées du journal d’audit vers un fichier CSV. Vous pouvez exporter jusqu’à 50 000 entrées de journal d’audit vers un fichier CSV en une seule fois.
 
-* [La vue WBS sur une liste de tâches n’est plus disponible en cliquant avec le bouton droit de la souris sur la colonne « Numéro de tâche ».](https://support.workfront.com/hc/fr-fr/articles/360016246394#wbs-view-from-the-task-list)
+* [La vue WBS d&#39;une liste de tâches n&#39;est plus disponible lorsque vous cliquez avec le bouton droit sur la colonne Numéro de tâche](https://support.workfront.com/hc/fr-fr/articles/360016246394#wbs-view-from-the-task-list)
 
   Pour afficher la structure de répartition du travail (Work Breakdown Structure, WBS) du projet, vous ne pouvez plus cliquer avec le bouton droit de la souris sur la colonne « Numéro de tâche » dans une liste de tâches.
 
 ### Amélioration apportées à la gestion des ressources.
 
-
 * [Mise à jour du filtre par défaut dans le planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#updated-default-filter)
 
   Le filtre par défaut dans le planificateur de ressources ne filtre plus par le groupe du projet.
 
-* [Utiliser des caractères génériques pour les filtres du planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [Utilisation de caractères génériques pour les filtres du planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   Vous pouvez désormais utiliser des caractères génériques lors de la création de filtres dans le planificateur de ressources.
 
-* [Prise en charge des variables de filtrage avec caractères génériques basées sur la date dans le planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [Prise en charge des variables de filtrage des caractères génériques basées sur des dates dans le planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   Vous pouvez désormais utiliser n’importe quelle version de la variable de filtre de caractères génériques $$TODAY lorsque vous créez un filtre dans le planificateur de ressources.
 
-* [Options d’export pour l’affichage des rôles dans le planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#export-options-for-the-role-view)
+* [Options d’export pour afficher les rôles dans le planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#export-options-for-the-role-view)
 
   Vous pouvez maintenant sélectionner les niveaux d’informations à exporter à partir du planificateur de ressources lorsque vous affichez des rôles.
 
-* [Options de formatage des données pour l’export dans le planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
+* [Options de formatage des données pour l’export à partir du planificateur de ressources](https://support.workfront.com/hc/fr-fr/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
 
   Vous pouvez maintenant sélectionner le mode d’affichage des informations dans le fichier Excel lors de l’export à partir du planificateur de ressources.
 
@@ -139,23 +138,23 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
 ### Améliorations apportées à la relecture
 
-* [Contenu interactif de l’épreuve dans la visionneuse de relecture web](https://support.workfront.com/hc/fr-fr/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [Contenu interactif d’épreuve dans la visionneuse de relecture Web](https://support.workfront.com/hc/fr-fr/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   Si les politiques de sécurité de votre entreprise n’autorisent pas l’utilisation de l’application de la visionneuse de relecture de bureau autonome, votre administrateur ou administratrice Workfront peut désormais activer le contenu interactif dans la visionneuse de relecture web.
 
-* [Ordre de tri par défaut des commentaires dans la visionneuse de relecture modifié du plus ancien au plus récent](https://support.workfront.com/hc/fr-fr/articles/360016372633#default-sorting-order-for-comments)
+* [L’ordre de tri par défaut des commentaires dans la visionneuse de relecture est désormais du plus ancien au plus récent.](https://support.workfront.com/hc/fr-fr/articles/360016372633#default-sorting-order-for-comments)
 
   Dans la visionneuse de relecture, l’ordre de tri par défaut des commentaires sur une épreuve est désormais Du plus ancien au plus récent, comme dans une conversation verbale.
 
-* [Amélioration de la révision des commentaires dans la visionneuse de relecture de contenu associée à une plage de vidéos](https://support.workfront.com/hc/fr-fr/articles/360016372633#enhanced-reviewing-for-comments)
+* [Révision améliorée pour les commentaires dans la visionneuse de relecture associée à une plage de vidéos](https://support.workfront.com/hc/fr-fr/articles/360016372633#enhanced-reviewing-for-comments)
 
   Lorsque vous révisez un commentaire associé à une plage d’enregistrements vidéo dans la visionneuse de relecture, vous pouvez désormais cliquer sur Lecture pour afficher l’ensemble des enregistrements.
 
-* [Lien vers les détails du document à partir d’une notification d’épreuve ou de la visionneuse de relecture](https://support.workfront.com/hc/fr-fr/articles/360016372633#link-to-document-details)
+* [Lien vers les détails du document à partir d’une notification d’épreuve pour la visionneuse de relecture](https://support.workfront.com/hc/fr-fr/articles/360016372633#link-to-document-details)
 
   Lorsque vous recevez un e-mail vous invitant à réviser une épreuve ou que vous révisez une épreuve dans la visionneuse de relecture, vous pouvez maintenant accéder rapidement à la page Détails du document de l’épreuve.
 
-* [Modifier les notifications par e-mail dans la visionneuse de relecture](https://support.workfront.com/hc/fr-fr/articles/360016372633#change-your-email-notifications)
+* [Modification de vos notifications par e-mail dans la visionneuse de relecture](https://support.workfront.com/hc/fr-fr/articles/360016372633#change-your-email-notifications)
 
   Désormais, toutes les personnes chargées de la relecture peuvent spécifier les notifications qu’elles souhaitent recevoir pour une épreuve. Ceci est particulièrement important lors de la collaboration avec des parties prenantes externes.
 
@@ -163,7 +162,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
   Vous pouvez désormais modifier la couleur d’arrière-plan de la visionneuse de relecture de bureau, de la couleur par défaut proche du noir à la couleur blanche.
 
-* [Effacer les données de navigateur mises en cache à partir d’une épreuve](https://support.workfront.com/hc/fr-fr/articles/360016372633#clear-cached-browser-data-from-a-proof)
+* [Effacer les données de navigateur mises en cache à partir d&#39;une épreuve](https://support.workfront.com/hc/fr-fr/articles/360016372633#clear-cached-browser-data-from-a-proof)
 
   Vous pouvez désormais effacer les données du cache du navigateur qui peuvent être enregistrées avec une épreuve afin que tout le contenu apparaisse dans la visionneuse de relecture de bureau et que les réviseurs et réviseuses puissent y voir et y ajouter des commentaires.
 
@@ -173,7 +172,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
   La recherche d’éléments dans l’application mobile Workfront est désormais plus conviviale et intuitive.
 
-* [Accueil : nouvelle page de destination par défaut sur les applications mobiles Workfront](https://support.workfront.com/hc/fr-fr/articles/360016374093#home-is-the-new-default)
+* [Accueil est la nouvelle page de destination par défaut des applications mobiles Workfront](https://support.workfront.com/hc/fr-fr/articles/360016374093#home-is-the-new-default)
 
   La zone d’accueil est désormais la nouvelle page de destination par défaut des applications mobiles Workfront. Cette fonctionnalité est prise en charge pour les appareils iOS et Android.
 
@@ -181,15 +180,15 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
   Vous pouvez désormais filtrer, trier et classer vos listes dans l’application mobile Workfront.
 
-* [Prise en charge de l’application bêta Workfront pour les appareils iOS](https://support.workfront.com/hc/fr-fr/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [Prise en charge de l’application Workfront Beta pour les appareils iOS](https://support.workfront.com/hc/fr-fr/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
-  Vous pouvez désormais vous inscrire pour être bêta-testeur ou bêta-testeuse pour l’application mobile Workfront à partir d’un appareil iOS.
+  Vous pouvez désormais vous inscrire pour être Beta-testeur ou Beta-testeuse pour l’application mobile Workfront à partir d’un appareil iOS.
 
-* [Création de tâches simple pour la version bêta Android](https://support.workfront.com/hc/fr-fr/articles/360016374093#simple-task-creation-for-android-beta)
+* [Création simple d’une tâche pour Android Beta](https://support.workfront.com/hc/fr-fr/articles/360016374093#simple-task-creation-for-android-beta)
 
-  Vous pouvez désormais créer des tâches directement à partir d’un projet, d’une tâche ou de la zone d’accueil pour la version bêta de l’application mobile Android.
+  Vous pouvez désormais créer des tâches directement à partir d’un projet, d’une tâche ou de la zone d’accueil pour la version Beta de l’application mobile Android.
 
-* [Nouveau tutoriel pour la première utilisation de l’application mobile Workfront pour les appareils Android](https://support.workfront.com/hc/fr-fr/articles/360016374093#new-first-time-tutorial)
+* [Nouveau tutoriel pour la première fois sur l’application mobile Workfront pour les appareils Android](https://support.workfront.com/hc/fr-fr/articles/360016374093#new-first-time-tutorial)
 
   L’aspect du tutoriel qui s’affiche la première fois que vous accédez à l’application mobile Workfront sur un appareil Android a été mis à jour.
 
@@ -199,7 +198,7 @@ La version 2019.1 contient des améliorations à la fois pour les administrateu
 
   Diverses mises à jour sont désormais disponibles dans Workfront pour Slack, notamment la possibilité de publier un commentaire que vous avez fait dans Slack sous la forme d’un commentaire sur un objet dans Workfront, de vous abonner pour recevoir une notification dans Slack lorsqu’une personne fait un commentaire sur l’une de vos requêtes, et bien plus encore.
 
-* [Améliorations de Workfront pour Jira](https://support.workfront.com/hc/fr-fr/articles/360016374093#workfront-for-jira-enhancements)
+* [Améliorations de Workfront for Jira](https://support.workfront.com/hc/fr-fr/articles/360016374093#workfront-for-jira-enhancements)
 
   L’intégration de Workfront pour Jira comprend désormais diverses améliorations, notamment une indication du moment où l’intégration crée automatiquement un utilisateur ou une utilisatrice dans Jira, une option pour désactiver la création automatique d’utilisateurs ou d’utilisatrices Workfront, etc.
 
@@ -221,7 +220,7 @@ Les mises à jour suivantes de l’outil Agile ont été mises à disposition di
 
 ### API version 10 désormais disponible dans l’environnement de prévisualisation {#api-version-10-now-available-in-preview}
 
-L’API version 10 est désormais disponible dans l’environnement de prévisualisation. Elle sera disponible dans l’environnement de production avec la version 18.3. Pour plus d’informations, consultez [Nouveautés de la version 10 de l’API](https://support.workfront.com/hc/fr-fr/articles/360010455333).
+L’API version 10 est désormais disponible dans l’environnement de prévisualisation. Elle sera disponible dans l’environnement de production avec la version 18.3. Pour plus d’informations, voir [Nouveautés de la version 10 de l’API.](https://support.workfront.com/hc/fr-fr/articles/360010455333) 
 
 ### Suppression de diverses options d’authentification unique {#various-single-sign-on-options-to-be-removed}
 
@@ -236,7 +235,7 @@ Les options d’authentification unique (SSO) suivantes ne sont désormais prise
 * SAML 1.1\
   Pour plus d’informations sur l’utilisation de SAML 1.1 avec Workfront, consultez la section [Configurer Workfront avec SAML 1.1.](https://support.workfront.com/hc/fr-fr/articles/217194887)
 
-Voici le calendrier de suppression de ces options d’authentification unique :
+Voici la chronologie de suppression de ces options d’authentification unique :
 
 * **Prise en charge limitée** : août 2018 - janvier 2019\
   Les problèmes majeurs ont été résolus ; les problèmes de faible gravité n’ont pas été résolus.

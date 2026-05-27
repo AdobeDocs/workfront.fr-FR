@@ -1,30 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version bêta 1 2018.1
-description: Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 1. Les fonctionnalités présentées sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 1er décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
+title: Activité de la version 2018.1 Beta 1
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 1. Les fonctionnalités présentées sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 1er décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 100%
 
 ---
 
-# Activité Version bêta 1 2018.1
+# Activité de la version 2018.1 Beta 1
 
-Cette page décrit tous les changements les plus récents disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 1. Les fonctionnalités présentées sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 1er décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 1. Les fonctionnalités présentées sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 1er décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées dans la version 2018.1, consultez [Vue d’ensemble de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version 2018.1 bêta 1 contient des améliorations pour l’équipe d’administration de Workfront et les autres utilisateurs et utilisatrices :
+La version 2018.1, version Beta 1 contient des améliorations pour l’équipe d’administration de Workfront et les autres personnes :
 
 **Pour les administrateurs et administratrices**
 
@@ -35,7 +35,7 @@ La version 2018.1 bêta 1 contient des améliorations pour l’équipe d’adm
 **Pour tous les utilisateurs et toutes les utilisatrices**
 
 * [Zone d’accueil (mise à jour de la zone « Mon travail »)](#home-area-updated-my-work-area)
-* [Afficher les données du planificateur de ressources sous le business case et le récapitulatif actualisé du business case](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [Afficher les données du planificateur de ressources sous l’analyse de rentabilité et le récapitulatif mis à jour de l’analyse de rentabilité](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
 * [Afficher le pourcentage d’affectation des heures prévues dans le planificateur de ressources](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
 * [Les types de mise à jour « Automatique et En cas de modification » et « Modification uniquement » déclenchent la mise à jour des objets parent en même temps que la mise à jour des tâches.](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [Instantané de la chronologie disponible dans le graphique de Gantt](#timeline-snapshot-available-in-the-gantt-chart)
@@ -62,9 +62,9 @@ Auparavant, les e-mails de relecture étaient toujours envoyés depuis Workfront
 
 Pour les clientes et les clients existants de Workfront, Workfront est configuré par défaut pour envoyer des e-mails lorsqu’un commentaire est posté sur une épreuve.
 
-Pour savoir comment désactiver les notifications par e-mail pour les épreuves dans Workfront afin que les e-mails de relecture soient envoyés uniquement à partir de Workfront Proof, consultez la section . 
+Pour savoir comment désactiver les notifications par e-mail pour les épreuves dans Workfront afin que les e-mails de relecture soient envoyés uniquement à partir de Workfront Proof, consultez la section .  
 
-## Afficher les données du planificateur de ressources sous le business case et le récapitulatif actualisé du business case {#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary}
+## Afficher les données du planificateur de ressources sous l’analyse de rentabilité et le récapitulatif mis à jour de l’analyse de rentabilité {#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary}
 
 La zone d’établissement du budget de ressources est désormais disponible dans le business case d’un projet. Dans cette zone, vous pouvez consulter les heures budgétées estimées pour vos ressources dans le planificateur de ressources et les coûts budgétés de main-d’œuvre qui leur sont associés.
 

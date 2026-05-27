@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 64%
+source-wordcount: '1343'
+ht-degree: 65%
 
 ---
 
@@ -25,7 +25,7 @@ La visibilité des objets dans Adobe Workfront dépend de l’accès à ce type
 >
 >* Plans du Planificateur de scénarios dans le Planificateur de scénarios Adobe Workfront. Pour plus d’informations, voir [Demande d’autorisations pour un plan dans le planificateur de scénarios](../../scenario-planner/request-access-to-plan.md). Cette fonction nécessite une licence supplémentaire.
 >
->* Vues et espaces de travail dans Workfront Planning. Pour plus d’informations, voir [Présentation des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Cette fonction nécessite une licence supplémentaire.
+>* Vues et espaces de travail dans Workfront Planning. Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Cette fonction nécessite une licence supplémentaire.
 
 
 Votre équipe d’administration Workfront configure votre accès à un type d’objet dans votre niveau d’accès. Pour plus d’informations, voir [Fonctionnement des niveaux d’accès et des autorisations](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -43,7 +43,7 @@ Vous pouvez demander un accès initial aux objets si quelqu&#39;un partage un li
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -197,7 +197,7 @@ La personne propriétaire d’un objet est définie comme suit :
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Objectifs</td> 
-   <td> <p>La personne propriétaire est celle désignée comme propriétaire. Il se peut que ce ne soit pas la même personne que celle ayant créé l’objectif. </p> <p>Cette fonction nécessite une licence supplémentaire. </p> <p>Pour plus d’informations sur les objectifs de Workfront, voir <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">vue d’ensemble des Objectifs Adobe Workfront</a>. </p> </td> 
+   <td> <p>La personne propriétaire est celle désignée comme propriétaire. Il se peut que ce ne soit pas la même personne que celle ayant créé l’objectif. </p> <p>Cela nécessite une licence supplémentaire. </p> <p>Pour plus d’informations sur les objectifs de Workfront, voir <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">vue d’ensemble des Objectifs Adobe Workfront</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

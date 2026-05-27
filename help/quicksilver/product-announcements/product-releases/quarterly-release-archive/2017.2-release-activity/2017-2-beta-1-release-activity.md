@@ -1,33 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2017.2, version bêta 1
-description: Cette page décrit toutes les modifications disponibles dans l’environnement de prévisualisation avec la version 2017.2 bêta 1. Les fonctionnalités sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 10 mai 2017.
+title: Activité de la version 2017.2 Beta 1
+description: Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 1. Les fonctionnalités sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 10 mai 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1390'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2017.2, version bêta 1
+# Activité de la version 2017.2 Beta 1
 
-Cette page décrit toutes les modifications disponibles dans l’environnement de prévisualisation avec la version 2017.2 bêta 1. Les fonctionnalités sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 10 mai 2017.
+Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 1. Les fonctionnalités sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 10 mai 2017.
 
 >[!IMPORTANT]
 >
 >Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
 
-La version 2017.2 bêta 1 contient des améliorations pour l’équipe d’administration de Workfront et l’ensemble des utilisateurs et des utilisatrices :
+La version 2017.2 Beta 1 contient des améliorations pour les équipes d’administration de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour l’équipe d’administration :**
 
 * [Restaurer des documents](#restore-documents)
-* [Nouvelle bannière de prévisualisation avec les informations sur la version](#new-preview-banner-with-release-information)
+* [Nouvelle bannière de prévisualisation avec les informations sur la version](#new-preview-banner-with-release-information) 
 * [Disponibilité de l’API 7](#api-7-availability)
 
 **Pour l’ensemble des utilisateurs et des utilisatrices :**
@@ -36,7 +36,7 @@ La version 2017.2 bêta 1 contient des améliorations pour l’équipe d’adm
 * [Amélioration de la planification des ressources](#resource-scheduling-improvements)
 * [Comparer les épreuves](#compare-proofs)
 * [Nouveau champ pour les groupes de ressources pour les utilisateurs, les utilisatrices et les projets](#new-field-for-resource-pools-for-users-and-projects)
-* [Actualisation de l’aspect et de la convivialité de la liste du tableau de bord](#updated-look-and-feel-in-the-dashboard-list)
+* [Mise à jour de l’aspect et de la convivialité de la liste du tableau de bord](#updated-look-and-feel-in-the-dashboard-list)
 * [Suppression de la fonctionnalité « Parrainages » dans Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Réorganiser les colonnes de n’importe quelle liste par glisser-déposer (fonctionnalité en cours de suppression)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
@@ -50,7 +50,7 @@ Pour plus d’informations, consultez la section [Restaurer des éléments suppr
 
 ## Nouvelle bannière de prévisualisation avec des informations sur la version {#new-preview-banner-with-release-information}
 
-La bannière bleue en haut de l’environnement de prévisualisation de sandbox affiche désormais le nom de la version et le numéro de version de l’environnement de prévisualisation. En cliquant sur le nom de la version, vous accédez à un article du site d’aide où vous pouvez trouver plus d’informations sur la version actuelle de la prévisualisation. Pour plus d’informations sur l’environnement de prévisualisation, voir la section [Environnement de prévisualisation d’Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+La bannière bleue en haut de l’environnement de prévisualisation de sandbox affiche désormais le nom de la version et le numéro de version de l’environnement de prévisualisation. En cliquant sur le nom de la version, vous accédez à un article du site d’aide où vous pouvez trouver plus d’informations sur la version actuelle de la prévisualisation. Pour plus d’informations sur l’environnement de prévisualisation, voir la section [Environnement de prévisualisation d’Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## Disponibilité de l’API 7 {#api-7-availability}
 
@@ -92,7 +92,7 @@ Pour plus d’informations sur la planification des ressources, voir « Commenc
 
 ### Configurer le nom du projet à afficher sur les tâches et les problèmes de la chronologie de planification {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
-Lorsque vous planifiez des ressources pour une équipe ou pour tout projet dont vous êtes la personne gestionnaire de ressources, vous avez maintenant la possibilité de paramétrer le nom du projet à afficher sur chaque tâche et problème de la chronologie de planification.Cela permet aux utilisateurs et aux utilisatrices qui consultent la chronologie de planification de voir rapidement le nom du projet dans lequel se situe la tâche ou le problème.
+Lorsque vous planifiez des ressources pour une équipe ou pour tout projet dont vous êtes la personne gestionnaire de ressources, vous avez maintenant la possibilité de paramétrer le nom du projet à afficher sur chaque tâche et problème de la chronologie de planification. Cela permet aux utilisateurs et aux utilisatrices qui consultent la chronologie de planification de voir rapidement le nom du projet dans lequel se situe la tâche ou le problème.
 
 Pour plus d’informations, voir « Commencer avec la planification des ressources ».
 

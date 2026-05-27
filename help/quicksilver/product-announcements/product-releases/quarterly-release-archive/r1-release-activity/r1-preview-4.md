@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Pour une liste de tous les changements apportés à la version R1, voir [la vers
 
 ## Mise à jour des approbations des projets, des tâches et des problèmes
 
-Lors de la création de processus d’approbation de projet, de tâche et de problème, les améliorations et modifications suivantes sont désormais disponibles :
+Lors de la création de processus d’approbation de projet, de tâche et de problème, les améliorations et modifications suivantes sont désormais disponibles : 
 
 * Les « étapes » d’approbation sont également connues sous nom de « stades » d’approbation.
 * Inclut plusieurs types d’approbateurs et approbatrices par étape.\
@@ -92,7 +92,7 @@ Il y a désormais une nouvelle interface pour la gestion des groupes et des sous
 
 Les champs Personnes propriétaires du groupe et Personnes membres du groupe sont désormais fusionnés en un seul champ, avec une liste des personnes membres du groupe située en dessous. De plus, vous pouvez filtrer la liste des personnes membres du groupe et déterminer s’il s’agit d’une personne propriétaire ou membre. 
 
-Pour plus d’informations sur l’ajout de sous-groupes aux groupes et sur la désignation d’utilisateurs et d’utilisatrices en tant que personnes membres ou personnes propriétaires de groupes, voir [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Pour plus d’informations sur l’ajout de sous-groupes aux groupes et sur la désignation d’utilisateurs et d’utilisatrices en tant que personnes membres ou personnes propriétaires de groupes, voir [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
  
 
