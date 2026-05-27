@@ -10,8 +10,8 @@ author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 89%
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur les fenêtres de maintenance de l’environnement
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

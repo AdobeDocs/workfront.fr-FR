@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Configure System-Wide Project Preferences
+title: Configuration des préférences de projet à l’échelle du système
 description: En tant que personne membre de l’administration  [!DNL Adobe Workfront] , vous pouvez configurer les préférences par défaut pour tous les projets créés dans l’ensemble du système. Ces préférences ont un impact sur le comportement du projet, de la tâche et du problème.
 author: Lisa
 feature: System Setup and Administration
@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: '2621'
 ht-degree: 90%
 
 ---
@@ -43,7 +43,7 @@ En tant que personne membre de l’administration [!DNL Adobe Workfront], vous p
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] paquet</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Projets]**.
 
 1. Sur la page des **préférences du projet**, continuez avec l’une des 4 sections répertoriées ci-dessous pour configurer les préférences des [!UICONTROL Statuts du projet], [!UICONTROL Chronologies], [!UICONTROL Business cases], et [!UICONTROL Reprises après une période d’inactivité].
-1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![Lock toggle](assets/lock-toggle-button.png) (this is the default).
+1. Si vous souhaitez que tous les groupes de l’organisation utilisent les mêmes préférences de projet, assurez-vous que chaque préférence est verrouillée ![bouton Verrouiller](assets/lock-toggle-button.png) (valeur par défaut).
 
    >[!IMPORTANT]
    >
@@ -124,7 +124,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Workfront calculates the percent complete of a project or parent task using the percent complete of each task in the project and either the Duration or the Planned Hours of each task.</p><p>The percent complete of each task is manually set by task assignees.</p><p>You can select here whether Workfront will use the Duration or the Planned Hours of tasks to calculate the percent complete of projects.</p> <p>Si vous sélectionnez [!UICONTROL Duration], la durée de toutes les tâches d’un projet détermine le pourcentage terminé global du projet, et la durée de toutes les sous-tâches détermine le pourcentage terminé global de sa tâche parent.</p> <p>Si vous sélectionnez [!UICONTROL Duration], veillez à spécifier les [!UICONTROL Typical hours per work day] et les [!UICONTROL Typical work days per week] dans la section [!UICONTROL Timelines]. [!DNL Workfront] utilise ces informations lors du calcul du pourcentage terminé d’une tâche en fonction de la durée. </p> <p>Si vous sélectionnez [!UICONTROL Planned Hours], assurez-vous que toutes les tâches de chaque projet ont le [!UICONTROL Planned Hours] défini et que le montant n’est pas nul.</p><p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Project Percent Complete overview</a>.</p></td> 
+   <td> <p>Workfront calcule le pourcentage d'achèvement d'un projet ou d'une tâche parent à l'aide du pourcentage d'achèvement de chaque tâche du projet et de la durée ou des heures prévues de chaque tâche.</p><p>Le pourcentage d’achèvement de chaque tâche est défini manuellement par les personnes assignées à la tâche.</p><p>Vous pouvez indiquer ici si Workfront utilisera la durée ou les heures prévues des tâches pour calculer le pourcentage d’achèvement des projets.</p> <p>Si vous sélectionnez [!UICONTROL Duration], la durée de toutes les tâches d’un projet détermine le pourcentage terminé global du projet, et la durée de toutes les sous-tâches détermine le pourcentage terminé global de sa tâche parent.</p> <p>Si vous sélectionnez [!UICONTROL Duration], veillez à spécifier les [!UICONTROL Typical hours per work day] et les [!UICONTROL Typical work days per week] dans la section [!UICONTROL Timelines]. [!DNL Workfront] utilise ces informations lors du calcul du pourcentage terminé d’une tâche en fonction de la durée. </p> <p>Si vous sélectionnez [!UICONTROL Planned Hours], assurez-vous que toutes les tâches de chaque projet ont le [!UICONTROL Planned Hours] défini et que le montant n’est pas nul.</p><p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Présentation du pourcentage d’achèvement du projet</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
@@ -143,7 +143,7 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Contrôle les données que [!DNL Workfront] utilise pour calculer l’[!UICONTROL Estimate at Completion] (EAC), qui correspond au coût total planifié de votre projet.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong> : l’EAC de la tâche parent et du projet parent est déterminé en saisissant les [!UICONTROL Actual Hours] ou le [!UICONTROL Actual Labor Cost] dans les formules EAC. Le calcul inclut les [!UICONTROL Actual Hours] ou [!UICONTROL Costs and Expenses] ajoutés directement à la tâche parent ou au projet parent.</li> 
@@ -221,10 +221,10 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
    <td> 
 <p>Si aucun planning n’est affecté à un projet ou si aucun planning n’est affecté aux personnes affectées à ses tâches, [!DNL Workfront] utilise le planning par défaut du système pour calculer la chronologie des tâches.</p>
 
-<p>If you assign one user to a task in a project and both the project and the user assigned to the tasks have schedules associated with them, [!UICONTROL Workfront] uses the following schedules:</p> 
+<p>Si vous affectez un utilisateur à une tâche dans un projet et que le projet et l'utilisateur affecté aux tâches sont associés à des planifications, [!UICONTROL Workfront] utilise les planifications suivantes :</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] uses the schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of the task.</li> 
+     <li><strong>[!UICONTROL User]</strong> : [!DNL Workfront] utilise le planning de l’utilisateur affecté à la tâche pour calculer les chronologies.</li> 
+     <li><strong>[!UICONTROL Project]</strong> : [!DNL Workfront] utilise la planification du projet pour calculer la chronologie de la tâche.</li> 
     </ul> <p>Pour plus d’informations sur les plannings, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Créer un planning</a>.</p>
 </td> 
   </tr>
@@ -276,10 +276,10 @@ Configurez l’une des préférences suivantes pour les projets nouvellement cr�
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>Déterminez les règles de votre organisation (ou groupe, si vous configurez les préférences d’un projet pour un groupe) concernant les tâches, les problèmes, les documents et autres objets dans un projet une fois que le statut du projet a été marqué comme <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, ou <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks:]</strong> Allows users to:
+     <li><strong>[!UICONTROL Ajouter et modifier des tâches :]</strong> Permet aux utilisateurs de :
       <ul>
-       <li><p>Edit tasks within a project after the project has been marked [!UICONTROL Complete], [!UICONTROL Dead], or is [!UICONTROL Pending Approval].</p>
-           <p>Note: Even when this option is not selected, users can add and edit expense entries. Logging hours has a separate setting. To allow or prevent users from logging time on projects with a Complete or Dead status, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p></li>
+       <li><p>Modifiez les tâches d'un projet une fois que celui-ci a été marqué [!UICONTROL Terminé], [!UICONTROL Inactif] ou est marqué [!UICONTROL Approbation en attente].</p>
+           <p>Remarque : même si cette option n'est pas sélectionnée, les utilisateurs peuvent ajouter et modifier des entrées de dépenses. La journalisation des heures comporte un paramètre distinct. Pour autoriser ou empêcher les utilisateurs de consigner du temps sur des projets avec un statut Terminé ou À l’arrêt, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurer les préférences de feuille de temps et d’heure</a>.</p></li>
        <li>Ajouter des tâches à un projet.</li>
       </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong> : permet aux utilisateurs et utilisatrices d’effectuer les opérations suivantes :

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1348'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ Les notifications suivantes vous informent sur les demandes que vous avez effect
 
 Pour plus d’informations sur la configuration des notifications que vous recevez, voir la section [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Voir aussi [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
+Consultez également la section [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Voir aussi [Notifications d’événements](../../workfront-basics/using-notific
   <tr> 
    <td> <p><strong>J’envoie une demande (confirmation)</strong> </p> <p>Le contact principal sur le problème reçoit une notification par e-mail lorsqu’il envoie un problème.</p> <p>Une notification n’est envoyée que si le statut du projet est [!UICONTROL Current] et si le projet est configuré en tant que [!UICONTROL Help Request Queue] (comme décrit dans la section <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a>).</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Request Submitted] : &lt;Request Name&gt; sur &lt;Project (Request Queue) Name&gt;</em></p> <p>L’objet de la notification de synthèse quotidienne est le suivant :<em> Synthèse de vos demandes &lt;Date of the daily digest&gt;</em></p> </td> 
    <td> <p>Nom du projet (nom de la file d’attente des demandes)<br>Nom du portfolio<br>Numéro de référence du problème<br>Nom du problème<br>Date de saisie<br>Priorité du problème<br>Statut du problème<br>Nom de la personne assignée<br>Contact principal<br>*Numéro de référence du projet<br>*Nom du projet<br>*Nombre total de demandes envoyées<br>*Nom de la demande<br>*Priorité de la demande<br>*Date de la synthèse quotidienne</p> </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et Quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Ma demande est fermée (confirmation)</strong> </p> <p>Le contact principal du problème reçoit une notification par e-mail à la fermeture de la demande.</p> <p>Une notification est envoyée uniquement si le statut du projet est défini comme Actuel et si le projet est configuré en tant que [!UICONTROL Help Request Queue] (comme décrit dans <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de demandes</a>).</p> <p>L’objet de l’e-mail de notification instantanée est : <em>[!UICONTROL Your request has been closed] : « &lt;Request Name&gt; »</em></p> <p>L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of your Requests] &lt;Date of the daily digest&gt;</em></p> </td> 

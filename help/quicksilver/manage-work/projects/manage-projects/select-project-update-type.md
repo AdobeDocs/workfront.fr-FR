@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
 source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 64%
+source-wordcount: '665'
+ht-degree: 67%
 
 ---
 
@@ -59,7 +59,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Mettre à jour le type de mise à jour d’un projet
 
-Lors de la mise à jour des tâches, leurs objets parents (tâches parents ou projet) sont mis à jour au moment indiqué par le type de mise à jour.  Pour spécifier un type de mise à jour pour votre projet :
+Lorsque les tâches sont mises à jour, leurs objets parent (tâches parent ou projet) sont mis à jour au moment indiqué par le type de mise à jour.  Pour spécifier un type de mise à jour pour votre projet :
 
 1. Accédez au projet dont vous souhaitez spécifier le type de mise à jour.
 1. Cliquez sur le menu Plus ![icône Plus](assets/more-icon.png) en regard du nom du projet, puis cliquez sur **Modifier** .

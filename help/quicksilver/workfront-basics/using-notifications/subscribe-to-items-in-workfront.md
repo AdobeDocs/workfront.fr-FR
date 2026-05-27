@@ -7,8 +7,8 @@ feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 90%
+source-wordcount: '1563'
+ht-degree: 91%
 
 ---
 
@@ -49,7 +49,7 @@ Pour plus d’informations sur l’utilisation des abonnements, consultez [À pr
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licence</strong></td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -203,7 +203,7 @@ Pour afficher les personnes abonnées à un élément, procédez comme suit :
 
    ![Voir les personnes abonnées](assets/bell-hover-for-list-qs-350x90.png)
 
-   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Vous pouvez également afficher une liste des personnes abonnées en ajoutant un champ [!UICONTROL Personnes abonnées] comme colonne dans un rapport ou dans une vue de l’élément abonné. Pour plus d’informations, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Comment utiliser des abonnements
 
