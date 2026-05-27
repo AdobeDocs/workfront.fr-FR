@@ -19,7 +19,7 @@ Vous pouvez charger certains types de paramètres prédéfinis de document Photo
 
 >[!IMPORTANT]
 >
->Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+>Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/fr/photoshop/using/create-documents.html).
 
 
 
