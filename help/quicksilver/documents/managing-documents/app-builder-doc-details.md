@@ -35,8 +35,8 @@ Vous devez disposer des éléments suivants :
 
 1. Accédez à l’une des options suivantes :
 
-* Étape : [&#128279;](https://stage.adminconsole.adobe.com/)
-* Prod : [&#128279;](https://adminconsole.adobe.com/)
+* Étape : [](https://stage.adminconsole.adobe.com/)
+* Prod : [](https://adminconsole.adobe.com/)
 
 1. Dans la section Utilisateurs , cliquez sur **Développeurs** > **Ajouter des développeurs**.
 
@@ -73,7 +73,7 @@ Si AppBuilder est correctement configuré, vous devriez voir « Créer un projet
 
    ![Créer un projet à partir d’un modèle](assets/create-from-template.png)
 
-1. Sélectionnez **&#x200B;**.
+1. Sélectionnez ****.
 
 1. Saisissez un **Titre du projet** et **Nom de l’application**. Les deux comportent des valeurs par défaut, mais il sera plus facile d’identifier le projet de votre choix ultérieurement si vous personnalisez la valeur.
 
@@ -88,7 +88,7 @@ Si AppBuilder est correctement configuré, vous devriez voir « Créer un projet
 
 ## Interface de ligne de commande d’Adobe IO (aio)
 
-Adobe fournit une interface de ligne de commande open source qui peut être utilisée pour créer des applications App Builder. La documentation se trouve ici : [&#128279;](https://github.com/adobe/aio-cli) ainsi que les instructions Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
+Adobe fournit une interface de ligne de commande open source qui peut être utilisée pour créer des applications App Builder. La documentation se trouve ici : [](https://github.com/adobe/aio-cli) ainsi que les instructions Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
 
@@ -112,7 +112,7 @@ Adobe fournit une interface de ligne de commande open source qui peut être util
 
 1. Sélection et configuration de modèles
 
-   1. Parcourez tous les modèles disponibles et choisissez le modèle **&#x200B;**&#x200B;pour votre projet.
+   1. Parcourez tous les modèles disponibles et choisissez le modèle **** pour votre projet.
 
       ![Modèle de recherche](assets/search-template.png)
 
@@ -335,7 +335,7 @@ Pour qu’une application invitée soit chargée dans Workfront, elle doit être
    1. `aio app use -w Production`
    1. `aio app deploy`
 
-1. Accédez à [&#128279;](https://developer-stage.adobe.com/) ou [https://developer.adobe.com/](https://developer.adobe.com/).
+1. Accédez à [](https://developer-stage.adobe.com/) ou [https://developer.adobe.com/](https://developer.adobe.com/).
 
    1. Cliquez sur **Console** dans le coin supérieur droit.
 
@@ -355,7 +355,7 @@ Pour qu’une application invitée soit chargée dans Workfront, elle doit être
 
 ## Valider l’envoi
 
-1. En tant qu’administrateur système, accédez à [&#128279;](https://stage.exchange.adobe.com/) ou [https://exchange.adobe.com/](https://exchange.adobe.com/).
+1. En tant qu’administrateur système, accédez à [](https://stage.exchange.adobe.com/) ou [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
 1. Cliquez sur **Gérer** > **Applications Experience Cloud**. Vous devriez voir les applications envoyées avec des options d’approbation/de rejet.
 Une fois approuvées, les extensions d’application publiées doivent se charger automatiquement dans votre environnement Workfront.

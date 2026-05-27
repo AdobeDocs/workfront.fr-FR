@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Modifier événements
-description: Vous pouvez modifier les informations relatives aux problèmes que vous avez créés, ou que d’autres utilisateurs ont créés s’ils ont partagé les problèmes avec vous. Cet article décrit comment rechercher, rechercher et modifier un problème, si vous disposez des autorisations nécessaires.
+description: Vous pouvez modifier les informations sur les problèmes que vous avez créés ou que d’autres personnes ont créés si elles ont partagé les problèmes avec vous. Cet article décrit comment rechercher, rechercher et modifier un problème, si vous disposez des autorisations nécessaires.
 author: Alina
 feature: Work Management
 topic: Collaboration
@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2549'
 ht-degree: 84%
 
 ---
@@ -268,7 +268,7 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
      </tr> 
      <tr> 
       <td role="rowheader">Contact principal</td> 
-      <td>Par défaut, le contact principal est le créateur ou la créatrice du problème. Pour modifier ce paramètre, commencez à saisir le nom de toute personne active dans Workfront, puis sélectionnez-la dans la liste qui apparaît. Un problème ne peut avoir qu’un créateur ou qu’une créatrice.<br> Si vous modifiez le contact principal, le contact principal d’origine dispose toujours d’un accès en gestion au problème. Lorsque vous partagez un problème, vous devez supprimer manuellement cet accès de la zone Accès au problème.
+      <td>Par défaut, le contact principal est le créateur ou la créatrice du problème. Pour modifier ce paramètre, commencez à saisir le nom de toute personne active dans Workfront, puis sélectionnez-la dans la liste qui apparaît. Un problème ne peut avoir qu'un seul contact de Principal.<br> Si vous modifiez le Contact de Principal, le contact principal d’origine dispose toujours d’un accès en gestion au problème. Lorsque vous partagez un problème, vous devez supprimer manuellement cet accès de la zone Accès au problème.
 
    <b>CONSEIL</b>
 
@@ -428,11 +428,11 @@ Vous pouvez modifier un problème à l’aide des zones Modifier le problème ou
       <td role="rowheader">Processus d’approbation</td> 
       <td> 
        <div> 
-       <p>Sélectionnez un processus d’approbation à associer au problème. Votre administrateur ou administratrice Workfront doit définir des processus d’approbation au niveau du système avant que vous ne puissiez les associer à des problèmes. Les personnes disposant d’un accès administratif aux processus d’approbation <span> peuvent également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les tâches</a>. </p> 
+       <p>Sélectionnez un processus d’approbation à associer au problème. Votre administrateur ou administratrice Workfront doit définir des processus d’approbation au niveau du système avant que vous ne puissiez les associer à des problèmes. Les utilisateurs et utilisatrices disposant d’un accès administratif aux processus d’approbation <span> peuvent également créer des processus d’approbation spécifiques à un groupe.</span>Pour plus d’informations sur la création de processus d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Créer un processus d’approbation pour les éléments de travail</a>. </p> 
        <p>Tenez compte des éléments suivants lorsque vous ajoutez des processus d’approbation : </p> 
        <ul> 
        <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
-       <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Important : si le groupe du projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Comment les modifications apportées aux groupes et au processus d’approbation affectent les processus d’approbation attribués</a>. </p> </li> 
+       <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du projet ne s’affiche pas dans la liste.</p> <p>Important : si le groupe du projet change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>. </p> </li> 
        <li> <p>Vous pouvez définir des processus d’approbation par défaut qui seront automatiquement associés aux problèmes lors de la création de files d’attente des demandes ou de rubriques de files d’attente. Pour plus d’informations sur la mise à jour des détails de la file d’attente, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente des demandes</a>. Pour plus d’informations sur la création de rubriques de file d’attente, voir <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Créer des rubriques de file d’attente</a>. </p> </li> 
        <li>Lors de la modification en masse des problèmes, les scénarios suivants se présentent : 
        <ul> 

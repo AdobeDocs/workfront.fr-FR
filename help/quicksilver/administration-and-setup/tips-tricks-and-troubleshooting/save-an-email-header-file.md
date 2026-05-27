@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Enregistrement d’un fichier d’en-tête de courrier électronique
+title: Enregistrer un fichier d’en-tête d’e-mail
 description: Dans certains cas, [!DNL Adobe Workfront] l’assistance peut demander un fichier d’en-tête d’e-mail. Chaque application de messagerie dispose de sa propre façon d’obtenir ce fichier. Voici quelques instructions d’application de messagerie pour localiser et enregistrer l’en-tête. [!DNL Outlook]
 author: Lisa
 feature: System Setup and Administration
@@ -11,7 +11,7 @@ role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
 source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 97%
 
 ---

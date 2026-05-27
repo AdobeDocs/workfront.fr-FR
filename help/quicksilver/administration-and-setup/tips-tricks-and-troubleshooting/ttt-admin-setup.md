@@ -12,8 +12,8 @@ recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
 source-git-commit: f66b219e9fd203f108844ad397bcfa848b8f1134
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 92%
+source-wordcount: '207'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,9 @@ Cette section contient les articles suivants :
 * [Erreur : [!UICONTROL les utilisateurs et les utilisatrices SSO ne peuvent pas se connecter à Adobe Workfront en raison de diverses erreurs.]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
 * [Type de licence d’utilisation [!UICONTROL externe] manquant dans les niveaux d’accès](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 * [Erreur de connexion : [!UICONTROL les champs suivants ne sont pas valides : emailAddr ne peut être nul.]](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-* [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF  [!DNL Adobe Workfront] &#x200B;](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+* [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF  [!DNL Adobe Workfront] ](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
 * [Récupérer des données historiques à partir d’ [!DNL Adobe Workfront] : avantages et inconvénients](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [Enregistrer un fichier d’en-tête d’e-mail](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [Le partage affiche plusieurs autorisations.](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [Les e-mails non authentifiés ne sont pas acceptés en raison de la politique DMARC du domaine.](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-* [Workfront : les paramètres de ZScaler peuvent réduire les performances](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+* [Workfront : les paramètres ZScaler peuvent diminuer les performances.](../../administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
