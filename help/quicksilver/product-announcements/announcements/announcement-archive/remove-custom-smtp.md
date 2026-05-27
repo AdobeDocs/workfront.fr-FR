@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
 source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '306'
 ht-degree: 92%
 
 ---

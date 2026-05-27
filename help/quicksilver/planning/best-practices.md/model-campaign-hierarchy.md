@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1572'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Vous trouverez ci-dessous les niveaux d’une implémentation de Planning réuss
 
    * **Personnes :** les parties prenantes à ce niveau peuvent être un responsable marketing, un vice-président marketing ou d’autres prospects stratégiques.
 
-  Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+  Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Niveau 2 : tactiques des canaux (planification Workfront)**
 

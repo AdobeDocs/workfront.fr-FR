@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 79%
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->Comme [Microsoft passe au client Nouvelles équipes](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. Pour continuer à utiliser Microsoft Teams et les applications intégrées telles que Workfront, les clients doivent passer au client New Teams avant cette date.
+>Comme [Microsoft passe au nouveau client Teams](https://learn.microsoft.com/fr-fr/microsoftteams/teams-classic-client-end-of-availability), le client Teams classique ne sera plus disponible après le 1er juillet 2025. Pour continuer à utiliser Microsoft Teams et les applications intégrées telles que Workfront, les clients et clientes devront passer au nouveau client Teams avant cette date.
 >
->L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Équipes . Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de Microsoft Teams App Store. Pour installer ou vérifier l’intégration de Workfront dans le client New Teams, voir [Installer [!DNL Adobe Workfront] pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Teams. Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de l’App Store Microsoft Teams. Pour installer ou vérifier l’intégration de Workfront dans le nouveau client Teams, voir [Installer  [!DNL Adobe Workfront]  pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Vous pouvez rechercher des éléments [!DNL Workfront] dans n’importe quel canal [!DNL Adobe Workfront] dans [!DNL Microsoft Teams] et partager ces éléments avec les membres de vos équipes.
 
@@ -37,7 +37,7 @@ Vous pouvez rechercher des éléments [!DNL Workfront] dans n’importe quel can
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 

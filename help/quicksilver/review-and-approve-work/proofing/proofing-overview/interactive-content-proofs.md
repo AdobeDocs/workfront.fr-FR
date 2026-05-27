@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
 source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Vous pouvez créer une épreuve pour le contenu interactif de l’une des maniè
 Lorsque vous regroupez du contenu interactif dans un fichier ZIP à des fins de relecture, assurez-vous qu’il comprend les spécifications suivantes :
 
 * Toutes les ressources, telles que CSS, JavaScript, vidéos, sons et images, doivent être incluses dans le fichier de lot.
-* Le contenu interactif doit inclure le fichier principal (index.html, index.htm). Si ce fichier n’est pas placé à l’emplacement racine, l’outil recherche automatiquement le dossier pour le trouver.Le fichier principal n’a pas besoin d’être nommé index.html/index.htm, cependant, un seul fichier .html/.htm peut être placé à l’emplacement principal.
+* Le contenu interactif doit inclure le fichier principal (index.html, index.htm). Si ce fichier n’est pas placé à l’emplacement racine, l’outil recherche automatiquement le dossier pour le trouver. Le fichier principal n’a pas besoin d’être nommé index.html/index.htm, cependant, un seul fichier .html/.htm peut être placé à l’emplacement principal.
 * Le fichier doit contenir au moins une page web de fichier statique.
 * La taille maximale du fichier est de 500 Mo.
 * Dans le cas de fichiers .zip créés dans iOS, l’outil identifie automatiquement le dossier dans lequel se trouve le contenu.
@@ -76,4 +76,4 @@ Ou, si vous utilisez Workfront Proof, reportez-vous à la section [Générer un
 
 ## À propos de la révision des épreuves interactives
 
-Nous vous recommandons d’utiliser la visionneuse de relecture de bureau autonome comme visionneuse par défaut pour les épreuves interactives.Toutefois, si les politiques de votre entreprise n’autorisent pas l’utilisation de la visionneuse de relecture de bureau, votre administrateur ou administratrice Workfront peut configurer votre système afin que vous puissiez consulter le contenu interactif, regroupé dans un fichier de lot ZIP, dans la visionneuse de relecture web. Pour obtenir des informations comparatives sur la visionneuse de relecture de bureau et la visionneuse de relecture web, consultez [Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Nous vous recommandons d’utiliser la visionneuse de relecture de bureau autonome comme visionneuse par défaut pour les épreuves interactives. Toutefois, si les politiques de votre entreprise n’autorisent pas l’utilisation de la visionneuse de relecture de bureau, votre administrateur ou administratrice Workfront peut configurer votre système afin que vous puissiez consulter le contenu interactif, regroupé dans un fichier de lot ZIP, dans la visionneuse de relecture web. Pour obtenir des informations comparatives sur la visionneuse de relecture de bureau et la visionneuse de relecture web, consultez [Vue d’ensemble des différences entre la visionneuse de relecture web et la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).

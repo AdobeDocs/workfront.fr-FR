@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '3649'
-ht-degree: 74%
+source-wordcount: '3700'
+ht-degree: 75%
 
 ---
 
@@ -62,7 +62,7 @@ Lors de l’ajout d’une intégration, l’administrateur ou administratrice sa
   </tr> 
   <tr> 
    <td>Paramètres de requête</td> 
-   <td> <p>Les valeurs optionnelles à ajouter à la chaîne de requête de chaque appel API. Par exemple, access_type</p> </td> 
+   <td> <p>Valeurs facultatives à ajouter à la chaîne de requête de chaque appel API. Par exemple, access_type=offline.</p> </td> 
   </tr> 
   <tr> 
    <td>Type d'authentification</td> 
@@ -70,7 +70,7 @@ Lors de l’ajout d’une intégration, l’administrateur ou administratrice sa
   </tr> 
   <tr> 
    <td>URL d'authentification</td> 
-   <td> <p>(OAuth2 uniquement) L’URL complète utilisée pour l’authentification de l’utilisateur ou utilisatrice. Workfront dirige les utilisateurs vers cette adresse dans le cadre du processus d’approvisionnement OAuth. <br><br>Remarque : Workfront ajoute un paramètre « state » à la chaîne de requête. Le fournisseur doit le renvoyer à Workfront en l’ajoutant à l’URI de redirection de Workfront.</p> </td> 
+   <td> <p>(OAuth2 uniquement) L’URL complète utilisée pour l’authentification de l’utilisateur ou utilisatrice. Workfront dirigera les utilisateurs et utilisatrices vers cette adresse dans le cadre du processus d’approvisionnement OAuth. <br><br>Remarque : Workfront ajoute un paramètre « state » à la chaîne de requête. Le fournisseur doit le renvoyer à Workfront en l’ajoutant à l’URI de redirection de Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>URL de jeton de point d’entrée</td> 
@@ -112,7 +112,7 @@ OAuth2 permet à Workfront d’effectuer des appels API autorisés à un fournis
 1. Workfront traite cette requête et effectue un appel API vers l’URL de point d’entrée du jeton avec le code d’autorisation.
 1. L’URL de point d’entrée du jeton renvoie un jeton d’actualisation et un jeton d’accès.
 1. Workfront stocke ces jetons et approvisionne entièrement l’intégration webhook pour cet utilisateur.
-1. Désormais, Workfront peut effectuer des appels API autorisés vers le fournisseur de webhooks.Lors de ces appels, Workfront envoie le jeton d’accès dans l’en-tête de requête HTTP comme indiqué ci-dessous :
+1. Désormais, Workfront peut effectuer des appels API autorisés vers le fournisseur de webhooks. Lors de ces appels, Workfront envoie le jeton d’accès dans l’en-tête de requête HTTP comme indiqué ci-dessous :
 
    ```
    -------------------------------  
@@ -146,7 +146,7 @@ Par exemple, cela peut être utilisé pour l’authentification de base. Pour ce
 
    Autorisation de base QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-où QWxhZGRpbjpvcGVuIHNlc2FtZQ== est une chaîne encodée en Base64 de « username:password ». Voir Authentification de base. Si ce paramètre est ajouté, Workfront le transmettra dans l’en-tête de requête HTTP en plus d’autres en-têtes de requête :
+où QWxhZGRpbjpvcGVuIHNlc2FtZQ== est une chaîne codée en base-64 de « nom d’utilisateur :password ». Voir Authentification de base. Si ce paramètre est ajouté, Workfront le transmettra dans l’en-tête de requête HTTP en plus d’autres en-têtes de requête :
 
 ```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
@@ -209,12 +209,12 @@ L’URL est configurable et correspond à la valeur de l’URL du point d’entr
   <tr> 
    <td>client_secret</td> 
    <td>Oui</td> 
-   <td>Le secret client configuré dans Workfront pour cette intégration personnalisée.</td> 
+   <td> Le secret client configuré dans Workfront pour cette intégration personnalisée.</td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+ 
 
 **Réponse**
 
@@ -225,30 +225,30 @@ L’URL est configurable et correspond à la valeur de l’URL du point d’entr
  <thead> 
   <tr> 
    <th>Nom</th> 
-   <th>Type</th> 
+   <th>Type </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>access_token </td> 
+   <td>access_token </td> 
    <td>Chaîne</td> 
    <td> <p>Un jeton utilisé pour effectuer des appels API autorisés au nom de la personne. Il doit expirer pour éviter les appels d’API non autorisés.</p> </td> 
   </tr> 
   <tr> 
-   <td>refresh_token </td> 
+   <td>refresh_token </td> 
    <td>Chaîne</td> 
    <td> <p>Un jeton de longue durée utilisé pour récupérer un nouvel access_token en appelant cette méthode d’API.</p> </td> 
   </tr> 
   <tr> 
-   <td>expires_in </td> 
+   <td>expires_in </td> 
    <td>long</td> 
-   <td>  <p>(Facultatif) Délai (en secondes) avant l’expiration du jeton access_token, généralement 3 600.</p></td> 
+   <td>  <p>(Facultatif) Délai (en secondes) avant l’expiration du jeton access_token, généralement 3 600.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+ 
 
 **Exemple**
 
@@ -286,7 +286,7 @@ GET /metadata?id=[ID du document ou du dossier]
  <col> 
  <thead> 
   <tr> 
-   <th>Nom</th> 
+   <th>Nom </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
@@ -308,45 +308,45 @@ GET /metadata?id=[ID du document ou du dossier]
  <col> 
  <thead> 
   <tr> 
-   <th>Nom</th> 
-   <th>Type</th> 
+   <th>Nom </th> 
+   <th>Type </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>title</td> 
-   <td>Chaîne</td> 
+   <td>title </td> 
+   <td>Chaîne </td> 
    <td>Nom du document ou du dossier.</td> 
   </tr> 
   <tr> 
-   <td>kind</td> 
-   <td>Chaîne</td> 
+   <td>kind </td> 
+   <td>Chaîne </td> 
    <td>Indique si cet élément est un fichier ou un dossier ('fichier' ou 'dossier').</td> 
   </tr> 
   <tr> 
    <td>ID</td> 
-   <td>Chaîne</td> 
+   <td>Chaîne </td> 
    <td>ID du fichier ou du dossier.</td> 
   </tr> 
   <tr> 
    <td>viewLink</td> 
-   <td>Chaîne</td> 
+   <td>Chaîne </td> 
    <td> <p>Chemin de l’URL utilisé par une personne pour visualiser le document dans une fenêtre de navigateur. L’URL peut être hébergée soit par le fournisseur de documents ou le fournisseur de stockage externe natif.</p> </td> 
   </tr> 
   <tr> 
    <td>downloadLink</td> 
-   <td>Chaîne</td> 
+   <td>Chaîne </td> 
    <td> <p>Le chemin d’URL utilisé par une personne pour télécharger le document dans une fenêtre de navigateur. L’URL peut être hébergée soit par le fournisseur de documents ou le fournisseur de stockage externe natif.</p> </td> 
   </tr> 
   <tr> 
    <td>mimeType</td> 
-   <td>Chaîne</td> 
+   <td>Chaîne </td> 
    <td>(Facultatif) Type MIME du fichier.</td> 
   </tr> 
   <tr> 
    <td>dateModified</td> 
-   <td>Chaîne</td> 
+   <td>Chaîne </td> 
    <td>Dernière modification de ce fichier (horodatage au format RFC 3339).</td> 
   </tr> 
   <tr> 
@@ -393,9 +393,9 @@ GET /files
 
 **Paramètres de requête**
 
-| Nom | Description |
+| Nom  | Description |
 |---|---|
-| parentId | L’identifiant du dossier. Pour obtenir les métadonnées du répertoire racine, utilisez la valeur « / ». |
+| parentId  | L’identifiant du dossier. Pour obtenir les métadonnées du répertoire racine, utilisez la valeur « / ». |
 
 {style="table-layout:auto"}
 
@@ -449,14 +449,14 @@ GET /search
  <col> 
  <thead> 
   <tr> 
-   <th>Nom</th> 
+   <th>Nom </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>query</td> 
-   <td>Terme ou expression à rechercher.</td> 
+   <td>Expression ou terme de recherche.</td> 
   </tr> 
   <tr> 
    <td>parentId</td> 
@@ -499,14 +499,14 @@ GET /download
  <col> 
  <thead> 
   <tr> 
-   <th>Nom</th> 
+   <th>Nom </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>ID</p> </td> 
-   <td>Identifiant du document.</td> 
+   <td> Identifiant du document.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -529,10 +529,10 @@ GET /thumbnail
 
 **Paramètres de requête**
 
-| Nom | Description |
+| Nom  | Description |
 |---|---|
-| ID | ID du document. |
-| Taille | Largeur de la miniature. |
+| ID  | ID du document. |
+| Taille  | La largeur de la vignette. |
 
 {style="table-layout:auto"}
 
@@ -548,7 +548,7 @@ Octets bruts de la miniature.
 
 Le chargement d’un fichier vers un fournisseur de stockage de documents est un processus en deux étapes qui nécessite 2 points d’entrée d’API distincts. Workfront commence le processus de chargement en appelant /uploadInit. Ce point d’entrée renvoie un ID de document, qui est ensuite transmis à /upload lors du chargement des octets du document. Selon le système de stockage de documents sous-jacent, il peut être nécessaire de créer un document de longueur nulle, puis de mettre à jour le contenu du document ultérieurement.
 
-Ajoutés à la version 1.1 de cette spécification, l’identifiant du document et l’identifiant de la version du document peuvent être utilisés pour extraire des informations supplémentaires de Workfront. Par exemple, si le système de gestion des documents souhaite obtenir des informations supplémentaires sur le document, le code d’implémentation du webhook pourrait utiliser l’identifiant du document pour récupérer ces informations à l’aide de l’API RESTful de Workfront. Il est recommandé que ces informations proviennent de champs de données personnalisés sur le document et la tâche, le problème ou le projet qui le contient.
+Ajoutés à la version 1.1 de cette spécification, l’identifiant du document et l’identifiant de la version du document peuvent être utilisés pour récupérer des informations supplémentaires de Workfront. Par exemple, si le système de gestion des documents souhaite obtenir des informations supplémentaires sur le document, le code d’implémentation du webhook pourrait utiliser l’identifiant du document pour récupérer ces informations à l’aide de l’API RESTful de Workfront. Il est recommandé que ces informations proviennent de champs de données personnalisés sur le document et la tâche, le problème ou le projet qui le contient.
 
 **URL**
 
@@ -561,17 +561,17 @@ POST /uploadInit
  <col> 
  <thead> 
   <tr> 
-   <th>Nom</th> 
+   <th>Nom </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>parentId</td> 
+   <td>parentId </td> 
    <td>L’identifiant du dossier parent, tel que référencé par le fournisseur du webhook.</td> 
   </tr> 
   <tr> 
-   <td>filename</td> 
+   <td>filename </td> 
    <td>Nom du document.</td> 
   </tr> 
   <tr> 
@@ -579,7 +579,7 @@ POST /uploadInit
    <td> <p>L’identifiant du document Workfront (ajouté dans la version 1.1).</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td>documentVersionId</td> 
+   <td>documentVersionId </td> 
    <td>ID de version du document Workfront (ajouté dans la version 1.1).</td> 
   </tr> 
  </tbody> 
@@ -607,9 +607,9 @@ PUT /upload
 
 **Paramètres de requête**
 
-| Nom | Description |
+| Nom  | Description |
 |---|---|
-| ID | Identifiant du document qui vient d’être créé. |
+| ID  |  Identifiant du document qui vient d’être créé. |
 
 
  
@@ -644,7 +644,7 @@ ou
 }
 ```
 
-### Obtenir des informations sur le service
+### Obtenir des informations sur le service 
 
 (Date de publication - à déterminer) Renvoie des informations sur le service, telles que ses caractéristiques et ses capacités. Workfront utilisera ces informations pour personnaliser l’interface d’utilisation de Workfront. Par exemple, si la mise en œuvre du webhook contient des actions personnalisées, le fichier JSON doit énumérer ces opérations dans le fichier JSON. Les utilisateurs et utilisatrices pourront alors invoquer ces actions à partir de Workfront.
 
@@ -667,33 +667,33 @@ JSON contenant des informations sur ce service.
  <thead> 
   <tr> 
    <th>Nom</th> 
-   <th>Type</th> 
+   <th>Type </th> 
    <th>Description</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>webhookVersion</td> 
-   <td>Chaîne</td> 
+   <td>webhookVersion </td> 
+   <td>Chaîne </td> 
    <td>Version du webhook mise en œuvre par ce service. Il s’agit du numéro de version indiqué au début de la présente spécification.</td> 
   </tr> 
   <tr> 
-   <td>version</td> 
-   <td>Chaîne</td> 
+   <td>version </td> 
+   <td>Chaîne </td> 
    <td>Numéro de version interne de ce service. Ce numéro est déterminé par le fournisseur du service du webhook et n’est utilisé qu’à titre d’information.<br><br></td> 
   </tr> 
   <tr> 
-   <td>publisher</td> 
-   <td>Chaîne</td> 
+   <td>publisher </td> 
+   <td>Chaîne </td> 
    <td>Nom de l’entreprise qui fournit l’implémentation du webhook.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
-   <td>Chaîne</td> 
+   <td>Chaîne </td> 
    <td>Liste contenant les points d’entrée de l’API mis en œuvre par ce service. Ceci peut être utilisé pour s’assurer que l’interface d’utilisation dans Workfront reflète les capacités offertes par le fournisseur du webhook. Chaque élément de la liste doit inclure le nom du point d’entrée (tel que « search »).</td> 
   </tr> 
   <tr> 
-   <td>customActions</td> 
+   <td>customActions </td> 
    <td>Chaîne</td> 
    <td>  <p>Liste contenant les opérations personnalisées implémentées par ce webhook. Chaque élément de la liste comprend un nom et un nom d’affichage. Le nom d’affichage apparaît dans la liste déroulante Actions de document de Workfront. Cliquez sur l’élément dans la liste déroulante pour appeler l’action dans le webhook en appelant le point d’entrée /customAction.</p></td> 
   </tr> 
@@ -724,10 +724,10 @@ POST /createFolder
 
 **Paramètres de requête**
 
-| Nom | Description |
+| Nom  | Description |
 |---|---|
-| parentId | Identifiant du dossier dans lequel le dossier doit être créé. |
-| name | Nom du nouveau dossier. |
+| parentId  | Identifiant du dossier dans lequel le dossier doit être créé. |
+| name  | Nom du nouveau dossier. |
 
 {style="table-layout:auto"}
 
@@ -772,10 +772,10 @@ PUT /delete
 
 **Paramètres de requête**
 
-| Nom | Description |
+| Nom  | Description |
 |---|---|
-| documentId | ID du document à supprimer. |
-| folderId | Identifiant du dossier à supprimer. |
+| documentId  | ID du document à supprimer. |
+| folderId  | Identifiant du dossier à supprimer. |
 
 {style="table-layout:auto"}
 
@@ -810,10 +810,10 @@ PUT /rename
 
 **Paramètres de requête**
 
-| Nom | Description |
+| Nom  | Description |
 |---|---|
 | ID | Identifiant du document ou du dossier à renommer. |
-| name | Nouveau nom du document ou du dossier. |
+| name  | Nouveau nom du document ou du dossier. |
 
 {style="table-layout:auto"}
 
@@ -867,22 +867,22 @@ GET /customAction
  <col>
  <thead>
   <tr>
-   <th>Nom</th>
+   <th>Nom </th>
    <th>Description</th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td><p>name</p></td>
+   <td><p>nom</p></td>
    <td><p>Identifiant spécifiant le type d’action à effectuer. Cette valeur correspond à l’une des valeurs customAction répertoriées par le point d’entrée /serviceInfo.</p></td>
   </tr>
   <tr>
-   <td>documentId</td>
+   <td>documentId </td>
    <td>Identifiant du document Workfront pour lequel l’action est effectuée.</td>
   </tr>
   <tr>
-   <td>documentVersionId</td>
-   <td>Identifiant de version du document Workfront pour lequel l'action est en cours d'exécution.</td>
+   <td>documentVersionId </td>
+   <td>Identifiant de la version du document Workfront pour lequel l’action est effectuée.</td>
   </tr>
  </tbody>
 </table>

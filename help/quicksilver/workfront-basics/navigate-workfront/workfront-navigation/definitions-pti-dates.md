@@ -8,8 +8,8 @@ author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 52%
+source-wordcount: '2359'
+ht-degree: 55%
 
 ---
 
@@ -132,9 +132,9 @@ La date d&#39;entrée de l&#39;événement converti est visible dans les listes 
 
 ## Date d’échéance
 
-Date d’échéance d’une tâche ou d’un événement. La date d&#39;échéance d&#39;une tâche ou d&#39;un événement est identique à la date d&#39;achèvement prévue.
+Date d’échéance d’une tâche ou d’un problème. La date d&#39;échéance d&#39;une tâche ou d&#39;un événement est identique à la date d&#39;achèvement prévue.
 
-La date d&#39;échéance de la tâche et de l&#39;événement est visible dans les listes et rapports de tâches et d&#39;événements.
+La date d’échéance d’une tâche ou d’un problème apparaît dans les listes et rapports de tâches et de problèmes.
 
 Pour plus d’informations, reportez-vous à la section [Date d’achèvement prévue](#planned-completion-date) de cet article.
 
@@ -150,7 +150,7 @@ Pour plus d’informations, reportez-vous à la section [Date d’achèvement pr
 
 La [!UICONTROL Date de saisie] est la date à laquelle un projet, une tâche ou un événement a été créé dans [!DNL Workfront].
 
-La [!UICONTROL date d’entrée] n’a pas d’effet sur le calendrier des projets, des tâches ou des problèmes, mais elle est importante pour le suivi et la création de rapports. [!DNL Workfront] génère automatiquement la [!UICONTROL date d’entrée] lors de la création de l’objet et vous ne pouvez pas la modifier manuellement.
+La [!UICONTROL date d’entrée] n’a pas d’effet sur la chronologie des projets, des tâches ou des problèmes, mais elle est importante pour le suivi et la création de rapports. [!DNL Workfront] génère automatiquement la [!UICONTROL date d’entrée] lors de la création de l’objet et vous ne pouvez pas la modifier manuellement.
 
 ![Date de saisie dans les détails de la tâche](assets/entry-date-in-task-details-highlighted-nwe.png)
 
@@ -259,15 +259,15 @@ Pour plus d’informations, consultez les articles suivants :
 
 ## Alignement de date planifié
 
-Il s’agit d’un indicateur automatique que Workfront affecte des projets, des tâches et des événements pour indiquer quand un élément sera terminé par rapport à sa date d’achèvement prévue.
+Il s’agit d’un indicateur automatique que Workfront affecte aux projets, aux tâches et aux problèmes pour indiquer quand un élément sera terminé par rapport à sa date d’achèvement prévue.
 
-Les valeurs suivantes sont des valeurs possibles pour l’indicateur Alignement de date prévu :
+Voici les valeurs possibles de l’indicateur Alignement sur la date prévue :
 
-* Sera terminé à la date d&#39;achèvement prévisionnelle
-* Sera terminé avant la date d&#39;achèvement prévisionnelle
-* Sera terminé après la date d&#39;achèvement prévisionnelle
+* Sera terminé à la date d&#39;achèvement prévue
+* Sera terminé avant la date d&#39;achèvement prévue
+* Sera terminé après la date d&#39;achèvement prévue
 
-L’alignement des dates prévues est visible dans les listes et les rapports des projets, des tâches et des événements.
+L’alignement sur la date prévue apparaît dans les listes et les rapports de projets, de tâches et de problèmes.
 
 ## [!UICONTROL Date de début prévue]
 

@@ -9,7 +9,7 @@ feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '561'
 ht-degree: 90%
 
 ---
@@ -45,7 +45,7 @@ Pour bugdéter les heures de vos ressources pour les projets auxquels vous prév
 
 * Pour les affectations de budget pour un seul projet : utilisez le planificateur de ressources au niveau du projet dans la zone Budget des ressources du business case d’un projet. Pour plus d’informations sur la planification des ressources pour un projet, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Pour gérer les personnes et les organiser en groupes basés sur des compétences communes ou une structure de services, puis gérer leurs affectations pour les projets auxquels elles sont affectées, vous devez créer des groupes de ressources.Pour plus d’informations sur la création de groupes de ressources, voir [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Pour gérer les personnes et les organiser en groupes basés sur des compétences communes ou une structure de services, puis gérer leurs affectations pour les projets auxquels elles sont affectées, vous devez créer des groupes de ressources. Pour plus d’informations sur la création de groupes de ressources, voir [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >

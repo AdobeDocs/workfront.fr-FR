@@ -10,7 +10,7 @@ role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
 source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '849'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,7 @@ Ce guide aborde la configuration d’ADFS sans approvisionnement automatique ni 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Pour activer l’authentification à l’application web Workfront et à l’app
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, cliquez sur **Système** > **Authentification unique (SSO)**.
+1. Dans le panneau de gauche, cliquez sur **Système** > **Authentification unique (SSO)**.
 1. Dans le menu déroulant **Type**, cliquez sur **SAML 2.0** pour afficher des informations et des options supplémentaires.
 1. Copiez l’URL qui s’affiche après **URL de métadonnées**.
 1. Poursuivez vers la section suivante, [Configurer les parties de confiance](#configure-relying-party-trusts).
@@ -78,11 +78,11 @@ Pour activer l’authentification à l’application web Workfront et à l’app
 1. Cliquez avec le bouton droit de la souris sur **Parties de confiance**, puis sélectionnez **Ajouter une partie de confiance** pour lancer l’assistant d’ajout de partie de confiance.
 1. À partir de la **Page d’accueil**, sélectionnez **Démarrer**.
 1. Dans la section **Sélectionner une source de données**, collez l’URL de métadonnées de Workfront.
-1. Cliquez sur **Suivant**.
+1. Cliquez sur **Suivant**.
 1. Cliquez sur **OK** pour confirmer le message d’avertissement.
 1. Dans la section **Spécifier le nom d’affichage**, ajoutez un **Nom d’affichage** et des **Notes** pour pouvoir distinguer la partie de confiance, puis cliquez sur **Suivant**.
 1. Sélectionnez **Autoriser tous les utilisateurs et utilisatrices à accéder à cette partie de confiance** (ou **Aucun** si vous souhaitez configurer cette option ultérieurement).
-1. Cliquez sur **Suivant**.
+1. Cliquez sur **Suivant**.
 
    Vous accédez alors à la section **Partie de confiance prête à être ajoutée**.
 

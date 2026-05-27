@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 4%
+source-wordcount: '1535'
+ht-degree: 6%
 
 ---
 

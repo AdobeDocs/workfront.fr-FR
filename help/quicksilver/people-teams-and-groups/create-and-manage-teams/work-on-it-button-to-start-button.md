@@ -10,12 +10,12 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '780'
 ht-degree: 96%
 
 ---
 
-# Remplacer le bouton [!UICONTROL Travailler sur ce projet] par un bouton [!UICONTROL Démarrer] 
+# Remplacer le bouton [!UICONTROL Travailler sur ce projet] par un bouton [!UICONTROL Démarrer]
 
 La configuration par défaut d’[!DNL Adobe Workfront] comprend un bouton [!UICONTROL Travailler sur ce projet] pour les tâches et les problèmes qui s’affichent pour les éléments qui vous ont été attribués. Lorsque vous cliquez sur [!UICONTROL Travailler sur ce projet] sur les éléments qui vous sont attribués, vous signalez aux autres utilisateurs et utilisatrices que vous avez reçu le travail et que vous vous engagez à travailler dessus. Cependant, le bouton [!DNL Work On It] ne met pas à jour le statut de la tâche ou du problème pour signaler que le travail a réellement commencé.
 

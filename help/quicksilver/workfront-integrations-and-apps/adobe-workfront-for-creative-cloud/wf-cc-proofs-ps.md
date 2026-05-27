@@ -8,7 +8,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '657'
 ht-degree: 83%
 
 ---
@@ -120,7 +120,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
-1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource choisi ci-dessus.
+1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource sélectionné ci-dessus.
 Le document apparaît dans la zone [!UICONTROL Documents], dans le panneau [!DNL Workfront] de [!DNL Photoshop] et dans l’application de bureau [!DNL Workfront].
 
 ## Charger une nouvelle version d’épreuve
@@ -143,5 +143,5 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 1. Choisissez le **[!UICONTROL Type de ressource]** dans le menu déroulant.
-1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource choisi ci-dessus.
+1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource sélectionné ci-dessus.
 Le document apparaît dans la zone [!UICONTROL Documents] dans le panneau [!DNL Workfront] de [!DNL Photoshop] et dans l’application de bureau [!DNL Workfront].

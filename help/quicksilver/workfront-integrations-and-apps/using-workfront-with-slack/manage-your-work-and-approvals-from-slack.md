@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '932'
 ht-degree: 96%
 
 ---
@@ -162,7 +162,7 @@ Avant de pouvoir gérer votre travail et vos approbations à partir de [!DNL Sla
 
 Les approbations font référence aux approbations de documents hérités. Les approbations de documents unifiés ne sont actuellement pas prises en charge dans [!DNL Microsoft Teams]. Pour plus d’informations sur les différents systèmes d’approbation dans Workfront, voir [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
-1. Connectez-vous à votre instance [!DNL Slack], puis à [!DNL Workfront] à partir de [!DNL Slack].\
+1. Connectez-vous à [!DNL Slack], puis à [!DNL Workfront] à partir de [!DNL Slack].\
    Pour plus d’informations sur la connexion à [!DNL Workfront] à partir de [!DNL Slack], consultez la section « Se connecter à [!DNL Workfront] à partir de [!DNL Slack] » sur la page [Accéder à  [!DNL Adobe Workfront]  à partir de  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Choisissez un canal et commencez à saisir l’une des commandes suivantes dans le champ de message :

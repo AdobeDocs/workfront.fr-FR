@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,11 @@ Afin d’améliorer votre expérience lors de l’utilisation de l’équilibreu
 
   Vous pouvez désormais trier par nom d’utilisateur ou d’utilisatrice ou par fonction (dans la zone Travail non affecté) et par champ de projet dans les zones Travail non affecté et Travail affecté.
 
-* En passant la souris sur les tâches ou les problèmes, des informations supplémentaires s’affichent (nom du projet, dates de début et de fin prévues, dépendances, nombre d’heures prévues, noms des tâches parent).
+* En passant la souris sur les tâches ou les problèmes, des informations supplémentaires s’affichent (nom du projet, dates de début et de fin prévues, dépendances, nombre d’heures prévues, noms des tâches parentes).
 
 * Les barres de projet ont été redessinées afin de les distinguer plus facilement des tâches.
 
-* Design actualisé et plus facile à lire pour les dates prévisionnelles
+* Design mis à jour et plus facile à lire pour les dates prévisionnelles
 
 
 Pour plus d’informations, voir [Naviguer dans l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).

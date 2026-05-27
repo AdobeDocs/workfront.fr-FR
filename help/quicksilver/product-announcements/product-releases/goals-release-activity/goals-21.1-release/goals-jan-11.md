@@ -1,20 +1,20 @@
 ---
-title: 'Activité Version Objectifs Adobe Workfront 21.1 : semaine du 11 janvier 2021'
-description: 'Activité Version Objectifs Adobe Workfront 21.1 : semaine du 11 janvier 2021'
+title: Activité de la version 21.1 des Objectifs Adobe Workfront :&nbsp;semaine du 11 janvier 2021
+description: Activité de la version 21.1 des Objectifs Adobe Workfront :&nbsp;semaine du 11 janvier 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
 # Activité Version Objectifs Adobe Workfront 21.1 : semaine du 11 janvier 2021
 
-Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 11 janvier 2021. Ces améliorations seront disponibles dans l’environnement de prévisualisation au cours du premier trimestre de la version 21.1.
+Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 11 janvier 2021. Ces améliorations seront disponibles dans l’environnement de production au cours du premier trimestre de la version 21.1.
 
 Pour consulter la liste de toutes les modifications disponibles pour Objectifs Workfront à ce stade du cycle de publication de la version 21.1, voir [Objectifs Adobe Workfront avec la version 21.1](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 

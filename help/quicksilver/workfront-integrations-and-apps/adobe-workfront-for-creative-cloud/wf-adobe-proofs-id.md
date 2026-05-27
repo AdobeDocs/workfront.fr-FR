@@ -8,7 +8,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
 source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '645'
 ht-degree: 91%
 
 ---
@@ -114,7 +114,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
-1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource sélectionné ci-dessus.
+1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de fichier sélectionné ci-dessus.
 Le document apparaît dans la section [!UICONTROL Documents] du plug-in et de l’application de bureau.
 
 ## Charger une nouvelle version d’épreuve

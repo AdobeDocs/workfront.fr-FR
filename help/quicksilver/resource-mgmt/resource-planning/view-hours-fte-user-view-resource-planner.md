@@ -9,7 +9,7 @@ feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1741'
 ht-degree: 96%
 
 ---
@@ -75,7 +75,7 @@ Reportez-vous aux tableaux suivants pour comprendre les informations affichées 
    <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>l’utilisateur ou de l’utilisatrice</td> 
+   <td>Utilisateur ou utilisatrice</td> 
    <td>Total des heures disponibles ou temps complet de la personne selon son planning. </td> 
   </tr> 
   <tr> 

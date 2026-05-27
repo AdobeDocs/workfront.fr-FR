@@ -8,7 +8,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1014'
 ht-degree: 93%
 
 ---
@@ -116,7 +116,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Nommez le PDF.
 
-   ![Options PDF](assets/pdf-options.png)
+   ![Options &#x200B;](assets/pdf-options.png)
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
@@ -190,7 +190,7 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
 
 1. Cliquez sur **[!UICONTROL Charger]**.
 
-   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
+   Le document apparaît dans la zone [!UICONTROL Documents] du plug-in et de l’application de bureau.
 
    >[!IMPORTANT]
    >
@@ -255,4 +255,4 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
    Options de PDF
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
-   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’appli de bureau.
+   Le document apparaît dans la zone [!UICONTROL Documents] du plug-in et de l’application de bureau.

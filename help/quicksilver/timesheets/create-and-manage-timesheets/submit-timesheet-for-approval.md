@@ -8,8 +8,8 @@ feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 83%
+source-wordcount: '845'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ En soumettant votre feuille de temps à l’approbation de votre supérieur ou s
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +37,7 @@ En soumettant votre feuille de temps à l’approbation de votre supérieur ou s
    <p>Révision ou supérieur </p>
   </tr> 
   <tr> 
-   <td>Configurations du niveau d’accès</td> 
+   <td>Configurations des niveaux d’accès</td> 
    <td> <p>Affichage ou accès supérieur aux tâches et aux problèmes </p> </td> 
   </tr> 
   <tr> 

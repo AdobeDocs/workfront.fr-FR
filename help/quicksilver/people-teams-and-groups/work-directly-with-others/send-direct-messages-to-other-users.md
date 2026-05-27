@@ -9,8 +9,8 @@ feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 45%
+source-wordcount: '565'
+ht-degree: 46%
 
 ---
 
@@ -34,7 +34,7 @@ La personne à laquelle vous envoyez le message reçoit les types de notificatio
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

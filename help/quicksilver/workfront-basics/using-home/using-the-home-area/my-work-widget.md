@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
 source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 11%
+source-wordcount: '725'
+ht-degree: 14%
 
 ---
 
@@ -122,7 +122,7 @@ Vous pouvez utiliser les fonctionnalités de tri et de groupe du widget Mon trav
 
 Vous pouvez trier la liste de travail par
 
-* Date d&#39;échéance
+* Date d’échéance
 Les éléments en retard affichent une icône d&#39;avertissement en regard de la date. Workfront utilise la date d&#39;achèvement prévue pour déterminer si des tâches et des événements sont en retard.
 * Nom
 * Pourcentage d’achèvement
@@ -141,7 +141,7 @@ Vous pouvez regrouper la liste de travail par
 
 * Projet
 * Statut
-* Date d&#39;échéance
+* Date d’échéance
 La date d&#39;échéance est déterminée par la date d&#39;achèvement prévue.
 
 >[!NOTE]

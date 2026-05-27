@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 54%
 
 ---
@@ -170,7 +170,7 @@ Old:
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Choisissez une vue en tableau dans le menu déroulant **Affichage**.

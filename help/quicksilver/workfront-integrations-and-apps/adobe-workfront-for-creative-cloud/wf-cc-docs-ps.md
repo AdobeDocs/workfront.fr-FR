@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 93%
 
 ---
@@ -80,4 +80,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 1. Cliquez sur **[!UICONTROL Charger]**.\
-   Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’appli de bureau.
+   Le document apparaît dans la zone [!UICONTROL Documents] du plug-in et de l’application de bureau.

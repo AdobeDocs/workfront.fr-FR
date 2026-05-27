@@ -9,7 +9,7 @@ feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
 source-git-commit: 2c02db0a08921d1daa16c0a9beef7b40d09565ef
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Fonctionnalités</span>
+                        <p><span class="bold">Fonctionnalité</span>
                         </p>
                     </td>
                     <td>

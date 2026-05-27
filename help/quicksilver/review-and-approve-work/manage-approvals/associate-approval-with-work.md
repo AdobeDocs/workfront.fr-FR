@@ -9,7 +9,7 @@ sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1856'
 ht-degree: 92%
 
 ---
@@ -45,7 +45,7 @@ Pour plus d’informations sur la création d’un processus d’approbation glo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ Pour créer un processus d’approbation à usage unique :
 
 Vous pouvez retirer un processus d’approbation global ou au niveau d’un groupe, ou vous pouvez supprimer un processus d’approbation à usage unique d’un projet, d’une tâche ou d’un problème qui lui était précédemment associé.
 
-Les scénarios suivants existent :
+Les scénarios suivants existent : 
 
 * Le fait de retirer le processus d’approbation au niveau global ou au niveau du groupe ne supprime pas l’approbation. L’autorisation reste disponible pour une utilisation future.
 * La suppression d’un processus d’approbation à usage unique le supprime de Workfront et il ne peut pas être récupéré.
@@ -233,7 +233,7 @@ Pour retirer ou supprimer un processus d’approbation d’un élément de trava
 1. Cliquez sur l’une des icônes suivantes dans le coin supérieur droit de la section Approbations, en fonction du type d’approbation associé à l’élément :
 
    * **Icône Supprimer** Icône ![Supprimer](assets/remove-icon---x-in-circle.png) pour les approbations globales ou au niveau du groupe.
-   * **&#x200B;**&#x200B;Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.
+   * **Icône Supprimer ![Icône Supprimer](assets/delete.png) pour les validations à usage unique.**
 
 1. Cliquez sur **Retirer** ou **Supprimer** pour confirmer.
 

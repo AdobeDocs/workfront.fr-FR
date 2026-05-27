@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
 source-git-commit: f81114b04e688fd615956ec352ac8cc33548ee79
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ La page [!UICONTROL Dossiers du compte] affiche tous les dossiers de votre compt
 
 1. Effectuez l’une des actions suivantes :
 
-   * Déplacez le dossier pour le placer sous un autre dossier parent.\
+   * Déplacez le dossier vers un autre dossier parent.\
 
      Déplacez le dossier au niveau supérieur en cliquant sur **[!UICONTROL Aucun dossier sélectionné]** dans le menu déroulant.
 

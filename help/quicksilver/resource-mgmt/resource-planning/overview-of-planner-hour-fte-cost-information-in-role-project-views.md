@@ -2,14 +2,14 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Présentation des informations sur les heures, l’éditeur de texte enrichi et les coûts dans les vues Projet et Rôle du planificateur de ressources
+title: Présentation des informations sur les heures, les équivalents temps plein et les coûts dans les vues Projet et Rôle du planificateur de ressources
 description: Vue d’ensemble des heures, des équivalents temps complet et des informations sur les coûts dans les vues Projet et Rôle du planificateur de ressources
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3089'
 ht-degree: 94%
 
 ---
@@ -40,7 +40,7 @@ Tenez compte des éléments suivants lors de la budgétisation des ressources à
   >
   >Vous pouvez budgétiser vos ressources pour une période de 15 ans. Si vous budgétisez des ressources pour un projet d’une durée supérieure à 15 ans, les informations budgétaires risquent de ne pas être exactes.
 
-* Vous pouvez budgétiser les heures, les équivalents temps complet ou les coûts de vos ressources pour n’importe quelle période affichée dans le planificateur de ressources, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources peuvent ne pas être disponibles pendant la durée du projet (où elles sont associées à un nombre d’heures prévues), mais qu’elles peuvent être disponibles à un autre moment, vous pouvez le faire en les budgétisant pour des périodes où le nombre d’heures prévues est zéro, si c’est à ce moment-là qu’elles deviennent disponibles pour le travail. Vous pouvez ensuite modifier manuellement la chronologie du projet pour qu’il corresponde à la disponibilité des ressources.
+* Vous pouvez budgétiser les heures, les équivalents temps complet ou les coûts de vos ressources pour n’importe quelle période affichée dans le planificateur de ressources, indépendamment de la chronologie du projet. Par exemple, si vous souhaitez indiquer que vos ressources peuvent ne pas être disponibles pendant la chronologie du projet (où elles sont associées à un nombre d’heures prévues), mais qu’elles peuvent être disponibles à un autre moment, vous pouvez le faire en les budgétisant pour des périodes où le nombre d’heures prévues est zéro, si c’est à ce moment-là qu’elles deviennent disponibles pour le travail. Vous pouvez ensuite modifier manuellement la chronologie du projet pour qu’il corresponde à la disponibilité des ressources.
 
   >[!NOTE]
   >
@@ -96,7 +96,7 @@ Les tableaux suivants présentent les informations d’allocation et de disponib
 * [La colonne VAR (Variance)](#the-var-variance-column)
 * [La colonne NET](#the-net-column)
 
-### La colonne AVL (Disponible) {#the-avl-available-column}
+### Colonne AVL (Disponible) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,7 +190,7 @@ Tenez compte des points suivants lors de l’affichage du nombre d’heures pré
 * Le nombre d’heures prévues ne s’affiche pas dans le planificateur de ressources si la durée de la tâche est nulle.
 * Le nombre d’heures prévues associé aux utilisateurs et utilisatrices désactivés ne s’affiche pas.
 
-### La colonne BDG (Budget) {#the-bdg-budgeted-column}
+### La colonne BDG (Budgété) {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -240,11 +240,11 @@ Tenez compte des éléments suivants lorsque vous utilisez des heures budgétée
 
 * Les heures précédemment budgétées pour les utilisateurs et les utilisatrices dont la désactivation a eu lieu par la suite ne s’affichent pas.
 
-  Notez que le coût de la main-d’oeuvre budgétisée d’un projet inclut toujours les heures budgétisées pour les utilisateurs qui ont été désactivés dans le planificateur de ressources.
+  Notez que le coût budgété de la main-d’œuvre d’un projet inclut toujours les heures budgétées pour les utilisateurs qui ont été désactivés dans le planificateur de ressources.
 
-  Par exemple : si un rôle est affecté à deux utilisateurs et que des heures sont ajoutées au budget (20 heures par utilisateur, soit 40 heures), puis que le total est défini manuellement pour le rôle, la désactivation de l’un des utilisateurs dans le planificateur de ressources empêche que leurs heures ne soient prises en compte dans le calcul (en réduisant le total à 20 heures). Cependant, le budget du projet conserve correctement le total manuellement défini pour le rôle. Les heures de l’utilisateur désactivé sont donc toujours incluses dans le calcul (40 heures restantes).
+  Par exemple : si un rôle est affecté à deux utilisateurs et que des heures budgétées sont ajoutées (20 heures par utilisateur, totalisant 40 heures), puis que le total est défini manuellement pour le rôle, la désactivation de l’un des utilisateurs dans le Planificateur de ressources entraîne la fin de la prise en compte de leurs heures dans le calcul (le total passe à 20 heures). Cependant, la budgétisation du projet conserve correctement le total défini manuellement pour le rôle, de sorte que les heures de l’utilisateur désactivé sont toujours incluses dans le calcul (restant à 40 heures).
 
-### Colonne VAR (variance) {#the-var-variance-column}
+### La colonne VAR (Variance) {#the-var-variance-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -331,7 +331,7 @@ Cette option n’est appliquée que lorsque vous personnalisez l’affichage dan
 
 >[!NOTE]
 >
->Lorsque les heures NETTES, ETR ou Coût s&#39;affichent en rouge, il n&#39;y a pas assez de temps ou de budget disponible pour couvrir le budget ou l&#39;heure planifiée ou le coût associé au travail. Dans ce cas, les ressources font l’objet d’une affectation trop importante.
+>Lorsque les heures nettes, l&#39;équivalent temps complet ou le coût s&#39;affichent en rouge, le temps disponible ou le budget est insuffisant pour couvrir le temps ou le coût budgété ou prévu associé au travail. Dans ce cas, les ressources font l’objet d’une affectation trop importante.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

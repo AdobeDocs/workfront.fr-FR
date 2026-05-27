@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: announcements
 title: Nouvelles adresses IP pour les e-mails Adobe Workfront avec la version 21.1
-description: Afin d’améliorer la diffusion des e-mails, nous ajoutons de nouvelles adresses IP avec la version de production 21.1 pour les clusters répertoriés ci-dessous. Pour savoir sur quel cluster se trouve votre instance, accédez à Configuration > Système > Infos client.
+description: Afin d’améliorer la diffusion des e-mails, nous ajoutons de nouvelles adresses IP avec la version de production 21.1 pour les clusters répertoriés ci-dessous. Pour savoir sur quel cluster se trouve votre instance, accédez à Configuration > System > Customer Info.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 92%
 
 ---
 

@@ -8,8 +8,8 @@ feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
 source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 73%
+source-wordcount: '675'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez partager l’équilibreur de charge de travail avec d’autres utili
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 
@@ -70,7 +70,7 @@ Lorsque vous partagez un lien vers l’équilibreur de charge de travail avec d�
 
 * Le nombre de semaines précédemment sélectionnées.
 
-Les options suivantes sont disponibles pour l’utilisateur ou utilisatrice qui consulte l’équilibreur de charge de travail à partir d’un lien partagé afin de les tenir informés :
+Les options suivantes sont disponibles pour l’utilisateur ou l’utilisatrice qui consulte l’équilibreur de charge de travail à partir d’un lien partagé afin de les tenir informés :
 
 * Les sélections de chronologie suivantes :
 
