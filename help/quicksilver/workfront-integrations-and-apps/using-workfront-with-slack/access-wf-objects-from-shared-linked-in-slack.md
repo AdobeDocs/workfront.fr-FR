@@ -72,7 +72,7 @@ Avant de pouvoir accéder à vos favoris et à vos éléments récents à partir
 
    * **[!UICONTROL Date d’achèvement prévue]** : pour plus d’informations sur la date d’achèvement prévue, voir [Définir la date d’achèvement prévue du projet](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * **** Nom : pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie des portefeuilles](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **&#x200B;**&#x200B;Nom : pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie des portefeuilles](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]** : pour plus d’informations sur la condition du projet, voir [Vue d’ensemble de la condition du projet et du type de condition](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
