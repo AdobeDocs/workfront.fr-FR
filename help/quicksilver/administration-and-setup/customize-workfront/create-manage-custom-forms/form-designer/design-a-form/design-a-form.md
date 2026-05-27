@@ -736,12 +736,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
-      {
-       data : {
+      &lbrace;
+       data : &lbrace;
          { name : « USA »},
          { name : « Canada »}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
