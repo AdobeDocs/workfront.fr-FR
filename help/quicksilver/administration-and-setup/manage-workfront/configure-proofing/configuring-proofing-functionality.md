@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;documents;setup
 navigation-topic: manage-workfront
-title: Configuration de la fonctionnalité de vérification
+title: Configurer la fonctionnalité de relecture
 description: Vous pouvez configurer les paramètres de relecture de votre organisation.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents

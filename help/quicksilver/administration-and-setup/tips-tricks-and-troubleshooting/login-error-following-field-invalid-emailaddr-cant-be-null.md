@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Erreur de connexion : les champs suivants ne sont pas valides : emailAddr ne peut pas être nul"
+title: 'Erreur de connexion : les champs suivants ne sont pas valides : emailAddr ne peut pas être nul.'
 description: Lorsque je tente de me connecter à  [!DNL Adobe Workfront]  avec l’URL de mon domaine, je fais l’objet d’une redirection vers le portail de connexion SAML, puis vers  [!DNL Workfront]  avec une erreur indiquant que le champ emailAddr ne peut pas être nul.
 author: Lisa
 feature: System Setup and Administration
@@ -11,8 +11,8 @@ role: Admin
 exl-id: 15b702cf-61b8-41dc-8253-77cadc69bd80
 source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 92%
+source-wordcount: '146'
+ht-degree: 100%
 
 ---
 

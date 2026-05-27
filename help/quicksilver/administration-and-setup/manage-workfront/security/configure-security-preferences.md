@@ -10,14 +10,16 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 72%
+source-wordcount: '863'
+ht-degree: 65%
 
 ---
 
 # Configurer les préférences système
+
+{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -127,7 +129,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td role="rowheader">Activer la liste de travail Priorités </td> 
       <td>Permet de choisir d’activer ou de désactiver l’expérience de la liste de travail Priorités pour vos utilisateurs. Les utilisateurs verront toujours les icônes Priorités dans Workfront, mais ils n’auront pas accès à la fonctionnalité. Pour plus d'informations sur les priorités, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Prise en main des priorités</a>.</td> 
      </tr>
-      <tr> 
+     <tr>
+      <td><span class="preview">Toujours appliquer les champs obligatoires en mode de modification en masse</span></td>
+      <td><span class="preview"><p>Permet de choisir de forcer les utilisateurs à saisir des informations dans les champs requis lors de la modification en bloc d’objets.</p> <p>Lorsque cette option est sélectionnée, les champs obligatoires doivent avoir des valeurs avant d’être enregistrés en mode de modification en bloc. Si une valeur est manquante dans le champ obligatoire pour au moins un objet sélectionné en bloc, l’enregistrement n’est pas autorisé.</p> <p>Lorsque cette option n’est pas sélectionnée, les champs obligatoires ne sont appliqués que lorsqu’un utilisateur modifie le champ. Si un champ n’est pas modifié, il est traité comme facultatif et non validé.</p></span></td>
+     </tr>
+     <tr> 
       <td role="rowheader">Activer le stockage dans le cloud d’Adobe </td> 
       <td>Permet de choisir d’activer ou de désactiver l’espace de stockage dans le cloud Adobe pour l’ensemble de l’organisation ou pour des groupes spécifiques. Pour plus d’informations sur l’espace de stockage dans le cloud d’Adobe, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Activer l’espace de stockage dans le cloud Adobe pour votre organisation</a>.</td> 
      </tr>
@@ -141,7 +147,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr>
      <tr> 
       <td role="rowheader">Participer aux programmes bêta de l’IA </td> 
-      <td>&gt;Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
+      <td>Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Environnements de test</td> 

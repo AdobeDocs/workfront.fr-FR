@@ -11,8 +11,8 @@ role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 89%
+source-wordcount: '980'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ L’export de données par le biais des Kickstarts permet également de comprend
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -123,22 +123,22 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
      <tr> 
       <td scope="col" valign="top"> <p>Tableau de bord</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Section Onglet de portail<br>Tableau de bord<br>Préférences</p> </td> 
-      <td scope="col" valign="top">ZIP</td> 
+      <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Rapport<br>Préférences</td> 
-      <td scope="col" valign="top">ZIP </td> 
+      <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Approbation</p> </td> 
       <td scope="col" valign="top"> <p>Personne approbatrice d’étape<br>Étape d’approbation<br>Approbation<br>Processus d’approbation<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Données personnalisées</p> </td> 
       <td scope="col" valign="top"> <p>Paramètre<br>Option de paramètre<br>Groupe de paramètres<br>Paramètre de catégorie<br>Catégorie<br>Préférences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Type de frais</p> </td> 
@@ -153,12 +153,12 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
      <tr> 
       <td valign="top"> <p>Equipe</p> </td> 
       <td valign="top"> Personnes membre de l’équipe<br>Équipe<br>Préférences </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>l’utilisateur ou de l’utilisatrice</p> </td> 
       <td valign="top"> <p>Utilisateur ou utilisatrice<br>Préférences</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -210,7 +210,7 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
      <tr> 
       <td scope="col" valign="top">Frais</td> 
       <td valign="top"> Dépense<br>Préférences </td> 
-      <td scope="col" valign="top">Excel</td> 
+      <td scope="col" valign="top"> Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Page externe</td> 
@@ -228,7 +228,7 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">Regroupement </td> 
+      <td valign="top">Regroupement</td> 
       <td valign="top"> Regroupement<br>Préférences </td> 
       <td valign="top">ZIP</td> 
      </tr> 
@@ -259,7 +259,7 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
      </tr> 
      <tr> 
       <td valign="top">Portfolio</td> 
-      <td valign="top"> Portfolio<br>Préférences </td> 
+      <td valign="top"> Portfolio<br>Préférences  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -333,7 +333,7 @@ Les restrictions suivantes s’appliquent lors de l’export de données par le 
 
    Il n’est pas possible d’exporter les rapports de matrice. Pour plus d’informations sur les rapports de matrice, voir la section [Créer un rapport de matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kick-Starts ne prend pas en charge les filtres ou les regroupements en mode texte. Pour une exportation réussie, les filtres et les regroupements de rapports doivent passer en mode standard.
+   Kickstart ne prend pas en charge les filtres en mode texte ou les regroupements. Pour effectuer un export, les filtres de création de rapports doivent être définis en mode standard.
 
    Vous pouvez sélectionner jusqu’à 100 tableaux de bord et 100 rapports dans une seule exportation.
 
