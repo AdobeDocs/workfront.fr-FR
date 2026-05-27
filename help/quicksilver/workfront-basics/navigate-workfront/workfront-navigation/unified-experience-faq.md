@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 86%
+source-wordcount: '1426'
+ht-degree: 88%
 
 ---
 
@@ -63,11 +63,11 @@ Pour plus d’informations sur l’[!DNL Admin Console], passez en revue ces art
 
 * [Préparation pour  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [Différences d’administration basées sur les plateformes ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* Vue d’ensemble d’[[!DNL Adobe Admin Console] &#x200B;](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
+* [Vue d’ensemble du [!DNL Adobe Admin Console]](https://helpx.adobe.com/fr/enterprise/using/admin-console.html)
 
 ### En tant que client ou cliente, que dois-je faire pour faciliter la migration ?
 
-Les clients et clientes existants seront contactés pour planifier les migrations. Les collègues de l’équipe de migration guideront les clients tout au long du processus, leur donneront des conseils sur la configuration de [!DNL Admin Console] et leur fourniront les liens vers la documentation nécessaire pour rendre leur migration aussi simple et facile que possible. Pour plus d’informations, consultez les [[!DNL Adobe Business Platform] et [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/workfront/faq) .
+Les clients et clientes existants seront contactés pour planifier les migrations. Les collègues de l’équipe d’assistance à la migration vont guider les clients et clientes tout au long du processus, les conseiller sur la configuration d’[!DNL Admin Console] et fournir des liens vers la documentation nécessaire pour que la migration soit aussi simple et facile que possible. Pour plus d’informations, consultez les [[!DNL Adobe Business Platform] et [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/workfront/faq) .
 
 ### Comment gérez-vous [!DNL Adobe Admin Console] pour les entreprises qui l’ont déjà activé pour les ID fédérés différemment de la configuration SSO [!DNL Workfront] ?
 

@@ -306,7 +306,7 @@ Emplacement :
 
 ## Correctifs courants
 
-| Problème | Correctif |
+| Problème | Corriger |
 |-------|-----|
 | « Nous sommes ravis de vous présenter... » | Supprimer le langage marketing — Déclarez directement la fonction |
 | « La configuration de X a été mise à jour » | « Vous pouvez maintenant configurer X » (actif, orienté tâche) |

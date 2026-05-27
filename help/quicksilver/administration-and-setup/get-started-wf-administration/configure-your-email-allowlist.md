@@ -10,14 +10,14 @@ role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
 source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '403'
 ht-degree: 94%
 
 ---
 
 # Configurer votre liste autorisée d’e-mails
 
-Si votre entreprise utilise le plan d’entreprise Workfront, vous pouvez créer un e-mail Workfront placer sur la liste autorisée afin de contrôler :
+Si votre entreprise utilise le plan d’entreprise Workfront, vous pouvez créer un e-mail Workfront afin de contrôler :
 
 * Les domaines d’e-mails autorisés à accepter les e-mails de Workfront.
 * Les domaines d’e-mails pouvant se trouver dans l’adresse e-mail que les utilisateurs et les utilisatrices spécifient dans leur profil.
@@ -31,7 +31,7 @@ Cela s’avère utile si la politique de sécurité de votre entreprise empêche
 >Tous les e-mails provenant de Workfront sont envoyés à partir de cette adresse afin d’augmenter le succès de la diffusion des e-mails et d’éliminer les usurpations des e-mails. Cela inclut les alertes automatisées et la communication entre utilisateurs et utilisatrices.
 >
 >Par exemple, la ligne De dans un e-mail Workfront que vous recevez d’une utilisatrice nommée Joan Harris ressemblerait à ceci :
->&#x200B;>`Joan Harris <notifications@my.workfront.com>`
+>`Joan Harris <notifications@my.workfront.com>`
 
 Pour plus d’informations sur la configuration du pare-feu de votre entreprise pour ouvrir la communication entre votre environnement et les serveurs Adobe Workfront, consultez [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

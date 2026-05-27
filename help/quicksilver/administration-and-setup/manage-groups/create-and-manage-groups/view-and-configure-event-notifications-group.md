@@ -11,8 +11,8 @@ role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 83%
+source-wordcount: '533'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur le paramètre de notification par défaut d’un 
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur le nom du groupe de niveau supérieur.
 1. Dans le menu de gauche, cliquez sur **Notifications d’événement**.
 
-   Dans la liste qui s’affiche, la colonne **Actif** de gauche indique les notifications actives (bleu) et inactives (gris) pour le groupe.
+   Dans la liste qui s’affiche, la colonne **Actif** de gauche indique les notifications actives (en bleu) et inactives (en gris) pour le groupe.
 
 1. Pour activer ou désactiver une notification d’événement déverrouillée, cliquez sur le bouton dans la colonne <strong>Actif</strong> pour l’activer <img src="assets/email-notification-enabled-unlocked.png"> ou la désactiver <img src="assets/email-notification-disabled-unlocked.png">.
 

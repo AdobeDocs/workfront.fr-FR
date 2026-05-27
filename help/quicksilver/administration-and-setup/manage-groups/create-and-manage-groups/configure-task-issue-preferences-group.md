@@ -13,8 +13,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 85%
+source-wordcount: '2177'
+ht-degree: 84%
 
 ---
 
@@ -177,7 +177,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
         <p>Tenez compte des points suivants :</p> 
         <ul> 
          <li> <p>Lorsqu’elle est sélectionnée, vous recevez un avertissement informatif quand vous supprimez une tâche ou un problème. L’avertissement vous rappelle que si la tâche ou le problème comporte des heures enregistrées, elles seront déplacées vers le projet ou supprimées. Vous pouvez définir si les heures sont supprimées ou déplacées vers le projet dans la zone Préférences de feuilles de temps et d’heures de la configuration. Une fois que vous confirmez avoir pris connaissance de l’avertissement, la tâche ou le problème est supprimé. Pour plus d’informations sur la configuration des préférences de feuilles de temps et d’heures, voir <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurer les préférences de feuilles de temps et d’heures</a>. </p> <p>Conseil : <span>lorsque vous supprimez un projet comportant des tâches et des problèmes ayant des heures enregistrées, les heures enregistrées sont supprimées ou conservées en fonction des paramètres de la zone Préférences de feuilles de temps et d’heures de la configuration</span>. </p> </li> 
-         <li><span>Lorsque vous désactivez cette option, vous recevez un avertissement d’interdiction lorsque vous supprimez une tâche ou un problème avec des heures enregistrées, ou lorsque vous supprimez un projet avec des heures enregistrées pour ses tâches ou problèmes</span><span>.</span> L’avertissement indique que l’administrateur ou l’administratrice n’autorise pas la suppression de tâches ou de problèmes avec des heures enregistrées. Les tâches, problèmes<span> ou projets avec des heures enregistrées pour des tâches et des problèmes</span> ne peuvent pas être supprimés. </li> 
+         <li><span>Lorsque vous désélectionnez cette option, vous recevez un avertissement prohibitif lorsque vous supprimez une tâche ou un problème avec des heures consignées, ou lorsque vous supprimez un projet avec des heures consignées pour ses tâches ou problèmes</span> <span>.</span> L’avertissement spécifie que l’équipe d’administration n’autorise pas la suppression des tâches ou des problèmes pour lesquels des heures ont été consignées. Les tâches, problèmes<span> ou projets avec des heures enregistrées pour des tâches et des problèmes</span> ne peuvent pas être supprimés. </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -292,7 +292,7 @@ Pour plus d’informations sur la délégation de tâches, consultez les article
       <td role="rowheader">Lorsqu’une personne est affectée à un problème</td> 
       <td> 
        <ul> 
-        <li><strong>Lui donner ... l’accès à une tâche</strong> : définit l’autorisation par défaut dont dispose une personne sur la tâche à laquelle elle est affectée. Pour plus d’informations sur les autorisations de tâche, voir <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</li> 
+        <li><strong>Lui donner ... l’accès à une tâche</strong> : définit l’autorisation par défaut dont dispose une personne sur la tâche à laquelle elle est affectée. Pour plus d’informations sur les autorisations de tâches, consultez <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Accorder l’accès aux utilisateurs et utilisatrices</a>.</li> 
         <li> <p><strong>Lui accorder également ... l’accès au projet</strong> : définit l’autorisation par défaut dont dispose une personne sur le projet auquel une tâche lui est affectée. Pour plus d’informations sur les autorisations de projet, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences de projet à l’échelle du système</a>.</p> </li> 
        </ul> </td> 
      </tr> 

@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
 source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 67%
+source-wordcount: '488'
+ht-degree: 71%
 
 ---
 
@@ -43,7 +43,7 @@ Les e-mails de notification d’événement peuvent être configurés aux niveau
   >
   >Les notifications au niveau des personnes comprennent également les notifications [!DNL Workfront Goals]. Cependant, l’administrateur ou l’administratrice [!DNL Workfront] ou de groupes ne peut pas configurer de notifications pour [!DNL Workfront Goals]. Chaque personne doit configurer ses propres notifications [!DNL Workfront Goals] dans son profil. Si vous avez accès à la modification d’utilisateurs et d’utilisatrices, vous pouvez également modifier ces notifications pour d’autres personnes. Pour activer les notifications [!DNL Workfront Goals] pour votre profil ou pour d’autres personnes que vous avez le droit de modifier, voir [Notifications : objectifs](../../workfront-basics/using-notifications/notifications-goals.md).
 
-  Pour plus d’informations sur les notifications que l’administrateur [!DNL Workfront] peut configurer, voir [Configurer des notifications d’événement pour tous les utilisateurs du système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Pour plus d’informations sur les notifications que l’administrateur ou l’administratrice [!DNL Workfront] peut configurer, consultez l’article [Configurer les notifications d’événements pour toutes les personnes dans le système](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Contenu de la notification d’événement
 

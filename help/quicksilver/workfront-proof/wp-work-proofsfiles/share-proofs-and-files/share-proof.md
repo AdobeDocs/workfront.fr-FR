@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Si vous disposez de droits d’édition sur une épreuve, vous pouvez facilement la partager avec les autres personnes chargées de sa révision. Il n’est pas nécessaire d’avoir un compte [!DNL Workfront Proof] pour réviser des épreuves, ainsi n’importe quelle personne peut être ajoutée à une épreuve.
 

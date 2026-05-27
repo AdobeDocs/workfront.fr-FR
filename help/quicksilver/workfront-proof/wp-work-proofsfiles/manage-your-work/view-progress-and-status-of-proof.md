@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 100%
+source-wordcount: '1139'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Comprendre la progression de la relecture
 
@@ -138,7 +138,7 @@ Dans le résumé, vous pouvez afficher et modifier les détails suivants de votr
 
    * Nombre de commentaires et de réponses de chaque réviseur et réviseuse (4)
    * Progression de chaque réviseur et réviseuse (5)
-   * Décision (si une décision a inclus des signatures électroniques, une icône indiquant cette information s’affiche en regard de la décision.) (6)
+   * Décision (si une décision a inclus des signatures électroniques, une icône s’affiche en regard de la décision l’indiquant.) (6)
    * Rôle sur l’épreuve (7)
    * Paramètres des alertes par e-mail (8)
 

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configuration des paramètres par défaut de notification électronique de BAT
+title: Configurer Les Paramètres Par Défaut Des Notifications Par E-Mail Relatives Aux Épreuves
 description: Les utilisateurs et utilisatrices de relecture dans Adobe Workfront peuvent recevoir des notifications par e-mail de Workfront et de Workfront Proof en cas de commentaires ou de décisions en lien avec une épreuve. Si les utilisateurs et les utilisatrices reçoivent déjà des notifications par e-mail de la part de Workfront Proof, nous vous recommandons de désactiver les notifications envoyées à partir de Workfront pour éviter les notifications par e-mail en double.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents

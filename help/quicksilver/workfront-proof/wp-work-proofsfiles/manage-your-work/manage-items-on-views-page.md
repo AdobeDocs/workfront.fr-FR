@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '1544'
+ht-degree: 98%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 100%
 
 La page [!UICONTROL Vues] vous permet de voir tous vos fichiers, épreuves et dossiers, et de travailler sur ceux-ci dans un même endroit.
 
-## Afficher la page [!UICONTROL Vues] 
+## Afficher la page [!UICONTROL Vues]
 
 1. Cliquez sur **[!UICONTROL Vues]** dans la barre latérale gauche.
 1. Dans le menu déroulant (2), cliquez sur la vue (3) que vous souhaitez consulter.
 
 ![Views.png](assets/views-350x297.png)
 
-## Modifier la disposition de la page [!UICONTROL Vues] 
+## Modifier la disposition de la page [!UICONTROL Vues]
 
 La disposition par défaut de la page [!UICONTROL Vues] est une liste de miniatures. Dans cette disposition, vous pouvez voir une image miniature de chaque épreuve, fichier (s’il est possible de la générer) et dossier (si définie), les autres détails étant inclus dans des colonnes séparées.
 
@@ -104,7 +104,7 @@ Pour afficher la liste dans un ordre de tri différent :
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur l’un des en-têtes de colonne de la liste : Type, Nom, Statut, Décisions ou Personne propriétaire.\
+   * Cliquez sur l&#39;un des en-têtes de colonne de la liste : Type, Nom, Statut, Décisions ou Propriétaire.
 
      Par exemple, si vous souhaitez voir les épreuves/fichiers par ordre alphabétique, cliquez une fois sur l’en-tête Nom (1) pour trier la liste par nom dans l’ordre croissant (A - Z).\
       Vous pouvez cliquer à nouveau sur l’en-tête Nom de l’épreuve (2) pour inverser l’ordre et afficher les épreuves dans l’ordre décroissant (Z - A).
@@ -139,7 +139,7 @@ Pour obtenir des informations plus détaillées sur une épreuve :
 1. (Facultatif) Cliquez sur le menu **[!UICONTROL Plus]** (trois points) à droite du nom d’un réviseur ou d’une réviseuse pour effectuer l’une des opérations suivantes :
 
    * Envoyez un message de rappel au réviseur ou à la réviseuse.
-   * Modifiez les paramètres du réviseur ou de la réviseuse sur l’épreuve.\
+   * Modifiez les paramètres du réviseur sur l’épreuve.\
 
      Dans la boîte de dialogue Modifier le réviseur ou la réviseuse qui s’affiche, vous pouvez non seulement modifier le rôle et les alertes par e-mail, mais également le nom d’affichage du réviseur ou de la réviseuse. Notez que le nom d’affichage ne peut être modifié que dans l’épreuve en question, et non dans les détails du réviseur ou de la réviseuse dans la page Contacts. Pour plus d’informations, voir [Contacts](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
 

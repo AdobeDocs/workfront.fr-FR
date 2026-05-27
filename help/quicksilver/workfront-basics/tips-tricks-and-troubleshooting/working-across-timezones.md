@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1253'
 ht-degree: 70%
 
 ---
@@ -125,7 +125,7 @@ Les administrateurs et administratrices de [!DNL Workfront] créent des planning
 
 >[!BEGINSHADEBOX]
 
-**EXEMPLE:**
+**EXEMPLE :**
 Un utilisateur EST est affecté à une tâche d&#39;un jour prévue pour commencer à 9:00h PST, qui est midi EST. Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
 
 

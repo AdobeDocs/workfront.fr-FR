@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configuration des paramètres de BAT pour votre organisation
+title: Configurer les paramètres d’épreuve pour votre organisation
 description: En tant qu’administrateur ou administratrice Adobe Workfront ou Workfront Proof, vous pouvez personnaliser les paramètres des épreuves par défaut pour votre organisation. Ces paramètres comprennent les options de partage par défaut, l’image de marque, etc.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -10,7 +10,7 @@ role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1245'
 ht-degree: 99%
 
 ---

@@ -46,7 +46,7 @@ Les utilisateurs se voient accorder les autorisations de création, de modificat
  </tbody> 
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez l’article [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +77,7 @@ Pour attribuer un profil :
 1. Dans la fenêtre contextuelle, sélectionnez **&#x200B;**&#x200B;dans la liste de produits, puis cliquez sur **Appliquer**.
 1. Sélectionnez le profil **Éditeurs Adobe GenStudio Foundation**.
 1. Cliquez sur **Appliquer**.
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
 ### Étape 3 : ajouter des utilisateurs au groupe d’utilisateurs
 
@@ -123,7 +123,7 @@ Ajoutez le groupe d’utilisateurs au projet Marques afin qu’ils puissent acc�
 
 Les utilisateurs du groupe disposent désormais des autorisations nécessaires pour créer, modifier et publier des ressources de marque dans Workfront.
 
-## &#x200B;2. Accorder l’accès à Marques dans les niveaux d’accès Workfront
+## &#x200B;2. Octroi de l’accès aux marques dans les niveaux d’accès Workfront
 
 Vous devez suivre toutes les étapes de la section précédente avant d’accorder l’accès à des utilisateurs individuels pour les niveaux d’accès Marques dans Workfront .
 

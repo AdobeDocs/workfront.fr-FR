@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez facilement suivre la progression de vos épreuves de workflow automatisé dans la section Workflow de la page [!UICONTROL Détails de l’épreuve]. Vous pouvez visualiser le travail réalisé à chaque étape et modifier, ajouter, démarrer et verrouiller les étapes sur votre épreuve.
 
@@ -83,7 +83,7 @@ Les étapes du diagramme sont marquées comme suit :
 
 ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) - étape verrouillée
 
-Les lignes entre les étapes représentent les dépendances entre elles. Les lignes menant aux étapes inactives sont pointillées jusqu’à ce que l’étape soit activée.
+Les lignes entre les étapes représentent les dépendances entre elles. Les lignes menant aux étapes inactives sont en pointillés jusqu’à ce que l’étape soit activée.
 
 Pointez sur une étape du diagramme pour connaître sa progression. Si l’étape n’est pas active et que vous disposez des droits de modification sur l’étape, vous pouvez démarrer l’étape à partir de la fenêtre pop-up à l’aide du bouton [!UICONTROL Démarrer l’étape]. De même, l’option Verrouiller une étape active s’affiche.
 

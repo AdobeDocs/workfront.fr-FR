@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 53%
+source-wordcount: '1895'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 53%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 [!DNL Workfront Proof] vous permet de créer des épreuves à partir de documents ou de sites web et de les partager avec d’autres personnes. Les étapes suivantes décrivent les différentes options de configuration disponibles :
 
