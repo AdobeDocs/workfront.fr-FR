@@ -29,7 +29,7 @@ Vous pouvez créer un compte lors de l’affichage de toute ressource partagée 
 
 1. Renseignez la section **Mot de passe**.
 
-   Pour plus d’informations, voir [ Mot de passe ](#password).
+   Pour plus d’informations, voir [&#x200B; Mot de passe &#x200B;](#password).
 
 1. (Facultatif) Renseignez la section **Profil**.
 
