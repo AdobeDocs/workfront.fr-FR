@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 92%
+source-wordcount: '7342'
+ht-degree: 91%
 
 ---
 
@@ -65,29 +65,29 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
    ![Choisir les types d’objets](assets/new-custom-form-select-objects-032526.png)
 
-+++ Développez pour afficher la liste des objets qui prennent en charge les formulaires personnalisés.
+   +++ Développez pour afficher la liste des objets qui prennent en charge les formulaires personnalisés.
 
-* Projet
-* Tâche
-* Problème/Demande
-* Portfolio
-* Document
-* Programme
-* Frais
-* l’utilisateur ou de l’utilisatrice
-* Entreprise
-* Itération
-* Enregistrement de facturation
-* Groupe
-* Equipe
+   * Projet
+   * Tâche
+   * Problème/Demande
+   * Portfolio
+   * Document
+   * Programme
+   * Frais
+   * l’utilisateur ou de l’utilisatrice
+   * Entreprise
+   * Itération
+   * Enregistrement de facturation
+   * Groupe
+   * Equipe
 
-Si vous vous trouvez dans le package Workflow Ultimate, vous pouvez également créer des formulaires personnalisés pour ces objets :
+   Si vous vous trouvez dans le package Workflow Ultimate, vous pouvez également créer des formulaires personnalisés pour ces objets :
 
-* Fonction
-* Carte tarifaire
-* Affectation
+   * Fonction
+   * Carte tarifaire
+   * Affectation
 
-+++
+   +++
 
 1. Dans la zone **Ajouter un nom de formulaire**, saisissez le titre personnalisé du formulaire.
 1. (Facultatif) Si vous souhaitez ajouter d’autres types d’objets au formulaire afin qu’il puisse être joint à d’autres objets, cliquez sur **Types d’objets** dans l’en-tête du concepteur de formulaire. Sélectionnez les types d’objet à ajouter et désélectionnez tous les types d’objet à supprimer du formulaire.
@@ -155,8 +155,8 @@ Chaque nom de champ personnalisé doit être unique dans l’instance Workfront 
 
 >[!NOTE]
 >
->Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom une fois que vous ou d’autres utilisateurs ou utilisatrices aurez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
->Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ensuite son nom, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement, à moins que vous ne le rajoutiez au rapport en utilisant le nouveau nom.
+>Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé, qui peut désormais être référencé dans d’autres zones de Workfront.
+>Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez son nom par la suite, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à ce moment-là, sauf si vous le rajoutez au rapport avec le nouveau nom.
 >
 >Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.
 >
@@ -237,7 +237,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <tr>
     <td>Étiquette</td>
     <td><p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.<p>
-    <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p></td>
+    <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés des champs</a>.</p></td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
@@ -248,7 +248,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <tr>
      <td>Nom</td>
     <td><p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
-    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p>
+    <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés des champs</a>.</p>
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
@@ -260,7 +260,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.
+    <td>Saisissez des informations supplémentaires sur le champ. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -393,7 +393,7 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </tr>
     <tr> 
      <td role="rowheader">Étiquette</td> 
-     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
+     <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
      <td><ul>
     <li>Boutons radio</li>
     <li>Groupe de cases à cocher</li>
@@ -567,7 +567,7 @@ Pour ajouter des champs de saisie semi-automatique et de date :
     </tr>
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
        <td><ul>
     <li>Saisie semi-automatique</li>
     <li>Date</li>
@@ -734,14 +734,14 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Chemin JSON</td>
-      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
+      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de l’API renvoie le JSON au format suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-       data : &lbrace;
-         { name : « USA »},
-         { name : « Canada »}
-       &rbrace;
-      &rbrace;
+      {
+data: {
+{ name: "USA"},
+{ name: "Canada"}
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -914,14 +914,14 @@ Ce tableau répertorie les champs natifs disponibles pour des objets Workfront s
 | Durée |   | ✓ |   |   | ✓ |   |   |   |
 | Type de durée |   | ✓ |   |   | ✓ |   |   |   |
 | Unité de durée |   | ✓ |   |   | ✓ |   |   |   |
-| Entré par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Saisi par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Date de saisie | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | </span> de date du taux de change <span class="preview"> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
 | </span> de coût fixe <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | </span> de revenu fixe <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Groupe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Dernière mise à jour par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Date de dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Date de la dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nom | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Propriétaire | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | </span> de la méthode d’indice de performance <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
@@ -1063,7 +1063,7 @@ Pour ajouter un fichier Adobe XD :
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez un lien de prototype XD valide.</p> 
-      <p><b>Note</b> : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. 
+      <p><b>Remarque </b> : le paramètre Accès aux liens de l’onglet Partager dans Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs ne pourront pas voir le prototype. 
    </td> 
      </tr> 
      <tr> 
