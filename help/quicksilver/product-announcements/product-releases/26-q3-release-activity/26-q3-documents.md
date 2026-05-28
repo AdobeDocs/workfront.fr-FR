@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: c729a68bbbfbe4f284f4304f6f779154dc4cbd10
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,38 @@ ht-degree: 4%
 Cette page décrit les améliorations apportées aux documents avec la version du troisième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+<!--
+## Print summary for documents in the new Documents area
+
+>[!NOTE]
+>
+>Preview: May 28, 2026
+>Production fast release: June 11, 2026
+>Production for everyone: July 16, 2026
+
+You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+
+After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+
+For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
+-->
+
+## Ajouter un message personnalisé à une étape de workflow d’approbation de document
+
+>[!NOTE]
+>
+>Aperçu : 28 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+
+Vous pouvez désormais ajouter un message personnalisé à chaque étape d’un workflow d’approbation de document. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.
+
+* Utilisez le même message pour chaque étape ou un message différent par étape.
+* Les messages peuvent contenir jusqu’à 500 caractères.
+* Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.
+
+Cette fonctionnalité est disponible dans la zone des documents hérités (stockage Workfront) et la nouvelle zone des documents (stockage dans le cloud Adobe).
+
+Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Affichage des badges de Experience Manager Assets et de statut d’approbation dans la zone Documents
 
