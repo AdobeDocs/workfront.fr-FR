@@ -308,7 +308,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 >
 >À compter de la version 24.7, les personnes contributrices ont un accès en affichage aux programmes et aux portefeuilles par défaut.
 >
-> >Les personnes contributrices intégrées avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Si nécessaire, vous pouvez mettre à jour manuellement leur autorisation d’affichage.
+> &#x200B;>Les personnes contributrices intégrées avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Si nécessaire, vous pouvez mettre à jour manuellement leur autorisation d’affichage.
 
 ### Niveau d’accès Utilisateur ou utilisatrice externe
 
