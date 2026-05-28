@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '2352'
+source-wordcount: '2582'
 ht-degree: 3%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -101,7 +101,9 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 ## Considérations relatives à l’envoi de requêtes à Workfront Planning
 
-* Vous ne pouvez pas modifier une demande dans Workfront après l’avoir envoyée.
+* Dans l’environnement de production, vous ne pouvez pas modifier une demande dans Workfront après l’avoir envoyée.
+
+  <span class="preview">Dans l’environnement de Prévisualisation, vous ne pouvez modifier une demande envoyée qu’avant la création d’un enregistrement à partir de celle-ci. Une fois l’enregistrement créé, vous ne pouvez plus modifier la demande envoyée. </span>
 * Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez, si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.
 * Les enregistrements créés par l&#39;envoi de formulaires de demande sont identiques aux enregistrements ajoutés par le biais de toute autre méthode dans Workfront Planning.
 
@@ -193,7 +195,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
      La demande est associée à un lien dans l’e-mail de confirmation ou de validation.
 
-1. (Facultatif) Cliquez sur **Afficher votre demande** dans le message de confirmation, pour ouvrir la demande, ou cliquez sur l’icône **X** pour fermer la confirmation.
+1. (Facultatif) Cliquez sur **Afficher votre demande** dans le message de confirmation ou sur le nom de la demande dans la liste pour ouvrir la demande, ou cliquez sur l’icône **X** pour fermer la confirmation.
 1. (Facultatif) Pour gérer l’affichage des informations dans la liste des demandes, mettez à jour les éléments d’affichage suivants pour la liste :
 
    * Afficher
@@ -234,6 +236,17 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
 1. (Facultatif) Saisissez un commentaire dans la zone **Commentaires**.
+1. <span class="preview">(Facultatif et conditionnel) Si la demande est en attente d’approbation et que vous avez ouvert la demande, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) à droite du nom de la demande, puis cliquez sur **Modifier** ou double-cliquez sur les champs de la demande pour les modifier. </span>
+
+   >[!NOTE]
+   >
+   >  <div class="preview">
+   >
+   >   * La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
+   >   * Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
+   >  * Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
+   >
+   >  </div>
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
@@ -340,9 +353,17 @@ Lorsque vous supprimez une demande Planning, les événements suivants se produi
 * L’enregistrement créé à partir de la demande n’est pas supprimé.
 * Les brouillons supprimés ne peuvent pas être récupérés. Aucun enregistrement n&#39;est associé aux brouillons.
 
-La suppression des demandes Planning est similaire à la suppression des demandes Workfront.
+La suppression de demandes Planning d’une liste est similaire à la suppression de demandes Workfront.
 
 Pour plus d’informations, voir [Supprimer une demande envoyée ou un brouillon de demande](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
+Pour supprimer une demande Planning après l&#39;ouverture de la demande :
+
+1. Ouvrez une demande Planning en cliquant sur son nom dans la liste des demandes.
+1. Cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) à droite du nom de la requête, puis cliquez sur **Supprimer**.
+1. Cliquez sur D **e** lete dans la zone **Supprimer définitivement** pour confirmer.
+
+   La demande est supprimée et ne peut pas être récupérée.
 
 
 

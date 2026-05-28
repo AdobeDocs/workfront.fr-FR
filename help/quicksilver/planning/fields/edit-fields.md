@@ -1,6 +1,6 @@
 ---
 title: Modifier les paramètres de champ
-description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés. Cet article décrit comment modifier les paramètres des champs Workfront Planning.
+description: Dans Adobe Workfront Planning, vous pouvez modifier les paramètres des champs déjà créés. Cet article décrit comment modifier les paramètres des champs Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 23%
+source-wordcount: '1087'
+ht-degree: 22%
 
 ---
 
@@ -20,11 +20,10 @@ ht-degree: 23%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -196,6 +195,15 @@ this is not yet true, but it might come later:
    >* Une fois le champ enregistré, vous ne pouvez plus le mettre à jour.
    >
    >* Lorsque vous modifiez les configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’existe aucun avertissement ni journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui consultent les champs verront immédiatement les nouvelles valeurs avec les modifications.
+
+1. <span class="preview">(Conditionnel) Si le champ que vous mettez à jour fait partie d’un formulaire de demande, la zone **Vérifier les modifications apportées au champ** s’affiche pour indiquer les formulaires qui seront affectés par vos modifications. Effectuez l’une des opérations suivantes </span>
+
+   <div class="preview">
+
+   * Cliquez sur la flèche pointant vers la droite pour afficher les formulaires concernés par la modification, puis cliquez sur le nom du formulaire pour ouvrir le formulaire dans un nouvel onglet et décidez si vous souhaitez conserver le champ du formulaire ou apporter des modifications supplémentaires au formulaire.
+   * Cliquez sur **Conserver les modifications** ce qui met à jour le champ dans toutes les zones où il s’affiche.
+
+   </div>
 
    Les informations de champ sont mises à jour pour toutes les personnes ayant accès à l’affichage de l’espace de travail.
 
