@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2773'
+source-wordcount: '2909'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Le webinaire sur la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [v
 
 >[!IMPORTANT]
 >
->La version 23.3 incluait l’option permettant d’opter pour des versions mensuelles dans votre organisation. Par conséquent, Workfront modifie le schéma de numérotation des versions afin de tenir compte des suivis des versions mensuelles et trimestrielles.
+>La version 23.3 incluait l’option permettant de faire passer votre organisation aux versions mensuelles. Par conséquent, Workfront modifie le schéma de numérotation des versions afin de tenir compte des suivis des versions mensuelles et trimestrielles.
 >
 >* Si vous être sur le suivi de **version rapide (mensuel)**, la version suivant la version 23.3 est la version **23.8**, publiée le 31 août 2023.
 >* Si vous êtes sur le suivi **trimestriel** des versions, la version suivant la version 23.3 est la version **23.10**, publiée la semaine du 26 octobre 2023.
@@ -70,7 +70,7 @@ Le webinaire sur la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [v
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de sortie</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>
@@ -258,7 +258,7 @@ Le webinaire sur la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [v
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Fonctionnalités</span>
+                        <p><span class="bold">Fonctionnalité</span>
                         </p>
                     </td>
                     <td>
@@ -326,8 +326,7 @@ Le webinaire sur la version 23.10 a eu lieu le 5 octobre 2023. Vous pouvez [v
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau widget de panoramas pour une nouvelle page d’accueil</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>Les options de gestion du travail disponibles dans la nouvelle page d’accueil s’enrichissent d’une nouveauté majeure : vous pouvez désormais afficher un panorama dans votre page d’accueil.
-</p>
+                        <p>Les options de gestion du travail disponibles dans la nouvelle page d’accueil s’enrichissent d’une nouveauté majeure : vous pouvez désormais afficher un panorama dans votre page d’accueil.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>

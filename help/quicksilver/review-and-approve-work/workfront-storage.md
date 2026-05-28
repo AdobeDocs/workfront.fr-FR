@@ -33,7 +33,7 @@ Une fois votre contrat mis à jour afin d’inclure la nouvelle expérience de r
 
 |  | Objet sur l’ancien stockage Workfront | Objet sur l’espace de stockage dans le cloud Adobe |
 |---|---|---|
-| Serveur principal de stockage | Workfront uniquement | Adobe cloud storage |
+| Serveur principal de stockage | Workfront uniquement | Espace de stockage Adobe |
 | Visibilité sur l’ensemble des produits | Workfront uniquement | Workfront, Frame.io et Creative Cloud |
 | Fonction | Fonctionnalités héritées | Nouvelle fonctionnalité |
 

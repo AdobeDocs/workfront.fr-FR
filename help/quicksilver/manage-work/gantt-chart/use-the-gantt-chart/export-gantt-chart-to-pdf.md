@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '982'
 ht-degree: 40%
 
 ---
@@ -176,7 +176,7 @@ Vous pouvez sélectionner l’une des options suivantes :
    * **[!UICONTROL A4]**
 1. Dans la section **[!UICONTROL Orientation de page]**, choisissez si vous souhaitez que le PDF soit exporté en orientation paysage ou portrait.
 1. Sélectionnez **[!UICONTROL Afficher la légende]** si vous souhaitez inclure la légende dans votre PDF exporté.
-1. Cliquez sur **[!UICONTROL Exporter]**. Le fichier PDF est créé et téléchargé sur votre ordinateur.
+1. Cliquez sur **[!UICONTROL Exporter]**. Le fichier PDF est créé et téléchargé sur votre ordinateur.
 
    La légende au bas du fichier exporté explique uniquement les options que vous avez activées dans votre [!UICONTROL graphique Gantt] et qui sont disponibles dans votre liste de tâches. Par exemple, les jalons ne s’affichent dans la légende que si au moins une tâche est associée à un jalon.
 

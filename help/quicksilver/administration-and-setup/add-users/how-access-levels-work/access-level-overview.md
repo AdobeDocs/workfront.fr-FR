@@ -12,7 +12,7 @@ role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1776'
 ht-degree: 96%
 
 ---
@@ -308,8 +308,7 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 >
 >À compter de la version 24.7, les personnes contributrices ont un accès en affichage aux programmes et aux portefeuilles par défaut.
 >
-> 
->Les personnes contributrices intégrées avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Si nécessaire, vous pouvez mettre à jour manuellement leur autorisation d’affichage.
+> &#x200B;>Les personnes contributrices intégrées avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Si nécessaire, vous pouvez mettre à jour manuellement leur autorisation d’affichage.
 
 ### Niveau d’accès Utilisateur ou utilisatrice externe
 

@@ -3,14 +3,14 @@ content-type: release-notes
 keywords: notes,trimestrielle,mise à jour
 navigation-topic: 2021-4-release-activity
 title: Vue d’ensemble de la version 21.4
-description: Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront Classic et de la nouvelle expérience Adobe Workfront incluse dans la version 21.4 pour vous aider à libérer la productivité et la collaboration.[Marketing one-liner for the release]
+description: Cette page fournit des informations sur les fonctionnalités d’Adobe Workfront Classic et de la nouvelle expérience Adobe Workfront incluse dans la version 21.4 pour vous aider à déverrouiller la productivité et la collaboration.[Résumé marketing de la version]
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '4718'
+source-wordcount: '4862'
 ht-degree: 98%
 
 ---
@@ -154,7 +154,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}">Inclure des images dans les mises à jour</a> </p> <p>Dans l’onglet Mises à jour d’un objet, vous pouvez désormais ajouter des images en cliquant sur l’icône Image de la barre d’outils. Vous pouvez également glisser-déposer une image dans la zone de mise à jour. Notez que votre administrateur ou administratrice Workfront doit activer l’ajout d’images pour que vous puissiez voir l’icône Image.</p> <p>Vous pouvez ajouter des images dans les mises à jour et les réponses. Une miniature d’image dans la mise à jour indique que les personnes destinataires peuvent prévisualiser l’image dans le navigateur ou la télécharger, et les notifications par e-mail et in-app montrent que des images sont jointes à la mise à jour.</p> <p>Auparavant, la seule façon de partager une image dans Workfront était de la joindre à un objet en tant que document. Les images ajoutées dans l’onglet Mises à jour ne sont disponibles que dans cet onglet et non dans l’onglet Documents.</p> <p>Avant que les utilisateurs et utilisatrices de Workfront puissent inclure des images dans les mises à jour, cette fonctionnalité doit d’abord être activée par l’administrateur ou l’administratrice d’Adobe Workfront.</p> </td> 
@@ -241,7 +241,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#user" class="MCXref xref" xrefformat="{para}">Affectations d’utilisateurs et utilisatrices sur les tableaux Kanban et panoramas Scrum</a> </p> <p>Nous avons mis à jour les cartes d’histoire sur les tableaux Kanban et panoramas Scrum pour faciliter l’affectation d’utilisateurs et utilisatrices à l’histoire. Désormais, vous pouvez cliquer sur l’avatar d’une équipe, d’un utilisateur ou d’une utilisatrice pour ajouter une affectation lorsque la carte d’histoire est développée. Auparavant, vous deviez localiser et cliquer sur une icône de signe plus (+) distincte.</p> </td> 
@@ -276,7 +276,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de version et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-reporting-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvel aspect du champ des affectations dans les listes et rapports mis à jour</a> </p> <p>Afin qu’il corresponde mieux à l’aspect moderne des autres zones de la nouvelle expérience Workfront, le style a été modifié pour le champ Affectations dans les listes et les rapports mis à jour. La nouvelle conception comprend une nouvelle icône de fonction, une nouvelle icône de personnes pour les affectations avancées, une nouvelle icône d’accès restreint, et bien d’autres choses encore.</p> </td> 
@@ -297,7 +297,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">La recherche améliorée des demandes inclut désormais des caractères spéciaux.</a> </p> <p>Afin de faciliter et accélérer la recherche des files d’attente de requêtes lors de l’envoi de requêtes, nous avons amélioré l’algorithme de recherche pour trouver désormais les files d’attente pouvant contenir des caractères spéciaux.</p> <p>Par exemple, vous pouvez trouver une file d’attente des demandes nommée « *Workfront » en saisissant « *Workfront » ou « Workfront » dans le champ Type de demande.</p> <p>Tous les caractères spéciaux sont pris en charge.</p> </td> 
@@ -318,7 +318,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-proofing-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">Amélioration des fonctionnalités de relecture pour les personnes chargées de la révision et des demandes</a> </p> <p>Afin d’offrir une expérience plus intégrée entre Workfront et Workfront Proof, nous avons apporté plusieurs améliorations concernant les capacités de relecture pour les personnes réviseuses et demandeuses :</p> 
@@ -340,7 +340,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Lier des documents à partir de Dropbox Business</a> </p> <p>Dropbox Business est désormais disponible en tant qu’intégration de document disponible. Vous pouvez maintenant accéder aux documents que vous avez stockés dans Dropbox Business directement dans Workfront.</p> <p>Dropbox Business vous permet de lier des documents partagés et de télécharger des documents vers des dossiers partagés. Dropbox (et non Dropbox Business) permet uniquement à la personne propriétaire des documents d’afficher le document dans Workfront.</p> <p>L’administration Workfront peut activer cette intégration pour votre organisation.</p> </td> 
@@ -369,7 +369,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-mobile-enhancements.md#review" class="MCXref xref" xrefformat="{para}">Réviser et approuver les épreuves dans l’application mobile</a> </p> <p>L’application mobile Adobe Workfront affiche désormais toutes les approbations d’épreuve qui vous ont été attribuées, dans votre liste d’approbations dans Mon travail. Vous pouvez réviser un document d’épreuve directement dans l’application et prendre une décision à son sujet.</p> </td> 

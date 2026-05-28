@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 94%
+source-wordcount: '1323'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Cela signifie que vous vous authentifierez avec votre propre système de connexi
 
 >[!NOTE]
 >
->Un sous-domaine ou un domaine personnalisé doit être configuré sur votre compte [!DNL Workfront Proof] pour activer SAML. Les sous-domaines personnalisés peuvent être configurés gratuitement. Voir [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) pour plus d’informations. Pour en savoir plus sur les domaines entièrement personnalisés, consultez notre [&#x200B; Marque du site  [!DNL Workfront Proof]  - avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Un sous-domaine ou un domaine personnalisé doit être configuré sur votre compte [!DNL Workfront Proof] pour activer SAML. Les sous-domaines personnalisés peuvent être configurés gratuitement. Pour plus d’informations, voir [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Vous pouvez en savoir plus sur les domaines entièrement personnalisés sur notre [Marque du  [!DNL Workfront Proof]  - avancé](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Activation de l’authentification unique dans [!DNL Workfront Proof]
 
@@ -90,8 +90,8 @@ L’authentification unique est une fonctionnalité Select et Premium, et peut d
 1. Cliquez sur le compte satellite dans le menu déroulant (2).
 1. Ouvrez l’onglet **[!UICONTROL Authentification unique]** (3).
 1. Vous pouvez maintenant modifier la configuration de l’authentification unique (4).
-1. ![Enabling_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
-Vous disposez ici de deux méthodes (5) de configuration :
+1. ![Enabling_SSO_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
+Vous disposez ici de deux méthodes (5) de configuration :
 
 1. **Héritée :** authentification unique avec la configuration extraite de votre compte hub.
 Si un utilisateur accède à [!DNL Workfront Proof] par le biais de la **page de connexion par défaut** ([https://business.adobe.com/fr/products/workfront/proofing-approvals.html](https://business.adobe.com/fr/products/workfront/proofing-approvals.html) **), deux niveaux d&#39;autorisation s&#39;appliquent** : tout d&#39;abord, il est invité à se connecter à l&#39;aide des données d&#39;accès [!DNL Workfront Proof] (adresse e-mail et mot de passe), puis l&#39;utilisateur est transféré par le biais d&#39;une fenêtre SSO vers la page de connexion SSO.
@@ -140,7 +140,7 @@ Si vous avez choisi la configuration d’authentification unique manuelle pour u
 1. Ouvrez l’onglet **[!UICONTROL Authentification unique]**.
 1. Assurez-vous que votre domaine/sous-domaine [!DNL Workfront Proof] (1) est configuré et que vos utilisateurs et utilisatrices accèdent à votre compte [!DNL Workfront Proof] par le biais de ce domaine/sous-domaine personnalisé.
    ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)
-Lorsque l’authentification unique est activée, l’URL de connexion au sous-domaine (yourcompany.proofhq.com/login, par exemple) affiche un écran de transfert (2) qui vous permet d’accéder directement à votre page de connexion via authentification unique.
+Lorsque votre authentification unique est activée, votre URL de connexion de sous-domaine (par exemple, yourcompany.proofhq.com/login) affiche un écran de transfert (2) qui vous conduit directement à votre page de connexion à l’authentification unique.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
 1. Si un utilisateur accède à [!DNL Workfront Proof] via la page de connexion **par défaut** ([https://business.adobe.com/fr/products/workfront/proofing-approvals.html](https://business.adobe.com/fr/products/workfront/proofing-approvals.html)), il y aura **deux niveaux d’autorisation**. D’abord, la personne doit se connecter à l’aide des données d’accès [!DNL Workfront Proof] (adresse e-mail et mot de passe). Ensuite, elle est transférée via une fenêtre d’authentification unique (2) vers la page de connexion via authentification unique.\

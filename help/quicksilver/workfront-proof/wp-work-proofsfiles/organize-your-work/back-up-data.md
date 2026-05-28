@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Sauvegarder vos données  [!DNL Workfront Proof]
+title: 'Sauvegarder vos données  [!DNL Workfront Proof] '
 description: Vous pouvez demander une sauvegarde de toutes vos données sur  [!DNL Workfront Proof]  en utilisant la fonction de sauvegarde.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---

@@ -8,7 +8,7 @@ author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2457'
 ht-degree: 94%
 
 ---
@@ -273,7 +273,7 @@ Vous pouvez créer des rapports sur les objets suivants lorsque vous utilisez Re
 * [!UICONTROL Itération]
 * [!UICONTROL Fonction]
 * [!UICONTROL Entrée du journal]
-   * Vous pouvez établir un rapport sur les mises à jour du système suivies dans la zone [!UICONTROL Mises à jour] d’objets tels que les tâches, les projets, les problèmes, etc. Pour plus d&#39;informations, voir [Rapport sur la zone Mises à jour avec un rapport Entrée de journal](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * Vous pouvez créer des rapports sur les mises à jour système suivies dans la zone [!UICONTROL &#x200B; Mises à jour &#x200B;] des objets tels que les tâches, les projets, les problèmes, etc. Pour plus d&#39;informations, voir [Rapport sur la zone Mises à jour avec un rapport Entrée de journal](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Modèle de mise en page]
 * [!UICONTROL Jalon]

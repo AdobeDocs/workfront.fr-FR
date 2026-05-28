@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2753'
 ht-degree: 72%
 
 ---
@@ -318,7 +318,7 @@ Pour personnaliser les couleurs du graphique :
 
 1. Pour choisir une couleur :
 Cliquez à l’intérieur du sélecteur de couleurs pour sélectionner une couleur.
-SOIT
+OU
 Spécifiez une valeur de couleur hexadécimale pour votre couleur.
 
 1. Cliquez n’importe où en dehors de la boîte de dialogue Couleurs personnalisées pour la fermer. Les couleurs sélectionnées sont automatiquement enregistrées.
