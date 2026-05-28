@@ -12,8 +12,8 @@ role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 95%
+source-wordcount: '908'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 L’équipe d’administration d’Adobe Workfront détermine le niveau d’accès de chaque personne. Ce niveau d’accès définit ce que les personnes peuvent voir et faire avec les types d’objets et les zones du système.
 

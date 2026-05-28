@@ -492,19 +492,19 @@ Les mises à jour des objets sont toujours effectuées par ID en utilisant l’U
 ### Spécifier les modifications JSON
 
 Comme le montre l’exemple suivant, vous pouvez utiliser le paramètre de requête updates pour spécifier les champs à mettre à jour en utilisant la syntaxe JSON :
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nom : « Nouveau nom du projet », <br>     Statut : « CUR », <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br> name: « New Project Name », <br> status: « CUR », <br> ... <br>}</pre>
 
 ### Effectuer des mises à jour imbriquées
 
 Certains objets possèdent des collections privées qui peuvent être mises à jour. Par exemple, l’exemple suivant montre comment remplacer les affectations existantes pour une tâche donnée :
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    affectations : [ <br>        { <br>            assignedToID : « 2222...54d0, <br>            assignmentPercent : 50.0 <br>        },{ <br>            roleID : « 1111...54d0 »<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updated= <br>{<br> affectations : [ <br> { <br> assignedToID : « 2222...54d0, <br> assignmentPercent : 50.0 <br> },{ <br> roleID : « 1111...54d0 »<br> } <br> ] <br>}</pre>
 
 >[!NOTE]
 >
 >Alors que les mises à jour effectuées au niveau supérieur sont peu nombreuses, les mises à jour d’une collection ou d’un objet imbriqué remplacent complètement la collection existante. Pour modifier une seule affectation sur une tâche sans effet sur les objets, utilisez une requête PUT sur l’affectation plutôt que sur la tâche.
 
 L’exemple suivant fait d’un projet une file d’attente publique pour le centre d’assistance. Notez que les propriétés existantes de la file d’attente sont remplacées.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef : { <br>        isPublic : 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
 
 ### Utiliser le paramètre de requête Action
 

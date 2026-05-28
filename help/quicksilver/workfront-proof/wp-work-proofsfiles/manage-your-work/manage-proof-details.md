@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 La page [!UICONTROL Détails de l’épreuve] vous permet de gérer une épreuve existante. Par exemple, vous pouvez ajouter de nouveaux réviseurs et réviseuses, modifier l’échéance, modifier les paramètres que vous avez définis à l’origine pour l’épreuve et vérifier l’activité de cette épreuve.
 
@@ -103,7 +103,7 @@ Vous trouverez les informations suivantes sur la page Détails de l’épreuve. 
      >
      >Vous devez disposer de droits de modification sur l’épreuve pour modifier les étapes de l’épreuve et les détails des réviseurs et réviseuses. Pour plus d’informations, voir la section [Gérer les rôles sur les épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Profils d’autorisations sur les épreuves dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * Section **[!UICONTROL Autres options de partage]** : permet d’activer l’URL de l’épreuve et le code d’intégration. Si vous utilisez l’intégration Basecamp avec [!DNL Workfront] Proof, cette section vous permet également d’ajouter l’épreuve à un projet [!DNL Basecamp], de modifier le projet auquel la preuve a été ajoutée (cliquez sur **[!UICONTROL Modifier]**) et d’accéder à l’épreuve dans Basecamp (cliquez sur le lien fourni).
+   * Section **[!UICONTROL Autres options de partage]** : permet d’activer l’URL de l’épreuve et le code intégré. Si vous utilisez l’intégration Basecamp avec [!DNL Workfront] Proof, cette section vous permet également d’ajouter l’épreuve à un projet [!DNL Basecamp], de modifier le projet auquel la preuve a été ajoutée (cliquez sur **[!UICONTROL Modifier]**) et d’accéder à l’épreuve dans Basecamp (cliquez sur le lien fourni).
 
    * Section **[!UICONTROL Paramètres]** : permet de modifier les paramètres, tel que décrit dans [[!UICONTROL Configurer les paramètres de l’épreuve] dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 

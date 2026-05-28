@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '4758'
+source-wordcount: '4991'
 ht-degree: 99%
 
 ---
@@ -48,8 +48,8 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/fr-fr/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/fr-fr/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
@@ -77,7 +77,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#document" class="MCXref xref" xrefformat="{para}">Téléchargements de documents enregistrés dans la zone Mises à jour</a> </p> <p>Pour aider vos utilisateurs et utilisatrices à suivre les téléchargements des documents qu’ils stockent dans Workfront, le système enregistre désormais une entrée dans la zone Mises à jour pour un document lorsque quelqu’un le télécharge.</p> <p>Nous vous recommandons de tester cette fonctionnalité en prévisualisation sur un document nouvellement chargé.</p> </td> 
-   <td> <p>Version préliminaire : 16 décembre 2021<br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </td> 
+   <td> <p>Version préliminaire : 16 décembre 2021<br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#create" class="MCXref xref" xrefformat="{para}">Créer des applications OAuth2 pour intégrer des applications à Workfront</a> </p> <p>Vous pouvez désormais intégrer Workfront à d’autres applications pour lesquelles Workfront n’offre pas d’intégration intégrée. En créant une application OAuth2 pour l’application avec laquelle vous souhaitez vous intégrer, vous pouvez permettre à cette application d’accéder à Workfront, tout en sachant que vos données sont protégées par le protocole d’authentification OAuth2, sécurisé et conforme aux normes de l’industrie.</p> <p>Auparavant, vous ne pouviez vous intégrer à d’autres applications que par le biais d’intégrations intégrées, de Workfront Fusion ou de l’API Workfront.</p> </td> 
@@ -135,17 +135,16 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 3 décembre 2021<br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#manage" class="MCXref xref" xrefformat="{para}">Gérer plus facilement les appartenances à une entreprise</a> </p> <p>Dans la zone Entreprises, une barre d’outils mise à jour facilite l’ajout d’utilisateurs et d’utilisatrices Workfront existantes à une entreprise, ainsi que la suppression des membres d’une entreprise. </p> <p>Auparavant, ces actions n’étaient disponibles que dans la zone de modification de l’entreprise.</p> <p>La barre d’outils mise à jour comprend toutes les actions disponibles dans la barre d’outils précédente, comme la modification des informations de profil des utilisateurs et utilisatrices et la désactivation des personnes membres dans le système.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 4 novembre 2021 <br></p> <p>Version de production : avec la version 22.1
- </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#manage" class="MCXref xref" xrefformat="{para}">Gérer plus facilement les appartenances à une entreprise</a> </p> <p>Dans la zone Entreprises, une barre d’outils mise à jour facilite l’ajout de personnes Workfront existantes à une entreprise et la suppression de personnes membres d’une entreprise. </p> <p>Auparavant, ces actions n’étaient disponibles que dans la zone de modification de l’entreprise.</p> <p>La barre d’outils mise à jour comprend toutes les actions disponibles dans la barre d’outils précédente, comme la modification des informations de profil des utilisateurs et utilisatrices et la désactivation des personnes membres dans le système.</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 4 novembre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#groups" class="MCXref xref" xrefformat="{para}">Les groupes peuvent configurer leurs propres préférences en matière de feuilles de temps et d’heures.</a> </p> <p>Dans une grande organisation, certains groupes peuvent avoir besoin de configurer les préférences des feuilles de temps et des heures de manière indépendante pour les adapter à leurs workflows uniques, plutôt que d’hériter des préférences configurées par une équipe d’administration au niveau du système. Désormais, l’équipe d’administration de Workfront peut déverrouiller les préférences en matière de feuilles de temps et d’heures pour tous les groupes du système afin qu’ils puissent les configurer.</p> <p>Cette possibilité a également été ajoutée récemment pour les préférences de projet et pour celles de tâches et de problèmes. </p> </td> 
-   <td> <p><b>Disponible à ces dates :</b> </p> <p>Version préliminaire : 9 septembre 2021<br></p> <p>Version de production : 8 novembre 2021 <span style="color: #ff0000;">(Cette fonctionnalité a été mise à disposition en production uniquement pour les clientes et clients du cluster 4 avec la version 21.4. Elle a été mise à disposition pour tous les autres clusters en production le 8 novembre 2021).</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </td> 
+   <td> <p><b>Disponible à ces dates :</b> </p> <p>Version préliminaire : 9 septembre 2021<br></p> <p>Version de production : 8 novembre 2021 <span style="color: #ff0000;">(Cette fonctionnalité a été mise à disposition en production uniquement pour les clientes et clients du cluster 4 avec la version 21.4. Elle a été mise à disposition pour tous les autres clusters en production le 8 novembre 2021).</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#select2" class="MCXref xref" xrefformat="{para}">Sélectionner plusieurs notifications que vous souhaitez verrouiller ou déverrouiller pour des groupes.</a> </p> <p>Il est désormais plus rapide et plus facile de verrouiller ou déverrouiller les notifications par e-mail pour les groupes. Désormais, vous pouvez sélectionner plusieurs notifications, vérifier vos sélections pour vous assurer qu’elles sont correctes, puis cliquer sur le nouveau bouton « Déverrouiller » ou « Verrouiller » qui apparaît dans la barre d’outils.</p> <p>Auparavant, vous deviez verrouiller et déverrouiller les notifications une par une. Actuellement, Workfront comprend 95 notifications, et cela prendrait beaucoup de temps si vous deviez toutes les configurer une par une.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 14 octobre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 14 octobre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">Pour l’administration de groupes : il est plus facile de sélectionner un groupe de remplacement lorsque vous supprimez un groupe.</a> </p> <p>Dans la zone de suppression de groupes, deux améliorations facilitent maintenant la sélection du groupe de remplacement pour préserver les utilisateurs et utilisatrices, les éléments de travail et les sous-groupes du groupe supprimé.</p> 
@@ -174,7 +173,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#limit" class="MCXref xref" xrefformat="{para}">Limiter la possibilité d’ajouter des documents à un modèle que vous partagez.</a> </p> <p>Parfois, les personnes ajoutent des documents à un modèle de projet en pensant qu’elles les ajoutent à un projet. Désormais, vous pouvez empêcher cela. Lorsque vous partagez un modèle avec l’accès Affichage, vous pouvez désactiver le nouveau paramètre avancé Ajouter des documents. Cela désactive la capacité de vos personnes destinataires à ajouter des documents au modèle.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 14 octobre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 14 octobre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">Mise à jour de la barre d’outils sur la liste des tableaux de bord et des rapports dans les tableaux de bord</a> </p> <p>La barre d’outils de quatre pages de tableau de bord a désormais un aspect moderne qui correspond à d’autres listes Workfront telles que les projets, les tâches et les problèmes. Cette barre d’outils intuitive facilite désormais l’ajout, la modification, le partage, la copie et la suppression des tableaux de bord.</p> </td> 
@@ -198,15 +197,14 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors du déplacement d’une ou plusieurs tâches d’une liste</a> </p> <p>Pour offrir une expérience cohérente lors de la répétition de la même tâche, nous avons maintenant mis à jour l’interface permettant de déplacer une ou plusieurs tâches d’une liste afin qu’elles correspondent à l’expérience du déplacement de la tâche au niveau de la tâche. (Nous avions mis à jour l’expérience de déplacement d’une tâche au niveau de la tâche dans une version précédente de l’environnement de prévisualisation.)</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 4 novembre 2021 <br></p> <p>Version de production : avec la version 22.1
- </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 4 novembre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors du déplacement d’une tâche à l’échelle de la tâche</a> </p> <p>Afin que votre utilisation de Workfront soit cohérente avec la nouvelle expérience Workfront, nous avons repensé l’interface pour le déplacement d’une tâche. Cette option est actuellement disponible lors du déplacement d’une tâche au niveau de la tâche. Dans une version suivante, nous allons étendre cette reconception au déplacement d’une tâche à partir d’une liste.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 21 octobre 2021 <br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de la conversion d’un problème en projet à l’aide d’un modèle à l’échelle du problème</a> </p> <p>Afin d’harmoniser votre utilisation de Workfront avec la nouvelle expérience Workfront, nous avons repensé l’interface de conversion d’un problème en projet lorsque vous utilisez un modèle et que vous le convertissez à partir de la page du problème.</p> <p>Vous pouvez désormais accéder plus facilement à votre liste de favoris immédiatement après avoir choisi de convertir le problème.</p> <p>L’interface reconçue correspond à l’expérience de création d’un projet à partir d’un modèle que nous avons mis à jour récemment.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Nouvelle expérience lors de la conversion d’un problème en projet à l’aide d’un modèle au niveau du problème</a> </p> <p>Afin d’harmoniser votre utilisation de Workfront avec la nouvelle expérience Workfront, nous avons repensé l’interface de conversion d’un problème en projet lorsque vous utilisez un modèle et que vous le convertissez à partir de la page du problème.</p> <p>Vous pouvez désormais accéder plus facilement à votre liste de favoris immédiatement après avoir choisi de convertir le problème.</p> <p>L’interface reconçue correspond à l’expérience de création d’un projet à partir d’un modèle que nous avons mis à jour récemment.</p> </td> 
    <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 8 décembre 2021<br></p> <p>Version de production : incluse avec la version 22.1 <span style="color: #ff0000; font-weight: bold;">(Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 4 mars 2022. Elle a ensuite été déployée de manière progressive à partir du 28 avril 2022. Le déploiement s’est achevé le 5 mai 2022. Cette fonctionnalité est désormais disponible dans les environnements de prévisualisation et de production pour tous les clientes et clients).</span></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -224,7 +222,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">Améliorations apportées au panneau de configuration et possibilité de coder par couleur les projets et leurs tâches dans l’équilibreur de charge de travail.</a> </p> <p>Afin d’améliorer votre expérience lors de l’utilisation de l’équilibreur de charge de travail, nous avons introduit les améliorations suivantes :</p> 
@@ -253,7 +251,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-requests-enhancements.md#interfac" class="MCXref xref" xrefformat="{para}">Amélioration apportées à l’interface pour les personnes qui n’ont pas accès à la création de demandes.</a>. </p> <p>Pour améliorer l’expérience des utilisateurs et utilisatrices lors de l’utilisation de demandes, nous avons apporté une amélioration à l’interface qui indique à la personne connectée qu’elle n’a pas accès à la création de demandes. Grâce à cette amélioration, le bouton Nouvelle demande est désormais grisé pour les personnes qui n’ont pas accès à la création de problèmes. Une infobulle s’affiche lors du survol du bouton grisé, indiquant que l’administration de Workfront a restreint l’accès à la création de demandes pour cette personne. </p> <p>Avant cette amélioration, le bouton Nouvelle demande ne s’affichait pas dans la zone Demandes pour ces personnes. La copie et la soumission d’une demande en tant que nouvelle demande sont également impossibles.</p> </td> 
@@ -265,8 +263,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-requests-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">Mise à jour de l’expérience du panneau Résumé dans la section Envoyées de la zone Demandes</a> </p> <p>Pour améliorer la visibilité et l’interaction avec le panneau Résumé, nous avons ajouté un libellé à l’icône Ouvrir le résumé dans la section Envoyées de la zone Demandes. Le libellé est désormais dynamique et est mis à jour selon que le panneau est ouvert ou fermé. </p> <p>Lorsque le panneau Résumé est ouvert sans sélection préalable d’une demande, une image plus conviviale s’affiche désormais pour indiquer clairement à la personne qu’elle doit sélectionner un élément avant d’ouvrir le panneau. </p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 4 novembre 2021<br></p> <p>Version de production : avec la version 22.1
- </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 4 novembre 2021<br></p> <p>Version de production : avec la version 22.1 </p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,7 +289,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#electron" class="MCXref xref" xrefformat="{para}">Amélioration de la signature électronique pour les épreuves</a> </p> <p>Nous avons facilité la signature électronique des épreuves par les utilisateurs et utilisatrices. Désormais, les utilisateurs et utilisatrices peuvent utiliser leurs informations d’identification Workfront pour signer une décision sur une épreuve.</p> <p>Pour signer électroniquement une épreuve avec des informations d’identification SSO, vous devez configurer le SSO dans Workfront Proof. </p> <p>Auparavant, les utilisateurs et utilisatrices devaient utiliser les identifiants Workfront Proof, qui sont différents de leurs identifiants Workfront.</p> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 2 décembre 2021 <b style="color: #ff0000;">(Disponible pour les clientes et clients EMEA et des États-Unis)</b><br></p> <p>Version de production : à déterminer <b style="color: #ff0000;">(Disponible pour les clientes et clients EMEA le 21 décembre 2021, et disponible pour les autres clientes et clients le 3 février 2022)</b></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic a été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 2 décembre 2021 <b style="color: #ff0000;">(Disponible pour les clientes et clients EMEA et des États-Unis)</b><br></p> <p>Version de production : à déterminer <b style="color: #ff0000;">(Disponible pour les clientes et clients EMEA le 21 décembre 2021, et disponible pour les autres clientes et clients le 3 février 2022)</b></p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#desktop" class="MCXref xref" xrefformat="{para}">Mise à niveau de la visionneuse de bureau</a> </p> <p>Nous avons mis à niveau la visionneuse de relecture de bureau pour qu’elle prenne en charge la version 91 de Chrome afin d’améliorer la compatibilité avec les épreuves interactives.</p> <p>Les utilisateurs et utilisatrices de Windows doivent réinstaller manuellement la visionneuse de bureau pour passer à la dernière version. Ensuite, les futures mises à jour de la visionneuse de relecture de bureau seront automatiques.</p> <p>La mise à niveau vers la dernière version sera automatique pour les utilisateurs et utilisatrices Mac.</p> </td> 
@@ -309,7 +306,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouvelle barre d’outils pour les listes d’utilisateurs et d’utilisatrices</a> </p> <p>Une barre d’outils plus moderne et plus intuitive facilite la gestion des utilisateurs et utilisatrices dans une liste d’utilisateurs et d’utilisatrices. Les boutons de la barre d’outils vous permettent d’ajouter rapidement des personnes à Workfront, de leur rappeler de s’inscrire et de gérer leurs profils. Vous pouvez également exporter une liste d’utilisateurs et d’utilisatrices.</p> </td> 
@@ -335,7 +332,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>Le pied de page qui contient les boutons de la feuille de temps est désormais flottant afin que vous puissiez toujours accéder à l’enregistrement et à l’annulation sans avoir à défiler jusqu’au bas de la page. Nous avons également ajouté un nouveau bouton Haut de la page dans cette zone pour revenir rapidement au début de la page.</p> </li> 
      <li> <p>Une nouvelle notification d’avertissement vous informe désormais des modifications non enregistrées pour vous éviter de perdre des informations lorsque vous naviguez hors de la feuille de temps.</p> </li> 
     </ul> </td> 
-   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 2 décembre 2021<br></p> <p>Version de production : avec la version 22.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classica été abandonné en mars 2022</a> et a tiré sa révérence en juillet 2022).</p> </td> 
+   <td><strong>Disponible à ces dates :</strong> <p>Version préliminaire : 2 décembre 2021<br></p> <p>Version de production : avec la version 22.1</p> <p><strong>Disponible dans ces environnements :</strong> </p> <p>La nouvelle expérience Adobe Workfront </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/fr/docs/workfront/using/home" target="_blank">Workfront Classic sera arrêté en mars 2022</a>, suivi de peu par sa date de fin de vie en juillet 2022).</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">Mise à jour du menu d’aide</a> </p> <p>Désormais, lorsque vous cliquez sur le lien Aide dans la barre de navigation supérieure, un menu mis à jour et optimisé apparaît. Le nouveau menu fournit les mêmes informations, mais avec moins de niveaux de navigation, ce qui réduit le nombre de clics nécessaires pour accéder au contenu pertinent.</p> </td> 
@@ -355,7 +352,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Améliorations de la fonctionnalité d’épreuve dans l’application mobile</a> </p> <p>Dans l’application mobile Adobe Workfront, vous pouvez désormais :</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Améliorations de la fonctionnalité de l’épreuve dans l’application mobile</a> </p> <p>Dans l’application mobile Adobe Workfront, vous pouvez désormais :</p> 
     <ul> 
      <li> <p>Partager les épreuves avec les destinataires internes et externes</p> </li> 
      <li> <p>Afficher les commentaires de l’épreuve</p> </li> 
@@ -398,7 +395,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouve
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions et de la prise en charge de l’API](../../../wf-api/api/api-version-support-schedule.md).
 
-## Mises à jour de maintenance pour Workfront 
+## Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.1, voir [Mises à jour de maintenance de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 

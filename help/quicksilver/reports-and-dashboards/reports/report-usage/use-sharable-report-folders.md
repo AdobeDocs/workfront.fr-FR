@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 8%
+source-wordcount: '751'
+ht-degree: 9%
 
 ---
 
@@ -103,7 +103,7 @@ Lorsque vous partagez un dossier avec des utilisateurs, ces derniers héritent d
 1. Choisissez **Afficher** ou **Gérer** l’accès :
    * L’accès en affichage permet aux utilisateurs d’ouvrir des rapports dans le dossier . Vous pouvez également autoriser les utilisateurs disposant d’un accès en lecture seule à repartager le dossier en sélectionnant **Partager** dans les paramètres supplémentaires.
    * La gestion de l’accès permet aux utilisateurs de modifier les détails du dossier et d’ajouter ou de supprimer des éléments. Vous pouvez également permettre aux utilisateurs disposant d’un accès de niveau Gérer de supprimer des dossiers ou de partager le dossier en sélectionnant **Supprimer** et **Partager** dans les paramètres supplémentaires.
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
    ![partager un dossier et affiner l’accès](assets/share-settings-sharable-folders.png)
 

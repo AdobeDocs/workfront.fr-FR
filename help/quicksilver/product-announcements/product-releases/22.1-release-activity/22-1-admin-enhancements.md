@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1466'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ Pour plus d’informations, voir [Configurer un plan directeur](../../../adminis
 
 ## Gérer plus facilement les appartenances à une entreprise
 
-Dans la zone Entreprises, une barre d’outils actualisée facilite l’ajout de personnes Workfront existantes à une entreprise et la suppression de personnes membres d’une entreprise.
+Dans la zone Entreprises, une barre d’outils mise à jour facilite l’ajout de personnes Workfront existantes à une entreprise et la suppression de personnes membres d’une entreprise.
 
 Auparavant, ces actions n’étaient disponibles que dans la zone de modification de l’entreprise.
 

@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3573'
+source-wordcount: '3591'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 100%
     <ul> 
      <li style="font-weight: bold;">accessor</li> 
      <li style="font-weight: bold;">customer</li> 
-     <li style="font-weight: bold;">user</li> 
+     <li style="font-weight: bold;">user  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -101,14 +101,14 @@ ht-degree: 100%
      <li style="font-weight: bold;">ID</li> 
      <li style="font-weight: bold;">loginAsSettingsID</li> 
      <li style="font-weight: bold;">objID</li> 
-     <li style="font-weight: bold;">objObjCode</li> 
+     <li style="font-weight: bold;">objObjCode  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">customer</li> 
+     <li style="font-weight: bold;">customer  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -141,14 +141,14 @@ ht-degree: 100%
      <li style="font-weight: bold;">customerID</li> 
      <li style="font-weight: bold;">licenseTypes</li> 
      <li style="font-weight: bold;">ID</li> 
-     <li style="font-weight: bold;">restrictedLoginAs</li> 
+     <li style="font-weight: bold;">restrictedLoginAs  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">customer</li> 
+     <li style="font-weight: bold;">customer  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -245,13 +245,13 @@ Aucune ressource n’a été supprimée pour l’API v11.
      <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
      <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
      <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
-     <li><a href="#approval" class="MCXref xref">Approval</a> </li> 
+     <li><a href="#approval" class="MCXref xref">Approbation</a> </li> 
      <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
      <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
-     <li><a href="#assignment" class="MCXref xref">Assignment</a> </li> 
+     <li><a href="#assignment" class="MCXref xref">Affectation</a> </li> 
      <li><a href="#baselinetask" class="MCXref xref">BaselineTask</a> </li> 
      <li><a href="#category" class="MCXref xref">Category</a> </li> 
-     <li><a href="#company" class="MCXref xref">Company</a> </li> 
+     <li><a href="#company" class="MCXref xref">Entreprise</a> </li> 
      <li><a href="#customenum" class="MCXref xref">CustomEnum</a> </li> 
      <li><a href="#customer" class="MCXref xref">Customer</a> </li> 
      <li><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </li> 
@@ -260,7 +260,7 @@ Aucune ressource n’a été supprimée pour l’API v11.
     <ul> 
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">Document</a> </li> 
-     <li><a href="#iteration" class="MCXref xref">Iteration</a> </li> 
+     <li><a href="#iteration" class="MCXref xref">Itération</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">Modèle de mise en page</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
      <li><a href="#note" class="MCXref xref">Note</a> </li> 
@@ -312,7 +312,7 @@ Un objet AccessLevelPermissions représente un ensemble d’autorisations. Cet e
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
-     <li style="font-weight: bold;">secondaryActions</li> 
+     <li style="font-weight: bold;">secondaryActions  </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -350,7 +350,7 @@ Un objet AccessRule représente un jeu de règles dans les niveaux d’accès pe
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
-     <li style="font-weight: bold;">secondaryActions</li> 
+     <li style="font-weight: bold;">secondaryActions  </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -397,7 +397,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Supprimé de l’objet Approbation.</p> </li> 
+     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Supprimé de l’objet Approbation.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -586,7 +586,7 @@ Un objet Customer représente une organisation qui utilise une instance de Workf
       <ul> 
        <li style="font-weight: normal;">CONDITION_PROJ (statuts de projet)</li> 
        <li style="font-weight: normal;">CONDITION_TASK (statuts de tâche)</li> 
-       <li style="font-weight: normal;">CONDITION_OPTASK (statuts de problème)</li> 
+       <li style="font-weight: normal;">CONDITION_OPTASK (statuts de problème)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr>
@@ -634,7 +634,7 @@ Un objet CustomerPreferences représente l’ensemble des préférences définie
        <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (congés de l’utilisateur ou de l’utilisatrice)</li> 
        <li style="font-weight: normal;">timesheet:default.timesheet.manualrole (rôle de contrôle manuel)</li> 
        <li style="font-weight: normal;">proof:defaultNonRecipientRole (config.proofhq.defaultnonrecipientrole) </li> 
-       <li style="font-weight: normal;">proof:defaultNonRecipientGuestRole (config.proofhq.defaultnonrecipientguestrole)</li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientGuestRole (config.proofhq.defaultnonrecipientguestrole)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -695,7 +695,7 @@ Un objet Iteration représente une seule itération Agile. Les itérations sont 
     <ul> 
      <li style="font-weight: bold;">originalTotalPoints</li> 
      <li style="font-weight: bold;">pointsCompleted</li> 
-     <li style="font-weight: bold;">totalPoints</li> 
+     <li style="font-weight: bold;">totalPoints  </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -763,7 +763,7 @@ Un objet Note est un commentaire ou une mise à jour effectué(e) sur un objet W
    <td>Champs directs</td> 
    <td> <p>Les champs suivants ont été ajoutés à l’objet Note.</p> 
     <ul> 
-     <li style="font-weight: bold;">proofID</li> 
+     <li style="font-weight: bold;">proofID  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -796,7 +796,7 @@ Un objet OpTask est généralement appelé Problème. Un problème est un élém
      <li style="font-weight: bold;"><p>kanbanBoardID </p><p style="font-weight: normal;">Identifiant Workfront unique d’un objet de tableau Kanban.</p></li>
      <li style="font-weight: bold;"><p>percentComplete</p><p style="font-weight: normal;">Le Pourcentage terminé est un paramètre qui renvoie la quantité terminée d’un problème, sous forme de pourcentage.</p></li>
      <li style="font-weight: bold;">storyPoints</li>
-     <li style="font-weight: bold;">work</li>
+     <li style="font-weight: bold;">work  </li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -844,7 +844,7 @@ Un objet de paramètre est un champ personnalisé.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (Typeahead).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code objet d’un objet référencé. Les codes objet de tous les objets se trouvent dans l’<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code objet d’un objet référencé. Les codes objet de tous les objets se trouvent dans l’<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -996,7 +996,7 @@ La ressource ReservedTime a ajouté l’indicateur REPORTABLE (à signaler).
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>tâche</p> <p style="font-weight: normal;">Supprimé</p> </li> 
+     <li style="font-weight: bold;"> <p>tâche</p> <p style="font-weight: normal;">Supprimé  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1038,7 +1038,7 @@ Un objet Risk représente un événement possible qui peut empêcher un projet d
    <td> <p style="font-weight: normal;">Les champs de référence suivants ont été ajoutés à l’objet Risk :</p> 
     <ul> 
      <li style="font-weight: bold;">enteredBy</li> 
-     <li style="font-weight: bold;">lastUpdatedBy</li> 
+     <li style="font-weight: bold;">lastUpdatedBy  </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1060,7 +1060,7 @@ Un objet ScheduledReport représente un rapport qui a été configuré pour êtr
       <ul> 
        <li style="font-weight: normal;">A2</li> 
        <li style="font-weight: normal;">A1</li> 
-       <li style="font-weight: normal;">A0</li> 
+       <li style="font-weight: normal;">A0  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -1079,7 +1079,7 @@ Un objet ScoreCardQuestion représente une question qui a été ajoutée à une 
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (Typeahead)</p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (Typeahead)  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1121,7 +1121,7 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Supprimé</p> </li> 
+     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Supprimé  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1150,7 +1150,7 @@ Un objet Team est un ensemble d’utilisateurs et d’utilisatrices pouvant êtr
       <ul> 
        <li style="font-weight: normal;"> STORY_POINTS (points de l’histoire)</li> 
        <li style="font-weight: normal;">HOURS (heures)</li> 
-       <li style="font-weight: normal;">LEGACY_POINTS (heures sous forme de points)</li> 
+       <li style="font-weight: normal;">LEGACY_POINTS (heures sous forme de points)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -1265,7 +1265,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">Ajout de la valeur possible referenceObjectCustomData (enum.updatetypeenum.referenceobjectcustomdata).</p> </li> 
+     <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">Ajout de la valeur possible referenceObjectCustomData (enum.updatetypeenum.referenceobjectcustomdata).  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1331,7 +1331,7 @@ Les éléments de travail dans Workfront peuvent être mis à jour afin de tenir
    <td> <p style="font-weight: normal;">Les actions suivantes ont été ajoutées à l’objet User :</p> 
     <ul> 
      <li style="font-weight: bold;">acknowledgeMyNotifications</li> 
-     <li style="font-weight: bold;">unacknowledgedAllObjectsTypeCount</li> 
+     <li style="font-weight: bold;">unacknowledgedAllObjectsTypeCount  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1380,7 +1380,7 @@ Un objet Work est une interface commune dont Task et OpTask héritent tous deux 
    <td>Champs de référence</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Supprimé</p> </li> 
+     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Supprimé  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

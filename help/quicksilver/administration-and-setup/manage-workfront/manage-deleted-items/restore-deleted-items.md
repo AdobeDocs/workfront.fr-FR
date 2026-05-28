@@ -10,7 +10,7 @@ role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1029'
 ht-degree: 97%
 
 ---
@@ -45,7 +45,7 @@ Une personne chargée de l’administration de groupes peut également restaurer
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 

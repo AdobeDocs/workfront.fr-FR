@@ -10,7 +10,7 @@ role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2083'
 ht-degree: 96%
 
 ---
@@ -37,7 +37,7 @@ Pour plus d’informations sur les workflows automatisés, consultez la section 
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
-Vous devez disposer des accès suivants pour effectuer les étapes décrites dans cet article :
+Vous devez disposer des accès suivants pour effectuer les étapes de cet article :
 
 <table style="table-layout:auto"> 
  <col> 
