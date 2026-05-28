@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '981'
 ht-degree: 98%
 
 ---
@@ -176,6 +176,6 @@ Pour modifier en ligne un champ financier dans un rapport, procédez comme suit�
 1. Cliquez sur **Paramètres des rapports**.
 1. Cliquez sur la liste déroulante **Devise par défaut**, puis sélectionnez **Devise d’origine du projet**.
 
-   ![&#x200B; Devise par défaut &#x200B;](assets/qs-report-settings-default-currency-350x370.png)
+   ![ Devise par défaut ](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Cliquez sur **Terminé**.

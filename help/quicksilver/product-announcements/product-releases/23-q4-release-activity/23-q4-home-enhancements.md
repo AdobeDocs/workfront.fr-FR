@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
 source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 95%
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -31,12 +31,12 @@ Les options de gestion du travail disponibles dans la nouvelle page d’accueil 
 
 ## Nouvelle page de destination par défaut du contributeur ou de la contributrice : nouvelle page d’accueil
 
-La nouvelle page d’accueil est désormais la page de destination par défaut pour les comptes des personnes qui contribuent ou émettent des requêtes. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécialement sélectionnés pour permettre aux contributeurs et aux contributrices de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs et contributrices recevront également des instructions sur l’utilisation de la nouvelle page d’accueil et des widgets spécifiques disponibles par défaut dans le cadre d’une présentation personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : Mes requêtes, Mentions, Mon approbation et Panoramas. Notez que si une disposition avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur ou de contributrice, elle restera sa page d’accueil.
+La nouvelle page d’accueil est désormais la page de destination par défaut pour les comptes des personnes qui contribuent ou émettent des requêtes. Cette nouvelle page d’accueil par défaut comprend un certain nombre de widgets spécialement sélectionnés pour permettre aux contributeurs et aux contributrices de gérer leur travail immédiatement. Lors de leur première visite sur la page, les contributeurs et contributrices recevront également des instructions sur l’utilisation de la nouvelle page d’accueil et des widgets spécifiques disponibles par défaut dans le cadre d’une présentation personnalisée. Ces widgets par défaut pour les contributeurs sont les suivants : Mes requêtes, Mentions, Mon approbation et Tableaux. Notez que si une disposition avec une page d’accueil personnalisée est actuellement utilisée par un compte de contributeur ou de contributrice, elle restera sa page d’accueil.
 
 
 ## Changements dans le suivi du travail dans la nouvelle page d’accueil
 
-Pour répondre aux commentaires des utilisateurs et des utilisatrices,le filtre de période à l’échelle de la page et la barre de résumé des tâches dues et terminées ont été supprimés. Les widgets Projet, Tâche et Problème sont tous dotés de fonctions de filtrage intégrées qui vous permettent de personnaliser leur portée au cas par cas. En outre, ces widgets n’incluront désormais que le contenu actuellement actif en fonction du statut, ce qui garantit que le travail qu’ils suivent est toujours pertinent. Nous avons également limité les widgets qui affichent les bulles de nombre d’éléments à ceux qui les plus utiles : Mon travail, Mentions, Mon approbation et Tâches.
+Pour répondre aux commentaires des utilisateurs et des utilisatrices,le filtre de période à l’échelle de la page et la barre de résumé des tâches dues et terminées ont été supprimés. Les widgets Projet, Tâche et Problème sont tous dotés de fonctions de filtrage intégrées qui vous permettent de personnaliser leur portée au cas par cas. En outre, ces widgets n’incluront désormais que le contenu actuellement actif en fonction du statut, ce qui garantit que le travail qu’ils suivent est toujours pertinent. Nous avons également limité les widgets qui affichent des bulles de nombre d’éléments à ceux où cela est le plus utile : Mon travail, Mentions, Mon approbation et Tâches.
 
 
 ## Nouveaux boutons d’action rapide pour le widget Mon travail

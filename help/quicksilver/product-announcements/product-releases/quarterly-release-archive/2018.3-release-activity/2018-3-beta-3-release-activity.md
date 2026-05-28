@@ -1,30 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.3, version bêta 3
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.3 bêta 3. Cette fonctionnalité sera disponible dans l’environnement de prévisualisation le 16 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
+title: Activité de la version 2018.3 Beta 3
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 3. Cette fonctionnalité sera disponible dans l’environnement de prévisualisation le 16 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
 source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
-# Activité Version 2018.3, version bêta 3
+# Activité de la version 2018.3 Beta 3
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.3 bêta 3.Cette fonctionnalité sera disponible dans l’environnement de prévisualisation le 16 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 3. Cette fonctionnalité sera disponible dans l’environnement de prévisualisation le 16 août 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
 
 >[!NOTE]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour une liste de tous les changements apportés à la version 2018.3, voir [Vue d’ensemble de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version 2018.3 bêta 3 contient des améliorations à la fois pour les équipes d’administration Workfront et pour les autres utilisateurs et utilisatrices :
+La version Beta 3 de la version 2018.3 contient des améliorations pour les administrateurs et administratrices de Workfront et les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices**
 
@@ -35,14 +35,14 @@ La version 2018.3 bêta 3 contient des améliorations à la fois pour les équ
 * [La zone d’accueil est désormais la zone par défaut](#home-area-is-now-the-default).
 * [Hiérarchiser votre travail sur la page d’accueil](#prioritize-your-work-in-home)
 * [URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources](#unique-url-for-the-resource-planner-user-view)
-* [Charger une image de profil dans l’application mobile Workfront](#upload-profile-picture-in-the-workfront-mobile-app)
+* [Charger une image de profil dans l’application mobile Workfront](#upload-profile-picture-in-the-workfront-mobile-app) 
 * [Amélioration des formulaires personnalisés dans l’application mobile Workfront](#custom-form-improvement-in-the-workfront-mobile-app)
 * [Consigner des heures dans l’application mobile Workfront en mode Paysage](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [Réorganiser les icônes dans la barre de navigation inférieure de l’application mobile Workfront](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## La zone d’accueil est désormais la zone par défaut. {#home-area-is-now-the-default}
 
-Nous avons supprimé tous les balises bêta de la zone d’accueil. Tous les modèles de mise en page sont désormais définis par défaut dans la zone d’accueil en vue de la suppression de la zone Mon travail dans la version 2019.1.
+Nous avons supprimé tous les balises Beta de la zone d’accueil. Tous les modèles de mise en page sont désormais définis par défaut dans la zone d’accueil en vue de la suppression de la zone Mon travail dans la version 2019.1.
 
 ## Hiérarchiser votre travail sur la page d’accueil {#prioritize-your-work-in-home}
 
@@ -69,9 +69,9 @@ Auparavant, cette fonctionnalité n’était pas disponible.
 
 Pour plus d’informations, voir la section « URL unique pour la vue Utilisateur ou utilisatrice » dans [Vue d’ensemble de la navigation dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Charger une image de profil dans l’application mobile Workfront {#upload-profile-picture-in-the-workfront-mobile-app}
+## Charger une image de profil dans l’application mobile Workfront  {#upload-profile-picture-in-the-workfront-mobile-app}
 
-Vous pouvez désormais charger une image de profil à l’aide de l’application bêta Workfront pour Android.
+Vous pouvez désormais charger une image de profil à l’aide de l’application Beta Workfront pour Android.
 
 Auparavant, cette fonctionnalité n’était disponible que sur la plateforme iOS. 
 
@@ -81,7 +81,7 @@ Auparavant, cette fonctionnalité n’était disponible que sur la plateforme iO
 
 ## Amélioration des formulaires personnalisés dans l’application mobile Workfront {#custom-form-improvement-in-the-workfront-mobile-app}
 
-Les formulaires personnalisés apparaissent désormais dans l’onglet principal d’un objet de l’application bêta Workfront pour Android.
+Les formulaires personnalisés apparaissent désormais dans l’onglet principal d’un objet de l’application Beta Workfront pour Android.
 
 Auparavant, les formulaires personnalisés s’affichaient sur un onglet distinct.
 
@@ -91,7 +91,7 @@ Auparavant, les formulaires personnalisés s’affichaient sur un onglet distinc
 
 ## Consigner des heures dans l’application mobile Workfront en mode Paysage {#log-time-in-the-workfront-mobile-app-in-landscape-orientation}
 
-Vous pouvez désormais consigner des heures en mode Paysage dans l’application bêta Workfront pour Android.
+Vous pouvez désormais consigner des heures en mode Paysage dans l’application Beta Workfront pour Android.
 
 Auparavant, vous pouviez consigner des heures uniquement en mode portrait.
 
@@ -101,7 +101,7 @@ Auparavant, vous pouviez consigner des heures uniquement en mode portrait.
 
 ## Réorganiser les icônes dans la barre de navigation inférieure de l’application mobile Workfront {#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app}
 
-Vous pouvez désormais personnaliser l’ordre dans lequel les zones de la barre de navigation inférieure apparaissent lors de l’utilisation de l’application bêta Workfront pour Android.
+Vous pouvez désormais personnaliser l’ordre dans lequel les zones de la barre de navigation inférieure apparaissent lors de l’utilisation de l’application Beta Workfront pour Android.
 
 Auparavant, cette fonctionnalité n’était disponible que sur la plateforme iOS.
 

@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 99%
+source-wordcount: '1814'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les personnes sont des ressources de premier ordre. Avec l’équilibreur de cha
 
 >[!NOTE]
 >
->La première version de l’équilibreur de charge de travail était la version bêta 2019.4. Toutes les améliorations de l’équilibreur de charge de travail sont disponibles dans la version 2020.2. Les améliorations décrites sur cette page ont été ajoutées à la version 2020.2. Pour une vue d’ensemble de l’équilibreur de charge de travail, consultez [Vue d’ensemble de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>La première version de l’équilibreur de charge de travail était la version Beta 2019.4. Toutes les améliorations de l’équilibreur de charge de travail sont disponibles dans la version 2020.2. Les améliorations décrites sur cette page ont été ajoutées à la version 2020.2. Pour une vue d’ensemble de l’équilibreur de charge de travail, consultez [Vue d’ensemble de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Ajuster les affectations quotidiennes et hebdomadaires dans l’équilibreur de charge de travail
 
@@ -142,7 +142,7 @@ Pour une vue d’ensemble de toutes les contraintes de tâche, voir [Vue d’ens
 
 ## Empêcher les pertes de données lors des modifications dans l’onglet Détails ou dans une liste de tâches
 
-Lors de l’enregistrement manuel des modifications effectuées sur la page Détails du projet ou des tâches dans une liste de tâches à l’échelle du projet., un message d’avertissement s’affiche pour vous informer que vous avez enregistré des modifications avant que vous ne tentiez de modifier les informations dans l’en-tête. Cela est fait afin d’éviter toute perte de données lorsque vous mettez à jour les informations de ces éléments. Les seules actions autorisées avant d’enregistrer vos modifications sont l’abonnement ou l’ajout de l’objet à vos favoris.
+Pour éviter toute perte de données lors de la mise à jour d’informations sur la page Détails d’un objet ou des tâches d’une liste de tâches au niveau du projet dans le cas de l’enregistrement manuel des modifications, un message d’avertissement s’affiche désormais avant toute tentative de modification de l’en-tête pour vous informer que des modifications n’ont pas été enregistrées. Les seules actions autorisées avant d’enregistrer vos modifications sont l’abonnement ou l’ajout de l’objet à vos favoris.
 
 Pour plus d’informations sur la modification des tâches dans une liste, voir [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
@@ -188,6 +188,6 @@ Pour plus d’informations sur la gestion des affectations dans l’équilibreur
 
 Pour plus d’informations sur l’octroi de l’accès à la gestion des ressources, voir [Accorder l’accès à la gestion des ressources](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-## Suppression du libellé « bêta » de l’équilibreur de charge de travail
+## Suppression du libellé « Beta » de l’équilibreur de charge de travail
 
-Avec la version 2020.2, l’équilibreur de charge de travail ne sera plus en version bêta et vous pourrez utiliser l’équilibreur de ressource pour passer en revue et gérer vos affectations et allocations de ressources. Le libellé « bêta » a été supprimé dans l’environnement de prévisualisation. Cette même modification sera apportée avec la version de production 20.2. Pour plus d’informations sur l’équilibreur de charge de travail, voir [Vue d’ensemble de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Avec la version 2020.2, l’équilibreur de charge de travail ne sera plus en version Beta et vous pourrez utiliser l’équilibreur de ressource pour passer en revue et gérer vos affectations et allocations de ressources. Le libellé « Beta » a été supprimé dans l’environnement de prévisualisation. Cette même modification sera apportée avec la version de production 20.2. Pour plus d’informations sur l’équilibreur de charge de travail, voir [Vue d’ensemble de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Cette page décrit toutes les autres améliorations apportées par la version 2
 
 Pour obtenir la liste de toutes les modifications disponibles avec la version 2020.2, consultez l’article [Présentation de la version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
-## Pour les administrateurs et administratrices de Workfront : les nouveaux modèles de disposition créés dans Workfront Classic sont désormais disponibles dans la nouvelle expérience Workfront.
+## Pour les administrateurs et administratrices de Workfront : les nouveaux modèles de mise en page créés dans Workfront Classic sont désormais disponibles dans la nouvelle expérience Workfront.
 
-Les modèles de disposition créés dans Workfront Classic après l’automne 2019 sont désormais disponibles dans la nouvelle expérience Workfront. Il est conseillé de mettre à jour ces modèles de disposition dans la nouvelle expérience Workfront afin de profiter des nouvelles fonctionnalités et de les rendre aussi utiles que possible aux utilisateurs et utilisatrices de cet environnement.
+Les modèles de mise en page créés dans Workfront Classic après l’automne 2019 sont désormais disponibles dans la nouvelle expérience Workfront. Il est conseillé de mettre à jour ces modèles de mise en page dans la nouvelle expérience Workfront afin de profiter des nouvelles fonctionnalités et de les rendre aussi utiles que possible aux utilisateurs et utilisatrices de cet environnement.
 
-Pour plus d’informations, voir [Modèles de disposition](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Pour plus d’informations, voir [Modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 **Disponibles dans ces environnements :**
 
