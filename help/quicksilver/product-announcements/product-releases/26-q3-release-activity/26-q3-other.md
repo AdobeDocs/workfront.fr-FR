@@ -4,7 +4,7 @@ description: Autres améliorations au cours du troisième trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
@@ -61,4 +61,3 @@ Les champs de référence tels que la saisie semi-automatique et les champs de r
 En outre, l’expérience de glisser-déposer de colonnes (sur les listes où le glisser-déposer est disponible) a été améliorée visuellement.
 
 Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
