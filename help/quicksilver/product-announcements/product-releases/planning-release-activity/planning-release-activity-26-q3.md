@@ -282,7 +282,7 @@ Outre l&#39;ajout de deux vues de page de détails déjà créées, qui contienn
 
 Cette mise à jour supprime le paramètre **Afficher tous les champs** et le remplace par des vues détaillées personnalisées.
 
-Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Ajouter des regroupements à une page d’enregistrement connecté Projets
 
@@ -293,4 +293,4 @@ Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/qui
 
 Vous pouvez désormais regrouper vos informations dans la page Enregistrements connectés à des projets d’un enregistrement dans Workfront Planning. Cette fonctionnalité n&#39;existait pas dans ce domaine avant cette amélioration.
 
-Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
