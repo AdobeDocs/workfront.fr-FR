@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 22%
+source-wordcount: '1114'
+ht-degree: 23%
 
 ---
 
@@ -60,15 +60,30 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
 
+<!--
+<div class="preview">
+
+* Records
+    
+    * You can share records with people inside your organization.
+    * Users inherit permissions from the workspace and the record type by default. 
+    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+
+    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+
+</div>
+
+-->
 
 * Vues
 
    * Vous devez donner aux utilisateurs, y compris aux administrateurs système, les autorisations d’accéder aux vues séparément de leurs autorisations d’accès aux espaces de travail.
    * Lorsque vous partagez une vue, tous les éléments de vue sont partagés, notamment les filtres, le regroupement, le tri ou les paramètres.
    * Lorsque vous partagez une vue, les enregistrements visibles dans la vue ne sont pas partagés. Les enregistrements doivent être partagés en partageant les espaces de travail.
-   * Vous pouvez partager une vue publiquement avec des personnes extérieures à votre organisation lorsque vous générez un lien public pour une vue. Les personnes accédant à la page d&#39;enregistrement à partir d&#39;un lien public peuvent afficher tous les enregistrements et leurs champs, y compris les enregistrements et champs connectés.
+   * Vous pouvez partager une vue publiquement avec des personnes extérieures à votre organisation lorsque vous générez un lien public pour une vue.Les personnes qui accèdent à la page d&#39;enregistrement à partir d&#39;un lien public peuvent afficher tous les enregistrements et leurs champs, y compris les enregistrements et champs connectés.
 
   Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Considérations sur le partage d’objets dans Adobe Workfront Planning
 
@@ -78,15 +93,11 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 * Les administrateurs système peuvent gérer tous les espaces de travail du système, y compris ceux qu’ils n’ont pas créés.
 * Les autres utilisateurs et utilisatrices, y compris les administrateurs et administratrices système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux. Les administrateurs système ne peuvent être autorisés qu&#39;à gérer une vue.
 
-* Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés.
-
-  >[!IMPORTANT]
-  >
-  >Les utilisateurs avec lesquels vous souhaitez partager des objets Planning doivent être ajoutés au Adobe Admin Console. Vous ne pouvez pas partager des objets Planning avec des utilisateurs de Workfront qui n&#39;ont pas été ajoutés au Adobe Admin Console.
+* Lorsque vous partagez des espaces de travail et des types d’enregistrements avec d’autres personnes, le niveau d’autorisation du type d’enregistrement est automatiquement hérité des enregistrements et des champs qui leur sont associés par défaut.
 
 * Vous pouvez partager des objets Planning des manières suivantes :
 
-   * En interne, vous pouvez partager un espace de travail, une vue ou un type d’enregistrement avec les entités Workfront suivantes :
+   * En interne, vous pouvez partager des objets Workfront Planning avec les entités Workfront suivantes :
 
       * Utilisateurs et utilisatrices
       * Groupes
@@ -181,6 +192,8 @@ Les scénarios suivants sont possibles :
 
 Les autorisations d’enregistrement sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
 
+<!--In the Production environment, -->
+
 Voici les niveaux d’autorisation des enregistrements :
 
 
@@ -190,6 +203,42 @@ Voici les niveaux d’autorisation des enregistrements :
 | Supprimer | ✓ | ✓ |       |
 | Modifier | ✓ | ✓ |       |
 | Afficher | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, the following are the levels of permissions for records: 
+
+|        | Manage |  View  |
+|--------|--------|-------|
+| Create | ✓      |       |
+| Delete | ✓      |       |
+| Edit   | ✓      |       |
+| View   | ✓      | ✓     |
+
+
+
+Record permissions are always inherited when you grant permissions to the workspace and the record type.
+
+You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+
+You cannot give users lower or higher permissions on the record than they have on the record type. 
+
+The following scenarios exist: 
+
+|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, Remove permissions*           |
+| Contribute |     Manage |  Manage, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |
+
+>[!NOTE]
+>
+>*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+
+</div>
+-->
 
 ### Autorisations pour les champs d’enregistrement
 
@@ -214,7 +263,7 @@ Vous devez autoriser les utilisateurs à accéder aux vues pour leur permettre d
 * Filtres
 * Visibilité du champ
 * Trier
-* Regroupement 
+* Regroupement
 * Hauteur de ligne
 * Paramètres
 

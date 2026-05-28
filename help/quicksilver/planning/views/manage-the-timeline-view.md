@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
-ht-degree: 35%
+source-wordcount: '4251'
+ht-degree: 34%
 
 ---
 
 # Gérer la vue chronologique
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Tenez compte des points suivants lorsque vous utilisez des filtres dans la vue c
 
 * Vous pouvez filtrer par champs d’enregistrement connectés ou champs de recherche.
 * Vous pouvez filtrer par champs de recherche qui affichent plusieurs valeurs.
+* <span class>Vous pouvez filtrer les types d’enregistrements dans la vue Chronologie ou tout type d’enregistrement connecté qui fait partie de la structure de répartition dans la vue. </span>
 
 Pour ajouter un filtre à une vue chronologique :
 
 1. Créez une vue chronologique pour une page de type enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
-1. Sélectionnez une vue chronologique, puis cliquez sur **Filtres** dans le coin supérieur droit du tableau.
+1. Sélectionnez une vue chronologique, puis cliquez sur **Filtres** dans le coin supérieur gauche du tableau.
+1. <span class>(Conditionnel) Si vous avez ajouté une structure de répartition à la vue chronologique, développez le type d’enregistrement dans la première liste déroulante de la zone de filtre. Il s’agit du type d’enregistrement dont vous affichez la vue chronologique. </span>
 1. Cliquez sur **Ajouter une condition** et ajoutez les informations suivantes :
 
    * **Sélectionnez un champ** pour rechercher un champ et le sélectionner dans la liste.
@@ -374,14 +376,19 @@ Pour ajouter un filtre à une vue chronologique :
    * **OR** : l’une des conditions spécifiées doit être remplie.
 Il s’agit de l’option par défaut.
 
-   1. (Facultatif) Ajoutez des regroupements de filtres supplémentaires et joignez-les par des opérateurs **AND** ou **OR**.
-
-      ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
+1. (Facultatif) Ajoutez des regroupements de filtres supplémentaires et joignez-les par des opérateurs **AND** ou **OR**.
 
    La liste des enregistrements est filtrée automatiquement en fonction de vos critères de filtrage.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
+1. <span class="preview">(Facultatif et conditionnel) Si vous avez ajouté une structure de répartition à votre vue chronologique, développez le type d’enregistrement dans la liste déroulante suivante et répétez les mêmes étapes que ci-dessus pour ajouter un filtre pour un type d’enregistrement inclus dans la répartition. </span>
+
+   <span class="preview"> Répéter pour chaque type d’enregistrement de la répartition.</span>
+
+   ![Filtre à plusieurs niveaux avec répartition pour la vue Chronologie](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">Vous pouvez filtrer les types d’enregistrements de répartition uniquement à partir de la vue chronologique.</span>
 1. (Facultatif) Cliquez sur **Filtres** ou n’importe où sur la page pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 

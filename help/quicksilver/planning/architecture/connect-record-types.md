@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3095'
 ht-degree: 25%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 25%
 
 # Connecter des types d’enregistrements
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -341,7 +341,7 @@ Old:
    >
    >* Outre les champs système tels que le nom et la description, vous pouvez ajouter les types de champs suivants en tant que champs de recherche à partir des types d’objet d’une autre application :
    >   * Champs utilisateur, tels que Propriétaire du projet ou Sponsor, des projets Workfront.
-   >   * Champs de référence, tels que Groupe de projets ou Entreprise du projet des projets Workfront.
+   >   * <span class="preview">Champs de référence, tels que Groupe de projets ou Entreprise du projet des projets Workfront. </span>
    >* Seuls les champs suivants sont pris en charge pour les fragments de contenu AEM : <!--this information is also in "Connect record types overview"-->
    >   * Créé par et Créé à
    >   * Modifié par et modifié à
