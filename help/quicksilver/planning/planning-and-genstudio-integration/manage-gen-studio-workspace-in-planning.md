@@ -8,15 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 5%
+source-wordcount: '1769'
+ht-degree: 6%
 
 ---
 
 
 <!--
+
 Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
@@ -26,6 +27,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
@@ -49,7 +51,7 @@ Pour obtenir des informations générales sur l’intégration de GenStudio à W
 >[!IMPORTANT]
 >
 >Les étapes décrites dans cet article illustrent comment mettre à jour l’espace de travail GenStudio à partir de Workfront Planning lorsque vous disposez des autorisations de gestion pour celui-ci.
-> Toutes les fonctionnalités ne sont pas disponibles lorsque vous disposez des autorisations de niveau Contribution pour l’espace de travail GenStudio.
+> Certaines fonctionnalités ne sont pas disponibles lorsque vous disposez des autorisations de niveau Contribution pour l’espace de travail GenStudio.
 >
 >Si votre société dispose de plusieurs instances de Workfront, tous les utilisateurs disposent des autorisations de niveau Contribution sur l’espace de travail GenStudio dans Workfront Planning.
 
@@ -147,7 +149,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -230,7 +232,7 @@ La page principale de Workfront Planning s’ouvre.
 
 1. Cliquez sur **Autres espaces de travail** et recherchez un espace de travail qui comporte une indication créée par le **Système** et la balise **GenStudio** sur sa carte.
 
-   ![Carte d’espace de travail GenStudio avec balise &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![Carte d’espace de travail GenStudio avec balise ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Cliquez sur la carte **Espace de travail** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
 1. Par défaut, les types d’enregistrements GenStudio suivants sont créés et visibles à partir de Workfront Planning :
@@ -304,7 +306,7 @@ La page principale de Workfront Planning s’ouvre.
 Pour plus d’informations, voir [Partager les types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
       * **Partager la vue actuelle**
 Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
-      * **Copiez le lien d’affichage**
+      * **Copier le lien de la vue**
 Un lien vers la vue est copié dans le presse-papiers.
       * **Exporter la vue courante**
 Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
@@ -373,21 +375,38 @@ Pour plus d’informations, voir [Exporter des enregistrements en mode Tableau](
 
    * Connexions
 
-     Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+     Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
      Les champs créés à partir de l’espace de travail GenStudio sont visibles dans les zones suivantes :
 
-      * Vues Workfront Planning
-      * Détails de l’enregistrement Workfront Planning
-      * Détails de l’enregistrement GenStudio
+      * Vues Workfront Planning dans Workfront Planning
+      * Détails de l’enregistrement Workfront Planning dans Workfront Planning
+      * Détails de l’enregistrement GenStudio dans GenStudio for Performance Marketing
 
      >[!NOTE]
      >
-     >* Vous ne pouvez ajouter d’autres champs que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
+     >* Vous ne pouvez ajouter des champs que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
      >* Les champs créés dans Workfront Planning ne sont pas visibles dans la vue Liste de GenStudio.
      >
      >* Vous pouvez connecter n’importe quel type d’enregistrement GenStudio au type d’enregistrement Brands GenStudio.
      >  Par défaut, les produits et les personnes concernées sont connectés aux marques.
+     >
+     >* Vous pouvez connecter les types d’enregistrements GenStudio dans Planning à AEM Assets ou les fragments de contenu dans Adobe Experience Manager. Vous devez disposer d’une licence AEM pour pouvoir vous connecter aux objets AEM.
+     >
+
+1. (Conditionnel) Si vous avez connecté des types d’enregistrement GenStudio à partir de l’espace de travail GenStudio dans Planning avec des ressources AEM ou des fragments de contenu, procédez comme suit pour accéder à AEM et afficher les informations d’enregistrement GenStudio :
+
+   1. (Conditionnel) Depuis une ressource AEM connectée, dans l’espace de travail GenStudio, cliquez sur le nom de la ressource, puis sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir dans AEM](assets/open-in-aem-icon.png) pour ouvrir la ressource dans AEM.
+   1. Cliquez pour sélectionner l’onglet **Campagne** dans le panneau de droite.
+
+      Le nom de la campagne connectée à la ressource s’affiche dans le champ **Campagne**. Il s’agit d’un champ en lecture seule.
+Si la ressource est également connectée à une **Région**, **Persona**, **Produit** ou **Canal** dans l’espace de travail GenStudio de Planning, les champs respectifs de ces types d’enregistrements affichent leur nom dans l’onglet **Campagne** de la ressource en mode lecture seule.
+   1. (Conditionnel) Depuis un fragment de contenu AEM connecté dans l’espace de travail GenStudio de Planning, cliquez sur le nom du fragment de contenu, puis cliquez sur l’icône **Ouvrir dans AEM** ![Icône Ouvrir dans AEM](assets/open-in-aem-icon.png) pour ouvrir le fragment de contenu dans AEM.
+   1. Cliquez sur l’icône **Accueil** ![Icône Accueil dans AEM](assets/home-icon-in-aem.png) pour accéder à une liste de fragments de contenu, puis cliquez sur l’icône **informations** ![Icône Informations dans AEM](assets/info-icon-in-aem.png) à droite du nom du fragment de contenu.
+   1. Cliquez sur l’onglet **Métadonnées** dans le panneau de droite.
+
+      Le nom de la campagne connectée au fragment de contenu s’affiche dans le champ **xdm: campaignName**. Il s’agit d’un champ en lecture seule. <!--tried to log a bug to rename this field-->
+Si la ressource est également connectée à une **Région**, **Persona**, **Produit** ou **Canal** dans l’espace de travail GenStudio de Planning, les champs respectifs de ces types d’enregistrements affichent leur nom dans l’onglet **Métadonnées** du fragment de contenu en mode lecture seule.
 
 1. Pointez sur un champ en mode Tableau, puis cliquez sur le menu déroulant pour effectuer l’une des opérations suivantes :
 
