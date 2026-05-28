@@ -5,10 +5,9 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 98d5b93bcb99c468de2ad107a2aca3a9a1995429
+source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -16,70 +15,89 @@ ht-degree: 0%
 
 # Configuration du serveur MCP Adobe Workfront
 
-Le serveur MCP [!DNL Adobe Workfront] vous permet de travailler avec vos données Workfront par le biais d’une conversation en langage naturel sur une plateforme agentique d’IA prise en charge, telle que Claude ou ChatGPT.
+{{highlighted-preview-article-level}}
+
+
+Le serveur MCP [!DNL Adobe Workfront] vous permet d’utiliser vos données Workfront par le biais d’une conversation en langage naturel sur une plateforme agentique d’IA prise en charge.
 
 Avant de pouvoir connecter une plateforme agentique d’IA à Workfront, un administrateur Workfront doit activer l’accès au serveur MCP dans votre instance Workfront. Les étapes exactes pour connecter une plateforme IA agentic sont différentes pour chaque plateforme AI agentic prise en charge.
 
-Pour plus d’informations sur le serveur Workfront MCP, consultez la section [Présentation du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
+>[!IMPORTANT]
+>
+>Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients situés dans la région des États-Unis qui utilisent AWS.
 
 ## Plateformes d’IA et d’ingénierie prises en charge
 
-Le serveur Workfront MCP prend actuellement en charge les plateformes d’agents IA suivantes :
+Le serveur MCP Workfront fonctionne avec toute plateforme agentique d’IA prenant en charge le protocole MCP (Model Context Protocol).
+
+Cet article décrit les étapes de connexion pour :
 
 * [!DNL Claude]
 * [!DNL ChatGPT]
+
+Si vous utilisez une autre plateforme d’IA agentic compatible avec les MCP (par exemple, [!DNL Gemini] ou [!DNL Microsoft Copilot]), suivez les étapes de la documentation de cette plateforme pour ajouter un serveur MCP personnalisé. À l’invite d’URL du serveur MCP, saisissez : `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+
 
 ## Conditions préalables
 
 Avant de pouvoir connecter Workfront à une plateforme agentique d’IA, vous devez :
 
-* disposer d’un compte [!DNL Adobe Workfront] actif avec l’autorisation d’accéder aux données que vous souhaitez utiliser ;
-* Avoir accès à une plateforme agentic d’IA telle que [!DNL Claude].
+* disposer d’un compte [!DNL Adobe Workfront] actif autorisé à accéder aux données que vous souhaitez utiliser ;
+* Avoir accès à une plateforme agentic d’IA telle que [!DNL Claude]
 
 ### Conditions préalables d’administration
 
 L’accès au serveur MCP est contrôlé par deux administrateurs distincts.
 
-* **Votre administrateur Workfront** contrôle l’accès au serveur MCP pour votre instance Workfront. L’accès est activé par défaut dans les Préférences système. Aucune action n’est donc requise, sauf si votre administrateur a choisi de le désactiver. <!-- TODO: link to the System Preferences AI preferences article once the Enable MCP toggle is documented there. -->
+* Votre administrateur Workfront contrôle l’accès au serveur MCP pour votre instance Workfront par le biais de deux boutons (bascule) dans les Préférences système : **Outils MCP en lecture seule** (activé par défaut) et **Outils MCP en écriture** (désactivé par défaut). Si vous trouvez des éléments Workfront via la plateforme agentic d’IA, mais que vous ne pouvez pas les créer, les mettre à jour ou les supprimer, demandez à votre administrateur Workfront d’activer les actions d’écriture.
 
-* Si vous utilisez une version d’entreprise d’une plateforme AI agentic, l’administrateur de cette plateforme doit activer le connecteur [!DNL Adobe Workfront] pour votre organisation.
+  Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+* Si vous utilisez une version d’entreprise d’une plateforme AI agentic, l’administrateur de cette plateforme doit activer le connecteur [!DNL Adobe Workfront] pour votre organisation ou vous donner un accès URL personnalisé pour vous connecter au serveur MCP Workfront.
 
 
 ## Connecter Workfront à Claude
 
 Vous vous connectez à Workfront une fois par compte [!DNL Claude]. La connexion vous authentifie à une instance Workfront spécifique et vous restez connecté jusqu’à ce que vous choisissiez de vous déconnecter.
 
-### Connexion à partir du répertoire des connecteurs
 
-+++ Développez pour afficher les instructions détaillées relatives à la connexion de Workfront à [!DNL Claude].
 
-Pour connecter Workfront à [!DNL Claude] :
+### Connectez-vous au bureau Claude à partir du répertoire des connecteurs
 
-1. Ouvrez [!DNL Claude].
+Bientôt disponible.
 
-1. Accédez à la zone des connecteurs.
+<!--
 
-   <!-- NEEDS DETAIL: Exact menu path (for example, "Click Settings, then click Connectors"). -->
++++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
-1. Recherchez **[!DNL Adobe Workfront]** dans la liste des connecteurs.
+To connect Workfront to [!DNL Claude]:
 
-   Si vous ne le voyez pas, reportez-vous à la section [Conditions préalables d’administration](#admin-prerequisites) de cet article.
+1. Open [!DNL Claude].
 
-1. Cliquez sur **Connecter**.
+1. Navigate to the connectors area.
 
-   <!-- NEEDS DETAIL: Confirm the exact button label. -->
 
-1. Lorsque vous y êtes invité, connectez-vous à votre instance Workfront.
 
-   <!-- NEEDS DETAIL: Describe the auth flow — does it open a new browser tab, an in-app window, prompt for a Workfront domain? -->
+1. Find **[!DNL Adobe Workfront]** in the connector list.
 
-1. Une fois l’authentification terminée, vous êtes connecté.
+   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
 
-   <!-- NEEDS DETAIL: Add a screenshot of the connected state in Claude. -->
+1. Click **Connect**.
+
+
+
+1. When prompted, log in to your Workfront instance.
+
+
+1. After authentication completes, you're connected.
+
+
 
 +++
 
-### Se connecter avec une URL
+-->
+
+### Se connecter au bureau Claude avec une URL
 
 +++ Développez pour afficher les instructions détaillées permettant de connecter Workfront à [!DNL Claude] avec une URL.
 
@@ -198,8 +216,7 @@ What happens next
 | L&#39;authentification a échoué ou la connexion a cessé de fonctionner. | Votre session d’authentification a expiré ou une erreur de connexion s’est produite. | Déconnectez-vous et reconnectez le connecteur. |
 | Vous souhaitez passer à une autre instance Workfront. | Une seule connexion vous lie à une instance. | Déconnectez-vous, reconnectez-vous et authentifiez-vous sur la nouvelle instance. |
 | Vous ne pouvez pas vous connecter à Workfront, ou un message indiquant que l’accès au serveur MCP est désactivé s’affiche. | Votre administrateur Workfront a désactivé l’accès au serveur MCP pour votre instance. | Contactez votre administrateur Workfront et demandez-lui d’activer l’accès au serveur MCP dans les Préférences système. |
-
-<!-- NEEDS DETAIL: Add additional setup/authentication troubleshooting scenarios discovered during hands-on testing. -->
+| La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
 Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

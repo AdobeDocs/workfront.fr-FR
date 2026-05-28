@@ -3,7 +3,7 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e9e00f99ec75156b20407cba7914e746123ec010
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
 source-wordcount: '14155'
 ht-degree: 94%
@@ -941,12 +941,12 @@ ht-degree: 94%
       * [Activer ou désactiver l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Remplir automatiquement une requête à l’aide de l’IA](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [Vue d’ensemble de l’intégrité du projet](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
-   * {hide-from-toc} du serveur MCP Workfront {#workfront-mcp-server}
-      * {hide-from-toc}[Serveur Workfront MCP : index des articles](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-      * {hide-from-toc}[Présentation du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
-      * {hide-from-toc}[Configuration du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
-      * {hide-from-toc}[Utiliser le serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
-      * {hide-from-toc}[Outils de serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+   * Serveur MCP Workfront {#workfront-mcp-server}
+      * [Serveur MCP Workfront : index des articles](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * [Présentation du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+      * [Outils de serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
    * Mettre à jour des éléments de travail et afficher les mises à jour {#update-work-items-view-updates}
       * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Vue d’ensemble de la section Mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2197,7 +2197,7 @@ ht-degree: 94%
       * [Partager des espaces de travail](planning/access/share-workspaces.md)
       * [Partager des types d’enregistrements](planning/access/share-record-types.md)
       * [Partager des vues](planning/access/share-views.md)
-      * {hide-from-toc}[Partager des enregistrements](planning/access/share-records.md)
+      * [Partager des enregistrements](planning/access/share-records.md)
       * [Demander des autorisations pour une vue ou un espace de travail](planning/access/request-permissions.md)
    * Enregistrements d’Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Enregistrements : index des articles](planning/records/records-information.md)

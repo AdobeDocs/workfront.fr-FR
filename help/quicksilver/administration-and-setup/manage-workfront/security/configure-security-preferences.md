@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 65%
+source-wordcount: '933'
+ht-degree: 58%
 
 ---
 
@@ -99,7 +99,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Collaborer avec des personnes sans les comptes Workfront en utilisant leur adresse e-mail</p> </td> 
-      <td>Permet aux utilisateurs et utilisatrices de Workfront de partager certains éléments avec des personnes sans compte Workfront en incluant leur adresse e-mail au lieu de leur nom. Les utilisateurs et utilisatrices peuvent partager les éléments suivants avec des utilisateurs et utilisatrices externes à l’aide de leur adresse e-mail :
+      <td>Permet aux utilisateurs de Workfront de partager certains éléments avec des personnes sans compte Workfront en incluant leur adresse e-mail au lieu de leur nom. Les utilisateurs peuvent partager les éléments suivants avec des utilisateurs externes à l’aide de leur adresse e-mail :
        <ul>
         <li>Document<br></li>
         <li>Demande de document<br></li>
@@ -148,6 +148,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader">Participer aux programmes bêta de l’IA </td> 
       <td>Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Outils MCP en lecture seule</span></td> 
+      <td><span class="preview">Permet au serveur Workfront MCP d’effectuer des actions de lecture sur les données Workfront, par exemple, rechercher ou répertorier des projets, des tâches ou d’autres éléments. Cette option est activée par défaut.<p>Pour plus d’informations sur le serveur MCP Workfront, consultez <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuration du serveur MCP Adobe Workfront</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Outils de création de MCP</span></td> 
+      <td><span class="preview">Permet au serveur Workfront MCP d’effectuer des actions de création, de mise à jour et de suppression sur les données Workfront. Cette option est désactivée par défaut.<p>Pour plus d’informations sur le serveur MCP Workfront, consultez <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuration du serveur MCP Adobe Workfront</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Environnements de test</td> 
