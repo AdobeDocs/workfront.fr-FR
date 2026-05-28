@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 9%
@@ -50,4 +50,3 @@ Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté l
 Un administrateur Workfront peut ajouter ou supprimer les vues d’un modèle de mise en page. Vous ne pouvez pas modifier, supprimer ou partager les vues. Vous pouvez les copier et mettre à jour ou partager une copie.
 
 Pour plus d’informations, voir [Création et gestion des vues dans la zone des Demandes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-

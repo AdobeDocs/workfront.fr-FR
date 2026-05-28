@@ -4,7 +4,7 @@ description: Améliorations apportées à l’administration au troisième trime
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 4%
@@ -66,4 +66,3 @@ Pour plus d’informations, voir [Partager un formulaire personnalisé](/help/qu
 Actuellement, lorsque vous modifiez des objets en bloc, les champs obligatoires ne sont appliqués que lorsqu’un utilisateur modifie le champ. Si un champ n’est pas modifié, il est traité comme facultatif et non validé.
 
 Une nouvelle préférence système vous permet désormais d’appliquer les champs obligatoires dans la modification en bloc. Pour ne pas autoriser l’enregistrement d’objets modifiés en bloc à moins que tous les champs obligatoires n’aient des valeurs, sélectionnez l’option **Toujours appliquer les champs obligatoires dans la modification en bloc** sur la page Configuration > Système > Préférences.
-
