@@ -5,7 +5,7 @@ title: Utiliser le serveur MCP Adobe Workfront
 description: Utilisez le serveur Adobe Workfront MCP pour rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel dans une plateforme agentique d’IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
@@ -254,3 +254,4 @@ article.
 Le serveur MCP se met généralement à jour automatiquement, mais vous devrez peut-être actualiser votre connexion au serveur MCP à certains moments pour voir les outils et fonctionnalités les plus récents.
 
 +++
+

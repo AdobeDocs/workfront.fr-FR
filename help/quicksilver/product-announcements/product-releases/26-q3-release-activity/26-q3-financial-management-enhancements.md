@@ -4,10 +4,10 @@ description: Améliorations de la gestion financière pour le troisième trimest
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,10 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 21 mai 2026>Version rapide de production : 21 mai 2026>Production pour tous : 21 mai 2026>Cette fonctionnalité n’est disponible que pour les organisations qui utilisent le package Workflow Ultimate.
+>Aperçu : 21 mai 2026>Version rapide de production : 21 mai 2026>Production pour tous : 21 mai 2026>Cette fonctionnalité n’est disponible que pour les organisations sur le package Workflow Ultimate.
 
 Une fois qu’un attribut est ajouté à un taux dans Workfront, vous ne pouvez plus modifier cet attribut et ses filtres dans la zone Configuration . Cela permet de préserver l’intégrité des données et d’empêcher toute modification accidentelle des taux lorsque des attributs sont mis à jour.
 
 Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
 
