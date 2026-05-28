@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # Aperçu de la révision et de l’approbation unifiées
+
+{{highlighted-preview}}
 
 La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
 Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
@@ -303,7 +305,9 @@ Actuellement, les modèles d’approbation prennent en charge les utilisateurs i
 
 Oui. Les approbateurs et les réviseurs reçoivent des notifications par e-mail lorsqu’ils sont affectés à une révision ou une approbation. Les e-mails de rappel automatisés sont également envoyés 72 heures avant l’échéance, 24 heures avant l’échéance et à l’échéance elle-même.
 
-La possibilité de personnaliser les messages de notification par e-mail n’est pas actuellement disponible, mais elle figure sur la feuille de route du produit.
+En production, la possibilité de personnaliser les messages de notification par e-mail n’est actuellement pas disponible, mais elle figure sur la feuille de route du produit.
+
+<span class="preview">Dans la Prévisualisation, vous pouvez ajouter un message personnalisé à chaque étape d’un workflow d’approbation. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront. Vous pouvez utiliser le même message pour chaque étape ou un message différent par étape et le message peut contenir jusqu’à 500 caractères. Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
