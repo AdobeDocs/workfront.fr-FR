@@ -204,7 +204,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
 
    La boîte **Partager** s’ouvre.
 
-   ![Autorisations pour les enregistrements avec des autorisations héritées sur ](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![Autorisations pour les enregistrements avec des autorisations héritées sur &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
 
    >[!WARNING]
    >
