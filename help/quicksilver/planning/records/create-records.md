@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3265'
-ht-degree: 14%
+source-wordcount: '3275'
+ht-degree: 15%
 
 ---
 
@@ -332,7 +332,7 @@ Pour plus d’informations sur la création d’une vue chronologique, voir [Gé
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé.
 
 1. Cliquez pour ouvrir une vue chronologique ou pour créer d’abord une vue chronologique.
 
@@ -403,7 +403,7 @@ Pour plus d’informations sur la création d’une vue Calendrier, voir [Gérer
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 
-   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé.
 
 1. Cliquez pour ouvrir une vue Calendrier ou pour créer une vue Calendrier.
 

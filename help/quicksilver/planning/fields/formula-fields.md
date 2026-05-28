@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 29%
+source-wordcount: '784'
+ht-degree: 26%
 
 ---
 
@@ -235,7 +235,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
    </td></tr>
   <tr> 
    <td><strong> JSONELEMENT </strong> </td> 
-   <td> <p>Renvoie les données du fichier JSON en fonction du chemin JSONP fourni. Si le JSONPath n’existe pas dans le fichier JSON, un résultat vide est renvoyé. </p> <p>L'expression est formatée comme suit :
+   <td> <p>Renvoie les données du fichier JSON en fonction du chemin JSONP fourni. Si le JSONPath n’existe pas dans le fichier JSON, un résultat vide est renvoyé. </p> <p>L’expression est au format suivant :
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
@@ -249,7 +249,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour de début de la semaine (utilisez 1 pour dimanche ou 2 pour lundi). Si cette option est omise, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
+   <td> <p>Renvoie le numéro de la semaine dans une année. Vous pouvez éventuellement indiquer le jour où la semaine commence (utilisez 1 pour le dimanche ou 2 pour le lundi). Si cet attribut est omis, les semaines commencent le dimanche, par défaut.</p> <p>L’expression est formatée comme suit :
 
 <code>WEEKOFYEAR(date,2)</code>
 ou

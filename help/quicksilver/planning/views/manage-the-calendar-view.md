@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 24%
+source-wordcount: '1793'
+ht-degree: 25%
 
 ---
 
@@ -311,7 +311,7 @@ Pour ajouter un filtre à une vue Calendrier :
 
       ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
 
-   La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
+   La liste des enregistrements est automatiquement filtrée.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
@@ -431,7 +431,7 @@ Mettez à jour les paramètres de la vue Calendrier pour indiquer les informatio
 1. Dans la section **Définir la couleur de l’enregistrement sur**, sélectionnez l’une des options suivantes pour définir une couleur pour les enregistrements :
 
    * **Type d’enregistrement** : la couleur des barres d’enregistrement du calendrier correspond à la couleur du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
-   * **Valeurs de champ** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez.
+   * **Valeurs des champs** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez.
    * **Aucune** : les enregistrements s’affichent dans une barre blanche.
 
 1. (Le cas échéant) Si vous avez sélectionné **Valeurs de champ** pour les couleurs des enregistrements, sélectionnez un champ dans le menu déroulant **Faire correspondre la couleur de l’enregistrement à**.
