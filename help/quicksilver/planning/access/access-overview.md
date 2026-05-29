@@ -8,10 +8,10 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 28%
+source-wordcount: '759'
+ht-degree: 29%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 28%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 >[!IMPORTANT]
 >
@@ -87,7 +87,7 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
     </td>
    </tr>
    <tr>
-   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td>
+   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
    <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
    </td>
    </tr>
@@ -96,13 +96,13 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <td>
    <ul>
    <li><p>Autorisations d’affichage ou supérieures aux espaces de travail, aux types d’enregistrements et aux vues que vous n’avez pas créés pour y accéder et à leurs objets.</p></li>
-   <li><p>Accordez des autorisations supérieures ou supérieures aux espaces de travail et aux types d’enregistrements que vous n’avez pas créés pour les modifier et créer, modifier ou supprimer des types d’enregistrements et des enregistrements.</p></li>
+   <li><p>Autorisations de niveau supérieur ou de niveau supérieur relatives aux espaces de travail et aux types d’enregistrements que vous n’avez pas créés pour les modifier et créer, modifier ou supprimer des types d’enregistrements.</p></li>
+   <li><p><span class="preview">Gérer les autorisations de modification, de partage ou de suppression des enregistrements.</p>
    <li><p>Autorisations de niveau Contribution ou supérieur aux vues que vous n’avez pas créées, pour les modifier, les supprimer et les partager</p>
    </li>
     <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
     <li><p>Les administrateurs système ne peuvent pas accéder aux vues qu'ils n'ont pas créées. </p></li></ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Workfront Planning</a> 
+   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
    </td>
    </tr>
    <tr>

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2232'
 ht-degree: 4%
 
 ---
@@ -61,17 +61,20 @@ Le contrôle de version de l’API Planning s’effectue via le chemin URL.
 
 Voici les versions actuellement prises en charge :
 
-| Version | Date de publication |
-|-----------|----------------|
-| Version 1 | Juillet 2024 |
-| Version 2 | Mai 2026 |
-
 <!--
 
 (*****************add deprecation date column above, when we have one*****************)
 
 -->
 
+| Version | Date de publication |
+|-----------|----------------|
+| Version 1 | Juillet 2024 |
+| Version 2 | Mai 2026 |
+
+>[!NOTE]
+>
+>Le connecteur Workfront Planning pour Workfront Fusion n’a pas été mis à jour vers la version 2 de l’API et continuera à utiliser la version 1 jusqu’à nouvel ordre.
 
 Pour plus d’informations sur les versions actuellement prises en charge, consultez l’article [Documentation destinée aux développeurs et développeuses de l’API Workfront Planning](https://developer.adobe.com/wf-planning).
 
@@ -206,7 +209,7 @@ json
 
 Vous pouvez utiliser des modificateurs et des filtres avec des champs pour contrôler les données qui seront renvoyées dans les résultats.
 
-Pour obtenir des exemples, consultez la documentation du développeur de l’API Workfront Planning [&#128279;](https://developer.adobe.com/wf-planning/).
+Pour obtenir des exemples, consultez la documentation du développeur de l’API Workfront Planning [](https://developer.adobe.com/wf-planning/).
 
 ### Utilisation des modificateurs de recherche
 

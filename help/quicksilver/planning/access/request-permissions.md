@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '597'
 ht-degree: 10%
 
 ---
 
 # Demander des autorisations pour une vue ou un espace de travail
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ Ou
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>  <p>Une fois votre demande d’autorisation accordée, vous pouvez obtenir les autorisations suivantes :</p>
    <ul><li><p>Affichage ou gestion d’une vue</p></li>
-   <li><p>Affichage, contribution ou gestion d’un espace de travail</p></li></ul>  
+   <li><p>Affichage, contribution ou gestion d’un espace de travail</p></li>
+   <li><p>Afficher, Contribuer ou Gérer pour un type d’enregistrement</p></li>
+   <li><p><span class="preview">Afficher ou gérer pour un enregistrement</span></p></li>
+   </ul>  
    <p>Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail et une vue peuvent partager une vue publiquement.</p></td> 
   </tr> 
 <tr>
@@ -168,17 +171,22 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 -->
 
 
-## Demander des autorisations pour une vue ou un espace de travail
+## Demander des autorisations
 
-Demander des autorisations pour une vue est similaire à demander une autorisation pour un espace de travail.
+Demander des autorisations pour une vue est similaire à demander une autorisation pour un espace de travail, un type d’enregistrement ou <span class="preview">un enregistrement</span>.
 
-Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail ou une vue auquel vous n&#39;avez pas accès :
+Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail, un type d&#39;enregistrement, un <span class="preview">enregistrement</span> ou une vue auxquels vous n&#39;avez pas accès :
 
 1. Cliquez sur le lien partagé avec vous pour la vue ou l&#39;espace de travail.
 
    Une page **Vous n’avez pas accès** s’affiche pour vous informer que vous n’avez pas accès à la vue ou à l’espace de travail.
 
    ![Demander l’accès à la vue](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >Lorsque vous n’avez pas accès à un type d’enregistrement ou <span class="preview">enregistrement</span>, la page Vous n’avez pas accès à indique que vous devez avoir accès à l’espace de travail.
+
 
 1. (Conditionnel) Si le lien partagé correspond à une vue de l&#39;espace de travail auquel vous avez accès, cliquez sur **Ouvrir avec la vue existante**. Si vous disposez des autorisations nécessaires pour accéder à l’espace de travail, la page de type d’enregistrement s’ouvre dans la vue par défaut.
 

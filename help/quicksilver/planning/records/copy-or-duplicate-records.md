@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 20%
+source-wordcount: '547'
+ht-degree: 17%
 
 ---
 
 # Dupliquer des enregistrements
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -55,7 +55,7 @@ Vous pouvez dupliquer un enregistrement existant dans la vue Tableau. Une copie 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail et à un type d’enregistrement  </p>  
+   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et <span class="preview">gérer les autorisations d’un enregistrement</span> </p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr>   
 </tbody> 
@@ -139,7 +139,7 @@ Vous pouvez créer des enregistrements dans la vue Tableau d&#39;une page de typ
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
+   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
 Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) Sélectionnez une vue de tableau.
@@ -152,7 +152,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    * Sélectionnez un enregistrement, puis cliquez sur l&#39;icône **Dupliquer** ![Icône Dupliquer en blanc et bleu](assets/duplicate-icon-white-and-blue.png) dans la barre d&#39;outils située en bas de la page.
 
-     ![&#x200B; Icône Dupliquer dans la barre d’outils en mode Tableau &#x200B;](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ Icône Dupliquer dans la barre d’outils en mode Tableau ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Un enregistrement identique avec un nom identique est créé sous l’enregistrement d’origine. Tous les champs du nouvel enregistrement sont remplis avec les mêmes informations que dans l&#39;enregistrement d&#39;origine.
 
@@ -160,7 +160,7 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 

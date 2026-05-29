@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 9%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -54,14 +54,8 @@ Vous pouvez recevoir des notifications in-app de Workfront Planning lorsque les 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations d’affichage ou supérieures à un espace de travail</a> </p>  
+   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
-   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
@@ -146,7 +140,7 @@ OLD:
 
 1. (Conditionnel) Lorsqu’un utilisateur vous a identifié ou identifié vos équipes dans un commentaire sur un enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
-   ![&#x200B; Exemple de notification in-app &#x200B;](assets/in-app-notification-example.png)
+   ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
 
 1. Cliquez sur la notification.
 
@@ -167,6 +161,6 @@ Pour plus d’informations sur la gestion des notifications Workfront Planning, 
 
 Vous recevez une notification in-app lorsqu’une personne soumet une demande pour approbation ou lorsqu’une personne approuve une demande que vous avez soumise.
 
-Pour plus d’informations sur l’envoi de demandes, voir [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur l’envoi de demandes, voir [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 Pour plus d’informations sur l’approbation des demandes, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

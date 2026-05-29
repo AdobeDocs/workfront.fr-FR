@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 3%
 
 ---
@@ -179,7 +179,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
       * **Objet** : nom de la demande d’origine tel qu’il a été ajouté dans la zone des Demandes. Vous ne pouvez pas masquer ni supprimer le champ **Objet** de la liste des demandes. Le nom comporte un lien qui ouvre la page de requête dans Planning.
       * **Objet créé** : nom de l&#39;enregistrement créé à partir de la demande tel qu&#39;il s&#39;affiche dans Planning. Le nom de l’objet Créé comporte un lien qui ouvre l’enregistrement créé à partir de la requête.
       * **Type d&#39;objet** : nom de l&#39;espace de travail et type d&#39;enregistrement dans lequel des enregistrements ont été créés à partir de la demande dans Planning.
-      * **Statut** : statut de l’objet de la requête.
+      * **Statut** : statut de l’objet de la requête. Pour plus d’informations sur les statuts des demandes, voir [Afficher les demandes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
       * **Formulaire de demande** : nom du formulaire de demande associé au type d&#39;enregistrement dans Planning.
       * **Statut de l’objet créé** : le statut de l’enregistrement créé.
 
