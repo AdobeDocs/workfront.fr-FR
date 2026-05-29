@@ -8,10 +8,10 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '3546'
-ht-degree: 28%
+source-wordcount: '3585'
+ht-degree: 27%
 
 ---
 
@@ -96,7 +96,7 @@ Vous pouvez connecter les éléments suivants :
    <p> Outre Adobe Workfront, vous devez disposer des éléments suivants si vous souhaitez connecter des enregistrements à des objets provenant des applications suivantes :</p>
    <ul><li><p>Une licence Adobe Experience Manager et une intégration entre Adobe Experience Manager et Workfront pour connecter des ressources AEM ou des fragments de contenu à des types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
-   <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
+   <li><p> Une licence Adobe GenStudio for Performance Marketing pour connecter les types d’enregistrements aux marques GenStudio ou pour avoir accès à l’espace de travail GenStudio</p>
    <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
@@ -408,12 +408,13 @@ Après avoir établi une connexion entre un type d’enregistrement et des objet
 >[!NOTE]
 >
 >Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Lorsque vous connectez des enregistrements de l’espace de travail GenStudio dans Planning à des objets AEM (ressources et fragments de contenu), les informations GenStudio s’affichent automatiquement sur les objets AEM dans AEM. Les informations AEM s’affichent pour les enregistrements GenStudio dans les champs de recherche ajoutés lorsque la connexion est établie dans Workfront Planning. Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
 -->
 
-Pour connecter des enregistrements à des objets Experience Manager :
+Pour connecter des enregistrements à des objets Adobe Experience Manager :
 
 {{step1-to-planning}}
 
@@ -424,7 +425,7 @@ Pour connecter des enregistrements à des objets Experience Manager :
 1. Sélectionnez une vue **Tableau** dans le menu déroulant **Affichage** dans le coin supérieur gauche de la page du type d’enregistrement.
 
 1. (Facultatif) Cliquez sur **Nouvel enregistrement** pour ajouter de nouveaux enregistrements au type d’enregistrement que vous avez sélectionné. Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-1. (Conditionnel) Après avoir connecté le type d’enregistrement sélectionné à des objets Experience Manager, accédez au champ connecté d’un enregistrement et cliquez sur le champ ou cliquez sur **Connexion** pour ajouter des objets Experience Manager à l’enregistrement, puis cliquez sur l’icône **+**.
+1. (Conditionnel) Après avoir connecté le type d’enregistrement sélectionné à des objets AEM, accédez au champ connecté d’un enregistrement et cliquez sur le champ ou cliquez sur **Connexion** pour ajouter des objets Experience Manager à l’enregistrement, puis cliquez sur l’icône **+**.
 
    >[!TIP]
    >
@@ -451,7 +452,7 @@ Pour connecter des enregistrements à des objets Experience Manager :
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
+   > Vous pouvez connecter uniquement les ressources que vous êtes autorisé à afficher dans Experience Manager. Une fois la connexion établie, tous les utilisateurs de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
    > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Dans l’onglet **Fragments de contenu**, sélectionnez les fragments de contenu à ajouter au champ d’enregistrement lié.
@@ -465,13 +466,19 @@ Pour connecter des enregistrements à des objets Experience Manager :
    * Les ressources Experience Manager ou les fragments de contenu sélectionnés sont ajoutés au champ d’enregistrement lié.
    * Les champs liés (ou champs de recherche) sont renseignés avec les informations des objets connectés d’Experience Manager.
 
-     Toutes les informations existantes des champs des ressources Experience Manager ou des fragments de contenu s’affichent automatiquement dans les champs liés ou de recherche. <!--verifying of fragments also share lookup fields - not sure from the UI available-->
-
      >[!TIP]
      >
      >* Lorsque vous choisissez de connecter plusieurs enregistrements lors de la connexion des types d’enregistrements, les valeurs des différents objets s’affichent séparées par des virgules ou agrégées en fonction de l’agrégateur de votre choix.
      >
      >* Un champ d’enregistrement lié aux enregistrements liés de Workfront Planning n’est pas créé pour les ressources de Experience Manager liées dans l’application Experience Manager Assets.
+
+     Toutes les informations contenues dans les champs des ressources Experience Manager ou des fragments de contenu s&#39;affichent automatiquement dans les champs liés ou de recherche ajoutés automatiquement à Planning.
+
+     Si vous connectez des types d’enregistrements GenStudio for Performance Marketing à partir de l’espace de travail GenStudio dans Planning avec des objets AEM, vous pouvez afficher des informations GenStudio pour les campagnes, les régions, les rôles, les produits et les canaux dans AEM.
+
+     Vous devez disposer d’une licence Adobe GenStudio for Performance Marketing en plus d’une licence AEM et Workfront Planning pour afficher l’espace de travail GenStudio dans Workfront Planning.
+
+     Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
 
 1. (Facultatif et conditionnel) Accédez au type d’enregistrement à partir duquel vous avez lié Experience Manager et cliquez sur le nom d’une ressource dans le champ d’enregistrement lié. Les détails Experience Manager de la ressource s’affichent dans une fenêtre pop-up. <!--not sure if this is also possible for fragments??-->
 

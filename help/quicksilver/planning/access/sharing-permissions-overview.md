@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 23%
+source-wordcount: '1372'
+ht-degree: 21%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 23%
 
 # Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* Enregistrements
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * Vous pouvez partager des enregistrements avec des personnes au sein de votre organisation.
+   * Les utilisateurs héritent par défaut des autorisations de l’espace de travail et du type d’enregistrement.
+   * Vous ne pouvez pas partager un enregistrement avec un niveau d&#39;autorisation supérieur ou inférieur à celui dont dispose l&#39;utilisateur sur le type d&#39;enregistrement.
+
+  Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
 
 </div>
-
--->
 
 * Vues
 
@@ -190,11 +183,9 @@ Les scénarios suivants sont possibles :
 
 ### Autorisations aux enregistrements
 
-Les autorisations d’enregistrement sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
+Les autorisations d’enregistrement sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement, par défaut.
 
-<!--In the Production environment, -->
-
-Voici les niveaux d’autorisation des enregistrements :
+Dans l’environnement de production, les niveaux d’autorisation des enregistrements sont les suivants :
 
 
 |        | Gérer | Contribuer | Afficher |
@@ -204,41 +195,36 @@ Voici les niveaux d’autorisation des enregistrements :
 | Modifier | ✓ | ✓ |       |
 | Afficher | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+Dans l’environnement de Prévisualisation, les niveaux d’autorisation des enregistrements sont les suivants :
 
-|        | Manage |  View  |
+|        | Gérer | Afficher |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| Créer | ✓ |       |
+| Supprimer | ✓ |       |
+| Modifier | ✓ |       |
+| Afficher | ✓ | ✓ |
 
+Les autorisations d’enregistrement sont toujours héritées lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
 
+Vous pouvez supprimer les autorisations héritées de l’enregistrement reçues du type d’enregistrement. Les responsables Workspace et les créateurs d’enregistrements conservent les autorisations de gestion de l’enregistrement.
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+Vous ne pouvez pas accorder aux utilisateurs des autorisations inférieures ou supérieures sur l’enregistrement qu’ils n’ont sur le type d’enregistrement.
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+Les scénarios suivants sont possibles :
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Autorisations de type Workspace et enregistrement | Autorisations héritées automatiques pour un enregistrement | Autorisations d’enregistrement possibles lorsque les autorisations héritées sont désactivées (accordées manuellement) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| Gérer | Gérer | Gérer, supprimer des autorisations* |
+| Contribuer | Gérer | Gérer, supprimer des autorisations* |
+| Afficher | Afficher | Afficher, Supprimer des autorisations* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*Lorsque vous supprimez des autorisations d’un enregistrement, les utilisateurs conservent toujours les autorisations d’affichage de l’espace de travail et du type d’enregistrement, sauf si vous supprimez leurs autorisations de l’espace de travail.
 
 </div>
--->
 
 ### Autorisations pour les champs d’enregistrement
 
@@ -284,7 +270,10 @@ Vous trouverez ci-dessous les niveaux d’autorisations pour les vues et les él
 | Afficher | ✓ |
 | Appliquer | ✓ |
 
-*Les utilisateurs doivent disposer d’autorisations d’affichage ou d’autorisations supérieures dans un espace de travail pour obtenir cet accès en affichage.
+>[!NOTE]
+>
+>*Les utilisateurs doivent disposer d’autorisations d’affichage ou d’autorisations supérieures dans un espace de travail pour obtenir cet accès en affichage.
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

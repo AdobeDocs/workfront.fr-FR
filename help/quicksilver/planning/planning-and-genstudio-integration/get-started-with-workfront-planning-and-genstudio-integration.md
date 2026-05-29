@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 4%
+source-wordcount: '2351'
+ht-degree: 3%
 
 ---
 
@@ -52,11 +52,12 @@ Grâce à l’intégration entre Workfront Planning et GenStudio for Performance
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Affichez l’espace de travail GenStudio dans Workfront Planning.
-* Modifiez vos campagnes, produits, personnages et activations dans GenStudio for Performance Marketing et disposez des mises à jour en temps réel des mêmes informations dans Workfront Planning.
+* Modifiez vos campagnes, produits, personnages, régions et activations dans GenStudio for Performance Marketing et disposez des mises à jour en temps réel des mêmes informations dans Workfront Planning.
 * Modifiez vos campagnes, produits, personnages et activations dans Workfront Planning et disposez des mises à jour en temps réel des mêmes informations dans GenStudio for Performance Marketing.
 * Évitez la saisie de données en double.
 * Maintenir l’alignement des efforts de planification et d’activation.
 * Connecter les marques GenStudio et leurs informations aux enregistrements Workfront Planning.
+* Synchronisez les informations GenStudio des campagnes, produits, rôles, régions et canaux avec AEM Assets et les fragments de contenu lorsqu’ils se connectent à ces types d’enregistrements dans l’espace de travail GenStudio de Planning.
 
 ## Exigences d’intégration
 
@@ -376,16 +377,23 @@ Tenez compte des points suivants à propos des champs de type d’enregistrement
 
 Vous pouvez créer des connexions entre les types d’enregistrements dans les espaces de travail GenStudio pour lesquels vous disposez des autorisations de gestion.
 
-<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
-
 Dans Workfront Planning, vous pouvez établir les connexions suivantes entre les types d&#39;enregistrements GenStudio et d&#39;autres types d&#39;enregistrements ou d&#39;objets :
 
 * Deux types d’enregistrements GenStudio
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning du même espace de travail
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning d’un autre espace de travail, si les types d’enregistrement sont configurés pour se connecter à partir d’un autre espace de travail.
 * Un type d’enregistrement GenStudio et un type d’objet Workfront (projets, portfolios, programmes, sociétés, groupes)
-* Un type d’enregistrement GenStudio et un type d’objet AEM. Vous devez disposer d&#39;une licence pour que Adobe Experience Manager accède aux objets AEM, en plus d&#39;une licence pour Workfront Planning et pour Adobe GenStudio for Performance Marketing.
-* Types d’enregistrements GenStudio et marques GenStudio. La connexion Marques est ajoutée aux types d’enregistrements Produits et Personnes par défaut.
+* Un type d’enregistrement GenStudio et un type d’objet AEM (Assets ou Fragments de contenu). Vous devez disposer d&#39;une licence pour que Adobe Experience Manager puisse accéder aux objets AEM, ainsi que d&#39;une licence pour Workfront Planning et d&#39;une licence pour Adobe GenStudio for Performance Marketing.
+* Un type d’enregistrement GenStudio et GenStudio Brands. La connexion Marques est ajoutée aux types d’enregistrements Produits et Personnes par défaut.
+
+### Synchronisation des métadonnées entre les enregistrements de l’espace de travail GenStudio et les objets AEM
+
+Lorsque des types d’objet AEM (ressources et fragments de contenu) sont connectés à des types d’enregistrement GenStudio à partir de l’espace de travail GenStudio, les informations suivantes se synchronisent entre les enregistrements GenStudio et les objets AEM :
+
+* les informations sur les ressources et les fragments de contenu d’AEM s’affichent dans l’espace de travail GenStudio dans les champs de recherche ajoutés lorsque les types d’enregistrements sont connectés.
+* Les informations d’enregistrement GenStudio s’affichent sur la ressource AEM dans l’onglet Campagne ou sur le fragment de contenu dans l’onglet Métadonnées d’AEM.
+
+  Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 ### Formulaires de demande et automatisations dans le type d’enregistrement GenStudio
 
