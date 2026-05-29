@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 65%
+source-wordcount: '128'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,6 @@ ht-degree: 65%
 
 En tant qu’administrateur ou administratrice Workfront, vous devez autoriser vos utilisateurs et utilisatrices à utiliser Adobe Workfront Planning.
 
-
 Les articles suivants contiennent des informations sur l’accès dont vos utilisateurs et utilisatrices ont besoin pour utiliser les fonctionnalités de Workfront Planning :
 
 * [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
@@ -37,7 +36,12 @@ Les articles suivants contiennent des informations sur l’accès dont vos utili
 * [Demander des autorisations pour une vue ou un espace de travail](/help/quicksilver/planning/access/request-permissions.md)
 * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
-* [Partager les types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
-  <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
+* [Partager des types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md)
+
+<div class="preview">
+
+* [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md)
+
+</div>
 
 

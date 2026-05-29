@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 44%
+source-wordcount: '1179'
+ht-degree: 43%
 
 ---
 
@@ -155,7 +155,7 @@ Old:
 
       * Lorsque vous les importez à l’aide d’un fichier CSV ou Excel.
 
-        Pour plus d’informations, voir [Création de types d’enregistrements à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+        Pour plus d’informations, consultez la section [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) dans cet article.
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         Cet article décrit comment créer des types d’enregistrements à partir de zéro.
 
       * En les ajoutant depuis un autre espace de travail
-Pour plus d’informations, voir [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Pour plus d’informations, consultez la section [Créer des types d’enregistrements en ajoutant des types existants à partir d’un autre espace de travail](#create-record-types-by-adding-existing-ones-from-another-workspace) dans cet article.
 
 
 * Vous pouvez déplacer des types d’enregistrements dans une section et d’une section d’un espace de travail vers une autre. Vous ne pouvez pas déplacer des types d’enregistrements d’un espace de travail vers un autre.
@@ -230,7 +230,7 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
 
 1. Cliquer sur **Enregistrer**.
 
-   La carte du type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
+   La vignette de type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionnés.
 La Description du type d’enregistrement s’affiche sur la carte.
 
    ![Carte de type enregistrement avec description](assets/record-type-card-with-description.png)
