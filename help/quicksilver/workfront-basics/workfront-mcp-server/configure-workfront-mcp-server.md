@@ -5,9 +5,9 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Avant de pouvoir connecter Workfront à une plateforme agentique d’IA, vous de
 
 * disposer d’un compte [!DNL Adobe Workfront] actif autorisé à accéder aux données que vous souhaitez utiliser ;
 * Avoir accès à une plateforme agentic d’IA telle que [!DNL Claude]
+* Votre instance Workfront doit être activée sur le système Adobe Identity Management (IMS).
 
 ### Conditions préalables d’administration
 
@@ -217,7 +218,7 @@ What happens next
 | Vous ne pouvez pas vous connecter à Workfront, ou un message indiquant que l’accès au serveur MCP est désactivé s’affiche. | Votre administrateur Workfront a désactivé l’accès au serveur MCP pour votre instance. | Contactez votre administrateur Workfront et demandez-lui d’activer l’accès au serveur MCP dans les Préférences système. |
 | La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
-Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [ Utiliser le serveur Adobe Workfront MCP ](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 
 +++
@@ -233,5 +234,9 @@ Non. Chaque connexion lie une plateforme agentique d’IA à une seule instance 
 ### Quel administrateur l’active ?
 
 Votre administrateur Workfront et l’administrateur de votre plateforme AI agentic. Votre administrateur Workfront active l’accès au serveur MCP côté Workfront. L’administrateur de votre plateforme d’IA agentic active l’accès à Workfront du côté de cette plateforme. Par [!DNL Claude], l’administrateur d’[!DNL Claude] Enterprise active le connecteur [!DNL Adobe Workfront].
+
+### Puis-je utiliser le serveur MCP Workfront si mon instance Workfront n’est pas activée sur le système Adobe Identity Management (IMS) ?
+
+Non. Votre instance Workfront doit être activée sur Adobe Identity Management System (IMS) pour utiliser le serveur MCP Workfront. Si vous ne savez pas si votre instance est activée sur IMS, contactez votre administrateur Workfront.
 
 +++

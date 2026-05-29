@@ -5,9 +5,9 @@ title: Utiliser le serveur MCP Adobe Workfront
 description: Utilisez le serveur Adobe Workfront MCP pour rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel dans une plateforme agentique d’IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ Le serveur MCP [!DNL Adobe Workfront] vous permet de rechercher, créer, mettre 
 >Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients situés dans la région des États-Unis qui utilisent AWS.
 
 ## Conditions préalables
+
+* Vous devez configurer la connexion entre votre plateforme IA agentic et le serveur Workfront MCP. Pour obtenir des instructions de configuration, voir [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+* Votre instance Workfront doit être activée sur le système Adobe Identity Management (IMS).
+* Vous devez disposer d’un compte Workfront avec le niveau d’accès et les autorisations d’objet nécessaires pour les éléments que vous souhaitez utiliser.
+
 
 Cet article suppose que vous avez déjà configuré la connexion. Pour plus d’informations sur la configuration, voir [Configuration du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -251,5 +256,10 @@ article.
 ### Que se passe-t-il lorsqu’une nouvelle version du serveur MCP Workfront est publiée ?
 
 Le serveur MCP se met généralement à jour automatiquement, mais vous devrez peut-être actualiser votre connexion au serveur MCP à certains moments pour voir les outils et fonctionnalités les plus récents.
+
+### Puis-je utiliser le serveur MCP Workfront si mon instance Workfront n’est pas activée sur le système Adobe Identity Management (IMS) ?
+
+Non. Votre instance Workfront doit être activée sur Adobe Identity Management System (IMS) pour utiliser le serveur MCP Workfront. Si vous ne savez pas si votre instance est activée sur IMS, contactez votre administrateur Workfront.
+
 
 +++
