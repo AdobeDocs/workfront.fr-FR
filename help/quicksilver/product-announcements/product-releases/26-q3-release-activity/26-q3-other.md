@@ -4,10 +4,10 @@ description: Autres améliorations au cours du troisième trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,26 @@ Cette page décrit les améliorations apportées à l’environnement de Prévis
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+
+## Mise à jour de l’aspect des e-mails de notification de commentaire
+
+>[!NOTE]
+>
+>Version de production pour les clients : déploiement échelonné, date de début à annoncer
+
+Les notifications par e-mail pour les commentaires dans la zone Mises à jour ont une nouvelle apparence qui s’aligne sur la conception plus large des e-mails d’Adobe.
+
+Le format d’e-mail mis à jour comprend les éléments suivants :
+
+* Un nouvel en-tête Adobe Workfront remplaçant le branding Workfront précédent.
+* Une disposition rationalisée qui se concentre sur le commentaire le plus récent.
+* Un bouton principal **Voir dans Workfront** pour ouvrir directement l’élément.
+
+Le fil des commentaires précédents n’est plus inclus dans le corps de l’e-mail. Pour afficher les commentaires précédents sur l’élément, utilisez **Voir dans Workfront** pour ouvrir la conversation dans Workfront.
+
+Cette modification est déployée par phases auprès des clients. Cette page sera mise à jour lorsque le planning de déploiement sera confirmé.
+
+![email de notification de commentaire mis à jour.png](assets/email-look-and-feel-update.png)
 
 ## Connexion de Workfront à vos outils d’IA avec le serveur MCP Workfront
 
