@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 21%
+source-wordcount: '1443'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du troisième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -250,6 +250,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Tous les trimestres</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Mise à jour de l’aspect des e-mails de notification de commentaire</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Les notifications par e-mail pour les commentaires dans la zone Mises à jour ont une nouvelle apparence qui s’aligne sur la conception plus large des e-mails d’Adobe. Le fil des commentaires précédents n’est plus inclus dans le corps de l’e-mail.</p>
+            </td>
+            <td><p>Déploiement échelonné, date de début à annoncer</p></td>
+            <td><p>Déploiement échelonné, date de début à annoncer</p></td>
+            <td><p>Déploiement échelonné, date de début à annoncer</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Connectez votre plateforme IA agentic à Workfront avec le serveur MCP Workfront</a>
                 <p>Le nouveau serveur Workfront MCP connecte Workfront à une plateforme d’IA agentique prise en charge, telle que Claude ou ChatGPT, afin que vous puissiez rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel. Actuellement disponible uniquement pour les clients situés aux États-Unis qui utilisent AWS.</p>
             </td>
@@ -341,7 +350,7 @@ Pour plus d’informations, voir [Prise en main de la version d’essai gratuite
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
