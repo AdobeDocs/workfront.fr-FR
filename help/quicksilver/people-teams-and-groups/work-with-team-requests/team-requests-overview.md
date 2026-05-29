@@ -9,10 +9,10 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 99%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Les demandes de l’équipe se trouvent dans la zone [!UICONTROL Équipes] dans 
 >
 >Les équipes Agile ne disposent pas de demandes de l’équipe.
 
-L’onglet [!UICONTROL Demandes de l’équipe] affiche les demandes en attente d’affectation pour l’équipe actuellement sélectionnée dans la liste déroulante. Le nombre entre parenthèses indique le nombre d’éléments prêts à être traités.
+L’onglet [!UICONTROL Demandes de l’équipe] affiche les demandes en attente d’affectation pour l’équipe actuellement sélectionnée dans la liste déroulante. Le nombre entre parenthèses indique le nombre d’éléments prêts à être traités. L’onglet [!UICONTROL Demandes de l’équipe] peut afficher jusqu’à 2 000 demandes pour une équipe.
 
 Une demande de l’équipe représente un élément de travail en attente qui n’est pas affecté à une personne spécifique. Au lieu de cela, elle est affectée à une équipe et toute personne membre de cette équipe peut se porter volontaire pour accepter la responsabilité de l’élément. Si une personne se porte volontaire pour travailler sur une demande de l’équipe, elle accepte l’affectation du travail comme étant la sienne. La tâche est affectée à un utilisateur ou une utilisatrice en plus de l’équipe.
 

@@ -6,10 +6,10 @@ description: Lorsque des tâches et des événements vous sont affectés, ils so
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: f1ab7f32131f997f65fb56834fa683ed6a020b0a
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 39%
+source-wordcount: '808'
+ht-degree: 38%
 
 ---
 
@@ -85,7 +85,9 @@ Pour afficher un élément de travail dans le widget Mon travail :
 
 ## Accéder à une demande d’équipe dans le widget Demande d’équipe
 
-Vous pouvez accéder directement à une demande affectée à votre équipe à partir du widget Demandes de l’équipe dans la zone [!UICONTROL Accueil]. Pour plus d’informations sur les demandes d’équipe, voir [Vue d’ensemble des demandes d’équipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Vous pouvez accéder directement à une demande affectée à votre équipe à partir du widget Demandes de l’équipe dans la zone [!UICONTROL Accueil]. Le widget [!UICONTROL Demandes de l’équipe] peut afficher jusqu’à 2 000 demandes pour une équipe.
+
+Pour plus d’informations sur les demandes d’équipe, voir [Vue d’ensemble des demandes d’équipe](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 Pour accéder à une demande d&#39;équipe :
 
