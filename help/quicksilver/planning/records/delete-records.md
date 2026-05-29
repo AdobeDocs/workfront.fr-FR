@@ -25,7 +25,7 @@ ht-degree: 35%
 
 {{planning-important-intro}}
 
-Vous pouvez supprimer des enregistrements qui ne sont plus pertinents dans Adobe Workfront Planning. Vous pouvez récupérer les enregistrements supprimés pendant 30 jours après leur suppression. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
+Vous pouvez supprimer des enregistrements qui ne sont plus pertinents dans Adobe Workfront Planning. Vous pouvez récupérer les enregistrements supprimés pendant 30 jours après leur suppression. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [&#x200B; Récupérer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ## Conditions d’accès
 
@@ -164,7 +164,7 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 L’enregistrement est supprimé.
 1. (Facultatif) Accédez à la vue Tableau de la page d’enregistrement, puis cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
 
-Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
+Pour plus d’informations sur la récupération des enregistrements supprimés, voir [&#x200B; Récupérer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Supprimer un enregistrement de la vue en tableau d’un type enregistrement
 
@@ -193,7 +193,7 @@ Pour plus d’informations sur la récupération des enregistrements supprimés,
 
 1. (Facultatif) Effectuez l’une des opérations suivantes pour annuler ou rétablir la suppression d’un enregistrement :
 
-   * Cliquez sur l&#39;icône **Annuler** ![Icône Annuler](assets/undo-icon.png), puis **Récemment supprimé** pour récupérer les enregistrements supprimés. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [ Récupérer les enregistrements supprimés ](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Cliquez sur l&#39;icône **Annuler** ![Icône Annuler](assets/undo-icon.png), puis **Récemment supprimé** pour récupérer les enregistrements supprimés. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [&#x200B; Récupérer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
 
       * Ctrl + Z (⌘ + Z pour Mac) pour annuler la suppression d’un enregistrement

@@ -209,7 +209,7 @@ json
 
 Vous pouvez utiliser des modificateurs et des filtres avec des champs pour contrôler les données qui seront renvoyées dans les résultats.
 
-Pour obtenir des exemples, consultez la documentation du développeur de l’API Workfront Planning [](https://developer.adobe.com/wf-planning/).
+Pour obtenir des exemples, consultez la documentation du développeur de l’API Workfront Planning [&#128279;](https://developer.adobe.com/wf-planning/).
 
 ### Utilisation des modificateurs de recherche
 
