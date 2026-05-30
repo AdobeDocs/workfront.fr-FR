@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 41%
+source-wordcount: '1561'
+ht-degree: 38%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 41%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Les demandes non terminées sont enregistrées en tant que brouillons.
 
@@ -101,7 +103,9 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 
 >[!NOTE]
 >
->* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste. Les requêtes Workfront affichent la valeur `Issue` dans la colonne **Type d’objet**.
+>* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste.
+>     Le **type d&#39;objet** d&#39;une requête Planning est nommé selon le modèle suivant : `< Name of workspace > > < Name of record type >`. Par exemple, le type d&#39;objet d&#39;une demande Planning peut être nommé `Marketing workspace > Campaigns`.\
+>     Le **type d’objet** d’une requête Workfront est `Issue`.
 >* Jusqu’à 50 requêtes s’affichent par défaut dans la liste de la zone des Requêtes . Pour afficher plus de requêtes, faites défiler la liste vers le bas.
 
 Vous pouvez afficher les demandes envoyées dans la zone des Demandes et dans le widget Mes demandes dans l’Accueil.
@@ -134,18 +138,27 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
 
    Pour plus d’informations sur la gestion des informations dans la liste des demandes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne **Statut**. Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
+1. (Facultatif) Vérifiez le statut d’une demande en vérifiant la colonne **Statut**.
 
-   * **Brouillon** : cette demande n&#39;a pas encore été soumise.
-   * **Révision en attente** : (Planification uniquement) cette demande a des approbateurs et aucun d&#39;entre eux n&#39;a ouvert la demande.
-   * **En révision** : (Planification uniquement) cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise.
-   * **Rejeté** : (Planning uniquement) Cette demande contient des approbateurs et a été rejetée. Cette demande ne créera pas d’enregistrement.
+   >[!IMPORTANT]
+   >
+   >Votre administrateur Workfront peut configurer certains statuts de requête Workfront dans la zone **Configuration**. Pour plus d’informations, voir [Créer ou modifier un statut](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   >
+   >Certains statuts de requête Workfront et tous les statuts de requête Planning sont codés en dur par Workfront. Vous ne pouvez pas les personnaliser, les renommer ni en ajouter d’autres du même type.
+
+   Les statuts suivants sont disponibles dans la nouvelle expérience de demande :
+
+   * <span class="preview">**Nouveau** : la demande est nouvelle et personne n&#39;a commencé à y travailler. </span>
+   * **Brouillon** : cette demande n&#39;a pas encore été soumise. Ce statut est codé en dur.
+   * **Révision en attente** : (Planification uniquement) cette demande a des approbateurs et aucun d&#39;entre eux n&#39;a ouvert la demande. Ce statut est codé en dur.
+   * **En révision** : (Planification uniquement) cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise. Ce statut est codé en dur.
+   * **Rejeté** : (Planning uniquement) Cette demande contient des approbateurs et a été rejetée. Cette demande ne créera pas d’enregistrement. Ce statut est codé en dur.
    * **En cours** :
       * Demandes Workfront : la demande a été convertie et le travail est en cours.
       * Demandes Planning Workfront : l’achèvement de la demande est mappé à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur d’achèvement.
-
-        Pour plus d’informations, voir [Configurer les détails de configuration](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) dans l’article Création et gestion d’un formulaire de demande dans Adobe Workfront Planning.
-   * **Terminé** : la demande est terminée.
+   * **En attente** : cette option est disponible pour les requêtes Workfront et définie manuellement par les utilisateurs.
+   * <span class="preview">**Annulé** : concerne les demandes Workfront.</span> <!--checking with Khach)-->
+   * <span class="preview">**Terminé** : l&#39;enregistrement Planning qui complète la demande a été créé. (Planification uniquement)</span>
 
 ### Afficher les demandes envoyées dans l’expérience de demande héritée
 

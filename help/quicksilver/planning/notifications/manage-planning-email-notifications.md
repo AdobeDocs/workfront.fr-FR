@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 5%
+source-wordcount: '641'
+ht-degree: 6%
 
 ---
 
@@ -164,7 +164,7 @@ La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les noti
 
 ## Gérer les notifications par e-mail lors de la demande et de l’octroi d’autorisations
 
-1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations pour accéder à un type d&#39;objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L’expéditeur de l’e-mail est Adobe Experience Cloud.
+1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations d&#39;accès à un objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L’expéditeur de l’e-mail est Adobe Experience Cloud.
 
 1. (Facultatif) Cliquez sur le message dans la zone **&#x200B;**&#x200B;de l’e-mail.
 
@@ -180,8 +180,7 @@ Pour plus d’informations sur la gestion des notifications Workfront Planning, 
 
 ## Gérer les notifications par e-mail relatives à la soumission, l’approbation ou le rejet de demandes Workfront Planning
 
-1. (Facultatif) Accédez à l’e-mail que Workfront vous envoie
-après la soumission d&#39;une demande ou après qu&#39;une demande que vous avez soumise a été approuvée ou rejetée. L’expéditeur de l’e-mail est Adobe Workfront.
+1. (Facultatif) Accédez à l’e-mail que Workfront vous envoie après l’envoi d’une demande ou lorsqu’une demande que vous avez envoyée a été approuvée ou rejetée. L’expéditeur de l’e-mail est Adobe Workfront.
 
 1. (Facultatif) Cliquez sur **Ouvrir la demande**. La demande s’ouvre alors dans Workfront Planning.
 

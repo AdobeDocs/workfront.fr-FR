@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 54%
+source-wordcount: '876'
+ht-degree: 52%
 
 ---
 
 # Gérer les commentaires d’enregistrement
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -58,7 +58,7 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail et un type d’enregistrement</p>  
+   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail, un type d’enregistrement et <span class="preview">enregistrement</span></p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
   </tr> 
@@ -170,7 +170,7 @@ Old:
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
+1. Cliquez sur une carte de type d’enregistrement.
 La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Choisissez une vue en tableau dans le menu déroulant **Affichage**.

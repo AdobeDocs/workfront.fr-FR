@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 3%
+source-wordcount: '797'
+ht-degree: 5%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 3%
 
 <!--you might need to add something about notifications and emails?!-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Après avoir configuré et activé les automatisations dans Adobe Workfront Planning, vous pouvez les utiliser pour créer des objets dans Adobe Workfront ou des enregistrements dans Adobe Workfront Planning.
 
@@ -79,6 +79,7 @@ Vous pouvez créer les éléments suivants à l’aide des automatisations dans 
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Accordez des autorisations supérieures ou égales à l’espace de travail et au type d’enregistrement dans lequel vous souhaitez créer des objets à l’aide d’automatisations existantes. </p>  
+   <p><span class="preview">Gérez les autorisations de l’enregistrement pour lequel vous exécutez l’automatisation.</span></p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (programmes ou projets).</p>
    <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés</p>
    </td> 

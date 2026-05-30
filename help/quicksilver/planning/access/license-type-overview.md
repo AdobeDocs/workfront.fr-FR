@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### Types de licence et autorisations des espaces de travail et des types d’enregistrement
 
-Seuls les utilisateurs disposant d’une licence Standard peuvent disposer d’autorisations de niveau Contribution ou Gérer sur les espaces de travail et les types d’enregistrements. Les autorisations Contribuer et Gérer des espaces de travail et des types d’enregistrements sont également transférées vers des enregistrements et des champs.
+Seuls les utilisateurs disposant d’une licence Standard peuvent disposer d’autorisations de niveau Contribution ou Gérer sur les espaces de travail et les types d’enregistrements. Les autorisations Contribuer et Gérer des espaces de travail et des types d’enregistrements sont également transférés vers les enregistrements et les champs, par défaut.
 
 Les administrateurs système peuvent afficher tous les espaces de travail du système, y compris ceux qu’ils n’ont pas créés.
 

@@ -8,29 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 27%
+source-wordcount: '855'
+ht-degree: 24%
 
 ---
 
 
 # Ajouter une miniature à un enregistrement
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
 Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
 
-Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
-Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Vous devez créer des types d&#39;enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
+Pour plus d’informations, voir [Création de types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -60,7 +58,7 @@ Pour plus d’informations, consultez [Créer des types d’enregistrements](/he
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail et à un type d’enregistrement  </p>  
+   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et <span class="preview">gérer les autorisations d’un enregistrement</span> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr>   
 </tbody> 
@@ -123,7 +121,7 @@ Old:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">record</span> </p>   
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
@@ -236,7 +234,7 @@ Vous pouvez ajouter une miniature des manières suivantes :
 
 1. (Facultatif) Pour supprimer la miniature avant de l’enregistrer, cliquez sur l’icône **Supprimer** ![Icône Supprimer l’image](assets/remove-image-icon.png) à droite de l’image.
 
-1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
+1. Cliquez sur **Utiliser l’image** pour ajouter l’image sous forme de miniature.
 Cette action ferme la boîte de dialogue **Miniature d’enregistrement**.
 La miniature s’affiche dans les zones de Workfront Planning où s’affiche l’enregistrement.
 

@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 46%
+source-wordcount: '751'
+ht-degree: 39%
 
 ---
 
@@ -22,11 +22,9 @@ ht-degree: 46%
 
 # Partager des enregistrements à l’aide d’un lien
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -38,41 +36,27 @@ Vous pouvez partager un enregistrement Adobe Workfront Planning de différente
 
 * Copiez un lien vers la page de l’enregistrement lors de l’affichage des enregistrements dans la vue de table du type d’enregistrement.
 
-* Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail et le type d’enregistrement.
+* Dans l’environnement de production :
 
-  Pour plus d’informations, voir les articles suivants :
+   * Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail et le type d’enregistrement.
 
-   * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
+     Pour plus d’informations, voir les articles suivants :
 
-   * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
+      * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
-When we release record-level permissions, replace the bullets above with these:
-
-You can share an Adobe Workfront Planning record in the following ways: 
-
-* Copy the link of the record page from your browser when the page is open. 
-
-* Copy a link to the record's page when viewing records in the record type's table view.   
-
-* In the Production environment: 
-
-   * You can share all records in a workspace with other users by sharing the workspace and the record type.
-
-      For more information see the following articles:
-
-      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
-
-      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+      * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
 
 <div class="preview">
 
-* In the Preview environment: 
+* Dans l’environnement de Prévisualisation :
 
-   * You can share individual records with people, teams, roles, groups, or companies.
+   * Vous pouvez partager des enregistrements individuels avec des personnes, des équipes, des rôles, des groupes ou des entreprises.
+
+     Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
 
 </div>
--->
+
+
 
 <!--take out the sentence below when we release record-level sharing-->
 
@@ -225,7 +209,7 @@ L’espace de travail auquel vous avez accédé en dernier s’ouvre.
 
 Vous pouvez partager tous les enregistrements d&#39;un espace de travail lorsque vous partagez l&#39;espace de travail avec d&#39;autres personnes.
 
-Les types d’enregistrements et les enregistrements héritent des mêmes autorisations de l’espace de travail.
+Par défaut, les types d’enregistrements et les enregistrements héritent des mêmes autorisations de l’espace de travail .
 
 Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent le partager avec d’autres personnes.
 
@@ -233,16 +217,30 @@ Pour plus d’informations, consultez la section [Partager un espace de travail]
 
 ## Partager tous les enregistrements d’un type d’enregistrement en partageant le type d’enregistrement
 
-Les enregistrements héritent des autorisations du type d’enregistrement.
+Par défaut, les enregistrements héritent des autorisations du type d’enregistrement .
 
 Par défaut, les types d’enregistrements héritent des autorisations de l’espace de travail .
 
 Cependant, vous pouvez effectuer l’une des opérations suivantes :
 
 * Désactivez les autorisations héritées de l’espace de travail sur un type d’enregistrement. Cela supprime les autorisations supérieures des enregistrements, mais conserve les autorisations d&#39;affichage de l&#39;espace de travail, du type d&#39;enregistrement et des enregistrements.
-* Octroyez manuellement des autorisations aux utilisateurs pour un type d’enregistrement, même s’ils ne disposent d’aucune autorisation sur l’espace de travail. Ils disposent ainsi automatiquement des autorisations d’affichage pour l’espace de travail. Cela accorde des autorisations aux utilisateurs pour les enregistrements.
+* Octroyez manuellement des autorisations aux utilisateurs pour un type d’enregistrement, même s’ils ne disposent d’aucune autorisation sur l’espace de travail. Ils disposent ainsi automatiquement des autorisations d’affichage pour l’espace de travail. Par défaut, cela accorde des autorisations d’affichage aux utilisateurs pour les enregistrements.
 
 Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail peuvent partager ses types d’enregistrements et ses enregistrements avec d’autres utilisateurs.
 
 Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
+
+<div class="preview">
+
+## Partage d’enregistrements individuels
+
+Les utilisateurs héritent par défaut des autorisations d’enregistrement de l’espace de travail et du type d’enregistrement.
+
+Pour n’accorder des autorisations de type enregistrement qu’à certains utilisateurs spécifiques Gérer les autorisations pour certains enregistrements uniquement, vous pouvez désactiver les autorisations héritées pour certains enregistrements et n’accorder à ces utilisateurs qu’un accès Gérer à ces enregistrements.
+
+Vous pouvez ajuster en bloc les autorisations pour un enregistrement ou pour plusieurs enregistrements en même temps.
+
+Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
+
+</div>
 

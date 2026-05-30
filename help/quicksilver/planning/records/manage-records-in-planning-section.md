@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 4%
+source-wordcount: '1789'
+ht-degree: 6%
 
 ---
 
@@ -20,11 +20,10 @@ ht-degree: 4%
 
 # Gérer les connexions d’enregistrement à partir d’objets Workfront
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -71,7 +70,7 @@ Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans 
    <p>Dans Workfront Planning :</p>
    <ul><li>Afficher les autorisations d’accès à un espace de travail et le type d’enregistrement pour afficher tous les enregistrements connectés </li>
    Ou
-   <li> Autorisations de niveau Contributeur ou supérieur à un espace de travail et type d’enregistrement pour connecter ou déconnecter les enregistrements</a></li></ul> 
+   <li> Accorder des autorisations supérieures ou égales à un espace de travail et à un type d’enregistrement et <span class="preview">Gérer les autorisations d’un enregistrement</span> pour connecter ou déconnecter des enregistrements</a></li></ul> 
    <p>Les administrateurs système disposent d’autorisations sur tous les espaces de travail Workfront Planning, y compris ceux qu’ils n’ont pas créés</p> 
   </td>
   </tr>   
@@ -176,7 +175,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
   Pour plus d’informations, voir les articles suivants :
 
    * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connect records](/help/quicksilver/planning/records/connect-records.md)
+   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 * Vous pouvez afficher la section Planning à partir d&#39;un objet Workfront, même si aucun enregistrement n&#39;est associé à l&#39;objet Workfront.
 * Un type d&#39;enregistrement ne s&#39;affiche dans la zone Planning d&#39;un objet Workfront que lorsque vous activez le champ Créer correspondant dans le paramètre de type d&#39;enregistrement lié lors de la création de la connexion entre deux types d&#39;enregistrement.
 
@@ -220,7 +219,7 @@ La page de l’objet s’ouvre dans Workfront.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
 1. (Facultatif) Pointez sur une carte d’enregistrement, puis cliquez sur l’icône Déconnecter l’enregistrement **-**, puis sur **Déconnecter**.
-Les événements suivants se produisent :
+Voici ce qui se produit :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement dans Workfront Planning.
    * Les valeurs des champs de recherche Workfront liés à l&#39;enregistrement Planning sont également supprimées.
@@ -263,7 +262,7 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 * Vous ne pouvez associer qu&#39;un seul type d&#39;enregistrement à un champ de connexion Planning. Le nombre de champs de connexion Planning d’un formulaire n’est pas limité.
 * Vous devez disposer des droits d&#39;accès et des autorisations appropriés sur l&#39;objet, l&#39;enregistrement et Workfront Planning pour joindre un formulaire personnalisé avec un champ personnalisé de connexion Planning à un objet Workfront.
 * Vous devez disposer des autorisations de niveau Contribution pour un espace de travail dans Workfront Planning afin de pouvoir connecter ou déconnecter des enregistrements du champ de connexion Planning d&#39;un objet Workfront.
-* Les types d’enregistrements Workfront Planning doivent d’abord être connectés aux types d’objets Workfront. Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md). Les enregistrements Workfront Planning sont ainsi accessibles depuis Workfront.
+* Les types d’enregistrements Workfront Planning doivent d’abord être connectés aux types d’objets Workfront. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).Les enregistrements Workfront Planning sont ainsi accessibles depuis Workfront.
 * Vous pouvez connecter ou déconnecter des enregistrements du champ de connexion Planning d&#39;un objet Workfront uniquement pour les objets qui peuvent avoir des connexions Workfront Planning.
 
   Par exemple, vous pouvez joindre aux tâches un formulaire personnalisé avec un champ de connexion Planning, mais vous ne pouvez pas connecter les objets Workfront Planning aux tâches.
