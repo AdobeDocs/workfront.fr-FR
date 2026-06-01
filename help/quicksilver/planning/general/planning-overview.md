@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 79%
+source-wordcount: '2365'
+ht-degree: 76%
 
 ---
 
@@ -242,13 +242,27 @@ Vous pouvez créer un espace de travail à l’aide de modèles prédéfinis. Vo
 
 Adobe Workfront Planning contient les modèles suivants :
 
+* Studio de l&#39;initiative des opérations
+* Studio de planification des communications
 * De base : Gestion marketing
 * Avancé : Gestion marketing
 * Entreprise : Gestion marketing
 * Gestion des ventes
 * Gestion des produits
 
-Pour plus d’informations, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
+Les administrateurs et administratrices système peuvent également installer 6 espaces de travail lorsqu’ils utilisent le modèle multiespace des bonnes pratiques. Le modèle multi-espace contient les modèles suivants qui génèrent 6 espaces de travail distincts mais connectés en même temps :
+
+* 1.Classifications et taxonomies globales
+* 2.Fréscopa Global Marketing
+* 3.Fréscopa Social Marketing
+* 4.Fréscopa Media &amp; PR
+* 5.Événements globaux Fréscopa
+* 6.Fréscopa Direction d&#39;entreprise
+
+Pour plus d’informations, consultez les articles suivants :
+
+* [Liste des modèles Workspace](/help/quicksilver/planning/architecture/workspace-templates.md).
+* [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ### Champs
 

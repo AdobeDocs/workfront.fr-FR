@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 48%
+source-wordcount: '958'
+ht-degree: 22%
 
 ---
 
@@ -28,13 +28,19 @@ Cet article décrit les modèles d’espaces de travail disponibles dans Adobe 
 
 ## Considérations relatives aux modèles Adobe Workfront Planning
 
-* Chaque modèle est fourni avec un ensemble de types d’enregistrements. Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* Les types d’enregistrements de chaque modèle sont organisés dans les sections suivantes :
+* Selon le nombre d&#39;espaces de travail que vous créez lors de l&#39;utilisation d&#39;un modèle d&#39;espace de travail Planning, vous pouvez utiliser les types de modèles suivants :
 
-   * Types d’enregistrements opérationnels
-   * Taxonomies
+   * Modèles uniques : un modèle crée un espace de travail.
+   * Lot de modèles à plusieurs espaces de travail : le lot de modèles crée 6 espaces de travail interconnectés.
+* Chaque modèle est fourni avec un ensemble de types d’enregistrements.
+
+  Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Les types d’enregistrements de chaque modèle sont des sections organisées.
 * Chaque type d’enregistrement est fourni avec un ensemble de champs. Certains de ces champs sont des connexions à d’autres types d’enregistrements Workfront Planning.
-* Vous pouvez personnaliser n’importe quel modèle et ajouter d’autres types d’enregistrements et champs aux champs existants.
+* Vous pouvez utiliser les modèles pour créer des espaces de travail. Une fois créés, vous pouvez les personnaliser et commencer à ajouter des types d’enregistrements, des champs, des enregistrements et des vues, puis les partager avec d’autres personnes.
+* Les types d’enregistrements de chaque modèle contiennent des exemples d’enregistrements. Vous pouvez les supprimer après avoir créé des espaces de travail à partir du modèle.
+* Une fois les espaces de travail créés à partir de modèles, les responsables d’espace de travail peuvent supprimer des types d’enregistrements, des champs, des vues et des enregistrements.
+
 
 <!--
  I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -89,85 +95,159 @@ the above is only for closed beta; when going to GA - activate the following pla
 
 -->
 
-## Modèles d’espaces de travail Workfront Planning
+## Modèles d’espace de travail de planification Workfront uniques
 
-Vous trouverez ci-dessous des modèles d’espaces de travail dans Workfront Planning et le nombre de champs qu’ils incluent :
+Vous trouverez ci-dessous des modèles d’espace de travail dans Workfront Planning et les types d’enregistrements qu’ils contiennent :
+
+* **Operations Initiative Studio** : modèle d’initiative d’exploitation complet et prêt à l’emploi, qui montre comment planifier et diffuser une initiative d’intégration (liaison SOL automatisée dans Workfront). Inclut la répartition initiative-flux de travail, les risques, les problèmes et les décisions liés, les listes de référence (équipes, systèmes), ainsi que les vues chronologiques, de tableau et de calendrier, et une formule d’effort simple pour que les équipes puissent apprendre rapidement les fonctionnalités de planification.
+
+  Le modèle Operations Initiative Studio comprend les types d’enregistrements suivants et leurs champs :
+
+   * Initiatives
+   * Flux de travail
+   * Risques et événements
+   * Décisions
+   * Systèmes
+   * Équipes
+* **Communications Planning Studio** : Idée de configurer rapidement un centre de planification des communications. Commencez par dupliquer l’enregistrement du modèle de plan de communications Long ou Court, puis développez votre déploiement en ajoutant des tactiques et en suivant les points de contrôle d’approbation. Audiences, marchés et canaux de référence pour des rapports, un filtrage et une réutilisation cohérents. Inclut des exemples d’enregistrements et des vues prêtes à l’emploi de tableau, de chronologie et de calendrier afin que les équipes puissent explorer immédiatement les fonctionnalités de Planning.
+
+  Le modèle Communications Planning Studio comprend les types d&#39;enregistrements suivants et leurs champs :
+
+   * Communications
+   * Audiences
+   * Tactique
+   * Points de contrôle d’approbation
+   * Canaux
+   * Marchés
+   * Rôles des parties prenantes
 
 * **De base : Marketing Management** : idéal pour les organisations qui établissent les bases d’un système marketing fondamental. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d’enregistrements opérationnels :
-
-      * **Campaign** : 15 champs
-   * Taxonomies :
-
-      * **Rôles** : 7 champs
-      * **Marques** : 6 champs
-      * **Produits** : 5 champs
+   * Campaign
+   * Personas
+   * Marques
+   * Produits
 
 * **Avancé : Marketing Management** : adapté aux équipes prêtes à explorer des stratégies marketing plus nuancées. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d’enregistrements opérationnels :
-
-      * **Campagnes** : 14 champs
-      * **Programmes** : 23 champs
-
-   * Taxonomies :
-      * **Régions** : 1 champ
-      * **Étapes de Parcours client** : 4 champs
-      * **Audiences** : 8 champs
-      * **Éléments livrables** : 12 champs
-      * **Marques** : 6 champs
+   * Campagnes
+   * Programmes
+   * Régions
+   * Étapes de Parcours client
+   * Audiences
+   * Éléments livrables
+   * Marques
 
 * **Entreprise : Marketing Management** : Conçu pour les grandes organisations ou les organisations matures avec des systèmes marketing complexes. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d’enregistrements opérationnels :
+   * Campagnes
+   * Programmes
+   * Tactique
+   * Activités
+   * Produits
+   * Éléments livrables
+   * Audiences cibles
+   * Régions
+   * Sous-régions
+   * Partenaires
+   * Cas d’utilisation
+   * Étapes de Parcours client
 
-      * **Campagnes** : 15 champs
-      * **Programmes** : 15 champs
-      * **Tactique** : 11 champs
-      * **Activités** : 18 champs
+* Gestion des ventes : Vous pouvez créer un système de vente complet qui simplifie votre processus de vente et améliore l&#39;efficacité. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Taxonomies :
+   * Opportunité
+   * Activité
+   * Campaign
+   * Compte
+   * Lead
+   * Contact
+   * Région
+   * Secteur industriel
+   * Centre d&#39;achat
+   * Produit/Service
+   * Concurrence
 
-      * **Produits** : 10 champs
-      * **Éléments livrables** : 18 champs
-      * **Audiences cibles** : 8 champs
-      * **Régions** : 8 champs
-      * **Sous-régions** : 7 champs
-      * **Partenaires** : 7 domaines
-      * **Cas d’utilisation** : 7 champs
-      * **Étapes de Parcours client** : 3 champs
 
-* **Gestion des ventes** : vous pouvez créer un système de vente complet qui rationalise votre processus de vente et améliore l’efficacité. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
+* Gestion des produits : ce modèle vous permet de créer un processus de gestion des produits efficace et structuré. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Types d’enregistrements opérationnels :
+   * Thème
+   * Initiative
+   * Épique
+   * User Story
+   * Client
+   * Sprint
+   * Équipe du produit
+   * Requêtes de fonctionnalités
+   * Secteur industriel
 
-      * **Opportunité** : 11 champs
-      * **Activité** : 9 champs
-      * **Campaign** : 8 champs
-   * Taxonomies :
-      * **Compte** : 7 champs
-      * **Lead** : 14 champs
-      * **Contact** : 12 champs
-      * **Région** : 3 champs
-      * **Industrie** : 2 champ
-      * **Centre d’achat** : 1 champ
-      * **Produit/service** : 1 champ
-      * **Concurrence** : 1 champ
+## Modèles d’espace de travail Planning Workfront Multi-Workspace
 
-* **Gestion des produits** : ce modèle vous permet de créer un processus de gestion des produits efficace et structuré. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
+Vous pouvez utiliser le lot de modèles multi-espaces de travail des bonnes pratiques pour créer 6 espaces de travail en même temps.
 
-   * Types d’enregistrements opérationnels :
+Tenez compte des points suivants :
 
-      * **Thème** : 10 champs
-      * **Initiative** : 10 champs
-      * **Epic** : 12 champs
-      * **User Story** : 11 champs
+* Vous ne pouvez pas choisir un seul modèle dans ce lot.
+* Vous devez créer les 6 espaces de travail en même temps, puis supprimer ceux que vous n’utilisez pas.
 
-   * Taxonomies :
+Le lot de modèles multi-espace de travail contient les modèles suivants avec leurs types d’enregistrements respectifs :
 
-      * **Client** : 8 champs
-      * **Sprint** : 9 champs
-      * **Équipe produit** : 4 champs
-      * **Requêtes de fonctionnalités** : 9 champs
-      * **Industrie** : 2 champs
+* 1.**Classifications et taxonomies globales** : hub pour la gouvernance d&#39;entreprise des principaux enregistrements partagés et taxonomies de Fréscopa. Il garantit la cohérence, l’alignement et la normalisation de tous les systèmes et équipes.
+
+  >[!NOTE]
+  >
+  >Nous n&#39;utilisons le nom « Fréscopa » qu&#39;à titre d&#39;exemple général d&#39;entreprise.
+
+
+   * Parcours clients
+   * Pays
+   * Canaux
+   * Régions
+   * États, provinces ou préfectures
+   * Langues
+   * Plateformes
+   * Types d’expérience
+   * Années
+   * Trimestres
+   * Stratégies de messagerie
+   * Audiences cibles
+   * Personas
+   * Produits
+   * Marques
+   * Catégories de produits
+   * Valeurs
+   * Vision et mission
+   * Piliers
+   * Indicateurs clés de performance
+
+* **2.Fréscopa Global Marketing** : Espace de travail centralisé pour la gestion de la stratégie marketing d’entreprise et de l’exécution de Fréscopa. Il rassemble des campagnes, du contenu et des mesures pour renforcer l’impact de la marque.
+
+   * Campagnes
+   * Tactiques de canal
+   * Expériences
+   * Événements
+
+* **3.Fréscopa Social Marketing** : espace de travail dédié à la gestion de la présence et des campagnes sur les médias sociaux de Fréscopa. Il centralise la planification, la publication et le suivi des performances sur toutes les plateformes sociales.
+
+   * Influenceurs
+
+* **4.Fréscopa Media &amp; PR** : endroit où les équipes Media &amp; PR coordonnent les activités à l’appui des objectifs marketing mondiaux.
+
+   * Reporters
+   * Médias
+   * Engagements multimédia
+
+* **5.Événements globaux Fréscopa** : un emplacement centralisé pour planifier et suivre les événements Fréscopa dans toutes les régions, tous les pays et toutes les unités commerciales.
+
+   * Types d’événement
+   * Types de flux de travail
+   * Haut-parleurs
+   * Emplacements des événements
+   * Type d’audience de l’événement
+
+* **6.Fréscopa Executive Company Leadership** : espace de travail centralisé permettant aux dirigeants stratégiques de s’interfacer avec des données exploitables telles que les objectifs de l’entreprise.
+
+   * Objectifs de l’entreprise
+   * Objectifs du service
+   * Objectifs de l&#39;équipe
+   * Résultats clés
+

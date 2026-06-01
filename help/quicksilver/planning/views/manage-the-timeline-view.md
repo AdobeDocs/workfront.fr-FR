@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4209'
 ht-degree: 34%
 
 ---
@@ -388,7 +388,7 @@ Il s’agit de l’option par défaut.
 
    ![Filtre à plusieurs niveaux avec répartition pour la vue Chronologie](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Vous pouvez filtrer les types d’enregistrements de répartition uniquement à partir de la vue chronologique.</span>
+   <span class="preview">Vous pouvez filtrer les types d’enregistrements de répartition uniquement à partir de la vue Chronologie.</span>
 1. (Facultatif) Cliquez sur **Filtres** ou n’importe où sur la page pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -401,8 +401,8 @@ Vous pouvez regrouper des enregistrements par des informations similaires lorsqu
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue chronologique :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!—!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --vérifier celui-ci pour l’instant-->
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des regroupements que vous sélectionnez.
+&lt;!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —cochez celui-ci pour l’instant—>
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
@@ -591,7 +591,7 @@ Tenez compte des points suivants lors de la répartition de la chronologie des e
 
   Si vous souhaitez afficher à la fois les portefeuilles et les projets dans la vue chronologique d&#39;un type d&#39;enregistrement Planning Workfront, les portefeuilles et les projets doivent être connectés à l&#39;enregistrement Planning ou à un enregistrement connecté à l&#39;enregistrement Planning dont vous gérez la vue chronologique.
 * Vous ne pouvez pas afficher les marques Adobe GenStudio connectées à des types d&#39;enregistrements Planning.
-Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Vous pouvez uniquement afficher les types d’enregistrements associés à au moins deux champs de date.
 * Les champs de date des types d’enregistrement que vous souhaitez afficher dans la vue chronologique doivent être visibles dans la vue Tableau du type d’enregistrement sélectionné, sous la forme de champs de recherche.
 * Les dates de début et de fin des types d’enregistrements que vous souhaitez afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.
