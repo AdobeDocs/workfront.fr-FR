@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Workfront Data Connect vous permet d’utiliser les données Workfront de votre organisation avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée ](#add-ips-to-the-allowlist) ci-dessous.
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée &#x200B;](#add-ips-to-the-allowlist) ci-dessous.
 
 La plupart des produits nécessitent les informations suivantes sur votre lac de données pour établir une connexion :
 
@@ -141,7 +141,7 @@ Pour collecter des plages d’adresses IP à partir de Microsoft et les ajouter 
 
 1. Sous chaque objet correspondant, recherchez le tableau nommé `addressPrefixes`. Chaque chaîne de ce tableau est un bloc CIDR (par exemple, `20.59.79.96/27` ou un préfixe IPv6). Il s’agit des valeurs que vous ajouterez à votre Workfront placer sur la liste autorisée.
 
-1. Ajoutez chaque CIDR à la Workfront placer sur la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la place sur la liste autorisée ](#add-ips-to-the-allowlist) dans cet article. Patientez quelques minutes pour la propagation des politiques si votre environnement met les règles en cache.
+1. Ajoutez chaque CIDR à la Workfront placer sur la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la place sur la liste autorisée &#x200B;](#add-ips-to-the-allowlist) dans cet article. Patientez quelques minutes pour la propagation des politiques si votre environnement met les règles en cache.
 
 1. À partir de Power BI ou de Power Query Online, exécutez une petite requête de test sur Data Connect pour valider la connexion. En cas d’échec, capturez l’heure approximative et demandez à votre équipe réseau si les refus s’alignent sur les plages manquantes. Vérifiez à nouveau si vous avez manqué `PowerQueryOnline` lorsque seul le `PowerBI` a été ajouté, ce qui est un écart courant.
 
