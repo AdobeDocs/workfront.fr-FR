@@ -6,26 +6,30 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 26%
+source-wordcount: 516
+ht-degree: 22%
 
 ---
 
 # Vue d’ensemble des espaces de travail
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
 Un espace de travail est un ensemble de types d’enregistrements utilisés par une entité organisationnelle et représente le cycle de vie et les processus de travail de l’entité. Vous pouvez entièrement personnaliser les espaces de travail dans Adobe Workfront Planning.
 
-<!--update screenshot with preview-->
+<!--update screenshot with production, it was broken at Preview-->
 
 ![Compte administrateur de la page de destination des espaces de travail](assets/workspaces-landing-page-admin-account.png)
 
@@ -45,35 +49,36 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 * Les espaces de travail sont des structures au sein desquelles vos entités organisationnelles (une équipe, un groupe, un service ou une division) travaillent. Ils ne peuvent pas être associés à des champs. Seuls les types d’enregistrements d’un espace de travail peuvent être associés à des champs.
 
   Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* Selon votre licence Workfront, les espaces de travail s&#39;affichent dans les onglets suivants de la zone Planning :
+* Les espaces de travail s&#39;affichent dans les onglets suivants de la zone Planning :
 
-   * Pour les administrateurs système, les espaces de travail s’affichent dans les onglets suivants :
+   * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
+   * **Autres espaces de travail** : affiche tous les autres espaces de travail du système. Cette option est réservée aux administrateurs système.
 
-      * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
-      * **Autres espaces de travail** : affiche tous les autres espaces de travail du système.
+  <div class="preview">
 
-     <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
-      -->
+   * **Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres personnes.
 
-   * Pour tous les autres utilisateurs, les espaces de travail qu’ils ont créés et les espaces de travail que d’autres ont partagés avec eux s’affichent dans la zone Espaces de travail.
+  </div>
 
-  <!--
+  >[!NOTE]
+  >
+  ><span class="preview">Nous vous recommandons de ne pas modifier les exemples d’espaces de travail, mais de les utiliser plutôt comme référence pour créer les vôtres. Utilisez le lot de modèles d’espaces de travail multiples pour créer des espaces de travail identiques à ceux répertoriés dans l’onglet Exemples d’espaces de travail . Pour plus d’informations, reportez-vous à la section « Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques » de l’article [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md). </span>
 
-    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+<!--
+No longer the case - they match now: 
 
-   * For all other users:
+* For all other users:
 
-        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
-        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
-    
-    -->
+* **Workspaces I'm on**: Workspaces they created (for Standard-license users) and workspaces others shared with them display in the Workspaces area.
 
-  <!--      
-    >[!NOTE]
-    >
-    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
-    -->
+<div class="preview"> 
+
+* **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.
+
+</div>
+-->
+
+
 
 * Les types d’enregistrements contenus dans un espace de travail doivent refléter le cycle de vie professionnelle et les concepts d’une entité organisationnelle.
 

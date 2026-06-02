@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 2%
+source-wordcount: '1665'
+ht-degree: 1%
 
 ---
 
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## Nouvel onglet Exemples d’espaces de travail ajouté à la page de destination Planification
+
+>[!NOTE]
+>
+>Aperçu : 1er juin 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+
+Nous avons ajouté l’onglet Exemples d’espaces de travail à la zone de destination Planification où vous pouvez afficher des exemples d’espaces de travail des bonnes pratiques. Les espaces de travail ne sont pas modifiables. Les responsables Workspace peuvent modifier les vues dans les exemples d’espaces de travail. L’onglet est visible pour les utilisateurs d’Administration standard et système.
+
+Nous vous recommandons d’afficher les exemples d’espaces de travail et d’utiliser le lot de modèles multi-espaces de travail pour créer, modifier et partager les espaces de travail résultant de l’utilisation de ce modèle.  Le lot du modèle contient les mêmes espaces de travail que l’onglet Exemples d’espaces de travail .
+
+Pour plus d’informations, voir [&#x200B; Présentation des espaces de travail &#x200B;](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## API Workfront Planning version 2
 
