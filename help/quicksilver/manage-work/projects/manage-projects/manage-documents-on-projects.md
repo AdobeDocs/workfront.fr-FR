@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Votre administrateur Adobe Workfront peut définir la valeur par défaut de la p
 L’administrateur Workfront peut choisir l’une des options suivantes :
 
 * Stockage Workfront
-* Adobe cloud storage
+* Espace de stockage Adobe
 
 Cette préférence permet de stocker automatiquement les documents joints aux objets Workfront dans l’un des emplacements de stockage disponibles.
 
@@ -122,7 +122,7 @@ Les clients peuvent avoir accès à l’une des fonctionnalités de stockage de 
 
 Les documents stockés sur des objets dans l’espace de stockage Workfront sont gérés différemment de ceux stockés dans l’espace de stockage cloud Adobe.
 
-Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Les sections suivantes décrivent le fonctionnement du stockage de documents pour les objets Workfront lorsque les options de stockage dans le cloud Workfront et Adobe existent dans le même environnement.
 
@@ -187,13 +187,17 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
 * Vous pouvez renommer et supprimer le dossier de documents du problème d’espace de stockage dans le cloud Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à l’événement, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les projets d’espace de stockage Adobe, le dossier de documents relatif à un événement s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer un problème d’un projet de stockage Workfront hérité vers un projet de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
-* Lorsque vous soumettez une demande avec un document joint à un projet de stockage Workfront hérité, la zone Documents de la demande affiche le document à l’aide du type de stockage du projet, même si la préférence par défaut de stockage du système est l’espace de stockage dans le cloud Adobe.
 * Les scénarios suivants existent lors de la conversion d&#39;un événement en projet : <!--this info also duplicated in Convert an issue to a project-->
    * Un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
    * Un problème d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
    * L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
    * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
 * Vous ne pouvez pas ajouter de documents à des problèmes d’espace de stockage Adobe dans le panneau Résumé .
+
+### Gestion des documents pour les demandes
+
+* Lorsque vous envoyez une requête Workfront à laquelle est joint un document à un projet de stockage Workfront hérité fonctionnant en tant que file d’attente des requêtes, la zone Documents de la requête affiche le document à l’aide du type de stockage du projet, même si la préférence par défaut de stockage du système est l’espace de stockage dans le cloud Adobe.
+* Lorsque vous joignez un document à un événement que vous envoyez à une file d’attente des demandes associée au stockage Adobe, un dossier est créé pour chaque événement envoyé où les documents sont stockés. Le dossier est également ajouté en tant que sous-dossier au dossier de projet créé automatiquement dans le projet de file d’attente des demandes.
 
 ### Gestion des documents pour les modèles de projet
 
@@ -203,6 +207,8 @@ Tenez compte des points suivants lorsque vous utilisez des modèles :
 * Vous pouvez utiliser un modèle de stockage Workfront hérité pour créer des projets de stockage Workfront hérités ; vous pouvez utiliser un modèle de stockage cloud Adobe pour créer un projet de stockage cloud Adobe.
 * Vous pouvez joindre un modèle de stockage Workfront hérité à un projet de stockage dans le cloud Adobe sans modifier l’emplacement de stockage des documents dans le projet.
 * Vous pouvez joindre un modèle de stockage dans le cloud Adobe à un projet de stockage Workfront hérité et cela ne modifie pas l’emplacement de stockage des documents sur le projet. Les documents du dossier de stockage dans le cloud Adobe pour le modèle sont ajoutés directement au projet, sans le dossier , tandis que les documents des dossiers de tâches de modèles sont ajoutés aux dossiers joints aux tâches du projet dans la section Documents des tâches.
+* Lorsque vous enregistrez un projet en tant que modèle, le type de stockage du projet est transféré vers le modèle, quelle que soit la préférence de stockage définie par votre administrateur Workfront.
+
 
 ### Gestion des documents pour les tâches de modèles
 
@@ -213,4 +219,4 @@ Tenez compte des points suivants lorsque vous utilisez des tâches de modèles :
 * Vous pouvez renommer et supprimer le dossier de documents de la tâche de modèle d’espace de stockage dans le cloud Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à la tâche de modèle, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les modèles d’espace de stockage Adobe, le dossier de documents d’une tâche de modèle s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le modèle.
 * Vous ne pouvez pas copier ni déplacer une tâche de modèle d’un modèle de stockage Workfront hérité vers un modèle de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
-* Lorsque vous joignez un document à un événement que vous envoyez à une file d’attente des demandes associée au stockage Adobe, un dossier est créé pour chaque événement envoyé où les documents sont stockés. Le dossier est également ajouté en tant que sous-dossier au dossier de projet créé automatiquement dans la file d’attente des demandes.
+

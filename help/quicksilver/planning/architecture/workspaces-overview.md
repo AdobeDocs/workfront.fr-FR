@@ -7,12 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 22%
@@ -53,12 +50,7 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 
    * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
    * **Autres espaces de travail** : affiche tous les autres espaces de travail du système. Cette option est réservée aux administrateurs système.
-
-  <div class="preview">
-
-   * **Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres personnes.
-
-  </div>
+   * <span class="preview">**Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres utilisateurs.</span>
 
   >[!NOTE]
   >
@@ -91,4 +83,4 @@ No longer the case - they match now:
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).

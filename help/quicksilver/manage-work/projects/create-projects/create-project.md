@@ -6,12 +6,18 @@ description: Un projet est une grande unité de travail dans Adobe Workfront. V
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/ftDbs1BguO-wdhSEzFe318xKOV86cbfBbyHkm0FPmqM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 65%
+source-wordcount: 1682
+ht-degree: 64%
 
 ---
 
@@ -97,7 +103,7 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 * Créez un projet à partir de zéro sans utiliser de modèle. Cet article décrit comment créer un projet à partir de zéro.
 
 * Copiez un projet existant.\
-  Pour plus d’informations sur la copie d’un projet, voir [&#x200B; Copier un projet &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md).
+  Pour plus d’informations sur la copie d’un projet, voir [ Copier un projet ](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Utilisez un modèle.\
   Pour plus d’informations sur l’utilisation d’un modèle pour créer un projet, consultez la section [Créer un projet à l’aide d’un modèle](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -123,7 +129,15 @@ Vous pouvez créer un projet dans Workfront à l’aide de l’une des méthodes
 
   Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
-  Pour plus d’informations sur la création de projets en les ajoutant à des enregistrements, reportez-vous à la section « Créer des projets lors de leur connexion avec des enregistrements de Workfront Planning » de l’article [Créer des objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Pour plus d’informations sur la création de projets en les ajoutant à des enregistrements, reportez-vous à la section « Créer des projets lors de leur connexion avec des enregistrements de Workfront Planning » de l’article [Créer des objets Workfront à partir de Workfront Planning lorsque vous les connectez à des enregistrements](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+* Ajoutez des projets à l’aide des automatisations de Workfront Planning.
+
+  Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Vous devez disposer d’une nouvelle licence Workfront et d’un package Workfront Planning supplémentaire pour Workfront Planning.
+
+  Pour plus d’informations sur l’accès à Workfront Planning, voir [Présentation de l’accès](/help/quicksilver/planning/access/access-overview.md).
 
 ## Conditions préalables
 
