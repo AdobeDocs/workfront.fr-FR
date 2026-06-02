@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,19 @@ Cette page décrit les améliorations apportées aux documents avec la version d
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
-## Print summary for documents in the new Documents area
+
+## Imprimer le résumé des documents dans la nouvelle zone Documents
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>Aperçu : 2 juin 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+Vous pouvez désormais ouvrir un résumé imprimable de l’approbation d’un document directement à partir de la nouvelle zone Documents . Cette fonctionnalité est disponible pour les organisations qui utilisent l’espace de stockage dans le cloud Adobe.
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+Une fois qu’un document a été approuvé, une option **Imprimer le résumé** s’affiche dans la section Aperçu du panneau Détails du document. Cliquez sur **Ouvrir le résumé d’impression** pour ouvrir la page Imprimer les commentaires de Frame.io, qui affiche l’aperçu de la ressource, les commentaires et les décisions d’approbation dans un format imprimable.
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+Pour plus d’informations, voir [Présentation des détails du document](/help/quicksilver/documents/managing-documents/document-details-overview.md) et [Présentation du résumé des documents](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
+
 
 ## Ajouter un message personnalisé à une étape de workflow d’approbation de document
 
