@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 22%
@@ -53,12 +53,7 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 
    * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
    * **Autres espaces de travail** : affiche tous les autres espaces de travail du système. Cette option est réservée aux administrateurs système.
-
-  <div class="preview">
-
-   * **Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres personnes.
-
-  </div>
+   * <span class="preview">**Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres utilisateurs.</span>
 
   >[!NOTE]
   >

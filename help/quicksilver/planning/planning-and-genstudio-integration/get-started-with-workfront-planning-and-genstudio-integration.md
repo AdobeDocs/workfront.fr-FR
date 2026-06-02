@@ -6,11 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: 2355
 ht-degree: 3%
 
 ---
@@ -375,14 +386,14 @@ Tenez compte des points suivants à propos des champs de type d’enregistrement
 
 ### Enregistrer les connexions dans l’espace de travail GenStudio
 
-Vous pouvez créer des connexions entre les types d’enregistrements dans les espaces de travail GenStudio pour lesquels vous disposez des autorisations de gestion.
+Vous pouvez créer des connexions entre les types d’enregistrements dans l’espace de travail GenStudio lorsque vous disposez des autorisations de niveau Gérer sur l’espace de travail.
 
 Dans Workfront Planning, vous pouvez établir les connexions suivantes entre les types d&#39;enregistrements GenStudio et d&#39;autres types d&#39;enregistrements ou d&#39;objets :
 
 * Deux types d’enregistrements GenStudio
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning du même espace de travail
 * Un type d’enregistrement GenStudio et un type d’enregistrement Planning d’un autre espace de travail, si les types d’enregistrement sont configurés pour se connecter à partir d’un autre espace de travail.
-* Un type d’enregistrement GenStudio et un type d’objet Workfront (projets, portfolios, programmes, sociétés, groupes)
+* Un type d’enregistrement GenStudio et un type d’objet Workfront (projets, portfolios, programmes, sociétés, groupes).
 * Un type d’enregistrement GenStudio et un type d’objet AEM (Assets ou Fragments de contenu). Vous devez disposer d&#39;une licence pour que Adobe Experience Manager puisse accéder aux objets AEM, ainsi que d&#39;une licence pour Workfront Planning et d&#39;une licence pour Adobe GenStudio for Performance Marketing.
 * Un type d’enregistrement GenStudio et GenStudio Brands. La connexion Marques est ajoutée aux types d’enregistrements Produits et Personnes par défaut.
 
@@ -420,7 +431,7 @@ Les marques sont disponibles pour la connexion manuelle à tous les autres types
 * L’espace de travail GenStudio accessible à partir de votre environnement de production s’affiche également dans votre environnement de prévisualisation de la même instance Workfront.
 * Vous pouvez effectuer toutes les activités décrites dans cet article sur l’espace de travail GenStudio dans la planification Workfront dans votre environnement de prévisualisation, mais ces modifications ne seront pas visibles à partir de GenStudio.
 
-  Seules les modifications apportées aux éléments de l’environnement de production synchronisent Workfront Planning et GenStudio.
+  Seules les modifications apportées aux éléments dans l’environnement de production sont synchronisées entre Workfront Planning et GenStudio.
 
   GenStudio ne dispose pas d’un environnement de prévisualisation.
 

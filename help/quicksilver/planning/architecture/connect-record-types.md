@@ -6,15 +6,28 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: 3118
 ht-degree: 25%
 
 ---
-
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
@@ -193,7 +206,12 @@ Old:
 1. Cliquez sur la vignette d’un type d’enregistrement pour ouvrir la page du type d’enregistrement.
 1. Cliquez sur l’icône **+** dans le coin supérieur droit de la vue tableau, puis cliquez sur l’onglet **Nouvelle connexion**.
 
-   ![Nouvel onglet de connexion avec les options de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Nouvel onglet Connexion avec Workfront, AEM et GenStudio Brands](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+
+   <!--
+    Old shot:
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+    -->
 
 1. Recherchez un type d’enregistrement ou sélectionnez l’une des options suivantes :
 
@@ -287,9 +305,9 @@ Old:
    >
    >* La sélection du champ **Créer le champ correspondant sur le type d&#39;enregistrement lié** est une condition préalable à la création de hiérarchies.
    >
-   >* Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives. Par exemple, aucun champ n&#39;est créé pour les objets Workfront connectés aux enregistrements Planning.
-   >
-   >   
+   >* Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives. Par exemple :
+   >   * Aucun champ n&#39;est créé pour les objets Workfront connectés aux enregistrements Planning.
+   >   * Aucun champ n’est créé pour un type d’enregistrement Planning lorsqu’il est connecté à un type d’enregistrement à partir de l’espace de travail GenStudio.
 
 1. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 

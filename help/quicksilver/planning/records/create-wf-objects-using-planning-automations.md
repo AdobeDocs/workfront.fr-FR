@@ -6,12 +6,22 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
+TQID: https://experienceleague.adobe.com/c5iVodFoP9cUAVN63iu8B5-XoVihpNF3KbLdpMk7N9Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 5%
+source-wordcount: 847
+ht-degree: 4%
 
 ---
 
@@ -167,7 +177,9 @@ Old:
 
 * Les nouveaux objets ou enregistrements ne remplacent pas les objets ou enregistrements existants dans le même champ. Le déclenchement de la même automatisation plusieurs fois pour le même enregistrement ajoute les nouveaux objets ou enregistrements dans le même champ connecté de l&#39;enregistrement d&#39;origine, en plus de ceux créés précédemment.
 
+* Lorsque votre entreprise utilise l’espace de stockage cloud Workfront et Adobe hérité, les éléments créés automatiquement à partir de Planning sont créés à l’aide de l’espace de stockage par défaut sélectionné par l’administrateur Workfront dans la zone Configuration.
 
+  Pour plus d’informations sur l’activation de l’espace de stockage cloud Adobe dans votre environnement, voir [Activer l’espace de stockage cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

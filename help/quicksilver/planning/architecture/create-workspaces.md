@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 17%
+source-wordcount: 1311
+ht-degree: 16%
 
 ---
 
-
 # Créer des espaces de travail
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Vous pouvez créer des espaces de travail comme suit :
 >
 >La création de plusieurs espaces de travail à la fois à l’aide du lot de modèle de bonnes pratiques n’est disponible que lorsque les conditions préalables suivantes sont remplies :
 >
->* Votre entreprise a acheté un package Workfront Planning Prime ou Ultimate.
+>* Votre entreprise a acheté un package Workfront ou Workflow Planning, Prime ou Ultimate
 >* Vous êtes administrateur système
 
-Vous pouvez utiliser un lot de modèles d’espaces de travail multiples pour créer 6 espaces de travail en un seul clic.
+Vous pouvez utiliser le lot de modèles d’espaces de travail multiples pour créer 6 espaces de travail en un seul clic.
 
-Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail, des types d&#39;enregistrements, des enregistrements, des vues et des champs qui vous aideront à démarrer avec l&#39;implémentation de Planning.
+Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail, des types d&#39;enregistrements, des enregistrements, des vues et des champs qui vous aideront à démarrer avec l&#39;implémentation de Planning. Pour plus d’informations, voir [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
 {{step1-to-planning}}
 
-1. Cliquez sur **Créer un espace de travail**
+1. Utilisez l’une des méthodes suivantes :
 
-   La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
+   * Cliquez sur **Créer un espace de travail**, puis procédez comme suit :
 
-1. Cliquez sur **Vérifier la configuration de l’espace de travail** dans la zone **Commencer ici (recommandé)**.
-1. (Facultatif) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants pour ouvrir la zone Aperçu pour chaque modèle :
+      1. La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
 
-   * 1.Classifications et taxonomies globales
+      1. Cliquez sur **Vérifier la configuration de l’espace de travail** dans la zone **Commencer ici (recommandé)**.
+      1. (Facultatif) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants pour ouvrir la zone Aperçu pour chaque modèle :
 
-     Le modèle Classifications et taxonomies globales comprend tous les types d’enregistrements et champs que nous vous recommandons de créer dans votre environnement pour une implémentation réussie de Workfront Planning.
+         * 1.Classifications et taxonomies globales
 
-     Vous pouvez ensuite lier ou importer les types d’enregistrements de ce modèle dans d’autres espaces de travail que vous créez.
-   * 2.Fréscopa Global Marketing
-   * 3.Fréscopa Social Marketing
-   * 4.Fréscopa Media &amp; PR
-   * 5.Événements globaux Fréscopa
-   * 6.Fréscopa Direction d&#39;entreprise
+           Le modèle Classifications et taxonomies globales comprend tous les types d’enregistrements et champs que nous vous recommandons de créer dans votre environnement pour une implémentation réussie de Workfront Planning.
 
-1. Après avoir ouvert la zone **Aperçu** pour chaque modèle d’espace de travail, cliquez sur **Précédent** pour revenir à la zone **Créer un espace de travail** ou cliquez sur **Utiliser des modèles** pour utiliser les modèles, y compris dans le lot, et créer des espaces de travail.
+           Vous pouvez ensuite lier ou importer les types d’enregistrements de ce modèle dans d’autres espaces de travail que vous créez.
+         * 2.Fréscopa Global Marketing
+         * 3.Fréscopa Social Marketing
+         * 4.Fréscopa Media &amp; PR
+         * 5.Événements globaux Fréscopa
+         * 6.Fréscopa Direction d&#39;entreprise
 
-   Les espaces de travail sont créés et s’affichent dans les onglets **Je suis** et **Tous les espaces de travail** pour les administrateurs système. Tous les utilisateurs disposant d’une licence standard verront les espaces de travail dans leur zone Espaces de travail une fois qu’un administrateur système les aura créés et qu’il aura partagé les nouveaux espaces de travail avec eux.
+      1. Après avoir ouvert la zone **Aperçu** pour chaque modèle d’espace de travail, cliquez sur **Précédent** pour revenir à la zone **Créer un espace de travail** ou cliquez sur **Utiliser des modèles** pour utiliser les modèles, y compris dans le lot, et créer des espaces de travail.
+
+   <div class="preview">
+
+   * Cliquez sur l’onglet **Exemples d’espaces de travail**, puis procédez comme suit :
+
+      1. Cliquez sur l’un des modèles d’espace de travail de l’onglet pour passer en revue les types d’enregistrements et les champs de chaque modèle. Les modèles de l’onglet **Exemples d’espaces de travail** sont en lecture seule.
+      1. Cliquez sur **Créer à partir de modèles** dans le coin supérieur droit d’un modèle.
+      1. (Facultatif) Cliquez sur **Aperçu** sur n’importe quel modèle pour afficher les types d’enregistrements et leurs champs.
+
+         >[!TIP]
+         >
+         >Cliquez sur une carte de type d’enregistrement dans un modèle pour afficher les champs de type d’enregistrement dans le panneau de droite.
+      1. Cliquez sur **Utiliser des modèles**.
+
+   </div>
+
+   Les 6 espaces de travail sont créés et s’affichent dans les onglets **Je suis** et **Tous les espaces de travail** pour les administrateurs système. Tous les utilisateurs disposant d’une licence standard verront les espaces de travail dans leur zone Espaces de travail une fois qu’un administrateur système les aura créés et qu’il aura partagé les nouveaux espaces de travail avec eux.
 
 1. Commencez à modifier les espaces de travail que vous avez créés et à ajouter des types d’enregistrements, des enregistrements, des vues et des champs pertinents pour votre organisation.
 
