@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1537
 ht-degree: 10%
 
 ---
@@ -91,6 +91,7 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 
 * Le remplissage de formulaire AI ne remplace aucun champ que vous avez déjà rempli.
 * Les utilisateurs ne reçoivent pas de suggestions de données auxquelles ils n’ont pas accès autrement.
+* Les champs qui dépendent de données calculées ne sont pas pris en charge. Par exemple, si le champ A est un champ calculé et que les options du champ B sont dérivées du champ A, le remplissage du formulaire ne peut pas remplir automatiquement le champ B.
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
