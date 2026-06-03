@@ -6,11 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 8%
 
 ---
@@ -125,6 +137,8 @@ maybe use the Share record types as example here and touch on the same points: h
 Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur un espace de travail ou un type d’enregistrement, ils reçoivent des autorisations de niveau Gestion sur les enregistrements de ce type d’enregistrement.
 * Lorsque vous supprimez une entité d’un espace de travail, toutes les autorisations de partage sont supprimées des types d’enregistrements et de tous les enregistrements qu’elles contiennent.
 * Vous ne pouvez pas partager un enregistrement avec un utilisateur qui ne dispose pas d’autorisations sur l’espace de travail ou sur le type d’enregistrement.
+
+  Si vous partagez un enregistrement avec une personne qui ne se trouve pas dans l’espace de travail, elle est automatiquement ajoutée à l’espace de travail.
 * L’accès d’un utilisateur à l’enregistrement est déterminé par la combinaison des 3 paramètres suivants :
 
    * Leurs autorisations héritées du type d’enregistrement et de l’espace de travail
@@ -149,7 +163,7 @@ Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur 
 
 * Vous pouvez désactiver les autorisations héritées pour un seul enregistrement, auquel cas vous pouvez donner à certains utilisateurs des autorisations pour des enregistrements individuels, ou ils peuvent obtenir des autorisations s’ils appartiennent à l’espace de travail, grâce à l’option **Tout le monde dans l’espace de travail peut afficher**.
 
-* Si plusieurs autorisations de partage s’appliquent au même utilisateur ou à la même utilisatrice, il ou elle reçoit l’autorisation la plus élevée de ces autorisations.
+* Si plusieurs autorisations de partage s’appliquent au même utilisateur ou à la même utilisatrice, ils ou elles reçoivent le niveau le plus élevé de ces autorisations.
 
   Par exemple, si un enregistrement est partagé avec un utilisateur disposant d&#39;autorisations d&#39;affichage et avec son groupe disposant d&#39;un accès de niveau Gérer, ce dernier reçoit des autorisations de niveau Gérer pour l&#39;enregistrement.
 

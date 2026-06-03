@@ -6,12 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '3191'
-ht-degree: 5%
+source-wordcount: 2948
+ht-degree: 4%
 
 ---
 
@@ -104,13 +118,13 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
 ## Création d’un formulaire de demande
 
-Pour créer un formulaire de demande, vous devez commencer par créer le formulaire, configurer les détails du formulaire et terminer en publiant et en partageant le formulaire.
+Pour créer un formulaire de demande, vous devez effectuer les opérations suivantes :
 
-### Commencer à créer un formulaire de demande
+* Ajouter un nouveau formulaire et configurer ses champs et éléments de contenu
+* Configurez les paramètres du formulaire pour ajouter des options d’approbation et de remplissage pour les demandes futures
+* Publier le formulaire
 
-Vous pouvez créer un formulaire de demande à partir du type d’enregistrement associé au formulaire, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
-
-#### Création d’un formulaire de demande à partir d’un type d’enregistrement
+### Ajouter un nouveau formulaire
 
 {{step1-to-planning}}
 
@@ -120,7 +134,7 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre dans la vue Liste.
 
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** ou **Gérer les formulaires de demande**, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres.
 
@@ -128,19 +142,254 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 
    ![Page Formulaires de demande](assets/request-forms-in-list-view.png)
 
-1. (Conditionnel) Si vous souhaitez ajouter un autre formulaire, cliquez sur **Nouveau formulaire de demande**.
+1. Cliquez sur **Nouveau formulaire de demande** pour ajouter un nouveau formulaire.
 
    La boîte de dialogue **Créer un formulaire de demande** s’ouvre.
 
-1. Dans la zone Créer un formulaire de demande, mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+1. Dans la zone **Créer un formulaire de demande**, mettez à jour le nom du formulaire de demande. Par défaut, le nom du formulaire est **Formulaire sans titre**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facultatif) Ajoutez une **Description** pour le formulaire de demande.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
 1. Cliquez sur **Créer**.
 
+   Le créateur de formulaires de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet **Formulaire**.
+
+   ![Mode de modification du formulaire de demande de campagne](assets/campaigns-request-form-edit-mode.png)
+
+   Le formulaire de demande contient par défaut les informations suivantes :
+
+   * Champs d’enregistrement disponibles dans la vue Tableau du type d’enregistrement sélectionné.
+
+     Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
+
+   * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. Tous les champs d’enregistrement s’affichent dans la zone **Section par défaut**.
+   * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ **Objet** ne sont pas modifiables.
+
+     >[!NOTE]
+     >
+     >* Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire lorsqu’ils soumettent la demande.
+     >* Lorsque le champ **Objet** est manquant dans un formulaire de demande, mais qu’il existe un champ Nom pour le nom de l’enregistrement futur, le nom de la demande est automatiquement attribué au même nom que l’enregistrement créé.
+     >* Lorsque les champs **Objet** et **Nom** sont manquants dans le formulaire de demande, la demande est nommée selon le modèle suivant : `< Request form name > < Entry date of the request >` ; l’enregistrement est nommé **Sans titre**.
+     >* Pour afficher les informations du champ **Objet** dans Workfront Planning, vous pouvez ajouter le champ de connexion **Demande d’origine** au type d’enregistrement associé au formulaire de demande. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
+
+1. (Facultatif) Pour supprimer la **section par défaut** du formulaire, procédez comme suit :
+
+   1. Supprimez tous les champs de la **section par défaut**.
+   1. Cliquez sur l’onglet **Éléments de contenu** et ajoutez une nouvelle section, puis ajoutez un nom pour la section.
+   1. Ajoutez des champs à la nouvelle section.
+   1. Cliquez sur l’icône **x** pour supprimer la **Section par défaut**.
+1. Cliquez sur n’importe quel champ, puis utilisez les commandes du panneau de droite du formulaire pour définir leur taille ou l’une des informations suivantes :
+
+   * **Libellé** : il s&#39;agit du nom du champ tel qu&#39;il apparaîtra sur le formulaire de demande. Le nom du champ d’enregistrement n’est pas modifié.
+   * **Instructions** : ajoutez plus d’informations sur le champ .
+   * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Dans le cas contraire, le formulaire ne peut pas être envoyé.
+   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
+
+   >[!TIP]
+   >
+   >   Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
+   >     
+1. (Facultatif) Cliquez de manière prolongée sur un champ, faites-le glisser et déposez-le à un autre emplacement du formulaire.
+1. (Facultatif) Cliquez sur l’onglet **Éléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
+
+   * **Texte descriptif** : ajoutez des instructions pour une nouvelle section, par exemple.
+   * **Saut de section** : il s’agit d’une zone du formulaire contenant plusieurs champs.
+
+     >[!TIP]
+     >
+     >La création d’un formulaire de demande Planning est similaire à la création d’un formulaire personnalisé Workfront. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour soumettre une demande.
+1. Passez à l’un des éléments suivants :
+
+   * [Configurer les paramètres de formulaire](#configure-form-settings) si vous souhaitez configurer plus de détails pour le formulaire dans l’environnement d’Exploitation
+   * [Publier le formulaire](#publish-form) si vous ne souhaitez pas configurer d’autres paramètres.
+
+### Configurer les paramètres de formulaire
+
+Dans l’onglet Paramètres , vous pouvez définir des règles d’approbation et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée.
+
+Les règles d’approbation définissent le processus d’approbation en fonction des valeurs de champ dans les demandes envoyées.
+
+Par exemple, si un formulaire de demande comporte le champ « Type de campagne », il est possible de créer une règle qui envoie la demande à une personne lorsque le champ comporte la valeur « Numérique » et à une autre personne lorsqu’il comporte la valeur « Imprimer ».
+
+Tenez compte des points suivants lors de l’ajout de règles d’approbation :
+
+* Les règles sont hiérarchisées par ordre de priorité. Si les conditions de la première règle sont remplies, cette règle est appliquée, même si les conditions des règles situées plus bas dans la liste sont également remplies.
+* Si aucune condition n’est remplie, la règle par défaut est appliquée.
+* Vous pouvez ajouter un ou plusieurs approbateurs à une règle d&#39;approbation.
+* Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans la zone des Demandes de Workfront.
+* Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
+* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
+
+Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+Les options d&#39;achèvement vous permettent de définir si une demande est marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet créé est terminé. Vous définissez le moment où l’objet est terminé en fonction d’une condition spécifiée.
+
+Pour configurer les paramètres de formulaire :
+
+1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
+
    Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. Passez à [&#x200B; Configurer les détails du formulaire de demande &#x200B;](#set-up-details-for-the-request-form).
+1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
+
+1. Pour commencer à configurer les règles d’approbation, cliquez sur Approbations ![icône Approbations](assets/approvals-icon-on-form.png) dans le volet de navigation de gauche.
+
+1. (Facultatif) Si vous souhaitez définir un processus d&#39;approbation par défaut, ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** de la zone Règle d&#39;approbation par défaut, puis cochez la case **Une seule décision est requise** si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs par défaut.
+
+   ![Zone de règle d&#39;approbation par défaut](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Facultatif) Pour chaque règle d’approbation supplémentaire, procédez comme suit :
+
+   1. Cliquez sur **Ajouter une règle d’approbation**
+   1. Cliquez sur le titre de l’espace réservé « Règle d’approbation sans titre » et saisissez un nom pour la règle d’approbation.
+   1. Cliquez sur **Sélectionner un champ** et sélectionnez le champ qui active la règle.
+   1. Sélectionnez l’opérateur de la règle. Les opérateurs varient en fonction du type de champ.
+   1. Si l’opérateur sélectionné requiert une valeur, cliquez sur l’icône plus et ajoutez une ou plusieurs valeurs.
+   1. (Facultatif) Ajoutez d’autres conditions à l’aide de l’opérateur AND ou OR en cliquant sur Ajouter une condition et en configurant la condition supplémentaire.
+   1. Dans la zone Actions de la règle d&#39;approbation, dans le champ **Approbateurs**, ajoutez au moins un utilisateur ou une équipe à définir au niveau de l&#39;approbateur lorsque la condition est remplie.
+   1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
+
+1. (Facultatif) Pour réorganiser les règles de routage, cliquez sur la poignée située à gauche de la règle et faites-la glisser jusqu&#39;à l&#39;emplacement souhaité.
+
+   Impossible de réorganiser la règle par défaut.
+
+1. (Facultatif) Pour supprimer une règle de transmission, cliquez sur le **X** situé à droite de la règle.
+1. Cliquez sur **Enregistrer** pour enregistrer les règles d’approbation.
+1. Cliquez sur **Options de demande d’achèvement** dans le panneau de gauche.
+1. Sélectionnez l’une des options suivantes :
+
+   * **La demande est terminée lors de la création de l’objet demandé** : cette opération termine la demande lors de la création de l’enregistrement.
+   * **La demande est terminée lorsque l’objet demandé est terminé** : cette action termine la demande lorsque l’enregistrement est marqué comme terminé.
+
+1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
+1. Passez à [&#x200B; Publier le formulaire &#x200B;](#publish-form).
+
+### Publier le formulaire
+
+1. Après avoir créé le formulaire et l’avoir enregistré, cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
+
+   Les événements suivants se produisent :
+
+   * Le bouton **Publier** est supprimé.
+
+     Le formulaire est alors disponible dans la zone Demandes du menu principal de Workfront.
+   * Le bouton **Dépublier** remplace le bouton **Publier**. Cliquez dessus pour empêcher l’accès au formulaire.
+   * Un bouton **Partager** est ajouté au formulaire.
+
+1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
+
+   Pour plus d’informations sur le partage d’un formulaire de demande, consultez la section [Partager un formulaire de demande](#share-a-request-form) de cet article
+1. Cliquez sur la flèche pointant vers la gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
+
+   La liste **Formulaires de demande** s’ouvre et le formulaire s’affiche dans la liste.
+
+## Partager un formulaire de demande
+
+1. Accédez à une liste de formulaires de demande et effectuez l’une des opérations suivantes :
+
+   * Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire de demande sur la page du type d’enregistrement.
+   * Cliquez sur le nom d’un formulaire de demande dans la liste pour l’ouvrir.
+
+1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
+
+1. Pour partager le formulaire en interne, sélectionnez l’onglet **Partage interne**, recherchez le nom d’un utilisateur, d’une équipe, d’une fonction, d’un groupe ou d’une entreprise dans le champ **Accorder l’accès pour envoyer ce formulaire**, puis sélectionnez-le lorsqu’il apparaît dans la liste. L’autorisation **Envoyer** est sélectionnée par défaut pour chaque entité.
+
+1. (Facultatif) Cliquez sur le menu déroulant situé après le nom d’une entité, puis cliquez sur **Supprimer** pour la supprimer de la liste et arrêter de partager le formulaire avec elle.
+
+   >[!NOTE]
+   >
+   >Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console. Vous ne pouvez pas ajouter des utilisateurs Workfront uniquement. Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+1. Dans la section **Qui peut soumettre des demandes via ce formulaire**, sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
+
+   * Accessible par les personnes invitées uniquement
+   * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
+   * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
+
+   ![Zone de partage pour le formulaire de demande](assets/share-box-for-request-form.png)
+
+1. (Facultatif) Cliquez sur **Copier le lien** pour partager le lien vers le formulaire avec des personnes qui ont accès au formulaire et soumettre des demandes. Le lien est copié dans votre presse-papiers et vous pouvez le partager avec d’autres personnes.
+1. Pour partager le formulaire publiquement, sélectionnez l’onglet **Partage public** puis activez le paramètre **Créer un lien public**. Elle est désactivée par défaut.
+
+   ![Partage public pour le formulaire de demande](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Lorsque vous activez le paramètre **Créer un lien public**, n’importe qui peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes extérieures à votre organisation qui ne disposent pas d’un compte Workfront.
+   >
+   >* Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
+   >
+   >     * Connexions Workfront ou Adobe Experience Manager
+   >     * Personnes
+   >
+
+1. Choisissez une **date d’expiration du lien**.
+
+   Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
+
+   >[!TIP]
+   >
+   >Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront et les liens partagés avec d’autres utilisateurs ne sont plus accessibles.
+
+   Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
+
+1. (Facultatif et conditionnel) Cliquez sur **Enregistrer** pour enregistrer les détails de partage du formulaire.
+1. (Conditionnel) Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
+
+   Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
+
+   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide d&#39;un lien vers un formulaire de demande, voir [Soumettre des demandes Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. (Conditionnel) Si vous avez ouvert le formulaire, cliquez sur **Enregistrer** dans le coin inférieur droit de l’onglet **Formulaire** pour enregistrer le formulaire.
+
+## Gestion des formulaires de demande existants
+
+1. Cliquez sur l’espace de travail dans lequel vous souhaitez gérer les formulaires de demande.
+
+   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
+
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
+
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires de demande**.
+
+   La page **Formulaires de demande** s’ouvre et tous les formulaires de demande associés au type d’enregistrement s’affichent dans une vue Liste.
+1. (Facultatif) Mettez à jour les éléments d’affichage suivants dans la page **Formulaires de demande** pour modifier la façon dont les informations s’affichent dans le tableau :
+
+   * Colonnes
+   * Regroupement
+   * Hauteur de ligne
+
+   Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+1. (Facultatif) Passez la souris sur le nom d’un formulaire de demande dans la vue Liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire, puis cliquez sur l’une des options suivantes :
+
+   * **Modifier le formulaire** : cliquez sur cette option pour modifier davantage les informations du formulaire.
+   * **Dépublier** : cliquez sur cette option pour dépublier le formulaire et le supprimer de la zone des Demandes dans Workfront.
+   * **Partager** : cliquez sur cette option pour modifier la personne qui a accès au formulaire.
+   * **Copier le lien** : cliquez sur cette option pour copier rapidement le lien du formulaire de demande sans ouvrir le formulaire.
+   * **Supprimer** : cliquez sur cette icône pour supprimer le formulaire. Toutes les demandes et tous les enregistrements ajoutés à l’aide du formulaire ne sont pas supprimés. Le formulaire ne peut pas être récupéré.
+
+   ![Menu Plus sur le formulaire de demande de la liste des formulaires de demande](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+1. Cliquez sur la flèche pointant vers la gauche de **Formulaires de demande** dans l’en-tête pour fermer la liste des formulaires de demande.
+
+   <!--
+   Not possible anymore: 
+      The record type page opens. 
+   1. (Optional and conditional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+      
+      1. Click **Update request form** to make any changes to the request form, then click a request form to open and edit it.
+      1. Click **Copy link to request form**  to share the link to the form with others. 
+   -->
+
+1. (Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 <!--
 
@@ -167,79 +416,6 @@ Vous pouvez créer un formulaire de demande à partir du type d’enregistrement
 </div>
 
 -->
-
-### Configurer les détails du formulaire de demande
-
-Les détails du formulaire sont divisés en onglets.
-
-* L’onglet **Formulaire** vous permet d’ajouter des champs et des éléments de contenu au formulaire
-* L’onglet **Paramètres** vous permet de définir un processus d’approbation du formulaire et de définir les options de remplissage de la demande.
-
-#### Configurer les détails du formulaire
-
-1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
-
-   Ou
-
-   Recherchez le formulaire dans la liste Formulaires de demande, cliquez sur la zone en regard du nom du formulaire, puis cliquez sur **Modifier le formulaire** dans la barre bleue en bas de l’écran.
-
-   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-
-   ![Mode de modification du formulaire de demande de campagne](assets/campaigns-request-form-edit-mode.png)
-
-   Le formulaire de demande contient par défaut les informations suivantes :
-
-   * Champs d’enregistrement disponibles dans la vue Tableau du type d’enregistrement sélectionné. <!--they are working on removing the limitation below-->
-
-   * **Section par défaut** : il s’agit du saut de section par défaut que Workfront applique au formulaire de demande. Tous les champs d’enregistrement s’affichent dans la zone **Section par défaut**.
-   * Champ **Subject** : champ qui identifiera la demande dans Workfront. La configuration et la valeur du champ **Objet** ne sont pas modifiables.
-
-     >[!NOTE]
-     >
-     >* Le champ **Objet** nécessite une valeur lorsqu’il est visible sur le formulaire de demande. Cependant, vous pouvez supprimer le champ **Objet** si nécessaire, et les demandeurs ne le verront pas dans le formulaire lorsqu’ils soumettent la demande.
-     >* Lorsque le champ **Objet** est manquant dans un formulaire de demande, mais qu’il existe un champ Nom pour le nom de l’enregistrement futur, le nom de la demande est automatiquement attribué au même nom que l’enregistrement créé.
-     >* Lorsque les champs **Objet** et **Nom** sont manquants dans le formulaire de demande, la demande est nommée selon le modèle suivant : `< Request form name > < Entry date of the request >` ; l’enregistrement est nommé **Sans titre**.
-     >* Pour afficher les informations du champ **Objet** dans Workfront Planning, vous pouvez ajouter le champ de connexion **Demande d’origine** au type d’enregistrement associé au formulaire de demande. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   * Tous les champs associés au type d’enregistrement.
-
-     Les champs contenus dans le formulaire de demande seront visibles pour toutes les personnes soumettant une demande à ce type d&#39;enregistrement.
-
-1. (Facultatif) Pointez sur un champ du formulaire à supprimer, puis cliquez sur l’icône **x** pour le supprimer. Elles sont ajoutées à l’onglet **Champs** situé à gauche du formulaire.
-
-1. (Facultatif) Pour supprimer la **section Par défaut** du formulaire, procédez comme suit :
-
-   1. Supprimez tous les champs de la section Par défaut.
-   1. Cliquez sur **Éléments de contenu** et ajoutez une nouvelle section, puis ajoutez un nom pour la section.
-   1. Ajoutez des champs à la nouvelle section.
-   1. Cliquez sur l’icône **x** pour supprimer la **section par défaut**.
-1. Cliquez sur n’importe quel champ, puis utilisez les commandes du panneau de droite du formulaire pour définir leur taille ou l’une des informations suivantes :
-
-   * **Libellé** : il s&#39;agit du nom du champ tel qu&#39;il apparaîtra sur le formulaire de demande. Le nom du champ d’enregistrement n’est pas modifié.
-   * **Instructions** : ajoutez plus d’informations sur le champ .
-   * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Dans le cas contraire, le formulaire ne peut pas être envoyé.
-   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
-
-   >[!TIP]
-   >
-   >   Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
-   >     
-
-1. (Facultatif) Cliquez sur l’onglet **Éléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
-
-   * **Texte descriptif**
-   * **Saut de section**
-
-   Pour plus d’informations sur la création d’un formulaire personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour envoyer un nouvel enregistrement.
-1. Passez à l’un des éléments suivants :
-
-   <!--
-   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
-   -->
-   * [Configurer les paramètres](#configure-settings) si vous souhaitez configurer plus de détails pour le formulaire dans l’environnement d’Exploitation
-   * [Complétez la création du formulaire de demande](#complete-request-form-creation) si vous ne souhaitez pas configurer d’autres paramètres.
 
 <!--
 #### Set up Configuration details
@@ -276,74 +452,6 @@ On the Configuration tab, you can set the approval process and configure when a 
 
 -->
 
-### Configurer les paramètres
-
-Dans l’onglet Paramètres , vous pouvez définir des règles d’approbation et configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée.
-
-#### Configuration des règles de validation
-
-Les règles d’approbation définissent le processus d’approbation en fonction des valeurs de champ sur dans les demandes envoyées.
-
-Par exemple, si un formulaire de demande comporte le champ « Type de campagne », il est possible de créer une règle qui envoie la demande à une personne lorsque le champ comporte la valeur « Numérique » et à une autre personne lorsqu’il comporte la valeur « Imprimer ».
-
-Tenez compte des points suivants lors de l’ajout de règles d’approbation :
-
-* Les règles sont hiérarchisées par ordre de priorité. Si les conditions de la première règle sont remplies, cette règle est appliquée, même si les conditions des règles situées plus bas dans la liste sont également remplies.
-* Si aucune condition n’est remplie, la règle par défaut est appliquée.
-* Vous pouvez ajouter un ou plusieurs approbateurs à une règle d&#39;approbation.
-* Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans la zone des Demandes de Workfront.
-* Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
-* Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
-
-Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
-
-Pour définir des règles d&#39;approbation pour un formulaire de demande :
-
-1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
-
-   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
-
-1. Pour commencer à configurer les règles d’approbation, cliquez sur Approbations ![icône Approbations](assets/approvals-icon-on-form.png) dans le volet de navigation de gauche.
-
-1. (Facultatif) Si vous souhaitez définir un processus d&#39;approbation par défaut, ajoutez au moins un utilisateur ou une équipe au champ **Approbateurs** de la zone Règle d&#39;approbation par défaut, puis cochez la case **Une seule décision est requise** si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs par défaut.
-
-   ![Zone de règle d&#39;approbation par défaut](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Facultatif) Pour chaque règle d’approbation supplémentaire, procédez comme suit :
-
-   1. Cliquez sur **Ajouter une règle d’approbation**
-   1. Cliquez sur le titre de l’espace réservé « Règle d’approbation sans titre » et saisissez un nom pour la règle d’approbation.
-   1. Cliquez sur **Sélectionner un champ** et sélectionnez le champ qui active la règle.
-   1. Sélectionnez l’opérateur de la règle. Les opérateurs varient en fonction du type de champ.
-   1. Si l’opérateur sélectionné requiert une valeur, cliquez sur l’icône plus et ajoutez une ou plusieurs valeurs.
-   1. (Facultatif) Ajoutez d’autres conditions à l’aide de l’opérateur AND ou OR en cliquant sur Ajouter une condition et en configurant la condition supplémentaire.
-   1. Dans la zone Actions de la règle d&#39;approbation, dans le champ **Approbateurs**, ajoutez au moins un utilisateur ou une équipe à définir au niveau de l&#39;approbateur lorsque la condition est remplie.
-   1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
-
-1. (Facultatif) Pour réorganiser les règles de routage, cliquez sur la poignée située à gauche de la règle et faites-la glisser jusqu&#39;à l&#39;emplacement souhaité.
-
-   Impossible de réorganiser la règle par défaut.
-
-1. (Facultatif) Pour supprimer une règle de transmission, cliquez sur le **X** situé à droite de la règle.
-1. Cliquez sur **Enregistrer** pour enregistrer les règles d’approbation.
-1. Passez à [Définir les options d’achèvement de la demande](#set-request-completion-options)
-
-#### Définir les options d’achèvement de la demande
-
-Les options d&#39;achèvement vous permettent de définir si une demande est marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet créé est terminé. Vous définissez le moment où l’objet est terminé en fonction d’une condition spécifiée.
-
-1. Commencez à créer ou à modifier un formulaire de demande, comme décrit dans la section [Commencer à créer un formulaire de demande](#begin-creating-a-request-form).
-
-   Le formulaire de demande pour le type d’enregistrement sélectionné s’ouvre dans l’onglet Formulaire .
-1. (Facultatif) Configurez tous les détails du formulaire, comme décrit dans la section [Configurer les détails du formulaire](#set-up-form-details).
-
-1. Choisissez si vous souhaitez qu&#39;une demande créée à partir de ce formulaire soit marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet demandé est terminé.
-1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
-1. Passez à <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Terminer la création du formulaire de demande](#complete-request-form-creation).
-
 <!--
  
 <div class="preview">
@@ -372,123 +480,3 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
-
-### Terminer la création du formulaire de demande
-
-1. Créez et configurez le formulaire comme décrit dans [Commencer à créer un formulaire de demande](#begin-creating-a-request-form) et [Configurer les détails du formulaire de demande](#set-up-details-for-the-request-form).
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire et sa **Description**, puis cliquez sur **Enregistrer**.
-
-1. Cliquez sur **Publier** pour publier le formulaire et obtenir un lien unique pour celui-ci.
-
-   Les événements suivants se produisent :
-
-   * Le bouton **Publier** est supprimé.
-
-     Le formulaire est alors disponible dans la zone Demandes du menu principal de Workfront.
-   * Le bouton **Dépublier** est ajouté au formulaire. Cliquez dessus pour empêcher l’accès au formulaire.
-   * Un bouton **Partager** est ajouté au formulaire.
-
-1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
-
-   Pour plus d’informations sur le partage d’un formulaire de demande, consultez la section [Partager un formulaire de demande](#share-a-request-form) de cet article
-1. Cliquez sur la flèche pointant vers la gauche du nom du formulaire dans l’en-tête pour fermer le formulaire.
-
-   La vue Liste **Formulaires de demande** s’ouvre et le formulaire y est ajouté.
-
-## Gestion des formulaires de demande existants
-
-
-1. Cliquez sur l’espace de travail dans lequel vous souhaitez gérer les formulaires de demande.
-
-   L’espace de travail s’ouvre et les types d’enregistrements s’affichent sous forme de cartes.
-
-1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
-
-   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
-
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires de demande**.
-
-   La page **Formulaires de demande** s’ouvre et tous les formulaires de demande associés au type d’enregistrement s’affichent dans une vue de tableau.
-1. (Facultatif) Mettez à jour les éléments d’affichage suivants dans la page **Formulaires de demande** pour modifier la façon dont les informations s’affichent dans le tableau :
-
-   * Colonnes
-   * Regroupement
-   * Hauteur de ligne
-
-   Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
-
-1. (Facultatif) Passez la souris sur le nom d’un formulaire de demande en mode Tableau, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire, puis cliquez sur l’une des options suivantes :
-
-   * **Modifier le formulaire** : cliquez sur cette option pour modifier davantage les informations du formulaire.
-   * **Dépublier** : cliquez sur cette option pour dépublier le formulaire et le supprimer de la zone des Demandes dans Workfront.
-   * **Partager** : cliquez sur cette option pour modifier la personne qui a accès au formulaire.
-   * **Copier le lien** : cliquez sur cette option pour copier rapidement le lien du formulaire de demande sans ouvrir le formulaire.
-   * **Supprimer** : cliquez sur cette icône pour supprimer le formulaire. Toutes les demandes et tous les enregistrements ajoutés à l’aide du formulaire ne sont pas supprimés. Le formulaire ne peut pas être récupéré.
-
-   ![Menu Plus sur le formulaire de demande de la liste des formulaires de demande](assets/more-menu-on-request-form-from-request-forms-list.png)
-
-1. Cliquez sur la flèche pointant vers la gauche de **Formulaires de demande** dans l’en-tête pour fermer le tableau des formulaires de demande.
-
-   La page de type d’enregistrement s’ouvre.
-1. (Facultatif et conditionnel) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête, puis effectuez l’une des opérations suivantes :
-
-   1. Cliquez sur **Mettre à jour le formulaire de demande** pour apporter des modifications au formulaire de demande, puis cliquez sur un formulaire de demande pour l’ouvrir et le modifier.
-   1. Cliquez sur **Copier le lien pour demander un formulaire** pour partager le lien vers le formulaire avec d’autres personnes.
-
-1. (Facultatif) Accédez à la zone **Demandes** dans Workfront et recherchez le formulaire partagé pour envoyer une demande. Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
-
-## Partager un formulaire de demande
-
-1. Créez un formulaire de demande comme décrit dans la section [Créer un formulaire de demande pour un type d’enregistrement](#create-a-request-form-for-a-record-type) de cet article.
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire de demande sur la page du type d’enregistrement.
-1. Cliquez sur **Partager** pour partager le formulaire avec d’autres personnes.
-
-1. Pour partager le formulaire en interne, sélectionnez l’onglet **Partage interne**, recherchez le nom d’un utilisateur, d’une équipe, d’une fonction, d’un groupe ou d’une entreprise dans le champ **Accorder l’accès pour envoyer ce formulaire**, puis sélectionnez-le lorsqu’il apparaît dans la liste. L’autorisation **Envoyer** est sélectionnée par défaut pour chaque entité.
-
-   ![Zone de partage pour le formulaire de demande](assets/share-box-for-request-form.png)
-
-1. (Facultatif) Cliquez sur le menu déroulant situé après le nom d’une entité, puis cliquez sur **Supprimer** pour la supprimer de la liste et arrêter de partager le formulaire avec elle.
-
-   >[!NOTE]
-   >
-   >Outre les équipes, les groupes, les entreprises et les fonctions, vous ne pouvez partager qu’avec des utilisateurs qui ont été ajoutés au Adobe Admin Console. Vous ne pouvez pas ajouter des utilisateurs Workfront uniquement. Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
-
-1. Dans la section **Qui peut soumettre des demandes via ce formulaire**, sélectionnez l’une des options suivantes pour indiquer quels types d’utilisateurs peuvent accéder à ce formulaire :
-
-   * Accessible par les personnes invitées uniquement
-   * Toute personne disposant d’un accès en affichage ou supérieur à l’espace de travail
-   * Toute personne disposant d’un accès en contribution ou supérieur à l’espace de travail
-1. (Facultatif) Cliquez sur **Copier le lien** pour partager le lien vers le formulaire avec des personnes qui y ont accès. Le lien est copié dans le presse-papiers.
-1. Pour partager le formulaire publiquement, sélectionnez l’onglet **Partage public** puis activez le paramètre **Créer un lien public**.
-
-   ![Partage public pour le formulaire de demande](assets/share-request-form-publicly-tab.png)
-
-   >[!WARNING]
-   >
-   >* Lorsque vous activez le paramètre **Créer un lien public**, n’importe qui peut accéder au formulaire et envoyer un nouvel enregistrement, même les personnes extérieures à votre organisation qui ne disposent pas d’un compte Workfront.
-   >
-   >* Un formulaire contenant les types de champs suivants ne peut pas être partagé publiquement :
-   >
-   >     * Connexions Workfront ou Adobe Experience Manager
-   >     * Personnes
-   >
-
-1. Choisissez une **date d’expiration du lien**.
-
-   Vous pouvez sélectionner des dates futures dans les 180 jours à compter de la date actuelle.
-
-   >[!TIP]
-   >
-   >Une fois la date de partage expirée, le formulaire de demande n’est plus disponible dans la zone des Demandes de Workfront et les liens partagés avec d’autres utilisateurs ne sont plus accessibles.
-
-   Les personnes recevront une erreur après l’expiration du lien et vous devez mettre à jour la date du lien et générer un nouveau lien à partager avant que les personnes puissent à nouveau accéder au formulaire.
-
-
-1. (Facultatif et conditionnel) Cliquez sur **Enregistrer** pour enregistrer les détails de partage du formulaire.
-1. (Conditionnel) Si le formulaire a été précédemment enregistré, cliquez sur **Copier le lien**.
-
-   Les options de partage de formulaire sont enregistrées et le lien est copié dans le presse-papiers. Vous pouvez maintenant le partager avec d’autres personnes.
-
-   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide d&#39;un lien vers un formulaire de demande, voir [Soumettre des demandes Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. Cliquez sur **Enregistrer** dans le coin inférieur droit de l’onglet **Formulaire** pour enregistrer le formulaire.
