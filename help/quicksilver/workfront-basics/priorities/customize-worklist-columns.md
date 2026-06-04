@@ -7,22 +7,20 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1880d4370059ad654f91c6f40a0a787c51c1e54e
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 27%
+source-wordcount: 437
+ht-degree: 14%
 
 ---
 
 # Personnaliser les colonnes de la liste de travail des priorités
+
+{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -37,9 +35,11 @@ Vous pouvez personnaliser les colonnes de la liste de tâches dans Priorités po
 
 Priorités affiche les éléments de travail qui vous sont affectés. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
+<!--
 >[!NOTE]
 >
->Vous ne pouvez pas ajouter de données personnalisées aux colonnes pour le moment.
+>You cannot add custom data to columns at this time.
+-->
 
 ## Conditions d’accès
 
@@ -84,8 +84,14 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 {{step1-to-priorities}}
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
-   ![Colonnes &#x200B;](assets/columns-new.png)
-1. Utilisez les bascules pour activer ou désactiver les colonnes de la liste de travail.
+
+   <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
+   ![Colonnes ](assets/columns-new-060226.png)
+
+   Exemple d’image dans l’environnement de production :
+   ![Colonnes ](assets/columns-new.png)
+
+1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste de tâches.
 
 ### Réorganiser les colonnes
 
@@ -98,6 +104,23 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 >[!NOTE]
 >
 >La colonne Nom est fixe et ne peut pas être déplacée.
+
+<div class="preview">
+
+### Ajouter et supprimer des colonnes à l’aide du gestionnaire de colonnes
+
+{{step1-to-priorities}}
+
+1. Cliquez sur l’icône + dans le coin supérieur droit de la liste pour ouvrir la zone **Gestionnaire de colonnes**.
+1. Ajoutez ou supprimez des colonnes, puis cliquez sur **Enregistrer**.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez ajouter que des champs existants à la vue Liste. Il est possible d’ajouter des champs natifs et personnalisés pour les tâches et les événements sous forme de colonnes.
+
+Pour plus d’informations sur le gestionnaire de colonnes, consultez la section [Ajouter et supprimer des colonnes avec le gestionnaire de colonnes](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) dans l’article [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+</div>
 
 ### Modifier la hauteur de ligne dans la liste de priorités
 
@@ -113,3 +136,22 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    * Grand
 
    La liste est immédiatement mise à jour.
+
+<div class="preview">
+
+## Gérer les vues pour la liste de priorités
+
+Une vue définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis.
+
+Une vue par défaut est affectée à la liste de priorités. Vous pouvez également créer et partager vos propres vues.
+
+{{step1-to-priorities}}
+
+1. Développez le menu des vues déroulantes dans le coin supérieur gauche de la liste pour sélectionner une autre vue, ou cliquez sur **Nouvelle vue** pour en créer une autre.
+1. Mettez à jour les colonnes, filtres et regroupements que vous souhaitez inclure dans la vue.
+
+   Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
+
+Pour plus d&#39;informations sur les vues, consultez la section [Mettre à jour les éléments de liste améliorés](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) dans l&#39;article [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+</div>
