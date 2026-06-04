@@ -6,10 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/NoBV-XCdKn6K1YNWOMBCSj7ANhisRxiA8Z1n-rjz-p8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: 515
+ht-degree: 97%
 
 ---
 
@@ -41,15 +46,15 @@ Outre l’aspect mis à jour de l’interface, les modifications suivantes sont 
 
 Pour plus d’informations, voir [Modifier les projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Expérience de filtrage améliorée disponible dans Adobe Workfront
 
-Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir la [note de mise à jour sur les mises à jour de l’aspect de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) L’expérience améliorée de filtrage sera disponible et deviendra le créateur de filtres standard dans l’environnement de prévisualisation le 2 mars 2023. Un déploiement par étapes dans l’environnement de production commencera également le 2 mars, avec une disponibilité pour l’ensemble des clientes et clients dans la version 23.2.
+Une mise à niveau de l’expérience de filtrage a été publiée en version Beta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir les [notes de mise à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) L’expérience améliorée de filtrage sera disponible et deviendra le créateur de filtres standard dans l’environnement de prévisualisation le 2 mars 2023. Un déploiement par étapes dans l’environnement de production commencera également le 2 mars, avec une disponibilité pour l’ensemble des clientes et clients dans la version 23.2.
 
 Vous pouvez toujours accéder aux filtres hérités sur les listes en les activant dans le panneau des filtres. À l’avenir, les filtres hérités seront abandonnés des listes, mais ils resteront disponibles dans les rapports, car le créateur de filtres standard n’est pas disponible dans les rapports.
 
-Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, voir [notes de mise à jour sur les filtres publics bêta](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, voir [notes de mise à jour sur les filtres publics Beta](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 Pour plus d’informations, voir [Créer ou modifier des filtres dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -63,4 +68,4 @@ Vous avez désormais la possibilité de copier les heures budgétées dans la zo
 
 Pour plus d’informations, voir [Copier un projet](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3415713/){target=_blank}

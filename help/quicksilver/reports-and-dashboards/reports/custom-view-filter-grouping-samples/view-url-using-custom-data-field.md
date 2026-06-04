@@ -7,12 +7,17 @@ description: Vous pouvez afficher un lien vers une URL personnalisée interne à
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/o1MwE7-uZY4Rw-78m1dMRiGSyPJ4IFNjZsytqSf3NVE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 78%
+source-wordcount: 535
+ht-degree: 74%
 
 ---
 
@@ -137,6 +142,6 @@ Pour personnaliser cette vue :
    column.2.width=150
    ```
 
-   Dans cet exemple, la colonne « column.1 ». Les lignes affichent la valeur dans le champ « URL personnalisée » sous la forme d’un lien vers la section **Aperçu** de la tâche ; « colonne.2. » affiche la valeur stockée dans le **champ d’URL** de la tâche.
+   Dans cet exemple, les lignes &#39;column.1.&#39; affichent la valeur du champ &#39;URL personnalisée&#39; sous forme de lien vers la section **Aperçu** de la tâche ; &#39;column.2.&#39; affiche la valeur stockée dans le **Champ URL** de la tâche.
 
 1. Cliquez sur **Terminé** > **Enregistrer la vue**.

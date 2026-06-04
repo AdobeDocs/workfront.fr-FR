@@ -7,9 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: 1467
 ht-degree: 100%
 
 ---
@@ -128,9 +131,9 @@ Pour plus d’informations sur la planification de la diffusion des rapports, vo
 
 ## Améliorations de la liste des tâches {#task-list-improvements}
 
-[Mettre à jour la version 2018.3, version bêta 4 d’où ceci a été supprimée]
+[Mettre à jour la version 2018.3, version Beta 4 d’où ceci a été supprimée]
 
-Les listes de tâches nouvellement repensées ont été réactivées, après une brève suppression au cours de la version 18.3, version bêta 4. Nous avons également ajouté les fonctionnalités supplémentaires suivantes aux listes de tâches qui ne faisaient pas partie de la version d’origine :
+Les listes de tâches nouvellement repensées ont été réactivées, après une brève suppression au cours de la version 18.3, version Beta 4. Nous avons également ajouté les fonctionnalités supplémentaires suivantes aux listes de tâches qui ne faisaient pas partie de la version d’origine :
 
 Remplacement du menu contextuel par une icône Plus lors de la modification en ligne d’une tâche.
 

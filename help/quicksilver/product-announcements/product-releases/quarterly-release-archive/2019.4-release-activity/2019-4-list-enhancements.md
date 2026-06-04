@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 541
 ht-degree: 100%
 
 ---
@@ -63,13 +67,13 @@ Pour obtenir la liste de toutes les modifications apportées par la version 201
      <li> <p>Pools de ressources </p> </li> 
      <li> <p>Modèles </p> </li> 
      <li> <p>Feuilles de temps </p> </li> 
-     <li> <p>Utilisateurs </p> </li> 
+     <li> <p>Utilisateurs et utilisatrices </p> </li> 
     </ul> <p>Pour plus d’informations sur l’affichage des éléments dans les listes, voir <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Commencer avec les listes dans Adobe Workfront</a>.</p> <p>Toutes les listes mises à jour fonctionnent de la même manière. </p> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Ajout d’une nouvelle info-bulle aux filtres rapides</strong> 
+     <strong>Nouvelle info-bulle ajoutée aux filtres rapides</strong> 
      <p> Au lieu d’utiliser la fonctionnalité native de votre navigateur pour trouver un élément dans une liste, vous pouvez utiliser des filtres rapides dans toutes les listes repensées. Une nouvelle info-bulle vous dirige désormais vers le filtre rapide afin de le trouver plus facilement.</p> 
      <p>Désormais, lorsque vous cliquez sur CTRL+F ou CMD+F sur votre clavier, une info-bulle s’affiche à côté du filtre rapide dans une liste pour indiquer que, au lieu de ces commandes natives, vous pouvez utiliser le filtre rapide pour trouver un élément dans la liste. Les raccourcis pour lancer le filtre rapide sont différents du raccourci du navigateur et s’affichent dans la zone de recherche du filtre.</p> 
      <p>Pour plus d’informations sur l’utilisation de filtres rapides dans les listes, voir la section « Appliquer des filtres rapides aux listes » de l’article <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Commencer avec les listes dans Adobe Workfront</a>.</p> 

@@ -1,30 +1,35 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de la version 2018.1 bêta 2
-description: Cette page décrit l’ensemble des modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 14 décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
+title: Activité de la version 2018.1 Beta 2
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 14 décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 100%
+source-wordcount: 1304
+ht-degree: 97%
 
 ---
 
-# Activité de la version 2018.1 bêta 2
+# Activité de la version 2018.1 Beta 2
 
-Cette page décrit l’ensemble des modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.1 bêta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 14 décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 14 décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées dans la version 2018.1, consultez [Vue d’ensemble de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version 2018.1 bêta 2 contient des améliorations pour les administrateurs et administratrices Workfront et pour les autres utilisateurs et utilisatrices :
+La version 2018.1, version Beta 2 contient des améliorations pour l’équipe d’administration de Workfront et les autres personnes :
 
 **Pour les administrateurs et administratrices**
 
@@ -37,14 +42,14 @@ La version 2018.1 bêta 2 contient des améliorations pour les administrateurs e
 * [Planificateur de ressources interactif dans le Business Case](#interactive-resource-planner-in-the-business-case)
 * [Visualisation dans le planificateur de ressources - Graphique d’affectation des utilisateurs et des utilisatrices](#visualization-in-the-resource-planner-user-allocation-chart)
 * [Améliorations de la zone d’accueil](#improvements-in-the-home-area)
-* [Nouvelles améliorations de la visionneuse de relecture](#new-proofing-viewer-improvements)
+* [Nouvelles améliorations de la visionneuse de relecture](#new-proofing-viewer-improvements) 
 
 ## Administration de groupes pour les utilisateurs et utilisatrices et modèles de mise en page {#group-administration-for-users-and-layout-templates}
 
-Vous pouvez désormais désigner des administrateurs et administratrices de groupe dans Workfront.Le champ Propriétaire du groupe a été renommé Administrateur ou administratrice du groupe. Les utilisateurs et utilisatrices désignés comme administrateurs et administratrices de groupe disposent d’autorisations supplémentaires pour gérer les utilisateurs et les utilisatrices ainsi que les modèles de disposition pour les groupes qu’ils gèrent.
+Vous pouvez désormais désigner des administrateurs et administratrices de groupe dans Workfront. Le champ Propriétaire du groupe a été renommé Administrateur ou administratrice du groupe. Les utilisateurs et utilisatrices désignés comme administrateurs et administratrices de groupe disposent d’autorisations supplémentaires pour gérer les utilisateurs et les utilisatrices ainsi que les modèles de mise en page pour les groupes qu’ils gèrent.
 
 * [Gestion des utilisateurs et des utilisatrices par l’administrateur ou l’administratrice de groupe](#user-management-by-group-administrator)
-* [Gestion des modèles de disposition par les administrateurs et administratrices de groupe](#layout-template-management-by-group-administrators)
+* [Gestion des modèles de mise en page par les administrateurs et administratrices de groupe](#layout-template-management-by-group-administrators)
 
 ### Gestion des utilisateurs et des utilisatrices par l’administrateur ou l’administratrice de groupe {#user-management-by-group-administrator}
 
@@ -54,21 +59,21 @@ En plus des autorisations que le ou la propriétaire du groupe devait auparavant
 
 * Se connecter en tant qu’autre utilisateur ou utilisatrice appartenant à un groupe sous sa responsabilité.
 * Réinitialiser le mot de passe d’un autre utilisateur ou d’une autre utilisatrice appartenant à un groupe sous sa responsabilité.
-* Créer des modèles de disposition gérés par son groupe.  
+* Créer des modèles de mise en page gérés par son groupe. 
 
 Avant cette modification, seul l’administrateur ou l’administratrice Workfront pouvait réaliser ces opérations.
 
 Pour plus d’informations concernant les administrateurs et administratrices de groupe, consultez la section « Présentation des administrateurs et administratrices de groupe » dans [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-### Gestion des modèles de disposition par les administrateurs et administratrices de groupe {#layout-template-management-by-group-administrators}
+### Gestion des modèles de mise en page par les administrateurs et administratrices de groupe {#layout-template-management-by-group-administrators}
 
 Nous introduisons le nouveau concept de **Groupe avec accès Administration** que vous pouvez associer à un modèle de mise en page.
 
 L’utilisateur ou l’utilisatrice désigné comme administrateur ou administratrice de ce groupe a accès à la gestion de ce modèle de mise en page et à la création de modèles de mise en page, les groupes sous sa responsabilité étant les groupes d’administration des modèles. 
 
-Avant cette modification, seul l’administrateur ou l’administratrice Workfront pouvait créer des modèles de disposition.
+Avant cette modification, seul l’administrateur ou l’administratrice Workfront pouvait créer des modèles de mise en page.
 
-Pour plus d’informations concernant la création de modèles de disposition, consultez « Création et gestion de modèles de disposition ».
+Pour plus d’informations concernant la création de modèles de mise en page, consultez « Création et gestion de modèles de mise en page ».
 
 ## Affichage au format écran large dans tout le système {#system-wide-widescreen-display}
 
@@ -126,7 +131,7 @@ Plusieurs améliorations sont désormais disponibles dans la zone Accueil, notam
 
 * Les champs par défaut s’affichent pour les éléments sélectionnés. 
 
-  Pour plus d’informations sur les champs par défaut, voir « Créer et gérer des modèles de disposition ».
+  Pour plus d’informations sur les champs par défaut, voir « Créer et gérer des modèles de mise en page ».
 
 * Après avoir cliqué sur « Travailler sur ce projet » sur une demande, les champs associés au problème s’affichent dans le panneau de droite.
 
@@ -139,7 +144,7 @@ Plusieurs améliorations sont désormais disponibles dans la zone Accueil, notam
 
 Pour plus d’informations sur l’utilisation de la nouvelle zone Accueil, ainsi que sur les différences de fonctionnalités entre Mon travail et Accueil, voir [Utiliser la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-## Nouvelles améliorations de la visionneuse de relecture {#new-proofing-viewer-improvements}
+## Nouvelles améliorations de la visionneuse de relecture  {#new-proofing-viewer-improvements}
 
 * [Disposition et conception améliorées](#improved-layout-and-design)
 * [Rechercher des commentaires par numéro de commentaire](#search-comments-by-comment-number)
@@ -161,13 +166,13 @@ L’aspect de la visionneuse de relecture est mis à jour. Les zones suivantes d
 
 ### Rechercher des commentaires par numéro de commentaire {#search-comments-by-comment-number}
 
-Désormais, lorsque vous recherchez la liste de commentaires dans la visionneuse de relecture, vous pouvez saisir le numéro du commentaire dans le champ de recherche. La liste des commentaires est ensuite filtrée pour afficher le commentaire que vous avez recherché. 
+Désormais, lorsque vous recherchez dans la liste de commentaires de la visionneuse de relecture, vous pouvez saisir le numéro du commentaire dans le champ de recherche. La liste de commentaires est ensuite filtrée afin d’afficher le commentaire que vous avez recherché. 
 
 Pour plus d’informations, voir :
 
 ### Option permettant de modifier le commentaire en regard de l’indicateur de balisage {#option-to-edit-comment-next-to-the-markup-indicator}
 
-Vous pouvez désormais modifier plus facilement un commentaire existant. Après avoir cliqué sur un indicateur de commentaire sur l’épreuve, une icône de modification s’affiche en regard du ballon. 
+Vous pouvez désormais modifier plus facilement un commentaire existant. Après avoir cliqué sur un indicateur de commentaire dans le BAT, une icône de modification s’affiche en regard de la bulle. 
 
 Avant cette modification, vous deviez cliquer sur l’icône Modifier dans la zone Commentaire.  
 

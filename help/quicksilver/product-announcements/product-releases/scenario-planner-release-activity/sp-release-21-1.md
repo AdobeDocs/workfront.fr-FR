@@ -8,9 +8,12 @@ description: Le planificateur de scénarios Adobe Workfront est disponible uniq
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/laKQ-IUN1C0aWrebrazc46GUozygx-n0jcBu2-eCccY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: 301
 ht-degree: 100%
 
 ---
@@ -35,7 +38,7 @@ Pour plus d’informations sur la résolution des conflits dans le planificateur
 >
 >**Disponible à ces dates :**
 >
->Version préliminaire bêta : 13 janvier 2021
+>Version préliminaire Beta : 13 janvier 2021
 >
 >Version de production : avec la version 21.1
 

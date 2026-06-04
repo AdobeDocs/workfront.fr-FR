@@ -3,15 +3,19 @@ content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Requêtes relatives aux indicateurs de performance clés
-description: Requêtes Analytics améliorées
+description: Requêtes relatives à l’analytique améliorée
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 9ca5574d-7bc5-4d9d-9ed7-4d5fad6f7857
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/12fjqQJCLfMeGRjj7WDcEsOlI5-YZeXgnDh5W5XcRXI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 5%
+source-wordcount: 408
+ht-degree: 11%
 
 ---
 
@@ -40,7 +44,7 @@ L’indicateur Projets terminés indique le nombre de projets terminés au cours
 
 Vous pouvez également voir le nombre de projets terminés au cours de la période précédente, ainsi que le nombre de jours dans la période précédente.
 
-![&#x200B; Projets d’indicateurs de performance clés terminés &#x200B;](assets/kpi-projects-completed-350x182.png)
+![ Projets d’indicateurs de performance clés terminés ](assets/kpi-projects-completed-350x182.png)
 
 ### Requête
 

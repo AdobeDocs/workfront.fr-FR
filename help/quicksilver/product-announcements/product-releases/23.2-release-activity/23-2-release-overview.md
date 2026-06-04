@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 99%
+source-wordcount: 2914
+ht-degree: 97%
 
 ---
 
@@ -79,7 +85,7 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                         <ul>
                         <li><strong>Copier un champ</strong> : vous pouvez maintenant copier des champs existants en cliquant sur l’icône « Copier » sur les champs directement à partir de la zone de travail.</li>
                         <li><strong>Utiliser une section par défaut</strong> : lorsque le créateur ou la créatrice du formulaire n’a pas inséré de section en haut du formulaire, une section par défaut apparaît maintenant dans la zone de travail pour que les utilisateurs et les utilisatrices puissent accorder des autorisations aux champs sans section personnalisée affectée. </li>
-                        <li><strong>Modifier la taille des champs de texte descriptif</strong> : vous pouvez désormais attribuer une taille petite, moyenne ou grande aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne que d’autres champs. <span style="color: #ff0000;">Modifier la taille du texte descriptif a été temporairement retardé, mais sera bientôt disponible.</span></li> 
+                        <li><strong>Modifier la taille des champs de texte descriptif</strong> : vous pouvez désormais attribuer une taille petite, moyenne ou grande aux champs de texte descriptif. Vous pouvez également les utiliser sur la même ligne avec d’autres champs. <span style="color: #ff0000;"> La modification de la taille du texte descriptif a été retardée temporairement, mais sera bientôt disponible.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -89,8 +95,8 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                                 <p>Version préliminaire : 9 mars 2023</p>
                             </li>
                             <li>
-                                 <p>Version de production : avec la version 23.2<br />
-                                 <span style="color: #ff0000;">La nouvelle version Beta du créateur de formulaire a été temporairement désactivée dans les versions de prévisualisation et de production du 24 mai au 21 juillet 2023.</span></p>
+                                 <p>Version de production : avec la version 23.2<br />
+                                 <span style="color: #ff0000;">La version Beta du concepteur de formulaires a été temporairement désactivée dans l’aperçu et la production du 24 mai au 21 juillet 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -126,7 +132,7 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
@@ -149,7 +155,7 @@ En lieu et place d’un webinaire sur la version, nous vous invitons à vous ins
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Fonctionnalité d’itération disponible dans les panoramas Adobe Workfront</a></p>
-                        <p>Plusieurs nouvelles fonctionnalités disponibles dans les tableaux Workfront permettent d’utiliser la fonctionnalité Agile Scrum. Ces fonctionnalités sont les suivantes :
+                        <p>Plusieurs nouvelles fonctionnalités disponibles dans les tableaux Workfront permettent d’utiliser la fonctionnalité Agile Scrum. Ces fonctionnalités incluent :
                         <ul>
                         <li>Flux de travail pour regrouper des panoramas liés à la même équipe et collaborer sur le travail</li>
                         <li>Liste de cartes, ou liste d’attente du travail, avec la possibilité d’utiliser des sources pour connecter les cartes aux tâches et problèmes Workfront</li>
@@ -651,7 +657,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, consultez l
 
 Pour plus d’informations sur les versions d’API, consultez [Contrôle de version des API et planning de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées dans le cadre de la version 23.2, consultez [Mises à jour de maintenance pour Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 

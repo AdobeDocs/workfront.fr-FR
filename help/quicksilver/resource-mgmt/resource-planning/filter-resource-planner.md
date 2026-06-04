@@ -6,10 +6,16 @@ description: Les filtres permettent de modifier les informations qui s’affiche
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 96%
+source-wordcount: 2369
+ht-degree: 97%
 
 ---
 
@@ -249,7 +255,7 @@ Vous pouvez dupliquer un filtre existant. Les critères de filtre d’origine re
 1. Pointez sur le nom d’un filtre enregistré que vous souhaitez dupliquer.
 1. Cliquez sur l’icône **Dupliquer**.
 
-   ![&#x200B; Dupliquer le filtre &#x200B;](assets/rp-filter-options---duplicate-350x154.png)\
+   ![ Dupliquer le filtre ](assets/rp-filter-options---duplicate-350x154.png)\
    La zone Dupliquer le filtre s’affiche.
 
 1. Dans le champ **Nom du filtre**, donnez un nouveau nom au filtre dupliqué.\

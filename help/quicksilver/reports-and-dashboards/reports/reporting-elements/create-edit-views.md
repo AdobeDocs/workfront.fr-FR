@@ -6,12 +6,17 @@ description: Vous pouvez personnaliser le type d’informations affichées à l�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 62%
+source-wordcount: 868
+ht-degree: 64%
 
 ---
 
@@ -73,7 +78,7 @@ Vous pouvez créer une nouvelle vue standard ou personnaliser une vue standard e
 1. Cliquez sur le bouton **+ Nouvel affichage** pour créer un affichage.
 Ou
 Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) qui s’affiche lorsque vous pointez à droite d’une vue existante à modifier.
-La boîte de dialogue **Personnaliser la vue** s’affiche.
+La boîte de dialogue **Personnaliser la vue** s&#39;affiche.
 
 1. Dans la section **Aperçu de la colonne**, effectuez l’une des opérations suivantes :
 

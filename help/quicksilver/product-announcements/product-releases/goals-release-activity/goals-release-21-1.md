@@ -7,9 +7,13 @@ description: Cette page explique comment utiliser les fonctionnalités des Objec
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 2da2c8f9-a678-4739-8e9c-21473e92d51a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/J7j5g9GSxTymsenPIyRh8r9cRXelrttzH-d0EvUm5y0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: 811
 ht-degree: 100%
 
 ---
@@ -26,7 +30,7 @@ Pour obtenir la liste de toutes les modifications disponibles dans Workfront ave
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
+   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md#top" class="MCXref xref" xrefformat="{para}">Nommage cohérent entre la progression de l’objectif et le statut du projet</a> <span style="color: #dc143c; font-weight: bold;">Nouveau dans l’environnement de prévisualisation</span></p> <p>Nous avons mis à jour les noms du champ de progression de l’objectif pour qu’il corresponde à celui du statut du projet.</p> </td> 

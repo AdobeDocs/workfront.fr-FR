@@ -5,10 +5,16 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+TQID: https://experienceleague.adobe.com/s8ynESiXXqNKhf0pGTyVkcgm30-cNj-ileaUsQOXnAs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: 441
+ht-degree: 98%
 
 ---
 
@@ -31,7 +37,7 @@ La nouvelle page d’accueil est une nouvelle fonctionnalité majeure que nous s
 La nouvelle page d’accueil sera l’expérience par défaut pour tous les utilisateurs et toutes les utilisatrices lors de sa mise à jour. Vous pouvez toutefois choisir de revenir à l’expérience d’accueil existante pendant que nous continuons à développer ses fonctionnalités.
 
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Nouvelle expérience de commentaires d’objets supplémentaires
 
@@ -41,11 +47,11 @@ Il s’agit de la seule expérience de commentaires pour ces objets, car l’anc
 
 Pour plus d’informations, voir [Activité Version de la nouvelle expérience de commentaires](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Nouvelle version bêta de l’expérience de commentaires pour les projets, tâches et problèmes
+## Nouvelle version Beta de l’expérience de commentaires pour les projets, tâches et problèmes
 
-La nouvelle version bêta de l’expérience de commentaires est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, la version bêta de l’expérience de commentaires n’était disponible que pour les problèmes et les objectifs.
+La nouvelle expérience de commentaires en version Beta est désormais disponible pour les projets, les tâches et les documents. Avant cette mise à jour, l’expérience de commentaires en version Beta n’était disponible que pour les problèmes et les objectifs.
 
-Pour plus d’informations sur les fonctionnalités actuellement disponibles dans la version bêta de l’expérience de commentaires, voir [Activité Nouvelle version bêta de l’expérience de commentaires](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Pour plus d’informations sur les fonctionnalités actuellement disponibles dans la version Beta de l’expérience de commentaires, voir [Activité de publication de la nouvelle expérience de commentaires Beta](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Les profils sans avatars affichent désormais les initiales de l’utilisateur ou l’utilisatrice.
 

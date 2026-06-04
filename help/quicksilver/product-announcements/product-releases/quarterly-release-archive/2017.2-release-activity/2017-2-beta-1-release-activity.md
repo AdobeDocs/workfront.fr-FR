@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 100%
+source-wordcount: 1363
+ht-degree: 99%
 
 ---
 
@@ -140,7 +146,7 @@ Pour plus d’informations sur les nouveaux groupes de ressources et leur associ
 
 Désormais, lorsque vous affichez une liste de tableaux de bord, l’aspect est plus moderne et évolutif.
 
-Cette fonctionnalité n’était auparavant disponible que pour les utilisateurs et utilisatrices inscrits dans l’accès anticipé. Elle est maintenant disponible pour l’ensemble des utilisateurs et utilisatrices dans l’environnement de prévisualisation. Elle sera mise à la disposition de l’ensemble des utilisateurs et utilisatrices dans l’environnement de production avec la version 2017.2. 
+Auparavant, cette fonctionnalité n’était disponible que pour les utilisateurs inscrits en accès anticipé. Elle est désormais disponible pour tous les utilisateurs dans l’environnement de prévisualisation. Elle sera disponible pour tous les utilisateurs dans l’environnement de production avec la version 2017.2. 
 
 Pour plus d’informations sur les tableaux de bord, voir [Créer un tableau de bord](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 

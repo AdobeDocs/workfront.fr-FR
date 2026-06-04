@@ -1,18 +1,21 @@
 ---
-title: Autres améliorations au cours de la période de publication du 2e trimestre 2026
+title: Autres améliorations au cours du deuxième trimestre de 2026
 description: Autres améliorations au cours du deuxième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
+TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 29%
+source-wordcount: 566
+ht-degree: 21%
 
 ---
 
-# Autres améliorations au cours de la période de publication du 2e trimestre 2026
+# Autres améliorations au cours du deuxième trimestre de 2026
 
 Cette page décrit les améliorations apportées à l’environnement Aperçu de la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
@@ -22,9 +25,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 
 Nous avons ajouté un nouveau paramètre pour ajuster la hauteur des lignes dans les listes améliorées.
 
@@ -34,9 +35,7 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 
 Nous avons ajouté les noms personnalisés suivants pour un filtre d’équipe, de groupe, d’entreprise et de rôle dans des listes améliorées :
 
@@ -56,9 +55,7 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : jeudi 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux listes de demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
@@ -85,9 +82,7 @@ Pour plus d’informations, voir [Création et gestion des vues dans la zone des
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026
->Version rapide de production : 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
 
 Pour vous permettre de trouver plus facilement les requêtes dont vous avez besoin, nous avons ajouté des regroupements à la liste des requêtes et au widget Mes requêtes . Désormais, vous pouvez regrouper les requêtes selon n’importe quelle colonne de la liste. Ces regroupements font partie de la vue que vous utilisez lorsque vous créez le regroupement.
 
@@ -97,9 +92,8 @@ Pour plus d’informations sur la création de vues pour la liste des demandes e
 
 >[!NOTE]
 >
->Prévisualisation : 11 décembre 2025
->Version rapide de production : jeudi 11 février 2026\
->Production pour tous : jeudi 11 février 2026
+>Aperçu : 11 décembre 2025>Version rapide de production : 11 février 2026\
+>Production pour tous : 11 février 2026
 
 Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants.
 
@@ -113,4 +107,4 @@ Votre administration Workfront recevra un message du Centre d’annonces concern
 
 Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}

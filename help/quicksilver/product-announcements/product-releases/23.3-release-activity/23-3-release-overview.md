@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 97%
+source-wordcount: 2948
+ht-degree: 96%
 
 ---
 
@@ -258,7 +264,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                                 <p>Version préliminaire : 27 avril 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Version de production pour l’opt-in anticipé : 28 avril 2023.<span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’opt-in anticipé aux fonctionnalités pour les panoramas Workfront.</span></p>
+                                 <p>Version de production pour l’opt-in anticipé : 28 avril 2023.<span style="color: #ff0000;"> Cette fonctionnalité est disponible en production à cette date uniquement par le biais de l’option opt-in anticipé aux fonctionnalités pour les panoramas Workfront.</span></p>
                                 <p>Version de production pour l’ensemble des clientes et clients : avec la version 23.3</p>
                             </li>
                         </ul>
@@ -709,7 +715,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées à la nouvelle expérience du tableau de bord de zone de travail</a></p>
-                        <p>Les améliorations apportées au tableau de bord de zone de travail sont disponibles au cours de la période de la version 23.3. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire. 
+                        <p>Des améliorations apportées au tableau de bord de la zone de travail seront disponibles dans le délai imparti pour la version 23.3. Sauf indication contraire, ces améliorations seront disponibles dans l’environnement de production avec la version 23.3. 
  </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

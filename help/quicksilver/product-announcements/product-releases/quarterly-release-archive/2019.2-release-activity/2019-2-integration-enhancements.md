@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/EzTWdwdTXcFyk1IYUebYtdVqhDZcHzJWVRL55EFloPg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 243
 ht-degree: 100%
 
 ---
@@ -36,8 +40,7 @@ Vous pouvez désormais effectuer les opérations suivantes lorsque vous utilisez
 
 ## Mise à jour de l’intégration Workfront pour Adobe Creative Cloud
 
-L’extension Workfront pour Adobe Creative Cloud inclut désormais l’intégration à la bibliothèque Workfront.
-Vous pouvez désormais accéder aux ressources enregistrées dans la bibliothèque Workfront à partir des applications Adobe Creative Cloud en utilisant l’extension Workfront pour Adobe Creative Cloud.
+L’extension Workfront pour Adobe Creative Cloud inclut désormais l’intégration à la bibliothèque Workfront. Vous pouvez désormais accéder aux ressources enregistrées dans la bibliothèque Workfront à partir des applications Adobe Creative Cloud en utilisant l’extension Workfront pour Adobe Creative Cloud.
 
 ## Amélioration de l’expérience de la liste dans iOS et Android
 

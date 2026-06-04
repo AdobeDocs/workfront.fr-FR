@@ -6,10 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ueBUcnYjQ4xfw-CYYCwOw-3SNsRKK8Da5qOuDjdyBwk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: 409
+ht-degree: 96%
 
 ---
 
@@ -23,9 +28,9 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 
 Pour que vous puissiez avoir une visibilité sur tous les utilisateurs ou utilisatrices du système et sur leur capacité sans quitter l’équilibreur de charge de travail d’un projet, nous avons ajouté une option « Afficher tous les utilisateurs et utilisatrices ». Lorsqu’elle est activée, l’équilibreur de charge de travail du projet affiche tous les utilisateurs et utilisatrices du système dans la zone Travail attribué. Grâce à cette amélioration, vous pouvez facilement identifier qui doit être affecté à un travail répertorié dans la zone Travail non attribué.
 
-Pour plus d’informations, voir [Attribuer un travail dans l’équilibreur de charge de travail en le faisant glisser et en le déposant](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+Pour plus d’informations, consultez la section [Affecter du travail dans l’équilibreur de charge de travail par glisser-déposer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Afficher tous les utilisateurs et utilisatrices avec une fonction sélectionnée dans l’équilibreur de charge de travail lors de l’affectation de travail en bloc
 
@@ -37,9 +42,9 @@ Pour faciliter la recherche de la bonne personne lors du remplacement des foncti
 
 Avant cette amélioration, vous ne pouviez afficher que la liste des personnes pouvant être affectées selon la logique Affectations intelligentes.
 
-Pour plus d’informations sur l’affectation de travail en bloc à l’aide de l’équilibreur de charge de travail, voir [Attribuer du travail en bloc à l’aide de l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Pour plus d’informations sur les affectations en masse du travail à l’aide de l’équilibreur de charge de travail, consultez la section [Affecter du travail en masse à l’aide de l’équilibreur de charge de travail](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Améliorations de l’équilibreur de charge de travail pour les personnes sous licence de travail et paramètres de problème
 

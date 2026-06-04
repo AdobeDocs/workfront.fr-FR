@@ -1,22 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.2, version bêta 1
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.2, version bêta 1. Cette fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 22 mars 2018. Elle a été rendue disponible dans l’environnement de production en juin 2018.
+title: Activité de la version 2018.2 Beta 1
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 1. Cette fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 22 mars 2018. Elle a été rendue disponible dans l’environnement de production en juin 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1178
 ht-degree: 100%
 
 ---
 
-# Activité Version 2018.2, version bêta 1
+# Activité de la version 2018.2 Beta 1
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.2, version bêta 1. Cette fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 22 mars 2018. Elle a été rendue disponible dans l’environnement de production en juin 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 1. Cette fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 22 mars 2018. Elle a été rendue disponible dans l’environnement de production en juin 2018.
 
 >[!IMPORTANT]
 >
@@ -24,7 +28,7 @@ Cette page décrit toutes les modifications les plus récentes disponibles dans 
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La version 2018.2, version bêta 1 contient les améliorations suivantes :
+La version 2018.2 Beta 1 contient les améliorations suivantes :
 
 * [Modification des dates de tâches dans le graphique de Gantt](#modify-task-dates-in-the-gantt-chart)
 * [Accès au graphique de Gantt du projet à partir de l’onglet Mises à jour](#access-the-project-gantt-chart-from-the-updates-tab) (temporairement supprimé)
@@ -74,7 +78,7 @@ Les actions suivantes ne sont pas réintroduites sous forme de liens sur le docu
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* dans
+*  dans 
 
 ## Améliorations de la vue utilisateur dans le planificateur de ressources {#user-view-improvements-in-the-resource-planner}
 
@@ -118,10 +122,10 @@ Ces améliorations portent essentiellement sur la rapidité et l’efficacité d
 
 Les fonctionnalités suivantes ont été temporairement désactivées dans les listes de projets spécifiées :
 
-* Redimensionnement des colonnes (cette fonctionnalité a été réintroduite dans la version 2018.2, version bêta 5).
+* Redimensionnement des colonnes (cette fonctionnalité a été réintroduite dans la version 2018.2, version Beta 5).
 * Réorganisation des colonnes.
-* Les champs d’icône de statut s’affichent comme vides (cette fonctionnalité a été réintroduite dans la version 2018.2, version bêta 5).
-* Le diagramme de Gantt n’est pas accessible (cette fonctionnalité a été réintroduite dans la version 2018.2, version bêta 3).
+* Les champs d’icône de statut s’affichent comme vides (cette fonctionnalité a été réintroduite dans la version 2018.2 Beta 5).
+* Le diagramme de Gantt n’est pas accessible (cette fonctionnalité a été réintroduite dans la version 2018.2 Beta 3).
 
 Pour plus d’informations sur l’utilisation des listes, consultez la section [Commencer avec les listes dans Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -189,7 +193,7 @@ Le tableau suivant répertorie les mises à jour apportées à l’onglet Mises 
    <td> <p>Ajouter une réponse ou mettre à jour un commentaire ou une mise à jour</p> </td> 
    <td> <p>Cliquer sur le bouton Commenter</p> </td> 
    <td> <p>Cliquer sur le bouton Répondre ou Mettre à jour</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Mettre à jour le statut de la tâche</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Mettre à jour la condition pour les tâches et les problèmes</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Ajouter une mise à jour à un document</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Mettre à jour le travail</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Mettre à jour le statut d’une tâche</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Mettre à jour la condition des tâches et des problèmes</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Ajouter une mise à jour à un document</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

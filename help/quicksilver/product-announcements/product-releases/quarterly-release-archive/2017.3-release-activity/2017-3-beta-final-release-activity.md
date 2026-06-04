@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3822'
-ht-degree: 91%
+source-wordcount: 3709
+ht-degree: 88%
 
 ---
 
@@ -139,7 +145,7 @@ Avant cette modification, seules les tâches pouvaient être ajoutées à la lis
 
 Comme vous avez désormais accès à plus que les tâches de la liste d’attente, toutes les vues de tâches personnalisées disponibles précédemment dans la liste d’attente sont copiées et ajoutées à la liste d’attente en tant que vues d’élément de travail de la liste d’attente personnalisées.
 
-Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 Pour plus d’informations sur l’activation de problèmes dans la liste d’attente d’une équipe Agile Scrum, voir [Configurer la manière dont les dates sont appliquées lors de l’ajout d’éléments de travail à une itération](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) dans [Configurer Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -207,7 +213,7 @@ Pour plus d’informations sur l’exécution d’un rapport d’utilisation, vo
 
 ## Améliorations des documents : interface rationalisée {#document-enhancements-streamlined-interface}
 
-L’expérience client de l’ajout de documents à Workfront est désormais plus simple et intuitive. Vous pouvez désormais charger un document à partir de votre système de fichiers, demander un document ou lier un fichier à partir d’une application tierce (telle que Google ou Dropbox), le tout à partir d’un simple menu déroulant. 
+L’expérience utilisateur pour l’ajout de documents à Workfront est désormais plus rationalisée et intuitive. Vous pouvez désormais charger un document à partir de votre système de fichiers, demander un document ou lier un fichier à partir d’une application tierce (telle que Google ou Dropbox), le tout à partir d’un simple menu déroulant. 
 
 Auparavant, ces options étaient disponibles lors du lancement de la boîte de dialogue Ajouter des documents. 
 
@@ -450,8 +456,8 @@ Pour plus d’informations sur l’accès à Workfront à partir de Slack, voir 
 
 Nous avons apporté les améliorations suivantes au module complémentaire Workfront pour Outlook 365 :
 
-* Ajouter une tâche ou un problème à un projet dans Workfront : vous pouvez désormais convertir un e-mail en tâche ou en problème dans Workfront à l’aide du module complémentaire Outlook 365. Au cours de ce processus, vous pouvez spécifier un projet auquel vous souhaitez ajouter la tâche ou le problème, ainsi qu’une personne cessionnaire et une date d’échéance. Avant cette amélioration, vous ne pouviez envoyer qu’une demande à une file d’attente de demandes ou ajouter une tâche personnelle à votre liste En train de travailler sur à partir d’Outlook 365. 
-* Conserver un lien vers les objets Workfront dans l’e-mail d’origine converti en tâches, problèmes ou demandes : lorsque vous convertissez un e-mail d’Outlook 365 en tâche, problème ou demande, Outlook 365 conserve un lien vers la tâche convertie ou le problème converti à partir de cet e-mail dans l’e-mail d’origine. Avant cette modification, Outlook n’indiquait pas si un e-mail avait été converti en tâche ou envoyé en tant que demande. 
+* Ajouter une tâche ou un événement à un projet dans Workfront : vous pouvez désormais convertir un e-mail en tâche ou en événement dans Workfront à l’aide du complément Outlook 365. Dans ce processus, vous pouvez spécifier un projet auquel vous souhaitez ajouter la tâche ou l’événement, ainsi qu’une personne désignée et une date d’échéance. Avant cette amélioration, vous pouviez uniquement envoyer une demande à une file d&#39;attente de demandes ou ajouter une tâche personnelle à votre liste En cours depuis Outlook 365. 
+* Conserver un lien vers les objets Workfront de l&#39;e-mail d&#39;origine converti en tâches, événements ou requêtes : lorsque vous convertissez un e-mail Outlook 365 en tâche, événement ou requête, Outlook 365 conserve un lien vers la tâche ou l&#39;événement qui a été converti à partir de cet e-mail dans l&#39;e-mail d&#39;origine. Avant cette modification, Outlook n&#39;indiquait pas si un e-mail avait été converti en tâche ou envoyé en tant que demande. 
 
 ## Modifications des API {#api-changes}
 

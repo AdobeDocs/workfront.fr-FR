@@ -5,10 +5,13 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: 530
+ht-degree: 96%
 
 ---
 
@@ -30,7 +33,7 @@ Pour l’instant, les sous-tâches ne sont pas visibles sur le panorama sous for
 
 Pour plus d’informations, consultez la section [Gérer les sous-tâches sur les panoramas](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Ajouter des documents sur les cartes connectées
 
@@ -40,7 +43,7 @@ Pour l’instant, vous ne pouvez pas supprimer de documents de la carte, mais vo
 
 Pour plus d’informations, consultez la section [Ajouter des documents sur les cartes](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Améliorations des affectations des utilisateurs et utilisatrices aux panoramas et aux cartes
 
@@ -52,7 +55,7 @@ Les améliorations suivantes sont désormais disponibles lors de l’ajout de pe
 
 Pour plus d’informations, consultez la secrion [Ajouter ou supprimer des personnes membres d’un panorama](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documents disponibles sur les cartes connectées en lecture seule
 
