@@ -3,14 +3,19 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Afficher les versions précédentes d’une épreuve dans la visionneuse de relecture web
-description: '« Note : les informations décrites dans cette section ne sont disponibles qu’avec la visionneuse de relecture web et uniquement lorsque vous révisez des épreuves vidéo ou statiques (non interactives). »'
+description: 'Remarque : les informations décrites dans cette section sont disponibles uniquement avec la visionneuse de relecture Web et uniquement lors de la révision de BAT vidéo ou statiques (non interactifs).'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 98a9917d-246d-438f-b6a6-98b5958df4a3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/DkOIuT0-HQEhQcDUbq5SRxTRsE1Jv9tj9wiYF1JIzNg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: 187
+ht-degree: 86%
 
 ---
 

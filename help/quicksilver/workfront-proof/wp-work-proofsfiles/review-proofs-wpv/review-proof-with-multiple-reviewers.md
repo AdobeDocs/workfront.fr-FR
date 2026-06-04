@@ -7,9 +7,14 @@ description: Plusieurs réviseurs et réviseuses peuvent travailler sur une épr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/KffxDWcUyQRnEQkBmUXXAKwMDDFjKy6l5Wj-psTaFZ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 201
 ht-degree: 99%
 
 ---
@@ -26,7 +31,7 @@ Vous pouvez voir les indicateurs de présence lorsque d’autres réviseurs et r
 
 1. Consultez les indicateurs de présence en haut à droite de la visionneuse de relecture.
 
-   Si vous utilisez [!DNL Workfront Proof] (et non la fonctionnalité de vérification intégrée à [!DNL Workfront]), les indicateurs de présence contiennent l’image de profil [!DNL Workfront Proof] de la personne ou, en l’absence d’image de profil, l’initiale du nom et du prénom de la personne.
+   Si vous utilisez [!DNL Workfront Proof] (et non la fonctionnalité de relecture intégrée à [!DNL Workfront]), les indicateurs de présence contiennent l’image de profil [!DNL Workfront Proof] de la personne ou, en l’absence d’image de profil, l’initiale du nom et du prénom de la personne.
 
    Les images de profil dans [!DNL Workfront] n’apparaissent pas dans la visionneuse de relecture.
 

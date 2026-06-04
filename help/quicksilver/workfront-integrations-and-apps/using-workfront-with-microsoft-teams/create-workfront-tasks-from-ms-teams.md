@@ -6,10 +6,22 @@ description: Si une personne responsable d’une équipe a installé et configur
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 76%
+source-wordcount: 449
+ht-degree: 100%
 
 ---
 
@@ -17,9 +29,9 @@ ht-degree: 76%
 
 >[!IMPORTANT]
 >
->Comme [Microsoft passe au client Nouvelles équipes](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), le client Équipes classiques ne sera plus disponible après le 1er juillet 2025. Pour continuer à utiliser Microsoft Teams et les applications intégrées telles que Workfront, les clients doivent passer au client New Teams avant cette date.
+>Comme [Microsoft passe au nouveau client Teams](https://learn.microsoft.com/fr-fr/microsoftteams/teams-classic-client-end-of-availability), le client Teams classique ne sera plus disponible après le 1er juillet 2025. Pour continuer à utiliser Microsoft Teams et les applications intégrées telles que Workfront, les clients et clientes devront passer au nouveau client Teams avant cette date.
 >
->L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Équipes . Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de Microsoft Teams App Store. Pour installer ou vérifier l’intégration de Workfront dans le client New Teams, voir [Installer [!DNL Adobe Workfront] pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>L’intégration Workfront mise à jour est désormais disponible et entièrement compatible avec la nouvelle expérience Teams. Dans la plupart des cas, Workfront s’affiche automatiquement une fois la transition effectuée. Si ce n’est pas le cas, l’intégration peut être installée manuellement à partir de l’App Store Microsoft Teams. Pour installer ou vérifier l’intégration de Workfront dans le nouveau client Teams, voir [Installer  [!DNL Adobe Workfront]  pour Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 
 
@@ -32,7 +44,7 @@ ht-degree: 76%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +100,7 @@ Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft
 
    La nouvelle tâche personnelle est créée dans [!DNL Workfront]. Un [!UICONTROL numéro de référence] y est affecté et est visible dans la carte de la [!UICONTROL nouvelle tâche].
 
-   Pour plus d’informations sur les numéros de référence, consultez la section [[!UICONTROL Numéros de référence] des objets &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) dans l’article [Comprendre les objets dans  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Pour plus d’informations sur les numéros de référence, consultez la section [[!UICONTROL Numéros de référence] des objets ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) dans l’article [Comprendre les objets dans  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Modifier]** pour modifier les informations de la tâche.
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher dans[!DNL Workfront]]** pour ouvrir la tâche dans un nouvel onglet dans [!DNL Workfront] et la modifier, la déplacer vers un projet ou l’affecter à une autre personne.

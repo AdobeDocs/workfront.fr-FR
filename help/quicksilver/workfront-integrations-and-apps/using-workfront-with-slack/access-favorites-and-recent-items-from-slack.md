@@ -6,10 +6,22 @@ description: Une fois que vous avez installé et configuré  [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 99%
+source-wordcount: 323
+ht-degree: 95%
 
 ---
 
@@ -28,7 +40,7 @@ Pour plus d’informations sur la configuration de [!DNL Workfront with Slack], 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Avant de pouvoir accéder à vos favoris et à vos éléments récents à partir de [!DNL Slack], vous devez
 
-* configurer [!DNL Workfront for Slack].\
+* Configurer [!DNL Workfront for Slack]\
    Pour obtenir des instructions sur la configuration de [!DNL Workfront for Slack], consultez la section [Configurer [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Accéder à votre liste de [!UICONTROL Favoris] à partir de [!DNL Slack]
@@ -76,7 +88,7 @@ Avant de pouvoir accéder à vos favoris et à vos éléments récents à partir
    >
    >Les commandes respectent la casse. Vous pouvez commencer votre commande par `/wf` au lieu de `/workfront`.
 
-   Une liste de vos éléments récents s’affiche, dans l’ordre de leur dernier accès, le plus récent étant placé en haut de la liste. Les éléments sont listés trois par trois et sont regroupés par type d’objet.\
+   Une liste de vos éléments récents s’affiche, dans l’ordre de leur dernier accès, le plus récent étant placé en haut de la liste. Les éléments sont répertoriés trois à la fois et sont regroupés par type d&#39;objet.\
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher plus]** pour afficher d’autres éléments récents.
 1. (Facultatif) Cliquez sur le nom d’un élément auquel vous avez récemment accédé pour l’ouvrir dans [!DNL Workfront] dans un nouvel onglet du navigateur.

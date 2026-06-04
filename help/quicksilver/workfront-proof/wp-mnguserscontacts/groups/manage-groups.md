@@ -7,10 +7,20 @@ description: En tant qu’administrateur ou administratrice  [!DNL Workfront Pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 95%
+source-wordcount: 556
+ht-degree: 84%
 
 ---
 
@@ -24,8 +34,8 @@ En tant qu’administrateur ou administratrice [!DNL Workfront Proof], vous pouv
 
 ## Ouvrir la page Groupes
 
-1. Cliquez sur **[!UICONTROL Groupes]** dans la barre de navigation de gauche.
-Sur la page [!UICONTROL Groupes], vous pouvez effectuer les opérations suivantes :
+1. Cliquez sur **[!UICONTROL Groupes]** dans la barre latérale de navigation de gauche.
+Sur la page [!UICONTROL Groupes], vous pouvez effectuer les opérations suivantes :
 
    * Afficher tous vos groupes publics et privés.
    * Créer un groupe. Pour plus d’informations, voir [Créer des groupes de relecture à l’aide de  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
@@ -58,7 +68,7 @@ Sur la page [!UICONTROL Groupes], vous pouvez effectuer les opérations suivante
 
 Vous pouvez trier les groupes par nom de groupe, statut de confidentialité et description.
 
-1. Cliquez sur l’en-tête de la colonne à partir de laquelle vous souhaitez effectuer le tri.
+1. Cliquez sur l’en-tête de colonne selon lequel vous souhaitez effectuer un tri.
 Ou
 Sélectionnez une option de tri dans le menu Trier .
    ![Groups_page-Sort_menu.png](assets/groups-page-sort-menu-350x80.png)
@@ -69,15 +79,15 @@ Le triangle sur un en-tête de colonne indique l’ordre de tri. Pointé vers le
 1. Cliquez sur l’icône de **[!UICONTROL Filtre]** à l’extrémité droite des en-têtes de colonne pour afficher les options de filtrage sous les en-têtes de colonne.
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. Sélectionnez les [!UICONTROL options de filtrage] dans les menus déroulants et tapez dans les boîtes de filtrage qui apparaissent sous chaque en-tête de colonne, puis cliquez de nouveau sur l’icône de **[!UICONTROL Filtre]** pour appliquer les options.
+1. Sélectionnez [!UICONTROL options de filtrage] dans les menus déroulants et saisissez dans les zones de filtrage qui s’affichent sous chaque en-tête de colonne, puis cliquez à nouveau sur l’icône **[!UICONTROL Filtrer]** pour appliquer les options.
 Ou\
    Sélectionnez la première lettre dans le nom du groupe.
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
 
 ## Afficher et modifier les détails d’un groupe
 
-1. Cliquez sur le bouton **[!UICONTROL Plus]** à l’extrémité droite du nom du groupe, puis cliquez sur **[!UICONTROL Afficher les détails du groupe]** dans le menu déroulant.
-Sur la page qui s’affiche, vous pouvez afficher toutes les personnes actuellement dans le groupe, ainsi que leurs rôles par défaut et leurs alertes par e-mail pour le groupe.
+1. Cliquez sur le bouton **[!UICONTROL Plus]** tout à droite du nom du groupe, puis cliquez sur **[!UICONTROL Afficher les détails du groupe]** dans le menu déroulant.
+Sur la page qui s’affiche, vous pouvez afficher toutes les personnes actuellement dans le groupe, ainsi que leurs rôles par défaut et les alertes par e-mail pour le groupe.
 
 1. Pour modifier les détails du groupe, effectuez l’une des opérations suivantes :
 

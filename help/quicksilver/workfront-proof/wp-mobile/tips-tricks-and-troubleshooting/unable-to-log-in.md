@@ -3,10 +3,17 @@ title: 'Impossible de se connecter à l’application mobile de  [!DNL Workfront
 description: Résolvez les problèmes de connexion à l’application mobile Workfront Proof.
 hide: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/PoLoFtTA-3tZRGMRAH3y37hGJc8T8rU49nW0TCt21Bw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 100%
+source-wordcount: 138
+ht-degree: 89%
 
 ---
 
@@ -14,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problème
 
@@ -30,6 +37,6 @@ Lors de l’utilisation de [!DNL Workfront] et [!DNL Workfront Proof],
 
 1. Assurez-vous que les applications mobiles [!DNL Workfront] et [!DNL Workfront Proof] sont installées sur votre appareil.
 1. Connectez-vous à l’application mobile [!DNL Workfront] et accédez au document à relire.
-1. Cliquez sur l’icône à trois points dans le coin supérieur droit de l’écran, puis sur **[!UICONTROL Relecture]**.
-L’application mobile [!DNL Workfront Proof] lance automatiquement la connexion.
-Vous pouvez désormais utiliser la fonction de relecture dans le document.
+1. Cliquez sur l’icône des trois points située dans le coin supérieur droit de l’écran, puis cliquez sur **[!UICONTROL Vérification]**.
+L’application mobile [!DNL Workfront Proof] ouvre automatiquement une session.
+Vous pouvez désormais utiliser la relecture dans le document.

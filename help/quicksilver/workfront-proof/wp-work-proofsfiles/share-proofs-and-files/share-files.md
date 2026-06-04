@@ -7,9 +7,14 @@ description: Vous pouvez utiliser  [!DNL Workfront Proof]  pour en faire plus qu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+TQID: https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: 563
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez utiliser [!DNL Workfront Proof] pour en faire plus que simplement gérer des épreuves. Il s’agit également d’une solution idéale pour le stockage et le partage de fichiers.
 

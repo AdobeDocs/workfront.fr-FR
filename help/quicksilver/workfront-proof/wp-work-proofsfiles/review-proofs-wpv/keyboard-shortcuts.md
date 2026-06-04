@@ -2,14 +2,19 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Raccourcis clavier dans la visionneuse de relecture  [!DNL Workfront Proof]
+title: 'Raccourcis clavier dans la visionneuse de relecture  [!DNL Workfront Proof] '
 description: Les informations décrites dans cette section sont disponibles à la fois dans la visionneuse de relecture web et dans la visionneuse de relecture de bureau.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/HTk9kA-ajjmSM55jlzkZMfjcK2k8AUJ0naYwZXvXXgc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: 333
 ht-degree: 100%
 
 ---
@@ -78,7 +83,7 @@ Les informations décrites dans cette section sont disponibles à la fois dans l
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac] :</strong> Ctrl+Entrée</p> <p><strong>[!DNL Windows] :</strong> Cmd+Retour</p> </td> 
+   <td> <p><strong>[!DNL Mac] :</strong> Ctrl+Entrée </p> <p><strong>[!DNL Windows] :</strong> Cmd+Retour</p> </td> 
    <td> <p>Enregistrer le commentaire</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -114,43 +119,43 @@ Les informations décrites dans cette section sont disponibles à la fois dans l
   </tr> 
   <tr> 
    <td> <p>Maj et défilement</p> </td> 
-   <td> <p>Zoom avant ou arrière</p> </td> 
+   <td> <p> Zoom avant ou arrière</p> </td> 
    <td> <p>Zoom avant ou arrière</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Ctrl+0</p> <p><strong>[!DNL Windows] :</strong> Ctrl+0</p> </td> 
-   <td> <p>Ajuster à la page</p> </td> 
+   <td> <p> Ajuster à la page</p> </td> 
    <td> <p>Ajuster à la page</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Ctrl+1</p> <p><strong>[!DNL Windows] :</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Zoom à 100 %</p> </td> 
+   <td> <p>Zoom à 100 % </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Ctrl+2</p> <p><strong>[!DNL Windows] :</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Ajuster à la largeur</p> </td> 
+   <td> <p>Ajuster à la largeur </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Ctrl+3</p> <p><strong>[!DNL Windows] :</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Ajuster à la hauteur</p> </td> 
+   <td> <p>Ajuster à la hauteur </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Cmd++ <br>ou<br> Cmd+Maj+Défilement vers le haut</p> <p><strong>[!DNL Windows] :</strong> Ctrl++</p> </td> 
-   <td> <p>Zoom avant</p> </td> 
-   <td> <p>Zoom avant</p> </td> 
+   <td> <p> Zoom avant</p> </td> 
+   <td> <p>Zoom avant </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Cmd+- <br>ou<br> Cmd+Maj+Défilement vers le bas</p> <p><strong>[!DNL Windows] :</strong> Ctrl+-</p> </td> 
-   <td> <p>Zoom arrière</p> </td> 
+   <td> <p>Zoom arrière </p> </td> 
    <td> <p>Zoom arrière</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Windows] :</strong> maintenez la barre d’espace lors du déplacement de l’image</p> </td> 
-   <td> <p>Panoramique</p> </td> 
-   <td> <p>Panoramique</p> </td> 
+   <td> <p> Panoramique</p> </td> 
+   <td> <p> Panoramique</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac] :</strong> Cmd+F</p> <p><strong>[!DNL Windows]</strong>: Ctrl+F</p> </td> 

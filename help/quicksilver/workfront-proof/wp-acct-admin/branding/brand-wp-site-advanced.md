@@ -7,10 +7,20 @@ description: Le branding avancé est disponible pour les formules Select et Prem
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: 754
+ht-degree: 80%
 
 ---
 
@@ -18,11 +28,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Le branding avancé est disponible pour les formules Select et Premium et est inclus dans le tarif de la formule.
 
-Pour plus d’informations sur le banding de base, qui comprend la page de connexion, les notifications par e-mail et les épreuves, voir [Branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Pour plus d’informations sur le banding de base, qui comprend la page de connexion, les notifications par e-mail et les épreuves, voir [Branding du site  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Les options de branding avancé comprennent la personnalisation des domaines suivants :
 
@@ -39,7 +49,7 @@ Les sections suivantes décrivent plus en détail le branding avancé :
 
 ## Vue d’ensemble du branding avancé
 
-Vous trouverez la section [!UICONTROL Configuration du branding] dans l’onglet de votre page [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Pour appliquer les modifications à votre compte, vérifiez que l’option Branding est définie sur [!UICONTROL Activé] (1).
+La section [!UICONTROL Configuration du branding] se trouve dans l’onglet de la page [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Pour appliquer les modifications à votre compte, assurez-vous que l’option Branding est définie sur [!UICONTROL Activé] (1).
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 Veuillez consulter la section ci-dessous pour obtenir des informations plus détaillées sur la configuration des options de branding avancé (2-14).
@@ -85,7 +95,7 @@ Image d’arrière-plan - Peut être combinée avec l’image de marque.
 
 ### Liens d’en-tête {#header-links}
 
-Dans ce champ (4), vous pouvez modifier la couleur du nom d’utilisateur ou d’utilisatrice et la couleur des liens dans le menu d’en-tête visible dans le coin supérieur droit de votre compte.
+Dans ce champ (4), vous pouvez modifier la couleur du nom d’utilisateur et la couleur des liens dans le menu En-tête visible dans le coin supérieur droit de votre compte.
 ![Header_links.png](assets/header-links-350x140.png)
 
 ### Barre latérale {#sidebar}
@@ -102,17 +112,17 @@ La couleur du bouton Nouvelle épreuve ne peut pas être personnalisée.
 
 ### Zone d’accueil {#welcome-box}
 
-Dans ce champ (7), vous pouvez définir la couleur de la zone de bienvenue qui s’affiche sur la page du tableau de bord.
+Dans ce champ (7), vous pouvez définir la couleur de la zone Bienvenue affichée sur la page Tableau de bord.
 ![Welcome_box.png](assets/welcome-box-350x110.png)
 
 ### En-têtes de section {#section-headers}
 
-Ces champs vous permettent de personnaliser l’arrière-plan (8) et la couleur de la police (9) des en-têtes de section sur les pages [[!UICONTROL Paramètres du compte]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
+Ces champs vous permettent de personnaliser l’arrière-plan (8) et la couleur de police (9) des en-têtes de section sur les pages [[!UICONTROL Paramètres du compte]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
 ![Section_headers.png](assets/section-headers-350x138.png)
 
 **Pied de page**
 
-Dans ce champ (10) de la configuration du branding, vous pouvez composer un pied de page qui sera affiché au bas de toutes les pages du compte. Vous pouvez utiliser l’éditeur WYSIWYG intégré ou simplement coller votre propre conception.
+Dans ce champ (10) de la configuration Image de marque , vous pouvez composer un pied de page qui s’affichera en bas de toutes les pages du compte. Vous pouvez utiliser l’éditeur WYSIWYG intégré ou simplement coller votre propre conception.
 ![Footer.png](assets/footer-350x157.png)
 
 >[!NOTE]
@@ -121,7 +131,7 @@ Dans ce champ (10) de la configuration du branding, vous pouvez composer un pied
 
 **Favicon et titre de page**
 
-Vous pouvez personnaliser la présentation de vos pages [!DNL Workfront Proof] dans les navigateurs en définissant votre propre image favicon (fichier .ICO) (11) et votre titre de page (12) - ceux-ci seront affichés dans les en-têtes des onglets/fenêtres des navigateurs pour toutes les pages du compte.
+Vous pouvez personnaliser la manière dont vos pages [!DNL Workfront Proof] sont présentées dans les navigateurs en définissant votre propre image favicon (fichier .ICO) (11) et votre propre titre de page (12). Ceux-ci s’afficheront dans les onglets/en-têtes de fenêtre des navigateurs pour toutes les pages du compte.
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]

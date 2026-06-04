@@ -8,10 +8,17 @@ description: Résoudre le problème de la police d’interface corrompue dans la
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/t6MNg6tX6QJ2v3SCwu7NhiXcMaYq8CYQrvSi-ng-HWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: 660
+ht-degree: 97%
 
 ---
 
@@ -66,7 +73,7 @@ Il se peut que vous n’ayez pas accès à cette fonctionnalité, car elle est p
 La visionneuse de relecture héritée est basée sur [!DNL Flash Player] et parfois, lorsque le texte est manquant dans la visionneuse de relecture, il est possible qu’il y ait un conflit de police entre OS X et [!DNL Flash Player]. Essayez ce qui suit :
 
 1. Ouvrez le Finder et ouvrez l’onglet **[!UICONTROL Aller]**.
-1. Appuyez sur la touche Option ( ⌥ Alt) pour ouvrir le dossier [!UICONTROL Bibliothèque] dans la liste déroulante.
+1. Appuyez sur la touche Option (⌥ Alt) pour ouvrir le dossier [!UICONTROL Library] dans la liste déroulante.
 1. Tout en maintenant la touche Option enfoncée, cliquez sur le dossier [!UICONTROL Bibliothèque].
 1. Une fois que le dossier [!UICONTROL Bibliothèque] s’ouvre, accédez au dossier [!UICONTROL Polices] situé à l’intérieur de ce dernier.
 1. Déplacez toutes les polices situées dans le dossier [!UICONTROL Polices] dans un autre dossier, peut-être sur votre bureau (ne créez pas un autre dossier dans le dossier Polices).

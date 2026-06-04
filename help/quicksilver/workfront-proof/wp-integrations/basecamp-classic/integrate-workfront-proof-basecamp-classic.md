@@ -7,9 +7,16 @@ description: Si vous utilisez  [!DNL Basecamp]  pour la gestion de projets, vous
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: 800
 ht-degree: 100%
 
 ---
@@ -39,7 +46,6 @@ Lorsqu’il est intégré à [!DNL Workfront Proof], [!DNL Basecamp] permet aux 
   >Une fois qu’une réponse a été ajoutée à un commentaire, ce dernier ne peut pas être modifié ni supprimé.
 
 * Les réviseurs et réviseuses peuvent répondre aux commentaires et aux balisages d’autres réviseurs et réviseuses.
-
 * Les utilisateurs et utilisatrices sont avertis lorsqu’une nouvelle version de l’épreuve est disponible.
 * Les utilisateurs et utilisatrices qui n’utilisent pas [!DNL Workfront Proof] peuvent travailler sur une épreuve dans [!DNL Basecamp].
 

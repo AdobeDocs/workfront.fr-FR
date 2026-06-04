@@ -7,10 +7,19 @@ description: Votre plan de compte est fourni avec une quantité fixe de stockage
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e387b209-3a76-423f-982b-6c1046ee6198
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/qEv4qQPPKV6FkF-2j43kbFxthWXEYPrLWHaFonfwKtw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: 162
+ht-degree: 95%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Votre plan de compte est fourni avec une quantité fixe de stockage. L’espace de stockage prévu ne se renouvelle pas à chaque abonnement, car les épreuves et les fichiers des abonnements précédents sont toujours sauvegardés sur votre compte.
 
@@ -31,8 +40,8 @@ Votre plan de compte est fourni avec une quantité fixe de stockage. L’espace 
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**.
 
 1. Ouvrez l’onglet **[!UICONTROL Historique]**.
-1. Affichez votre capacité de stockage actuelle dans la rubrique **[!UICONTROL Statistiques d’utilisation]**.
-Les administrateurs et administratrices de facturation de votre compte recevront un e-mail d’avertissement si l’utilisation du stockage sur votre compte atteint 75 %.
+1. Affichez votre montage de stockage actuel sous **[!UICONTROL Statistiques d’utilisation]**.
+Les administrateurs de facturation de votre compte recevront un e-mail d’avertissement si l’utilisation du stockage sur votre compte atteint 75 %.
 
 ## Augmenter l’espace de stockage
 

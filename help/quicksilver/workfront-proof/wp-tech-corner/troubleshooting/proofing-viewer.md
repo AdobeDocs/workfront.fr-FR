@@ -3,15 +3,25 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Dépannage - Visionneuse de relecture  [!DNL Workfront Proof]
+title: 'Dépannage - Visionneuse de relecture  [!DNL Workfront Proof] '
 description: Si le contenu de votre épreuve ne se charge pas et que vous ne pouvez voir qu’une visionneuse de relecture vide, c’est probablement parce qu’un blocage local de cette action se produit.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 39fdf5c2c2114a82c48f515c4a9f088596394045
+TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: 837
+ht-degree: 97%
 
 ---
 
@@ -68,17 +78,17 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * Les épreuves s’ouvrent-elles dans un autre navigateur ?
 * Si vous utilisez un navigateur tous les jours et que vous rencontrez des difficultés à afficher les épreuves, essayez d’ouvrir la même épreuve dans un autre navigateur sur votre ordinateur. Pour ce faire, il vous suffit de copier le lien de l’épreuve depuis la barre d’URL de votre navigateur principal et de le coller dans un autre navigateur. Si l’épreuve s’ouvre là-bas, vérifiez la configuration, les plug-ins et les extensions de votre navigateur principal, car ceux-ci peuvent interférer.
 * Nous n’avons pas de navigateur préféré, mais si vous rencontrez des problèmes de performances avec votre navigateur actuel, nous vous conseillons de passer à un autre navigateur.
-* Les épreuves s’ouvrent-elles sur un autre appareil dans votre emplacement ?
-Si votre épreuve ne s’ouvre dans aucun navigateur sur votre ordinateur, essayez de l’ouvrir sur un autre ordinateur dans votre emplacement ou à l’extérieur de votre emplacement. Cela vous permet de déterminer si un problème se produit sur votre ordinateur ou si le problème se trouve sur votre réseau local.
-Si votre niveau de sécurité est plus élevé, vos connexions à [!DNL Workfront Proof] peuvent être bloquées par les éléments suivants :
+* Les épreuves s’ouvrent-elles sur une autre machine de votre emplacement ?
+Si votre épreuve ne s’ouvre dans aucun navigateur de votre ordinateur, essayez de l’ouvrir sur un autre ordinateur à votre emplacement et/ou en dehors de votre emplacement. Cela vous permet de déterminer si un problème se produit sur votre ordinateur ou s’il se produit sur votre réseau local.
+Si votre niveau de sécurité est plus élevé, vos connexions à [!DNL Workfront Proof] peuvent être bloquées par :
 
    * Votre logiciel AV local
    * Votre solution de sécurité réseau
    * Configuration DNS, pare-feu ou proxy
    * Ce sont des paramètres qui échappent à notre contrôle. Plusieurs solutions de sécurité sont disponibles et nous ne sommes pas en mesure de déterminer lesquelles sont implémentées dans votre réseau et celles qui peuvent bloquer les connexions à [!DNL Workfront Proof]. Ce n’est pas non plus à [!DNL Workfront Proof] de décider de votre configuration de sécurité interne. Si vous rencontrez des problèmes lors de l’ouverture des épreuves sur plusieurs appareils de votre emplacement/réseau, nous vous recommandons de contacter votre équipe informatique afin qu’elle puisse vérifier les paramètres réseau et autoriser ou ajouter [!DNL Workfront Proof] à la liste autorisée, le cas échéant.
 
-* Les connexions à [!DNL Workfront Proof] sont-elles autorisées dans votre réseau ?
-Dans la visionneuse de relecture, nous chargeons les miniatures et fragments des pages. Si ce contenu ne se charge pas correctement de votre côté, il se peut que certaines connexions à [!DNL Workfront Proof] soient bloquées sur votre réseau. Vous devrez vous assurer que toutes les connexions et tout le contenu de *.proofhq.com sont ajoutés à la liste autorisée. Votre équipe informatique devrait être en mesure de vous aider à vérifier cela.
+* Les connexions à [!DNL Workfront Proof] sont-elles autorisées dans votre réseau ?
+Dans la visionneuse d’épreuve, nous chargeons les mosaïques, c’est-à-dire les fragments des pages. Si ce contenu ne se charge pas correctement de votre côté, il se peut que certaines connexions à [!DNL Workfront Proof] soient bloquées dans votre réseau. Vous devez vous assurer que toutes les connexions et tout le contenu de *.proofhq.com sont ajoutés à la liste autorisée. Votre équipe informatique devrait pouvoir vous aider à vérifier cela.
 
 ## Vérifier les plug-ins
 

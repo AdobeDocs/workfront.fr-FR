@@ -7,10 +7,19 @@ description: Configurer des informations sur les utilisateurs et utilisatrices g
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 96%
 
 ---
 
@@ -56,7 +65,7 @@ ht-degree: 100%
 
       * **Abonnement. Les personnes peuvent s’inscrire à l’épreuve via l’URL publique ou le code intégré :** permet aux réviseurs et réviseuses externes à l’organisation de s’inscrire à l’épreuve via l’URL publique ou le code intégré.
 
-        Lorsque cette option est sélectionnée, l’option **La personne abonnée doit cliquer sur un lien dans un e-mail pour accéder à une épreuve** est également disponible. Sélectionnez cette option pour demander au réviseur ou à la réviseuse externe de cliquer sur un lien dans l’e-mail pour accéder à l’épreuve.
+        Lorsque cette option est sélectionnée, la mention **L’abonné doit cliquer sur un lien dans un e-mail pour accéder à un BAT** est également disponible. Sélectionnez cette option pour obliger le réviseur externe à cliquer sur un lien dans l’e-mail pour accéder au BAT.
 Cette option est activée par défaut si l’option **Partage public** est sélectionnée.
 
       * **Rôle par défaut pour les nouveaux réviseurs et réviseuses invités :** sélectionnez un rôle de l’épreuve par défaut pour les réviseurs et réviseuses invités. Les options sont identiques à celles dans **Rôle de l’épreuve par défaut**, à l’exception de Modération et de Création.
