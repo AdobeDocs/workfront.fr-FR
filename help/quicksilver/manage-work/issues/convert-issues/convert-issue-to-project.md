@@ -9,11 +9,18 @@ exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mQINHJ0clh8RFxC67LR-L3djGlqKZNwOBwPGIGwZ-kQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 2167
@@ -175,7 +182,7 @@ Vous pouvez convertir un problème en un projet vide.
      >[!TIP]
      >
      >* Si un formulaire personnalisé multi-objets attaché au problème est configuré pour être utilisé à la fois avec les problèmes et les projets, toutes les informations enregistrées dans le formulaire sont conservées lorsque vous effectuez la conversion si les champs existent à la fois dans le problème et dans les formulaires personnalisés du projet.
-     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Si un formulaire personnalisé multi-objets avec un champ calculé est attaché au problème ainsi qu’au projet, le problème et le projet doivent être compatibles avec tous les champs référencés dans les champs personnalisés calculés du formulaire. En cas d’incompatibilité, un message vous invite à effectuer des ajustements. Pour plus d’informations, reportez-vous à la section « Champs calculés personnalisés dans les formulaires personnalisés à plusieurs objets » de la section [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Cliquez sur [!UICONTROL **Convertir en un projet**].
 
@@ -236,7 +243,7 @@ Vous pouvez convertir un problème en projet à l’aide d’un modèle.
 
    La zone [!UICONTROL Convertir en un projet] s’ouvre.
 
-   ![ Convertir en projet ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![&#x200B; Convertir en projet &#x200B;](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
    >[!TIP]
    >

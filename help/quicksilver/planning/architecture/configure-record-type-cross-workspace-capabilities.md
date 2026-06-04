@@ -9,11 +9,17 @@ exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Erl28TyQUAOJR3XcK9J1FnL4Sdr-kMCHUjz5pAN-zzs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1438
@@ -230,7 +236,7 @@ Pour configurer un type d’enregistrement comme global :
    >Vous ne pouvez modifier l’aspect et les paramètres du type d’enregistrement, ainsi que ses champs d’origine, qu’à partir de son espace de travail d’origine.
 
    * La carte de type d’enregistrement affiche une icône **type d’enregistrement global** ![icône de type d’enregistrement global dans l’espace de travail principal](assets/global-icon.png) pour indiquer que le type d’enregistrement peut être ajouté à d’autres espaces de travail.
-   * Un champ **** généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
+   * Un champ **&#x200B;**&#x200B;généré par le système est ajouté à la vue Tableau du type d&#39;enregistrement et des détails de ses enregistrements.
 
      Le champ Workspace affiche l’espace de travail à partir duquel chaque enregistrement est créé.
 
@@ -238,7 +244,7 @@ Pour configurer un type d’enregistrement comme global :
 
      >[!TIP]
      >
-     >Si la valeur du champ **** est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
+     >Si la valeur du champ **&#x200B;**&#x200B;est vide, l&#39;enregistrement a été créé depuis un espace de travail secondaire où le type d&#39;enregistrement global a été supprimé après la création de l&#39;enregistrement.
 
 1. (Facultatif) Accédez à un autre espace de travail et créez un type d’enregistrement à l’aide d’un type d’enregistrement existant. Sélectionnez le type d’enregistrement que vous avez activé dans les étapes ci-dessus.
 

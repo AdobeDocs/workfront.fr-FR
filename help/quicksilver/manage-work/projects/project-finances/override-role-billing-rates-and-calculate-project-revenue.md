@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4595
@@ -123,7 +129,7 @@ Vous pouvez également joindre une carte tarifaire au projet, ce qui importera l
 
 Pour plus d’informations sur la façon de remplacer les taux de facturation des fonctions au niveau du projet, voir [Remplacer les taux de facturation des fonctions au niveau du projet](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-Pour plus d’informations sur la fonction utilisée pour calculer le chiffre d’affaires du projet, reportez-vous à la section [ Calculs du chiffre d’affaires pour les tâches en fonction des affectations d’utilisateurs et de rôles ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) dans [Présentation de la facturation et du chiffre d’affaires](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Pour plus d’informations sur la fonction utilisée pour calculer le chiffre d’affaires du projet, reportez-vous à la section [&#x200B; Calculs du chiffre d’affaires pour les tâches en fonction des affectations d’utilisateurs et de rôles &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) dans [Présentation de la facturation et du chiffre d’affaires](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Pour plus d’informations sur l’association d’une carte tarifaire à un projet, voir [Associer une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
@@ -340,7 +346,7 @@ Tenez compte des points suivants lors du calcul du revenu prévu pour les utilis
 
 * Le **Nombre d’heures prévues** est réparti uniformément sur la **Durée** de la tâche.
 
-* La **Durée** est la période de temps qui s’écoule entre la **Date de début prévue****** et la **Date d’achèvement prévue** de la tâche. Comme la **Date de début prévue** et la **Date d’achèvement prévue** des tâches peuvent différer en fonction des fuseaux horaires des personnes qui visualisent la tâche, le nombre d’heures prévues par jour peut être différent pour deux personnes situées dans deux fuseaux horaires différents.
+* La **Durée** est la période de temps qui s’écoule entre la **Date de début prévue**&#x200B;**&#x200B;** et la **Date d’achèvement prévue** de la tâche. Comme la **Date de début prévue** et la **Date d’achèvement prévue** des tâches peuvent différer en fonction des fuseaux horaires des personnes qui visualisent la tâche, le nombre d’heures prévues par jour peut être différent pour deux personnes situées dans deux fuseaux horaires différents.
 
 * Le nombre d’heures prévues par jour ne modifie pas les revenus prévus d’un projet si le taux de facturation de la fonction n’est pas modifié ou s’il n’y a qu’un seul remplacement du taux de facturation. Dans ce cas, même si deux personnes de deux fuseaux horaires différents voient des heures prévues par jour différentes, les revenus prévus globaux du projet sont identiques pour les deux personnes.
 

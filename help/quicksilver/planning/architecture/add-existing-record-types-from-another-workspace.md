@@ -9,11 +9,17 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 793
@@ -156,7 +162,7 @@ L’icône de type d’enregistrement global comprend une flèche lorsqu’elle 
       * Toutes les connexions aux enregistrements
    * Vous ne pouvez pas afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement depuis l’espace de travail secondaire.
    * Vous pouvez afficher les enregistrements ajoutés depuis l’espace de travail d’origine du type d’enregistrement dans cet espace de travail, uniquement dans l’espace de travail d’origine, si vous disposez au moins des autorisations d’affichage dans cet espace de travail.
-   * Le champ en lecture seule **** est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
+   * Le champ en lecture seule **&#x200B;**&#x200B;est ajouté à la nouvelle vue de tableau de type d&#39;enregistrement. Le champ affiche l’espace de travail dans lequel chaque enregistrement a été créé.
 
      >[!NOTE]
      >

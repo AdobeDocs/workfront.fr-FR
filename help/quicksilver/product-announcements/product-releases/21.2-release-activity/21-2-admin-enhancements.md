@@ -9,11 +9,18 @@ feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
 TQID: https://experienceleague.adobe.com/TwZHOWwuaG8KUeNPZ24NjXcpz4cnRr90b58JBMB3zHs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1552
@@ -40,7 +47,7 @@ Dans la zone des journaux d’audit, vous pouvez maintenant suivre et dépanner 
 * modification d’une préférence de projet, ou création ou suppression d’un trimestre personnalisé
 * modification de la préférence d’une tâche ou d’un problème
 
-Pour plus d’informations, voir [ Présentation des journaux d’audit ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Pour plus d’informations, voir [&#x200B; Présentation des journaux d’audit &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 Cette fonctionnalité est désormais incluse dans le parcours de formation [Principes fondamentaux de l’administrateur ou l’administratrice pour la nouvelle expérience Workfront, partie 2 : configuration du projet](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home) sur Workfront One.
 
