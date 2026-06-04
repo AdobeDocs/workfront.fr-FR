@@ -7,10 +7,14 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
 TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 527
@@ -80,7 +84,7 @@ Vous pouvez ajouter un commentaire à partir de la liste de travail :
    >
    >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-Pour plus d’informations sur l’ajout de mises à jour, voir [ Ajouter une mise à jour à un élément de travail ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Pour plus d’informations sur l’ajout de mises à jour, voir [&#x200B; Ajouter une mise à jour à un élément de travail &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Afficher et ajouter des commentaires et des mises à jour système dans un élément de travail
 

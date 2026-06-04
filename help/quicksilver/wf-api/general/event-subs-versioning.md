@@ -8,9 +8,12 @@ feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
 TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1055
@@ -259,6 +262,6 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
 
 Workfront Fusion utilise les abonnements aux événements pour surveiller les modifications dans Workfront afin de déclencher des scénarios. Vous pouvez mettre à jour la version d’abonnement aux événements que Fusion utilise directement dans un scénario, à l’aide du module Workfront > Mettre à jour la version de la payload des événements .
 
-Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
+Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
 
 Pour obtenir des ressources sur la conservation de vos scénarios Workfront Fusion pendant la mise à niveau des abonnements aux événements, y compris un enregistrement de webinaire, consultez [Conservation de vos scénarios Fusion pendant la mise à niveau de la version V2 des abonnements aux événements](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=fr).

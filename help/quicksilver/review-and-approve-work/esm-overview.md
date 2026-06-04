@@ -10,10 +10,15 @@ exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YOO4BspMzbMr8iPoXRBKK65IbU5yfpiJndNuYvYF5SM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 958
@@ -74,7 +79,7 @@ Cette interface mise à jour simplifie la navigation, améliore la clarté et pe
 
 Les documents ne peuvent pas être partagés individuellement. Au lieu de cela, le système génère automatiquement un dossier pour chaque tâche ou événement et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers la tâche ou l’événement sont stockés dans ce dossier généré.
 
-Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [ Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [&#x200B; Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Objets liés dans des dossiers
 

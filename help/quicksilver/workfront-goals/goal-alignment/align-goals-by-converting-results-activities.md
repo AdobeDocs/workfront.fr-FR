@@ -9,11 +9,16 @@ exl-id: 48371389-952c-4732-b519-9774cd4d1b93
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/C-bvm-10957LPCDUXbNIYuZD8gpYd9Di9buEuSy-h5Q
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 589
@@ -177,7 +182,7 @@ Tenez compte des éléments suivants lorsque vous convertissez des résultats et
 1. Sur la page de l’objectif, cliquez sur **Indicateurs de progression** dans le panneau de gauche.
 1. Sélectionnez un résultat ou une activité dans la liste des indicateurs de progression, puis cliquez sur l’icône **Convertir en objectif** ![Convertir en objectif](assets/convert-to-goal-icon-unshimmed.png) en haut de la liste des indicateurs de progression. La boîte de dialogue Convertir en objectif s’affiche.
 
-   ![ Convertir en zone d’objectif ](assets/convert-to-goal-box-unshimmed.png)
+   ![&#x200B; Convertir en zone d’objectif &#x200B;](assets/convert-to-goal-box-unshimmed.png)
 1. Mettez à jour les informations suivantes :
    * **Nom de l’objectif** : par défaut, le nouvel objectif porte le même nom que le résultat ou l’activité d’origine.
    * **Période** : par défaut, la période du nouvel objectif est le trimestre en cours. Vous pouvez sélectionner le paramètre **Activer les dates personnalisées** pour définir une période personnalisée pour le nouvel objectif.

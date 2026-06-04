@@ -11,10 +11,14 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mnqibayi-q7qDC03JB3-caTVt3-pFlRdXci2SNGog88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 710
@@ -140,9 +144,9 @@ La réponse à un commentaire dans la section Mises à jour d’un objet est sim
 
    Ou
 
-   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. ******** Vous ne pouvez pas répondre dans l’onglet Tous.
+   Sélectionnez l’onglet Tous, puis cliquez sur Répondre dans les commentaires pour ouvrir le commentaire dans l’onglet Commentaires et y répondre. **&#x200B;**&#x200B;**&#x200B;** Vous ne pouvez pas répondre dans l’onglet Tous.
 
-1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. ******** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
+1. (Facultatif) Pour inclure le texte d’une mise à jour précédente dans votre réponse, cliquez sur le menu Plus dans le coin supérieur droit du commentaire auquel vous souhaitez répondre, puis cliquez sur Citer la réponse. **&#x200B;**&#x200B;**&#x200B;** Le texte de la mise à jour précédente apparaît dans la zone de saisie, marqué d’une ligne grise verticale.
 1. Cliquez sur **Répondre**.
 
    ![Répondre pour mettre à jour la zone vide](assets/reply-to-update-empty-box.png)

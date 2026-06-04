@@ -9,11 +9,18 @@ exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1021
@@ -111,7 +118,7 @@ Après avoir filtré votre travail, vous pouvez regrouper les éléments en fonc
 * Statut
 * Projet
 
-Pour plus d’informations, voir [ Filtrer, regrouper et trier votre travail avec les priorités ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d’informations, voir [&#x200B; Filtrer, regrouper et trier votre travail avec les priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Hiérarchiser les éléments de travail importants avec Mon focus
 
@@ -124,9 +131,9 @@ Mon focus est une colonne de la liste de tâches qui vous aide à hiérarchiser 
 
 Une fois que vous avez affecté des niveaux de focus à vos éléments de travail, vous pouvez trier la colonne pour faire apparaître les éléments urgents en haut de votre liste de travail.
 
-Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![ Liste de travail ](assets/worklist.png)
+![&#x200B; Liste de travail &#x200B;](assets/worklist.png)
 
 ### Utilisation de la vue Calendrier
 
@@ -173,7 +180,7 @@ Charger des fichiers directement dans la zone Documents de la tâche ou de l’�
 * Ajouter des fichiers supplémentaires
 * Importer des fichiers à partir des intégrations de documents connectées
 
-Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
+Pour plus d’informations, voir [&#x200B; Charger des fichiers dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 
@@ -182,9 +189,9 @@ Pour plus d’informations, voir [ Charger des fichiers dans Priorités ](/help/
 
 Vous pouvez incorporer les liens fréquemment utilisés dans la page de détails de l’élément de travail. Les liens rapides vous permettent de consulter ou de copier rapidement le lien.
 
-![Liens rapides ](assets/quick-links.png)
+![Liens rapides &#x200B;](assets/quick-links.png)
 
-Pour plus d’informations, voir [ Ajouter et gérer des liens rapides dans Priorités ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
+Pour plus d’informations, voir [&#x200B; Ajouter et gérer des liens rapides dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Afficher des documents.
 

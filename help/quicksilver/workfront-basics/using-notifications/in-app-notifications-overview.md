@@ -7,8 +7,10 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
 TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 837
@@ -34,7 +36,7 @@ Les annonces peuvent se présenter de deux façons :
 
 Dans les deux cas, lorsque l’administrateur ou l’utilisateur clique sur l’icône numérotée ![Icône de notifications](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de [!DNL Workfront] pour ouvrir sa liste de notifications, l’objet du message s’affiche avec une icône de mégaphone ![Icône d’annonce](assets/announcement.png) et le mot « [!UICONTROL Annonce] ».
 
-Notification d’![[!UICONTROL annonce] ](assets/notification-list-announcement-350x271.png)
+Notification d’![[!UICONTROL annonce] &#x200B;](assets/notification-list-announcement-350x271.png)
 
 Pour plus d’informations sur la page [!UICONTROL Annonces], consultez [Afficher et gérer les notifications in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

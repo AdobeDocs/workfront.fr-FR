@@ -8,8 +8,10 @@ feature: Get Started with Workfront
 hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
 TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 200
@@ -55,7 +57,7 @@ Pour connaître le plan, le type de licence ou l’accès dont vous disposez, co
 1. Sélectionnez l’**[!UICONTROL Utilisateur ou l’utilisatrice]** dont vous devez réinitialiser le mot de passe.
    ![Sélectionner l’utilisateur](assets/100520classicnweselectuser-350x105.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Plus] ** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
+1. Cliquez sur le bouton **[!UICONTROL Plus] &#x200B;** qui s’affiche une fois que vous avez choisi l’**[!UICONTROL Utilisateur ou l’utilisatrice]** et sélectionnez l’option **[!UICONTROL Envoyer un e-mail de mot de passe oublié]** dans le menu déroulant.
 
    ![Envoyer un e-mail de mot de passe oublié](assets/100520classicnwesendemail-350x134.png)
 

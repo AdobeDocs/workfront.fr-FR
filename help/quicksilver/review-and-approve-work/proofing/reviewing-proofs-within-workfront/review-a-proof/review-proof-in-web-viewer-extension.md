@@ -7,8 +7,10 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
 TQID: https://experienceleague.adobe.com/jwZKladWxKsiSvAjO8me1BWoxMx1UDB2TKl7k-jnjcY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 646
@@ -42,9 +44,9 @@ Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Wo
 
 * [Extension Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
-* [Extension ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+* [Extension &#x200B;](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
-* [](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+* [&#128279;](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
 * [Extension Safari](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
 

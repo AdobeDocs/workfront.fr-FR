@@ -7,10 +7,14 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
 TQID: https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 283
@@ -68,7 +72,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Dans la section **Liens rapides**, cliquez sur **Ajouter un lien**.
 1. Collez l’URL dans la zone **Ajouter un lien**.
 1. Cliquer sur **Enregistrer**.
-   ![ Ajouter un lien ](assets/add-link.png)
+   ![&#x200B; Ajouter un lien &#x200B;](assets/add-link.png)
 
 ## Copier un lien rapide dans le presse-papiers
 
@@ -76,7 +80,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
 1. Dans la section **Liens rapides**, recherchez le lien à copier.
-1. Cliquez sur l’icône **Copier**![ Copier](assets/copy-icon.png).
+1. Cliquez sur l’icône **Copier**![&#x200B; Copier](assets/copy-icon.png).
    ![Copier le lien](assets/copy-link.png)
 
 ## Ouvrir un lien rapide

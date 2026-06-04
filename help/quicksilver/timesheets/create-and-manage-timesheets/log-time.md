@@ -10,11 +10,16 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4087
@@ -200,7 +205,7 @@ Cliquez sur **Annuler** pour arrêter l&#39;ajout des éléments sélectionnés,
    >   * Ctrl+Option+Touche « + » pour les ordinateurs Windows
    >   * Cmd+Option+Touche « + » pour les ordinateurs Mac
 
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [ Définir les types d’heures et la disponibilité ](define-hour-types-and-availability.md).
+   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](define-hour-types-and-availability.md).
 
    Le type d’heure ne peut pas être modifié après la clôture d’une feuille de temps.
 
@@ -445,7 +450,7 @@ Vous devez disposer de tous les éléments suivants :
 
 * Une licence Standard ou Plan avec un accès administratif aux Feuilles de temps et heures, ou une licence light avec un accès en modification aux projets. Pour plus d’informations sur l’octroi d’un accès administratif aux feuilles de temps et heures, voir [Octroi aux utilisateurs d’un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). L’accès administratif aux feuilles de temps et heures n’est pas disponible pour les licences light.
 * L&#39;autorisation Contribuer ou une autorisation supérieure pour le projet avec accès à la consignation des heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **** Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **&#x200B;**&#x200B;Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâche ou d&#39;un problème :
 

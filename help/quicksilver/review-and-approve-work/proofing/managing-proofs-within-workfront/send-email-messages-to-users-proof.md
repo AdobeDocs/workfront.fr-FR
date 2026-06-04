@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
 TQID: https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 354
@@ -71,7 +75,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Pour envoyer un message à l’ensemble des utilisateurs et utilisatrices de l’étape, cliquez sur le menu **Plus** sur l’étape et choisissez **Envoyer un message à tous**.
 
-   ![ Message sur l’étape ](assets/message-stage-350x122.png)
+   ![&#x200B; Message sur l’étape &#x200B;](assets/message-stage-350x122.png)
 
 1. Pour envoyer un message à une personne en particulier, cliquez sur le menu **Plus** à côté de la personne et choisissez **Envoyer un message**.
 

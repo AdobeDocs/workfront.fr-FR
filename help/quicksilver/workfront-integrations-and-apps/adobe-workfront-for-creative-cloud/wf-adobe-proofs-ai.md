@@ -7,11 +7,18 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
 TQID: https://experienceleague.adobe.com/bMOiRpwF4pHtx6CkRp0xVxSkL90a7-czeUXrVlFI6u8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 615
@@ -135,7 +142,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du plug-in.
 1. Activez l’option **[!UICONTROL Créer une épreuve]**.
 
-1. Dans la section *[!UICONTROL *Approbation d’épreuve]**, choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
+1. Dans la section *[!UICONTROL *Approbation d’épreuve]&#x200B;**, choisissez &#x200B;** [!UICONTROL De base] **&#x200B; ou &#x200B;** [!UICONTROL Automatique]**.
 
 1. Ajoutez des **[!UICONTROL Réviseurs ou réviseuses]** ou un **[!UICONTROL Modèle de workflow]** en fonction du type d’approbation que vous avez sélectionné lors de l’étape 7.
 
