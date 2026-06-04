@@ -130,7 +130,7 @@ Si votre organisation utilise une application distincte pour gérer les mots de 
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Consultez cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Consultez cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/fr/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.
 
