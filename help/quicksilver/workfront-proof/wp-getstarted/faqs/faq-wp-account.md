@@ -9,11 +9,17 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 875
@@ -73,7 +79,7 @@ Cette configuration vous permet de donner un tableau de bord à vos clientes et 
 
 Les vues personnalisées disponibles dans les éditions [!UICONTROL Entreprise] et [!UICONTROL Illimité] vous permettent de créer vos propres vues dans le compte. Vous pouvez choisir les informations que vous souhaitez inclure dans cette vue, les filtres que vous souhaitez utiliser et la manière de trier les informations. C’est un outil formidable pour suivre les épreuves et les fichiers de votre compte, mais il peut également être utilisé comme outil de création de rapports : les vues personnalisées peuvent être exportées vers un fichier [!DNL Excel], ce qui vous permet de traiter les données de manière plus approfondie.
 
-Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Des instructions détaillées sont disponibles sur la page [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Que puis-je faire si une personne supprime une épreuve par accident ?
 
