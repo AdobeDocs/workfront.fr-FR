@@ -168,7 +168,7 @@ Avant cette amélioration, la colonne voisine à droite de la colonne redimensio
 
 Pour plus d’informations sur le redimensionnement des colonnes de réorganisation dans les listes, voir [Modifier la largeur et l’ordre des colonnes](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Pour participer à notre programme de tests bêta pour les améliorations actuelles de la liste, voir [Nouvelle étude de listes.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Connexion requise)
+Pour participer à notre programme de tests bêta pour les améliorations actuelles de la liste, voir [Nouvelle étude de listes.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr) (Connexion requise)
 
 ## Prise en charge des icônes pour les nouvelles listes de projets {#icon-support-for-the-new-project-lists}
 
