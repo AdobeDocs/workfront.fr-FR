@@ -4,9 +4,9 @@ description: Autres améliorations au cours du troisième trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version de production pour les clients : déploiement échelonné, date de début à annoncer
+>Version de production pour les clients : déploiement échelonné à partir du 16 juillet 2026
 
 Les notifications par e-mail pour les commentaires dans la zone Mises à jour ont une nouvelle apparence qui s’aligne sur la conception plus large des e-mails d’Adobe.
 
