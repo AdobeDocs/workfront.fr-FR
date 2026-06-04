@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1548'
 ht-degree: 20%
 
 ---
@@ -38,6 +38,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations des documents](#documents-enhancements)
 * [Améliorations de la gestion financière](#financial-management-enhancements)
+* [Amélioration de l’accueil](#home-enhancements)
 * [Amélioration des rapports](#reporting-enhancements)
 * [Améliorations des demandes](#requesting-enhancements)
 * [Autres améliorations](#other-enhancements)
@@ -164,6 +165,30 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>21 Mai 2026</p></td>
             <td><p>21 Mai 2026</p></td>
             <td><p>21 Mai 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Amélioration de l’accueil
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Utiliser des données et des vues personnalisées dans les priorités</a><p></p>
+                <p>Les priorités prennent désormais en charge l’utilisation de données personnalisées dans les colonnes. Ouvrez le gestionnaire de colonnes de la liste de tâches pour ajouter les champs personnalisés à afficher dans les données de la colonne.</p>
+            </td>
+            <td><p>4 Juin 2026</p></td>
+            <td><p>11 Juin 2026</p></td>
+            <td><p>16 juillet 2026</p></td>
         </tr>
     </tbody>
 </table>
