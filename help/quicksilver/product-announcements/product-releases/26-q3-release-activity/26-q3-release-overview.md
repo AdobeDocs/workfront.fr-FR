@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 20%
 
 ---
@@ -276,9 +276,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Mise à jour de l’aspect des e-mails de notification de commentaire</a><p>[!BADGE Hors planning]{type=Neutral}</p>
                 <p>Les notifications par e-mail pour les commentaires dans la zone Mises à jour ont une nouvelle apparence qui s’aligne sur la conception plus large des e-mails d’Adobe. Le fil des commentaires précédents n’est plus inclus dans le corps de l’e-mail.</p>
             </td>
-            <td><p>Déploiement échelonné, date de début à annoncer</p></td>
-            <td><p>Déploiement échelonné, date de début à annoncer</p></td>
-            <td><p>Déploiement échelonné, date de début à annoncer</p></td>
+            <td><p>S/O</p></td>
+            <td><p>Le déploiement échelonné commence le 16 juillet 2026</p></td>
+            <td><p>Le déploiement échelonné commence le 16 juillet 2026</p></td>
         </tr>
         <tr>
             <td>

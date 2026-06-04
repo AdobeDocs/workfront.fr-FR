@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 876
-ht-degree: 52%
+source-wordcount: 846
+ht-degree: 54%
 
 ---
 
@@ -72,13 +72,7 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
    <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail, un type d’enregistrement et <span class="preview">enregistrement</span></p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
-   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>   
 </tbody> 
 </table>
 
