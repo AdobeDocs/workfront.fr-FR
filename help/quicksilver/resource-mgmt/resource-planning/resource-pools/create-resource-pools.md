@@ -6,10 +6,20 @@ description: Les groupes de ressources sont des groupes d’utilisateurs et util
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/jNdb4450a6iY7-mkcBOCBOVD-JH6tRUb-LrqwpD2mQE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 74%
+source-wordcount: 515
+ht-degree: 71%
 
 ---
 
@@ -79,7 +89,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr>
      <tr>
       <td role="rowheader"><strong>Membres du pool</strong></td>
-      <td><p> Ajoutez des utilisateurs et utilisatrices un par un au groupe de ressources.<br>Ou <br>Pour ajouter un grand nombre d’utilisateurs et utilisatrices au groupe de ressources en une seule fois. Vous pouvez ajouter l’une des entités suivantes associées à des utilisateurs et utilisatrices ou à un ensemble d’utilisateurs et utilisatrices :
+      <td><p> Ajouter des utilisateurs au pool de ressources individuellement.<br>Ou <br>Pour ajouter un grand nombre d'utilisateurs au pool de ressources en même temps. Vous pouvez ajouter l’une des entités suivantes associées aux utilisateurs ou à une collection d’utilisateurs :
         <ul>
          <li><strong>Équipes</strong> : tous les membres de l’équipe sont ajoutés au groupe de ressources.</li>
          <li><strong>Groupes</strong> : tous les membres du groupe sont ajoutés au groupe de ressources.</li>

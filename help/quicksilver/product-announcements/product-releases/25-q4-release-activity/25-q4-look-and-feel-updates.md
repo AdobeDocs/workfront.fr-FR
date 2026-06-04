@@ -5,10 +5,15 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1acb64b8-b215-408e-93b0-6301b63d7880
-source-git-commit: e62d4cc5f5b00bbf4e99986c52e49d0c6465dca7
+TQID: https://experienceleague.adobe.com/sSpBQ-B-wyf-JM49O00vZz06fGi4slLe0vkrpLFMMHU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 40%
+source-wordcount: 202
+ht-degree: 60%
 
 ---
 
@@ -34,6 +39,6 @@ Nous avons mis à jour l’aspect de la liste dans le widget Demande d’équipe
 Cette modification est le résultat d’un correctif lié au bouton Affecter des utilisateurs .
 
 
-## Modernisation des interfaces
+## Modernisation de l’interface
 
-Nous mettons à jour l’interface dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont publiées en dehors du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation des interfaces](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Nous mettons à jour l’interface d’Adobe Workfront afin d’améliorer l’expérience client et de l’harmoniser avec les autres applications Adobe. Ces modifications sont publiées selon un rythme différent du planning de publication standard. Pour obtenir la liste de ces modifications, voir [Modernisation de l’interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

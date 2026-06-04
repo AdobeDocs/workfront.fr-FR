@@ -5,12 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 45%
+source-wordcount: 2308
+ht-degree: 41%
 
 ---
 
@@ -28,7 +43,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 >
 >| Version mensuelle | Version trimestrielle |
 >|----|----|
->| <ul><li>24.8 (vendredi 15 août 2024)</li><li>24.9 (vendredi 12 septembre 2024)</li><li>24H10 (17 Octobre 2024)</li></ul> | <ul><li>24H10 (17 Octobre 2024)</li></ul> |
+>| <ul><li>24.8 (15 Août 2024)</li><li>24,9 (12 septembre 2024)</li><li>24H10 (17 Octobre 2024)</li></ul> | <ul><li>24H10 (17 Octobre 2024)</li></ul> |
 >
 >Notez que pour la version finale de chaque trimestre (24.10 ce trimestre), les utilisateurs disposant du calendrier de publication rapide recevront la version un jour plus tôt que prévu.
 >
@@ -74,7 +89,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             <p>Version préliminaire : vendredi 17 octobre 2024</p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -91,7 +106,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             <p>Version préliminaire : mercredi 1 octobre 2024</p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -105,7 +120,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version préliminaire : vendredi 29 août 2024</p>
+                            <p>Version préliminaire : 29 août 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Version de production pour tous les clients : 29 août 2024</span></p>
@@ -122,13 +137,13 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version préliminaire : vendredi 29 août 2024</p>
+                            <p>Version préliminaire : 29 août 2024</p>
                         </li>
                         <li>
                             <p>Production pour une version rapide : avec la version 24.9 (12 septembre 2024)</p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -141,7 +156,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p><s>Version préliminaire : mardi 12 août 2024</s></p>
+                            <p><s>Version préliminaire : 12 août 2024</s></p>
                         </li>
                         <li>
                             <p>Production pour la version rapide : S.O.</p>
@@ -187,7 +202,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             <p><s>Version préliminaire : vendredi 3 octobre 2024</s></p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -204,7 +219,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             <p>Version préliminaire : vendredi 3 octobre 2024</p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -268,7 +283,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             <p>Version préliminaire : vendredi 3 octobre 2024</p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -301,7 +316,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version préliminaire : mercredi 6 août 2024</p>
+                            <p>Version préliminaire : 6 août 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Version de production pour tous les clients : 6 août 2024</span></p>
@@ -411,7 +426,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version préliminaire : samedi 30 août 2024</p>
+                            <p>Version préliminaire : 30 août 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Version de production pour tous les clients : 30 août 2024</span></p>
@@ -428,7 +443,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version préliminaire : vendredi 29 août 2024</p>
+                            <p>Version préliminaire : 29 août 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Version de production pour tous les clients : 29 août 2024</span></p>
@@ -464,7 +479,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                     <p><i>Disponible uniquement pour les organisations sur l’un des nouveaux plans Adobe Workfront. Data Connect est inclus dans le plan Ultimate et sera disponible à l’achat sous forme de module complémentaire pour les plans Prime et Select au cours du premier semestre 2025.</i></p>
@@ -491,7 +506,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                             <p>Version préliminaire : vendredi 3 octobre 2024</p>
                         </li>
                         <li>
-                            <p>Version de production pour l’ensemble des clientes et clients : avec la version 24.10 (vendredi 17 octobre 2024)</p>
+                            <p>Version de production pour tous les clients : avec la version 24.10 (17 octobre 2024)</p>
                         </li>
                     </ul>
                 </td>
@@ -526,7 +541,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
                 <td><p><b>Disponible à ces dates :</b></p>
                     <ul>
                         <li>
-                            <p>Version préliminaire : jeudi 28 août 2024</p>
+                            <p>Version préliminaire : 28 août 2024</p>
                         </li>
                         <li>
                             <p class="preview">Version de production : 28 août 2024</p>

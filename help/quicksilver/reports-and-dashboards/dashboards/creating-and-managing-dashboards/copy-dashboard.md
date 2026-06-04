@@ -6,12 +6,22 @@ description: Vous pouvez copier un tableau de bord et tout son contenu (rapports
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/35bVtVoOhwfK6dOYTHvBJpOVpwYySAf-XboXmvRGXvA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 98%
+source-wordcount: 891
+ht-degree: 91%
 
 ---
 
@@ -77,7 +87,7 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
 
    * **Effectuer une copie :** l’élément est copié à partir du tableau de bord d’origine et une nouvelle version de cet élément s’affiche sur le nouveau tableau de bord. Les modifications apportées à l’élément dans le nouveau tableau de bord ne sont pas répercutées dans l’élément du tableau de bord d’origine. De même, les modifications apportées à l’élément dans le tableau de bord d’origine ne sont pas répercutées dans l’élément du nouveau tableau de bord.\
      Utilisez cette option lorsque vous souhaitez modifier le rapport d’origine sur le tableau de bord d’origine.\
-     Par exemple, vous copiez un tableau de bord appelé « Équipe B » et le renommez en « Équipe A ». Sur le tableau de bord « Équipe B » se trouve un rapport intitulé « Rapport de l’équipe B ». Ce rapport contenant des données spécifiques à l’équipe B, vous sélectionnez l’option permettant d’en faire une copie afin de pouvoir le personnaliser pour l’équipe A et de le renommer ultérieurement « Rapport de l’équipe A ».\
+     Par exemple, vous copiez un tableau de bord appelé « Équipe B » et le renommez en « Équipe A ». Sur le tableau de bord &#39;Équipe B&#39; il y a un rapport appelé &#39;Rapport Équipe B&#39;. Comme ce rapport contient des données spécifiques à l&#39;équipe B, vous sélectionnez l&#39;option permettant d&#39;en faire une copie afin de pouvoir le personnaliser pour l&#39;équipe A et le renommer par la suite en « Rapport de l&#39;équipe A ».\
      Avec cette option, vous supprimez les autorisations de partage du rapport d’origine du rapport copié. L’option Exécuter ce rapport avec les droits d’accès aux informations reste intacte sur le rapport copié.
 
    * **Utiliser l’original :** affiche l’élément d’origine dans le nouveau tableau de bord. Les modifications apportées à l’élément dans le nouveau tableau de bord sont également répercutées dans l’élément du tableau de bord d’origine. De même, les modifications apportées à l’élément sur le tableau de bord d’origine sont répercutées dans l’élément du nouveau tableau de bord.\

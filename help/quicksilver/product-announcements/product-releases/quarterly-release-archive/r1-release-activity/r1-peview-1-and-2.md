@@ -7,10 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 100%
+source-wordcount: 1024
+ht-degree: 91%
 
 ---
 
@@ -59,13 +71,13 @@ Avant cette modification, les projets, tâches et problèmes en attente d’appr
 
 Vous pouvez désormais attribuer des modèles de mise en page à des groupes.
 
-Avant cette modification, vous pouviez affecter des modèles de mise en page aux utilisateurs et utilisatrices, aux équipes et aux fonctions. L’affectation d’un modèle de mise en page à des groupes a la priorité d’affectation de modèle de mise en page la plus basse. 
+Avant cette modification, vous pouviez attribuer des modèles de mise en page aux utilisateurs, aux équipes et aux fonctions. L&#39;affectation d&#39;un modèle de mise en page à des groupes possède le rang le plus bas dans la priorité d&#39;affectation. 
 
 Pour plus d’informations, consultez « Créer et gérer des modèles de mise en page ».
 
 ## Changements apportés aux notifications de modification en masse destinées aux utilisateurs et utilisatrices
 
-La fonctionnalité a changé concernant la modification en masse des paramètres des notifications par e-mail destinées aux utilisateurs et utilisatrices. Lorsque vous sélectionnez plusieurs utilisateurs et utilisatrices pour modifier leurs paramètres de notification par e-mail, seules les notifications spécifiques que vous mettez à jour sont modifiées pour les utilisateurs et utilisatrices sélectionnés. Tous les paramètres de notification par e-mail inchangés restent identiques pour les utilisateurs et utilisatrices sélectionnés, même s’ils diffèrent d’un utilisateur ou d’une utilisatrice à l’autre. 
+La fonctionnalité a changé autour de la modification en bloc des paramètres de notification par e-mail des utilisateurs. Lorsque vous sélectionnez plusieurs utilisateurs pour modifier les paramètres de leurs e-mails de notification, seules les notifications spécifiques que vous mettez à jour sont modifiées pour tous les utilisateurs sélectionnés. Tous les paramètres de notification par e-mail inchangés restent identiques pour tous les utilisateurs sélectionnés, même s’ils diffèrent d’un utilisateur à l’autre. 
 
 Avant cette modification, les paramètres de notification par e-mail que vous aviez sélectionnés étaient enregistrés et tous les autres paramètres de notification inchangés étaient désélectionnés lorsque vous aviez enregistré vos modifications. 
 
@@ -83,7 +95,7 @@ L’aspect des notifications par e-mail suivantes a été mis à jour avec une n
 * En attente d’approbation (projet, tâche, problèmes)
 * Changement de statut sur les projets, tâches, problèmes
 
-N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de prévisualisation des sandbox efface les adresses e-mail de tous les utilisateurs et toutes les utilisatrices.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car le sandbox de prévisualisation efface les adresses e-mail de tous les utilisateurs.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications &#x200B;](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## Nouvelles options de synthèse par e-mail pour plusieurs zones de notifications
 
@@ -95,7 +107,7 @@ L’option « Synthèse quotidienne » a été ajoutée dans les zones de noti
 * Informations sur le travail qui m&#39;a été affecté
 * Communication
 
-Pour plus d’informations, voir [Notifications Adobe Workfront](../../../../workfront-basics/using-notifications/wf-notifications.md).  N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car l’environnement de prévisualisation des sandbox efface les adresses e-mail de tous les utilisateurs et toutes les utilisatrices. 
+Pour plus d’informations, voir [Notifications &#x200B;](../../../../workfront-basics/using-notifications/wf-notifications.md). N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car le sandbox de prévisualisation efface les adresses e-mail de tous les utilisateurs. 
 
 ## Rendre un groupe public
 
@@ -123,7 +135,7 @@ Vous pouvez partager l’URL d’un objet dans les applications suivantes :
 
 ## Aide contextuelle dans la Configuration
 
-Toutes les zones du menu Configuration ont été mises à jour avec une icône Aide dans le coin supérieur droit de la zone. Cette icône fournit un lien vers un article du site d’aide relatif à cette zone. Certaines sections des zones Configuration ont également été mises à jour avec l’icône Aide. 
+Toutes les zones du menu Configuration ont été mises à jour avec une icône d&#39;aide dans le coin supérieur droit de la zone. Cette icône fournit un lien vers un article du site d&#39;aide à ce sujet. Certaines sections des zones Configuration ont également été mises à jour avec l’icône Aide. 
 
 ## Ajouter des taux de dépenses plus précis
 

@@ -6,11 +6,23 @@ description: Vous pouvez créer un regroupement personnalisé à partir de zéro
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/MQBR1w-Mkpt7msJnu1oS-4MMh2vX-DcqEmbPbuRRorw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: 439
 ht-degree: 91%
 
 ---
@@ -69,12 +81,12 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    ![Sélection d’un nouveau regroupement](assets/newgrouping-nwe-standard-350x304.png)
 
 1. Cliquez sur **+ Nouveau regroupement**.
-Le créateur d’interface pour la création du regroupement s’ouvre.
+Le créateur d’interface pour la création des lancements de regroupement.
 
 1. Dans la zone **Aperçu du regroupement**, cliquez sur **Ajouter un regroupement** pour définir l&#39;organisation des informations du rapport. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
 
 1. Commencez à saisir le nom du champ qui représente la manière dont vous souhaitez organiser les informations dans le rapport, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
-1. (Facultatif et le cas échéant) Lors de la création d’un regroupement dans une liste mise à jour, sélectionnez **Réduire ce regroupement par défaut** si vous souhaitez que les résultats du regroupement s’affichent de manière réduite plutôt que développée.Ce paramètre est désactivé par défaut et les résultats du regroupement s’affichent toujours dans la liste étendue.
+1. (Facultatif et le cas échéant) Lors de la création d’un regroupement dans une liste mise à jour, sélectionnez **Réduire ce regroupement par défaut** si vous souhaitez que les résultats du regroupement s’affichent de manière réduite plutôt que développée. Ce paramètre est désactivé par défaut et les résultats du regroupement s’affichent toujours dans la liste étendue.
 
    Pour plus d’informations sur les listes mises à jour et héritées, consultez la section [Différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Commencer avec les listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 

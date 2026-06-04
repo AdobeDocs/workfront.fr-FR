@@ -1,18 +1,28 @@
 ---
-title: Améliorations des documents et des relectures du quatrième trimestre 2025
-description: Améliorations des documents et des relectures du quatrième trimestre 2025
+title: Améliorations des documents et des relectures lors du quatrième trimestre 2025
+description: Améliorations des documents et des relectures lors du quatrième trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+TQID: https://experienceleague.adobe.com/VN4tRX-3cRp4tw2AGMalQndJtum3FJStsuV6oT-CxGk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 8%
+source-wordcount: 401
+ht-degree: 18%
 
 ---
 
-# Améliorations des documents et des relectures du quatrième trimestre 2025
+# Améliorations des documents et des relectures lors du quatrième trimestre 2025
 
 Cette page décrit les améliorations apportées au document et à la relecture avec la version du quatrième trimestre 2025 dans l’environnement de Prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
@@ -63,7 +73,7 @@ Cette fonctionnalité est actuellement en version bêta.
 
 Nous sommes ravis d’annoncer une nouvelle intégration entre Adobe Express et Workfront Proof.
 
-Grâce à cette intégration, vous pouvez :
+Avec cette intégration, vous pouvez effectuer les actions suivantes :
 
 * Rationalisez la collaboration entre les équipes créatives, juridiques et de conformité afin de réduire le temps de publication tout en maintenant la surveillance
 
@@ -77,4 +87,4 @@ Grâce à cette intégration, vous pouvez :
 
 Remarque : l’intégration doit être activée pour vos comptes par l’équipe produit d’Adobe.
 
-Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Express et de Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Pour plus d’informations, voir [Commencer à utiliser l’intégration d’Adobe Express et de Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).

@@ -7,12 +7,22 @@ description: Vous pouvez appliquer les filtres de tâches ci-dessous pour affich
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/1hGzzefwLdDl3rU0A-O3JZVHOdhO8nmHxd38Fs0o6Yg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 63%
+source-wordcount: 819
+ht-degree: 57%
 
 ---
 
@@ -24,7 +34,7 @@ Vous pouvez appliquer les filtres de tâches ci-dessous pour afficher les tâche
 
 >[!TIP]
 >
->* Si vous envisagez d’ajouter plus d’un filtre à un rapport, nous vous recommandons d’ajouter tous vos filtres à l’aide de l’interface du créateur de rapports, puis de cliquer sur Passer en mode texte une fois que toutes les autres règles de filtrage ont été ajoutées. Ensuite, vous pouvez ajouter le code pour le filtre de la tâche parent comme indiqué ci-dessus. 
+>* Si vous envisagez d’ajouter plusieurs filtres à un rapport, nous vous recommandons d’ajouter tous vos filtres à l’aide de l’interface du Report Builder, puis de cliquer sur Basculer en mode texte après avoir ajouté toutes les autres règles de filtrage. Vous pouvez ensuite ajouter le code du filtre de tâche parent comme indiqué ci-dessus. 
 >* Nous vous recommandons également d’ajouter un regroupement pour le nom du projet afin de faciliter la lecture du rapport. Pour plus d’informations sur l’ajout de regroupements à vos rapports, consultez l’article [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 >
 

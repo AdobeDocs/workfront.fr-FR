@@ -6,12 +6,23 @@ description: Collections de référence dans un rapport
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
-ht-degree: 86%
+source-wordcount: 2624
+ht-degree: 84%
 
 ---
 
@@ -268,7 +279,7 @@ Les lignes d’une collection en mode Texte sont décrites dans le tableau suiva
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Il s’agit du délimiteur utilisé pour séparer les valeurs de votre liste.<br>Nous vous recommandons d’utiliser <code>&lt;p&gt;</code> qui ajoute un saut de ligne entre les valeurs.</p> <p>Vous pouvez également utiliser les éléments suivants :</p> <p><code>&zwj;</code> (jointure à largeur nulle).Les valeurs de la collection ne sont pas séparées entre elles.<br><strong>,</strong> =séparateur Virgule.Les valeurs de la collection sont séparées par une virgule suivie d’un espace vide.<br><strong>/</strong> = séparateur Barre oblique.Les valeurs de la collection sont séparées par une barre oblique.<br><strong>-</strong> = séparateur Tiret. Les valeurs de la collection sont séparées par un tiret.<br>Si vous laissez cette ligne vide, une virgule est ajoutée, suivie par défaut d’un espace entre les valeurs de la collection.</p> </td> 
+   <td> <p>Il s’agit du délimiteur utilisé pour séparer les valeurs de votre liste.<br>Nous vous recommandons d’utiliser <code>&lt;p&gt;</code> qui ajoute un saut de ligne entre les valeurs.</p> <p>Vous pouvez également utiliser les éléments suivants :</p> <p><code>&zwj;</code> (jointure à largeur nulle). Les valeurs de la collection ne sont pas séparées les unes des autres.<br><strong>,</strong> = séparateur par des virgules. Les valeurs de la collection sont séparées par une virgule suivie de l’absence d’espace.<br><strong>/</strong> = barre oblique. Les valeurs de la collection sont séparées par une barre oblique.<br><strong>-</strong> = séparateur de tirets. Les valeurs de la collection sont séparées par un tiret.<br>Si vous laissez cette ligne vide, une virgule est ajoutée, suivie par défaut d’un espace entre les valeurs de la collection.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nom de la.colonne</em> </td> 

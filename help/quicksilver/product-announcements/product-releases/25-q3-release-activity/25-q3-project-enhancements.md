@@ -6,9 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 6%
 
 ---
@@ -53,12 +58,12 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->Les scénarios suivants sont possibles :
+>Les scénarios suivants existent :
 >
 >* Les heures réelles représentent les heures enregistrées pour les projets, tâches et événements depuis mai 2021.
 >* Les heures effectives héritées représentent les heures enregistrées pour les projets, les tâches et les événements pendant la durée de vie du projet, de la tâche ou de l&#39;événement. Cela inclut les heures enregistrées avant mai 2021 jusqu’à l’heure actuelle.
 ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
-><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
+><br>Workfront utilise les heures réelles héritées pour calculer les coûts de main-d&#39;œuvre réels.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

@@ -7,9 +7,14 @@ description: Cette page fournit des informations sur les fonctionnalités des Ob
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 1fa39be8-c949-4fe5-b62e-94375a80713b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+TQID: https://experienceleague.adobe.com/QM3MylSu2XnbEbX-T6MzascNj0XLzSJvvmTvk1rOpAU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: 161
 ht-degree: 100%
 
 ---
@@ -37,7 +42,7 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Améliorations de la section des mises à jour</a></p>
-                        <p>Les améliorations apportées à la section des mises à jour des objectifs sont disponibles dans la version 23.3, parallèlement aux mises à jour de la nouvelle version bêta des commentaires. Ces améliorations seront disponibles dans l’environnement de production peu de temps après le lancement de l’environnement de prévisualisation.</p>
+                        <p>Les améliorations apportées à la section des mises à jour des objectifs sont disponibles dans la version 23.3, parallèlement aux mises à jour de la nouvelle version Beta des commentaires. Ces améliorations seront disponibles dans l’environnement de production peu de temps après le lancement de l’environnement de prévisualisation.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                      <p>

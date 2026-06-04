@@ -5,12 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 16%
+source-wordcount: 387
+ht-degree: 14%
 
 ---
 
@@ -24,9 +31,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->Prévisualisation : vendredi 2 octobre 2025
->Version rapide de production : jeudi 15 octobre 2025
->Production pour tous : 16 octobre 2025
+>Aperçu : 2 octobre 2025>Version rapide de production : 15 octobre 2025>Production pour tous : 16 octobre 2025
 
 Pour faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de créer et d’enregistrer des vues dans la zone Demandes . Vous pouvez désormais enregistrer une vue, y compris les filtres et les configurations de colonne, et passer d’une vue à l’autre. Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
@@ -56,7 +61,7 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >* Aperçu : 21 août 2025
->* Version rapide de production : vendredi 11 septembre 2025
+>* Mise à jour rapide de la production : 11 septembre 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
 Pour améliorer l’expérience utilisateur lors de la réalisation de requêtes dans Workfront et Workfront Planning, nous avons mis à jour l’expérience de requête.

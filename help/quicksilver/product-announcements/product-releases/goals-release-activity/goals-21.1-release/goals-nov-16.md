@@ -3,20 +3,31 @@ product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
 title: 'Activité Version des Objectifs Adobe Workfront 21.1 : semaine du 16 novembre 2020'
-description: Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 30 novembre 2020. Ces améliorations seront disponibles dans l’environnement de prévisualisation au cours du premier trimestre de la version 21.1.
+description: Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 30 novembre 2020. Ces améliorations seront disponibles dans l’environnement de production au cours du premier trimestre de la version 21.1.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 9596ff23-6dd7-4608-9655-410482d56663
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/HXE1GVFG8Sw7WxyXgR1d37oC3SPRsvsi3pUcykYIxV0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 313
 ht-degree: 99%
 
 ---
 
 # Activité de la version des Objectifs Adobe Workfront 21.1 : semaine du 16 novembre 2020
 
-Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 30 novembre 2020. Ces améliorations seront disponibles dans l’environnement de prévisualisation au cours du premier trimestre de la version 21.1.
+Cette page décrit toutes les améliorations apportées à la version 21.1 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 30 novembre 2020. Ces améliorations seront disponibles dans l’environnement de production au cours du premier trimestre de la version 21.1.
 
 Pour consulter la liste de toutes les modifications disponibles pour Objectifs Workfront à ce stade du cycle de publication de la version 21.1, voir [Objectifs Adobe Workfront avec la version 21.1](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 

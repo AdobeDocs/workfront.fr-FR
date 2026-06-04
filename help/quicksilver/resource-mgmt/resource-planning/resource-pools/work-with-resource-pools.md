@@ -1,14 +1,23 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Présentation des groupes de ressources
+title: Présentation des pools de ressources
 description: En tant que gestionnaire de ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs aux pools de ressources, puis en ajoutant les pools de ressources aux projets.
 author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+TQID: https://experienceleague.adobe.com/ZQdzgCsLVITuWGbOaXfjbnk90MUGr3KFJ7xXJdrAK30
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 484
 ht-degree: 78%
 
 ---
@@ -19,9 +28,9 @@ ht-degree: 78%
 
 En tant que personne chargée de la gestion des ressources, vous pouvez gérer vos ressources en ajoutant des utilisateurs et utilisatrices aux groupes de ressources.
 
-Pour une gestion efficace des ressources, associez vos groupes de ressources à des utilisateurs et utilisatrices ainsi qu’à des projets. Il s’agit d’un prérequis pour l’utilisation de la fonctionnalité de planification des ressources.
+Pour une gestion efficace des ressources, associez vos groupes de ressources à des utilisateurs et utilisatrices ainsi qu’à des projets. Il s’agit d’une condition préalable à l’utilisation de la fonctionnalité Planification des ressources.
 
-Pour plus d’informations sur les conditions préalables requises pour pouvoir commencer à utiliser la planification des ressources, consultez la section &quot;Conditions préalables requises pour travailler dans le planificateur de ressources&quot; de l’article [Présentation de Resource Planner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Pour plus d&#39;informations sur les conditions préalables requises avant de commencer à utiliser la planification des ressources, reportez-vous à la section « Conditions préalables pour travailler dans la planification des ressources » de l&#39;article [Présentation de la planification des ressources](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Pour plus d’informations sur la création et la gestion des groupes de ressources, consultez les articles suivants :
 
@@ -53,7 +62,7 @@ Nous vous recommandons les suivantes :
   Vous pourriez, par exemple, avoir des ressources de conseil externes que vous voulez rendre disponibles pour un projet de temps en temps. Vous pouvez créer un groupe de ressources de personnes travaillant dans le conseil et les affecter à vos projets, où vous pouvez inclure à la fois des personnes internes ou externes en tant qu’utilisateurs et utilisatrices.
 
 * Vous pouvez également créer des groupes de ressources par service ou centre de coûts.
-* Il est déconseillé d’ajouter tous les utilisateurs du système à un pool de ressources si vous disposez d’un grand nombre d’utilisateurs ou si vous gérez des ressources pour un grand nombre de projets à la fois.
+* Il est déconseillé d&#39;ajouter tous les utilisateurs du système à un seul pool de ressources si vous avez un grand nombre d&#39;utilisateurs ou si vous gérez les ressources pour un grand nombre de projets à la fois.
 
 
 

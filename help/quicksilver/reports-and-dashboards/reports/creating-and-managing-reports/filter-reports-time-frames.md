@@ -6,12 +6,23 @@ description: Vous pouvez filtrer un rapport selon la période d’une date qui e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6D9KNoW0cNsODeSbO-Oqi99xcggMKdnKnfJDCZAfLjg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 33%
+source-wordcount: 954
+ht-degree: 67%
 
 ---
 
@@ -107,7 +118,7 @@ Pour plus d’informations sur la création de rapports, consultez [Créer un ra
 
    <tr> 
       <td role="rowheader">Supérieur ou égal à</td> 
-      <td> Après avoir sélectionné ce modificateur, indiquez une date après laquelle les heures ont été saisies. Le rapport affiche les heures saisies après la date spécifiée, y compris la date spécifiée. </td> 
+      <td> Après avoir sélectionné ce modificateur, indiquez une date après laquelle les heures ont été saisies. Le rapport présente les heures saisies après la date spécifiée, y compris la date spécifiée. </td> 
      </tr>
 
    <tr> 
@@ -117,12 +128,12 @@ Pour plus d’informations sur la création de rapports, consultez [Créer un ra
 
    <tr> 
       <td role="rowheader">Null</td> 
-      <td>Sélectionnez ce modificateur pour afficher uniquement les heures pour lesquelles la date de saisie est manquante.</td> 
+      <td>Sélectionnez ce modificateur pour n’afficher que les heures pour lesquelles la date de saisie est manquante.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Non null</td> 
-      <td>Sélectionnez ce modificateur pour afficher uniquement les heures pour lesquelles la date de saisie a une valeur.</td> 
+      <td>Sélectionnez ce modificateur pour n’afficher que les heures pour lesquelles la date de saisie a une valeur.</td> 
      </tr>
 
    </tbody> 
@@ -146,15 +157,15 @@ Par exemple, si vous créez un rapport d’heures et que vous souhaitez afficher
   </tr> 
   <tr> 
    <td role="rowheader">Cette semaine</td> 
-   <td>Affiche les heures où la date de saisie correspond à une date de la semaine en cours, où la semaine commence un dimanche et se termine un samedi.</td> 
+   <td>Affiche les heures pour lesquelles la date de saisie est une date de la semaine en cours, la semaine commençant un dimanche et se terminant un samedi.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Semaine prochaine</td> 
-   <td>Affiche les heures où la date de saisie est une date de la semaine suivant la semaine en cours, où la semaine commence un dimanche et se termine un samedi. </td> 
+   <td>Affiche les heures pour lesquelles la date de saisie est une date de la semaine suivant la semaine en cours, la semaine commençant un dimanche et se terminant un samedi. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Semaine dernière</td> 
-   <td>Affiche les heures où la date de saisie est une date de la semaine précédant la semaine en cours, où la semaine commence un dimanche et se termine un samedi. </td> 
+   <td>Affiche les heures pour lesquelles la date de saisie est une date de la semaine précédant la semaine en cours, la semaine commençant un dimanche et se terminant un samedi. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ce mois</td> 
@@ -166,7 +177,7 @@ Par exemple, si vous créez un rapport d’heures et que vous souhaitez afficher
   </tr> 
   <tr> 
    <td role="rowheader">Mois dernier</td> 
-   <td>Affiche les heures où la date de saisie est une date du mois précédant le mois en cours</td> 
+   <td>Affiche les heures pour lesquelles la date de saisie est une date du mois précédant le mois en cours.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ce trimestre</td> 
@@ -184,19 +195,19 @@ Par exemple, si vous créez un rapport d’heures et que vous souhaitez afficher
   </tr> 
   <tr> 
    <td role="rowheader">Trimestre dernier</td> 
-   <td> <p>Affiche les heures où la date de saisie est une date du trimestre précédant le trimestre en cours, où les trimestres sont définis ci-dessus.</p> <p><b>NOTE</b></p>  Si votre administrateur Workfront a activé et défini des trimestres personnalisés pour votre système, les filtres intégrés pour les trimestres sont remplacés par vos informations de trimestre personnalisées. Pour plus d'informations sur l'activation des trimestres personnalisés, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activer les trimestres personnalisés</a>.</p> </td> 
+   <td> <p>Affiche les heures pour lesquelles la date de saisie est une date du trimestre précédant le trimestre en cours, les trimestres ayant été définis ci-dessus.</p> <p><b>NOTE</b></p>  Si votre administrateur Workfront a activé et défini des trimestres personnalisés pour votre système, les filtres intégrés pour les trimestres sont remplacés par vos informations de trimestre personnalisées. Pour plus d'informations sur l'activation des trimestres personnalisés, voir <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Activer les trimestres personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Cette année</td> 
-   <td>Affiche les heures où la date de saisie est une date de l'année en cours, où l'année en cours commence le 1er janvier et se termine le 31 décembre.</td> 
+   <td>Affiche les heures pour lesquelles la date de saisie est une date de l’année en cours, l’année en cours commençant le 1er janvier et se terminant le 31 décembre.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Année passée</td> 
-   <td>Affiche les heures où la date de saisie est une date de l'année écoulée, où l'année écoulée commence 12 mois avant la date actuelle.</td> 
+   <td>Affiche les heures pour lesquelles la date de saisie est une date de l’année écoulée, l’année écoulée commençant 12 mois avant la date actuelle.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Année dernière</td> 
-   <td> <p>Affiche les heures où la date de saisie est une date de la dernière année, où la dernière année commence le 1er janvier et se termine le 31 décembre de l'année précédant l'année en cours.</p> <p>Remarque : il n’y a pas de période intégrée pour l’année fiscale. Vous pouvez créer un rapport et filtrer les informations par date à l'aide d'un modificateur personnalisé pour la période de l'exercice, telle qu'elle est définie dans votre organisation. Si vous souhaitez choisir une période pour un exercice fiscal sur place, vous devez utiliser une invite au lieu d'un filtre. </p> </td> 
+   <td> <p>Affiche les heures pour lesquelles la date de saisie est une date de l’année écoulée, l’année écoulée commençant le 1er janvier et se terminant le 31 décembre de l’année précédant l’année en cours.</p> <p>Remarque : il n’y a pas de période intégrée pour l’année fiscale. Vous pouvez créer un rapport et filtrer les informations par date en utilisant un modificateur personnalisé pour la période de l’année fiscale, telle qu’elle est définie dans votre entreprise. Si vous souhaitez choisir une période pour un exercice fiscal sur place, vous devez utiliser une invite au lieu d'un filtre. </p> </td> 
   </tr> 
  </tbody> 
 </table>

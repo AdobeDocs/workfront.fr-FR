@@ -5,10 +5,23 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 94%
+source-wordcount: 700
+ht-degree: 86%
 
 ---
 
@@ -80,15 +93,15 @@ Vous pouvez désormais classer et rechercher rapidement des ressources en foncti
 
 Auparavant, le mappage des données Workfront aux balises Experience Manager Assets n’était pas disponible.
 
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, voir [Configurer l’intégration [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, voir [Configurer l’intégration Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, voir [Configuration de l’intégration [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, voir [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Mapper des champs Workfront aux champs de métadonnées Experience Manager Assets personnalisés
 
 Avec l’intégration native, vous pouvez désormais mapper des champs Workfront natifs et intégrés aux champs de schéma de métadonnées personnalisés dans Experience Manager Assets as a Cloud Service.
 
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, voir [Configurer l’intégration [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, voir [Configurer l’intégration Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets as a Cloud Service, voir [Configuration de l’intégration [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Pour plus d’informations sur cette fonctionnalité dans Experience Manager Assets Essentials, voir [Configuration de l’intégration de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Ajuster les paramètres du modèle de workflow d’épreuve automatisé à l’aide d’Adobe Workfront pour Creative Cloud
 

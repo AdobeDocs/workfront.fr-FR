@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: 1055
+ht-degree: 98%
 
 ---
 
@@ -58,7 +63,7 @@ Pour plus d’informations, consultez la section « Créer et gérer des modèl
 
 Vous avez maintenant la possibilité de paramétrer si les utilisateurs et les utilisatrices de votre instance Workfront reçoivent des notifications par e-mail de Workfront lorsqu’un commentaire est posté sur une épreuve.
 
-Auparavant, les e-mails de relecture étaient toujours envoyés depuis Workfront lorsqu’un commentaire était posté sur une épreuve. Si les notifications étaient également activées dans Workfront Proof, les utilisateurs et les utilisatrices recevaient des notifications en double. 
+Auparavant, les e-mails de relecture étaient toujours envoyés depuis Workfront lorsqu’un commentaire était fait sur une épreuve. Si les notifications étaient également activées dans Workfront Proof, les utilisateurs et utilisatrices recevaient des notifications en double. 
 
 Pour les clientes et les clients existants de Workfront, Workfront est configuré par défaut pour envoyer des e-mails lorsqu’un commentaire est posté sur une épreuve.
 

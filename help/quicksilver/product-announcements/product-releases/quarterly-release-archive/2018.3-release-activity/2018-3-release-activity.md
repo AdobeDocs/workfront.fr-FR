@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fed3d6f9-5909-4a36-bae5-8e70aebb8852
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/9xLWjMad1pQC3B8exX8EIWO6lTvyNedvyS086ndsM-E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: 41
 ht-degree: 100%
 
 ---
@@ -17,9 +24,9 @@ ht-degree: 100%
 # Activité Version 2018.3
 
 * [Vue d’ensemble de l’activité Version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-* [Version 2018.3, version bêta finale](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
-* [Activité Version 2018.3, version bêta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-* [Activité Version 2018.3, version bêta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-* [Activité Version 2018.3, version bêta 3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-* [Activité Version 2018.3, version bêta 2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-* [Activité Version 2018.3, version bêta 1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+* [Version Beta finale 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+* [Activité de la version 2018.3 Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+* [Activité de la version 2018.3 Beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+* [Activité de la version 2018.3 Beta 3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+* [Activité de la version 2018.3 Beta 2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+* [Activité de la version 2018.3 Beta 1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)

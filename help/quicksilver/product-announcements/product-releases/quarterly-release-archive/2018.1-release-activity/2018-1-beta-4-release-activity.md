@@ -7,10 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2444'
-ht-degree: 100%
+source-wordcount: 2427
+ht-degree: 99%
 
 ---
 
@@ -337,6 +350,6 @@ Pour plus d’informations sur la configuration de cette option, voir la section
 
 ## Prise en charge d’émoticônes {#emoji-support}
 
-Vous pouvez maintenant donner le ton des commentaires et des mises à jour que vous effectuez dans Workfront en insérant des émoticônes. Les émoticônes ajoutées aux commentaires de l’onglet Mises à jour s’affichent également dans la notification électronique de mise à jour. 
+Vous pouvez maintenant définir le ton des commentaires et des mises à jour que vous effectuez dans Workfront en insérant des émoticônes. Tous les émoticônes ajoutés aux commentaires sur l’onglet Mises à jour s’affichent également dans l’e-mail de notification de mise à jour. 
 
 Pour plus d’informations, voir la section [Mettre à jour un travail](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

@@ -6,12 +6,23 @@ description: Vous pouvez incorporer une page web externe dans un tableau de bord
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 87%
+source-wordcount: 989
+ht-degree: 81%
 
 ---
 
@@ -30,8 +41,8 @@ Par exemple, si votre entreprise dispose d’un référentiel de documents web, 
 >Pour permettre l’incorporation d’un site web dont vous êtes propriétaire, demandez à votre équipe d’administration web d’ajuster le paramètre **X-Frame-Options**. Pour plus d’informations, voir [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
->* Les pages de tableau de bord ne sont plus prises en charge en tant que pages externes incorporées dans les tableaux de bord. Bien que les tableaux de bord existants ne soient pas automatiquement modifiés pour supprimer ces pages externes, toute modification apportée à un tableau de bord contenant une telle référence ne pourra pas être enregistrée tant que la référence n’aura pas été supprimée ou modifiée.
-> Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
+>* Les pages de tableaux de bord ne sont plus prises en charge en tant que pages externes intégrées dans les tableaux de bord. Bien que les tableaux de bord existants ne soient pas automatiquement modifiés afin de supprimer ces pages externes, toute modification apportée à un tableau de bord contenant une telle référence ne pourra pas être enregistrée tant que la référence n’aura pas été supprimée ou modifiée.
+> Plus précisément, les sous-domaines Workfront.com suivants ne sont plus pris en charge :
 >
 >     * /dashboards
 >     * /dashboard/&#x200B;:ID
@@ -106,8 +117,8 @@ Pour plus d’informations sur la création de tableaux de bord, voir [Créer un
 
 {{step1-to-dashboards}}
 
-1. Pour modifier un tableau de bord existant, sélectionnez le tableau de bord dans lequel vous souhaitez incorporer la page du site web, puis cliquez sur **Actions du tableau de bord**, puis sur **Modifier**,
-ou,\
+1. Pour modifier un tableau de bord existant, sélectionnez le tableau de bord dans lequel vous souhaitez incorporer la page du site Web, cliquez sur **Actions du tableau de bord**, puis cliquez sur **Modifier**
+Ou\
    pour créer un tableau de bord, cliquez sur **Nouveau tableau de bord**.\
    Pour plus d’informations sur la création d’un tableau de bord, voir [Créer un tableau de bord](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -130,8 +141,8 @@ ou,\
         ![&#x200B; Boîte de dialogue Ajouter une page externe &#x200B;](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL de modèle contenant des informations de session pour un site web spécifique.\
-        Par exemple : *https://localhost/?session={!$$SESSION}*
-Il faut se connecter au site web spécifié pour afficher la page externe.\
+        Par exemple : *https://localhost/?session={!$$SESSION}*
+Vous devez être connecté au site web spécifié pour afficher la page externe.\
         Pour plus d’informations sur l’obtention d’un SessionID à partir de Workfront, voir [Concepts de base des API](../../../wf-api/general/api-basics.md).\
         Pour des raisons de sécurité, votre équipe d’administration Workfront peut configurer vos préférences système de manière à ne pas autoriser l’utilisation des informations de session dans vos pages externes. Dans ce cas, la page externe ne se charge pas sur le tableau de bord.\
         Pour plus d’informations sur les préférences de sécurité système, voir [Configurer les préférences de sécurité système](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\

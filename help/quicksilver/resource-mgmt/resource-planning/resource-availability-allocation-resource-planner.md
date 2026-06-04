@@ -6,10 +6,23 @@ description: Vous pouvez afficher la disponibilité de vos ressources et le volu
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 98%
+source-wordcount: 1200
+ht-degree: 94%
 
 ---
 
@@ -26,7 +39,7 @@ Vous pouvez afficher la disponibilité de vos ressources et le volume de travail
  <col> 
  <tbody> 
   <tr>
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr> 
   <tr> 
@@ -40,7 +53,7 @@ Vous pouvez afficher la disponibilité de vos ressources et le volume de travail
     <ul> 
      <li> <p>Gestion des ressources</p> </li> 
      <li> <p>Données financières</p> </li> 
-     <li> <p>Utilisateurs</p> </li> 
+     <li> <p>Utilisateurs et utilisatrices</p> </li> 
      <li> <p>Projets</p> </li> 
     </ul> </td> 
   </tr> 
@@ -57,7 +70,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
-Vous devez respecter toutes les conditions préalables requises pour utiliser le planificateur de ressources.Pour plus d’informations, voir [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Vous devez respecter toutes les conditions préalables requises pour utiliser le planificateur de ressources. Pour plus d’informations, voir [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 >[!IMPORTANT]
 >
@@ -132,7 +145,7 @@ Tenez compte des points suivants lorsque vous changez votre vue dans le planific
       <td role="rowheader">Coûts</td> 
       <td> <p>Affiche les informations de disponibilité et d’affectation par coût, si vous affichez le planificateur de ressources dans les vues Projet ou Rôle. Les informations affichent les valeurs dans la devise de votre système. Votre équipe d’administration Workfront définit la devise du système. Pour plus d’informations sur la configuration de la devise du système dans Workfront, voir <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer les taux de change</a>.</p> <p><b>NOTE</b>
 
-   Vous devez associer les utilisateurs et utilisatrices et les fonctions aux coûts par heure afin d’afficher les informations sur les coûts dans le planificateur de ressources.<br style="font-style: italic;">Pour plus d’informations sur l’association des coûts par heure aux fonctions, voir <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.<br style="font-style: italic;">Pour plus d’informations sur l’association des coûts par heure avec les utilisateurs et utilisatrices, voir <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.<br style="font-style: italic;">Pour plus d’informations sur le mode de calcul du coût dans le planificateur de ressources, voir <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculer les coûts dans le planificateur de ressources</a>.</p> </td>
+   Vous devez associer les utilisateurs et les fonctions à des taux de coût horaire afin d&#39;afficher les informations de coût dans le Planificateur de ressources.<br style="font-style: italic;">Pour plus d&#39;informations sur l&#39;association des taux de coût horaire à des fonctions, voir <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Créer et gérer des fonctions</a>.<br style="font-style: italic;">Pour plus d’informations sur l’association des coûts par heure avec les utilisateurs et utilisatrices, voir <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’un utilisateur ou d’une utilisatrice</a>.<br style="font-style: italic;">Pour plus d’informations sur le mode de calcul du coût dans le planificateur de ressources, voir <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculer les coûts dans le planificateur de ressources</a>.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Personnaliser</td> 
@@ -151,7 +164,7 @@ Tenez compte des points suivants lorsque vous changez votre vue dans le planific
    * Rôle
    * l’utilisateur ou de l’utilisatrice
 
-1. Dans la section **Afficher les éléments sélectionnés**, sélectionnez le type d’information à afficher dans les colonnes de la vue sélectionnée.Le tableau suivant indique les options disponibles dans chaque vue :
+1. Dans la section **Afficher les éléments sélectionnés**, sélectionnez le type d’information à afficher dans les colonnes de la vue sélectionnée. Le tableau suivant indique les options disponibles dans chaque vue :
 
    | **Option** | Vue utilisateur | Vue Projet | Vue Rôle |
    |---|---|---|---|

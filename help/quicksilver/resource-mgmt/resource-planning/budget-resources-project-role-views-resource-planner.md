@@ -6,10 +6,23 @@ description: Vous pouvez budgétiser les ressources dans le planificateur de res
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
+TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 96%
+source-wordcount: 2087
+ht-degree: 94%
 
 ---
 
@@ -174,7 +187,7 @@ Pour budgéter les affectations dans le planificateur de ressources dans la&#x20
    * Dans la colonne **BDG**, spécifiez manuellement un nombre d’heures, d’équivalent temps complet ou de coûts budgétés pour les fonctions.\
      Cette option répartit les heures budgétées du rôle sur les heures budgétées du projet pour les projets pour lesquels vous avez accès en gestion.
 
-   * Cliquez sur le menu **Plus** pour la fonction, puis cliquez sur **Définir les heures prévuees des projets comme budgétées.** Les heures budgétées du rôle sont calculées à l’aide de la formule suivante :\
+   * Cliquez sur le menu **Plus** de la fonction, puis sur **Définir les heures prévues des projets comme budgétées.**&#x200B;Les heures budgétées du rôle sont calculées à l&#39;aide de la formule suivante :\
      &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
@@ -212,7 +225,7 @@ Pour budgéter les affectations dans le planificateur de ressources dans la&#x20
 
 1. Cliquer sur **Enregistrer**.\
    Une fois que vous avez budgété vos ressources dans le Planificateur de ressources, les heures budgétées pour vos ressources et tout coût associé à celles-ci sont répertoriés dans l&#39;Analyse de rentabilité de chaque projet.
-Pour plus d’informations sur la compréhension de la zone Établissement du budget de ressources du business case, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Pour plus d&#39;informations sur la compréhension de la zone de budgétisation des ressources de l&#39;Analyse de rentabilité, consultez l&#39;article [Budgétiser les ressources dans l&#39;Analyse de rentabilité](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facultatif) Sélectionnez la vue **Afficher par utilisateur ou utilisatrice** pour remarquer toute suraffectation ou sous-utilisation des utilisateurs et utilisatrices entre les heures disponibles et prévues pour chaque personne. Les heures budgétées ne sont pas visibles dans la vue Afficher par utilisateur ou utilisatrice.
 

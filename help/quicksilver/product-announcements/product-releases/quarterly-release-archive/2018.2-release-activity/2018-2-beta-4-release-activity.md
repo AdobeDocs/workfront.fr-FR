@@ -7,20 +7,32 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 99%
+source-wordcount: 1700
+ht-degree: 98%
 
 ---
 
 # Activité de la version 2018.2 Beta 4
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 4.La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 4. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -35,7 +47,7 @@ La version 2018.2 Beta 4 contient les améliorations apportées aux administr
 * [Améliorations de la limite du travail en cours (WIP) dans le tableau Kanban](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [Interface améliorée pour la configuration des statuts d’une équipe Agile](#improved-interface-for-configuring-statuses-for-an-agile-team)
 * [Mise à jour de la liste de travail (panneau de gauche) dans la zone d’accueil](#updated-work-list-left-panel-in-the-home-area)
-* [Nouvelle visionneuse de relecture de bureau pour la relecture de contenu interactif (Rich Media)](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content)
+* [Nouvelle visionneuse de relecture de bureau pour la relecture de contenu interactif (Rich Media)](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
 * [Exporter la vue Utilisateur ou utilisatrice dans le planificateur de ressources](#export-the-user-view-in-the-resource-planner)
 * [Prise en charge de Google Team Drives](#support-for-google-team-drives)
 * [Nouvelle limite d’export pour le graphique de Gantt](#new-export-limit-for-the-gantt-chart)
@@ -47,9 +59,9 @@ La version 2018.2 Beta 4 contient les améliorations apportées aux administr
 
 ### Configurer les limites du travail en cours (WIP) pour chaque colonne du tableau Kanban
 
-Vous pouvez désormais configurer les limites du travail en cours (WIP) pour chaque colonne du tableau Kanban. 
+Vous pouvez désormais configurer les limites du travail en cours (WIP) pour chaque colonne du tableau Kanban. 
 
-Avant cette modification, vous ne pouviez configurer qu’une seule limite WIP qui s’appliquait à toutes les colonnes du tableau Kanban. 
+Avant cette modification, vous ne pouviez configurer qu’une seule limite WIP qui s’appliquait à toutes les colonnes du tableau Kanban. 
 
 Pour plus d’informations, voir la section [Configurer la limite du travail en cours (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) dans l’article [Configurer Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
@@ -66,7 +78,7 @@ Pour plus d’informations, voir dans l’article .
 L&#39;interface de configuration des statuts pour une équipe Agile a été mise à jour avec les améliorations suivantes :
 
 * Nouvel aspect
-* Réorganiser les colonnes de statut via glisser-déposer
+* Réorganiser les colonnes de statut via glisser-déposer 
 
 Pour plus d’informations, voir les articles suivants :
 
@@ -133,7 +145,7 @@ La visionneuse de relecture de bureau comprend les améliorations suivantes par 
 
   La visionneuse de relecture héritée ne prenait pas en charge l’examen des sites qui sont protégés contre l’affichage dans un iframe.
 
-* Affichez le contenu avec des résolutions préconfigurées pour différents appareils. Vous pouvez, par exemple, voir comment le contenu s’affiche dans différentes résolutions de bureau standard ou sur des appareils individuels tels que l’iPhone 8. 
+* Affichez le contenu avec des résolutions préconfigurées pour divers appareils. Par exemple, vous pouvez voir comment le contenu s’affiche sur différentes résolutions de bureau standard ou sur des appareils individuels tels qu’un iPhone 8. 
 
 Pour plus d’informations sur le téléchargement, l’installation et l’utilisation de la visionneuse de relecture de bureau, voir .
 

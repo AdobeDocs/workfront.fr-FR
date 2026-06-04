@@ -6,10 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 98%
+source-wordcount: 544
+ht-degree: 94%
 
 ---
 
@@ -25,8 +30,8 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 >
 >Version préliminaire : 4 avril 2023 ; version de production prévue : 20 avril 2023
 
-Nous avons mis à jour la liste Brouillons dans la zone Requêtes afin de la rendre cohérente avec les listes plus récentes dans Workfront.
-Voici quelques-unes des mises à jour :
+Nous avons mis à jour la liste Brouillons dans la zone Demandes afin de la rendre cohérente avec des listes plus récentes dans Workfront.
+Voici quelques-unes des mises à jour :
 
 * Remplacement du filtre « Filtrer par type de demande » par le filtre rapide standard.
 * Suppression de l’image de la liste Brouillons lorsque la liste ne contient aucune requête.

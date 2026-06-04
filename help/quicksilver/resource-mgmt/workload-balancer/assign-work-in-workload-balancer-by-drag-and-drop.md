@@ -6,10 +6,22 @@ description: Vous pouvez affecter des éléments de travail à l’aide de l’�
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+TQID: https://experienceleague.adobe.com/AHMv9vH1EFRoQ8P026w-bkq-cquKKIN3i1loPl5vSw8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 68%
+source-wordcount: 946
+ht-degree: 69%
 
 ---
 
@@ -28,7 +40,7 @@ Pour des informations générales sur l’attribution de travail aux utilisateur
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td>
   </tr>
   <tr> 

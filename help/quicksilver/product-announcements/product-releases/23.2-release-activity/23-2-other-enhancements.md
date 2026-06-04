@@ -6,10 +6,17 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: 519
+ht-degree: 97%
 
 ---
 
@@ -26,13 +33,13 @@ Nous avons ajouté les modifications suivantes aux plug-ins Workfront pour Creat
 * Le plug-in vous avertit désormais lorsqu’une tâche possède une tâche antérieure.
 * Le coréen est désormais une langue prise en charge.
 
-## Nouvelle expérience de commentaires pour les problèmes bêta.
+## Nouvelle expérience de commentaires pour les problèmes Beta.
 
 Une mise à jour de l’expérience de commentaires dans Adobe Workfront est actuellement en cours de développement. Cette mise à jour inclut une nouvelle interface, de nouvelles fonctionnalités et une amélioration des performances dans la section Mises à jour de certains objets.
 
 Cette nouvelle expérience finira par unifier les commentaires dans Adobe Workfront et au-delà, dans Adobe Experience Cloud.
 
-Dans le cadre de cette mise à jour, nous présentons la nouvelle expérience de commentaires dans la section Mises à jour des problèmes. Avec la version actuelle, chaque personne aura accès à un bouton d’activation pour activer cette expérience dans son propre environnement, en mode bêta. Après avoir accepté le contrat bêta, la nouvelle section Mises à jour s’affiche et les personnes peuvent continuer à gérer leur travail dans cette section comme elles le font actuellement.
+Dans le cadre de cette mise à jour, nous présentons la nouvelle expérience de commentaires dans la section Mises à jour des problèmes. Avec la version actuelle, chaque personne aura accès à un bouton d’activation pour activer cette expérience dans son propre environnement, en mode Beta. Après avoir accepté le contrat Beta, la nouvelle section Mises à jour s’affiche et les personnes peuvent continuer à gérer leur travail dans cette section comme elles le font actuellement.
 
 Des fonctionnalités similaires ont été publiées pour les Objectifs Workfront avec la version 23.1.
 
@@ -52,7 +59,7 @@ D’autres fonctionnalités seront ajoutées dans les prochaines versions, car c
 
 Pour plus d’informations sur les offres de la nouvelle expérience de commentaires, voir [Nouvelle expérience de commentaires](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3416962/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Exporter des tableaux de bord en tant que PDF unique ou fichiers PDF multiples dans Adobe Workfront pour XD
 
@@ -77,7 +84,7 @@ Adobe Unified Experience comprend :
 
 Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## La visionneuse de relecture s’ouvre dans un nouvel onglet pour les utilisateurs et utilisatrices de Unified Experience.
 

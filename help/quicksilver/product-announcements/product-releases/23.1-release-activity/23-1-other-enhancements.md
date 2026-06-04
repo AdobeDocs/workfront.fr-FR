@@ -6,10 +6,19 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: 773
+ht-degree: 98%
 
 ---
 
@@ -33,7 +42,7 @@ Les administrateurs et administratrices peuvent également [créer un package av
 
 ## Expérience de filtrage améliorée disponible dans Adobe Workfront
 
-Une mise à niveau de l’expérience de filtrage a été publiée en version bêta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir les [notes de mise à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+Une mise à niveau de l’expérience de filtrage a été publiée en version Beta publique sur les listes des projets, des tâches et des problèmes en août 2022. La plupart des listes proposent désormais des filtres améliorés. (Pour consulter toutes ces listes, voir les [notes de mise à jour de la version 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
 Dans le cadre d’une « suite rapide » à la version 23.1, l’expérience de filtrage améliorée sera généralement disponible et deviendra la créatrice de filtres standard en février/mars 2023.
 
@@ -43,11 +52,11 @@ Les éléments suivants seront disponibles dans Workfront avant que les filtres 
 * La possibilité d’ajouter et de supprimer des filtres système par défaut sera ajoutée aux modèles de mise en page.
 * Les contrôles de listes deviendront obsolètes.
 
-Ces fonctionnalités corrigent les problèmes liés aux listes de filtres traités qui n’apparaissent pas correctement dans les filtres bêta publics.
+Ces fonctionnalités corrigent les problèmes liés aux listes de filtres traités qui n’apparaissent pas correctement dans les filtres Beta publics.
 
 Vous pouvez toujours accéder aux filtres hérités sur les listes en les activant dans le panneau des filtres. À l’avenir, les filtres hérités seront abandonnés des listes, mais ils resteront disponibles dans les rapports, car les filtres améliorés ne sont pas disponibles dans les rapports.
 
-Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, voir [notes de mise à jour sur les filtres publics bêta](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Pour plus d’informations sur les filtres améliorés et une démonstration vidéo, voir [notes de mise à jour sur les filtres publics Beta](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Nouvelle fonctionnalité de contrôle de liste dans Interface > Filtres, vues et regroupements
 
@@ -55,7 +64,7 @@ Nous avons ajouté la fonctionnalité de contrôle de liste aux pages Filtres, V
 
 Pour plus d’informations, voir [Créer, modifier et partager des filtres, vues et regroupements par défaut](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Regarder une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Présentation d’Adobe Workfront pour la conception et la vidéo
 
@@ -96,4 +105,4 @@ Les options permettant de renommer une épingle et de la supprimer s’affichent
 
 Pour plus d’informations, voir [Épingler des pages pour personnaliser votre espace de travail](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Regarder une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412389/){target=_blank}

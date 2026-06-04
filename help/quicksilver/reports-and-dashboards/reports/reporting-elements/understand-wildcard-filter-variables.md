@@ -7,11 +7,20 @@ description: En utilisant des caractères génériques dans des filtres, vous po
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Kk2XDKuc0l9hpI9YhlZGOimaYuBE76O2D8oAWAGqYRc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: 1469
 ht-degree: 100%
 
 ---
@@ -175,7 +184,7 @@ Vous pouvez choisir parmi les variables suivantes basées sur l’utilisateur ou
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
-   <td> <p>La variable $$USER.name fait référence au nom complet de la personne connectée.</p> <p>Note :   <p>Cette variable de caractère générique ne fonctionne que lors de la modification d’un filtre en mode texte. Vous ne pouvez pas utiliser ce caractère générique dans les filtres qui ne prennent pas en charge le mode texte.Par exemple, vous ne pouvez pas utiliser ce caractère générique dans les filtres des zones suivantes :</p> 
+   <td> <p>La variable $$USER.name fait référence au nom complet de la personne connectée.</p> <p>Note :   <p>Cette variable de caractère générique ne fonctionne que lors de la modification d’un filtre en mode texte. Vous ne pouvez pas utiliser ce caractère générique dans les filtres qui ne prennent pas en charge le mode texte. Par exemple, vous ne pouvez pas utiliser ce caractère générique dans les filtres des zones suivantes :</p> 
      <ul> 
       <li> <p>Planificateur de ressources</p> </li> 
       <li> <p>Équilibreur de charge de travail</p> </li> 

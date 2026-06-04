@@ -5,10 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/OSD2Pf0yH0Tc-NC7-D7JD4n8w07bAF8lLU1TiQEIT7s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: 626
+ht-degree: 17%
 
 ---
 
@@ -85,7 +97,7 @@ Pour connaître les conditions préalables à l’activation des fonctionnalité
 >* Version rapide de production : 14 août 2025
 >* Version de production pour toute la clientèle : vendredi 16 octobre 2025
 
-Un nouveau type de champ, Recherche externe à sélection multiple, est désormais disponible dans le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer en fonction d’autres valeurs de champ du formulaire personnalisé. Il s’agit de la même chose qu’une recherche externe à sélection unique.
+Un nouveau type de champ, Recherche externe à sélection multiple, est désormais disponible dans le concepteur de formulaire personnalisé. Lorsque des données sont stockées sur un système externe, ce type de champ vous permet de charger des options à partir d’une API externe et de filtrer selon d’autres valeurs de champ dans le formulaire personnalisé. Il s’agit de la même chose qu’une recherche externe à sélection unique.
 
 Lorsque le formulaire est ajouté à un objet , les valeurs renvoyées par l’API apparaissent dans un champ déroulant et l’utilisateur peut sélectionner plusieurs valeurs.
 

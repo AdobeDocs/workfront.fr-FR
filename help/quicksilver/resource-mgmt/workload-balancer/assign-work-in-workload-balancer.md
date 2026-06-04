@@ -6,9 +6,22 @@ description: En tant que personne gestionnaire de ressources, vous pouvez utilis
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: 1051
 ht-degree: 86%
 
 ---
@@ -114,21 +127,21 @@ Le tableau suivant décrit les éléments qui s’affichent dans chaque zone en 
   <tr data-mc-conditions=""> 
    <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00">Rôle</span> </td> 
    <td><span>✔</span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Rôle et équipe</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>l’utilisateur ou de l’utilisatrice</td> 
-   <td> </td> 
+   <td>Utilisateur ou utilisatrice</td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
    <td>Utilisateur ou utilisatrice et équipe</td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 

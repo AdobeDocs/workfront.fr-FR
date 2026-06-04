@@ -5,12 +5,24 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yfj-JXyOLDYb3vEya1zOqyn7kSTIGIANgVQfNaRkKQw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 14%
+source-wordcount: 848
+ht-degree: 4%
 
 ---
 
@@ -46,7 +58,7 @@ Une petite modification de fonctionnalité a été appliquée à l’intégratio
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 28 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 28 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 La boîte de dialogue permettant de demander l’accès aux objets a été mise à jour pour passer à une conception plus moderne, cohérente avec les autres zones de Workfront. Cette boîte de dialogue est disponible lorsque vous demandez l&#39;accès à des projets, tâches, événements, programmes, portefeuilles, modèles et tâches de modèles.
 
@@ -64,7 +76,7 @@ Nous avons amélioré les performances de la zone Configuration dans laquelle vo
 
 >[!NOTE]
 >
->Version de prévisualisation : mardi 4 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Nous avons mis à jour les pages Membres de l’entreprise et Taux de facturation de l’entreprise avec une conception plus moderne et cohérente avec les autres zones de Workfront. Les appartenances aux sociétés sont accessibles via Configuration > Sociétés > sélectionner un nom de société > sélectionner Membres de la société dans le panneau de gauche. Les taux de facturation de l’entreprise sont accessibles via Configuration > Entreprises > sélectionner le nom d’une entreprise > sélectionner les taux de facturation dans le panneau de gauche.
 
@@ -87,7 +99,7 @@ Les changements les plus notables sont les suivants :
 
 >[!NOTE]
 >
->Version de prévisualisation : mardi 4 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Nous introduisons un nouveau format de liste dans la zone Configuration de Workfront. La liste des taux de change est la première page à utiliser ce format de style tableau. La fonctionnalité d&#39;ajout de nouveaux taux de change et de recherche de taux de change n&#39;a pas changé.
 
@@ -97,7 +109,7 @@ Pour plus d&#39;informations sur les taux de change, voir [Configurer des taux d
 
 >[!NOTE]
 >
->Version de prévisualisation : mardi 4 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 4 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Nous avons mis à jour la page Exporter des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 

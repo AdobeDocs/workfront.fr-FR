@@ -6,12 +6,25 @@ description: Vous pouvez modifier les paramètres d’un rapport afin de défini
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/GqhjJ-aQZfDJq4RYEtJoleC41CQtEJ-38aiSI43FHLE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: 582
+ht-degree: 95%
 
 ---
 
@@ -92,7 +105,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher la vue Grille des ressources dans l’onglet Détails</td> 
-      <td> <p>(Rapport d’utilisateur ou d’utilisatrice uniquement) Sélectionnez cette option pour afficher la grille de ressources dans l’onglet Détails du rapport.</p> <p>Note : lorsque vous appliquez la vue Grille de ressources à un rapport d’utilisateur ou d’utilisatrice, le rapport affiche uniquement les projets qui ont le statut Actuel. Si vous souhaitez voir les projets dans un autre état, vous pouvez utiliser l'onglet Utilisation des utilisateurs dans la zone Personnes de la barre de navigation globale et y appliquer la vue de grille de ressources.
+      <td> <p>(Rapport d’utilisateur ou d’utilisatrice uniquement) Sélectionnez cette option pour afficher la grille de ressources dans l’onglet Détails du rapport.</p> <p>Remarque : Lors de l'application de la vue Grille des ressources à un état utilisateur, l'état affiche uniquement les projets dont le statut est Actuel. Si vous souhaitez voir les projets dans un autre état, vous pouvez utiliser l'onglet Utilisation des utilisateurs dans la zone Personnes de la barre de navigation globale et y appliquer la vue de grille de ressources.
       <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)

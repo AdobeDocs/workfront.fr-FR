@@ -7,10 +7,15 @@ description: Cette page fournit des informations sur les fonctionnalités d’Ob
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
-source-git-commit: 2c02db0a08921d1daa16c0a9beef7b40d09565ef
+TQID: https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: 300
+ht-degree: 86%
 
 ---
 
@@ -26,7 +31,7 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Fonctionnalité</span>
+                        <p><span class="bold">Fonctionnalités</span>
                         </p>
                     </td>
                     <td>
@@ -38,8 +43,8 @@ Pour obtenir la liste de toutes les modifications disponibles pour toutes les zo
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Mises à jour d’Objectifs Workfront</a></p>
                         <p>Pour créer une expérience plus cohérente avec le reste de Workfront et faciliter l’affichage et l’utilisation de vos objectifs, nous avons mis à jour les Objectifs Workfront. L’aspect des Objectifs Workfront a été harmonisé avec celui des autres zones de Workfront. </p>
-                        <p>Les zones telles que l’en-tête, les listes et les cartes de détails sont désormais proches et cohérentes de celles que vous connaissez dans Workfront.
-Les objectifs individuels s’ouvrent dans leur propre page. Les sections suivantes ont été ajoutées dans le panneau de gauche pour faciliter la navigation et la mise à jour :</p>
+                        <p>Désormais, des zones telles que l’en-tête, les listes et les cartes de détails sont familières et cohérentes avec votre expérience dans Workfront.
+Les objectifs individuels s’ouvrent dans leur propre page. Nous avons ajouté les sections suivantes dans le panneau de gauche pour faciliter la navigation et la mise à jour :</p>
                         <ul>
                         <li><b>Détails de l’objectif</b> : Détails de l’objectif : affichez des informations telles que la description, la progression, les dates de l’objectif et les informations relatives à l’objectif parent.</li>
                         <li><b>Indicateurs de progression</b> : consultez les indicateurs de progression dans une liste. Vous pouvez modifier ces indicateurs en ligne, ouvrir des fenêtres de modification ou supprimer les indicateurs de cette zone.</li>
@@ -47,8 +52,8 @@ Les objectifs individuels s’ouvrent dans leur propre page. Les sections suivan
 Les actions de partage, modification, suppression, ou copie d’un objectif suivent le même processus que pour les autres objets de Workfront.</li>    
                         </ul>
                         </p>
-                        <p>Les actions de partage, modification, suppression, ou copie d’un objectif suivent le même processus que pour les autres objets de Workfront.
-En outre, nous avons introduit une nouvelle expérience de commentaires dans la section Mises à jour d’un objectif qui affiche désormais les commentaires des utilisateurs et utilisatrices et les notes d’activité du système dans deux onglets distincts.</p>
+                        <p>Le partage, la modification, la suppression ou la copie d’un objectif est similaire à la manière dont vous effectuez ces actions pour d’autres objets dans Workfront.
+En outre, nous avons introduit une nouvelle expérience de commentaires dans la section Mises à jour d’un objectif qui affiche désormais les commentaires des utilisateurs et les notes d’activité du système dans deux onglets distincts.</p>
                         <p><b>IMPORTANT</b> : dans le cadre de cette mise à jour, nous avons supprimé les sections Vérification et Pulsation dans la zone Objectifs. </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

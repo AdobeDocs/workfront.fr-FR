@@ -5,9 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/mSp9mTaMbW8iuwYtUIKK0tSnrhXmK2r9ei6C4Zrhm1k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: 1709
 ht-degree: 99%
 
 ---
@@ -56,7 +71,7 @@ Le webinaire de la version 24.1 a eu lieu le 11 janvier 2024. Vous pouvez [vo
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>
@@ -93,7 +108,7 @@ Le webinaire de la version 24.1 a eu lieu le 11 janvier 2024. Vous pouvez [vo
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>
@@ -204,7 +219,7 @@ Le webinaire de la version 24.1 a eu lieu le 11 janvier 2024. Vous pouvez [vo
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de version</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                  </tr>
@@ -229,7 +244,7 @@ Le webinaire de la version 24.1 a eu lieu le 11 janvier 2024. Vous pouvez [vo
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôles d’administration pour le nouvel Accueil à l’aide de modèles de disposition</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Les administrateurs et les administratrices peuvent désormais personnaliser le nouvel Accueil pour les utilisateurs et les utilisatrices à l’aide de modèles de disposition. Les options de personnalisation comprennent la sélection des widgets obligatoires et leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour choisir les filtres et les groupes disponibles (et définir les valeurs par défaut).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Contrôles d’administration pour le nouvel Accueil à l’aide de modèles de mise en page</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Les administrateurs et les administratrices peuvent désormais personnaliser le nouvel Accueil pour les utilisateurs et les utilisatrices à l’aide de modèles de mise en page. Les options de personnalisation comprennent la sélection des widgets obligatoires et leur position, le choix d’un arrière-plan et des options spécifiques aux widgets pour choisir les filtres et les groupes disponibles (et définir les valeurs par défaut).</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
                         <ul>
@@ -480,7 +495,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouve
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions de l’API et de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2024, voir [Mises à jour de maintenance de Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 

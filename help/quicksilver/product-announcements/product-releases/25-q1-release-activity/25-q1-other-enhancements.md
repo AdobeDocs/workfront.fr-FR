@@ -1,22 +1,31 @@
 ---
 title: Autres améliorations apportées au cours de la période de publication du 1er trimestre 2025
-description: Autres améliorations au cours de la période de la version du premier trimestre 2025
+description: Autres améliorations apportées au cours de la période de publication du premier trimestre 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/1xzGCkOEJQ2on0MMA1tVZwbiPuli-8fR1JOKN79Pn6c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: 378
+ht-degree: 28%
 
 ---
 
 # Autres améliorations apportées au cours de la période de publication du 1er trimestre 2025
 
-Cette page décrit les améliorations apportées à l’environnement de prévisualisation dans la version du premier trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
+Cette page décrit les améliorations apportées à l’environnement Aperçu de la version du premier trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2025, consultez l’article [Vue d’ensemble de la version du premier trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
@@ -35,7 +44,7 @@ Nous avons modifié la façon dont les ressources déplacées et supprimées son
 
 >[!NOTE]
 >
->Version de prévisualisation : mardi 11 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 11 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Lorsqu’un formulaire personnalisé avec plusieurs sections est joint à un objet, vous pouvez désormais réduire et développer toutes les sections, à l’exception de la section par défaut située en haut du formulaire. L’administrateur peut également voir cette fonctionnalité lors de la prévisualisation du formulaire dans le concepteur de formulaire.
 

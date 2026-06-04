@@ -1,30 +1,43 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.2 bêta 5
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.2 bêta 5. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations de la relecture avec la version bêta 5 seront disponibles dans l’environnement de prévisulation le lundi 4 juin. Elles seront disponibles dans l’environnement de production en juillet 2018.
+title: Activité de la version 2018.2 Beta 5
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 5. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations de la relecture avec la version Beta 5 seront disponibles dans l’environnement de prévisualisation le lundi 4 juin. Elles seront disponibles dans l’environnement de production en juillet 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 100%
+source-wordcount: 3190
+ht-degree: 99%
 
 ---
 
-# Activité Version 2018.2 bêta 5
+# Activité de la version 2018.2 Beta 5
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.2 bêta 5.La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er juin 2018.Les améliorations de relecture avec la version bêta 5 seront disponibles dans l’environnement de prévisualisation le lundi 4 juin. Elles seront disponibles dans l’environnement de production en juillet 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 5. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er juin 2018. Les améliorations de la relecture avec la version Beta 5 seront disponibles dans l’environnement de prévisualisation le lundi 4 juin. Elles seront disponibles dans l’environnement de production en juillet 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-La version 2018.2 bêta 5 contient les améliorations apportées aux administrateurs et administratrices de Workfront, ainsi qu’aux autres utilisateurs et utilisatrices :
+La version 2018.2 Beta 5 contient les améliorations apportées aux administrateurs et administratrices de Workfront, ainsi qu’aux autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices**
 
@@ -44,7 +57,7 @@ La version 2018.2 bêta 5 contient les améliorations apportées aux administ
 * [Filtres rapides pour les listes de projets](#quick-filters-for-project-lists)
 * [Collections de problèmes de référence dans les rapports de projet et de tâche](#reference-issue-collections-in-project-and-task-reports)
 * [Nouveau menu de version plus robuste lors de l’ajout de nouvelles versions de document dans Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [Améliorations mobiles dans la version bêta de l’application mobile Android](#mobile-improvements-in-the-android-beta-mobile-app)
+* [Améliorations mobiles dans la version Beta de l’application mobile Android](#mobile-improvements-in-the-android-beta-mobile-app)
 * [Améliorations apportées à la visionneuse de relecture (Workfront et Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
 * [Améliorations de la relecture dans Workfront](#proofing-enhancements-in-workfront)
 * [Améliorations de la relecture dans Workfront Proof](#proofing-enhancements-in-workfront-proof)
@@ -78,7 +91,7 @@ Les améliorations suivantes ont été apportées à la liste de tâches dans la
 
   Auparavant, le champ Affectations était disponible par défaut. Cependant, s’il était supprimé, il ne pouvait pas être ajouté à nouveau. Le champ Durée n’était pas disponible auparavant pour l’ajout.
 
-  Pour plus d’informations sur l’ajout de champs à la zone Accueil, voir « Créer et gérer des modèles de disposition ».
+  Pour plus d’informations sur l’ajout de champs à la zone Accueil, voir « Créer et gérer des modèles de mise en page ».
 
 Pour plus d’informations sur l’utilisation de la zone Accueil, voir [Utiliser la zone Accueil](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
@@ -155,7 +168,7 @@ Avant cette amélioration, la colonne voisine à droite de la colonne redimensio
 
 Pour plus d’informations sur le redimensionnement des colonnes de réorganisation dans les listes, voir [Modifier la largeur et l’ordre des colonnes](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Pour participer à notre programme de test bêta pour connaître les améliorations apportées à la liste actuelle, voir [Étude sur les nouvelles listes.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr) (connexion obligatoire)
+Pour participer à notre programme de tests bêta pour les améliorations actuelles de la liste, voir [Nouvelle étude de listes.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr) (Connexion requise)
 
 ## Prise en charge des icônes pour les nouvelles listes de projets {#icon-support-for-the-new-project-lists}
 
@@ -243,9 +256,9 @@ Les options suivantes sont désormais disponibles dans le menu Nouvelle version 
 
 Pour plus d’informations, voir la section [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) dans l’article [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-## Améliorations mobiles apportées à la version bêta de l’application mobile Android {#mobile-improvements-in-the-android-beta-mobile-app}
+## Améliorations mobiles apportées à la version Beta de l’application mobile Android {#mobile-improvements-in-the-android-beta-mobile-app}
 
-Les améliorations suivantes seront disponibles dans la version bêta de l’application mobile Android peu après le jour de la sortie de cette version :
+Les améliorations suivantes seront disponibles dans la version Beta de l’application mobile Android peu après le jour de la sortie de cette version :
 
 * Actions de glissement
 
@@ -260,15 +273,15 @@ Les améliorations suivantes seront disponibles dans la version bêta de l’app
 
 * Nouvelle apparence lors de l’affichage de l’onglet Détails d’un élément
 
-  L’interface a été modifiée lors de l’affichage d’un élément dans la version bêta de l’application mobile Android afin de faciliter sa modification, son remplissage ou l’adjonction d’une pièce jointe.
+  L’interface a été modifiée lors de l’affichage d’un élément dans la version Beta de l’application mobile Android afin de faciliter sa modification, son remplissage ou l’adjonction d’une pièce jointe.
 
 * Nouvelle expérience lors de la consignation du temps
 
   La consignation du temps est plus rapide et plus facile qu’auparavant. Le bouton Consigner le temps est plus facile d’accès et l’interface est rationalisée pour consigner les heures.
 
-Avec cette version, ces améliorations ne sont disponibles que pour la version bêta de l’application mobile Android de Workfront. Elles ne sont actuellement pas disponibles pour iOS.
+Avec cette version, ces améliorations ne sont disponibles que pour la version Beta de l’application mobile Android de Workfront. Elles ne sont actuellement pas disponibles pour iOS.
 
-Pour plus d’informations sur l’inscription à la phase de test bêta et le téléchargement de la version bêta de l’application mobile Android de Workfront, voir la section correspondante.
+Pour plus d’informations sur l’inscription à la phase de test Beta et le téléchargement de la version Beta de l’application mobile Android de Workfront, voir la section correspondante.
 
 ## Améliorations de la visionneuse de relecture (Workfront et Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
