@@ -8,11 +8,23 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5242'
+source-wordcount: 5242
 ht-degree: 99%
 
 ---
@@ -102,7 +114,7 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using
    <td> <p>Projet</p> </td> 
    <td> <p>Projet en attente d'approbation</p> </td> 
    <td> <p>Approbateurs</p> </td> 
-   <td> <p>J’ai besoin d’approuver un projet.</p> <p>Les personnes qui reçoivent une notification par e-mail pour cet événement dépendent de l’activation du paramètre « La personne approbatrice n’a pas besoin d’être membre de l’équipe de projet (pour les processus d’approbation qui incluent une fonction) » (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer des paramètres d’approbation globaux</a>).</p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à toutes les personnes du système avec la fonction « personne approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe de projet ayant la fonction de personne approbatrice reçoivent une notification par e-mail.</p> </td> 
+   <td> <p>J’ai besoin d’approuver un projet.</p> <p>Les personnes qui reçoivent une notification par e-mail pour cet événement dépendent de l’activation du paramètre « La personne approbatrice n’a pas besoin d’être membre de l’équipe de projet (pour les processus d’approbation qui incluent une fonction) » (comme décrit dans la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer des paramètres d’approbation globaux</a>).</p> <p>Si cette option est activée</strong>, une notification par e-mail est envoyée à toutes les personnes du système avec la fonction « personne approbatrice ».</p> <p>Si cette option est désactivée</strong>, seules les personnes membres de l’équipe de projet ayant le rôle de « personne approbatrice » reçoivent une notification par e-mail.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 
   <tr> 
@@ -150,7 +162,7 @@ Voir aussi [Notifications : action nécessaire](../../../workfront-basics/using
   <tr> 
    <td> <p>Feuille de temps</p> </td> 
    <td> <p>Envoi de la feuille de temps</p> </td> 
-   <td> <p>Personne approbatrice</p> </td> 
+   <td> <p>Approbateur</p> </td> 
    <td> <p>Je dois approuver une feuille de temps.</p> <p>La personne approbatrice de la feuille de temps reçoit une notification par e-mail lorsqu’une feuille de temps qu’elle doit approuver est envoyée, sauf si l’utilisateur ou l’utilisatrice qui l’a envoyée est également l’approbateur ou l’approbatrice de la feuille de temps.</p> <p>Une notification n’est envoyée que si le statut de la feuille de temps est Envoyée.</p> </td> 
    <td> <p>Inactif</p> </td> 
   </tr> 

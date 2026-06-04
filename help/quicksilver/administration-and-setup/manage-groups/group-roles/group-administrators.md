@@ -9,10 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 100%
+source-wordcount: 1037
+ht-degree: 97%
 
 ---
 
@@ -48,7 +60,7 @@ Si vous êtes un administrateur ou une administratrice Workfront, nous vous reco
 * Pour une meilleure gestion des utilisateurs et utilisatrices, il est possible d’affecter des groupes ou des sous-groupes au lieu d’utilisateurs et d’utilisatrices pour les objets suivants :
 
    * Modèle de mise en page
-   * Planifications
+   * Plannings
    * Profils de feuilles de temps
 
 ## Accès nécessaire pour les administrateurs et administratrices de groupes {#access-needed-for-group-administrators}
@@ -65,8 +77,8 @@ Nous recommandons que les administrateurs et administratrices de groupes aient u
 
 >[!IMPORTANT]
 >
->Les administrateurs et administratrices de groupes doivent disposer d’un accès supérieur par rapport aux personnes qu’ils gèrent ; dans le cas contraire, ils ne pourront pas consulter ou modifier les niveaux d’accès inférieurs.
->>Pour savoir comment accorder cet accès, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Les administrateurs de groupe doivent disposer d’un accès supérieur à ceux qu’ils gèrent ; autrement, ils ne pourront pas afficher ni modifier les niveaux d’accès inférieurs.
+>Pour obtenir des instructions sur l’octroi de cet accès, voir [Créer ou modifier des niveaux d’accès personnalisés](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Pour un administrateur ou une administratrice de groupes qui doit attribuer des profils de feuilles de temps aux personnes de ses groupes et sous-groupes, nous recommandons également l’accès administratif aux feuilles de temps et aux heures. Pour savoir comment accorder cet accès, voir [Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

@@ -8,11 +8,23 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/OtDxOGVVcWVb8PK1Ef6EW7VhuOxN2WulMGrJao8hXOc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: 2231
 ht-degree: 92%
 
 ---
@@ -204,7 +216,7 @@ For more detail about the information in this table, see [Access requirements in
        <li> <p>Lorsque vous accordez une approbation à un rôle et que l’option <b>Personne chargée de l’approbation ne faisant pas partie de l’équipe de projet (pour les processus d’approbation qui incluent un rôle)</b> est désactivée mais qu’aucun rôle de l’équipe de projet ne correspond au rôle de l’approbation, l’approbation est accordée à la personne propriétaire du projet. Pour plus d’informations sur les paramètres d’approbation, consultez la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres globaux du processus d’approbation</a>.</p> </li> 
        </ul> 
        <ul> 
-       <li> <p>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer des informations de base pour votre système</a>.  </p> </li> 
+       <li> <p>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer les informations de base de votre système</a>.  </p> </li> 
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Vous pouvez répéter ce processus pour ajouter, à cette étape, plusieurs personnes chargées de l’approbation. Une étape unique peut inclure une combinaison d’utilisateurs et d’utilisatrices, d’équipes et de fonctions en tant que responsables de l’approbation. Il n’y a pas de limite au nombre de personnes chargées de l’approbation que vous pouvez ajouter à une étape.</p> <p><b>IMPORTANT</b></p> <p>Quand des fonctions se voient accorder une responsabilité d’approbation, tous les utilisateurs et utilisatrices ayant cette fonction et faisant partie de l’équipe de projet peuvent prendre une décision d’approbation. </p> <p>Lorsque vous désignez une équipe comme responsable de l’approbation, chaque personne de cette équipe peut prendre une décision d’approbation. </p> <p>Pour plus d’informations sur l’équipe du projet, voir <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe du projet</a>. Pour plus d’informations sur l’approbation du travail, voir <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approuver du travail</a>.</p> </p> </td> 
      </tr> 
      <tr> 

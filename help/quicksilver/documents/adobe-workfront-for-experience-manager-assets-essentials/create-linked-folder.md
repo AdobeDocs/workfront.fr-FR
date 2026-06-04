@@ -7,10 +7,20 @@ description: Vous pouvez créer un dossier lié à Experience Manager Assets o
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/fGs1kZQXTTMioosnBsRBKKpS3q--m5PHKYg-tHrq-b8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: 409
+ht-degree: 80%
 
 ---
 
@@ -22,8 +32,8 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. À partir de là, vous pouvez ajouter des ressources provenant de Experience Manager Assets ou d’Assets Essentials, mais vous ne pourrez pas créer de dossier lié.
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise l’espace de stockage dans le cloud d’Adobe, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. À partir de là, vous pouvez ajouter des ressources provenant de Experience Manager Assets ou d’Assets Essentials, mais vous ne pourrez pas créer de dossier lié.
 
 ## Conditions d’accès
 
@@ -59,7 +69,7 @@ Si une ressource est supprimée ou déplacée d’un dossier lié dans Experienc
   <tr>
    <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois configuré, les utilisateurs disposant d’une licence Standard ou Plan peuvent configurer des dossiers liés sur des projets individuels.
+   <td>Vous devez être administrateur Workfront pour configurer une intégration Experience Manager. Une fois configuré, les utilisateurs disposant d’une licence Standard ou Plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>
@@ -95,5 +105,5 @@ Pour créer un dossier lié, procédez comme suit :
    >
    >L’administration de Workfront peut choisir le nom de cette intégration. Il se peut donc qu’il ne fasse pas référence de manière explicite à Experience Manager Assets ou Assets Essentials.
 
-1. Sélectionnez **Créer un dossier lié**. Le système crée automatiquement un dossier dans Experience Manager en fonction de l’emplacement spécifié lors de la configuration de l’intégration.
+1. Sélectionnez **Créer un dossier lié**. Le système crée automatiquement un dossier dans Experience Manager en fonction de l&#39;emplacement spécifié lors de la configuration de l&#39;intégration.
    ![Création d’un dossier lié](assets/linked-folder.png)

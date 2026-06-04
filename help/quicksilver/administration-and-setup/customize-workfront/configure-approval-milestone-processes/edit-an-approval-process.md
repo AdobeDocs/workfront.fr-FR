@@ -8,12 +8,24 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 94%
+source-wordcount: 1984
+ht-degree: 91%
 
 ---
 
@@ -164,7 +176,7 @@ For this article, the old access was:
       <p>Champ obligatoire.</p>
       <p>Le même statut ne peut pas être sélectionné pour plusieurs processus d’approbation.</p> <p>Les statuts disponibles sont basés sur ce qui est sélectionné dans l’option <b>Cette approbation peut être utilisée par</b> (expliquée dans le tableau ci-dessus) :</p> 
       <ul> 
-      <li> Si <b>Tous les groupes</b> est sélectionné, seuls les statuts verrouillés à l’échelle du système sont disponibles. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> Si l’option <b>Tous les groupes</b> est sélectionnée, seuls les statuts verrouillés à l’échelle du système sont disponibles. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>Si un groupe spécifique est sélectionné, seuls les statuts disponibles pour ce groupe le sont.</p> </li> 
       </ul> <p>Pour plus d’informations sur le fonctionnement du processus d’approbation avec les statuts, voir la section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">Comment les processus d’approbation reposent sur les statuts</a> dans l’article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Vue d’ensemble du processus d’approbation</a>.</p> </td> 
@@ -191,7 +203,7 @@ For this article, the old access was:
       <p><b>IMPORTANT</b>
       <ul> 
       <li> si aucune personne sponsor de projet n’est désignée et que vous accordez une approbation à la personne sponsor du projet, celle-ci est alors accordée à la personne propriétaire du projet. Si aucune personne propriétaire de projet n’est désignée, l’approbation est accordée à la personne chargée de l’administration de Workfront. </li> 
-      <li> Lorsque vous affectez une approbation à un rôle et que l’option <b>L’approbateur ou l’approbatrice ne doit pas nécessairement faire partie de l’équipe du projet</b> est désactivée, mais qu’aucun rôle de l’équipe de projet ne correspond au rôle de l’approbation, cette dernière est réaffectée à la personne propriétaire du projet. Pour plus d’informations sur les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configurer les paramètres d’approbation globaux</a>.
+      <li> Lorsque vous affectez une approbation à un rôle et que l'option <b>L'approbateur n'est pas tenu de faire partie de l'équipe du projet</b> est désactivée, mais qu'aucun rôle de l'équipe du projet ne correspond au rôle de l'approbation, l'approbation est réaffectée au propriétaire du projet. Pour plus d’informations sur les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configuration des paramètres d’approbation globaux</a>.
       </li> 
       <li>Lorsque vous accordez une approbation à la personne propriétaire du projet et qu’il n’existe pas de personne propriétaire de projet, l’approbation est alors accordée à l’équipe principale d’administration de Workfront, comme indiqué dans la section de la section Infos client de la zone de configuration. Pour plus d’informations, consultez la section <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurer des informations de base pour votre système</a>.</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
@@ -204,7 +216,7 @@ For this article, the old access was:
    </tr> 
      <tr> 
       <td role="rowheader">Une seule décision est requise.</td> 
-      <td>(Ne s’affiche que si vous ajoutez plusieurs approbateurs et approbatrices à l’étape) Sélectionnez cette option si l’une des personnes approbatrices de l’étape peut approuver ou rejeter l’élément de travail au cours de cette étape. Cette action permet à l’élément de travail de quitter l’étape.  
+      <td>(S’affiche uniquement si vous ajoutez plusieurs approbateurs à l’étape) Sélectionnez cette option si l’un des approbateurs de l’étape peut approuver ou rejeter l’élément de travail au cours de cette étape. Cette action permet à l’élément de travail de quitter l’étape.  
       <p>Si cette option n’est pas sélectionnée, tous les approbateurs et approbatrices identifiés doivent approuver ou rejeter l’étape (dans n’importe quel ordre) avant que l’élément ne quitte l’étape. Si l’une des personnes approbatrices rejette l’étape, le processus s’interrompt et recommence afin que les modifications nécessaires puissent être apportées. Les approbateurs et approbatrices peuvent ensuite approuver ou rejeter à nouveau l’étape.</p> 
       <p>Si une équipe est désignée comme approbatrice, toute personne membre de l’équipe peut approuver ou rejeter une étape.</p> 
       </td> 

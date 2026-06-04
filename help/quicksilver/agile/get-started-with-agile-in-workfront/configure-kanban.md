@@ -6,12 +6,21 @@ description: Vous pouvez configurer les options suivantes pour les équipes Kanb
 author: Courtney
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 64%
+source-wordcount: 1448
+ht-degree: 65%
 
 ---
 
@@ -170,8 +179,8 @@ Pour limiter le travail en cours pour votre équipe Kanban, procédez comme suit
 1. Dans la section **[!UICONTROL Agile]**, dans la section **[!UICONTROL Méthodologie]**, vérifiez que Kanban est sélectionné.
 
 1. Dans la section **[!UICONTROL Storyboard]**, dans le champ **[!UICONTROL Limite WIP]**, indiquez le nombre maximal d’éléments autorisés dans chaque colonne du storyboard [!UICONTROL Kanban] Agile. Vous pouvez définir une limite différente pour chaque colonne. La limite maximale que vous pouvez définir pour chaque colonne est de 100.
-Lorsqu&#39;elle est définie, la limite des travaux en cours affiche un message d&#39;avertissement sur le storyboard agile [!UICONTROL Kanban] chaque fois que la limite est dépassée pour une colonne du storyboard. Ce message d’avertissement s’affiche uniquement la première fois que la limite du travail en cours est dépassée. Ce message d&#39;avertissement ne s&#39;affiche dans aucune colonne dont le statut est égal à [!UICONTROL Terminé].
-La limite WIP est simplement un avertissement visuel et ne limite pas votre équipe à un nombre d’éléments d’une colonne supérieur à la limite que vous avez définie.
+Lorsqu&#39;elle est définie, la limite des travaux en cours affiche un message d&#39;avertissement sur le storyboard agile [!UICONTROL Kanban] chaque fois que la limite est dépassée pour une colonne du storyboard. Ce message d&#39;avertissement s&#39;affiche uniquement la première fois que la limite des travaux en cours est dépassée. Ce message d&#39;avertissement ne s&#39;affiche dans aucune colonne dont le statut est égal à [!UICONTROL Terminé].
+La limite de travail en cours est simplement un avertissement visuel et n&#39;empêche pas votre équipe d&#39;avoir plus d&#39;éléments dans une seule colonne que la limite que vous avez définie.
 
    ![Limite WIP](assets/wip-limit-350x193.png)
 

@@ -8,12 +8,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 82%
+source-wordcount: 678
+ht-degree: 75%
 
 ---
 
@@ -69,7 +78,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
    >* Les personnes disposant d’une licence de travail ont des droits limités sur les projets. Elles peuvent contribuer à un projet, mais pas le gérer.
    >* Les personnes disposant d’une licence de révision ont le droit d’afficher des projets issus de problèmes convertis, mais leurs droits d’affichage sont limités.
    >* Pour plus d’informations sur les autorisations que les personnes peuvent accorder lorsqu&#39;elles partagent des projets avec d’autres personnes, voir [Partager un projet dans Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >* Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les personnes d’effacer des projets dans leur niveau d’accès, mais cela ne les empêche pas d’effacer des tâches, dont le rang est inférieur à celui des projets. Pour plus d’informations sur la hiérarchie des objets, voir la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >* Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les utilisateurs de supprimer des projets dans leur niveau d&#39;accès, mais cela ne les empêche pas de supprimer des tâches, qui sont de niveau inférieur à celui des projets.Pour plus d’informations sur la hiérarchie des objets, consultez la section [Interdépendance et hiérarchie d’objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
    >* Un utilisateur dont le niveau d’accès ne permet pas d’accéder aux données financières ne peut pas accorder un accès qui permettrait à d’autres utilisateurs d’afficher les données financières. Cela inclut l’accès aux projets qui afficheraient des données financières ou la modification d’un niveau d’accès pour permettre l’affichage des données financières.
 
 

@@ -6,9 +6,19 @@ description: Utiliser des workflows dans l’intégration d’Experience Manager
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+TQID: https://experienceleague.adobe.com/HycBMAmW3Pp4OccBVbGmeuvMm9Y6am-wwBRXaCP0ENs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: 1001
 ht-degree: 97%
 
 ---
@@ -21,7 +31,7 @@ Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un wor
 
 >[!NOTE]
 >
->Les workflows sont disponibles uniquement dans une intégration d’Adobe Experience Manager as a Cloud Service. Ils ne sont pas disponibles dans les intégrations d’Adobe Experience Manager Assets Essentials.<br>
+>Les workflows sont disponibles uniquement dans une intégration Adobe Experience Manager as a Cloud Service. Ils ne sont pas disponibles dans les intégrations avec Adobe Experience Manager Assets Essentials.<br>
 >Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.
 
 
@@ -62,7 +72,7 @@ Lorsqu’un projet est créé à l’aide d’un modèle de projet auquel un wor
  </tbody> 
 </table>
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

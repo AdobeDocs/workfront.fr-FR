@@ -8,10 +8,21 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 99%
+source-wordcount: 568
+ht-degree: 96%
 
 ---
 
@@ -52,8 +63,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Mettre à jour les adresses e-mail des utilisateurs et utilisatrices existants dans votre instance Workfront
 
-En tant qu’administrateur ou administratrice Workfront, vous devez mettre à jour les utilisateurs et utilisatrices existants dont les adresses e-mail correspondent, mais ont une casse différente.
-Pour corriger les adresses e-mail dupliquées dans une instance de Workfront, procédez comme suit :
+En tant qu’administrateur ou administratrice Workfront, vous devez mettre à jour les utilisateurs et utilisatrices disposant d’adresses e-mail correspondantes qui ne diffèrent qu’au cas par cas.
+Pour corriger les adresses e-mail en double dans une instance Workfront :
 
 1. Examinez les éventuels doublons de personnes et décidez celles qui ne sont plus nécessaires.
 

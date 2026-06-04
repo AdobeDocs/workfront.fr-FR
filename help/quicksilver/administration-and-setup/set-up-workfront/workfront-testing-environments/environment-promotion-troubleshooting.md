@@ -3,20 +3,30 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Résolution des problèmes liés à la promotion de l’environnement
+title: Résolution des problèmes de la promotion environnementale
 description: Résolution des problèmes courants liés à la promotion de l’environnement.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 830dd573-d954-4ba2-a1d3-d1645b3fbac8
-source-git-commit: c3c9a423bd60b26b2605a1b52bd706c9bc6acdec
+TQID: https://experienceleague.adobe.com/N6spdHNxoRMwUjQY6HrHPm11d7kZaYHMbDGAkeqbyvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: 330
+ht-degree: 1%
 
 ---
 
-# Résolution des problèmes liés à la promotion de l’environnement
+# Résolution des problèmes de la promotion environnementale
 
 Cet article décrit comment résoudre les problèmes liés à la promotion de l’environnement.
 

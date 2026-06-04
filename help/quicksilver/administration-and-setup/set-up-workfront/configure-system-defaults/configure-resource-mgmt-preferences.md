@@ -8,12 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/N-DtYyvhQ--RI0X4UlY2p9F304tTg0zT-5qKCaVjvig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 56%
+source-wordcount: 629
+ht-degree: 57%
 
 ---
 
@@ -62,7 +75,7 @@ Lors du calcul de la capacité d’un utilisateur ou d’une utilisatrice, Workf
 
 * Nombre d’heures planifiées, tel que défini dans le planning de l’utilisateur ou dans le planning par défaut du système Workfront.
 * Exceptions de planification (selon la planification utilisée, il peut s’agir d’exceptions de la planification de l’utilisateur ou de celles associées à la planification par défaut de Workfront).
-* Congés de l’utilisateur.
+* Congés de l’utilisateur ou de l’utilisatrice.
 * Valeur de l’équivalent temps complet ([!UICONTROL Équivalent temps complet]) de l’utilisateur ou de l’utilisatrice ou du système [!DNL Workfront]. L’[!UICONTROL équivalent temps complet] est égal à 1 lorsque l’utilisateur ou l’utilisatrice travaille à temps complet, comme défini dans le planning.
 * La valeur de [!UICONTROL Temps de travail] pour l’utilisateur ou l’utilisatrice, qui fait référence au temps qu’il ou elle passe sur le travail lié au projet. Cela ne comprend pas la durée supplémentaire, comme les réunions et la formation. Le [!UICONTROL Temps de travail] est égal à 1 lorsque la personne est disponible pour le travail pendant toute la durée indiquée par l’[!UICONTROL équivalent temps complet] ou le planning, ce qui signifie qu’elle ne passe pas de temps sur des travaux non liés au projet comme des réunions ou des formations.
 

@@ -8,14 +8,26 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 43%
+source-wordcount: 1359
+ht-degree: 47%
 
 ---
 
-# Exemples de champ de recherche externe dans un formulaire personnalisé
+# Exemples de champs de recherche externe dans un formulaire personnalisé
 
 Un champ de recherche externe dans un formulaire personnalisé appelle une API externe et renvoie des valeurs sous forme d’options dans un champ de liste déroulante. Les personnes qui travaillent avec l’objet auquel le formulaire personnalisé est attaché peuvent sélectionner une ou plusieurs de ces options dans la liste déroulante.
 
@@ -166,7 +178,7 @@ Cet exemple montre comment appeler une API de pays (telle que <https://api.first
    * Vous pouvez ajouter $$QUERY pour mettre en œuvre le filtrage des requêtes pour vos utilisateurs finaux et utilisatrices finales.
 
    **Exemples**
-Liste de tous les pays : <https://api.first.org/data/v1/countries>
+Répertorie tous les pays : <https://api.first.org/data/v1/countries>
 
    Permet de rechercher n’importe quel pays dans le champ déroulant : <https://api.first.org/data/v1/countries?q=$$QUERY>
 

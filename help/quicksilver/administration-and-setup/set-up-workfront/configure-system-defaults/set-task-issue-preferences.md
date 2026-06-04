@@ -8,11 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Abb8wbD3oRt-lRej2qBcEO32QiISb3tCEFuclzrJZ-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: 2238
 ht-degree: 86%
 
 ---
@@ -160,7 +173,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 >
 >Ce paramètre s’applique également à la suppression des projets pour lesquels des tâches ou des problèmes comportent des heures consignées. Ce paramètre ne s’applique pas à la suppression de projets dont les heures sont enregistrées directement pour le projet.
 
-* Lorsqu’elle est sélectionnée, vous recevez un avertissement informatif quand vous supprimez une tâche ou un problème. L’avertissement vous rappelle que si la tâche ou le problème comporte des heures enregistrées, elles seront déplacées vers le projet ou supprimées. Vous pouvez déterminer si les heures sont supprimées ou déplacées vers le projet dans la zone [!UICONTROL Préférences relatives aux feuilles de temps et aux heures] de la [!UICONTROL Configuration]. Une fois que vous confirmez avoir pris connaissance de l’avertissement, la tâche ou le problème est supprimé. Pour plus d’informations sur la configuration des préférences de feuilles de temps et d’heures, voir [Configurer les préférences de feuilles de temps et d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Lorsqu’elle est sélectionnée, vous recevez un avertissement informatif quand vous supprimez une tâche ou un problème. L’avertissement vous rappelle que si la tâche ou le problème comporte des heures enregistrées, elles seront déplacées vers le projet ou supprimées. Vous pouvez déterminer si les heures sont supprimées ou déplacées vers le projet dans la zone [!UICONTROL Préférences relatives aux feuilles de temps et aux heures] de la [!UICONTROL Configuration]. Une fois que vous confirmez avoir pris connaissance de l’avertissement, la tâche ou le problème est supprimé. Pour plus d’informations sur la configuration des préférences relatives aux feuilles de temps et aux heures, consultez la section [Configurer les préférences relatives aux feuilles de temps et aux heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   >[!TIP]
   >
@@ -294,7 +307,7 @@ Pour plus d’informations sur la manière dont un administrateur ou une adminis
 
 >[!NOTE]
 >
->Une fois qu’un administrateur ou qu’une administratrice [!DNL Workfront] a déverrouillé une préférence au niveau du système, tout membre de l’administration du groupe peut la configurer, puis la verrouiller pour s’assurer que tous les membres de son groupe et des sous-groupes inférieurs utilisent la même configuration. Ceci va de pair avec la capacité des administrateurs et administratrices [!DNL Workfront] à configurer et à verrouiller des préférences pour les utilisateurs et les utilisatrices du système. Pour plus d’informations, consultez [Configurer les préférences des projets de groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Verrouiller ou déverrouiller une préférence de projet, de tâche ou de problème pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>Une fois qu’un administrateur ou une administratrice [!DNL Workfront] a déverrouillé les préférences au niveau du système, n’importe quel administrateur ou n’importe quelle administratrice de groupes peut les configurer et les verrouiller pour s’assurer que toutes les personnes membres de son groupe et des sous-groupes inférieurs utilisent la même configuration. Ceci va de pair avec la capacité des administrateurs et administratrices [!DNL Workfront] à configurer et à verrouiller des préférences pour les utilisateurs et les utilisatrices du système. Pour plus d’informations, consultez [Configurer les préférences des projets de groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Verrouiller ou déverrouiller une préférence de projet, de tâche ou de problème pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 Pour verrouiller ou déverrouiller les préférences d’une tâche ou d’un problème afin que les groupes puissent les configurer, procédez comme suit :
 

@@ -9,9 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/uqK-rcpS7cvRCkGepidWbsgBE6P4v5Z-iLXSkYufhok
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: 1427
 ht-degree: 99%
 
 ---
@@ -29,7 +40,7 @@ Vous pouvez utiliser le statut d’un problème pour montrer à quel stade de d�
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -139,6 +150,6 @@ Les statuts de problèmes suivants sont fournis avec votre instance Workfront :
 
 ## Personnaliser les statuts du problème
 
-Un administrateur ou une administratrice Workfront peut ajouter des statuts de problèmes au niveau du système et du groupe dans Workfront et modifier l’ordre dans lequel les personness les voient. Pour plus d’informations, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Un administrateur ou une administratrice Workfront peut ajouter des statuts de problèmes au niveau du système et du groupe dans Workfront et modifier l’ordre dans lequel les personnes les voient. Pour plus d’informations, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Un administrateur ou une administratrice de groupes peut ajouter un statut personnalisé spécifique à un groupe. Pour plus d’informations, voir [Créer ou modifier un statut de groupe](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).

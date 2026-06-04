@@ -9,10 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 80%
+source-wordcount: 1402
+ht-degree: 79%
 
 ---
 
@@ -300,10 +310,10 @@ Saisissez les noms de chaque projet dans la colonne setName.
 
 * **Définir les numéros de tâche**
 Entrez des valeurs dans la colonne setTaskNumber pour contrôler l&#39;ordre dans lequel les tâches apparaîtront dans le plan de projet.
-* **Indiquer les dates du projet**
+* **Fournir des dates de projet.**
 Saisissez la date de début prévue pour chaque projet dans la colonne setPlannedStartDate.
-* **Définir les autres détails nécessaires**
-Renseignez d’autres détails, tels qu’une description ou le statut actuel, si nécessaire. Recherchez les identifiants de groupes de chaque projet sur la feuille de groupe GROUP et saisissez-les dans la colonne setGroupID des projets respectifs. Recherchez l’identifiant d’entreprise des projets sur la feuille d’entreprise CMPY et saisissez-le dans la colonne setCompanyID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne propriétaire de projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setOwnerID. Recherchez l’ID d’utilisateur ou d’utilisatrice de chaque personne sponsor du projet sur la feuille d’utilisateur ou d’utilisatrice USER et saisissez-le dans la colonne setSponsorID.
+* **Définir d’autres détails nécessaires.**
+Renseignez d’autres détails, tels qu’une description ou le statut actuel, si nécessaire. Recherchez les ID de groupe pour chaque projet sur la feuille de regroupement GROUPE et saisissez-les dans la colonne setGroupID pour les projets respectifs. Recherchez l’ID d’entreprise pour les projets sur la feuille d’entreprise COPY et saisissez-le dans la colonne setCompanyID . Recherchez l’ID utilisateur de chaque propriétaire de projet dans la feuille Utilisateur et saisissez-le dans la colonne setOwnerID . Recherchez l&#39;ID utilisateur de chaque sponsor de projet dans la feuille utilisateur et saisissez-le dans la colonne setSponsorID.
 
 ![Définir les valeurs](assets/im9.png)
 

@@ -9,9 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/UFCo9Uq4G5kh9C35EH9OzpCe3Ra75gzC-B7Eytt-rX0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: 1615
 ht-degree: 99%
 
 ---
@@ -45,14 +57,14 @@ Workfront fournit les statuts de projet suivants avec votre instance Adobe Work
  <tbody> 
   <tr> 
    <td>Planification (statut obligatoire)</td> 
-   <td> <p>La personne responsable du projet planifie le calendrier du projet, l’affectation des tâches et les approbations. Elle définit manuellement ce statut sur un projet.</p> <p><b>CONSEIL</p> <p> Nous vous recommandons de définir le statut par défaut pour les nouveaux projets dans Workfront sur Planification. En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier le statut par défaut de tous vos nouveaux projets dans la zone Projets des préférences du projet.</p> <p>Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurer des préférences de projet à l’échelle du système</a>.</p></td> 
+   <td> <p>La personne responsable du projet planifie la chronologie du projet, l’affectation des tâches et les approbations. Elle définit manuellement ce statut sur un projet.</p> <p><b>CONSEIL</p> <p> Nous vous recommandons de définir le statut par défaut pour les nouveaux projets dans Workfront sur Planification. En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier le statut par défaut de tous vos nouveaux projets dans la zone Projets des préférences du projet.</p> <p>Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurer des préférences de projet à l’échelle du système</a>.</p></td> 
    <td> <p>Les personnes membres de l’équipe du projet peuvent voir le projet dans leurs listes de projets par défaut (sans filtre personnalisé), dans la zone Projets de Workfront. Les tâches et les problèmes qui leur sont affectés sur le projet ne figurent pas dans leur liste de travail. Seuls les approbations et les éléments de travail acceptés s’affichent dans la liste de travail de l’accueil.</p> <p>Aucune notification n’est envoyée lorsqu’un projet présente ce statut.</p> <p>Nous vous recommandons d’apporter toutes les modifications qui peuvent déclencher une mise à jour du journal du projet, ou toute modification des tâches et des affectations de problèmes lorsque le projet a le statut de planification. Cela réduit le nombre de notifications que les personnes reçoivent.</p> <p>Le journal du projet n’est pas calculé automatiquement par le système.</p> </td> 
   </tr> 
   <tr> 
    <td>Actuel (statut obligatoire)</td> 
    <td> <p>Les personnes travaillent sur des tâches et des problèmes du projet. La personne responsable du projet doit attribuer le statut Actuel à un projet pour signaler qu’il a commencé.</p> <p>Il s’agit du statut par défaut des nouveaux projets dans Workfront.</p> <p><b>CONSEIL</b></p>
 
-<p> En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier le statut par défaut des nouveaux projets dans la zone Projets des préférences du projet. Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer les préférences des projets à l’échelle du système</a>.</p> </td> 
+<p> En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier le statut par défaut des nouveaux projets dans la zone Projets des préférences du projet. Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurer des préférences de projet à l’échelle du système</a>.</p> </td> 
    <td> <p>Les personnes membres de l’équipe du projet peuvent voir le projet dans leurs listes de projets par défaut (sans filtre personnalisé), dans la zone Projets de Workfront. Les tâches et les problèmes qui leur sont affectés sur le projet sont indiqués sur leur liste de travail. Elles peuvent commencer à accepter du travail relatif aux tâches et aux problèmes et les déplacer vers leur liste Travaille sur.</p> <p>Dans un projet en cours, toutes les notifications relatives aux modifications de journal, aux affectations, aux actions nécessaires et aux approbations sont envoyées aux personnes membres de l’équipe de projet.</p> <p>Le journal du projet est calculé automatiquement par le système, si le type de mise à jour est défini sur Automatique, En cas de modification ou Automatique et En cas de modification.</p> <p><b>CONSEIL</b></p> <p> Il est conseillé de limiter autant que possible les ajustements du plan de projet lorsqu’un projet a ce statut, afin que les personnes ne reçoivent pas trop de notifications.</p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +89,7 @@ Workfront fournit les statuts de projet suivants avec votre instance Adobe Work
   <tr> 
    <td>Suspendu</td> 
    <td>Le projet n’est pas encore terminé, mais en raison de certains retards, il doit être temporairement suspendu. La personne gestionnaire de projet choisit d’utiliser ce statut pour avertir les utilisateurs et utilisatrices de l’équipe de projet qu’ils doivent cesser de travailler sur le projet à l’heure actuelle.</td> 
-   <td> <p>Les utilisateurs et utilisatrices de l’équipe de projet ne peuvent pas voir le projet dans leurs listes de projets par défaut (sans filtre personnalisé), dans la zone Projets de Workfront. Les tâches et les problèmes qui leur sont attribués dans le cadre du projet disparaissent de leur liste de travail. </p> <p>Les décisions d’approbation ne peuvent pas être accordées aux tâches ou aux problèmes.</p> <p>Les notifications concernant les changements de chronologie, les affectations, les actions nécessaires et les approbations ne sont pas envoyées aux utilisateurs et utilisatrices de l’équipe de projet.</p> <p> <p><b>NOTE</b></p>  <p>Lorsque vous marqué un projet comme Suspendu, la chronologie du projet ne s’arrête pas. Le projet peut toujours apparaître comme étant En danger ou En difficulté même si personne ne travaille activement sur le projet. Il peut être nécessaire d’ajuster manuellement les dates des tâches ouvertes restantes lorsque le projet redevient Actuel, afin que le projet puisse afficher un état de progression actualisé.</p> </p> </td> 
+   <td> <p>Les utilisateurs et utilisatrices de l’équipe de projet ne peuvent pas voir le projet dans leurs listes de projets par défaut (sans filtre personnalisé), dans la zone Projets de Workfront. Les tâches et les problèmes qui leur sont attribués dans le cadre du projet disparaissent de leur liste de travail. </p> <p>Les décisions d’approbation ne peuvent pas être accordées aux tâches ou aux problèmes.</p> <p>Les notifications concernant les changements de chronologie, les affectations, les actions nécessaires et les approbations ne sont pas envoyées aux utilisateurs et utilisatrices de l’équipe de projet.</p> <p> <p><b>NOTE</b></p>  <p>Lorsque vous marqué un projet comme Suspendu, la chronologie du projet ne s’arrête pas. Le projet peut toujours apparaître comme étant En danger ou En difficulté même si personne ne travaille activement sur le projet. Il peut être nécessaire d’ajuster manuellement les dates des tâches ouvertes restantes lorsque le projet redevient Actuel, afin que le projet puisse afficher un état de progression mis à jour.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Demandé</td> 

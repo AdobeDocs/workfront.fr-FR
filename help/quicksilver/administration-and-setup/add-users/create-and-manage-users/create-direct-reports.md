@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/J-2MAo46KrxdE-b8InXVnihPhQd7wfZAo5IgWYiugEw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 84%
+source-wordcount: 234
+ht-degree: 87%
 
 ---
 
@@ -28,7 +37,7 @@ Vous pouvez désigner des utilisateurs et utilisatrices comme subordonnés direc
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -39,7 +48,7 @@ Vous pouvez désigner des utilisateurs et utilisatrices comme subordonnés direc
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 

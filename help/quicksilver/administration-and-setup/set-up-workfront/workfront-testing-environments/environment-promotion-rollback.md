@@ -3,21 +3,30 @@ user-type: administrator
 content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Restaurer un package de promotion d’environnement
+title: Restaurer un package de promotion environnementale
 description: La fonctionnalité de promotion d’environnement est destinée à fournir la possibilité de déplacer des objets liés à la configuration d’un environnement à un autre. Découvrez comment restaurer un package de promotion installé à partir d’un environnement cible.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/EPjuu-mWZH31cMvN-4tdzD8X-YFoW-DJ6YhfnJ0u06k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 15%
+source-wordcount: 389
+ht-degree: 19%
 
 ---
 
-# Restaurer un package de promotion d’environnement
+# Restaurer un package de promotion environnementale
 
 
 
@@ -31,13 +40,13 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td> <p>Standard</p>&gt;
    </td>

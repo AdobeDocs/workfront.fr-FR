@@ -6,10 +6,21 @@ description: Vous pouvez envoyer des documents depuis Workfront vers Experience�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/PWMvkf9X10rwGjTtiUPxlPir--rKK-hO8Wgli9oAAAA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 93%
+source-wordcount: 881
+ht-degree: 96%
 
 ---
 
@@ -23,8 +34,8 @@ Dans l’environnement de Prévisualisation, la taille maximale d’Assets envoy
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. De là, vous pouvez envoyer des ressources à Experience Manager Assets. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise l’espace de stockage dans le cloud d’Adobe, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. De là, vous pouvez envoyer des ressources à Experience Manager Assets. Pour plus d’informations, voir [Utilisation de Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Métadonnées
 
@@ -62,7 +73,7 @@ Les champs de métadonnées sont mappés pour la première fois lorsque vous env
    </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 

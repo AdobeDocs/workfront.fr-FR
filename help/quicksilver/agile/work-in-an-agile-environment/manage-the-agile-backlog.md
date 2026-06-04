@@ -6,11 +6,23 @@ description: Les tâches et les événements peuvent être affectés à une équ
 author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: 1285
 ht-degree: 69%
 
 ---
@@ -94,7 +106,7 @@ Pour ventiler une histoire :
 
 1. Allez dans la liste d’attente qui contient l’histoire que vous voulez ventiler.
 1. Sélectionnez l’histoire à répartir, puis cliquez sur **[!UICONTROL Répartir l’histoire]**.
-La boîte de dialogue [!UICONTROL Répartition de l’histoire] s’affiche.
+La boîte de dialogue [!UICONTROL Histoire de répartition] s’affiche.
    ![Boîte de dialogue pour la répartition d’histoires](assets/backlog-breakdown-dialog.png)
 
 1. Spécifiez un nom et une estimation pour l’histoire, et indiquez si l’histoire est prête.
@@ -184,7 +196,7 @@ Pour affecter une tâche ou un événement à une équipe Agile :
 1. Cliquez sur **[!UICONTROL Ajouter une personne cessionnaire]**.
 1. Commencez à saisir le nom de l’équipe Agile qui doit être affectée à la tâche ou à l’événement, puis cliquez sur le nom de l’équipe lorsqu’il apparaît dans la liste déroulante.
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-La tâche ou le problème est maintenant disponible dans la liste d’attente de l’équipe.
+La tâche ou l&#39;événement est maintenant disponible dans la liste d&#39;attente de l&#39;équipe.
 
 ## Déplacer les histoires vers ou depuis la liste d&#39;attente
 
@@ -197,7 +209,7 @@ La tâche ou le problème est maintenant disponible dans la liste d’attente de
 1. Accédez à la liste d’attente de l’équipe Agile.
 1. Sélectionnez les histoires à déplacer vers une itération ou un tableau kanban, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Déplacer vers]**.
 Si vous déplacez l’histoire vers un tableau [!UICONTROL Kanban], le tableau [!UICONTROL Déplacer l’histoire vers le tableau Kanban] s’affiche.
-Si vous déplacez l’histoire vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’histoire vers une itération] est affichée.
+Si vous déplacez l’histoire vers une itération, la boîte de dialogue [!UICONTROL Déplacer l’histoire vers une itération] s’affiche.
    ![Boîte de dialogue Déplacer l’histoire](assets/agile-backlog-addtoiteration.png)
 
 1. Utilisez l’une des méthodes suivantes :

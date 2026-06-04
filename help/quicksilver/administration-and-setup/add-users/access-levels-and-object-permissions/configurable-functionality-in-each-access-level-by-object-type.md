@@ -5,10 +5,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/-Zg2EUx5iDcFI-noG2qjOqRzJeiS-hw8zhYCSHg67uM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3510'
-ht-degree: 96%
+source-wordcount: 3595
+ht-degree: 97%
 
 ---
 
@@ -16,7 +30,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Lors de la configuration d’un niveau d’accès pour votre organisation, vous pouvez déterminer quelles actions spécifiques sont disponibles pour le niveau d’accès.
 
@@ -465,8 +479,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td>Réviseur</td> 
    <td> 
     <ul> 
-     <li><p> <b>Afficher</b></p> <p>Pour affiner cette option, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements.
-Cliquez sur l’icône en forme d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
+     <li><p> <b>Afficher</b></p> <p>Pour affiner cette option, vous pouvez configurer la possibilité de partager des filtres, des vues et des regroupements. Cliquez sur l’icône en forme d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton Afficher, puis désactivez ou activez l’option <b>Partager</b> (activée par défaut).</p> </li> 
      <li> <p><b>Modifier</b> (sélection par défaut) : accorde un accès complet à la modification des filtres, des vues et des regroupements.</p> <p>Pour affiner cette option, cliquez sur l’icône en forme d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Modifier</b>, puis désactivez ou activez l’une des options suivantes. Tous ces éléments sont activés par défaut.</p> 
       <ul> 
        <li> <p>Créer</p> </li> 
@@ -675,7 +688,7 @@ Dans chaque niveau d’accès, vous pouvez configurer les options suivantes pour
    <td> 
     <ul> 
      <li> <b>Afficher</b>
-      <p>Pour affiner ce réglage, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Vue</b>, puis désactivez ou activez l’une des options suivantes*. Les deux sont activées par défaut.</p> 
+      <p>Pour affiner cette option, cliquez sur l’icône en forme d’engrenage <img src="assets/gear-icon-in-access-levels.png"> sur le bouton <b>Afficher</b>, puis désactivez ou activez l’une des options suivantes*. Les deux sont activées par défaut.</p> 
       <ul> 
        <li>Afficher toutes les équipes</li> 
        <li> <p>Afficher les équipes associées à mes groupes</p> </li> 

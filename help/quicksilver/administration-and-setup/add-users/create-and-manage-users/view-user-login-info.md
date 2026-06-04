@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/faBqmsHF6tu9rS-mS0ucOS1-Pw4gKM5B8amHTXgHLZA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 91%
+source-wordcount: 532
+ht-degree: 92%
 
 ---
 
@@ -39,7 +49,7 @@ Vous pouvez déterminer la fréquence à laquelle les utilisateurs et utilisatri
    <td>Configurations des niveaux d’accès</td> 
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
-     <li> <p>Niveau d’accès de l’administrateur système. </li> 
+     <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
      <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 

@@ -9,10 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 91%
+source-wordcount: 2136
+ht-degree: 89%
 
 ---
 
@@ -284,5 +296,5 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 1. (Le cas échéant) Selon le problème, comme indiqué dans le message d’erreur, certaines informations ont peut-être déjà été importées. Vous devez effectuer l’une des opérations suivantes avant de pouvoir réimporter la feuille :
 
    * Supprimez les informations importées de Workfront à partir de la zone Formulaires personnalisés, puis apportez la correction indiquée par le message d’erreur.
-   * Indiquez qu’un champ ou un formulaire se trouve déjà dans le système pour les champs ou formulaires déjà importés, puis apportez la correction.
-Pour indiquer qu’un champ ou un formulaire personnalisé se trouve déjà dans Workfront, vous devez vous assurer que le champ `inNew` est marqué comme `FALSE` dans les feuilles contenant des informations sur le formulaire (`CTGY`) ou le champ (`PARAM`) dans la feuille de démarrage de l’import.
+   * Indiquez qu&#39;un champ ou un formulaire se trouve déjà dans le système pour les champs ou formulaires déjà importés, puis apportez la correction.
+Pour indiquer qu’un champ ou un formulaire personnalisé se trouve déjà dans Workfront, vous devez vous assurer que le champ `inNew` est marqué comme `FALSE` dans les feuilles qui contiennent des informations sur le formulaire (`CTGY`) ou le champ (`PARAM`) sur la feuille d’importation Kickstart.
