@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3489
 ht-degree: 51%
 
 ---
@@ -45,7 +40,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -77,12 +72,6 @@ Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations pour une vue</p>  
    <p>Autorisations d’affichage d’une vue pour modifier temporairement les paramètres d’affichage ou la dupliquer</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Modèle de mise en page</p></td>
-   <td> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page incluant Planning.
-   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
@@ -158,11 +147,24 @@ Old:
 
 ## Modifier des enregistrements à l’aide de la vue Tableau
 
-Vous ne pouvez modifier les informations d’enregistrement que dans la vue Tableau.
+Vous pouvez modifier les informations d’enregistrement en mode Tableau.
 
 Pour plus d&#39;informations sur la modification des enregistrements en mode Tableau, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
 ## Gérer une vue tableau {#manage-a-table-view}
+
+<!--
+Depending on what environment you access record types from, the record type page displays using two different views: 
+
+* Table view, in the Production environment
+* <span class="preview">List view, in the Preview environment</span>
+
+OR: 
+
+If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
+
+### Manage the table view in the Production environment
+-->
 
 Lors de la création d’une vue tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
 
@@ -235,7 +237,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -619,6 +621,17 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 >
 >Les indicateurs de présence en temps réel affichent les utilisateurs qui modifient actuellement un champ n’importe où dans Workfront Planning. Cela inclut la vue du tableau ou la zone Détails de l’enregistrement.
 
+<!--
+<div class="preview">
+
+### Manage the list view in the Production environment
+
+In the Preview environment, the table view has been replaced with the list view. 
+
+*******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+
+</div>
+-->
 
 
 
