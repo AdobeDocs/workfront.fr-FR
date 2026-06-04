@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
+source-git-commit: d942af03d03f3e22b7fea0aa3782520d3dcb7f54
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1559'
 ht-degree: 9%
 
 ---
@@ -67,8 +67,11 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Obtenir les informations sur le workflow d’approbation | `approvals_get_approval_info` | Retourne le workflow d&#39;approbation en cours (étapes, participants, statut) pour une version de document. | Lire |
 | Créer ou mettre à jour un workflow d’approbation | `approvals_create_or_update_approval_workflow` | Crée ou met à jour les étapes d&#39;un workflow d&#39;approbation pour une version de document. Prend en charge les dépendances d’étape linéaires et parallèles (graphique). | Write |
 | Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d&#39;approbation sur un document à partir d&#39;un modèle existant. | Write |
-| Demander l&#39;approbation du document | `approvals_request_document_approval` | Ouvre un formulaire assisté pour demander l’approbation d’une version de document (titre, approbateurs/réviseurs, échéance facultative et message). | Write |
 | Supprimer l’étape d’approbation | `approvals_delete_approval_stage` | Supprime une seule étape d&#39;un workflow d&#39;approbation par nom ou par position. Seules les étapes non démarrées peuvent être supprimées. | Write |
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
 
 ### Rappels
 
