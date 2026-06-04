@@ -6,11 +6,28 @@ description: Vous pouvez modifier les modèles de projet pour refléter les modi
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5112'
+source-wordcount: 5111
 ht-degree: 83%
 
 ---
@@ -179,7 +196,7 @@ Old:
          <td role="rowheader"><strong>Priorité</strong></td> 
          <td><p>Il s’agit simplement d’un indicateur visuel qui vous permet de hiérarchiser vos projets futurs. Sélectionnez l’une des options suivantes :</p> 
          <ul> 
-         <li><p><strong>Aucune</strong></p></li> 
+         <li><p><strong>Aucun</strong></p></li> 
          <li><p><strong>Faible</strong></p></li> 
          <li><p><strong>Normal</strong></p></li> 
          <li><p><strong>Élevé</strong></p></li> 
@@ -374,14 +391,14 @@ Old:
        <td role="rowheader"><strong>Résumé du mode d’achèvement</strong> </td> 
        <td> <p>Contrôle la façon dont les tâches parent du futur projet sont marquées comme terminées. <br>Sélectionnez l’une des options suivantes :</p> 
        <ul> 
-       <li> <p><strong>Automatique</strong> : les tâches parent sont marquées comme terminées et leur pourcentage d’achèvement est mis à jour automatiquement, au fur et à mesure que les tâches enfant sont terminées et que leur pourcentage est mis à jour. </p> </li> 
+       <li> <p><strong>Automatique</strong> : les tâches parent sont marquées comme Terminé et elles mettent à jour leur pourcentage terminé automatiquement, à mesure que les tâches enfant sont terminées et que le pourcentage terminé des enfants est mis à jour. </p> </li> 
        <li> <p><strong>Manuel</strong> : la mise à jour du pourcentage d’achèvement et du statut des tâches parent doit être effectuée manuellement et ne dépend pas des changements réalisés sur les tâches enfant. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Type de mise à jour</strong> </td> 
        <td> <p>Contrôle le moment où les modifications apportées à la chronologie du futur projet sont enregistrées sur le projet. </p> 
-       <b>EXEMPLE</b> 
+       <b>EXEMPLE </b> 
        <p>Les modifications suivantes apportées au projet entraînent une mise à jour de la chronologie du projet :</p> 
        <ul> 
        <li> <p>mettre à jour les dates des tâches</p> </li> 
@@ -464,7 +481,7 @@ Old:
       <li>Seuls les processus d’approbation actifs sont affichés dans la liste. </li> 
       <li> <p>Les processus d’approbation à l’échelle du système et spécifiques au groupe s’affichent dans la liste. Un processus d’approbation associé à un groupe autre que celui du modèle ne s’affiche pas dans la liste.</p> <p><b>IMPORTANT</b>
 
-   Si le groupe associé au modèle change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>. </p> </li>
+   Si le groupe associé au modèle change, le processus d’approbation spécifique au groupe devient un processus d’approbation à usage unique. Pour plus d’informations sur la manière dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Comment les modifications apportées au groupe et au processus d’approbation affectent les processus d’approbation attribués</a>. </p> </li>
    <li> <p>Si vous avez ajouté un processus d’approbation à usage unique, celui-ci s’affiche comme « personnalisé »dans ce champ. Pour plus d’informations, voir <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associer un processus d’approbation nouveau ou existant au travail</a>. </p> 
       </li> 
       <li> <p>Lors de la modification en masse de modèles, les scénarios suivants peuvent se produire :</p> 

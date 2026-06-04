@@ -7,10 +7,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/eHXlWWa5b-t-g1m0E896PAbRA13VRZo12XPlccEaGgM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 99%
+source-wordcount: 837
+ht-degree: 100%
 
 ---
 
@@ -81,7 +90,7 @@ Pour une vue d’ensemble de toutes les contraintes de tâche, voir [Vue d’ens
 
 ## Empêcher les pertes de données lors des modifications dans l’onglet Détails ou dans une liste de tâches
 
-Lors de l’enregistrement manuel des modifications effectuées sur la page Détails du projet ou des tâches dans une liste de tâches à l’échelle du projet., un message d’avertissement s’affiche pour vous informer que vous avez enregistré des modifications avant que vous ne tentiez de modifier les informations dans l’en-tête. Cela est fait afin d’éviter toute perte de données lorsque vous mettez à jour les informations de ces éléments. Les seules actions autorisées avant d’enregistrer vos modifications sont l’abonnement ou l’ajout de l’objet à vos favoris.
+Pour éviter toute perte de données lors de la mise à jour d’informations sur la page Détails d’un objet ou des tâches d’une liste de tâches au niveau du projet dans le cas de l’enregistrement manuel des modifications, un message d’avertissement s’affiche désormais avant toute tentative de modification de l’en-tête pour vous informer que des modifications n’ont pas été enregistrées. Les seules actions autorisées avant d’enregistrer vos modifications sont l’abonnement ou l’ajout de l’objet à vos favoris.
 
 Pour plus d’informations sur la modification des tâches dans une liste, voir [Modifier les tâches dans une liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 

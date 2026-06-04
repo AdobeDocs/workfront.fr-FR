@@ -8,9 +8,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4862'
+source-wordcount: 4862
 ht-degree: 98%
 
 ---
@@ -81,7 +95,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">Pour les administrateurs et administratrices : voir les groupes associés à un processus d’approbation</a> </p> <p>Pour vous aider à déterminer les groupes qui sont associés aux processus d’approbation de votre système, nous avons ajouté une colonne Nom de groupe à la vue Standard sur la page Approbations dans Configuration. Vous pouvez désormais afficher ces informations sans avoir à créer une vue personnalisée.</p> </td> 
@@ -210,7 +224,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-resource-management-enhancements.md#make" class="MCXref xref" xrefformat="{para}">Effectuer des attributions rapides dans l’équilibreur de charge de travail</a> </p> <p>Vous pouvez désormais équilibrer efficacement les ressources dans l’équilibreur de charge de travail avec un minimum de clics. Pour ce faire, faites glisser un élément de la zone de travail non attribué et déposez-le sur la ligne d’une personne dans la zone de travail attribué. L’opération glisser-déposer vous permet également d’annuler l’attribution d’éléments des personnes et de déplacer ces affectations dans la zone de travail non attribué ou vers d’autres personnes. </p> <p>Avant cette amélioration, vous ne pouviez attribuer des éléments qu’en cliquant sur le menu Plus d’une tâche ou d’un problème, puis en sélectionnant l’option Attribuer. Désormais, le nombre d’heures prévues allouées à l’utilisateur ou l’utilisatrice sont mises à jour en temps réel lors du déplacement des tâches.</p> </td> 
@@ -398,7 +412,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-other-enhancements.md#new" class="MCXref xref" xrefformat="{para}">Nouveaux raccourcis clavier pour la mise en retrait et la mise en avant dans les listes</a> </p> <p>Afin d’offrir une expérience accessible à toutes les personnes du système et de respecter les normes de navigation au clavier, les commandes de diminution/augmentation du retrait ont été modifiées. </p> <p>Pour Mac, appuyez sur Option + &gt; pour augmenter le retrait d’un élément de la liste et sur Option + &lt; pour diminuer le retrait. </p> <p>Sous Windows, appuyez sur Alt + &gt; pour augmenter le retrait d’un élément de la liste et sur Alt + &lt; pour diminuer le retrait.</p> <p>Auparavant, le raccourci clavier pour augmenter le retrait dans une liste était Tabulation et Maj + Tabulation pour le diminuer. Cependant, l’utilisation de la touche Tabulation pour augmenter et diminuer le retrait ne permettait pas de tabuler dans tous les champs actifs de l’interface.</p> <p>Cette modification ne s’applique qu’aux listes mises à jour et non aux listes héritées. </p> </td> 

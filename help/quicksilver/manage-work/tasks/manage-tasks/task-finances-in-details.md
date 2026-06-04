@@ -6,12 +6,26 @@ description: Vous pouvez afficher ou modifier les informations financières d’
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/XNmDRKUiTdtwXzl0SguevPZ5X11EUbKdQUumq7tmbf0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 68%
+source-wordcount: 990
+ht-degree: 71%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 68%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-Vous pouvez afficher ou modifier les informations financières d’une tâche en accédant à la zone Aperçu de la section Détails de la tâche. Vous pouvez afficher ou modifier un nombre limité de champs dans cette zone.
+Vous pouvez afficher ou modifier les informations financières d’une tâche en accédant à la zone Aperçu de la section Détails de la tâche. Il existe un nombre limité de champs que vous pouvez afficher ou modifier dans cette zone.
 
 Pour plus d&#39;informations sur la modification de toutes les informations financières d&#39;une tâche, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -107,8 +121,8 @@ Old:
 
    Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**.
 
-1. Modifiez un champ qui peut être modifié en cliquant sur le champ ou en cliquant sur **+Ajouter** pour ajouter des informations à un champ vide.
-1. Consultez ou modifiez les informations suivantes dans la zone **Finances** :
+1. Modifier un champ qui peut être modifié en cliquant sur le champ ou cliquez sur **+Ajouter** pour ajouter des informations dans un champ vide.
+1. Examinez ou modifiez les informations suivantes dans la section **Finances** :
 
    <table style="table-layout:auto"> 
     <col> 

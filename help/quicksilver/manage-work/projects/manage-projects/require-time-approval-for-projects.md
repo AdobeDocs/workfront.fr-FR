@@ -6,12 +6,25 @@ description: Vous pouvez configurer le projet pour que les heures consignées pa
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/Ux3CyN-AC7EKD74-GKadkODI3rCBcIIcQIH26LKCA-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 79%
+source-wordcount: 774
+ht-degree: 77%
 
 ---
 
@@ -61,12 +74,12 @@ Pour plus d’informations sur les enregistrements de facturation, voir l’arti
    <td role="rowheader">Accès supplémentaire</td> 
    <td> <p>Pour approuver le temps passé sur un projet, vous devez respecter au moins l’une des conditions suivantes :</p> 
     <ul> 
-     <li>Vous êtes la personne propriétaire du projet avec l’accès et les autorisations spécifiés ci-dessus. Dans ce cas, vous pouvez effectuer les opérations suivantes si l’une des conditions ci-dessous existe : 
+     <li>Vous êtes le propriétaire du projet avec l'accès et les autorisations spécifiés ci-dessus. Dans ce cas, vous pouvez effectuer les opérations suivantes si l’une des conditions ci-dessous existe : 
       <ul>
        <li>Si vous disposez des autorisations de gestion sur le projet, vous pouvez approuver ou rejeter les heures consignées sur le projet par toute autre personne.</li>
        <li> Si vous disposez de l’accès Contribution ou Affichage au projet, vous pourrez approuver ou rejeter uniquement les heures consignées par vous ou par toute autre personne qui vous signale.<br></li>
       </ul></li> 
-     <li>Vous disposez d’une licence Standard ou Plan avec un accès administratif aux Feuilles de temps et heures. Dans ce cas :
+     <li>Vous disposez d’une licence Standard ou Plan avec un accès administratif aux Feuilles de temps et heures. Dans ce cas :
       <ul>
        <li>Vous pouvez approuver ou rejeter toutes les heures sur les projets pour lesquels vous disposez au moins des autorisations d’affichage. </li>
       </ul></li> 

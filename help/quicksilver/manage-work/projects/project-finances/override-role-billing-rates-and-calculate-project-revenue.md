@@ -2,13 +2,25 @@
 product-area: projects
 navigation-topic: financials
 title: Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet
-description: Vous pouvez utiliser les taux de facturation pour calculer le chiffre d’affaires de vos projets lorsque vous les multipliez par les heures consacrées au projet.
+description: Vous pouvez utiliser les taux de facturation pour calculer les revenus de vos projets lorsque vous les multipliez par les heures passées sur le projet.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4653'
+source-wordcount: 4595
 ht-degree: 76%
 
 ---
@@ -161,7 +173,7 @@ Notez les informations suivantes dans la liste des **taux de facturation** :
 
 ### Regroupement par fonction {#job-role-grouping}
 
-Les taux de facturation sont regroupés dans la zone **Taux de facturation** selon leurs fonctions respectives.
+Les taux de facturation sont regroupés dans la zone **Taux de facturation** par leurs fonctions respectives.
 
 ### Valeur du taux de facturation du projet {#project-billing-rate-value}
 
@@ -185,7 +197,7 @@ Dans la ligne de regroupement d’une fonction, notez le taux de facturation de 
 
 ### Valeurs et délais de taux de facturation multiples {#multiple-billing-rate-values-and-timeframes}
 
-Si vous disposez de plusieurs taux de facturation de remplacement pour une fonction spécifique, ils sont répertoriés sous le regroupement correspondant à cette fonction. La modification en ligne vous permet de modifier les taux de remplacement et les **Date de début** **Date** et **Date de fin** des taux de facturation de remplacement dans cet onglet. Ou sélectionnez un taux et cliquez sur l’icône **Modifier** pour définir des taux de remplacement valides à une date.
+Si vous disposez de plusieurs taux de facturation de remplacement pour une fonction spécifique, ils sont répertoriés sous le regroupement correspondant à cette fonction. Grâce à la modification en ligne, vous pouvez modifier les taux de remplacement, la **Date** de **début** et la **Date de fin** des taux de facturation de remplacement sur cet onglet. Ou sélectionnez un taux et cliquez sur l’icône **Modifier** pour définir des taux de remplacement valides à une date.
 
 >[!NOTE]
 >
@@ -365,8 +377,8 @@ Pour plus d’informations sur le recalcul des finances d’un projet, voir l’
 
 ## Ajouter un nouveau taux de facturation à l’aide de l’API
 
-Pour ajouter un nouveau taux de facturation pour une fonction à l’aide de l’API, vous effectuez une action *setRatesForRole* pour l’objet **Taux** à l’aide de la *méthode PUT*.
-Les champs action et date de l’objet **Taux** sont disponibles dans la version 8.0 de l’API.
-Si vous avez déjà défini plusieurs taux de facturation pour une fonction sur un projet et que vous souhaitez ajouter un nouveau taux de facturation avec une nouvelle plage de dates, vous devez inclure à la fois le taux existant et le taux à ajouter dans le même appel API. Cette méthode est similaire à celle utilisée pour mettre à jour les collections d’objets.
+Pour ajouter un nouveau taux de facturation pour une fonction à l’aide de l’API, vous effectuez une action *setRatesForRole* pour l’objet **Rate** à l’aide de la méthode *PUT*.
+L’action et les champs de date de l’objet **Rate** sont disponibles dans la version 8.0 de l’API.
+Si plusieurs taux de facturation sont déjà définis pour une fonction sur un projet et que vous souhaitez ajouter un nouveau taux de facturation pour celui-ci avec une nouvelle période, vous devez inclure le taux existant et le taux à ajouter dans le même appel API. Cela revient à mettre à jour les collections sur des objets.
 
 L’appel API suivant est un exemple où **attachableID** est l’**ID du projet** du projet pour lequel vous ajoutez le taux et **RoleID** est l’**ID de la fonction** pour laquelle vous ajoutez le nouveau taux de facturation.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;rates&quot;:[</pre><pre>         {« rateValue »:« 0.00 »,« startDate »:null,« endDate »:« 2017-06-11 »},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {« rateValue »:« 95.00 »,« startDate »:« 2017-06-21 »,« endDate »:null}</pre><pre>]</pre><pre>}</pre>Pour plus d’informations sur l’utilisation de l’API Workfront, voir l’article [Concepts de base de l’API](https://experience.workfront.com/s/article/API-Basics-638808549).

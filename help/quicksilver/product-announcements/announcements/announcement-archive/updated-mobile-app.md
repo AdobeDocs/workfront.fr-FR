@@ -7,10 +7,15 @@ description: L’application mobile Adobe Workfront devrait être mise à jour 
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
-source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
+TQID: https://experienceleague.adobe.com/sE7pN79NbcvuQmZ6obdo63gF40IPvEkgg08-EUzUDPI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: 320
+ht-degree: 80%
 
 ---
 
@@ -22,7 +27,7 @@ La mise à jour contient les améliorations suivantes pour les plateformes mobil
 
 ## Soumettre des demandes
 
-À partir de la nouvelle version de l’application mobile, vous pourrez soumettre des demandes dans les files d’attente des demandes à l’aide de votre appareil mobile. Vous pourrez accéder aux mêmes files d’attente des demandes que celles auxquelles vous avez accès à partir de l’application web. 
+À partir de la nouvelle version de l’application mobile, vous pourrez envoyer des requêtes aux files d’attente des demandes à l’aide de votre appareil mobile. Vous pourrez accéder aux mêmes files d’attente de demandes que celles auxquelles vous avez accès à partir de l’application web. 
 
 Vous pouvez soumettre une demande, l’assigner à la ressource appropriée et la mettre à jour lorsque vous êtes en déplacement. 
 
@@ -43,7 +48,7 @@ Avant cette mise à jour, vous ne pouviez consigner que des heures générales s
 * Projets
 * Tâches
 * Problèmes
-* Documents
+* Documents 
 
 Avant cette mise à jour, vous ne pouviez consulter les informations des formulaires personnalisés que sur l’appareil mobile. 
 
@@ -51,8 +56,8 @@ Pour plus d’informations sur la modification des formulaires personnalisés da
 
 ## Visibilité des approbations d’épreuves dans l’application mobile
 
-À partir de la nouvelle version de l’application mobile, vous pourrez approuver les épreuves de documents sur votre appareil mobile. Vous recevrez également une notification dans la zone de notifications lors de votre désignation en tant qu’approbateur ou approbatrice d’une épreuve. 
+À partir de la nouvelle version de l’application mobile, vous pourrez approuver les BAT des documents sur votre appareil mobile. Vous recevrez également une notification dans la zone des Notifications lorsque vous serez désigné comme approbateur sur un BAT. 
 
-Avant cette mise à jour, vous pouviez effectuer des approbations de projets, de tâches, de problèmes et de documents à l’aide de l’application mobile. Vous aurez besoin d’une licence Proof HQ pour approuver les épreuves de documents sur l’application mobile. 
+Avant cette mise à jour, vous pouviez approuver des projets, des tâches, des événements et des documents à l’aide de l’application mobile. Vous aurez besoin d&#39;une licence Proof HQ pour approuver les épreuves de documents sur l&#39;application mobile. 
 
-Pour plus d’informations sur la relecture dans Workfront, consultez la section [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+Pour plus d’informations sur la relecture dans Workfront, consultez la section [Relecture](../../../review-and-approve-work/proofing/proofing.md). 

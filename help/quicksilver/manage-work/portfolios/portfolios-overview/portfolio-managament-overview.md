@@ -6,10 +6,22 @@ description: La gestion de portfolio ou de portfolio de projets (PPM) est le pro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+TQID: https://experienceleague.adobe.com/3PyFAt01-x20xebGmviz1Ao0NBaLc223y1BQUpXXbO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 86%
+source-wordcount: 649
+ht-degree: 93%
 
 ---
 
@@ -19,11 +31,11 @@ ht-degree: 86%
 
 ## Vue d’ensemble de la gestion de portfolio de projets (PPM)
 
-Portfolio La gestion des Portfolio de projet (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets afin d’atteindre des objectifs commerciaux spécifiques.
+La gestion de portfolio ou de portfolio de projets (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets en vue d’atteindre des objectifs commerciaux spécifiques.
 
 Cet article décrit les concepts généraux de la gestion de portefeuille. Pour obtenir des informations générales sur la gestion des portefeuilles dans Adobe Workfront, voir [Comprendre la méthodologie des portefeuilles](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-Un portefeuille est un ensemble de projets ayant des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
+Un portfolio est une collection de projets ayant des objectifs commerciaux communs. Le résultat d’une méthodologie de PPM efficace permet à la direction d’effectuer les opérations suivantes :
 
 * Identifier tous les projets d’un portfolio.
 * Comprendre l’impact de chaque projet sur les ressources, les coûts et les revenus.
@@ -63,7 +75,7 @@ Pour plus d’informations sur la création d’un business case et d’une dema
 
 Après avoir soumis la demande de projet, la personne chargée de la gestion de portfolio ou une équipe de direction l’examine et décide d’approuver ou non le projet. Si le projet est approuvé, celui-ci est sélectionné pour le portfolio de projets de l’entreprise.
 
-Pour plus d’informations sur les portefeuilles, voir [Comprendre la méthodologie du portefeuille](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Pour plus d’informations sur les portfolios, voir [Compréhension de la méthodologie des portfolios](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Pour plus d&#39;informations sur l&#39;approbation d&#39;un business case, voir [Approuver un business case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimisation du portfolio {#portfolio-optimization}
 

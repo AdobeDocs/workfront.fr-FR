@@ -8,9 +8,22 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+TQID: https://experienceleague.adobe.com/TwZHOWwuaG8KUeNPZ24NjXcpz4cnRr90b58JBMB3zHs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: 1552
 ht-degree: 99%
 
 ---
@@ -93,7 +106,7 @@ Pour plus d’informations, consultez la section [Créer, modifier et afficher l
 >
 >Disponible uniquement dans la nouvelle version d’Adobe Workfront.
 
-Afin de guider efficacement les administrateurs et les administratrices dans la zone de configuration et de garantir la cohérence d’Adobe Workfront, nous avons actualisé les en-têtes de la zone de configuration avec les éléments suivants :
+Afin de guider efficacement les administrateurs et les administratrices dans la zone de configuration et de garantir la cohérence d’Adobe Workfront, nous avons mis à jour les en-têtes de la zone de configuration avec les éléments suivants :
 
 * Un grand badge coloré marque chaque page et sous-page de la configuration.
 * Informations sur la hiérarchie au-dessus du nom de chaque sous-page (sur la page d’un seul groupe, par exemple)
@@ -161,11 +174,11 @@ Pour plus d’informations, consultez la section [Afficher tous les rapports qui
 
 Il est désormais plus facile de gérer un groupe lorsque vous l’affichez dans la zone Groupes de la Configuration. Le nouveau menu Plus vous permet de modifier, copier ou supprimer rapidement le groupe sans revenir à la page Groupes. Pour plus d’informations, consultez la section [Gérer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-Vous pouvez également consulter et utiliser les modèles de disposition, les plannings, les profils de feuilles de temps et les membres des sous-groupes de votre groupe à partir de la page du groupe. Cela vous évite de devoir vous rendre dans les différentes pages de Configuration de ces objets pour les gérer pour votre groupe. De plus, la liste des objets de votre groupe est séparée de celle des autres groupes du système.
+Vous pouvez également consulter et utiliser les modèles de mise en page, les plannings, les profils de feuilles de temps et les membres des sous-groupes de votre groupe à partir de la page du groupe. Cela vous évite de devoir vous rendre dans les différentes pages de Configuration de ces objets pour les gérer pour votre groupe. De plus, la liste des objets de votre groupe est séparée de celle des autres groupes du système.
 
 Pour plus d’informations, consultez les articles suivants :
 
-* [Créer et modifier les modèles de disposition d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
+* [Créer et modifier les modèles de mise en page d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
 * [Créer et modifier les planifications d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
 * [Créer et gérer les profils de feuilles de temps d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Afficher et gérer des membres de sous-groupe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)

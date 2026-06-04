@@ -6,13 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 77%
+source-wordcount: 235
+ht-degree: 95%
 
 ---
-
 
 # Architecture : index des articles
 
@@ -26,7 +31,7 @@ En outre, Workfront Planning peut créer un lien à des types d’objets d’au
 
 Les articles présentés dans les sections suivantes décrivent comment configurer les espaces de travail Adobe Workfront Planning, définir les types d’enregistrements qui sont les blocs de construction de ces espaces de travail et commencer à utiliser ses fonctionnalités :
 
-* [Présentation des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md)
+* [Vue d’ensemble des espaces de travail](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Liste des modèles d’espace de travail](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Vue d’ensemble des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md)
@@ -39,9 +44,9 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Supprimer des espaces de travail](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md)
-* [Types d’enregistrements de l’espace de travail croisé - Aperçu](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
-* [Configurer les fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [Vue d’ensemble des types d’enregistrements entre espaces de travail](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [Configurer des fonctionnalités entre espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Ajouter des types d’enregistrements existants depuis un autre espace de travail](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
-* [Configuration de la zone Paramètres d’un type d’enregistrement](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
+* [Configurer la zone Paramètres d’un type d’enregistrement](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Présentation de la hiérarchie et du chemin de navigation](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Créer des hiérarchies d’espace de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)

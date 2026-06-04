@@ -7,10 +7,27 @@ description: Comprendre le coût budgété de la main-d’œuvre et les heures b
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+TQID: https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 98%
+source-wordcount: 1140
+ht-degree: 97%
 
 ---
 
@@ -70,7 +87,7 @@ Les champs utilisés dans le calcul ci-dessus se réfèrent aux éléments suiva
 > 
 >Le total de tous les coûts de main-d’œuvre de toutes les personnes peut ou non correspondre au coût budgété de la main-d’œuvre du planificateur de ressources pour les fonctions associées aux utilisateurs et utilisatrices.
 >
->Si vous estimez les heures budgétées pour les personnes dans le planificateur de ressources, les coûts qui y sont associés sont ceux des fonctions associées aux utilisateurs et utilisatrices.Ce ne sont pas des coûts associés aux personnes ou à leurs taux.
+>Si vous estimez les heures budgétées pour les personnes dans le planificateur de ressources, les coûts qui y sont associés sont ceux des fonctions associées aux utilisateurs et utilisatrices. Ce ne sont pas des coûts associés aux personnes ou à leurs taux.
 
 Si les personnes sont associées aux fonctions sur le projet et que leurs heures sont budgétées dans le planificateur de ressources, leur coût budgété de la main-d’œuvre s’affiche sous les noms suivants, selon l’emplacement où vous les affichez dans Workfront :
 
@@ -150,9 +167,9 @@ Vous pouvez afficher les Heures budgétées dans Workfront dans les champs répe
 Les heures budgétées tel qu’elles apparaissent dans la zone de budgétisation des ressources du business case ou du planificateur de ressources, s’affichent dans les zones suivantes de Workfront, sous les noms suivants :
 
 * **Heures** : zone Établissement du budget des ressources du business case
-* **BDG** : planificateur de ressources affiché par heures
-* **Heures budgétées** : rapport d’utilisation avec la vue Heures
-Pour plus d’informations, consultez [Afficher des informations sur l’utilisation des ressources](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **BDG**:Resource Planificateur vu par heures
+* **Heures budgétées** : Vue Heures du rapport d’utilisation
+Pour plus d&#39;informations, voir [Afficher les informations sur l&#39;utilisation des ressources](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 * **Hrs budgétées** : rapport sur les heures budgétées
 
   L’objet Heure budgétée du rapport Heure budgétée fait référence à des informations relatives à un outil de gestion des ressources obsolète. Seul le champ « Hrs budgétées » de ce rapport fait référence aux heures budgétées dans le planificateur de ressources ou la zone Établissement du budget des ressources de l’analyse de rentabilité du projet.

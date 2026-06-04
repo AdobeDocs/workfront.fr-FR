@@ -6,11 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: 2611
 ht-degree: 1%
 
 ---
@@ -44,7 +57,7 @@ Parfois, il peut sembler que la phase la plus dangereuse de l’adoption de Work
 
 * **Gouvernance zéro** : laissez chaque équipe créer ses propres champs et types d’enregistrements, en recréant l’étalement des métadonnées fragmentées que l’on trouve dans les environnements hérités.
 
-## &#x200B;2. Philosophie de base : Workfront Planning comme moteur de réconciliation
+## &#x200B;2. La philosophie de base : Workfront Planning comme moteur de réconciliation
 
 Au lieu d’essayer d’empêcher les équipes d’être différentes, nous positionnons Workfront Planning comme l’endroit où ces différences sont rendues visibles afin qu’elles puissent être réconciliées.
 
@@ -69,7 +82,7 @@ Pour soutenir cet effort, tenez compte des points suivants :
 
 * **Gérez vos dettes, ne les cachez pas** : il est naturel de s&#39;inquiéter des efforts nécessaires pour nettoyer ultérieurement les taxonomies divergentes. Cependant, l’alternative (imposer des normes strictes trop tôt) pousse souvent les équipes à revenir à des feuilles de calcul où leurs processus (et leur dette) restent cachés. En permettant aux équipes de commencer dans la planification Workfront avec leurs classifications actuelles, vous déplacez cette dette vers un environnement visible et régi. Cela fait de la réconciliation finale une tâche itérative plutôt qu&#39;un projet de migration unique et écrasant.
 
-## &#x200B;3. Le modèle de gouvernance de l’autonomie guidée
+## &#x200B;3. Le modèle de gouvernance d’autonomie guidé
 
 Vous définissez les pistes sur la route et les terrains de jeux locaux (ou les valeurs par défaut et modèles gouvernés), tout en laissant aux équipes la possibilité de choisir leur propre chemin.
 
@@ -105,7 +118,7 @@ Voici les caractéristiques des terrains de jeux locaux
 
 * **Règle** : les équipes peuvent innover ici. Si un champ local est adopté par plus de trois équipes, il peut être promu en piste globale.
 
-## &#x200B;4. Examinons le paradoxe de la gouvernance : les équipes d’abord et les normes ensuite
+## &#x200B;4. Considérons le paradoxe de la gouvernance : les équipes d&#39;abord et les normes ensuite
 
 Un défi courant dans l’évolutivité de Workfront Planning consiste à décider lequel vient en premier : la gouvernance d’entreprise ou l’alignement opérationnel de l’équipe.
 
@@ -162,7 +175,7 @@ Procédez comme suit pour obtenir notre gouvernance en tant que service :
 >
 >N&#39;oubliez pas que la gouvernance doit être une réponse au succès opérationnel et non une condition préalable.
 
-## &#x200B;5. Mécanismes de mise à l’échelle pour la gestion des domaines
+## &#x200B;5. Mise à l’échelle des mécanismes de gestion des champs
 
 ### Modèle de croissance des champs basé sur les motifs
 
@@ -216,7 +229,7 @@ Tenez compte des points suivants :
 
 * **Résultat** : les équipes peuvent s’inspirer du contexte plus large de l’entreprise et s’y aligner, mais leur espace de travail local reste propre et axé sur leurs tâches spécifiques.
 
-## &#x200B;8. Gérer la croissance au moyen d’ateliers
+## &#x200B;8. Gérer la croissance au moyen d&#39;ateliers
 
 La mise à l’échelle de la planification Workfront est un défi autant culturel que technique. Utiliser des ateliers ciblés pour combler le fossé en matière de gouvernance
 
@@ -267,7 +280,7 @@ Voici quelques idées d’ateliers que vous pouvez organiser :
 
 * **Résultat** : confiance accrue des utilisateurs, résolution plus rapide des frictions techniques et identification de nouveaux schémas qui pourraient justifier une normalisation mondiale.
 
-## &#x200B;9. Dotation en personnel en fonction de l&#39;échelle : rôles et responsabilités
+## &#x200B;9. Dotation à l&#39;échelle : rôles et responsabilités
 
 La réussite d’un modèle de mise à l’échelle géré nécessite plus qu’une simple configuration d’outil. Cela nécessite une répartition claire des rôles entre les équipes Global et Spoke.
 
@@ -325,7 +338,7 @@ Dans les sous-sections ci-dessous, vous trouverez des idées pour les principaux
 
    * Identifie les points de friction techniques que l’architecte d’entreprise doit résoudre.
 
-## &#x200B;10. Liste de contrôle pour le dimensionnement de l’équipe suivante
+## &#x200B;10. Liste de contrôle pour la mise à l’échelle de l’équipe suivante
 
 Tous les enseignements tirés d’une implémentation réussie doivent générer une liste de contrôle que vous pouvez utiliser pour d’autres implémentations.
 

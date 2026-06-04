@@ -6,9 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/AmKIQPLxnJW4nPNdIEUlnMvUlxMbh4jquWpFYz0k6qY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 456
 ht-degree: 100%
 
 ---
@@ -53,7 +60,7 @@ Pour plus d’informations, voir [Copier et soumettre des demandes](../../../man
 >
 >Cette fonctionnalité a été temporairement supprimée de l’environnement de prévisualisation le 12 novembre 2021. Elle sera ajoutée à nouveau ultérieurement.
 
-Pour améliorer la visibilité et l’interaction avec le panneau Résumé, nous avons ajouté un libellé à l’icône Ouvrir le résumé dans la section Envoyées de la zone Demandes. Le libellé est désormais dynamique et reflète l’ouverture ou la fermeture du panneau.
+Pour améliorer la visibilité et l’interaction avec le panneau Résumé, nous avons ajouté un libellé à l’icône Ouvrir le résumé dans la section Envoyées de la zone Demandes. Le libellé est désormais dynamique et est mis à jour selon que le panneau est ouvert ou fermé.
 
 Lorsque le panneau Résumé est ouvert sans sélection préalable d’une demande, une image plus conviviale s’affiche désormais pour indiquer clairement à la personne qu’elle doit sélectionner un élément avant d’ouvrir le panneau. Pour plus d’informations, voir [Localiser les demandes envoyées](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 

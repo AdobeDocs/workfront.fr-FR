@@ -7,10 +7,19 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+TQID: https://experienceleague.adobe.com/tV8tsEkumdgpfAcO-UWwOd8BkSf9LZDqmKq44fL3WsA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 95%
+source-wordcount: 329
+ht-degree: 82%
 
 ---
 
@@ -24,7 +33,7 @@ Pour une liste de tous les changements disponibles avec la version 20.3, voir [
 
 Workfront a récemment acquis une technologie pour une toute nouvelle génération de Workfront Fusion, la puissante plateforme d’intégration qui permet de travailler librement dans pratiquement toutes les applications basées sur le web.
 
-Les anciennes clientes et les anciens clients de Workfront Fusion peuvent s’attendre à une puissance, une vitesse, une convivialité et une prévisibilité accrues dans Workfront Fusion 2.0. Nous migrons actuellement les clientes et clients existants de Workfront Fusion vers Workfront Fusion 2.0. Contactez votre responsable de compte pour plus de détails.
+Les clients Workfront Fusion précédents peuvent s’attendre à une plus grande puissance, vitesse, convivialité et prévisibilité dans Workfront Fusion 2.0. Nous effectuons actuellement une migration des clients Workfront Fusion vers Workfront Fusion 2.0. Veuillez contacter votre chargé de compte pour plus d’informations.
 
 Pour plus d’informations, voir [Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/home)
 

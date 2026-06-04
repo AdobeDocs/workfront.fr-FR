@@ -7,9 +7,21 @@ description: Cet article donne un exemple de calcul de l’Estimation à l’ach
 author: Lisa
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/6I01QrqZfJ-rE0nqDlSBxr0HfPSgFpBVvtQT5Q1cQQ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: 2306
 ht-degree: 81%
 
 ---
@@ -53,13 +65,13 @@ Méthode EAC = calcul au niveau du projet **&#x200B;**
       <td><p>Tâche 1</p></td>
       <td><p>5 heures</p></td>
       <td><p>25 heures</p></td>
-      <td><p>20%</p></td>
+      <td><p>20 %</p></td>
      </tr>
      <tr>
       <td><p>Tâche 2</p></td>
       <td><p>10 heures</p></td>
       <td><p>25 heures</p></td>
-      <td><p>30%</p></td>
+      <td><p>30 %</p></td>
      </tr>
      <tr>
       <td><p>Tâche 3</p></td>
@@ -144,7 +156,7 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>Tâche 2</p> </td> 
    <td> <p>5 heures</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>20%</p> </td> 
+   <td> <p>20 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
@@ -156,13 +168,13 @@ Méthode EAC = Calcul au niveau du projet
    <td> <p>Tâche 4</p> </td> 
    <td> <p>10 heures</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>40%</p> </td> 
+   <td> <p>40 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>15 heures</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>50%</p> </td> 
+   <td> <p>50 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
@@ -263,25 +275,25 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>5 heures</p> </td> 
-   <td> <p>$500.00</p> </td> 
+   <td> <p>500,00 $</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
-   <td> <p>20%</p> </td> 
+   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>20 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
-   <td> <p>30%</p> </td> 
+   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>30 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> <p>15 heures</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>1 500,00 $</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
+   <td> <p>2 500,00 $</p> </td> 
    <td> <p>40 %</p> </td> 
   </tr> 
  </tbody> 
@@ -306,25 +318,25 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 1 Tâche 1</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>$400.00</p> </td> 
+   <td> <p>300,00 $</p> </td> 
+   <td> <p>400,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>500,00 $</p> </td> 
+   <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép Tâche 2</p> </td> 
-   <td> <p>$200.00</p> </td> 
-   <td> <p>$100.00</p> </td> 
+   <td> <p>200,00 $</p> </td> 
+   <td> <p>100,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> <p>Dép Tâche 3</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>800,00 $</p> </td> 
    <td> <p>700,00 $</p> </td> 
   </tr> 
  </tbody> 
@@ -346,12 +358,12 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Dép Projet 1</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>1 500,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
+   <td> <p>2 500,00 $</p> </td> 
    <td> <p>0,00 $</p> </td> 
   </tr> 
  </tbody> 
@@ -375,26 +387,26 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>$400.00</p> </td> 
+   <td> <p>500,00 $</p> </td> 
+   <td> <p>300,00 $</p> </td> 
+   <td> <p>400,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$200.00</p> </td> 
-   <td> <p>$100.00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>200,00 $</p> </td> 
+   <td> <p>100,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>800,00 $</p> </td> 
+   <td> <p>700,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>$3,000.00</p> </td> 
-   <td> <p>$2,300.00</p> </td> 
+   <td> <p>3 000,00 $</p> </td> 
+   <td> <p>2 300,00 $</p> </td> 
    <td> <p> 2 700,00 $ <strong></strong></p> </td> 
   </tr> 
  </tbody> 
@@ -520,7 +532,7 @@ Méthode EAC = Calcul au niveau du projet
    <th> <br> <p><strong>Ct M-o Pré</strong> </p> </th> 
    <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
    <th> <br> <p><strong>Cts trv eff</strong> </p> </th> 
-   <th> <p><strong>% effectué</strong> </p> </th> 
+   <th> <p><strong>% terminé</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -529,47 +541,47 @@ Méthode EAC = Calcul au niveau du projet
    <td> </td> 
    <td> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>5 heures</p> </td> 
-   <td> <p>$500.00</p> </td> 
+   <td> <p>500,00 $</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>20%</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>20 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> </td> 
    <td> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>40%</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>40 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>15 heures</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>1 500,00 $</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>50%</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>50 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
    <td> <p>20 heures</p> </td> 
-   <td> <p>$2,000.00</p> </td> 
+   <td> <p>2 000,00 $</p> </td> 
    <td> <p>10 heures</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
    <td> <p>60 %</p> </td> 
   </tr> 
  </tbody> 
@@ -595,20 +607,20 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 1 Tâche 1</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>-$400.00</p> </td> 
+   <td> <p>300,00 $</p> </td> 
+   <td> <p>- 400,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>-$500.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>- 500,00 $</p> </td> 
+   <td> <p>800,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
    <td> <p>Dép 3 Tâche 1</p> </td> 
-   <td> <p>$400.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>400,00 $</p> </td> 
+   <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,26 +631,26 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 1 Tâche 2</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>500,00 $</p> </td> 
+   <td> <p>700,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 2 Tâche 2</p> </td> 
-   <td> <p>-$400.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>- 400,00 $</p> </td> 
+   <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 3 Tâche 2</p> </td> 
-   <td> <p>-$200.00</p> </td> 
-   <td> <p>$600.00</p> </td> 
+   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>600,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>Dép 4 Tâche 2</p> </td> 
-   <td> <p>$700.00</p> </td> 
-   <td> <p>-$200.00</p> </td> 
+   <td> <p>700,00 $</p> </td> 
+   <td> <p>- 200,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -649,8 +661,8 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 3</p> </td> 
    <td> <p>Dép Tâche 3</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -661,20 +673,20 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 4</p> </td> 
    <td> <p>Dép 1 Tâche 4</p> </td> 
-   <td> <p>$800.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>800,00 $</p> </td> 
+   <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
    <td> <p>Dép 2 Tâche 4</p> </td> 
-   <td> <p>-$100.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
+   <td> <p>- 100,00 $</p> </td> 
+   <td> <p>300,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4 </p> </td> 
    <td> <p>Dép 3 Tâche 4</p> </td> 
-   <td> <p>-200.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>-200,00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -685,20 +697,20 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>Dép 1 Tâche 5</p> </td> 
-   <td> <p>$700.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>700,00 $</p> </td> 
+   <td> <p>800,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>Dép 2 Tâche 5</p> </td> 
-   <td> <p>-$100.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
+   <td> <p>- 100,00 $</p> </td> 
+   <td> <p>300,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
    <td> <p>Dép 3 Tâche 5</p> </td> 
-   <td> <p>-$400.00</p> </td> 
-   <td> <p>-$200.00</p> </td> 
+   <td> <p>- 400,00 $</p> </td> 
+   <td> <p>- 200,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -709,13 +721,13 @@ Méthode EAC = Calcul au niveau du projet
   <tr> 
    <td> <p>Tâche 6</p> </td> 
    <td> <p>Dép 1 Tâche 6</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>600,00 $</p> </td> 
+   <td> <p>700,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
    <td> <p>Dép 2 Tâche 6</p> </td> 
-   <td> <p>$500.00</p> </td> 
+   <td> <p>500,00 $</p> </td> 
    <td> <p>- 300,0 $</p> </td> 
   </tr> 
  </tbody> 
@@ -737,12 +749,12 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Dép Projet 1</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>1 500,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dép 2 Tâche 1</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
+   <td> <p>2 500,00 $</p> </td> 
    <td> <p> 0,00 $ <strong></strong></p> </td> 
   </tr> 
  </tbody> 
@@ -766,44 +778,44 @@ Méthode EAC = Calcul au niveau du projet
  <tbody> 
   <tr> 
    <td> <p>Tâche 1</p> </td> 
-   <td> <p>$400.00</p> </td> 
-   <td> <p>-$500.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>400,00 $</p> </td> 
+   <td> <p>- 500,00 $</p> </td> 
+   <td> <p>800,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
-   <td> <p>-$400.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>$1,300.00</p> </td> 
+   <td> <p>- 400,00 $</p> </td> 
+   <td> <p>300,00 $</p> </td> 
+   <td> <p>1 300,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 4</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>-$100.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
+   <td> <p>600,00 $</p> </td> 
+   <td> <p>- 100,00 $</p> </td> 
+   <td> <p>300,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 5</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>$1,100.00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>600,00 $</p> </td> 
+   <td> <p>1 100,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 6</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>0,00 $</p> </td> 
+   <td> <p>600,00 $</p> </td> 
+   <td> <p>700,00 $</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projet</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
-   <td> <p>$1000.00</p> </td> 
+   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>1 000,00 $</p> </td> 
    <td> <p>1 500,00 $</p> </td> 
   </tr> 
  </tbody> 

@@ -6,10 +6,19 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0epzoLYAQGEpKRWCTRDE4-aTFISBr6fFsnZSXtuerd0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 99%
+source-wordcount: 1058
+ht-degree: 100%
 
 ---
 
@@ -27,7 +36,7 @@ Les améliorations suivantes sont désormais disponibles avec cette nouvelle fon
 
 * Activez ce paramètre pour les projets et les modèles afin qu’il soit disponible pour les tâches et les modèles de tâches.
 * Mettez à jour ce paramètre pour chaque tâche avec un type de durée simple qui met automatiquement à jour le nombre d’heures prévues de la tâche.
-* Désactivez ce paramètre à l’aide d’un modèle de disposition pour les personnes qui préfèrent continuer à utiliser le nombre d’heures prévues.
+* Désactivez ce paramètre à l’aide d’un modèle de mise en page pour les personnes qui préfèrent continuer à utiliser le nombre d’heures prévues.
 * Affichez la valeur de ce nouveau champ dans une liste de tâches ou un rapport.
 
 Pour plus d’informations sur l’effort de travail, voir [Vue d’ensemble de l’effort de travail](../../../manage-work/tasks/task-information/work-effort.md).
