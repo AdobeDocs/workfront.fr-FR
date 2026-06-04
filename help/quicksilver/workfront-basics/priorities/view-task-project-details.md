@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 409
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -76,7 +76,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, passez la souris sur le nom de l’élément de travail, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
-1. Cliquez sur **Projet** en haut du panneau Résumé . Ici, vous pouvez
+1. Cliquez sur **Projet** en haut du panneau Résumé . Dans cette section, vous pouvez :
    * Afficher et modifier les détails et la description du projet
    * Afficher et ajouter des commentaires sur le projet
    * Enregistrer des heures
@@ -90,7 +90,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
-1. La tâche est sélectionnée par défaut. Ici, vous pouvez
+1. La tâche est sélectionnée par défaut. Dans cette section, vous pouvez :
    * Afficher et modifier les détails et la description des projets et des tâches
    * Afficher et ajouter des commentaires sur le projet
    * Afficher et ajouter des documents

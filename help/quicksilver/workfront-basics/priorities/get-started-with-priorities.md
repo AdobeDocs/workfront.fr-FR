@@ -21,16 +21,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 1021
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # Commencer avec [!DNL Priorities]
-
-{{preview-fast-release-general}}
 
 Priority offre une expérience rationalisée et intuitive, adaptée aux propriétaires de tâches. Les priorités seront déployées par phases, en commençant par la liste de travail.
 
@@ -42,7 +40,7 @@ Avec Priority, vous pouvez profiter de
 
 La liste de travail Priorités et le calendrier affichent les tâches qui vous sont assignées. Vous ne pouvez pas voir les éléments de travail affectés à votre équipe.
 
-<span class="preview">Un administrateur Workfront peut activer les priorités de votre utilisateur dans le modèle de mise en page. Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
+Un administrateur Workfront peut activer les priorités de votre utilisateur dans le modèle de mise en page. Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Rechercher et organiser votre travail
 
