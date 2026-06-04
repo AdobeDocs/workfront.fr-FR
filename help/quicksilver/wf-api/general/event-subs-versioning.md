@@ -7,23 +7,27 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
+TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 1055
+ht-degree: 17%
 
 ---
 
-# Contrôle de version de l’abonnement aux événements
+# Contrôle de version des abonnements aux événements
 
-Workfront propose deux versions d’abonnements aux événements. Cet article décrit les différences entre eux.
+Workfront propose deux versions des abonnements aux événements. Cet article décrit les différences entre eux.
 
 La nouvelle version ne constitue pas une modification de l’API Workfront, mais plutôt une modification de la fonctionnalité d’abonnement aux événements.
 
-La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne sont pas rompus, ce qui vous permet de tester et de mettre à niveau vers la nouvelle version sans interruption de votre abonnement aux événements.
+La possibilité de mettre à niveau ou de rétrograder des abonnements aux événements garantit que, lorsque des modifications sont apportées à la structure des événements, les abonnements existants ne s’arrêtent pas. Cela permet de tester et de passer à la nouvelle version sans interruption de l’abonnement aux événements.
 
 
-Lorsque vous mettez à niveau ou rétrogradez votre abonnement à un événement vers une autre version, vous recevez des événements en double pour chaque diffusion d’événement pendant une période de cinq minutes après le changement de version. Les doublons incluent chacun un abonnement à l&#39;événement version 1 et version 2. Vous êtes ainsi assuré de ne manquer aucun événement lié à la modification de la version d’abonnement à l’événement.
+Lorsque vous mettez à niveau ou que vous rétrogradez votre abonnement à un événement vers une autre version, vous recevez des événements en double pour chaque diffusion d’événement pendant une durée de cinq minutes après le changement. Les doublons incluent chacun un abonnement à l’événement en version 1 et en version 2. Vous ne manquez ainsi aucun événement lié au changement de version de l’abonnement à un événement.
 
 Pour plus d’informations sur les points d’entrée utilisés pour mettre à niveau ou rétrograder des abonnements aux événements, consultez [Contrôle de version des abonnements aux événements](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) dans l’article API d’abonnement aux événements.
 
@@ -101,7 +105,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsque cet objet a été mis à jour, l’événement <code>UPDATE</code> a parfois indiqué de manière incorrecte que les champs affectés passaient de <code>null</code> à <code>ID value</code>.</td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour les champs concernés.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur les champs concernés, vous ne recevez un événement <code>UPDATE</code> que si ces champs ont réellement changé, et non si une autre valeur a été modifiée.
+   <td>Aucune. Si vous disposez d’un filtre sur les champs concernés, vous ne recevez un événement <code>UPDATE</code> que si ces champs ont réellement changé, et non si une autre valeur a été modifiée.
    </td> 
   </tr> 
   <tr> 
@@ -113,7 +117,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsqu’une valeur de paramètre a été mise à jour sur cet objet, l’événement <code>UPDATE</code> a incorrectement affiché le changement de champ affecté de <code>null</code> à <code>object id</code>. </td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour les champs concernés.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur les champs concernés, vous ne recevez un événement <code>UPDATE</code> que si ces champs ont réellement changé, et non si une autre valeur a été modifiée.
+   <td>Aucune. Si vous disposez d’un filtre sur les champs concernés, vous ne recevez un événement <code>UPDATE</code> que si ces champs ont réellement changé, et non si une autre valeur a été modifiée.
   </tr> 
   <tr> 
   <td>
@@ -123,7 +127,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsqu’un document a été supprimé, l’événement <code>DELETE</code> affichait incorrectement le champ affecté sous la forme d’un tableau vide à l’état « before ».    </td> 
    <td>L’événement <code>DELETE</code> affiche correctement le champ affecté à l’état « before ».</td> 
-   <td>Aucun. L’événement <code>DELETE</code> sera toujours envoyé, mais affichez désormais les données correctes pour le champ affecté. 
+   <td>Aucune. L’événement <code>DELETE</code> sera toujours envoyé, mais affichez désormais les données correctes pour le champ affecté. 
 </td> 
   </tr> 
   <tr> 
@@ -137,7 +141,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsque cet objet a été mis à jour, deux événements <code>UPDATE</code> ont été envoyés. Le premier événement n’incluait pas les champs concernés, alors que le second l’a fait.</td> 
    <td>Toutes les mises à jour des champs, y compris les champs concernés, sont présentes dans un seul événement <code>UPDATE</code> et aucun second événement inutile n’est envoyé.     </td> 
-   <td>Aucun. Si les champs concernés appliquent un filtre, les événements sont diffusés dans le premier événement. 
+   <td>Aucune. Si les champs concernés appliquent un filtre, les événements sont diffusés dans le premier événement. 
 </td> 
   </tr> 
   <tr> 
@@ -150,7 +154,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsqu'une valeur de paramètre a été mise à jour sur une dépense, l'événement <code>UPDATE</code> affichait incorrectement topReferenceObjCode modifié de <code>EXPNS</code> en <code>PROJ</code>, et <code>referenceObjectName</code> modifié de <code>null</code> en <code>string value of project name</code>.      </td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour les champs concernés.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur les champs concernés, vous ne recevez un événement <code>UPDATE</code> que si ces champs ont réellement changé, et non si une autre valeur a été modifiée.
+   <td>Aucune. Si vous disposez d’un filtre sur les champs concernés, vous ne recevez un événement <code>UPDATE</code> que si ces champs ont réellement changé, et non si une autre valeur a été modifiée.
   </tr> 
   <tr> 
   <td>
@@ -192,7 +196,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsqu’une valeur de paramètre a été mise à jour sur cet objet, l’événement <code>UPDATE</code> a incorrectement affiché le changement de champ affecté de <code>null</code> à <code>ID value</code>. </td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour le champ concerné.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
+   <td>Aucune. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
 </td> 
   </tr> 
   <tr> 
@@ -215,7 +219,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
     </ul> 
    <td>Lorsqu’une valeur de paramètre a été mise à jour sur cet objet, l’événement <code>UPDATE</code> a incorrectement affiché le changement de champ affecté de <code>null</code> à <code>ID value</code>. </td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour le champ concerné.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
+   <td>Aucune. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
   </tr> 
   <tr> 
   <td>
@@ -225,7 +229,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsque cet objet a été mis à jour, l’événement <code>UPDATE</code> a parfois indiqué de manière incorrecte que les champs affectés passaient de <code>null</code> à <code>ID value</code>.</td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour le champ concerné.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
+   <td>Aucune. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
   </tr> 
   <tr> 
    <th rowspan="2">TASK</th> 
@@ -236,7 +240,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsqu’une valeur de paramètre a été mise à jour sur cet objet, l’événement <code>UPDATE</code> a incorrectement affiché le changement de champ affecté de <code>null</code> à <code>ID value</code>. </td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour le champ concerné.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
+   <td>Aucune. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
   </tr> 
   <tr> 
   <td>
@@ -246,7 +250,7 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
    </td> 
    <td>Lorsque cet objet a été mis à jour, l’événement <code>UPDATE</code> a parfois indiqué de manière incorrecte que les champs affectés passaient de <code>null</code> à <code>ID value</code>.</td> 
    <td>Tous les événements <code>UPDATE</code> affichent la valeur correcte pour le champ concerné.</td> 
-   <td>Aucun. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
+   <td>Aucune. Si vous disposez d’un filtre sur le champ affecté, vous ne recevez un événement <code>UPDATE</code> que si ce champ a réellement changé, et non si une autre valeur de paramètre a changé.
  </tbody> 
 </table>
 
@@ -255,6 +259,6 @@ Les modifications suivantes ont été apportées aux abonnements aux événement
 
 Workfront Fusion utilise les abonnements aux événements pour surveiller les modifications dans Workfront afin de déclencher des scénarios. Vous pouvez mettre à jour la version d’abonnement aux événements que Fusion utilise directement dans un scénario, à l’aide du module Workfront > Mettre à jour la version de la payload des événements .
 
-Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules Workfront](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
+Pour obtenir des instructions sur l’utilisation de ce module, voir [Modules ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) dans la documentation de Workfront Fusion.
 
-Pour obtenir des ressources sur la conservation de vos scénarios Workfront Fusion pendant la mise à niveau de l’abonnement à l’événement, y compris un enregistrement de webinaire, consultez [&#x200B; Conservation de vos scénarios Fusion pendant la mise à niveau de la version V2 des abonnements aux événements](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=fr).
+Pour obtenir des ressources sur la conservation de vos scénarios Workfront Fusion pendant la mise à niveau des abonnements aux événements, y compris un enregistrement de webinaire, consultez [Conservation de vos scénarios Fusion pendant la mise à niveau de la version V2 des abonnements aux événements](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=fr).

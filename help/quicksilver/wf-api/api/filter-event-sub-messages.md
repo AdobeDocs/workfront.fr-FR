@@ -8,9 +8,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 100%
 
 ---
@@ -261,9 +265,9 @@ L’exemple suivant dans Node.js montre comment filtrer les payloads du projet e
 
    Le SDK AWS est utilisé pour appeler une autre fonction Lambda, chargée de diffuser le message filtré vers le point d’entrée souhaité.\
    L’objectif de la transmission de la responsabilité de diffusion du message à une autre fonction Lambda est d’éviter un délai d’expiration de la demande de diffusion provenant du service d’abonnement à un événement. Actuellement, le délai d’expiration de la diffusion est défini sur cinq secondes. Si le filtre prend plus de temps que celui prévu par le paramètre, vous pouvez traiter la demande, mais le service d’abonnement à un événement expire et tombe dans une boucle de reprises jusqu’à ce qu’il reçoive une réponse 200 dans le délai d’expiration.\
-   Pour en savoir plus sur la gestion de la diffusion des messages, voir [Amélioration de la diffusion des messages tout en tenant compte des dépassements de délai](#improving-message-delivery-while-accommodating-timeouts).
+   Pour en savoir plus sur la gestion de la diffusion des messages, voir [Amélioration de la diffusion des messages tout en tenant compte des délais d’expiration](#improving-message-delivery-while-accommodating-timeouts).
 
-## Amélioration de la diffusion des messages tout en tenant compte des dépassements de délai
+## Amélioration de la diffusion des messages tout en tenant compte des délais d’expiration
 
 Le service d’abonnement à un événement a un délai d’expiration strict de **cinq secondes** pour toutes les demandes de diffusion. Dans le cas où la diffusion d’un message dépasse le temps autorisé, le service d’abonnement à un événement lance un cycle de reprise pour ce message.
 
@@ -272,7 +276,7 @@ Par exemple, vous créez un filtre d’ID de groupe de projet similaire à l’u
 Vous pouvez éviter une nouvelle tentative en séparant les parties chronophages du processus de la logique responsable de déterminer si le message est un message que vous souhaitez traiter et diffuser. Ce faisant, vous pouvez accepter le message et renvoyer une réponse de niveau 200 au service d’abonnement à l’événement, tout en continuant de manière asynchrone à traiter ou filtrer le message en arrière-plan (voir l’étape 5 dans [Java](#java) par exemple).
 
 
-Même si le traitement ou le filtrage ne dépasse pas le délai de cinq secondes, il est toujours avantageux de séparer le premier point de contact du filtrage ou du traitement des messages des autres étapes de traitement ou de diffusion côté client. Ainsi, la remise du message à la destination à partir du service d’abonnement à un événement a un impact minimal sur le temps et les performances pour les deux parties.
+Même si le traitement ou le filtrage ne dépasse pas le délai d’expiration de cinq secondes, il est toujours avantageux de séparer le premier point de contact du filtrage ou du traitement des messages des autres étapes de traitement ou de diffusion côté client. Ainsi, la remise du message à la destination à partir du service d’abonnement à un événement a un impact minimal sur le temps et les performances pour les deux parties.
 
 Pour en savoir plus sur le mécanisme de reprise, voir [Reprises d’abonnement à un événement](../../wf-api/api/event-sub-retries.md).
 
@@ -326,7 +330,7 @@ public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuer
 }
 ```
 
-En demandant des ressources, vous vous assurez que vos systèmes d’intégration disposent de la version la plus récente des ressources.
+En interrogeant des ressources, vous vous assurez que vos systèmes d’intégration disposent de la version la plus récente des ressources.
 
 ### Mise en œuvre d’un traitement asynchrone dans la diffusion de messages
 

@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 96%
+source-wordcount: 275
+ht-degree: 79%
 
 ---
-
 
 # Exigences de diffusion de l’abonnement à un événement
 
@@ -29,7 +31,7 @@ Les points d’entrée des services qui utilisent les messages d’abonnement au
 
 * Si aucun statut de niveau 200 n’est renvoyé, le système d’abonnement aux événements suppose que le message n’a pas été délivré correctement et commence à appliquer la politique de reprise appropriée. Pour en savoir plus sur la politique de reprise Workfront, voir la section [Reprises d’abonnement à un événement](../../wf-api/api/event-sub-retries.md).
 
-* Outre le renvoi d’un statut de niveau 200 en tant que statut de réponse, la réponse HTTP doit être reçue dans les cinq secondes suivant le début de la tentative de diffusion. Cette contrainte permet que les processus métier des clientes et clients ou les limitations d’infrastructure ne retardent pas la diffusion d’autres messages en attente.
+* En plus de renvoyer un statut de niveau 200 comme statut de réponse, la réponse HTTP doit être reçue dans les cinq secondes suivant le début de la tentative de diffusion.Cette contrainte garantit que les processus métier ou les limitations d&#39;infrastructure des clients ne retardent pas la diffusion d&#39;autres messages en attente de diffusion.
 
 * Si un processus métier à long terme se déclenche depuis un message d’abonnement à un événement, Workfront recommande que
 

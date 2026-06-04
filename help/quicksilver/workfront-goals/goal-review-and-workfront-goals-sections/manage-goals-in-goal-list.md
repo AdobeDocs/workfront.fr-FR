@@ -6,12 +6,18 @@ description: Une fois que vous ou d’autres personnes avez créé des objectifs
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/A-EiVjLjS0YMgxkouUlrAF2nxzi4l3oJDmLXTlqLlsA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 82%
+source-wordcount: 742
+ht-degree: 79%
 
 ---
 
@@ -72,7 +78,7 @@ Une fois que vous ou d’autres personnes avez créé des objectifs, vous pouvez
 </tbody>
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -288,8 +294,8 @@ Pour gérer les objectifs dans la liste des objectifs :
 
    Pour plus d’informations sur l’utilisation de filtres dans les Objectifs Workfront, voir [Filtrer des informations dans Objectifs Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 
-1. Cliquez sur l’un des champs dans les en-têtes de colonne pour trier la liste en fonction de ce champ.
-Une flèche s’affiche à droite du champ sur lequel la liste est triée.
+1. Cliquez sur l’un des champs des en-têtes de colonne pour trier la liste en fonction de ce champ.
+Une flèche s’affiche à droite du champ selon lequel la liste est triée.
 
 1. (Facultatif) Cliquez à nouveau sur le champ dans la colonne pour trier la même colonne dans un ordre décroissant.
 1. Cliquez sur le nom d’un objectif pour ouvrir la page de l’objectif.

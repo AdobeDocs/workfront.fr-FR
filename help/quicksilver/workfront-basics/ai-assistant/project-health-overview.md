@@ -5,9 +5,14 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: 2065
 ht-degree: 4%
 
 ---
@@ -139,7 +144,7 @@ Les conditions d’un projet donnent un aperçu de base des performances actuell
 Pour plus d’informations sur les conditions du projet, consultez les articles suivants :
 
 * [Mettre à jour la condition d’un projet](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-* [&#x200B; Conditions personnalisées &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+* [ Conditions personnalisées ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 ## Liste des états d’intégrité des projets et programmes
 
@@ -246,7 +251,7 @@ Vous pouvez avoir plusieurs configurations d’intégrité de projet dans votre 
 1. Dans la section **Quels facteurs souhaitez-vous inclure dans l’intégrité du projet**, désélectionnez tout facteur que vous ne souhaitez pas inclure lors de la détermination des critères d’intégrité de votre projet :
    * **Fluctuation de l’étendue** : pourcentage d’extension de l’étendue du projet depuis son lancement.
 
-   * **Champs obligatoires** : si des champs obligatoires sont manquants (par exemple, description du projet). Ces champs obligatoires déterminent l’exhaustivité du projet et sont spécifiés dans le **Quels champs voulez-vous vérifier l’exhaustivité ?** la section Configuration ci-dessous.
+   * **Champs obligatoires** : si des champs obligatoires sont manquants (par exemple, description du projet). Ces champs obligatoires déterminent l’exhaustivité du projet et sont spécifiés dans le **Quels champs voulez-vous vérifier l’exhaustivité ?** section de configuration ci-dessous.
 
 
    * **Modifications de planification** : nombre de modifications de planification qui se sont produites depuis le début du projet.
@@ -259,11 +264,11 @@ Vous pouvez avoir plusieurs configurations d’intégrité de projet dans votre 
 
    * **Coût** : si le projet dépasse actuellement le budget.
 
-1. Dans la **Quand votre projet commence-t-il officiellement ?** section, sélectionnez l’événement qui signale le début de votre projet dans la liste déroulante.
+1. Dans la **Quand votre projet démarre-t-il officiellement ?** , sélectionnez l’événement qui signale le début de votre projet dans la liste déroulante.
 
-1. Dans le **Comment estimez-vous l&#39;étendue du travail sur un projet ?** section, sélectionnez le facteur de projet qui augmentera à mesure que la portée du projet augmente.
+1. Dans le **Comment estimez-vous l&#39;étendue du travail sur un projet ?** , sélectionnez le facteur de projet qui augmentera à mesure que la portée du projet augmente.
 
-1. Dans la **Quel(le) champ(s) voulez-vous vérifier ?** section, sélectionnez un ou plusieurs champs qui doivent contenir une valeur pour le projet.
+1. Dans la **Quel(le) champ(s) voulez-vous vérifier ?** , sélectionnez un ou plusieurs champs qui doivent contenir une valeur pour le projet.
 
    ![Champs obligatoires du projet pour l’intégrité du projet](assets/project-completeness-fields.png)
 
@@ -318,7 +323,7 @@ Pour générer une évaluation de l&#39;intégrité d&#39;un projet ou d&#39;un 
 
    >[!NOTE]
    >
-   >Si vous accédez à l’assistant AI à partir d’une autre page de Workfront, vous pouvez saisir *Quel est l’intégrité du projet [NOM DU PROJET] ?* ou *Quel est l&#39;état du programme [NOM DU PROGRAMME] ?* <br>
+   >Si vous accédez à l’assistant AI à partir d’une autre page de Workfront, vous pouvez saisir *Quelle est la santé du projet [NOM DU PROJET]?* ou *Quelle est la santé du programme [NOM DU PROGRAMME]?* <br>
    >Pour obtenir la liste complète des invites actuelles que vous pouvez saisir, reportez-vous à la section [Liste des invites de l&#39;assistant AI](#ai-assistant-prompts-list) de cet article.
 
 1. Cliquez sur l’icône **Envoyer** ![Icône Envoyer](assets/send-icon.png). L’évaluation de l’intégrité du projet génère et s’affiche dans le panneau. Un badge s’affiche en haut de chaque évaluation de l’intégrité du projet, qui reflète l’état actuel du projet.

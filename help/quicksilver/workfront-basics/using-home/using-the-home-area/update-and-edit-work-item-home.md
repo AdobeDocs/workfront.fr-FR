@@ -6,12 +6,18 @@ description: Vous pouvez consulter et ajouter des mises à jour à un élément 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/stUm9llYC3331mkk1MJkQTpOtucveUyjTeXBlxDfSgA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: 826
+ht-degree: 27%
 
 ---
 
@@ -103,7 +109,7 @@ Vous pouvez modifier des éléments de travail dans les widgets suivants de la z
 
 ## Ajouter un commentaire à un élément de travail dans le widget Mes tâches
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL &#x200B; Mon travail &#x200B;] :
+Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL  Mon travail ] :
 
 1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget [!UICONTROL **Mon travail**].
@@ -157,6 +163,6 @@ Vous pouvez modifier n’importe quel champ de n’importe quel élément de tra
    ![Ouvrir le résumé](assets/open-summary-new-home.png)
 
 1. Dans le panneau Résumé , passez la souris sur le champ à modifier.
-Si vous avez le droit de modifier le champ, celui-ci est mis en évidence lorsque vous pointez dessus.
+Si vous disposez des droits de modification du champ, celui-ci est mis en surbrillance lorsque vous le survolez avec la souris.
 1. Cliquez sur le champ à modifier, puis effectuez la mise à jour souhaitée.
 1. Cliquez en dehors du champ pour enregistrer vos modifications.

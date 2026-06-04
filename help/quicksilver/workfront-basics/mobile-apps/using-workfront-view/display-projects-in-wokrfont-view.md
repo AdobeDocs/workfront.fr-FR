@@ -7,10 +7,15 @@ description: Par défaut, la liste des projets affichée dans  [!DNL Adobe Workf
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 98%
+source-wordcount: 359
+ht-degree: 95%
 
 ---
 
@@ -35,7 +40,7 @@ Par défaut, la liste des projets affichée dans [!DNL Adobe Workfront View] aff
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
@@ -60,7 +65,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * **[!UICONTROL Progression]**
    * **[!UICONTROL Statut]**
    * **[!UICONTROL Sponsor]**
-Les projets sont désormais répertoriés selon les valeurs possibles de ces champs.\
+Les projets sont désormais répertoriés, regroupés par les valeurs possibles de ces champs.\
       Vous pouvez regrouper les projets selon un critère à la fois. Les critères sont préchargés dans l’application dans les graphiques situés en haut de la liste des projets et ne peuvent pas être modifiés.
 
 ## Afficher les détails du projet

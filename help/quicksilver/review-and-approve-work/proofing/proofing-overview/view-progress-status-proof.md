@@ -6,10 +6,14 @@ description: Vous pouvez afficher des informations sur la progression d’une é
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 97%
+source-wordcount: 320
+ht-degree: 93%
 
 ---
 
@@ -47,7 +51,7 @@ La progression de la relecture indique le travail effectué sur une épreuve ent
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Décision prise</strong> </p> </td> 
-   <td> <p>Tous les approbateurs et toutes les approbatrices concernés prennent une décision sur l’épreuve, tous les approbateurs et toutes les approbatrices concernés prennent une décision sur l’épreuve, sauf si l’auteur ou l’autrice de l’épreuve indique qu’une seule décision est nécessaire.</p> <p>Si aucun approbateur ou aucune approbatrice (décideur ou décideuse) n’est désigné pour l’épreuve, l’icône <strong>D</strong> n’apparaît pas dans la barre de progression.</p> </td> 
+   <td> <p>Tous les approbateurs et toutes les approbatrices concernés prennent une décision sur l’épreuve, tous les approbateurs et toutes les approbatrices concernés prennent une décision sur l’épreuve, sauf si l’auteur ou l’autrice de l’épreuve indique qu’une seule décision est nécessaire.</p> <p>Si aucun approbateur ou aucune approbatrice (décideur ou décideuse) n’est désigné pour l’épreuve, l’icône <strong>D</strong> n’apparaît pas dans la barre de progression. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +97,7 @@ Les icônes de progression peuvent apparaître dans les couleurs suivantes pour 
 
 ## Vue d’ensemble des statuts de l’épreuve
 
-Le statut de l’épreuve indique le statut des décisions requises pour l’épreuve. Le statut de l’épreuve dépend du participant du « pire cas ». Par exemple, supposons qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et une a le statut **Rejeté**. La décision dans le « pire cas » **Rejeté** est prioritaire sur les autres décisions et le statut global de l’épreuve est affiché comme **Rejeté**.
+Le statut de l’épreuve affiche le statut des décisions requises pour l’épreuve. Le statut du BAT est déterminé par le participant dans le « pire des cas ». Supposons, par exemple, qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et l’autre a le statut **Rejeté**. La décision du « pire des cas » de **Rejeté** prévaut sur les autres décisions et le statut global de l’épreuve s’affiche comme **Rejeté**. 
 
 ![Modification de l’épreuve en cours](assets/proof-edit-existing-progress-350x62.png)
 

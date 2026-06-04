@@ -6,10 +6,14 @@ description: Lorsque vous envoyez un document (DOCX, PDF, XLSX, AI) à des fins 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 100%
+source-wordcount: 632
+ht-degree: 99%
 
 ---
 
@@ -52,6 +56,6 @@ Normalement, le traitement prend quelques secondes par page. Cependant, divers f
 
 Les fichiers soumis suivent certaines ou toutes les étapes suivantes :
 
-1. **Soumission**. Lorsque vous chargez un document sur le système, vous utilisez la page Nouvelle épreuve ou une interface de programmation d’application (API).
-1. **File d’attente**. Lors des périodes de trafic importantes, Workfront peut être amené à mettre en file d’attente les envois pour éviter de surcharger le système. La plupart des épreuves ne passent que quelques secondes dans une file d’attente.
+1. **Envoi**. Lorsque vous téléchargez un document dans le système, vous le faites à l’aide de la page Nouvelle épreuve ou d’une interface de programmation d’application (API). 
+1. **File d’attente**. Pendant les périodes de trafic important, Workfront peut avoir besoin de mettre les envois en file d’attente pour éviter de surcharger le système. La plupart des épreuves ne passent que quelques secondes dans une file d’attente. 
 1. **Traitement en cours.** Les fichiers atteignent les machines de traitement en fonction du type de contenu. Nous utilisons différents outils pour traiter les épreuves vidéo, les captures web, les images statiques et les documents. Les envois de conteneurs de médias riches (ZIP) et de captures web interactives ne nécessitent pas de traitement.

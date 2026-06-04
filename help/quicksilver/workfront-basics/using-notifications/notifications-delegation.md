@@ -6,9 +6,12 @@ description: Les notifications suivantes vous informent des délégations de tâ
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/c5WDbyvlVudvdpdKqcjSrqqKLn4Y-kecu5Lb0pmm0vM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: 300
 ht-degree: 100%
 
 ---
@@ -19,7 +22,7 @@ Les notifications suivantes vous informent des délégations de tâches et de pr
 
 Pour plus d’informations sur la configuration des notifications que vous recevez, voir la section [Modifier vos propres notifications par e-mail](activate-or-deactivate-your-own-event-notifications.md).
 
-Consultez également la section [Notifications d’événements](event-notifications.md).
+Voir aussi [Notifications d’événements](event-notifications.md).
 
 >[!NOTE]
 >

@@ -7,12 +7,15 @@ description: Le planificateur de scénarios n’est disponible que dans la nouve
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/LvjgUviaZwtv02BBrBjc8HGjUyZBYfF-yEz--COompY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 99%
+source-wordcount: 946
+ht-degree: 94%
 
 ---
 
@@ -69,7 +72,7 @@ Vous pouvez afficher les indicateurs financiers suivants sur une initiative en y
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fixed Costs]</td> 
-   <td> <p><span style="font-weight: normal;">Il s’agit d’une entrée manuelle dans laquelle vous pouvez estimer <span>un montant mensuel des coûts fixes pour chaque mois de l’initiative.</span> Cela n’inclut pas les coûts associés aux rôles ajoutés à l’initiative, qui sont capturés dans le champ [!UICONTROL People Cost].</span> </p> </td> 
+   <td> <p><span style="font-weight: normal;">Il s’agit d’une entrée manuelle où vous pouvez estimer <span>un montant mensuel de coûts fixes pour chaque mois de l’initiative.</span> Cela n’inclut pas les coûts associés aux rôles ajoutés à l’initiative qui sont capturés dans le champ [!UICONTROL People Cost].</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL People Costs]</td> 

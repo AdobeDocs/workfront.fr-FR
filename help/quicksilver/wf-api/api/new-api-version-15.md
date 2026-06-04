@@ -7,10 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/8aay3Ew3jFaxu2L-uvvlW-aqGo7ZT5Jj5TvrTCg96gM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 99%
+source-wordcount: 2294
+ht-degree: 100%
 
 ---
 
@@ -362,8 +368,7 @@ L’objet TaskDef représente un ensemble de données concernant le format des t
       <td>
         <ul>
           <li>
-            <p><b>objectCategories
-</b>
+            <p><b>objectCategories</b>
             </p>
           </li>
         </ul>
@@ -811,7 +816,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>Ajout.</p>
+            <p>Ajouté.</p>
           </li>
           <li>
             <p><b>taskDef</b>
@@ -826,8 +831,7 @@ Un élément de travail donné, tel qu’une tâche, un document ou une feuille 
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b>objectIntegrations
-</b>
+            <p style="font-weight: bold;"><b>objectIntegrations</b>
             </p>
             <p style="font-weight: normal;">Ajout.</p>
             <p>Dans certains cas, il est possible de lier des éléments de travail Workfront directement aux objets d’un logiciel externe. L’objet ObjectIntegration représente ce lien.</p>
@@ -899,12 +903,12 @@ Un objet Category est un formulaire personnalisé.
           <li>
             <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>Ajout.</p>
+            <p>Ajouté.</p>
           </li>
           <li>
             <p><b>journaledObjCodes</b>
             </p>
-            <p>Ajout.</p>
+            <p>Ajouté.</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>

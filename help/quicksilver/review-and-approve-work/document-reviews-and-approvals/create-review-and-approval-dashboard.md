@@ -6,9 +6,14 @@ description: Vous pouvez consulter les mesures d’approbation dans les Tableaux
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 0b4884d6c9a88c096b15af65a2aff0a54ca66811
+TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: 2561
 ht-degree: 1%
 
 ---
@@ -88,7 +93,6 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Statut**.
    1. Laissez l’opérateur sur **Égal**, puis saisissez _en attente de révision_ dans la zone de texte.
-
       ![exemple de filtre kpi en attente](assets/pending-kpi-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -134,13 +138,11 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Sélectionnez **Étape d’approbation** > **Échéance**.
    1. Remplacez l’opérateur par **Inférieur à**.
    1. Basculez **Définir la date relative** sur **ON**, puis saisissez _$$TODAY_ dans la zone de texte.
-
       ![exemple de filtre kpi en retard](assets/overdue-kpi-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Statut**.
    1. Modifiez l’opérateur sur **Ne contient pas**, puis saisissez _approuvé_ dans la zone de texte.
-
       ![exemple 2 de filtre kpi en retard](assets/overdue-kpi-filter-2.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -187,14 +189,12 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Sélectionnez **Statut**.
 
    1. Remplacez l’opérateur par **Contient** et saisissez _Approved_ dans la zone de texte.
-
       ![exemple de filtre kpi terminé](assets/completed-kpi-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez sur **Et** pour le remplacer par **Ou**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Statut**.
    1. Remplacez l’opérateur par **Égal**, puis saisissez _révisé_ dans la zone de texte.
-
       ![exemple de filtre kpi terminé](assets/completed-kpi-filter-2.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -239,14 +239,12 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Sélectionnez **Statut**.
 
    1. Modifiez l’opérateur sur **Ne contient pas** et saisissez _approuvé_ dans la zone de texte.
-
       ![exemple de filtre kpi abandonné](assets/abandoned-kpi-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Échéance**.
    1. Remplacez l’opérateur par **Inférieur à**, puis activez le bouton (bascule) **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAY-2w_ dans la zone de texte.
-
       ![exemple de filtre kpi abandonné](assets/abandoned-kpi-filter-2.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -284,7 +282,6 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Version du document** > **Version**.
    1. Remplacez l’opérateur par **N’est pas nul**.
-
       ![exemple de filtre](assets/approvals-by-decision-chart-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -323,14 +320,12 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Date de décision**.
 
    1. Remplacez l’opérateur par **Est nul**.
-
       ![exemple de filtre de graphique de révisions](assets/revision-chart-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Étape d’approbation** > **Échéance**.
    1. Remplacez l’opérateur par **Inférieur ou égal à**, puis activez l’option **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAYem_ dans la zone de texte.
-
       ![Exemple de filtre de graphique de révisions](assets/revision-chart-filter-2.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -404,7 +399,6 @@ Pour plus d&#39;informations sur la création d&#39;un rapport tabulaire, voir [
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Statut**.
    1. Remplacez l’opérateur par **Égal**, puis saisissez _en attente d’approbation_ dans la zone de texte.
-
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approval-table-filter.png)
    1. (Facultatif) Ajoutez des filtres supplémentaires comme décrit dans la section **Filtres facultatifs** ci-dessous.
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
@@ -422,7 +416,6 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Version du document** > **Document** > **Projet** > **Propriétaire** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Moi (utilisateur connecté)** pour afficher les projets dans Workfront où vous êtes marqué comme propriétaire du projet.
-
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approvals-my-project-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -432,7 +425,6 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Demandeur** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Moi (utilisateur connecté)** pour afficher les projets dans Workfront où vous êtes marqué comme propriétaire du projet.
-
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approvals-my-project-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -502,7 +494,6 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Sélectionnez **Étape d’approbation** > **Échéance**.
    1. Remplacez l’opérateur par **Inférieur à**, puis activez le bouton (bascule) **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAY_ dans le champ de texte.
-
       ![exemple de filtre de table des approbations échues](assets/overdue-approval.png)
    1. (Facultatif) Ajoutez des filtres supplémentaires comme décrit dans la section **Filtres facultatifs** ci-dessous.
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
@@ -521,7 +512,6 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Version du document** > **Document** > **Projet** > **Propriétaire** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Moi (utilisateur connecté)** pour afficher les projets dans Workfront dans lesquels vous êtes marqué comme propriétaire du projet.
-
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approvals-my-project-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -531,7 +521,6 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Demandeur** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Moi (utilisateur connecté)** pour afficher les projets dans Workfront dans lesquels vous êtes marqué comme propriétaire du projet.
-
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approvals-my-project-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -541,7 +530,6 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Équipe de participants** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Mes équipes par défaut (Utilisateur connecté)** ou **Mes autres équipes (Utilisateur connecté)** pour afficher les projets affectés à votre équipe par défaut ou aux autres équipes auxquelles vous appartenez.
-
       ![exemple de filtre de table d&#39;approbation en attente](assets/approvals-ive-submitted-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 +++

@@ -6,10 +6,13 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: 917
+ht-degree: 98%
 
 ---
 
@@ -63,7 +66,7 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Une personne est ajoutée à un projet.</strong> </p> <p>Une personne gestionnaire reçoit une notification par e-mail lorsqu’une personne de ses collaborateurs ou collaboratrices est ajoutée à un projet. Cette notification est envoyée quel que soit le statut du projet. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail est le suivant : <em>Affectaion de projet : &lt;User Name&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
+   <td> <p><strong>Une personne est ajoutée à un projet.</strong> </p> <p>Un responsable reçoit une notification par e-mail lorsqu’un de ses utilisateurs est ajouté à un projet. Cette notification est envoyée quel que soit le statut du projet. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail est le suivant : <em>Affectaion de projet : &lt;User Name&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
    <td> <p>Nom du projet<br>Nom du portfolio<br>Numéro de référence du projet<br>Nom de la personne ayant ajouté la personne au projet<br>Nom de la personne ajoutée au projet<br>[!UICONTROL Planned Start Date] du projet<br>[!UICONTROL Planned Completion Date] du projet<br>Pourcentage terminé du projet <br>Noms d’autres personnes sur le projet<br>Statut du projet<br>Personne propriétaire du projet<br><strong>Bouton [!UICONTROL See More Details]</strong><br><br><br></p> </td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 

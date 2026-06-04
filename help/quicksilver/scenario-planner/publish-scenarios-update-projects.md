@@ -7,11 +7,17 @@ description: Vous pouvez créer des projets à partir d’initiatives existantes
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: 1705
 ht-degree: 81%
 
 ---
@@ -46,7 +52,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
   </tr> 
     <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et </p></td> 
+   <td> <p>Accès à [!UICONTROL Edit] pour les projets [!DNL Scenario Planner] et [!UICONTROL]</p></td> 
   </tr> 
   <tr> 
    <td> <p>Autorisations d’objet </p> </td> 
@@ -58,7 +64,7 @@ La publication d’un scénario à partir du [!DNL Adobe Workfront Scenario Plan
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -254,15 +260,15 @@ Avant de commencer :
       <tbody> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Duration]</span> </td> 
-        <td><span>Durée de l’initiative correspondante lorsque le projet est lié à une initiative. Ce champ n’est pas modifiable.</span> </td> 
+        <td><span>La durée de l’initiative correspondante lorsque le projet est lié à une initiative. Ce champ n’est pas modifiable.</span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Last Published Date]</span> </td> 
-        <td><span>Date à laquelle le projet a été publié pour la dernière fois à partir d’une initiative correspondante.</span> </td> 
+        <td><span>La date à laquelle le projet a été publié pour la dernière fois à partir d’une initiative correspondante.</span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Start Date]</span> </td> 
-        <td><span>Premier jour du mois du début de l’initiative, lorsque le projet est lié à une initiative.</span> </td> 
+        <td><span>Le premier jour du mois du début de l’initiative, lorsque le projet est lié à une initiative.</span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative End Date]</span> </td> 

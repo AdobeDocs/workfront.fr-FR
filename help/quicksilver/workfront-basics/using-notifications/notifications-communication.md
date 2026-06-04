@@ -6,9 +6,13 @@ description: Les notifications suivantes vous avertissent des communications, te
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: 1492
 ht-degree: 100%
 
 ---
@@ -38,7 +42,7 @@ Consultez également la section [Notifications d’événements](../../workfront
   <tr> 
    <td> <p><strong>Quelqu'un m'a inclus dans une mise à jour dirigée.</strong> </p> <p>On parle de mise à jour dirigée lorsqu’un utilisateur ou une utilisatrice inclut spécifiquement une autre personne dans une mise à jour, comme décrit dans <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">[!UICONTROL Tag others on] mises à jour</a>.</p> <p>Dans ce cas, l’utilisateur ou utilisatrice qui est inclus dans la mise à jour dirigée reçoit une notification par e-mail concernant la mise à jour.</p> <p>La notification par e-mail n’est envoyée que si la personne dispose de droits d’accès à l’objet.</p> <p>L’objet de l’e-mail de notification instantanée est : <em>&lt;Name of the user who included you in the update&gt; [!UICONTROL wanted you to know].</em></p> <p>L’objet de la notification du résumé quotidien est : <em>[!UICONTROL Digest of Communication] &lt;Date of daily digest&gt;.</em></p> </td> 
    <td> Nom de l’objet où la mise à jour a été effectuée<br>Nom de l’objet parent<br>Numéro de référence de l’objet<br>Noms de tous les utilisateurs, utilisatrices et équipes inclus dans la mise à jour dirigée<br>Date et heure de la mise à jour<br>Texte de la mise à jour dirigée<br><strong>Bouton [!UICONTROL Comment]</strong><br>*Nombre total de commentaires reçus<br>*Nombre de commentaires reçus pour chaque objet<br>*<strong>Bouton [!UICONTROL See All Notifications]</strong><br>*Date de la synthèse quotidienne<br></td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Quelqu’un répond à ma demande</strong> </p> <p>Lorsqu’une personne soumet une demande de travail et qu’une autre personne y répond, l’utilisateur ou utilisatrice qui a soumis la demande reçoit une notification par e-mail.</p> <p>Une notification par e-mail n’est pas envoyée si :</p> 
@@ -52,7 +56,7 @@ Consultez également la section [Notifications d’événements](../../workfront
   <tr> 
    <td> <p><strong>Un commentaire a été publié au sujet de ma demande</strong> </p> <p>La personne ayant créé un problème reçoit une notification par e-mail lorsqu’un commentaire est posté sur une demande [!UICONTROL Help Desk], sauf si l’utilisateur ou utilisatrice qui a posté le commentaire est également la personne ayant créé le problème.</p> <p>Tous les utilisateurs et utilisatrices directement concernés par le commentaire reçoivent également une notification par e-mail.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current].</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Comment on] &lt;Request Name&gt; sur &lt;Project Name&gt; (réf n°  &lt;Request Reference Number&gt;)</em></p> <p>L’objet de la notification de la synthèse quotidienne est le suivant :<em> [!UICONTROL Digest of Communication] &lt;Date of daily digest&gt;.</em></p> </td> 
    <td> Nom de la demande<br>Nom du projet<br>Numéro de référence<br>Nom de l’utilisateur ou utilisatrice qui a répondu à votre demande<br>Date et heure du commentaire<br>Texte du commentaire sur votre demande<br>*Nombre total de commentaires reçus<br>*Nombre de commentaires reçus pour chaque demande<br>*Nom du projet<br>*<strong>Bouton [!UICONTROL See All Notifications]</strong><br>*Date de la synthèse quotidienne<br></td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Un commentaire a été ajouté sur mon document</strong> </p> <p>La personne propriétaire d’un document dans [!DNL Adobe Workfront] reçoit une notification par e-mail lorsqu’un commentaire est publié sur le document, sauf si l’utilisateur ou utilisatrice qui a publié le commentaire est également la personne propriétaire du document.</p> <p>Tous les utilisateurs et utilisatrices directement concernés par le commentaire reçoivent également une notification par e-mail.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current]. </p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Comment on] &lt;Request Name&gt; sur &lt;Project Name&gt; (n° réf. &lt;Request Reference Number&gt;)</em></p> <p> L’objet de la notification de la synthèse quotidienne est le suivant :<em> [!UICONTROL Digest of Communication] &lt;Date of daily digest&gt;.</em></p> </td> 

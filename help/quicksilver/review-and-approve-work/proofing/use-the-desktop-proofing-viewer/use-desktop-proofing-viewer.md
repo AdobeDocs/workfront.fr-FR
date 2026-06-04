@@ -2,20 +2,23 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: "Utiliser la visionneuse de vérification de l’appli de bureau : index de l’article"
+title: 'Utiliser la visionneuse de relecture de bureau : index des articles'
 description: Installer la visionneuse de relecture de bureau
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9451302a-9add-4958-91e9-8d4de6add139
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+TQID: https://experienceleague.adobe.com/u4BnfQUbsMfGOaos44BvjIuInZpxhvCDhBvtXWvCFeI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 70%
+source-wordcount: 49
+ht-degree: 100%
 
 ---
 
-# Utilisation de la visionneuse de vérification de l’appli de bureau : index de l’article
+# Utiliser la visionneuse de relecture de bureau : index des articles
 
 * [Installer la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
 * [Mettre à jour la visionneuse de relecture de bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)

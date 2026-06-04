@@ -7,12 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3591'
-ht-degree: 100%
+source-wordcount: 3231
+ht-degree: 93%
 
 ---
 
@@ -330,7 +334,7 @@ Si une personne n’a pas accès à un objet Workfront dont elle a besoin, elle 
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">action</p> <p>Ajout de la valeur possible BUDGETING_INFORMATION. Cela permet aux personnes autorisées de modifier les priorités et les heures budgétées dans le planificateur.  </p> </li> 
+     <li> <p style="font-weight: bold;">action</p> <p>Ajout de la valeur possible BUDGETING_INFORMATION. Cela permet aux utilisateurs autorisés à modifier les priorités et les heures du budget dans le planificateur.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -422,7 +426,7 @@ Un objet ApprovalPath est une branche dans un processus d’approbation. Les che
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps des mois écoulés, qui fait référence aux mois sans tenir compte des week-ends ou des jours fériés.  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps Mois écoulés, qui fait référence aux mois indépendamment des week-ends ou des jours fériés.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -440,7 +444,7 @@ Un objet ApprovalProcess est une approbation en plusieurs étapes qui peut être
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un objet est actif et « false » dans le cas contraire. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de saisie permettant de les joindre à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté et est un paramètre booléen qui a une valeur true si un objet est actif et false dans le cas contraire. Les objets définis sur Actifs apparaissent dans les menus déroulants et les champs de saisie semi-automatique et peuvent être associés à d’autres objets. Les objets non définis sur Actifs ne sont pas visibles dans les menus déroulants et les champs de saisie semi-automatique à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -465,7 +469,7 @@ Un objet d’affectation représente la connexion entre un élément de travail 
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps des mois écoulés, qui fait référence aux mois sans tenir compte des week-ends ou des jours fériés.  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps Mois écoulés, qui fait référence aux mois indépendamment des week-ends ou des jours fériés.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -483,7 +487,7 @@ Les niveaux de référence sont des instantanés de ce à quoi ressemblaient les
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps des mois écoulés, qui fait référence aux mois sans tenir compte des week-ends ou des jours fériés.  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps Mois écoulés, qui fait référence aux mois indépendamment des week-ends ou des jours fériés.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -501,7 +505,7 @@ Un objet Category est un formulaire personnalisé. Vous pouvez créer des rappor
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un objet est actif et « false » dans le cas contraire. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de saisie permettant de les joindre à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté et est un paramètre booléen qui a une valeur true si un objet est actif et false dans le cas contraire. Les objets définis sur Actifs apparaissent dans les menus déroulants et les champs de saisie semi-automatique et peuvent être associés à d’autres objets. Les objets non définis sur Actifs ne sont pas visibles dans les menus déroulants et les champs de saisie semi-automatique à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -526,7 +530,7 @@ Un objet Company représente une organisation composée d’un ensemble de perso
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un objet est actif et « false » dans le cas contraire. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de saisie permettant de les joindre à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté et est un paramètre booléen qui a une valeur true si un objet est actif et false dans le cas contraire. Les objets définis sur Actifs apparaissent dans les menus déroulants et les champs de saisie semi-automatique et peuvent être associés à d’autres objets. Les objets non définis sur Actifs ne sont pas visibles dans les menus déroulants et les champs de saisie semi-automatique à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -738,7 +742,7 @@ Un jalon est un marqueur d’une tâche qui indique qu’il s’agit d’un poin
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un objet est actif et « false » dans le cas contraire. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de saisie permettant de les joindre à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté et est un paramètre booléen qui a une valeur true si un objet est actif et false dans le cas contraire. Les objets définis sur Actifs apparaissent dans les menus déroulants et les champs de saisie semi-automatique et peuvent être associés à d’autres objets. Les objets non définis sur Actifs ne sont pas visibles dans les menus déroulants et les champs de saisie semi-automatique à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -844,7 +848,7 @@ Un objet de paramètre est un champ personnalisé.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Ajout de la valeur possible TYAH (Typeahead).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code objet d’un objet référencé. Les codes objet de tous les objets se trouvent dans l’<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Explorateur d’API</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Ce champ a été ajouté et fait référence au code objet d’un objet référencé. Vous trouverez les codes d’objet de tous les objets dans l’<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">explorateur d’API</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -881,8 +885,8 @@ Un objet de programme est un sous-ensemble d’un portfolio, où des projets sim
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>description</p> <p style="font-weight: normal;">Ajout du programme de validation MAX_LENGTH, qui spécifie que la longueur de la description ne dépasse pas 4 000 caractères.</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un objet est actif et « false » dans le cas contraire. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de saisie permettant de les joindre à d’autres objets.  </p> </li> 
-     <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">Ajout du programme de validation MAX_LENGTH, qui spécifie que la longueur du nom ne dépasse pas 255 caractères.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté et est un paramètre booléen qui a une valeur true si un objet est actif et false dans le cas contraire. Les objets définis sur Actifs apparaissent dans les menus déroulants et les champs de saisie semi-automatique et peuvent être associés à d’autres objets. Les objets non définis sur Actifs ne sont pas visibles dans les menus déroulants et les champs de saisie semi-automatique à joindre à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>nom </p> <p style="font-weight: normal;">Ajout du programme de validation MAX_LENGTH, qui spécifie que la longueur du nom ne dépasse pas 255 caractères.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1169,7 +1173,7 @@ Un objet Template représente un modèle de projet. Les projets peuvent être cr
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté. Il s’agit d’un paramètre booléen dont la valeur est « true » si un objet est actif et « false » dans le cas contraire. Les objets définis comme actifs apparaissent dans les menus déroulants et les champs de saisie et peuvent être attachés à d’autres objets. Les objets qui ne sont pas définis sur Actif ne sont pas visibles dans les menus déroulants et les champs de saisie permettant de les joindre à d’autres objets.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Ce champ a été ajouté et est un paramètre booléen qui a une valeur true si un objet est actif et false dans le cas contraire. Les objets définis sur Actifs apparaissent dans les menus déroulants et les champs de saisie semi-automatique et peuvent être associés à d’autres objets. Les objets non définis sur Actifs ne sont pas visibles dans les menus déroulants et les champs de saisie semi-automatique à joindre à d’autres objets.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1203,7 +1207,7 @@ Un objet Template représente un modèle de projet. Les projets peuvent être cr
    <td>Champs directs</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps des mois écoulés, qui fait référence aux mois sans tenir compte des week-ends ou des jours fériés.  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">Ajout de la valeur possible ET. Cette valeur représente l’unité de temps Mois écoulés, qui fait référence aux mois indépendamment des week-ends ou des jours fériés.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

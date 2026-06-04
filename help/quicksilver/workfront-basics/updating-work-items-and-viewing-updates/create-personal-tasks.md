@@ -6,11 +6,16 @@ description: Les tâches personnelles sont des demandes de travail ad hoc que vo
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/tAnhVp-Klh4GLTkGPDP3mXq1fHdulLV-iJ-lj2R20Tk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 652
 ht-degree: 6%
 
 ---
@@ -118,7 +123,7 @@ Old:
    >
    >Votre administrateur Workfront peut vous empêcher de voir certains utilisateurs lorsqu’ils configurent votre niveau d’accès.
 
-1. Cliquez sur le **&#x200B;**&#x200B;Plus![](assets/more-menu.png) situé à droite du nom de l’utilisateur dans l’en-tête.
+1. Cliquez sur le ![](assets/more-menu.png) **Plus** situé à droite du nom de l’utilisateur dans l’en-tête.
 1. Cliquez sur **Envoyer la demande de travail**.
 La zone **Envoyer une demande de travail à l&#39;utilisateur** s&#39;affiche.
 

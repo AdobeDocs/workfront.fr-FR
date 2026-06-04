@@ -6,10 +6,16 @@ description: Un workflow automatisé facilite la gestion du processus de révisi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 99%
+source-wordcount: 1760
+ht-degree: 97%
 
 ---
 
@@ -182,7 +188,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
     <tbody> 
      <tr> 
       <td role="rowheader">Connexion requise : l’épreuve ne peut être partagée qu’avec d’autres utilisateurs et utilisatrices.</td> 
-      <td>Lorsque cette option est désactivée (par défaut), toute personne disposant de l’URL peut afficher l’épreuve. <br>Lorsque cette option est sélectionnée, ce qui suit s’applique :
+      <td>Lorsque cette option est désactivée (par défaut), toute personne disposant d’une URL peut consulter le BAT. <br>Lorsque cette option est sélectionnée :
        <ul>
         <li>L’épreuve n’est accessible qu’aux utilisateurs et utilisatrices pouvant afficher l’épreuve.</li>
         <li>Les utilisateurs et utilisatrices ne peuvent pas se connecter à l’épreuve à moins qu’ils n’aient été ajoutés à l’épreuve.</li>
@@ -211,7 +217,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">S’abonner à l’épreuve via une URL publique ou un code intégré</td> 
-      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
+      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées au BAT peuvent s’abonner au BAT. Le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants sont attribués à la personne abonnée au BAT :
        <ul>
         <li><strong>Rôle de personne abonnée :</strong> rôle d’épreuve par défaut attribué à tous les réviseurs et toutes les réviseuses qui s’abonnent à l’épreuve.</li>
         <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> alerte par e-mail par défaut attribuée à tous les réviseurs et toutes les réviseuses qui s’abonnent à l’épreuve.</li>

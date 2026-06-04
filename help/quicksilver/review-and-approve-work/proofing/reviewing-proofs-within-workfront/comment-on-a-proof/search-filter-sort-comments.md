@@ -6,12 +6,17 @@ description: Vous pouvez rechercher, filtrer et trier les commentaires sur les �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/06PPfHkl-tob4Ze47xstRtgBu6XrAgo8OkcN2IYEbrI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 96%
+source-wordcount: 780
+ht-degree: 95%
 
 ---
 
@@ -41,7 +46,7 @@ Vous pouvez rechercher, filtrer et trier les commentaires sur les épreuves afin
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +96,7 @@ Vous pouvez filtrer les commentaires qui s’affichent en définissant des param
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Actions</strong> </td> 
-      <td>Affiche uniquement les commentaires qui correspondent à l’action sélectionnée. Les actions doivent être activées dans votre système. Pour plus d’informations, voir .
+      <td>Affiche uniquement les commentaires correspondant à l’action sélectionnée. Aucune action. Les actions doivent être activées dans votre système. Pour plus d’informations, voir .
       <!--
         &nbsp;
        -->
@@ -101,10 +106,10 @@ Vous pouvez filtrer les commentaires qui s’affichent en définissant des param
       <td role="rowheader"><strong>Options générales de filtrage</strong> </td> 
       <td> 
        <ul> 
-        <li><strong>Non résolus</strong> : affiche uniquement les commentaires qui ne sont pas encore résolus.</li> 
-        <li><strong>Non lus</strong> : affiche uniquement les commentaires que vous n’avez pas encore lus.</li> 
+        <li><strong>Non résolus</strong> : affiche uniquement les commentaires qui ne sont pas encore résolus. </li> 
+        <li><strong>Non lus</strong> : affiche uniquement les commentaires que vous n’avez pas encore lus. </li> 
         <li><strong>Avec pièces jointes</strong> : affiche uniquement les commentaires qui contiennent une pièce jointe, ou les commentaires qui incluent une réponse contenant une pièce jointe.</li> 
-        <li><strong>Page actuelle uniquement</strong> : affiche uniquement les commentaires de la page que vous êtes en train de consulter. La liste des commentaires est actualisée lorsque vous changez de page visible.Disponible uniquement pour les épreuves statiques et interactives.</li> 
+        <li><strong>Page actuelle uniquement</strong> : affiche uniquement les commentaires de la page que vous êtes en train de consulter. La liste des commentaires est actualisée lorsque vous changez de page visible. Disponible uniquement pour les épreuves statiques et interactives.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,7 +168,7 @@ Lorsque vous triez la liste des commentaires, l’option de tri que vous choisis
      </tr> 
      <tr> 
       <td role="rowheader">Horodatage (haut)</td> 
-      <td>Affiche les commentaires dans leur ordre d’apparition par rapport à la chronologie de la vidéo.Les commentaires les plus récents dans la chronologie s’affichent en premier. </td> 
+      <td>Affiche les commentaires dans leur ordre d’apparition par rapport à la chronologie de la vidéo. Les commentaires les plus récents dans la chronologie s’affichent en premier. </td> 
       <td>Disponible uniquement pour les épreuves vidéo.</td> 
      </tr> 
      <tr> 

@@ -6,10 +6,13 @@ description: Consultez cet article pour devenir Beta-testeur ou Beta-testeuse iO
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 99%
+source-wordcount: 442
+ht-degree: 97%
 
 ---
 
@@ -27,7 +30,7 @@ Vous pouvez utiliser l’[!DNL Apple App Store] pour rechercher et télécharger
 >
 >Une fois que vous avez installé l’application [!DNL TestFlight] et que vous êtes Beta-testeur ou Beta-testeuse sur votre appareil [!DNL iOS], vous devez télécharger les versions mises à jour de [!DNL Workfront] à l’aide de l’application [!DNL TestFlight], au lieu de l’[!DNL Apple Store]. Si vous n’êtes pas Beta-testeur ou Beta-testeuse pour [!DNL iOS], vous pouvez continuer à mettre à jour votre application mobile à partir de l’[!DNL Apple Store].
 
-#### &#x200B;1. Installer l’application [!DNL TestFlight]
+#### &#x200B;1. Installation de l’application [!DNL TestFlight]
 
 Pour installer la version Beta de l’application [!DNL Workfront], vous devez avoir installé l’application [!DNL TestFlight] sur votre appareil. Après avoir installé [!DNL TestFlight], vous devez installer l’application [!DNL Workfront].
 
@@ -41,7 +44,7 @@ Pour installer la version Beta de l’application [!DNL Workfront], vous devez a
 1. Appuyez sur **[!UICONTROL Accepter]** pour accepter les conditions générales de l’application [!DNL TestFlight].\
    L’application [!DNL TestFlight] est installée sur votre appareil. Passez à la section suivante.
 
-#### &#x200B;2. Installer l’application Beta [!DNL Workfront] dans [!DNL TestFlight]
+#### &#x200B;2. Installation de l’application [!DNL Workfront] Beta dans [!DNL TestFlight]
 
 Vous devez disposer des applications [!DNL Workfront] et [!DNL TestFlight] sur votre appareil iOS avant de pouvoir devenir Beta-testeur ou Beta-testeuse sur un appareil iOS.
 
@@ -58,7 +61,7 @@ Vous devez disposer des applications [!DNL Workfront] et [!DNL TestFlight] sur v
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version Beta et télécharger l’application :
 
-![Code QR iOS](assets/ios-qr-code-350x397.png)
+![Code QR ](assets/ios-qr-code-350x397.png)
 
 ## Nous faire part de votre retour d’expérience
 

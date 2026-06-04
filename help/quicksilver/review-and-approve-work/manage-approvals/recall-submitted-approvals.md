@@ -6,10 +6,16 @@ description: Vous pouvez rappeler l’un des objets suivants soumis à approbati
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/ItAwwM5EdjZeV5LRwfkSnEYB6GCfpuLzOCfANanm-hE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 88%
+source-wordcount: 1202
+ht-degree: 87%
 
 ---
 
@@ -33,7 +39,7 @@ Vous pouvez rappeler l’un des objets suivants soumis à approbation :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +72,7 @@ Si vous rappelez une approbation associée au statut initial du projet, le proce
 
 >[!NOTE]
 >
->Vous pouvez associer le premier statut d’un projet ou d’une tâche à un processus d’approbation à l’aide d’un modèle.Pour plus d’informations sur l’ajout d’approbations à un modèle, voir  [Modifier des modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Vous pouvez associer le premier statut d’un projet ou d’une tâche à un processus d’approbation à l’aide d’un modèle. Pour plus d’informations sur l’ajout d’approbations à un modèle, voir  [Modifier des modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 Pour rappeler une approbation de projet que vous avez envoyée :
 

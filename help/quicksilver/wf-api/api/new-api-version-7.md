@@ -7,9 +7,13 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/16roY0csrhwq92dDL9hI0NNGj3LcbUw9FGSJMyxbKMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: 488
 ht-degree: 100%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 100%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Recherche |
 | deadLine |   |   |   |   |   |   |
-| name |   |   |   |   |   |   |
+| nom |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,7 +70,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Nombre</td> 
+   <td>Nombre </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -75,7 +79,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Supprimer</td> 
+   <td>Supprimer </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -84,7 +88,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Get  </td> 
+   <td>Obtenir  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -93,7 +97,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Rapport</td> 
+   <td>Rapport </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,7 +106,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Rechercher</td> 
+   <td>Rechercher </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,7 +131,7 @@ ht-degree: 100%
 | ID |   |   |   |   |   | Nombre |
 |   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
-|   |   |   |   |   |   | Recherche |
+|   |   |   |   |   |   | Rechercher |
 
 {style="table-layout:auto"}
 
@@ -143,7 +147,7 @@ ht-degree: 100%
 |   |   |   |   |   |   | Modifier |
 |   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
-|   |   |   |   |   |   | Recherche |
+|   |   |   |   |   |   | Rechercher |
 
 {style="table-layout:auto"}
 
@@ -154,7 +158,7 @@ ht-degree: 100%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | groupID | groupe |   |   |   |   |   |
-| isOwner  | utilisateur ou utilisatrice |   |   |   |   |   |
+| isOwner  | utilisateur ou utilisatrice  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -172,7 +176,7 @@ ht-degree: 100%
 |   |   |   |   |   |   | Modifier |
 |   |   |   |   |   |   | Obtenir |
 |   |   |   |   |   |   | Rapport |
-|   |   |   |   |   |   | Recherche |
+|   |   |   |   |   |   | Rechercher |
 |   |   |   |   |   |   | Remplacer |
 
 {style="table-layout:auto"}
@@ -185,13 +189,13 @@ ht-degree: 100%
 |---|---|---|---|---|---|---|
 | ID | customer | utilisateurs |   |   |   | Ajouter |
 | customerID  | entryBy  |   |   |   |   | Nombre |
-| description | lastUpdatedBy  |   |   |   |   | Supprimer |
-| entryByID |   |   |   |   |   | Modifier |
-| entryDate |   |   |   |   |   | Obtenir |
-| extRefID |   |   |   |   |   | Rapport |
+| description  | lastUpdatedBy  |   |   |   |   | Supprimer |
+| enteredByID  |   |   |   |   |   | Modifier |
+| entryDate  |   |   |   |   |   | Obtenir |
+| extRefID  |   |   |   |   |   | Rapport |
 | lastUpdateDate |   |   |   |   |   | Recherche |
 | lastUpdateByID |   |   |   |   |   |   |
-| name |   |   |   |   |   |   |
+| nom |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -204,7 +208,7 @@ ht-degree: 100%
 | ID |   |   |   |   |   | Nombre |
 | articleName  |   |   |   |   |   | Obtenir |
 | pageID  |   |   |   |   |   | Rapport |
-| url  |   |   |   |   |   | Recherche |
+| url  |   |   |   |   |   | Recherche |
 
 {style="table-layout:auto"}
 
@@ -256,9 +260,9 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 {style="table-layout:auto"}
 
- 
+  
 
-### Chemin d’approbation <sup>1</sup>
+### Chemin d’approbation<sup>1</sup>
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -292,7 +296,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
@@ -302,7 +306,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
  
 
-### Client ou cliente
+### Client 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -314,17 +318,17 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
  
 
-### Énumération personnalisée
+### Énumération personnalisée 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| groupID |   |   |   |   |   |   |
+| groupID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### Document
+### Document 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -334,7 +338,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
  
 
-### DocumentVersion
+### DocumentVersion 
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
@@ -348,7 +352,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| isPublic | layoutTemplate | userGroups |   |   |   |   |
+| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -364,8 +368,8 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
 |   |   |   |   |   | defaultTaskHourType  |   |
-|   |   |   |   |   | globalHourTypes |   |
-|   |   |   |   |   | objectHourTypes |   |
+|   |   |   |   |   | globalHourTypes  |   |
+|   |   |   |   |   | objectHourTypes  |   |
 
 {style="table-layout:auto"}
 
@@ -423,7 +427,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   | queueTopicID |   |
+|   |   |   |   |   |  queueTopicID |   |
 
 {style="table-layout:auto"}
 
@@ -433,7 +437,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   |   |   |   | updateLastViewedObject |   |   |
+|   |   |   |   |  updateLastViewedObject |   |   |
 
 {style="table-layout:auto"}
 
@@ -443,7 +447,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple |   |   |
+| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
@@ -459,7 +463,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Changement du type de Ent à Double
+<sup>1</sup> Changement du type de Ent à Double 
 
  
 
@@ -491,13 +495,13 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
    <td> </td> 
    <td>
     <code>roles</code> </td> 
-   <td>roles</td> 
+   <td> roles</td> 
    <td>addMobileDevice</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
    <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
@@ -548,7 +552,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   | unackknowledgeMany |   |   |
+| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
@@ -562,7 +566,7 @@ Modifications apportées aux objets existants : les ajouts sont simplement rép
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| name |   |   |   |   |   |   |
+|  name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

@@ -5,10 +5,15 @@ description: Vous pouvez facilement localiser des éléments dans  [!DNL Adobe W
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
+TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 61%
+source-wordcount: 1469
+ht-degree: 62%
 
 ---
 
@@ -225,7 +230,7 @@ Pour affiner une recherche, procédez comme suit :
 1. (Le cas échéant) Si vous avez effectué une recherche générale, sélectionnez l’objet que vous recherchiez dans la liste des objets située dans le coin supérieur gauche de vos résultats.
 1. Recherchez les champs disponibles pour les objets affichés dans la recherche dans la barre d’outils située à gauche de vos résultats. Les valeurs de chaque champ s’affichent, triées en fonction du nombre, dans la limite de 10 valeurs par champ.
 1. Cliquez dans l’un des champs disponibles pour raccourcir la liste des résultats. Les sélections que vous effectuez sont mises en surbrillance en bleu et les valeurs de champ que vous ne sélectionnez pas sont masquées.
-Les résultats affichés à droite sont mis à jour de manière dynamique après la sélection de chaque nouvelle valeur.
+Après avoir sélectionné chaque nouvelle valeur, les résultats de la droite se mettent à jour dynamiquement.
 
    ![Onglet Recherche de base](assets/basic-search.png)
 
@@ -237,7 +242,7 @@ La [!UICONTROL Recherche avancée] vous permet d’effectuer une recherche à l�
 
 >[!NOTE]
 >
->Pour effectuer une [!UICONTROL recherche avancée], vous devez sélectionner l’option [!UICONTROL Recherche avancée] au début de votre recherche. Vous ne pouvez pas affiner une recherche de base dans une recherche [!UICONTROL avancée].
+>Pour effectuer une [!UICONTROL recherche avancée], vous devez sélectionner l’option [!UICONTROL Recherche avancée] quand vous commencez la recherche. Vous ne pouvez pas affiner une recherche de base dans une recherche [!UICONTROL avancée].
 
 * [Utiliser la fonctionnalité [!UICONTROL Recherche avancée]](#use-advanced-search)
 

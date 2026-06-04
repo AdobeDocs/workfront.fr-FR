@@ -8,13 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/7ozt2OXI0CWlPmtkJGlaD-n6pekapA0X-GBpwDhFZ4Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: 478
 ht-degree: 100%
 
 ---
-
 
 # Utiliser l’API pour synchroniser les données des programmes et services
 
@@ -54,7 +58,7 @@ https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,
 
 ### Objet « Entrée du journal »
 
-Pour obtenir des modifications concernant un champ spécifique d’un objet, vous pouvez consulter l’objet « Entrée du journal ». L’objet « Entrée du journal Workfront » peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+Pour obtenir des modifications concernant un champ spécifique d’un objet, vous pouvez interroger l’objet « Entrée du journal ». L’objet « Entrée du journal Workfront » peut être configuré pour consigner des informations sur des champs d’objet spécifiques chaque fois que ces champs sont modifiés. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Lorsqu’un champ est configuré pour être enregistré en tant qu’objet « Entrée du journal », une entrée du journal correspondante est créée chaque fois que ce champ est modifié. Vous pouvez ensuite interroger l’objet « Entrée du journal » à l’aide d’un appel API comme suit :
 

@@ -6,12 +6,17 @@ description: Vous pouvez rester dans les applications Adobe Creative Cloud et 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/ZNcKhUpW6KoynPoCZ4UoV9780zHYsGKvtzmi4FbI6Qc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 97%
+source-wordcount: 265
+ht-degree: 90%
 
 ---
 
@@ -83,7 +88,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!NOTE]
    >
-   >Si l’élément de travail a des tâches antérieures, le bouton Terminé est gris jusqu’à ce que ces tâches antérieures soient marquées comme terminées. Pour afficher les tâches antérieures dans [!DNL Workfront], cliquez sur le nom de la tâche.
+   >Si l’élément de travail a des prédécesseurs, le bouton Terminé reste gris jusqu’à ce que ces prédécesseurs soient marqués comme terminés. Pour afficher les prédécesseurs dans [!DNL Workfront], cliquez sur le nom de la tâche.
    >![Accéder à Workfront](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

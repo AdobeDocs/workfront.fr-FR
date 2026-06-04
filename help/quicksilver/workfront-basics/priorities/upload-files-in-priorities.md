@@ -1,19 +1,24 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Charger les fichiers dans les priorités
+title: Charger des fichiers dans Priorités
 description: Vous pouvez charger des fichiers à partir de la liste de travail Priorités ou d’éléments de travail individuels. Les fichiers chargés à partir de Priorités apparaissent dans l’onglet Documents de l’élément de travail.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 29%
+source-wordcount: 309
+ht-degree: 35%
 
 ---
 
-# Charger les fichiers dans les priorités
+# Charger des fichiers dans Priorités
 
 Vous pouvez charger des fichiers à partir de la liste de travail Priorités ou d’éléments de travail individuels. Les fichiers chargés à partir de Priorités apparaissent dans l’onglet Documents de l’élément de travail.
 
@@ -28,13 +33,13 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licences Adobe Workfront*</td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p> 
+   <p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 

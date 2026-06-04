@@ -6,14 +6,17 @@ description: L’outil de révision Adobe Workfront est une extension de navigat
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
+TQID: https://experienceleague.adobe.com/jwZKladWxKsiSvAjO8me1BWoxMx1UDB2TKl7k-jnjcY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 2%
+source-wordcount: 646
+ht-degree: 3%
 
 ---
 
-# Révision de contenu interactif avec l’outil de révision Adobe Workfront
+# Réviser le contenu interactif avec l’outil de révision Adobe Workfront
 
 
 >[!IMPORTANT]
@@ -37,13 +40,13 @@ L’outil de révision Adobe Workfront est une extension de navigateur web qui v
 
 Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Workfront. dans l’un des navigateurs suivants :
 
-* [Extension Firefox &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [Extension Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
-* [Extension Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+* [Extension ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+* [](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
-* [Extension Safari &#x200B;](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+* [Extension Safari](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
 
 
 

@@ -1,19 +1,24 @@
 ---
 product-area: projects;calendars
 navigation-topic: use-the-home-area
-title: Temps de connexion à un élément de travail à partir de la zone d’accueil
+title: Consigner le temps passé sur un élément de travail depuis la zone d’accueil
 description: Vous pouvez consigner des heures sur n’importe quel élément de travail dans la [!UICONTROL liste de travail] de la zone [!UICONTROL Accueil]. Pour plus d’informations, voir la section [!UICONTROL Accueil] dans l’article Consigner les heures.
 author: Courtney and Alina
 feature: Get Started with Workfront, Work Management
 exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+TQID: https://experienceleague.adobe.com/ivi84AixylgVnI--tfnx3KHYCmMiKue1YlaUdnN353A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: 68
 ht-degree: 54%
 
 ---
 
 # Consigner les heures passées sur un élément de travail à partir de la zone [!UICONTROL Accueil]
 
-Vous pouvez consigner le temps sur n’importe quel élément de travail dans la liste de tâches de la zone Accueil. Pour plus d’informations, voir [Temps du journal](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Vous pouvez enregistrer le temps passé sur n’importe quel élément de travail de la Liste de travail dans la zone Accueil . Pour plus d’informations, voir [Consigner le temps](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

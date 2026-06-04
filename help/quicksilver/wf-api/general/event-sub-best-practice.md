@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 87%
+source-wordcount: 356
+ht-degree: 86%
 
 ---
-
 
 # Bonnes pratiques en matière d’abonnement aux événements
 
@@ -32,7 +36,7 @@ N’incluez pas de champs de corps supplémentaires dans la requête, car cela e
 
 ## Éviter de surcharger les abonnements aux événements
 
-Le service d’abonnement aux événements est conçu pour fournir une diffusion fiable des événements à tous les utilisateurs. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par une seule personne, qui pourrait entraîner des problèmes de qualité de service pour tout le monde. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de mise en sandbox et de retards de diffusion d’événements.
+Le service des abonnements aux événements est conçu pour assurer une diffusion fiable des événements à tous les utilisateurs et utilisatrices. Pour ce faire, des mesures de protection ont été mises en place pour éviter une production excessive d’événements par une seule personne, qui pourrait entraîner des problèmes de qualité de service pour tout le monde. Par conséquent, un utilisateur ou une utilisatrice qui produit trop d’événements à un taux élevé sur une courte période peut faire l’objet de mise en sandbox et de retards de diffusion d’événements.
 
 ## Terminer le test dans le délai de grâce
 
@@ -50,7 +54,7 @@ Pour que votre pare-feu ne bloque pas les payloads d’abonnement aux événemen
 
 Pour créer, interroger ou supprimer un abonnement à un événement, votre utilisateur ou utilisatrice Workfront a besoin des éléments suivants :
 
-* Un niveau d’accès **Administrateur ou administratrice système**
-Pour en savoir plus, consultez [Attribuer un accès administratif complet à un utilisateur ou une utilisatrice](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Attribuer aux utilisateurs et utilisatrices un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Un niveau d’accès **Administrateur système**
+Pour en savoir plus, consultez [Octroi à un utilisateur d’un accès administratif complet](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Octroi aux utilisateurs d’un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Si votre organisation utilise Adobe IMS (système Identity Management), incluez un jeton d’utilisateur IMS transmis dans l’en-tête `X-User-Token`.

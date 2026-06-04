@@ -1,15 +1,20 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Questions fréquentes sur l’intégration d’Adobe Workfront avec  [!DNL Anaplan]
+title: 'Questions fréquentes sur l’intégration d’Adobe Workfront avec  [!DNL Anaplan] '
 description: Dois-je utiliser  [!DNL Adobe Workfront Fusion?] ?
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+TQID: https://experienceleague.adobe.com/e-IZiEvF2GkA5uS3QA-J8LQYCeV9dU698hPcSnCqR3Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: 520
+ht-degree: 97%
 
 ---
 
@@ -27,7 +32,7 @@ ht-degree: 100%
 
 Non. Cette intégration peut être effectuée avec n’importe quelle plateforme d’intégration en tant que service. Toutefois, l’utilisation de [!UICONTROL Workfront Fusion] vous donne accès aux modèles de scénarios [!DNL Fusion] qui jettent les bases de cette intégration et permettent un déploiement beaucoup plus rapide que de créer l’intégration à partir de zéro.
 
-## Pouvons-nous faire le même type d’intégration avec un outil financier autre qu’[!DNL Anaplan] ? {#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan}
+## Pouvons-nous faire le même genre d&#39;intégration avec un autre outil financier autre que [!DNL Anaplan]? {#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan}
 
 Bien sûr. Cependant, en tant que partenaire principal d’[!DNL Adobe], [!DNL Anaplan] est l’objectif principal pour les investissements futurs en matière d’intégration. Les clientes et clients qui intègrent [!DNL Anaplan] pourront tirer parti des modèles de scénarios [!UICONTROL Workfront Fusion] qui jettent les bases de cette intégration et permettent un déploiement beaucoup plus rapidement que de créer l’intégration à partir de zéro avec un autre système financier.
 

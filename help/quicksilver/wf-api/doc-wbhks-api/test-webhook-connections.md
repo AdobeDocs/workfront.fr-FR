@@ -8,13 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/08obyXZ-MxoG1JqSrG-skblpHIudRUTeCcZ3vsUocBs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 100%
+source-wordcount: 809
+ht-degree: 96%
 
 ---
-
 
 # Tester les connexions de webhook
 
@@ -38,7 +42,7 @@ Teste l’URL d’authentification et l’URL du point d’entrée du jeton pour
 
 1. Dans Workfront, accédez à la page principale des documents en cliquant sur le lien Documents dans la barre de navigation supérieure.
 1. Cliquez sur le menu déroulant Ajouter des documents et sélectionnez votre service Document Webhook dans Ajouter un service.
-1. (Services OAuth uniquement) Après avoir effectué l’étape précédente, vous verrez la page d’authentification OAuth2 de votre service s’afficher dans une fenêtre contextuelle. (Remarque : il se peut que vous receviez d’abord une invitation à vous connecter à votre service.) Sur la page d’authentification, accordez à Workfront l’accès au compte de l’utilisateur ou de l’utilisatrice en cliquant sur le bouton Approuver ou autoriser.
+1. (Services OAuth uniquement) Après avoir effectué l’étape précédente, vous verrez la page d’authentification OAuth2 de votre service s’afficher dans une fenêtre contextuelle. (Remarque : il se peut que vous soyez invité à vous connecter d&#39;abord à votre service.) Sur la page d’authentification , accordez à Workfront l’accès au compte de l’utilisateur en cliquant sur le bouton Approbation ou Autoriser .
 1. Vérifiez que votre service a été ajouté au menu déroulant Ajouter des documents. Si en premier lieu vous ne le voyez pas, essayez d’actualiser votre navigateur.
 
 **Test 2 : lier un document dans Workfront Teste les points d’entrée suivants : /files, /metadata.**
@@ -69,7 +73,7 @@ Teste les points d’entrée suivants : /metadata (en particulier le viewLink).
 
 **Test 5 : télécharger le document à partir du système de gestion de contenu**
 
-Teste les points d’entrée suivants (en particulier le lien de téléchargement) : /metadata.
+Teste les points d’entrée suivants (en particulier le lien de téléchargement) : /metadata. 
 
 1. Liez un document dans Workfront.
 1. Sélectionnez le document et cliquez sur le lien Télécharger.

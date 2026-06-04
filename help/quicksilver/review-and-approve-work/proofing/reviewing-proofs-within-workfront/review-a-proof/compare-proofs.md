@@ -7,10 +7,15 @@ description: Vous pouvez utiliser la visionneuse de relecture pour comparer deux
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/jC40GG5UEDKYTfnUKUW1x1ttjIGJQctSaxR0frUzflk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 96%
+source-wordcount: 286
+ht-degree: 97%
 
 ---
 
@@ -27,7 +32,7 @@ Vous pouvez utiliser la visionneuse de relecture pour comparer deux épreuves di
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +49,7 @@ Vous pouvez utiliser la visionneuse de relecture pour comparer deux épreuves di
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,4 +87,4 @@ Vous pouvez comparer deux épreuves dans n’importe quelle liste de documents, 
 
 ## Comparer deux versions de la même épreuve
 
-Pour plus d’informations sur la comparaison de deux versions d’une même épreuve, voir [Comparer des versions d’épreuves &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) dans [Comparer des épreuves dans la visionneuse de relecture](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+Pour plus d’informations sur la comparaison de deux versions d’une même épreuve, voir [Comparer des versions d’épreuves ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) dans [Comparer des épreuves dans la visionneuse de relecture](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).

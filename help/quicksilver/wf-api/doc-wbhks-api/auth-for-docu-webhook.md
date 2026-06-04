@@ -8,9 +8,12 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/cRJbyPxBa-US0cV1cHsi43qvV59-AwhPgFjEhWsC1ME
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: 439
 ht-degree: 100%
 
 ---
@@ -34,7 +37,7 @@ pour agir en son nom. Ce processus de liaison ne s’opère qu’une seule fois 
 1. Workfront traite cette requête et effectue un appel API vers l’URL de point d’entrée du jeton avec le code d’autorisation.
 1. L’URL de point d’entrée du jeton renvoie un jeton d’actualisation et un jeton d’accès.
 1. Workfront stocke ces jetons et fournit une intégration des webhooks complète pour cette personne.
-1. Désormais, Workfront peut effectuer des appels API autorisés vers le fournisseur de webhooks.Lors de ces appels, Workfront envoie le jeton d’accès dans l’en-tête de requête HTTP comme indiqué ci-dessous :
+1. Désormais, Workfront peut effectuer des appels API autorisés vers le fournisseur de webhooks. Lors de ces appels, Workfront envoie le jeton d’accès dans l’en-tête de requête HTTP comme indiqué ci-dessous :
 
    ```
    -------------------------------  
@@ -46,7 +49,7 @@ pour agir en son nom. Ce processus de liaison ne s’opère qu’une seule fois 
 
 ### ApiKey
 
-Il est beaucoup plus simple d’effectuer des appels API autorisés vers un fournisseur de webhooks avec ApiKey plutôt qu’avec OAuth2. Lors d’un appel API, Workfront transmet simplement les noms d’utilisateur ou d’utilisatrice ApiKey et Workfront dans l’en-tête de la requête HTTP :
+Il est beaucoup plus simple d’effectuer des appels API autorisés vers un fournisseur de webhooks avec ApiKey plutôt qu’avec OAuth2. Lors d’un appel API, Workfront transmet simplement les noms d’utilisateur ou d’utilisatrice ApiKey et Workfront dans l’en-tête de la requête HTTP : 
 
 ```
 -------------------------------

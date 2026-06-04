@@ -6,14 +6,20 @@ description: Un type d’heure est une étiquette qui vous permet de classer les
 author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 28%
+source-wordcount: 1498
+ht-degree: 29%
 
 ---
 
-# Définir les types d&#39;heures et la disponibilité
+# Définir des types d’heures et la disponibilité
 
 <!--Audited: 6/2025-->
 
@@ -39,7 +45,7 @@ Une fois les types d’heures appropriés configurés, vous pouvez consigner le 
  </col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +84,7 @@ La personne propriétaire du projet détermine si tous les types d’heures déf
 
 1. Dans la section **Paramètres du projet**, recherchez le paramètre **Filtrer les types d’heures**.
 
-1. Sélectionnez **Non** pour que tous les types d’heures spécifiques au projet soient disponibles dans le projet.
+1. Sélectionnez **Non** pour que tous les types d’heures spécifiques au projet soient disponibles sur le projet.
 
    Ou
 
@@ -129,7 +135,7 @@ Pour définir les types d’heure disponibles pour un utilisateur ou une utilisa
 
 1. (Facultatif) Dans le menu déroulant **Type d’heure par défaut**, sélectionnez un type d’heure. Lorsque le type d’heure par défaut de l’utilisateur et un type d’heure filtré de projet correspondent, ce type d’heure est sélectionné par défaut lors de la journalisation de l’heure.
 
-1. Cliquez sur Enregistrer les modifications. **&#x200B;**&#x200B;Désormais, lorsque vous consignez des heures pour un projet, une tâche ou un événement, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
+1. Cliquez sur Enregistrer les modifications. **** Désormais, lorsque vous consignez des heures pour un projet, une tâche ou un événement, les types d’heures que vous sélectionnez sont disponibles si ces mêmes types d’heures ont été rendus disponibles au niveau du projet.
 
 ## Fonctionnement des types d’heures au niveau de l’utilisateur ou de l’utilisatrice et au niveau du projet
 

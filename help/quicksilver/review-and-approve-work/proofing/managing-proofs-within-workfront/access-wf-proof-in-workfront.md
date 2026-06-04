@@ -7,20 +7,23 @@ description: Vous pouvez accéder rapidement à votre compte Workfront Proof di
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+TQID: https://experienceleague.adobe.com/ZA4KKoAVgQfPMGkGGZh-LFYux60-2-IbdrAvsKbW-pA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: 261
 ht-degree: 72%
 
 ---
 
 # Accéder à Workfront Proof à partir d’Adobe Workfront
 
-Vous pouvez accéder rapidement à votre compte Workfront Proof directement à partir de l’interface Adobe Workfront sans avoir à vous connecter à Workfront Proof lorsque les conditions suivantes sont remplies :
+Vous pouvez accéder rapidement à votre compte Workfront Proof directement à partir de l’interface d’Adobe Workfront sans avoir à vous connecter à Workfront Proof lorsque les conditions suivantes sont remplies :
 
-* Votre environnement Workfront est intégré à un compte Workfront Proof Premium. Pour plus d’informations sur les fonctionnalités disponibles uniquement avec un compte Workfront Proof Premium, voir .
+* Votre environnement Workfront est intégré à un compte Workfront Proof Premium. Pour plus d’informations sur les fonctionnalités disponibles uniquement avec un compte Workfront Proof Premium, consultez .
 
-  Vous disposez d’une licence Workfront Proof. (Vous n’avez pas besoin d’être administrateur Workfront Proof.)
+  Vous disposez d’une licence Workfront Proof. (Il n’est pas nécessaire d’être administrateur Workfront Proof.)
 
 * Vous disposez des droits d’administration dans Workfront et la relecture est activée sur votre compte d’utilisateur ou d’utilisatrice Workfront.
 

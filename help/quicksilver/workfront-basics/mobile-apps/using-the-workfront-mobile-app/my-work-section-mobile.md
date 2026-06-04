@@ -6,9 +6,12 @@ description: La section [!UICONTROL Mon travail] de la zone [!UICONTROL Accueil]
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q8O-skgPmvZXsiSzg-UTbtRMAIXXS79K517y8gYtyd0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 172
 ht-degree: 98%
 
 ---
@@ -23,7 +26,7 @@ La section [!UICONTROL Mon travail] de la zone [!UICONTROL Accueil] affiche vos 
 
 ![Mes tâches](assets/home-myworksection-338x379.png)
 
-## Personnaliser la section [!UICONTROL Mon travail] 
+## Personnaliser la section [!UICONTROL Mon travail]
 
 Vous pouvez choisir les éléments de menu à afficher dans [!UICONTROL Mon travail] et modifier l’ordre des éléments.
 
@@ -36,4 +39,4 @@ Vous pouvez choisir les éléments de menu à afficher dans [!UICONTROL Mon trav
    >
    >L’élément de menu [!UICONTROL Tâches et problèmes] est toujours affiché et vous ne pouvez pas le masquer.
 
-   ![&#x200B; Paramètres mobiles &#x200B;](assets/mobile-settings-338x366.png)
+   ![ Paramètres mobiles ](assets/mobile-settings-338x366.png)

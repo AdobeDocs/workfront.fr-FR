@@ -6,12 +6,18 @@ description: Vous pouvez importer des projets existants dans un plan. Les projet
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 90%
+source-wordcount: 1679
+ht-degree: 85%
 
 ---
 
@@ -59,7 +65,7 @@ Vous pouvez importer des projets existants dans un plan. Les projets importés s
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -163,7 +169,7 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
     <ul> 
      <li> <p>[!DNL Workfront] utilise les fonctions affectées aux tâches et aux problèmes ou les fonctions auxquelles les personnes affectées à des tâches ou des problèmes sont associées sur le projet et les transfère vers la nouvelle initiative en tant que fonctions obligatoires. </p> </li> 
      <li> <p>Lorsque le plan est configuré pour utiliser les équivalents temps complet, les heures prévues associées aux fonctions sur les tâches et les problèmes du projet sont d’abord converties en équivalents temps complet. Cet équivalent temps complet est ensuite affecté à la fonction de l’initiative. <span>Les heures prévues sont réparties de manière égale dans [!DNL Workfront]. Si une tâche ou un problème s’étend sur plusieurs mois, le nombre d’heures prévues pour chaque mois pendant la durée de l’initiative est converti en équivalents temps complet mensuels et transféré à chaque mois de l’initiative.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><span>si une tâche est affectée à une fonction pour 80 heures prévues en septembre, la fonction importée affiche 0,5 équivalent temps complet pour l’initiative en septembre.</span> </p> </li> 
-     <li> <p>[!DNL Workfront] calcule l’équivalent temps complet des fonctions obligatoires associées à l’initiative à l’aide de la formule suivante :</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Conseil : le [!DNL Scenario Planner] suppose qu’il y a 160 heures ouvrées par mois.</p> <p>Par exemple, si un projet a une durée de 1 200 minutes et qu’une fonction sur le projet est associée à 600 minutes des heures prévues, son équivalent temps complet est de 0,5. Lors de l’importation du projet, l’équivalent temps complet de la fonction obligatoire pour l’initiative nouvellement créée est de 0,5 pour chaque mois de l’initiative. </p> </li> 
+     <li> <p>[!DNL Workfront] calcule l’équivalent temps complet des fonctions obligatoires associées à l’initiative à l’aide de la formule suivante :</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Conseil : le [!DNL Scenario Planner] suppose qu’il y a 160 heures ouvrées par mois.</p> <p>Par exemple, si un projet a une durée de 1 200 minutes et qu’une fonction sur le projet est associée à 600 minutes d’heures planifiées, son équivalent temps complet est de 0,5. Lors de l’importation du projet, l’équivalent temps complet requis pour la fonction sur l’initiative nouvellement créée est de 0,5 pour chaque mois de l’initiative. </p> </li> 
      <li>Lorsqu’une fonction est affectée à une tâche du projet sans heures prévues, l’équivalent temps complet requis pour la fonction de l’initiative est nul par défaut.
      <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -185,7 +191,7 @@ Lorsque vous importez un projet dans un plan, certaines informations sur le proj
 >
 >Les événements suivants se produisent :
 >
->* Les modifications apportées au projet n’ont aucune incidence sur l’initiative une fois le projet importé dans le plan. Ces modifications incluent les modifications apportées aux affectations de fonctions.
+>* Les modifications apportées au projet n’affectent jamais l’initiative après l’importation du projet dans le plan.Ces modifications incluent des modifications apportées aux allocations de fonctions.
 >* Les modifications apportées à l’initiative affectent les informations de la zone [!DNL Scenario Planner] sur le projet uniquement lorsque vous publiez l’initiative sur le projet correspondant. Sinon, elles n’affectent pas les informations sur les [!UICONTROL Heures prévues] relatives aux tâches et aux problèmes du projet.
 >
 >  Pour plus d’informations sur l’impact de la publication des initiatives sur les projets liés, voir [Mettre à jour ou créer des projets en publiant des initiatives dans le planificateur de scénarios](../scenario-planner/publish-scenarios-update-projects.md).

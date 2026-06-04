@@ -5,10 +5,15 @@ description: Vous pouvez résumer rapidement des éléments de travail et des do
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
+TQID: https://experienceleague.adobe.com/sVulqIEiWIz7ItrQgGV-79JI-Sng-7oM9mmoK-I6Olk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 13%
+source-wordcount: 279
+ht-degree: 17%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 13%
 
 L’assistant d’IA recherche des informations dans la documentation de Workfront, ce qui évite d’avoir à se rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
 
-Par exemple, si vous demandez à l’assistant AI « Comment créer une file d’attente des demandes ? », il renvoie les instructions de création de la demande, extraites de l’article [&#x200B; Créer et gérer des files d’attente des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Par exemple, si vous demandez à l’assistant AI « Comment créer une file d’attente des demandes ? », il renvoie les instructions de création de la demande, extraites de l’article [ Créer et gérer des files d’attente des demandes ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 
 ## Conditions d’accès
@@ -28,7 +33,7 @@ Par exemple, si vous demandez à l’assistant AI « Comment créer une file d�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +54,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
   Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans la présentation de l’assistant AI.
 * Votre administrateur Workfront doit avoir activé AI Assistant pour votre niveau d’accès.
 
-  Pour plus d’informations, voir [Activer ou désactiver l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Pour plus d’informations, voir [Activer ou désactiver l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Obtenir des informations à partir de l’assistant AI
 

@@ -6,10 +6,15 @@ description: Vous pouvez configurer certains paramètres d’accès et d’abonn
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/lcalyeMjj8Vj7hcdgwQx03101gSgocB82uWXHaZCacQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 99%
+source-wordcount: 823
+ht-degree: 94%
 
 ---
 
@@ -42,7 +47,7 @@ Vous pouvez configurer certains paramètres d’accès et d’abonnement pour de
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p></td> 
+   <td> <p>Accès en modification aux documents</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,9 +76,9 @@ Pour configurer les paramètres d’accès et d’abonnement pour une épreuve p
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Autoriser l’abonnement à l’épreuve via une URL publique ou un code intégré</strong> </td> 
-      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
+      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées au BAT peuvent s’abonner au BAT. Le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants sont attribués à la personne abonnée au BAT :
        <ul>
-        <li><p><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve. </p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
+        <li><p><strong>Rôle de personne abonnée :</strong> rôle par défaut pour l’épreuve affecté à toutes les personnes chargées de la révision qui s’abonnent à l’épreuve. </p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
         <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> l’alerte par défaut qui est affectée à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li>
        </ul><p>
         <ul>
@@ -103,9 +108,9 @@ Pour configurer les paramètres d’accès et d’abonnement pour une épreuve q
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Autoriser l’abonnement à l’épreuve via une URL publique ou un code intégré</strong> </td> 
-      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
+      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées au BAT peuvent s’abonner au BAT. Le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants sont attribués à la personne abonnée au BAT :
        <ul>
-        <li><p><strong>Rôle de personne abonnée :</strong> le rôle d’épreuve par défaut attribué à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve. </p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
+        <li><p><strong>Rôle de personne abonnée :</strong> rôle par défaut pour l’épreuve affecté à toutes les personnes chargées de la révision qui s’abonnent à l’épreuve. </p><p>Important : si <strong>Autoriser le partage avec</strong> est défini sur toute autre valeur que <strong>Tous</strong> dans les paramètres de Workfront Proof, l’abonnement ne fonctionne que pour les personnes de l’organisation. Pour plus d’informations, voir <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configurer des paramètres d’épreuve dans Workfront Proof</a>.</p></li>
         <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> l’alerte par défaut qui est affectée à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li>
        </ul><p>
         <ul>

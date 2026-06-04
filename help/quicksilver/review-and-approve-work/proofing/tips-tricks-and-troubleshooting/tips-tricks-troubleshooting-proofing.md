@@ -1,19 +1,23 @@
 ---
-title: 'Conseils, astuces et dépannage pour la relecture dans Adobe Workfront : index d’article'
+title: 'Conseils, astuces et résolution des problèmes pour la relecture dans Adobe Workfront : index des articles'
 description: Conseils, astuces et dépannage pour la relecture dans Adobe Workfront
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 5c97fc71eb9516407cf57517d9e817abf4335343
+TQID: https://experienceleague.adobe.com/mSirQEhhr-s9uGwZCL80dxPLpuBTkigfmPnCMba1lEs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 63%
+source-wordcount: 106
+ht-degree: 100%
 
 ---
 
-# Conseils, astuces et dépannage pour la relecture dans Adobe Workfront : index d’article
+# Conseils, astuces et résolution des problèmes pour la relecture dans Adobe Workfront : index des articles
 
 Cette section contient les articles suivants :
 
@@ -23,4 +27,4 @@ Cette section contient les articles suivants :
 * [Questions fréquentes : relecture dans Adobe Workfront - Migration des États-Unis vers la zone EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [Le nom du document a changé après le chargement et contient un caractère non valide](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Relire un PowerPoint avec une vidéo incorporée](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
-* [Les versions d’épreuve ne peuvent pas être téléchargées ou prévisualisées lorsqu’une épreuve interactive est ajoutée en tant que nouvelle version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+* [Les versions d’épreuves ne peuvent pas être téléchargées ou prévisualisées lorsqu’une épreuve interactive est ajoutée en tant que nouvelle version.](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
