@@ -9,11 +9,18 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3451
@@ -233,7 +240,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
   >Définissez la valeur Temps de travail sur 1 pour indiquer que la personne est disponible pour effectuer le travail lié au projet pendant la totalité de son équivalent temps plein.
 
 * **Définir la date de désactivation** : cliquez sur ce bouton si vous souhaitez planifier la désactivation de cet utilisateur à une certaine date et à une certaine heure.
-* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [ Planification de la désactivation d’utilisateurs ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [ Désactiver ou réactiver un utilisateur ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Date de désactivation** : date et heure auxquelles l’utilisateur ou l’utilisatrice est désactivé(e). Pour plus d’informations sur la planification de la désactivation d’utilisateurs, voir [&#x200B; Planification de la désactivation d’utilisateurs &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) dans [&#x200B; Désactiver ou réactiver un utilisateur &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Rôle principal** : le rôle principal de tâche que l’utilisateur ou l’utilisatrice peut remplir dans Workfront. Chaque tâche et chaque problème affecté à un utilisateur ou à une utilisatrice est également affecté à cette fonction. Les fonctions sont essentielles à la gestion des ressources. Vous ne pouvez mettre à jour ce champ que si vous disposez d’une licence Standard ou Plan avec un accès utilisateur administratif ou si vous êtes un administrateur Workfront. Pour plus d’informations sur la configuration des utilisateurs et des utilisatrices disposant d’un accès d’administration, consultez la section [Accorder un accès aux utilisateurs et aux utilisatrices](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Seules les fonctions actives s’affichent dans la liste.
@@ -288,7 +295,7 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
    * Les utilisateurs disposant d&#39;une licence Standard ou Plan et ayant accès à la modification d&#39;utilisateurs ne peuvent afficher que les profils de feuilles de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Type d’heure par défaut** : sélectionner le type d’heure par défaut pour l’utilisateur ou l’utilisatrice. Il s’agit du type d’heure utilisé par défaut lorsque l’utilisateur ou l’utilisatrice consigne les heures.
-* **Types d’heure disponibles** : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [ Définir les types d’heures et la disponibilité ](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+* **Types d’heure disponibles** : sélectionner les types d’heures qui doivent être disponibles pour l’utilisateur ou l’utilisatrice. Ces types d’heures sont visibles dans tous les emplacements Workfront où l’utilisateur ou l’utilisatrice peut consigner des heures. Une personne ne peut voir que les types d’heures qui sont activés au niveau du projet et au niveau de la personne. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 * **Enregistrer le temps dans** : indiquez si l’utilisateur doit enregistrer le temps passé sur des tâches en heures ou en jours. Pour plus d’informations, consultez la section [Configurer si le temps est enregistré en heures ou en jours](/help/quicksilver/timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 * **Équivalent temps complet** : il s’agit de l’équivalent temps complet de l’utilisateur ou de l’utilisatrice. Workfront utilise ce nombre pour calculer la disponibilité de la personne en fonction du planning par défaut uniquement lorsque les préférences de gestion des ressources au niveau du système sont définies sur « Le planning par défaut ».
 

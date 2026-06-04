@@ -9,11 +9,18 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
 TQID: https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 950
@@ -89,7 +96,7 @@ Lorsque vous créez un statut personnalisé pour l’ensemble de l’organisatio
 
    Si vous modifiez un statut existant, cochez la case correspondante, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
-   ![ Modifier le statut personnalisé ](assets/edit-in-banner.png)
+   ![&#x200B; Modifier le statut personnalisé &#x200B;](assets/edit-in-banner.png)
 
 1. Configurez le statut à l’aide des options suivantes :
 

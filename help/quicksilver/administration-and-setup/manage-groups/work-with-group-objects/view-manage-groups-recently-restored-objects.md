@@ -9,10 +9,16 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
 TQID: https://experienceleague.adobe.com/6l-BO3BvpYCczzD-rfU5ecXqaInT9OM4OX4vRfrCT0k
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 310
@@ -84,5 +90,5 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. (Facultatif) Pour exporter la liste complète des objets de l’onglet, cliquez sur l’icône **Exporter**. ![icône Exporter](assets/export-icon.png).
 1. (Facultatif) Modifiez l’affichage des informations dans la liste à l’aide d’un filtre, d’une vue ou d’un regroupement.
 
-   Pour plus d’informations, voir [ Présentation des éléments de rapports ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+   Pour plus d’informations, voir [&#x200B; Présentation des éléments de rapports &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 

@@ -9,10 +9,16 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
 TQID: https://experienceleague.adobe.com/q1AaAmCj7h-4PsuPXTFuw-e-t3UYu-pVCdv53DQHyDk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1337
@@ -87,7 +93,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Le cas échéant, si le statut concerne un problème, assurez-vous que la **Liste principale** est sélectionnée.
 
-   ![Liste de Principal ](assets/master-list.png)
+   ![Liste de Principal &#x200B;](assets/master-list.png)
 
    Pour plus d’informations sur la personnalisation des autres types de problèmes (rapport de bugs, ordre de modification, problème, requête), voir [Personnaliser les types de problèmes par défaut](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -175,7 +181,7 @@ Si vous êtes administrateur ou administratrice de groupe (ou administrateur/adm
 1. Cochez la case correspondant au statut à modifier, puis cliquez sur **Modifier** dans la bannière située en bas de l’écran.
 
 
-   ![Modifier le statut ](assets/group-statuses-edit-new.png)
+   ![Modifier le statut &#x200B;](assets/group-statuses-edit-new.png)
 
 1. Activez l’option **Masquer le statut** qui s’affiche.
 

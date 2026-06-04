@@ -11,10 +11,15 @@ exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ssQ-zj5Hn4ZalKVm1ERlR3NIpqNJlwJjDqQoSFzJHMw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 512
@@ -71,7 +76,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Conditions préalables {#prerequisites}
 
 * Vous devez utiliser une file d’attente de demandes existante pour stocker les demandes de plan directeur. Le projet doit être enregistré en tant que file d’attente des demandes et il doit avoir le statut [!UICONTROL Actuel].
-* La file d’attente des demandes doit être publique. Dans les détails de la file d’attente des demandes, « [!UICONTROL  Qui peut ajouter des demandes à cette file d’attente ?] » doit être défini sur **[!UICONTROL Tout le monde]**.
+* La file d’attente des demandes doit être publique. Dans les détails de la file d’attente des demandes, « [!UICONTROL &#x200B; Qui peut ajouter des demandes à cette file d’attente ?] » doit être défini sur **[!UICONTROL Tout le monde]**.
 
 >[!TIP]
 >

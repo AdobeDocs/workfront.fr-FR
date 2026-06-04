@@ -10,10 +10,14 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 TQID: https://experienceleague.adobe.com/lVTPu5Nz5FqEPEh-S3LnT9cGIQnV6v9WN6yBcPgCvzs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 642
@@ -59,7 +63,7 @@ Tout groupe que vous ajoutez à un groupe existant devient automatiquement un so
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Vous pouvez définir des personnes membres de sous-groupe en tant qu’administrateurs et administratrices au sous-groupe lorsque vous le créez ou que vous le modifiez. Pour obtenir des instructions, voir [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) dans l’article [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Vous pouvez définir des personnes membres de sous-groupe en tant qu’administrateurs et administratrices au sous-groupe lorsque vous le créez ou que vous le modifiez. Pour obtenir des instructions, voir [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) dans l’article [Créer un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Vous pouvez également laisser l’administration du sous-groupe aux administrateurs et administratrices affectés aux groupes de niveau supérieur. Lorsque vous créez un sous-groupe, les administrateurs et administratrices des groupes de niveau supérieur disposent automatiquement d’un accès pour le gérer.
 

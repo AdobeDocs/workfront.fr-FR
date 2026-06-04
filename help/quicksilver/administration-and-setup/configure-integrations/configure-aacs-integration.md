@@ -9,11 +9,18 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/URGZIZPNbkj-wshinxLbaj2AFhWtXG-KPvNyz-5mkcw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1733
@@ -286,7 +293,7 @@ Vous pouvez créer jusqu’à 100 dossiers liés par arborescence de dossiers.
       >
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
-   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **** Renseignez les champs comme décrit à l’étape précédente.
+   1. Pour ajouter un dossier imbriqué à l’arborescence de dossiers, cliquez sur le menu à trois points en regard du dossier dans lequel vous souhaitez créer un dossier imbriqué, puis sélectionnez Ajouter un dossier. **&#x200B;**&#x200B;Renseignez les champs comme décrit à l’étape précédente.
    1. Pour lier un dossier à Workfront, sélectionnez-le et cliquez sur l’icône **Créer un dossier lié** ![Link folder](assets/link-folder.png).
    1. (Facultatif) Pour modifier un dossier, sélectionnez-le, puis cliquez sur l’icône **Modifier le dossier** ![Edit icon](assets/edit-icon.png).
    1. (Facultatif) Pour supprimer un dossier, sélectionnez-le et cliquez sur l’icône **Supprimer le dossier** ![Delete folder](assets/delete-folder.png).

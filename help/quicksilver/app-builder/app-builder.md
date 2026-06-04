@@ -5,11 +5,17 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2329
@@ -50,7 +56,7 @@ Vous devez disposer des éléments suivants :
 
 Pour créer des extensions d’interface d’utilisation, vous devez avoir accès à Adobe App Builder dans Adobe Developer Console.
 
-Des instructions supplémentaires sont disponibles sur le site [](https://developer.adobe.com/uix/docs/guides/get-access/).
+Des instructions supplémentaires sont disponibles sur le site [&#128279;](https://developer.adobe.com/uix/docs/guides/get-access/).
 
 ### Ajout de développeurs au Adobe Admin Console
 
@@ -82,7 +88,7 @@ Si AppBuilder est correctement configuré, vous devriez voir Créer un projet à
 
 Vous devez utiliser Adobe Developer Console pour créer votre extension d’interface utilisateur.
 
-Des instructions supplémentaires sont disponibles sur le site [](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
+Des instructions supplémentaires sont disponibles sur le site [&#128279;](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Connectez-vous au Adobe Developer Console à l’aide de votre Adobe ID.
 1. Choisissez votre compte et votre profil ou organisation.
@@ -94,7 +100,7 @@ Des instructions supplémentaires sont disponibles sur le site [](https://develo
 
    ![Créer à partir d’un modèle](assets/create-from-template.png)
 
-1. Sélectionnez ****.
+1. Sélectionnez **&#x200B;**.
 1. Saisissez un **Titre du projet** et **Nom de l’application**. Les deux comportent des valeurs par défaut, mais il est plus facile d’identifier le projet souhaité ultérieurement si vous personnalisez la valeur.
 1. Laissez **Inclure le runtime** sélectionné.
 1. Cliquer sur **Enregistrer**.
@@ -116,7 +122,7 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
    ![résultat de la commande](assets/1-command-result.png)
    ![Sélectionner un projet](assets/2-select-a-project.png)
 
-1. Parcourez tous les modèles disponibles et choisissez le **** pour votre projet.
+1. Parcourez tous les modèles disponibles et choisissez le **&#x200B;**&#x200B;pour votre projet.
 
    ![Choisir un modèle](assets/3-choose-template.png)
 
@@ -139,7 +145,7 @@ Des instructions supplémentaires sont disponibles sur GitHub et sur le site d�
 
 1. Patientez jusqu’à ce qu’un message indiquant que l’initialisation de l’application est terminée s’affiche. Vous pouvez ensuite ouvrir le projet dans un IDE (Visual Studio Code est recommandé) et accéder au dossier src.
 
-   Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site du développeur ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+   Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site du développeur &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 Pour plus d’informations sur les dossiers et fichiers de votre projet, consultez le [site d’](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
@@ -187,7 +193,7 @@ Pour autoriser les applications personnalisées dans le menu principal de Workfr
 
 1. Ajoutez le fragment de code suivant :
 
-   ](assets/7-extension-registration-step1-from-sam.png) de fragment de code![
+   ![&#128279;](assets/7-extension-registration-step1-from-sam.png) de fragment de code
 
    Cet exemple montre un élément du menu principal. Vous devez mettre à jour l’identifiant, le libellé, l’icône et l’URL vers les noms corrects pour votre application. Lors de l’ajout de plusieurs éléments, assurez-vous que l’identifiant est unique.
 
@@ -402,10 +408,10 @@ Une application peut être incorporée dans un formulaire personnalisé Workfron
            /> 
    ```
 
-   ![ exemple de code ](assets/9-app-file-step-1-from-sam.png)
+   ![&#x200B; exemple de code &#x200B;](assets/9-app-file-step-1-from-sam.png)
 1. Enregistrez votre travail.
 
-Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
+Pour plus d’informations sur le développement et l’exécution de l’application, consultez le [site du développeur &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
 
 ## Contexte partagé
@@ -454,4 +460,4 @@ Pour désactiver l’indicateur
 
 ## Publier les demandes et approuver l&#39;envoi
 
-Pour publier la demande et l&#39;approuver, suivez les instructions sur le site [](https://developer.adobe.com/uix/docs/guides/publication/).
+Pour publier la demande et l&#39;approuver, suivez les instructions sur le site [&#128279;](https://developer.adobe.com/uix/docs/guides/publication/).

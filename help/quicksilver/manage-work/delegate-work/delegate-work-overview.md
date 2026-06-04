@@ -10,11 +10,21 @@ exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-G3HS2JWZB36Y-kSloHo6u4--Z3q40fwAgfcEuELi4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 906
@@ -47,7 +57,7 @@ Cet article contient des informations générales sur la délégation de tâches
 
 Pour plus d&#39;informations sur la délégation des approbations de projets, de tâches et d&#39;événements, voir [Déléguer la demande d&#39;approbation](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-Pour plus d’informations sur la délégation de tâches et d’événements, voir [ Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
+Pour plus d’informations sur la délégation de tâches et d’événements, voir [&#x200B; Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Vue d’ensemble de la délégation des tâches et des problèmes
 
@@ -75,7 +85,7 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Si d’autres tâches et problèmes vous sont affectés au cours de la période que vous avez sélectionnée pour que votre travail soit délégué à d’autres personnes, la nouvelle tâche affectée est automatiquement déléguée à la même personne pendant la période que vous avez sélectionnée si les dates pour la tâche ou le problème se situent dans la même période.
 * Une même personne déléguée peut être choisie par plusieurs personnes différentes.
 * Les tâches et problèmes délégués ne s’affichent pas dans les outils de gestion des ressources, tels que l’[!UICONTROL Équilibreur de charge de travail] ou le [!UICONTROL Planificateur de ressources] pour les personnes déléguées.
-* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, consultez la section « Localiser le travail délégué et déléguer les informations » de l’article [ Déléguer des tâches et des événements](../delegate-work/how-to-delegate-work.md).
+* Vous pouvez afficher les noms des tâches déléguées et des personnes déléguées dans plusieurs zones de [!DNL Workfront]. Pour plus d’informations, consultez la section « Localiser le travail délégué et déléguer les informations » de l’article [&#x200B; Déléguer des tâches et des événements](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]
