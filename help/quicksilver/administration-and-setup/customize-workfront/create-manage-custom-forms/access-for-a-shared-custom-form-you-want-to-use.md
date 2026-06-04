@@ -9,18 +9,24 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+TQID: https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 90%
+source-wordcount: 402
+ht-degree: 92%
 
 ---
 
-# Accès à un champ personnalisé partagé
+# Accéder à un champ personnalisé partagé
 
 Lorsqu’une personne partage un champ personnalisé avec l’accès Afficher ou Gérer, elle peut configurer plusieurs autres paramètres pour définir plus précisément cet accès. Si vous êtes une personne destinataire du champ, ces paramètres ont une incidence sur ce que vous pouvez faire avec le champ. Voici ce que vous pouvez voir lorsque vous affichez le champ.
 
-Pour plus d’informations sur la configuration des paramètres de partage par les utilisateurs lors du partage d’un formulaire personnalisé, voir [Configuration du partage pour les champs et widgets personnalisés dans un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Pour plus d’informations sur la manière dont les utilisateurs configurent les paramètres de partage lors du partage d’un formulaire personnalisé, voir [Configuration du partage des champs personnalisés et des widgets d’un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

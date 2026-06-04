@@ -8,10 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+TQID: https://experienceleague.adobe.com/ShPo7xQopsQS5j61ofqDw1UUohRdtzgxCmzm1KrFuYg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 52%
+source-wordcount: 409
+ht-degree: 63%
 
 ---
 
@@ -25,7 +31,7 @@ La définition d’un champ personnalisé sur Inactif l’exclut des rapports, f
 
 >[!NOTE]
 >
->Le fait de marquer un champ existant comme inactif le rend indisponible pour une utilisation dans les éléments de rapports et les formulaires personnalisés à partir de ce moment. Si le champ inactif est actuellement utilisé dans un rapport ou un formulaire, le champ et ses données historiques restent en place.
+>Marquer un champ existant comme inactif le rend indisponible pour une utilisation dans les éléments de rapports et les formulaires personnalisés à partir de ce moment. Si le champ inactif est actuellement utilisé dans un rapport ou un formulaire, le champ et ses données historiques restent en place.
 
 Si vous supprimez un champ personnalisé d’un formulaire personnalisé, il existe toujours dans tous les autres formulaires auxquels il a été ajouté et vous pouvez le modifier dans un formulaire ou dans la zone Champs . Pour plus d’informations sur la suppression d’un champ, voir [Suppression d’un champ personnalisé ou d’un widget du système](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 

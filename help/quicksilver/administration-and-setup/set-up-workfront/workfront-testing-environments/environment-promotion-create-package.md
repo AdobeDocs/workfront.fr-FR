@@ -9,16 +9,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 13%
+source-wordcount: 775
+ht-degree: 15%
 
 ---
 
 # Créer ou modifier un package de promotion environnementale
 
-Vous devez créer un package dans l’environnement à partir duquel vous souhaitez copier les objets **&#x200B;**. Par exemple, si vous configurez un projet dans votre environnement de sandbox d’actualisation personnalisée et que vous le promouvez dans votre environnement de production, vous devez créer le package dans votre environnement de sandbox d’actualisation personnalisée.
+Vous devez créer un package dans l’environnement à partir duquel vous souhaitez copier les objets **.** Par exemple, si vous configurez un projet dans votre environnement de sandbox d’actualisation personnalisée et que vous le promouvez dans votre environnement de production, vous devez créer le package dans votre environnement de sandbox d’actualisation personnalisée.
 
 >[!IMPORTANT]
 >
@@ -30,13 +35,13 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td> <p>Standard</p>&gt;
    </td>
@@ -53,7 +58,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Créer un package
 
-1. Accédez à l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **&#x200B;**.
+1. Accédez à l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **.**
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Cliquez sur **Créer un package**.

@@ -6,11 +6,16 @@ description: Vous pouvez afficher une colonne [!UICONTROL Liste d’attente] dir
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/-XXeqTP5uer2lw7mVRazM0C3X8LVDjkUblO1hMfuxWA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 244
 ht-degree: 92%
 
 ---
@@ -60,4 +65,4 @@ Par défaut, la colonne [!UICONTROL Liste d’attente] est masquée. Pour affich
 >
 >Si vous ajoutez plusieurs équipes à un élément de liste d’attente, la tâche ou le problème ne s’affiche que dans la liste d’attente de l’équipe principale. L’équipe principale est celle qui reçoit l’affectation en premier lieu.
 
-Pour plus d’informations sur la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

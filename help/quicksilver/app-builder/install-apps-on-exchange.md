@@ -4,9 +4,14 @@ description: Les extensions d’interface d’utilisation de Workfront, optimis�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
-source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: 1301
 ht-degree: 3%
 
 ---
@@ -87,7 +92,7 @@ Les applications créées avec Adobe App Builder sont répertoriées comme _Appl
 
 Pour afficher des applications pour Workfront, accédez à Adobe Exchange et recherchez des applications compatibles avec Workfront. Vous pouvez également filtrer les listes pour les applications Workfront App Builder :
 
-1. Cliquez sur **&#x200B;**&#x200B;dans le panneau de gauche.
+1. Cliquez sur **** dans le panneau de gauche.
 1. Dans le panneau de gauche, recherchez **Produit**, puis sélectionnez **Workfront**.
 1. Développez **Type d’application**, puis choisissez **App Builder**.
 

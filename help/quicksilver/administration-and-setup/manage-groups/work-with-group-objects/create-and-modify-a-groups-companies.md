@@ -8,9 +8,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+TQID: https://experienceleague.adobe.com/Jmo6PQZ14wo8ROdKO0UvLd0Cakq1vciAhTEjZPjA9Bk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: 786
 ht-degree: 77%
 
 ---
@@ -30,7 +36,7 @@ S’il existe des groupes au-dessus de votre groupe, leurs administrateurs et ad
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -68,7 +74,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td> 
        <ul> 
         <li> <p><b>Nom de l’entreprise</b> : saisissez le nom de l’entreprise.</p> </li> 
-        <li> <p><b>Est active</b> : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une société inactive ne peut pas être jointe aux projets. Cette option est activée par défaut.</p> </li> 
+        <li> <p><b>Est active</b> : lorsque cette option est activée, il est possible de trouver l’entreprise et de la joindre aux projets créés et modifiés. Une entreprise inactive ne peut pas être associée aux projets. Cette option est activée par défaut.</p> </li> 
         <li> <p><b>Ceci est l’entreprise principale</b> : désigne l’entreprise comme entreprise principale de votre organisation. L’entreprise principale représente généralement votre compte Workfront où travaillent la plupart de vos utilisateurs et utilisatrices.</p> <p>En modifiant leur niveau d’accès, vous pouvez autoriser les utilisateurs et utilisatrices à voir les autres personnes :</p> 
          <ul> 
           <li>Uniquement dans leur entreprise principale</li> 

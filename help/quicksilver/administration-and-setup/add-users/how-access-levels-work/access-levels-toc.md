@@ -9,10 +9,15 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/UfcvMz2J8sg8l4HkZBYlcdh7-AGpq6ob4Kt8Ow-2oos
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 72%
+source-wordcount: 164
+ht-degree: 87%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->Les informations de cet article se rapportent aux niveaux d’accès actuels. Pour plus d&#39;informations sur les niveaux d&#39;accès hérités, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Les informations de cet article se rapportent aux niveaux d’accès actuels. Pour plus d’informations sur les niveaux d’accès hérités, voir [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez accorder aux utilisateurs et utilisatrices l’accès à l’affichage ou à la modification d’objets en leur attribuant un niveau d’accès. Les articles ci-dessous expliquent le fonctionnement des nouveaux niveaux d’accès.
 
@@ -29,7 +34,7 @@ En tant qu’administrateur ou administratrice d’Adobe Workfront, vous pouvez
 * [Accès aux objets et zones par licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [Fonctionnalités disponibles pour chaque type d’objet](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 * [Désactivez l’option de mise à niveau automatique pour les utilisateurs et utilisatrices non payés](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-* [Comparaison des fonctionnalités entre les modèles de licence](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
+* [Comparer des fonctionnalités entre les modèles de licence](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
 
 ## Voir aussi
 

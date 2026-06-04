@@ -10,10 +10,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/7KDfloC-2FmUBjBxzligB30o3X1lLpQxAJlUwNyO8Ps
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 88%
+source-wordcount: 341
+ht-degree: 95%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Vous pouvez voir le niveau d’accès et la licence attribués à chaque utilisateur et utilisatrice dans une liste ou un rapport.
 

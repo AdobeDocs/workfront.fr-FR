@@ -8,12 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: 753
+ht-degree: 93%
 
 ---
 
@@ -104,11 +110,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
        <p>En tant qu’administrateur ou administratrice de groupe, vous ne pouvez créer un planning que s’il est désigné pour un groupe ou un sous-groupe pour lequel vous êtes administrateur ou administratrice.</p>
        <p>Si vous ne gérez qu’un seul groupe, ce groupe est sélectionné par défaut dans ce champ.</p>
        <p>Si vous gérez plusieurs groupes, vous devez sélectionner un groupe dans ce champ avant de pouvoir enregistrer le planning.</p></li>
-       <li>Si vous êtes administrateur ou administratrice [!DNL Workfront] créant un planning, ce champ est facultatif. Lorsque vous créez un planning sans l’associer à un groupe, il est enregistré comme planning au niveau du système et ne peut être géré par un administrateur ou une administratrice de groupe d’un quelconque groupe.
+       <li>Si vous êtes un administrateur [!DNL Workfront] qui crée un planning, ce champ est facultatif. Lorsque vous créez une planification sans l’associer à un groupe, elle est enregistrée en tant que planification au niveau du système et ne peut pas être gérée par un administrateur de groupes d’un groupe quelconque.
        <p>Les plannings affectés à des comptes ou des projets sont visibles par toutes les personnes qui peuvent modifier ces objets. Cela est vrai pour les plannings au niveau du système et au niveau du groupe.</p>
        </li>
        <p>La définition d’un groupe avec accès pour l’administration pour un planning n’affecte pas le planning aux personnes du groupe. Elle permet uniquement aux administrateurs et administratrices du groupe de modifier, supprimer et copier le planning.</p>
-       <p>Les administrateurs et administratrices de groupe ne peuvent pas modifier, supprimer ou copier des plannings au niveau du système. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs et administratrices de groupe</a>.
+       <p>Les administrateurs de groupe ne peuvent pas modifier, supprimer ou copier des plannings au niveau du système. Pour plus d’informations, voir <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administrateurs de groupe</a>.
      </td>
     </tr>
     <tr>
@@ -118,7 +124,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     <tr>
      <td>[!UICONTROL Time Zone]</td>
      <td><p>Sélectionnez le fuseau horaire du planning.</p>
-     <p>Si vous associez le planning à une personne, il est recommandé que le fuseau horaire du planning corresponde à celui de la personne. Pour plus d’informations sur les fuseaux horaires des personnes, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifier le profil d’une personne
+     <p>Si vous associez la planification à un utilisateur, il est recommandé que le fuseau horaire de la planification corresponde à celui de l’utilisateur. Pour plus d’informations sur les fuseaux horaires de l’utilisateur, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modification du profil d’un utilisateur.
      </td>
     </tr>
    </table>

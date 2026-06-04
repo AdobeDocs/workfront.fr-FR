@@ -6,11 +6,16 @@ description: Vous pouvez configurer les options suivantes pour les équipes de S
 author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: 1727
 ht-degree: 73%
 
 ---
@@ -188,7 +193,7 @@ Pour modifier le comportement de l’affectation des couleurs aux articles pour 
 
    Seuls les membres de l&#39;équipe disposant d&#39;une licence [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Travail] peuvent voir cette option.
 
-1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à &#x200B;], sélectionnez l’une des options suivantes :
+1. Dans la section [!UICONTROL Agile], dans la zone [!UICONTROL Associer la couleur de la carte à ], sélectionnez l’une des options suivantes :
 
    * **[!UICONTROL Projet]** : les couleurs sont associées au projet auquel l’histoire est liée. (Lorsqu’une histoire est créée, elle doit être associée à un projet, comme décrit dans [Créer une histoire agile](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Toutes les tâches d’un même projet s’affichent avec la même couleur.
    * **[!UICONTROL Formulaire libre]** : toutes les cartes sont affichées en bleu par défaut jusqu’à ce que quelqu’un modifie manuellement la couleur, comme décrit dans [[!UICONTROL Catégoriser les histoires par couleur] sur le panorama Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).

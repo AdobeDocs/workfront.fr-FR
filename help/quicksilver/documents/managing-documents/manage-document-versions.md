@@ -6,9 +6,14 @@ description: Vous pouvez gérer plusieurs versions d’un document dans Workfron
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: 634
 ht-degree: 46%
 
 ---
@@ -78,7 +83,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. En haut de la page **Détails du document**, cliquez sur le menu déroulant en regard du nom, puis cliquez sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![&#x200B; Liste déroulante Version de la page Détails du document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ Liste déroulante Version de la page Détails du document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 

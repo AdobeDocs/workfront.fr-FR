@@ -10,10 +10,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/3C7cVwQbr8imqQsl3lQGT9u1XCiYAXGwZ3ruPFDqdu0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 93%
+source-wordcount: 369
+ht-degree: 99%
 
 ---
 
@@ -23,7 +28,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Les informations de cet article se rapportent aux niveaux d’accès actuels. Pour plus d&#39;informations sur les niveaux d&#39;accès hérités, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Les informations de cet article se rapportent aux niveaux d’accès actuels. Pour plus d’informations sur les niveaux d’accès hérités, voir [Vue d’ensemble des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Votre entreprise a acheté un certain nombre de licences lors de son acquisition d’Adobe Workfront. En tant qu’administrateur ou administratrice Workfront, vous attribuez l’un des deux types de licences Workfront à chaque personne lorsque vous lui attribuez un niveau d’accès.
 

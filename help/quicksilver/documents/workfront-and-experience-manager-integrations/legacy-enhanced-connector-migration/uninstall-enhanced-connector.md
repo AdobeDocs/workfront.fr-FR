@@ -6,10 +6,14 @@ description: Vous devez désinstaller le connecteur amélioré de Workfront avec
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: 260
+ht-degree: 92%
 
 ---
 
@@ -27,7 +31,7 @@ Vous devez désinstaller le connecteur amélioré de Workfront avec Adobe Experi
 
 1. Ouvrez votre dépôt git cloné dans l’IDE de votre choix.
 
-1. Vérifiez la branche où le connecteur amélioré est installé.
+1. Extrayez la branche où le connecteur amélioré est installé.
 
 1. Naviguez jusqu’au chemin suivant et supprimez le fichier zip du connecteur amélioré :
 
@@ -86,7 +90,7 @@ Vous devez désinstaller le connecteur amélioré de Workfront avec Adobe Experi
    </repository>
    ```
 
-1. (Le cas échéant) Supprimez la configuration du serveur dans le fichier settings.xml, présent dans le chemin suivant./cloudmanager/maven/settings.xml à la racine du projet.
+1. (Conditionnel) Supprimez la configuration du serveur du fichier settings.xml, présent dans le chemin suivant ./cloudmanager/maven/settings.xml dans la racine du projet.&#39;
 
    ```
            <server>

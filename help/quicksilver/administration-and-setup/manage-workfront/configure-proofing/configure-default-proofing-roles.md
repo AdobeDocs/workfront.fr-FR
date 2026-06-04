@@ -2,15 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configuration des rôles de vérification par défaut
+title: Configurer les rôles de relecture par défaut
 description: En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer les rôles de relecture par défaut pour les utilisateurs et utilisatrices et les personnes invitées ayant accès aux épreuves créées dans Workfront. Toute personne qui ajoute des utilisateurs et utilisatrices à une épreuve peut ajuster ces rôles pour eux.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/1bEnBH5l58juHFYsg1bfR-LMcQ-wGgKNkeGAGQlNbJs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 505
 ht-degree: 99%
 
 ---

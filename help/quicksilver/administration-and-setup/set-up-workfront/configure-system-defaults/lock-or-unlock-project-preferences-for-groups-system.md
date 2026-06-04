@@ -8,9 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: 513
 ht-degree: 93%
 
 ---
@@ -61,7 +66,7 @@ Pour obtenir des instructions sur le verrouillage ou le déverrouillage d’une 
 
 >[!NOTE]
 >
->Une fois qu’un administrateur ou qu’une administratrice [!DNL Workfront] a déverrouillé une préférence au niveau du système, tout membre de l’administration du groupe peut la configurer, puis la verrouiller pour s’assurer que tous les membres de son groupe et des sous-groupes inférieurs utilisent la même configuration. Ceci va de pair avec la capacité des administrateurs et administratrices [!DNL Workfront] à configurer et à verrouiller des préférences pour les utilisateurs et les utilisatrices du système. Pour plus d’informations, consultez [Configurer les préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Verrouiller ou déverrouiller une préférence de projet, de tâche ou de problème pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>Une fois qu’un administrateur ou une administratrice de [!DNL Workfront] a déverrouillé une préférence au niveau du système, n’importe quel administrateur ou n’importe quelle administratrice de groupe peut la configurer et la verrouiller pour garantir que tous les membres de son groupe et des sous-groupes inférieurs utilisent la même configuration. Ceci va de pair avec la capacité des administrateurs et administratrices [!DNL Workfront] à configurer et à verrouiller des préférences pour les utilisateurs et les utilisatrices du système. Pour plus d’informations, consultez [Configurer les préférences de projet pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) et [Verrouiller ou déverrouiller une préférence de projet, de tâche ou de problème pour les sous-groupes](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 ## Déverrouiller une préférence de projet pour que les groupes puissent la configurer
 

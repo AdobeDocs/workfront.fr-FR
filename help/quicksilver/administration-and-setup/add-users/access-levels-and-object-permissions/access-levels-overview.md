@@ -10,10 +10,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/veIxHeIbYOY6tuiP4zUk-w0mvx-2UM6fE5QO37ju6TU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 79%
+source-wordcount: 343
+ht-degree: 97%
 
 ---
 
@@ -23,7 +28,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Présentation des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Les informations de cet article font référence aux niveaux d’accès hérités. Pour plus d’informations sur les niveaux d’accès actuels, voir [Vue d’ensemble des nouveaux niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous attribuez un niveau d’accès à un utilisateur ou une utilisatrice à deux fins :
@@ -63,17 +68,17 @@ Pour plus d’informations sur les sujets liés aux niveaux d’accès, voir les
   </tr> 
   <tr> 
    <td><b>Types de niveaux d’accès</b></td> 
-   <td><p>Il existe deux types de niveaux d'accès dans Workfront :</p>
-   <ul><li>Niveaux d'accès hérités</li>
+   <td><p>Il existe deux types de niveaux d’accès dans Workfront :</p>
+   <ul><li>Niveaux d’accès hérités</li>
    <ul><li>Plan</li>
    <li>Travail</li>
    <li>Vérifier</li>
    <li>Demande</li></ul>
-   <li>Nouveaux niveaux d'accès :</li>
+   <li>Nouveaux niveaux d’accès :</li>
    <ul><li>Standard</li>
    <li>Léger</li>
    <li>Contributeur</li></ul></ul> 
-   <p>Pour plus d'informations sur les nouveaux niveaux d'accès, voir <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Présentation des nouveaux niveaux d'accès</a>.</p> </td> 
+   <p>Pour plus d’informations sur les nouveaux niveaux d’accès, voir <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Vue d’ensemble des nouveaux niveaux d’accès</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

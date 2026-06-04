@@ -6,12 +6,17 @@ description: Vous pouvez lier des documents et des dossiers à Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/xzzrzIpmB79NdaCaHPEnXd8i5gAnpwOsJct5ugzWgSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 91%
+source-wordcount: 2606
+ht-degree: 92%
 
 ---
 
@@ -61,8 +66,8 @@ Vous pouvez relire et approuver les documents liés à un fournisseur de service
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise l’espace de stockage dans le cloud d’Adobe, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -83,7 +88,7 @@ Vous pouvez relire et approuver les documents liés à un fournisseur de service
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,7 +318,7 @@ Lors de la synchronisation du contenu d’un dossier à partir d’une applicati
 
 1. (Facultatif) Pour renommer le dossier de sorte que son nom dans Workfront soit différent de celui du dossier dans l’application de document externe, sélectionnez le dossier dans la section **Dossiers**, cliquez sur le menu Plus ![Plus](assets/more-icon.png) qui s’affiche en regard du nom du dossier, puis cliquez sur **Renommer**.
 
-   ![&#x200B; Renommer le dossier &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ Renommer le dossier ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Cette opération ne renomme pas le dossier dans l’application externe.
 

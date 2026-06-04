@@ -7,12 +7,18 @@ description: Le graphique d’avancement fournit une représentation visuelle de
 author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 96%
+source-wordcount: 976
+ht-degree: 94%
 
 ---
 
@@ -60,7 +66,7 @@ Le graphique d’avancement contient les indicateurs visuels suivants :
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Point vert pour le travail brûlé"> </td> 
    <td> <p>Un point vert ou rouge est affiché sur le taux d’avancement réel chaque fois que le travail progresse. (Lorsque le taux d’avancement réel sur cette journée est rouge, le point est rouge ; lorsque le taux d’avancement réel sur cette journée est vert, le point est vert.)</p> <p>Le travail progresse lorsque l’une des situations suivantes se produit :</p> 
     <ul> 
-     <li> La valeur [!UICONTROL Percent Complete] augmente dans l’histoire.<br>[!UICONTROL Percent Complete] augmente en cas de : 
+     <li> Le [!UICONTROL Percent Complete] est augmenté sur l'article.<br> Le[!UICONTROL Percent Complete] est augmenté lorsque : 
       <ul> 
        <li> <p>modification manuelle ;</p> </li> 
        <li> <p>mise à jour du nombre de points ou d’heures dans l’histoire ;</p> </li> 

@@ -7,10 +7,15 @@ description: Vous pouvez obtenir une vue en temps réel des métadonnées mappé
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+TQID: https://experienceleague.adobe.com/qLz7SnubnOZKoh1J66yIHui8fessEmy80fdrGKq2t4k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 96%
+source-wordcount: 328
+ht-degree: 97%
 
 ---
 
@@ -24,16 +29,16 @@ Vous pouvez obtenir une vue en temps réel des métadonnées mappées dans les p
 
 <table>
   <tr>
-   <td><strong>Package Adobe Workfront</strong>
+   <td><strong>Package </strong>
    </td>
    <td>Tous
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Adobe Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td>
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Requête ou supérieure</p>
    </td>
   </tr>
@@ -58,7 +63,7 @@ Vous pouvez obtenir une vue en temps réel des métadonnées mappées dans les p
 </table>
 
 
-Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

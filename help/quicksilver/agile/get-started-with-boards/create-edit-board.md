@@ -6,11 +6,16 @@ description: À partir du tableau de bord des [!UICONTROL Panoramas], vous pouve
 author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/GzG99zYl13YpwAMmLn6qjiO0ku9p0pn91uA6CVwpqTA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 841
 ht-degree: 92%
 
 ---
@@ -58,7 +63,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    | Modèle | Description |
    |---------|----------|
    | Panorama de base | Trois colonnes par défaut sont fournies sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes par défaut sont fournies sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
-   | Panorama Kanban | Les colonnes suivantes sont affichées sur le panorama : Liste d’attente, Nouveau, En cours, Terminé et Suspendu. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser la liste d’attente, vous devez définir des filtres pour la colonne de saisie. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour revoir les politiques par défaut de chaque colonne, cliquez sur le menu [!UICONTROL **Plus** &#x200B;] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une ou l’autre de ces politiques prédéfinies. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Panorama Kanban | Les colonnes suivantes sont affichées sur le panorama : Liste d’attente, Nouveau, En cours, Terminé et Suspendu. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser la liste d’attente, vous devez définir des filtres pour la colonne de saisie. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour revoir les politiques par défaut de chaque colonne, cliquez sur le menu [!UICONTROL **Plus** ] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une ou l’autre de ces politiques prédéfinies. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Panorama rétrospectif | Les colonnes suivantes sont fournies dans le panorama : Points forts Améliorations possibles Qui devons-nous célébrer Que pouvons-nous faire pour aller plus vite Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune politique de colonne n’est appliquée. |
    | Panorama dynamique | Les colonnes suivantes sont fournies dans le panorama : Non sélectionné, Nouveau, En cours, Suspendu et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné(e) peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont le statut ne correspond à aucun des statuts des autres colonnes.) <p>Les politiques de colonne par défaut attribuent des cartes aux colonnes en fonction de leur statut. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 

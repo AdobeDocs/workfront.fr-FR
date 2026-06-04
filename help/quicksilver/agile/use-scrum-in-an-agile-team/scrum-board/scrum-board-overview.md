@@ -7,11 +7,14 @@ description: Le storyboard scrum Agile s’affiche avec l’état d’achèvemen
 author: Courtney
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 810
 ht-degree: 51%
 
 ---
@@ -75,4 +78,4 @@ Supposons, par exemple, que l&#39;article A contienne la sous-tâche 1 et la sou
 
 Cette même logique s’applique aux sous-tâches de deuxième niveau (sous-tâches de sous-tâches). Si une sous-tâche comporte une ou plusieurs sous-tâches de second niveau affectées à la même équipe Agile et appartenant à l&#39;itération, seule la sous-tâche de second niveau est affichée dans la liste d&#39;attente.
 
-Pour plus d’informations sur la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

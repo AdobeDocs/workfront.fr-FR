@@ -9,12 +9,17 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/PJ7DN2mrsCeXeimGmBQL17ye0EaQIK2uDed1YHvuXw8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 75%
+source-wordcount: 478
+ht-degree: 72%
 
 ---
 
@@ -89,7 +94,7 @@ Vous pouvez installer votre package dans l’un des environnements suivants :
 1. (Facultatif) Cliquez sur **[!UICONTROL Détails]** pour découvrir comment fonctionne le plan directeur.
 1. Cliquez sur **[!UICONTROL Installer]**.
 1. Choisissez d’effectuer l’installation sur votre environnement de production ou un environnement sandbox.\
-   Pour plus d’informations, voir la section [Où installer un plan directeur ?](#where-should-i-install-a-blueprint) dans cet article.
+   Pour plus d’informations, voir la section [Où dois-je installer un plan directeur ?](#where-should-i-install-a-blueprint) dans cet article.
 1. Sur la page **Configurer**, vous pouvez choisir d’effectuer l’une des opérations suivantes :
 
    * Installez le plan directeur tel quel. Pour les types de plan directeur qui ne nécessitent aucune configuration, il s’agit de la seule option. Pour les types de plan directeur qui doivent être configurés, vous pouvez éventuellement choisir d’installer le plan directeur maintenant et de le configurer ultérieurement. Cliquez sur **[!UICONTROL Installer en l’état]**.

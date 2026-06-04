@@ -6,12 +6,17 @@ description: Vous pouvez ajouter une tâche ou un problème à un panorama dans 
 author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/WK0xnK-IRQhM5mHeps2rjiC-YIPuYS5eFX7LzAoesHM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 93%
+source-wordcount: 566
+ht-degree: 90%
 
 ---
 
@@ -99,8 +104,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Afficher les panoramas associés à une tâche ou à un problème à partir d’une liste
 
 1. Accédez au projet, au rapport ou au tableau de bord qui contient la tâche ou le problème dont vous souhaitez consulter les informations sur les panoramas.
-1. Sélectionnez une vue qui inclut la colonne Panoramas ou créez une nouvelle vue avec la colonne Panoramas.
-Pour plus d’informations sur les vues, consultez [Créer ou modifier des vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. Sélectionnez une vue qui inclut la colonne Panoramas ou créez une vue avec la colonne Panoramas .
+Pour plus d’informations sur les vues, voir [Création ou modification de vues dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 1. Cliquez sur [!UICONTROL **Afficher**] dans la colonne pour afficher la liste des panoramas sur lesquels la tâche ou le problème se trouve.
 
    ![Afficher les panoramas dans la colonne](assets/show-boards-in-column.png)

@@ -7,11 +7,14 @@ description: Les panoramas Adobe Workfront sont des outils flexibles qui permet
 author: Courtney
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
+TQID: https://experienceleague.adobe.com/OP2xElD-kYsKzRb4IdjM6TNH-JfE0KoUwlhw9zm14c4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: 224
 ht-degree: 75%
 
 ---
@@ -30,12 +33,12 @@ Les panoramas vous permettent d’effectuer les opérations suivantes :
 * Organiser et gérer le travail d’une équipe au même endroit
 * Utiliser des outils de planification Agile tels qu’une colonne de saisie pour les tableaux kanban
 
-Pour plus d’informations sur l’utilisation des fonctions de base des panoramas, voir la section [Commencer avec les panoramas : index des articles](../agile/get-started-with-boards/get-started-with-boards.md). Pour plus d’informations sur les outils de planification Agile dans les tableaux, voir [&#x200B; Présentation des outils de planification Agile &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Pour plus d’informations sur l’utilisation des fonctions de base des panoramas, voir la section [Commencer avec les panoramas : index des articles](../agile/get-started-with-boards/get-started-with-boards.md). Pour plus d’informations sur les outils de planification Agile dans les tableaux, voir [ Présentation des outils de planification Agile ](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 Pour plus d’informations sur l’utilisation d’un tableau sur un projet, voir [Gérer un projet Agile en mode Tableau](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 Vous pouvez également accéder aux panoramas dans l’application mobile. Pour plus d’informations, voir la section Panoramas [[!DNL Adobe Workfront]  pour l’application mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Pour consulter les vidéos explicatives des fonctionnalités des panoramas, voir les démonstrations vidéo des Panoramas [[!DNL Adobe Workfront] &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Pour consulter les vidéos explicatives des fonctionnalités des panoramas, voir les démonstrations vidéo des Panoramas [[!DNL Adobe Workfront] ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
-Pour plus d’informations sur les outils Agile supplémentaires dans [!DNL Workfront], voir [&#x200B; Présentation d’Agile &#x200B;](../agile/agile-overview.md).
+Pour plus d’informations sur les outils Agile supplémentaires dans [!DNL Workfront], voir [ Présentation d’Agile ](../agile/agile-overview.md).

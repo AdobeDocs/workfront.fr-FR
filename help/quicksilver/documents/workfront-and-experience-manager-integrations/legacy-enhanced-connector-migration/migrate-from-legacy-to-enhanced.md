@@ -6,10 +6,15 @@ description: Le processus suivant décrit les bonnes pratiques à suivre pour pa
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/px8ysyDqpwzajmCfRPJLclKOUSuIFacl99Uf6sRCKFQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 99%
+source-wordcount: 356
+ht-degree: 92%
 
 ---
 
@@ -30,9 +35,9 @@ Pour les clientes et clients sur Adobe Experience Manager Assets as a Clou
 >
 >Un partenaire certifié ou des services de conseil Adobe sont nécessaires pour mettre en œuvre le connecteur amélioré.
 >
-> Pour les partenaires qui souhaitent se certifier sur le connecteur amélioré, consultez l’article suivant : [Expert Series Workfront pour le connecteur amélioré pour Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Pour les partenaires qui souhaitent se certifier sur le connecteur amélioré, consultez l’article suivant : [Expert Series Workfront pour le connecteur amélioré pour Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Pour mettre en œuvre le connecteur amélioré, voir [Configurer Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Pour mettre en œuvre le connecteur amélioré, voir [Configurer Workfront pour le connecteur amélioré Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Déplacer des ressources existantes

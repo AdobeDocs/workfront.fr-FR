@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aafa8886-82e2-41c4-8fcb-cbb9df2d55dd
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/cePyozzK-9WXvzuonk7Z1e0vDA81Gb04cC5MPMQHVmI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
+source-wordcount: 452
+ht-degree: 86%
 
 ---
 
@@ -30,7 +35,7 @@ Pour plus d’informations sur l’utilisation de niveaux d’accès personnalis
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
@@ -58,7 +63,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    >[!NOTE]
    >
-   >Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les personnes de supprimer des tâches dans leur niveau d’accès, mais cela ne les empêche pas de supprimer des problèmes, qui sont de rang inférieur à celui des tâches. Pour plus d’informations sur la hiérarchie des objets, consultez la section [Interdépendance et hiérarchie des objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >Lorsque vous configurez un niveau d’accès pour un certain type d’objet, cette configuration n’affecte pas l’accès des utilisateurs et utilisatrices aux objets de rang inférieur. Par exemple, vous pouvez empêcher les utilisateurs de supprimer des tâches dans leur niveau d’accès, mais cela ne les empêche pas de supprimer des événements, qui sont de niveau inférieur à celui des tâches.Pour plus d’informations sur la hiérarchie des objets, consultez la section [Interdépendance et hiérarchie d’objets](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) dans l’article [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Facultatif) Pour restreindre les autorisations héritées des tâches issues d’objets de rang supérieur, cliquez sur **Définir des restrictions supplémentaires**, puis sélectionnez **Ne jamais hériter l’accès aux documents depuis des projets, des tâches, des problèmes, etc.**.
 
