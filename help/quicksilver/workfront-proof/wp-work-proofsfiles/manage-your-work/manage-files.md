@@ -7,9 +7,12 @@ description: Vous pouvez gérer, partager et afficher des informations sur les f
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/IMVAWm0N74jNGqSnWShXORGLdvcelgQ-oGSVZaPsDo8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 526
 ht-degree: 96%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Vous pouvez gérer, partager et afficher des informations sur les fichiers (pas les épreuves) chargés sur Workfront Proof (voir [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)).
 
@@ -32,7 +35,7 @@ Vous pouvez gérer, partager et afficher des informations sur les fichiers (pas 
 1. (Facultatif) Si vous disposez des droits de modification du fichier, utilisez les boutons d’action dans le coin supérieur droit pour gérer et partager le fichier :
 
 * **[!UICONTROL Balises]**. Gérez les balises appliquées au fichier.\
-   ![Bouton Balises &#x200B;](assets/tags-button.png)\
+   ![Bouton Balises ](assets/tags-button.png)\
    Sous les boutons d’action, vous pouvez voir toutes les balises appliquées au fichier. Vous pouvez supprimer une balise indésirable en cliquant sur le x situé à côté.\
    ![Afficher les balises de fichier](assets/view-file-tags-350x64.png)
 

@@ -7,9 +7,12 @@ description: Lorsqu’une autre personne vous envoie une URL d’épreuve et que
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+TQID: https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 255
 ht-degree: 100%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Lorsqu’une autre personne vous envoie une URL d’épreuve et que vous l’ouvrez dans votre navigateur, la visionneuse de relecture est lancée en mode Lecture seule. Avant de pouvoir travailler sur l’épreuve, vous devez vous identifier en vous y abonnant.
 

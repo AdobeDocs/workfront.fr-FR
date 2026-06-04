@@ -7,10 +7,13 @@ description: Vous pouvez créer et modifier des balises et les appliquer à vos 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: 916
+ht-degree: 94%
 
 ---
 
@@ -76,7 +79,7 @@ Pour plus d’informations sur ces profils et ces autorisations, voir [Profils d
 1. Dans une vue liste ou dans le tableau de bord, sélectionnez l’élément ou les éléments pour lesquels vous souhaitez créer ou gérer des balises.
 1. Cliquez sur **[!UICONTROL Balises]** > **[!UICONTROL Gérer les balises]** juste au-dessus de la liste.
 
-1. Dans l’onglet [!UICONTROL Balises] qui apparaît, gérez vos balises comme décrit ci-dessus dans [Créer, modifier ou supprimer un onglet.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. Dans l’onglet [!UICONTROL Balises] qui apparaît, gérez vos balises comme décrit ci-dessus dans [Créer, modifier ou supprimer un onglet.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    Une balise est appliquée à tous les éléments sélectionnés lorsque la case à cocher située en regard de la balise est gris foncé. Si elle est gris clair, seuls certains des éléments d’un lot sélectionné sont tagués avec elle. Si vous souhaitez supprimer une balise de tous les éléments sélectionnés, assurez-vous que la case à cocher située en regard de la balise est vide.\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
@@ -98,7 +101,7 @@ Les balises appliquées à une épreuve ou à un fichier s’affichent respectiv
 
 ## Rechercher un élément à l’aide d’un nom de balise
 
-Vous pouvez rechercher un élément en utilisant le nom d’une balise appliquée à l’élément.Si vous le partagez avec quelqu’un, cette personne pourra rechercher cet élément de la même manière. Pour voir une liste de tous les éléments auxquels la balise a été appliquée, procédez comme suit :
+Vous pouvez rechercher un élément à l’aide du nom d’une balise dont vous savez qu’elle est appliquée à l’élément.Si vous partagez un article avec quelqu’un, ce dernier pourra le rechercher de la même manière.Pour afficher la liste de tous les éléments auxquels la balise a été appliquée :
 
 1. Dans n’importe quelle vue de liste ou sur le tableau de bord, ouvrez l’onglet **[!UICONTROL Balises]** dans la barre latérale gauche, puis cliquez sur la balise dans la liste des balises qui s’affiche.\
    ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\

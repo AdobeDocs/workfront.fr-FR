@@ -8,9 +8,12 @@ description: Le tableau de bord est la première page qui s’affiche lorsque vo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 996
 ht-degree: 97%
 
 ---
@@ -43,7 +46,7 @@ Le tableau de bord contient les éléments suivants :
 
 ![Tableau de bord](assets/dashboard-350x495.png)
 
-Vous pouvez personnaliser le branding de votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc., de votre propre entreprise. Pour plus d’informations, voir [Personnaliser le branding du site  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Vous pouvez personnaliser le branding de votre compte pour afficher le logo, les couleurs, les liens personnalisés, etc., de votre propre entreprise. Pour plus d’informations, voir [Personnaliser le branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Si vous ne personnalisez pas le branding de votre compte, le logo [!DNL Workfront Proof] et les couleurs standard apparaissent.
 
@@ -97,7 +100,7 @@ Pour ouvrir le nouveau menu,
    * Nouvel utilisateur ou nouvelle utilisatrice (12)
    * Nouveau groupe (13)
 
-![Nouvelle épreuve &#x200B;](assets/new-proof-350x256.png)
+![Nouvelle épreuve ](assets/new-proof-350x256.png)
 
 ## Menu « Tableau de bord »
 
@@ -181,7 +184,7 @@ La section [!UICONTROL Bienvenue] comporte les liens utiles suivants :
 * Coordonnées de l’assistance (3)
 * Lien « Ne plus afficher la section Bienvenue » (4)
 
-![Bienvenue &#x200B;](assets/welcome-350x73.png)
+![Bienvenue ](assets/welcome-350x73.png)
 
 ### Vue d’ensemble
 

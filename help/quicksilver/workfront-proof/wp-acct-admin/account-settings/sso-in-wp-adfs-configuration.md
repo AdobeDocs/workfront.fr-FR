@@ -7,10 +7,15 @@ description: Si vous êtes administrateur ou administratrice sur votre serveur A
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
+TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 86%
+source-wordcount: 769
+ht-degree: 87%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
+>Cet article fait référence à la fonctionnalité du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
 Si vous êtes administrateur ou administratrice sur votre serveur AD, vous pouvez installer et configurer AD FS.
 
@@ -30,15 +35,15 @@ Si vous êtes administrateur ou administratrice sur votre serveur AD, vous pouve
 1. Si vous ne souhaitez pas exposer IIS sur votre serveur AD à Internet (ports 80 et 443 pour HTTP et HTTPS), vous pouvez d’abord configurer un serveur de fédération derrière le pare-feu, puis créer un second proxy de serveur de fédération qui transmet les demandes via le pare-feu au serveur de fédération.
 1. Une fois la configuration d’AD FS terminée, sélectionnez **[!UICONTROL Démarrer le composant logiciel enfichable Gestion d’AD FS 2.0]**, puis cliquez sur **[!UICONTROL Terminer]**. Une fois cette opération terminée, la fenêtre Gestion d’AD FS 2.0 doit s’ouvrir immédiatement. Dans le cas contraire, vous pouvez l’ouvrir à partir de **[!UICONTROL Démarrer]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion d’AD FS 2.0]**. Il s’agit de la principale application de contrôle AD FS.
 
-1. Commencez par cliquer sur Assistant de configuration du serveur de fédération AD FS 2.0.
-Cela vous aidera à configurer AD FS et à le connecter à Internet via IIS et à AD.
+1. Commencez par cliquer sur Assistant Configuration du serveur de fédération AD FS 2.0.
+Cela vous aidera à configurer AD FS et à le connecter à Internet via IIS et à AD.
 1. Si vous configurez un nouveau serveur AD FS, sélectionnez **[!UICONTROL Créer un service de fédération]**.
 1. Sélectionnez **[!UICONTROL Serveur de fédération autonome]** (à des fins de test et d’évaluation).
 
 1. Pour une haute disponibilité et un équilibrage de charge, cliquez sur Nouvelle batterie de serveurs de fédération.
-1. Indiquez le nom de votre service de fédération.
-Par défaut, l’assistant de configuration récupère le certificat SSL associé au site web par défaut dans IIS et utilise le nom d’objet qui y est indiqué. Si vous utilisez un certificat générique, vous devez saisir le nom du service de fédération.
-Si aucun certificat SSL n’est configuré dans IIS, l’assistant de configuration recherche dans la boutique de certificats de l’ordinateur local les certificats valides. Ils s’affichent dans la liste déroulante des certificats SSL. Si aucun certificat n’a été trouvé, vous pouvez utiliser le générateur de certificats du serveur dans IIS pour en créer un.
+1. Spécifiez le nom de votre service de fédération.
+Par défaut, l&#39;assistant de configuration récupère le certificat SSL lié au site Web par défaut dans IIS et utilise le nom d&#39;objet spécifié. Si vous utilisez un certificat générique, vous devez saisir le nom du service de fédération.
+Si aucun certificat SSL n&#39;est configuré dans IIS, l&#39;assistant de configuration recherche tous les certificats valides dans le magasin de certificats de l&#39;ordinateur local. Celles-ci s’affichent dans le menu déroulant Certificat SSL . Si aucun certificat n&#39;a été trouvé, vous pouvez utiliser le générateur de certificats du serveur dans IIS pour en créer un.
 
 1. Poursuivez la configuration, puis cliquez sur **[!UICONTROL Fermer]** une fois l’opération terminée.
 
@@ -48,7 +53,7 @@ Si vous êtes administrateur ou administratrice [!DNL Workfront Proof], vous pou
 
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**, puis ouvrez l’onglet **[!UICONTROL Authentification unique]**.
 
-1. Dans la boîte **URL SSO**, collez votre identifiant d’entité.
+1. Dans la zone **URL SSO**, collez votre identifiant d’entité.
 Voici un exemple d’ID d’entité :
 *&lt;adfs.your-company.com>*/adfs/services/trust
 Votre ID d’entité se trouve dans votre fichier XML de métadonnées de fédération.
@@ -61,7 +66,7 @@ Votre ID d’entité se trouve dans votre fichier XML de métadonnées de fédé
 1. Ce lien se trouve dans le fichier XML des métadonnées de fédération.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. Dans la boite **[!UICONTROL URL de déconnexion]**, saisissez le lien et enregistrez.
+1. Dans la zone **[!UICONTROL URL de déconnexion]**, saisissez le lien et enregistrez.
 Voici un exemple d’URL de déconnexion :
 *&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 

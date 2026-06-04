@@ -7,10 +7,15 @@ description: Si vous disposez de la formule Select ou Premium, vous pouvez fourn
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 89%
+source-wordcount: 1087
+ht-degree: 91%
 
 ---
 
@@ -53,27 +58,27 @@ En tant que fournisseur, nous avons publié notre ID d’entité ici :
 Pour configurer l’authentification unique :
 
 1. Ouvrez l’onglet **[!UICONTROL Authentification unique]** (1).
-1. Saisissez l’**URL d’authentifiation unique** (2).
-Il s’agit du lien vers votre serveur d’authentification unique (par exemple : **https://sso.mycompany.com/opensso**).
+1. Saisissez l’**URL SSO** (2).
+Il s&#39;agit du lien vers votre serveur SSO (par exemple, ****).
 
 1. Saisissez l’**URL de connexion** (3).
-Il s’agit de l’URL qui sera appelée pour rediriger les utilisateurs et utilisatrices vers votre fournisseur d’identité.
+Il s’agit de l’URL qui sera appelée pour rediriger les utilisateurs vers votre fournisseur d’identité.
 
    Il ne s’agit pas d’une URL réelle que vous saisissez dans le navigateur, mais plutôt d’un point d’entrée qui traite les informations que nous lui envoyons afin de présenter l’écran de connexion.
 
 1. Saisissez l’**URL de déconnexion** (4).
-Il s’agit de l’URL à laquelle vous revenez après votre déconnexion, par exemple.
+Il s’agit de l’URL à laquelle vous revenez après vous être déconnecté, par exemple
 
    **https://www.yourcompany.com/services/logout.asp**
 
 1. Saisissez l’**empreinte du certificat** (5).
 1. L’empreinte SHA1 du certificat SAML fourni par votre fournisseur d’identité SAML.
 1. Veillez à inclure les informations clés en définissant ce qui suit sur votre fournisseur d’identité.
-1. Définissez **SSO** sur **[!UICONTROL Activée]** (6).
-Une fois l’authentification unique activée, vous et les autres utilisateurs et utilisatrices de votre compte vous connectez à l’aide de votre propre mécanisme d’authentification. Cela signifie que lorsque les utilisateurs et utilisatrices accèdent à votre écran de connexion au compte [!DNL Workfront Proof] (par exemple, **yourcompany.proofhq.com/login**), il leur sera demandé d’ouvrir la fenêtre de transfert de votre propre page de connexion à l’authentification.
+1. Basculez **SSO** sur **[!UICONTROL Activé]** (6).
+Une fois la connexion unique activée, vous et les autres utilisateurs de votre compte vous connecterez à l’aide de votre propre mécanisme d’authentification. Cela signifie que lorsque les utilisateurs accèdent à l’écran de connexion de votre compte [!DNL Workfront Proof] (par exemple, **yourcompany.proofhq.com/login**), ils sont invités à entrer la fenêtre de transfert dans votre propre page de connexion d’authentification.
 
-1. (Facultatif) Activez **Allouer automatiquement les utilisateurs et utilisatrices** (7).
-Une fois cette option activée, les comptes d’utilisateurs sont automatiquement créés pour les personnes qui n’ont pas leur propre profil [!DNL Workfront Proof], mais qui accèdent à votre compte [!DNL Workfront Proof] à l’aide de leurs identifiants d’authentification unique. Cette action sera effectuée uniquement si la limite d’utilisateur et d’utilisatrice n’est pas encore atteinte pour votre compte.
+1. (Facultatif) Activez **Configuration automatique des utilisateurs** (7).
+Lorsque cette option sera activée, les comptes d&#39;utilisateurs seront automatiquement créés pour les personnes qui n&#39;ont pas leurs propres profils [!DNL Workfront Proof], mais qui accéderont à votre compte [!DNL Workfront Proof] à l&#39;aide de leurs informations d&#39;identification SSO. Cette action sera effectuée uniquement lorsque la limite d’utilisateur ne sera pas encore atteinte sur votre compte.
 
 1. Les autorisations de profil Manager sont attribuées par défaut aux nouveaux utilisateurs et nouvelles utilisatrices alloués. Pour en savoir plus, voir [Profils d’autorisations ds épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
@@ -93,9 +98,9 @@ L’authentification unique est une fonctionnalité Select et Premium, et peut d
 1. ![Enabling_SSO_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
 Vous disposez ici de deux méthodes (5) de configuration :
 
-1. **Héritée :** authentification unique avec la configuration extraite de votre compte hub.
-Si un utilisateur accède à [!DNL Workfront Proof] par le biais de la **page de connexion par défaut** ([https://business.adobe.com/fr/products/workfront/proofing-approvals.html](https://business.adobe.com/fr/products/workfront/proofing-approvals.html) **), deux niveaux d&#39;autorisation s&#39;appliquent** : tout d&#39;abord, il est invité à se connecter à l&#39;aide des données d&#39;accès [!DNL Workfront Proof] (adresse e-mail et mot de passe), puis l&#39;utilisateur est transféré par le biais d&#39;une fenêtre SSO vers la page de connexion SSO.
-Par conséquent, avec le service d’authentification unique activé, nous vous recommandons de vous connecter par l’intermédiaire de votre propre sous-domaine/domaine [!DNL Workfront Proof].
+1. **Hérité :** SSO avec la configuration issue de votre compte hub.
+Si un utilisateur accède à [!DNL Workfront Proof] par le biais de la **page de connexion par défaut** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), il existe **deux niveaux d’autorisation** : tout d’abord, il est invité à se connecter à l’aide des données d’accès [!DNL Workfront Proof] (e-mail et mot de passe), puis l’utilisateur est transféré par le biais d’une fenêtre SSO vers la page de connexion SSO.
+Par conséquent, lorsque le service SSO est activé, nous vous recommandons de vous connecter via votre propre sous-domaine/domaine [!DNL Workfront Proof].
 
    >[!NOTE]
    >
@@ -140,10 +145,10 @@ Si vous avez choisi la configuration d’authentification unique manuelle pour u
 1. Ouvrez l’onglet **[!UICONTROL Authentification unique]**.
 1. Assurez-vous que votre domaine/sous-domaine [!DNL Workfront Proof] (1) est configuré et que vos utilisateurs et utilisatrices accèdent à votre compte [!DNL Workfront Proof] par le biais de ce domaine/sous-domaine personnalisé.
    ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)
-Lorsque votre authentification unique est activée, votre URL de connexion de sous-domaine (par exemple, yourcompany.proofhq.com/login) affiche un écran de transfert (2) qui vous conduit directement à votre page de connexion à l’authentification unique.
+Lorsque l’authentification unique est activée, l’URL de connexion au sous-domaine (yourcompany.proofhq.com/login, par exemple) affiche un écran de transfert (2) qui vous permet d’accéder directement à votre page de connexion via authentification unique.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Si un utilisateur accède à [!DNL Workfront Proof] via la page de connexion **par défaut** ([https://business.adobe.com/fr/products/workfront/proofing-approvals.html](https://business.adobe.com/fr/products/workfront/proofing-approvals.html)), il y aura **deux niveaux d’autorisation**. D’abord, la personne doit se connecter à l’aide des données d’accès [!DNL Workfront Proof] (adresse e-mail et mot de passe). Ensuite, elle est transférée via une fenêtre d’authentification unique (2) vers la page de connexion via authentification unique.\
+1. Si un utilisateur accède à [!DNL Workfront Proof] via la page de connexion **par défaut** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), il y aura **deux niveaux d’autorisation**. D’abord, la personne doit se connecter à l’aide des données d’accès [!DNL Workfront Proof] (adresse e-mail et mot de passe). Ensuite, elle est transférée via une fenêtre d’authentification unique (2) vers la page de connexion via authentification unique.\
    Par conséquent, avec le service d’authentification unique activé, nous vous recommandons de vous connecter par l’intermédiaire de votre propre sous-domaine/domaine [!DNL Workfront Proof].
 
 1. Pour le moment, lorsque l’authentification unique est activée sur votre compte Workfront Proof, vous ne pouvez pas vous connecter à l’application iPhone avec ces informations d’identification.

@@ -3,10 +3,13 @@ title: 'Workfront Proof : application mobile pour tablettes'
 description: L’application pour tablette  [!DNL Workfront Proof]  vous permet de réviser et d’approuver facilement vos épreuves lorsque vous êtes en déplacement. L’application est disponible en téléchargement et vous n’avez pas besoin d’être un utilisateur ou une utilisatrice  [!DNL Workfront Proof]  pour pouvoir réviser les épreuves sur votre tablette ou votre téléphone.
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1997'
-ht-degree: 98%
+source-wordcount: 1981
+ht-degree: 97%
 
 ---
 
@@ -94,8 +97,8 @@ Une autre vue que vous trouverez utile est la vue Récent. Elle affiche les épr
 
    Ou
 
-   Pour ouvrir une épreuve à partir d’une notification par e-mail, les réviseurs et réviseuses peuvent cliquer sur le lien **[!UICONTROL Accéder à l’épreuve]** dans la notification.
-Si vous avez un compte [!DNL Workfront Proof], vous pouvez vous connecter et accéder à votre épreuve à partir du tableau de bord.
+   Pour ouvrir un BAT à partir d’une notification envoyée par e-mail, les réviseurs et réviseuses peuvent cliquer sur le lien **[!UICONTROL Accéder au BAT]** dans la notification.
+Si vous disposez d’un compte [!DNL Workfront Proof], vous pouvez vous connecter et accéder à votre BAT à partir du tableau de bord.
 
    >[!NOTE]
    >

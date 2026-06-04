@@ -6,10 +6,16 @@ description: L’intégration d’ [!DNL Adobe Workfront]  avec Slack vous perme
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+TQID: https://experienceleague.adobe.com/rOccEnbPoWVh5LFVPCeX81S3Nl-VpEBGGfcNDNXEdPk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 95%
+source-wordcount: 419
+ht-degree: 99%
 
 ---
 
@@ -24,7 +30,7 @@ Intégrer [!DNL Adobe Workfront] avec [!DNL Slack] permet de faire ce qui suit 
 
 En fonction de la configuration de votre environnement [!DNL Slack], vous pouvez soit installer et configurer vous-même [!DNL Workfront for Slack], soit l’administration [!DNL Workfront] doit d’abord l’installer et le configurer avant que vous ne puissiez le faire vous-même.
 
-Lorsque vous intégrez votre instance [!DNL Slack] à [!DNL Workfront], les utilisateurs et les utilisatrices peuvent utiliser [!DNL Workfront] tout en collaborant dans leurs canaux [!DNL Slack]. L’intégration peut être utilisée à partir de n’importe quel environnement [!DNL Slack], y compris l’application mobile [!DNL Slack]. ## Conditions d&#39;accès
+Lorsque vous intégrez votre instance [!DNL Slack] à [!DNL Workfront], les utilisateurs et les utilisatrices peuvent utiliser [!DNL Workfront] tout en collaborant dans leurs canaux [!DNL Slack]. L’intégration peut être utilisée à partir de n’importe quel environnement [!DNL Slack], notamment l’application mobile [!DNL Slack]. ## Conditions d&#39;accès
 
 +++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
 
@@ -33,7 +39,7 @@ Lorsque vous intégrez votre instance [!DNL Slack] à [!DNL Workfront], les util
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +82,7 @@ Suivez les étapes ci-dessous pour exécuter le processus d’installation et au
 >
 >Lorsqu’une nouvelle version de [!DNL Workfront] pour Slack est publiée, vous devez réautoriser l’application pour pouvoir continuer à l’utiliser.
 
-1. Localisez le module complémentaire [!DNL Adobe Workfront] dans la boutique [[!DNL Slack] &#x200B;](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
+1. Localisez le module complémentaire [!DNL Adobe Workfront] dans la boutique [[!DNL Slack] ](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 
 1. Cliquez sur **[!UICONTROL Ouvrir dans[!DNL Slack]]**.
 

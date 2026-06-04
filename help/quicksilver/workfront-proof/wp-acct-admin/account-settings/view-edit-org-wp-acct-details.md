@@ -7,10 +7,15 @@ description: En tant qu’administrateur ou administratrice  [!DNL Workfront Pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/56N32WhKSlk-6VPPx6cKS8JsI9yiFnVn8EuXsZm-Duc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: 244
+ht-degree: 94%
 
 ---
 
@@ -25,7 +30,7 @@ En tant qu’administrateur ou administratrice [!DNL Workfront Proof], vous pouv
 1. Cliquez sur **[!UICONTROL Paramètres]** dans le coin supérieur droit de votre fenêtre [!DNL Workfront Proof], puis sélectionnez **[!UICONTROL Paramètres du compte]** dans le menu déroulant.
 
 1. Sur la page [!UICONTROL Paramètres du compte] qui s’affiche, assurez-vous que l’onglet **[!UICONTROL Détails]** est ouvert.
-Vous pouvez consulter les sections suivantes de cet onglet :
+Vous pouvez afficher les sections suivantes sur cet onglet :
 
 ## Modifier les détails du compte
 

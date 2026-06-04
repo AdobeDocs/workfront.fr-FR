@@ -7,10 +7,15 @@ description: Si vous êtes un administrateur ou une administratrice  [!DNL Workf
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: 767
+ht-degree: 98%
 
 ---
 
@@ -32,8 +37,8 @@ Si vous êtes un administrateur ou une administratrice [!DNL Workfront] Proof e
 1. Dans la zone Déplacer l’utilisateur ou l’utilisatrice qui s’affiche, confirmez l’utilisateur ou l’utilisatrice à déplacer (1).
 1. Sélectionnez un compte de destination dans la liste des comptes connectés (2).
 1. Attribuez l’autorisation de profil (3) que cet utilisateur ou cette utilisatrice doit posséder sur le nouveau compte.
-1. Sélectionnez un utilisateur ou une utilisatrice (4) qui doit prendre en charge les éléments qui ne seront pas déplacés.
-Cela inclut les éléments que vous décidez de laisser sur l’ancien compte et les éléments qui ne peuvent pas être déplacés (voir [Éléments qui ne peuvent pas être déplacés](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) ci-dessous).
+1. Sélectionnez un utilisateur (4) qui doit s’approprier les éléments qui ne seront pas déplacés.
+Cela inclut les éléments que vous déciderez de laisser sur l’ancien compte et les éléments qui ne peuvent pas être déplacés (voir [Éléments qui ne peuvent pas être déplacés](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved) ci-dessous).
 
 1. Cochez les cases si vous souhaitez déplacer les épreuves (5) et les fichiers (6) avec l’utilisateur ou l’utilisatrice.
 1. Donnez un nom au dossier (7) dans lequel tous les éléments déplacés seront placés sur le nouveau compte.

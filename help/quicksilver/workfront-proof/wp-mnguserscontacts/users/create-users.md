@@ -7,10 +7,15 @@ description: En tant qu’administrateur ou administratrice  [!DNL Workfront Pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23a692ba-88d4-487f-beaf-52671259ebaf
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/ZDu0dNJxpUI5FFtWy3Pvk8ASv1D0S1Vq1So4x-mmv2U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: 260
+ht-degree: 95%
 
 ---
 
@@ -38,8 +43,8 @@ Vous pouvez créer un utilisateur ou une utilisatrice à partir de zéro ou conv
 
    * Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**, puis sur **[!UICONTROL +Nouvel utilisateur ou nouvelle utilisatrice]**.
 
-   * Cliquez sur **[!UICONTROL Contacts]** dans le menu de navigation de gauche, sur **[!UICONTROL + Nouveau]**, puis sur **[!UICONTROL Nouvel utilisateur ou nouvelle utilisatrice]**.
-*La boîte de dialogue Nouvel utilisateur ou nouvelle utilisatrice s’affiche.
+   * Cliquez sur **[!UICONTROL Contacts]** dans le menu de navigation de gauche, cliquez sur **[!UICONTROL + Nouveau]**, puis sur **[!UICONTROL Nouvel utilisateur]**.
+*La boîte de dialogue Nouvel utilisateur s’affiche.
 
 1. Dans la zone **[!UICONTROL Nouvel utilisateur ou nouvelle utilisatrice]** qui apparaît, saisissez les informations de la personne et définissez les options de configuration, comme décrit dans [Configurer les informations de l’utilisateur ou de l’utilisatrice à l’aide de  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
 

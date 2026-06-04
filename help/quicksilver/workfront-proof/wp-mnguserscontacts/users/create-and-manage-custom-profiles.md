@@ -7,10 +7,15 @@ description: L’équipe d’administration responsable de la facturation peut c
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: 994
+ht-degree: 81%
 
 ---
 
@@ -35,28 +40,28 @@ La section [!UICONTROL Administration des données] détermine les droits dont d
 Les deux sections vous permettent d’accorder des droits sur les éléments suivants du compte :
 
 * Épreuves
-Pour plus d’informations, consultez la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Pour plus d’informations, voir [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 * Fichiers
-Pour plus d’informations, consultez la section [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+Pour plus d’informations, voir [Charger des fichiers et du contenu web dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 * Dossiers publics
-Pour plus d’informations, consultez la section [Présentation des autorisations de dossier dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Pour plus d’informations, voir [Comprendre les autorisations des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
-* Dossiers privés
-Pour plus d’informations, consultez la section [Présentation des autorisations de dossier dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+* Dossiers Privés
+Pour plus d’informations, voir [Comprendre les autorisations des dossiers dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Contacts
-Pour plus d’informations, consultez la section [Contacts](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
+Pour plus d’informations, voir [Contacts](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
 
 * Groupes
-Pour plus d’informations, consultez la section [Groupes](https://support.workfront.com/hc/en-us/sections/115000920828-Groups).
+Pour plus d’informations, voir [Groupes](https://support.workfront.com/hc/en-us/sections/115000920828-Groups).
 
 * Balises
-Pour plus d’informations, consultez la section [Créer et gérer des balises dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
+Pour plus d’informations, voir [Créer et gérer des balises dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
 * Vues personnalisées
-Pour plus d’informations, consultez la section [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Pour plus d’informations, voir [Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ![Screenshot_2018-04-06_12-20-27.png](assets/screenshot-2018-04-06-12-20-27-350x223.png)
 
@@ -66,50 +71,50 @@ Dans cette section, vous pouvez accorder des autorisations d’administration à
 
 Vous pouvez accorder les autorisations suivantes :
 
-* Gestion des paramètres du compte
-Pour plus d’informations, consultez la section [Paramètres du compte](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
+* Gérer les paramètres du compte
+Pour plus d’informations, voir [ Paramètres du compte ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
-* Gestion des utilisateurs et des utilisatrices
-Pour plus d’informations, consultez la section [Utilisateurs et utilisatrices](https://support.workfront.com/hc/en-us/sections/115000911887-Users).
+* Gérer les utilisateurs
+Pour plus d’informations, voir [Utilisateurs](https://support.workfront.com/hc/en-us/sections/115000911887-Users).
 
 * Gestion des décisions
-Pour plus d’informations, consultez la section [Prendre une décision sur une épreuve dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Pour plus d’informations, voir [Prendre une décision concernant un BAT dans la visionneuse de relecture](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-* Gestion des personnes partenaires
-Pour plus d’informations, consultez la section [Personnes partenaires](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts).
+* Gestion des partenaires
+Pour plus d’informations, voir [Partenaires](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts).
 
 * Gestion des applications
-Pour plus d’informations, consultez la section [Intégrations](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
+Pour plus d’informations, voir [ Intégrations ](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
 
 * Gestion des champs personnalisés
-Pour plus d’informations, consultez la section [Créer et gérer des champs personnalisés dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+Pour plus d’informations, voir [Création et gestion de champs personnalisés dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
 
-* Gestion de la zone de dépôt
-Pour plus d’informations, consultez la section [Zone de dépôt](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
+* Gérer la zone de dépôt
+Pour plus d’informations, voir [ Zone de dépôt ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
 * Gestion des workflows avancés
-Pour plus d’informations, consultez la section [Vue d’ensemble des workflows automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Pour plus d’informations, voir [Présentation des workflows automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
-* Gestion de l’authentification unique
-Pour plus d’informations, consultez la section [Authentification unique dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+* Gérer l’authentification unique
+Pour plus d&#39;informations, voir [Authentification SSO [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
-* Affichage de l’historique du compte
-Pour plus d’informations, consultez la section [Présentation du journal d’audit d’activité de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+* Afficher l’historique du compte
+Pour plus d’informations, voir [Comprendre le journal d’audit  [!DNL Workfront Proof] ’activité](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
 
-* Affichage des sauvegardes de compte
-Pour plus d’informations, consultez la section [Sauvegarder vos données  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
+* Afficher les sauvegardes de compte
+Pour plus d’informations, voir [Sauvegarder  [!DNL Workfront Proof]  données](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
 
-* Gestion des facturations
-Pour plus d’informations, consultez la section [Gérer votre facturation](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing).
+* Gérer les facturations
+Pour plus d’informations, voir [ Gérer la facturation ](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing).
 
-* Création de comptes satellites
-Pour plus d’informations, consultez la section [Configurer un compte satellite dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md).
+* Créer des comptes satellites
+Pour plus d’informations, voir [ Configuration d’un compte satellite dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md).
 
-* Vidage de la corbeille
-Pour plus d’informations, consultez la section [Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+* Corbeille vide
+Pour plus d’informations, voir [ Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 * Gestion des profils d’autorisation
-Pour plus d’informations, consultez la section [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Pour plus d’informations, voir [Profils d’autorisations d’épreuve dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 * Afficher les analyses
 
@@ -136,16 +141,16 @@ Pour plus d’informations, consultez la section [Profils d’autorisations d’
    Pour plus d’informations, voir [Autorisations administratives](#administrative-permissions).
 
 1. Cliquez sur **[!UICONTROL Créer]**.
-Le nouveau profil est désormais disponible dans l’onglet **[!UICONTROL Utilisateurs et utilisatrices]**.
+Le nouveau profil est désormais disponible dans l’onglet **[!UICONTROL Utilisateurs]**.
 
-1. (Facultatif) Attribuez le nouveau profil à des comptes d’utilisateurs ou d’utilisatrices nouveaux et existants.
-Pour plus d’informations, voir [Profils d’autorisations d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+1. (Facultatif) Attribuez le nouveau profil à des comptes d’utilisateur nouveaux et existants.
+Pour plus d’informations, voir [Profils d’autorisations pour les épreuves dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Activer et désactiver un profil {#enabling-and-disabling-a-profile}
 
 1. Accédez à **[!UICONTROL Paramètres du compte]**, puis cliquez sur l’onglet **[!UICONTROL Profils]**.
 
-1. Sélectionnez le profil que vous souhaitez activer ou désactiver.
+1. Sélectionnez le profil à activer ou désactiver.
 Ou
 Pour activer ou désactiver plusieurs profils simultanément, sélectionnez les profils manuellement ou sélectionnez **[!UICONTROL Nom]** pour sélectionner tous les profils personnalisés.
    ![Screenshot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
@@ -185,8 +190,8 @@ Si vous modifiez un profil, les mises à jour sont appliquées à tous les utili
 1. Accédez à **[!UICONTROL Paramètres du compte]**, puis cliquez sur l’onglet **[!UICONTROL Profils]**.
 
 1. Cliquez sur le nom du profil que vous souhaitez modifier.
-1. Apportez les modifications nécessaires au nom ou aux autorisations du profil. Ces modifications sont automatiquement enregistrées et mises à jour.
-Pour plus d’informations sur les autorisations, voir [Autorisations de module](#module-permissions) et [Autorisations administratives](#administrative-permissions).
+1. Apportez les modifications nécessaires au nom ou aux autorisations sur le profil. Ces modifications sont enregistrées et mises à jour automatiquement.
+Pour plus d’informations sur les autorisations, voir [Autorisations des modules](#module-permissions) et [Autorisations administratives](#administrative-permissions).
 
 >[!NOTE]
 >
