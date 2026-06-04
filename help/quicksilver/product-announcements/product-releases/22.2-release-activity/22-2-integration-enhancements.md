@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/qTSusDr5AYmDf-RE0-w1bl0OR1vKEER6BwuxKFhCRYI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 777
 ht-degree: 93%
 
 ---
@@ -29,8 +35,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 
 ## Adobe Workfront avec intégration d’Anaplan désormais disponible
 
-Pour vous donner plus de flexibilité et de visibilité sur les aspects financiers de vos projets Workfront, Workfront peut désormais s’intégrer à votre compte Anaplan. En reliant les objets Workfront à ceux d’Anaplan, vous pouvez mettre à jour automatiquement les informations entre les deux comptes, ce qui garantit que les informations contenues dans les deux comptes sont à jour et identiques.
-Vous pouvez également déclencher des processus automatisés dans Anaplan sur la base d’actions dans Workfront (et vice versa).
+Pour vous donner plus de flexibilité et de visibilité sur les aspects financiers de vos projets Workfront, Workfront peut désormais s’intégrer à votre compte Anaplan. En reliant les objets Workfront à ceux d’Anaplan, vous pouvez mettre à jour automatiquement les informations entre les deux comptes, ce qui garantit que les informations contenues dans les deux comptes sont à jour et identiques. Vous pouvez également déclencher des processus automatisés dans Anaplan sur la base d’actions dans Workfront (et vice versa).
 
 Par exemple, vous pouvez créer une campagne dans Anaplan, puis créer un projet ou un programme Workfront lié à la campagne. Tous les coûts suivis dans Workfront peuvent ensuite être chargés dans Anaplan pour examiner les performances de la campagne.
 

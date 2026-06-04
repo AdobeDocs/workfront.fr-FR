@@ -6,15 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1101
 ht-degree: 20%
 
 ---
-
 
 <!--keep the global record type reference in yellow till January 2026-->
 
@@ -32,7 +37,7 @@ Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus per
 
 Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
-Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Présentation des types d’enregistrements &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrements, voir [ Présentation des types d’enregistrements ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -257,6 +262,6 @@ Pour supprimer un type d’enregistrement global d’un espace de travail second
    * Le type d’enregistrement créé à partir d’un type d’enregistrement global est supprimé de l’espace de travail secondaire sélectionné.
    * Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
    * Le type d’enregistrement reste dans tous les autres espaces de travail où il a été ajouté.
-   * Les enregistrements <!--and fields--> ajoutés au type d’enregistrement de l’espace de travail secondaire sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement global a été ajouté sont conservés dans leurs espaces de travail respectifs et dans l’espace de travail d’origine. &lt;!: les champs sont conservés dans les espaces de travail où ils ont été ajoutés.
+   * Les enregistrements <!--and fields--> ajoutés au type d’enregistrement de l’espace de travail secondaire sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement global a été ajouté sont conservés dans leurs espaces de travail respectifs et dans l’espace de travail d’origine. &lt;!—!—Les champs sont conservés dans les espaces de travail où ils ont été ajoutés.
 
 

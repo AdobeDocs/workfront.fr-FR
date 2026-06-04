@@ -8,12 +8,18 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 92%
+source-wordcount: 1531
+ht-degree: 91%
 
 ---
 
@@ -87,12 +93,12 @@ Le tableau suivant répertorie les informations sur le projet et indique si elle
   <tr> 
    <td>Priorité</td> 
    <td><p>Est transféré à partir du problème.</p>
-   <p>Lorsque vous utilisez un modèle pour le projet converti, vous avez la possibilité de modifier manuellement la priorité. Si vous choisissez de ne pas la modifier, la priorité du problème est transférée au projet. 
+   <p>Lorsque vous utilisez un modèle pour le projet converti, vous avez la possibilité de modifier manuellement la Priorité. Si vous choisissez de ne pas le modifier, la priorité de l’événement est transférée au projet. 
     </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>L’URL du problème est transférée au nouveau projet. </p> <p> Si aucune URL n’est spécifiée dans le problème, l’URL du modèle est transférée au projet. </p> <p>Si le champ URL est vide à la fois pour le problème et pour le modèle, le champ est vide sur le projet. </p> </td> 
+   <td> <p>L’URL du problème est transférée au nouveau projet. </p> <p> Si aucune URL n’est spécifiée dans le problème, l’URL du modèle est transférée au projet. </p> <p>Si le champ URL est vide à la fois pour le problème et pour le modèle, le champ est vide dans le projet. </p> </td> 
   </tr> 
   <tr> 
    <td>Type de condition du projet</td> 
@@ -266,5 +272,5 @@ Vous pouvez afficher l’événement d’origine et les objets convertis dans la
 
 Pour plus d’informations, consultez les articles suivants :
 
-* [Afficher les requêtes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Afficher les demandes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Utiliser le widget Mes requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

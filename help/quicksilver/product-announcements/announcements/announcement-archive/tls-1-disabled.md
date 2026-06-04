@@ -2,22 +2,27 @@
 content-type: reference
 navigation-topic: announcements
 title: TLS 1.2 requis dans Adobe Workfront
-description: Pour assurer une sécurité maximale, Adobe Workfront exige que toutes les connexions de navigateur et les intégrations d’API utilisant TLS 1.0 ou une version antérieure soient mises à jour pour utiliser TLS 1.2. Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
+description: Pour assurer une sécurité maximale, Adobe Workfront exige que toutes les connexions de navigateur et les intégrations d’API utilisant TLS 1.0 ou une version antérieure soient mises à niveau pour utiliser TLS 1.2. Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
 author: Luke
 feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+TQID: https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: 380
+ht-degree: 93%
 
 ---
 
 # TLS 1.2 requis dans Adobe Workfront
 
-Pour assurer une sécurité maximale, Adobe Workfront exige que toutes les connexions de navigateur et les intégrations d’API utilisant TLS 1.0 ou une version antérieure soient mises à jour pour utiliser TLS 1.2.Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
+Pour assurer une sécurité maximale, Adobe Workfront exige que toutes les connexions de navigateur et les intégrations d’API utilisant TLS 1.0 ou une version antérieure soient mises à niveau pour utiliser TLS 1.2. Dans l’environnement de prévisualisation, TLS 1.0 est déjà désactivé.
 
-Workfront a officiellement arrêté la prise en charge de TLS 1.0 en mars 2018. Toutes les intégrations exploitant TLS 1.0 ont cessé de fonctionner à compter du 9 janvier 2019.TLS 1.1 sera désactivé au 4e trimestre 2019.
+Workfront a officiellement arrêté la prise en charge de TLS 1.0 en mars 2018. Toutes les intégrations exploitant TLS 1.0 ont cessé de fonctionner à compter du 9 janvier 2019.  TLS 1.1 sera désactivé au 4e trimestre 2019.
 
 Les sections suivantes donnent plus de détails sur ces étapes importantes et expliquent comment vous pouvez vous préparer à cette mise à niveau dans votre entreprise :
 
@@ -29,7 +34,7 @@ Les connexions des navigateurs et les intégrations d’API qui utilisent TLS 1
 
 ## Intégrations Workfront utilisant TLS 1.0 désactivées (9 janvier 2019)
 
-À partir du 9 janvier 2019, toutes les connexions de navigateur et les intégrations d’API utilisant TLS 1.0 doivent être mises à niveau vers TLS 1.1 ou une version plus récente. Les connexions de navigateur et les intégrations d’API qui utilisent toujours TLS 1.0 (entrantes ou sortantes) ne pourront plus communiquer avec l’application Workfront après cette période. 
+Le 9 janvier 2019, toutes les connexions de navigateur et intégrations d’API Workfront qui exploitent TLS 1.0 devront être mises à niveau pour utiliser TLS 1.1 ou une version ultérieure. Les connexions de navigateur et les intégrations d’API qui continuent à utiliser TLS 1.0 (connexions entrantes ou sortantes) ne pourront plus communiquer avec l’application Workfront après ce délai. 
 
 ## TLS 1.1 sera désactivé au quatrième trimestre 2019
 
@@ -44,7 +49,7 @@ Cette modification sera active dans les environnements de prévisualisation et d
 
 ### Lors de l’accès à Workfront via le navigateur {#when-accessing-workfront-via-the-browser}
 
-Assurez-vous que les utilisateurs et utilisatrices de votre entreprise accèdent à Workfront via un navigateur pris en charge.(Pour plus d’informations sur les navigateurs pris en charge, consultez la section [Configuration requise pour le navigateur Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).)
+Assurez-vous que les utilisateurs et utilisatrices de votre entreprise accèdent à Workfront via un navigateur pris en charge. (Pour plus d’informations sur les navigateurs pris en charge, consultez la section [Configuration requise pour le navigateur Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).)
 
 Tous les navigateurs pris en charge par Workfront sont compatibles avec TLS 1.2.
 

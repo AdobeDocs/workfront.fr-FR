@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4104'
+source-wordcount: 4067
 ht-degree: 76%
 
 ---
@@ -288,7 +294,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <td role="rowheader">Priorité</td> 
       <td> <p>Il s’agit d’un indicateur visuel qui vous permet de hiérarchiser vos tâches. </p> <p>Sélectionnez l’une des options suivantes : </p> 
        <ul> 
-      <li> <p> Aucune</p> </li> 
+      <li> <p> Aucun</p> </li> 
       <li> <p> Faible </p> </li> 
       <li> <p>Normal </p> </li> 
       <li> <p>Élevé </p> </li> 
@@ -310,7 +316,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <li> <p><span>Aussi Tôt Que Possible</span></p> </li> 
       <li> <p><span>Aussi Tard Que Possible</span></p> </li> 
       <li> <p><span>Première Heure Disponible</span></p> </li> 
-      <li> <p> <span>Dernière heure disponible</span></p> </li> 
+      <li> <p> <span>Dernière Heure Disponible</span></p> </li> 
       <li> <p><span>Commencer Au Plus Tard</span> </p> </li> 
       <li> <p>Indiquer une Date de début prévue</p> </li> 
       <li> <p><span>Commencer Au Plus Tôt</span> </p> <p>Spécifiez une <strong>Date de début prévue</strong>. </p> </li> 
@@ -513,7 +519,7 @@ Vous pouvez modifier une tâche à l’aide des zones de modification ou de dét
       <td> <p>Spécifiez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la quantité de temps réel nécessaire aux personnes assignées à la tâche pour la terminer. Vous ne pouvez spécifier le nombre d'heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d'affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
       <b>NOTE</b>
       <p>
-      Lors de la création de tâches récurrentes, les heures prévues sont celles de chaque occurrence. Les heures prévues des tâches parent correpondent au nombre total d’heures prévues de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
+      Lors de la création de tâches récurrentes, les heures planifiées sont celles de chaque occurrence. Les heures prévues des tâches parents représentent le total de toutes les heures prévues pour toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
       </p>
 
    </td> 
@@ -658,7 +664,7 @@ Vous pouvez définir des formulaires personnalisés par défaut à associer auto
 
    <p><b>IMPORTANT</b>
 
-   Si le groupe du projet change, le processus d’approbation spécifique au groupe précédemment joint devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir la section <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Effets des modifications du processus d’approbation et de groupe sur les processus d’approbation affectés</a>. </p>
+   Si le groupe du projet change, le processus d’approbation spécifique au groupe précédemment joint devient un processus d’approbation à usage unique. Pour plus d’informations sur la façon dont les modifications apportées au groupe du projet ou au processus d’approbation affectent les paramètres d’approbation, voir <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Comment les modifications du processus d’approbation et de groupe influencent les processus d’approbation affectés</a>. </p>
 
    </li>
 

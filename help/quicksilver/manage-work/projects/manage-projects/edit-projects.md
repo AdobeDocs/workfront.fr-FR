@@ -7,12 +7,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '8112'
-ht-degree: 88%
+source-wordcount: 7941
+ht-degree: 86%
 
 ---
 
@@ -283,7 +289,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.
+      <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un Portfolio avant qu’il n’apparaisse dans la liste déroulante. Seuls les portefeuilles actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portefeuilles, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Création d’un portefeuille </a>.
       <p><b>NOTES</b></p>
       <ul>
       <li>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</li>
@@ -497,7 +503,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Mode d’achèvement</strong> </td> 
-      <td> <p>Contrôle la manière dont le projet est marqué comme terminé. Sélectionnez l’une des options suivantes : 
+      <td> <p>Contrôle la manière dont le projet est marqué comme Terminé. Faites votre choix parmi les options suivantes : 
        <ul> 
        <li><p><strong>Automatique</strong> : le projet est marqué comme terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p><p>Le statut du projet passe automatiquement à Terminé uniquement lorsque le statut du projet est Actif et lorsque les tâches sont terminées. </p></li> 
        <li><strong>Manuel</strong> : lorsque toutes les tâches et tous les problèmes sont terminés, vous devez sélectionner manuellement le statut Terminé pour le projet.</li> 
@@ -505,7 +511,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Mode d'achèvement du sommaire</strong></td> 
-       <td> <p>Contrôle la manière dont les tâches parent sont marquées comme étant terminées. Sélectionnez l’une des options suivantes : 
+       <td> <p>Contrôle la manière dont les tâches parents sont marquées comme Terminées. Faites votre choix parmi les options suivantes : 
        <ul> 
        <li><strong>Automatique</strong> : les tâches parent sont marquées comme Terminé et elles mettent à jour leur pourcentage terminé automatiquement, à mesure que les tâches enfant sont terminées et que le pourcentage terminé des enfants est mis à jour. </li> 
        <li><strong>Manuel</strong> : la mise à jour du pourcentage d’achèvement et du statut des tâches parent doit être effectuée manuellement et ne dépend pas des changements réalisés sur les tâches enfant. Cela vous permet de marquer une tâche parent comme étant terminée même si les sous-tâches sont incomplètes. </li> 
@@ -513,7 +519,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Type de mise à jour</strong></td> 
-       <td> <p>Contrôle le moment où les modifications que vous apportez à la chronologie du projet sont enregistrées dans le projet ou les tâches parent. Par exemple, les modifications suivantes apportées au projet déclenchent une mise à jour de la chronologie du projet : 
+       <td> <p>Contrôle à quel moment les modifications que vous apportez à la chronologie du projet sont enregistrées dans le projet ou les tâches parents. Par exemple, les modifications suivantes apportées au projet déclenchent une mise à jour de la chronologie du projet : 
        <ul> 
        <li>Mise à jour des dates des tâches</li> 
        <li>Modification des relations d’antériorité des tâches</li> 
@@ -697,11 +703,11 @@ Vous pouvez définir les autorisations que les utilisateurs reçoivent pour le p
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsqu’une personne est affectée à une tâche</strong></td> 
-      <td><p>Choisissez entre l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> à une tâche. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès à la tâche.</p></td> 
+      <td><p>Choisissez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> à une tâche. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès à la tâche.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accorder également l’accès au projet</strong></td> 
-      <td><p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès au projet.<br></p></td> 
+      <td><p>Sélectionnez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> au projet. L’utilisateur ou l’utilisatrice affecté à une tâche se voit automatiquement accorder cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsqu’une personne est affectée à un problème</strong></td> 
@@ -709,7 +715,7 @@ Vous pouvez définir les autorisations que les utilisateurs reçoivent pour le p
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Accorder également l’accès au projet</strong></td> 
-      <td><p>Sélectionnez l’accès en <strong>Affichage</strong>, <strong>Contribution</strong> ou <strong>Gestion</strong> au projet. L’utilisateur ou l’utilisatrice affecté à un problème se voit automatiquement accorder cet accès au projet.<br></p></td> 
+      <td><p>Choisissez parmi les accès <strong>Afficher</strong>, <strong>Contribuer</strong> ou <strong>Gérer</strong> à un projet. L’utilisateur ou l’utilisatrice affecté à un problème se voit automatiquement accorder cet accès au projet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Lorsque quelqu’un soumet une demande : donnez-lui l’accès</strong></td> 
@@ -814,7 +820,7 @@ Pour modifier des projets en bloc, procédez comme suit :
 
 1. Sélectionnez plusieurs projets dans la liste.
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
-La boîte de dialogue **Modifier les projets** s’affiche.
+La boîte de dialogue **Modifier les projets** s’ouvre.
 
    ![Modification de projets dans la fenêtre modale en bloc](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -858,15 +864,15 @@ Selon la façon dont l’administrateur ou l’administratrice Workfront ou de 
    Pour plus d’informations sur la modification des formulaires personnalisés, voir la section [Formulaires personnalisés](#custom-forms) de cet article.
 
 1. Cliquez sur **Finances** pour modifier les informations financières de tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Finances, voir la section [Finances](#finance) de cet article.
+Pour plus d&#39;informations sur la modification de la zone Finance, consultez la section [Finance](#finance) de cet article.
 1. Cliquez sur **Paramètres du projet** pour modifier les paramètres de tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Paramètres du projet, voir la section [Paramètres du projet](#project-settings) de cet article.
+Pour plus d’informations sur la modification de la zone Paramètres du projet, consultez la section [Paramètres du projet](#project-settings) dans cet article.
 1. Cliquez sur **Paramètres de la tâche** pour modifier les paramètres de la tâche pour tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Paramètres de la tâche, voir la section [Paramètres de la tâche](#task-settings) de cet article.
-1. Cliquez sur **Paramètres du problème** pour modifier les paramètres du problème pour tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Paramètres du problème, voir la section [Paramètres du problème](#issue-settings) de cet article.
-1. Cliquez sur **Accès** pour modifier les paramètres d’accès de tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Accès, voir la section [Accès](#access) de cet article.
+Pour plus d’informations sur la modification de la zone Paramètres de la tâche, consultez la section [Paramètres de la tâche](#task-settings) dans cet article.
+1. Cliquez sur **Paramètres de l’événement** pour modifier les paramètres de l’événement pour tous les projets sélectionnés.
+Pour plus d&#39;informations sur la modification de la zone Paramètres de l&#39;événement, consultez la section [Paramètres de l&#39;événement](#issue-settings) dans cet article.
+1. Cliquez sur **Accès** pour modifier les paramètres d&#39;accès pour tous les projets sélectionnés.
+Pour plus d&#39;informations sur la modification de la zone Accès, consultez la section [Accès](#access) de cet article.
 1. Cliquez sur **Commentaire**, puis ajoutez un commentaire dans l&#39;espace prévu à cet effet. Workfront ajoute un commentaire dans la zone **Mises à jour** de chaque projet. Pour plus d&#39;informations sur la mise à jour de travail, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Pour supprimer les informations que vous avez ajoutées dans la zone Modifier les projets, pointez sur un champ modifié, puis cliquez sur l’icône **x** (ignorer) en haut à droite du champ.
 

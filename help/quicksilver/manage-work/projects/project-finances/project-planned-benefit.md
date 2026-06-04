@@ -7,10 +7,16 @@ description: Le bénéfice prévu est la somme d’argent estimée dont une orga
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+TQID: https://experienceleague.adobe.com/Ea-5yCjQl18RdG9IKH4jaO5-BClLtOeEHjqyasPM6uk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 68%
+source-wordcount: 346
+ht-degree: 67%
 
 ---
 
@@ -63,8 +69,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Vous pouvez afficher ou mettre à jour le bénéfice prévu d’un projet dans les zones suivantes de Workfront :
 
-* Dans le récapitulatif du business case. Vous ne pouvez pas modifier l’avantage prévu d’un projet dans le résumé de l’analyse de rentabilité.
-Pour plus d’informations sur le business case d’un projet, voir l’article [Créer un business case pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* Dans le résumé du business case. Vous ne pouvez pas modifier l’avantage prévu d’un projet dans le résumé de l’analyse de rentabilité.
+Pour plus d’informations sur l’analyse de rentabilité d’un projet, consultez l’article [Créer une analyse de rentabilité pour un projet](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * Dans un rapport de projet, lorsque vous ajoutez la colonne Bénéfice prévu à la vue du rapport. Vous pouvez modifier l’avantage prévu d’un projet dans un rapport de projet.\
   Pour plus d’informations sur la création de rapports dans Workfront, voir l’article [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

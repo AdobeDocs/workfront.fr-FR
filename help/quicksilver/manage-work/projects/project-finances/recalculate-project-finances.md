@@ -6,10 +6,16 @@ description: Les finances sont calculées sur un projet à mesure que des modifi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 78%
+source-wordcount: 1614
+ht-degree: 76%
 
 ---
 
@@ -93,7 +99,7 @@ Les taux de revenu peuvent changer aux niveaux suivants :
   Pour plus d’informations, voir [Remplacer les taux de facturation des fonctions au niveau de l’entreprise](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Niveau de la carte tarifaire
-Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 * Niveau du projet (pour les fonctions, les utilisateurs et les cartes tarifaires)\
   Pour plus d&#39;informations sur le remplacement des taux au niveau du projet, voir [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
@@ -154,7 +160,7 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
 1. Accédez au projet pour lequel vous souhaitez recalculer les données financières et cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-icon-on-an-object.png) à droite du nom du projet.
 
-   ![Liste déroulante Niveau du projet plus &#x200B;](assets/project-level-more-dropdown.png)
+   ![Liste déroulante Niveau du projet plus ](assets/project-level-more-dropdown.png)
 
    Ou
 
@@ -170,8 +176,8 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
    Tous les coûts et revenus prévus pour le projet sont recalculés avec d’éventuelles nouvelles informations.
 
-   Une confirmation devrait s’afficher en haut du navigateur pour vous indiquer que le financement du projet a été recalculé.
-Les valeurs des dépenses existantes et certaines valeurs de revenus qui n’ont pas été verrouillées sont mises à jour pour prendre en compte les nouveaux taux.
+   Vous devriez recevoir une confirmation en haut du navigateur indiquant que les finances du projet ont bien été recalculées.
+Les valeurs de coûts existantes et certaines valeurs de revenus qui n’ont pas été verrouillées sont mises à jour pour refléter les nouveaux taux.
 
 ## Recalculer manuellement le financement en masse{#manually-recalculate-finances-in-bulk}
 

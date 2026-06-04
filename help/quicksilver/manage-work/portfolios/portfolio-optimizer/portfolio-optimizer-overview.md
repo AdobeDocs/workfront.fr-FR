@@ -7,9 +7,15 @@ description: L’[!UICONTROL optimisateur de portfolio] est l’outil utilisé p
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: 1648
 ht-degree: 96%
 
 ---
@@ -53,7 +59,7 @@ Vous pouvez afficher des informations financières dans les zones suivantes de l
 * **[!UICONTROL Finances du portfolio pour les projets sélectionnés]** : cette zone affiche les informations financières recueillies sur les projets sélectionnés dans l’[!UICONTROL optimisateur de portfolio]. Vous pouvez ajouter ou supprimer des projets et comprendre quel sera l’impact sur les finances du portfolio en consultant les informations dans cette zone.
 * **[!UICONTROL Finances des projets]** : cette zone affiche les informations financières de chaque projet répertorié dans l’[!UICONTROL optimisateur de portfolio].
 
-### Champs financiers dans l’[!UICONTROL optimisateur de portfolio] {#the-financial-fields-in-the-portfolio-optimizer}
+### Champs financiers dans l’[!UICONTROL optimisateur de portfolio]  {#the-financial-fields-in-the-portfolio-optimizer}
 
 Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur de portfolio] :
 
@@ -62,7 +68,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
 
 #### En-tête de portfolio {#portfolio-header}
 
-![En-tête Portfolio](assets/portfolio-header-nwe-350x14.png)
+![En-tête ](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] calcule les champs financiers de l’en-tête du portfolio grâce aux informations provenant de projets dont le statut correspond uniquement à [!UICONTROL Approuvé] ou [!UICONTROL Actuel].
 
@@ -101,7 +107,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
 
 #### Finances du portfolio pour les projets sélectionnés {#portfolio-finances-for-selected-projects}
 
-![finances de Portfolio](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![finances de ](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 

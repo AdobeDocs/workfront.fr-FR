@@ -6,10 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: 881
+ht-degree: 95%
 
 ---
 
@@ -27,27 +32,27 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 
 Pour vous permettre de mieux contrôler les processus et les statuts d’approbation dans votre système, nous avons autorisé la création d’un processus d’approbation basé sur un statut de système déverrouillé. De plus, vous pouvez désormais déverrouiller tout statut déjà utilisé dans un processus d’approbation. Auparavant, un statut système utilisé dans un processus d’approbation devait être verrouillé. Cela le rendait disponible pour tous les groupes, sans possibilité de le supprimer ou de le renommer. Les équipes d’administration de groupe ne pouvaient donc pas rationaliser la liste des statuts de leur groupe en fonction de leurs besoins spécifiques.
 
-## L’icône Plan directeur du menu principal est désormais contrôlée par le biais des modèles de disposition.
+## L’icône Plan directeur du menu principal est désormais contrôlée par le biais des modèles de mise en page.
 
-L’équipe d’administration système peut désormais ajouter ou supprimer l’icône Plan directeur dans le menu principal via la configuration du modèle de disposition. Il est ainsi plus facile de contrôler les personnes qui peuvent parcourir le catalogue de plans directeurs.
+L’équipe d’administration système peut désormais ajouter ou supprimer l’icône Plan directeur dans le menu principal via la configuration du modèle de mise en page. Il est ainsi plus facile de contrôler les personnes qui peuvent parcourir le catalogue de plans directeurs.
 
 L’icône Plan directeur apparaît dans le menu principal lorsque :
 
-* Aucun modèle de disposition n’est affecté à l’utilisateur ou à l’utilisatrice.
+* Aucun modèle de mise en page n’est affecté à l’utilisateur ou à l’utilisatrice.
 
-* Le modèle de disposition de l’utilisateur ou de l’utilisatrice dispose de l’option Plan directeur dans la liste des éléments actifs.
+* Le modèle de mise en page de l’utilisateur ou de l’utilisatrice dispose de l’option Plan directeur dans la liste des éléments actifs.
 
-* Le modèle de disposition de l’utilisateur ou de l’utilisatrice contient l’option Plan directeur dans la liste Éléments disponibles ; l’icône n’apparaît pas dans le menu principal.
+* Le modèle de mise en page de l’utilisateur ou de l’utilisatrice contient l’option Plan directeur dans la liste Éléments disponibles ; l’icône n’apparaît pas dans le menu principal.
 
-Les modèles de disposition existants incluent automatiquement l’icône Plan directeur, et les équipes d’administration peuvent supprimer l’icône des modèles de disposition pour limiter la visibilité du catalogue de plans directeurs. Les modèles de disposition créés après la version 22.4 incluront l’icône Plan directeur dans la liste des éléments actifs.
+Les modèles de mise en page existants incluent automatiquement l’icône Plan directeur, et les équipes d’administration peuvent supprimer l’icône des modèles de mise en page pour limiter la visibilité du catalogue de plans directeurs. Les modèles de mise en page créés après la version 22.4 incluront l’icône Plan directeur dans la liste des éléments actifs.
 
 Pour plus d’informations, voir la section [Configurer l’accès aux plans directeurs](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Personnalisation de l’en-tête du problème
 
-En tant qu’administrateur ou administratrice Workfront ou de groupes, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’un problème lorsque vous utilisez un modèle de disposition.
+En tant qu’administrateur ou administratrice Workfront ou de groupes, vous pouvez désormais personnaliser les champs qui s’affichent dans l’en-tête d’un problème lorsque vous utilisez un modèle de mise en page.
 
 Cette mise à jour comprend les améliorations suivantes :
 
@@ -63,9 +68,9 @@ Avant cette version, seuls les en-têtes de projet et de tâche pouvaient être 
 
 
 
-Pour plus d’informations, voir la section [Personnaliser des en-têtes d’objet à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Pour plus d’informations, voir la section [Personnaliser des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Personnalisation de l’en-tête de tâche
 
@@ -81,9 +86,9 @@ Cette mise à jour comprend les améliorations suivantes :
 
 Avant cette version, seuls les en-têtes de projet pouvaient être personnalisés.
 
-Pour plus d’informations, voir la section [Personnaliser des en-têtes d’objet à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Pour plus d’informations, voir la section [Personnaliser des en-têtes d’objet à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Inclusion anticipée des dernières fonctionnalités sur les panoramas
 
@@ -93,7 +98,7 @@ Seulement un administrateur ou une administratrice Workfront peut activer les fo
 
 Pour plus d’informations, voir [Activation des fonctionnalités anticipées pour les panoramas Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## L’éditeur de calcul de champ de formulaire personnalisé affiche les informations d’erreur.
 
@@ -103,7 +108,7 @@ Pour plus d’informations, voir [Activation des fonctionnalités anticipées po
 
 La modification des calculs pour les champs personnalisés est désormais plus facile avec des informations d’erreur utiles indiquées directement dans le calcul. Lorsque vous créez un champ calculé dans un formulaire personnalisé, les erreurs sont surlignées en rose. Lorsque vous pointez sur la partie mise en surbrillance, une info-bulle s’affiche pour décrire le problème.
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migration vers Adobe Unified Experience
 
@@ -121,4 +126,4 @@ Adobe Unified Experience comprend :
 
 Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}

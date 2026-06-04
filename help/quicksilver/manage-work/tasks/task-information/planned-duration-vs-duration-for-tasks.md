@@ -7,10 +7,15 @@ description: La durée correspond au temps qui s’écoule entre les dates de d�
 author: Alina
 feature: Work Management
 exl-id: 183a3334-b4af-4f45-8e72-9e82ff3862a0
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+TQID: https://experienceleague.adobe.com/tVh55DKoBvOUZdq9lZ6y72rxZQ1WOoAYL-Pz8nlU588
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 97%
+source-wordcount: 272
+ht-degree: 87%
 
 ---
 
@@ -28,8 +33,8 @@ Lorsque le type de durée de la tâche est Piloté par l’effort, la durée pr�
 
 **Exemple :** si une tâche dont le type de durée est Piloté par l’effort a une durée de 3 jours et que vous affectez une ressource à un planning à plein temps, la durée prévue est également de 3 jours.
 
-Si vous affectez trois ressources à temps plein à la même tâche, la durée reste de 3 jours, mais la durée prévue passe à 1 jour. La durée prévue modifie également les dates de début et d’achèvement prévues de la tâche, afin de refléter la nouvelle durée prévue. Par conséquent, la chronologie du projet est également affectée.
-Vous pouvez utiliser le type de durée Piloté par l’effort lorsque vous affectez une tâche à plusieurs ressources. Cela permet de réduire le temps nécessaire à l’accomplissement de la tâche.
+Si vous affectez trois ressources avec un calendrier à temps plein à la même tâche, la durée reste de 3 jours, mais la durée planifiée devient 1 jour. La Durée prévue modifie également les dates de début et d’achèvement prévues de la tâche, afin de refléter la nouvelle Durée prévue. Par conséquent, la chronologie du projet est également affectée.
+Vous pouvez utiliser le type de durée pilotée par l&#39;effort lorsque vous affectez une tâche à plusieurs ressources. Cela réduit le temps nécessaire pour que le travail soit terminé sur la tâche.
 
 Pour plus d’informations sur le type de durée Piloté par l’effort, voir la section [Vue d’ensemble du type de durée : Piloté par l’effort](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 

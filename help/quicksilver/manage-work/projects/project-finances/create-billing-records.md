@@ -5,9 +5,15 @@ description: En plus de définir les revenus et de suivre les dépenses, vous po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
+TQID: https://experienceleague.adobe.com/-xR9IOM9MUTEZocMM5eACEEz644JxOuErtG-FCdM4y4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: 1638
 ht-degree: 38%
 
 ---
@@ -112,7 +118,7 @@ Tenez compte des éléments suivants lorsque vous envisagez d’utiliser les enr
 
    Un formulaire personnalisé d’enregistrements de facturation doit être créé avant de pouvoir le sélectionner ici. Seuls les formulaires personnalisés actifs sont affichés dans la liste. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Cliquez sur **Enregistrer.** L’enregistrement de facturation est créé.
+1. Cliquer sur **Enregistrer**. L’enregistrement de facturation est créé.
 
 ## Inclure les heures facturables, les dépenses et les revenus fixes dans un enregistrement de facturation
 
@@ -135,7 +141,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
   Pour plus d’informations, consultez l’article [Gestion des types d’heures](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 * Toutes les heures enregistrées pour les événements du projet peuvent être ajoutées à un enregistrement de facturation si l&#39;utilisateur qui enregistre les heures a un taux de facturation par heure qui lui est associé ou qui est associé à sa fonction principale.
-* Si les heures sont enregistrées sur une tâche, celle-ci doit avoir le type de revenu suivant 
+* Si les heures sont enregistrées sur une tâche, celle-ci doit avoir le type de revenu suivant
 
    * Impossible de définir le type de revenus sur Non facturable.
    * Si le type de revenu est défini sur Taux horaire de la personne, la personne qui consigne le temps doit avoir un taux de facturation horaire défini dans son profil.
@@ -161,7 +167,7 @@ Vous pouvez ajouter des heures à un enregistrement de facturation lorsque les c
 
    >[!NOTE]
    >
-   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation &#x200B;](#what-hours-can-be-added-to-a-billing-record).
+   >Si aucune heure n&#39;est consignée ou si les heures consignées ne remplissent pas les conditions requises pour être ajoutées à un enregistrement de facturation, le bouton **Ajouter des heures** ne s&#39;affiche pas. Pour plus d’informations, reportez-vous à la section suivante de cet article : [quelles heures peuvent être ajoutées à un enregistrement de facturation ](#what-hours-can-be-added-to-a-billing-record).
 
 1. Sélectionnez les entrées d&#39;heures à inclure dans l&#39;enregistrement de facturation, puis cliquez sur **Ajouter des heures**. Le coût réel des heures est ajouté en tant que montant des **heures facturables** au total de l’**enregistrement de facturation**.
 

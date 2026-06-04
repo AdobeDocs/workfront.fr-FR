@@ -6,10 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: 750
+ht-degree: 94%
 
 ---
 
@@ -31,7 +35,7 @@ Une seule colonne de saisie est autorisée sur un panorama.
 
 Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Mise à jour du panneau de filtres dans les panoramas
 
@@ -41,7 +45,7 @@ Les icônes de filtre et de recherche sur un panorama ont été déplacées vers
 
 Pour plus d’informations, voir [Filtrer et rechercher des éléments dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Utiliser des groupes sur un panorama pour créer des couloirs
 
@@ -53,7 +57,7 @@ Les cartes qui se trouvent dans la colonne de saisie ne sont pas incluses dans u
 
 Pour plus d’informations, voir [Utiliser des groupes sur un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Amélioration des éléments de la liste de contrôle sur les panoramas
 
@@ -77,7 +81,7 @@ Après avoir ajouté l’équipe au panorama, vous pouvez lui attribuer des cart
 
 Pour plus d’informations, voir [Ajouter ou supprimer des membres d’un panorama](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Voir une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## La limite de travail en cours désormais disponible sur les colonnes du panorama.
 
@@ -89,7 +93,7 @@ Vous pouvez désormais fixer une limite de travail en cours (WIP) pour n’impor
 
 Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Voir une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Champ d’estimation ajouté aux cartes
 
@@ -99,4 +103,4 @@ Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksi
 
 Un nouveau champ Estimation sur les cartes ad hoc et connectées vous permet de saisir le nombre d’heures estimé pour la réalisation de la carte. Il s’agit d’une saisie manuelle, et non d’une valeur calculée. La valeur ne peut être supérieure à 99. L’estimation est affichée sur la carte sur le panorama ainsi que dans les détails de la carte.
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412872/){target=_blank}

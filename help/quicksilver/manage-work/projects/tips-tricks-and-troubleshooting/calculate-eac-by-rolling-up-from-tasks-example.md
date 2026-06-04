@@ -7,9 +7,15 @@ description: Cet article donne un exemple de calcul de l’Estimation à l’ach
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 88%
 
 ---
@@ -53,13 +59,13 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    <td> <p>Tâche 1</p> </td> 
    <td> <p>5 heures</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>20%</p> </td> 
+   <td> <p>20 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 2</p> </td> 
    <td> <p>10 heures</p> </td> 
    <td> <p>25 heures</p> </td> 
-   <td> <p>30%</p> </td> 
+   <td> <p>30 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Tâche 3</p> </td> 
@@ -156,7 +162,7 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
       <td> <p>Tâche 2</p> </td> 
       <td> <p>5 heures</p> </td> 
       <td> <p>10 heures</p> </td> 
-      <td> <p>20%</p> </td> 
+      <td> <p>20 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 3</p> </td> 
@@ -168,13 +174,13 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
       <td> <p>Tâche 4</p> </td> 
       <td> <p>10 heures</p> </td> 
       <td> <p>10 heures</p> </td> 
-      <td> <p>40%</p> </td> 
+      <td> <p>40 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 5</p> </td> 
       <td> <p>15 heures</p> </td> 
       <td> <p>10 heures</p> </td> 
-      <td> <p>50%</p> </td> 
+      <td> <p>50 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 6</p> </td> 
@@ -287,32 +293,32 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
       <th> <br> <p><strong>Ct M-o Pré</strong> </p> </th> 
       <th> <br> <p><strong>Hrs eff</strong> </p> </th> 
       <th> <br> <p><strong>Cts trv eff</strong> </p> </th> 
-      <th> <p><strong>% effectué</strong> </p> </th> 
+      <th> <p><strong>% terminé</strong> </p> </th> 
    </tr> 
    </thead> 
    <tbody> 
    <tr> 
       <td> <p>Tâche 1</p> </td> 
       <td> <p>5 heures</p> </td> 
-      <td> <p>$500.00</p> </td> 
+      <td> <p>500,00 $</p> </td> 
       <td> <p>25 heures</p> </td> 
-      <td> <p>$2,500.00</p> </td> 
-      <td> <p>20%</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>20 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 2</p> </td> 
       <td> <p>10 heures</p> </td> 
-      <td> <p>$1,000.00</p> </td> 
+      <td> <p>1 000,00 $</p> </td> 
       <td> <p>25 heures</p> </td> 
-      <td> <p>$2,500.00</p> </td> 
-      <td> <p>30%</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>30 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 3</p> </td> 
       <td> <p>15 heures</p> </td> 
-      <td> <p>$1,500.00</p> </td> 
+      <td> <p>1 500,00 $</p> </td> 
       <td> <p>25 heures</p> </td> 
-      <td> <p>$2,500.00</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
       <td> <p>40 %</p> </td> 
    </tr> 
    </tbody> 
@@ -337,25 +343,25 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    <tr> 
       <td> <p>Tâche 1</p> </td> 
       <td> <p>Dép 1 Tâche 1</p> </td> 
-      <td> <p>$300.00</p> </td> 
-      <td> <p>$400.00</p> </td> 
+      <td> <p>300,00 $</p> </td> 
+      <td> <p>400,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 1</p> </td> 
       <td> <p>Dép 2 Tâche 1</p> </td> 
-      <td> <p>$500.00</p> </td> 
-      <td> <p>$0.00</p> </td> 
+      <td> <p>500,00 $</p> </td> 
+      <td> <p>0,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 2</p> </td> 
       <td> <p>Dép Tâche 2</p> </td> 
-      <td> <p>$200.00</p> </td> 
-      <td> <p>$100.00</p> </td> 
+      <td> <p>200,00 $</p> </td> 
+      <td> <p>100,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 3</p> </td> 
       <td> <p>Dép Tâche 3</p> </td> 
-      <td> <p>$800.00</p> </td> 
+      <td> <p>800,00 $</p> </td> 
       <td> <p>700,00 $</p> </td> 
    </tr> 
    </tbody> 
@@ -377,12 +383,12 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    <tbody> 
    <tr> 
       <td> <p>Dép Projet 1</p> </td> 
-      <td> <p>$1,000.00</p> </td> 
-      <td> <p>$1,500.00</p> </td> 
+      <td> <p>1 000,00 $</p> </td> 
+      <td> <p>1 500,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Dép 2 Tâche 1</p> </td> 
-      <td> <p>$2,500.00</p> </td> 
+      <td> <p>2 500,00 $</p> </td> 
       <td> <p>0,00 $</p> </td> 
    </tr> 
    </tbody> 
@@ -406,90 +412,90 @@ Méthode EAC : cumuler à partir des tâches ou des sous-tâches
    <tbody> 
    <tr> 
       <td> <p>Tâche 1</p> </td> 
-      <td> <p>$500.00</p> </td> 
-      <td> <p>$300.00</p> </td> 
-      <td> <p>$400.00</p> </td> 
+      <td> <p>500,00 $</p> </td> 
+      <td> <p>300,00 $</p> </td> 
+      <td> <p>400,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 2</p> </td> 
-      <td> <p>$0.00</p> </td> 
-      <td> <p>$200.00</p> </td> 
-      <td> <p>$100.00</p> </td> 
+      <td> <p>0,00 $</p> </td> 
+      <td> <p>200,00 $</p> </td> 
+      <td> <p>100,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Tâche 3</p> </td> 
-      <td> <p>$0.00</p> </td> 
-      <td> <p>$800.00</p> </td> 
-      <td> <p>$700.00</p> </td> 
+      <td> <p>0,00 $</p> </td> 
+      <td> <p>800,00 $</p> </td> 
+      <td> <p>700,00 $</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Projet</p> </td> 
-      <td> <p>$3,000.00</p> </td> 
-      <td> <p>$2,300.00</p> </td> 
+      <td> <p>3 000,00 $</p> </td> 
+      <td> <p>2 300,00 $</p> </td> 
       <td> <p>2 700,00 $</p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 1. À partir des actions du projet, exécuter Recalculer finances
-1. **ICP**&#x200B;**de la tâche 1** = 0,14 calculé comme suit :\
-   **IPC**&#x200B;**&#x200B; pour la tâche 1 &#x200B;** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+1. **ICP****de la tâche 1** = 0,14 calculé comme suit :\
+   **IPC**** pour la tâche 1 ** = *IF* Coût réel de la main-d&#39;œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * SINON* ICP = CPI_Labor\
-     **IPC**&#x200B;**pour la tâche 1** = (100 + 300) / (2 500 + 400)\
-     **IPC**&#x200B;**pour la tâche 1** = 400/2900\
-     **IPC**&#x200B;**pour la tâche 1** = .14
+     **IPC****pour la tâche 1** = (100 + 300) / (2 500 + 400)\
+     **IPC****pour la tâche 1** = 400/2900\
+     **IPC****pour la tâche 1** = .14
 
-1. **EAC**&#x200B;**&#x200B; de la tâche 1** = 13 400 $\
-   **ICP main d’œuvre**&#x200B;**&#x200B; de la tâche 1** = IF Coût réel de main d’œuvre &lt;> 0 THEN
+1. **EAC**** de la tâche 1** = 13 400 $\
+   **ICP main d’œuvre**** de la tâche 1** = IF Coût réel de main d’œuvre &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    SINON CPI_Labor = 1\
-   **ICP main d’œuvre**&#x200B;**&#x200B; de la tâche 1** = 100/2500\
-   **ICP main d’œuvre**&#x200B;**&#x200B; de la tâche 1** = 0,04
+   **ICP main d’œuvre**** de la tâche 1** = 100/2500\
+   **ICP main d’œuvre**** de la tâche 1** = 0,04
 
-   **EAC main d’œuvre**&#x200B;**&#x200B; de la tâche 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC main d’œuvre**** de la tâche 1 ** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * SINON* CRE Main-d&#39;œuvre = Coût prévu de main-d&#39;œuvre + Coût réel de main-d&#39;œuvre\
-     **EAC main d’œuvre**&#x200B;**de la tâche 1** = 500/0,04\
-     **EAC main d’œuvre**&#x200B;**de la tâche 1** = 12 500,00 $
+     **EAC main d’œuvre****de la tâche 1** = 500/0,04\
+     **EAC main d’œuvre****de la tâche 1** = 12 500,00 $
 
-   **EAC dépense**&#x200B;**de la tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
-   **EAC dépenses**&#x200B;**de la tâche 1** = 400 $ + 500 $\
-   **EAC dépenses**&#x200B;**de la tâche 1** = 900 $
+   **EAC dépense****de la tâche 1** = Coût des dépenses réelles engagées + Coût des dépenses prévues non engagées\
+   **EAC dépenses****de la tâche 1** = 400 $ + 500 $\
+   **EAC dépenses****de la tâche 1** = 900 $
 
-   **EAC dépenses**&#x200B;**&#x200B; de la tâche 1** = EAC main d’œuvre + EAC dépenses\
-   **CRE**&#x200B;**pour la tâche 1** = 12 500 $ + 900 $\
-   **CRE**&#x200B;**pour la tâche 1** = 13 400 $
+   **EAC dépenses**** de la tâche 1** = EAC main d’œuvre + EAC dépenses\
+   **CRE****pour la tâche 1** = 12 500 $ + 900 $\
+   **CRE****pour la tâche 1** = 13 400 $
 
 1. Voici les valeurs ICP/EAC pour la tâche 2 et la tâche 3 :\
    Tâche 2 = 0,19 / 8 433,33 $\
-   Tâche 3 = 0,44/6 950 $**&#x200B;**
+   Tâche 3 = 0,44/6 950 $****
 
 1. ICP du projet = 0,32\
-   **ICP**&#x200B;**&#x200B; pour le projet &#x200B;** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **ICP**** pour le projet ** = *IF* Coût réel de la main-d’œuvre + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * SINON* ICP = CPI_Labor\
-     **ICP**&#x200B;**du projet** = (1 000 + 2 300)/(7 500 + 2 700)\
-     **ICP**&#x200B;**du projet** = 3 300/10 200\
-     **ICP**&#x200B;**du projet** = 0,32
+     **ICP****du projet** = (1 000 + 2 300)/(7 500 + 2 700)\
+     **ICP****du projet** = 3 300/10 200\
+     **ICP****du projet** = 0,32
 
 1. L’EAC du projet est de 28 783,33 $.\
-   **EAC**&#x200B;**pour le projet** = EAC Tâche 1 + EAC Tâche 2 + EAC Tâche 3\
-   **EAC**&#x200B;**pour le projet** = 13 400 $ + 8 433,33 $ + 6 950 $\
-   **EAC**&#x200B;**pour le projet** = 28 783,33 $
+   **EAC****pour le projet** = EAC Tâche 1 + EAC Tâche 2 + EAC Tâche 3\
+   **EAC****pour le projet** = 13 400 $ + 8 433,33 $ + 6 950 $\
+   **EAC****pour le projet** = 28 783,33 $

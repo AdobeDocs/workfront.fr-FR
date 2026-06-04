@@ -7,12 +7,18 @@ description: Après avoir créé un modèle, vous pouvez modifier les informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+TQID: https://experienceleague.adobe.com/LGLJV7JroMRc1SmwEjCRGnF5FRDuaH4k7oqpmGl11bI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 66%
+source-wordcount: 3074
+ht-degree: 64%
 
 ---
 
@@ -395,7 +401,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    <td> <p>Spécifiez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la quantité de temps réel nécessaire aux personnes assignées à la tâche pour la terminer. Vous ne pouvez spécifier le nombre d'heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d'affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
    <b>NOTE</b>
    <p>
-   Lors de la création de tâches récurrentes, les heures prévues sont celles de chaque occurrence. Les heures prévues des tâches parent correpondent au nombre total d’heures prévues de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
+   Lors de la création de tâches récurrentes, les heures planifiées sont celles de chaque occurrence. Les heures prévues des tâches parents représentent le total de toutes les heures prévues pour toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
    </p>
 
    </td> 
@@ -489,8 +495,8 @@ Vous pouvez également ajouter des formulaires personnalisés aux tâches future
 
 1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle.
 
-   Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ.
-Seuls les formulaires personnalisés actifs sont affichés dans la liste.
+   Vous devez créer les formulaires personnalisés avant qu’ils ne puissent être sélectionnés dans ce champ.
+Seuls les formulaires personnalisés actifs s’affichent dans la liste.
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/hWQHCGyvb-N-utvgquxUHOUd9WfC9YNQpr5w-I4E-YE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4155'
+source-wordcount: 4155
 ht-degree: 98%
 
 ---
@@ -47,7 +53,7 @@ Ces améliorations ont été apportées à l’environnement de production au co
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
-the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/fr-fr/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/fr-fr/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Améliorations apportées à Adobe Workfront
@@ -395,7 +401,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
+   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-mobile-enhancements.md#drawings" class="MCXref xref" xrefformat="{para}">Dessins et commentaires sur les documents épreuve dans l’application mobile</a></p> <p>L’application mobile Adobe Workfront permet désormais d’ajouter des dessins et des commentaires sur les documents épreuve. Une nouvelle barre d’outils sur l’épreuve contient des outils de dessin pour les formes. Vous pouvez choisir des paramètres tels que la couleur et l’épaisseur du trait pour chaque forme. Dessiner une forme sur l’épreuve connecte votre commentaire à cette zone du document épreuve.</p> <p>Vous pouvez également répondre aux commentaires d’autres personnes sur l’épreuve.</p> </td> 

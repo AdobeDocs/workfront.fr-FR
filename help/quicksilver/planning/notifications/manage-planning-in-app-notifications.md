@@ -6,15 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
+TQID: https://experienceleague.adobe.com/1RARIfclq-MB5bDLbn0m9zziFvuz1ugOyRsGpeKIpM0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: 396
 ht-degree: 7%
 
 ---
-
 
 # Gérer les notifications in-app d’Adobe Workfront Planning
 
@@ -140,7 +145,7 @@ OLD:
 
 1. (Conditionnel) Lorsqu’un utilisateur vous a identifié ou identifié vos équipes dans un commentaire sur un enregistrement, accédez à l’icône in-app **Notifications** ![icône de notifications Experience Cloud](assets/experience-cloud-notifications-icon.png) dans Adobe Experience Cloud.
 
-   ![&#x200B; Exemple de notification in-app &#x200B;](assets/in-app-notification-example.png)
+   ![ Exemple de notification in-app ](assets/in-app-notification-example.png)
 
 1. Cliquez sur la notification.
 
@@ -161,6 +166,6 @@ Pour plus d’informations sur la gestion des notifications Workfront Planning, 
 
 Vous recevez une notification in-app lorsqu’une personne soumet une demande pour approbation ou lorsqu’une personne approuve une demande que vous avez soumise.
 
-Pour plus d’informations sur l’envoi de demandes, voir [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur l’envoi de demandes, voir [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 Pour plus d’informations sur l’approbation des demandes, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

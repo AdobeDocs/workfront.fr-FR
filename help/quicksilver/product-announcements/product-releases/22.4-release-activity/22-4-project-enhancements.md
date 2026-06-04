@@ -6,9 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: 965
 ht-degree: 97%
 
 ---
@@ -112,7 +116,7 @@ Le mode Texte reste disponible pour l’édition avancée de filtres, et les adm
 
 ### Faites-nous part de vos commentaires !
 
-Avec cette version Beta publique, les personnes ont la possibilité d’envoyer leurs commentaires directement à l’équipe qui travaille sur l’expérience de filtrage en cliquant sur le bouton de commentaire. Il nous tarde d’avoir de vos nouvelles et de celles de vos utilisateurs et utilisatrices sur la nouvelle expérience de filtrage en version Beta publique. Si votre équipe souhaite découvrir directement un produit afin de fournir des commentaires supplémentaires, n’hésitez pas à programmer une réunion ici : https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
+Avec cette version Beta publique, les personnes ont la possibilité d’envoyer leurs commentaires directement à l’équipe qui travaille sur l’expérience de filtrage en cliquant sur le bouton de commentaire. Il nous tarde d’avoir de vos nouvelles et de celles de vos utilisateurs et utilisatrices sur la nouvelle expérience de filtrage en version Beta publique. Si votre équipe souhaite découvrir directement un produit afin de fournir des commentaires supplémentaires, n’hésitez pas à programmer une réunion ici : https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Quelle est la suite ?
 

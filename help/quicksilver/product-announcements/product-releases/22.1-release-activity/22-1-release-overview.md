@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4991'
+source-wordcount: 4991
 ht-degree: 99%
 
 ---
@@ -48,8 +54,8 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/fr-fr/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/fr-fr/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
@@ -73,7 +79,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#document" class="MCXref xref" xrefformat="{para}">Téléchargements de documents enregistrés dans la zone Mises à jour</a> </p> <p>Pour aider vos utilisateurs et utilisatrices à suivre les téléchargements des documents qu’ils stockent dans Workfront, le système enregistre désormais une entrée dans la zone Mises à jour pour un document lorsque quelqu’un le télécharge.</p> <p>Nous vous recommandons de tester cette fonctionnalité en prévisualisation sur un document nouvellement chargé.</p> </td> 
@@ -165,7 +171,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Partager un dossier de documents</a> </p> <p>Vous pouvez maintenant partager un dossier de documents et son contenu à partir de la zone Documents. Auparavant, cela n’était pas possible. Vous deviez partager chaque document séparément dans un dossier.</p> </td> 
@@ -276,7 +282,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">Amélioration des fonctionnalités de relecture pour les personnes chargées de la révision et des demandes</a> </p> <p>Afin d’offrir une expérience plus intégrée entre Workfront et Workfront Proof, nous avons apporté plusieurs améliorations concernant les capacités de relecture pour les personnes réviseuses et demandeuses :</p> 
@@ -349,7 +355,7 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Fonctionnalité</strong> </p> </td> 
-   <td> <p><strong>Dates de publication et environnements</strong> </p> </td> 
+   <td> <p><strong>Dates et environnements de la version</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Améliorations de la fonctionnalité de l’épreuve dans l’application mobile</a> </p> <p>Dans l’application mobile Adobe Workfront, vous pouvez désormais :</p> 

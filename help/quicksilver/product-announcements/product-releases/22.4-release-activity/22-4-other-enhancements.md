@@ -6,9 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/z-GVj-kjcrUDRJOtzjU4gZhGAmis15E-4x8RGOkAqT4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: 608
 ht-degree: 97%
 
 ---
@@ -23,7 +28,7 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 
 Ce plug-in peut désormais être installé dans InDesign. Il vous permet d’accéder aux détails des éléments de travail, de collaborer avec les personnes avec qui vous travaillez dans la zone des mises à jour et de soumettre des épreuves pour révision, le tout sans quitter XD. Accédez à la marketplace Adobe Creative Cloud pour télécharger le plug-in dès aujourd’hui.
 
-Pour plus d’informations sur le plug-in, consultez la section Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Pour plus d’informations sur le plug-in, consultez la section Plug-in [[!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [Téléchargez Adobe Workfront pour InDesign sur la marketplace dès aujourd’hui](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 

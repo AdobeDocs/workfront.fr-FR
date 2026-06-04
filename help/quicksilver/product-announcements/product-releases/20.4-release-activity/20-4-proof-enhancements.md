@@ -6,9 +6,14 @@ draft: Probably
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+TQID: https://experienceleague.adobe.com/IRPhk2-nibgfScgrDT-RhaJpnTzCuALw0A6KT9EeIPM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: 273
 ht-degree: 100%
 
 ---
@@ -41,7 +46,7 @@ Pour plus d’informations, voir [Prendre une décision sur une épreuve dans la
 
 ## Générer automatiquement une épreuve lors du chargement d’un paramètre de document désactivé par défaut
 
-L’option du profil utilisateur permettant de générer automatiquement des épreuves lors du chargement de documents est désormais désactivée par défaut pour les nouveaux utilisateurs et les nouvelles utilisatrices d’épreuves. Cette modification n’affecte pas les personnes qui utilisent déjà cette option. Si ce paramètre est activé, il le restera.
+L’option du profil utilisateur permettant de générer automatiquement des épreuves lors du chargement de documents est désormais désactivée par défaut pour les nouveaux utilisateurs et les nouvelles utilisatrices en charge de la relecture. Cette modification n’affecte pas les personnes qui utilisent déjà cette option. Si ce paramètre est activé, il le restera.
 
 Auparavant, ce paramètre était activé par défaut pour les nouveaux utilisateurs et les nouvelles utilisatrices.
 

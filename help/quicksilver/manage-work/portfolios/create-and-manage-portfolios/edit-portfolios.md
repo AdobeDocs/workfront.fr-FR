@@ -6,11 +6,17 @@ description: Vous pouvez modifier des informations sur les portfolios que vous a
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/A59Xi2g75iLxj93L3xk4saeZn1C6TlbFj5q-9n0RSc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: 1084
 ht-degree: 62%
 
 ---
@@ -103,7 +109,7 @@ Old:
 
    1. Cliquez sur le nom d’un portfolio pour l’ouvrir, puis cliquez sur **[!UICONTROL Détails du]** dans le panneau de gauche.
 
-      ![Onglet Détails de &#x200B;](assets/portfolio-details-tab-nwe-350x163.png)
+      ![Onglet Détails de ](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -221,7 +227,7 @@ Old:
 
    >[!NOTE]
    >
-   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé. tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Selon la manière dont votre équipe d’administration [!DNL Workfront] définit les autorisations pour les sections de votre formulaire personnalisé, tout le monde ne peut pas afficher ou modifier les mêmes champs sur un formulaire personnalisé donné. Les autorisations de modification des champs d’une section d’un formulaire personnalisé dépendent des autorisations dont vous disposez sur le portfolio lui-même. Pour plus d’informations sur la définition des autorisations pour les sections d’un formulaire personnalisé, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur [!UICONTROL **Enregistrer**] et continuez à modifier les sections suivantes.
 

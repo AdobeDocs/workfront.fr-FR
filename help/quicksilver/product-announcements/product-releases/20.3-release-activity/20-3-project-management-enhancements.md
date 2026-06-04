@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/m72HcdqC9ZH3Kzn11Lb1EoL-LZmosFkPVW3FUxa1gq8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 932
 ht-degree: 100%
 
 ---
@@ -48,7 +54,7 @@ Le lien « Modèles » de la zone « Projets » a été supprimé. Vous pouv
 
 Dans le cadre de la mise à jour de l’aspect de la nouvelle expérience Workfront, nous avons repensé la zone « Modifier le projet ». Vous pouvez accéder à la nouvelle zone « Modifier le projet » à partir d’un projet individuel ou lors de la modification d’un projet à partir d’une liste.
 
-Outre un aspect actualisé, les améliorations suivantes sont disponibles dans la zone « Modifier le projet » :
+Outre une apparence mise à jour, les améliorations suivantes sont disponibles dans la zone « Modifier le projet » :
 
 * Personnalisez une fois votre modèle de mise en page et reflétez ces personnalisations dans la page « Détails » et dans la zone « Modifier l’objet ».
 * Les noms de formulaires personnalisés individuels sont maintenant accessibles dans le panneau de gauche de la zone « Modifier le projet ». Vous pouvez ainsi accéder rapidement à chaque formulaire à partir de cet emplacement.

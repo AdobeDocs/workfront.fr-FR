@@ -8,15 +8,20 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/GtWgf0gZVuIE2xM6lkZlOyzmV9D7xg0myc2otxYFakU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2867'
-ht-degree: 63%
+source-wordcount: 2632
+ht-degree: 66%
 
 ---
-
 
 # Créer une file d’attente des demandes
 
@@ -456,11 +461,11 @@ Pour créer une file d’attente des demandes, procédez comme suit :
       * Semaines
 
    La durée par défaut est la durée nécessaire généralement pour terminer un événement soumis à cette file d’attente des demandes. Cela devient la valeur par défaut pour tous les événements entrants et peut être modifié manuellement.
-La durée par défaut d’un problème est la même que celle des heures prévues pour ce problème. La date d’achèvement prévue du problème est calculée sur la base de ce champ.\
+La durée par défaut d’un événement est identique aux heures prévues de l’événement. La Date d&#39;achèvement prévue de l&#39;événement est calculée en fonction de ce champ.\
    Si rien n’est fait, la durée par défaut du problème est de 1 jour ou 8 heures.
 Si votre administrateur Workfront a défini le nombre d’heures standard par jour de travail sur moins de 8 heures dans la zone Configuration , la durée par défaut pour les problèmes reste de 8 heures.
 Par exemple, si le nombre d’heures standard par journée de travail est défini sur 7 heures dans la zone Configuration de Workfront, la durée par défaut pour les problèmes est de 1,14 jour ou 8 heures.
-Pour plus d’informations sur la configuration du système Heures types par jour de travail, voir la section « Calculs de chronologie » dans l’article [Configurer les préférences du projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Pour plus d&#39;informations sur la configuration du système d&#39;heures standard par jour ouvré, reportez-vous à la section « Calculs de chronologie » de l&#39;article [Configurer les préférences du projet à l&#39;échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * **Les personnes de la même entreprise hériteront des mêmes autorisations pour toutes les demandes.** : lorsque cette option est sélectionnée, toutes les demandes soumises à la file d’attente sont visibles pour les utilisateurs de la même entreprise. Les utilisateurs et utilisatrices peuvent consulter ces demandes dans la section Toutes les demandes, située dans la zone Demandes. Au moment où ce paramètre est activé ou désactivé, il a un impact sur toutes les demandes futures ; il n’a pas d’impact rétroactif sur les informations.
    * **Lorsqu’une personne effectue une demande, accorder automatiquement... :** lorsqu’un utilisateur effectue une demande dans la file d’attente des demandes, il se voit automatiquement accorder le niveau d’autorisation que vous choisissez pour cette demande. Cliquez sur le bouton Accès pour effectuer une sélection parmi les niveaux d&#39;autorisation suivants :
@@ -527,9 +532,9 @@ Pour plus d’informations sur la configuration du système Heures types par jou
 
    * **Custom Forms** : sélectionnez un formulaire personnalisé à associer à la file d’attente des demandes dans le menu déroulant. Vous pouvez sélectionner plusieurs formulaires, puis les faire glisser et les déposer dans l’ordre d’affichage souhaité dans le formulaire de demande.
 Seuls les formulaires personnalisés de l&#39;événement peuvent être sélectionnés dans ce menu déroulant. Les formulaires sélectionnés seront associés à tous les événements soumis à cette file d&#39;attente de demandes, ajoutés au projet ou à ses tâches.
-Vous devez créer des formulaires personnalisés de problèmes avant de pouvoir les afficher dans la section Détails de la file d’attente.
+Vous devez créer des formulaires personnalisés de problème avant de pouvoir les afficher dans la section Détails de la file d&#39;attente.
 Si plusieurs rubriques de file d’attente sont associées à une file d’attente des demandes, nous vous recommandons d’associer des formulaires personnalisés à ces rubriques.
-Pour plus d’informations, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Pour plus d&#39;informations, voir [Création de rubriques de file d&#39;attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![Zone Formulaires personnalisés dans Détails de la file d’attente](assets/custom-forms-box-on-queue-details.png)
 

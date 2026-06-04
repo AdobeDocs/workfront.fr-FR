@@ -6,10 +6,16 @@ description: Vous pouvez attribuer une gravité aux problèmes dans Adobe Workf
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+TQID: https://experienceleague.adobe.com/hCdHoVk8zifdqubztSQ7e-q5HLULEeRx7dugBNFqEQs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 84%
+source-wordcount: 287
+ht-degree: 86%
 
 ---
 
@@ -24,9 +30,9 @@ Les événements sont des événements inattendus qui peuvent empêcher vos proj
 L’administration Workfront définit les gravités disponibles. Une fois créées, vous pouvez les associer à un problème.\
 Pour plus d’informations sur la création de gravités dans Workfront, consultez la section [Créer ou personnaliser des gravités pour les problèmes](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
-Vous devez disposer d’autorisations de contribution pour un problème afin d’indiquer sa gravité.
+Vous devez disposer d’autorisations de contribution pour un problème afin de mettre à jour sa gravité.
 
-Vous pouvez indiquer la gravité des problèmes dans les zones suivantes de Workfront :
+Vous pouvez mettre à jour la gravité des problèmes dans les zones suivantes de Workfront :
 
 * Dans la boîte de dialogue **Modifier événement**
 * Dans la zone **Détails du problème** d’un problème.
@@ -41,12 +47,12 @@ Vous pouvez indiquer la gravité des problèmes dans les zones suivantes de Work
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
-   <td><p>Contributeur ou version ultérieure</p> 
+   <td><p>Contributeur ou supérieur</p> 
    <p>Requête ou supérieure</p> </td> 
   </tr> 
   <tr> 
@@ -66,9 +72,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Mettre à jour la gravité des problèmes
 
-Pour indiquer la gravité d’un problème dans la zone Détails du problème d’un problème :
+Pour mettre à jour la gravité d’un problème dans la zone Détails du problème d’un problème :
 
-1. Accédez au problème dont vous souhaitez spécifier la gravité.
+1. Accédez au problème dont vous souhaitez mettre à jour la gravité.
 1. Cliquez sur **Détails du problème** dans le panneau de gauche.
 
    La section **Vue d’ensemble** doit s’afficher par défaut.

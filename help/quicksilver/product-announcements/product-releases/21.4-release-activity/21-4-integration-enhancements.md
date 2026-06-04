@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/dCRr9YQiXiX82Jw7wyeT786T8oJ74-u6kOuevYy-SWY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 367
 ht-degree: 100%
 
 ---
@@ -33,7 +39,7 @@ Pour plus d’informations sur la façon dont l’administration Workfront peut 
 
 ## Mises à jour apportées à Workfront pour Slack
 
-L’intégration Workfront pour Slack bénéficie des améliorations suivantes :
+L’intégration Workfront pour Slack bénéficie des mises à jour suivantes :
 
 * L’expérience de Workfront pour Slack a été repensée.
 * Vous recevez maintenant les notifications de Workfront pour Slack en temps réel.

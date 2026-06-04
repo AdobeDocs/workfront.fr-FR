@@ -6,12 +6,18 @@ description: Vous pouvez configurer un projet pour permettre aux utilisateurs et
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/G-VPfyHDE9ZhcaqNGaHnZ2bP3lnAHFEwo2SN53cCw9E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 80%
+source-wordcount: 796
+ht-degree: 79%
 
 ---
 
@@ -78,7 +84,7 @@ Les conditions suivantes sont requises pour configurer un projet afin de permett
 >* Workfront autorise un e-mail unique par file d’attente des demandes dans tous les clusters. Si vous choisissez de désactiver la file d’attente des demandes, vous conserverez l’adresse e-mail que vous avez créée tant qu’elle se trouve toujours dans la zone Adresse e-mail de réception. Si vous choisissez d’arrêter l’utilisation de l’adresse e-mail de réception, vous devez la supprimer du champ Adresse e-mail de réception afin qu’elle puisse être utilisée ultérieurement.
 >
 >* Si la file d’attente des demandes comporte plusieurs rubriques ou groupes de rubriques de file d’attente, Workfront sélectionne aléatoirement la rubrique de file d’attente à laquelle les demandes envoyées par e-mail seront envoyées, ce qui rend les demandes envoyées par e-mail difficiles à gérer.
->Nous recommandons que le projet que vous configurez pour recevoir des demandes par e-mail ne comporte pas plus d’une rubrique de file d’attente. Si les demandes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après leur envoi.
+>Nous vous recommandons de ne pas avoir plus d’une rubrique de file d’attente pour le projet que vous configurez pour recevoir des demandes par e-mail. Si les requêtes envoyées sont destinées à différents projets ou ressources, vous devez les acheminer ou les déplacer manuellement, après les avoir envoyées.
 
 1. Accédez au projet sur lequel vous souhaitez activer la réception des problèmes par e-mail.
 1. Cliquez sur **Détails de la file d’attente** dans le panneau de gauche.

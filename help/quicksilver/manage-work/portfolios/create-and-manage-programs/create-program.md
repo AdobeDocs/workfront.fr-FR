@@ -6,11 +6,17 @@ description: Un programme représente un ensemble de projets qui partagent une s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: 1422
 ht-degree: 63%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 63%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet.
+Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet.
 Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d&#39;un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille.
 
 Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.

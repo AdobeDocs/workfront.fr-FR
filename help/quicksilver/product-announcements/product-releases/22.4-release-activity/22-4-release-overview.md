@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3370'
-ht-degree: 99%
+source-wordcount: 3298
+ht-degree: 97%
 
 ---
 
@@ -178,7 +184,7 @@ Ces améliorations ont été apportées à l’environnement de production avec 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de publication</span>
+                        <p><span class="bold">Dates de version</span>
                         </p>
                     </td>
                 </tr>
@@ -298,9 +304,9 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
 
 </p>
 <ol>
-<li>Ajoutez un fichier Adobe XD pour rendre un formulaire personnalisé plus visuel et informatif. Lorsque le formulaire est joint à un objet, les personnes qui l’utilisent peuvent afficher et interagir avec le fichier XD depuis le formulaire.
+<li>Ajoutez un fichier Adobe XD pour rendre un formulaire personnalisé plus visuel et informatif. Lorsque le formulaire est joint à un objet, les utilisateurs qui travaillent avec l’objet peuvent afficher le fichier XD et interagir avec lui depuis l’intérieur du formulaire.
 </li>
-<li>Utilisez le filtre rapide pour localiser facilement des éléments dans la liste de champs et de formulaires personnalisés modernisés. Profitez également d’un aspect amélioré lors de la gestion de vos formulaires et champs.
+<li>Utilisez le filtre rapide pour localiser facilement les éléments dans la liste modernisée des formulaires et champs personnalisés. Bénéficiez également d’une amélioration de l’aspect lors de la gestion de vos formulaires et champs.
 </li>
 </ol>
                     </td>
@@ -418,7 +424,7 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter une équipe à un panorama ou à une carte</a> </p>
                         <p>Vous pouvez désormais ajouter une équipe en tant que membre du panorama. Les membres de l’équipe ne sont plus ajoutés lorsque vous ajoutez une équipe au panorama, bien que l’ensemble des membres de l’équipe ait accès au panorama.</p>
-                        <p>Après avoir ajouté l’équipe au panorama, vous pouvez lui attribuer des cartes. Sur les cartes connectées, une seule affectation d’équipe est autorisée. Pour les cartes ad hoc, vous pouvez affecter plusieurs équipes.
+                        <p>Après avoir ajouté l’équipe au panorama, vous pouvez l’affecter à des cartes. Sur les cartes connectées, une seule affectation d’équipe est autorisée. Sur les cartes ad hoc, vous pouvez affecter plusieurs équipes.
                         </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -658,8 +664,8 @@ Remarque : cette fonctionnalité n’est pas disponible pour l’instant dans l
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Campagnes Workfront (Beta)</a> </p>
                         <p>Nous introduisons un nouvel objet dans Adobe Workfront qui a le potentiel de modifier la façon dont vous gérez le travail. </p>
-                        <p>Les campagnes Workfront vous permettent d’organiser des projets provenant de différents portfolios et programmes dans un nouveau conteneur de travail.
-Les campagnes ont été publiées en juillet 2022 dans la version préliminaire Beta 22.3.</p>
+                        <p>Les campagnes Workfront vous permettent d'organiser des projets de différents portfolios et programmes dans un nouveau conteneur de travail.
+Les campagnes ont été publiées en version bêta avec la version 22.3, en juillet 2022.</p>
 <p>Ce nouveau conteneur évoluera dans les prochaines versions pour relier des objets de travail qui sont actuellement gérés dans des silos séparés.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
