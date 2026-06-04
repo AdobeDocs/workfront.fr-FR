@@ -7,9 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bKFAN--rVO1yxgFLiyhXolgUBajVGYQxM7pBUuqy3v8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: 269
 ht-degree: 100%
 
 ---
@@ -24,11 +31,11 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour o
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| backlogOrder | customer |   |   | bulkCopy |   | COPY |
-| color | iteration |   |   |   |   | COUNT |
+| backlogOrder | customer |   |   | bulkCopy  |   | COPY |
+| color | iteration  |   |   |   |   | COUNT |
 | customerID | lastUpdatedBy |   |   |   |   | SUPPRIMER |
 | estimate | opTask |   |   |   |   | MODIFIER |
-| ID | projet |   |   |   |   | GET |
+| ID | projet |   |   |   |   | GET  |
 | isReady | storyboardParent |   |   |   |   | REPORT |
 | iterationID | tâche |   |   |   |   | SEARCH |
 | lastUpdateDate | équipe |   |   |   |   |   |
@@ -39,7 +46,7 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour o
 | projectID |   |   |   |   |   |   |
 | storyBoardOrder |   |   |   |   |   |   |
 | storyBoardParentID |   |   |   |   |   |   |
-| taskID |   |   |   |   |   |   |
+| taskID  |   |   |   |   |   |   |
 | teamID |   |   |   |   |   |   |
 | type |   |   |   |   |   |   |
 | uiObjCode |   |   |   |   |   |   |
@@ -51,7 +58,7 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour o
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | COUNT |
+| deprecationRelease |   |   |   |   |   | COUNT  |
 | removalRelease |   |   |   |   |   | GET |
 | versionName |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
@@ -137,8 +144,8 @@ Il s’agit d’une liste des ressources nouvelles de l’API version 9. Pour o
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | addSubscribers | subscribers | ADD |
-|   |   |   |   | removeSubscribers |   | COUNT |
+|  ID |   |   |   | addSubscribers | subscribers | ADD |
+|   |   |   |   | removeSubscribers |   | COUNT  |
 |   |   |   |   | subscribes |   | SUPPRIMER |
 |   |   |   |   | unsubscribes |   | GET |
 |   |   |   |   |   |   | REPORT |

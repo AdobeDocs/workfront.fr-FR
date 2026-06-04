@@ -6,10 +6,24 @@ description: Les utilisateurs disposant d’un accès administratif aux feuilles
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 94%
+source-wordcount: 751
+ht-degree: 93%
 
 ---
 
@@ -32,7 +46,7 @@ Vous pouvez modifier les informations d’une seule feuille de temps ou modifier
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -78,7 +92,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!NOTE]
    >
-   >Si l’équipe d’administration de Workfront ou de groupes a supprimé les filtres « Mes approbations de feuilles de temps » et « Mes feuilles de temps » des contrôles de liste de la zone de configuration ou de votre modèle de mise en page, les options correspondantes ne s’afficheront pas en haut de la liste des feuilles de temps ou dans la liste des filtres.Pour plus d’informations, consultez les articles suivants :
+   >Si l’équipe d’administration de Workfront ou de groupes a supprimé les filtres « Mes approbations de feuilles de temps » et « Mes feuilles de temps » des contrôles de liste de la zone de configuration ou de votre modèle de mise en page, les options correspondantes ne s’afficheront pas en haut de la liste des feuilles de temps ou dans la liste des filtres. Pour plus d’informations, consultez les articles suivants :
    >
    >   
    >   
@@ -103,7 +117,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Personne propriétaire</strong> </td> 
-      <td> <p>Il s’agit du nom de la personne pour laquelle la feuille de temps a été créée.Vous ne pouvez pas modifier ce champ. </p> <p>Le champ ne s’affiche pas lorsque vous sélectionnez plusieurs feuilles de temps. </p> </td> 
+      <td> <p>Il s’agit du nom de la personne pour laquelle la feuille de temps a été créée. Vous ne pouvez pas modifier ce champ. </p> <p>Le champ ne s’affiche pas lorsque vous sélectionnez plusieurs feuilles de temps. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Date de début</strong> </td> 
@@ -116,7 +130,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader"><strong>Statut</strong> </td> 
       <td> Il s’agit du statut de la feuille de temps.
-      Voici les options de statut possibles de la feuille de temps : 
+      Vous trouverez ci-dessous des options possibles pour le statut de la feuille de temps : 
       <ul><li><b>Ouverte</b> : la feuille de temps est ouverte et les entrées d’heure peuvent être modifiées.</li>
       <li><b>Envoyée</b> : la feuille de temps est soumise pour approbation aux approbateurs et approbatrices désignés.</li>
       <li><b>Rejetée</b> : la feuille de temps n’a pas été approuvée par les approbateurs et approbatrices et est à nouveau disponible pour que l’utilisateur ou l’utilisatrice puisse modifier les entrées de temps.</li>

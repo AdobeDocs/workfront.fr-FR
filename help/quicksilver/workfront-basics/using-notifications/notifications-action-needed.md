@@ -6,9 +6,21 @@ description: Les notifications suivantes vous permettent de savoir si vous devez
 author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: 2366
 ht-degree: 100%
 
 ---
@@ -32,7 +44,7 @@ Consultez également la section [Notifications d’événements](../../workfront
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Lorsqu’une personne reçoit une nouvelle demande de travail, envoyer un e-mail à la personne cessionnaire.</strong> </p> <p>La personne cessionnaire de l’élément de travail reçoit une notification par e-mail, sauf si la personne qui dépose la demande est également la personne cessionnaire. </p> <p>La notification n’est pas envoyée si le statut de la tâche est [!UICONTROL Complete] ou si le statut du problème est [!UICONTROL Closed].</p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est : <em>[!UICONTROL New Work Request] : &lt;Request Name&gt;</em>.</p> <p>L’objet de la notification de synthèse quotidienne est : <em>[!UICONTROL Digest of Action Needed] &lt;Date of the daily digest&gt;.</em></p> </td> 
+   <td> <p><strong>Lorsqu’une personne reçoit une nouvelle demande de travail, envoyer un e-mail à la personne cessionnaire.</strong> </p> <p>La personne cessionnaire de l’élément de travail reçoit une notification par e-mail, sauf si la personne qui dépose la demande est également la personne cessionnaire. </p> <p>La notification n’est pas envoyée si le statut de la tâche est [!UICONTROL Complete] ou si le statut du problème est [!UICONTROL Closed].</p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est : <em>[!UICONTROL New Work Request] : &lt;Request Name&gt;</em>.</p> <p>L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of Action Needed] &lt;Date of the daily digest&gt;</em>.</p> </td> 
    <td> <p>Nom de la tâche</p> <p>[!UICONTROL Planned Completion Date]</p> <p>Parents</p> <p>Affecté par</p> <p>Affecté à</p> <p>[!UICONTROL Status]</p> <p>[!UICONTROL Description]</p> <p>Bouton [!UICONTROL View]<br>Option à ajouter à la synthèse quotidienne</p> <br> </td> 
    <td><strong>Instantané et</strong> <strong>quotidien</strong></td> 
   </tr> 

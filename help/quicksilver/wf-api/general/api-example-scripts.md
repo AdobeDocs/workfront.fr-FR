@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/sKmKH09kvDSYV81SQi1vgQXobcVBG-zWWKCKMsQyzq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 254
 ht-degree: 100%
 
 ---
-
 
 # Exemples de scripts pour l’API
 
@@ -36,7 +40,7 @@ Pour trouver des exemples dans le référentiel, saisissez `example` dans la zon
 
 >[!NOTE]
 >
->Toute utilisation de l’API doit être testée dans l’environnement bêta de Workfront avant d’être exécutée dans l’environnement de production. Si un client ou une cliente utilise l’API pour un processus dont Workfront estime raisonnablement qu’il s’agit d’une charge pour le logiciel à la demande (c’est-à-dire que le processus a un effet négatif important sur les performances du logiciel pour d’autres clientes et clients), Workfront se réserve le droit de demander à la personne d’interrompre ce processus et, si le client ou la cliente ne se conforme pas à la demande et que le problème persiste, Workfront se réserve le droit d’interrompre le processus.
+>Toute utilisation de l’API doit être testée dans l’environnement Beta de Workfront avant d’être exécutée dans l’environnement de production. Si un client ou une cliente utilise l’API pour un processus dont Workfront estime raisonnablement qu’il s’agit d’une charge pour le logiciel à la demande (c’est-à-dire que le processus a un effet négatif important sur les performances du logiciel pour d’autres clientes et clients), Workfront se réserve le droit de demander à la personne d’interrompre ce processus et, si le client ou la cliente ne se conforme pas à la demande et que le problème persiste, Workfront se réserve le droit d’interrompre le processus.
 
 >[!IMPORTANT]
 >

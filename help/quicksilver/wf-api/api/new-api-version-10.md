@@ -7,9 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/7paMh3l4zsoBaafv6U6pp1M-SQjk-kdmSho9GYa15SU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 484
 ht-degree: 100%
 
 ---
@@ -38,11 +45,11 @@ ht-degree: 100%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADD |
-|   |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | DELETE |
-|   |   |   |   |   |   | EDIT |
-|   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | REPORT |
+|   |   |   |   |   |   | COUNT  |
+|   |   |   |   |   |   | SUPPRIMER  |
+|   |   |   |   |   |   | EDIT  |
+|   |   |   |   |   |   | GET  |
+|   |   |   |   |   |   | REPORT  |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
@@ -52,9 +59,9 @@ ht-degree: 100%
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | REPORT |
-|   |   |   |   |   |   | SEARCH |
+|   |   |   |   |   |   | GET  |
+|   |   |   |   |   |   | REPORT  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
@@ -64,11 +71,11 @@ ht-degree: 100%
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ADD |
 |   |   |   |   |   |   | COUNT |
-|   |   |   |   |   |   | DELETE |
-|   |   |   |   |   |   | EDIT |
-|   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | REPORT |
-|   |   |   |   |   |   | SEARCH |
+|   |   |   |   |   |   | SUPPRIMER  |
+|   |   |   |   |   |   | EDIT  |
+|   |   |   |   |   |   | GET  |
+|   |   |   |   |   |   | REPORT  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
@@ -113,13 +120,13 @@ Les ressources existantes suivantes ont été mises à jour avec cette version d
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `<sup>1</sup>` |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor |   |   |   |   |   |   |
-| projectBudgetedCost |   |   |   |   |   |   |
-| projectNetValue |   |   |   |   |   |   |
-| projectRoi |   |   |   |   |   |   |
-| ressourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
+| priorityColor  |   |   |   |   |   |   |
+| projectBudgetedCost  |   |   |   |   |   |   |
+| projectNetValue  |   |   |   |   |   |   |
+| projetRoi  |   |   |   |   |   |   |
+| ressourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -205,7 +212,7 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   | licenceTypeLimit |   |   | addRemoveLicenseTypeLimits |   |   |
+|   | licenceTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
 {style="table-layout:auto"}
@@ -251,7 +258,7 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| projectBudgetedCost |   |   |   | linkExternalObject  |   |   |
+| projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
 | projectNetValue |   |   |   | unlinkExternalObject |   |   |
 | projetRoi |   |   |   |   |   |   |
 | ressourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
@@ -282,7 +289,7 @@ Frais
 |---|---|---|---|---|---|---|
 | kanbanFlag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor |   |   |   |   |   |   |
+| priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -326,7 +333,7 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
 {style="table-layout:auto"}
 
@@ -336,7 +343,7 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-|   | accessLevel |   |   |   |   |   |
+|   | accessLevel  |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -354,9 +361,9 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval <sup>1</sup> |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
-| priorityColor |   |   |   |   |   |   |
+| priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -368,12 +375,12 @@ Frais
 
 | Champs | Références | Collections | Recherche | Actions | Requêtes | Opérations |
 |---|---|---|---|---|---|---|
-| allocationDate |   |   |   |   |   | ADD  |
-| budgetedHours |   |   |   |   |   | COUNT |
-| ID |   |   |   |   |   | DELETE |
-| plannedBudgetedHours |   |   |   |   |   | EDIT |
-| projectID |   |   |   |   |   | GET |
-| roleID |   |   |   |   |   | REPORT |
+| allocationDate |   |   |   |   |   | ADD  |
+| budgetedHours |   |   |   |   |   | COUNT  |
+| ID |   |   |   |   |   | DELETE  |
+| plannedBudgetedHours |   |   |   |   |   | EDIT  |
+| projectID |   |   |   |   |   | GET  |
+| roleID |   |   |   |   |   | REPORT  |
 | userID |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}

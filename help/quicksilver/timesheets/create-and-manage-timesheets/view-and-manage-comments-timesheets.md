@@ -6,10 +6,21 @@ description: Vous pouvez faire des commentaires sur les feuilles de temps, sur l
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 82%
+source-wordcount: 873
+ht-degree: 79%
 
 ---
 
@@ -34,7 +45,7 @@ Vous pouvez afficher les mises à jour à partir d&#39;une feuille de temps ou d
  <col> 
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +82,7 @@ La zone **Feuilles de temps** s’ouvre.
 
 1. Ouvrez la feuille de temps dans laquelle afficher les commentaires.
 1. Cliquez sur **Afficher les commentaires** dans le coin supérieur droit de la feuille de temps.
-Les commentaires s’affichent sous l’élément où l’entrée d’heure et le commentaire ont été consignés.
+Les commentaires s’affichent sous l’élément dans lequel l’entrée d’heure et le commentaire ont été consignés.
 
    ![Commentaires développés sous les tâches de la feuille de temps modifiée](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
@@ -161,8 +172,8 @@ Vous ne pouvez commenter que les tâches et les problèmes d’une feuille de te
 1. Cliquez sur [!UICONTROL **Feuilles de temps**].
 1. Accédez à la feuille de temps dans laquelle vous souhaitez ajouter un commentaire, puis cliquez sur [!UICONTROL **Feuille de temps**] dans le panneau de gauche.
 1. Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur [!UICONTROL **Ouvrir le résumé**].
-1. Commencez à saisir une mise à jour dans la zone [!UICONTROL **Mises à jour**] du panneau Résumé, puis cliquez sur [!UICONTROL **Soumettre**].
-La mise à jour s’affiche dans la section Mises à jour de la tâche et du problème.
+1. Commencez à saisir une mise à jour dans la zone [!UICONTROL **Mises à jour**] du panneau Résumé, puis cliquez sur [!UICONTROL **Envoyer**].
+La mise à jour s’affiche dans la section Mises à jour de la tâche et de l’événement.
 1. (Facultatif) Cliquez sur [!UICONTROL **Fermer le résumé**] pour fermer le panneau du résumé.
 
    Pour plus d’informations sur la mise à jour des tâches et des problèmes dans le panneau du résumé, consultez la section [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

@@ -6,9 +6,16 @@ description: Les notifications suivantes vous informent sur les demandes que vou
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/IVweQmtHXCXNs7hC6hIIq4mJ-9XLmuucpmBs2AQQDKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: 1348
 ht-degree: 98%
 
 ---
@@ -57,12 +64,12 @@ Consultez également la section [Notifications d’événements](../../workfront
   <tr> 
    <td> <p><strong>J’ajoute un problème à un projet</strong> </p> <p>Le contact principal sur un problème reçoit une notification lorsqu’il ajoute un problème dans un projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Issue submitted] : &lt;Issue Name&gt; sur &lt;Project Name&gt;</em></p> <p>L’objet de la notification de synthèse quotidienne est :<em> Synthèse de vos demandes &lt;Date of the daily digest&gt;</em></p> </td> 
    <td> Nom du projet<br>Nom du portfolio<br>Numéro de référence du problème<br>Votre nom<br>Nom du problème<br>Date de saisie<br>Priorité du problème<br>Statut du problème<br>Nom de la personne assignée<br>Contact principal<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de problèmes ajoutés<br>*Nom du problème<br>*Date de la synthèse quotidienne </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>J’envoie une demande (confirmation)</strong> </p> <p>Le contact principal sur le problème reçoit une notification par e-mail lorsqu’il envoie un problème.</p> <p>Une notification n’est envoyée que si le statut du projet est [!UICONTROL Current] et si le projet est configuré en tant que [!UICONTROL Help Request Queue] (comme décrit dans la section <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a>).</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Request Submitted] : &lt;Request Name&gt; sur &lt;Project (Request Queue) Name&gt;</em></p> <p>L’objet de la notification de synthèse quotidienne est le suivant :<em> Synthèse de vos demandes &lt;Date of the daily digest&gt;</em></p> </td> 
    <td> <p>Nom du projet (nom de la file d’attente des demandes)<br>Nom du portfolio<br>Numéro de référence du problème<br>Nom du problème<br>Date de saisie<br>Priorité du problème<br>Statut du problème<br>Nom de la personne assignée<br>Contact principal<br>*Numéro de référence du projet<br>*Nom du projet<br>*Nombre total de demandes envoyées<br>*Nom de la demande<br>*Priorité de la demande<br>*Date de la synthèse quotidienne</p> </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Ma demande est fermée (confirmation)</strong> </p> <p>Le contact principal du problème reçoit une notification par e-mail à la fermeture de la demande.</p> <p>Une notification est envoyée uniquement si le statut du projet est défini comme Actuel et si le projet est configuré en tant que [!UICONTROL Help Request Queue] (comme décrit dans <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Créer une file d’attente de demandes</a>).</p> <p>L’objet de l’e-mail de notification instantanée est : <em>[!UICONTROL Your request has been closed] : « &lt;Request Name&gt; »</em></p> <p>L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of your Requests] &lt;Date of the daily digest&gt;</em></p> </td> 

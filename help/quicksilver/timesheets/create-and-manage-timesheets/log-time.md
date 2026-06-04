@@ -2,17 +2,28 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Saisir du temps
-description: Vous pouvez consigner les heures passées sur un élément de travail dans&nbsp;Adobe Workfront pour refléter le fruit de vos efforts. Vous pouvez également consigner les heures qui ne sont pas liées au travail, comme les vacances, les congés maladie ou le temps passé en réunion. Les heures que vous consignez s’affichent dans votre feuille de temps.
+description: Vous pouvez consigner le temps consacré aux tâches dans&nbsp;Adobe Workfront pour indiquer le nombre d’heures que vous y consacrez. Vous pouvez également consigner les heures qui ne sont pas liées au travail, comme les vacances, les congés maladie ou le temps passé en réunion. Les heures que vous consignez s’affichent dans votre feuille de temps.
 author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4139'
-ht-degree: 77%
+source-wordcount: 4087
+ht-degree: 76%
 
 ---
 
@@ -144,7 +155,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
 
    Cliquez sur **Ajouter tout** pour ajouter tous les éléments
 Ou
-Cliquez sur **Annuler** pour arrêter l’ajout des éléments sélectionnés, puis sur **Annuler** pour fermer la liste des éléments.
+Cliquez sur **Annuler** pour arrêter l&#39;ajout des éléments sélectionnés, puis sur **Annuler** pour fermer la liste des éléments.
 
    Les tâches et les problèmes sont répertoriés sous le nom du projet.
 
@@ -458,7 +469,7 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
 
    * **Type d&#39;heure** : sélectionnez un type d&#39;heure dans le menu déroulant, s&#39;il est différent de celui affiché par défaut.
 
-     Selon les types d’heures configurés sur votre système, les options proposées ici peuvent varier.
+     En fonction des types d&#39;heures configurés dans votre système, les options peuvent varier.
 
      Pour plus d&#39;informations sur la configuration des types d&#39;heures, voir [Définir les types d&#39;heures et la disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
@@ -474,20 +485,20 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
 
 ### Panneau Résumé
 
-Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans le panneau Résumé.
-Pour plus d’informations, voir [Vue d’ensemble du panneau Résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Vous pouvez consigner le temps consacré aux tâches et aux événements dans le panneau Résumé .
+Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ![](assets/summary-hour-log.png)
 
 ### Panneaux {#boards}
 
-Vous pouvez consigner les heures dans les cartes connectées sur un panorama Workfront. Il s’agit du même processus que la consignation des heures dans une tâche ou un problème. Les heures consignées sur la carte sont enregistrées dans la tâche ou le problème connectés.
-Pour plus d’informations, voir [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Vous pouvez enregistrer le temps passé sur les cartes connectées sur un panorama Workfront. Il s’agit du même processus que la journalisation du temps sur une tâche ou un événement, et les heures consignées sur la carte sont enregistrées sur la tâche ou l’événement associé.
+Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ### Application mobile {#mobile-app}
 
-Vous pouvez consigner les heures à partir de l’application mobile Workfront.
-Pour plus d’informations, voir [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Vous pouvez enregistrer le temps depuis l’application mobile Workfront.
+Pour plus d’informations, voir [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
 
 ## Modifier les heures consignées dans les listes et les rapports
 
@@ -557,7 +568,7 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 
 1. Accédez à la liste ou au rapport d’une heure.
 1. Cliquez sur la case à gauche d’une ou de plusieurs entrées d’heure pour les sélectionner.
-1. Cliquez sur le **&#x200B;**&#x200B;icône Modifier![](assets/edit-icon.png) en haut de la liste.
+1. Cliquez sur le ![](assets/edit-icon.png) **icône Modifier** en haut de la liste.
 
    La boîte de dialogue **Modifier l’heure** ou **Modifier les heures** s’ouvre.
 1. Mettez à jour l’un des champs disponibles suivants :

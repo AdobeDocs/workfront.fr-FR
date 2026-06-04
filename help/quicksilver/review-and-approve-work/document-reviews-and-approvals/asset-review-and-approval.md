@@ -6,12 +6,21 @@ description: Présentation des systèmes disponibles pour révision et approbati
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+TQID: https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: 385
+ht-degree: 8%
 
 ---
 
@@ -40,7 +49,7 @@ Pour plus d’informations, voir [Approbations de documents hérités](/help/qui
 
 ## Validations unifiées
 
-Les approbations unifiées sont une refonte de l&#39;ancien système d&#39;approbation. Actuellement disponible en version limitée, il est conçu pour être une solution pratique et efficace pour les entreprises nécessitant une mobilisation complète des parties prenantes et l’approbation de documents spécifiques à chaque version.
+Les approbations unifiées sont une refonte de l&#39;ancien système d&#39;approbation. Actuellement disponible en version limitée, celle-ci est conçue comme une solution pratique et efficace pour les entreprises qui ont besoin d’un engagement complet de la part des parties prenantes et d’approbations de documents spécifiques à une version.
 
 Pour plus d&#39;informations sur les validations unifiées, voir [Présentation des validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 

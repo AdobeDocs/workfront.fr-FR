@@ -6,12 +6,22 @@ description: En tant que client ou cliente Adobe Workfront, vous pouvez contacte
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 79%
+source-wordcount: 455
+ht-degree: 77%
 
 ---
 
@@ -98,7 +108,7 @@ Vous pouvez envoyer un ticket d’assistance depuis le portail libre-service [!D
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Cliquez sur **[!UICONTROL Ouvrir un ticket]** dans la barre latérale gauche.
-La page de [!UICONTROL création de cas] s’ouvre. Vous pouvez saisir votre nom de produit ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), le titre et la description du cas.
+La page [!UICONTROL création de la casse] s’ouvre et vous pouvez saisir le nom du produit ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), le titre et la description de la casse.
 
    >[!TIP]
    >

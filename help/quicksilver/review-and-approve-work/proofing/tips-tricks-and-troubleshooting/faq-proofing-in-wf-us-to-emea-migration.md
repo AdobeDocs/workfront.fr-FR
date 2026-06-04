@@ -2,21 +2,29 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: '« Questions fréquentes : relecture dans Adobe Workfront - migration des États-Unis vers la zone EMEA »'
+title: 'Questions fréquentes : relecture dans Adobe Workfront - migration des États-Unis vers la zone EMEA'
 description: Adobe Workfront contacte directement toutes les organisations concernées par la migration de Workfront Proof des États-Unis vers la zone EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+TQID: https://experienceleague.adobe.com/X-9pECfI-MyNS7FaQhfurFq8P0ytkrknYRlJ6GW6rn8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: 417
 ht-degree: 100%
 
 ---
 
 # Questions fréquentes : relecture dans Adobe Workfront - migration des États-Unis vers la zone EMEA
 
-## Comment savoir si mon organisation est concernée par ce changement ?
+## Comment savoir si mon organisation est concernée par ce changement ? 
 
 Adobe Workfront contacte directement toutes les organisations concernées par la migration de Workfront Proof des États-Unis vers la zone EMEA.
 
@@ -29,9 +37,9 @@ Oui. Avant la migration, assurez-vous d’ajouter les éléments suivants à la 
 
 Pendant une courte période, pouvant aller jusqu’à deux heures, votre compte ne sera pas accessible pendant que nous le migrons vers son nouvel emplacement dans le centre de données de la zone EMEA.
 
-Une fois la migration des comptes terminée, nous commencerons à transférer tous vos fichiers de notre centre de données situé aux États-Unis vers le centre de données de la zone EMEA. Les fichiers restent accessibles à partir du centre de données américain pendant le transfert.Ce processus se déroulera en arrière-plan et n’aura pas d’impact sur vous et vos utilisateurs et utilisatrices.
+Une fois la migration des comptes terminée, nous commencerons à transférer tous vos fichiers de notre centre de données situé aux États-Unis vers le centre de données de la zone EMEA. Les fichiers restent accessibles à partir du centre de données américain pendant le transfert. Ce processus se déroulera en arrière-plan et n’aura pas d’impact sur vous et vos utilisateurs et utilisatrices.
 
-Une fois la migration terminée, vous et vos utilisateurs et utilisatrices ne pourrez accéder aux fichiers et aux épreuves qu’à partir du centre de données de la zone EMEA. 
+Une fois la migration terminée, vous et vos utilisateurs et utilisatrices ne pourrez accéder aux fichiers et aux épreuves qu’à partir du centre de données de la zone EMEA. 
 
 ## Qu’adviendra-t-il de l’URL que j’utilise pour accéder à Workfront Proof ?
 

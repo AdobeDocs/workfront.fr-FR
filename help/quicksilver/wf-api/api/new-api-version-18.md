@@ -7,10 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: 1140
+ht-degree: 99%
 
 ---
 
@@ -405,7 +410,7 @@ Les références sont des instantanés de ce à quoi ressemblaient les performan
   </tbody>
 </table>
 
-### Category (CTGY)
+### Catégorie (CTGY)
 
 Un objet Category est un formulaire personnalisé.
 
@@ -490,7 +495,7 @@ Un objet Document représente un fichier (tel qu’un support écrit, des images
           <li>
             <p><b>moveToFolder</b> :
             </p>
-            <p>Ajouté. Cette nouvelle action utilise les paramètres suivants :
+            <p>Ajouté. Cette nouvelle action utilise les paramètres suivants :
             <ul>
               <li>
                 <p><code>documentIDs</code>
@@ -619,7 +624,7 @@ L’objet JournalEntry peut être configuré pour enregistrer des informations s
 
 ### OpTask (OPTASK)
 
-Un objet OpTask est généralement appelé un Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de centre d’assistance. Les ordres de modification, les requêtes et les bugs sont également des problèmes.
+Un objet OpTask est généralement appelé Problème. Un problème est un élément de travail qui indique généralement qu’un problème empêche la réalisation d’une tâche ou d’un projet. Il peut également s’agir d’une demande de centre d’assistance. Les ordres de modification, les requêtes et les bugs sont également des problèmes.
 
 <table>
   <col/>
@@ -659,7 +664,7 @@ Un objet OpTask est généralement appelé un Problème. Un problème est un él
   </tbody>
 </table>
 
-### Project (PROJ)
+### Projet (PROJ)
 
 Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
 
@@ -920,7 +925,7 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
   </tbody>
 </table>
 
-### Template (TMPL)
+### Modèle (TMPL)
 
 Un objet Template représente un modèle de projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
 

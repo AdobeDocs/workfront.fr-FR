@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/Y-qv5r6ygRA-V7mQSM3wzjaOt58myb64Vxa7UZGsAVo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 97%
+source-wordcount: 368
+ht-degree: 100%
 
 ---
-
 
 # Utiliser l’explorateur d’API
 
@@ -27,7 +31,7 @@ Lors de l’utilisation de l’API principale de Workfront, l’explorateur d’
 1. Dans l’angle supérieur droit de l’explorateur d’API, sélectionnez la **version de l’API** de votre choix. Par défaut, la version la plus récente est automatiquement sélectionnée.
 1. Le champ **Filtrer** peut être utilisé pour filtrer les objets répertoriés par nom et raccourcir la liste des objets affichés en conséquence :
 
-   ![champs de l’explorateur d’API](assets/mceclip2-350x147.png)
+   ![Champs de l’explorateur d’API](assets/mceclip2-350x147.png)
 
    * **Champs** : champs disponibles dans l’objet spécifié.
    * **Références** : variables de référence disponibles pour l’objet spécifié. Une référence est un alias pour une variable. Une fois initialisée, une référence peut être utilisée de manière interchangeable avec le nom de la variable. Une référence utilise la mémoire initialisée.
@@ -41,7 +45,7 @@ Lors de l’utilisation de l’API principale de Workfront, l’explorateur d’
 
    | Variable | Définition |
    |---|---|
-   | Nom de champ | Nom d’un champ utilisé dans une opération de l’API Workfront. |
+   | Nom du champ | Nom d’un champ utilisé dans une opération de l’API Workfront. |
    | Type de champ | Type de valeurs pouvant être entrées dans un champ spécifique d’un tableau de données. Les valeurs de type de champ possibles sont string, double, int, dateTime. |
    | Type énuméré | Type de valeurs pouvant être utilisées pour identifier un type de données. |
    | Valeurs possibles | Valeurs acceptables pour l’objet. |

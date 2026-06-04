@@ -6,9 +6,16 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: 2016
 ht-degree: 100%
 
 ---
@@ -39,7 +46,7 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Chaque jour</strong> </td>
   </tr>
   <tr> 
-   <td> <p><strong>Lorsqu'une tâche est terminée, envoyer un e-mail aux cessionnaires principaux de toute les tâches dépendantes</strong> </p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsqu’une tâche antérieure de l’une de ses tâches est terminé. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Complete] : &lt;Task Name&gt;</em>.</p> <p> L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>.</p> </td> 
+   <td> <p><strong>Lorsqu'une tâche est terminée, envoyer un e-mail aux cessionnaires principaux de toute les tâches dépendantes</strong> </p> <p>La personne désignée pour la tâche reçoit une notification par e-mail lorsqu’une tâche antérieure de l’une de ses tâches est terminé. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Complete] : &lt;Task Name&gt;</em>.</p> <p> L’objet de la notificationde la synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>.</p> </td> 
    <td> <p>Nom de la tâche antérieure<br>Projet de tâche antérieure<br>Numéro de référence de la tâche antérieure<br>Nom dela personne qui a terminé la tâche antérieure<br>Statut de la tâche antérieure<br>Date et heure auxquelles la tâche antérieure a été terminée<br>Statut précédent de la tâche antérieure<br><strong>Bouton [!UICONTROL See More Details]</strong><br>* Nom du projet<br>* Numéro de référence du projet<br>* Nombre total de tâches antérieures terminées<br>* Nom de la tâche<br>* Nom de la personne qui a terminé la tâche<br>* Date de la synthèse quotidienne </p> </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
@@ -107,7 +114,7 @@ Consultez également la section [Notifications d’événements](../../workfront
   <tr> 
    <td> <p><strong>La date d’échéance d’une tâche qui m’a été affectée est modifiée</strong> </p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque la [!UICONTROL Planned Completion Date] de la tâche est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire de la tâche.</p> <p>Une notification est envoyée uniquement si le statut du projet est autre que [!UICONTROL Planning].</p> <p>Aucune notification n’est envoyée concernant les tâches personnelles.</p> <p> Les utilisateurs et utilisatrices disposant d’une licence Réviseur ou Demandeur ne reçoivent pas de notification. </p> <p> L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Due Date has been changed.]</em>.</p> <p> L’objet de la notificationde la synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>.</p> </td> 
    <td> Nom de la tâche<br>Nom du projet<br>Numéro de référence de tâche<br>Nouvelle date d’échéance ([!UICONTROL Planned Completion Date])<br>Date et heure de la modification de la date d’échéance<br>Nom de la personne qui a modifié la date d’échéance<br>* Nom du projet<br>* Numéro de référence du projet<br>* Nombre total de tâches pour lesquelles la date d’échéance (date d’achèvement prévue) a été modifiée<br>* Nom de la tâche<br>* Nouvelle date d’achèvement prévue<br>* Nom de la personne qui a modifié la date d’échéance<br>* Date de la synthèse quotidienne </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>La date d’échéance d’une tâche qui m’a été affectée est modifiée</strong> </p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque la [!UICONTROL Planned Completion Date] est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la [!UICONTROL Planned Completion Date] est également la personne cessionnaire.</p> <p>Une notification est envoyée uniquement si le statut du projet est autre que [!UICONTROL Planning].</p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Due Date has been changed]</em>.</p> <p> </p> <p> L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em>.</p> </td> 

@@ -5,10 +5,17 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+TQID: https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 43%
+source-wordcount: 105
+ht-degree: 57%
 
 ---
 
@@ -28,5 +35,5 @@ Découvrez des conseils de dépannage et des réponses aux questions les plus fr
 * [Les boutons de filtre ne s’affichent pas dans les en-têtes de page.](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Modifier le format des dates dans  [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [Le filtre Projets auxquels je participe inclut des résultats inattendus.](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-* [Plusieurs onglets de navigateur entraînent la déconnexion de Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
-* [Comment partager des objets sans générer de notifications](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [Plusieurs onglets du navigateur entraînent la déconnexion de Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+* [Partage d’objets sans générer de notifications](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)

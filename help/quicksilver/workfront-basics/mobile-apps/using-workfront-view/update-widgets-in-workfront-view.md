@@ -6,10 +6,19 @@ description: Vous pouvez afficher des informations supplémentaires sur le [!UIC
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 98%
+source-wordcount: 517
+ht-degree: 99%
 
 ---
 
@@ -28,13 +37,13 @@ Vous pouvez afficher des informations supplémentaires sur le [!UICONTROL projet
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Package Adobe Workfront</strong></td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licence Adobe Workfront</strong></td> 
    <td> 
-   <p>Contributeur ou version ultérieure</p>
+   <p>Contributeur ou supérieur</p>
    <p>Révision ou supérieur</p> </td> 
   </tr> 
  </tbody> 
@@ -64,8 +73,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * **[!UICONTROL Heures]** : affiche le [!UICONTROL nombre d’heures prévues] et les [!UICONTROL heures effectives] sur les tâches du projet dans un graphique en courbes combiné.
    * **[!UICONTROL Statut du]** [!UICONTROL problème] : affiche tous les problèmes par statut dans un graphique en secteurs.
    * **[!UICONTROL Mises à jour]** : affiche toutes les mises à jour et tous les commentaires sur le projet.
-   * **[!UICONTROL Coûts]** : affiche le [!UICONTROL coût réel] et le [!UICONTROL coût prévu] du projet dans un graphique à barres combiné.
-   * **[!UICONTROL Revenu]** : affiche le [!UICONTROL Revenu réel] et les [!UICONTROL Revenus prévus] du projet dans un graphique à barres combiné.
+   * **[!UICONTROL Coûts]** : affiche le [!UICONTROL coût réel] et le [!UICONTROL coût prévu] du projet dans un graphique en barres combiné.
+   * **[!UICONTROL Revenu]** : affiche le [!UICONTROL Revenu réel] et les [!UICONTROL Revenus prévus] du projet dans un graphique en barres combiné.
    * **[!UICONTROL Progression de la tâche]** : affiche toutes les tâches du projet par [!UICONTROL Statut de la progression] dans un graphique en secteurs.
    * **[!UICONTROL Tâches à venir]** : affiche jusqu’à 6 tâches à venir. Le widget trie les tâches du projet dans l’ordre suivant :
 

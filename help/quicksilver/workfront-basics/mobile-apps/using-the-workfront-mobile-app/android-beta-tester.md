@@ -6,10 +6,15 @@ description: Consultez cet article pour devenir un Beta-testeur ou une Beta-test
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 98%
+source-wordcount: 311
+ht-degree: 94%
 
 ---
 
@@ -25,7 +30,7 @@ Vous pouvez utiliser le [!DNL Google Play Store] pour rechercher et télécharge
 
 1. Accédez à l’application [!DNL Play Store] sur votre appareil.
 1. Recherchez [!DNL Workfront], puis appuyez dessus lorsqu’il apparaît dans la liste.
-Vous devez installer l’application [!DNL Workfront] avant de rejoindre le programme Beta.
+Vous devez installer l’application [!DNL Workfront] avant de rejoindre la version bêta.
 1. Installez et ouvrez l’application [!DNL Workfront] si vous ne l’avez pas déjà fait.
 1. Faites défiler la page vers le milieu, puis appuyez sur **[!UICONTROL S’inscrire maintenant]** dans la section **[!UICONTROL Devenir Beta-testeur ou Beta-testeuse]**.
 
@@ -34,13 +39,13 @@ Vous devez installer l’application [!DNL Workfront] avant de rejoindre le prog
 
 1. Une fois la progression terminée, vous recevez la confirmation que vous êtes désormais un utilisateur ou une utilisatrice Beta.\
    Le mot « [!UICONTROL Beta] » apparaît après le nom de votre application dans le [!DNL Play Store] indiquant que vous utilisez la version Beta de l’application.\
-   ![testeur bêta Android](assets/android-beta-tester-adobe-350x468.png)
+   ![testeur bêta &#x200B;](assets/android-beta-tester-adobe-350x468.png)
 
 ### Code QR
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version Beta et télécharger l’application :
 
-![Code QR Android](assets/android-qr-code-350x409.png)
+![Code QR &#x200B;](assets/android-qr-code-350x409.png)
 
 ## Nous faire part de votre retour d’expérience
 

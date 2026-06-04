@@ -6,9 +6,16 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: 1516
 ht-degree: 100%
 
 ---
@@ -66,7 +73,7 @@ Consultez également la section [Notifications d’événements](../../workfront
   <tr> 
    <td> <p><strong>Un problème est ajouté à un projet auquel je participe</strong> </p> <p>Les membres d’une équipe de projet reçoivent une notification par e-mail lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est Actuel.</p> <p>L’objet de l’e-mail de notification instantanée est <em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p> </p> <p> L’objet de la notification de synthèse quotidienne est <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> Nom du projet<br>Nom du portfolio<br>Numéro de référence du problème<br>Nom de l’utilisateur ou de l’utilisatrice qui a ajouté le problème<br>Type de problème<br>Nom du problème<br>Date de saisie<br>Priorité du problème<br>Nom de la personne cessionnaire <br>Statut du problème<br>Contact principal<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de problèmes ajoutés au projet<br>*Nom du problème<br>*Nom de la personne affectée à la publication<br>*Date de la synthèse quotidienne </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Un problème est terminé sur un projet auquel je participe.</strong> </p> <p>Les membres d’une équipe de projet reçoivent une notification par e-mail lorsqu’un problème est terminé sur leur projet.<br>Pour plus d’informations sur l’équipe de projet, voir <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Vue d’ensemble de l’équipe de projet</a>.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>L’objet de l’e-mail de notification instantanée est le suivant <em>[!UICONTROL Complete]: &lt;Issue Name&gt; sur &lt;Project Name&gt;</em></p> <p> L’objet de la notification de synthèse quotidienne est <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em>.</p> </td> 
@@ -76,7 +83,7 @@ Consultez également la section [Notifications d’événements](../../workfront
   <tr> 
    <td> <p><strong>Un problème non affecté est ajouté à un projet auquel je participe</strong>. </p> <p>Les personnes membres d’une équipe de projet reçoivent une notification par e-mail lorsqu’un problème non affecté est ajouté au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current].</p> <p>L’objet de l’e-mail de notification instantanée est <em>[!UICONTROL Who should be assigned to this new issue on] &lt;Project Name&gt;?</em>.</p> <p> L’objet de la notification de synthèse quotidienne est <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em>.</p> </td> 
    <td> Nom du projet<br>Nom du portfolio<br>Numéro de référence du problème<br>Nom de la personne qui a ajouté le problème.<br>Nom du problème<br>Type de problème<br>Date de saisie<br>Priorité du problème<br>Nom de la personne cessionnaire (vide)<br>Statut du problème<br>Contact principal<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de problèmes ajoutés<br>*Nom du problème<br>*Nom de la personne qui a ajouté le problème.<br>*Date de la synthèse quotidienne<br></td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>On m’ajoute à un projet</strong> </p> <p>La personne qui a été ajoutée au projet reçoit une notification par e-mail lorsqu’elle est ajoutée, sauf si elle s’est ajoutée elle-même au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current].</p> <p>L’objet de l’e-mail de notification instantanée est <em>[!UICONTROL You've been added to the project] &lt;Project Name&gt;</em>.</p> <p> L’objet de la notification de synthèse quotidienne est <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em>.</p> </td> 

@@ -7,13 +7,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4461'
-ht-degree: 96%
+source-wordcount: 4436
+ht-degree: 95%
 
 ---
-
 
 # Bases d’API
 
@@ -300,7 +315,7 @@ alors utilisez l’appel API suivant avec ses multiples instructions OR :
 
 #### Utiliser les paramètres du filtre
 
-L’un des inconvénients potentiels de l’utilisation de paramètres URL pour les filtres de recherche est que Workfront analyse certains paramètres avant de vérifier les différentes méthodes d’authentification (par exemple, nom d’utilisateur ou d’utilisatrice, mot de passe, apiKey, cookie). Dans ce cas, les paramètres ne sont pas utilisés comme filtres dans l’appel. 
+L’un des écueils potentiels de l’utilisation des paramètres d’URL pour les filtres de recherche est que Workfront analyse certains paramètres avant de vérifier les différentes méthodes d’authentification (c’est-à-dire le nom d’utilisateur, le mot de passe, l’apiKey, le cookie). Dans ce cas, les paramètres ne sont pas utilisés comme filtres dans l’appel à . 
 
 Pour éviter ce problème, vous pouvez placer ces valeurs dans des paramètres de filtre avec un formatage JSON. Par exemple, si vous voulez filtrer le nom d’utilisateur ou d’utilisatrice testuser, au lieu d’utiliser 
 <pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>faites passer le paramètre URL dans un filtre, comme le montre l’exemple suivant :
@@ -436,7 +451,7 @@ Pour garantir des performances optimales, le tableau suivant indique les limites
 Pour passer outre la limite du nombre de résultats par défaut et autoriser 200 résultats, vous pouvez inclure le filtre `$$LIMIT=200` dans votre requête, comme dans l’exemple suivant :
 <pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Pour garantir la fiabilité et les performances des autres clientes et clients du système, la limite maximale des résultats autorisés par requête est de 2 000 objets. Toute tentative de spécifier une limite plus importante entraîne un message d’erreur `IllegalArgumentException`. 
+Pour garantir la fiabilité et les performances des autres clients du système, la limite maximale autorisée de résultats par requête est de 2 000 objets. Toute tentative de spécification d’une limite plus élevée entraînera un message d’erreur `IllegalArgumentException`. 
 
 Par conséquent, nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux. Pour spécifier le premier résultat à renvoyer, ajoutez le filtre `$$FIRST`. Par exemple, la demande suivante renvoie les résultats 201-250 pour une requête :
 <pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>

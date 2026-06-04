@@ -6,9 +6,18 @@ description: Apprenez à afficher le contenu d’une épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
+TQID: https://experienceleague.adobe.com/VPT5pfG61EX7ZiSIkod-E40GhRZ0RVhiunaxaYTAhls
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: 826
 ht-degree: 96%
 
 ---
@@ -48,7 +57,7 @@ Vous pouvez utiliser la visionneuse de relecture pour afficher et baliser des fi
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,11 +88,11 @@ Vous pouvez afficher une épreuve statique contenant plusieurs pages dans une vu
      </tr> 
      <tr> 
       <td role="rowheader">Vue continue</td> 
-      <td>Affiche toutes les pages dans une seule vue empilée.Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour faire défiler toutes les pages vers le haut ou vers le bas dans une vue continue.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
+      <td>Affiche toutes les pages dans une seule vue empilée. Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour faire défiler toutes les pages vers le haut ou vers le bas dans une vue continue.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vue magazine</td> 
-      <td>Affiche toutes les pages dans une seule vue magazine (côte à côte et empilées).Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour faire défiler toutes les pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
+      <td>Affiche toutes les pages dans une seule vue magazine (côte à côte et empilées). Cliquez sur la miniature de la page que vous souhaitez afficher ou appuyez sur les touches fléchées gauche et droite pour faire défiler toutes les pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
      </tr> 
     </tbody> 
    </table>

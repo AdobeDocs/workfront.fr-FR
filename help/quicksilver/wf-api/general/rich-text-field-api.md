@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 33%
+source-wordcount: 769
+ht-degree: 32%
 
 ---
-
 
 # Champs de texte enrichi dans l’API Adobe Workfront
 
@@ -98,8 +102,8 @@ Exemple : voici à quoi votre JS pourrait ressembler :
 
 Pour enregistrer les valeurs suivantes d’un champ de texte enrichi à l’aide de l’API Workfront, procédez comme suit :
 <pre>
-        Hello <strong>World</strong>!!!
-        This is my first <strong>Rich Text</strong> (Il s’agit de mon premier texte enrichi).</pre>
+        Bonjour <strong>Monde</strong>!!!
+        C’est ma première <strong>Rich Text</strong></pre>
 
 1. Créez un fichier JSON qui représente la valeur du champ de texte enrichi que vous essayez de capturer en organisant chaque ligne de texte en un élément de bloc dans les blocs de tableau.
 

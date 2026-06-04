@@ -7,12 +7,24 @@ description: Une fois que votre administrateur ou administratrice Adobe Workfro
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/GilW0r9NEp5mIIPBu0JChJU-Uga2ldpeJNuuGh2QOYQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 87%
+source-wordcount: 715
+ht-degree: 86%
 
 ---
 
@@ -76,7 +88,7 @@ Pour plus d’informations sur la création d’objectifs, de résultats et d’
 </tbody>
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations, consultez la section [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -205,7 +217,7 @@ Editing results differs depending on which environment you use.
    * **Personne propriétaire du résultat** : personne propriétaire du résultat. La personne propriétaire doit être active sur Workfront.
    * **Type de valeur** : comment vous mesurez la progression du résultat.
    * **Valeur initiale** : valeur d’origine du résultat.
-   * **Valeur cible** : valeur souhaitée une fois le résultat atteint.
+   * **Valeur cible** : valeur souhaitée une fois le résultat terminé.
 Pour plus d’informations sur les champs de résultat, voir [Ajouter des résultats aux objectifs](../results-and-activities/add-results-to-goals.md).
 1. Cliquer sur **Enregistrer**.
 

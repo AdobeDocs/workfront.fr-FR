@@ -6,12 +6,29 @@ description: Votre profil  [!DNL Adobe Workfront]  contient des informations vou
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3378'
-ht-degree: 90%
+source-wordcount: 3256
+ht-degree: 88%
 
 ---
 
@@ -349,7 +366,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Le cas échéant) Générer des épreuves automatiquement lors du chargement de documents</strong></td> 
-   <td>Sélectionnez ce champ pour commencer à générer une épreuve immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur ou une administratrice Workfront.<br>Ce champ n’est disponible que si votre entreprise a acheté le composant Workfront Proof pour Workfront et si votre activation en tant qu’utilisateur ou utilisatrice d’épreuve est effective. Pour plus d’informations sur Workfront Proof, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gérer des épreuves dans Adobe Workfront</a>.
+   <td>Sélectionnez ce champ pour commencer à générer une épreuve immédiatement après le chargement du document dans [!DNL Workfront]. Ce champ est désactivé par défaut et ne peut être mis à jour que par un administrateur Workfront.<br>Ce champ n’est disponible que si votre société a acheté le composant Workfront Proof pour Workfront et si vous êtes activé en tant qu’utilisateur de l’épreuve. Pour plus d’informations sur Workfront Proof, voir <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref"> Gestion des BAT dans Adobe Workfront </a>.
    <p><b>Note :</b> les documents chargés dans une demande ne génèrent pas automatiquement d’épreuve. </p></td> 
   </tr> 
  </tbody> 
@@ -377,7 +394,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
-   <td>Ce champ est visible par les utilisateurs et utilisatrices disposant d’un niveau d’accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Workfront administrator]. Il n’est modifiable que pour les administrateurs et administratrices [!DNL Workfront]. Si vous êtes un administrateur ou une administratrice [!DNL Workfront], faites attention à ne pas modifier votre niveau d’accès à un niveau inférieur lorsque vous modifiez ce champ. </td> 
+   <td>Ce champ est visible pour les utilisateurs disposant d'un niveau d'accès [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL Workfront administrator], et il n'est modifiable que pour les administrateurs [!DNL Workfront]. Si vous êtes un administrateur [!DNL Workfront], veillez à ne pas modifier votre niveau d’accès à un niveau inférieur lorsque vous modifiez ce champ. </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
@@ -461,7 +478,7 @@ Utilisez l’une des méthodes suivantes de cette section :
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
-   <td><p>Cliquez sur ce bouton si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs et utilisatrices, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planifier la désactivation d’utilisateurs et d’utilisatrices</a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Désactiver ou réactiver un utilisateur ou une utilisatrice</a>. </p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront]. </p></td> 
+   <td><p>Cliquez sur ce bouton si vous souhaitez planifier la désactivation de votre compte après un certain temps. Dans la <strong>[!UICONTROL Scheduled Deactivation Date]</strong> qui s’affiche, indiquez la date à laquelle votre compte sera désactivé. Pour plus d’informations sur la désactivation des utilisateurs, voir <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref"> Planifier la désactivation d’utilisateurs </a> dans <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> Désactiver ou réactiver un utilisateur</a>. </p><p>Vous pouvez modifier les champs de désactivation de votre compte si vous disposez d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] ou si vous êtes l’administrateur ou l’administratrice [!DNL Workfront]. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
@@ -485,7 +502,7 @@ Utilisez l’une des méthodes suivantes de cette section :
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Planning</strong></td> 
-   <td> <p>Seuls les administrateurs et administratrices [!DNL Workfront] ou les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administratif pour les feuilles de temps et les heures peuvent mettre à jour ce champ. Pour plus d’informations sur l’accès administratrif pour les feuilles de temps et les heures, voir la section « Feuilles de temps et heures » dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> <p>Sélectionnez la feuille de temps appropriée dans le menu déroulant. Cela garantit que vos feuilles de temps sont générées automatiquement, conformément aux spécifications définies par votre administrateur ou administratrice [!DNL Workfront]. </p> </td> 
+   <td> <p>Seuls les administrateurs et administratrices [!DNL Workfront] ou les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Standard] ou [!UICONTROL Plan] qui disposent également d’un accès administratif pour les feuilles de temps et les heures peuvent mettre à jour ce champ. Pour plus d’informations sur l’accès administratrif pour les feuilles de temps et les heures, voir la section « Feuilles de temps et heures » dans <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Accorder aux utilisateurs et utilisatrices un accès administratif à certaines zones</a>.</p> <p>Sélectionnez la feuille de temps appropriée dans le menu déroulant. Cela permet de s’assurer que vos feuilles de temps sont générées automatiquement, conformément aux spécifications définies par votre administrateur [!DNL Workfront]. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Default Hour Type]</strong> </td> 

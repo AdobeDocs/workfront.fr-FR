@@ -6,10 +6,19 @@ description: Si vous ne parvenez pas à ouvrir une épreuve comme décrit ci-des
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/KW4JU7-KX4ai5Y-JN-Iz4G25f0GU-q21QP-5g9Bj3Y8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 95%
+source-wordcount: 218
+ht-degree: 97%
 
 ---
 
@@ -26,7 +35,7 @@ Si vous ne parvenez pas à ouvrir une épreuve comme décrit ci-dessous, contact
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> <p>Tous</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +52,7 @@ Si vous ne parvenez pas à ouvrir une épreuve comme décrit ci-dessous, contact
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +65,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
-* Vous devez installer la visionneuse de relecture de bureau. Pour plus d’informations, consultez [Installation du lecteur de vérification pour bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+* Vous devez installer la visionneuse de relecture de bureau. Pour plus d’informations, consultez [Installation de la visionneuse de relecture pour bureau](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Ouvrir des épreuves à partir de la visionneuse de relecture de bureau
 
@@ -70,4 +79,4 @@ Si vous consultez régulièrement du contenu interactif dans la visionneuse de r
    >
    >La visionneuse de relecture de bureau ne prend pas en charge les sites web qui exigent que vous vous connectiez.
 
-1. Cliquez sur **Ouvrir l’épreuve** dans l’écran qui s’affiche.
+1. Cliquez sur **Ouvrir l’épreuve** dans l’écran qui s’affiche. 

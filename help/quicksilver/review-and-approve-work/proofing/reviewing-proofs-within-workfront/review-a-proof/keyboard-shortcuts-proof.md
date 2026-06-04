@@ -6,9 +6,14 @@ description: Les raccourcis clavier décrits dans cet article sont disponibles �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/KaPjGHbES--UPqcVBW9yiZsne-MTeA6Ykcs--UnozWw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: 348
 ht-degree: 100%
 
 ---
@@ -73,7 +78,7 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> Cmd+Entrée</p> <p><strong>Windows :</strong> Ctrl+Entrée</p> </td> 
+   <td> <p><strong>Mac :</strong> Cmd+Entrée </p> <p><strong>Windows :</strong> Ctrl+Entrée</p> </td> 
    <td> <p>Enregistrer le commentaire</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -109,43 +114,43 @@ Les raccourcis clavier décrits dans cet article sont disponibles à la fois dan
   </tr> 
   <tr> 
    <td> <p>Maj et défilement</p> </td> 
-   <td> <p>Zoom avant ou arrière</p> </td> 
+   <td> <p> Zoom avant ou arrière</p> </td> 
    <td> <p>Zoom avant ou arrière</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac :</strong> Ctrl+0</p> <p><strong>Windows :</strong> Ctrl+0</p> </td> 
-   <td> <p>Ajuster à la page</p> </td> 
+   <td> <p> Ajuster à la page</p> </td> 
    <td> <p>Ajuster à la page</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac :</strong> Ctrl+1</p> <p><strong>Windows :</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Zoom à 100 %</p> </td> 
+   <td> <p>Zoom à 100 % </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac :</strong> Ctrl+2</p> <p><strong>Windows :</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Ajuster à la largeur</p> </td> 
+   <td> <p>Ajuster à la largeur </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac :</strong> Ctrl+3</p> <p><strong>Windows :</strong> Ctrl+3</p> </td> 
+   <td> <p><strong>Mac :</strong> Ctrl+3</p> <p><strong>Windows :</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>Ajuster à la hauteur</p> </td> 
+   <td> <p>Ajuster à la hauteur </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac :</strong> Cmd++ <br>ou<br> Cmd+Maj+Défilement vers le haut</p> <p><strong>Windows :</strong> Ctrl++</p> </td> 
-   <td> <p>Zoom avant</p> </td> 
-   <td> <p>Zoom avant</p> </td> 
+   <td> <p> Zoom avant</p> </td> 
+   <td> <p>Zoom avant </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac :</strong> Cmd+- <br>ou<br> Cmd+Maj+Défilement vers le bas</p> <p><strong>Windows :</strong> Ctrl+-</p> </td> 
-   <td> <p>Zoom arrière</p> </td> 
+   <td> <p>Zoom arrière </p> </td> 
    <td> <p>Zoom arrière</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Windows :</strong> maintenir la barre d’espace lors du déplacement de l’image</p> </td> 
-   <td> <p>Panoramique</p> </td> 
-   <td> <p>Panoramique</p> </td> 
+   <td> <p> Panoramique</p> </td> 
+   <td> <p> Panoramique</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac :</strong> Cmd+F</p> <p><strong>Windows</strong> : Ctrl+F</p> </td> 

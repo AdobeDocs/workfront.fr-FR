@@ -6,10 +6,20 @@ description: Vous pouvez générer une épreuve pour un document au moment où v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 97%
+source-wordcount: 617
+ht-degree: 98%
 
 ---
 
@@ -34,7 +44,7 @@ If a proof fails to generate after following the steps described in the followin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td> 
    <p>Tous </p>
     </td> 
@@ -52,7 +62,7 @@ If a proof fails to generate after following the steps described in the followin
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,14 +102,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Vous pouvez faire glisser et déposer un document à partir de votre système de fichiers (comme votre bureau) pour créer une épreuve ou une nouvelle version d’une épreuve existante. L’épreuve contient les paramètres suivants, selon que vous créez une épreuve ou une nouvelle version :
 
-* **Nouvelle épreuve :** crée une épreuve simple qui n’est partagée qu’avec vous.Vous pouvez modifier les paramètres de partage après la création de l’épreuve, comme décrit dans [Modifier les paramètres de l’épreuve](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Nouvelle épreuve :** crée une épreuve simple qui n’est partagée qu’avec vous. Vous pouvez modifier les paramètres de partage après la création de l’épreuve, comme décrit dans [Modifier les paramètres de l’épreuve](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
 * **Nouvelle version d’une épreuve existante :** crée une nouvelle version avec les mêmes paramètres d’épreuve que la version précédente.
 
 Pour utiliser la fonction glisser-déposer afin de générer une nouvelle épreuve ou une nouvelle version d’épreuve :
 
 1. Assurez-vous que les épreuves sont configurées pour être générées automatiquement, comme décrit dans .
-1. Passez à [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), dans lequel est expliqué comment ajouter des documents à l’aide de la fonction glisser-déposer.
+1. Passez à [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), dans lequel est expliqué comment ajouter des documents à l’aide de la fonction glisser-déposer. 
 
 ## Créer une épreuve pour un document existant
 

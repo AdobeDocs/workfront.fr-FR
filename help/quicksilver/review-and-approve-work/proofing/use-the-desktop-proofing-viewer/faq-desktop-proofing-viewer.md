@@ -7,10 +7,15 @@ description: Non. La visionneuse de relecture de bureau est spécialement conçu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 99%
+source-wordcount: 417
+ht-degree: 96%
 
 ---
 
@@ -50,7 +55,7 @@ Uniquement si vous envoyez une épreuve interactive ou un site web en temps rée
 
 ## Quel est le statut de la visionneuse de relecture héritée, que mon entreprise a utilisée pour la relecture interactive ?
 
-Avant la version 2018.3, la visionneuse de relecture héritée était prise en charge.Avec la version 2018.3 (de novembre 2018), la visionneuse de relecture héritée et toutes les autres applications reposant sur Flash ont été supprimées et ne sont plus disponibles. 
+Avant la version 2018.3, la visionneuse de vérification héritée était prise en charge. Avec la version 2018.3 (en novembre 2018), la visionneuse de relecture héritée et toutes les autres applications qui reposent sur Flash ont été supprimées et ne sont plus disponibles. 
 
 Pour les épreuves statiques et vidéo, la nouvelle visionneuse de relecture web est la visionneuse par défaut. Pour les épreuves interactives, la visionneuse de relecture de bureau est la visionneuse par défaut.
 

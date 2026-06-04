@@ -6,9 +6,14 @@ description: Vous pouvez suivre facilement la progression d’une épreuve confi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/eIoOAdfvVqxgP-ez66L21LuuBp3l-2ssg5wGG1cHM9E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 490
 ht-degree: 79%
 
 ---
@@ -28,7 +33,7 @@ Pour plus d’informations sur l’ajout d’étapes et d’utilisateurs ou util
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
+   <td role="rowheader">Package Adobe Workfront</td> 
    <td>
    <p>Tous</p>
    </td> 
@@ -70,9 +75,9 @@ Pour plus d’informations sur l’ajout d’étapes et d’utilisateurs ou util
 
    ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) Étape verrouillée
 
-   Les lignes entre les étapes représentent les dépendances entre elles. Les lignes menant aux étapes inactives sont pointillées jusqu’à ce que l’étape soit activée.
+   Les lignes entre les étapes représentent les dépendances entre elles. Les lignes menant aux étapes inactives sont en pointillés jusqu’à ce que l’étape soit activée.
 
-   Vous pouvez passer votre souris sur une étape dans le diagramme pour afficher sa progression. Si l’étape n’est pas active et que vous disposez des droits de modification sur l’étape, vous pouvez cliquer sur le bouton Activer l’étape ![Activer l’étape](assets/activate-stage-btn.png) pour démarrer l’étape. Si l’étape est active et que vous disposez de droits de modification de l’étape, vous pouvez la verrouiller. ![Étape de verrouillage](assets/lock-stage-btn.png) Pour plus d’informations sur la barre de progression (S, O, C, D) , voir  [Afficher la progression et le statut d’une épreuve dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   Vous pouvez passer votre souris sur une étape dans le diagramme pour afficher sa progression. Si l’étape n’est pas active et que vous disposez des droits de modification sur l’étape, vous pouvez cliquer sur le bouton Activer l’étape ![Activer l’étape](assets/activate-stage-btn.png) pour démarrer l’étape. Si l’étape est active et que vous disposez de droits de modification de l’étape, vous pouvez la verrouiller. ![Verrouiller l’étape](assets/lock-stage-btn.png) Pour plus d’informations sur la barre de progression (S, O, C, D) , voir [Afficher la progression et le statut d’un BAT dans Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Afficher une étape
 

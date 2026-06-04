@@ -6,10 +6,15 @@ description: Dans l’application mobile  [!DNL Workfront] , vous pouvez voir to
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: 1047
+ht-degree: 97%
 
 ---
 
@@ -106,8 +111,8 @@ Les éléments de la liste de contrôle sont disponibles à la fois sur les cart
 1. Pour ajouter un élément de la liste de contrôle, ouvrez la carte et sélectionnez [!UICONTROL **Nouvel élément de la liste de contrôle**]. Saisissez le nom de l’élément de la liste de contrôle. Le compteur de la carte est mis à jour.
 1. (Facultatif) Pour copier un élément de la liste de contrôle, ouvrez la carte, sélectionnez le menu [!UICONTROL **Plus**] ![Menu Plus](assets/more-icon-spectrum.png) sur l’élément et choisissez [!UICONTROL **Copier**]. Une copie de l’élément est ajoutée au bas de la liste.
 1. (Facultatif) Pour supprimer un élément de la liste de contrôle, ouvrez la carte, sélectionnez le menu [!UICONTROL **Plus**] ![Menu Plus](assets/more-icon-spectrum.png) sur l’élément et choisissez [!UICONTROL **Supprimer**].
-1. Pour compléter un élément de la liste de contrôle, ouvrez la carte et cochez la case située à côté du nom de l’élément.
-L’élément est marqué comme complété, le compteur de la carte est mis à jour pour indiquer le nombre d’éléments de la liste de contrôle qui ont été complétés.
+1. Pour remplir un élément de la liste de contrôle, ouvrez la carte et cochez la case en regard du nom de l’élément.
+L’élément est marqué comme terminé, le compteur sur la carte se met à jour pour indiquer le nombre d’éléments de la liste de contrôle terminés.
 
 ## Filtrer et effectuer des recherches dans un panorama
 
@@ -132,7 +137,7 @@ Lorsque des filtres sont appliqués, un indicateur s’affiche sur le tableau ![
 1. Sélectionnez l’icône de filtre et de recherche ![Filtre et recherche](assets/filter-search-icon-mobile-boards.png).
 1. Tapez un terme de recherche dans la zone et sélectionnez [!UICONTROL **Terminé**] ou ![Icône Terminé](assets/mobile-apply-icon-checkmark.png).
 
-   Toutes les cartes dont le titre contient le terme de recherche sont affichées.
-Sélectionnez le X pour effacer la recherche.
+   Toutes les cartes contenant le terme de recherche dans le titre s’affichent.
+Sélectionnez X pour effacer la recherche.
 
    ![Rechercher une carte](assets/mobile-search-for-card.png)

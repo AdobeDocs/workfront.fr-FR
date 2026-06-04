@@ -8,13 +8,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/dspQLWwqjYdo3y9Trqv70ylGd1hFE-ynJaBU7-xLyxg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: 254
 ht-degree: 100%
 
 ---
-
 
 # Obtenir des jetons OAuth2
 
@@ -65,7 +71,7 @@ L’URL est configurable et correspond à la valeur de l’URL du point d’entr
   <tr>
    <td>client_secret</td>
    <td>oui</td>
-   <td>Le secret client configuré dans Workfront pour cette intégration personnalisée.</td>
+   <td> Le secret client configuré dans Workfront pour cette intégration personnalisée.</td>
   </tr>
  </tbody>
 </table>
@@ -81,23 +87,23 @@ L’URL est configurable et correspond à la valeur de l’URL du point d’entr
  <thead>
   <tr>
    <th>Nom</th>
-   <th>Type</th>
+   <th>Type </th>
    <th>Description</th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>access_token </td>
+   <td>access_token </td>
    <td>Chaîne</td>
    <td><p>Un jeton utilisé pour effectuer des appels API autorisés au nom de la personne. Il doit expirer pour éviter les appels d’API non autorisés.</p></td>
   </tr>
   <tr>
-   <td>refresh_token </td>
+   <td>refresh_token </td>
    <td>Chaîne</td>
    <td><p>Un jeton de longue durée utilisé pour récupérer un nouvel access_token en appelant cette méthode d’API.</p></td>
   </tr>
   <tr>
-   <td>expires_in </td>
+   <td>expires_in </td>
    <td>long</td>
    <td><p>(facultatif) Le temps (en secondes) avant l’expiration de l’access_token, généralement 3 600.</p></td>
   </tr>

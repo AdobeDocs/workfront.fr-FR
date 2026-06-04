@@ -6,10 +6,17 @@ description: Un client Workfront qui est, comme défini dans la loi HIPAA, un as
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 0%
+source-wordcount: 457
+ht-degree: 2%
 
 ---
 
@@ -59,7 +66,7 @@ En particulier, les responsabilités et obligations suivantes devraient être ex
 
 >[!IMPORTANT]
 >
->Workfront n’est pas conçu pour être un dépôt de dossiers de santé électroniques (DSE). ePHI ne peut être traité que si Adobe l&#39;a expressément autorisé par écrit. 
+>Workfront n’est pas conçu pour être un référentiel de dossiers de santé électroniques (DSE). Les ePHI ne peuvent être traités que si Adobe l’a expressément autorisé par écrit. 
 
 * Pour toute base de données Workfront où l’ePHI peut être accessible, assurez-vous que le **chiffrement au repos (EAR)** est activé.
    * Contactez votre chargé de compte (AE) pour vérifier que l’EAR est incluse dans votre achat Workfront.
