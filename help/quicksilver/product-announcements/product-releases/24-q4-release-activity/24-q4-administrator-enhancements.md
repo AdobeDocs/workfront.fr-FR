@@ -6,11 +6,16 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
 TQID: https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 585
@@ -82,4 +87,4 @@ Pour plus d’informations sur la restauration d’un package de promotion d’e
 
 Un bouton « Disposition » du concepteur de formulaires personnalisés vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le concepteur de formulaire d’origine utilise trois colonnes et les paramètres des champs s’affichent dans la colonne tout à droite. Si vous sélectionnez deux colonnes, les paramètres des champs s’affichent en regard de la bibliothèque de champs dans la colonne tout à gauche.
 
-Pour plus d’informations, voir [ Présentation des formulaires personnalisés ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation des formulaires personnalisés &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

@@ -7,8 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
 TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 873
@@ -116,6 +118,6 @@ Pour clarifier la manière dont l’assistant AI localise les réponses aux ques
 
 Auparavant, ces informations n’étaient pas disponibles dans la réponse de l’assistant d’IA.
 
-Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [ Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+Pour plus d’informations sur l’utilisation de l’assistant AI afin d’obtenir des informations sur les éléments de Workfront, voir [&#x200B; Utiliser l’assistant AI pour travailler sur des projets, des tâches et des événements](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 

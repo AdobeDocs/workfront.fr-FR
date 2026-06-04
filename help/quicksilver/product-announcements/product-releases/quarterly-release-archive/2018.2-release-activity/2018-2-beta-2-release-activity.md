@@ -8,11 +8,16 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
 TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 865
@@ -70,7 +75,7 @@ Vous pouvez désormais afficher les relations entre les prédécesseurs de proje
 
 Avant cette modification, vous ne pouviez afficher les relations entre les prédécesseurs de plusieurs projets que pour les tâches individuelles au niveau du projet.
 
-Pour plus d’informations, voir [Configurer l’affichage des informations sur le graphique de Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+Pour plus d’informations, voir [Configurer l’affichage des informations sur le graphique de Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
 ## Utiliser le coût budgété dans l’Optimiseur de portfolio pour calculer les finances du portfolio {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 

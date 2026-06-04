@@ -6,11 +6,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
 TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 326
@@ -50,4 +56,4 @@ En outre, lorsque vous ouvrez un formulaire personnalisé dans la version Beta d
 
 Actuellement, les fonctionnalités modifier une logique existante et ajouter une nouvelle logique à un formulaire personnalisé ne sont pas encore disponibles dans la version Beta du concepteur de formulaires, mais sont prévues pour l’avenir.
 
-Pour plus d’informations, voir [ Présentation des formulaires personnalisés ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation des formulaires personnalisés &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

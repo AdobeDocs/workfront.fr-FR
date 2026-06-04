@@ -8,11 +8,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
 TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1024
@@ -89,7 +95,7 @@ L’aspect des notifications par e-mail suivantes a été mis à jour avec une n
 * En attente d’approbation (projet, tâche, problèmes)
 * Changement de statut sur les projets, tâches, problèmes
 
-N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car le sandbox de prévisualisation efface les adresses e-mail de tous les utilisateurs.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications ](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car le sandbox de prévisualisation efface les adresses e-mail de tous les utilisateurs.    Pour plus d’informations sur les notifications par e-mail, voir [Notifications &#x200B;](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## Nouvelles options de synthèse par e-mail pour plusieurs zones de notifications
 
@@ -101,7 +107,7 @@ L’option « Synthèse quotidienne » a été ajoutée dans les zones de noti
 * Informations sur le travail qui m&#39;a été affecté
 * Communication
 
-Pour plus d’informations, voir [Notifications ](../../../../workfront-basics/using-notifications/wf-notifications.md). N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car le sandbox de prévisualisation efface les adresses e-mail de tous les utilisateurs. 
+Pour plus d’informations, voir [Notifications &#x200B;](../../../../workfront-basics/using-notifications/wf-notifications.md). N’oubliez pas de mettre à jour l’adresse e-mail associée à votre compte pour pouvoir tester cette fonctionnalité, car le sandbox de prévisualisation efface les adresses e-mail de tous les utilisateurs. 
 
 ## Rendre un groupe public
 

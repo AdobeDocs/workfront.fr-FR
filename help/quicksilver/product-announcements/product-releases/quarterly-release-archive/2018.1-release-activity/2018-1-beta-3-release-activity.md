@@ -8,11 +8,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
 TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1857
@@ -194,7 +200,7 @@ Les événements sont désormais inclus par défaut dans la liste d’attente de
 
 Avant cette modification, seules les tâches pouvaient être ajoutées à la liste d’attente. Si vous vouliez ajouter un problème, vous deviez d’abord le convertir en une tâche avant de pouvoir l’ajouter.
 
-Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Appliquer des regroupements et des filtres à la liste d’attente d’une équipe Agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
