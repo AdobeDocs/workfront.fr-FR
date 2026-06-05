@@ -4,7 +4,7 @@ description: Améliorations des habitations pendant la période de publication d
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -28,4 +28,5 @@ Les priorités prennent désormais en charge l’utilisation de données personn
 Vous pouvez également créer et partager des vues pour la liste de travail des priorités.
 
 Pour plus d’informations sur les priorités, voir [Personnaliser les colonnes de la liste de travail des priorités](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md). Pour plus d&#39;informations sur la création de vues et l&#39;utilisation du gestionnaire de colonnes, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 
