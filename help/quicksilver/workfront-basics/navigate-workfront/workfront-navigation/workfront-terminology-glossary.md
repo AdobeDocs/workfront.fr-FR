@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21553
+source-wordcount: 21587
 ht-degree: 96%
 
 ---
@@ -98,7 +98,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Heures effectives] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème après mai 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>si, dans l’onglet [!UICONTROL Updates] de la tâche 1, vous cliquez sur « Consigner des heures » et que vous saisissez 25 heures, les heures effectives de la tâche 1 = 25 heures. </p> <p>[!DNL Workfront] calcule les [!UICONTROL Actual Hours] pour les tâches ou les projets parents à l’aide des formules suivantes :</p> 
+   <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Heures effectives] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème après mai 2021. Il est vivement recommandé d'utiliser les heures réelles dans tous les rapports et de ne pas utiliser les anciennes heures réelles.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span>si, dans l’onglet [!UICONTROL Updates] de la tâche 1, vous cliquez sur « Consigner des heures » et que vous saisissez 25 heures, les heures effectives de la tâche 1 = 25 heures. </p> <p>[!DNL Workfront] calcule les [!UICONTROL Actual Hours] pour les tâches ou les projets parents à l’aide des formules suivantes :</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Heures effectives héritées]</td> 
-   <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Heures effectives héritées] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème avant mai 2021.</p>  
+   <td> <p>Dans un rapport de projet, de tâche ou de problème, les [!UICONTROL Heures effectives héritées] sont la somme de toutes les heures consignées sur le projet, la tâche ou le problème avant mai 2021. Il est vivement recommandé d'utiliser les heures réelles dans tous les rapports et de ne pas utiliser les anciennes heures réelles.</p>  
    <p>Les heures effectives héritées s’affichent sous la forme d’heures effectives dans une zone de détails de projet, de tâche ou d’événement. </p>
    <p>Voir aussi <strong>Heures effectives</strong>.
     <p>Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Afficher les heures effectives</a>.</p>

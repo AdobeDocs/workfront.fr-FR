@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1273
-ht-degree: 28%
+source-wordcount: 1377
+ht-degree: 26%
 
 ---
 
@@ -133,7 +133,9 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
 
 >[!NOTE]
 >
->Il est recommandé d’utiliser le champ Heures réelles autant que possible, car le champ Anciennes heures réelles peut afficher des heures inexactes en raison de la manière dont les incréments sont arrondis lorsque les heures sont stockées en minutes.
+>Il est vivement recommandé d’utiliser le champ Heures réelles autant que possible, car le champ Héritées des heures réelles peut afficher des heures inexactes en raison de la manière dont les incréments sont arrondis lorsque les heures sont stockées en minutes. En outre, les heures effectives héritées ne s’affichent pas correctement dans les graphiques des rapports.
+> 
+>Toutes les formules personnalisées utilisant les anciennes heures réelles ont été migrées vers les heures réelles. Les heures effectives héritées ne peuvent plus être utilisées dans les calculs et les formules.
 
 ## Heures effectives sur les tâches et les problèmes ou heures effectives sur les projets
 
@@ -185,7 +187,13 @@ Pour localiser les heures effectives dans la section Heures d&#39;une tâche :
 
 Lors de la création de rapports sur des tâches, des événements ou des projets, vous pouvez afficher les valeurs des heures effectives et des heures effectives héritées pour chaque tâche, événement ou projet du rapport.
 
-Pour plus d&#39;informations sur la différence entre les heures effectives et les heures effectives héritées, voir la section [Heures effectives par rapport aux heures effectives héritées](#actual-hours-vs-legacy-actual-hours) dans cet article.
+Pour plus d&#39;informations sur la différence entre les heures effectives et les heures effectives héritées, reportez-vous à la section [Heures effectives par rapport aux heures effectives héritées](#actual-hours-vs-legacy-actual-hours) de cet article.
+
+>[!NOTE]
+>
+>Il est vivement recommandé d&#39;utiliser le champ Heures réelles dans tous les rapports. Les heures réelles héritées ne s’affichent pas correctement dans les graphiques des rapports.
+> 
+>Lorsque vous remplacez le champ, notez que les heures réelles héritées stockent les valeurs en minutes, tandis que les heures réelles stockent les valeurs en heures avec une précision décimale.
 
 Pour afficher les heures effectives et les heures effectives héritées dans un rapport de tâche :
 
@@ -205,7 +213,8 @@ Pour afficher les heures effectives et les heures effectives héritées dans un 
 
 Si vous souhaitez voir la progression du travail de vos utilisateurs et utilisatrices sur les tâches et problèmes qui leur sont affectés, vous pouvez les afficher dans les outils de gestion des ressources suivants :
 
-* Rapport d’utilisation.\
+* Rapport d’utilisation.
+
   Pour plus d&#39;informations, voir [Aperçu du rapport Utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * Planificateur de ressources.
@@ -219,7 +228,7 @@ Si vous souhaitez voir la progression du travail de vos utilisateurs et utilisat
 
 La plupart des champs Workfront qui stockent des heures sont enregistrés dans la base de données Workfront en quelques minutes. Par exemple, le nom du champ Heures prévues d’une tâche est `workRequired` dans la base de données Workfront et stocké en minutes.
 
-Vous devez tenir compte de la conversion de minutes en heures lors de l’accès à ces champs dans les appels API ou dans les champs ou colonnes calculés personnalisés.
+Vous devez tenir compte de la conversion de minutes en heures lors de l’accès à ces champs dans les appels API.<!-- or in calculated custom fields or columns.-->
 
 Les heures réelles consignées pour les projets, tâches ou événements sont actuellement stockées dans la base de données Workfront sous la forme de minutes et leur champ de valeur est `actualWorkRequired`.
 
@@ -229,6 +238,10 @@ Depuis octobre 2025, avec l’API version 21, les heures effectives sont stocké
 
 * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements postérieurs à mai 2021. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, y compris avant mai 2021. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
+
+>[!NOTE]
+>
+>Toutes les formules personnalisées utilisant les anciennes heures réelles ont été migrées vers les heures réelles. Les heures effectives ou `actualWorkRequired` héritées ne peuvent plus être utilisées dans les calculs et les formules.
 
 Pour plus d’informations sur les versions des API, voir [Contrôle de version des API et planning de prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
