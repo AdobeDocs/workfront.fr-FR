@@ -7,11 +7,17 @@ description: Vous ne pouvez tracer un rapport en fonction d’un champ personnal
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HkVox4rDOw-8RvRTQ9fscAs1svpjdhwi-MqomzqybXU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: 942
 ht-degree: 80%
 
 ---
@@ -76,7 +82,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Conditions préalables
 
-Avant de commencer, vous devez créer un champ personnalisé calculé qui affiche les valeurs sélectionnées dans le champ personnalisé multi-sélection.Pour plus d’informations, voir la section [Créer un champ personnalisé calculé qui fait référence à un champ personnalisé](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) multi-sélection de cet article.
+Avant de commencer, vous devez créer un champ personnalisé calculé qui affiche les valeurs sélectionnées dans le champ personnalisé multi-sélection. Pour plus d’informations, voir la section [Créer un champ personnalisé calculé qui fait référence à un champ personnalisé](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) multi-sélection de cet article.
 
 ## Tracer un graphique de rapport en fonction de champs personnalisés multi-sélection
 
@@ -84,7 +90,7 @@ Avant de commencer, vous devez créer un champ personnalisé calculé qui affich
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved to its own article, linked in the Note above!)</p>
 -->
 
-Vous ne pouvez pas créer un graphique dans un rapport en faisant référence à un champ personnalisé multi-sélection. Au lieu de cela, vous pouvez créer un champ calculé qui enregistre les valeurs du champ personnalisé multi-sélection sur un objet donné et les regroupe en fonction du champ calculé. 
+Vous ne pouvez pas créer de graphique dans un rapport en référençant un champ personnalisé à sélection multiple. Au lieu de cela, vous pouvez créer un champ calculé qui enregistre les valeurs du champ personnalisé à sélection multiple sur un objet donné et les regrouper par champ calculé. 
 
 * [Créer un champ personnalisé calculé qui fait référence à un champ personnalisé multi-sélection](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [Construire un graphique qui fait référence à un champ personnalisé calculé](#build-a-chart-that-references-a-calculated-custom-field)

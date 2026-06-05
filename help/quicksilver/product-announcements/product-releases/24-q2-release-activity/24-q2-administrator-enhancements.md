@@ -5,10 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 97%
+source-wordcount: 827
+ht-degree: 96%
 
 ---
 
@@ -18,15 +24,15 @@ Cette page décrit toutes les améliorations apportées à l’équipe d’admin
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du deuxième trimestre 2024, consultez la section [Vue d’ensemble de la version du deuxième trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-## Disponibilité de la logique d’affichage et de la logique de saut en mode prévisualisation du créateur de formulaire
+## Disponibilité de la logique d’affichage et de la logique de saut en mode prévisualisation du concepteur de formulaires
 
 >[!NOTE]
 >
 >Version de prévisualisation : 28 mars 2024. Production pour l’ensemble des clientes et clients : 24.4 (11 avril 2024)
 
-La version bêta du créateur de formulaire personnalisé vous permet désormais de tester votre logique d’affichage et logique de saut en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.
+La version Beta du concepteur de formulaires personnalisés vous permet désormais de tester votre logique d’affichage et logique de saut en mode d’aperçu. Auparavant, tous les champs s’affichaient dans l’aperçu même lorsque la logique était appliquée.
 
-Pour plus d’informations sur la prévisualisation d’un formulaire personnalisé dans le créateur de formulaire, voir [Organiser et prévisualiser un formulaire avec le créateur de formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Pour plus d’informations sur la prévisualisation d’un formulaire personnalisé dans le concepteur de formulaires, voir [Organiser et prévisualiser un formulaire avec le concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Prise en charge des champs de formulaire personnalisés avancés pour les entreprises et les utilisateurs et utilisatrices
 
@@ -34,7 +40,7 @@ Pour plus d’informations sur la prévisualisation d’un formulaire personnali
 >
 >Version de prévisualisation : 14 mars 2024. Production pour l’ensemble des clientes et clients : 24.4 (11 avril 2024)
 
-Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs Workfront sont désormais disponibles lorsque vous joignez un formulaire personnalisé à une entreprise ou à un utilisateur ou une utilisatrice. Les fonctionnalités avancées sont disponibles dans les pages Détails de l’entreprise et Détails de l’utilisateur ou de l’utilisatrice, et non dans les boîtes de dialogue Modifier entreprise et Modifier utilisateur ou utilisatrice. Le formulaire personnalisé doit être créé dans le nouveau créateur de formulaire pour tirer parti de ces types de champs.
+Les fonctionnalités avancées de formulaire personnalisé telles que les champs de recherche externe et les champs natifs Workfront sont désormais disponibles lorsque vous joignez un formulaire personnalisé à une entreprise ou à un utilisateur ou une utilisatrice. Les fonctionnalités avancées sont disponibles dans les pages Détails de l’entreprise et Détails de l’utilisateur ou de l’utilisatrice, et non dans les boîtes de dialogue Modifier entreprise et Modifier utilisateur ou utilisatrice. Le formulaire personnalisé doit être créé dans le nouveau concepteur de formulaires pour tirer parti de ces types de champs.
 
 Pour plus d’informations sur les champs de formulaire personnalisés, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,7 +54,7 @@ L’intégration JumpSeat existante est désormais disponible pour les comptes u
 
 Pour plus d’informations sur l’intégration JumpSeat, voir [Configurer l’intégration JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
-## Disponibilité des champs natifs Workfront dans la version bêta du créateur de formulaire
+## Disponibilité des champs natifs Workfront dans la version Beta du concepteur de formulaires
 
 >[!NOTE]
 >
@@ -56,17 +62,17 @@ Pour plus d’informations sur l’intégration JumpSeat, voir [Configurer l’i
 
 Les champs natifs de Workfront sont désormais disponibles pour l’ajout dans vos formulaires personnalisés. Ce nouveau type de champ vous permet d’organiser et de présenter les données à vos utilisateurs et utilisatrices de manière logique, sans avoir à recréer des données existantes dans des champs personnalisés.
 
-Après avoir sélectionné Champ natif dans la liste des champs de formulaires personnalisés à ajouter au créateur de formulaire, vous pouvez sélectionner n’importe quel champ natif pour les objets du formulaire. Par exemple, si la liste des types d’objets en haut du créateur de formulaire affiche Projet, vous pourrez sélectionner des champs natifs pour les projets, mais pas des champs spécifiques aux tâches.
+Après avoir sélectionné Champ natif dans la liste des champs de formulaires personnalisés à ajouter au concepteur de formulaires, vous pouvez sélectionner n’importe quel champ natif pour les objets du formulaire. Par exemple, si la liste des types d’objets en haut du concepteur de formulaires affiche Projet, vous pourrez sélectionner des champs natifs pour les projets, mais pas des champs spécifiques aux tâches.
 
 Lorsque le formulaire personnalisé est joint à un objet, le champ est renseigné à partir des données de l’objet. Par exemple, le champ Description d’un formulaire personnalisé joint à un projet extrait la description du projet. (Le champ peut afficher « S.O. » si aucune donnée n’est disponible.)
 
-Les champs natifs utilisés dans les formulaires personnalisés sont disponibles dans la bibliothèque de champs du créateur, pour une réutilisation en toute facilité. Ils sont également visibles dans la zone Configuration > Formulaires personnalisés > Champs afin que vous puissiez voir dans quels formulaires ils sont utilisés.
+Les champs natifs utilisés dans les formulaires personnalisés sont disponibles dans la bibliothèque de champs du concepteur, pour une réutilisation en toute facilité. Ils sont également visibles dans la zone Configuration > Formulaires personnalisés > Champs afin que vous puissiez voir dans quels formulaires ils sont utilisés.
 
-Cette fonctionnalité est disponible uniquement en version bêta du créateur de formulaire, et non dans l’ancien créateur de formulaire.
+Cette fonctionnalité est disponible uniquement en version Beta du concepteur de formulaires, et non dans l’ancien concepteur de formulaires.
 
-Pour plus d’informations, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Regardez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Disponibilité du mappage d’attributs pour les organisations ayant migré vers Adobe IMS
 
@@ -80,14 +86,14 @@ Auparavant, cette fonctionnalité n’était disponible que pour les organisatio
 
 Pour plus d’informations sur la configuration du mappage des attributs, voir [Mapper des attributs utilisateur dans l’expérience unifiée Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) dans l’article **Mapper des attributs utilisateur et configurer automatiquement des nouveaux utilisateurs et nouvelles utilisatrices**.
 
-## La logique de saut et la logique d’affichage sont désormais disponibles dans la version bêta du concepteur de formulaires.
+## Disponibilité de la logique de saut et de la logique d’affichage dans la version Beta du concepteur de formulaires.
 
 >[!NOTE]
 >
 >Version de prévisualisation : vendredi 8 février 2024. Production pour un déploiement rapide : avec la version 24.2 (vendredi 15 février 2024). Production pour l’ensemble des clientes et clients : 24.4 (11 avril 2024)
 
-Vous pouvez désormais modifier les logiques d’affichage et de saut existantes et ajouter des nouvelles logiques aux formulaires personnalisés dans la version bêta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.
+Vous pouvez désormais modifier les logiques d’affichage et de saut existantes et ajouter des nouvelles logiques aux formulaires personnalisés dans la version Beta du concepteur de formulaires. Un générateur de logique convivial permet de définir les champs à afficher ou à ignorer en fonction des sélections dans le formulaire.
 
-Les icônes sur un champ dans la zone de travail du créateur de formulaire indiquent si la logique est configurée sur ce champ ou si le champ est utilisé dans les règles de logique configurées sur d’autres champs.
+Les icônes d’un champ dans la zone de travail du concepteur de formulaires indiquent que la logique est configurée sur ce champ ou que le champ est utilisé dans les règles logiques configurées sur d’autres champs.
 
 Pour plus d’informations, voir [Ajouter une logique d’affichage et d’exclusion à l’aide du concepteur de formulaires](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).

@@ -5,12 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/fH-P7EmGGbZUe5Eq4T1uVDNTfZeio0b1TuSqwcWvr4s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 14%
+source-wordcount: 1269
+ht-degree: 7%
 
 ---
 
@@ -30,7 +35,7 @@ Nous avons mis à jour l’interface de rapport afin qu’elle corresponde à la
 
 * Nous avons ajouté une palette de couleurs étendue pour les règles de mise en forme conditionnelle dans les rapports. Pour plus d&#39;informations sur la mise en forme conditionnelle, voir [Utiliser la mise en forme conditionnelle dans les vues](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 * Nous avons ajouté un nouveau bouton « Modifier le mode texte » pour passer en mode texte lors de la modification d’une colonne dans le Report Builder. Pour plus d’informations sur la modification des vues de rapport en mode texte, voir [Modifier une vue en mode texte](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* Vous ne pouvez plus modifier le titre d’un rapport en cliquant sur son titre. Vous pouvez toujours modifier le titre d’un rapport en cliquant sur Actions du rapport > Modifier, puis en modifiant le titre. Pour plus d’informations sur la modification des rapports, voir [&#x200B; Modifier les paramètres du rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* Vous ne pouvez plus modifier le titre d’un rapport en cliquant sur son titre. Vous pouvez toujours modifier le titre d’un rapport en cliquant sur Actions du rapport > Modifier, puis en modifiant le titre. Pour plus d’informations sur la modification des rapports, voir [ Modifier les paramètres du rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
 * Vous ne pouvez plus créer de regroupement en cliquant sur le nom d’une colonne dans le créateur de regroupements. Vous pouvez toujours créer un regroupement à partir d&#39;une colonne existante d&#39;un rapport en sélectionnant le champ correspondant dans la liste Regrouper par : champ . Pour plus d’informations sur la création de regroupements, voir [Création de regroupements dans Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * Nous avons ajouté un nouveau bouton (bascule) à l’interface de filtrage des rapports pour basculer entre un sélecteur de date de calendrier et un champ de texte de caractère générique de date relative lors du filtrage par un champ de date. En outre, la sélection d’un raccourci de caractère générique de date relative dans l’interface de filtre de rapport renseigne désormais automatiquement les champs de caractère générique associés en fonction de votre sélection. Pour plus d’informations sur l’utilisation de caractères génériques de date relative dans les filtres de rapport, voir [Utilisation de caractères génériques basés sur la date pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 * Les caractères génériques basés sur l’utilisateur dans les filtres de rapport suggèrent désormais des caractères génériques pertinents pour la saisie automatique en fonction du type de champ sélectionné. Pour plus d’informations sur les caractères génériques basés sur l’utilisateur dans les filtres de rapport, voir [Utilisation de caractères génériques basés sur l’utilisateur pour généraliser les rapports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
@@ -73,17 +78,17 @@ _Ces mises à jour sont mises en œuvre de manière incrémentielle en productio
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 18 juillet 2024. Production pour version rapide : avec la version 24.9 (vendredi 12 septembre 2024). Production pour version trimestrielle : avec la version 24.10 (vendredi 17 octobre 2024).
+>Version préliminaire : 18 juillet 2024 ; Production pour la version rapide : avec la version 24.9 (12 septembre 2024) ; Production pour la version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Nous avons mis à jour la page Configuration > Système > Préférences vers une conception plus moderne et cohérente avec les autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Mise à jour de l’aspect des messages Supprimer un utilisateur et Désactiver un utilisateur
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 1 août 2024. Production pour version rapide : avec la version 24.8 (vendredi 15 août 2024). Production pour version trimestrielle : avec la version 24.10 (vendredi 17 octobre 2024).
+>Version préliminaire : 1er août 2024 ; Production pour la version rapide : avec la version 24.8 (15 août 2024) ; Production pour la version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Les messages de confirmation Supprimer un utilisateur et Désactiver un utilisateur que les utilisateurs voient lors de la suppression ou de la désactivation d’un utilisateur ont été mis à jour vers une conception plus moderne et cohérente avec d’autres zones de Workfront.
 
@@ -93,7 +98,7 @@ Pour plus d’informations sur la suppression et la désactivation des utilisate
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 1 août 2024. Production pour version rapide : avec la version 24.8 (vendredi 15 août 2024). Production pour version trimestrielle : avec la version 24.10 (vendredi 17 octobre 2024).
+>Version préliminaire : 1er août 2024 ; Production pour la version rapide : avec la version 24.8 (15 août 2024) ; Production pour la version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Nous avons mis à jour la page Pools de ressources avec une conception plus moderne et cohérente avec les autres zones de Workfront.
 
@@ -113,7 +118,7 @@ Pour plus d’informations sur la suppression d’une tâche, voir [Supprimer de
 
 >[!NOTE]
 >
->Version de prévisualisation : jeudi 17 juillet 2024. Production pour version rapide : avec la version 24.8 (vendredi 15 août 2024). Production pour version trimestrielle : avec la version 24.10 (vendredi 17 octobre 2024).
+>Version préliminaire : 17 juillet 2024 ; Production pour la version rapide : avec la version 24.8 (15 août 2024) ; Production pour la version trimestrielle : avec la version 24.10 (17 octobre 2024)
 
 Nous avons mis à jour la page Notification (accessible en cliquant sur l’icône de notification dans la barre d’outils principale, puis sur Toutes les notifications) avec une conception plus moderne, cohérente avec les autres zones de Workfront.
 

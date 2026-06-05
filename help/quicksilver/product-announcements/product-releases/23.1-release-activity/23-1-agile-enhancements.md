@@ -6,10 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 98%
+source-wordcount: 899
+ht-degree: 94%
 
 ---
 
@@ -43,7 +47,7 @@ La date d’échéance sur les cartes connectées et sur les cartes ad hoc inclu
 
 Pour plus d’informations, voir [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Les éléments de liste de contrôle du panorama et les sous-tâches Workfront sont désormais liés.
 
@@ -57,7 +61,7 @@ Auparavant, les éléments de liste de contrôle et les sous-tâches n’étaien
 
 Pour plus d’informations, voir [Utiliser des cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) et [Gérer les éléments de liste de contrôle sur des cartes](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Compteur de carte dans les colonnes du panorama
 
@@ -121,7 +125,7 @@ La liste des filtres sur un panorama inclut désormais l’option permettant de 
 
 Pour plus d’informations, voir [Filtrer et rechercher dans un panorama](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archiver des cartes d’un panorama selon un planning
 
@@ -135,4 +139,4 @@ Si vous souhaitez réafficher les cartes après leur détachement du panorama, v
 
 Pour plus d’informations, voir [Configurer le détachement des cartes](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3412323/){target=_blank}

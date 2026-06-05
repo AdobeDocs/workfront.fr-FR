@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fb7498a-585d-4692-9217-434eef38ad40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: 241
+ht-degree: 90%
 
 ---
 
@@ -26,7 +31,7 @@ Les webinaires suivants sont disponibles :
 
 * [Webinaire de la version 2017.3](#2017-3-release-webinar)
 * [Versions préliminaires de septembre de Workfront 2017.3](#workfront-2017-3-september-preview-releases)
-* [Webinaire Workfront 2017.3 versions bêta 1 et 2](#workfront-2017-3-beta-1-and-beta-2-webinar)
+* [Webinaire Workfront 2017.3 versions Beta 1 et 2](#workfront-2017-3-beta-1-and-beta-2-webinar)
 * [Webinaire sur les versions mobiles d’août](#august-mobile-release-webinar)
 
 ## Webinaire sur la version 2017.3 {#2017-3-release-webinar}
@@ -47,10 +52,10 @@ Pour des raisons pratiques, le webinaire est divisé en plusieurs rubriques :
 
 ## Versions préliminaires de septembre de Workfront 2017.3 {#workfront-2017-3-september-preview-releases}
 
-Le webinaire sur les versions préliminaires de septembre de Workfront 2017.3 a été présenté par l’équipe de préparation aux versions de Workfront le 26 septembre 2017 à 9 h 00 MT. Ce webinaire se concentre sur les nouvelles fonctionnalités qui ont été mises à disposition dans l’environnement de prévisualisation au cours du mois de septembre.
+Le webinaire sur les versions préliminaires de Workfront 2017.3 a été présenté par l’équipe de préparation aux versions de Workfront le 26 septembre 2017 à 9 :00 (heure de Paris). Ce webinaire se concentre sur les nouvelles fonctionnalités qui ont été mises à disposition dans l’environnement de prévisualisation au cours du mois de septembre.
 
-## Webinaire Workfront 2017.3 version bêta 1 et 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
+## Webinaire Workfront 2017.3 version Beta 1 et 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 
-Le webinaire sur les versions 2017.3 bêta 1 et 2 a été présenté par l’équipe de préparation aux versions Workfront le 23 août 2017. Ce webinaire se concentre sur les nouvelles fonctionnalités qui ont été mises à disposition dans l’environnement de prévisualisation au cours du mois d’août.
+Le webinaire sur les versions 2017.3 Beta 1 et 2 a été présenté par l’équipe de préparation aux versions Workfront le 23 août 2017. Ce webinaire se concentre sur les nouvelles fonctionnalités qui ont été mises à disposition dans l’environnement de prévisualisation au cours du mois d’août.
 
 ## Webinaire sur les versions mobiles d’août {#august-mobile-release-webinar}

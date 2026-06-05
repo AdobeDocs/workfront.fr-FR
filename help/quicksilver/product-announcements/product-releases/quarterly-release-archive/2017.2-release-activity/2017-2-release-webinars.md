@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: 426
+ht-degree: 98%
 
 ---
 
@@ -25,7 +30,7 @@ Pour obtenir des informations plus détaillées sur les fonctionnalités abordé
 Les webinaires suivants sont disponibles :
 
 * [Webinaire sur la version 2017.2 (27 juin 2017)](#2017-2-release-webinar-june-27-2017)
-* [Versions 2017.2 bêta 1 et 2 (24 mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
+* [Versions 2017.2 Beta 1 et 2 (24 mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## Webinaire sur la version 2017.2 (27 juin 2017) {#2017-2-release-webinar-june-27-2017}
 
@@ -35,7 +40,7 @@ Pour des raisons pratiques, le webinaire est divisé en plusieurs rubriques :
 
 * [Introduction](#introduction)
 * [Gestion des ressources](#resource-management)
-* [Vérification](#proofing)
+* [Relecture](#proofing)
 * [Autres améliorations](#other-enhancements)
 * [Mobile](#mobile)
 * [Fonctionnalités supprimées](#functionality-being-removed)
@@ -73,7 +78,7 @@ Cette partie du webinaire contient les sujets suivants :
 Cette partie du webinaire contient les sujets suivants :
 
 * Notification in-app pour les approbations d’épreuves en attente
-* S’abonner aux éléments : tâches, problèmes, projets
+* S&#39;abonner aux éléments:Tasks événements, projets
 * Exporter le rapport d’utilisation au format TSV et PDF
 * Mise à jour du calendrier Mon travail
 * Améliorations du graphique de Gantt
@@ -100,6 +105,6 @@ Cette partie du webinaire contient les sujets suivants :
 * Modifications des API
 * API version 7 (et autres modifications)
 
-## Versions 2017.2 bêta 1 et 2 (24 mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
+## Versions 2017.2 Beta 1 et 2 (24 mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-Le webinaire de la version a été présenté le 24 mai 2017. Ce webinaire couvre les fonctionnalités mises à disposition avec les versions bêta 1 et bêta 2 de la version 2017.2.
+Le webinaire de la version a été présenté le 24 mai 2017. Ce webinaire couvre les fonctionnalités mises à disposition avec les versions 2017.2 Beta 1 et Beta 2.

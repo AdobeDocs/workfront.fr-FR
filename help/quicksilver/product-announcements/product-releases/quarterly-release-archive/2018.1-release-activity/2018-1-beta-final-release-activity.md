@@ -1,30 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité de la version bêta finale 2018.1
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version bêta finale 2018.1. Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 31 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
+title: Activité de la version Beta finale 2018.1
+description: Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2018.1. Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 31 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 100%
+source-wordcount: 895
+ht-degree: 95%
 
 ---
 
-# Activité de la version bêta finale 2018.1
+# Activité de la version Beta finale 2018.1
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version bêta finale 2018.1.Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 31 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
+Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2018.1. Cette fonctionnalité est disponible dans l’environnement de prévisualisation depuis le 31 janvier 2018. Elles seront disponibles dans l’environnement de production en mars 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées dans la version 2018.1, consultez [Vue d’ensemble de l’activité de la version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-La version bêta finale 2018.1 contient des améliorations pour les administrateurs et administratrices Workfront ainsi que pour les autres utilisateurs et utilisatrices :
+La version Beta finale 2018.1 contient des améliorations pour les administrateurs et administratrices Workfront ainsi que pour les autres utilisateurs et utilisatrices :
 
 **Pour les administrateurs et administratrices**
 
@@ -63,7 +66,7 @@ Pour plus d’informations sur le module complémentaire Workfront pour Jira, y 
 
 ## Mise à jour des noms de la visionneuse de relecture {#update-to-proofing-viewer-names}
 
-Les noms de la visionneuse de relecture HTML5 et des visionneuses de relecture Flash ont été modifiés dans tout le système Workfront. Les noms précédents et mis à jour sont les suivants :
+Les noms de la visionneuse de relecture HTML5 et des visionneuses de relecture Flash ont été modifiés dans tout le système Workfront. Les noms précédents et mis à jour sont les suivants : 
 
 | **Nom précédent** | **Nom mis à jour** |
 |---|---|
@@ -72,7 +75,7 @@ Les noms de la visionneuse de relecture HTML5 et des visionneuses de relecture F
 
 {style="table-layout:auto"}
 
-Pour plus d’informations sur l’utilisation de la nouvelle visionneuse de relecture, voir [Relecture des épreuves dans la visionneuse de relecture.](https://support.workfront.com/hc/fr-fr/sections/115000275214)
+ Pour plus d’informations sur l’utilisation de la nouvelle visionneuse de relecture, voir [Relecture des épreuves dans la visionneuse de relecture.](https://support.workfront.com/hc/fr-fr/sections/115000275214)
 
 ## Configurer la disponibilité des ressources et les affectations des utilisateurs et des utilisatrices à calculer en fonction de leur planning {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
@@ -103,9 +106,9 @@ Pour plus d’informations, voir « Configurer la manière dont Workfront calcu
 
 Les données de l’environnement de production d’épreuve Workfront sont désormais synchronisées dans l’environnement de prévisualisation d’épreuve Workfront chaque semaine.
 
-Avant cette modification, les données étaient synchronisées chaque mois de l’environnement de production d’épreuve Workfront vers l’environnement de prévisualisation, tandis que les données de l’environnement de production Workfront étaient synchronisées chaque semaine dans l’environnement de prévisualisation Workfront. Cette incohérence provoquait des erreurs de synchronisation lors de l’utilisation de la fonctionnalité de relecture dans l’environnement d’aperçu Workfront. 
+Avant cette modification, les données étaient synchronisées mensuellement de l’environnement de production Workfront Proof vers l’environnement de prévisualisation, tandis que les données de l’environnement de production Workfront étaient synchronisées hebdomadairement dans l’environnement de prévisualisation Workfront. Cette incohérence provoquait des erreurs de synchronisation lors de l’utilisation de la fonctionnalité de relecture dans l’environnement Aperçu de Workfront . 
 
-Pour plus d’informations, voir [Prévisualiser l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+Pour plus d’informations, voir [Prévisualiser l’environnement de test Sandbox - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## Un message d’avertissement s’affiche lorsque la limite de 2 000 éléments est atteinte dans le planificateur de ressources {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 

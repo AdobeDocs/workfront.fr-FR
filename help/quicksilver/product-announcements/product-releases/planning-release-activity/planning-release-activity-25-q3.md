@@ -7,11 +7,16 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: 2290
 ht-degree: 6%
 
 ---
@@ -28,7 +33,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 10 juillet 2025>Production pour tous : 10 juillet 2025>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 10 juillet 2025>Production pour tout le monde : 10 juillet 2025>[!BADGE Programme de congés]{type=Neutral}
 
 
 Nous avons mis à jour l’onglet Paramètres avancés lors de la création ou de la modification d’un type d’enregistrement.
@@ -44,7 +49,7 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 
 >[!NOTE]
 >
->Aperçu : 10 juillet 2025>Production pour tous : 10 juillet 2025>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 10 juillet 2025>Production pour tout le monde : 10 juillet 2025>[!BADGE Programme de congés]{type=Neutral}
 
 Désormais, lorsque vous ajoutez une équipe à un commentaire d’enregistrement dans Workfront Planning, tous les membres de l’équipe reçoivent une notification in-app et par e-mail concernant le commentaire. Avant cette amélioration, seuls les utilisateurs ajoutés individuellement aux commentaires étaient avertis .
 
@@ -117,7 +122,7 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
@@ -143,7 +148,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >[!NOTE]
 >
 >* Prévisualisation : vendredi 26 juin 2025
->* Production pour tous : 26 juin 2025>[!BADGE Hors planning]{type=Neutral}
+>* Production pour tous : 26 juin 2025>[!BADGE hors calendrier]{type=Neutral}
 
 Désormais, lorsque vous connectez des types d’enregistrements et importez un champ de formule en tant que recherche, vous pouvez appliquer les fonctions d’agrégat (SOMME, MOYENNE, MIN, MAX, etc.) en fonction du format du champ de formule. Par exemple, si le champ de formule est numérique, vous pouvez utiliser des fonctions telles que SUM ou AVG ; si le champ de formule est formaté en tant que texte, les fonctions d&#39;agrégat telles que SUM ne s&#39;appliqueront pas.
 
@@ -178,7 +183,7 @@ Pour plus d’informations, voir [Activer des trimestres personnalisés pour les
 >[!NOTE]
 >
 >* Prévisualisation : vendredi 12 juin 2025
->* Production pour tous : 12 juin 2025>[!BADGE Hors planning]{type=Neutral}
+>* Production pour tous : 12 juin 2025>[!BADGE hors calendrier]{type=Neutral}
 
 Nous avons introduit une amélioration qui met à jour tous les champs de formule qui dépendent les uns des autres en même temps après la mise à jour manuelle d’un champ référencé. Les champs de formule situés à 2, 3 ou 4 du champ dont la valeur a été modifiée manuellement et qui se référent entre eux seront désormais automatiquement mis à jour en même temps.
 
@@ -191,7 +196,7 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >* Prévisualisation : samedi 6 juin 2025
->* Production pour tous les clients : 6 juin 2025>[!BADGE Hors planning]{type=Neutral}
+>* Production pour tous les clients : 6 juin 2025>[!BADGE hors calendrier]{type=Neutral}
 
 Nous avons ajouté les expressions suivantes aux champs de formule :
 

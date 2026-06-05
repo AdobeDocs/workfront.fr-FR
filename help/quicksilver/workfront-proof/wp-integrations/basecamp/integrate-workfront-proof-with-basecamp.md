@@ -7,9 +7,13 @@ description: Si vous utilisez  [!DNL Basecamp]  pour la gestion de projets, vous
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 741
 ht-degree: 100%
 
 ---
@@ -39,7 +43,6 @@ Lorsqu’il est intégré à [!DNL Workfront Proof], [!DNL Basecamp] propose les
   >Une fois qu’une réponse a été ajoutée à un commentaire, ce dernier ne peut pas être modifié ni supprimé.
 
 * Les réviseurs et réviseuses peuvent répondre aux commentaires et aux balisages d’autres réviseurs et réviseuses.
-
 * Les utilisateurs et utilisatrices sont avertis lorsqu’une nouvelle version de l’épreuve est disponible.
 * Les utilisateurs et utilisatrices qui n’utilisent pas [!DNL Workfront Proof] peuvent travailler sur une épreuve dans [!DNL Basecamp].
 
@@ -51,7 +54,7 @@ L’intégration de [!DNL Workfront Proof] avec [!DNL Basecamp] doit être mise 
 
 Vous pouvez intégrer [!DNL Workfront] à [!DNL Basecamp] ou [!DNL Basecamp Classic]. Chaque version de [!DNL Basecamp] utilise une API différente et nécessite par conséquent des procédures de configuration différentes.
 
-Pour plus d’informations sur la configuration de [!DNL Basecamp Classic], voir [Intégrer  [!DNL Workfront Proof]  avec  [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
+Pour plus d’informations sur la configuration de [!DNL Basecamp Classic], voir [Intégrer  [!DNL Workfront Proof]  avec  [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
 
 ## Activer l’intégration de [!DNL Basecamp] avec [!DNL Workfront Proof]
 

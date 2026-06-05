@@ -7,10 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: 746
+ht-degree: 95%
 
 ---
 
@@ -71,7 +76,7 @@ Il existe désormais deux options pour afficher les informations sur les jalons 
 
   Une ligne s’affiche après chaque tâche associée au jalon, sur l’ensemble des tâches du graphique de Gantt.
 
-Avant cette modification, il n’existait qu’une seule option pour permettre l’affichage des jalons dans un graphique de Gantt, appelée « Jalons ». Cette option permet d’activer à la fois l’icône de losange de jalon et la ligne de jalon. Ces indicateurs ne pouvaient pas être séparés. Les deux options sont désormais disponibles sur tous les graphiques de Gantt, y compris les listes de projets et les rapports. 
+Avant cette modification, il n’existait qu’une seule option permettant d’afficher les jalons dans un graphique de Gantt, appelée « Jalons ». Cette option activait l’icône en forme de losange jalonné et la ligne jalonnée. Ces indicateurs n&#39;ont pas pu être séparés. Les deux options sont désormais disponibles sur tous les graphiques Gantt, y compris toutes les listes de projets et tous les rapports. 
 
 Pour plus d’informations sur la configuration de l’affichage des informations dans le graphique de Gantt, voir [Configurer l’affichage des informations sur le graphique de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
@@ -100,7 +105,7 @@ Pour plus d’informations, voir [Gérer les versions des documents](../../../..
 
 ## Nouvel objet Demande dans le rapport d’approbation des épreuves {#new-requester-object-in-proof-approval-report}
 
-Désormais, lors de la création d’un rapport d’approbation d’épreuve, un nouvel objet Demande est créé. Cet objet vous permet d’établir un rapport sur les informations relatives à l’utilisateur ou à l’utilisatrice qui a demandé l’approbation de l’épreuve. 
+Désormais, lors de la création d’un rapport Approbation de l’épreuve, un nouvel objet Demandeur apparaît. Cet objet vous permet d&#39;établir des rapports sur les informations concernant l&#39;utilisateur qui a demandé l&#39;approbation du BAT. 
 
 Le nouvel objet Demande du rapport d’approbation d’épreuve contient tous les champs disponibles avec l’objet Utilisateur ou utilisatrice existant dans d’autres types de rapports d’objets.
 

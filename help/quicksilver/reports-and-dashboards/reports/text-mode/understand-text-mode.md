@@ -6,11 +6,16 @@ description: Vous pouvez créer un rapport ou une liste dans Adobe Workfront à
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/jY3OlQw6Wns0NEDWtPBRhkXm8Y1kyRxC7rT4BatUCPc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: 799
 ht-degree: 87%
 
 ---
@@ -37,7 +42,7 @@ Pour plus d’informations sur la création de rapports en mode texte, notamment
 
 >[!TIP]
 >
->Vous pouvez également développer les capacités des champs personnalisés calculés en utilisant une version du mode texte pour les champs personnalisés. La syntaxe et les règles de création d’un champ personnalisé calculé sont différentes de celles utilisées dans les rapports et listes. Pour plus d’informations sur l’ajout d’un champ calculé personnalisé, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+>Vous pouvez également développer les capacités des champs personnalisés calculés en utilisant une version du mode texte pour les champs personnalisés. La syntaxe et les règles de création d’un champ personnalisé calculé sont différentes de celles utilisées dans les rapports et listes. Pour plus d’informations sur l’ajout d’un champ calculé personnalisé, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Avant de commencer à utiliser le mode texte dans vos rapports, nous vous recommandons vivement de suivre nos cours sur les rapports avancés, afin de mieux comprendre notre langage en mode texte.
 * Pour préserver l’intégrité de vos rapports lors des mises à jour du logiciel Workfront, l’utilisation du mode standard est préférable. Si le mode texte permet de créer des vues, des filtres et des regroupements plus complexes, il est également plus compliqué à maintenir et ne peut être garanti en cas de mise à jour du logiciel Workfront.

@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 100%
+source-wordcount: 1379
+ht-degree: 98%
 
 ---
 
@@ -93,7 +99,7 @@ Les sections suivantes fournissent plus d’informations sur la synchronisation 
 
 {#new-proof-creator-object-in-document-version-report-workfront}
 
-Désormais, lors de la création d’un rapport Version du document, un nouvel objet Créateur ou créatrice de l’épreuve est disponible. Cet objet permet de créer un rapport sur les informations concernant l’utilisateur ou l’utilisatrice ayant créé l’épreuve. 
+Désormais, lors de la création d’un rapport Version de document, il existe un nouvel objet Créateur d’épreuve. Cet objet vous permet d’obtenir des rapports sur les informations relatives à l’utilisateur qui a créé l’épreuve. 
 
 Le nouvel objet Créateur ou créatrice de l’épreuve du rapport Version du document contient tous les champs disponibles avec l’objet Utilisateur existant ou utilisatrice existante dans d’autres types de rapports d’objet.
 
