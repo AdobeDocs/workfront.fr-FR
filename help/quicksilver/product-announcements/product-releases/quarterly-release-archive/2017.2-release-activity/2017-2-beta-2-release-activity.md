@@ -8,10 +8,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
 TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 746
@@ -64,7 +68,7 @@ Pour plus d’informations sur la désinscription à partir des e-mails d’abon
 
 ## Configurer l’affichage des jalons sur le graphique de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORRECTION ** : cette fonctionnalité n’est pas encore disponible dans l’environnement sandbox de prévisualisation. Sa sortie est prévue à une date ultérieure, au cours du mois de juin 2017.*
+***CORRECTION &#x200B;** : cette fonctionnalité n’est pas encore disponible dans l’environnement sandbox de prévisualisation. Sa sortie est prévue à une date ultérieure, au cours du mois de juin 2017.*
 
 Il existe désormais deux options pour afficher les informations sur les jalons dans un graphique de Gantt. Vous pouvez configurer l’un des indicateurs de jalon suivants, ou les deux :
 

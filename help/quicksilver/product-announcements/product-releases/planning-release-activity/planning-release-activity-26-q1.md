@@ -10,10 +10,14 @@ exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/80G4RZ-rbOgyvGFh-ehxD0SQEOI63PC39WYwadazA2o
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1944
@@ -77,7 +81,7 @@ Tenez compte des points suivants lors de la création de hiérarchies :
 * Les types d&#39;enregistrements connectables ne peuvent pas être utilisés dans les hiérarchies des espaces de travail autres que les leurs.
 * Les types d’enregistrements globaux ne peuvent être utilisés dans les hiérarchies que dans les espaces de travail dans lesquels ils ont été créés ou auxquels ils ont été ajoutés.
 
-Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Nouveaux chemins de navigation unifiés ajoutés aux pages des enregistrements
 
@@ -91,7 +95,7 @@ Les chemins de navigation des enregistrements reflètent leur place dans une hi�
 
 Par exemple, vous pouvez afficher la hiérarchie Planning d&#39;un projet lorsqu&#39;il est connecté à des types d&#39;enregistrements Planning dans son chemin de navigation Planning, et sa hiérarchie Workfront lorsqu&#39;il est connecté à des types d&#39;objets Workfront, tels que Portfolios ou Programmes, dans Workfront.
 
-Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 
 ## Améliorations apportées aux pages d’enregistrements connectés

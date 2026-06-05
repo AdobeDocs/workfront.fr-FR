@@ -8,8 +8,10 @@ exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 848
@@ -27,7 +29,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Consultez la [ vidéo de démonstration des améliorations des priorités ](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
+Consultez la [&#x200B; vidéo de démonstration des améliorations des priorités &#x200B;](#priorities-enhancements-demo-video) ci-dessous pour une démonstration complète des fonctionnalités incluses dans cette présentation.
 
 ## Utiliser des filtres intelligents pour rechercher votre travail dans les priorités
 
@@ -43,7 +45,7 @@ Utilisez le langage naturel pour filtrer rapidement le travail dans la liste de 
 
 Disponible uniquement pour les instances compatibles avec IMS.
 
-Pour plus d’informations, voir [ Filtrer, regrouper et trier votre travail avec les priorités ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d’informations, voir [&#x200B; Filtrer, regrouper et trier votre travail avec les priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Rattraper du travail dans Priorités
 
@@ -82,7 +84,7 @@ Vous pouvez désormais interagir avec des documents et des BAT pour les tâches 
 * Lancer la visionneuse de relecture
 * Et plus encore
 
-Pour plus d’informations, voir [ Charger des documents et créer des épreuves dans Priorités ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
+Pour plus d’informations, voir [&#x200B; Charger des documents et créer des épreuves dans Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## La vue Calendrier est désormais disponible dans Priorités
 
@@ -97,7 +99,7 @@ Vous pouvez désormais suivre votre travail à l’aide d’un calendrier visuel
 * Appliquer des couleurs pour une organisation rapide
 * Et plus encore
 
-Pour plus d’informations, voir [ Gérer votre travail dans le calendrier Priorités ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
+Pour plus d’informations, voir [&#x200B; Gérer votre travail dans le calendrier Priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Mises à jour de la liste de travail des priorités
 
@@ -123,7 +125,7 @@ Vous pouvez maintenant
 * Trier les éléments dans les regroupements
 * Glisser-déposer des éléments lors du regroupement par Ma priorité ou Statut
 
-Pour plus d’informations, voir [ Filtrer, regrouper et trier votre travail avec les priorités ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Pour plus d’informations, voir [&#x200B; Filtrer, regrouper et trier votre travail avec les priorités &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Supprimés
 
@@ -152,7 +154,7 @@ Nous avons mis à jour les options de la colonne Mon focus pour vous aider à hi
 * Normal
 * Faible
 
-Cette modification facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d’informations, voir [ Hiérarchiser les éléments de travail importants ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Cette modification facilite l’affichage et l’organisation du travail en fonction de l’urgence. Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ## Afficher les détails du projet dans Priorités
 
