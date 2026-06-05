@@ -1,30 +1,35 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Activité Version 2018.3, version bêta 1
-description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.3, version bêta 1. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations apportées à la relecture par la version bêta 1 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
+title: Activité de la version 2018.3 Beta 1
+description: Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 1. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er août 2018. Les améliorations apportées à la relecture par la version Beta 1 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: 552
 ht-degree: 100%
 
 ---
 
-# Activité Version 2018.3, version bêta 1
+# Activité de la version 2018.3 Beta 1
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation avec la version 2018.3, version bêta 1.La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er juin 2018.Les améliorations apportées à la relecture par la version bêta 1 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.3 Beta 1. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er juin 2018. Les améliorations apportées à la relecture par la version Beta 1 seront disponibles dans l’environnement de prévisualisation le mercredi 18 juillet. Cela sera disponible dans l’environnement de production en novembre 2018.
 
 >[!NOTE]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour une liste de tous les changements apportés à la version 2018.3, voir [Vue d’ensemble de l’activité de version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-La version 2018.3, version bêta 1 contient les améliorations suivantes :
+La version 2018.3 Beta 1 contient les améliorations suivantes :
 
 * [Accéder aux demandes d’équipe dans Accueil](#access-team-requests-in-home)
 * [Afficher les informations sur la tâche dans le graphique de Gantt de la liste des projets](#view-task-information-in-the-project-list-gantt-chart)
@@ -41,7 +46,7 @@ Pour plus d’informations, voir [Gérer les demandes de travail et d’équipe 
 
 ## Afficher les informations sur la tâche dans le graphique de Gantt de la liste des projets {#view-task-information-in-the-project-list-gantt-chart}
 
-Vous pouvez désormais afficher les informations sur les tâches d’un projet dans le graphique de Gantt de liste des projets. 
+Vous pouvez désormais afficher les informations sur les tâches d’un projet dans le graphique de Gantt de liste des projets. 
 
 Auparavant, vous ne pouviez afficher les informations sur les tâches que dans le graphique de Gantt de la liste des tâches ou dans un projet.
 
@@ -60,7 +65,7 @@ Pour plus d’informations sur l’export du planificateur de ressources, voir [
 
 ## Accéder à plusieurs épreuves directement à partir de la visionneuse de relecture (Workfront Proof) {#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof}
 
-Dans Workfront Proof, lorsque vous stockez plusieurs épreuves dans le même dossier, les utilisateurs et utilisatrices ayant accès à ces épreuves peuvent les vérifier et les comparer sans quitter la visionneuse de relecture. 
+Dans Workfront Proof, lorsque vous stockez plusieurs épreuves dans le même dossier, les utilisateurs et utilisatrices ayant accès à ces épreuves peuvent les vérifier et les comparer sans quitter la visionneuse de relecture. 
 
 Si le dossier contient un grand nombre d’épreuves, vous pouvez utiliser la zone de recherche située en haut du dossier ouvert pour trouver rapidement l’épreuve souhaitée.
 

@@ -6,12 +6,22 @@ description: Vous pouvez généraliser un rapport en utilisant des caractères g
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/K-RMciF-ISBvI2TgMU-alCJ2-nmIRSRZEuIhj-WTyrs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 92%
+source-wordcount: 644
+ht-degree: 86%
 
 ---
 
@@ -23,7 +33,7 @@ Vous pouvez généraliser un rapport en utilisant des caractères génériques a
 
 Par exemple, si vous souhaitez créer un rapport qui affiche les tâches disposant d’une date de début prévue spécifique, vous pouvez utiliser le calendrier de sélection de date dans un filtre pour sélectionner une date spécifique. Cependant, si vous souhaitez créer un rapport qui affiche les tâches dont la date de début prévue est située dans une certaine période à compter de la date d’accès au rapport, vous pouvez utiliser un caractère générique indiquant que lorsqu’une personne consulte le rapport, celui-ci affiche des informations sur une période dépendant du moment de la consultation du rapport.
 
-Par exemple, la semaine dernière, l’année passée, les deux prochaines semaines, etc. Ainsi, vous créez le rapport une seule fois, mais comme vous utilisez un caractère générique dans le filtre, il produit des résultats différents chaque fois qu’une personne le consulte, car il s’adapte en fonction du jour où celle-ci exécute le rapport.
+Par exemple, au cours de la semaine écoulée, de l’année écoulée, des deux prochaines semaines, etc. Ainsi, vous créez le rapport une seule fois, mais comme vous utilisez un caractère générique dans le filtre, il produit des résultats différents chaque fois que quelqu’un le lit, car il s’adapte au jour d’exécution du rapport.
 
 Vous pouvez utiliser des caractères génériques basés sur des dates lors de la création des éléments de rapport suivants :
 
@@ -52,7 +62,7 @@ Vous pouvez utiliser des caractères génériques basés sur des dates lors de l
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, tableaux de bord et calendriers pour modifier les éléments de rapport dans un rapport</p>
+   <td> <p>Modifier l’accès aux filtres, vues et groupes</p> <p>Modifier l’accès aux rapports, aux tableaux de bord et aux calendriers pour la modification des éléments de rapport dans un rapport</p>
    </td> 
   </tr> 
   <tr> 

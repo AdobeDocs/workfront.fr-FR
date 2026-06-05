@@ -7,11 +7,19 @@ description: Exemples de requêtes que vous pouvez utiliser pour vous familiaris
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: 921
 ht-degree: 1%
 
 ---
@@ -163,7 +171,7 @@ La requête ci-dessus renvoie les données suivantes :
 
 ### Explication
 
-La requête utilise les fonctionnalités de suivi des événements de modification de Data Connect.  Il détermine la date de déclenchement d’un événement dont la nouvelle valeur de statut était différente de celle de l’événement précédent. 
+La requête utilise les fonctionnalités de suivi des événements de modification de Data Connect. Elle détermine la date de déclenchement d&#39;un événement dont la nouvelle valeur de statut était différente de celle de l&#39;événement précédent. 
 
 Examiner la requête de l’intérieur vers l’extérieur : 
 
@@ -172,7 +180,7 @@ Examiner la requête de l’intérieur vers l’extérieur : 
 
 2. Filtrez uniquement les enregistrements qui ont été modifiés : 
 
-   * Sélectionnez les enregistrements du calcul de l’étape 1 où le statut précédent != statut actuel. 
+   * Sélectionnez les enregistrements du calcul de l’étape 1 où le statut précédent != le statut actuel. 
 
 3. Calculer la date et l’heure effectives de début et de fin en jours : 
 
@@ -183,11 +191,9 @@ Examiner la requête de l’intérieur vers l’extérieur : 
 
 >[!NOTE]
 >
->Il est recommandé d&#39;utiliser cette requête comme sa propre « Vue » dans PowerBI ou Tableau.  Si vous souhaitez importer d’autres champs du `<object>_event view`, rejoignez la sortie de cette requête sur le `<object>_event view` .  Les champs de jointure seraient les suivants : <br>
+>Il est recommandé d&#39;utiliser cette requête comme sa propre « Vue » dans PowerBI ou Tableau. Si vous souhaitez importer d&#39;autres champs du `<object>_event view`, rejoignez la sortie de cette requête dans le `<object>_event view`. Les champs de jointure seraient les suivants : <br>
 >Pour projects_event : 
->`From projects_event p`
->`Join <above query> c on c.projectid = p.projectid  `
->`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

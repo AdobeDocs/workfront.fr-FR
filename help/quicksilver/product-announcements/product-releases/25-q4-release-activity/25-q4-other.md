@@ -5,10 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 24%
+source-wordcount: 492
+ht-degree: 30%
 
 ---
 
@@ -24,8 +31,7 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >
 >* Aperçu : 13 octobre 2025
 >* Version rapide de production : 13 octobre 2025
->* Version de production pour toute la clientèle : mardi 13 octobre 2025
->[!BADGE Hors programme &#x200B;]{type=Neutral}
+>* Production pour tous les clients : 13 octobre 2025>[!BADGE heure de désactivation]{type=Neutral}
 
 L&#39;onglet Résumé d&#39;un rapport a été mis à jour avec les améliorations suivantes :
 
@@ -54,10 +60,10 @@ L&#39;onglet Résumé d&#39;un rapport a été mis à jour avec les amélioratio
 >
 >| Version préliminaire | Version de production |
 >|---|---|
->| 30 septembre 2025 | 16 octobre 2025 (avec la version 25.10) |
+>| 19 septembre 2023 | 16 octobre 2025 (avec la version 25.10) |
 >| vendredi 11 décembre 2025 | 15 janvier 2026 (avec la version 26.1) |
 
-Pour permettre aux entreprises d’accéder aux avantages de l’expérience unifiée Adobe, nous continuons à la rendre disponible pour les clients Workfront existants.
+Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants.
 
 Adobe Unified Experience comprend :
 
@@ -65,11 +71,11 @@ Adobe Unified Experience comprend :
 * Un sélecteur d’organisation à déplacer entre les organisations et les environnements Workfront.
 * Une navigation avec options pour les pages Workfront, les préférences Adobe Experience Cloud et votre profil Workfront.
 
-Votre administrateur Workfront recevra un message du Centre d’annonces concernant la date à laquelle votre organisation passera à l’expérience unifiée Adobe.
+Votre administration Workfront recevra un message du Centre d’annonces concernant la date à laquelle votre organisation passera à l’expérience unifiée Adobe.
 
 Pour plus d’informations, voir [Adobe Unified Experience pour Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Regardez une vidéo de démonstration de cette fonctionnalité.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Mises à jour des listes améliorées
 

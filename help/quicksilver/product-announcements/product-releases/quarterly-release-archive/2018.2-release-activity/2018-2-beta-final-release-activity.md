@@ -7,10 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: 809
+ht-degree: 97%
 
 ---
 
@@ -20,7 +32,7 @@ Cette page décrit toutes les modifications récentes disponibles dans l’envir
 
 >[!IMPORTANT]
 >
-> Les fonctionnalités décrites sur cette page peuvent être modifiées avant leur disponibilité dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -54,7 +66,7 @@ Pour plus d’informations, voir [Modifier vos propres notifications par e-mail]
 
 >[!NOTE]
 >
->Lorsque cette fonctionnalité a été initialement publiée, les utilisateurs et les utilisatrices recevaient une notification in-app en plus d’une notification par e-mail. Vous ne recevez plus de notification in-app lorsqu’une personne commente un document que vous détenez. 
+>Lorsque cette fonctionnalité a été publiée à l’origine, les utilisateurs recevaient une notification in-app en plus d’une notification par e-mail. Vous ne recevez plus de notification in-app lorsqu’une personne commente un document que vous possédez. 
 
 ## Les mises à jour suivies par le système ne contiennent plus d’icône. {#system-tracked-updates-no-longer-contain-an-icon}
 

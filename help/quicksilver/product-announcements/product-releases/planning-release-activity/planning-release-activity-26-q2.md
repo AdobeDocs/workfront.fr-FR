@@ -7,11 +7,16 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3988b9f7ce6f0de0a1864cd3a81fc7b8f15cd90f
+TQID: https://experienceleague.adobe.com/-YeUwYEIFG4Uj80hXLy6hXGqJVYfQMeW2DrNlS6zjRs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: 1933
 ht-degree: 3%
 
 ---
@@ -29,7 +34,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 16 avril 2026>Version rapide de production : 16 avril 2026>Production pour tous : 16 avril 2026>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 16 avril 2026>Mise à jour rapide de la production : 16 avril 2026>Production pour tous : 16 avril 2026>[!BADGE Horaire réduit]{type=Neutral}
 
 Vous pouvez désormais accéder à Experience Manager Content Advisor dans Workfront Planning. Le gestionnaire d’accès vous permet d’effectuer les opérations suivantes :
 
@@ -350,7 +355,7 @@ L’e-mail d’un utilisateur s’affiche désormais lorsque vous l’ajoutez au
 * Dans la zone Partager lors du partage d&#39;objets Planning
 
 Avant cette amélioration, seul le rôle de Principal de l’utilisateur s’affichait en plus du nom de l’utilisateur lors de son ajout à ces zones.
-Pour plus d’informations, consultez les articles suivants :
+Pour plus d’informations, consultez les articles suivants :
 
 * [Créer des champs](/help/quicksilver/planning/fields/create-fields.md)
 * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)

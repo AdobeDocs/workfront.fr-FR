@@ -5,12 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 12%
+source-wordcount: 848
+ht-degree: 9%
 
 ---
 
@@ -155,7 +160,7 @@ Cette modification facilite l’affichage et l’organisation du travail en fonc
 
 >[!NOTE]
 >
->Version de prévisualisation : jeudi 6 novembre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 6 novembre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Vous pouvez désormais afficher les détails et les commentaires du projet à partir de la liste de travail dans Priorités.
 

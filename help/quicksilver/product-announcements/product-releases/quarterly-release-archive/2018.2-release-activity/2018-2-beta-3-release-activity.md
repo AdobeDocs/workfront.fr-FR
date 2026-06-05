@@ -7,20 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 95%
+source-wordcount: 482
+ht-degree: 92%
 
 ---
 
 # Activité de la version 2018.2 Beta 3
 
-Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 3.Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 19 avril 2018. Elle sera disponible dans l’environnement de production en juin 2018.
+Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 3. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 19 avril 2018. Elle sera disponible dans l’environnement de production en juin 2018.
 
 >[!IMPORTANT]
 >
->Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
+> Les fonctionnalités décrites sur cette page peuvent être modifiées avant d’être disponibles dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications apportées à la version 2018.2, voir [Vue d’ensemble de l’activité Version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
@@ -47,7 +56,7 @@ Les indicateurs fournissent une indication visuelle du moment où une histoire e
 
 Pour plus d’informations sur l’utilisation des indicateurs dans le tableau Kanban, consultez la section « Utiliser des indicateurs dans les histoires » dans l’article .
 
-Pour plus d’informations sur l’inclusion d’indicateurs dans les rapports de tâches, consultez la section [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Pour plus d’informations sur l’inclusion d’indicateurs dans les rapports de tâches, consultez la section [Glossaire de la terminologie Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
 ## Modifier directement les champs d’une carte d’histoire Agile {#edit-fields-directly-on-an-agile-story-card}
 
@@ -62,7 +71,7 @@ Pour plus d’informations, consultez les sections suivantes :
 
 ## Améliorer la pertinence de la recherche pour les mots multiples {#improved-search-relevancy-for-multiple-words}
 
-La manière dont les recherches sont effectuées lors de l’utilisation de plusieurs mots-clés a été modifiée. Avec la nouvelle mise à jour, la recherche de plusieurs mots trouve désormais les éléments contenant tous les mots que vous spécifiez. Si vous souhaitez rechercher l’un des mots-clés, vous devez insérer « OR » (sans guillemets) entre les termes de recherche. 
+Nous avons introduit un changement dans la façon dont les recherches sont effectuées lorsque vous utilisez plusieurs mots-clés. Avec la nouvelle mise à jour, lors de la recherche de plusieurs mots, la recherche trouve les éléments qui contiennent tous les mots que vous spécifiez. Si vous souhaitez rechercher l&#39;un des mots dans les mots-clés, vous devez insérer « OR » (sans guillemets) entre les termes de recherche. 
 
 Avant cette modification, rechercher plusieurs mots à la fois permettait de trouver des éléments contenant l’un ou l’autre des mots de la phrase. 
 

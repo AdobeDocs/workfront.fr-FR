@@ -6,10 +6,28 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Ncl4u9f8zfI-DC671HutyHlrb0MAb0djOoUiYe90Vf8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2462'
-ht-degree: 99%
+source-wordcount: 2558
+ht-degree: 98%
 
 ---
 
@@ -116,14 +134,14 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous 
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Dates de sortie</span>
+                        <p><span class="bold">Dates de publication</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Planification Scrum pour les panoramas Workfront</a><span style="color: #ff0000;"> Prochainement</span></p>
-                        <p>Les nouvelles fonctionnalités de planification Scrum des tableaux Adobe Workfront offrent des options flexibles pour gérer vos processus Agile. Grâce à ces outils, vous pouvez effectuer les opérations suivantes :
+                        <p>Les nouvelles fonctionnalités de planification Scrum des tableaux Adobe Workfront offrent des options flexibles pour gérer vos processus Agile. À l’aide de ces outils, vous pouvez :
                         <ul>
                         <li>Suivre le travail dans les itérations ou les sprints</li>
                         <li>Utiliser la vitesse pour guider les engagements de l’équipe</li>
@@ -398,7 +416,7 @@ Le webinaire de la version 23.1 s’est tenu le mardi 10 janvier 2023. Vous 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle fonctionnalité de contrôle de liste dans les pages Filtres, Vues et Regroupements de la zone Configuration.</a></p>
-                        <p>Nous avons ajouté la fonctionnalité de contrôle de liste aux pages Filtres, Vues et Regroupements de la zone Configuration. Vous pouvez y activer ou désactiver des filtres, des vues et des regroupements pour le modèle de mise en page.
+                        <p>Nous avons ajouté une fonctionnalité de contrôle de liste aux pages Filtres, Vues et Regroupements de la zone Configuration. Vous pouvez y activer ou désactiver les filtres, les vues et les regroupements pour le modèle de mise en page.
 </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -519,7 +537,7 @@ Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouve
 
 Pour plus d’informations sur les versions de l’API, voir [Calendrier des versions de l’API et de la prise en charge](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Mises à jour de maintenance pour Workfront 
+### Mises à jour de maintenance pour Workfront
 
 Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version 22.3, consultez [Mises à jour de maintenance Workfront](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/releases/current-updates).
 

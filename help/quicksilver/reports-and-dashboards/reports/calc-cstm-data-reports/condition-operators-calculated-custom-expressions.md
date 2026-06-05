@@ -7,11 +7,22 @@ description: Vous pouvez utiliser des opérateurs ou des modificateurs de condit
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/EFPOvBUiZ8UCCwXvIbVI7Q1GTJSxMueFvHSKgqtr0YI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 731
 ht-degree: 98%
 
 ---
@@ -88,7 +99,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans Workfront :
    <td> <p>Ajoutez cet opérateur devant l’un des opérateurs ci-dessus pour annuler l’opérateur. </p> <p>Par exemple : </p> 
     <ul> 
      <li>Est égal à : = </li> 
-     <li>Est différent de : != </li> 
+     <li>Est différent de : != </li> 
     </ul> <p>L’ajout de cet opérateur devant les expressions de données suivantes ajoute une instruction négative aux expressions : </p> 
     <ul> 
      <li>CONTIENT </li> 
@@ -103,7 +114,7 @@ Vous pouvez utiliser les modificateurs de condition suivants dans Workfront :
    <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve la première ou la seconde valeur de votre instruction. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction « IF » qui marque les projets dont les statuts Actuel ou Planification sont « Actif » : </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
-   <td>Et </td> 
+   <td> Et </td> 
    <td>&amp;&amp; </td> 
    <td> <p>Utilisez cet opérateur pour indiquer que la condition est remplie lorsque l’expression trouve un élément qui répond simultanément à deux conditions. </p> <p>Par exemple, utilisez l’instruction suivante dans un champ personnalisé calculé pour créer une instruction « IF » qui recherche les projets qui sont au statut Actuel et qui ont un statut En danger et les marque comme « médiation nécessaire ». </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 

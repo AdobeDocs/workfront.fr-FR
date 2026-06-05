@@ -7,12 +7,21 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/80G4RZ-rbOgyvGFh-ehxD0SQEOI63PC39WYwadazA2o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 15%
+source-wordcount: 1944
+ht-degree: 7%
 
 ---
 
@@ -29,7 +38,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 15 janvier 2026>Version rapide pour la production : 15 janvier 2026>Production pour tous : 15 janvier 2026>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 15 janvier 2026>Mise à jour rapide de la production : 15 janvier 2026>Production pour tous : 15 janvier 2026>[!BADGE Horaire réduit]{type=Neutral}
 
 Vous pouvez désormais partager les types d’enregistrements globaux que vous avez ajoutés à un espace de travail secondaire à partir de cet espace de travail. Les utilisateurs recevront également les mêmes autorisations pour tous les enregistrements de l’espace de travail secondaire que vous partagez.
 
@@ -46,7 +55,7 @@ Pour plus d’informations, voir [Présentation du type d’enregistrement de l�
 
 >[!NOTE]
 >
->Aperçu : 15 janvier 2026>Version rapide pour la production : 15 janvier 2026>Production pour tous : 15 janvier 2026>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 15 janvier 2026>Mise à jour rapide de la production : 15 janvier 2026>Production pour tous : 15 janvier 2026>[!BADGE Horaire réduit]{type=Neutral}
 
 Les enregistrements ajoutés à un type d&#39;enregistrement global dans un espace de travail secondaire sont visibles uniquement à partir de cet espace de travail ou de l&#39;espace de travail principal d&#39;origine du type d&#39;enregistrement. Avant cette mise à jour, les enregistrements ajoutés à un espace de travail secondaire étaient également visibles à partir d’autres espaces de travail secondaires que vous pouviez avoir l’autorisation d’afficher.
 
@@ -56,7 +65,7 @@ Pour plus d’informations, voir [Présentation du type d’enregistrement de l�
 
 >[!NOTE]
 >
->Aperçu : 23 décembre 2025>Version rapide pour la production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Aperçu : 23 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
 
 Vous pouvez désormais définir des hiérarchies flexibles mais structurées entre les types d’enregistrement ou d’objet.
 
@@ -78,7 +87,7 @@ Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du
 
 >[!NOTE]
 >
->Aperçu : 23 décembre 2025>Version rapide pour la production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Aperçu : 23 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
 
 Lorsque vous créez des hiérarchies entre les types d&#39;enregistrements, elles génèrent des chemins de navigation pour les enregistrements appartenant à ces types d&#39;enregistrements.
 
@@ -93,7 +102,7 @@ Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du
 
 >[!NOTE]
 >
->Aperçu : 19 décembre 2025>Production rapide : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Aperçu : 19 décembre 2025>Production rapide : 14 janvier 2026>Production pour tous : 15 janvier 2026
 
 Pour plus de flexibilité lors de l’utilisation de pages d’enregistrements connectées, nous avons amélioré la fonctionnalité des vues dans cette zone de la planification Workfront. Les améliorations suivantes ont été apportées aux pages d’enregistrements connectés d’un enregistrement :
 
@@ -108,7 +117,7 @@ Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à
 
 >[!NOTE]
 >
->Prévisualisation : 18 décembre 2025>Version rapide pour la production : 14 janvier 2026\
+>Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour vous assurer plus facilement de voir les informations dont vous avez besoin, nous avons ajouté la possibilité de partager des vues sur la page Enregistrements connectés aux projets . Vous pouvez désormais partager des vues avec d’autres utilisateurs et utilisatrices, équipes ou groupes.
@@ -119,7 +128,7 @@ Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à
 
 >[!NOTE]
 >
->Prévisualisation : 18 décembre 2025>Version rapide pour la production : 14 janvier 2026\
+>Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour faciliter le filtrage des connexions de projet qui vous concernent, nous avons créé un caractère générique d&#39;utilisateur actuel. Désormais, lors du filtrage, vous pouvez sélectionner « Moi (utilisateur connecté) ». Le filtre s’applique alors à l’utilisateur ou l’utilisatrice qui consulte la liste des requêtes.
@@ -139,7 +148,7 @@ Pour plus d&#39;informations sur la configuration des vues de connexion au proje
 
 >[!NOTE]
 >
->Prévisualisation : 18 décembre 2025>Production rapide : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Aperçu : 18 décembre 2025>Production rapide : 14 janvier 2026>Production pour tous : 15 janvier 2026
 
 Les améliorations suivantes ont été apportées à la page principale Espaces de travail dans la planification Workfront :
 
@@ -156,7 +165,7 @@ Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksi
 
 >[!NOTE]
 >
->Prévisualisation : 11 décembre 2025>Version rapide de production : 11 décembre 2025>Production pour tous : 11 décembre 2025>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 11 décembre 2025>Mise à jour rapide de la production : 11 décembre 2025>Production pour tous : 11 décembre 2025>[!BADGE Hors délais]{type=Neutral}
 
 Le champ de connexion avec la marque GenStudio for Performance Marketing est désormais ajouté par défaut aux types d’enregistrements Produits et Personnes dans l’espace de travail GenStudio de Workfront Planning.
 
@@ -170,7 +179,7 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 
 >[!NOTE]
 >
->Prévisualisation : 11 décembre 2025>Version rapide de production : 11 décembre 2025>Production pour tous : 11 décembre 2025>[!BADGE Hors planning]{type=Neutral}
+>Aperçu : 11 décembre 2025>Mise à jour rapide de la production : 11 décembre 2025>Production pour tous : 11 décembre 2025>[!BADGE Hors délais]{type=Neutral}
 
 Nous avons ajouté un mécanisme de sécurisation qui vous empêche de supprimer les autorisations des utilisateurs de GenStudio for Performance Marketing des objets Workfront Planning. Grâce à cette amélioration, vous ne pouvez plus supprimer les utilisateurs de GenStudio de l’espace de travail GenStudio dans Planning. Vous ne pouvez pas non plus désactiver les autorisations héritées pour les types d’enregistrements dans l’espace de travail GenStudio, si ces autorisations incluent les utilisateurs de GenStudio. Avant cette amélioration, lorsque vous supprimiez ces utilisateurs de l’espace de travail GenStudio dans Planning, ils perdaient également les autorisations pour les types d’enregistrements dans GenStudio.
 
@@ -184,7 +193,7 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 
 >[!NOTE]
 >
->Aperçu : 3 décembre 2025>Version rapide de production : 4 décembre 2025>Production pour tous : 15 janvier 2026
+>Aperçu : 3 décembre 2025>Version rapide de production : 4 décembre 2025>Production pour tous : 15 janvier 2026
 
 
 Nous avons supprimé l&#39;onglet Partage public lors du partage d&#39;une vue pour un enregistrement global dans un espace de travail secondaire. Vous ne pouvez pas partager publiquement une vue à partir d’un type d’enregistrement global ajouté à un autre espace de travail à partir d’un type d’enregistrement global existant. Vous pouvez partager publiquement une vue de type enregistrement global à partir de son espace de travail d’origine.
@@ -196,7 +205,7 @@ Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/
 
 >[!NOTE]
 >
->Prévisualisation : 13 novembre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 13 novembre 2025
+>Aperçu : 13 novembre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 13 novembre 2025
 
 Vous pouvez désormais connecter les types d’enregistrements Workfront Planning aux marques à partir d’Adobe GenStudio for Performance Marketing. Votre organisation doit disposer de Workfront Planning et d’Adobe GenStudio for Performance Marketing.
 
@@ -207,7 +216,7 @@ Pour plus d’informations, voir [Connecter les types d’enregistrements](/help
 
 >[!NOTE]
 >
->Prévisualisation : 6 novembre 2025>Version rapide de production : 11 décembre 2025>Production pour tous : 15 janvier 2026
+>Aperçu : 6 novembre 2025>Version rapide de production : 11 décembre 2025>Production pour tous : 15 janvier 2026
 
 Vous pouvez désormais rechercher un champ spécifique lors de la création d’un élément de vue dans une vue de type enregistrement. Nous avons ajouté des zones de recherche lorsque vous créez un filtre, un tri, un regroupement ou lorsque vous configurez vos champs ou les couleurs des lignes. Avant cette amélioration, il vous suffisait de faire défiler la liste des champs disponibles.
 
@@ -220,7 +229,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 
 >[!NOTE]
 >
->Aperçu : 16 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Aperçu : 16 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
 
 Lors de l’implémentation de Workfront Planning pour une organisation multi-équipes avec des workflows communs, vous devrez peut-être définir une structure et des métadonnées cohérentes pour les types d’enregistrements clés (tels que les campagnes ou les éléments livrables) qui peuvent être ajoutés aux espaces de travail de chaque équipe pour capturer et gérer leur travail.
 
@@ -242,7 +251,7 @@ Pour plus d’informations, consultez les articles suivants :
 
 >[!NOTE]
 >
->Aperçu : 16 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Aperçu : 16 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
 
 Nous avons introduit une limite de 30 champs de connexion pour chaque type d’enregistrement.
 
@@ -254,7 +263,7 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements co
 
 >[!NOTE]
 >
->Aperçu : 16 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Aperçu : 16 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
 
 Lors de l’ajout de choix de champs à un champ à sélection unique ou multiple, Workfront attribue désormais des valeurs conviviales uniques à chaque choix. Avant cette amélioration, Workfront générait un identifiant alphanumérique difficile à comprendre et à utiliser dans les appels d’API et d’autres intégrations.
 
