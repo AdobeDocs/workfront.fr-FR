@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1588'
 ht-degree: 20%
 
 ---
@@ -205,6 +205,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Modifications apportées aux heures réelles dans les formules personnalisées</a> <p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Les formules personnalisées existantes utilisant <b>realWorkRequired</b> (heures effectives héritées) ont été migrées afin d’utiliser <b>realWorkRequiredDouble</b> (heures effectives) à la place. <b>realWorkRequired</b> ne peut plus être utilisé dans les calculs et les formules.</p>
+            </td>
+            <td><p>1er juin 2026</p></td>
+            <td><p>1er juin 2026</p></td>
+            <td><p>1er juin 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Champs de données de devise personnalisés dans les rapports Tableau de bord Zone de travail</a>

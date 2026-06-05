@@ -4,10 +4,10 @@ description: Améliorations des rapports du troisième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 4%
 Cette page décrit les améliorations apportées aux rapports avec la version du troisième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Modifications apportées aux heures effectives dans les formules personnalisées
+
+>[!NOTE]
+>
+>Aperçu : 1er juin 2026>Version rapide de production : 1er juin 2026>Production pour tous : 1er juin 2026
+
+En 2025, un nouveau champ Heures effectives a été ajouté à la base de données Workfront en tant que `actualWorkRequiredDouble` et le champ Heures effectives existant (`actualWorkRequired` dans la base de données) a été renommé Heures effectives héritées. Voir la [note de mise à jour](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) pour plus d’informations.
+
+En juin 2026, les formules personnalisées existantes utilisant `actualWorkRequired` (heures effectives héritées) ont été migrées pour utiliser `actualWorkRequiredDouble` (heures effectives) à la place. `actualWorkRequired` ne peut plus être utilisé dans les calculs et les formules.
+
+En outre, il est vivement recommandé d’utiliser `actualWorkRequiredDouble` dans tous les rapports.
+
+Lors du remplacement du champ, notez que `actualWorkRequired` stocke les valeurs en minutes, tandis que `actualWorkRequiredDouble` stocke les valeurs en heures avec une précision décimale.
+
+Pour plus d&#39;informations sur les heures réelles, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Champs de données de devise personnalisés dans les rapports du tableau de bord de la zone de travail
 
