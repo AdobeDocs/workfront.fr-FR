@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
-ht-degree: 28%
+source-wordcount: 3129
+ht-degree: 24%
 
 ---
 
@@ -212,7 +212,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    >
    >  Vous ne pouvez pas modifier les informations des champs suivants, car ils sont en lecture seule et Workfront les met automatiquement à jour :
    >  
-   >  * Champs liés créés par la connexion des types d’enregistrements. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Champs de recherche de connexion créés en connectant des types d’enregistrements et en ajoutant des champs de recherche. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification et Formule
 
 1. (Facultatif et la cas échéant) Lorsque vous modifiez un champ de type Paragraphe, utilisez les options de mise en forme de **Texte enrichi** suivantes :
@@ -229,22 +229,24 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 1. (facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. Appuyez sur **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. Un indicateur **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue Tableau pour indiquer que les modifications ont été enregistrées.
 
-
 1. (Facultatif) Pour copier et coller des informations d’un champ vers un autre, effectuez l’une des opérations suivantes :
 
    * Copiez une ou plusieurs valeurs existantes d&#39;un champ, puis collez-les dans un champ du même type sur un autre enregistrement
    * Cliquez sur l’en-tête de colonne d’une colonne pour la sélectionner et la copier, puis cliquez sur l’en-tête de colonne d’une autre colonne et collez le contenu de la colonne copiée. Les colonnes doivent contenir des types de champ similaires.
-   * Lorsque vous appuyez sur la touche Maj, cliquez pour sélectionner plusieurs lignes d’un tableau, copiez les informations des lignes sélectionnées, puis cliquez sur une autre ligne et collez les informations sélectionnées dans la nouvelle ligne, puis sur les lignes suivantes.
+   * Lorsque la touche Maj est enfoncée, cliquez pour sélectionner plusieurs lignes d&#39;un tableau, copiez les informations dans les lignes sélectionnées, puis cliquez sur une autre ligne et collez les informations sélectionnées dans la nouvelle ligne et dans les lignes suivantes par la suite. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * Copiez les informations d’une cellule, puis sélectionnez plusieurs cellules et collez les mêmes informations dans plusieurs cellules. Vous pouvez sélectionner plusieurs cellules et coller les mêmes informations dans plusieurs cellules à partir de lignes et de colonnes adjacentes.
    * Sélectionnez le coin inférieur droit d’une cellule existante contenant les informations à copier, puis faites-la glisser sur les cellules adjacentes où vous souhaitez coller les mêmes informations. Toutes les cellules doivent contenir le même type d’informations.
 
      ![Coin inférieur droit glissable pour le copier-coller en mode Tableau](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * Copiez une ou plusieurs cellules d’une source externe (par exemple, un fichier Excel), puis collez-les dans l’un des types de champs suivants :
 
-      * Champs de connexion Workfront Planning.
+      * Champs de connexion Workfront Planning.\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * Champs Personnes. Seuls les champs comportant une seule valeur sont pris en charge.
+      * Champs de texte.
+      * Sélectionnez des champs.
+      * Champs numériques, de pourcentage et monétaires.
 
      Vous ne pouvez pas copier d’informations provenant d’une source externe et les coller dans d’autres types de champs, y compris les champs de connexion de Workfront ou d’autres applications.
 
@@ -256,11 +258,12 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    >   * Copier : Ctrl + C (⌘ + C pour Mac)
    >   * Coller : Ctrl + V (⌘ + V pour Mac)
    >
-   >* Vous ne pouvez pas copier et coller des valeurs de champ dans la page d’enregistrement. Cette fonctionnalité n’est prise en charge que dans la vue de tableau d’un type d’enregistrement.
+   >* Vous ne pouvez pas copier et coller des valeurs de champ dans la page des détails de l’enregistrement. Cette fonctionnalité n’est prise en charge que dans la vue de tableau d’un type d’enregistrement.
    >* Vous ne pouvez pas copier et coller les valeurs des champs suivants :
    >
    >    * Champs de recherche créés lors de la connexion de types d’enregistrements. Vous pouvez copier et coller des champs d’enregistrement liés. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification
+   >* Lorsque vous copiez et collez des champs de connexion ou sélectionnez des valeurs de champ, les valeurs que vous copiez doivent d&#39;abord exister dans Workfront Planning.
 
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la modification ou la copie et le collage des informations d’enregistrement :
 
@@ -269,9 +272,17 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    >[!TIP]
    >
-   >    Vous pouvez utiliser les raccourcis clavier plusieurs fois de suite pour annuler plusieurs modifications.
+   >Vous pouvez utiliser les raccourcis clavier plusieurs fois de suite pour annuler plusieurs modifications.
 
-1. (Facultatif) Ajoutez une miniature à un enregistrement. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement et choisissez l’une des options suivantes :
+
+   * **Afficher** <!--or <span class="preview"Open in new tab</span>--> : permet d’ouvrir la page d’enregistrement.
+   * **Copier le lien** : pour copier un lien vers la page de l’enregistrement.
+   * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.
+Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Dupliquer** : crée un doublon identique de l’enregistrement.
+   * **Insérer l’enregistrement ci-dessus/ Insérer l’enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Supprimer** : pour supprimer l’enregistrement. Les enregistrements supprimés sont enregistrés dans la zone Récemment supprimés pendant 30 jours au maximum.
 
 
 ### Modifier un enregistrement dans la vue chronologique d’un type d’enregistrement
