@@ -5,9 +5,9 @@ title: Utiliser le serveur MCP Adobe Workfront
 description: Utilisez le serveur Adobe Workfront MCP pour rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel dans une plateforme agentique d’IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Le serveur MCP [!DNL Adobe Workfront] vous permet de rechercher, créer, mettre 
 * Vous devez configurer la connexion entre votre plateforme IA agentic et le serveur Workfront MCP. Pour obtenir des instructions de configuration, voir [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 * Votre instance Workfront doit être activée sur le système Adobe Identity Management (IMS).
 * Vous devez disposer d’un compte Workfront avec le niveau d’accès et les autorisations d’objet nécessaires pour les éléments que vous souhaitez utiliser.
-
+* Pour utiliser MCP avec Workfront Planning, votre entreprise doit disposer d’un package Workfront incluant Adobe Workfront Planning.
 
 Cet article suppose que vous avez déjà configuré la connexion. Pour plus d’informations sur la configuration, voir [Configuration du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -101,6 +101,10 @@ Pour gérer les approbations de documents et de ressources, demandez :
 
 ### Utiliser les enregistrements Planning
 
+>[!IMPORTANT]
+>
+>* Pour utiliser MCP avec Workfront Planning, votre entreprise doit disposer d’un package Workfront incluant Adobe Workfront Planning.
+
 Pour gérer les enregistrements de planification, demandez :
 
 * *Créez un nouvel enregistrement de planification appelé « Plan marketing T2 » pour l’équipe Brand Marketing.*
@@ -163,7 +167,7 @@ Workfront n’a pas de contrôle sur la manière dont le fournisseur de platefor
 +++ Développez pour afficher les conseils de dépannage pour une utilisation quotidienne du serveur Workfront MCP.
 
 | Problème | Cause probable | Corriger |
-|---|---|---|
+| --- | --- | --- |
 | La plateforme IA agentic vous donne des informations dépassées. | La plateforme agentique d’IA réutilise les données des étapes précédentes de la conversation. | Demandez de nouvelles données à Workfront. |
 | La plateforme agentic d’IA a renvoyé des données provenant d’éléments Workfront incorrects. | La plateforme de l&#39;IA agentic a choisi les mauvais éléments en fonction d&#39;une formulation ambiguë. | Demandez à nouveau avec des noms, des identifiants ou des filtres plus spécifiques. |
 | Une mise à jour ou une suppression n’a pas pris effet dans Workfront. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront ou vous n’êtes pas autorisé à effectuer l’action sur l’élément spécifique. | Confirmez auprès de la plateforme d’agence IA que l’action a exécutée. Vérifiez ensuite que les actions d’écriture sont activées pour le serveur MCP Workfront et que vous êtes autorisé à modifier l’élément. |
