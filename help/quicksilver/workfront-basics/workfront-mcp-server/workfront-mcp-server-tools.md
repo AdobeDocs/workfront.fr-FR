@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1578'
 ht-degree: 9%
 
 ---
@@ -43,7 +43,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Documents
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rechercher la version du document par nom | `approvals_find_document_version_by_name` | Recherche l’ID de version actuelle d’un document par nom de fichier. Prend en charge les correspondances partielles. | Lire |
 | Obtenir le document par ID de version | `approvals_get_document_by_version_id` | Récupère les détails du document (nom, taille, date de chargement, chargeur) pour un ID de version de document connu. | Lire |
 | Obtenir des documents par projet | `approvals_get_documents_by_project` | Répertorie les documents au sein d’un projet Workfront, avec l’ID de version actuelle de chaque document. | Lire |
@@ -63,7 +63,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Workflows d’approbation
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir les informations sur le workflow d’approbation | `approvals_get_approval_info` | Retourne le workflow d&#39;approbation en cours (étapes, participants, statut) pour une version de document. | Lire |
 | Créer ou mettre à jour un workflow d’approbation | `approvals_create_or_update_approval_workflow` | Crée ou met à jour les étapes d&#39;un workflow d&#39;approbation pour une version de document. Prend en charge les dépendances d’étape linéaires et parallèles (graphique). | Write |
 | Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d&#39;approbation sur un document à partir d&#39;un modèle existant. | Write |
@@ -76,14 +76,14 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Rappels
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Envoyer un rappel aux participants | `approvals_send_reminder_to_participants` | Envoie des e-mails de rappel à des participants spécifiques à une étape d’approbation. Fonctionne uniquement pour les étapes commencées, non terminées et non verrouillées. | Write |
 | Envoyer un rappel aux participants indécis | `approvals_send_reminder_to_undecided` | Envoie des e-mails de rappel à tous les participants et participantes indécis (avertis, ouverts ou commentés) dans une étape d’approbation. | Write |
 
 ### Modèles d’approbation
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Liste des modèles d&#39;approbation | `approvals_list_templates` | Répertorie les modèles d’approbation disponibles dans cette instance Workfront. Prend en charge le filtrage par créateur, participant et le tri par utilisation. | Lire |
 | Rechercher un modèle par nom | `approvals_search_template_by_name` | Recherche les modèles de validation par nom (correspondance partielle non sensible à la casse). | Lire |
 | Créer un modèle d&#39;approbation | `approvals_create_template` | Crée un modèle d&#39;approbation avec des dépendances d&#39;étape linéaires ou basées sur des graphiques. | Write |
@@ -92,7 +92,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Recherches et utilisateurs
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir l’utilisateur actuel | `approvals_get_current_user` | Renvoie l’identité Workfront de l’utilisateur appelant, y compris le nom, l’ID utilisateur, le nom de l’équipe interne et l’ID de l’équipe interne. | Lire |
 | Rechercher un utilisateur par nom | `approvals_find_user_by_name` | Recherche l’ID d’un utilisateur Workfront par nom (correspondance approximative ou partielle). Renvoie le nom, l’ID, l’adresse électronique, le titre et l’URL de l’avatar. | Lire |
 | Rechercher une équipe par nom | `approvals_find_team_by_name` | Recherche l’identifiant d’une équipe Workfront par nom (correspondance approximative ou partielle). | Lire |
@@ -102,10 +102,14 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 
 ## Outils de planification
 
+>[!IMPORTANT]
+>
+>* Pour utiliser MCP avec Workfront Planning, votre entreprise doit disposer d’un package Workfront incluant Adobe Workfront Planning.
+
 ### Espaces de travail
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir l’espace de travail | `planning_get_workspace` | Récupère les détails complets d’un espace de travail par identifiant ou alias. | Lire |
 | Obtenir la liste des espaces de travail | `planning_get_workspace_list` | Répertorie tous les espaces de travail disponibles avec pagination basée sur le curseur. | Lire |
 | Créer un espace de travail | `planning_create_workspace` | Crée un espace de travail vide pour organiser les types d’enregistrements, les champs et les données. | Write |
@@ -119,7 +123,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Types d’enregistrements
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir le type d’enregistrement | `planning_get_record_type` | Récupère les détails complets d’un type d’enregistrement, y compris ses champs et vues. | Lire |
 | Créer des types d’enregistrements | `planning_create_record_types` | Crée un ou plusieurs types d’enregistrements dans une section Workspace. | Write |
 | Mettre à jour le type d’enregistrement | `planning_update_record_type` | Met partiellement à jour le nom, la description, l’icône ou la couleur d’un type d’enregistrement. | Write |
@@ -135,7 +139,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Enregistrements
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir l’enregistrement | `planning_get_record` | Récupère les détails complets d’un enregistrement unique par ID. | Lire |
 | Rechercher des enregistrements | `planning_search_records` | Recherche et filtre les enregistrements dans un type d’enregistrement. | Lire |
 | Actions d’enregistrement en bloc | `planning_bulk_record_actions` | Crée, met à jour, supprime ou restaure plusieurs enregistrements dans une seule demande. | Write |
@@ -148,7 +152,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Champs
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir le champ | `planning_get_field` | Récupère les détails complets et le schéma des valeurs d’un champ par ID. | Lire |
 | Créer des champs | `planning_create_fields` | Ajoute un ou plusieurs champs (colonnes) à un type d’enregistrement. | Write |
 | Mettre le champ à jour | `planning_update_field` | Met partiellement à jour le nom, la description, les options ou la configuration d’un champ. | Write |
@@ -157,7 +161,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Vues
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir la vue | `planning_get_view` | Renvoie les détails complets d’une vue par ID. | Lire |
 | Créer une vue | `planning_create_view` | Crée une nouvelle vue de table, de chronologie ou de calendrier pour un type d&#39;enregistrement. | Write |
 | Mettre à jour la vue | `planning_update_view` | Met partiellement à jour la configuration, les filtres ou le tri d’une vue existante. | Write |
@@ -168,14 +172,14 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 ### Modèles
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Obtenir la liste des modèles | `planning_get_template_list` | Répertorie tous les modèles d’espace de travail disponibles avec des informations récapitulatives. | Lire |
 | Obtenir le modèle | `planning_get_template` | Récupère les détails complets d’un modèle spécifique par ID. | Lire |
 
 ### Recherche et utilitaires
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rechercher des ressources | `planning_search_resources` | Effectue des recherches dans les espaces de travail, les types d’enregistrements et les vues par nom. | Lire |
 | Rechercher des données de partage | `planning_search_sharing_data` | Recherche les utilisateurs, les groupes, les équipes, les rôles et les entreprises par nom pour le partage et les autorisations. | Lire |
 | Rechercher des utilisateurs | `planning_search_users` | Recherche des utilisateurs avec prise en charge de la pagination. | Lire |
@@ -185,7 +189,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 Les outils de workflow sont les actions d’usage général que la plateforme agentic d’IA utilise pour travailler avec n’importe quel objet Workfront : projets, tâches, événements, heures, affectations, programmes, portefeuilles, etc.
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rechercher des objets | `workflow_search_any_object` | Recherche des objets Workfront avec des paramètres de filtre flexibles, l’ordre et la pagination. | Lire |
 | Créer un objet | `workflow_create_any_object` | Crée un objet Workfront tel qu’un projet, une tâche, un événement, une heure, une affectation, un programme ou un portfolio. | Write |
 | Mettre à jour l’objet | `workflow_update_any_object` | Met à jour les champs d’un objet Workfront existant. | Write |
