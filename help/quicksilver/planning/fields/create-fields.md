@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
-source-wordcount: 5153
+source-wordcount: 5239
 ht-degree: 41%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -314,7 +307,7 @@ Les champs de paragraphe capturent des informations alphanumériques supplément
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Paragraphe**.
 
-   ![&#x200B; Type de champ de paragraphe &#x200B;](assets/paragraph-field-type.png)
+   ![ Type de champ de paragraphe ](assets/paragraph-field-type.png)
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
@@ -331,7 +324,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur du champ à sélection multiple d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection multiple**.
@@ -380,12 +373,12 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
 >[!NOTE]
 >
->En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [&#x200B; Modifier des enregistrements &#x200B;](/help/quicksilver/planning/records/edit-records.md).
+>En plus de la fonctionnalité décrite dans cette section, vous pouvez ajouter de nouveaux choix lors de la modification en ligne de la valeur de champ à sélection unique d’un enregistrement, dans la vue Tableau. Pour plus d’informations, consultez la section « Modifier les informations sur les champs à sélection unique ou multiple » de l’article [ Modifier des enregistrements ](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Commencez à créer un champ comme décrit dans la section [Créer des champs à partir de zéro](#create-fields-from-scratch) dans cet article, puis sélectionnez le type de champ **Sélection simple**.
 
-   ![&#x200B; Type de champ à sélection unique &#x200B;](assets/single-select-field-type.png)
+   ![ Type de champ à sélection unique ](assets/single-select-field-type.png)
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou dans la page Détails de l&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -448,6 +441,44 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
 
       * **24h** : par exemple : 18:00
       * **12h** : Par exemple : 18:00
+
+
+     En fonction de l’environnement dans lequel vous accédez aux champs, procédez comme suit :
+
+      * Dans l’environnement de production :
+
+         * Sélectionnez l’un des formats suivants :
+            * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
+            * **Standard** : 05/16/2023
+            * **Long** : 16 mai 2023
+            * **Européen** : 16/05/2023
+            * **ISO** : 2023-05-16
+      * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
+
+        Sélectionnez l’une des options suivantes :
+
+         * **24h** : par exemple : 18:00
+         * **12h** : Par exemple : 18:00
+
+     <!--
+        <div class="preview">
+
+        * In the Preview environment: 
+
+            * Select from the following formats:
+                * **Short**: 6/9/26
+                * **Medium**: Jun 9, 2026
+                * **Long** June 9, 2026
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
+    
+            Select from the following options:
+        
+            * **24hr**: For example: 18:00
+            * **12hr**: For example: 6:00 PM
+        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** might change the UI option here, to define 'collaborators' and to spell Time zone ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. 
+
+        </div>
+        -->
 
 1. Cliquez sur **Créer**.
 
@@ -607,7 +638,7 @@ Pour plus d’informations, voir [Vue d’ensemble des champs de formule](/help/
    >
    >* Vous pouvez référencer un champ contenant jusqu’à 4 champs (et objets) différents du type d’enregistrement actuel. Par exemple, si vous créez un champ de formule pour un type d’enregistrement Activité (1) et que l’Activité est connectée au type d’enregistrement Campagne (2) qui est connecté à un projet Workfront (3), vous pouvez référencer le champ Budget du projet (4) dans la formule que vous créez pour le type d’enregistrement Activité.
    >
-   >![Exemple de formule de budget de projet avec quatre champs supprimés &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemple de formule de budget de projet avec quatre champs supprimés ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facultatif) Cliquez sur **Agrandir** pour ouvrir la zone Formule dans une zone plus grande.
