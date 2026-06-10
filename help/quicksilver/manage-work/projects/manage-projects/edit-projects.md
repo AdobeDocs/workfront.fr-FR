@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 86%
 
 ---
@@ -303,7 +303,9 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       <p><b>NOTES</b></p>
       <ul>
       <li>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</li>
-      <li>Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité, vous ne pouvez pas copier de tâches entre des projets qui utilisent différents types de stockage. Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</li></ul> 
+      <li>Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité, vous ne pouvez pas copier de tâches entre des projets qui utilisent différents types de stockage. </li>
+      <li>Vous ne pouvez pas déplacer un projet de stockage hérité vers un portfolio ou un programme de stockage dans le cloud Adobe, ou un projet de stockage dans le cloud Adobe vers un portfolio ou un programme hérité.</li>
+      </ul> <p>Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.</p>
       Pour plus d’informations, voir <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Présentation de la gestion des documents pour les projets et les objets associés</a>. 
       </td> 
       </tr> 

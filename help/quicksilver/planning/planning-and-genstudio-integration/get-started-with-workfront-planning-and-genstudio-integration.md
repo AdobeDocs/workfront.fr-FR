@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 3%
 
 ---
@@ -408,7 +408,7 @@ Lorsque des types d’objet AEM (ressources et fragments de contenu) sont connec
 
 ### Formulaires de demande et automatisations dans le type d’enregistrement GenStudio
 
-* Vous pouvez ajouter des formulaires de demande à un type d’enregistrement GenStudio dans Workfront Planning.
+* Vous pouvez ajouter des formulaires de demande à un type d’enregistrement GenStudio dans Workfront Planning. Vous pouvez ajouter des champs de connexion Planning sur un formulaire de demande associé à un type d’enregistrement d’espace de travail GenStudio.
 
   Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Vous pouvez configurer des automatisations pour un type d’enregistrement GenStudio dans Workfront Planning.
@@ -419,12 +419,16 @@ Lorsque des types d’objet AEM (ressources et fragments de contenu) sont connec
 
 Lorsque votre entreprise dispose d’une intégration entre Workfront Planning et Adobe GenStudio, vous pouvez connecter les types d’enregistrements Planning aux marques GenStudio à partir de n’importe quel type d’enregistrement dans n’importe quel espace de travail de Workfront Planning.
 
-Les marques sont connectées par défaut aux types d’enregistrements de l’espace de travail GenStudio suivants :
+Tenez compte des points suivants :
 
-* Produits
-* Personas
+* Les marques sont connectées par défaut aux types d’enregistrements de l’espace de travail GenStudio suivants :
 
-Les marques sont disponibles pour la connexion manuelle à tous les autres types d’enregistrements de l’espace de travail GenStudio, ou à partir de tous les autres espaces de travail que vous êtes autorisé à gérer.
+   * Produits
+   * Personas
+
+* Les marques sont disponibles pour la connexion manuelle à tous les autres types d’enregistrements de l’espace de travail GenStudio, ou à partir de tous les autres espaces de travail que vous êtes autorisé à gérer.
+
+* Après avoir connecté des marques à un type d’enregistrement Planning ou GenStudio, vous pouvez ajouter le champ de connexion Marques à un formulaire de demande associé au type d’enregistrement.
 
 ## Environnement de prévisualisation
 

@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 44%
@@ -181,6 +181,15 @@ old:
       >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
       >
       >Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
+
+
+      <!--
+        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
+        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+        -->
 
    1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en regard du nom d’un projet si vous décidez de ne pas l’ajouter au programme.
 

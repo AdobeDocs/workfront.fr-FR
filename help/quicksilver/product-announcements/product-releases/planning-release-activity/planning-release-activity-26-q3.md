@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1784'
 ht-degree: 1%
 
 ---
@@ -30,26 +30,56 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-
 <!--
 
-## New Sample workspaces tab added to the Planning landing page
+## Interface improvements in the table view
 
 >[!NOTE]
 >
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
+>Preview: June 11, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
 
-We have added the Sample workspaces tab in the Planning landing area where you can view example of best-practice workspaces. The workspaces are not editable and we recommend that you use them as examples to create your own.  
+We have updated the look and feel of the table view for the following areas in Workfront Planning: 
 
-We also recommend that you use the multi-workspace template to create, and edit and share workspaces that result as a use of that template.  The template contains the same workspaces as the Sample workspaces tab.   
+* All record type pages 
 
-Workspace managers can modify views in sample workspaces.     
+* All connected record type pages, except for Projects 
 
-For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
+In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
+
+* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+
+* A simpler date format with fewer format types when adding a Date field. 
+
+* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+
+* Removal of row numbering for a cleaner look 
+
+* Persistent row selection box, instead of visible only when hovering on the row 
+
+* Persistent column separator lines for better readability 
+
+* A simpler sorting experience when sorting from a column header  
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
 
 -->
+
+## Les marques GenStudio for Performance Marketing peuvent désormais être ajoutées aux formulaires de demande Planning
+
+>[!NOTE]
+>
+>Aperçu et production pour tous les clients : 5 juin 2026>disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing.
+>[!BADGE Horaire de désactivation]{type=Neutral}
+
+
+Pour vous permettre d’ajouter des marques à vos campagnes en commençant par envoyer une demande, vous pouvez désormais ajouter le champ d’enregistrement connecté Marques à un formulaire de demande Planning.
+
+Lorsqu&#39;un type d&#39;enregistrement Planning est associé au type d&#39;enregistrement Marques GenStudio, vous pouvez ajouter le champ Marques connectées à un formulaire de demande Planning associé au type d&#39;enregistrement Planning.
+
+Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
 
 ## Nouvel onglet Exemples d’espaces de travail ajouté à la page de destination Planification
 
@@ -145,7 +175,8 @@ Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Des
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026>Mise à jour rapide de la production : 28 mai 2026>Production pour tous : 28 mai 2026>[!BADGE Horaire réduit]{type=Neutral}
+>Aperçu et production pour tous : 28 mai 2026>disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing et de Adobe Experience Manager.
+>[!BADGE Horaire de désactivation]{type=Neutral}
 
 Pour améliorer l’intégrité des données, nous avons publié une synchronisation transparente des métadonnées entre les types d’enregistrements GenStudio for Performance Marketing et AEM Assets lorsque les AEM Assets sont liés à des types d’enregistrements GenStudio dans Workfront Planning.
 
@@ -161,7 +192,8 @@ Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Ad
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026>Mise à jour rapide de la production : 28 mai 2026>Production pour tous : 28 mai 2026>[!BADGE Horaire réduit]{type=Neutral}
+>Aperçu et production pour tous : 28 mai 2026>disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing et de Adobe Experience Manager.
+>[!BADGE Horaire de désactivation]{type=Neutral}
 
 Pour améliorer l’intégrité des données, nous avons publié une synchronisation transparente des métadonnées entre les types d’enregistrements Planning dans l’espace de travail GenStudio et les fragments de contenu AEM lorsque les fragments de contenu sont liés à des campagnes GenStudio for Performance Marketing.
 
@@ -255,7 +287,7 @@ Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Plannin
 
 >[!NOTE]
 >
->Aperçu : 14 mai 2026>Mise à jour rapide de la production : 14 mai 2026>Production pour tous : 14 mai 2026>[!BADGE Horaire réduit]{type=Neutral}
+>Prévisualisation et production pour tous les clients : 14 mai 2026>[!BADGE horaire de congés]{type=Neutral}
 
 Pour une meilleure visibilité lorsque vous utilisez des fragments de contenu AEM connectés à des enregistrements Workfront Planning, nous avons ajouté une fenêtre d’aperçu qui affiche des informations sur les fragments dans Workfront Planning.
 
@@ -267,7 +299,8 @@ Pour plus d’informations, consultez [Connecter des enregistrements](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 14 mai 2026>Mise à jour rapide de la production : 14 mai 2026>Production pour tous : 14 mai 2026>[!BADGE Horaire réduit]{type=Neutral}
+>Aperçu et production pour tous les clients : 14 mai 2026>disponible uniquement pour les clients Adobe Workfront Planning qui disposent également de Adobe Experience Manager.
+>[!BADGE Horaire de désactivation]{type=Neutral}
 
 Vous pouvez désormais ajouter les champs de recherche suivants lorsque vous connectez un type d’enregistrement Planning à un fragment de contenu AEM :
 
