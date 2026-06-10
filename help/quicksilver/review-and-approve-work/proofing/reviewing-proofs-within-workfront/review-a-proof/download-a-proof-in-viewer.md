@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 97%
+source-wordcount: 244
+ht-degree: 68%
 
 ---
 
@@ -70,3 +70,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Accédez à l’emplacement de votre système de fichiers où vous souhaitez télécharger l’épreuve, puis cliquez sur **Enregistrer**.
+
+   >[!NOTE]
+   >
+   >Lorsqu’une épreuve contient plusieurs fichiers, Workfront génère un fichier .zip. Si plusieurs fichiers de l’épreuve partagent le même nom de fichier, le fichier .zip ne comprend qu’une seule copie de ce fichier. Par conséquent, le nombre de fichiers dans le fichier .zip peut être inférieur au nombre de fichiers affichés dans la visionneuse de relecture. Par exemple, une épreuve avec 5 fichiers où 2 sont nommés `document.pdf` génère un fichier ZIP contenant 4 fichiers.
