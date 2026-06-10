@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 31%
+source-wordcount: 850
+ht-degree: 30%
 
 ---
 
@@ -85,9 +85,13 @@ La page Détails du document fournit une version plus complète des Détails du 
 
 La nouvelle zone Documents n’est disponible que si votre organisation se trouve dans l’espace de stockage cloud d’Adobe. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![zone nouveaux documents](assets/new-doc-area.png)
+
 ### Utilisation du panneau de résumé
 
 Lorsque vous sélectionnez un document dans la zone des documents, vous pouvez utiliser le panneau Résumé à droite pour afficher des détails sur le document, ajouter et modifier des formulaires personnalisés joints, créer et gérer des workflows d’approbation, afficher des versions du document, etc.
+
+![Panneau Résumé avec les détails du document ouvert](assets/new-doc-details.png)
 
 #### Vérifier et approuver avec Frame.io
 
@@ -95,11 +99,15 @@ Vous pouvez réviser et approuver des documents dans la nouvelle zone Documents 
 
 Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![panel de synthèse ouvert à l&#39;examen et aux approbations](assets/new-doc-approvals.png)
+
 #### Gestion des versions
 
 Vous pouvez charger de nouvelles versions d’un document dans la zone des nouveaux Documents . Lorsque vous chargez une nouvelle version, la version précédente est conservée et est accessible à partir du panneau Résumé . Les versions sont automatiquement nommées avec la date et l’heure du chargement, mais peuvent être renommées selon les besoins.
 
 Vous pouvez également lancer un nouveau workflow d’approbation pour une version spécifique d’un document.
+
+![panneau de résumé ouvert à l’onglet versions](assets/new-doc-versions.png)
 
 #### Afficher l’historique des documents
 
@@ -109,6 +117,8 @@ Vous pouvez afficher l&#39;historique d&#39;un document dans la zone des nouveau
 * Lorsque de nouvelles versions ont été chargées
 * Quand les workflows d’approbation ont été lancés pour le document
 * Et plus encore
+
+![panneau de résumé ouvert à l’onglet historique](assets/new-doc-history.png)
 
 ### Dossiers au niveau du système pour les autorisations de document
 
