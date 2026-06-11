@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 22%
@@ -244,8 +244,12 @@ Vous pouvez avoir un champ à sélection unique appelé Statut qui comporte les 
 Pour ajouter un nouveau choix à un champ de sélection existant lors de la modification d’un enregistrement :
 
 1. Accédez à une page de type d’enregistrement et ouvrez la vue Tableau .
-1. Ajoutez le champ à sélection unique ou multiple auquel vous souhaitez ajouter un choix en mode Tableau sous la forme d’une nouvelle colonne. Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+1. Ajoutez le champ à sélection unique ou multiple auquel vous souhaitez ajouter un choix en mode Tableau sous la forme d’une nouvelle colonne.
+
+   Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+
 1. Commencez à modifier le champ en ligne en double-cliquant sur la cellule du champ.
+
 1. Saisissez le nom du choix à ajouter, puis cliquez sur **Ajouter un choix**.
 
    ![Ajouter un choix dans un champ à sélection unique en mode Tableau](assets/add-choice-in-table-view-for-single-select-field.png)

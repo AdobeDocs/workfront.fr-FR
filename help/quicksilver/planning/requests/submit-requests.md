@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 3%
 
 ---
@@ -254,11 +254,12 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >
    >  <div class="preview">
    >
-   >   * La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
-   >   * Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
-   >  * Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
+   >* La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
+   >* Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
+   >* Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
    >
    >  </div>
+1. <span class="preview">(Facultatif) Après modification de la demande, cliquez sur **Soumettre les modifications**.</span>
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
@@ -268,6 +269,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >* Si le champ principal de l’enregistrement n’a pas été mis à jour dans le formulaire de demande, le nom de l’enregistrement dans le champ Enregistrement de la demande s’affiche comme **Sans titre**.
    >
    >* Si le formulaire de demande est associé à une approbation, l&#39;approbation doit être accordée avant que vous puissiez accéder à l&#39;enregistrement à partir de la page de demande. L&#39;enregistrement n&#39;est pas créé tant que l&#39;approbation n&#39;a pas été accordée.
+   >  Pour plus d’informations sur l’approbation des demandes, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 1. (Facultatif) Cliquez sur le nom du **Type d’enregistrement**.
 

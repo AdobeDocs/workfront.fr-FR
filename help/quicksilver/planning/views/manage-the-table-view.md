@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3499
-ht-degree: 48%
+source-wordcount: 6148
+ht-degree: 46%
 
 ---
 
 # Gérer la vue de tableau
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -158,18 +158,9 @@ Pour plus d&#39;informations sur la modification des enregistrements en mode Tab
 
 ## Gérer une vue tableau {#manage-a-table-view}
 
-<!--
-Depending on what environment you access record types from, the record type page displays using two different views: 
+<span class="preview">La gestion de la vue Tableau est différente selon l’environnement à partir duquel vous y accédez. </span>
 
-* Table view, in the Production environment
-* <span class="preview">List view, in the Preview environment</span>
-
-OR: 
-
-If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
-
-### Manage the table view in the Production environment
--->
+## Gestion de la vue des tableaux dans l’environnement de production
 
 Lors de la création d’une vue tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
 
@@ -627,131 +618,134 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 >
 >Les indicateurs de présence en temps réel affichent les utilisateurs qui modifient actuellement un champ n’importe où dans Workfront Planning. Cela inclut la vue du tableau ou la zone Détails de l’enregistrement.
 
-<!--
+
 
 <div class="preview">
 
-### Manage the list view in the Preview environment
+## Gestion de la vue Liste dans l’environnement de Prévisualisation
 
-**********MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION?????????*********
+<!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
-(*****************Maybe add this when they remove the list view from connection pages and request form list: In the Preview environment, the table view has been replaced with the list view. *******************)
+<!-- In the Preview environment, the table view has been replaced with the list view. *******************-->
 
+<!--
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+-->
 
-When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+Lors de la création d’une vue tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
 
-To manage a table view: 
+Pour gérer une vue tableau :
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-    ![Table view example](assets/table-view-example-g-list.png)
+   ![Exemple de vue Tableau](assets/table-view-example-g-list.png)
 
-1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
-    * Short
-    * Standard
-    * Medium
-    * Tall 
+1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
+   * Court
+   * Standard
+   * Moyen
+   * Grand
 
-1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
-1. Update the following view elements as described in the subsections below:
-    * [Columns (or fields)](#add-columns-or-fields)
-    * [Rows (or records)](#add-rows-or-records)
-    * [Filters](#add-filters) 
-    * [Sort](#add-a-sort) 
-    * [Grouping](#add-groupings)
-    * [Row colors](#add-row-colors)
-    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
-
-
-### Add columns (or fields) {#add-columns}
-
-The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
-
-For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-Adding columns to a view is identical to adding fields to a record type.  
-
-You can add up to 500 fields (or columns) in a table view. 
-
-1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
-
-1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
-
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
-   
-1. Do one of the following to reorder columns in the table:
-
-    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
-
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
-        
-        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
-        >[!TIP]
-        >
-        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
-        >
-        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 5. **********************accurate?**************
-        >
-        >
- 
-    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 5. **********************accurate?**************
-
-1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    
-    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
+   * [Colonnes (ou champs)](#add-columns-or-fields)
+   * [Lignes (ou enregistrements)](#add-rows-or-records)
+   * [Filtres](#add-filters)
+   * [Trier](#add-a-sort)
+   * [Regroupement](#add-groupings)
+   * [Couleurs de ligne](#add-row-colors)
+   * [Indicateur de présence en temps réel](#enable-the-real-time-presence-indicator)
 
 
-1. Click **Set field** to confirm. 
+### Ajouter des colonnes (ou des champs) {#add-columns-1}
 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+Les en-têtes de colonne d’une vue de tableau affichent les champs associés aux enregistrements de la vue. Les champs affichés dans la vue Tableau s’affichent également dans la section Détails d’un enregistrement.
 
-    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
-    >[!TIP]
-    >
-    >Click on the **information** icon ![Information icon](assets/info-icon.png) to the right of the field name in a column to view its **Description**.
+L’ajout de colonnes à une vue est identique à l’ajout de champs à un type d’enregistrement.
 
-1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
+Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
-    >[!TIP]
-    >
-    >The changes you make to the column width and order are permanent and visible to all users who access the same view. 
+1. Accédez à une page de type enregistrement et cliquez sur un onglet de vue Tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
-1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
-    Or
+   Les colonnes que vous ajoutez sont visibles par toutes les personnes qui accèdent au type d’enregistrement et sont ajoutées en tant que nouveaux champs sur la page de l’enregistrement.
 
-    Click **Fields** in the table toolbar and deselect the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
+1. (Facultatif) Cliquez sur l’icône **Champs** ![icône Champs](assets/fields-icon.png) dans la barre d’outils, recherchez un champ, puis désélectionnez le bouton (bascule) situé à droite du nom du champ pour le masquer.
 
-    >[!TIP]
-    >
-    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
-    >
-    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Effectuez l’une des opérations suivantes pour réorganiser les colonnes du tableau :
+
+   * Saisissez l’en-tête de colonne et faites-le glisser à l’endroit souhaité. La colonne que vous avez déplacée s’affiche brièvement sur fond bleu jusqu’à ce que vous procédiez à d’autres ajustements dans le tableau.
+
+   * Cliquez sur **Champs** dans la barre d’outils du tableau, puis faites glisser les champs dans l’ordre souhaité et cliquez en dehors de la case **Visibilité et ordre des champs** pour la fermer.
+
+     ![Barre d’outils du mode Tableau des champs développée](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     >[!TIP]
+     >
+     >* Le champ Nom est toujours le premier champ de la vue tableau, par défaut. Il est considéré comme un champ principal.
+     >
+     >* Vous ne pouvez pas déplacer le champ Nom, à moins que vous ne désigniez un autre champ comme champ principal. Pour plus d’informations, passez à l’étape 5. <!--**********************accurate?**************-->
+     >
+     >
+
+   * Remplacez le champ de la première colonne par un autre en modifiant le champ principal. Pour plus d’informations, passez à l’étape 5. <!--**********************accurate?**************-->
+
+1. (Facultatif) Pointez sur un nom de champ dans l’en-tête de colonne d’un champ qui ne s’affiche pas dans la première colonne du tableau, cliquez sur la flèche pointant vers le bas à droite du nom du champ, puis sur **Définir comme champ principal**.
+
+   ![Définir comme champ principal en mode Tableau](assets/set-as-primary-field-option-table-view.png)
 
 
-1. Click the **Fields** icon and select the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. Cliquez sur **Définir le champ** pour confirmer.
 
-1. Do the following to quickly find records that match a keyword:
+   Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
 
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+   >[!TIP]
+   >
+   >Cliquez sur l’icône **informations** ![Icône Informations](assets/info-icon.png) située à droite du nom du champ dans une colonne pour afficher sa **Description**.
 
-        You can use any word or special character that is visible on the screen. 
-    
-        You cannot use keywords that are associated with fields that are hidden in the table view. 
+1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
-    1. Press **Enter** on your keyboard to go to the next found field. 
+   >[!TIP]
+   >
+   >Les modifications apportées à l’ordre et à la largeur des colonnes sont permanentes et visibles par tous les utilisateurs et utilisatrices qui accèdent au même affichage.
 
-    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+1. Pointez sur l’en-tête de la colonne, cliquez sur la flèche pointant vers le bas, puis sur **Masquer le champ**
 
-    1. Click the **x** icon in the search box to clear the search keyword. 
+   Ou
+
+   Cliquez sur **Champs** dans la barre d’outils du tableau, puis désélectionnez le bouton (bascule) associé aux champs (ou colonnes) à masquer. La boîte de dialogue **Visibilité et ordre des champs** s’affiche.
+
+   >[!TIP]
+   >
+   >Le nombre de champs masqués s’affiche à gauche de l’icône Champs dans la barre d’outils.
+   >
+   >Par défaut, les champs masqués ne s’affichent pas dans la zone d’aperçu **Détails** de l’enregistrement. Tous les champs s’affichent dans la page Détails de l’enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+
+1. Cliquez sur l’icône **Champs** et sélectionnez le bouton (bascule) associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
+
+1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
+
+   1. Dans la zone **Rechercher** ![icône Rechercher](assets/search-icon.png) commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance.
+
+      ![Zone de recherche avec le contour bleu des résultats en mode Tableau](assets/search-box-with-results-blue-outline-g-table.png)
+
+      Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
+
+      Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
+
+   1. Appuyez sur la touche **Entrée** de votre clavier pour passer au champ suivant.
+
+   1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
+
+   1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
+<!--    
 1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
     * **SUM**: Displays the total of all cells in the column. This is the default selection. 
@@ -760,26 +754,28 @@ You can add up to 500 fields (or columns) in a table view.
     * **AVG**: Displays the average value of all the cells in the column. 
 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
+-->
 
-### Add rows (or records) {#add-rows}
+### Ajouter des lignes (ou des enregistrements) {#add-rows-1}
 
-The rows of a table view display individual records of the selected record type. 
+Les lignes d’une vue de tableau affichent des enregistrements individuels du type d’enregistrement sélectionné.
 
-You can have up to 50,000 records (or rows) for a record type. 
+Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement.
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+1. Accédez à une page de type d’enregistrement et sélectionnez une vue de tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+1. Commencez à ajouter des enregistrements (ou lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+   Les enregistrements que vous ajoutez dans la vue de tableau sont enregistrés immédiatement et sont visibles par tous les utilisateurs et utilisatrices qui disposent d’une autorisation d’affichage ou de niveau supérieure sur l’espace de travail.
 
-    A default thumbnail image is also added to the new record.
+   Une miniature par défaut est également ajoutée au nouvel enregistrement.
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
-    
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
+1. Cliquez sur **Champs** en haut du tableau, puis activez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
+   Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+<!--
 ******************** NOT POSSIBLE NOW **********
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
@@ -792,143 +788,146 @@ You can have up to 50,000 records (or rows) for a record type.
 
 
 ******************** NOT POSSIBLE ABOVE **************
+-->
 
-### Add filters {#add-filters}
+### Ajouter des filtres {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 
-Adding filters in the table view in the Preview environment is identical to adding filters in the Production environment. 
+L’ajout de filtres dans la vue Tableau de l’environnement Aperçu est identique à l’ajout de filtres dans l’environnement Production.
 
-For information, see the [Add filters](#add-filters) section in this article. 
+Pour plus d’informations, consultez la section [Ajouter des filtres](#add-filters) de cet article.
 
-*****************at production, paste here the information from the Production section above*******************
 
-### Add a sort {#sort-information} 
+<!--***************** at production, paste here the information from the Production section above *******************-->
 
-By applying a sort, you can organize information in a given order. 
+### Ajouter un tri {#sort-information-1}
 
-Consider the following when sorting records in the table view: 
+En appliquant un tri, vous pouvez organiser les informations dans un ordre donné.
 
-*********** if this is available for the timeline view, update both when you update one ****************
+Tenez compte des éléments suivants lorsque vous triez les enregistrements dans la vue en tableau :
 
-* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+<!--*********** if this is available for the timeline view, update both when you update one ****************-->
 
-* You cannot name the sortings you build and apply to a table view.
+* Le tri est propre à la vue que vous sélectionnez. Des critères de tri différents peuvent être appliqués à deux vues en tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue en tableau voient le même tri que celui qui est actuellement appliqué.
 
-* The sorting you create is preserved when you navigate away.
+* Les tris que vous créez et appliquez à une vue en tableau ne peuvent pas être nommés.
 
-* You can sort by as many fields as you see displayed in the table view of a record type.
+* Le tri que vous créez est préservé lorsque vous quittez cette vue.
 
-* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+* Vous pouvez trier par autant de champs que comporte la vue de tableau d’un type d’enregistrement.
 
-* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
+* Vous ne pouvez pas trier par champs d’enregistrement connectés, mais vous pouvez trier par champs de recherche à partir de types d’enregistrements connectés.
 
-* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+* Lorsque vous triez par champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), la première valeur est utilisée pour le tri.
 
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
+* Supprimer des critères de tri les rend inaccessibles à toute personne accédant au même type d’enregistrement que vous et utilisant la même vue que vous.
 
-To sort records, do the following:
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un tri pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campaign connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le tri que vous créez pour le type d’enregistrement Activité.
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) at the top of the table
-    
-    Or
+Pour trier les enregistrements, procédez comme suit :
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort**. 
-    
-1. (Conditional) If you click **Sort** at the top of the table, the **Sort records by** box opens. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cliquez sur l’icône **Trier** ![Icône Trier](assets/sort-icon.png) en haut du tableau
 
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+   Ou
 
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-1. (Conditional) If you clicked the **Sort** icon at the top of the table, select the order in which you want the field sorted in the **Sort records by** box. The options for the sorting order depend on the type of field you are sorting by. 
+   Pointez sur le nom d’une colonne dans la vue Tableau, cliquez sur la flèche pointant vers le bas à droite du nom de l’en-tête de colonne, puis cliquez sur **Trier**.
 
-    >[!TIP]
-    >
-    >The selections below are not available when you access sorting from the column header. 
+1. (Conditionnel) Si vous cliquez sur **Trier** en haut du tableau, la zone **Trier les enregistrements par** s’ouvre. Cliquez sur l&#39;un des champs proposés ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
-    Choose from the following options: 
+   Le tri est appliqué automatiquement à la vue en tableau et les enregistrements s’affichent triés selon les critères que vous avez sélectionnés.
 
-    * Date fields: 
-        * Earliest to latest
-        * Latest to earliest
-    * Text, paragraph, select fields, people, Record ID:
-        * Alphabetical A to Z
-        * Reverse alphabetical Z to A
-    * Number, percentage, currency fields:
-        * Ascending 0 to 9
-        * Descending 9 to 0
-    * Checkbox fields: 
-        * Selected first
-        * Deselected first
+1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour trier par champs supplémentaires.
 
-    The field is added as a sorting selection in the **Sort** icon at the top of the table. 
+   Le nombre de champs que vous triez s’affiche à gauche de l’icône de tri dans le coin supérieur droit de la barre d’outils. Vous ne pouvez sélectionner que les champs qui s’affichent dans les colonnes de la vue de tableau.
+1. (Conditionnel) Si vous avez cliqué sur l’icône **Trier** en haut du tableau, sélectionnez l’ordre dans lequel vous souhaitez que le champ soit trié dans la zone **Trier les enregistrements par**. Les options relatives à l’ordre de tri dépendent du type de champ selon lequel vous effectuez le tri.
 
-1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
+   >[!TIP]
+   >
+   >Les sélections ci-dessous ne sont pas disponibles lorsque vous accédez au tri à partir de l’en-tête de colonne.
 
-    Or
+   Choisissez l’une des options suivantes :
 
-    Click **Clear all** to remove all fields from the sort. 
+   * Champs de date :
+      * Du plus tôt au plus tard
+      * Du plus récent au plus ancien
+   * Texte, paragraphe, sélectionner des champs, personnes, ID d’enregistrement :
+      * Alphabétique A à Z
+      * Inverser Z alphabétique en A
+   * Champs Nombre, Pourcentage, Devise :
+      * Ascendant de 0 à 9
+      * Descendant de 9 à 0
+   * Champs de case à cocher :
+      * Sélectionné en premier
+      * Désélectionné en premier
 
-1. Click outside the **Sort records by** box to close it. 
+   Le champ est ajouté sous forme de sélection de tri dans l’icône **Trier** en haut du tableau.
 
-    ![Sorting in table view](assets/sorting-in-table-view-g-list.png)
+1. (Facultatif) Dans la zone **Trier les enregistrements par**, cliquez sur l’icône **x** en regard d’un champ de tri pour supprimer le tri.
 
-    The information displayed in the table is sorted according to your selected criteria. 
-    
-    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+   Ou
 
-### Add groupings {#add-groupings}
+   Cliquez sur **Tout effacer** pour supprimer tous les champs du tri.
 
+1. Cliquez en dehors de la zone **Trier les enregistrements par** pour la fermer.
+
+   ![Tri en mode Tableau](assets/sorting-in-table-view-g-list.png)
+
+   Les informations affichées dans le tableau sont triées en fonction des critères sélectionnés.
+
+   Les champs qui doivent être triés affichent une icône de tri suivie d’un nombre qui indique l’ordre dans lequel le tri est appliqué.
+
+### Ajouter des regroupements {#add-groupings-1}
+
+<!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
+-->
 
-You can group records by similar information when applying  a grouping to a view.
+Vous pouvez regrouper des enregistrements par des informations similaires lorsque vous appliquez un regroupement à une vue.
 
-Consider the following:
+Tenez compte des points suivants :
 
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-***************  * You can apply up to 4 levels of grouping when using the API. --checking on this one for now ******************
-* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a table view.
-* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields. 
-* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
-* Groupings are listed in the alphabetical order of their values. 
-********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************
+* Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des regroupements que vous sélectionnez.
+&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —cochez celui-ci pour l’instant &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+* Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
+* Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
+* En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
+* Vous pouvez modifier les enregistrements répertoriés dans un regroupement.
+* Vous pouvez effectuer un regroupement par champs d’enregistrement connectés ou champs de recherche.
+* Lorsque vous regroupez des champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
+* Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
+* Les regroupements sont répertoriés dans l’ordre alphabétique de leurs valeurs.
+  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
+Pour ajouter un regroupement :
 
-To add a grouping:
+1. Créez une vue de tableau pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue de tableau.
 
-1. Create a table view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the table view.
+   ![Regroupement de la vue Tableau de l’interface utilisateur avec des champs liés](assets/grouping-ui-table-view-with-linked-fields.png)
 
-    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un autre champ**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+   Le regroupement est appliqué automatiquement au tableau et les enregistrements s’affichent sous la ligne de séparation du regroupement.
 
-    The grouping is applied automatically to the table and records display under the grouping separation line.
-    
-1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 
-    The number of fields selected for the grouping displays next to the Grouping icon. 
+   Le nombre de champs sélectionnés pour le regroupement s’affiche à côté de l’icône de regroupement.
 
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+   ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
 
-1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping. 
+1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement afin de supprimer le regroupement.
 
-1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping.
+1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
+1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié.
 
-1. To expand or collapse groupings, click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+1. Pour développer ou réduire des regroupements, cliquez sur l’icône **Regroupement**, puis sur **Tout développer** ou **Tout réduire**. Cette action développe tous les regroupements et sous-regroupements dans la vue Tableau.
 
-    ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   ![Développer et réduire tous les boutons en mode Tableau de zone de regroupement](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-    
+   <!--
     ******** NOT POSSIBLE **********
     1. Right-click any of the grouping headers in the table view, then click one of the following options:
         * **Expand group**
@@ -937,59 +936,58 @@ To add a grouping:
         * **Collapse all**
         * **Expand subgroups**
         * **Collapse subgroups**
-
         Depending on the number of groupings you apply to the view, some options might not be available.
     ********* NOT POSSIBLE ABOVE **********
-   
+   -->
 
-### Add row colors
+### Ajouter des couleurs de ligne
 
-1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
+1. (Facultatif) Cliquez sur **Couleurs de ligne** pour définir des conditions et choisir des couleurs différentes pour les lignes du tableau.
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
+1. Cliquez sur **Ajouter une couleur**, puis recherchez un champ et sélectionnez-le lorsqu’il s’affiche dans la liste. Il s’agit du champ dont vous souhaitez définir la couleur d’une ligne.
 
-    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+   Par exemple, pour afficher les campagnes avec le statut Actif en vert, sélectionnez **Statut**, puis choisissez un modificateur et une valeur pour le champ.
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![Zone Couleurs de ligne avec le statut Actif sélectionné et le choix de couleur par défaut](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
-1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+1. Cliquez sur le menu déroulant du sélecteur de couleurs dans le coin supérieur gauche de la condition que vous avez sélectionnée, pour sélectionner la couleur de la condition, puis cliquez en dehors de la zone du sélecteur de couleurs pour la fermer.
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Menu déroulant du sélecteur de couleurs dans la zone Couleurs de ligne mise en surbrillance](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
-1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter d’autres champs et valeurs au premier ensemble de conditions
 
-    Or
+   Ou
 
-    Click **Add color** to add a new set of conditions and identify a new color. 
-    
-    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+   Cliquez sur **Ajouter une couleur** pour ajouter un nouveau jeu de conditions et identifier une nouvelle couleur.
 
-    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   Par exemple, vous pouvez afficher les campagnes au statut Planning en jaune en définissant un nouveau jeu de conditions.
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
+   ![Zone Couleurs de ligne avec couleurs personnalisées au statut Actif et Planification](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
-    >[!NOTE]
-    >
-    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
-    >
+1. (Facultatif) Activez le paramètre **Appliquer à toute la ligne** dans le coin supérieur droit de la zone **Couleurs de ligne**. La ligne entière où la condition est remplie s’affiche automatiquement dans la couleur sélectionnée.
 
-1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+   >[!NOTE]
+   >
+   >Si le paramètre **Appliquer à toute la ligne** est désactivé, seul l’arrière-plan de la cellule du champ principal s’affiche dans la couleur sélectionnée. Le paramètre est désactivé par défaut.
+   >
 
-### Enable the real-time presence indicator
+1. Cliquez en dehors de la zone **Couleurs des lignes** pour la fermer. Les couleurs sont appliquées automatiquement.
 
-The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+### Activer l’indicateur de présence en temps réel
 
-When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+Par défaut, les avatars d’autres utilisateurs qui modifient les informations d’enregistrement en même temps que vous s’affichent dans le coin supérieur droit de toutes les vues d’enregistrement.
 
-Enabling the real-time presence indicator in the table view in the Preview environment is identical to enabling it in the Production environment. 
+Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un autre utilisateur est en train de modifier au moment où vous affichez l’enregistrement.
 
-For information, see the [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator) section in this article. 
+L’activation de l’indicateur de présence en temps réel dans la vue Tableau dans l’environnement de Prévisualisation est identique à son activation dans l’environnement de Production.
 
-************* at production, paste here the information from the Production section above ****************
+Pour plus d’informations, consultez la section [Activer l’indicateur de présence en temps réel](#enable-the-real-time-presence-indicator) de cet article.
+
+<!--*********** at production, paste here the information from the Production section above ****************-->
 
 </div>
 
--->
+
 
 
 

@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 5239
-ht-degree: 41%
+source-wordcount: 5409
+ht-degree: 40%
 
 ---
 
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -472,25 +472,24 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
          * **24h** : par exemple : 18:00
          * **12h** : Par exemple : 18:00
 
-     <!--
-        <div class="preview">
+     <div class="preview">
 
-        * In the Preview environment: 
+      * Dans l’environnement de Prévisualisation :
 
-            * Select from the following formats:
-                * **Short**: 6/9/26
-                * **Medium**: Jun 9, 2026
-                * **Long** June 9, 2026
-        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
-    
-            Select from the following options:
-        
-            * **24hr**: For example: 18:00
-            * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
+         * Sélectionnez l’un des formats suivants :
+            * **Short** : 6/9/26
+            * **&#x200B;**&#x200B;: 9 Juin 2026
+            * **Long** 9 juin 2026
+      * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
-        </div>
-        -->
+        Sélectionnez l’une des options suivantes :
+
+         * **24h** : par exemple : 18:00
+         * **12h** : Par exemple : 18:00
+      * **Utiliser le même fuseau horaire pour tous les collaborateurs**, puis sélectionner un **fuseau horaire** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)--> : sélectionnez cette option si vous souhaitez afficher le même horodatage pour toutes les personnes qui consultent le champ, quel que soit le fuseau horaire de leur utilisateur. Le fuseau horaire sélectionné est ajouté à l&#39;en-tête de colonne de ce champ.
+
+     </div>
+
 
 1. Cliquez sur **Créer**.
 
