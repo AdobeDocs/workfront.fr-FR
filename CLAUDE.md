@@ -22,9 +22,9 @@ Lorsque Courtney ajoute du nouveau contenu à incorporer (un document de prise d
 
 Même si le contenu appartient « évidemment » à un article connu, faites toujours apparaître 2 à 3 alternatives afin que Courtney puisse confirmer l’emplacement. Cela permet de détecter les quasi-doublons et les endroits où le contenu était déjà partiellement couvert.
 
----
+&#x200B;---
 
-# Proposer des modifications avant de modifier les articles d&#39;aide
+&#x200B;# Proposer des modifications avant de modifier les articles d&#39;aide
 
 Lorsque vous êtes sur le point de modifier un article d’aide `.md` sous `help/`, **ne modifiez pas encore le fichier**. Tout d’abord, affichez ce que vous prévoyez de modifier et attendez l’approbation explicite.
 
@@ -43,9 +43,9 @@ Pour les modifications qui s’étendent sur plusieurs articles : regroupez les 
 
 Cela ne bloque **pas** la recherche en lecture seule (grep, read) ou la rédaction/exploration dans le chat (aucune écriture de fichier).
 
----
+&#x200B;---
 
-# Messages de validation Git
+&#x200B;# Messages de validation Git
 
 Lors de la rédaction ou de la génération d’un message de validation Git, suivez ce format.
 
@@ -71,9 +71,9 @@ Add refresh token rotation to auth flow
 - ✏️ Update session middleware to rotate secrets and revoke old tokens.
 ```
 
----
+&#x200B;---
 
-# Requêtes d’extraction (PR)
+&#x200B;# Requêtes d’extraction (PR)
 
 ## Dérivation du problème Jira
 
