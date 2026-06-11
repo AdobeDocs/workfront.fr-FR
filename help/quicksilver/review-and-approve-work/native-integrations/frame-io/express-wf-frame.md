@@ -83,7 +83,7 @@ Les utilisateurs doivent disposer d’une licence Workfront standard pour demand
 [Lien nécessaire vers l’article d’aide Express sur la demande d’approbation]
 
 <!--
-Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+Learn how to [get approval on designs](https://helpx.adobe.com/fr/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
 -->
 
 ## Remix des modèles Express et envoi pour révision et approbation
@@ -106,7 +106,7 @@ Si aucun projet n’est sélectionné, la ressource est définie par défaut dan
 [Lien nécessaire vers l’article d’aide Express sur la demande d’approbation]
 
 <!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/fr/express/web/invite-collaborate/request-approval.html).
 -->
 
 ## Examinez et approuvez les fichiers remixés Express avec Frame.io
