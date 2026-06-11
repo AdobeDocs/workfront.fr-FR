@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 3%
 
 ---
@@ -254,11 +247,12 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >
    >  <div class="preview">
    >
-   >   * La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
-   >   * Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
-   >  * Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
+   >* La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
+   >* Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
+   >* Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
    >
    >  </div>
+1. <span class="preview">(Facultatif) Après modification de la demande, cliquez sur **Soumettre les modifications**.</span>
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
@@ -268,6 +262,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >* Si le champ principal de l’enregistrement n’a pas été mis à jour dans le formulaire de demande, le nom de l’enregistrement dans le champ Enregistrement de la demande s’affiche comme **Sans titre**.
    >
    >* Si le formulaire de demande est associé à une approbation, l&#39;approbation doit être accordée avant que vous puissiez accéder à l&#39;enregistrement à partir de la page de demande. L&#39;enregistrement n&#39;est pas créé tant que l&#39;approbation n&#39;a pas été accordée.
+   >  Pour plus d’informations sur l’approbation des demandes, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 1. (Facultatif) Cliquez sur le nom du **Type d’enregistrement**.
 
