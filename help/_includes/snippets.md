@@ -1,8 +1,8 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
-ht-degree: 64%
+source-wordcount: '2236'
+ht-degree: 63%
 
 ---
 # Extraits de code
@@ -120,7 +120,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
 >
->Si votre organisation a été intégrée à Adobe Admin Console, voir [&#x200B; Différences d’administration entre Adobe Workfront et Adobe Business Platform &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre organisation a été intégrée à Adobe Admin Console, voir [ Différences d’administration entre Adobe Workfront et Adobe Business Platform ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Étape 1 - Accéder à Utilisateurs et utilisatrices {#step-1-to-users}
 
@@ -290,13 +290,6 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Planning]**.
 
    La page de destination de la planification Workfront s’ouvre.
-
-1. (Facultatif et conditionnel) Si vous êtes un administrateur Workfront, cliquez sur l’un des onglets suivants :
-
-   * **Mes espaces de travail** : affiche les espaces de travail que vous avez créés.
-   * **Autres espaces de travail** : affiche tous les espaces de travail de la planification Workfront, y compris ceux partagés avec vous.
-
-   Pour l’ensemble des autres utilisateurs et utilisatrices, tous les espaces de travail que vous avez créés ou partagés avec vous s’affichent dans la zone **Espaces de travail**.
 
 ## Introduction importante de la planification Workfront - {#planning-important-intro}
 
@@ -482,8 +475,8 @@ Pour associer des utilisateurs et des utilisatrices à une équipe d’accueil 
 1. Dans la section **[!UICONTROL Organisation]**, sélectionnez le champ **[!UICONTROL Équipe principale]**. Commencez à taper le nom de l’équipe dont vous souhaitez associer les paramètres aux utilisateurs et utilisatrices. Cliquez sur le nom de l’équipe lorsque vous le voyez dans la liste.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-Les personnes que vous avez sélectionnées sont maintenant associées à une équipe interne.
-Tous les paramètres de l’équipe, y compris les statuts associés au bouton Terminé, sont désormais visibles par ces utilisateurs et utilisatrices.
+Les utilisateurs que vous avez sélectionnés sont désormais associés à une équipe interne.
+Tous les paramètres d’équipe, y compris les statuts associés au bouton Terminé, sont désormais visibles par ces utilisateurs.
 
 <!-- Timesheets -->
 
