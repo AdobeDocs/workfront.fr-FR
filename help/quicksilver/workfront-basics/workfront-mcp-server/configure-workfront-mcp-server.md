@@ -5,7 +5,7 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 
 
 # Configuration du serveur MCP Adobe Workfront
-
-{{highlighted-preview-article-level}}
 
 Le serveur MCP [!DNL Adobe Workfront] vous permet d’utiliser vos données Workfront par le biais d’une conversation en langage naturel sur une plateforme agentique d’IA prise en charge.
 
@@ -264,7 +262,7 @@ What happens next
 | L’instance Workfront à laquelle vous souhaitez vous connecter est grisée et un message vous indique qu’elle n’est pas disponible pour vous connecter dans votre région | Votre serveur MCP est configuré pour une région différente (UE ou États-Unis) de votre instance. | Configurez le serveur MCP avec l’URL de la région à laquelle votre instance Workfront est affectée. |
 | La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
-Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [ Utiliser le serveur Adobe Workfront MCP ](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 
 +++
