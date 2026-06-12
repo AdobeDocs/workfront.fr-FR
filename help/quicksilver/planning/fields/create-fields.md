@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
+source-wordcount: 5339
 ht-degree: 40%
 
 ---
@@ -440,20 +440,6 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou la page d&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Format de date** : type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
-
-     Sélectionnez l’un des formats suivants :
-      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
-      * **Standard** : 05/16/2023
-      * **Long** : 16 mai 2023
-      * **Européen** : 16/05/2023
-      * **ISO** : 2023-05-16
-   * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
-
-     Sélectionnez l’une des options suivantes :
-
-      * **24h** : par exemple : 18:00
-      * **12h** : Par exemple : 18:00
-
 
      En fonction de l’environnement dans lequel vous accédez aux champs, procédez comme suit :
 

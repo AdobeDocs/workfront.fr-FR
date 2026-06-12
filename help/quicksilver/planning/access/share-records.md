@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 1690
+source-wordcount: 1713
 ht-degree: 8%
 
 ---
@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * Vous pouvez partager des enregistrements avec les entités suivantes : personnes, groupes, équipes, entreprises ou fonctions.
+* Les restrictions suivantes existent :
+
+   * Impossible de partager plus de 100 enregistrements à la fois.
+   * Vous ne pouvez pas partager d&#39;enregistrements avec plus de 100 entités.
 * Si vous limitez les autorisations à un enregistrement, les utilisateurs ne verront plus cet enregistrement et les valeurs de ses champs de recherche où que ce soit dans le système où cet enregistrement s’affiche.
 * Workfront vérifie les autorisations d’enregistrement dans les connexions jusqu’à 5 enregistrements, en s’assurant que les utilisateurs voient uniquement les enregistrements partagés avec eux.
 * Vous pouvez accorder les niveaux d’autorisation suivants à un enregistrement :
