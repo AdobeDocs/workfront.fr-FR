@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
 workflow-type: tm+mt
-source-wordcount: 2586
+source-wordcount: 2626
 ht-degree: 21%
 
 ---
@@ -80,6 +80,14 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         <td><p>2 Avril 2026</p></td>
         <td><p>15 Avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Noms de fuseau horaire mis à jour</a><p>[!BADGE Hors planning]{type=Neutral}</p><p>Nous avons mis à jour les fuseaux horaires disponibles dans Workfront pour respecter les normes IANA. Cela garantit la compatibilité avec d’autres systèmes et la précision au fil du temps.</p>
+        </td>
+        <td><p>27 mars 2026</p></td>
+        <td><p>27 mars 2026</p></td>
+        <td><p>27 mars 2026</p></td>
     </tr>
     <tr>
         <td>
