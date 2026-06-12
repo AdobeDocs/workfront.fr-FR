@@ -5,10 +5,10 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 9%
+source-wordcount: '1624'
+ht-degree: 8%
 
 ---
 
@@ -68,6 +68,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Créer ou mettre à jour un workflow d’approbation | `approvals_create_or_update_approval_workflow` | Crée ou met à jour les étapes d&#39;un workflow d&#39;approbation pour une version de document. Prend en charge les dépendances d’étape linéaires et parallèles (graphique). | Write |
 | Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d&#39;approbation sur un document à partir d&#39;un modèle existant. | Write |
 | Supprimer l’étape d’approbation | `approvals_delete_approval_stage` | Supprime une seule étape d&#39;un workflow d&#39;approbation par nom ou par position. Seules les étapes non démarrées peuvent être supprimées. | Write |
+| Ajouter et supprimer des participants pour une approbation en bloc | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Ajoute ou supprime des participants à plusieurs validations en même temps. Actuellement, les mises à jour en bloc ne peuvent être appliquées que sur un seul projet. Des mises à jour en bloc concernant plusieurs projets seront disponibles dans un avenir proche. | Write |
 
 <!--
 | Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
