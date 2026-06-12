@@ -6,16 +6,13 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
 TQID: https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: 105
-ht-degree: 57%
+source-wordcount: 109
+ht-degree: 55%
 
 ---
 
@@ -27,8 +24,8 @@ Découvrez des conseils de dépannage et des réponses aux questions les plus fr
 
 * [Votre guide rapide pour trouver de l’aide dans  [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Contacter l’assistance clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-* [Communauté  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-* [Site du statut  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+* [Communauté  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+* [Site du statut  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 * [[!UICONTROL Innovation Lab]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [Travailler sur plusieurs fuseaux horaires](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [Dépannage des problèmes d’autorisations de gestion [!DNL Workfront] [!UICONTROL Proof]](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
@@ -37,3 +34,4 @@ Découvrez des conseils de dépannage et des réponses aux questions les plus fr
 * [Le filtre Projets auxquels je participe inclut des résultats inattendus.](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [Plusieurs onglets du navigateur entraînent la déconnexion de Workfront](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [Partage d’objets sans générer de notifications](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [Noms de fuseau horaire mis à jour](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
