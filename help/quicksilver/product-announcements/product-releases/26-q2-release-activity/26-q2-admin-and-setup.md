@@ -8,21 +8,15 @@ exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 11%
+source-wordcount: 573
+ht-degree: 10%
 
 ---
 
@@ -43,6 +37,18 @@ Pour vous permettre de bénéficier plus facilement de l’IA dans votre travail
 Actuellement, la révision de contenu est le seul collaborateur d’IA disponible. D’autres fonctionnalités AI Collaborator seront disponibles à l’avenir.
 
 Pour plus d’informations, voir [Configuration des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Noms de fuseau horaire mis à jour
+
+>[!NOTE]
+>
+>Aperçu : 27 mars 2026>Version rapide de production : 27 mars 2026>Production pour tous : 27 mars 2026
+
+Nous avons mis à jour les fuseaux horaires disponibles dans Workfront pour respecter les normes IANA. Cela garantit la compatibilité avec d’autres systèmes et la précision au fil du temps.
+
+Dans le cadre de cette modification, certains fuseaux horaires précédemment disponibles dans Workfront ont été remplacés par des fuseaux horaires IANA standard.
+
+Pour obtenir la liste de ces modifications, voir [Noms de fuseau horaire mis à jour](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md).
 
 ## Les trimestres personnalisés sont désormais disponibles dans la configuration sous la forme d’une page distincte
 
