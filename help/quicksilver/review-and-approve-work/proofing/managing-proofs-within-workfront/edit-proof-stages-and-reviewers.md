@@ -16,10 +16,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 94%
+source-wordcount: 608
+ht-degree: 88%
 
 ---
 
@@ -105,6 +105,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Si le réviseur ou la réviseuse que vous supprimez a déjà pris une décision concernant l’épreuve, le champ Décision de l’approbateur de cet utilisateur affiche un trait d’union (-) dans le rapport Approbation de l’épreuve . Pour plus d&#39;informations, voir [La décision de l&#39;approbateur présente un trait d&#39;union dans le rapport Approbation de l&#39;épreuve](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
 ## Modifier les détails du réviseur ou de la réviseuse
 

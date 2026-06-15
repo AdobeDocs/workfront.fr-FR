@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 96%
+source-wordcount: 310
+ht-degree: 77%
 
 ---
 
@@ -85,5 +85,9 @@ Vous pouvez ajouter les champs suivants au rapport d’approbation des épreuves
    * L’épreuve est en attente d’approbation.
 
 * **Date d’échéance pour la relecture** : affiche la date d’échéance de l’épreuve. Chaque étape doit être assortie d’une date d’échéance pour que ce champ soit renseigné. Le champ affiche la date d’échéance de la dernière étape activée.
+
+## À propos du champ Décision de l&#39;approbateur
+
+Le champ Décision de l&#39;approbateur affiche la décision d&#39;un destinataire sur le BAT. Dans certains cas, ce champ affiche un trait d’union (-) au lieu d’une valeur de décision, ce qui indique que le destinataire n’a plus de rôle décisionnel sur le BAT. Pour plus d&#39;informations, voir [La décision de l&#39;approbateur présente un trait d&#39;union dans le rapport Approbation de l&#39;épreuve](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
  

@@ -13,10 +13,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
-source-wordcount: 106
-ht-degree: 100%
+source-wordcount: 116
+ht-degree: 91%
 
 ---
 
@@ -31,3 +31,4 @@ Cette section contient les articles suivants :
 * [Le nom du document a changé après le chargement et contient un caractère non valide](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Relire un PowerPoint avec une vidéo incorporée](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
 * [Les versions d’épreuves ne peuvent pas être téléchargées ou prévisualisées lorsqu’une épreuve interactive est ajoutée en tant que nouvelle version.](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+* [La décision de l&#39;approbateur affiche un tiret dans le rapport Approbation de l&#39;épreuve](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
