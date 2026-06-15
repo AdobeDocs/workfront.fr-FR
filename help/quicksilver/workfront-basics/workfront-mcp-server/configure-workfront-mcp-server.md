@@ -5,9 +5,9 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,15 @@ Pour connecter Workfront à [!DNL Claude] :
 
 +++
 
-### Se connecter au bureau Claude avec une URL
+### Se connecter à Claude avec une URL
 
 +++ Développez pour afficher les instructions détaillées permettant de connecter Workfront à [!DNL Claude] avec une URL.
+
+>[!NOTE]
+>
+>Pour effectuer cette procédure, vous devez être propriétaire dans un environnement Claude d’entreprise.
+>
+>Pour l’instruction de Claude sur l’exigence du propriétaire, voir [ Ajouter un connecteur personnalisé ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
 
 Pour connecter Workfront à [!DNL Claude] avec une URL :
 
@@ -118,7 +124,7 @@ Pour connecter Workfront à [!DNL Claude] avec une URL :
 
 1. Une fois le connecteur créé, une fenêtre de connexion s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Veillez à sélectionner l’instance Workfront souhaitée si vous appartenez à plusieurs instances.
 
-   >NOTE :
+   >[!NOTE]
    >
    >Votre instance Workfront doit se connecter au serveur MCP correspondant à la région pour cette instance. Par exemple, une instance UE doit se connecter au serveur MCP UE.
    >
@@ -150,7 +156,7 @@ Pour en savoir plus sur les compétences [!DNL Claude], consultez la documentati
 1. Assurez-vous que l’authentification est définie sur **OAuth** (défini par défaut), puis cochez la case d’acceptation pour continuer.
 1. Une fois l’application créée, une fenêtre de connexion s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Veillez à sélectionner l’instance Workfront souhaitée si vous appartenez à plusieurs instances.
 
-   >NOTE :
+   >[!NOTE]
    >
    >Votre instance Workfront doit se connecter au serveur MCP correspondant à la région pour cette instance. Par exemple, une instance UE doit se connecter au serveur MCP UE.
    >
@@ -262,7 +268,7 @@ What happens next
 | L’instance Workfront à laquelle vous souhaitez vous connecter est grisée et un message vous indique qu’elle n’est pas disponible pour vous connecter dans votre région | Votre serveur MCP est configuré pour une région différente (UE ou États-Unis) de votre instance. | Configurez le serveur MCP avec l’URL de la région à laquelle votre instance Workfront est affectée. |
 | La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
-Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [ Utiliser le serveur Adobe Workfront MCP ](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 
 +++
