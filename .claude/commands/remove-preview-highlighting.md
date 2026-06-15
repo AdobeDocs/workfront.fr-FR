@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 377568941333b399585a70ee023f30a23618b624
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Appliquer uniquement lorsque **tous** sont vrais :
 1. L’utilisateur a appelé ce workflow (par exemple, dit **« supprimer la mise en surbrillance de l’aperçu »** ou clairement dans le même but).
 2. Le chemin d’accès au fichier Markdown ne contient **pas** de **`product-announcements`** (excluez l’arborescence complète des dossiers, par exemple les notes de mise à jour, les versions bêta, les annonces sous `help/quicksilver/product-announcements/`).
 3. Le fichier Markdown est **non** répertorié sous **[Chemins exclus](#excluded-paths)** ci-dessous.
-4. Le contenu principal du fichier Markdown comprend des **`Courtney`** sur la ligne de `author:` (auteur unique ou co-auteur).
+4. Le fichier Markdown apparaît en `git log` comme validé par Courtney au cours de la période spécifiée par l’utilisateur (voir Étape d’inventaire).
 5. L’article contient **au moins l’un** :
    - Aperçu-environnement **langage dans des paragraphes de corps en prose ou de fragments de code** (modèles standard : « informations mises en évidence », « environnement d’aperçu », « pas encore disponible pour tous », notes de mise à jour rapides)—**pas** une correspondance provenant de **texte du lien** sur une page de table des matières/d’index (voir ci-dessous) ; ou
    - tout élément HTML avec **`class="preview"`** (par exemple, `<span class="preview">`, `<div class="preview">`) ; ou
@@ -40,7 +40,24 @@ Ne les ajoutez jamais à l’inventaire ou ne les modifiez jamais dans ce workfl
 Ne modifiez **pas** référentiel en bloc sans approbation.
 
 1. **Inventaire**\
-   Créez une liste triée de chemins d’accès qui respectent les règles d’étendue ci-dessus (recherchez le référentiel ; préférez `help/` arborescences). **Omettre** tout chemin sous **`product-announcements`**, tout chemin sous **[Chemins exclus](#excluded-paths)** et toute **Table des matières/index** page correspondant **Table des matières/pages d’index** sous Portée. Si l’utilisateur indique qu’un fichier répertorié ne dispose pas de mise en surbrillance de l’aperçu, supprimez-le de l’exécution et resserrez les critères plutôt que de forcer les modifications.
+   a. **Demandez à l’utilisateur quelle version trimestrielle** il supprime la mise en surbrillance de l’aperçu pour (par exemple, « T3 2026 » ou « 2026.07 »).\
+   b. **Récupérez le calendrier des versions** à partir de `https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar` à l’aide de l’outil MCP adobe-wiki. Rechercher :
+   - La **Date de publication de production** de la version trimestrielle **précédente** → `--since`.
+   - La **Date de publication de production** de la `--until` de → trimestrielle **cible**.
+   - Les versions trimestrielles sont identifiées par la colonne « Nom de la version trimestrielle » (par exemple, 2026.01, 2026.04, 2026.07, 2026.10).
+   - **Si la date actuelle se situe au 4e trimestre (octobre à décembre) :** après avoir récupéré le calendrier de l’année en cours, demandez à l’utilisateur de fournir l’URL du calendrier des versions de l’année suivante, puis récupérez-la également afin que toutes les dates de production trimestrielles nécessaires soient disponibles.
+c. Exécutez les opérations suivantes, en utilisant les dates de publication de production de l’étape b :
+
+   ```
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="Courtney" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u
+   ```
+
+
+   d. À partir de ces résultats, **filtrez les fichiers qui contiennent** au moins l’un des éléments suivants : `class="preview"`, `{{highlighted-preview` ou aperçu en prose standard (grep pour `highlighted information\|Preview environment\|not yet generally available`).\
+   e. **Omettre** tout chemin sous **`product-announcements`**, tout chemin **[Exclu](#excluded-paths)** et toute page **Table des matières/index** selon la règle de table des matières ci-dessus.\
+   f. Présentez la liste triée résultante. Si l’utilisateur indique qu’un fichier répertorié ne dispose pas de mise en surbrillance de l’aperçu, supprimez-le de l’exécution et resserrez les critères plutôt que de forcer les modifications.
 
 2. **Début**\
    Demandez-lui s’il faut commencer par le **premier** article de la liste (ou par un chemin d’accès aux noms d’utilisateur).
