@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Présentez la liste des candidats à l’utilisateur. Demandez lequel mettre à 
 Lisez `help/_includes/snippets.md` et choisissez par disponibilité :
 
 | Disponibilité | Extrait de code |
-|---|---|
+| --- | --- |
 | Aperçu uniquement — le contenu mis en surbrillance est nouveau dans un article autrement généralement disponible | `{{highlighted-preview}}` |
 | Aperçu uniquement — l&#39;article entier est nouveau | `{{highlighted-preview-article-level}}` |
 | Aperçu + clients de version rapide, en général | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ Pour chaque article de la liste confirmée par l’utilisateur :
 ### &#x200B;5. Après chaque article
 
 Demandez s’il faut passer à l’article suivant, arrêter, ignorer ou revoir l’article actuel.
+
+### &#x200B;6. Fin de session — copier/coller la note de mise à jour
+
+Lorsque l’utilisateur termine la session (dit « terminé », « c’est tout », « arrête » ou refuse de passer à l’article suivant), demandez :
+
+> « Vous souhaitez copier/coller une entrée de note de mise à jour pour la page d’amélioration ? »
+
+Si oui, générez un brouillon à l’aide du contexte de la fonctionnalité de l’étape 1 et de l’article d’aide principal mis à jour au cours de cette session. **Ne l’écrivez dans aucun fichier** — fournissez-le uniquement sous forme de texte à copier/coller.
+
+Mettez en forme l’entrée pour qu’elle corresponde à la structure de page de la zone de produit à partir de la compétence **formateur de notes de mise à jour** :
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+Règles :
+
+- Utilisez `TBD` pour toute date non encore connue ; demandez à l’utilisateur s’il possède les dates.
+- Le nom de la fonction est une casse de phrase (mettez uniquement en majuscules le premier mot et les noms propres).
+- La description doit se concentrer sur ce que les utilisateurs peuvent désormais faire, et non les détails d’implémentation.
+- Lien vers l’article pratique le plus spécifique mis à jour, et non vers une page d’aperçu.
+- N’incluez pas de bloc de date `>[!NOTE]` si toutes les dates sont inconnues et que l’utilisateur ne souhaite pas d’espaces réservés. Omettez-le et notez qu’il doit être ajouté ultérieurement.
 
 ## Règles de contenu
 
