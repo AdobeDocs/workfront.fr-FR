@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 62%
+source-wordcount: 1419
+ht-degree: 64%
 
 ---
 
@@ -187,18 +187,14 @@ Vous pouvez créer un projet à partir de la zone Projets du menu principal, ou 
       >
       >* L’utilisation d’un modèle de stockage Workfront hérité crée un projet de stockage Workfront hérité.
       >
-      >* Lorsque vous utilisez un modèle de stockage dans le cloud Adobe à partir d’un portfolio ou d’un programme de stockage Workfront hérité, le projet est un projet de stockage dans le cloud Adobe et le portfolio ou le programme est également converti en objets de stockage dans le cloud Adobe. Tous les autres projets de stockage Workfront hérités du même portefeuille ou programme restent inchangés.
+      >* Lors de la création de projets à l’aide de modèles provenant d’un portfolio ou d’un programme, les scénarios suivants existent :
+      >     * Vous ne pouvez pas utiliser un modèle de stockage dans le cloud Adobe d’un portfolio ou programme de stockage Workfront hérité pour créer un projet.
+      >     * Vous pouvez créer un projet de stockage dans le cloud Adobe pour un portfolio ou un programme de stockage Adobe à l’aide d’un modèle de stockage hérité. Les documents et dossiers de modèle ne sont pas joints au nouveau projet.
       >
       > Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
       >
       >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-
-      Pour la version d’aperçu/de production : la troisième puce de la NOTE ci-dessus devra être réécrite :
-
-      >* Lors de la création de projets à l’aide de modèles provenant d’un portfolio ou d’un programme, les scénarios suivants existent :
-      >  * Vous ne pouvez pas utiliser un modèle de stockage dans le cloud Adobe d’un portfolio ou programme de stockage Workfront hérité pour créer un projet.
-      >  * Vous pouvez créer un projet de stockage dans le cloud Adobe pour un portfolio ou un programme de stockage Adobe à l’aide d’un modèle de stockage hérité. Les documents et dossiers de modèle ne sont pas joints au nouveau projet.
 
    1. Consultez les détails du modèle suivant sur la droite :
 

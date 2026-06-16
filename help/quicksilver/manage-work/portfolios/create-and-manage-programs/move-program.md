@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 34%
+source-wordcount: 289
+ht-degree: 45%
 
 ---
 
@@ -99,21 +99,10 @@ Old:
 
 >[!NOTE]
 >
->Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent :
->
->
->* Lorsque vous ajoutez un programme de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité et que ce portfolio n’est associé à aucun document, le portfolio est converti en stockage dans le cloud Adobe.
->* Lorsque vous ajoutez un programme de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée ![icône de stockage Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
->* Vous ne pouvez pas ajouter un ancien programme de stockage Workfront à un portefeuille de stockage dans le cloud Adobe.
->
+>Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, vous ne pouvez pas ajouter un programme de stockage cloud Adobe à un portefeuille de stockage hérité, ni un programme hérité à un portefeuille de stockage cloud Adobe.
+>Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 >
->Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 Pour ajouter un programme existant à un autre portefeuille :
 
