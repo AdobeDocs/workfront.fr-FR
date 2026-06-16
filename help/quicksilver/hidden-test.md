@@ -2,35 +2,24 @@
 title: Test caché
 description: test caché
 hide: true
-hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26100d45462943a833c9362a139f8cc68d30b5ed
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 615
 ht-degree: 49%
 
 ---
 
 # Test caché
 
-Ne conserver que pour l’aperçu
-
-Puisse la 4ème Abeille avec U
-
 Fichier masqué utilisé pour tester les heures de publication dans un référentiel plus volumineux.
 
 Contactez Bob s’il y a des problèmes.
+
+
+Logo ![](assets/adobe-logo-old.png)
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
@@ -238,7 +227,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
    <td> 
 <p>Tout package de workflow Adobe Workfront et tout package Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plateforme Adobe Workfront (**&#x200B;**&#x200B;voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plateforme Adobe Workfront (****voulons-nous l’appeler ou simplement l’inclure dans l’article lié en bas ???*****)</p></td> 
    <td> 
 <p>L’instance de Workfront de votre organisation doit être intégrée à l’expérience unifiée Adobe pour pouvoir accéder à Workfront Planning.</p> 
 <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience pour Workfront</a>. </p> 
