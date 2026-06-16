@@ -9,22 +9,15 @@ exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EyxmgHO7j8VmDleBabPYGXsZmjNr-3h8r9-ujvK4DcE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 44%
+source-wordcount: 640
+ht-degree: 47%
 
 ---
 
@@ -174,22 +167,16 @@ old:
       >Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent :
       >
       >
-      >* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un programme de stockage Workfront hérité et qu’aucun document n’est associé au programme, le programme et son portfolio sont convertis en objet de stockage dans le cloud Adobe.
-      >* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un programme de stockage Workfront hérité et que des documents sont associés au programme ou au portfolio, le stockage du programme ou du portfolio des documents reste sur le stockage Workfront. Cependant, l’icône d’enregistrement Workfront héritée ![icône d’enregistrement Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du programme ou du portfolio (selon les documents joints avant le déplacement du projet).
-      >* Vous ne pouvez pas ajouter un projet de stockage Workfront hérité à un programme de stockage dans le cloud Adobe.
+      >* Vous ne pouvez pas ajouter un projet de stockage hérité à un programme de stockage cloud Adobe, ni un projet de stockage cloud Adobe à un programme de stockage hérité.
+      >* Vous ne pouvez pas créer de projet à partir d’un modèle de stockage dans le cloud Adobe dans un programme de stockage hérité.
+      >* Vous pouvez créer un projet à partir d’un modèle de stockage hérité dans un programme de stockage dans le cloud Adobe, mais les documents et dossiers du modèle ne sont pas ajoutés au nouveau projet. Le projet reçoit l’espace de stockage cloud Adobe.
       >
       >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
       >
       >Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
 
 
-      <!--
-        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-        -->
+
 
    1. (Facultatif) Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en regard du nom d’un projet si vous décidez de ne pas l’ajouter au programme.
 

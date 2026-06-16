@@ -9,19 +9,14 @@ exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LkyWuPHqv0muTinWZT1PMKPGUNErWulIIxHmXVtPIVg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 34%
+source-wordcount: 289
+ht-degree: 45%
 
 ---
 
@@ -99,21 +94,10 @@ Old:
 
 >[!NOTE]
 >
->Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent :
->
->
->* Lorsque vous ajoutez un programme de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité et que ce portfolio n’est associé à aucun document, le portfolio est converti en stockage dans le cloud Adobe.
->* Lorsque vous ajoutez un programme de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée ![icône de stockage Workfront héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
->* Vous ne pouvez pas ajouter un ancien programme de stockage Workfront à un portefeuille de stockage dans le cloud Adobe.
->
+>Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, vous ne pouvez pas ajouter un programme de stockage cloud Adobe à un portefeuille de stockage hérité, ni un programme hérité à un portefeuille de stockage cloud Adobe.
+>Votre instance Workfront peut ne pas avoir les deux types de stockage de documents.
 >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 >
->Toutes les instances Workfront ne possèdent pas les deux types de stockage de documents.
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 Pour ajouter un programme existant à un autre portefeuille :
 
