@@ -122,7 +122,7 @@ Les clients peuvent avoir accès à l’une des fonctionnalités de stockage de 
 
 Les documents stockés sur des objets dans l’espace de stockage Workfront sont gérés différemment de ceux stockés dans l’espace de stockage cloud Adobe.
 
-Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Les sections suivantes décrivent le fonctionnement du stockage de documents pour les objets Workfront lorsque les options de stockage dans le cloud Workfront et Adobe existent dans le même environnement.
 
@@ -148,7 +148,7 @@ Tenez compte des points suivants lorsque vous utilisez des portfolios :
 * Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée pour le portfolio ![icône de stockage de portfolio héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
 * Vous ne pouvez pas ajouter un projet de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un projet de stockage hérité à un portefeuille de stockage Adobe.
 * Votre administrateur peut convertir un portefeuille de stockage hérité en stockage cloud Adobe dans les Préférences système de la Configuration. Tous les objets enfants (programmes, projets et documents) restent dans le stockage hérité. Les nouveaux projets utiliseront l’espace de stockage dans le cloud d’Adobe. Les nouveaux documents ajoutés au portfolio continueront à être stockés dans l’espace de stockage hérité.
-Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Lorsque vous créez des portfolios à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le portefeuille. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
