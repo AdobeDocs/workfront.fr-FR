@@ -5,9 +5,9 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f47b9ade625541cd095ee4fd7abb14b9295c4a9c
+source-git-commit: 3f59326d26a8c9ccd88f14d7d6459e486fcfe8c9
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1747'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Vous vous connectez à Workfront une fois par compte [!DNL Claude]. La connexion
 
 >[!IMPORTANT]
 >
->Actuellement, le connecteur Claude ne prend en charge que la connexion au serveur MCP Workfront dans la région des États-Unis.  Pour vous connecter à une instance Workfront dans la région UE, consultez la section [Se connecter au bureau Claude avec une URL](#connect-to-claude-desktop-with-a-url) dans cet article.
+>Actuellement, le connecteur Claude ne prend en charge que la connexion au serveur MCP Workfront dans la région des États-Unis.  Pour vous connecter à une instance Workfront dans la région UE, consultez la section [Se connecter à Claude avec une URL](#connect-to-claude-with-a-url) dans cet article.
 
 +++ Développez pour afficher les instructions détaillées relatives à la connexion de Workfront à [!DNL Claude].
 
