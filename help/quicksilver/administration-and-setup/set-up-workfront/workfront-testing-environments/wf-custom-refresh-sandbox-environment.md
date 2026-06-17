@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
-ht-degree: 80%
+source-wordcount: 1828
+ht-degree: 78%
 
 ---
 
@@ -77,6 +77,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Actualiser le sandbox à actualisation personnalisée
 
 Le sandbox à actualisation personnalisée contient vos données de production réelles et ne s’actualise pas tant que vous ne le planifiez pas. Vous pouvez planifier une actualisation au moment qui vous convient, jusqu’à une fois par semaine.
+
+>[!IMPORTANT]
+>
+>Actualisation personnalisée Les environnements Sandbox sont actualisés à partir de votre environnement de production uniquement. Il n’existe aucun processus pour effectuer une restauration ponctuelle pour les environnements sandbox. Pour mettre à jour les données de votre sandbox, planifiez une actualisation standard à partir de l’environnement de production.
 
 >[!NOTE]
 >
