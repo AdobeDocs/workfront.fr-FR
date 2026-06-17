@@ -9,24 +9,15 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ue8QlqaB8O8dJ6mVw9t660r82Xl4K6jGgVPWW6L0YNc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
-ht-degree: 72%
+source-wordcount: 1266
+ht-degree: 71%
 
 ---
 
@@ -114,7 +105,7 @@ Old:
    * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
    * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
    * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
+   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage dans le cloud Adobe. Les documents et leurs approbations sont conservés pour le projet en cours.
 
      Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +113,7 @@ Old:
      >
      >Votre instance Workfront peut ne pas avoir accès aux deux types de stockage de documents.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * Le statut et le pourcentage terminé de toutes les sous-tâches et de tous les problèmes sont conservés.
 * Les personnes affectées à la tâche et l’utilisateur qui convertit la tâche en projet deviennent des utilisateurs partagés sur le projet.
 * La date de début du projet correspond à la date de début de la tâche.
@@ -243,7 +231,7 @@ Old:
    * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles**
 
-     ![&#x200B; Menu déroulant de l’option Convertir la tâche en modèle de projet &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ Menu déroulant de l’option Convertir la tâche en modèle de projet ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :
