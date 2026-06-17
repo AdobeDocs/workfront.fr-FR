@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 958
-ht-degree: 0%
+source-wordcount: 1004
+ht-degree: 1%
 
 ---
 
@@ -99,9 +99,17 @@ Les objets Workfront incluent les portfolios, les programmes, les projets, les m
 
 ### Déplacer, copier et convertir des objets
 
-Vous pouvez déplacer, copier et convertir des objets Workfront entre des modèles de stockage similaires. Par exemple, vous pouvez déplacer une tâche d’un projet d’espace de stockage dans le cloud Adobe vers un autre projet d’espace de stockage dans le cloud Adobe. Vous ne pouvez pas déplacer une tâche d’un projet de stockage dans le cloud Adobe vers un projet de stockage Workfront hérité.
+Dans la plupart des scénarios, vous pouvez déplacer, copier et convertir des objets Workfront entre des modèles de stockage similaires. Par exemple, vous pouvez déplacer une tâche d’un projet d’espace de stockage dans le cloud Adobe vers un autre projet d’espace de stockage dans le cloud Adobe.
 
-Ces actions sont disponibles à partir du menu Plus sur une tâche ou un événement. Chaque action respecte l’intégrité du document, l’héritage des autorisations et les règles de stockage dans le cloud d’Adobe.
+Dans trois cas spécifiques, vous pouvez convertir un objet de stockage Workfront hérité en espace de stockage Adobe :
+
+* Convertissez une tâche de stockage Workfront héritée en projet de stockage dans le cloud Adobe.
+* Convertissez un ancien portfolio de stockage Workfront en portfolio de stockage dans le cloud Adobe.
+* Créez un projet de stockage dans le cloud Adobe à partir d’un modèle de stockage Workfront hérité.
+
+Les documents et les dossiers de documents ne passent pas de l’ancien stockage Workfront à l’espace de stockage Adobe dans le cloud pendant aucune de ces conversions.
+
+Pour plus d’informations, voir [Portabilité des objets](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) dans [Déplacement vers Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Activer le stockage dans le cloud d’Adobe
 

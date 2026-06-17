@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 933
-ht-degree: 59%
+source-wordcount: 964
+ht-degree: 57%
 
 ---
 
@@ -152,6 +152,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader">Activer le stockage dans le cloud d’Adobe </td> 
       <td>Permet de choisir d’activer ou de désactiver l’espace de stockage dans le cloud Adobe pour l’ensemble de l’organisation ou pour des groupes spécifiques. Pour plus d’informations sur l’espace de stockage dans le cloud d’Adobe, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Activer l’espace de stockage dans le cloud Adobe pour votre organisation</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Sélectionner les portefeuilles à convertir en espace de stockage Adobe </td> 
+      <td>Permet de convertir des portfolios de stockage Workfront hérités existants en stockage dans le cloud Adobe. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Conversion de portefeuilles hérités en espace de stockage Adobe</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Activer l’IA </td> 
