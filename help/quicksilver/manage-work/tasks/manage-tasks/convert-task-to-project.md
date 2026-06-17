@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
-ht-degree: 72%
+source-wordcount: 1266
+ht-degree: 71%
 
 ---
 
@@ -114,7 +114,7 @@ Old:
    * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
    * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
    * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
+   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage dans le cloud Adobe. Les documents et leurs approbations sont conservés pour le projet en cours.
 
      Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +122,7 @@ Old:
      >
      >Votre instance Workfront peut ne pas avoir accès aux deux types de stockage de documents.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * Le statut et le pourcentage terminé de toutes les sous-tâches et de tous les problèmes sont conservés.
 * Les personnes affectées à la tâche et l’utilisateur qui convertit la tâche en projet deviennent des utilisateurs partagés sur le projet.
 * La date de début du projet correspond à la date de début de la tâche.

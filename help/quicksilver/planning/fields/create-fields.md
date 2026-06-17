@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
 source-wordcount: 5339
 ht-degree: 40%
@@ -697,8 +697,13 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur à u
    >    Si vous sélectionnez Autoriser plusieurs valeurs et que plusieurs personnes sont stockées dans les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner le paramètre à l’avenir lors de la modification de ce champ.
 
    <!--
-    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
+    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default users as they update this field.(********** and update all screen shots on this page ******) </span>
+
+    >[!TIP]
+    >
+    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.
     -->
+
 
 1. Cliquez sur **Créer**.
 
