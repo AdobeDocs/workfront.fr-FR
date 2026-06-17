@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,24 @@ Cette page décrit les améliorations apportées aux documents avec la version d
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Demander l’approbation des modèles Adobe Express avec Workfront et Frame.io
+
+>[!NOTE]
+>
+>Aperçu : S/O>Mise à jour rapide de la production : 15 juin 2026>Production pour tous : 15 juin 2026>[!BADGE En dehors des horaires]{type=Neutral}
+
+L’intégration d’Adobe Express et de Workfront avec Frame.io permet la révision et l’approbation structurées du contenu créé dans Adobe Express. Les concepteurs peuvent mapper un modèle de workflow d’approbation Workfront à un modèle Express. Ainsi, lorsque le modèle est remixé, une approbation est automatiquement requise avant la publication, c’est-à-dire le routage de la ressource via le workflow Workfront préconfiguré et la visionneuse Frame.io.
+
+Grâce à cette intégration, vous pouvez :
+
+* Rationalisez la collaboration entre les équipes créatives, juridiques et de conformité afin de réduire le temps de publication tout en maintenant la surveillance
+* Effectuez des révisions approfondies à l&#39;aide de balises de dessin, d&#39;annotations et de commentaires dans la visionneuse Frame.io
+* Respectez les normes de conformité d’entreprise avec des signatures électroniques et des journaux d’audit complets
+* Demander l&#39;approbation sur tous les fichiers remixés à partir d&#39;un modèle de marque Express
+* Mappez un modèle Express à un workflow de révision et d’approbation à plusieurs étapes à l’aide de modèles d’approbation unifiés dans Workfront
+* Sélectionnez un projet Workfront lors de la demande d’approbation afin que les ressources et les épreuves associées restent organisées ensemble
+
+Pour plus d’informations, voir [Prise en main d’Adobe Express et de Workfront avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md).
 
 ## Imprimer le résumé des documents dans la nouvelle zone Documents
 
