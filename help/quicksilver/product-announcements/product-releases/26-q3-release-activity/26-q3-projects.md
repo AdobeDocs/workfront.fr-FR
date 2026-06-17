@@ -4,10 +4,10 @@ description: Améliorations du projet au troisième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 84810b21d5dfa6183f0e3e63450623a4163f0b54
+source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
@@ -17,43 +17,41 @@ Cette page décrit les améliorations apportées par Project à l’environnemen
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
 
-## Convert a legacy storage task to an Adobe cloud storage project
 
->[!NOTE]
->
->Preview: June 11, 2026
->Production for everyone: June 12, 2026
-
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
-When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.
-
-Previously, tasks could only be converted to projects using the same storage type.
-
-For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-## Use a legacy storage template to create an Adobe cloud storage project
-
--->
-
-<!--
+## Convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>Aperçu : 11 juin 2026>Production pour tous : 12 juin 2026
 
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in the following scenarios:
+Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.
+Dans ce cas, les documents et les approbations de documents restent dans l’objet parent plutôt que d’être transférés vers le projet nouvellement créé.
 
-* Creating a project outside of a portfolio with a legacy template: You can choose to create the project on Adobe cloud storage instead. Legacy storage documents and folders from the template are not carried over to the new project.
-* Creating a project inside an Adobe cloud storage portfolio: The project is automatically created on Adobe cloud storage, regardless of the template's storage type. Projects must use the same storage as their parent portfolio.
+Auparavant, les tâches ne pouvaient être converties en projets qu’en utilisant le même type de stockage.
 
-Previously, Legacy storage templates could only be used to create Legacy storage projects.
+Pour plus d’informations, voir [Convertir une tâche en projet](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
-For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+## Utiliser un modèle de stockage hérité pour créer un projet d’espace de stockage dans le cloud Adobe
 
--->
+
+
+
+
+>[!NOTE]
+>
+>Aperçu : 11 juin 2026>Production pour tous : 11 juin 2026
+
+Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais utiliser un modèle de stockage hérité pour créer un projet de stockage dans le cloud Adobe dans les scénarios suivants :
+
+* Création d’un projet en dehors d’un portfolio avec un modèle hérité : vous pouvez choisir de créer le projet sur l’espace de stockage dans le cloud Adobe. Les documents et dossiers de stockage hérités du modèle ne sont pas transférés vers le nouveau projet.
+* Création d’un projet dans un portfolio de stockage dans le cloud Adobe : le projet est automatiquement créé sur le stockage dans le cloud Adobe, quel que soit le type de stockage du modèle. Les projets doivent utiliser le même stockage que leur portefeuille parent.
+
+Auparavant, les modèles de stockage hérités ne pouvaient être utilisés que pour créer des projets de stockage hérités.
+
+Pour plus d’informations, voir [Créer des projets](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+
+
 
 
 

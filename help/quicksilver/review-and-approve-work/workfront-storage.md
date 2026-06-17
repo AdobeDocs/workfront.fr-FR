@@ -6,9 +6,9 @@ description: Planifiez le déploiement de Workfront sur l’espace de stockage c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2702'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Le tableau suivant résume les principales différences lors du passage à l’e
 | [Mappage des autorisations d’objet](#object-permissions-mapping) | Les autorisations de gestion de Workfront et de contribution sont toutes deux mappées à Modifier et partager dans Frame.io. Affichez les mappages en commentaire uniquement. | Les autorisations sont gérées dans Workfront. Les utilisateurs des fonctions Gérer et Contribuer bénéficient de la fonctionnalité de partage externe de Frame.io. |
 | [Observateur de révision et d’approbation](#review-and-approval-viewer) | La visionneuse Frame.io remplace la visionneuse de relecture Workfront. | Inclus pour tous les utilisateurs de Workfront, y compris les utilisateurs externes affectés à une révision ou une approbation. Prend en charge les balises, les commentaires horodatés, l’historique des versions, les appareils mobiles, plus de 40 formats, les fichiers jusqu’à 500 Go. |
 | [Règles de dénomination des objets](#object-naming-rules) | Des règles de nommage strictes s’appliquent : noms uniques dans un portfolio ou un projet, aucun caractère spécial, aucune période ou espace de fin, limite de 255 caractères. | Workfront renomme automatiquement les objets en cas de conflit. Modèles d’audit qui génèrent de nouveaux noms et une nouvelle structure de projet. |
-| [Portabilité des objets](#object-portability) | Vous ne pouvez déplacer, copier et convertir des objets qu’entre des modèles de stockage similaires. | Les objets de stockage dans le cloud Adobe ne peuvent pas être déplacés vers des projets hérités, ou l’inverse. Le déplacement d’un projet d’espace de stockage dans le cloud Adobe vers un portfolio ou un programme hérité convertit le parent en espace de stockage dans le cloud Adobe. |
+| [Portabilité des objets](#object-portability) | Dans la plupart des scénarios, vous ne pouvez déplacer, copier et convertir des objets qu’entre des modèles de stockage similaires. | Vous pouvez convertir un objet hérité en espace de stockage Adobe dans trois cas spécifiques. Les documents et les dossiers de documents ne sont pas déplacés du stockage hérité pendant la conversion. |
 | [Fonctionnalités non disponibles](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, la visionneuse de documents Workfront, les documents favoris et les documents de demande ne font pas partie de l’expérience. | Les objets hérités conservent ces fonctionnalités. Workfront Proof ne recevra pas de nouvel investissement et sera mis hors service dans une version ultérieure. |
 | [Quota de stockage](#storage-quota) | Le stockage est mis en pool pour les projets Workfront hérités et les projets de stockage dans le cloud Adobe. 60 Go par utilisateur sous licence. Pas de capuchon. | Les administrateurs système peuvent afficher l’utilisation du stockage sur la page Informations sur le client de la configuration. |
 | [Limite de révision vidéo annuelle](#annual-video-review-cap) | Au niveau de l’entreprise, la limite fixée à 10 % des licences payantes d’utilisation de Workfront (standard et light) pour les demandes d’épreuves vidéo est de 10 %. | Une fois atteinte, aucune nouvelle critique vidéo ne sera publiée avant la prochaine période annuelle. Notifications in-app à 80 % et 100 %. Ne s’applique pas aux clients Frame.io Enterprise. |
@@ -136,9 +136,54 @@ Si un nom entre en conflit avec ces règles, Workfront renomme automatiquement l
 
 ### Portabilité des objets
 
-Vous pouvez déplacer, copier et convertir des objets Workfront entre des modèles de stockage similaires. Par exemple, vous pouvez déplacer une tâche d’un projet d’espace de stockage dans le cloud Adobe vers un autre projet d’espace de stockage dans le cloud Adobe. Vous ne pouvez pas déplacer ou copier une tâche ou un événement d’un projet d’espace de stockage Adobe vers un projet hérité, ou l’inverse.
+Dans la plupart des scénarios, vous pouvez déplacer, copier et convertir des objets Workfront entre des modèles de stockage similaires. Par exemple, vous pouvez déplacer une tâche d’un projet d’espace de stockage dans le cloud Adobe vers un autre projet d’espace de stockage dans le cloud Adobe. Dans trois cas spécifiques, vous pouvez convertir un objet de stockage Workfront hérité en espace de stockage Adobe :
 
-Aujourd’hui, lorsque vous créez ou déplacez un projet d’espace de stockage dans le cloud Adobe vers un portfolio ou un programme hérité, le portfolio ou le programme est automatiquement converti en un objet d’espace de stockage dans le cloud Adobe. Une prochaine version donnera aux administrateurs système plus de contrôle sur les objets qui sont automatiquement convertis.
+* Convertir une tâche de stockage Workfront héritée en projet de stockage dans le cloud Adobe
+* Conversion d’un ancien portfolio de stockage Workfront en portfolio de stockage dans le cloud Adobe
+* Création d’un projet de stockage dans le cloud Adobe à partir d’un modèle de stockage Workfront hérité
+
+>[!NOTE]
+>
+>Dans les trois scénarios de conversion, les documents et les dossiers de documents ne passent pas de l’ancien stockage Workfront au stockage dans le cloud Adobe. Les documents qui existent sur l’objet hérité avant la conversion restent dans l’espace de stockage hérité.
+
+#### Convertir une tâche héritée en projet d’espace de stockage Adobe
+
+Pour convertir une tâche de stockage Workfront héritée en projet de stockage dans le cloud Adobe, utilisez le flux de conversion en projet existant sur la tâche. Pendant la conversion :
+
+* Les sous-tâches et les événements sont déplacés vers le nouveau projet.
+* Les documents joints à la tâche et leurs workflows d’approbation restent dans le projet d’origine.
+* Les approbations de travail et les liens d&#39;objet de résolution sont supprimés.
+* La tâche originale est supprimée.
+
+<!--
+For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
+-->
+
+#### Conversion d’un portfolio hérité en portfolio de stockage dans le cloud Adobe
+
+Un administrateur Workfront peut convertir un ancien portfolio de stockage Workfront en portfolio de stockage dans le cloud Adobe à partir de la zone Configuration . Après la conversion :
+
+* Vous ne pouvez plus déplacer les projets de stockage Workfront hérités vers le portefeuille.
+* Tous les nouveaux projets créés dans le portefeuille utilisent l’espace de stockage dans le cloud d’Adobe.
+* Frame.io est la visionneuse de documents dans les projets de stockage dans le cloud Adobe du portfolio.
+* Les projets enfants qui utilisent le stockage Workfront hérité restent sur le stockage hérité.
+* Les programmes enfants restent sur l’ancien stockage.
+
+  >[!NOTE]
+  >
+  >Un programme hérité enfant est automatiquement converti en espace de stockage Adobe uniquement lorsqu’un utilisateur y ajoute manuellement un projet d’espace de stockage Adobe.
+
+Pour plus d’informations, voir [Conversion de portefeuilles hérités en espace de stockage Adobe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+
+#### Création d’un projet de stockage dans le cloud Adobe à partir d’un modèle hérité
+
+Lorsque vous créez un projet à partir d’un modèle de stockage Workfront hérité, la case à cocher **Créer ce projet dans l’espace de stockage Adobe** de la boîte de dialogue de création de projet détermine le type de stockage du nouveau projet. Le comportement des cases à cocher dépend de l’emplacement où vous créez le projet :
+
+* **En dehors d&#39;un portfolio** : la case à cocher est disponible et désactivée par défaut. Sélectionnez-le pour créer le projet dans l’espace de stockage cloud d’Adobe.
+* **Dans un portfolio de stockage dans le cloud Adobe** : la case est cochée et verrouillée. Le nouveau projet doit correspondre au type de stockage du portefeuille.
+* **Dans un portfolio de stockage Workfront hérité** : la case à cocher n’est pas disponible. Le nouveau projet utilise l’ancien stockage Workfront.
+
+Pour plus d’informations, voir [Créer des projets](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Fonctionnalités non disponibles sur les objets d’espace de stockage dans le cloud Adobe
 
