@@ -11,9 +11,9 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1458'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Tout utilisateur disposant de l’accès nécessaire pour partager des objets pe
 
 >[!BEGINSHADEBOX]
 
-Sam a besoin d&#39;un accès différent aux projets pour l&#39;Agence A et l&#39;Agence B. Les deux agences sont configurées en tant que groupes dans Workfront. (Pour plus d’informations sur les groupes, voir la présentation des groupes.)
+Sam a besoin d&#39;un accès différent aux projets pour l&#39;Agence A et l&#39;Agence B. Les deux agences sont configurées en tant que groupes dans Workfront. (Pour plus d’informations sur les groupes, voir [Présentation des groupes](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md).)
 
 Pour l’agence A, Sam agit en tant que contrôleur financier et doit avoir accès à tous les champs financiers de ses projets. Pour l&#39;Agence B, Sam agit en tant que chef de projet et doit gérer les tâches et les problèmes, mais ne devrait pas être en mesure d&#39;afficher les informations financières.
 
@@ -111,6 +111,7 @@ Pour plus d&#39;informations sur la façon dont les niveaux d&#39;accès et les 
 
 ## Considérations relatives aux profils professionnels
 
+* Les profils métier sont disponibles uniquement pour les organisations qui disposent d’un plan d’Ultimate des workflows.
 * Il n’est pas nécessaire d’être membre d’un groupe pour qu’un profil professionnel lui soit affecté.
 * Le niveau d’accès au profil professionnel ne peut mettre à niveau que le niveau d’accès de « base » d’un utilisateur. Le profil d’entreprise ne peut pas retirer les autorisations de niveau d’accès de base.
 * Dans les listes d’objets et les rapports, l’utilisateur dispose de toutes les autorisations disponibles à partir de tous les profils professionnels qui lui sont attribués dans les groupes fusionnés avec son niveau d’accès de base. Dans d’autres pages, l’utilisateur dispose des autorisations de niveau d’accès de base.
