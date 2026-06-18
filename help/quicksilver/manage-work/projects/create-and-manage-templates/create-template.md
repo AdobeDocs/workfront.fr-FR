@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 44%
+source-wordcount: 790
+ht-degree: 48%
 
 ---
 
@@ -160,11 +160,11 @@ Old:
 
    Cliquez sur **Nouvelle tâche de modèle** pour commencer à ajouter des tâches à votre modèle dans la zone **Nouvelle tâche de modèle**.
 
-   La zone **Créer une tâche de modèle** s’ouvre dans la nouvelle expérience lorsque vous cliquez sur **Nouvelle tâche de modèle**.
+   La zone **Créer une tâche de modèle** s&#39;ouvre lorsque vous cliquez sur **Nouvelle tâche de modèle**.
 
    ![Nouvelle expérience pour la nouvelle tâche de modèle](assets/new-template-task-box-unshimmed.png)
 
-1. (Conditionnel) Dans la nouvelle expérience, mettez à jour les informations dans les zones suivantes de la zone **Créer une tâche de modèle** :
+1. (Conditionnel) Mettez à jour les informations dans les zones suivantes de la zone **Créer une tâche de modèle** :
 
    * Nom de tâche de modèle
    * Vue d’ensemble
@@ -174,53 +174,29 @@ Old:
    * Documents
    * Paramètres
 
-1. Cliquez sur **Créer une tâche de modèle**
+   La mise à jour des informations pour une tâche de modèle est similaire à la modification des tâches de modèle.
 
-   Ou
-
-   Cliquez sur **Revenir à l’ancienne expérience** au bas de la zone **Créer une tâche de modèle**.
-
-   La **nouvelle tâche de modèle** s’ouvre dans l’ancienne expérience.
-
-   ![Nouvelle zone de tâche de modèle](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >En production, l’ancienne expérience s’ouvre par défaut.
-
-1. Mettez à jour les informations dans les zones suivantes de la zone **Nouvelle tâche de modèle** :
-
-   * Vue d’ensemble
-   * Finances
-   * Paramètres
-   * Affectations
-   * Formulaires personnalisés
-   * Joindre le document
-
-     La mise à jour des informations d’une tâche de modèle est similaire à la modification des tâches d’un projet. Pour plus d&#39;informations, voir [Modifier les tâches](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   Pour plus d’informations, voir [Modifier les tâches de modèle](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
    >[!NOTE]
    >
    >Vous ne pouvez pas ajouter de tâches récurrentes à un modèle.
 
-1. Cliquez sur l’une des options suivantes :
+1. Cliquez sur **Créer une tâche de modèle**.
 
-   * **Enregistrer la tâche de modèle** pour enregistrer la tâche de modèle en cours et ferme la boîte de dialogue Nouvelle tâche de modèle.
-   * **Enregistrer la tâche de modèle et en démarrer une autre** pour enregistrer la tâche de modèle en cours et ouvrir une autre zone **Nouvelle tâche de modèle** pour ajouter une autre tâche.
-   * **Annuler** pour fermer la boîte sans enregistrer la tâche de modèle.
-1. (Facultatif) Après avoir ajouté les tâches de modèle, dans la section Tâches de modèle, cliquez sur l’icône **Diagramme de Gantt** dans le coin supérieur droit de la Liste des tâches pour afficher une représentation visuelle de la liste des tâches du modèle.
+1. (Facultatif) Après avoir ajouté les tâches de modèle, dans la section **Tâches de modèles**, cliquez sur l’icône **Graphique Gantt** ![Icône Gantt](assets/gantt-icon.png) dans le coin supérieur droit de la liste des tâches pour afficher une représentation visuelle de la liste des tâches du modèle.
 
    >[!TIP]
    >
-   >Vous ne pouvez pas modifier les tâches directement à partir de ce graphique de Gantt.
+   >Vous ne pouvez pas modifier les tâches directement à partir d&#39;un modèle de tâche Diagramme de Gantt.
 
-1. Pour ajouter des informations à votre nouveau modèle, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) à gauche du nom du modèle dans l’en-tête, puis cliquez sur **Modifier**.
+1. Pour ajouter des informations à votre nouveau modèle, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) à droite du nom du modèle dans l’en-tête, puis cliquez sur **Modifier**.
 
    Pour plus d’informations sur la modification d’un modèle, voir [Modifier les modèles de projet](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
    >[!NOTE]
    >
-   >   L’association d’un modèle de projet à un groupe (ou son absence) affecte la manière dont les préférences du projet, de la tâche et du problème déterminent certains paramètres du modèle.
+   >L’association d’un modèle de projet à un groupe (ou son absence) affecte la manière dont les préférences du projet, de la tâche et du problème déterminent certains paramètres du modèle.
    >
    >Pour plus d’informations, reportez-vous à la section « Application des préférences aux modèles et aux tâches de modèles » de l’article [Création et modification de modèles de projet d’un groupe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 

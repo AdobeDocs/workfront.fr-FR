@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Ajouter des choix par défaut pour les champs de sélection et de type de personne
+## Ajouter des choix par défaut pour les champs sélectionnés et de type Personnes
 
 >[!NOTE]
 >

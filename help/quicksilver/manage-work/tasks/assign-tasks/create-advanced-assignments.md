@@ -9,7 +9,8 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
@@ -23,10 +24,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 32%
 
 ---
@@ -61,18 +63,7 @@ Vous pouvez ajuster les informations d’affectation suivantes lors d’affectat
 
 >[!NOTE]
 >
->Lors de l’affectation d’utilisateurs et utilisatrices au travail, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévisionnelles des tâches et des problèmes. Pour plus d’informations sur les plannings, voir [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-## Zones d’Adobe Workfront où vous pouvez effectuer des affectations avancées.
-
-Cet article décrit comment accéder à des affectations avancées dans l’en-tête de la tâche ou de l’événement.
-
-En outre, vous pouvez effectuer des affectations avancées dans les zones suivantes de Workfront :
-
-* Dans les listes et les rapports lorsque le champ Affectations s’affiche dans la vue.
-* Dans la section Affectations lors de la modification d’une tâche. Pour plus d&#39;informations, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* Dans l’en-tête de la tâche ou du problème, dans la zone Affectations.
-* Dans l’équilibreur de charge de travail. Pour plus d’informations, voir [Attribuer manuellement du travail à l’aide de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+>Lors de l’affectation d’utilisateurs et utilisatrices au travail, leur disponibilité en fonction de leurs plannings affecte les Dates prévues et prévisionnelles des tâches et des problèmes. Pour plus d’informations sur les plannings, consultez la section [Créer un planning](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Conditions d’accès
 
@@ -107,14 +98,27 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Créer des affectations avancées - Package Ultimate de workflow
+## Zones d’Adobe Workfront où vous pouvez effectuer des affectations avancées.
 
-Cette disposition des affectations avancées s&#39;applique uniquement aux tâches. Pour tout problème, voir [Créer des affectations avancées - tous les autres packages](#create-advanced-assignments--all-other-packages).
+Cet article décrit comment accéder à des affectations avancées dans l’en-tête de la tâche ou de l’événement.
+
+En outre, vous pouvez effectuer des affectations avancées dans les zones suivantes de Workfront :
+
+* Dans les listes et les rapports lorsque le champ Affectations s’affiche dans la vue.
+* Dans la section Affectations lors de la modification d’une tâche. Pour plus d&#39;informations, voir [Modifier les tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* Dans l’en-tête de la tâche ou du problème, dans la zone Affectations.
+* Dans l’équilibreur de charge de travail. Pour plus d’informations, voir [Attribuer manuellement du travail à l’aide de l’équilibreur de charge de travail](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+La création d&#39;affectations avancées varie en fonction du package Workfront acheté par votre organisation.
+
+## Créer des affectations avancées pour les packages Workflow Ultimate
+
+Cette disposition des affectations avancées s&#39;applique uniquement aux tâches. Pour connaître les problèmes éventuels, reportez-vous à la section [Créer des affectations avancées pour tous les autres packages](#create-advanced-assignments-for-all-other-packages) de cet article.
 
 >[!NOTE]
 >
 >L’ancienne expérience Affectations avancées est la valeur par défaut. Vous devez activer manuellement la nouvelle expérience à l&#39;aide du bouton en haut à droite de la fenêtre Affectations avancées.
->Pour plus d’informations sur l’ancienne expérience, voir [Créer des affectations avancées - tous les autres packages](#create-advanced-assignments--all-other-packages) ci-dessous.
+>Pour plus d’informations sur l’ancienne expérience, consultez la section [Créer des affectations avancées pour tous les autres packages](#create-advanced-assignments-for-all-other-packages) dans cet article.
 
 1. Accédez au projet auquel vous souhaitez affecter une tâche.
 1. Cliquez sur **Tâches** ou **Événements** dans le panneau de gauche, puis cliquez sur le nom d’une tâche dans la liste.
@@ -134,7 +138,7 @@ Cette disposition des affectations avancées s&#39;applique uniquement aux tâch
 
    ![Cliquez sur Avancé](assets/assignments-from-task-header-0825.png)
 
-   La fenêtre Affectations avancées s&#39;affiche.
+   La fenêtre Affectations avancées s&#39;ouvre.
 
    ![Fenêtre Affectations avancées](assets/advanced-assignments-031826.png)
 
@@ -330,7 +334,7 @@ Vous pouvez uniquement afficher les données d’affectation par dates pour un s
 
    Une fois que vous avez terminé de vérifier les données, cliquez sur la flèche en haut à gauche pour revenir à la fenêtre Affectations avancées.
 
-## Créer des affectations avancées - tous les autres packages
+## Créer des affectations avancées pour tous les autres packages
 
 Cette disposition des affectations avancées s&#39;applique à la fois aux tâches et aux événements.
 

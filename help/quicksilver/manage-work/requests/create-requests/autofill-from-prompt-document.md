@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: 1493
 ht-degree: 10%
 
 ---
@@ -44,7 +44,7 @@ Cette fonctionnalité est disponible lors de la création d’une demande dans l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Formule Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront ou package de workflow</td> 
    <td> <p>Tous </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 -->
-* Votre organisation doit disposer d’un plan Workfront Select, Prime ou Ultimate.
+* Votre organisation doit disposer d’un package de workflow ou Workfront Select, Prime ou Ultimate
 * Adobe doit disposer d’un contrat Adobe Gen AI signé.
 
   Pour plus d’informations sur la signature du contrat, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Présentation de l’assistant AI.
@@ -104,11 +104,19 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 >
 >Le remplissage de formulaire optimisé par l’IA est activé au niveau de l’organisation et ne peut pas être activé ou désactivé pour des utilisateurs ou des niveaux d’accès spécifiques.
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
-1. Cliquez sur **Système**, puis sous Système, cliquez sur **Préférences**.
-1. Dans la section des préférences de l’IA, activez le paramètre **Activer l’IA**.
-1. Activez le paramètre **Remplissage de formulaire AI**.
-1. Pour désactiver le remplissage de formulaire optimisé par l’IA, désactivez **le remplissage de formulaire IA**.
+Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+<!--
+
+This should point to the System Preferences article, since it's not a user function: 
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click **System**, then under System, click **Preferences**.
+1. In the AI preference section, turn on the **Enable AI** setting.
+1. Turn on the **AI Form Fill** setting.
+1. To disable Form Fill powered by AI, turn off **AI Form Fill**.
+
+-->
 
 ## Obtenir des suggestions à partir d’une invite de texte
 
