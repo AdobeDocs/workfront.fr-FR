@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 5339
-ht-degree: 40%
+source-wordcount: 5497
+ht-degree: 39%
 
 ---
 
@@ -355,9 +355,9 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
 
    Cliquez sur **Personnalisé** pour sélectionner une couleur personnalisée à l’aide d’un sélecteur de couleurs ou d’un code hexadécimal.
 1. Cliquez en dehors de la zone de couleur pour la fermer.
-   <!--
-    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">Dans le champ **Choix par défaut**, sélectionnez par défaut les choix que vous souhaitez afficher dans ce champ. Vous pouvez choisir plusieurs options. Les utilisateurs peuvent supprimer les choix par défaut lorsqu’ils mettent à jour ce champ.</span>
+
 1. Cliquez sur **Créer**.
 
    Le nouveau champ à sélection multiple est ajouté sous la forme d’une colonne au type d’enregistrement et ses valeurs peuvent être associées aux enregistrements.
@@ -404,9 +404,9 @@ Les champs à sélection unique capturent des informations supplémentaires dans
    Ou
 
    Cliquez sur **Personnalisé** pour sélectionner une couleur personnalisée à l’aide d’un sélecteur de couleurs ou d’un code hexadécimal.
-<!--
-    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">Dans le champ **Choix par défaut**, sélectionnez par défaut le choix que vous souhaitez afficher dans ce champ. Vous ne pouvez choisir qu&#39;un seul choix. Les utilisateurs peuvent supprimer le choix par défaut lorsqu’ils mettent à jour ce champ. </span>
+
 1. Cliquez en dehors de la zone de couleur pour la fermer.
 1. Cliquez sur **Créer**.
 
@@ -696,14 +696,15 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur à u
    >
    >    Si vous sélectionnez Autoriser plusieurs valeurs et que plusieurs personnes sont stockées dans les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner le paramètre à l’avenir lors de la modification de ce champ.
 
-   <!--
-    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default users as they update this field.(********** and update all screen shots on this page ******) </span>
+1. <span class="preview">Dans le champ **Utilisateur par défaut** ou **Utilisateurs par défaut**, sélectionnez par défaut les utilisateurs que vous souhaitez afficher dans ce champ. </span>
 
-    >[!TIP]
-    >
-    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.
-    -->
+   <span class="preview">Vous pouvez choisir plusieurs utilisateurs si vous avez également sélectionné le paramètre **Autoriser plusieurs valeurs**. </span>
 
+   <span class="preview">Les utilisateurs peuvent supprimer les utilisateurs par défaut lorsqu’ils mettent à jour ce champ.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">La désactivation des utilisateurs sélectionnés en tant qu’utilisateurs par défaut dans ce paramètre conserve les noms des utilisateurs par défaut. Cela ne supprime pas l’utilisateur désactivé de la valeur du champ et rien n’indique que l’utilisateur a été désactivé.</span>
 
 1. Cliquez sur **Créer**.
 

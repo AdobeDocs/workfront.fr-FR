@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
+source-wordcount: 7995
 ht-degree: 86%
 
 ---
@@ -169,11 +169,12 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
    >
    >Selon la manière dont votre équipe d’administration Workfront ou de groupes a modifié votre modèle de mise en page, les champs de la zone Détails du projet peuvent être réorganisés ou masqués. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Pour modifier les informations de la section Détails, procédez comme suit :
+   Pour modifier les informations de la section **Détails**, procédez comme suit :
 
    1. (Facultatif) Cliquez sur l’icône **Tout réduire** ![Tout réduire](assets/collapse-icon.png) dans le coin supérieur droit pour réduire toutes les zones.
-   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier.
-   1. Pour plus d’informations sur la modification des informations dans l’onglet Détails du projet, voir les articles suivants :
+   1. (Facultatif et conditionnel) Lorsqu’une zone est réduite, cliquez sur la **flèche pointant vers la droite** ![flèche pointant vers la droite](assets/right-pointing-arrow.png) en regard de chaque zone pour développer la zone à modifier. Vous pouvez également cliquer sur la **flèche pointant vers la droite** dans le coin supérieur droit pour développer toutes les zones.
+
+      Pour plus d’informations sur la modification des informations dans l’onglet Détails du projet, voir les articles suivants :
 
       * [Gérer les informations dans la zone Vue d’ensemble du projet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Gérer les informations dans la zone Finances d’un projet](../../../manage-work/projects/project-finances/manage-project-finance-area.md)

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,17 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Ajouter des choix par défaut pour les champs de sélection et de type de personne
+
+>[!NOTE]
+>
+>Aperçu : 18 juin 2026>Version rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026
+
+Lorsque vous créez un champ à sélection unique et multiple ou un champ de type Personnes , vous pouvez désormais indiquer une valeur par défaut pour ces champs. Les valeurs par défaut seront toujours appliquées lorsque le champ est visible sur un enregistrement.
+
+Vous pouvez modifier les paramètres par défaut du champ après l’enregistrement. Vous pouvez remplacer les valeurs par défaut des champs lors de l’utilisation d’enregistrements.
+
+Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Améliorations de l’interface en mode Tableau
 

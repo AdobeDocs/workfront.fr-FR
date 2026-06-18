@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 22%
+source-wordcount: 1098
+ht-degree: 21%
 
 ---
 
@@ -152,8 +152,8 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 * Vous pouvez modifier la configuration des éléments de champ suivants après avoir enregistré le champ :
 
    * Nom ou description d’un champ
-   * Options d’un <!--<span class="preview">and their default choices</span>--> de champ à sélection unique ou à sélection multiple.
-     <!--* <span class="preview">The default choices of a People field.</span>-->
+   * Les options d’un champ à sélection unique ou à sélection multiple <span class="preview">et leurs choix par défaut</span>.
+   * <span class="preview">Choix par défaut d’un champ Personnes.</span>
    * Expression d’un champ de formule.
 
   >[!WARNING]
