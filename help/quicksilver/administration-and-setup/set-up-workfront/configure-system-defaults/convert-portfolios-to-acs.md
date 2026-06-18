@@ -7,7 +7,7 @@ description: Convertissez les anciens portfolios de stockage Workfront en stocka
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 11%
@@ -52,6 +52,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 Avant de convertir un ancien portefeuille de stockage Workfront, tenez compte des points suivants :
 
 * La conversion affecte uniquement le portefeuille lui-même. Les projets et programmes enfants qui utilisent le stockage Workfront hérité restent sur le stockage hérité.
+
   >[!NOTE]
   >
   >Un programme hérité enfant est automatiquement converti en espace de stockage Adobe uniquement lorsqu’un utilisateur y ajoute manuellement un projet d’espace de stockage Adobe.
