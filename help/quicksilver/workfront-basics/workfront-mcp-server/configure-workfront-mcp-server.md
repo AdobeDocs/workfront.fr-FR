@@ -5,9 +5,9 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3f59326d26a8c9ccd88f14d7d6459e486fcfe8c9
+source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Avant de pouvoir connecter une plateforme agentique d’IA à Workfront, un admi
 
 >[!IMPORTANT]
 >
->Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients qui utilisent AWS. Les clients qui utilisent GCP ou Azure pourront utiliser cette fonctionnalité dans un avenir proche.
+>Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients qui utilisent AWS. Les clients qui utilisent GCP ou Azure pourront utiliser la fonctionnalité Workfront MCP dans un avenir proche.
 
 ## Plateformes d’IA et d’ingénierie prises en charge
 
@@ -107,7 +107,7 @@ Pour connecter Workfront à [!DNL Claude] :
 >
 >Pour effectuer cette procédure, vous devez être propriétaire dans un environnement Claude d’entreprise.
 >
->Pour l’instruction de Claude sur l’exigence du propriétaire, voir [&#x200B; Ajouter un connecteur personnalisé &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
+>Pour l’instruction de Claude sur l’exigence du propriétaire, voir [ Ajouter un connecteur personnalisé ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
 
 Pour connecter Workfront à [!DNL Claude] avec une URL :
 
@@ -268,7 +268,7 @@ What happens next
 | L’instance Workfront à laquelle vous souhaitez vous connecter est grisée et un message vous indique qu’elle n’est pas disponible pour vous connecter dans votre région | Votre serveur MCP est configuré pour une région différente (UE ou États-Unis) de votre instance. | Configurez le serveur MCP avec l’URL de la région à laquelle votre instance Workfront est affectée. |
 | La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
-Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [ Utiliser le serveur Adobe Workfront MCP ](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 
 +++
@@ -290,6 +290,4 @@ Votre administrateur Workfront et l’administrateur de votre plateforme AI agen
 Non. Votre instance Workfront doit être activée sur Adobe Identity Management System (IMS) pour utiliser le serveur MCP Workfront. Si vous ne savez pas si votre instance est activée sur IMS, contactez votre administrateur Workfront.
 
 +++ 
-
-
 
