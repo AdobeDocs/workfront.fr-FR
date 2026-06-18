@@ -5,9 +5,9 @@ title: Utiliser le serveur MCP Adobe Workfront
 description: Utilisez le serveur Adobe Workfront MCP pour rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel dans une plateforme agentique d’IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
+source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1787'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Le serveur MCP [!DNL Adobe Workfront] vous permet de rechercher, créer, mettre 
 
 >[!IMPORTANT]
 >
->Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients situés dans la région des États-Unis qui utilisent AWS.
+>Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients qui utilisent AWS.
 
 ## Conditions préalables
 
