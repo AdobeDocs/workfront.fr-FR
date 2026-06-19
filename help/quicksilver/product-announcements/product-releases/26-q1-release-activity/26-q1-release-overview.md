@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
 workflow-type: tm+mt
 source-wordcount: 3163
 ht-degree: 98%
@@ -596,7 +596,7 @@ La version 21 de l’API Workfront a été publiée le 23 octobre 2025. Pour 
 >
 >La modification de cette version de l’API comprend un changement majeur qui peut affecter vos appels API existants. Cela est dû au fait que la version 21 de l’API utilise la version 2 des abonnements aux événements.
 >
-> Pour les champs à sélection multiple, la version 2 des abonnements aux événements envoie toujours un tableau. La version 1 envoyait un tableau si plusieurs valeurs étaient sélectionnées. Si une seule valeur était sélectionnée, elle envoyait une chaîne.
+> Pour les champs à sélection multiple, la version 2 des abonnements aux événements envoie toujours sous la forme d’un tableau. La version 1 envoyait un tableau si plusieurs valeurs étaient sélectionnées. Si une seule valeur était sélectionnée, elle envoyait une chaîne.
 
 Pour plus d’informations sur les nouveautés et les mises à jour, voir [Nouveautés de la version 21 de l’API](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
