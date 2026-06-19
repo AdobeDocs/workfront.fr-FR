@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -130,14 +130,21 @@ Pour connaître les spécifications de l’API Workfront Planning, consultez la 
 >
 >Aperçu : 28 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
 
+
 Vous pouvez désormais ajuster les autorisations d’enregistrements individuels pour contrôler qui peut les gérer dans un type d’enregistrement.
 
-Les utilisateurs héritent par défaut des autorisations d’enregistrement de l’espace de travail et du type d’enregistrement. Pour n’accorder des autorisations de type enregistrement qu’à certains utilisateurs spécifiques Gérer les autorisations pour certains enregistrements uniquement, vous pouvez désactiver les autorisations héritées pour certains enregistrements et n’accorder à ces utilisateurs qu’un accès Gérer à ces enregistrements. Vous pouvez ajuster en bloc les autorisations pour un enregistrement ou pour plusieurs enregistrements en même temps.
+Par défaut, les utilisateurs héritent des autorisations d’enregistrement de l’espace de travail et du type d’enregistrement. Vous pouvez désormais remplacer les autorisations héritées sur des enregistrements spécifiques pour accorder un accès en lecture ou en gestion à un sous-ensemble d’utilisateurs. Les remplacements d’autorisations peuvent être appliqués à des enregistrements individuels ou mis à jour en bloc sur plusieurs enregistrements.
 
-Vous pouvez accorder aux utilisateurs les niveaux d’autorisation suivants :
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* Afficher
-* Gérer
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
