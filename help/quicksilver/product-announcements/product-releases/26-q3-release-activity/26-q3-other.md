@@ -4,10 +4,10 @@ description: Autres améliorations au cours du troisième trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 3%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du troisième trimestre de 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
-
-## Mises à jour du connecteur MCP Workfront
-
-Nous avons apporté la mise à jour suivante au connecteur Workfront MCP :
-* Nous avons étendu le serveur MCP pour qu’il fonctionne avec les instances de l’UE<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
-* Pour augmenter la flexibilité du connecteur Workfront MCP, nous avons ajouté la possibilité de connecter Claude. Désormais, vous pouvez retrouver Workfront dans la liste des connecteurs de Claude, ou vous connecter directement à l&#39;aide d&#39;une URL.
-
-Pour plus d’informations et d’instructions, voir [Configuration du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 
 ## Mise à jour de l’aspect des e-mails de notification de commentaire
@@ -45,26 +37,6 @@ Le fil des commentaires précédents n’est plus inclus dans le corps de l’e-
 Cette modification est déployée par phases auprès des clients. Cette page sera mise à jour lorsque le planning de déploiement sera confirmé.
 
 ![email de notification de commentaire mis à jour.png](assets/email-look-and-feel-update.png)
-
-## Connexion de Workfront à vos outils d’IA avec le serveur MCP Workfront
-
->[!NOTE]
->
->Aperçu : 28 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
-
-Le contexte opérationnel de votre équipe réside dans Workfront. Désormais, avec le serveur Workfront MCP, ce contexte peut être exploité au sein des outils d’IA déjà utilisés par votre équipe.
-
-Connectez Workfront à n’importe quelle plateforme d’IA compatible avec MCP, y compris Claude, ChatGPT, Copilot, Gemini, etc. et utilisez un langage naturel pour rechercher, créer, mettre à jour et gérer des éléments Workfront sans quitter l’outil d’IA de votre choix. Demandez vos tâches en retard, repoussez la date de fin d’un projet, envoyez un rappel aux approbateurs, mettez à jour le budget d’une campagne, et votre plateforme d’IA effectue le travail à votre place dans Workfront.
-
-De plus, grâce aux compétences d’IA de Claude et aux tâches planifiées, vous pouvez aller encore plus loin en automatisant les workflows récurrents qui s’exécutent de manière proactive sur les données Workfront en direct. Par exemple, un briefing de projet du lundi matin, un rapport hebdomadaire sur la capacité, un contrôle mensuel de l’intégrité de la campagne : définissez-le une fois, et l’IA le gère automatiquement, en le fondant sur le contexte complet de votre opération.
-
-C&#39;est la base d&#39;un système de gestion du travail d&#39;agence, où l&#39;IA est ancrée dans vos données opérationnelles les plus riches et où les humains et l&#39;IA collaborent pour faire avancer le travail à pleine vitesse.
-
->[!IMPORTANT]
->
->Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients situés dans la région des États-Unis qui utilisent AWS.
-
-Pour plus d’informations, consultez [Présentation du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
 ## Mises à jour de listes améliorées
 
