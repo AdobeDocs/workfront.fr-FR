@@ -9,8 +9,11 @@ exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 748
@@ -60,8 +63,8 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements co
 * Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures dans l&#39;espace de travail et disposant d&#39;un type d&#39;enregistrement peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d&#39;autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs si vous disposez des autorisations de niveau Gérer pour l’espace de travail et le type d’enregistrement où se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets depuis une autre application. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement. Pour plus d’informations, consultez la section « Types de connexions » dans l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Zones de connexion des enregistrements
 
