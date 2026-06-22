@@ -19,17 +19,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
-ht-degree: 46%
+source-wordcount: 6307
+ht-degree: 45%
 
 ---
 
 # Gérer la vue de tableau
 
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 <span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -745,16 +745,20 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
    1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
 
    1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. Pour les champs de nombre, de devise, de pourcentage et de formule formatés en tant que types de champ, développez le menu déroulant agrégateur au bas des colonnes et sélectionnez l’une des options suivantes :
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM** : affiche le total de toutes les cellules de la colonne. Il s’agit de la sélection par défaut.
+   * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
+   * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
+   * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
+
+   Tenez compte des points suivants lorsque vous utilisez des agrégateurs :
+
+   * La ligne d’agrégateur de la colonne est figée et fait partie des paramètres d’affichage.
+   * En tant que gestionnaire de vues, vous pouvez choisir l&#39;agrégateur, qui sera partagé avec la vue lorsque vous partagerez la vue avec d&#39;autres utilisateurs.
+   * En tant que visionneuse, vous pouvez modifier l’agrégateur, mais il n’est pas enregistré avec la vue.
+   * Les vues partagées publiques sont partagées avec les agrégateurs enregistrés et ne peuvent pas être modifiées.
 
 ### Ajouter des lignes (ou des enregistrements) {#add-rows-1}
 

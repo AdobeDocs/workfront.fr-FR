@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 611
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
 # Gérer les notifications par e-mail d’Adobe Workfront Planning
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -156,7 +156,7 @@ OLD:
 
 ## Gérer les notifications par e-mail lorsqu’une personne vous identifie dans un commentaire
 
-1. (Conditionnel et facultatif) Une fois qu’une personne vous a identifié, vous ou votre équipe, dans un commentaire sur un enregistrement, accédez à l’e-mail de notification qui vous informe de la balise et du commentaire. L’expéditeur de l’e-mail est Adobe Experience Cloud.
+1. (Conditionnel et facultatif) Une fois qu’une personne vous a identifié, vous ou votre équipe, dans un commentaire sur un enregistrement, accédez à l’e-mail de notification qui vous informe de la balise et du commentaire. L&#39;expéditeur de l&#39;email est Adobe Experience Cloud.
 
    ![Exemple de notifications par e-mail](assets/email-notification-example.png)
 
@@ -169,7 +169,7 @@ La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les noti
 
 ## Gérer les notifications par e-mail lors de la demande et de l’octroi d’autorisations
 
-1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations d&#39;accès à un objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L’expéditeur de l’e-mail est Adobe Experience Cloud.
+1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations d&#39;accès à un objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L&#39;expéditeur de l&#39;email est Adobe Experience Cloud.
 
 1. (Facultatif) Cliquez sur le message dans la zone **&#x200B;**&#x200B;de l’e-mail.
 

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 2%
 
 ---
@@ -54,6 +54,8 @@ Nous avons mis à jour l’aspect de la vue Tableau pour les zones suivantes dan
 * Toutes les pages de type d’enregistrement connectées, à l’exception des projets
 
 Outre certaines modifications apportées à la navigation et à la conception, cette mise à jour comporte les améliorations suivantes :
+
+* Ajout d’une ligne d’agrégation au bas du tableau qui synthétise les champs nombre, devise, pourcentage et certains champs de formule à l’aide des agrégateurs suivants : SOMME, AVG, MAX, MIN.
 
 * Un format de date plus simple avec moins de types de format lors de l’ajout d’un champ de date.
 
