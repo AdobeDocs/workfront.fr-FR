@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 7%
+source-wordcount: '798'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Cette intégration permet aux équipes de réduire la création de doublons de c
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## Approvisionnement de GenStudio Foundations activé pour prendre en charge les collaborateurs d’IA
+## Approvisionnement de GenStudio Foundation activé pour prendre en charge les collaborateurs d’IA
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Les améliorations suivantes ont été apportées au widget Mes approbations dan
 * Trier la liste des validations par ordre décroissant ou le plus récent
 * Développement du widget en plein écran
 
-Pour plus d’informations, voir [&#x200B; Gérer vos approbations avec le widget Mes approbations &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+Pour plus d’informations, voir [ Gérer vos approbations avec le widget Mes approbations ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
 
 ## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
@@ -99,7 +99,7 @@ Le stockage dans le cloud d’Adobe est une solution de stockage dans le cloud q
 
 L’accès au stockage dans le cloud d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
