@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 7%
+source-wordcount: '798'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Cette intégration permet aux équipes de réduire la création de doublons de c
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## Approvisionnement de GenStudio Foundations activé pour prendre en charge les collaborateurs d’IA
+## Approvisionnement de GenStudio Foundation activé pour prendre en charge les collaborateurs d’IA
 
 >[!NOTE]
 >
