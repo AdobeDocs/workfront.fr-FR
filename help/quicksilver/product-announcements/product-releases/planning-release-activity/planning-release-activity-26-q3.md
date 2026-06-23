@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2038'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,16 @@ There are no features released during the Third Quarter Release for 2026. When f
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du troisième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Amélioration de l’interface des commandes de couleur des lignes
+
+>[!NOTE]
+>
+>Aperçu : 22 juin 2026>Version rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026
+
+Nous avons mis à jour l’aspect de la commande Couleurs de ligne en mode Tableau.
+
+Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Ajouter des choix par défaut pour les champs sélectionnés et de type Personnes
 
@@ -97,7 +107,7 @@ Nous avons ajouté l’onglet Exemples d’espaces de travail à la zone de dest
 
 Nous vous recommandons d’afficher les exemples d’espaces de travail et d’utiliser le lot de modèles multi-espaces de travail pour créer, modifier et partager les espaces de travail résultant de l’utilisation de ce modèle.  Le lot du modèle contient les mêmes espaces de travail que l’onglet Exemples d’espaces de travail .
 
-Pour plus d’informations, voir [&#x200B; Présentation des espaces de travail &#x200B;](/help/quicksilver/planning/architecture/workspaces-overview.md).
+Pour plus d’informations, voir [ Présentation des espaces de travail ](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## API Workfront Planning version 2
 
@@ -340,7 +350,7 @@ Outre l&#39;ajout de deux vues de page de détails déjà créées, qui contienn
 
 Cette mise à jour supprime le paramètre **Afficher tous les champs** et le remplace par des vues détaillées personnalisées.
 
-Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Ajouter des regroupements à une page d’enregistrement connecté Projets
 
@@ -351,4 +361,4 @@ Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x
 
 Vous pouvez désormais regrouper vos informations dans la page Enregistrements connectés à des projets d’un enregistrement dans Workfront Planning. Cette fonctionnalité n&#39;existait pas dans ce domaine avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
