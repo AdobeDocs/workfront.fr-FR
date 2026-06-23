@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1236
 ht-degree: 14%
 
 ---
@@ -238,8 +238,8 @@ Il s’agit d’une limite connue et nous prévoyons d’y remédier dès que po
 
 La liste déroulante **Sections** de la section **Créer un tableau** est conçue pour limiter les choix d&#39;un sélecteur de champ afin de faciliter la recherche d&#39;un objet lors de la création d&#39;un rapport de tableau. Pour commencer, sélectionnez un objet d’entité de base.
 
-* **Toutes les sections** : tous les types d’objet dans Workfront Workflow et Workfront Planning.
-* **Objets Workfront** : objets de workflow Workfront natifs.
+* **Toutes les sections** : tous les types d’objet dans Workfront et Workfront Planning.
+* **Objets Workfront** : objets Workfront natifs.
 * **Types d’enregistrements Planning** : types d’enregistrements personnalisés définis dans Workfront Planning.
 
 ![Liste déroulante Sections](assets/sections-dropdown.png)

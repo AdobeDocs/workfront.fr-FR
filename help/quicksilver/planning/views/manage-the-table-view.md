@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 45%
 
 ---
@@ -622,7 +622,7 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 
 <div class="preview">
 
-## Gestion de la vue Liste dans l’environnement de Prévisualisation
+## Gestion de la vue Tableau dans l’environnement de Prévisualisation
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -946,17 +946,15 @@ Pour ajouter un regroupement :
 
 ### Ajouter des couleurs de ligne
 
-1. (Facultatif) Cliquez sur **Couleurs de ligne** pour définir des conditions et choisir des couleurs différentes pour les lignes du tableau.
+1. (Facultatif) Cliquez sur **Couleurs des lignes** pour définir des conditions et configurer différentes couleurs pour les lignes du tableau.
 
-1. Cliquez sur **Ajouter une couleur**, puis recherchez un champ et sélectionnez-le lorsqu’il s’affiche dans la liste. Il s’agit du champ dont vous souhaitez définir la couleur d’une ligne.
+1. Cliquez sur **Ajouter une couleur**, puis recherchez un champ et sélectionnez-le lorsqu’il s’affiche dans la liste. Il s’agit du champ dont vous souhaitez définir la couleur d’une ligne ou du champ de Principal.
 
    Par exemple, pour afficher les campagnes avec le statut Actif en vert, sélectionnez **Statut**, puis choisissez un modificateur et une valeur pour le champ.
 
-   ![Zone Couleurs de ligne avec le statut Actif sélectionné et le choix de couleur par défaut](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Cliquez sur le menu déroulant du sélecteur de couleurs dans le coin supérieur gauche de la condition que vous avez sélectionnée, pour sélectionner la couleur de la condition, puis cliquez en dehors de la zone du sélecteur de couleurs pour la fermer.
 
-   ![Menu déroulant du sélecteur de couleurs dans la zone Couleurs de ligne mise en surbrillance](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Zone Couleurs de ligne avec le statut Actif sélectionné et le choix de couleur par défaut](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter d’autres champs et valeurs au premier ensemble de conditions
 
@@ -966,16 +964,27 @@ Pour ajouter un regroupement :
 
    Par exemple, vous pouvez afficher les campagnes au statut Planning en jaune en définissant un nouveau jeu de conditions.
 
-   ![Zone Couleurs de ligne avec couleurs personnalisées au statut Actif et Planification](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![Zone Couleurs de ligne avec couleurs personnalisées au statut Actif et Planification](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >Lorsque deux champs différents sont sélectionnés, la dernière règle s’applique en premier pour les couleurs qui seront appliquées aux lignes.
+
 
 1. (Facultatif) Activez le paramètre **Appliquer à toute la ligne** dans le coin supérieur droit de la zone **Couleurs de ligne**. La ligne entière où la condition est remplie s’affiche automatiquement dans la couleur sélectionnée.
 
    >[!NOTE]
    >
-   >Si le paramètre **Appliquer à toute la ligne** est désactivé, seul l’arrière-plan de la cellule du champ principal s’affiche dans la couleur sélectionnée. Le paramètre est désactivé par défaut.
+   >* Si le paramètre **Appliquer à toute la ligne** est désactivé, seul l’arrière-plan de la cellule du champ principal s’affiche dans la couleur sélectionnée. Le paramètre est désactivé par défaut.
    >
+   >* Le paramètre Appliquer à l’ensemble de la ligne est grisé lorsque vous appliquez des regroupements au tableau.
 
 1. Cliquez en dehors de la zone **Couleurs des lignes** pour la fermer. Les couleurs sont appliquées automatiquement.
+
+   >[!TIP]
+   >
+   >Si vous choisissez d’appliquer la couleur uniquement à une cellule, seul le champ de Principal est mis en surbrillance.
+
 
 ### Activer l’indicateur de présence en temps réel
 
