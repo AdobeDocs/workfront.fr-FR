@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 95%
+source-wordcount: 440
+ht-degree: 99%
 
 ---
 
@@ -75,6 +75,4 @@ Vous pouvez utiliser des fonctions aux fins suivantes :
   >Si des utilisateurs ou utilisatrices se voient attribuer un modèle de mise en page dans leur profil utilisateur/utilisatrice, ce modèle prévaut sur celui affecté à leur fonction principale. Pour plus d’informations, voir [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Vous pouvez attribuer des fonctions aux plans et aux initiatives afin de gérer la disponibilité de vos ressources lors de l’utilisation d’[!DNL Adobe Workfront Scenario Planner]. Cette fonction nécessite une licence supplémentaire pour le [!DNL Scenario Planner]. Pour plus d’informations, voir [Commencer avec le  [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Vous pouvez modifier la devise des taux de fonctions à date effective lorsque vous travaillez avec des ressources de différents pays. Vous pouvez ainsi obtenir des montants de coûts et de revenus plus précis pour les éléments de travail.
 
-  Pour plus d’informations, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
