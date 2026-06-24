@@ -6,7 +6,7 @@ description: Vous pouvez utiliser les champs de devise dans un tableau de bord Z
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 12%
@@ -154,6 +154,11 @@ Le tableau suivant décrit les limites lorsque les devises sont définies dans l
 <li>Verrouiller une devise spécifique pour l’affichage dans un graphique en canevas, un KPI ou un rapport tabulaire</li>
 <li>Utilisez les champs de devise Planning dans un graphique en canevas, un KPI et des rapports tabulaires. <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td> 
 </tr>
 </td> 
@@ -172,5 +177,10 @@ Le tableau suivant décrit les limites lorsque les devises sont définies dans l
   <li>Utiliser des champs de devise de données personnalisés dans les rapports de tableau, de graphique à zones de travail et d’ICP</li>
   <li>Utilisez les champs de devise Planning dans un graphique en canevas, un KPI et des rapports tabulaires. <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td>
 </tr></table>

@@ -9,23 +9,15 @@ feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
 TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 95%
+source-wordcount: 440
+ht-degree: 99%
 
 ---
 
@@ -75,6 +67,4 @@ Vous pouvez utiliser des fonctions aux fins suivantes :
   >Si des utilisateurs ou utilisatrices se voient attribuer un modèle de mise en page dans leur profil utilisateur/utilisatrice, ce modèle prévaut sur celui affecté à leur fonction principale. Pour plus d’informations, voir [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Vous pouvez attribuer des fonctions aux plans et aux initiatives afin de gérer la disponibilité de vos ressources lors de l’utilisation d’[!DNL Adobe Workfront Scenario Planner]. Cette fonction nécessite une licence supplémentaire pour le [!DNL Scenario Planner]. Pour plus d’informations, voir [Commencer avec le  [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Vous pouvez modifier la devise des taux de fonctions à date effective lorsque vous travaillez avec des ressources de différents pays. Vous pouvez ainsi obtenir des montants de coûts et de revenus plus précis pour les éléments de travail.
 
-  Pour plus d’informations, voir [Créer et gérer des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

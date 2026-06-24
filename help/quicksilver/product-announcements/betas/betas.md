@@ -7,13 +7,11 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
-source-wordcount: 184
+source-wordcount: 174
 ht-degree: 10%
 
 ---
@@ -34,7 +32,7 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
 * Intégrité du projet
 
-  Pour plus d’informations, voir [&#x200B; Présentation de l’intégrité du projet &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Pour plus d’informations, voir [ Présentation de l’intégrité du projet ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * Le réviseur de contenu Workfront
 
@@ -43,10 +41,16 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
   Pour plus d’informations, voir [Prise en main du réviseur de contenu Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Adobe Workfront Planning Designer est disponible en Beta fermé. Vous pouvez nous envoyer un courriel pour demander l&#39;accès à ce programme.
+* Adobe Workfront Planning Designer est disponible en Beta fermé.
 
   Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
+<!--
+
+* Adobe Workfront Planning with Catalyze is available in Closed beta.
+
+    For information, see [Get started with Adobe Workfront Planning with Catalyze](LINK HERE)
+-->
 
 <!--
 
@@ -55,7 +59,7 @@ drafted for later when we start releasing features for the commenting experience
 The features described in this page are currently available as part of beta programs. Features that are available in beta might not be available to all customers. 
 
 
-## New commenting exprience Beta
+## New commenting experience Beta
 
 * [New commenting experience](../betas/new-commenting-experience-beta/unified-commenting-experience.md)
 * [New commenting experience beta release activity](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
