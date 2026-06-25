@@ -19,7 +19,7 @@ ht-degree: 10%
 
 Lorsque vous affectez une carte tarifaire à un modèle, celle-ci est ensuite associée à tous les projets créés à partir du modèle. La carte tarifaire devient la carte par défaut du projet, mais elle peut être remplacée si nécessaire.
 
-Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 Pour plus d’informations sur les modèles de projet, voir [Présentation des modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/project-template-overview.md).
 
@@ -117,7 +117,7 @@ Vous pouvez commencer à saisir le nom d’une carte tarifaire pour affiner la l
 
    Dans la section Options de la zone Enregistrer en tant que modèle, vous pouvez sélectionner l’élément **Carte tarifaire** pour ajouter la carte tarifaire au modèle. Décochez la case pour exclure la carte tarifaire du transfert vers le modèle.
 
-   Pour plus d’informations, voir [ Enregistrer un projet en tant que modèle ](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
+   Pour plus d’informations, voir [&#x200B; Enregistrer un projet en tant que modèle &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
 
 
 
