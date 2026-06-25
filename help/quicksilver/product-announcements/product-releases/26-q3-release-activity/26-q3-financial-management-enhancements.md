@@ -4,10 +4,10 @@ description: Améliorations de la gestion financière pour le troisième trimest
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: e1a56c9dee403c1f0c28d2bf49d4becbaad5d085
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '272'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,28 @@ ht-degree: 9%
 Cette page décrit les améliorations apportées à Financial Management avec la version du troisième trimestre 2026 dans l’environnement de prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Ajouter une carte tarifaire à un modèle
+
+>[!NOTE]
+>
+>Aperçu : 25 juin 2026>Mise à jour rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026>Cette fonctionnalité n’est disponible que pour les organisations sur le package Workflow Ultimate.
+
+Vous pouvez désormais sélectionner une carte tarifaire à ajouter à un modèle, qui est ensuite automatiquement associée à tous les projets créés à partir du modèle. La carte tarifaire devient la carte par défaut du projet, mais elle peut être remplacée si nécessaire.
+
+Pour plus d’informations, voir [Joindre une carte tarifaire à un modèle](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md).
+
+## Ajouter des taux de facturation entre les taux existants sur une carte tarifaire
+
+>[!NOTE]
+>
+>Aperçu : 25 juin 2026>Mise à jour rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026>Cette fonctionnalité n’est disponible que pour les organisations sur le package Workflow Ultimate.
+
+Vous pouvez désormais ajuster plus rapidement la liste des taux de facturation datés effectifs sur une carte tarifaire en ajoutant un nouveau taux à un emplacement spécifique de la liste. Sélectionnez le menu **Plus** en regard d’un taux existant pour insérer une ligne au-dessus ou en dessous de ce taux.
+
+Auparavant, vous pouviez uniquement ajouter des taux au bas de la liste.
+
+Pour plus d’informations, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Les attributs de taux ne peuvent pas être modifiés une fois qu’ils sont utilisés sur des taux
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 864c3858a7cbfcc09268b8f0fa10b99509aebb08
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 17%
+source-wordcount: '2312'
+ht-degree: 16%
 
 ---
 
@@ -29,9 +29,10 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 >|----|----|
 >| <ul><li>Version 26.5 (14 Mai 2026)</li><li>26.6 (11 Juin 2026)</li><li>26.7 (15 Juillet 2026)</li></ul> | <ul><li>26.7 (16 Juillet 2026)</li></ul> |
 >
->Notez que pour la version finale de chaque trimestre (26.7 ce trimestre), les utilisateurs disposant du planning de publication rapide recevront la version un jour plus tôt (15 juillet 2026).
+>* Notez que pour la version finale de chaque trimestre (26.7 ce trimestre), les utilisateurs disposant du planning de publication rapide recevront la version un jour plus tôt (15 juillet 2026).
 >
->Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>   Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>* Pour la version 26.7 (juillet 2026), la dernière date à laquelle les fonctionnalités peuvent apparaître dans l’environnement de Prévisualisation est le 7 juillet.
 
 ## Améliorations apportées à Adobe Workfront
 
@@ -48,8 +49,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Améliorations de l’IA
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -82,8 +81,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Améliorations apportées aux administrateurs et administratrices
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -151,8 +148,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Améliorations des documents
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -160,6 +155,17 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Demander l’approbation sur les modèles Adobe Express avec Workfront et Frame.io</a><p>[!BADGE Hors planning]{type=Neutral}</p>
@@ -211,8 +217,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Améliorations de la gestion financière
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -220,6 +224,24 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter une carte tarifaire à un modèle</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Vous pouvez désormais sélectionner une carte tarifaire à ajouter à un modèle, qui est ensuite automatiquement associée à tous les projets créés à partir du modèle. La carte tarifaire devient la carte par défaut du projet, mais elle peut être remplacée si nécessaire.</p>
+            </td>
+            <td><p>25 Juin 2026</p></td>
+            <td><p>15 juillet 2026</p></td>
+            <td><p>16 juillet 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajouter des taux de facturation entre les taux existants sur une carte tarifaire</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Vous pouvez désormais ajuster plus rapidement la liste des taux de facturation datés effectifs sur une carte tarifaire en ajoutant un nouveau taux à un emplacement spécifique de la liste. Sélectionnez le menu <b>Plus</b> en regard d’un taux existant pour insérer une ligne au-dessus ou en dessous de ce taux.</p>
+            </td>
+            <td><p>25 Juin 2026</p></td>
+            <td><p>15 juillet 2026</p></td>
+            <td><p>16 juillet 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Les attributs de taux ne peuvent pas être modifiés une fois qu’ils sont utilisés sur des taux</a><p>[!BADGE Hors planning]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
@@ -235,8 +257,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Amélioration de l’accueil
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -261,8 +281,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Améliorations apportées aux projets
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -295,8 +313,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Amélioration des rapports
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -304,6 +320,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Valeurs par défaut de l’invite du tableau de bord Zone de travail et persistance des préférences utilisateur</a>
+                <p>Les gestionnaires de tableaux de bord peuvent désormais définir des valeurs d’invite par défaut pour les tableaux de bord Zone de travail, automatiquement appliquées à toutes les visionneuses. Lorsque l’utilisateur met à jour les invites, ses sélections sont enregistrées et restaurées lors de l’actualisation, de la réouverture ou après avoir accédé à un enregistrement et y avoir accédé à nouveau.</p>
+            </td>
+            <td><p>25 Juin 2026</p></td>
+            <td><p>15 juillet 2026</p></td>
+            <td><p>16 juillet 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Ajouter plusieurs plages d’adresses IP Power BI à la fois à la liste autorisée Data Connect</a> <p>[!BADGE Hors planning]{type=Neutral}
@@ -355,8 +380,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Améliorations des demandes
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
@@ -388,8 +411,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ### Autres améliorations
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Fonctionnalité</strong>
