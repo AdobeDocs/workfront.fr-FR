@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
+source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 12%
@@ -66,7 +66,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Le nom doit être unique.
 
-   ![&#x200B; Boîte de dialogue Nouvelle carte tarifaire &#x200B;](assets/new-rate-card-dialog.png)
+   ![ Boîte de dialogue Nouvelle carte tarifaire ](assets/new-rate-card-dialog.png)
 
 1. (Facultatif) Sélectionnez un [!UICONTROL **Groupe**] pour la carte tarifaire. C&#39;est l&#39;agence qui définit la carte tarifaire.
 1. (Facultatif) Sélectionnez une [!UICONTROL **Société**] pour la carte tarifaire. Il s’agit du client pour lequel les taux sont attribués par contrat.
@@ -136,7 +136,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur [!UICONTROL **Fonctions et taux**] dans le panneau de gauche pour modifier les taux de facturation.
 1. Pour modifier un taux, activez la case à cocher en regard du taux et cliquez sur [!UICONTROL **Modifier**] dans la barre d’actions située en bas de l’écran.
 
-   Pour plus d’informations sur la barre d’actions, voir [&#x200B; Utiliser des listes améliorées &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Pour plus d’informations sur la barre d’actions, voir [ Utiliser des listes améliorées ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    >[!NOTE]
    >
@@ -201,4 +201,6 @@ Consultez l’article [Importer des cartes tarifaires à partir d’un modèle](
    >[!NOTE]
    >
    >Une carte tarifaire associée à un projet sera supprimée du projet.
+
+
 
