@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 2%
 
 ---
@@ -29,22 +29,18 @@ Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la v
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## Prise en charge des champs de planification monétaire dans les tableaux de bord de la zone de travail
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Aperçu : 25 juin 2026>Version rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+Vous pouvez désormais inclure des champs de planification monétaire dans des rapports de tableau, d’indicateur de performance clé et de graphique dans les tableaux de bord Zone de travail.
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+Avant cette amélioration, les champs de devise n’étaient pas pris en charge dans les tableaux de bord de la zone de travail.
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+Pour plus d’informations, voir [Utilisation des champs de devise dans les tableaux de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
 
 ## Amélioration de l’interface des commandes de couleur des lignes
 
@@ -124,7 +120,7 @@ Nous avons ajouté l’onglet Exemples d’espaces de travail à la zone de dest
 
 Nous vous recommandons d’afficher les exemples d’espaces de travail et d’utiliser le lot de modèles multi-espaces de travail pour créer, modifier et partager les espaces de travail résultant de l’utilisation de ce modèle.  Le lot du modèle contient les mêmes espaces de travail que l’onglet Exemples d’espaces de travail .
 
-Pour plus d’informations, voir [&#x200B; Présentation des espaces de travail &#x200B;](/help/quicksilver/planning/architecture/workspaces-overview.md).
+Pour plus d’informations, voir [ Présentation des espaces de travail ](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## API Workfront Planning version 2
 
@@ -367,7 +363,7 @@ Outre l&#39;ajout de deux vues de page de détails déjà créées, qui contienn
 
 Cette mise à jour supprime le paramètre **Afficher tous les champs** et le remplace par des vues détaillées personnalisées.
 
-Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Ajouter des regroupements à une page d’enregistrement connecté Projets
 
@@ -378,4 +374,4 @@ Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x
 
 Vous pouvez désormais regrouper vos informations dans la page Enregistrements connectés à des projets d’un enregistrement dans Workfront Planning. Cette fonctionnalité n&#39;existait pas dans ce domaine avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).

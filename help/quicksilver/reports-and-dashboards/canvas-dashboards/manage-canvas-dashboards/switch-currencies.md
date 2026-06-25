@@ -6,7 +6,7 @@ description: Vous pouvez utiliser les champs de devise dans un tableau de bord Z
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 12%
@@ -177,7 +177,8 @@ Le tableau suivant décrit les limites lorsque les devises sont définies dans l
 
 
 <p><b>NOTE</b></p>
-<span class="preview">Si un champ de devise Planning utilise une devise sans taux de change défini, le tableau de bord Zone de travail peut afficher un message d'erreur lorsque.</span>
+
+<p><span class="preview">Si un champ Devise Planning utilise une devise sans taux de change défini, le tableau de bord Zone de travail peut afficher un message d'erreur.</span></p>
 
 </td>
 </tr></table>
