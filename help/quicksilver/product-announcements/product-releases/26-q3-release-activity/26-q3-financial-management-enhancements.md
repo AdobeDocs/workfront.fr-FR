@@ -37,7 +37,7 @@ Vous pouvez désormais ajuster plus rapidement la liste des taux de facturation 
 
 Auparavant, vous pouviez uniquement ajouter des taux au bas de la liste.
 
-Pour plus d’informations, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Les attributs de taux ne peuvent pas être modifiés une fois qu’ils sont utilisés sur des taux
 
