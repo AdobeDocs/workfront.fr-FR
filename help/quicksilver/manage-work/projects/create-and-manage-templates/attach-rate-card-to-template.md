@@ -6,7 +6,7 @@ title: Joindre une carte tarifaire à un modèle
 description: Lorsque vous affectez une carte tarifaire à un modèle, celle-ci est ensuite associée à tous les projets créés à partir du modèle.
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 10%
@@ -117,7 +117,6 @@ Vous pouvez commencer à saisir le nom d’une carte tarifaire pour affiner la l
 
    Dans la section Options de la zone Enregistrer en tant que modèle, vous pouvez sélectionner l’élément **Carte tarifaire** pour ajouter la carte tarifaire au modèle. Décochez la case pour exclure la carte tarifaire du transfert vers le modèle.
 
-   Pour plus d’informations, voir [&#x200B; Enregistrer un projet en tant que modèle &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   Pour plus d’informations, voir [Enregistrer un projet en tant que modèle](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 
