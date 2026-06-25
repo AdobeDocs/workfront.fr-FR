@@ -9,19 +9,14 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 13%
+source-wordcount: 1057
+ht-degree: 12%
 
 ---
 
@@ -38,11 +33,12 @@ ht-degree: 13%
 >* Google Cloud Platform
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+take Preview and production mentions out at release
 -->
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contient des invites. Une invite fonctionne comme un modificateur de filtre qui applique des critères de filtrage supplémentaires afin que vous puissiez réduire encore davantage vos résultats. Ces invites peuvent être modifiées à chaque application du filtre, ce qui permet d&#39;ajuster les résultats affichés sans avoir à modifier les principaux critères de filtre du tableau de bord ou de chaque rapport.
 
@@ -123,7 +119,7 @@ Un filtre de tableau de bord permet d’appliquer un filtre commun à tous les r
 
 1. Dans le coin supérieur gauche de la page des détails du tableau de bord, cliquez sur **Filtres**. Le panneau latéral Filtres s’ouvre.
 
-1. Clic <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **Modifier les filtres**. La boîte de dialogue **Filtres de tableau de bord** s’ouvre.
+1. (Conditionalt) Dans l’environnement de production, cliquez sur **Modifier les filtres** ou <span class="preview">dans l’environnement de prévisualisation, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur </span> **Modifier les filtres**. La boîte de dialogue **Filtres de tableau de bord** s’ouvre.
 
 1. (Facultatif) Pour ajouter une règle, procédez comme suit :
 
@@ -177,18 +173,24 @@ Une invite de tableau de bord permet aux utilisateurs et utilisatrices d’appli
 
 1. Cliquez sur **Enregistrer** pour appliquer le filtre au tableau de bord.
 
-   <!--
-    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
-        <div class="preview">
-        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
-            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
-        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
-            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
-            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
-        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
-        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
-        </div> 
-    -->
+
+1. <span class="preview">Pour enregistrer les invites par défaut, procédez comme suit après avoir enregistré l&#39;invite : </span>
+
+   <div class="preview">
+
+   1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Enregistrer comme invites par défaut**.
+
+      Le filtre de l’invite est appliqué à chaque chargement du tableau de bord pour toute personne disposant d’autorisations d’affichage ou supérieures.
+   1. (Conditionnel) Si vous accédez à un tableau de bord auquel une invite par défaut est appliquée, vous pouvez modifier le filtre et vos modifications sont enregistrées en tant que préférence personnelle. Les scénarios suivants sont possibles :
+
+      * Si vous disposez d’autorisations de niveau Gérer pour le tableau de bord, cliquez sur **Enregistrer en tant qu’invites par défaut** pour enregistrer vos modifications en tant que filtre par défaut. Cette option remplace les valeurs par défaut d’origine.
+      * Si vous disposez des autorisations d’affichage du tableau de bord, vos modifications s’affichent uniquement pour vous. L’actualisation de la page conserve vos paramètres.
+
+   1. (Conditionnel) Si vous avez modifié les paramètres de l’invite par défaut, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Appliquer les valeurs par défaut du tableau de bord** pour revenir aux résultats de filtrage par défaut.
+   1. (Facultatif) Cliquez sur **Réinitialiser les valeurs par défaut** pour remplacer les paramètres par défaut d’origine par vos modifications. Cette option n’est disponible que pour les gestionnaires de tableaux de bord.
+
+   </div>
+
 
 1. Passez à [Partie 3 : appliquer une invite de tableau de bord](#step-3-apply-a-dashboard-prompt).
 
@@ -204,7 +206,7 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
 
 1. Dans le coin supérieur gauche de la page des détails du tableau de bord, cliquez sur **Filtres**. Le panneau latéral Filtres s’ouvre.
 
-1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Filtres de tableau de bord appliqués** s’affiche dans le coin du widget de rapport.
+1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Invites du tableau de bord appliquées** s’affiche dans le coin du widget de rapport.
    ![Sélectionner la condition](assets/prompts-list.png)
 
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
