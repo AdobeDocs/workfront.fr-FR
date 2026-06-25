@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -17,6 +17,23 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées aux documents avec la version du troisième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+<!--
+## Adobe Cloud Drive
+
+>[!NOTE]
+>
+>Preview: N/A
+>Production fast release: June 26, 2026
+>Production for everyone: June 26, 2026
+>This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
+
+Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
+
+For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+-->
 
 ## Demander l’approbation des modèles Adobe Express avec Workfront et Frame.io
 

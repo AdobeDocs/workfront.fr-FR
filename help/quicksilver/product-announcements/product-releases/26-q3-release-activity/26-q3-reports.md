@@ -4,9 +4,9 @@ description: Améliorations des rapports du troisième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées aux rapports avec la version du troisième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Valeurs par défaut de l’invite du tableau de bord de la zone de travail et persistance des préférences utilisateur
+
+>[!NOTE]
+>
+>Aperçu : 25 juin 2026>Version rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026
+
+Pour améliorer l’efficacité pour les utilisateurs qui passent d’un tableau de bord à un enregistrement en préservant leur statut de filtre de travail, les gestionnaires de tableaux de bord peuvent désormais définir des valeurs d’invite par défaut pour les tableaux de bord Zone de travail. Ces valeurs par défaut sont automatiquement appliquées à toutes les visionneuses de tableaux de bord.
+
+Lorsque l’utilisateur met à jour les invites, ses sélections sont enregistrées et restaurées lors de l’actualisation, de la réouverture ou après avoir accédé à un enregistrement et y avoir accédé à nouveau.
+
+Les responsables peuvent réinitialiser à tout moment l’état par défaut du tableau de bord. Les utilisateurs peuvent également revenir rapidement aux valeurs par défaut via le menu à trois points.
+
+Avant cette amélioration, les invites de tableau de bord n&#39;avaient pas de valeur par défaut configurable ou de préférence utilisateur enregistrée pour le statut de l&#39;invite.
+
+Pour plus d’informations, voir [Filtrer un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
 
 ## Ajouter plusieurs plages d’adresses IP Power BI à la fois à la liste autorisée Data Connect
 
@@ -40,7 +56,7 @@ Pour plus d’informations, voir [Établir une connexion à Workfront Data Conne
 
 Vous pouvez désormais trier la liste Tableaux de bord de la zone de travail en fonction de l’une des colonnes suivantes : **Nom**, **Description**, **Date de création** ou **Date de création**. Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne, puis cliquez de nouveau sur le même en-tête pour inverser le sens du tri. Par défaut, la liste est triée par **Nom** de A à Z. L’ordre de tri est conservé lorsque vous basculez entre les onglets de la liste Tableaux de bord de la zone de travail.
 
-Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+Pour plus d’informations, voir [ Utilisation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Modifications apportées aux heures effectives dans les formules personnalisées
 
