@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: 1057
 ht-degree: 12%
@@ -215,5 +215,6 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
    ![Sélectionner la condition](assets/prompts-list.png)
 
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
+
 
 
