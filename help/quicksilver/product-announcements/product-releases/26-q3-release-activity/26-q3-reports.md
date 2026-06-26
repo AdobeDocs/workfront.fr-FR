@@ -4,7 +4,7 @@ description: Améliorations des rapports du troisième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Pour plus d’informations, voir [Établir une connexion à Workfront Data Conne
 
 Vous pouvez désormais trier la liste Tableaux de bord de la zone de travail en fonction de l’une des colonnes suivantes : **Nom**, **Description**, **Date de création** ou **Date de création**. Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne, puis cliquez de nouveau sur le même en-tête pour inverser le sens du tri. Par défaut, la liste est triée par **Nom** de A à Z. L’ordre de tri est conservé lorsque vous basculez entre les onglets de la liste Tableaux de bord de la zone de travail.
 
-Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+Pour plus d’informations, voir [ Utilisation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Modifications apportées aux heures effectives dans les formules personnalisées
 
@@ -99,3 +99,4 @@ Les tableaux de bord de la zone de travail structurent désormais les requêtes 
 Auparavant, une jointure entre des enregistrements associés pouvait répéter les enregistrements parents une fois pour chaque enregistrement associé. Par exemple, dans un rapport de projet filtré en fonction des tâches affectées à un utilisateur spécifique, chaque projet est répété une fois pour chaque tâche correspondante. Un IPC qui additionne le budget du projet pourrait indiquer 6 000 $ au lieu du 1 250 $ correct.
 
 L’interface du tableau de bord de la zone de travail n’a pas été modifiée. Les rapports existants renvoient automatiquement des données précises après cette version.
+
