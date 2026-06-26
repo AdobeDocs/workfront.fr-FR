@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 16%
+source-wordcount: '2369'
+ht-degree: 18%
 
 ---
 
@@ -44,6 +44,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Amélioration des rapports](#reporting-enhancements)
 * [Améliorations des demandes](#requesting-enhancements)
+* [Amélioration apportées à la gestion des ressources.](#resource-management-enhancements)
 * [Autres améliorations](#other-enhancements)
 
 ### Améliorations de l’IA
@@ -71,7 +72,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Connectez votre plateforme IA agentic à Workfront avec le serveur MCP Workfront</a>
                 <p>Le nouveau serveur Workfront MCP connecte Workfront à une plateforme d’IA agentique prise en charge, telle que Claude ou ChatGPT, afin que vous puissiez rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel. Actuellement disponible uniquement pour les clients situés aux États-Unis qui utilisent AWS.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -111,7 +112,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Texte enrichi remplaçant le texte par le type de champ Mise en forme</a>
                 <p>Le nouveau type de champ <b>Texte enrichi</b> dans les formulaires personnalisés est un puissant éditeur de texte, avec des options de mise en forme telles que l’exposant et l’indice, les en-têtes et les tableaux, en plus des options traditionnelles telles que le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets. La limite de caractères reste de 15 000.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -120,7 +121,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Champs financiers natifs pris en charge dans les formulaires personnalisés</a>
                 <p>Vous pouvez désormais inclure des champs financiers natifs de Workfront dans les formulaires personnalisés. Auparavant, les champs financiers n’étaient pas pris en charge.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -129,7 +130,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Les formulaires personnalisés peuvent être partagés dans tout le système et vous pouvez y joindre des formulaires</a>
                 <p>Une nouvelle option de partage, « Tout le monde dans le système peut afficher et joindre », a été ajoutée aux formulaires personnalisés. Lorsque vous sélectionnez cette option, tous les utilisateurs à l’échelle du système peuvent joindre le formulaire à d’autres objets.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -138,7 +139,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouvelle préférence système pour appliquer les champs obligatoires dans la modification en bloc</a>
                 <p>Une nouvelle préférence système vous permet désormais d’appliquer les champs obligatoires dans la modification en masse, de sorte que les objets modifiés en masse ne puissent pas être enregistrés à moins que tous les champs obligatoires ne comportent des valeurs.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -189,7 +190,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Ajouter un message personnalisé à une étape de workflow d’approbation de document</a>
                 <p>Vous pouvez désormais ajouter un message personnalisé à chaque étape d’un workflow d’approbation de document. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -247,9 +248,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Les attributs de taux ne peuvent pas être modifiés une fois qu’ils sont utilisés sur des taux</a><p>[!BADGE Hors planning]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>Une fois qu’un attribut est ajouté à un taux dans Workfront, vous ne pouvez plus modifier cet attribut et ses filtres dans la zone Configuration . Cela permet de préserver l’intégrité des données et d’empêcher toute modification accidentelle des taux lorsque des attributs sont mis à jour.</p>
             </td>
-            <td><p>21 Mai 2026</p></td>
-            <td><p>21 Mai 2026</p></td>
-            <td><p>21 Mai 2026</p></td>
+            <td><p>21 mai 2026</p></td>
+            <td><p>21 mai 2026</p></td>
+            <td><p>21 mai 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -269,7 +270,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Utiliser des données et des vues personnalisées dans les priorités</a><p></p>
                 <p>Les priorités prennent désormais en charge l’utilisation de données personnalisées dans les colonnes. Ouvrez le gestionnaire de colonnes de la liste de tâches pour ajouter les champs personnalisés à afficher dans les données de la colonne.</p>
             </td>
-            <td><p>4 Juin 2026</p></td>
+            <td><p>4 juin 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -352,16 +353,16 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Modifications apportées aux heures réelles dans les formules personnalisées</a> <p>[!BADGE Hors planning]{type=Neutral}</p>
                 <p>Les formules personnalisées existantes utilisant <b>realWorkRequired</b> (heures effectives héritées) ont été migrées afin d’utiliser <b>realWorkRequiredDouble</b> (heures effectives) à la place. <b>realWorkRequired</b> ne peut plus être utilisé dans les calculs et les formules.</p>
             </td>
-            <td><p>1er juin 2026</p></td>
-            <td><p>1er juin 2026</p></td>
-            <td><p>1er juin 2026</p></td>
+            <td><p>1er juin 2026</p></td>
+            <td><p>1er juin 2026</p></td>
+            <td><p>1er juin 2026</p></td>
         </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Champs de données de devise personnalisés dans les rapports Tableau de bord Zone de travail</a>
                 <p>Les rapports Tableau de bord de la zone de travail prennent désormais en charge les champs de données de devise personnalisés sous forme de colonnes, filtres, regroupements et agrégations, y compris lorsque plusieurs taux de change sont configurés dans la configuration du système.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -408,6 +409,28 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
     </tbody>
 </table>
 
+### Amélioration apportées à la gestion des ressources.
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Actions d’affectation en bloc rationalisées dans l’équilibreur de charge de travail</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Les affectations en bloc ont été rationalisées dans l’équilibreur de charge de travail, avec la combinaison des actions d’affectation des utilisateurs et de remplacement des utilisateurs dans l’action <strong>Remplacer la ressource</strong>.</p>
+            </td>
+            <td><p>19 Juin 2026</p></td>
+            <td><p>19 Juin 2026</p></td>
+            <td><p>19 Juin 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Autres améliorations
 
 <table>
@@ -433,7 +456,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Mises à jour améliorées de la liste</a>
                 <p>Plusieurs types de champ sur les listes améliorées ont été mis à jour pour inclure la navigation au clavier et d’autres améliorations.</p>
             </td>
-            <td><p>28 Mai 2026</p></td>
+            <td><p>28 mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
