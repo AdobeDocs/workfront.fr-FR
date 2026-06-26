@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
+source-wordcount: 1194
 ht-degree: 12%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -186,6 +184,11 @@ Une invite de tableau de bord permet aux utilisateurs et utilisatrices d’appli
    1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Enregistrer comme invites par défaut**.
 
       Le filtre de l’invite est appliqué à chaque chargement du tableau de bord pour toute personne disposant d’autorisations d’affichage ou supérieures.
+
+      >[!TIP]
+      >
+      >Si vous n’avez pas créé l’invite et que vous n’avez pas accès à ses champs, les noms des champs ne s’afficheront pas. Modifiez l’invite pour renseigner le rapport.
+
    1. (Conditionnel) Si vous accédez à un tableau de bord auquel une invite par défaut est appliquée, vous pouvez modifier le filtre et vos modifications sont enregistrées en tant que préférence personnelle. Les scénarios suivants sont possibles :
 
       * Si vous disposez d’autorisations de niveau Gérer pour le tableau de bord, cliquez sur **Enregistrer en tant qu’invites par défaut** pour enregistrer vos modifications en tant que filtre par défaut. Cette option remplace les valeurs par défaut d’origine.
@@ -211,8 +214,7 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
 
 1. Dans le coin supérieur gauche de la page des détails du tableau de bord, cliquez sur **Filtres**. Le panneau latéral Filtres s’ouvre.
 
-1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Invites du tableau de bord appliquées** s’affiche dans le coin du widget de rapport.
-   ![Sélectionner la condition](assets/prompts-list.png)
+1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Invites du tableau de bord appliquées** s’affiche dans le coin du widget de rapport.   ![Sélectionner la condition](assets/prompts-list.png)
 
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
 
