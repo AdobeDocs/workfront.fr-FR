@@ -7,22 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85a374c5168c613625ce154a486aa655c367dfea
 workflow-type: tm+mt
-source-wordcount: 1536
-ht-degree: 88%
+source-wordcount: 1242
+ht-degree: 58%
 
 ---
 
@@ -75,17 +68,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Remarques sur les affectations en masse dans l’équilibreur de charge de travail
 
-* Vous pouvez rapidement gérer les affectations d’utilisateurs et d’utilisatrices pour plusieurs tâches et problèmes sur un ou plusieurs projets. Les modifications d’affectations sont immédiatement visibles dans l’équilibreur de charge de travail.
+* Vous pouvez rapidement gérer les affectations de ressources pour plusieurs tâches et événements dans un ou plusieurs projets. Les modifications d’affectations sont immédiatement visibles dans l’équilibreur de charge de travail.
 * Vous ne pouvez pas affecter de ressources aux éléments de travail terminés ou aux éléments qui se trouvent dans un projet terminé.
-* Vous pouvez effectuer les opérations suivantes lorsque vous affectez des utilisateurs et utilisatrices en masse :
+* Vous pouvez effectuer les opérations suivantes lors de l’affectation en bloc de fonctions et d’utilisateurs :
 
-   * Affecter un utilisateur ou une utilisatrice à tous les éléments de travail actuellement affectés à une fonction.
-   * Remplacer les affectations entre les utilisateurs et utilisatrices.
+   * Remplacez les affectations entre les utilisateurs et les rôles dans toutes les combinaisons valides.
    * Annuler l’affectation d’un utilisateur ou d’une utilisiatrice à tous ses éléments de travail.
 
 **EXEMPLES**
 
-* Vous devez effectuer des affectations d’utilisateurs et utilisatrices sur plusieurs nouveaux projets. Les projets ont été créés à partir de modèles et les fonctions sont déjà affectées aux différentes tâches des projets. Vous souhaitez affecter une utilisatrice spécifique, Jackie Simms, à toutes les tâches actuellement affectées à une fonction. Vous pouvez utiliser la fonction Affecter pour affecter ces tâches à Jackie Simms.
+* Vous devez effectuer des affectations d’utilisateurs et utilisatrices sur plusieurs nouveaux projets. Les projets ont été créés à partir de modèles et les fonctions sont déjà affectées aux différentes tâches des projets. Vous souhaitez affecter une utilisatrice spécifique, Jackie Simms, à toutes les tâches actuellement affectées à une fonction. Vous pouvez utiliser la fonction Remplacer pour affecter ces tâches à Jackie Simms.
 * 45 tâches sur 3 projets différents sont affectées à Jackie Simms. Jackie quitte l’entreprise et vous devez maintenant réaffecter ses tâches à une autre personne. Vous pouvez utiliser la fonction Remplacer pour affecter ces tâches à la nouvelle personne.
 * 10 tâches sur 2 projets différents sont affectées à un autre utilisateur, Rick Kuvec. Vous réalisez que Rick a été affecté à ces tâches par erreur, mais vous ne savez pas à qui elles doivent être affectées à ce moment. Vous devez annuler l’affectation de Rick à toutes les tâches en même temps. Vous pouvez utiliser la fonction Annuler l’affectation pour retirer Rick de ces tâches.
 
@@ -108,7 +100,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Le nom du projet est sélectionné par défaut lorsque vous accédez à l’équilibreur de charge de travail pour un projet.
 
-   ![Nom du projet dans les affectations en bloc](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![Nom du projet dans les affectations en bloc](assets/project-name-status-dropdown-bulk-assignments-wb.png)
 
 1. (Facultatif) Cliquez sur **Sélectionner les tâches de projet** pour sélectionner la ou les tâches pour lesquelles vous souhaitez effectuer des affectations, puis dans le menu déroulant **Tâche : nom**, sélectionnez les tâches par nom (option par défaut) ou par statut et utilisez les modificateurs de filtre pour rechercher des tâches spécifiques.
 
@@ -118,7 +110,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Vous ne pouvez pas sélectionner de tâches dont le statut est Terminé.
 
-   ![Statut de la tâche dans les affectations en bloc](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![Statut de la tâche dans les affectations en bloc](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
@@ -132,94 +124,101 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Sélectionnez l’une des options suivantes et procédez comme suit :
 
-   * [Affecter un utilisateur ou une utilisatrice](#assign-user)
-   * [Remplacer un utilisateur ou une utilisatrice](#replace-user)
-   * [Annuler l’affectation de l’utilisateur](#unassign-user)
+   * [ Remplacer la ressource ](#replace-user)
+   * [Désattribuer une ressource](#unassign-user)
 
    >[!TIP]
    >
    >Si aucun élément ne correspond aux filtres sélectionnés, ces options sont grisées.
 
-### Affecter un utilisateur {#assign-user}
+<!--
 
-Lorsque vous affectez un utilisateur ou une utilisatrice à l’aide d’affectations groupées dans l’équilibreur de charge de travail, les événements suivants se produisent :
+### Assign user {#assign-user}
 
-* Tous les éléments de travail actuellement affectés à un rôle spécifié dans les projets sélectionnés sont affectés à un utilisateur ou une utilisatrice.
-* Les types d’éléments de travail suivants ne sont pas affectés à l’utilisateur ou à l’utilisatrice :
+When you assign a user using Bulk Assignments in the Workload Balancer, the following things occur:
 
-   * Éléments déjà affectés à un utilisateur ou une utilisatrice.
-   * Éléments terminés.
+* A user is assigned to all work items currently assigned to a specified role within the selected projects.
+* The user is not assigned to the following types of work items:
 
-* Si la personne que vous avez sélectionnée n’est pas associée au rôle spécifié, le rôle est remplacé par la personne dans son rôle principal.
+   * Items that are already assigned to a user.
+   * Completed items.
 
-Pour affecter un utilisateur ou une utilisatrice aux éléments de travail précédemment affectés à des fonctions, procédez comme suit :
+* If the user you selected is not associated with the specified role, the role is replaced by the user in the user's Primary Role.
 
-1. Commencez à affecter des éléments de travail à l’aide des affectations groupées dans l’équilibreur de charge de travail tel que décrit ci-dessus, puis sélectionnez **Affecter**.
+To assign a user to work items previously assigned to job roles:
 
-1. Dans le champ **Affectation des rôles**, cliquez sur la flèche déroulante pour effectuer un choix dans une liste de rôles. Seuls les rôles affectés actuellement dans les projets spécifiés s’affichent. Champ obligatoire.
+1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
 
-   ![Affectation de rôle](assets/bulk-assignments-workload-balancer-assign-selected.png)
+1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-1. Dans le champ **Utilisateur ou utilisatrice à affecter**, cliquez sur la flèche déroulante pour choisir parmi les personnes suggérées ou pour saisir le nom d’un autre utilisateur ou d’une autre utilisatrice.
+   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-   Sélectionnez des utilisateurs et utilisatrices dans les zones suivantes :
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
-   * **Affectations suggérées** : utilisateurs et utilisatrices pouvant remplir le rôle sélectionné et correspondant aux critères des affectations intelligentes. Pour plus d’informations, voir [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Autres affectations** : tous les utilisateurs et toutes les utilisatrices du système pouvant remplir le rôle sélectionné.
+   Select users from the following areas:
 
-     >[!TIP]
-     >
-     >Seules les 50 premières personnes sont répertoriées dans la zone Autres affectations.
+   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Other Assignments**: All users in the system who can fulfill the selected role. 
+   
+      >[!TIP]
+      >
+      >Only the first 50 users are listed in the Other Assignments area.
 
 
-   Après avoir sélectionné un utilisateur ou une utilisatrice, Workfront affiche une note indiquant le nombre d’éléments auxquels la personne que vous avez spécifiée sera affectée et la fonction qu’elle remplacera.
+   After selecting a user, Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
 
    >[!TIP]
    >
-   >Tous les rôles de l’utilisateur ou de l’utilisatrice s’affichent dans la liste, sous son nom.
+   >All the roles of the user display in the list, under the user's name.
 
 
-1. Cliquez sur **Affecter**.
+1. Click **Assign**.
 
-   Les rôles spécifiés sont remplacés par les utilisateurs que vous avez sélectionnés.
+   The specified roles are replaced with the users that you selected.
 
-   Vous recevez une confirmation indiquant le nombre d’éléments de travail pour lesquels le rôle sélectionné a été remplacé par la personne sélectionnée.
+   You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Confirmation d’affectation en bloc](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
-### Remplacer l’utilisateur {#replace-user}
+-->
 
-Vous pouvez remplacer une personne déjà affectée à des éléments de travail par un autre utilisateur ou une autre utilisatrice dans les projets sélectionnés.
+### Remplacer la ressource {#replace-user}
 
-Lorsque vous remplacez une personne par une autre en utilisant les affectations groupées dans l’équilibreur de charge de travail, les événements suivants se produisent :
+Vous pouvez remplacer une ressource déjà affectée à des tâches par une autre ressource dans les projets sélectionnés.
 
-* La personne de remplacement est affectée à tous les éléments de travail actuellement affectés à un utilisateur ou une utilisatrice d’origine dans les projets sélectionnés.
+Le remplacement de la ressource peut être :
 
-* Aucun élément de travail déjà marqué comme terminé n’est affecté au nouvel utilisateur ou à la nouvelle utilisatrice.
-* Si le rôle associé au premier utilisateur ou à la première utilisatrice ne correspond à aucun des rôles de la deuxième personne, la troisième personne est affectée à son rôle principal.
+* Rôle avec rôle
+* Utilisateur avec utilisateur
+* Utilisateur avec rôle
+* Rôle avec l’utilisateur
 
-Pour remplacer un utilisateur ou une utilisatrice par une autre personne, procédez comme suit :
+Lorsque vous remplacez une ressource par une autre ressource à l’aide d’affectations en bloc dans l’équilibreur de charge de travail, voici ce qui se produit :
 
-1. Commencez à affecter des éléments de travail dans l’équilibreur de charge de travail tel que décrit ci-dessus et sélectionnez **Remplacer**.
-1. Dans le champ **Personne affectée actuellement**, cliquez sur la flèche déroulante pour effectuer un choix dans la liste des utilisateurs et utilisatrices. Seules les personnes affectées actuellement à des éléments de travail incomplets dans les projets spécifiés s’affichent. Champ obligatoire.
+* La ressource de remplacement est affectée à toutes les tâches actuellement affectées à la ressource d&#39;origine dans les projets sélectionnés.
+* La nouvelle ressource n&#39;est affectée à aucun élément de travail déjà marqué comme Terminé.
+* Pour un remplacement utilisateur à utilisateur, si le rôle associé au premier utilisateur ne correspond à aucun des rôles du second utilisateur, le second utilisateur est affecté dans son rôle de Principal.
 
-   ![Remplacer un utilisateur ou une utilisatrice](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+Pour remplacer une ressource par une autre ressource :
 
-1. Dans le champ **Personne à affecter**, cliquez sur la flèche déroulante pour choisir parmi la liste des personnes suggérées ou pour saisir un autre nom d’utilisateur ou d’utilisatrice. Les utilisateurs répertoriés dans la liste correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. Sélectionnez des tâches dans la zone Affectations en bloc de l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Remplacer la ressource**.
+1. Dans le champ **Ressource actuellement affectée**, cliquez sur la flèche déroulante pour effectuer une sélection dans une liste de ressources. Seules les ressources actuellement affectées à des éléments de travail incomplets dans les projets spécifiés s&#39;affichent. Champ obligatoire.
 
-   Workfront affiche une note relative au nombre d’éléments pour lesquels la personne affectée remplacera la deuxième personne et les rôles qu’elle remplacera.
+   ![ Remplacer la ressource ](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-   ![Confirmation d’utilisation du remplacement en bloc](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+1. Dans le champ **Ressource à affecter**, cliquez sur la flèche déroulante pour effectuer votre choix dans une liste de ressources suggérées ou pour saisir une autre fonction ou un autre nom d’utilisateur. Les ressources répertoriées en premier correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+   Workfront affiche une note sur le nombre d’éléments pour lesquels la ressource actuellement affectée remplacera la seconde ressource.
 
 1. Cliquez sur **Remplacer**.
 
-   La première personne sélectionnée est remplacée par la deuxième personne dans tous les éléments de travail du projet sélectionné.
+   La première ressource est remplacée par la seconde dans tous les éléments de travail du projet ou de la tâche sélectionné.
 
-   Vous recevez une confirmation par rapport au nombre d’éléments de travail pour lesquelles l’affectation d’origine de l’utilisateur ou de l’utilisatrice a été remplacée par la deuxième personne sélectionnée.
+   Vous recevez un message de confirmation indiquant le nombre d&#39;éléments de travail pour lesquels l&#39;affectation d&#39;origine a été remplacée par la deuxième ressource sélectionnée.
 
-### Annuler l’affectation de l’utilisateur {#unassign-user}
+### Désattribuer une ressource {#unassign-user}
 
-Vous pouvez annuler l’affectation d’une personne à toutes les tâches dont elle a reçu l’affectation dans les projets sélectionnés.
+Vous pouvez annuler l’affectation d’une ressource pour toutes les tâches qui lui sont affectées dans les projets sélectionnés.
 
 Lorsque vous annulez l’affectation d’un utilisateur ou d’une utilisatrice de toutes ses affectations à l’aide des affectations groupées dans l’équilibreur de charge de travail, les événements suivants se produisent :
 
@@ -232,15 +231,13 @@ Pour plus d’informations sur les affectations d’utilisateurs et d’utilisat
 
 Pour annuler l’affectation d’un utilisateur ou d’une utilisatrice à des éléments de travail dans les projets sélectionnés ou pour les tâches ou problèmes sélectionnés auxquels la personne est affectée, procédez comme suit :
 
-1. Commencez à attribuer des éléments de travail dans l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Annuler l’affectation**.
+1. Sélectionnez des tâches dans la zone Affectations en bloc de l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Annuler l’affectation de la ressource**.
 
 1. Dans le champ **Personne à affecter**, cliquez sur la flèche déroulante et choisissez dans la liste d’utilisateurs et d’utilisatrices. Seuls les utilisateurs et utilisatrices affectés actuellement à des tâches incomplètes dans les projets spécifiés s’affichent. Champ obligatoire.
 
-   ![Annuler l’affectation d’un utilisateur](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![Annuler l’affectation d’un utilisateur](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront affiche une note par rapport au nombre d’éléments dont la personne affectée actuellement se verra annuler l’affectation.
-
-   ![Confirmation d’annulation de l’affectation en bloc](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Cliquez sur **Annuler l’affectation**.\
    Vous recevez une confirmation par rapport au nombre d’éléments de travail dont la personne spécifiée a été supprimée.
