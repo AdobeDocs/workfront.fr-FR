@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1194
 ht-degree: 12%
@@ -217,6 +217,7 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
 1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Invites du tableau de bord appliquées** s’affiche dans le coin du widget de rapport.   ![Sélectionner la condition](assets/prompts-list.png)
 
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
+
 
 
 
