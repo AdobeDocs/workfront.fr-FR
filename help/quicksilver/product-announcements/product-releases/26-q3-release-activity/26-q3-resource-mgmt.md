@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 19 juin 2026Version rapide de production : 19 juin 2026Production pour tous : 19 juin 2026Hors planning]{type=Neutral}
+>Aperçu : 19 juin 2026Version rapide de production : 19 juin 2026Production pour tous : 19 juin 2026Hors planning&rbrack;{type=Neutral}
 
 Les affectations en bloc ont été rationalisées dans l’équilibreur de charge de travail, avec la combinaison des actions d’affectation des utilisateurs et de remplacement des utilisateurs dans l’action **Remplacer la ressource**.
 

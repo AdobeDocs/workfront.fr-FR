@@ -5,8 +5,10 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: La décision de l'approbateur affiche un tiret dans le rapport Approbation de l'épreuve
 description: Un trait d’union dans le champ Décision de l’approbateur du rapport Approbation de l’épreuve indique qu’un destinataire n’a plus de rôle décisionnel concernant l’épreuve.
 author: Courtney
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 287
@@ -36,7 +38,7 @@ Le trait d’union est intentionnel. Il vous indique que le système n’attend 
 
 Le champ Date de décision affiche toujours la date de l’activité de décision la plus récente du destinataire, mais la décision du destinataire n’est plus comptabilisée dans le rapport.
 
-Pour plus d&#39;informations sur la création et l&#39;utilisation du rapport Approbation de l&#39;épreuve, voir [ Utiliser le rapport Approbation de l&#39;épreuve ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
+Pour plus d&#39;informations sur la création et l&#39;utilisation du rapport Approbation de l&#39;épreuve, voir [&#x200B; Utiliser le rapport Approbation de l&#39;épreuve &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
 
 
 
