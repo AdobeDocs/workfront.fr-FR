@@ -27,7 +27,7 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plan Adobe Workfront</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/fr/products/workfront/pricing.html" target="_blank">Plan Adobe Workfront</a> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
