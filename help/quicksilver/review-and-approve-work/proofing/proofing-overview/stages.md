@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -49,8 +49,8 @@ Lorsque vous attribuez des échéances de relecture différentes aux personnes r
 
 **Exemple :** par exemple, si vous créez une épreuve avec quatre personnes réviseuses :
 
-* Pour Olivia et Tony, chargés de la révision, spécifiez une échéance à 14 h dans quelques jours.
-* Pour Aaron et Amy, spécifiez une échéance à 17 h quelques jours plus tard.
+* Pour les validants Olivia et Tony, vous spécifiez une date limite de 14:00 dans quelques jours.
+* Pour Aaron et Amy, vous spécifiez un délai de 17 :00 quelques jours plus tard.
 * Ne spécifiez pas d’échéance pour vous-même.
 
 Le système crée une étape pour chacun de ces trois « groupes » de personnes chargées de la révision :
