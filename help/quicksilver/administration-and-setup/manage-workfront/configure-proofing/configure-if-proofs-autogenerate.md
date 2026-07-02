@@ -8,8 +8,8 @@ description: Vous pouvez configurer la génération automatique des épreues par
 author: Courtney
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 82%
+source-wordcount: '251'
+ht-degree: 81%
 
 ---
 

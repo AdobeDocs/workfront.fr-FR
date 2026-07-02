@@ -8,7 +8,7 @@ description: Le processus de création d’épreuve comprend l’importation et 
 author: Courtney
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 100%
 
 ---

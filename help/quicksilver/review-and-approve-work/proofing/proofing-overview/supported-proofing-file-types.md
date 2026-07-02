@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
 source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 94%
+source-wordcount: '1138'
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Workfront présente les limites suivantes :
 * MAC - MacPaint
 * MIF - Échange MapInfo
 * MNG - Image réseau multiple (Multiple Network Graphic)
-* MO:DCA - Objet Mixte : Document Content Architecture
+* MO:DCA - Objet mixte : architecture de contenu du document
 * MSP - Microsoft Paint
 * MRC - Contenu de pixellisation mixte LEAD
 * MRC - Contenu de pixellisation mixte T.44
@@ -137,7 +137,7 @@ Workfront présente les limites suivantes :
 
   >[!NOTE]
   >
-  >Il existe un problème connu en raison duquel le chargement des fichiers de présentation PowerPoint échoue pour le moment. Si vous rencontrez ce problème, convertissez le fichier en PDF et chargez le PDF à la place. Pour plus d’informations, voir [Épreuves : impossible de générer une épreuve à partir d’un fichier PowerPoint](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Il existe un problème connu en raison duquel le chargement des fichiers de présentation PowerPoint échoue pour le moment. Si vous rencontrez ce problème, convertissez le fichier en PDF et chargez le PDF. Pour plus d’informations, voir [Épreuves : impossible de générer une épreuve à partir d’un fichier PowerPoint](https://experienceleague.adobe.com/fr/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
 * PS - Fichier PostScript
 * PSD - Photoshop
@@ -214,7 +214,7 @@ Workfront présente les limites suivantes :
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4 - limite de 8 192 x 4 320 pixels
+* MP4 - limite de 8 192 x 4 320 pixels
 * MPG
 * VOB (VOB non chiffrés uniquement)
 * Flash
