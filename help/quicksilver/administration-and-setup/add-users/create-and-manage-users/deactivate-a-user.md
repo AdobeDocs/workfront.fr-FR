@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
 workflow-type: tm+mt
-source-wordcount: 1135
-ht-degree: 60%
+source-wordcount: 1090
+ht-degree: 56%
 
 ---
 
@@ -132,17 +132,15 @@ Pour planifier la désactivation d’une personne :
 1. Dans le panneau de gauche de la zone **Modifier l’utilisateur**, cliquez sur **Planification des ressources**.
 1. Cliquez sur **Définir la date de désactivation**.
 
-1. Sélectionnez la date et l’heure de la **Date de désactivation**.
+1. Sélectionnez la date de **Date de désactivation**.
 
    >[!NOTE]
    >
-   >* Dans la zone de l’heure, vous ne pouvez sélectionner que des incréments d’heures entières, et non des minutes.
-   >* Si vous sélectionnez une heure pour le jour en cours qui s’est écoulé, Workfront planifie la désactivation le lendemain à 00:00.
-   >* L’heure sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur ou l’utilisatrice qui planifie la désactivation.
+   >* La date sélectionnée correspond au fuseau horaire de l’ordinateur de l’utilisateur qui planifie la désactivation.
 
 1. Cliquer sur **Enregistrer**.
 
-La personne est désactivée le jour choisi, quelque temps après l’heure sélectionnée. Si vous avez sélectionné plusieurs utilisateurs ou utilisatrices à désactiver en bloc, toutes les personnes sélectionnées sont désactivées le jour choisi, quelque temps après l’heure sélectionnée.
+L’utilisateur est désactivé à minuit:00 à la date sélectionnée. Si vous avez sélectionné plusieurs utilisateurs à désactiver en bloc, tous les utilisateurs sélectionnés seront désactivés à 12 :00 à la date sélectionnée.
 
 Nous vous recommandons de créer un rapport pour les utilisateurs dont la désactivation a été planifiée, afin de les tenir informés des utilisateurs qui vont bientôt être désactivés. Rien ne confirme que la désactivation a eu lieu une fois les utilisateurs désactivés.
 
