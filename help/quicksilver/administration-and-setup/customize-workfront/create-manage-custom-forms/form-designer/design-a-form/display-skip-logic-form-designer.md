@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
-ht-degree: 27%
+source-wordcount: 3610
+ht-degree: 28%
 
 ---
 
 # Ajout de règles logiques aux formulaires et champs personnalisés
+
+{{highlighted-preview}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -95,8 +97,7 @@ Pour afficher et ignorer la logique uniquement, sélectionnez un champ pour affi
 
 ## Observations relatives à l’utilisation des logiques d’affichage et de saut
 
-* Pour ajouter une logique d’affichage à un champ, un widget ou un saut de section personnalisé, au moins un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher) doit être positionné avant lui sur le formulaire.
-Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Pour ajouter une logique d’affichage sur un champ personnalisé, un widget ou un saut de section, il faut placer au moins un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher) avant celui-ci dans le formulaire.Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous ne pouvez l’ajouter qu’à un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
 * Vous ne pouvez pas appliquer la logique d’affichage ou d’omission pour afficher ou masquer les choix d’un champ à options multiples. Par exemple, vous ne pouvez pas restreindre les choix qui s’affichent pour un champ Liste déroulante, un groupe de cases à cocher ou un champ de bouton radio, en fonction de la logique d’affichage ou d’omission d’un autre champ.
 * Vous pouvez ajouter une logique d’affichage et une logique de saut à un champ personnalisé si toutes les conditions suivantes sont remplies :
@@ -238,7 +239,7 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 
 La logique de valeur par défaut vous permet de configurer les valeurs par défaut des champs de formulaire personnalisés à l’aide de formules. La valeur par défaut s’affiche lorsque les conditions définies sont remplies. Une valeur par défaut peut être une valeur statique ou une valeur dynamique qui fait référence à d’autres champs de l’objet . Bien que la valeur par défaut puisse référencer d’autres champs, elle ne change pas à mesure que d’autres champs du formulaire sont modifiés.
 
-Vous pouvez appliquer une logique de valeur par défaut avancée aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple. référence de champ natif, saisie semi-automatique, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer une logique de valeur par défaut avancée aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, <span class="preview">référence de champ native</span>, saisie semi-automatique, groupe de cases à cocher et boutons radio.
 
 >[!TIP]
 >
@@ -247,6 +248,8 @@ Vous pouvez appliquer une logique de valeur par défaut avancée aux types de ch
 >[!NOTE]
 >
 >La logique de valeur par défaut standard dans le concepteur de formulaire existe toujours. Si les deux types sont appliqués au même champ, la logique avancée est prioritaire. Pour plus d’informations sur la logique de valeur par défaut standard, consultez [Ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) dans [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+><span class="preview">Pour les champs de référence natifs, la logique de valeur par défaut est disponible uniquement dans l’interface utilisateur et non dans l’API Workfront.</span>
 
 ### Exemple
 
