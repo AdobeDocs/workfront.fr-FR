@@ -4,9 +4,9 @@ description: Améliorations des rapports du troisième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,38 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Contrôle d’accès automatisé pour la planification Workfront dans Snowflake
+
+>[!NOTE]
+>
+>Aperçu et production pour tous les clients : 16 juillet 2026Hors planning]{type=Neutral}
+
+Cette version introduit une gestion des accès automatisée et basée sur les droits pour les données Workfront Planning dans Snowflake dans le cadre de Workfront Data Connect.
+Il commence par étendre la génération de vues sécurisées aux tables de planification, établissant ainsi la base requise pour le contrôle d’accès en aval et permettant des subventions basées sur les droits d’accès.Sur cette base, la configuration des comptes de lecteur vérifie désormais les droits TMS au moment de la création et applique ou retient automatiquement les octrois à la base de données Planning, en s’assurant qu’ils sont corrects.
+Avant cette amélioration, cette option n’était disponible que pour Workfront.
+La mise à jour comprend les fonctionnalités suivantes : 
+
+* Une tâche quotidienne automatisée détecte les modifications de droits pour les clients existants
+* Le nouveau traitement accorde, révoque ou conserve l’accès en fonction des droits
+* Couverture complète du cycle de vie pour le provisionnement, la création de compte et les modifications de droits en cours.
+
+L’article [Dictionnaire de données de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) sera mis à jour après la date de publication.
+
+## Ajouter la prise en charge des données personnalisées pour les nouveaux objets
+
+>[!NOTE]
+>
+>Aperçu et production pour tous les clients : 7 juillet 2026Hors planning]{type=Neutral}
+
+Au cours du deuxième trimestre 2026, nous avons ajouté de nouveaux objets pour prendre en charge les améliorations des opérations d’entreprise dans Workfront.Avec la version actuelle, nous ajoutons également la prise en charge des données personnalisées pour plusieurs nouveaux objets dans le tableau de bord de la zone de travail.
+
+Pour plus d’informations, voir [Présentation du tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
 ## Valeurs par défaut de l’invite du tableau de bord de la zone de travail et persistance des préférences utilisateur
 
 >[!NOTE]
 >
->Aperçu : 25 juin 2026>Version rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 25 juin 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
 
 Pour améliorer l’efficacité pour les utilisateurs qui passent d’un tableau de bord à un enregistrement en préservant leur statut de filtre de travail, les gestionnaires de tableaux de bord peuvent désormais définir des valeurs d’invite par défaut pour les tableaux de bord Zone de travail. Ces valeurs par défaut sont automatiquement appliquées à toutes les visionneuses de tableaux de bord.
 
@@ -37,7 +64,7 @@ Pour plus d’informations, voir [Filtrer un tableau de bord Zone de travail](/h
 
 >[!NOTE]
 >
->Aperçu : S/O>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : S.O.Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
 Les administrateurs Workfront qui connectent Microsoft Power BI à Workfront Data Connect peuvent désormais ajouter en une seule étape à la liste autorisée l’ensemble des plages d’adresses IP d’Azure d’une région. Sur l’onglet Place sur la liste autorisée IP **de** Data Connect **, le bouton** Nouvelle adresse IP **comprend désormais une option** Ajouter des blocs d’adresses IP Power BI **qui ouvre une boîte de dialogue dans laquelle vous pouvez coller les entrées de balise de service Power BI à partir du fichier JSON des plages d’adresses IP et des balises de service Azure publiées Microsoft.**
 
@@ -50,19 +77,19 @@ Pour plus d’informations, voir [Établir une connexion à Workfront Data Conne
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026>Version rapide de production : 15 juillet 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 11 juin 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
 >
 >Les tableaux de bord de la zone de travail sont actuellement en version bêta.
 
 Vous pouvez désormais trier la liste Tableaux de bord de la zone de travail en fonction de l’une des colonnes suivantes : **Nom**, **Description**, **Date de création** ou **Date de création**. Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne, puis cliquez de nouveau sur le même en-tête pour inverser le sens du tri. Par défaut, la liste est triée par **Nom** de A à Z. L’ordre de tri est conservé lorsque vous basculez entre les onglets de la liste Tableaux de bord de la zone de travail.
 
-Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+Pour plus d’informations, voir [ Utilisation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Modifications apportées aux heures effectives dans les formules personnalisées
 
 >[!NOTE]
 >
->Aperçu : 1er juin 2026>Version rapide de production : 1er juin 2026>Production pour tous : 1er juin 2026
+>Aperçu : 1er juin 2026Mise à jour rapide de la production : 1er juin 2026Production pour tous : 1 juin 2026
 
 En 2025, un nouveau champ Heures effectives a été ajouté à la base de données Workfront en tant que `actualWorkRequiredDouble` et le champ Heures effectives existant (`actualWorkRequired` dans la base de données) a été renommé Heures effectives héritées. Voir la [note de mise à jour](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) pour plus d’informations.
 
@@ -78,7 +105,7 @@ Pour plus d&#39;informations sur les heures réelles, voir [Afficher les heures 
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
 Les rapports Tableau de bord de la zone de travail prennent désormais en charge les champs de données de devise personnalisés sous forme de colonnes, filtres, regroupements et agrégations, y compris lorsque plusieurs taux de change sont configurés dans la configuration du système. Lorsqu’un champ de données de devise personnalisé s’affiche sous la forme d’une colonne ou d’une agrégation, les valeurs sont converties dans la devise sélectionnée dans le bouton (bascule) Taux de change du tableau de bord, sauf si le champ est verrouillé au niveau du rapport.
 
@@ -90,7 +117,7 @@ Pour plus d’informations, voir [Utiliser des champs de devise dans les tableau
 
 >[!NOTE]
 >
->Aperçu : 14 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 14 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 >
 >Les tableaux de bord de la zone de travail sont actuellement en version bêta.
 
