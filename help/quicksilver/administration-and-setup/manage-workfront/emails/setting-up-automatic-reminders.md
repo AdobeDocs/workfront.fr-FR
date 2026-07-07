@@ -11,18 +11,14 @@ exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 89%
+source-wordcount: 836
+ht-degree: 63%
 
 ---
 
@@ -30,9 +26,11 @@ ht-degree: 89%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-En tant qu’administrateur ou administratice Adobe Workfront, vous pouvez configurer des rappels automatiques pour déclencher des notifications par e-mail lorsque toutes les tâches ou tous les problèmes sont dus, en retard ou approchant de la date d’achèvement prévue. Une fois ces paramètres configurés, les utilisateurs et utilisatrices ne peuvent pas désactiver les rappels automatiques.
+En tant qu’administrateur/administratrice Adobe Workfront, vous pouvez configurer des rappels automatiques pour déclencher des notifications par e-mail lorsque toutes les tâches, tous les événements ou autres éléments de travail affectés sont dus, en retard ou proches de la date d’achèvement prévue.
 
-Pour les notifications de retard, l’e-mail est envoyé chaque nuit jusqu’à ce que la tâche ou le problème soit terminé.
+Une fois ces paramètres configurés, les utilisateurs et utilisatrices ne peuvent pas désactiver les rappels automatiques. Les rappels automatiques seront envoyés, quels que soient les paramètres de notification d’un utilisateur dans sa zone Mes paramètres .
+
+Pour les notifications de retard, l’e-mail est envoyé chaque nuit jusqu’à ce que la tâche ou le problème soit terminé. Cela signifie que l’utilisateur ou l’utilisatrice recevra une notification chaque jour tant que la tâche ou l’événement ne sera pas terminé.
 
 Un rappel automatique peut être envoyé à une ou plusieurs des personnes destinataires suivantes :
 
@@ -72,6 +70,25 @@ Un rappel automatique peut être envoyé à une ou plusieurs des personnes desti
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Détails de la fonctionnalité de rappel automatique
+
+### Distinction des autres types de rappels
+
+Les rappels automatiques sont la fonction de rappel au niveau de la configuration pour les tâches et les événements Workfront et sont distincts de la fonction de notification de rappel au niveau de l’objet. Pour plus d&#39;informations sur la différence entre les rappels automatiques et les notifications de rappel, voir [Rappels automatiques et notifications de rappel](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md).
+
+Les décisions relatives aux relectures et aux épreuves ne sont pas non plus gérées par des rappels automatiques et suivent un processus de rappel distinct. Pour plus d’informations sur la relecture et les rappels de décision sur les épreuves, voir les articles sous [Notifications et rappels sur les épreuves](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md).
+
+## Remarques concernant l’utilisation des rappels automatiques
+
+Tenez compte des points suivants lors de l’utilisation de rappels automatiques :
+
+* Les e-mails en retard sont envoyés sous la forme d’un e-mail de résumé par destinataire et par jour, et non d’e-mails distincts par élément.
+* L’activation des rappels automatiques peut entraîner l’affichage de problèmes ou de tâches déjà en retard dans le prochain e-mail de résumé en retard, quelle que soit la durée du retard de l’élément.
+* Les rappels s’appliquent uniquement aux projets dont le statut est Actif/En cours.
+* Le terme « jours » dans la configuration automatique de rappel se rapporte aux jours ouvrables prenant en compte les horaires, et non aux jours écoulés ou aux heures du calendrier.
+
+
 
 ## Mettre en place des rappels automatiques
 
