@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 94%
+source-wordcount: 425
+ht-degree: 85%
 
 ---
 
@@ -81,9 +81,10 @@ Les notifications répertoriées dans le tableau suivant vous informent des év�
 
 >[!NOTE]
 >
->Les notifications instantanées pour [!DNL Goals] sont désactivées par défaut. Vous ne pouvez pas activer ou désactiver les notifications quotidiennes et vous ne recevrez pas d’e-mails de synthèse quotidienne pour les événements de cette catégorie. Vous pouvez activer ou désactiver les notifications instantanées individuelles pour la catégorie [!DNL Goals].
+>* Les notifications instantanées pour [!DNL Goals] sont désactivées par défaut. Vous ne pouvez pas activer ou désactiver les notifications quotidiennes et vous ne recevrez pas d’e-mails de synthèse quotidienne pour les événements de cette catégorie. Vous pouvez activer ou désactiver les notifications instantanées individuelles pour la catégorie [!DNL Goals].
+>* Vous pouvez toujours recevoir des e-mails sur les mises à jour des objectifs, même si vous n’avez pas accès aux objectifs dans votre niveau d’accès, mais que quelqu’un vous affecte un objectif, un résultat ou une activité, ou des commentaires sur un objectif qui vous est affecté.
 
-Voir aussi [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
+Consultez également la section [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 

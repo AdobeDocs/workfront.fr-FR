@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '14233'
+source-wordcount: '14243'
 ht-degree: 94%
 
 ---
@@ -2157,14 +2157,16 @@ ht-degree: 94%
       * [Commencer à utiliser Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Recommandations relatives à l’implémentation d’Adobe Workfront Planning](planning/general/planning-best-practices.md)
       * [Principes de base des API Adobe Workfront Planning](planning/general/planning-api-basics.md)
-      * {hide-from-toc}[Workfront Data Connect for Workfront Planning](planning/general/planning-in-data-connect.md)
       * [Vue d’ensemble de l’assistant IA Adobe Workfront Planning](planning/general/planning-ai-assistant-overview.md)
       * [Prise en main d’Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
       * [Activité de publication Adobe Workfront Planning pour 2024](planning/general/release-activity.md)
       * [Activité de publication Adobe Workfront Planning pour 2023](planning/general/release-activity-archives-2023.md)
       * [Vue d’ensemble des limites d’objets d’Adobe Workfront Planning](planning/general/limitations-overview.md)
       * [Commencer avec la version d’essai gratuite d’Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
-      * [Affichage des informations sur Workfront Planning dans les rapports](planning/general/planning-information-in-reports.md)
+   * Création de rapports Adobe Workfront Planning {#adobe-workfront-planning-reporting}
+      * [Rapports Adobe Workfront Planning : index des articles](planning/reporting/reporting-in-planning-article-index.md)
+      * [Affichage des informations sur Workfront Planning dans les rapports](planning/reporting/planning-information-in-reports.md)
+      * {hide-from-toc}[Workfront Data Connect for Workfront Planning](planning/reporting/planning-in-data-connect.md)
    * Bonnes pratiques relatives à Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [bonnes pratiques Adobe Workfront : index des articles](planning/best-practices.md/best-practices-article-index.md)
       * [Déployez votre maison stratégique : une rampe de lancement de 30 jours](planning/best-practices.md/30-day-launchpad.md)

@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 78%
+source-wordcount: 706
+ht-degree: 76%
 
 ---
 
@@ -116,7 +116,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing : index des articles &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de Workfront Planning.
 
-* **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail Workfront. Pour plus d’informations, voir [Vue d’ensemble des tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail de Workfront ou dans Workfront Data Connect qui utilise la technologie Snowflake. Pour plus d’informations, voir [Rapports Adobe Workfront Planning : index des articles](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
 
 * [Bonnes pratiques relatives à Adobe Workfront Planning : index des articles &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) : découvrez des conseils sur le déploiement d’Adobe Workfront Planning dans votre organisation à l’aide d’une stratégie qui donne la priorité à la sécurité, réduit les perturbations et offre des gains rapides.
 
