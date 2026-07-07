@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 90%
+source-wordcount: 481
+ht-degree: 87%
 
 ---
 
 # Comprendre la navigation pour un utilisateur ou une utilisatrice de licence de [!UICONTROL travail]
+
+{{highlighted-preview}}
 
 Le [!UICONTROL Menu principal] change en fonction du niveau d’accès qui vous a été attribué par votre administrateur ou administratrice [!DNL Adobe Workfront]. Par défaut, vous n’avez accès qu’aux zones qui incluent les fonctionnalités autorisées par votre niveau d’accès. Pour comprendre les composants de la disposition par défaut de chaque niveau d’accès, consultez [À propos de la disposition  [!DNL Adobe Workfront]  par défaut](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -66,6 +68,10 @@ Les zones suivantes sont incluses dans la disposition par défaut [!UICONTROL d�
 
 * **[!UICONTROL Panoramas]** : travaillez de manière flexible et en collaboration avec les personnes membres de votre équipe en utilisant des panoramas partagés qui contiennent des colonnes et des cartes reflétant le travail que vous souhaitez réaliser. Pour plus d’informations, consultez [Commencer avec les panoramas : index des articles](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
+<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+![Menu principal du programme de travail](assets/worker-main-menu-070626.png)
+
+Exemple d’image dans l’environnement de production :
 ![Menu principal du programme de travail](assets/worker-main-menu-2026.png)
 
 ## Personnaliser votre [!UICONTROL Menu principal] par défaut

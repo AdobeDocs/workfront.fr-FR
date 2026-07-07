@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 63%
+source-wordcount: 531
+ht-degree: 48%
 
 ---
 
 # Épingler des pages pour personnaliser votre espace de travail
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Dans le coin supérieur gauche de la page, cliquez sur **[!UICONTROL Épingler la page active]**. La page épinglée est désormais accessible en haut de n’importe quelle page dans [!DNL Workfront].
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :
+   ![Épingler la page active](assets/pin-current-page-button-2026.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Épingler la page active](assets/pin-current-page-button.png)
 
 ## Accéder à une page épinglée
@@ -76,9 +82,32 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Si de nombreuses pages sont épinglées, cliquez sur l’icône **[!UICONTROL Plus]** ![cliquez sur l’icône Plus](assets/more-icon.png) pour afficher d’autres pages épinglées.
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :
+   ![Épingler la page active](assets/display-pinned-pages-2026.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Afficher d’autres pages épinglées](assets/display-pinned-pages.png)
 
    La page épinglée s’affiche.
+
+<div class="preview">
+
+## Gérer les épingles
+
+Vous pouvez renommer, réorganiser et supprimer les pages épinglées en un seul endroit.
+
+1. Cliquez sur l’icône **[!UICONTROL Plus]** ![Cliquez sur l’icône Plus](assets/more-icon.png) dans la ligne des épingles et sélectionnez **Gérer les épingles**.
+1. Dans la zone **Gérer les épingles**, effectuez une ou plusieurs des opérations suivantes :
+
+   * Cliquez sur l’icône **Modifier** pour renommer une page épinglée. Saisissez le nouveau nom et cliquez sur l’icône de coche pour confirmer.
+   * Faites glisser et déposez les pages épinglées dans l’ordre dans lequel vous souhaitez qu’elles apparaissent.
+   * Cliquez sur l’icône **Supprimer** pour supprimer une page épinglée de la liste.
+
+   ![Zone Gérer les épingles](assets/manage-pins.png)
+
+1. Cliquez sur **Fermer** lorsque vous avez terminé de modifier les épingles.
+
+</div>
 
 ## Renommer une page épinglée
 
@@ -90,7 +119,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Saisissez le nouveau nom d’épingle, puis cliquez sur **Enregistrer**.
 
    ![Cliquez sur la case cochée pour renommer l’épingle](assets/rename-pin-dialog-box.png).
-
 
 ## Réorganiser les pages épinglées
 

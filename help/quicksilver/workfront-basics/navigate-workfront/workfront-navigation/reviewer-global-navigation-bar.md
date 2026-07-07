@@ -15,14 +15,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 364
-ht-degree: 45%
+source-wordcount: 381
+ht-degree: 43%
 
 ---
 
 # Comprendre la navigation pour un utilisateur [!UICONTROL light]-license
+
+{{highlighted-preview}}
 
 Le [!UICONTROL Menu principal] change selon le niveau d’accès que votre équipe d’administration [!DNL Adobe Workfront] vous a attribué. Par défaut, vous n’avez accès qu’aux zones qui incluent les fonctionnalités autorisées par votre niveau d’accès. Pour comprendre les composants de la disposition par défaut de chaque niveau d’accès, consultez [À propos de la disposition  [!DNL Adobe Workfront]  par défaut](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -43,6 +45,10 @@ Les zones suivantes sont incluses dans la mise en page par défaut d’un [!UICO
 * **[!UICONTROL Tableaux]** : utilisez la flexibilité et la collaboration avec les membres de votre équipe à l’aide de tableaux partagés qui contiennent des colonnes et des cartes reflétant le travail que vous souhaitez accomplir. Pour plus d’informations, consultez [Commencer avec les panoramas : index des articles](../../../agile/get-started-with-boards/get-started-with-boards.md).
 * **[!UICONTROL Priorités]** : vous pouvez gérer et hiérarchiser rapidement le travail. Pour plus d’informations, voir [Prise en main des priorités](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
+<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+![Menu principal par défaut de l’utilisateur léger](assets/light-user-main-menu-2026.png)
+
+Exemple d’image dans l’environnement de production :
 ![Menu principal par défaut de l’utilisateur léger](assets/light-user-main-menu.png)
 
 ## Personnaliser votre [!UICONTROL Menu principal] par défaut
