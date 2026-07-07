@@ -8,15 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1062'
 ht-degree: 4%
 
 ---
 
 # Prise en main de la révision et de l’approbation unifiées
 
+{{highlighted-preview}}
 
 La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu. Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
 
@@ -63,11 +64,11 @@ Les coordinateurs de projet peuvent créer des révisions et des approbations un
 
 Les réviseurs et approbateurs peuvent être ajoutés à un workflow d’approbation à usage unique ou à un modèle d’approbation réutilisable :
 
-* **Validations à usage unique** : dans le projet ou la tâche où réside la ressource, le coordinateur du projet peut affecter des validants et des approbateurs et définir une date limite d’achèvement. Un rappel est envoyé aux réviseurs et aux approbateurs 72 heures avant l’échéance, 24 heures avant l’échéance, puis à l’échéance elle-même.
+* **Validations à usage unique** : dans le projet ou la tâche où réside la ressource, le coordinateur du projet peut affecter des validants et des approbateurs et définir une date limite d’achèvement. Un rappel est envoyé aux réviseurs et aux approbateurs 72 heures avant l’échéance, 24 heures avant l’échéance, puis à l’échéance elle-même. <span class="preview">Dans la Prévisualisation, vous pouvez également configurer les validations à plusieurs étapes et les chemins d’accès parallèles afin que plusieurs pistes de révision s’exécutent simultanément.</span>
 
   Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation réutilisables. Dans un modèle, les utilisateurs peuvent ajouter des réviseurs et des approbateurs et définir un délai d’achèvement. Lorsque le modèle d’approbation est appliqué à une ressource, l’échéance est calculée à partir de la période spécifiée.
+* **Modèles d’approbation** : dans la zone Configuration de Workfront, les coordinateurs de projet peuvent créer des modèles d’approbation réutilisables. Dans un modèle, les utilisateurs peuvent ajouter des réviseurs et des approbateurs et définir un délai d’achèvement. Lorsque le modèle d’approbation est appliqué à une ressource, l’échéance est calculée à partir de la période spécifiée. <span class="preview">Dans la Prévisualisation, les modèles d’approbation prennent en charge les approbations à plusieurs étapes et les chemins d’accès parallèles, correspondant aux options de configuration disponibles dans les approbations à usage unique.</span>
 
   Une fois un modèle créé, il peut être appliqué à une ressource pour lancer le processus de révision et d’approbation formel dans Workfront.
 

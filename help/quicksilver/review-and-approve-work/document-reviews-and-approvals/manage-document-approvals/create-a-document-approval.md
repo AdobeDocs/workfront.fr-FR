@@ -9,21 +9,15 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2fb0effe42a24898bb3389f72405a92f38ed5cc9
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 12%
+source-wordcount: 2758
+ht-degree: 6%
 
 ---
 
@@ -73,7 +67,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Créez un workflow d’approbation à partir du panneau Résumé dans la zone des documents hérités de l’environnement de production
+## Création d’un workflow d’approbation dans la zone des documents hérités de l’environnement de production
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -115,16 +109,18 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 
 <div class="preview">
 
-## Créez un workflow d’approbation à partir du panneau Résumé dans la zone des documents hérités de l’aperçu
+## Création d’un workflow d’approbation dans la zone des documents hérités de l’aperçu
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-Pour créer un workflow de validation :
+### Créer un workflow d’approbation de base
+
+Pour créer un workflow d’approbation en une seule étape :
 
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
 
@@ -132,14 +128,14 @@ Pour créer un workflow de validation :
 
 1. Sélectionnez la version du document pour lequel vous souhaitez créer une approbation dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
 
-1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**. La boîte de dialogue **Demander la validation** s’ouvre en mode de base.
 
 1. Renseignez les détails suivants :
 
    <table>
    <tr>
-   <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td><strong>Utiliser un modèle de validation (optionnel)</strong></td>
+   <td>Sélectionnez un modèle dans le menu déroulant. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
    </tr>
    <tr>
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
@@ -155,24 +151,78 @@ Pour créer un workflow de validation :
    </tr>
    <tr>
    <td><strong>Ajouter un message personnalisé (facultatif)</strong></td>
-   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.
-   <p>Lorsque vous ajoutez une deuxième étape, l’option <strong>Afficher ce message sur toutes les étapes</strong> est sélectionnée par défaut. Laissez-la sélectionnée pour utiliser le même message à chaque étape. Pour utiliser un message différent pour chaque étape, désélectionnez <strong>Afficher ce message sur toutes les étapes</strong>, puis saisissez le message spécifique à l’étape dans la zone de texte <strong>Ajouter un message personnalisé</strong> de chaque étape, si nécessaire.</p></td>
+   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.<p>Remarque : si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.</p>
+   </td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. Cliquez sur **Demander l’approbation**.
 
-   >[!NOTE]
+   ![Demander la validation en mode de base](assets/request-approval-basic.jpeg)
+
+### Création d’un workflow de validation avancée
+
+Le mode avancé prend en charge plusieurs étapes ainsi que des chemins d’accès parallèles. Chaque chemin s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante de ce chemin commence, l’étape précédente est verrouillée et les réviseurs et approbateurs de la nouvelle étape reçoivent une notification par e-mail.
+
+Une décision « A besoin d’être retravaillée » arrête le chemin qui lui est associé, mais n’affecte pas le workflow d’approbation des autres chemins. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes au total.
+
+Pour créer un workflow de validation avancée :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+
+1. Cliquez sur le document dont vous avez besoin pour ouvrir le panneau Résumé du document correspondant.
+
+1. Sélectionnez la version du document pour lequel vous souhaitez créer une approbation dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
+
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+
+1. Dans le coin supérieur droit de la boîte de dialogue **Demander l’approbation**, cliquez sur **Aller à l’étape avancée**. Toute entrée entrée entrée en mode de base est conservée et appliquée à **Chemin d’accès 1**, **Étape 1**.
+
+   >[!TIP]
    >
-   >* Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
-   >* Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.
+   >Pendant la création de l’approbation, vous pouvez revenir au mode de base en cliquant sur **Accéder au mode de base** dans le coin supérieur droit. Après avoir cliqué sur **Demander l’approbation**, l’option **Accéder à la version de base** n’est plus disponible.
 
-   ![Ajouter un message personnalisé à une étape](assets/add-custom-message.jpeg)
+1. Renseignez les détails de l’étape 1 du chemin 1 :
+
+   <table>
+   <tr>
+   <td><strong>Nom de l’étape</strong></td>
+   <td>Les étapes sont nommées <em>Étape 1</em>, <em>Étape 2</em>, etc. par défaut. Renommez l’étape en quelque chose de plus explicite, comme <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
+   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
+   </tr>
+   <tr>
+   <td><strong>Une seule décision requise (facultatif)</strong></td>
+   <td>La première personne qui prend une décision termine l’étape.</td>
+   </tr>
+   <tr>
+   <td><strong>Échéance le (facultatif)</strong></td>
+   <td>La première étape de chaque chemin prend en charge une date d’échéance absolue. Chaque étape suivante du chemin prend en charge une date d’échéance relative, à savoir le nombre de jours à partir duquel cette étape s’ouvre. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance.</td>
+   </tr>
+   <tr>
+   <td><strong>Ajouter un message personnalisé (facultatif)</strong></td>
+   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.<p>Lorsque vous ajoutez une deuxième étape, l’option <strong>Afficher ce message sur toutes les étapes</strong> est sélectionnée par défaut. Laissez-la sélectionnée pour utiliser le même message à chaque étape. Pour utiliser un message différent pour chaque étape, désélectionnez <strong>Afficher ce message sur toutes les étapes</strong>, puis saisissez le message spécifique à l’étape dans la zone de texte <strong>Ajouter un message personnalisé</strong> de chaque étape.</p></td>
+   </tr>
+   </table>
+
+1. (Facultatif) Cliquez sur **Ajouter une étape** pour ajouter une autre étape au chemin d’accès. Les étapes d’un chemin s’exécutent de manière séquentielle dans l’ordre dans lequel elles sont répertoriées. Vous pouvez réorganiser les étapes d’un chemin, mais vous ne pouvez pas déplacer une étape d’un chemin à un autre. Chaque chemin peut avoir un nombre différent d’étapes.
+
+1. (Facultatif) Sous **Chemins parallèles**, cliquez sur **Ajouter un chemin** pour ajouter un autre chemin. Le nouveau chemin commence par une étape vide et devient le chemin sélectionné. Pour renommer un chemin d’accès, pointez sur le libellé du chemin d’accès, cliquez sur l’icône en forme de crayon, puis saisissez un nouveau nom.
+
+1. (Facultatif) Pour supprimer un chemin d’accès, passez le curseur sur le libellé du chemin et cliquez sur l’icône de corbeille. **Le chemin 1** ne peut pas être supprimé et les chemins ne peuvent pas être réorganisés. Les autres chemins ne peuvent être supprimés que si aucune étape du chemin n’est verrouillée ou terminée.
+
+   ![Mode avancé avec chemins parallèles](assets/request-approval-parallel-paths.jpeg)
+
+1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
+
+1. Cliquez sur **Demander l’approbation**.
 
 </div>
 
 
-## Créez un workflow d’approbation à partir du panneau Résumé dans la nouvelle zone Documents de l’environnement de production
+## Créez un workflow d’approbation dans la nouvelle zone Documents de la production
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -211,16 +261,20 @@ Pour créer un workflow de validation :
    >
    >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![ Détails du document ](assets/new-stage.png)
 
 
 <div class="preview">
 
-## Créez un workflow d’approbation à partir du panneau Résumé dans la nouvelle zone Documents de l’aperçu
+## Créez un workflow d’approbation dans la nouvelle zone Documents de l’aperçu
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Pour créer un workflow de validation :
+La boîte de dialogue **Demander la validation** s’ouvre par défaut en mode **De base**. Le mode de base est une étape unique avec un ensemble d’approbateurs ou de réviseurs. Passez en mode **Avancé** pour configurer les validations à plusieurs étapes ou les chemins d’accès parallèles.
+
+### Créer un workflow d’approbation de base
+
+Pour créer un workflow d’approbation en une seule étape :
 
 1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
 
@@ -228,12 +282,14 @@ Pour créer un workflow de validation :
 
    ![Ajouter des approbateurs dans le résumé du document](assets/approvals-icon-new.png)
 
-1. Cliquez sur **Créer un workflow**, puis renseignez les informations suivantes :
+1. Cliquez sur **Créer un workflow**. La boîte de dialogue **Demander la validation** s’ouvre en mode de base.
+
+1. Renseignez les détails suivants :
 
    <table>
    <tr>
-   <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td><strong>Utiliser un modèle de validation (optionnel)</strong></td>
+   <td>Le champ Modèles est réduit par défaut. Cliquez sur le champ pour le développer, puis sélectionnez un modèle dans le menu déroulant. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
    </tr>
    <tr>
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
@@ -249,19 +305,79 @@ Pour créer un workflow de validation :
    </tr>
    <tr>
    <td><strong>Ajouter un message personnalisé (facultatif)</strong></td>
-   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.
-   <p>Lorsque vous ajoutez une deuxième étape, l’option <strong>Afficher ce message sur toutes les étapes</strong> est sélectionnée par défaut. Laissez-la sélectionnée pour utiliser le même message à chaque étape. Pour utiliser un message différent pour chaque étape, désélectionnez <strong>Afficher ce message sur toutes les étapes</strong>, puis saisissez le message spécifique à l’étape dans la zone de texte <strong>Ajouter un message personnalisé</strong> de chaque étape.</p></td>
+   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.</td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. Cliquez sur **Demander l’approbation**.
 
-   >[!NOTE]
+   ![Demander la validation en mode de base](assets/request-approval-basic.jpeg)
+
+>[!NOTE]
+>
+>* La boîte de dialogue **Demander la validation** s’ouvre en mode de base à chaque fois, quelle que soit votre session précédente.
+>* Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.
+>* Une fois une approbation enregistrée, vous ne pouvez pas la faire revenir au mode de base. Vous pouvez faire passer une approbation en cours de Base à Avancé tant que l’approbation n’est pas verrouillée ou terminée.
+
+### Création d’un workflow de validation avancée
+
+Le mode avancé prend en charge les chemins d’accès parallèles. Chaque chemin s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante de ce chemin commence, l’étape précédente est verrouillée et les réviseurs et approbateurs de la nouvelle étape reçoivent une notification par e-mail.
+
+Une décision « A besoin d’être retravaillée » arrête le chemin qui lui est associé, mais n’affecte pas le workflow d’approbation des autres chemins. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes au total.
+
+Pour créer un workflow de validation avancée :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+
+1. Cliquez sur le document, puis sur l’icône **Validations** sur le côté droit de la page.
+
+   ![Ajouter des approbateurs dans le résumé du document](assets/approvals-icon-new.png)
+
+1. Cliquez sur **Créer un workflow**.
+
+1. Dans le coin supérieur droit de la boîte de dialogue **Demander l’approbation**, cliquez sur **Aller à l’étape avancée**. Toute entrée entrée entrée en mode de base est conservée et appliquée à **Chemin d’accès 1**, **Étape 1**.
+
+   >[!TIP]
    >
-   >* Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
-   >* Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.
+   >Pendant la création de l’approbation, vous pouvez revenir au mode de base en cliquant sur **Accéder au mode de base** dans le coin supérieur droit. Après avoir cliqué sur **Demander l’approbation**, l’option **Accéder à la version de base** n’est plus disponible.
 
-   ![Ajouter un message personnalisé à une étape](assets/add-custom-message.jpeg)
+1. Renseignez les détails de l’étape 1 du chemin 1 :
+
+   <table>
+   <tr>
+   <td><strong>Nom de l’étape</strong></td>
+   <td>Les étapes sont nommées <em>Étape 1</em>, <em>Étape 2</em>, etc. par défaut. Renommez l’étape en quelque chose de plus explicite, comme <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
+   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
+   </tr>
+   <tr>
+   <td><strong>Une seule décision requise (facultatif)</strong></td>
+   <td>La première personne qui prend une décision termine l’étape.</td>
+   </tr>
+   <tr>
+   <td><strong>Échéance le (facultatif)</strong></td>
+   <td>La première étape de chaque chemin prend en charge une date d’échéance absolue. Chaque étape suivante du chemin prend en charge une date d’échéance relative, à savoir le nombre de jours à partir duquel cette étape s’ouvre. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance.</td>
+   </tr>
+   <tr>
+   <td><strong>Ajouter un message personnalisé (facultatif)</strong></td>
+   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.<p>Lorsque vous ajoutez une deuxième étape, l’option <strong>Afficher ce message sur toutes les étapes</strong> est sélectionnée par défaut. Laissez-la sélectionnée pour utiliser le même message à chaque étape. Pour utiliser un message différent pour chaque étape, désélectionnez <strong>Afficher ce message sur toutes les étapes</strong>, puis saisissez le message spécifique à l’étape dans la zone de texte <strong>Ajouter un message personnalisé</strong> de chaque étape.</p></td>
+   </tr>
+   </table>
+
+1. (Facultatif) Cliquez sur **Ajouter une étape** pour ajouter une autre étape au chemin d’accès. Les étapes d’un chemin s’exécutent de manière séquentielle dans l’ordre dans lequel elles sont répertoriées. Vous pouvez réorganiser les étapes d’un chemin, mais vous ne pouvez pas déplacer une étape d’un chemin à un autre. Chaque chemin peut avoir un nombre différent d’étapes.
+
+
+1. (Facultatif) Sous **Chemins parallèles**, cliquez sur **Ajouter un chemin** pour ajouter un autre chemin. Le nouveau chemin commence par une étape vide et devient le chemin sélectionné. Pour renommer un chemin d’accès, pointez sur le libellé du chemin d’accès, cliquez sur l’icône en forme de crayon, puis saisissez un nouveau nom.
+
+1. (Facultatif) Pour supprimer un chemin d’accès, passez le curseur sur le libellé du chemin et cliquez sur l’icône de corbeille. **Le chemin 1** ne peut pas être supprimé et les chemins ne peuvent pas être réorganisés. Les autres chemins ne peuvent être supprimés que si aucune étape du chemin n’est verrouillée ou terminée.
+
+   ![Mode avancé avec chemins parallèles](assets/request-approval-advanced.jpeg)
+
+1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
+
+1. Cliquez sur **Demander l’approbation**.
 
 </div>
 

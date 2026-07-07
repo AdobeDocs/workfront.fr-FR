@@ -9,25 +9,21 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 16%
+source-wordcount: 1196
+ht-degree: 10%
 
 ---
 
 # Charger une nouvelle version du document et demander une approbation
+
+{{highlighted-preview}}
 
 Si un document est marqué « A besoin d’être retravaillé » lors d’une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et commencer une nouvelle série d’approbations. Une fois que vous avez chargé une nouvelle version du document, les versions précédentes sont verrouillées.
 
@@ -76,7 +72,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 
 
-## Effectuez un glisser-déposer pour ajouter une nouvelle version dans la zone des documents hérités
+## Effectuez un glisser-déposer pour ajouter une nouvelle version dans la zone des documents hérités de l’environnement de production
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -95,7 +91,6 @@ Pour ajouter une nouvelle version :
 1. Glissez-déposez le nouveau fichier en haut du document précédent. Une nouvelle version est automatiquement créée.
 
 1. Une fois le chargement du document terminé, sélectionnez le document pour ouvrir le panneau Résumé du document . Vous verrez ici le numéro de version en haut du panneau.
-   ![Ouvrir la page des détails du document](assets/open-doc-details.png)
 
 
 1. Faites défiler l’écran jusqu’à la section **Validations**.
@@ -141,5 +136,69 @@ Pour ajouter une nouvelle version :
 
    Le workflow d’approbation démarre et les approbateurs reçoivent une notification indiquant que leur approbation est nécessaire pour la nouvelle version du document. La version précédente du document est verrouillée et toutes les approbations en attente sur la version précédente sont retirées.
 
-   ![demande d’approbation](assets/request-approval.png)
+   ![demande d’approbation
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## Effectuez un glisser-déposer pour ajouter une nouvelle version dans la zone des documents hérités de l’aperçu
+
+Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>Glisser-déposer ne fonctionne pas avec Internet Explorer.
+
+Si vous avez besoin d’une autre phase de révision et d’approbation d’un document, vous pouvez créer une nouvelle version du document dans Workfront. Vous pouvez ajouter les participants précédents, de nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants sur la page Détails du document .
+
+La boîte de dialogue Demander l’approbation s’ouvre en mode de base par défaut pour une approbation en une seule étape. Passez en mode avancé pour configurer les validations à plusieurs étapes ou les chemins d’accès parallèles.
+
+Pour ajouter une nouvelle version et demander l’approbation :
+
+1. Accédez au document dans Workfront.
+
+1. Glissez-déposez le nouveau fichier en haut du document précédent. Workfront crée automatiquement une nouvelle version.
+
+1. Une fois le chargement du document terminé, sélectionnez le document pour ouvrir le panneau Résumé du document . Le numéro de version s’affiche en haut du panneau.
+
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**. La boîte de dialogue **Demander la validation** s’ouvre en mode de base.
+
+1. Configurez le workflow de validation. Pour la description des champs, le bouton (bascule) Mode avancé et le flux de chemins d’accès parallèles, voir [Création d’un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Cliquez sur **Demander l’approbation**.
+
+   Le workflow d’approbation démarre et les approbateurs reçoivent une notification indiquant que leur approbation est nécessaire pour la nouvelle version du document. La version précédente du document est verrouillée et toutes les approbations en attente sur la version précédente sont retirées.
+
+## Effectuez un glisser-déposer pour ajouter une nouvelle version dans la nouvelle zone Documents de l’aperçu
+
+Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Glisser-déposer ne fonctionne pas avec Internet Explorer.
+
+Si vous avez besoin d’une autre phase de révision et d’approbation d’un document, vous pouvez créer une nouvelle version du document dans Workfront. Vous pouvez ajouter un workflow d’approbation à la nouvelle version du document.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+La boîte de dialogue Demander l’approbation s’ouvre en mode de base par défaut pour une approbation en une seule étape. Passez en mode avancé pour configurer les validations à plusieurs étapes ou les chemins d’accès parallèles.
+
+Pour ajouter une nouvelle version et demander l’approbation :
+
+1. Accédez au document dans Workfront.
+
+1. Glissez-déposez le nouveau fichier en haut du document précédent. Workfront crée automatiquement une nouvelle version.
+
+1. Une fois le chargement du document terminé, sélectionnez le document pour ouvrir le panneau Résumé . La dernière version du document est sélectionnée par défaut.
+
+1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**. La boîte de dialogue **Demander la validation** s’ouvre en mode de base.
+
+1. Configurez le workflow de validation. Pour la description des champs, le bouton (bascule) Mode avancé et le flux de chemins d’accès parallèles, voir [Création d’un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Cliquez sur **Demander l’approbation**.
+
+   Le workflow d’approbation démarre et les approbateurs reçoivent une notification indiquant que leur approbation est nécessaire pour la nouvelle version du document. La version précédente du document est verrouillée et toutes les approbations en attente sur la version précédente sont retirées.
+
+</div>

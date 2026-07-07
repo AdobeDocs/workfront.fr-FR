@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
-Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
+La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
 
 ![Diagramme présentant le workflow de révision et d’approbation unifié, avec les coordinateurs de projet gérant le travail dans Workfront et les réviseurs et approbateurs fournissant des commentaires et prenant des décisions dans la visionneuse Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -52,7 +47,7 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -286,6 +281,14 @@ Oui. Un utilisateur peut être affecté à plusieurs étapes au sein du même wo
 **Puis-je ajouter des étapes pour créer un workflow d’approbation à plusieurs étapes ?**
 
 Oui. Les workflows d’approbation à plusieurs étapes sont pris en charge, ce qui vous permet d’acheminer les ressources au cours d’exercices séquentiels de révision et d’approbation avec différents participants à chaque étape.
+
+<div class="preview">
+
+**Puis-je configurer des chemins de révision parallèles dans un workflow d’approbation ?**
+
+Oui. Dans la Prévisualisation, les workflows d’approbation prennent en charge les chemins parallèles en plus des étapes séquentielles. Chaque chemin d’accès s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Par conséquent, les révisions sur différents chemins d’accès peuvent se produire en même temps. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes dans une seule approbation. Les mêmes options sont disponibles dans les modèles d’approbation. Pour plus d’informations, consultez les sections [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) et [Créer un modèle de processus d’approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
