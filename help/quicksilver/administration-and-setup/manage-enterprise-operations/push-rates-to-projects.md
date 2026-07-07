@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 20%
+source-wordcount: '305'
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ Pour plus d’informations sur l’association d’une carte tarifaire à un pro
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Pour modifier une carte tarifaires partagée avec vous, vous devez disposer des autorisations Gérer sur la carte tarifaire.</td> 
+   <td>Pour modifier une carte tarifaire partagée avec vous, vous devez disposer des autorisations de niveau Gérer sur la carte tarifaire.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,6 +68,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    <!--and staffing plans -->
    <!--or staffing plan -->
 
-1. Cliquez sur [!UICONTROL **Enregistrer**].
+   >[!NOTE]
+   >
+   >Seuls les projets dont les taux des cartes tarifaires sont obsolètes s’affichent dans la boîte de dialogue. Si un projet utilise cette carte tarifaire et que les taux sont actuels sur le projet, elle ne s’affiche pas.
+
+1. Cliquer sur [!UICONTROL **Enregistrer**].
 
    Les nouveaux taux sont désormais répercutés sur les projets <!--and staffing plans -->qui utilisent la carte tarifaire).
