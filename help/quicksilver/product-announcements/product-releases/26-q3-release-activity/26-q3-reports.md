@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu et production pour tous les clients : 16 juillet 2026Hors planning]{type=Neutral}
+>Aperçu et production pour tous les clients : 16 juillet 2026Hors planning&rbrack;{type=Neutral}
 
 Cette version introduit une gestion des accès automatisée et basée sur les droits pour les données Workfront Planning dans Snowflake dans le cadre de Workfront Data Connect.
 Il commence par étendre la génération de vues sécurisées aux tables de planification, établissant ainsi la base requise pour le contrôle d’accès en aval et permettant des subventions basées sur les droits d’accès.Sur cette base, la configuration des comptes de lecteur vérifie désormais les droits TMS au moment de la création et applique ou retient automatiquement les octrois à la base de données Planning, en s’assurant qu’ils sont corrects.
@@ -38,7 +38,7 @@ L’article [Dictionnaire de données de Workfront Data Connect](/help/quicksilv
 
 >[!NOTE]
 >
->Aperçu et production pour tous les clients : 7 juillet 2026Hors planning]{type=Neutral}
+>Aperçu et production pour tous les clients : 7 juillet 2026Hors planning&rbrack;{type=Neutral}
 
 Au cours du deuxième trimestre 2026, nous avons ajouté de nouveaux objets pour prendre en charge les améliorations des opérations d’entreprise dans Workfront.Avec la version actuelle, nous ajoutons également la prise en charge des données personnalisées pour plusieurs nouveaux objets dans le tableau de bord de la zone de travail.
 
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Établir une connexion à Workfront Data Conne
 
 Vous pouvez désormais trier la liste Tableaux de bord de la zone de travail en fonction de l’une des colonnes suivantes : **Nom**, **Description**, **Date de création** ou **Date de création**. Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne, puis cliquez de nouveau sur le même en-tête pour inverser le sens du tri. Par défaut, la liste est triée par **Nom** de A à Z. L’ordre de tri est conservé lorsque vous basculez entre les onglets de la liste Tableaux de bord de la zone de travail.
 
-Pour plus d’informations, voir [ Utilisation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Modifications apportées aux heures effectives dans les formules personnalisées
 
