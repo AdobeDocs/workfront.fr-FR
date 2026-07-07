@@ -5,32 +5,38 @@ description: La barre de navigation supérieure, qui s’affiche en haut de l’
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '687'
+ht-degree: 88%
 
 ---
 
 # Vue d’ensemble de la barre de navigation supérieure
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [!DNL Adobe Workfront], vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
 
+<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+![Barre de navigation supérieure](assets/wf-top-navigation-070626.png)
+
+Exemple d’image dans l’environnement de production :
 ![Barre de navigation supérieure](assets/wf-top-navigation-2026.png)
 
 ## Icône d’[!UICONTROL accueil]
 
 L’icône d’**[!UICONTROL accueil]** ![](assets/home-icon.png) vous conduit à la page d’[!UICONTROL accueil], qui est la page de destination par défaut.
 
-Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Votre administrateur ou administratrice Workfront peut personnaliser l’icône d’accueil pour ouvrir une autre page en créant un modèle de mise en page et en vous l’affectant. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## [!UICONTROL Menu principal]
 
-L’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon-left-nav.png) ouvre le [!UICONTROL menu principal], d’où vous pouvez accéder à une autre zone de Workfront.
+L’icône **[!UICONTROL Menu principal]** ![Menu principal](assets/main-menu-icon-left-nav.png) ouvre le [!UICONTROL Menu principal], où vous pouvez accéder à une autre zone de Workfront.
 
 Les options disponibles dans le [!UICONTROL Menu principal] dépendent des éléments suivants :
 

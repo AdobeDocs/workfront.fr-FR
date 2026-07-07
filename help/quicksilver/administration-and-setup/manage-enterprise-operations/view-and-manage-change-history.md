@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Modifier l’historique
-description: L’historique des modifications vous permet d’afficher un journal des modifications apportées aux objets Workfront
-author: Becky
+description: L’historique des modifications vous permet d’afficher un journal des modifications apportées aux objets Workfront.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 8%
+source-wordcount: '452'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 8%
 
 Vous pouvez afficher l’historique des modifications, y compris les journaux d’audit, dans la zone Suivi des modifications de la configuration.
 
-* Les **journaux d’audit** sont des modifications déclenchées par les utilisateurs.
-Pour plus d’informations sur les journaux d’audit et la zone Journaux d’audit, consultez [Présentation des journaux d’audit](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Configuration** affiche les champs qui font l’objet d’un suivi pour la liste Historique des modifications.
-La configuration n’est actuellement disponible que comme information et ne peut pas être modifiée. La possibilité de modifier les champs suivis sera disponible dans un avenir proche.
+* Les **journaux d’audit** sont des modifications déclenchées par les utilisateurs.Pour plus d’informations sur les journaux d’audit et la zone Journaux d’audit, consultez [Présentation des journaux d’audit](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Configuration** affiche les champs qui font l’objet d’un suivi pour la liste Historique des modifications.La configuration n’est actuellement disponible que comme information et ne peut pas être modifiée. La possibilité de modifier les champs suivis sera disponible dans un avenir proche.
 * La liste Historique des modifications vous permet d’afficher un journal des modifications apportées aux objets Workfront, y compris les attributs tels que :
 
    * Objet
@@ -39,7 +37,7 @@ La configuration n’est actuellement disponible que comme information et ne peu
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] paquet</td> 
-   <td>Workflow Ultimate</td> 
+   <td>Tous</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licence</td> 
