@@ -5,10 +5,10 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 9%
+source-wordcount: '1666'
+ht-degree: 8%
 
 ---
 
@@ -92,6 +92,9 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Rechercher un modèle par nom | `approvals_search_template_by_name` | Recherche les modèles de validation par nom (correspondance partielle non sensible à la casse). | Lire |
 | Créer un modèle d&#39;approbation | `approvals_create_template` | Crée un modèle d&#39;approbation avec des dépendances d&#39;étape linéaires ou basées sur des graphiques. | Write |
 | Mettre à jour le modèle d&#39;approbation | `approvals_update_template` | Met à jour un modèle existant avec des modifications structurées (ajout ou suppression de participants, changement du nom des étapes, définition d’échéances, etc.). | Write |
+| Rappeler aux parties prenantes les approbations en bloc | `approvals_send_approval_reminder` | Envoyer des e-mails de rappel d’approbation à tous les approbateurs en attente dans un projet, un dossier, une campagne ou une fenêtre d’échéance entière. | Write |
+| Mettre à jour les modèles d’approbation en bloc | `approvals_update_template` | Mettez à jour les modèles pour plusieurs modèles, par exemple en appliquant des modèles aux ressources, en créant de nouveaux modèles à partir de zéro ou à partir de flux d’approbation existants, en modifiant les modèles et en effectuant des opérations en bloc sur les modèles et les ressources. | Write |
+| Ajouter ou supprimer des participants à l&#39;approbation en bloc. | `approvals_update_approval_participants` et `approvals__submit_update_approval_participants` | Ajouter, supprimer ou remplacer des participants à l&#39;échelle d&#39;un portefeuille, d&#39;un programme ou d&#39;un projet en une seule opération. | Write |
 
 ### Recherches et utilisateurs
 
