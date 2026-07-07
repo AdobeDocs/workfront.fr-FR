@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
 workflow-type: tm+mt
-source-wordcount: 7342
-ht-degree: 91%
+source-wordcount: 8296
+ht-degree: 86%
 
 ---
 
@@ -155,40 +147,41 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas 
 
    Cliquez sur **Enregistrer et fermer**.
 
-### Remarques sur les noms et les libellés des champs {#notes-on-field-names-and-labels}
+### Notes sur les noms et les libellés des API de champ {#notes-on-field-names-and-labels}
 
-Le libellé est disponible pour la plupart des champs. Il s’agit d’un libellé descriptif qui s’affiche au-dessus du champ ou du widget sur le formulaire personnalisé. Vous pouvez modifier le libellé à tout moment.
+* Le libellé est disponible pour la plupart des champs. Il s’agit d’un libellé descriptif qui s’affiche au-dessus du champ ou du widget sur le formulaire personnalisé. Vous pouvez modifier le libellé à tout moment.
 
->[!NOTE]
->
->Évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports.
+  >[!NOTE]
+  >
+  >Évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports.
 
-Un nom est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom se remplit automatiquement pour correspondre au libellé. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.
+* Un nom d’API est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom / <span class="preview">Nom de l’API</span> est automatiquement renseigné pour le correspondre. Les champs Libellé et Nom / <span class="preview">Nom de l’API</span> ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.
 
-Chaque nom de champ personnalisé doit être unique dans l’instance Workfront de votre entreprise. Ainsi, vous pouvez réutiliser un nom de champ déjà créé pour un autre formulaire personnalisé.
+* Chaque nom d’API de champ personnalisé doit être unique dans l’instance Workfront de votre organisation. Ainsi, vous pouvez réutiliser un nom de champ déjà créé pour un autre formulaire personnalisé.
 
->[!NOTE]
->
->Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé, qui peut désormais être référencé dans d’autres zones de Workfront.
->Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez son nom par la suite, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à ce moment-là, sauf si vous le rajoutez au rapport avec le nouveau nom.
->
->Nous vous recommandons de ne pas saisir un nom qui est déjà utilisé pour des champs Workfront intégrés.
->
->Nous vous recommandons de ne pas utiliser le caractère « point » dans le nom du champ personnalisé, afin d’éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.
+* Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom d’API après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
 
-Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés et noms de champs personnalisés.
+  Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ultérieurement son nom d’API, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à ce moment-là, sauf si vous le rajoutez au rapport avec le nouveau nom.
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* )
-* :
-* `{`
-* `}`
+* <span class="preview">Par défaut, les noms d’API sont en lecture seule. Pour rendre le nom de l’API modifiable, cliquez sur l’icône **Modifier** en regard du **Nom de l’API**. Saisissez ensuite **confirmer** dans la zone de confirmation, puis cliquez sur **Renommer le champ**. </span>
+
+* Nous vous recommandons de ne pas saisir un nom d’API déjà utilisé pour les champs Workfront intégrés.
+
+* Nous vous recommandons de ne pas utiliser le caractère point/point dans le nom de l’API de champ personnalisé pour éviter les erreurs lors de l’utilisation du champ dans différentes zones de Workfront.
+
+* Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés de champ personnalisés et les noms d’API.
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * )
+   * :
+   * `{`
+   * `}`
 
 ### Ajouter des champs de texte
 
@@ -274,9 +267,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez des informations supplémentaires sur le champ. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.
-    <img src="assets/instructions-form-designer.png">
-    </td>
+    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.</td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
@@ -638,7 +629,8 @@ Pour ajouter des champs de saisie semi-automatique et de date :
        <ul> 
         <li>L’ajout d’un filtre à un champ de saisie semi-automatique lors de la modification d’un formulaire personnalisé ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs ou les utilisatrices à l’aide du champ.</li> 
         <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ de saisie semi-automatique, il apparaîtra sur les appareils mobiles des utilisateurs et utilisatrices que le filtre ne concerne pas.</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>Saisie semi-automatique</li>
@@ -702,7 +694,7 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr> 
      <tr> 
       <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
@@ -748,15 +740,14 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Chemin JSON</td>
-      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de l’API renvoie le JSON au format suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
+      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :
       <pre>
-      &lbrace;
-data: &lbrace;
-{ name: "USA"},
-{ name: "Canada"}
-&rbrace;
-&rbrace;
-      </pre>
+      {
+       data : {
+         { name : « USA »},
+         { name : « Canada »}
+       }
+      }</pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,6 +785,95 @@ data: &lbrace;
 >* Nombre de reprises : 3
 >* Durée d’attente entre les reprises : 500 ms
 >* Statuts de la réponse attendue : 2xx
+
+<div class="preview">
+
+### Ajouter des champs de recherche interne
+
+Un champ de recherche interne permet aux utilisateurs de saisir le nom d’un objet qui existe dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte. Par exemple, si l’utilisateur saisit un nom d’utilisateur, une liste de noms correspondants s’affiche. Le type de champ de recherche interne est pris en charge sur les objets suivants :
+
+* l’utilisateur ou de l’utilisatrice
+* Groupe
+* Fonction
+* Portfolio
+* Programme
+* Projet
+* Equipe
+* Modèle
+* Entreprise
+* Tâche
+* Problème
+* Document
+* Emplacement
+
+Pour ajouter une recherche interne :
+
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Recherche interne** ou **Recherche interne à sélection multiple** et faites-la glisser vers une section de la zone de travail.
+1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Étiquette</td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nom</td> 
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td>
+     </tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Type d'objet référencé</td>
+      <td><p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur <strong>Appliquer</strong> ou sur <strong>Enregistrer et fermer</strong>, vous ne pouvez plus modifier le type d’objet du champ.</p>
+      <p><strong>Note :</strong></p>
+      <ul><li>Si votre administrateur ou administratrice Workfront a personnalisé le nom des portfolios, programmes ou projets dans l’interface d’utilisation de Workfront, le nom par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez l’administration Workfront si vous avez besoin d’aide.</li>
+      <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : « Utilisateur ou utilisatrice », « Société », « Groupe », « Fonction », « Portfolio », « Programme », « Projet » et « Modèle ».</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>Ajout d’un filtre</td>
+      <td><p>Ajoutez un filtre pour un type d’objet afin de limiter les objets que les personnes peuvent sélectionner lorsqu’elles utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateurs ou d’utilisatrices ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+       <ul> 
+        <li>Ils appartiennent à un ou plusieurs groupes que vous spécifiez.</li> 
+        <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
+        <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
+       </ul>
+       <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe mode texte. Pour plus d’informations sur la création d’un filtre à l’aide du mode texte, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre à l’aide du mode texte</a>.</p>
+       <p><b>Conseil :</b> vous pouvez créer un rapport pour tester votre filtre avant de l’ajouter directement au champ de recherche interne. Cela vous permet de vérifier que le filtre renvoie les bons objets. Vous pouvez ensuite passer en mode texte dans le rapport, copier l’instruction de mode texte et l’ajouter au filtre de recherche interne.</p>
+       <p><b>Note</b> :
+       <ul> 
+        <li>Si vous modifiez un formulaire personnalisé existant, l’ajout d’un filtre à un champ de recherche interne ne supprime aucun objet (hors de portée du filtre) que les utilisateurs ont déjà ajouté à l’aide du champ.</li> 
+        <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ de recherche interne, le champ s’affiche sur les appareils mobiles des utilisateurs non affectés par le filtre.</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">Liste déroulante à sélection multiple</td>
+      <td><p>Choisissez cette option pour permettre à l’utilisateur ou l’utilisatrice de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
+     </tr>
+     <tr>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Créer un champ obligatoire</td>
+      <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. Pour enregistrer vos modifications, cliquez sur **Appliquer** et passez à une autre section pour continuer à créer votre formulaire.
+
+   Ou
+
+   Cliquez sur **Enregistrer et fermer**.
+
+</div>
 
 ### Ajouter des images, des fichiers PDF et des vidéos
 
@@ -1019,7 +1099,9 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
         <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
        </ul>
+       <p><span class="preview">Lorsqu’un filtre système existe sur le champ, il est appliqué par défaut si vous n’ajoutez pas de filtre personnalisé. Un filtre personnalisé remplace le filtre système.</span></p>
        <p>Vous devez définir le filtre correspondant au champ de référence sélectionné à l’aide de la syntaxe mode texte. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre en mode texte</a>.</p>
+       <p><span class="preview">Utilisez la syntaxe de filtre dynamique pour limiter la liste des éléments de ce champ en fonction de la valeur d’un autre champ. Par exemple, lorsque vous utilisez <code>?portfolioID={portfolio}.{ID}</code> dans un filtre de champ Projet et qu’un champ natif Portfolio figure dans le formulaire personnalisé, le champ Projet affiche uniquement les projets qui se trouvent dans le portfolio sélectionné. Si le champ Portfolio n’est pas renseigné, tous les projets sont disponibles dans le champ Projet .</span></p>
        <p><b>Note</b> :
        <ul> 
         <li>L’option de filtre n’est disponible que lorsque vous référencez un champ de saisie semi-automatique natif, tel que Portfolio, Société ou Propriétaire.</li>
@@ -1077,8 +1159,7 @@ Pour ajouter un fichier Adobe XD :
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez un lien de prototype XD valide.</p> 
-      <p><b>Remarque </b> : le paramètre Accès aux liens de l’onglet Partager dans Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs ne pourront pas voir le prototype. 
-   </td> 
+      <p><b>Note</b> : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
