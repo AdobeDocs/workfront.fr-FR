@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,30 @@ Cette page décrit les améliorations apportées aux documents avec la version d
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Chemins de validation parallèles désormais disponibles pour les validations unifiées
+
+>[!NOTE]
+>
+>Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+
+Les workflows d’approbation des documents prennent désormais en charge les chemins d’accès parallèles, ce qui permet aux équipes d’exécuter plusieurs suivis de révision indépendants en même temps. Avec les chemins parallèles, vous pouvez :
+
+* Configuration de jusqu’à 30 chemins parallèles et 100 étapes dans une seule approbation
+* Exécutez les pistes de révision indépendamment et en parallèle, avec des étapes séquentielles à l’intérieur de chaque chemin.
+* Basculez entre le mode de base simplifié pour les validations en une seule étape et le mode avancé pour les workflows à plusieurs étapes et à chemins d’accès multiples
+* Appliquer la même configuration de chemin parallèle aux modèles d’approbation réutilisables à partir de la configuration de Workfront
+
+Pour plus d’informations, consultez les sections [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) et [Créer un modèle de processus d’approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 <!--
+
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: June 26, 2026
->Production for everyone: June 26, 2026
+>Production fast release: July 7, 2026
+>Production for everyone: July 7, 2026
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
@@ -33,13 +49,14 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
 -->
 
 ## Demander l’approbation des modèles Adobe Express avec Workfront et Frame.io
 
 >[!NOTE]
 >
->Aperçu : S/O>Mise à jour rapide de la production : 15 juin 2026>Production pour tous : 15 juin 2026>[!BADGE En dehors des horaires]{type=Neutral}
+>Aperçu : S.O.Version rapide de production : 15 juin 2026Production pour tous : 15 juin 2026Hors planning&rbrack;{type=Neutral}
 
 L’intégration d’Adobe Express et de Workfront avec Frame.io permet la révision et l’approbation structurées du contenu créé dans Adobe Express. Les concepteurs peuvent mapper un modèle de workflow d’approbation Workfront à un modèle Express. Ainsi, lorsque le modèle est remixé, une approbation est automatiquement requise avant la publication, c’est-à-dire le routage de la ressource via le workflow Workfront préconfiguré et la visionneuse Frame.io.
 
@@ -58,7 +75,7 @@ Pour plus d’informations, voir [Prise en main d’Adobe Express et de Workfron
 
 >[!NOTE]
 >
->Aperçu : 2 juin 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 2 juin 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais ouvrir un résumé imprimable de l’approbation d’un document directement à partir de la nouvelle zone Documents . Cette fonctionnalité est disponible pour les organisations qui utilisent l’espace de stockage dans le cloud Adobe.
 
@@ -71,7 +88,7 @@ Pour plus d’informations, voir [Présentation des détails du document](/help/
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais ajouter un message personnalisé à chaque étape d’un workflow d’approbation de document. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.
 
@@ -87,7 +104,7 @@ Pour plus d’informations, voir [Créer un processus d’approbation de documen
 
 >[!NOTE]
 >
->Aperçu : 14 mai 2026>Version rapide de production : 14 mai 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 14 mai 2026Version rapide de production : 14 mai 2026Production pour tous : 16 juillet 2026
 
 Les ressources liées dans la zone Documents affichent désormais des badges d’état qui donnent aux équipes une visibilité instantanée de la position de chaque ressource sans quitter Workfront. Assets peut afficher les éléments suivants :
 
@@ -102,7 +119,7 @@ Pour plus d’informations sur les statuts d’approbation, voir [Prise en main 
 
 >[!NOTE]
 >
->Aperçu : 30 avril 2026>Version rapide de production : 14 mai 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 30 avril 2026Version rapide de production : 14 mai 2026Production pour tous : 16 juillet 2026
 
 La page Informations sur le client de la configuration comprend désormais une nouvelle section Présentation du stockage avec des indicateurs d’utilisation de l’espace de stockage dans le cloud Adobe.
 

@@ -4,10 +4,10 @@ description: Autres améliorations au cours du troisième trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 3%
+source-wordcount: '481'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +17,15 @@ Cette page décrit les améliorations apportées à l’environnement de Prévis
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Mise à jour de l’interface pour les icônes de navigation globale
+
+>[!NOTE]
+>
+>Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+
+Nous avons mis à jour l’aspect des icônes de navigation générales dans Workfront, y compris les icônes du menu principal et de la barre de navigation, afin d’offrir un design moderne et une expérience cohérente avec les autres applications Adobe. En outre, l’expérience de l’ajout et de la suppression de pages épinglées a été rationalisée afin de nécessiter moins de clics.
+
+Pour plus d’informations, consultez [Présentation de la barre de navigation supérieure](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) et [Épingler des pages](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Mise à jour de l’aspect des e-mails de notification de commentaire
 
@@ -42,7 +51,7 @@ Cette modification est déployée par phases auprès des clients. Cette page ser
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
 Plusieurs types de champ sur les listes améliorées ont été mis à jour pour inclure la navigation au clavier et d’autres améliorations.
 
