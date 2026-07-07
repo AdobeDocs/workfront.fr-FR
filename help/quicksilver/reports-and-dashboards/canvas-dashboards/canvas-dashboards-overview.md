@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 29%
+source-wordcount: 566
+ht-degree: 27%
 
 ---
 
@@ -108,7 +108,7 @@ Vous trouverez ci-dessous une liste des types de rapports actuellement pris en c
 * Rapports de planification Workfront
 * Filtrage ET/OU
 * Formatage conditionnel des colonnes et des lignes d&#39;un tableau
-* Paramétrage de l’exploration vers le bas des rapports KPI et Graphique
+* Paramétrage détaillé des rapports KPI et Graphique
 * Regroupement des résultats du tableau
 * Filtres au niveau des tableaux de bord et filtres de recouvrement appliqués par l’utilisateur
 * Exécuter en tant que configuration utilisateur pour les rapports
@@ -116,12 +116,16 @@ Vous trouverez ci-dessous une liste des types de rapports actuellement pris en c
 
 ### Fonctionnalités en développement
 
+Les fonctionnalités suivantes sont actuellement disponibles dans le tableau de bord de la zone de travail selon une approche itérative :
+
 * Types d’objet Workfront supplémentaires
 * Améliorations de la convivialité
 * Inclure les vues Workfront Planning en tant que bloc de rapport sur un tableau de bord
 * Utilisation d’un tableau de bord en tant que vue Workfront Planning
 * Prise en charge étendue des clients Azure et GCP
 * Optimisation des performances
+
+Pour plus d’informations sur les fonctionnalités ajoutées au tableau de bord de la zone de travail, voir [Versions des produits](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ### Fonctionnalités futures incluses dans la feuille de route
 

@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 5%
+source-wordcount: '2848'
+ht-degree: 6%
 
 ---
 
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du troisième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Contrôle d’accès automatisé pour la planification Workfront dans Snowflake
+
+>[!IMPORTANT]
+>
+>Aperçu et production pour tous les clients : 16 juillet 2026Hors planning&rbrack;{type=Neutral}
+
+
+Cette version introduit une gestion des accès automatisée et basée sur les droits pour les données Workfront Planning dans Snowflake dans le cadre de Workfront Data Connect.
+
+Il commence par étendre la génération de vues sécurisées aux tables de planification, établissant ainsi la base requise pour le contrôle d’accès en aval et permettant des subventions basées sur les droits d’accès.
+
+Sur cette base, la configuration des comptes de lecteur vérifie désormais les droits TMS au moment de la création et applique ou retient automatiquement les octrois à la base de données Planning, en s’assurant qu’ils sont corrects.
+
+Avant cette amélioration, cette option n’était disponible que pour Workfront.
+
+La mise à jour comprend les fonctionnalités suivantes :
+
+* Une tâche quotidienne automatisée détecte les modifications de droits pour les clients existants
+* Le nouveau traitement accorde, révoque ou conserve l’accès en fonction des droits
+* Couverture complète du cycle de vie pour le provisionnement, la création de compte et les modifications de droits en cours.
+
+L’article [Dictionnaire de données de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) sera mis à jour après la date de publication.
 
 
 ## Définition des autorisations par défaut pour les enregistrements

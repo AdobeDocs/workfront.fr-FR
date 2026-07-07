@@ -19,10 +19,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 82%
+source-wordcount: 822
+ht-degree: 78%
 
 ---
 
@@ -69,6 +69,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 ## Personnaliser les contrôles de liste Filtrer, Afficher et Regrouper
+
+
+>[!NOTE]
+>
+>L’ajout d’une vue, d’un filtre ou d’un regroupement à un modèle de mise en page contrôle uniquement la mise en page ; il n’accorde pas l’accès. Les utilisateurs ont toujours besoin d’un accès en affichage à chaque élément.
+>
+>Les utilisateurs contributeurs, demandeurs et licences externes ne peuvent pas voir les éléments partagés à l&#39;échelle du système. Par conséquent, les vues qui leur sont destinées doivent être partagées explicitement. Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/down-arrow-blue.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Listes** dans le menu déroulant qui s’affiche.

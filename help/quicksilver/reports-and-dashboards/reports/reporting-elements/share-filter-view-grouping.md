@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 96%
+source-wordcount: 1245
+ht-degree: 91%
 
 ---
 
@@ -123,7 +123,12 @@ Partagez un filtre à l’aide de l’interface du créateur standard :
    </tr>
    <tr>
    <td role="rowheader"><strong>Partagé avec moi</strong></td>
-   <td>Filtres que d’autres personnes ont créés et partagés avec vous ou qui sont partagés à l’échelle du système.</td>
+   <td>Filtres que d’autres personnes ont créés et partagés avec vous ou qui sont partagés à l’échelle du système.
+   <p><b>NOTE</b></p>
+   <p>Les utilisateurs disposant d’une licence de contributeur, de demandeur ou externe ne peuvent pas afficher les filtres, les vues ou les regroupements partagés à l’échelle du système. Pour en mettre un à disposition de ces utilisateurs, partagez-le directement avec eux (par l’intermédiaire de leur utilisateur, fonction, équipe, groupe ou entreprise) plutôt que de compter sur une visibilité à l’échelle du système. Cela s’applique même lorsque le filtre, la vue ou le regroupement est inclus dans leur modèle de mise en page.</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>
