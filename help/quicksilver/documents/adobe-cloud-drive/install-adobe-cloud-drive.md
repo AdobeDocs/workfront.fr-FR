@@ -5,9 +5,12 @@ title: Installation d’Adobe Cloud Drive
 description: Installez Adobe Cloud Drive sur votre ordinateur Mac ou Windows afin de pouvoir travailler avec vos projets de stockage dans le cloud Adobe directement dans le Finder ou l’Explorateur de fichiers.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 44bf6f571c35bd9a2f44fc23b2a5eaa3eb2d763b
 workflow-type: tm+mt
 source-wordcount: 532
@@ -48,7 +51,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Avant d’installer Adobe Cloud Drive, vérifiez les points suivants :
 
-* Votre appareil répond à la configuration requise répertoriée dans la section [ Configuration requise ](#system-requirements) de cet article.
+* Votre appareil répond à la configuration requise répertoriée dans la section [&#x200B; Configuration requise &#x200B;](#system-requirements) de cet article.
 * Votre organisation utilise une version de Workfront qui prend en charge l’espace de stockage dans le cloud Adobe.
 
 Si votre entreprise gère les installations d’applications pour vous et qu’Adobe Cloud Drive n’est pas disponible au téléchargement, contactez votre administrateur Workfront.
@@ -76,7 +79,7 @@ Pour vous assurer qu’Adobe Cloud Drive peut accéder aux services dont il dép
 
 ## Télécharger le programme d’installation
 
-1. Accédez à la [distribution logicielle ](https://experience.adobe.com/#/downloads).
+1. Accédez à la [distribution logicielle &#x200B;](https://experience.adobe.com/#/downloads).
 
 1. Connectez-vous avec votre Adobe ID.
 1. Dans la liste de téléchargements **Général**, recherchez **Adobe Cloud Drive**.

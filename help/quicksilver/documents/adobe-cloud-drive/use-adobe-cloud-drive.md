@@ -5,9 +5,12 @@ title: Utilisation d’Adobe Cloud Drive
 description: Utilisez vos projets de stockage dans le cloud Adobe directement depuis le Finder ou l’Explorateur de fichiers à l’aide d’Adobe Cloud Drive. Ouvrez et modifiez des fichiers dans n’importe quelle application, travaillez hors ligne et résolvez les conflits.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d5dd769447e81d5d95b4907f8a01016b118f2322
 workflow-type: tm+mt
 source-wordcount: 1723
@@ -70,9 +73,9 @@ Adobe Cloud Drive utilise des indicateurs visuels pour afficher le statut de la 
 | ![Icône en ligne uniquement](assets/acd-windows-online-only.png) | En ligne uniquement | Le fichier est synchronisé, mais disponible uniquement en ligne. | Tous les fichiers contenus dans sont disponibles en ligne. |
 | ![Icône de synchronisation](assets/acd-windows-syncing.png) | Synchronisation | Les dernières mises à jour du fichier sont synchronisées avec le cache local ou l’espace de stockage dans le cloud d’Adobe. | Au moins un fichier du dossier est en cours de synchronisation. |
 | ![Icône Hors ligne disponible](assets/acd-windows-available-offline.png) | Disponible hors ligne | Le fichier est synchronisé et disponible hors connexion. | Au moins un fichier du dossier est disponible hors connexion. |
-| ![ Icône épinglée ](assets/acd-windows-pinned.png) | Épinglé (toujours conserver sur l’appareil) | Le fichier est synchronisé et toujours conservé hors ligne. Adobe Cloud Drive ne purge pas automatiquement le contenu épinglé. | Tous les fichiers du dossier se trouvent dans le cache local et sont disponibles hors ligne. |
+| ![&#x200B; Icône épinglée &#x200B;](assets/acd-windows-pinned.png) | Épinglé (toujours conserver sur l’appareil) | Le fichier est synchronisé et toujours conservé hors ligne. Adobe Cloud Drive ne purge pas automatiquement le contenu épinglé. | Tous les fichiers du dossier se trouvent dans le cache local et sont disponibles hors ligne. |
 | ![Icône Lecture seule](assets/acd-windows-read-only.png) | Lecture seule | Fichier en lecture seule. | Le dossier est en lecture seule. |
-| ![ Icône d’erreur de synchronisation ](assets/acd-windows-sync-error.png) | Erreur de synchronisation | Impossible de synchroniser le fichier. Pour plus d’informations, pointez sur l’icône. | Impossible de synchroniser le dossier. Pour plus d’informations, pointez sur l’icône. |
+| ![&#x200B; Icône d’erreur de synchronisation &#x200B;](assets/acd-windows-sync-error.png) | Erreur de synchronisation | Impossible de synchroniser le fichier. Pour plus d’informations, pointez sur l’icône. | Impossible de synchroniser le dossier. Pour plus d’informations, pointez sur l’icône. |
 | ![Icône Synchronisation exclue](assets/acd-windows-sync-excluded.png) | Synchronisation exclue | Le fichier ne peut pas être synchronisé en raison d&#39;un type ou d&#39;un nom non pris en charge. | Le dossier ne peut pas être synchronisé en raison d’un nom non pris en charge. |
 
 ### Indicateurs de statut des fichiers sur Mac
@@ -82,10 +85,10 @@ Adobe Cloud Drive utilise des indicateurs visuels pour afficher le statut de la 
 | (Pas d’icône) | Disponible hors ligne | Le fichier est synchronisé et disponible hors connexion. | Tous les fichiers sont disponibles hors ligne. |
 | ![Icône en ligne uniquement](assets/acd-mac-online-only.png) | En ligne uniquement | Le fichier est synchronisé et disponible uniquement en ligne. | Au moins un fichier du dossier est en ligne uniquement. |
 | ![Icône de synchronisation](assets/acd-mac-syncing.png) | Synchronisation | Les dernières mises à jour du fichier sont synchronisées avec le cache local ou l’espace de stockage dans le cloud d’Adobe. | Synchronisation du contenu du dossier. |
-| ![ Icône d’erreur de synchronisation ](assets/acd-windows-sync-error.png) | Erreur de synchronisation | Le fichier ne peut pas être mis à jour ni synchronisé. Pour plus d’informations, pointez sur l’icône. | Le dossier ne peut pas être mis à jour ni synchronisé. Pour plus d’informations, pointez sur l’icône. |
+| ![&#x200B; Icône d’erreur de synchronisation &#x200B;](assets/acd-windows-sync-error.png) | Erreur de synchronisation | Le fichier ne peut pas être mis à jour ni synchronisé. Pour plus d’informations, pointez sur l’icône. | Le dossier ne peut pas être mis à jour ni synchronisé. Pour plus d’informations, pointez sur l’icône. |
 | ![Icône Synchronisation exclue](assets/acd-windows-sync-excluded.png) | Synchronisation exclue | Fichier exclu de la synchronisation. | Le dossier est exclu de la synchronisation. |
 | ![Icône Lecture seule](assets/acd-mac-read-only.png) | Lecture seule | Fichier en lecture seule. | Le dossier est en lecture seule. |
-| ![ Icône épinglée ](assets/acd-windows-pinned.png) | Épinglé (toujours conserver sur l’appareil) | Le fichier est épinglé pour être disponible hors ligne. Adobe Cloud Drive ne purge pas automatiquement le contenu épinglé. | Le dossier est épinglé pour être disponible hors ligne. |
+| ![&#x200B; Icône épinglée &#x200B;](assets/acd-windows-pinned.png) | Épinglé (toujours conserver sur l’appareil) | Le fichier est épinglé pour être disponible hors ligne. Adobe Cloud Drive ne purge pas automatiquement le contenu épinglé. | Le dossier est épinglé pour être disponible hors ligne. |
 
 ### Infobulles d’erreur
 
