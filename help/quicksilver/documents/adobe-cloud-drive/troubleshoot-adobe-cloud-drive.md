@@ -162,7 +162,7 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 
 Pour toute question sur les licences, les problèmes d’accès aux projets ou la configuration spécifique à une organisation, contactez votre administrateur Workfront.
 
-Pour partager des journaux avec la prise en charge d’Adobe, suivez les étapes de la section [Exécution de l’outil de collecte de journaux d’Adobe](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
+Pour partager des journaux avec la prise en charge d’Adobe, suivez les étapes de la section [Exécution de l’outil de collecte de journaux d’Adobe](https://helpx.adobe.com/fr/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
 
 ## Bonnes pratiques
 
