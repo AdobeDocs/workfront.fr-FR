@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: 1061
 ht-degree: 1%
 
 ---
@@ -86,6 +86,10 @@ Pour plus d’informations sur le nouveau modèle d’autorisation du document, 
 Au niveau du projet, les dossiers générés par le système affichent un objet lié. Le dossier est automatiquement nommé de la même manière que la tâche ou l’événement auquel il appartient. Les dossiers liés permettent au système de déterminer la tâche ou le problème sur lequel le dossier doit s’afficher.
 
 Pour plus d’informations, voir [Fonctionnement des autorisations de document](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+#### Adobe Cloud Drive
+
+Adobe Cloud Drive est une application de bureau qui monte vos projets de stockage dans le cloud Adobe en tant que lecteur sur votre ordinateur Mac ou Windows. Vous pouvez ouvrir, modifier et enregistrer des fichiers dans n’importe quelle application pendant qu’Adobe Cloud Drive synchronise votre travail avec l’espace de stockage dans le cloud d’Adobe. Pour plus d’informations, consultez [Présentation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Objets Workfront
 

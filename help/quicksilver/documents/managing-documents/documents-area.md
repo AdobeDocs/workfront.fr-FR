@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 850
-ht-degree: 30%
+source-wordcount: 918
+ht-degree: 28%
 
 ---
 
@@ -123,6 +123,10 @@ Vous pouvez afficher l&#39;historique d&#39;un document dans la zone des nouveau
 ### Dossiers au niveau du système pour les autorisations de document
 
 Workfront crée automatiquement un dossier au niveau du système lorsque le premier document est chargé sur une tâche ou un événement. Ces dossiers héritent des autorisations de la tâche ou de l’événement et sont visibles dans la zone des documents au niveau du projet. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Il s’agit de la principale méthode de gestion des autorisations pour les documents dans la nouvelle zone Documents. Pour plus d’informations, voir [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Accès aux documents depuis votre bureau
+
+Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez également accéder à vos documents depuis votre Mac ou votre bureau Windows à l’aide d’Adobe Cloud Drive. Adobe Cloud Drive monte vos projets de stockage dans le cloud Adobe sous la forme d’un lecteur sur votre ordinateur afin que vous puissiez ouvrir et modifier des fichiers dans n’importe quelle application tout en conservant les modifications synchronisées avec Workfront. Pour plus d’informations, consultez [Présentation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Considérations
 
