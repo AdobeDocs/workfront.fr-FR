@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 15%
@@ -357,9 +357,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe</a><p><p>[!BADGE Hors planning]{type=Neutral}</p></p>
                 <p>Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>12 Juin 2026</p></td>
-            <td><p>12 Juin 2026</p></td>
+            <td><p>9 juillet 2026</p></td>
+            <td><p>13 Août 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>
