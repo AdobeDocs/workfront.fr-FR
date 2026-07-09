@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du troisième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -525,6 +525,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Optimisation de l’archivage des commentaires</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Nous optimisons actuellement l’archivage des commentaires pour les commentaires de plus d’un an pour tous les objets Workfront qui affichent une zone Mises à jour. Il s’agit d’un effort interne qui ne devrait pas affecter votre expérience avec la zone Mises à jour. Aucun changement visuel n'est apporté à la zone Mises à jour pour les types d'objet et aucune modification n'est apportée aux fonctionnalités avec cette mise à jour. Tous les commentaires restent visibles pour tous les types d’objet.</p>
+            </td>
+            <td><p>Le déploiement échelonné commence le 7 juillet 2026</p></td>
+            <td><p>Le déploiement échelonné commence le 7 juillet 2026</p></td>
+            <td><p>Le déploiement échelonné commence le 7 juillet 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Mise à jour de l’interface pour les icônes de navigation globale</a>
                 <p>Nous avons mis à jour l’aspect des icônes de navigation générales dans Workfront, y compris les icônes du menu principal et de la barre de navigation, afin de fournir une conception moderne cohérente avec les autres applications Adobe.</p>
             </td>
@@ -625,7 +634,7 @@ Pour plus d’informations, voir [Prise en main de la version d’essai gratuite
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
