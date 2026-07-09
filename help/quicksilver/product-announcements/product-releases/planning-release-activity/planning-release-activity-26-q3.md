@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2865'
 ht-degree: 6%
 
 ---
@@ -171,11 +171,16 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 >
 >Aperçu : 1er juin 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
+
 Nous avons ajouté l’onglet Exemples d’espaces de travail à la zone de destination Planification où vous pouvez afficher des exemples d’espaces de travail des bonnes pratiques. Les espaces de travail ne sont pas modifiables. Les responsables Workspace peuvent modifier les vues dans les exemples d’espaces de travail. L’onglet est visible pour les utilisateurs d’Administration standard et système.
 
 Nous vous recommandons d’afficher les exemples d’espaces de travail et d’utiliser le lot de modèles multi-espaces de travail pour créer, modifier et partager les espaces de travail résultant de l’utilisation de ce modèle.  Le lot du modèle contient les mêmes espaces de travail que l’onglet Exemples d’espaces de travail .
 
 Pour plus d’informations, voir [&#x200B; Présentation des espaces de travail &#x200B;](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+>[!NOTE]
+>
+>La création d’espaces de travail à partir de lots de modèles n’est disponible que pour les organisations qui utilisent les packages Workflow Prime ou Ultimate.
 
 ## API Workfront Planning version 2
 
