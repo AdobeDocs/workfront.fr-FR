@@ -5,7 +5,7 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
+source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 8%
@@ -107,21 +107,6 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Rechercher un projet par nom | `approvals_find_project_by_name` | Recherche les projets Workfront par correspondance de noms partielle dans tout le système. | Lire |
 | Obtenir les projets par propriétaire | `approvals_get_projects_by_owner` | Répertorie les projets Workfront dont l’utilisateur appelant est le propriétaire. | Lire |
 | Obtenir la région Adobe | `approvals_get_adobe_region` | Renvoie le nom Adobe d’une région de fournisseur de cloud. | Lire |
-
-### Commentaires
-
-| Titre | Nom de l’outil | Fonctionnement | Action |
-| --- | --- | --- | --- |
-| Commentaires sur la requête | `comment-stream_query_comments` | Requête sur les commentaires par ID d’objet, avec pagination. | Lire |
-| Obtenir un commentaire | `comment-stream_get_comment` | Obtenir un seul commentaire par ID. | Lire |
-| Nombre de commentaires reçus | `comment-stream_get_comments_count` | Obtenez le nombre total de commentaires de niveau supérieur pour un objet. | Lire |
-| Créer un commentaire | `comment-stream_create_comment` | Créez un commentaire sur un objet. | Write |
-| Créer une réponse | `comment-stream_create_reply` | Créez une réponse à un commentaire existant. | Write |
-| Mettre à jour le commentaire | `comment-stream_update_comment` | Mettre à jour un commentaire ou une réponse existant | Write |
-| Supprimer un commentaire | `comment-stream_delete_comment` | Supprimer un commentaire par son identifiant. | Write |
-| Ajouter une réaction | `comment-stream_add_reaction` | Ajouter une réaction (aimer) à un commentaire. | Write |
-| Supprimer la réaction | `comment-stream_remove_reaction` | Supprimer une réaction (comme) d’un commentaire. | Write |
-
 
 <!--
 
@@ -237,6 +222,22 @@ Les outils de workflow sont les actions d’usage général que la plateforme ag
 | Mettre à jour l’objet | `workflow_update_any_object` | Met à jour les champs d’un objet Workfront existant. | Write |
 | Supprimer l’objet | `workflow_delete_any_object` | Supprime un objet Workfront par ID. Nécessite une confirmation explicite de l’utilisateur avant l’exécution de l’action. | Write |
 | Résoudre les noms de champ | `workflow_resolve_field_names_any_object` | Convertit les noms ou les libellés des champs fournis par l’utilisateur aux noms des champs de l’API Workfront sous-jacents afin que la plateforme agentique d’IA puisse créer des requêtes précises. | Lire |
+
+### Commentaires
+
+| Titre | Nom de l’outil | Fonctionnement | Action |
+| --- | --- | --- | --- |
+| Commentaires sur la requête | `comment-stream_query_comments` | Requête sur les commentaires par ID d’objet, avec pagination. | Lire |
+| Obtenir un commentaire | `comment-stream_get_comment` | Obtenir un seul commentaire par ID. | Lire |
+| Nombre de commentaires reçus | `comment-stream_get_comments_count` | Obtenez le nombre total de commentaires de niveau supérieur pour un objet. | Lire |
+| Créer un commentaire | `comment-stream_create_comment` | Créez un commentaire sur un objet. | Write |
+| Créer une réponse | `comment-stream_create_reply` | Créez une réponse à un commentaire existant. | Write |
+| Mettre à jour le commentaire | `comment-stream_update_comment` | Mettre à jour un commentaire ou une réponse existant | Write |
+| Supprimer un commentaire | `comment-stream_delete_comment` | Supprimer un commentaire par son identifiant. | Write |
+| Ajouter une réaction | `comment-stream_add_reaction` | Ajouter une réaction (aimer) à un commentaire. | Write |
+| Supprimer la réaction | `comment-stream_remove_reaction` | Supprimer une réaction (comme) d’un commentaire. | Write |
+
+
 
 ## Mise à jour des outils
 
