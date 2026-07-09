@@ -4,9 +4,9 @@ description: Autres améliorations au cours du troisième trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '575'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,17 @@ ht-degree: 2%
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du troisième trimestre de 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Optimisation de l’archivage des commentaires
+
+
+>[!NOTE]
+>
+>Aperçu et production pour tous les clients : à partir du 7 juillet 2026Hors planning&rbrack;{type=Neutral}
+
+Nous optimisons actuellement l’archivage des commentaires pour les commentaires de plus d’un an pour tous les objets Workfront qui affichent une zone Mises à jour. Il s’agit d’un effort interne qui ne devrait pas affecter votre expérience avec la zone Mises à jour. Aucun changement visuel n&#39;est apporté à la zone Mises à jour pour les types d&#39;objet et aucune modification n&#39;est apportée aux fonctionnalités avec cette mise à jour. Tous les commentaires restent visibles pour tous les types d’objet.
+
+Pour plus d’informations, voir [&#x200B; Présentation de la section Mises à jour &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Mise à jour de l’interface pour les icônes de navigation globale
 

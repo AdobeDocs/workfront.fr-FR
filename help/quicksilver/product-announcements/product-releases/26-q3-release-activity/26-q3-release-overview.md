@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -522,6 +522,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Optimisation de l’archivage des commentaires</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Nous optimisons actuellement l’archivage des commentaires pour les commentaires de plus d’un an pour tous les objets Workfront qui affichent une zone Mises à jour. Il s’agit d’un effort interne qui ne devrait pas affecter votre expérience avec la zone Mises à jour. Aucun changement visuel n'est apporté à la zone Mises à jour pour les types d'objet et aucune modification n'est apportée aux fonctionnalités avec cette mise à jour. Tous les commentaires restent visibles pour tous les types d’objet.</p>
+            </td>
+            <td><p>Le déploiement échelonné commence le 7 juillet 2026</p></td>
+            <td><p>Le déploiement échelonné commence le 7 juillet 2026</p></td>
+            <td><p>Le déploiement échelonné commence le 7 juillet 2026</p></td>
         </tr>
         <tr>
             <td>
