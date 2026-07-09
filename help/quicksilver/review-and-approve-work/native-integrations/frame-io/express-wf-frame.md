@@ -7,7 +7,7 @@ description: Prise en main de l’intégration d’Adobe Express et de Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
+source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
@@ -80,7 +80,7 @@ Lorsqu’un modèle Express est mélangé, une approbation est requise avant la 
 
 Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
 
-Découvrez comment [&#x200B; obtenir l’approbation des conceptions &#x200B;](https://helpx.adobe.com/fr/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation
@@ -100,7 +100,7 @@ Lors de la demande d’approbation d’un modèle Express remixé, les utilisate
 
 Si aucun projet n’est sélectionné, la ressource est définie par défaut dans un projet spécifique à Express.
 
-Pour plus d’informations, voir [Envoyer les modèles pour révision et approbation](https://helpx.adobe.com/fr/express/web/invite-collaborate/request-approval.html).
+Pour plus d’informations, voir [Envoyer les modèles pour révision et approbation](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 
 ## Examinez et approuvez les fichiers remixés Express avec Frame.io
@@ -112,3 +112,4 @@ Il leur incombe également de prendre les décisions finales d’approuver le co
 Les utilisateurs doivent disposer au minimum d’une licence Collaborator Workfront pour réviser et prendre une décision.
 
 Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, voir [Commentaire sur vos médias](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
