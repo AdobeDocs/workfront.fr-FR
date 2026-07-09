@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14283'
 ht-degree: 94%
 
 ---
@@ -975,7 +975,7 @@ ht-degree: 94%
       * [Gérer les formulaires personnalisés associés à des objets](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Utiliser les notifications {#use-notifications}
       * [Utiliser les notifications : index des articles](workfront-basics/using-notifications/use-notifications.md)
-      * {hide-from-toc}[Présentation Des Notifications &#x200B;](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Présentation Des Notifications ](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Vue d’ensemble des notifications](workfront-basics/using-notifications/wf-notifications.md)
       * [Modifier vos propres notifications électroniques](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [S’abonner aux éléments dans Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1824,7 +1824,7 @@ ht-degree: 94%
       * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
-      * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+      * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2054,6 +2054,7 @@ ht-degree: 94%
       * [Commencer à utiliser la relecture et Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Commencer à utiliser la relecture et l’intégration GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Utiliser Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+      * [Prise en main d’Adobe Express et de Workfront avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
    * Conseils, astuces et résolution des problèmes pour les approbations {#ttt-approvals}
       * [Conseils, astuces et résolution des problèmes pour les approbations : index des articles](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Mettre à jour les scénarios Workfront Fusion pour une révision et une approbation unifiées](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
@@ -2558,8 +2559,8 @@ ht-degree: 94%
    * Workfront Proof mobile {#wf-proof-mobile}
       * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
       * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-         * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-         * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+         * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+         * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
          * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
