@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
+source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1765'
 ht-degree: 8%
 
 ---
@@ -107,6 +107,21 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Rechercher un projet par nom | `approvals_find_project_by_name` | Recherche les projets Workfront par correspondance de noms partielle dans tout le système. | Lire |
 | Obtenir les projets par propriétaire | `approvals_get_projects_by_owner` | Répertorie les projets Workfront dont l’utilisateur appelant est le propriétaire. | Lire |
 | Obtenir la région Adobe | `approvals_get_adobe_region` | Renvoie le nom Adobe d’une région de fournisseur de cloud. | Lire |
+
+### Commentaires
+
+| Titre | Nom de l’outil | Fonctionnement | Action |
+| --- | --- | --- | --- |
+| Commentaires sur la requête | `comment-stream_query_comments` | Requête sur les commentaires par ID d’objet, avec pagination. | Lire |
+| Obtenir un commentaire | `comment-stream_get_comment` | Obtenir un seul commentaire par ID. | Lire |
+| Nombre de commentaires reçus | `comment-stream_get_comments_count` | Obtenez le nombre total de commentaires de niveau supérieur pour un objet. | Lire |
+| Créer un commentaire | `comment-stream_create_comment` | Créez un commentaire sur un objet. | Write |
+| Créer une réponse | `comment-stream_create_reply` | Créez une réponse à un commentaire existant. | Write |
+| Mettre à jour le commentaire | `comment-stream_update_comment` | Mettre à jour un commentaire ou une réponse existant | Write |
+| Supprimer un commentaire | `comment-stream_delete_comment` | Supprimer un commentaire par son identifiant. | Write |
+| Ajouter une réaction | `comment-stream_add_reaction` | Ajouter une réaction (aimer) à un commentaire. | Write |
+| Supprimer la réaction | `comment-stream_remove_reaction` | Supprimer une réaction (comme) d’un commentaire. | Write |
+
 
 <!--
 
