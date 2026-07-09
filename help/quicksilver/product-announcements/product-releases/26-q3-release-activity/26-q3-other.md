@@ -22,11 +22,11 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu et production pour tous les clients : à partir du 7 juillet 2026Hors planning]{type=Neutral}
+>Aperçu et production pour tous les clients : à partir du 7 juillet 2026Hors planning&rbrack;{type=Neutral}
 
 Nous optimisons actuellement l’archivage des commentaires pour les commentaires de plus d’un an pour tous les objets Workfront qui affichent une zone Mises à jour. Il s’agit d’un effort interne qui ne devrait pas affecter votre expérience avec la zone Mises à jour. Aucun changement visuel n&#39;est apporté à la zone Mises à jour pour les types d&#39;objet et aucune modification n&#39;est apportée aux fonctionnalités avec cette mise à jour. Tous les commentaires restent visibles pour tous les types d’objet.
 
-Pour plus d’informations, voir [ Présentation de la section Mises à jour ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation de la section Mises à jour &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Mise à jour de l’interface pour les icônes de navigation globale
 
