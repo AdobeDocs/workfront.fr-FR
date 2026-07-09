@@ -4,10 +4,10 @@ description: Améliorations du projet au troisième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
@@ -23,10 +23,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026>Production pour tous : 12 juin 2026
+>Aperçu : 9 juillet 2026Production pour une version rapide : 13 août 2026Production pour la version trimestrielle : 15 octobre 2026Hors planning]{type=Neutral}
 
-Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.
-Dans ce cas, les documents et les approbations de documents restent dans l’objet parent plutôt que d’être transférés vers le projet nouvellement créé.
+Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.Dans ce cas, les documents et les approbations de documents restent dans l’objet parent plutôt que d’être transférés vers le projet nouvellement créé.
 
 Auparavant, les tâches ne pouvaient être converties en projets qu’en utilisant le même type de stockage.
 
@@ -40,7 +39,7 @@ Pour plus d’informations, voir [Convertir une tâche en projet](/help/quicksil
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026>Production pour tous : 11 juin 2026
+>Aperçu : 11 juin 2026Production pour tous : 11 juin 2026
 
 Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais utiliser un modèle de stockage hérité pour créer un projet de stockage dans le cloud Adobe dans les scénarios suivants :
 
