@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## Outils de workflow
 
 Les outils de workflow sont les actions d’usage général que la plateforme agentic d’IA utilise pour travailler avec n’importe quel objet Workfront : projets, tâches, événements, heures, affectations, programmes, portefeuilles, etc.
+
+### Objets et champs
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
