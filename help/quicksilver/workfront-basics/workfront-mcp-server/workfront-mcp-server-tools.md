@@ -5,15 +5,17 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 8%
+source-wordcount: '1788'
+ht-degree: 9%
 
 ---
 
 
 # Outils de serveur MCP Adobe Workfront
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Cet article répertorie les outils que le serveur MCP [!DNL Adobe Workfront] expose à une plateforme agentic d’IA connectée. La plateforme appelle ces outils en votre nom lorsque vous lui demandez de rechercher, créer, mettre à jour ou supprimer des éléments Workfront.
 
@@ -251,7 +253,6 @@ Lorsqu’Adobe publie une nouvelle version du serveur MCP de Workfront, la plate
 
 Nous nous efforçons d’ajouter les outils suivants au serveur MCP Workfront à l’avenir :
 
-* Commentaires
 * Panneaux
 
 

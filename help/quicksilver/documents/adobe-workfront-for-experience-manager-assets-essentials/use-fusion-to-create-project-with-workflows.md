@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: 1040
 ht-degree: 19%
 
 ---
@@ -29,8 +29,7 @@ Si vous créez un projet par le biais de Workfront Fusion et que vous souhaitez 
 
 >[!NOTE]
 >
->Les workflows sont disponibles uniquement dans une intégration Adobe Experience Manager as a Cloud Service. Ils ne sont pas disponibles dans les intégrations avec Adobe Experience Manager Assets Essentials.<br>
->Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.
+>Les workflows sont disponibles uniquement dans une intégration d’Adobe Experience Manager as a Cloud Service. Ils ne sont pas disponibles dans les intégrations d’Adobe Experience Manager Assets Essentials.Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.
 
 
 ## Conditions d’accès
@@ -176,3 +175,51 @@ Vous devez configurer une application OAuth dans Workfront pour la connexion de 
 Vous utiliserez cet ID client et ce secret client lors de la configuration de la connexion du module dans Fusion.
 
 Pour obtenir des instructions sur la création d’une connexion, voir [Connexion [!DNL Workfront] à [!DNL Workfront Fusion]](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) dans l’article Modules Workfront.
+
+## Dépannage
+
+**Problème** : des formulaires personnalisés sont joints de manière inattendue au projet créé par Fusion
+
+**Solution** :
+
+Sortez `categoryID` du projet JSON avancé et placez-le dans `project_new.categoryID` (à l’aide du champ structuré dans l’interface utilisateur de Fusion).
+
+Concrètement, remplacez le mappeur par :
+
+```
+// project_new — set just this one field via the structured UI
+{
+    "categoryID": "5d3a292300b69eb5d80c37e8ce6269d3"
+}
+```
+
+```
+// project (advanced JSON) — remove categoryID from here
+{
+    "aemNativeFolderTreeIDs": ["693c40280e09eb1bd4085a5e"],
+    "aemNativeFolderWorkflowEnabled": "true",
+    "name": "{{1.name}}",
+    "templateID": "{{if(...)}}",
+    "ownerID": "{{1.ownerID}}",
+    "sponsorID": "{{1.ownerID}}",
+    "priority": "2",
+    "programID": "{{ifempty(7.ID; null)}}",
+    "description": "test",
+    "portfolioID": "{{ifempty(8.ID; null)}}",
+    "scheduleMode": "S",
+    "completionType": "AUT"
+}
+```
+
+**Pourquoi cela fonctionne-t-il** :
+
+1. `isCtgyIDsGive`n voit désormais `project_new.categoryID = "5d3a292300b69eb5d80c37e8ce6269d3"` → renvoie des `temp.isCtgyIDsGiven = true` → véridiques
+2. L’étape (`getAttachedAndAttachableCategoryID`) est ignorée ; sa condition est `!temp.isCtgyIDsGiven`
+3. Au lieu de cela, cette étape déclenche : `ctgyIds = split(parameters.project_new.categoryID, ',')` → [« 5d3a292300b69eb5d80c37e8ce6269d3 »]
+4. `prepareMiscActionData` utilise toujours le fichier JSON de projet avancé pour tous les champs spécifiques à AEM (il est prioritaire sur `project_new`), puis recouvre `objectCategories: [{ categoryID: "5d3a292300b69eb5d80c37e8ce6269d3" }]`, uniquement sous la forme prévue, sans éléments inattendus
+5. Les étapes de copie des valeurs de champ personnalisé depuis la source OPTASK vers le nouveau projet s’exécutent toujours comme prévu avec `isCopyCustomData: true`
+
+Les champs AEM (`aemNativeFolderTreeIDs`, `aemNativeFolderWorkflowEnabled`) restent dans le champ avancé sans être affectés. Ce processus ne change que lorsqu’`categoryID` est trouvé.
+
+
+

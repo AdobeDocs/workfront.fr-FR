@@ -23,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
-ht-degree: 47%
+source-wordcount: 1809
+ht-degree: 45%
 
 ---
 
@@ -189,11 +189,15 @@ Lorsque vous modifiez le statut de la tâche ou du projet en un statut personnal
 
 * Le statut personnalisé du projet ou de la tâche comporte le même code à trois lettres que le statut personnalisé du problème.
 
-Vous pouvez créer des statuts personnalisés avec la même clé pour les problèmes et les projets ou tâches. Lorsque le projet ou la tâche (en tant qu&#39;objet de résolution) sont modifiés en statut personnalisé, la modification se répercute également sur le statut du problème. La clé de statut doit être la même pour les statuts du problème et du projet ou de la tâche.
+Tenez compte des points suivants :
 
-Imaginez, par exemple, que vous créiez un statut personnalisé de projet nommé Lancement avec l’écran LCD de code à trois lettres, qui correspond à Actuel. Ensuite, vous créez un statut personnalisé d’événement appelé Projet lancé, également avec le code de lettre LCD, qui correspond à En cours. Lorsque vous marquez le projet comme Lancé, le problème passe automatiquement au statut Lancé. Si le statut Mettre automatiquement à jour le problème pouvant être résolu lorsque le statut du paramètre Modifications de l&#39;objet de résolution n&#39;est pas activé, le statut du problème devient En cours à la place.
+* Vous pouvez créer des statuts personnalisés avec la même clé pour les problèmes et les projets ou tâches. Lorsque le projet ou la tâche (en tant qu&#39;objet de résolution) sont modifiés en statut personnalisé, la modification se répercute également sur le statut du problème. La clé de statut doit être la même pour les statuts du problème et du projet ou de la tâche.
 
-Pour plus d’informations sur la création d’un statut personnalisé, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  Par exemple, vous pouvez créer un statut personnalisé de projet nommé Lancement avec l’écran LCD de code à trois lettres, qui correspond à Actuel. Ensuite, vous créez un statut personnalisé d’événement appelé Projet lancé, également avec le code de lettre LCD, qui correspond à En cours. Lorsque vous marquez le projet comme Lancé, le problème passe automatiquement au statut Lancé. Si le statut Mettre automatiquement à jour le problème pouvant être résolu lorsque le statut du paramètre Modifications de l&#39;objet de résolution n&#39;est pas activé, le statut du problème devient En cours à la place.
+
+* Lorsqu&#39;un objet de résolution est défini sur un statut système qui correspond à un statut Terminé, le problème pouvant être résolu est défini sur le statut par défaut de son propre groupe pour ce statut. La correspondance de clé de statut à trois lettres s’applique uniquement au chemin d’accès du statut personnalisé, et non aux statuts système configurés par Workfront.
+
+  Pour plus d’informations sur la création d’un statut personnalisé, voir [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synchroniser le pourcentage terminé d’un objet de résolution avec celui de l’objet résolvable
 
