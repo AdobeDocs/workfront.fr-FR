@@ -41,7 +41,7 @@ Pour plus d’informations, voir [Affichage des requêtes envoyées](/help/quick
 
 >[!NOTE]
 >
->Aperçu : 23 avril 2026Version rapide de production : 23 avril 2026Production pour tous : 23 avril 2026Hors planning]{type=Neutral}
+>Aperçu : 23 avril 2026Version rapide de production : 23 avril 2026Production pour tous : 23 avril 2026Hors planning&rbrack;{type=Neutral}
 
 Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté les vues prédéfinies suivantes à la liste des demandes dans la zone des Demandes et au widget Mes demandes dans l’Accueil :
 
