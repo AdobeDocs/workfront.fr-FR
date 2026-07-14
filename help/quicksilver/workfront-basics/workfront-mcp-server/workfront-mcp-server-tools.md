@@ -5,7 +5,7 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
+source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 9%
@@ -223,7 +223,7 @@ Les outils de workflow sont les actions d’usage général que la plateforme ag
 | Ajouter une réaction | `comment-stream_add_reaction` | Ajouter une réaction (aimer) à un commentaire. | Write |
 | Supprimer la réaction | `comment-stream_remove_reaction` | Supprimer une réaction (comme) d’un commentaire. | Write |
 
-## Outils Insights
+### Outils Insights
 
 Les outils Insights récupèrent des informations sur les objets Workfront.
 
