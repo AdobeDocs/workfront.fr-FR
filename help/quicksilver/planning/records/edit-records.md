@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
-ht-degree: 25%
+source-wordcount: 3175
+ht-degree: 26%
 
 ---
 
@@ -202,7 +202,19 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 1. (La cas échéant) Cliquez sur l’onglet d’une vue de tableau ou sur **+ Affichage** pour créer une vue de tableau. La vue de tableau doit être la vue par défaut, sauf si vous avez consulté le type d’enregistrement dans un autre type de vue lors de votre dernier accès.
 
    Les enregistrements associés au type d’enregistrement sélectionné s’affichent dans la vue Tableau.
+
 1. (Facultatif) Cliquez sur la zone de recherche et ajoutez un mot-clé pour trouver un enregistrement à modifier.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
@@ -279,8 +291,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    * **Afficher** ou <span class="preview">**Ouvrir dans un nouvel onglet**</span> : permet d’ouvrir la page de l’enregistrement.
    * **Copier le lien** : pour copier un lien vers la page de l’enregistrement.
-   * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.
-Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Dupliquer** : crée un doublon identique de l’enregistrement.
    * **Insérer l’enregistrement ci-dessus/ Insérer l’enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. <span class="preview">Cela n’est pas possible dans l’environnement de prévisualisation.</span>
    * **Supprimer** : pour supprimer l’enregistrement. Les enregistrements supprimés sont enregistrés dans la zone Récemment supprimés pendant 30 jours au maximum.

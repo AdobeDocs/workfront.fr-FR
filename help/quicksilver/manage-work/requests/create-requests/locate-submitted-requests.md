@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
-ht-degree: 38%
+source-wordcount: 1591
+ht-degree: 37%
 
 ---
 
@@ -113,8 +113,7 @@ L’affichage des demandes envoyées diffère selon que vous utilisez l’expér
 
 >[!NOTE]
 >
->* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste.
->     Le **type d&#39;objet** d&#39;une requête Planning est nommé selon le modèle suivant : `< Name of workspace > > < Name of record type >`. Par exemple, le type d&#39;objet d&#39;une demande Planning peut être nommé `Marketing workspace > Campaigns`.\
+>* Si vous disposez de Workfront Planning, vos demandes Workfront et Planning apparaissent dans la même liste.Le **type d&#39;objet** d&#39;une requête Planning est nommé selon le modèle suivant : `< Name of workspace > > < Name of record type >`. Par exemple, le type d&#39;objet d&#39;une demande Planning peut être nommé `Marketing workspace > Campaigns`.\
 >     Le **type d’objet** d’une requête Workfront est `Issue`.
 >* Jusqu’à 50 requêtes s’affichent par défaut dans la liste de la zone des Requêtes . Pour afficher plus de requêtes, faites défiler la liste vers le bas.
 
@@ -166,9 +165,12 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    * **En cours** :
       * Demandes Workfront : la demande a été convertie et le travail est en cours.
       * Demandes Planning Workfront : l’achèvement de la demande est mappé à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur d’achèvement.
-   * **En attente** : cette option est disponible pour les requêtes Workfront et définie manuellement par les utilisateurs.
-   * <span class="preview">**Annulé** : concerne les demandes Workfront.</span> <!--checking with Khach)-->
+   * **En attente** : cette option est disponible pour les requêtes Workfront. Il peut être défini manuellement par les utilisateurs.
    * <span class="preview">**Terminé** : l&#39;enregistrement Planning qui complète la demande a été créé. (Planification uniquement)</span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### Afficher les demandes envoyées dans l’expérience de demande héritée
 

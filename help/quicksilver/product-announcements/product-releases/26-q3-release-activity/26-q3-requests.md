@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 7%
 
 ---
 
@@ -18,19 +18,22 @@ Cette page décrit les améliorations apportées aux demandes à l’environneme
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du troisième trimestre 2026, voir [Présentation de la version du troisième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Introduction de nouveaux statuts de requête
+## Correspondance des statuts de requête entre l’expérience héritée et la nouvelle expérience de requête
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026>Version rapide de production : 11 juin 2026>Production pour tous : 16 juillet 2026
+>Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
 
-Pour obtenir plus de contexte sur l’état de vos requêtes, nous introduisons de nouveaux statuts pour les requêtes. Les nouveaux statuts de requête suivants sont désormais disponibles :
+Pour obtenir plus de contexte sur l’état correct de vos requêtes, nous mettons à jour les statuts des requêtes dans la nouvelle expérience de requête.
+
+Les requêtes affichent le même statut dans l’expérience de requête nouvelle et héritée pour les statuts suivants :
 
 * Nouveau
 * Suspendu
-* Annulé
 
-Le statut « Terminé » a été renommé « Terminé ».
+Avant cette mise à jour, si une demande avait le statut Nouvelle ou En attente dans la liste d’expériences des demandes héritées, elle s’affichait comme En cours dans la liste d’expériences des nouvelles demandes. Désormais, les statuts correspondent aux deux listes.
+
+Dans le cadre de cette mise à jour, le statut « Terminé » a également été renommé « Terminé ».
 
 Pour plus d’informations, voir [Affichage des requêtes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
@@ -38,7 +41,7 @@ Pour plus d’informations, voir [Affichage des requêtes envoyées](/help/quick
 
 >[!NOTE]
 >
->Aperçu : 23 avril 2026>Mise à jour rapide de la production : 23 avril 2026>Production pour tous : 23 avril 2026>[!BADGE Horaire réduit]{type=Neutral}
+>Aperçu : 23 avril 2026Version rapide de production : 23 avril 2026Production pour tous : 23 avril 2026Hors planning&rbrack;{type=Neutral}
 
 Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté les vues prédéfinies suivantes à la liste des demandes dans la zone des Demandes et au widget Mes demandes dans l’Accueil :
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe</a><p><p>[!BADGE Hors planning]{type=Neutral}</p></p>
                 <p>Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.</p>
             </td>
-            <td><p>9 juillet 2026</p></td>
-            <td><p>13 Août 2026</p></td>
-            <td><p>15 Octobre 2026</p></td>
+            <td><p>11 Juin 2026</p></td>
+            <td><p>11 Juin 2026</p></td>
+            <td><p>11 Juin 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Tous les trimestres</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Introduction de nouveaux statuts de requête</a>
-                <p>Pour obtenir plus de contexte sur l’état de vos requêtes, nous introduisons de nouveaux statuts pour les requêtes : Nouveau, En attente et Annulé. Le statut « Terminé » a été renommé « Terminé ».</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Correspondance des statuts de requête entre l’ancienne et la nouvelle expérience</a>
+                <p>Pour obtenir plus de contexte sur l’état correct de vos requêtes, nous mettons à jour les statuts des requêtes dans la nouvelle expérience de requête.</p>
             </td>
             <td><p>27 Mai 2026</p></td>
             <td><p>11 Juin 2026</p></td>
