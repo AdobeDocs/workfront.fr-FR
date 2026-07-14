@@ -4,7 +4,7 @@ description: Améliorations du projet au troisième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 9 juillet 2026Production pour une version rapide : 13 août 2026Production pour la version trimestrielle : 15 octobre 2026Hors planning&rbrack;{type=Neutral}
+>Aperçu : 11 juin 2026Production pour une version rapide : 11 juin 2026Production pour la version trimestrielle : 11 juin 2026Hors planning]{type=Neutral}
 
 Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.Dans ce cas, les documents et les approbations de documents restent dans l’objet parent plutôt que d’être transférés vers le projet nouvellement créé.
 
