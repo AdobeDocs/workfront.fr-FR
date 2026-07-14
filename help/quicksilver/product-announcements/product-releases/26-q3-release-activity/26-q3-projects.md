@@ -23,7 +23,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026Production pour une version rapide : 11 juin 2026Production pour la version trimestrielle : 11 juin 2026Hors planning]{type=Neutral}
+>Aperçu : 11 juin 2026Production pour une version rapide : 11 juin 2026Production pour la version trimestrielle : 11 juin 2026Hors planning&rbrack;{type=Neutral}
 
 Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.Dans ce cas, les documents et les approbations de documents restent dans l’objet parent plutôt que d’être transférés vers le projet nouvellement créé.
 

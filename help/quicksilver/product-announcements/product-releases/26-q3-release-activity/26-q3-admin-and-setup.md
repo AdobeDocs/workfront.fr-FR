@@ -121,7 +121,7 @@ Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modi
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026Production pour tous : 11 juin 2026Hors planning]{type=Neutral}
+>Aperçu : 11 juin 2026Production pour tous : 11 juin 2026Hors planning&rbrack;{type=Neutral}
 
 Les administrateurs Workfront peuvent désormais convertir les portefeuilles de stockage hérités en stockage cloud Adobe directement à partir des préférences système. Pour convertir des portfolios, sélectionnez-les dans le nouveau champ Sélectionner les portfolios à convertir en stockage d’entreprise et enregistrez la page.
 
