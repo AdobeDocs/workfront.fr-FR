@@ -6,10 +6,10 @@ description: En tant qu’administrateur, vous pouvez configurer Adobe Cloud Dri
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: 56dca343c919db3bb09a232ada2b4700c59f5147
+source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
 workflow-type: tm+mt
 source-wordcount: '3139'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ Lorsque vous accédez à **Utilisateurs** > **Rôles**, deux rôles sont associ�
 | **Membre** | Tous les utilisateurs de l’organisation | Contient le commutateur de fonctionnalités Adobe Cloud Drive au niveau de l’organisation. Activé par défaut. |
 | **utilisateur ACD** | Personne, par défaut | Accorde un accès individuel lorsque le commutateur au niveau de l’organisation est désactivé. |
 
-![&#x200B; Rôles dans Admin Console &#x200B;](assets/admin-console-roles.png)
+![ Rôles dans Admin Console ](assets/admin-console-roles.png)
 
 ### Contrôles d’accès
 
@@ -79,17 +79,18 @@ Le rôle **utilisateur ACD** n’est pertinent que lorsque le bouton au niveau d
 
 Adobe Cloud Drive n’est disponible que sur le package Workflow Ultimate. Les options de rôle ne sont disponibles dans aucun autre package.
 
-La licence du package Workflow Ultimate peut être de n’importe quel type : Standard, Léger ou Contributeur. Pour plus d’informations sur les licences, voir [&#x200B; Présentation des licences &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+La licence du package Workflow Ultimate peut être de n’importe quel type : Standard, Léger ou Contributeur. Pour plus d’informations sur les licences, voir [ Présentation des licences ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Le tableau suivant montre l&#39;interaction de ces contrôles :
 
 | Commutateur au niveau de l’organisation | Utilisateur dans le rôle utilisateur ACD | Licence Workflow Ultimate | Accès au résultat |
 | --- | --- | --- | --- |
 | Marche | Non requis | Oui | Accordé |
-<!-- | On | Not required | No | Denied | -->
-| Désactivé | Oui | Oui | Accordé |
-| Désactivé | Non | Oui | Refusé |
+| Arrêt | Oui | Oui | Accordé |
+| Arrêt | Non | Oui | Refusé |
 | Soit | Soit | Non | Refusé |
+
+<!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->
 
 ## Conditions préalables
 
@@ -302,7 +303,7 @@ Pour plus d’informations sur la gestion de l’accès aux projets, voir [Gére
 
 ## Configuration réseau requise
 
-Adobe Cloud Drive nécessite un accès HTTPS sortant (port 443) à un ensemble de points d’entrée Adobe. Aucune règle de pare-feu entrant n’est requise. Pour obtenir la liste des points d’entrée, voir [Points d’entrée réseau &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
+Adobe Cloud Drive nécessite un accès HTTPS sortant (port 443) à un ensemble de points d’entrée Adobe. Aucune règle de pare-feu entrant n’est requise. Pour obtenir la liste des points d’entrée, voir [Points d’entrée réseau ](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
 
 Adobe Cloud Drive lit la configuration du proxy au niveau du système sur macOS et Windows. Les proxys authentifiés sont pris en charge.
 
@@ -330,7 +331,7 @@ Le dossier racine de chaque projet Workfront est en lecture seule dans la vue Bu
 
 ## Résolution des problèmes courants
 
-Pour connaître les étapes de dépannage de l’utilisateur final, voir [&#x200B; Dépannage d’Adobe Cloud Drive &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). Les problèmes répertoriés ci-dessous sont spécifiques aux administrateurs.
+Pour connaître les étapes de dépannage de l’utilisateur final, voir [ Dépannage d’Adobe Cloud Drive ](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). Les problèmes répertoriés ci-dessous sont spécifiques aux administrateurs.
 
 ### L’utilisateur ne trouve pas le programme d’installation d’Adobe Cloud Drive dans la distribution logicielle.
 
