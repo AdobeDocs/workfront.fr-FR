@@ -6,20 +6,18 @@ title: Joindre une carte tarifaire à un modèle
 description: Lorsque vous affectez une carte tarifaire à un modèle, celle-ci est ensuite associée à tous les projets créés à partir du modèle.
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 10%
 
 ---
 
 # Joindre une carte tarifaire à un modèle
 
-{{highlighted-preview-article-level}}
-
 Lorsque vous affectez une carte tarifaire à un modèle, celle-ci est ensuite associée à tous les projets créés à partir du modèle. La carte tarifaire devient la carte par défaut du projet, mais elle peut être remplacée si nécessaire.
 
-Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 Pour plus d’informations sur les modèles de projet, voir [Présentation des modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/project-template-overview.md).
 
