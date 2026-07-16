@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 7795
-ht-degree: 81%
+source-wordcount: 7956
+ht-degree: 78%
 
 ---
 
@@ -807,12 +799,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
-      &lbrace;
-       data : &lbrace;
+      {
+       data : {
          { name : « USA »},
          { name : « Canada »}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1054,66 +1046,65 @@ Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisé
 
 +++ Développez pour afficher la liste des champs natifs pris en charge.
 
-Ce tableau répertorie les champs natifs disponibles pour des objets Workfront spécifiques dans un formulaire personnalisé.
+Cette liste affiche les champs natifs disponibles pour les formulaires personnalisés et les types d’objets sur lesquels vous pouvez utiliser chaque champ.
 
-| Nom du champ | Projet | Tâche | Problème | Modèle | Tâche de modèle | Portfolio | Programme | Groupe |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Bénéfice réel | ✓ |   |   |   |   |   |   |   |
-| Date d&#39;achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Durée effective | ✓ |   |   |   |   |   |   |   |
-| Heures effectives | ✓ |   | ✓ |   |   |   |   |   |
-| Date de début effective | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Budget | ✓ |   |   | ✓ |   | ✓ |   |   |
-| Entreprise | ✓ |   |   | ✓ |   |   |   |   |
-| Condition | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Type de condition | ✓ |   |   | ✓ |   |   |   |   |
-| Devise | ✓ |   |   | ✓ |   |   |   |   |
-| Description | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Durée |   | ✓ |   |   | ✓ |   |   |   |
-| Type de durée |   | ✓ |   |   | ✓ |   |   |   |
-| Unité de durée |   | ✓ |   |   | ✓ |   |   |   |
-| Saisi par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Date de saisie | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Date du taux de change | ✓ |   |   |   |   |   |   |   |
-| Coûts fixes | ✓ |   |   | ✓ |   |   |   |   |
-| Revenus fixes | ✓ |   |   | ✓ |   |   |   |   |
-| Groupe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Dernière mise à jour par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Date de la dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Nom | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Propriétaire | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Méthode d&#39;indice de performances | ✓ |   |   | ✓ |   |   |   |   |
-| Bénéfice prévu | ✓ |   |   | ✓ |   |   |   |   |
-| Date d’achèvement prévue | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Durée prévue | ✓ |   |   | ✓ |   |   |   |   |
-| Heures prévues | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Date de début prévue | ✓ |   |   |   |   |   |   |   |
-| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
-| Priorité | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Programme | ✓ |   |   | ✓ |   |   |   |   |
-| Date d’achèvement prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
-| Durée prévisionnelle en minutes |   | ✓ |   |   |   |   |   |   |
-| Date de début prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
-| Numéro de référence | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Mode horaire | ✓ |   |   | ✓ |   |   |   |   |
-| Gravité |   |   | ✓ |   |   |   |   |   |
-| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
-| Statut | ✓ | ✓ |   |   |   |   |   |   |
-| Points de l’histoire |   | ✓ |   |   |   |   |   |   |
-| Modèle | ✓ |   |   |   |   |   |   |   |
-| Coût total estimé | ✓ |   |   | ✓ |   |   |   |   |
-| Total des revenus estimés | ✓ |   |   | ✓ |   |   |   |   |
-| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
-
-{style="table-layout:auto"}
-
-Ces types d’objets de formulaire personnalisés supplémentaires prennent également en charge les références de champ natives.
-
-* Enregistrement de facturation : champ Revenu fixe
-* Document : champs Nom et Description.
-* Société : Nom, Champs du groupe
-* Carte tarifaire : nom, description, entreprise, champs de groupe
-* Fonction : nom, champs de description
+* **Bénéfice réel** : Projet
+* **Date D&#39;Achèvement Effective** : Projet, Tâche, Événement
+* **Coût Réel** : Projet, Tâche, Événement
+* **Durée effective** : projet, tâche
+* **Heures réelles** : projet, tâche, événement
+* **Date de début effective** : projet, tâche, événement
+* **Budget** : Projet, Modèle, Portfolio
+* **Date d&#39;engagement** : tâche, événement
+* **Société** : Projet, Modèle, Carte tarifaire
+* **Condition** : Projet, Tâche, Événement
+* **Type de condition** : projet, modèle
+* **Émetteur de l&#39;événement converti** : projet
+* **Devise** : Projet, Modèle
+* **Description** : Projet, Tâche, Événement, Modèle, Tâche De Modèle, Portfolio, Programme, Groupe, Document, Carte Tarifaire, Fonction
+* **Durée** : tâche, tâche de modèle
+* **Type de durée** : tâche, tâche de modèle
+* **Unité de durée** : tâche, tâche de modèle
+* **Entré Par** : Projet, Tâche, Événement, Modèle, Tâche De Modèle, Groupe
+* **Date De Saisie** : Projet, Tâche, Événement, Modèle, Tâche De Modèle, Groupe
+* **Date du taux de change** : Projet
+* **Coût Fixe** : Projet, Modèle
+* **Revenu fixe** : projet, modèle, enregistrement de facturation
+* **Groupe** : Projet, Modèle, Portfolio, Programme, Entreprise, Carte tarifaire
+* **Type d&#39;événement** : événement
+* **Itération** : tâche
+* **Dernière Mise À Jour Par** : Projet, Tâche, Événement, Modèle, Modèle De Tâche
+* **Date De La Dernière Mise À Jour** : Projet, Tâche, Événement, Modèle, Modèle De Tâche
+* **Nom** : Projet, Tâche, Événement, Modèle, Tâche de modèle, Portfolio, Programme, Groupe, Document, Entreprise, Carte tarifaire, Fonction
+* **Propriétaire** : Projet, Modèle, Portfolio, Programme
+* **Méthode d&#39;indice de performance** : projet, modèle
+* **Bénéfice prévu** : projet, modèle
+* **Date D&#39;Achèvement Prévue** : Projet, Tâche, Événement
+* **Durée prévue** : projet, modèle
+* **Heures planifiées** : projet, tâche, événement, modèle de tâche
+* **Date De Début Prévue** : Projet, Tâche, Événement
+* **** : Projet, Modèle, Programme
+* **Priorité** : Projet, Tâche, Événement, Modèle, Tâche De Modèle
+* **Programme** : Projet, Modèle
+* **Date d&#39;achèvement prévisionnelle** : projet, tâche
+* **Durée prévisionnelle en minutes** : tâche
+* **Date de début prévue** : projet, tâche
+* **Rubrique de file d&#39;attente** : problème
+* **Préparation** : tâche
+* **Numéro De Référence** : Projet, Tâche, Événement, Modèle, Modèle De Tâche
+* **Gestionnaire des ressources** : Projet
+* **Mode Planification** : Projet, Modèle
+* **Gravité** : problème
+* **Sponsor** : Projet, Modèle
+* **Statut** : Projet, Tâche, Événement
+* **Points de l&#39;histoire** : tâche
+* **Contrainte de tâche** : tâche
+* **Modèle** : Projet
+* **Résolution** : Projet, Tâche
+* **Coût Total Estimé** : Projet, Modèle
+* **Total des revenus estimés** : projet, modèle
+* **URL** : projet, tâche, événement, modèle, tâche de modèle
+* **Effort de travail** : tâche
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
