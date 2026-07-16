@@ -10,22 +10,17 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
-source-wordcount: 572
+source-wordcount: 570
 ht-degree: 8%
 
 ---
 
 # Utiliser les tableaux de bord de la zone de travail
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -51,9 +46,7 @@ Pour accéder aux tableaux de bord de la zone de travail, accédez à la section
 1. Cliquez sur le nom d’un tableau de bord existant pour l’ouvrir.
    ![Ouvrir un tableau de bord](assets/open-dashboard.png)
 
-<div class="preview">
-
-## Trier la liste Tableaux de bord de la zone de travail dans l’aperçu
+## Trier la liste Tableaux de bord de la zone de travail
 
 Vous pouvez trier la liste Tableaux de bord de la zone de travail selon l’une des colonnes suivantes :
 
@@ -75,8 +68,6 @@ Pour trier la liste :
 >
 >* L’ordre de tri est conservé lorsque vous basculez entre les onglets de la liste Tableaux de bord de la zone de travail.
 
-
-</div>
 
 <!--
 ## Navigating the Dashboard

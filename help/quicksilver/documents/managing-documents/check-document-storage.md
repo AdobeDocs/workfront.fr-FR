@@ -9,15 +9,11 @@ exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/vOjgBLxX5rFIGHBCHB2a6Q3Bs3KE5x-opXUMvANjI1E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
 ht-degree: 15%
@@ -25,8 +21,6 @@ ht-degree: 15%
 ---
 
 # Vérifier les limites de stockage des documents
-
-{{highlighted-preview}}
 
 Bien qu’il n’existe aucune restriction sur les types et tailles des fichiers individuels que les utilisateurs peuvent charger vers votre instance Workfront, votre plan Workfront comprend un quota de stockage total. En tant qu’administrateur Workfront, vous surveillez l’utilisation et le quota à partir de la zone Configuration de la page Informations sur le client.
 
@@ -79,8 +73,6 @@ Le quota de stockage est actualisé tous les jours afin d’afficher le décompt
 >
 >Cette limite ne s’applique pas aux documents que vous liez à Workfront à partir d’un autre fournisseur tiers (SharePoint, Google Drive, Webdam, Box, Dropbox ou tout autre fournisseur de gestion des ressources numériques).
 
-<div class="preview">
-
 ## Espace de stockage Adobe
 
 
@@ -107,5 +99,3 @@ Les chiffres d’utilisation sont actualisés régulièrement afin que vous puis
 ### Notifications par e-mail aux administrateurs
 
 Lorsque l’utilisation dépasse 75 %, 90 % ou 100 % de votre quota de stockage, Workfront envoie une notification par e-mail aux administrateurs système.
-
-</div>
