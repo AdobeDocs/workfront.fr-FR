@@ -5,32 +5,26 @@ description: La barre de navigation supérieure, qui s’affiche en haut de l’
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 88%
+source-wordcount: '672'
+ht-degree: 90%
 
 ---
 
 # Vue d’ensemble de la barre de navigation supérieure
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [!DNL Adobe Workfront], vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
 
-<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
 ![Barre de navigation supérieure](assets/wf-top-navigation-070626.png)
-
-Exemple d’image dans l’environnement de production :
-![Barre de navigation supérieure](assets/wf-top-navigation-2026.png)
 
 ## Icône d’[!UICONTROL accueil]
 
 L’icône d’**[!UICONTROL accueil]** ![](assets/home-icon.png) vous conduit à la page d’[!UICONTROL accueil], qui est la page de destination par défaut.
 
-Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Votre administrateur ou administratrice Workfront peut personnaliser l’icône d’accueil pour ouvrir une autre page en créant un modèle de mise en page et en vous l’affectant. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
@@ -132,13 +126,13 @@ Pour en savoir plus sur les notifications et les annonces, voir [Afficher et gé
 
 ## Menu [!UICONTROL Favoris]
 
-L’icône **[!UICONTROL Favoris]** ![Favoris](assets/favorites-icon-62x55.png) ouvre une liste des pages du système que vous avez marquées comme favorites. Vous pouvez ajouter la page sur laquelle vous vous trouvez actuellement à partir de ce menu.
+L’icône **[!UICONTROL Favoris]** ![Favoris](assets/favorites-icon.png) ouvre une liste des pages du système que vous avez marquées comme favorites. Vous pouvez ajouter la page sur laquelle vous vous trouvez actuellement à partir de ce menu.
 
 Pour en savoir plus sur les favoris, voir [Afficher et gérer des favoris](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## Menu [!UICONTROL Récents]
 
-L’icône **[!UICONTROL Récents]** ![[!UICONTROL Récents]](assets/recents-icon-40x43.png) ouvre une liste des pages que vous avez consultées récemment.
+L’icône **[!UICONTROL Récents]** ![[!UICONTROL Récents]](assets/recents-icon.png) ouvre une liste des pages que vous avez consultées récemment.
 
 Pour en savoir plus sur les éléments récents, voir [Afficher des éléments récents](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 
