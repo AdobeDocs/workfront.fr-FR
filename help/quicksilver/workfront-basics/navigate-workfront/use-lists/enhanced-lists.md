@@ -8,26 +8,19 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3142
 ht-degree: 2%
 
 ---
 
 # Utiliser les listes améliorées
-
-{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -101,13 +94,11 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    * Devise : vous devez saisir les informations sous la forme d&#39;un nombre précédé d&#39;un symbole de devise.
    * Date : utilisez le calendrier pour sélectionner une date.
    * Date et heure : utilisez le calendrier pour sélectionner une date et une heure.
-   * Liste déroulante à sélection unique ou multiple : sélectionnez une ou plusieurs options dans un menu déroulant. <span class="preview">Si une liste est prise en charge, vous pouvez créer de nouvelles options directement à partir de la liste déroulante lorsqu’aucun résultat n’est trouvé.</span>
+   * Liste déroulante à sélection unique ou multiple : sélectionnez une ou plusieurs options dans un menu déroulant. Si elle est prise en charge sur une liste, vous pouvez créer de nouvelles options directement à partir de la liste déroulante lorsqu’aucun résultat n’est trouvé.
    * Saisie semi-automatique : saisissez le nom d’un objet existant (par exemple, le nom d’un groupe ou d’un projet) et choisissez le nom dans la liste de suggestions.
    * Paragraphe : vous pouvez saisir plusieurs lignes d’informations alphanumériques.
    * Personne désignée (une ou plusieurs) : sélectionnez un ou plusieurs utilisateurs en tant que personne désignée pour l’élément de liste.
    * Sélecteur de couleurs : sélectionnez une couleur dans le sélecteur ou saisissez un code tel qu’un code hexadécimal ou RGB.
-
-   <div class="preview">
 
    Les champs déroulants Désignation, Sélection unique et Sélection multiple prennent en charge les commandes clavier suivantes :
 
@@ -115,15 +106,13 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    * Appuyez sur la barre d’espace pour sélectionner un élément.
    * Appuyez sur la touche Supprimer pour supprimer un élément sélectionné.
 
-   </div>
-
    >[!NOTE]
    >
    >Chaque type de champ possède ses propres options de modification. Certains champs peuvent être en lecture seule.
    >
    >Notez que toutes les listes ne prennent pas en charge tous les types de champ.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -148,7 +137,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -254,8 +243,8 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.

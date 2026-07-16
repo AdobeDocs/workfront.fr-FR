@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
 TQID: https://experienceleague.adobe.com/oAAjiUwY1-ktNuwMHyKbvfbTvSYqdXC4vidLD4qCh-Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 26%
@@ -78,7 +74,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    | **Normale** | La valeur Normale concerne les tâches de routine sur lesquelles vous travaillerez une fois les tâches urgentes et de haute priorité terminées. Il s’agit de la valeur par défaut pour les tâches et les événements. |
    | **Faible** | La valeur faible correspond aux éléments de travail qui n’ont pas besoin d’une attention immédiate et qui peuvent être différés jusqu’à ce que tous les éléments de travail de priorité supérieure soient terminés. |
 
-   ![Ma cible](assets/my-focus-new.png)
+   ![Ma cible](assets/my-focus-060226.png)
 
    >[!TIP]
    >

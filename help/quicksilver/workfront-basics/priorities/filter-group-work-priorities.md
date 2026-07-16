@@ -7,17 +7,12 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 14%
@@ -76,67 +71,68 @@ Vous pouvez filtrer les tâches et les événements qui vous sont affectés.
 
 1. Cliquez sur **Filtres** en haut à gauche de la liste de travail.
 1. Dans la section **Filtres standard**, sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
-   ![Filtre](assets/filter-new.png)
+   ![Filtre](assets/filter-060226.png)
 
-+++Développez pour afficher des informations détaillées sur les filtres disponibles
-<table>
-  <tbody>
-   <tr>
-   <th>Filtre</th>
-   <th>Description</th>
-   </tr>
-    <tr>
-      <td>Travail en cours</td>
-      <td>Affiche les éléments sur lesquels vous travaillez actuellement</td>
-    </tr>
-    <tr>
-      <td>Démarrage possible</td>
-      <td>Affiche les éléments avec 
-      <ul>
-      <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
-      <p>and</p>
-      <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>À préparer</td>
-      <td>Affiche les éléments qui ont
-       <ul>
-      <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li></ul>
-      <p>ou</p>
-      <ul>
-      <li>La date de début prévue est dans le futur depuis plus de deux semaines</li>
-      </ul>
-       </td>
-    </tr>
-    <tr>
-      <td>Demandé</td>
-      <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
-    </tr>
-      <td>Terminé</td>
-      <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
-    </tr>
-    <tr>
-    <td>Projet</td>
-    <td>Affiche les projets contenant des tâches ou des événements qui vous ont été affectés</td>
-    </tr>
-    <tr>
-    <td>Date d’échéance</td>
-    <td>Affiche le travail par date d'achèvement prévue</td>
-    </tr>
-    <tr>
-    <td>Mon focus</td>
-    <td>Affiche les tâches ou les événements auxquels des niveaux de focus ont été affectés. Les niveaux de focus sont attribués et gérés par l’utilisateur individuel.</td>
-    </tr>
-    <tr>
-    <td>Statut</td>
-    <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé.</td>
-    </tr>
-  </tbody>
-</table>
+   +++Développez pour afficher des informations détaillées sur les filtres disponibles
+   <table>
+     <tbody>
+      <tr>
+      <th>Filtre</th>
+      <th>Description</th>
+      </tr>
+       <tr>
+         <td>Travail en cours</td>
+         <td>Affiche les éléments sur lesquels vous travaillez actuellement</td>
+       </tr>
+       <tr>
+         <td>Démarrage possible</td>
+         <td>Affiche les éléments avec 
+         <ul>
+         <li>Aucune contrainte de tâches ou de prédécesseurs incomplète</li>
+         <p>and</p>
+         <li>La date de début prévue est dans le passé ou peut être dans les deux semaines à venir</li>
+         </ul>
+         </td>
+       </tr>
+       <tr>
+         <td>À préparer</td>
+         <td>Affiche les éléments qui ont
+          <ul>
+         <li>Prédécesseurs incomplets ou contraintes de tâche empêchant le traitement de l'élément</li></ul>
+         <p>ou</p>
+         <ul>
+         <li>La date de début prévue est dans le futur depuis plus de deux semaines</li>
+         </ul>
+          </td>
+       </tr>
+       <tr>
+         <td>Demandé</td>
+         <td>Affiche les problèmes sur lesquels vous n'avez pas encore commencé à travailler</td>
+       </tr>
+       <tr>
+         <td>Terminé</td>
+         <td>Affiche le travail effectué au cours des deux dernières semaines. Cette option de filtre n’inclut pas les validations.</td>
+       </tr>
+       <tr>
+          <td>Projet</td>
+          <td>Affiche les projets contenant des tâches ou des événements qui vous ont été affectés</td>
+       </tr>
+       <tr>
+          <td>Date d’échéance</td>
+          <td>Affiche le travail par date d'achèvement prévue</td>
+       </tr>
+       <tr>
+          <td>Mon focus</td>
+          <td>Affiche les tâches ou les événements auxquels des niveaux de focus ont été affectés. Les niveaux de focus sont attribués et gérés par l’utilisateur individuel.</td>
+       </tr>
+       <tr>
+          <td>Statut</td>
+          <td>Affiche les tâches ou les événements dont le statut est nouveau, en cours ou terminé.</td>
+       </tr>
+     </tbody>
+   </table>
 
-+++
+   +++
 
 1. (Facultatif) Cliquez sur **Retour aux valeurs par défaut** pour réinitialiser votre sélection.
 
@@ -167,9 +163,9 @@ Utilisez le langage naturel pour filtrer rapidement le travail.
 1. Cliquez sur **Regroupement** en haut à gauche de la liste de travail.
 1. Sélectionnez un regroupement pour organiser votre liste de tâches.
 
-![Groupes](assets/groups-new.png)
+![Groupes](assets/groupings-060226.png)
 
-+++Développer pour afficher des informations détaillées sur les groupes disponibles
++++ Développer pour afficher des informations détaillées sur les groupes disponibles
 
 | Groupe | Description |
 |-----------|-------------|
