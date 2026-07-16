@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
@@ -20,6 +20,7 @@ ht-degree: 1%
 >Les informations de cet article font référence à Adobe Workfront Planning, lorsqu’il est acheté en tant que produit autonome. Reportez-vous à cet article lorsque votre société a acheté un package Adobe Workfront Planning uniquement sans acheter de package Workfront Workflow.
 >
 >Pour plus d’informations sur Adobe Workfront Planning lorsqu’il est acheté avec un package Workfront, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 Vous pouvez gérer les utilisateurs dans Adobe Workfront Planning en tant que produit autonome de la même manière que vous les gérez dans Adobe Workfront.
 

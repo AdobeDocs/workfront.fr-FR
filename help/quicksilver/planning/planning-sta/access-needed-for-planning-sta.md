@@ -3,7 +3,7 @@ title: Accès nécessaire pour Adobe Workfront Planning en tant que produit auto
 description: Cet article décrit les licences, les niveaux d'accès et les fonctionnalités utilisateur pour Adobe Workfront Planning en tant que produit autonome.
 last-update: 2026-04-01T18:02:40Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 3%
@@ -11,8 +11,8 @@ ht-degree: 3%
 ---
 
 <!--
-Update metadata with this at release:
 
+Update metadata with this at release:
 ---
 title: Access Required for Planning Standalone
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.

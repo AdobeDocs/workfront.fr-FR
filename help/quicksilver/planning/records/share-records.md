@@ -9,32 +9,27 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ct6I5wnivCVr3V86Zj4F7stm2IVUJVH50yvTRyWFuUA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 40%
+source-wordcount: 677
+ht-degree: 37%
 
 ---
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
-<!--take out preview and production references at release-->
-
 # Partager des enregistrements à l’aide d’un lien
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,31 +41,22 @@ Vous pouvez partager un enregistrement Adobe Workfront Planning de différente
 
 * Copiez un lien vers la page de l’enregistrement lors de l’affichage des enregistrements dans la vue de table du type d’enregistrement.
 
-* Dans l’environnement de production :
+Cet article décrit comment partager des enregistrements en partageant un lien.
 
-   * Vous pouvez partager tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail et le type d’enregistrement.
+En outre, vous pouvez partager des enregistrements des manières suivantes :
 
-     Pour plus d’informations, voir les articles suivants :
+* Partagez tous les enregistrements d’un espace de travail avec d’autres utilisateurs en partageant l’espace de travail et le type d’enregistrement. Par défaut, tous les enregistrements sont également partagés avec les mêmes utilisateurs.
 
-      * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
+  Pour plus d’informations, voir les articles suivants :
 
-      * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
+   * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
+   * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
 
-* Dans l’environnement de Prévisualisation :
+* Vous pouvez partager des enregistrements individuels avec des personnes, des équipes, des rôles, des groupes ou des entreprises en désactivant les autorisations héritées lorsque les enregistrements sont partagés avec des espaces de travail ou des types d&#39;enregistrements.
 
-   * Vous pouvez partager des enregistrements individuels avec des personnes, des équipes, des rôles, des groupes ou des entreprises.
+  Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
 
-     Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
-
-</div>
-
-
-
-<!--take out the sentence below when we release record-level sharing-->
-
-Cet article décrit comment copier un lien vers une page d’enregistrement à partir de la vue Tableau d’un type d’enregistrement.
 
 ## Conditions d’accès
 
@@ -234,8 +220,6 @@ Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espa
 
 Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 ## Partage d’enregistrements individuels
 
 Les utilisateurs héritent par défaut des autorisations d’enregistrement de l’espace de travail et du type d’enregistrement.
@@ -246,5 +230,5 @@ Vous pouvez ajuster en bloc les autorisations pour un enregistrement ou pour plu
 
 Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 

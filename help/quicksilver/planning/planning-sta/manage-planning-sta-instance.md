@@ -4,7 +4,7 @@ description: Cet article décrit comment gérer les préférences et les informa
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: 6aefd5ceb0e650275ae959ce8f31d4e2aea24f63
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 7%
@@ -15,7 +15,9 @@ ht-degree: 7%
 # Gérer votre instance d’Adobe Workfront Planning en tant que produit autonome
 
 <!--
+
 Add to this article the  "Administrator experience" section in this document, after Lilit proof it: https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B0EC828A2-7D86-42B5-B262-C79017BCF02A%7D&file=Without%20pricing_WFP_Standalone_Documentation.docx&action=default&mobileredirect=true
+
 -->
 
 >[!IMPORTANT]
@@ -106,7 +108,7 @@ Nous vous recommandons de configurer vos préférences système au cours de la p
 
 La configuration des préférences système de Workfront Planning est similaire à leur configuration dans Workfront.
 
-Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 
 

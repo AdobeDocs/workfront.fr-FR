@@ -1,5 +1,5 @@
 ---
-source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '2292'
 ht-degree: 61%
@@ -120,7 +120,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
 >
->Si votre organisation a été intégrée à Adobe Admin Console, voir [&#x200B; Différences d’administration entre Adobe Workfront et Adobe Business Platform &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre organisation a été intégrée à Adobe Admin Console, voir [ Différences d’administration entre Adobe Workfront et Adobe Business Platform ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Étape 1 - Accéder à Utilisateurs et utilisatrices {#step-1-to-users}
 
@@ -302,6 +302,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >Pour plus d’informations sur Workfront Planning en tant que produit autonome, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+>
 
 <!--
 Old - before Oct. 15, 2025:
