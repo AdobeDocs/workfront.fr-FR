@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
 TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 6%
 
 ---
@@ -68,7 +63,7 @@ La logique de validation est créée à l’aide de formules et vous pouvez la r
 
 Si le champ avec la logique appliquée remplit les conditions de validation définies lorsqu’un utilisateur remplit le formulaire personnalisé, le champ est mis en surbrillance et le message d’erreur s’affiche.
 
-Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche interne, date, groupe de cases à cocher et boutons radio.
 
 ### Autoriser uniquement le propriétaire du projet à sélectionner le SLA « Précipité »
 
@@ -134,9 +129,9 @@ Si l’utilisateur qui n’est pas le propriétaire du projet tente de saisir du
 
 ![Seule Claire Stevens peut modifier ce champ](assets/only-project-owner-can-edit.png)
 
-### La saisie semi-automatique autorise ou rejette les valeurs en fonction d’autres valeurs de champ
+### La recherche interne autorise ou rejette les valeurs en fonction d’autres valeurs de champ
 
-Dans cet exemple, un champ de saisie semi-automatique autorise ou rejette dynamiquement les valeurs en fonction de la valeur saisie dans un autre champ du formulaire.
+Dans cet exemple, un champ de recherche interne autorise ou rejette dynamiquement les valeurs en fonction de la valeur saisie dans un autre champ du formulaire.
 
 Expression de validation :
 
@@ -146,7 +141,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-Si la valeur du champ Budget est supérieure à 10 000 $, seuls les utilisateurs disposant d’un rôle Directeur peuvent être sélectionnés dans la saisie semi-automatique, même si aucun filtre de rôle n’est activé dans la configuration de saisie semi-automatique.
+Si la valeur du champ Budget est supérieure à 10 000 $, seuls les utilisateurs disposant d’un rôle de directeur peuvent être sélectionnés dans la recherche interne, même si aucun filtre de rôle n’est activé dans la configuration de la recherche interne.
 
 ![Le montant du budget requiert l&#39;approbation du directeur](assets/budget-director.png)
 

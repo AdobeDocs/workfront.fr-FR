@@ -9,22 +9,15 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
-ht-degree: 72%
+source-wordcount: 2721
+ht-degree: 74%
 
 ---
 
@@ -111,7 +104,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -162,11 +155,11 @@ Pour réutiliser un champ personnalisé calculé existant :
     <tbody> 
      <tr> 
       <td role="rowheader">Étiquette</td> 
-      <td>Saisissez le libellé du champ. Voici ce que les personnes verront lorsqu’elles utiliseront le formulaire personnalisé. Le champ <b>Nom</b>, qui se remplit automatiquement, est référencé par Workfront dans les rapports.</td> 
+      <td>Saisissez le libellé du champ. Voici ce que les personnes verront lorsqu’elles utiliseront le formulaire personnalisé. Le champ <b>Nom de l’API</b>, qui est renseigné automatiquement, est référencé par Workfront dans les rapports.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instructions</td> 
-      <td> Par défaut, la formule que vous créez pour le champ est stockée ici. Vous pouvez ajouter du texte pour fournir des informations supplémentaires sur le champ et la formule qu’il contient. Cela peut s’avérer utile de deux manières : 
+      <td> Par défaut, la formule que vous créez pour le champ est stockée ici. Vous pouvez ajouter du texte pour fournir des informations supplémentaires sur le champ et la formule qu’il contient. Cela peut s’avérer utile de deux façons : 
        <ul> 
       <li><p>Pour rappeler ce qu’est la formule et son fonctionnement. Cela s’avère particulièrement utile si vous prévoyez d’utiliser ce champ personnalisé calculé sur plusieurs formulaires.</p> </li> 
       <li> <p>En tant qu’info-bulle qui s’affiche lorsque vous placez la souris sur le champ. Vous ajoutez ici le texte que vous souhaitez que les personnes voient dans l’infobulle.</p> <p>Si vous ne souhaitez pas qu’elles voient la formule dans l’infobulle, ce qui peut les dérouter, vous pouvez la masquer.</li> 
@@ -202,7 +195,7 @@ Pour réutiliser un champ personnalisé calculé existant :
    </table>
 
 1. Dans la boîte **Calcul**, commencez à créer votre calcul :
-   1. Cliquez sur **Agrandir** pour ouvrir l’éditeur de calculs et créer votre calcul.
+   1. Cliquez sur **Maximiser** pour ouvrir l’éditeur de calcul et créer votre calcul.
 Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet.
 
       Chaque champ doit être entouré d’accolades. Lorsque vous commencez à saisir le nom d’un champ, vous pouvez sélectionner l’une des suggestions du système pour l’insérer dans votre calcul.
@@ -325,9 +318,9 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
       > 
       >* Pointez sur une expression dans votre calcul pour afficher une description, un exemple montrant comment elle peut être utilisée et un lien **En savoir plus** vers des informations supplémentaires dans l’article [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Texte d’aide de l’expression](assets/hover-expression-help-text.jpg)
-      >* Utilisez le codage des couleurs pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
+      >* Utilisez les codes de couleurs pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
       >  ![Couleurs des expressions de champ](assets/colors-fields-expressions.jpg)
-      >* Trouvez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur en surbrillance pour afficher une brève description de sa cause.
+      >* Recherchez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
       >  ![Aide d’erreur](assets/error-help.png)
       >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->

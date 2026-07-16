@@ -9,26 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 980
-ht-degree: 51%
+source-wordcount: 967
+ht-degree: 47%
 
 ---
 
 # Partager un formulaire personnalisé
-
-{{preview-fast-release-general}}
 
 Vous pouvez configurer l’accès à un formulaire personnalisé afin de contrôler qui (personne, rôle, groupe, équipe, entreprise, profil d’entreprise) peut l’afficher, le partager et le modifier.
 
@@ -64,9 +57,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Par défaut, lorsqu’un formulaire personnalisé est joint à un objet, tous les utilisateurs et toutes les utilisatrices à qui cet objet est affecté ont la possibilité de l’afficher et de le remplir. Cela inclut les utilisateurs disposant de licences Contributeur ou Requête et les utilisateurs externes.
 
-Cependant, sur un objet pour lequel le formulaire personnalisé n’est pas déjà joint, un utilisateur ou une utilisatrice (même si un niveau d’accès de planification lui a été accordé) ne peut pas le joindre à partir du menu déroulant des formulaires personnalisés, sauf si l’une des conditions suivantes est vraie :
+Toutefois, sur un objet auquel le formulaire personnalisé n’est pas déjà joint, un utilisateur (même s’il dispose d’un niveau d’accès Standard ou Planificateur) ne peut pas le joindre à partir du menu déroulant Forms personnalisé, sauf si l’une des conditions suivantes est vraie :
 
-* <span class="preview">Quelqu&#39;un a partagé le formulaire personnalisé en tant que « Tout le monde dans le système peut afficher et joindre »</span>
+* Quelqu&#39;un a partagé le formulaire personnalisé en tant que « Tout le monde dans le système peut afficher et joindre »
 * Quelqu’un a partagé le formulaire personnalisé avec l’utilisateur ou avec son équipe, fonction, groupe, entreprise ou profil d’entreprise en accordant au moins l’autorisation Afficher avec l’option Joindre aux données personnalisées sélectionnée
 * L’utilisateur dispose d’une licence Standard ou Plan et son niveau d’accès permet un accès administratif aux formulaires personnalisés
 
@@ -180,13 +173,9 @@ Plutôt que de laisser un formulaire personnalisé à l’état de partage par d
    >
    >* Lorsque vous affichez un formulaire personnalisé sur tout le système, vous autorisez uniquement les personnes à le consulter et à le remplir sur les objets auxquels ils sont affectés, et non à le joindre à d’autres objets. Vous pouvez accorder la possibilité de joindre le formulaire personnalisé à des objets à l’aide de l’option « Joindre aux données personnalisées », décrite à l’étape 6.
    >* La plupart des entreprises souhaitent s’assurer que toutes les personnes du système peuvent remplir un formulaire personnalisé lorsqu’il est joint aux objets sur lesquels ils travaillent et afficher ses données dans les rapports. Si votre entreprise est concernée, nous vous recommandons d’utiliser **Visible par tous dans le système**.
-   >* <span class="preview">Si vous sélectionnez **Tout le monde dans le système peut afficher et joindre**, tous les utilisateurs peuvent joindre le formulaire à d’autres objets.</span>
+   >* Si vous sélectionnez **Tout le monde dans le système peut afficher et joindre**, tous les utilisateurs peuvent joindre le formulaire à d’autres objets.
    >
-   ><span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
    >![Partager un formulaire personnalisé](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >Exemple d’image dans l’environnement de production :
-   >![Partager un formulaire personnalisé](assets/share-custom-form-in-designer.png)
    >   
    >Si vous vous inquiétez au sujet d’un formulaire personnalisé dans lequel les utilisateurs peuvent saisir des données sensibles lorsqu’il est joint à certains objets, limiter le partage de ces *objets* peut s’avérer plus efficace que limiter l’accès au formulaire lui-même.
 

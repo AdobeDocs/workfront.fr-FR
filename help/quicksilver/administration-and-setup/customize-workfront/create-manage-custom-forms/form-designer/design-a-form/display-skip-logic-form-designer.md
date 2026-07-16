@@ -9,27 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 3610
+source-wordcount: 3613
 ht-degree: 28%
 
 ---
 
 # Ajout de règles logiques aux formulaires et champs personnalisés
-
-{{highlighted-preview}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -84,7 +76,7 @@ Cliquez sur **Afficher la logique** dans l’en-tête du concepteur de formulair
 | ![Logique de validation du champ de référence](assets/validation-logic-reference-field.png) | Le champ est le champ de référence de la logique de validation. Une sélection ou une valeur spécifique sur ce champ détermine si la validation échoue sur le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de validation. |
 | ![Logique de valeur par défaut pour le champ cible](assets/default-value-logic-icon.png) | Le champ est le champ cible dans lequel la logique de valeur par défaut est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la valeur par défaut. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
 | ![Logique de valeur par défaut pour le champ de référence](assets/default-value-logic-reference-field.png) | Le champ est le champ de référence de la logique de valeur par défaut. Une sélection ou une valeur spécifique dans ce champ détermine la valeur par défaut dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
-| ![Logique de formatage du champ cible &#x200B;](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
+| ![Logique de formatage du champ cible ](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de formatage du champ de référence](assets/formatting-logic-reference-field.png) | Le champ est le champ de référence pour la logique de formatage. Une sélection ou une valeur spécifique dans ce champ détermine la mise en forme dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de modifiabilité du champ cible](assets/editability-logic-icon.png) | Le champ est le champ cible dans lequel la logique d&#39;édition est appliquée. Le champ peut être modifiable ou en lecture seule lorsque les conditions définies sont remplies. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 | ![Logique de modifiabilité du champ de référence](assets/editability-logic-reference-field.png) | Le champ est le champ de référence de la logique d’édition. Lorsque les conditions définies sont remplies sur ce champ, la logique est appliquée au champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
@@ -97,7 +89,8 @@ Pour afficher et ignorer la logique uniquement, sélectionnez un champ pour affi
 
 ## Observations relatives à l’utilisation des logiques d’affichage et de saut
 
-* Pour ajouter une logique d’affichage sur un champ personnalisé, un widget ou un saut de section, il faut placer au moins un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher) avant celui-ci dans le formulaire.Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Pour ajouter une logique d’affichage sur un champ personnalisé, un widget ou un saut de section, il faut placer au moins un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher) avant celui-ci dans le formulaire.
+Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous ne pouvez l’ajouter qu’à un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
 * Vous ne pouvez pas appliquer la logique d’affichage ou d’omission pour afficher ou masquer les choix d’un champ à options multiples. Par exemple, vous ne pouvez pas restreindre les choix qui s’affichent pour un champ Liste déroulante, un groupe de cases à cocher ou un champ de bouton radio, en fonction de la logique d’affichage ou d’omission d’un autre champ.
 * Vous pouvez ajouter une logique d’affichage et une logique de saut à un champ personnalisé si toutes les conditions suivantes sont remplies :
@@ -150,7 +143,7 @@ La logique d’affichage définit les champs personnalisés qui apparaissent dan
 
 ## Ajouter une logique d’affichage avancée à un formulaire personnalisé
 
-La logique d’affichage avancée des champs de formulaire personnalisés vous permet de créer une logique complexe à l’aide de formules. Vous pouvez appliquer cette logique aux types de champ suivants : texte monoligne, paragraphe, texte avec mise en forme, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, référence de champ native, saisie semi-automatique, calculé, date, groupe de cases à cocher et boutons radio.
+La logique d’affichage avancée des champs de formulaire personnalisés vous permet de créer une logique complexe à l’aide de formules. Vous pouvez appliquer cette logique aux types de champ suivants : texte monoligne, paragraphe, texte enrichi, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, référence de champ natif, recherche interne, calculé, date, groupe de cases à cocher et boutons radio.
 
 >[!NOTE]
 >
@@ -239,7 +232,7 @@ La logique de saut définit des champs de formulaire personnalisés qui sont ign
 
 La logique de valeur par défaut vous permet de configurer les valeurs par défaut des champs de formulaire personnalisés à l’aide de formules. La valeur par défaut s’affiche lorsque les conditions définies sont remplies. Une valeur par défaut peut être une valeur statique ou une valeur dynamique qui fait référence à d’autres champs de l’objet . Bien que la valeur par défaut puisse référencer d’autres champs, elle ne change pas à mesure que d’autres champs du formulaire sont modifiés.
 
-Vous pouvez appliquer une logique de valeur par défaut avancée aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, <span class="preview">référence de champ native</span>, saisie semi-automatique, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer une logique de valeur par défaut avancée aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, référence de champ native, recherche interne, groupe de cases à cocher et boutons radio.
 
 >[!TIP]
 >
@@ -249,7 +242,7 @@ Vous pouvez appliquer une logique de valeur par défaut avancée aux types de ch
 >
 >La logique de valeur par défaut standard dans le concepteur de formulaire existe toujours. Si les deux types sont appliqués au même champ, la logique avancée est prioritaire. Pour plus d’informations sur la logique de valeur par défaut standard, consultez [Ajouter des boutons radio, des groupes de cases à cocher et des listes déroulantes](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) dans [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
-><span class="preview">Pour les champs de référence natifs, la logique de valeur par défaut est disponible uniquement dans l’interface utilisateur et non dans l’API Workfront.</span>
+>Pour les champs de référence natifs, la logique de valeur par défaut est disponible uniquement dans l’interface utilisateur et non dans l’API Workfront.
 
 ### Exemple
 
@@ -289,7 +282,7 @@ La logique de validation est créée à l’aide de formules et vous pouvez la r
 
 Si le champ avec la logique appliquée remplit les conditions de validation définies lorsqu’un utilisateur remplit le formulaire personnalisé, le champ est mis en surbrillance et le message d’erreur s’affiche.
 
-Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer la logique de validation aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, recherche interne, date, groupe de cases à cocher et boutons radio.
 
 ### Exemples
 
@@ -336,7 +329,7 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
 
 La logique de formatage met en surbrillance une valeur de champ lorsqu’elle remplit les conditions définies. La mise en forme appliquée fonctionne sur plusieurs champs à la fois.
 
-Vous pouvez appliquer une logique de mise en forme aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, saisie semi-automatique, calculé, date, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer une logique de mise en forme aux types de champ suivants : texte monoligne, paragraphe, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, recherche interne, calculé, date, groupe de cases à cocher et boutons radio.
 
 La mise en forme appliquée aux formulaires personnalisés est différente de celle appliquée aux listes et aux rapports. Pour plus d&#39;informations sur le formatage des rapports, voir [Utiliser le formatage conditionnel dans les vues](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -399,7 +392,7 @@ IF(
 
 La logique de modifiabilité détermine si un champ de formulaire personnalisé peut être modifié ou s’il est en lecture seule. Cette logique est générée à l’aide de formules. Lorsque le champ remplit les conditions définies, il peut être défini comme modifiable ou en lecture seule.
 
-Vous pouvez appliquer une logique d’édition aux types de champs suivants : texte monoligne, paragraphe, texte avec mise en forme, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, saisie semi-automatique, date, groupe de cases à cocher et boutons radio.
+Vous pouvez appliquer une logique d’édition aux types de champs suivants : texte monoligne, paragraphe, texte enrichi, liste déroulante à sélection unique, liste déroulante à sélection multiple, recherche externe, recherche externe à sélection multiple, recherche interne, date, groupe de cases à cocher et boutons radio.
 
 ### Exemple
 

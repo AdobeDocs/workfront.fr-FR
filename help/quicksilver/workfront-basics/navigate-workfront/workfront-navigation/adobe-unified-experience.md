@@ -7,15 +7,11 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
 workflow-type: tm+mt
 source-wordcount: 697
 ht-degree: 57%
@@ -56,7 +52,7 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 
 L’instance d’[!DNL Workfront] de votre organisation doit être intégrée à l’[!DNL Adobe Business Platform] ou à l’[!DNL Adobe Admin Console].
 
-Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir les [[!DNL Adobe Unified Experience] Questions fréquentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir les [[!DNL Adobe Unified Experience] Questions fréquentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 ## Adobe Identity Management System (IMS)
 
@@ -130,6 +126,6 @@ Si votre organisation utilise une application distincte pour gérer les mots de 
 
 Si votre mot de passe est géré par [!DNL Adobe], vous pouvez modifier le mot de passe de votre compte Adobe.
 
-[Consultez cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/fr/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Consultez cet article pour modifier votre mot de passe Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Pour plus d’informations sur la modification de votre mot de passe, contactez votre administrateur ou administratrice.

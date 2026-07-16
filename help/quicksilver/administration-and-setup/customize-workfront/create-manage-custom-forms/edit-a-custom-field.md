@@ -3,27 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Ajouter ou modifier un champ personnalisé, un saut de section ou un widget
-description: Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans un formulaire personnalisé dans votre instance Adobe Workfront. Il s’agit notamment du libellé, du nom, des instructions de l’élément, etc.
+description: Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans un formulaire personnalisé dans votre instance Adobe Workfront.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 TQID: https://experienceleague.adobe.com/ShPo7xQopsQS5j61ofqDw1UUohRdtzgxCmzm1KrFuYg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 63%
+source-wordcount: 400
+ht-degree: 59%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 63%
 
 Vous pouvez ajouter un nouveau champ personnalisé ou widget directement à partir de la zone Champs dans Workfront, sans ouvrir de formulaire personnalisé pour créer le champ.
 
-Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans des formulaires personnalisés. Il s’agit notamment du libellé, du nom, des instructions de l’élément, etc.
+Vous pouvez modifier les propriétés d’un champ personnalisé, d’un saut de section ou d’un widget utilisé dans des formulaires personnalisés. Il s’agit notamment du libellé de l’élément, du nom de l’API, des instructions, etc.
 
 La définition d’un champ personnalisé sur Inactif l’exclut des rapports, filtres et affichages, et le champ n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés. Tous les nouveaux champs sont définis sur Actif par défaut.
 
