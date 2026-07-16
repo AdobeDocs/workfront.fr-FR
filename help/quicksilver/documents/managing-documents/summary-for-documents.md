@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 41%
@@ -29,8 +29,6 @@ ht-degree: 41%
 ---
 
 # Résumé de la vue d’ensemble des documents
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouve
 
 ### Détails
 
-Utilisez la section Détails pour afficher des informations générales, interagir avec des formulaires personnalisés et <span class="preview">ouvrir le résumé d’impression</span>.
+Utilisez la section Détails pour afficher des informations de présentation générales, interagir avec des formulaires personnalisés et ouvrir le résumé d’impression.
 
 ![Détails du résumé du document dans la nouvelle expérience des documents](assets/summary-details.png)
 

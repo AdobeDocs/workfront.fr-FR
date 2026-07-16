@@ -18,16 +18,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3142
 ht-degree: 2%
 
 ---
 
 # Utiliser les listes améliorées
-
-{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -101,21 +99,17 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    * Devise : vous devez saisir les informations sous la forme d&#39;un nombre précédé d&#39;un symbole de devise.
    * Date : utilisez le calendrier pour sélectionner une date.
    * Date et heure : utilisez le calendrier pour sélectionner une date et une heure.
-   * Liste déroulante à sélection unique ou multiple : sélectionnez une ou plusieurs options dans un menu déroulant. <span class="preview">Si une liste est prise en charge, vous pouvez créer de nouvelles options directement à partir de la liste déroulante lorsqu’aucun résultat n’est trouvé.</span>
+   * Liste déroulante à sélection unique ou multiple : sélectionnez une ou plusieurs options dans un menu déroulant. Si elle est prise en charge sur une liste, vous pouvez créer de nouvelles options directement à partir de la liste déroulante lorsqu’aucun résultat n’est trouvé.
    * Saisie semi-automatique : saisissez le nom d’un objet existant (par exemple, le nom d’un groupe ou d’un projet) et choisissez le nom dans la liste de suggestions.
    * Paragraphe : vous pouvez saisir plusieurs lignes d’informations alphanumériques.
    * Personne désignée (une ou plusieurs) : sélectionnez un ou plusieurs utilisateurs en tant que personne désignée pour l’élément de liste.
    * Sélecteur de couleurs : sélectionnez une couleur dans le sélecteur ou saisissez un code tel qu’un code hexadécimal ou RGB.
-
-   <div class="preview">
 
    Les champs déroulants Désignation, Sélection unique et Sélection multiple prennent en charge les commandes clavier suivantes :
 
    * Utilisez les flèches vers le haut et vers le bas de votre clavier pour vous déplacer dans la liste des éléments.
    * Appuyez sur la barre d’espace pour sélectionner un élément.
    * Appuyez sur la touche Supprimer pour supprimer un élément sélectionné.
-
-   </div>
 
    >[!NOTE]
    >

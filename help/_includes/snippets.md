@@ -1,8 +1,8 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 63%
+source-wordcount: '2292'
+ht-degree: 61%
 
 ---
 # Extraits de code
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Étape 1 - Accéder à Configuration {#step-1-to-setup}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Concepteur de formulaire vers GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 
 ## Étape 1 - Accéder à Utilisateurs et utilisatrices {#step-1-to-users}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Utilisateurs]** ![Icône Utilisateurs](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Utilisateurs]** ![Icône Utilisateurs](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
+>Les informations de cet article font référence à Adobe Workfront Planning que votre entreprise peut acheter en tant que package Adobe Workfront ou produit autonome.
 >
->Pour obtenir la liste des conditions requises pour accéder à Workfront Planning, consultez [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
-> 
+>Toutes les fonctionnalités incluses dans le package Planning ne sont pas disponibles pour Workfront Planning lorsqu’il est acheté en tant que produit autonome.
+>
 >Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>Pour plus d’informations sur Workfront Planning en tant que produit autonome, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 <!--
 Old - before Oct. 15, 2025:
@@ -475,8 +477,8 @@ Pour associer des utilisateurs et des utilisatrices à une équipe d’accueil 
 1. Dans la section **[!UICONTROL Organisation]**, sélectionnez le champ **[!UICONTROL Équipe principale]**. Commencez à taper le nom de l’équipe dont vous souhaitez associer les paramètres aux utilisateurs et utilisatrices. Cliquez sur le nom de l’équipe lorsque vous le voyez dans la liste.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
-Les utilisateurs que vous avez sélectionnés sont désormais associés à une équipe interne.
-Tous les paramètres d’équipe, y compris les statuts associés au bouton Terminé, sont désormais visibles par ces utilisateurs.
+Les personnes que vous avez sélectionnées sont maintenant associées à une équipe interne.
+Tous les paramètres de l’équipe, y compris les statuts associés au bouton Terminé, sont désormais visibles par ces utilisateurs et utilisatrices.
 
 <!-- Timesheets -->
 

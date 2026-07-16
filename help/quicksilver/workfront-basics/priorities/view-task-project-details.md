@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
+source-git-commit: 7a657f3e0e6ee302e30e8bc9a61b1a3b0bab5ae9
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 21%
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Ajouter un fichier
    * Accéder directement au projet
 
-   ![détails du projet &#x200B;](assets/project-details-new.png)
+   ![détails du projet &#x200B;](assets/project-details-060226.png)
 
 ### Afficher les détails de la tâche
 
@@ -99,8 +99,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Ajouter un fichier
    * Ajout de liens rapides
 
-
-   ![&#x200B; détails de la tâche &#x200B;](assets/task-details-new.png)
+   ![&#x200B; détails de la tâche &#x200B;](assets/task-details-060226.png)
 
 ### Afficher les détails de l&#39;événement
 
@@ -117,7 +116,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
       * Ajouter un fichier
       * Ajout de liens rapides
 
-   ![détails de l&#39;événement](assets/issue-details.png)
+   ![détails de l&#39;événement](assets/issue-details-060226.png)
 
 ## Afficher les détails sur la page Détails
 

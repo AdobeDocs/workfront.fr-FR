@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 523
 ht-degree: 17%
 
 ---
@@ -82,7 +82,9 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 {{step1-to-priorities}}
 
 1. Cliquez sur l’icône **Calendrier** en haut de la liste de travail.
+
    ![icône de calendrier](assets/calendar-tab.png)
+
 1. Sélectionnez un ou plusieurs filtres pour affiner vos éléments de travail.
 
    +++Développez pour afficher des informations détaillées sur les filtres disponibles
@@ -162,7 +164,9 @@ Priorités affiche les éléments de travail qui vous sont affectés. Vous ne po
 {{step1-to-priorities}}
 
 1. Cliquez sur l’icône **Calendrier** en haut de la liste de travail.
+
    ![icône de calendrier](assets/calendar-tab.png)
+
 1. Cliquez sur l’icône **Paramètres** dans le coin droit du calendrier.
 
 1. Dans l’onglet **Style de barre**, choisissez jusqu’à 5 champs à afficher dans la barre d’éléments de travail du calendrier.

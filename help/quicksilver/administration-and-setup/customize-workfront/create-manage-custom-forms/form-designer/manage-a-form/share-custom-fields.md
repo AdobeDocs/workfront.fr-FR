@@ -3,7 +3,7 @@ title: Configuration du partage de champs et de widgets personnalisés
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Par défaut, lorsque vous ajoutez un nouveau champ personnalisé ou widget à un formulaire personnalisé, toute personne dans le système ayant accès aux formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom. Vous pouvez modifier ce paramètre en contrôlant avec qui l’information peut être partagée.
+description: Par défaut, lorsque vous ajoutez un nouveau champ personnalisé ou widget à un formulaire personnalisé, toute personne du système ayant accès aux formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom d’API. Vous pouvez modifier ce paramètre en contrôlant avec qui l’information peut être partagée.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -19,16 +19,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 53%
+source-wordcount: 746
+ht-degree: 43%
 
 ---
 
 # Configuration du partage de champs et de widgets personnalisés
 
-Par défaut, lorsque vous ajoutez un nouveau champ personnalisé ou widget à un formulaire personnalisé, toute personne dans le système ayant accès aux formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom. Vous pouvez modifier ce paramètre en contrôlant avec qui l’information peut être partagée.
+Par défaut, lorsque vous ajoutez un nouveau champ personnalisé ou widget à un formulaire personnalisé, toute personne du système ayant accès aux formulaires personnalisés peut modifier les propriétés de cet élément, telles que son libellé et son nom d’API. Vous pouvez modifier ce paramètre en contrôlant avec qui l’information peut être partagée.
 
 Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

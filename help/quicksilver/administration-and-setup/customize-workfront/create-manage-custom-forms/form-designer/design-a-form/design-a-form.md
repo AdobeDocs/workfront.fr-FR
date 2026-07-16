@@ -24,18 +24,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 8296
-ht-degree: 86%
+source-wordcount: 7956
+ht-degree: 78%
 
 ---
 
 # Créer un formulaire personnalisé
 
 <!-- Audited: 6/2025 -->
-
-{{preview-fast-release-general}}
 
 Vous pouvez concevoir un formulaire personnalisé à l’aide du concepteur de formulaires dans Adobe Workfront. Vous pouvez joindre des formulaires personnalisés à différents objets Workfront pour capturer des données en rapport avec ces objets.
 
@@ -77,7 +75,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Nouveau formulaire personnalisé**.
 1. Sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 
-   ![Choisir les types d’objets](assets/new-custom-form-select-objects-032526.png)
+   ![Choisir les types d’objets](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ Développez pour afficher la liste des objets qui prennent en charge les formulaires personnalisés.
 
@@ -119,7 +117,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * [Ajouter des champs de texte](#add-text-fields)
    * [Ajouter des champs calculés](#add-calculated-fields)
    * [Ajouter des cases d’option, des groupes de cases à cocher et des listes déroulantes](#add-radio-buttons-checkbox-groups-and-drop-downs)
-   * [Ajouter des champs de frappe continue et des champs de date](#add-typeahead-and-date-fields)
+   * [Ajouter des champs de date](#add-date-fields)
    * [Ajouter des champs de recherche externes](#add-external-lookup-fields)
    * [Ajouter des images, des fichiers PDF et des vidéos](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
@@ -163,7 +161,7 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas 
   >
   >Évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports.
 
-* Un nom d’API est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom / <span class="preview">Nom de l’API</span> est automatiquement renseigné pour le correspondre. Les champs Libellé et Nom / <span class="preview">Nom de l’API</span> ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.
+* Un nom d’API est requis pour chaque champ. Ce nom est la manière dont le système identifie le champ personnalisé lorsque vous l’ajoutez à différentes zones dans Workfront, telles que les rapports, l’accueil et les interactions avec l’API. Lorsque vous configurez le champ ou le widget pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.
 
 * Chaque nom d’API de champ personnalisé doit être unique dans l’instance Workfront de votre organisation. Ainsi, vous pouvez réutiliser un nom de champ déjà créé pour un autre formulaire personnalisé.
 
@@ -171,7 +169,7 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas 
 
   Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ultérieurement son nom d’API, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à ce moment-là, sauf si vous le rajoutez au rapport avec le nouveau nom.
 
-* <span class="preview">Par défaut, les noms d’API sont en lecture seule. Pour rendre le nom de l’API modifiable, cliquez sur l’icône **Modifier** en regard du **Nom de l’API**. Saisissez ensuite **confirmer** dans la zone de confirmation, puis cliquez sur **Renommer le champ**. </span>
+* Par défaut, les noms d’API sont en lecture seule. Pour rendre le nom de l’API modifiable, cliquez sur l’icône **Modifier** en regard du **Nom de l’API**. Ensuite, saisissez **confirmer** dans la zone de confirmation, puis cliquez sur **Renommer le champ**.
 
 * Nous vous recommandons de ne pas saisir un nom d’API déjà utilisé pour les champs Workfront intégrés.
 
@@ -199,19 +197,21 @@ Vous pouvez ajouter plusieurs champs de texte différents à un formulaire perso
 
 * **Champ de texte à ligne simple** : permet aux personnes de saisir une seule ligne de texte dans le champ.
 * **Champ de paragraphe** : permet de saisir plusieurs lignes de texte dans le champ.
-* <span class="preview">**Texte enrichi** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte avec du gras, de l’italique, du soulignement, des puces, de la numérotation, des indices et des exposants, des liens hypertexte, des guillemets, des en-têtes et des tableaux. Une limite de caractères de 15 000 caractères offre un grand espace pour le texte et la mise en forme.</span>
-
-  <span class="preview">Le type de champ Texte enrichi remplace le texte par un type de champ de mise en forme. Vous pouvez rapidement convertir du texte existant avec des champs de mise en forme en texte enrichi en cliquant sur le bouton **Convertir en texte enrichi** dans les options de champ à droite.</span>
-
-* **Champ de texte avec mise en forme** : permet de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte (gras, italique, souligné, puces, numérotation, liens hypertexte et guillemets). La limite de 15 000 caractères permet d’utiliser du texte et des mises en forme variés.
-
-  Ce type de champ personnalisé n’est pas pris en charge dans les filtres sur les listes et les rapports.
-
-  Pour plus d’informations sur l’accès à ce champ par le biais de l’API, voir [Stockage de champs de texte enrichi dans l’API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+* **Texte enrichi** : permet aux utilisateurs de saisir plusieurs lignes de texte dans le champ et de mettre en forme le texte avec du gras, de l’italique, du soulignement, des puces, de la numérotation, des indices et des exposants, des liens hypertexte, des guillemets, des en-têtes et des tableaux. Une limite de caractères de 15 000 caractères offre un grand espace pour le texte et la mise en forme.
 
   >[!NOTE]
   >
-  >Les champs de texte avec mise en forme ne sont pas disponibles pour les applications mobiles Workfront (disponibilité dans les prochaines versions).
+  >Le type de champ Texte enrichi remplace le texte par un type de champ de mise en forme. Vous pouvez rapidement convertir du texte existant avec des champs de mise en forme en texte enrichi en cliquant sur le bouton **Convertir en texte enrichi** dans les options de champ à droite.
+
+<!--
+
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+
+-->
 
 * **Texte descriptif** : vous permet d’inclure des instructions et des liens vers des pages extérieures à Workfront.
 
@@ -223,9 +223,9 @@ Pour ajouter un champ de texte, procédez comme suit :
 
    * Texte sur une seule ligne
    * Paragraphe
-   * <span class="preview">Texte enrichi</span>
-   * Texte avec formatage
+   * Texte enrichi
    * Texte descriptif
+     <!--Text with formatting-->
 
    ![Faire glisser un champ vers une section](assets/drag-field-to-section.png)
 
@@ -244,8 +244,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
-    <li><span class="preview">Texte enrichi</span></li>
-    <li>Texte avec formatage</li>
+    <li>Texte enrichi</li>
     <li>Texte descriptif</li>
     </ul></td>
     </tr>
@@ -256,31 +255,30 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
-    <li><span class="preview">Texte enrichi</span></li>
-    <li>Texte avec formatage</li>
+    <li>Texte enrichi</li>
     </ul></td>
     </tr>
     <tr>
-     <td>Nom</td>
-    <td><p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
+     <td>Nom d’API</td>
+    <td><p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Remarques sur les noms et les libellés des champs</a>.</p>
     </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
-    <li><span class="preview">Texte enrichi</span></li>
-    <li>Texte avec formatage</li>
+    <li>Texte enrichi</li>
     <li>Texte descriptif</li>
     </ul></td>
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.</td>
+    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.
+    <img src="assets/instructions-form-designer.png">
+    </td>
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
-    <li><span class="preview">Texte enrichi</span></li>
-    <li>Texte avec formatage</li>
+    <li>Texte enrichi</li>
     </ul></td>
     </tr>
     <tr>
@@ -331,8 +329,7 @@ Pour ajouter un champ de texte, procédez comme suit :
      <td><ul>
      <li>Texte sur une seule ligne</li>
      <li>Paragraphe</li>
-     <li><span class="preview">Texte enrichi</span></li>
-     <li>Texte avec formatage</li>
+     <li>Texte enrichi</li>
      <li>Texte descriptif</li></ul></td>
     </tr>
     <tr> 
@@ -341,8 +338,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul>
     <li>Texte sur une seule ligne</li>
     <li>Paragraphe</li>
-    <li><span class="preview">Texte enrichi</span></li>
-    <li>Texte avec formatage</li>
+    <li>Texte enrichi</li>
     </ul></td> 
     </tr> 
    </table>
@@ -415,8 +411,8 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">Nom</td> 
-     <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> 
+    <td role="rowheader">Nom d’API</td> 
+     <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> 
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td>
      <td><ul>
     <li>Boutons radio</li>
@@ -540,125 +536,186 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
 
    Cliquez sur **Enregistrer et fermer**.
 
-### Ajouter des champs typeahead et des champs de date
+<!--
 
-Vous pouvez ajouter des champs de saisie semi-automatique et de date à un formulaire personnalisé.
+### Add typeahead and date fields
 
-+++ Développez pour afficher les descriptions des champs disponibles.
+ You can add typeahead and date fields to a custom form.
 
-* **Saisie semi-automatique** : permet aux utilisateurs et utilisatrices de saisir le nom d’un objet qui existe dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte. Ce type de champ prend en charge les objets suivants :
-   * l’utilisateur ou de l’utilisatrice
-   * Groupe
-   * Fonction
-   * Portfolio
-   * Programme
-   * Projet
-   * Equipe
-   * Modèle
-   * Entreprise
-* **Date** : affiche un calendrier permettant de sélectionner une date et une heure.
++++ Expand to see descriptions of available fields.
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
-Pour ajouter des champs de saisie semi-automatique et de date :
+To add typeahead and date fields:
 
-1. Dans l’onglet **Nouveau champ** de la partie gauche de l’écran, recherchez l’un des champs suivants et faites-le glisser vers une section de la zone de travail.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
-   * Saisie semi-automatique
-   * Date
+    * Typeahead
+    * Date
 
-   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
-1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
+1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
-   <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <tbody> 
      <tr>
-    <td>Paramètre du champ</td>
+    <td>Field setting</td>
     <td>Description</td>
-    <td>Disponible pour </td>
+    <td>Available for </td>
     </tr>
      <tr> 
-      <td role="rowheader">Étiquette</td> 
-      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
-    <li>Saisie semi-automatique</li>
+    <li>Typeahead</li>
     <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> 
-      <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td>
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
-    <li>Saisie semi-automatique</li>
+    <li>Typeahead</li>
     <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.</p> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
-    <li>Saisie semi-automatique</li>
+    <li>Typeahead</li>
     <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Afficher l'heure</td> 
-      <td>Sélectionnez cette option si vous souhaitez afficher l’heure et la date du jour dans le champ.</td> 
+      <td role="rowheader">Display Time of Day</td> 
+      <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
     <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Type d'objet référencé</td> 
-      <td> <p>Sélectionnez le type d’objet à associer au champ.</p> <p>Une fois que vous avez cliqué sur <b>Appliquer</b> ou sur <b>Enregistrer et fermer</b>, vous ne pouvez plus modifier le type d’objet du champ.</p> <p><b>Note</b> :   
+      <td role="rowheader">Referenced Object Type</td> 
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>Si votre administrateur ou administratrice Workfront a personnalisé le nom des portfolios, programmes ou projets dans l’interface d’utilisation de Workfront, le nom par défaut de l’objet s’affiche dans cette liste déroulante et non dans le nom personnalisé. Contactez l’administration Workfront si vous avez besoin d’aide.<br></li> 
-         <li>Les types d’objets suivants sont pris en charge dans les applications mobiles iOS et Android Workfront : « Utilisateur ou utilisatrice », « Société », « Groupe », « Fonction », « Portfolio », « Programme », « Projet » et « Modèle ».</li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>Saisie semi-automatique</li>
+    <li>Typeahead</li>
     </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">Ajout d’un filtre</td>
-      <td><p>Ajoutez un filtre pour un type d’objet afin de limiter les objets que les personnes peuvent sélectionner lorsqu’elles utilisent le champ. </p> <p>Par exemple, vous pouvez limiter un champ afin que les noms d’utilisateurs ou d’utilisatrices ne puissent être sélectionnés que s’ils répondent aux critères suivants :</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>Ils appartiennent à un ou plusieurs groupes que vous spécifiez.</li> 
-        <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
-        <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>Vous devez définir le filtre correspondant au type d’objet sélectionné à l’aide de la syntaxe mode texte. Pour plus d’informations sur la création d’un filtre à l’aide du mode texte, consultez la section <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre à l’aide du mode texte</a>.</p>
-       <p><b>Conseil :</b> vous pouvez créer un rapport pour tester le filtre avant de l’ajouter directement au champ de saisie semi-automatique. Cela vous permet de vérifier que le filtre renvoie les bons objets. Vous pouvez ensuite passer en mode texte dans le rapport, copier l’instruction de mode texte et l’ajouter au filtre de saisie semi-automatique.</p>
-       <p><b>Note</b> :
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the typeahead field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the typeahead filter.</p>
+       <p><b>Note</b>:
        <ul> 
-        <li>L’ajout d’un filtre à un champ de saisie semi-automatique lors de la modification d’un formulaire personnalisé ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs ou les utilisatrices à l’aide du champ.</li> 
-        <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ de saisie semi-automatique, il apparaîtra sur les appareils mobiles des utilisateurs et utilisatrices que le filtre ne concerne pas.</li> 
+        <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p>
       </td>  
       <td>
        <ul>
-       <li>Saisie semi-automatique</li>
+       <li>Typeahead</li>
        </ul>
       </td>
      </tr>
      <tr>
-      <td>Actif</td>
-      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
       <td><ul>
-      <li>Saisie semi-automatique</li>
+      <li>Typeahead</li>
       <li>Date</li></ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Créer un champ obligatoire</td> 
-      <td>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé. </td> 
+      <td role="rowheader">Make a required field</td> 
+      <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
-    <li>Saisie semi-automatique</li>
+    <li>Typeahead</li>
     <li>Date</li>
     </ul></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**.
+
+-->
+
+### Ajouter des champs de date
+
+Un champ de date affiche un calendrier dans lequel les utilisateurs peuvent sélectionner une date et une heure.
+
+Pour ajouter des champs de date :
+
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez **Date** et faites-la glisser vers une section de la zone de travail.
+
+   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
+
+1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Étiquette</td> 
+      <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nom d’API</td> 
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Saisissez des informations supplémentaires sur le champ personnalisé. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Afficher l'heure</td>
+      <td><p>Sélectionnez cette option si vous souhaitez afficher l’heure et la date du jour dans le champ.</p></td>
+     </tr> 
+     <tr>
+      <td>Actif</td>
+      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Créer un champ obligatoire</td>
+      <td><p>Sélectionnez cette option si vous souhaitez que le champ soit obligatoire pour que l’utilisateur ou l’utilisatrice puisse remplir le formulaire personnalisé.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -701,8 +758,8 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <td role="rowheader">Nom d’API</td> 
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Toutefois, les champs Libellé et Nom de l’API ne sont pas synchronisés, ce qui vous permet de modifier le libellé visible par vos utilisateurs sans avoir à modifier le nom visible par le système.</p>
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
@@ -748,14 +805,15 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Chemin JSON</td>
-      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :
+      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
       &lbrace;
        data : &lbrace;
          { name : « USA »},
          { name : « Canada »}
        &rbrace;
-      &rbrace;</pre>
+      &rbrace;
+      </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,7 +852,7 @@ Pour ajouter une recherche externe, procédez comme suit :
 >* Durée d’attente entre les reprises : 500 ms
 >* Statuts de la réponse attendue : 2xx
 
-<div class="preview">
+
 
 ### Ajouter des champs de recherche interne
 
@@ -828,8 +886,8 @@ Pour ajouter une recherche interne :
       <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ personnalisé. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Mais les champs Libellé et Nom ne sont pas synchronisés, ce qui vous donne la possibilité de modifier le libellé que vos utilisateurs et utilisatrices voient sans avoir à modifier le nom que le système voit.</p>
+      <td role="rowheader">Nom d’API</td> 
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Toutefois, les champs Libellé et Nom de l’API ne sont pas synchronisés, ce qui vous permet de modifier le libellé visible par vos utilisateurs sans avoir à modifier le nom visible par le système.</p>
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
@@ -881,8 +939,6 @@ Pour ajouter une recherche interne :
 
    Cliquez sur **Enregistrer et fermer**.
 
-</div>
-
 ### Ajouter des images, des fichiers PDF et des vidéos
 
 Vous pouvez ajouter des images, des fichiers PDF et des vidéos à un formulaire personnalisé. Les personnes qui travaillent avec l’objet auquel le formulaire personnalisé est attaché ne peuvent voir l’image, le PDF ou la vidéo que dans les zones suivantes :
@@ -932,8 +988,8 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
       <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
+      <td role="rowheader">Nom d’API</td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p> <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -998,70 +1054,65 @@ Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisé
 
 +++ Développez pour afficher la liste des champs natifs pris en charge.
 
-Ce tableau répertorie les champs natifs disponibles pour des objets Workfront spécifiques dans un formulaire personnalisé.
+Cette liste affiche les champs natifs disponibles pour les formulaires personnalisés et les types d’objets sur lesquels vous pouvez utiliser chaque champ.
 
-| Nom du champ | Projet | Tâche | Problème | Modèle | Tâche de modèle | Portfolio | Programme | Groupe |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| </span> <span class="preview"> avantages réels | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
-| Date d&#39;achèvement effective | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Durée effective | ✓ |   |   |   |   |   |   |   |
-| Heures effectives | ✓ |   | ✓ |   |   |   |   |   |
-| Date de début effective | ✓ | ✓ | ✓ |   |   |   |   |   |
-| </span> du budget <span class="preview"> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
-| Entreprise | ✓ |   |   | ✓ |   |   |   |   |
-| Condition | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Type de condition | ✓ |   |   | ✓ |   |   |   |   |
-| </span> de devise <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| Description | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Durée |   | ✓ |   |   | ✓ |   |   |   |
-| Type de durée |   | ✓ |   |   | ✓ |   |   |   |
-| Unité de durée |   | ✓ |   |   | ✓ |   |   |   |
-| Saisi par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Date de saisie | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| </span> de date du taux de change <span class="preview"> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
-| </span> de coût fixe <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| </span> de revenu fixe <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| Groupe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Dernière mise à jour par | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Date de la dernière mise à jour | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Nom | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Propriétaire | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| </span> de la méthode d’indice de performance <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| </span> des avantages prévus <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| Date d’achèvement prévue | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Durée prévue | ✓ |   |   | ✓ |   |   |   |   |
-| Heures prévues | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Date de début prévue | ✓ |   |   |   |   |   |   |   |
-| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
-| Priorité | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Programme | ✓ |   |   | ✓ |   |   |   |   |
-| Date d’achèvement prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
-| Durée prévisionnelle en minutes |   | ✓ |   |   |   |   |   |   |
-| Date de début prévisionnelle | ✓ | ✓ |   |   |   |   |   |   |
-| Numéro de référence | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Mode horaire | ✓ |   |   | ✓ |   |   |   |   |
-| Gravité |   |   | ✓ |   |   |   |   |   |
-| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
-| Statut | ✓ | ✓ |   |   |   |   |   |   |
-| Points de l’histoire |   | ✓ |   |   |   |   |   |   |
-| Modèle | ✓ |   |   |   |   |   |   |   |
-| <span class="preview"> Coûts estimés totaux </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> total des revenus estimés </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
-
-{style="table-layout:auto"}
-
-<div class="preview">
-
-Ces types d’objets de formulaire personnalisés supplémentaires prennent également en charge les références de champ natives.
-
-* Enregistrement de facturation : champ Revenu fixe
-* Document : champs Nom et Description.
-* Société : Nom, Champs du groupe
-* Carte tarifaire : nom, description, entreprise, champs de groupe
-* Fonction : nom, champs de description
-
-</div>
+* **Bénéfice réel** : Projet
+* **Date D&#39;Achèvement Effective** : Projet, Tâche, Événement
+* **Coût Réel** : Projet, Tâche, Événement
+* **Durée effective** : projet, tâche
+* **Heures réelles** : projet, tâche, événement
+* **Date de début effective** : projet, tâche, événement
+* **Budget** : Projet, Modèle, Portfolio
+* **Date d&#39;engagement** : tâche, événement
+* **Société** : Projet, Modèle, Carte tarifaire
+* **Condition** : Projet, Tâche, Événement
+* **Type de condition** : projet, modèle
+* **Émetteur de l&#39;événement converti** : projet
+* **Devise** : Projet, Modèle
+* **Description** : Projet, Tâche, Événement, Modèle, Tâche De Modèle, Portfolio, Programme, Groupe, Document, Carte Tarifaire, Fonction
+* **Durée** : tâche, tâche de modèle
+* **Type de durée** : tâche, tâche de modèle
+* **Unité de durée** : tâche, tâche de modèle
+* **Entré Par** : Projet, Tâche, Événement, Modèle, Tâche De Modèle, Groupe
+* **Date De Saisie** : Projet, Tâche, Événement, Modèle, Tâche De Modèle, Groupe
+* **Date du taux de change** : Projet
+* **Coût Fixe** : Projet, Modèle
+* **Revenu fixe** : projet, modèle, enregistrement de facturation
+* **Groupe** : Projet, Modèle, Portfolio, Programme, Entreprise, Carte tarifaire
+* **Type d&#39;événement** : événement
+* **Itération** : tâche
+* **Dernière Mise À Jour Par** : Projet, Tâche, Événement, Modèle, Modèle De Tâche
+* **Date De La Dernière Mise À Jour** : Projet, Tâche, Événement, Modèle, Modèle De Tâche
+* **Nom** : Projet, Tâche, Événement, Modèle, Tâche de modèle, Portfolio, Programme, Groupe, Document, Entreprise, Carte tarifaire, Fonction
+* **Propriétaire** : Projet, Modèle, Portfolio, Programme
+* **Méthode d&#39;indice de performance** : projet, modèle
+* **Bénéfice prévu** : projet, modèle
+* **Date D&#39;Achèvement Prévue** : Projet, Tâche, Événement
+* **Durée prévue** : projet, modèle
+* **Heures planifiées** : projet, tâche, événement, modèle de tâche
+* **Date De Début Prévue** : Projet, Tâche, Événement
+* **&#x200B;**&#x200B;: Projet, Modèle, Programme
+* **Priorité** : Projet, Tâche, Événement, Modèle, Tâche De Modèle
+* **Programme** : Projet, Modèle
+* **Date d&#39;achèvement prévisionnelle** : projet, tâche
+* **Durée prévisionnelle en minutes** : tâche
+* **Date de début prévue** : projet, tâche
+* **Rubrique de file d&#39;attente** : problème
+* **Préparation** : tâche
+* **Numéro De Référence** : Projet, Tâche, Événement, Modèle, Modèle De Tâche
+* **Gestionnaire des ressources** : Projet
+* **Mode Planification** : Projet, Modèle
+* **Gravité** : problème
+* **Sponsor** : Projet, Modèle
+* **Statut** : Projet, Tâche, Événement
+* **Points de l&#39;histoire** : tâche
+* **Contrainte de tâche** : tâche
+* **Modèle** : Projet
+* **Résolution** : Projet, Tâche
+* **Coût Total Estimé** : Projet, Modèle
+* **Total des revenus estimés** : projet, modèle
+* **URL** : projet, tâche, événement, modèle, tâche de modèle
+* **Effort de travail** : tâche
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1087,8 +1138,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du champ. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td>
-      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
+      <td role="rowheader">Nom d’API</td>
+      <td> <p>(Obligatoire) Ce nom est la façon dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
       <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p></td> 
      </tr> 
      <tr> 
@@ -1107,12 +1158,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Ils sont associés à un rôle ou à une fonction que vous spécifiez.</li> 
         <li>Ils appartiennent au même groupe que la personne qui utilise le champ.</li> 
        </ul>
-       <p><span class="preview">Lorsqu’un filtre système existe sur le champ, il est appliqué par défaut si vous n’ajoutez pas de filtre personnalisé. Un filtre personnalisé remplace le filtre système.</span></p>
+       <p>Lorsqu’un filtre système existe sur le champ, il est appliqué par défaut si vous n’ajoutez pas de filtre personnalisé. Un filtre personnalisé remplace le filtre système.</p>
        <p>Vous devez définir le filtre correspondant au champ de référence sélectionné à l’aide de la syntaxe mode texte. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modifier un filtre en mode texte</a>.</p>
-       <p><span class="preview">Utilisez la syntaxe de filtre dynamique pour limiter la liste des éléments de ce champ en fonction de la valeur d’un autre champ. Par exemple, lorsque vous utilisez <code>?portfolioID={portfolio}.{ID}</code> dans un filtre de champ Projet et qu’un champ natif Portfolio figure dans le formulaire personnalisé, le champ Projet affiche uniquement les projets qui se trouvent dans le portfolio sélectionné. Si le champ Portfolio n’est pas renseigné, tous les projets sont disponibles dans le champ Projet .</span></p>
+       <p>Utilisez la syntaxe de filtre dynamique pour limiter la liste des éléments de ce champ en fonction de la valeur d’un autre champ. Par exemple, lorsque vous utilisez <code>?portfolioID={portfolio}.{ID}</code> dans un filtre de champ Projet et qu’un champ natif Portfolio figure dans le formulaire personnalisé, le champ Projet affiche uniquement les projets qui se trouvent dans le portfolio sélectionné. Si le champ Portfolio n’est pas renseigné, tous les projets sont disponibles dans le champ Projet .</p>
        <p><b>Note</b> :
        <ul> 
-        <li>L’option de filtre n’est disponible que lorsque vous référencez un champ de saisie semi-automatique natif, tel que Portfolio, Société ou Propriétaire.</li>
+        <li>L’option de filtre n’est disponible que lorsque vous référencez un champ de saisie semi-automatique natif ou de recherche interne, tel que Portfolio, Société ou Propriétaire.</li>
         <li>L’ajout d’un filtre à un champ natif lors de la modification d’un formulaire personnalisé ne supprime aucun objet (hors portée du filtre) déjà ajouté par les utilisateurs ou les utilisatrices à l’aide du champ.</li> 
         <li>Ce filtre n’est pas disponible sur les appareils mobiles. Si vous utilisez le filtre pour un champ natif, il apparaîtra sur les appareils mobiles des utilisateurs et utilisatrices que le filtre ne concerne pas.</li> 
         </ul></p></td> 
@@ -1160,14 +1211,15 @@ Pour ajouter un fichier Adobe XD :
       <td> <p>(Obligatoire) Saisissez un libellé descriptif à afficher au-dessus du widget. Vous pouvez modifier le libellé à tout moment.</p> <p><b>Important</b> : évitez d’utiliser des caractères spéciaux dans ce libellé, car ils ne s’affichent pas correctement dans les rapports. Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et les libellés des champs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td> 
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom est automatiquement renseigné pour qu’il corresponde. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
+      <td role="rowheader">Nom d’API</td> 
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le widget. Lorsque vous configurez le widget pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p>
     <p>Pour plus d’informations, voir <a href="design-a-form.md#notes-on-field-names-and-labels">Notes sur les noms et libellés de champs</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez un lien de prototype XD valide.</p> 
-      <p><b>Note</b> : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. </td> 
+      <p><b>Note</b> : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -1234,8 +1286,8 @@ Pour ajouter un champ de connexion Planning :
       <p>Nous vous recommandons de choisir un libellé qui vous aide à identifier facilement la provenance de l’enregistrement Planning. Ajoutez des informations telles que le nom de l’espace de travail ou le nom du type d’enregistrement. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nom</td>
-      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom est renseigné automatiquement pour correspondre à celui-ci. Les champs Libellé et Nom ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p></td> 
+      <td role="rowheader">Nom d’API</td>
+      <td> <p>(Obligatoire) Ce nom correspond à la manière dont le système identifie le champ. Lorsque vous configurez le champ pour la première fois et que vous saisissez le libellé, le champ Nom de l’API est automatiquement renseigné pour le faire correspondre. Les champs Libellé et Nom de l’API ne sont pas synchronisés. Vous avez ainsi la possibilité de modifier le libellé visible par vos utilisateurs et utilisatrices sans avoir à modifier le nom visible par le système.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 

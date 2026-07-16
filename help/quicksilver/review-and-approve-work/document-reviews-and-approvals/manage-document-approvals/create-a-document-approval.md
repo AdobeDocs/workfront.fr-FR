@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2fb0effe42a24898bb3389f72405a92f38ed5cc9
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 2758
+source-wordcount: 2231
 ht-degree: 6%
 
 ---
 
 # Créer un workflow d’approbation de document
-
-{{highlighted-preview}}
 
 Vous pouvez demander à d’autres personnes ou équipes d’approuver un document dans Adobe Workfront, ou leur demander de réviser un document sans avoir à l’approuver.
 
@@ -73,54 +71,55 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Création d’un workflow d’approbation dans la zone des documents hérités de l’environnement de production
+<!--
 
-Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+## Create an approval workflow in the legacy documents area in Production
 
-Pour créer un workflow de validation :
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+To create an approval workflow:
 
-1. Cliquez sur le document dont vous avez besoin pour ouvrir le panneau Résumé du document correspondant.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Sélectionnez la version du document pour laquelle vous souhaitez créer une approbation dans le menu déroulant de la version. La dernière version est sélectionnée par défaut.
+1. Click on the document you need and the Document Summary panel for that document opens.
 
-1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Renseignez les détails suivants :
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Une décision requise (facultatif)</strong></td>
-   <td>La première personne qui prend une décision termine l’étape.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Date d’échéance (facultatif)</strong></td>
-   <td>Définissez une date d’échéance pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance spécifiée.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
 
+-->
 
-<div class="preview">
-
-## Création d’un workflow d’approbation dans la zone des documents hérités de l’aperçu
+## Créer un workflow d’approbation dans la zone des documents hérités
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -157,7 +156,8 @@ Pour créer un workflow d’approbation en une seule étape :
    </tr>
    <tr>
    <td><strong>Ajouter un message personnalisé (facultatif)</strong></td>
-   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.<p>Remarque : si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.</p>
+   <td>Saisissez un message dans la zone de texte <strong>Ajouter un message personnalisé</strong>. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.
+   <p>Remarque : si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail.</p>
    </td>
    </tr>
    </table>
@@ -225,54 +225,53 @@ Pour créer un workflow de validation avancée :
 
 1. Cliquez sur **Demander l’approbation**.
 
-</div>
 
+<!--
 
-## Créez un workflow d’approbation dans la nouvelle zone Documents de la production
+## Create an approval workflow in the new Documents area in Production
 
-Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Pour créer un workflow de validation :
+To create an approval workflow:
 
-1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Cliquez sur le document, puis sur l’icône **Validations** sur le côté droit de la page.
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
-   ![Ajouter des approbateurs dans le résumé du document](assets/approvals-icon-new.png)
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. Cliquez sur **Créer un workflow**, puis renseignez les informations suivantes :
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Une décision requise (facultatif)</strong></td>
-   <td>La première personne qui prend une décision termine l’étape.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Date d’échéance (facultatif)</strong></td>
-   <td>Définissez une date d’échéance pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance spécifiée.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![&#x200B; Détails du document &#x200B;](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
+   
+-->
 
-
-<div class="preview">
-
-## Créez un workflow d’approbation dans la nouvelle zone Documents de l’aperçu
+## Créer un workflow d’approbation dans la zone Nouveaux documents
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -384,10 +383,6 @@ Pour créer un workflow de validation avancée :
 1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
 
 1. Cliquez sur **Demander l’approbation**.
-
-</div>
-
-
 
 <!--
 ## Resubmit an approval on a new version

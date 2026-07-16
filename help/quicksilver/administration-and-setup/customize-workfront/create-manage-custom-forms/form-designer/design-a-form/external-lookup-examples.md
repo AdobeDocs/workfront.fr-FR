@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 1359
-ht-degree: 47%
+source-wordcount: 1477
+ht-degree: 42%
 
 ---
 
@@ -75,7 +75,7 @@ Cet exemple montre comment appeler l’API Workfront et renseigner une liste de 
 
 1. Ouvrez le formulaire personnalisé.
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
-1. Saisissez l’**étiquette** et le **nom** pour le champ.
+1. Saisissez les **Libellé** et **Nom de l’API** pour le champ.
 1. Sélectionnez le **format** pour le champ.
 1. Saisissez l’appel API dans le champ **URL de l’API de base**.
 
@@ -120,7 +120,7 @@ Cet exemple montre comment appeler l’API Workfront et importer des données d�
 
 1. Ouvrez le formulaire personnalisé.
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
-1. Saisissez l’**étiquette** et le **nom** pour le champ.
+1. Saisissez les **Libellé** et **Nom de l’API** pour le champ.
 1. Sélectionnez le **format** pour le champ.
 1. Saisissez l’appel à l’URL de l’API dans le champ **URL API de base**.
 
@@ -171,7 +171,7 @@ Cet exemple montre comment appeler une API de pays (telle que <https://api.first
 
 1. Ouvrez le formulaire personnalisé.
 1. Dans la partie gauche de l’écran, recherchez **Recherche externe** et faites glisser le champ vers une section du canevas.
-1. Saisissez l’**étiquette** et le **nom** pour le champ.
+1. Saisissez les **Libellé** et **Nom de l’API** pour le champ.
 1. Sélectionnez le **format** pour le champ.
 1. Saisissez l’appel à l’URL de l’API dans le champ **URL API de base**.
 

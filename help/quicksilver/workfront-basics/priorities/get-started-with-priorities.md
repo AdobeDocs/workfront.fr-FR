@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
+source-git-commit: 7a657f3e0e6ee302e30e8bc9a61b1a3b0bab5ae9
 workflow-type: tm+mt
 source-wordcount: 1021
 ht-degree: 10%
@@ -131,7 +131,7 @@ Une fois que vous avez affecté des niveaux de focus à vos éléments de travai
 
 Pour plus d’informations, voir [&#x200B; Hiérarchiser les éléments de travail importants &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![&#x200B; Liste de travail &#x200B;](assets/worklist.png)
+![Ma cible](assets/my-focus-060226.png)
 
 ### Utilisation de la vue Calendrier
 

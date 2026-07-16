@@ -14,16 +14,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 48%
+source-wordcount: 348
+ht-degree: 58%
 
 ---
 
 # Épingler des pages pour personnaliser votre espace de travail
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +62,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Dans le coin supérieur gauche de la page, cliquez sur **[!UICONTROL Épingler la page active]**. La page épinglée est désormais accessible en haut de n’importe quelle page dans [!DNL Workfront].
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :
    ![Épingler la page active](assets/pin-current-page-button-2026.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![Épingler la page active](assets/pin-current-page-button.png)
 
 ## Accéder à une page épinglée
 
@@ -82,15 +76,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Si de nombreuses pages sont épinglées, cliquez sur l’icône **[!UICONTROL Plus]** ![cliquez sur l’icône Plus](assets/more-icon.png) pour afficher d’autres pages épinglées.
 
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :
    ![Épingler la page active](assets/display-pinned-pages-2026.png)
 
-   Exemple d’image dans l’environnement de production :
-   ![Afficher d’autres pages épinglées](assets/display-pinned-pages.png)
-
    La page épinglée s’affiche.
-
-<div class="preview">
 
 ## Gérer les épingles
 
@@ -107,36 +95,35 @@ Vous pouvez renommer, réorganiser et supprimer les pages épinglées en un seul
 
 1. Cliquez sur **Fermer** lorsque vous avez terminé de modifier les épingles.
 
-</div>
+<!--
+## Rename a pinned page
 
-## Renommer une page épinglée
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. Pointez sur la page épinglée dans la barre de navigation supérieure.
-1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) qui s’affiche en regard du nom de l’épingle et sélectionnez **[!UICONTROL Renommer l’épingle]**.
+   ![Rename pin](assets/pin-menu.png)
 
-   ![Renommer l’épingle](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. Saisissez le nouveau nom d’épingle, puis cliquez sur **Enregistrer**.
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![Cliquez sur la case cochée pour renommer l’épingle](assets/rename-pin-dialog-box.png).
+## Reorder pinned pages
 
-## Réorganiser les pages épinglées
+You can rearrange the order that pinned pages appear.
 
-Vous pouvez réorganiser l’ordre d’affichage des pages épinglées.
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. Pointez sur la page épinglée à déplacer, puis cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png).
-1. Choisissez **Déplacer vers la gauche** ou **Déplacer vers la droite** pour déplacer votre épingle.
-1. (Facultatif) Choisissez **Déplacer vers l’avant** pour déplacer votre épingle vers la position extrême gauche de la barre d’épingle.
+   ![move pins](assets/pin-menu.png)
 
-   ![déplacer les épingles](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   Vos modifications seront automatiquement enregistrées et mémorisées la prochaine fois que vous accéderez à Workfront.
+## Remove a pinned page
 
-## Supprimer une page épinglée
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. Cliquez sur l’icône **Plus** en ![](assets/more-icon.png) de l’épingle à supprimer.
-1. Cliquez sur **Supprimer l’épingle**. La page n’est plus accessible depuis le haut d’une page dans [!DNL Workfront].
-
-   ![Supprimer l’épingle](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 

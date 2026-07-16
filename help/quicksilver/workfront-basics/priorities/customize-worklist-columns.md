@@ -15,16 +15,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 3c02b27f652567e117daf1d1334874144317be81
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 431
 ht-degree: 14%
 
 ---
 
 # Personnaliser les colonnes de la liste de travail des priorités
-
-{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -89,11 +87,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
 
-   <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
    ![Colonnes &#x200B;](assets/columns-new-060226.png)
-
-   Exemple d’image dans l’environnement de production :
-   ![Colonnes &#x200B;](assets/columns-new.png)
 
 1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste de tâches.
 
@@ -109,8 +103,6 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 >
 >La colonne Nom est fixe et ne peut pas être déplacée.
 
-<div class="preview">
-
 ### Ajouter et supprimer des colonnes à l’aide du gestionnaire de colonnes
 
 {{step1-to-priorities}}
@@ -123,8 +115,6 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
    >Vous ne pouvez ajouter que des champs existants à la vue Liste. Il est possible d’ajouter des champs natifs et personnalisés pour les tâches et les événements sous forme de colonnes.
 
 Pour plus d’informations sur le gestionnaire de colonnes, consultez la section [Ajouter et supprimer des colonnes avec le gestionnaire de colonnes](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) dans l’article [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
 
 ### Modifier la hauteur de ligne dans la liste de priorités
 
@@ -141,8 +131,6 @@ Pour plus d’informations sur le gestionnaire de colonnes, consultez la section
 
    La liste est immédiatement mise à jour.
 
-<div class="preview">
-
 ## Gérer les vues pour la liste de priorités
 
 Une vue définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis.
@@ -157,5 +145,3 @@ Une vue par défaut est affectée à la liste de priorités. Vous pouvez égalem
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
 
 Pour plus d&#39;informations sur les vues, consultez la section [Mettre à jour les éléments de liste améliorés](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) dans l&#39;article [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>

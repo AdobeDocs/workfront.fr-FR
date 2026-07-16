@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
 workflow-type: tm+mt
-source-wordcount: 759
-ht-degree: 29%
+source-wordcount: 1010
+ht-degree: 14%
 
 ---
 
@@ -32,22 +32,22 @@ ht-degree: 29%
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
+>Les informations de cet article se rapportent à Adobe Workfront Planning. Workfront Planning est un produit autonome ou une fonctionnalité d’Adobe Workfront achetée en plus.
 >
->Votre société doit acheter un package supplémentaire pour que Workfront Planning puisse accéder à ses fonctionnalités.
 >
->Pour plus d’informations, contactez votre gestionnaire de compte
+>Cet article contient des informations générales sur Workfront Planning lorsque les clients achètent également un Workfront ou un package de workflow.
 >
->Pour plus d’informations sur Workfront Planning, voir [Commencer à utiliser Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
-Des restrictions de licence et de partage s’appliquent à l’utilisation d’Adobe Workfront Planning.
+>Pour obtenir la liste complète des articles contenant de la documentation pour Workfront Planning, consultez [Informations générales et index des articles pour Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
+>
+>Pour plus d’informations sur Workfront Planning en tant que produit autonome, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 Cet article décrit l’accès et les paramètres dont vous avez besoin pour utiliser les fonctionnalités de Workfront Planning.
 
@@ -69,8 +69,8 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <tr>
    <td role="rowheader"><p>Package Adobe Workfront</p></td>
    <td>
-   <p>Tout package Workfront and Planning</p>
-   <p>Tout package Workflow et Planning</p>
+   <p>Tout package Workfront ou Workflow Planning
+   et tout package Workfront Planning</p>
    <p><b>NOTE</b></p>
    <p>Pour accéder aux types d’enregistrements connectables :</p>
    <ul><li><p>Tout package Workfront et un package Planning</p></li>
@@ -93,13 +93,13 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <tr>
    <td role="rowheader"><p>Licence Adobe Workfront</p></td>
    <td>
-   <ul><li><p>Tous, pour afficher les informations de planification Workfront</p></li>
-   <li><p>Standard, pour créer des espaces de travail et des vues</p></li></ul>
+   <ul><li><p>Tout workflow et toute licence Planning, pour afficher les informations de Workfront Planning.</p></li>
+   <li><p>Une norme de workflow et une norme de planification pour créer des espaces de travail et des vues</p></li></ul>
     </td>
    </tr>
    <tr>
-   <td role="rowheader"><p>Configurations du niveau d’accès</p></td>
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>  
+   <td role="rowheader"><p>Configurations des niveaux d’accès</p></td>
+   <td> <p>Tout workflow et tout type de licence Planning dans le niveau d'accès</p>  
    </td>
    </tr>
    <tr>
@@ -111,16 +111,17 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <li><p><span class="preview">Gérer les autorisations de modification, de partage ou de suppression des enregistrements.</p>
    <li><p>Autorisations de niveau Contribution ou supérieur aux vues que vous n’avez pas créées, pour les modifier, les supprimer et les partager</p>
    </li>
-    <li><p>L’administration système peut gérer les espaces de travail qu’elle n’a pas créés. </p></li>
-    <li><p>Les administrateurs système ne peuvent pas accéder aux vues qu'ils n'ont pas créées. </p></li></ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
+    <li><p>Les administrateurs de Planning peuvent gérer les espaces de travail qu'ils n'ont pas créés. </p></li>
+    <li><p>Les administrateurs de Planning ne peuvent pas accéder aux vues qu'ils n'ont pas créées. </p></li></ul>
+   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir  
+   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Workfront Planning</a> 
    </td>
    </tr>
    <tr>
    <td role="rowheader"><p>Modèle de mise en page</p></td>
    <td> 
-   <p>Les zones Planning sont activées par défaut pour les utilisateurs standard et les administrateurs système.</p>
-   <p> Les utilisateurs disposant d'une licence light ou contributor doivent se voir attribuer un modèle de mise en page qui inclut l'option Planning dans les domaines suivants :</p>
+   <p>Les zones Planning sont activées par défaut pour les utilisateurs et les administrateurs de Planning Standard.</p>
+   <p> Les utilisateurs disposant d'une licence Workflow Light ou Planning Contributor doivent se voir attribuer un modèle de mise en page qui inclut l'option Planning dans les domaines suivants :</p>
    <ul><li>Menu principal</li>
    <li>Panneau de gauche de projets, portefeuilles et programmes</li>
    </ul>   
@@ -131,6 +132,70 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
 
 Pour plus d’informations, voir [Conditions d’accès dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+
+## Niveaux d’accès et licences Workfront Planning
+
+Vous pouvez attribuer une licence d&#39;administrateur Planning à un utilisateur lorsque vous l&#39;ajoutez au Adobe Admin Console en tant qu&#39;administrateur.
+
+Pour plus d’informations, voir [Gestion des utilisateurs dans Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+Vous ne pouvez pas modifier le niveau d&#39;accès Administrateur Planning dans Workfront Planning.
+
+Vous pouvez attribuer les types de licence suivants lorsque vous configurez des niveaux d’accès dans Workfront :
+
+* Types de licence des workflows
+* Types de licence Planning
+
+Pour accéder à Workfront Planning, les utilisateurs doivent disposer des deux types de licence attribués à leur niveau d&#39;accès.
+
+Vous pouvez attribuer les licences Planning suivantes à un niveau d&#39;accès :
+
+* **Planning Standard** : accordez cet accès aux utilisateurs s&#39;ils doivent créer et gérer tous les objets Planning sans être administrateurs.
+* **Contributeur Planning** : accordez cet accès aux utilisateurs s&#39;ils doivent contribuer à des enregistrements, mais qu&#39;ils n&#39;ont pas besoin de créer des objets Planning.
+
+  >[!TIP]
+  >
+  >Le type de licence Contributeur Planning n&#39;est pas disponible si votre organisation a acheté un nombre inégal de licences Workflow et Planning.
+
+
+* **Aucun** : lorsque vous attribuez ce type de licence Planning, vous supprimez spécifiquement tout accès Planning aux utilisateurs affectés à ce niveau d&#39;accès.
+
+  >[!IMPORTANT]
+  >
+  >Les licences Planning et les licences Workflow fonctionnent ensemble pour permettre aux utilisateurs d&#39;accéder à Workfront.
+  >
+  >Vous pouvez accorder à un utilisateur différents niveaux d&#39;accès entre Workflow et Planning, mais la licence Workflow ne peut pas être inférieure à la licence Planning.
+  >
+  >Par exemple, vous pouvez accorder à un utilisateur une licence Workflow Standard et une licence Planning Contributor, mais vous ne pouvez pas lui accorder de licence Workflow Contributor et de licence Planning Standard.
+  >
+  >Le type de licence Workflow ne peut pas être vide si l&#39;utilisateur doit accéder à Workflow ou Planning.
+
+Pour plus d’informations, voir [Présentation du type de licence avec Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+
+## Configurer le niveau d’accès
+
+Pour plus d’informations sur la configuration de l’accès dans Workfront, voir [&#x200B; Création et modification de niveaux d’accès personnalisés &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+## Attribution de licences aux utilisateurs
+
+Vous pouvez attribuer des licences aux utilisateurs lorsque vous leur attribuez un niveau d&#39;accès lors de leur modification ou de leur création.
+
+Pour plus d’informations, voir [Modifier le profil d’une personne](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+## Octroyer des autorisations
+
+Vous pouvez accorder des autorisations aux entités suivantes dans Workfront Planning :
+
+* Espaces de travail
+* Types d’enregistrements
+* Vues
+* Enregistrements
+
+Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+Votre type de licence Adobe Workfront fonctionne avec votre type de licence Workfront Planning et vos autorisations Planning pour vous permettre d’afficher, de contribuer ou de gérer des objets Workfront Planning.
+
+Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets de Workfront Planning, consultez la section [Vue d’ensemble des types de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Partage de la zone Planning à l&#39;aide d&#39;un modèle de mise en page
 
@@ -165,34 +230,5 @@ Pour ajouter ou supprimer des zones Workfront Planning des utilisateurs de votre
    Toutes les personnes affectées au modèle peuvent désormais accéder à Workfront Planning dans leur menu principal.
 
    Les personnes peuvent commencer à créer des espaces de travail, des types d’enregistrements, des enregistrements et des champs.
-
-## Attribution de licences aux utilisateurs
-
-Vous pouvez attribuer des licences aux utilisateurs lorsque vous configurez leur niveau d&#39;accès lors de leur modification ou de leur création.
-
-Pour plus d’informations, voir [Modifier le profil d’une personne](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
-## Configurer le niveau d’accès
-
-Il n’existe aucun contrôle de niveau d’accès Workfront pour Workfront Planning.
-
-Les utilisateurs disposant de n&#39;importe quel type de licence Workfront peuvent accéder à Workfront Planning.
-
-<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-## Octroyer des autorisations
-
-Vous pouvez accorder des autorisations aux entités suivantes dans Workfront Planning :
-
-* Espaces de travail
-* Types d’enregistrements
-* Vues
-  <!--move this above Views: * <span class="preview">Records</span>-->
-
-Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-
-Votre type de licence Adobe Workfront fonctionne avec vos autorisations Workfront Planning pour vous permettre d’afficher, de contribuer ou de gérer des objets Workfront Planning.
-
-Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets de Workfront Planning, consultez la section [Vue d’ensemble des types de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 

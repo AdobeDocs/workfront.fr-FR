@@ -4,10 +4,10 @@ description: Améliorations apportées à l’administration au troisième trime
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 6%
+source-wordcount: '1553'
+ht-degree: 5%
 
 ---
 
@@ -43,11 +43,43 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 -->
 
+## Nouveaux champs de type de licence pour les niveaux d&#39;accès
+
+>[!NOTE]
+>
+>Aperçu et production pour tous les clients : 16 juillet 2026
+>
+>[!BADGE Horaire de désactivation]{type=Neutral}
+
+Les modifications de champ suivantes ont été apportées dans la zone Niveau d&#39;accès :
+
+* Le champ Type de licence de la zone Niveau d&#39;accès a été renommé Type de licence de workflow. Ce réétiquetage ne modifie pas les fonctionnalités.\
+  Pour plus d’informations, [voir Création et modification de niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Pour les clients qui ont également acheté un package Workfront Planning, nous avons ajouté un nouveau champ Type de licence Planning afin d&#39;illustrer la licence d&#39;un utilisateur pour Workfront Planning.
+Les clients qui ont acheté un nombre égal de licences Workflow et Planning disposent des types de licence suivants :
+
+   * Norme de planification
+   * Contributeur ou contributrice de planification
+   * Aucun
+
+  >[!NOTE]
+  >
+  >Vous pouvez affecter aux utilisateurs une combinaison mixte de licences entre Workflow et Planning, mais le type de licence Planning ne peut pas être supérieur au type de licence Workflow.
+  >
+  >Par exemple, une licence Planning Standard ne peut pas être affectée à un utilisateur Contributeur de workflow. Un utilisateur disposant d’une licence Workflow Light peut désormais obtenir une licence Standard pour Planning et ainsi gérer les espaces de travail et leur contenu. Auparavant, ils ne pouvaient accéder qu&#39;en lecture seule aux données Planning.
+  >
+  >Les nouveaux clients peuvent acheter des licences Planning et Workflow en différentes quantités et les utiliser avec n&#39;importe quelle combinaison. Dans ce scénario, le type de licence Contributeur de Planning n&#39;est pas disponible.
+  >
+  >Pour plus d’informations, consultez [Présentation de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
 ## Champ de recherche interne remplaçant le type de champ de saisie semi-automatique
 
 >[!NOTE]
 >
->Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 7 juillet 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Le nouveau type de champ **Recherche interne** dans les formulaires personnalisés offre un filtrage dynamique. Similaire au type de champ de saisie semi-automatique , il permet aux utilisateurs de rechercher et de sélectionner des objets Workfront existants en saisissant une partie du nom. Le filtre sur la recherche interne peut référencer la valeur dans un autre champ du formulaire, ce qui n’est pas possible avec les en-têtes de saisie.
 
@@ -65,7 +97,9 @@ Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 7 juillet 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 >
 >Cette fonctionnalité n’est disponible que pour les organisations qui utilisent les packages Workflow Prime ou Ultimate.
 
@@ -79,7 +113,9 @@ Pour plus d’informations, consultez la section [Ajouter une logique de valeur 
 
 >[!NOTE]
 >
->Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 7 juillet 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Les filtres système qui existent sur les champs natifs sont désormais appliqués aux champs des formulaires personnalisés et visibles par l’administration.
 
@@ -97,7 +133,9 @@ Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 7 juillet 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Pour protéger les intégrations et l’intégrité des données, nous avons mis à jour la manière dont les noms de champ peuvent être modifiés dans le panneau des paramètres de champ d’un formulaire personnalisé.
 
@@ -109,7 +147,9 @@ Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 11 juin 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Pour que vous puissiez voir plus facilement les modifications qui se sont produites dans une liste centrale, nous avons créé la liste Historique des modifications. Cette liste affiche des informations telles que l’objet, l’opération et la source de la modification (un utilisateur ou le système Workfront, par exemple).
 
@@ -121,7 +161,9 @@ Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modi
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026Production pour tous : 11 juin 2026Hors planning&rbrack;{type=Neutral}
+>Aperçu : 11 juin 2026
+>Production pour tous : 11 juin 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 Les administrateurs Workfront peuvent désormais convertir les portefeuilles de stockage hérités en stockage cloud Adobe directement à partir des préférences système. Pour convertir des portfolios, sélectionnez-les dans le nouveau champ Sélectionner les portfolios à convertir en stockage d’entreprise et enregistrez la page.
 
@@ -140,7 +182,9 @@ Pour plus d’informations, voir [Configuration des préférences système](/hel
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Le nouveau type de champ **Texte enrichi** dans les formulaires personnalisés est un puissant éditeur de texte, avec des options de mise en forme telles que l’exposant et l’indice, les en-têtes et les tableaux, en plus des options traditionnelles telles que le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets. La limite de caractères reste de 15 000.
 
@@ -156,7 +200,9 @@ Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais inclure des champs financiers natifs de Workfront dans les formulaires personnalisés. Auparavant, les champs financiers n’étaient pas pris en charge.
 
@@ -168,7 +214,9 @@ Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Une nouvelle option de partage, « Tout le monde dans le système peut afficher et joindre », a été ajoutée aux formulaires personnalisés. Lorsque vous sélectionnez cette option, tous les utilisateurs à l’échelle du système peuvent joindre le formulaire à d’autres objets.
 
@@ -180,7 +228,9 @@ Pour plus d’informations, voir [Partager un formulaire personnalisé](/help/qu
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Actuellement, lorsque vous modifiez des objets en bloc, les champs obligatoires ne sont appliqués que lorsqu’un utilisateur modifie le champ. Si un champ n’est pas modifié, il est traité comme facultatif et non validé.
 

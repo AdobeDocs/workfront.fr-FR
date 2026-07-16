@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
 ht-degree: 15%
@@ -25,8 +25,6 @@ ht-degree: 15%
 ---
 
 # Vérifier les limites de stockage des documents
-
-{{highlighted-preview}}
 
 Bien qu’il n’existe aucune restriction sur les types et tailles des fichiers individuels que les utilisateurs peuvent charger vers votre instance Workfront, votre plan Workfront comprend un quota de stockage total. En tant qu’administrateur Workfront, vous surveillez l’utilisation et le quota à partir de la zone Configuration de la page Informations sur le client.
 
@@ -79,8 +77,6 @@ Le quota de stockage est actualisé tous les jours afin d’afficher le décompt
 >
 >Cette limite ne s’applique pas aux documents que vous liez à Workfront à partir d’un autre fournisseur tiers (SharePoint, Google Drive, Webdam, Box, Dropbox ou tout autre fournisseur de gestion des ressources numériques).
 
-<div class="preview">
-
 ## Espace de stockage Adobe
 
 
@@ -107,5 +103,3 @@ Les chiffres d’utilisation sont actualisés régulièrement afin que vous puis
 ### Notifications par e-mail aux administrateurs
 
 Lorsque l’utilisation dépasse 75 %, 90 % ou 100 % de votre quota de stockage, Workfront envoie une notification par e-mail aux administrateurs système.
-
-</div>

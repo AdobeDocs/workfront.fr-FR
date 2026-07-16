@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 22%
+source-wordcount: 624
+ht-degree: 21%
 
 ---
 
@@ -175,7 +175,7 @@ Old:
   | Texte d’une seule ligne au format numérique | Nombre |
   | Texte d’une seule ligne au format monétaire | Devise |
   | Paragraphe | Paragraphe |
-  | Texte avec formatage | Paragraphe |
+  | Texte enrichi/Texte avec mise en forme | Paragraphe |
   | Liste déroulante à sélection unique | Sélection unique |
   | Menu déroulant multi-sélection | Sélection multiple |
   | Les filtres de saisie semi-automatique ne sont pas pris en charge | Personnes |

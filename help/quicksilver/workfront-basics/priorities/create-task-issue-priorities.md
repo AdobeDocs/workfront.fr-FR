@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 249
 ht-degree: 26%
@@ -76,7 +76,7 @@ Pour créer une tâche ou un événement dans un projet :
 {{step1-to-priorities}}
 
 1. Cliquez sur **Créer** dans le coin supérieur droit.
-   ![Créer (production) &#x200B;](assets/create-new--.png)
+   ![Créer (production) &#x200B;](assets/create-new.png)
 1. Indiquez les informations suivantes :
 
    | champ | Instructions |
@@ -89,3 +89,4 @@ Pour créer une tâche ou un événement dans un projet :
    | Date d’échéance (facultatif) | Choisissez une date d&#39;échéance. |
 
 1. Cliquez sur **Créer**.
+

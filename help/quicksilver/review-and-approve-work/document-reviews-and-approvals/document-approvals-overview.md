@@ -18,18 +18,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 4173
+source-wordcount: 4149
 ht-degree: 0%
 
 ---
 
 # Aperçu de la révision et de l’approbation unifiées
 
-{{highlighted-preview}}
-
-La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
+La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
+Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
 
 ![Diagramme présentant le workflow de révision et d’approbation unifié, avec les coordinateurs de projet gérant le travail dans Workfront et les réviseurs et approbateurs fournissant des commentaires et prenant des décisions dans la visionneuse Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
@@ -288,13 +287,9 @@ Oui. Un utilisateur peut être affecté à plusieurs étapes au sein du même wo
 
 Oui. Les workflows d’approbation à plusieurs étapes sont pris en charge, ce qui vous permet d’acheminer les ressources au cours d’exercices séquentiels de révision et d’approbation avec différents participants à chaque étape.
 
-<div class="preview">
-
 **Puis-je configurer des chemins de révision parallèles dans un workflow d’approbation ?**
 
-Oui. Dans la Prévisualisation, les workflows d’approbation prennent en charge les chemins parallèles en plus des étapes séquentielles. Chaque chemin d’accès s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Par conséquent, les révisions sur différents chemins d’accès peuvent se produire en même temps. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes dans une seule approbation. Les mêmes options sont disponibles dans les modèles d’approbation. Pour plus d’informations, consultez les sections [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) et [Créer un modèle de processus d’approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-</div>
+Oui. Les workflows d’approbation prennent en charge les chemins parallèles en plus des étapes séquentielles. Chaque chemin d’accès s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Par conséquent, les révisions sur différents chemins d’accès peuvent se produire en même temps. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes dans une seule approbation. Les mêmes options sont disponibles dans les modèles d’approbation. Pour plus d’informations, consultez les sections [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) et [Créer un modèle de processus d’approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -322,9 +317,7 @@ Actuellement, les modèles d’approbation prennent en charge les utilisateurs i
 
 Oui. Les approbateurs et les réviseurs reçoivent des notifications par e-mail lorsqu’ils sont affectés à une révision ou une approbation. Les e-mails de rappel automatisés sont également envoyés 72 heures avant l’échéance, 24 heures avant l’échéance et à l’échéance elle-même.
 
-En production, la possibilité de personnaliser les messages de notification par e-mail n’est actuellement pas disponible, mais elle figure sur la feuille de route du produit.
-
-<span class="preview">Dans la Prévisualisation, vous pouvez ajouter un message personnalisé à chaque étape d’un workflow d’approbation. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront. Vous pouvez utiliser le même message pour chaque étape ou un message différent par étape et le message peut contenir jusqu’à 500 caractères. Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
+Vous pouvez ajouter un message personnalisé à chaque étape d’un workflow d’approbation. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront. Vous pouvez utiliser le même message pour chaque étape ou un message différent par étape et le message peut contenir jusqu’à 500 caractères. Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

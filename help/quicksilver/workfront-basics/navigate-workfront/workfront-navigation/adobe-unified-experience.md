@@ -15,18 +15,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c815aa5a4873d2b6af79cee2183c502f05108b6
+source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
 workflow-type: tm+mt
-source-wordcount: 711
-ht-degree: 56%
+source-wordcount: 697
+ht-degree: 57%
 
 ---
 
 # [!DNL Adobe Unified Experience] pour [!DNL Workfront]
 
 <!--Audited: 10/2024-->
-
-{{highlighted-preview}}
 
 Avec l’accès à [!DNL Workfront] grâce à [!DNL Adobe CX Enterprise], vous bénéficiez d’une expérience transparente et unifiée pour gérer l’ensemble de vos applications [!DNL Adobe]. La gestion des identités unique vous permet de vous connecter à un seul emplacement, sans avoir à utiliser plusieurs URL ou identifiants de connexion.
 
@@ -58,7 +56,7 @@ Pour plus d’informations, consultez la section [Conditions d’accès dans la 
 
 L’instance d’[!DNL Workfront] de votre organisation doit être intégrée à l’[!DNL Adobe Business Platform] ou à l’[!DNL Adobe Admin Console].
 
-Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir les [[!DNL Adobe Unified Experience] Questions fréquentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Si vous avez des questions sur l’intégration [!DNL Adobe Admin Console], voir les [[!DNL Adobe Unified Experience] Questions fréquentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 ## Adobe Identity Management System (IMS)
 
@@ -100,11 +98,7 @@ Utilisez l’icône [!UICONTROL Menu principal] ![icône du menu principal](asse
 * **Configurations des modèles de mise en page** : pour savoir comment une équipe d’administration [!DNL Workfront] peut modifier le [!UICONTROL Menu principal] à partir d’un modèle de mise en page, voir [Personnaliser le [!UICONTROL Menu principal] à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Type de licence** : pour connaître les configurations par défaut des différents types de licence, voir [Comprendre la navigation pour un utilisateur [!UICONTROL light]-license](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Comprendre la navigation pour un utilisateur [!UICONTROL work]-license](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-![&#x200B; Menu principal &#x200B;](assets/main-menu-options-2026.png)
-
-Exemple d’image dans l’environnement de production :
-![Menu principal](assets/main-menu-options-left-nav.png)
+![Menu principal](assets/main-menu-options-2026.png)
 
 ## Accéder à votre profil et à vos préférences
 

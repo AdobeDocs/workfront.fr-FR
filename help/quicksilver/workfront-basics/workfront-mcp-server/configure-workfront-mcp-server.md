@@ -5,25 +5,19 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 2%
+source-wordcount: '1509'
+ht-degree: 0%
 
 ---
 
 
 # Configuration du serveur MCP Adobe Workfront
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
-
 Le serveur MCP [!DNL Adobe Workfront] vous permet d’utiliser vos données Workfront par le biais d’une conversation en langage naturel sur une plateforme agentique d’IA prise en charge.
 
 Avant de pouvoir connecter une plateforme agentique d’IA à Workfront, un administrateur Workfront doit activer l’accès au serveur MCP dans votre instance Workfront. Les étapes exactes pour connecter une plateforme IA agentic sont différentes pour chaque plateforme AI agentic prise en charge.
-
->[!IMPORTANT]
->
->Actuellement, le serveur Workfront MCP est disponible uniquement pour les clients qui utilisent AWS. Les clients qui utilisent GCP ou Azure pourront utiliser la fonctionnalité Workfront MCP dans un avenir proche.
 
 ## Plateformes d’IA et d’ingénierie prises en charge
 
@@ -34,12 +28,11 @@ Cet article décrit les étapes de connexion pour :
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Si vous utilisez une autre plateforme d’IA agentic compatible avec les MCP (par exemple, [!DNL Gemini] ou [!DNL Microsoft Copilot]), suivez les étapes de la documentation de cette plateforme pour ajouter un serveur MCP personnalisé. Lorsque vous êtes invité à saisir l’URL du serveur MCP, saisissez l’URL de votre région :
+Si vous utilisez une autre plateforme d’IA agentic compatible avec les MCP (par exemple, [!DNL Gemini] ou [!DNL Microsoft Copilot]), suivez les étapes de la documentation de cette plateforme pour ajouter un serveur MCP personnalisé. Lorsque vous êtes invité à saisir l’URL du serveur MCP, saisissez :
 
-| Région | URL |
-| --- | --- |
-| US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Conditions préalables
 
@@ -69,10 +62,6 @@ Vous vous connectez à Workfront une fois par compte [!DNL Claude]. La connexion
 
 
 ### Connectez-vous au bureau Claude à partir du répertoire des connecteurs
-
->[!IMPORTANT]
->
->Actuellement, le connecteur Claude ne prend en charge que la connexion au serveur MCP Workfront dans la région des États-Unis.  Pour vous connecter à une instance Workfront dans la région UE, consultez la section [Se connecter à Claude avec une URL](#connect-to-claude-with-a-url) dans cet article.
 
 +++ Développez pour afficher les instructions détaillées relatives à la connexion de Workfront à [!DNL Claude].
 
@@ -117,22 +106,13 @@ Pour connecter Workfront à [!DNL Claude] avec une URL :
 1. Dans le menu de gauche, sélectionnez l’icône **Personnaliser**.
 1. Sélectionnez **Connecteurs**, puis sélectionnez l’icône **+** pour ajouter un connecteur.
 1. Sélectionnez le bouton **Créer une application**.
-1. Attribuez au connecteur le nom souhaité (par exemple, « Workfront ») et saisissez l’URL du serveur MCP souhaitée :
+1. Attribuez au connecteur le nom souhaité (par exemple, « Workfront ») et saisissez l’URL du serveur MCP :
 
-   | Région | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Une fois le connecteur créé, une fenêtre de connexion s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Veillez à sélectionner l’instance Workfront souhaitée si vous appartenez à plusieurs instances.
-
-   >[!NOTE]
-   >
-   >Votre instance Workfront doit se connecter au serveur MCP correspondant à la région pour cette instance. Par exemple, une instance UE doit se connecter au serveur MCP UE.
-   >
-   >Lors de la sélection d’une instance, les instances qui ne sont pas compatibles avec la région du serveur MCP apparaissent grisées et vous ne pouvez pas vous y connecter.
-   >
-   >Pour vous connecter à une instance qui n’est pas compatible avec la région du serveur MCP, configurez une nouvelle connexion MCP avec l’URL appropriée pour cette région.
 
 +++
 
@@ -148,23 +128,14 @@ Pour en savoir plus sur les compétences [!DNL Claude], consultez la documentati
 1. Dans le coin inférieur gauche, sélectionnez **votre nom** → **Paramètres**.
 1. Sélectionnez **Applications**, puis activez **mode Développeur**.
 1. Sélectionnez le bouton **Créer une application**.
-1. Attribuez à l’application le nom souhaité (par exemple, « Workfront ») et saisissez l’URL du serveur MCP souhaité :
+1. Attribuez à l’application le nom souhaité (par exemple, « Workfront ») et saisissez l’URL du serveur MCP :
 
-   | Région | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | UE | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Assurez-vous que l’authentification est définie sur **OAuth** (défini par défaut), puis cochez la case d’acceptation pour continuer.
 1. Une fois l’application créée, une fenêtre de connexion s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Veillez à sélectionner l’instance Workfront souhaitée si vous appartenez à plusieurs instances.
-
-   >[!NOTE]
-   >
-   >Votre instance Workfront doit se connecter au serveur MCP correspondant à la région pour cette instance. Par exemple, une instance UE doit se connecter au serveur MCP UE.
-   >
-   >Lors de la sélection d’une instance, les instances qui ne sont pas compatibles avec la région du serveur MCP apparaissent grisées et vous ne pouvez pas vous y connecter.
-   >
-   >Pour vous connecter à une instance qui n’est pas compatible avec la région du serveur MCP, configurez une nouvelle connexion MCP avec l’URL appropriée pour cette région.
 
 
 ### Personnaliser le comportement de ChatGPT avec les TPG personnalisés

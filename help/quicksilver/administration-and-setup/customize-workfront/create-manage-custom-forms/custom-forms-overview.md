@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 72%
 
 ---
@@ -54,12 +54,12 @@ Vous pouvez ajouter les types de champs personnalisés suivants à un formulaire
 
 * Texte sur une seule ligne
 * Paragraphe
-* Texte avec formatage
+* Texte enrichi
 * Liste déroulante à sélection unique
 * Menu déroulant multi-sélection
 * Recherche externe
+* Recherche interne
 * Référence de champ native
-* Frappe continue
 * Connexion au champ Planning
 * Calculé
 * Date
@@ -97,6 +97,7 @@ Les utilisateurs et utilisatrices peuvent associer des formulaires personnalisé
 * Itération
 * Enregistrement de facturation
 * Carte tarifaire
+* Affectation
 
 Pour plus d’informations sur l’association de formulaires personnalisés à des objets, consultez [Ajouter un formulaire personnalisé à un objet](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

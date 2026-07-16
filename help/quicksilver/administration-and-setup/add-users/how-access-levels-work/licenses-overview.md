@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 99%
+source-wordcount: 381
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ Au lieu d’attribuer une licence à un utilisateur ou à une utilisatrice, vous
 
 Ce tableau et ce diagramme montrent les principaux niveaux d’accès à Workfront :
 
-| Licence | Niveau d’accès associé |
+| Licence de workflow | Niveau d’accès associé |
 |--- |--- |
 | Standard | Administration système, Standard |
 | Léger | Léger |
@@ -65,9 +65,9 @@ Pour plus d’informations, consultez les sections [Vue d’ensemble des niveaux
 
 ## Nombre de licences
 
-Lorsque vous accordez un niveau d’accès à un utilisateur ou à une utilisatrice, le nombre de licences disponibles est réduit d’1.
+Lorsque vous attribuez un niveau d’accès associé à une licence à un utilisateur, le nombre de licences disponibles est réduit de 1.
 
-Par exemple, si vous attribuez le niveau d’accès Standard à un utilisateur ou à une utilisatrice, le nombre de licences Standard disponibles est réduit d’1.
+Par exemple, si vous attribuez à un utilisateur le niveau d’accès Standard associé à une licence Workflow Standard, le nombre de licences Standard disponibles est réduit de 1.
 
 Vous pouvez consulter les licences et les niveaux d’accès affectés à vos utilisateurs et à vos utilisatrices. Pour plus d’informations, consultez la section [Liste des niveaux d’accès et des licences de vos utilisateurs et de vos utilisatrices](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 

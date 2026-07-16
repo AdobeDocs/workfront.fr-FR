@@ -23,7 +23,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 90%
@@ -31,8 +31,6 @@ ht-degree: 90%
 ---
 
 # Configurer des informations de base pour votre système
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +82,7 @@ Pour accéder à la page Infos client :
    | Section | Plus d’informations |
    |---------|-----------------|
    | **Informations de base** | Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configurer les informations de base](#configure-basic-info). |
-   | <span class="preview">**Présentation du stockage**</span> | <span class="preview">Pour plus d’informations sur la vérification de l’utilisation et du quota de stockage du document, voir [Vérifier les limites de stockage du document](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Présentation du stockage** | Pour plus d’informations sur la vérification de l’utilisation et du quota de stockage de documents, voir [Vérifier les limites de stockage de documents](../../documents/managing-documents/check-document-storage.md). |
    | **Paramètres de la clé API** | Pour plus d’informations sur les paramètres de la clé API, voir [Gérer les clés API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
    | **Liste autorisée d’adresses IP** | Pour plus d’informations sur l’ajout des adresses IP à votre liste autorisée pour l’emplacement où vos utilisateurs et utilisatrices peuvent accéder à Workfront, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
    | **E-mail** | Pour plus d’informations sur l’ajout d’e-mails à votre place sur la liste autorisée, voir [Configurer votre e-mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |

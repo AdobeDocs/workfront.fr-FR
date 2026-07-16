@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 92%
+source-wordcount: 404
+ht-degree: 82%
 
 ---
 
@@ -60,7 +60,7 @@ Pour plus d’informations sur la manière dont les utilisateurs configurent les
    <td> <p>Si vous ajoutez le champ à un formulaire personnalisé :</p> 
     <ul> 
      <li>Vous pouvez modifier les paramètres liés au formulaire pour le champ, tels que sa logique d’affichage, son ordre parmi les autres champs du formulaire, s’il s’agit d’un champ obligatoire du formulaire et la possibilité de le supprimer du formulaire.</li> 
-     <li>Vous ne pouvez pas modifier les paramètres liés au champ, tels que son libellé, son nom et son type.</li> 
+     <li>Vous ne pouvez pas modifier les paramètres liés au champ, tels que son libellé, son nom d’API et son type.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Pour plus d’informations sur la manière dont les utilisateurs configurent les
      <li>Gérer</li> 
      <li>Modifiable à l’échelle du système</li> 
     </ul> </td> 
-   <td>Vous pouvez ajouter le champ aux formulaires personnalisés et modifier tous les paramètres liés au champ, tels que le libellé, le nom et le type.</td> 
+   <td>Vous pouvez ajouter le champ aux formulaires personnalisés et modifier tous les paramètres liés au champ, tels que le libellé, le nom de l’API et le type.</td> 
   </tr> 
   <tr> 
    <td> 

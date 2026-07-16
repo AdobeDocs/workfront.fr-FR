@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 90%
+source-wordcount: 1485
+ht-degree: 88%
 
 ---
 
@@ -177,14 +177,14 @@ Le système génère une entrée de journal d’audit d’un champ personnalisé
 * Crée un champ personnalisé.
 * Modifie un champ personnalisé :
 
-   * Modifie le nom, le libellé, les instructions ou le format.
+   * Modifie le nom, le libellé, les instructions ou le format de l’API
    * Modifie le type d’affichage.
 
      Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, paragraphe, liste déroulante, case à cocher, case d’option.
 
    * Modifie la taille du champ.
 
-     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, paragraphe, texte avec formatage.
+     Cette option n’est disponible que si le champ possède l’un des types suivants : une seule ligne, paragraphe, texte enrichi
 
    * Ajoute, supprime ou masque un choix de champ.
    * Modifie une valeur ou un libellé de choix de champ.
@@ -211,7 +211,7 @@ Le système génère une entrée de journal d’audit de formulaire personnalis�
    * Modifie un calcul dans un champ personnalisé.
    * Masque ou affiche la formule associée à un champ calculé dans le texte de survol Instructions.
    * Active ou désactive la mise à jour des calculs précédents.
-   * Ajoute ou modifie une logique de saut ou une logique d’affichage.
+   * Ajoute ou modifie la logique du champ
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 12%
@@ -16,8 +16,6 @@ ht-degree: 12%
 ---
 
 # Gérer les cartes tarifaires
-
-{{highlighted-preview}}
 
 Une carte tarifaire représente l’accord contractuel avec votre client dans lequel des taux horaires sont définis pour les fonctions qui termineront le travail. Dans une carte tarifaire, vous pouvez définir plusieurs taux de facturation par fonction, en fonction d’attributs tels que l’agence, l’emplacement ou le centre de coûts. Vos attributs de taux uniques sont configurés dans la zone Configuration . Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
@@ -142,13 +140,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Comme chaque taux est associé à la combinaison du rôle et des attributs pour créer un taux unique, le rôle et les attributs ne peuvent pas être modifiés lorsque vous modifiez un taux.
 
-<div class="preview">
-
 1. Pour ajouter un taux à un endroit précis dans la liste des taux en vigueur à date, pointez sur le taux et sélectionnez le menu **Plus** à droite du nom du taux. Choisissez ensuite **Insérer une ligne au-dessus** ou **Insérer une ligne au-dessous**.
 
    La zone Modifier le taux de facturation s’affiche, avec la ligne du nouveau taux de facturation ajoutée à l’endroit où vous l’avez placé. Le taux que vous avez sélectionné pour ajouter une ligne au-dessus ou en dessous est mis en surbrillance avec une ligne bleue. Ajoutez le nouveau taux de facturation, ajustez les dates d’effet sur les taux de facturation existants selon les besoins, puis cliquez sur **Enregistrer**.
-
-</div>
 
 1. Pour supprimer un taux de facturation de la carte tarifaire, cochez la case en regard du taux et cliquez sur [!UICONTROL **Supprimer**] dans la barre d’actions.
 1. Pour verrouiller un taux, activez la case à cocher en regard du taux et cliquez sur [!UICONTROL **Verrouiller**] dans la barre d’actions.

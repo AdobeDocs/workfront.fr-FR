@@ -11,24 +11,18 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 80%
+source-wordcount: 334
+ht-degree: 87%
 
 ---
 
 # Vue d’ensemble des chemins de navigation
 
-{{highlighted-preview}}
-
 Les chemins de navigation affichent la hiérarchie de navigation complète pour tous les types d’objets. Chaque objet du chemin de navigation comporte un libellé qui affiche le type d’objet. La page sur laquelle vous vous trouvez actuellement s’affiche à la fois dans l’en-tête de la page et à la fin du chemin de navigation en italique. Dans l’exemple ci-dessous, il s’agit de la tâche « [!UICONTROL Partager avec l’équipe de marque] ».
 
-<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-![&#x200B; Chemin de navigation réduit &#x200B;](assets/collapsed-breadcrumb-2026.png)
-
-Exemple d’image dans l’environnement de production :
-![Chemin de navigation réduit](assets/NWE-collapsed-breadcrumb.png)
+![Chemin de navigation réduit](assets/collapsed-breadcrumb-2026.png)
 
 Lorsqu’il y a trop d’objets dans le chemin de navigation ou que la largeur d’écran empêche l’affichage de la hiérarchie de navigation complète, le chemin réduit certains chemins de navigation et regroupe ces objets au début du chemin de navigation. Le projet et la page d’objet active sont toujours visibles dans le chemin de chemin de navigation.
 
@@ -36,11 +30,7 @@ Par exemple, « 3 autres » dans l’image ci-dessus indique que 3 objets ne 
 
 Cliquer sur « [!UICONTROL Plus] » vous permet de développer la hiérarchie complète. Vous pouvez cliquer sur « [!UICONTROL Moins] » pour réduire à nouveau le chemin de navigation.
 
-<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
-![&#x200B; Chemin de navigation réduit &#x200B;](assets/expanded-breadcrumb-2026.png)
-
-Exemple d’image dans l’environnement de production :
-![Chemin de navigation développé](assets/NWE-expanded-breadcrumb.png)
+![Chemin de navigation réduit](assets/expanded-breadcrumb-2026.png)
 
 Vous pouvez également utiliser les touches suivantes pour parcourir les chemins de navigation :
 
