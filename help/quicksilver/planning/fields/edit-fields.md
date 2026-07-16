@@ -9,22 +9,15 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 21%
+source-wordcount: 1038
+ht-degree: 22%
 
 ---
 
@@ -32,10 +25,11 @@ ht-degree: 21%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +146,8 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 * Vous pouvez modifier la configuration des éléments de champ suivants après avoir enregistré le champ :
 
    * Nom ou description d’un champ
-   * Les options d’un champ à sélection unique ou à sélection multiple <span class="preview">et leurs choix par défaut</span>.
-   * <span class="preview">Choix par défaut d’un champ Personnes.</span>
+   * Options d’un champ à sélection unique ou à sélection multiple et leurs choix par défaut.
+   * Les choix par défaut d’un champ Personnes .
    * Expression d’un champ de formule.
 
   >[!WARNING]
@@ -165,7 +159,7 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
   >Les autres utilisateurs ne sont pas informés que la configuration du champ a changé.
 
 * Vous pouvez modifier des champs de recherche existants à partir d’enregistrements connectés.
-* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [&#x200B; Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
+* Outre la modification du champ décrite dans la section [Modifier les paramètres de champ](#edit-field-settings-1) de cet article, vous pouvez modifier les choix d’un champ à sélection unique ou multiple lorsque vous modifiez un enregistrement dans la vue Tableau, au fur et à mesure que vous mettez à jour les valeurs de champ. Pour plus d&#39;informations, reportez-vous à la section [ Ajouter de nouveaux choix à un champ de sélection existant lors de la modification d&#39;enregistrements en mode Tableau ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de cet article.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -209,14 +203,10 @@ this is not yet true, but it might come later:
    >
    >* Lorsque vous modifiez les configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’existe aucun avertissement ni journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui consultent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 
-1. <span class="preview">(Conditionnel) Si le champ que vous mettez à jour fait partie d’un formulaire de demande, la zone **Vérifier les modifications apportées au champ** s’affiche pour indiquer les formulaires qui seront affectés par vos modifications. Effectuez l’une des opérations suivantes </span>
-
-   <div class="preview">
+1. (Conditionnel) Si le champ que vous mettez à jour fait partie d’un formulaire de demande, la zone **Vérifier les modifications apportées au champ** s’affiche pour indiquer les formulaires qui seront affectés par vos modifications. Utilisez l’une des méthodes suivantes :
 
    * Cliquez sur la flèche pointant vers la droite pour afficher les formulaires concernés par la modification, puis cliquez sur le nom du formulaire pour ouvrir le formulaire dans un nouvel onglet et décidez si vous souhaitez conserver le champ du formulaire ou apporter des modifications supplémentaires au formulaire.
    * Cliquez sur **Conserver les modifications** ce qui met à jour le champ dans toutes les zones où il s’affiche.
-
-   </div>
 
    Les informations de champ sont mises à jour pour toutes les personnes ayant accès à l’affichage de l’espace de travail.
 

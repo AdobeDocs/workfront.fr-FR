@@ -9,30 +9,25 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
+source-wordcount: 4300
 ht-degree: 34%
 
 ---
 
 # Gérer la vue chronologique
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +263,7 @@ Pour gérer une vue chronologique :
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Filtres](#add-filters)
    * [Regroupement](#add-grouping)
-   * &lbrack;Paramètres
+   * [Paramètres](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Ajouter des filtres
@@ -378,21 +373,22 @@ Pour ajouter un filtre à une vue chronologique :
 1. Cliquez sur les opérateurs ci-dessous à gauche pour indiquer comment les conditions de filtrage sont liées et doivent être appliquées :
 
    * **AND** : toutes les conditions spécifiées doivent être remplies.
-   * **OR** : l’une des conditions spécifiées doit être remplie.Il s’agit de l’option par défaut.
+   * **OR** : l’une des conditions spécifiées doit être remplie.
+Il s’agit de l’option par défaut.
 
 1. (Facultatif) Ajoutez des regroupements de filtres supplémentaires et joignez-les par des opérateurs **AND** ou **OR**.
 
-   La liste des enregistrements est filtrée automatiquement en fonction de vos critères de filtrage.  
+   La liste des enregistrements est filtrée automatiquement en fonction de vos critères de filtrage.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
-1. <span class="preview">(Facultatif et conditionnel) Si vous avez ajouté une structure de répartition à votre vue chronologique, développez le type d’enregistrement dans la liste déroulante suivante et répétez les mêmes étapes que ci-dessus pour ajouter un filtre pour un type d’enregistrement inclus dans la répartition. </span>
+1. (Facultatif et conditionnel) Si vous avez ajouté une structure de répartition à votre vue chronologique, développez le type d’enregistrement dans la liste déroulante suivante et répétez les mêmes étapes que ci-dessus pour ajouter un filtre pour un type d’enregistrement inclus dans la répartition.
 
-   <span class="preview"> Répéter pour chaque type d’enregistrement de la répartition.</span>
+   Répétez l’opération pour chaque type d’enregistrement de la répartition.
 
    ![Filtre à plusieurs niveaux avec répartition pour la vue Chronologie](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Vous pouvez filtrer les types d’enregistrements de répartition uniquement à partir de la vue Chronologie.</span>
+   Vous pouvez filtrer les types d’enregistrements de répartition uniquement à partir de la vue chronologique.
 1. (Facultatif) Cliquez sur **Filtres** ou n’importe où sur la page pour fermer la zone des filtres. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +401,8 @@ Vous pouvez regrouper des enregistrements par des informations similaires lorsqu
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue chronologique :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.&lt;!—!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --vérifier celui-ci pour l’instant-->
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
+&lt;!—!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --vérifier celui-ci pour l’instant-->
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
@@ -443,9 +440,7 @@ Pour ajouter un regroupement dans la vue chronologique :
 
 1. Dans la zone **Regrouper les enregistrements par**, effectuez un glisser-déposer des regroupements dans l’ordre approprié.
 
-1. <span class="preview"> Dans la zone **Disposition** de la zone **Regrouper les enregistrements par**, sélectionnez l’une des options suivantes :</span>
-
-   <div class="preview">
+1. Dans la zone **Disposition** de la zone **Regrouper les enregistrements par**, sélectionnez l’une des options suivantes :
 
    * **Empilés** : les regroupements s’affichent sans colonne de gauche figée et s’adaptent à la largeur des chronologies de leurs éléments.
 
@@ -609,7 +604,8 @@ Tenez compte des points suivants lors de la répartition de la chronologie des e
   Par exemple, les tâches sont liées à des projets dans Workfront. Grâce à la fonction Répartition, vous pouvez afficher les projets connectés aux campagnes dans Planning, mais pas les tâches connectées aux projets dans Workfront.
 
   Si vous souhaitez afficher à la fois les portefeuilles et les projets dans la vue chronologique d&#39;un type d&#39;enregistrement Planning Workfront, les portefeuilles et les projets doivent être connectés à l&#39;enregistrement Planning ou à un enregistrement connecté à l&#39;enregistrement Planning dont vous gérez la vue chronologique.
-* Vous ne pouvez pas afficher les marques Adobe GenStudio connectées à des types d&#39;enregistrements Planning.Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Vous ne pouvez pas afficher les marques Adobe GenStudio connectées à des types d&#39;enregistrements Planning.
+Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Vous pouvez uniquement afficher les types d’enregistrements associés à au moins deux champs de date.
 * Les champs de date des types d’enregistrement que vous souhaitez afficher dans la vue chronologique doivent être visibles dans la vue Tableau du type d’enregistrement sélectionné, sous la forme de champs de recherche.
 * Les dates de début et de fin des types d’enregistrements que vous souhaitez afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.

@@ -9,19 +9,14 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 12%
+source-wordcount: 1107
+ht-degree: 11%
 
 ---
 
@@ -29,7 +24,9 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
@@ -39,9 +36,11 @@ ht-degree: 12%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Vous pouvez appliquer un filtre à un tableau de bord Zone de travail qui contient des invites. Une invite fonctionne comme un modificateur de filtre qui applique des critères de filtrage supplémentaires afin que vous puissiez réduire encore davantage vos résultats. Ces invites peuvent être modifiées à chaque application du filtre, ce qui permet d&#39;ajuster les résultats affichés sans avoir à modifier les principaux critères de filtre du tableau de bord ou de chaque rapport.
 
@@ -122,7 +121,7 @@ Un filtre de tableau de bord permet d’appliquer un filtre commun à tous les r
 
 1. Dans le coin supérieur gauche de la page des détails du tableau de bord, cliquez sur **Filtres**. Le panneau latéral Filtres s’ouvre.
 
-1. (Conditionalt) Dans l’environnement de production, cliquez sur **Modifier les filtres** ou <span class="preview">dans l’environnement de prévisualisation, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur </span> **Modifier les filtres**. La boîte de dialogue **Filtres de tableau de bord** s’ouvre.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Modifier les filtres**. La boîte de dialogue **Filtres de tableau de bord** s’ouvre.
 
 1. (Facultatif) Pour ajouter une règle, procédez comme suit :
 
@@ -177,9 +176,7 @@ Une invite de tableau de bord permet aux utilisateurs et utilisatrices d’appli
 1. Cliquez sur **Enregistrer** pour appliquer le filtre au tableau de bord.
 
 
-1. <span class="preview">Pour enregistrer les invites par défaut, procédez comme suit après avoir enregistré l&#39;invite : </span>
-
-   <div class="preview">
+1. Pour enregistrer les invites par défaut, procédez comme suit après avoir enregistré l&#39;invite :
 
    1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Enregistrer comme invites par défaut**.
 
@@ -197,8 +194,6 @@ Une invite de tableau de bord permet aux utilisateurs et utilisatrices d’appli
    1. (Conditionnel) Si vous avez modifié les paramètres de l’invite par défaut, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Appliquer les valeurs par défaut du tableau de bord** pour revenir aux résultats de filtrage par défaut.
    1. (Facultatif) Cliquez sur **Réinitialiser les valeurs par défaut** pour remplacer les paramètres par défaut d’origine par vos modifications. Cette option n’est disponible que pour les gestionnaires de tableaux de bord.
 
-   </div>
-
 
 1. Passez à [Partie 3 : appliquer une invite de tableau de bord](#step-3-apply-a-dashboard-prompt).
 
@@ -214,7 +209,8 @@ Tous les utilisateurs ayant accès à un tableau de bord peuvent appliquer une i
 
 1. Dans le coin supérieur gauche de la page des détails du tableau de bord, cliquez sur **Filtres**. Le panneau latéral Filtres s’ouvre.
 
-1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Invites du tableau de bord appliquées** s’affiche dans le coin du widget de rapport.   ![Sélectionner la condition](assets/prompts-list.png)
+1. Dans la section **Afficher les enregistrements où...**, choisissez une condition pour une ou toutes les invites affichées. L’invite est appliquée et une balise **Invites du tableau de bord appliquées** s’affiche dans le coin du widget de rapport.
+   ![Sélectionner la condition](assets/prompts-list.png)
 
 1. Cliquez sur l’icône **Fermer** ![Icône Fermer](assets/close-icon.png) dans le coin supérieur droit pour masquer le panneau.
 

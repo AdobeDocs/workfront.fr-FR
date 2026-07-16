@@ -9,14 +9,11 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -27,9 +24,11 @@ ht-degree: 21%
 
 # Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +60,6 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 * Enregistrements
 
    * Vous pouvez partager des enregistrements avec des personnes au sein de votre organisation.
@@ -71,7 +68,7 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
   Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 
 * Vues
 
@@ -190,19 +187,19 @@ Les scénarios suivants sont possibles :
 
 Les autorisations d’enregistrement sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement, par défaut.
 
-Dans l’environnement de production, les niveaux d’autorisation des enregistrements sont les suivants :
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | Gérer | Contribuer | Afficher |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Créer | ✓ | ✓ |       |
-| Supprimer | ✓ | ✓ |       |
-| Modifier | ✓ | ✓ |       |
-| Afficher | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-Dans l’environnement de Prévisualisation, les niveaux d’autorisation des enregistrements sont les suivants :
+Voici les niveaux d’autorisation pour les enregistrements :
 
 |        | Gérer | Afficher |
 |--------|--------|-------|
@@ -228,8 +225,6 @@ Les scénarios suivants sont possibles :
 >[!NOTE]
 >
 >*Lorsque vous supprimez des autorisations d’un enregistrement, les utilisateurs conservent toujours les autorisations d’affichage de l’espace de travail et du type d’enregistrement, sauf si vous supprimez leurs autorisations de l’espace de travail.
-
-</div>
 
 ### Autorisations pour les champs d’enregistrement
 

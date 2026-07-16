@@ -9,30 +9,25 @@ exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MQlIyxTBUy5MjJPodSmtltR7HfwkYTCYZuWhZtO59v0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 13%
+source-wordcount: 679
+ht-degree: 12%
 
 ---
 
-# Ajouter une image de couverture à un enregistrement
+# Ajouter un
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +65,7 @@ Pour plus d’informations, consultez [Créer des types d’enregistrements](/he
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et <span class="preview">gérer les autorisations d’un enregistrement</span> </p>  
+   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et gérer les autorisations d’un enregistrement </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr>   
 </tbody> 
@@ -187,16 +182,12 @@ Vous pouvez personnaliser un enregistrement en ajoutant une image de couverture 
 
    L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   <!--update screen shot for new details views preview-->
-
    ![Zone d’aperçu des détails](assets/details-box.png)
 
 
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Icône Ouvrir dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet.
 
    La page de l’enregistrement s’ouvre.
-
-   <!--update screen shot for new details views preview-->
 
    ![Page de détails](assets/details-page.png)
 
@@ -220,8 +211,6 @@ La boîte de dialogue **Couverture d’enregistrement** s’ouvre dans l’ongle
 1. Cliquez sur **Utiliser l’image**.
 
    L’image est chargée en haut de la page d’aperçu ou de détails de l’enregistrement et les modifications sont enregistrées automatiquement.
-
-   <!--update screen shot for new details views preview-->
 
    ![Enregistrer la page avec l’image de couverture](assets/record-page-with-cover-image.png)
 

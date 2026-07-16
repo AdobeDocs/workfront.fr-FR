@@ -11,25 +11,16 @@ last-update: '2026-04-01T18:03:50.000Z'
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 autotag-review: '2026-06-02T14:44:07.722Z'
 TQID: 'https://experienceleague.adobe.com/8j4wtdAbRe5ViRPNyr3rpTx8O6GAauin48k0SVZhp1U'
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
-ht-degree: 76%
+source-wordcount: 675
+ht-degree: 77%
 
 ---
 
@@ -38,10 +29,11 @@ ht-degree: 76%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +54,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Partager des vues
    * Partager des espaces de travail (enregistrements et champs)
    * Partager des types d’enregistrements (enregistrements et champs)
-   * <span class="preview">Partager des enregistrements</span>
+   * Partager des enregistrements
 
 * [Architecture : index des articles](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
 
@@ -112,13 +104,13 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Vue d’ensemble de l’assistant IA d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant IA Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant faire le travail à votre place.
 
-* [Configurer les automatisations d’Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’ils sont déclenchés à partir d’un enregistrement Planning.
+* [Configurer les automatisations d’Adobe Workfront Planning ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’ils sont déclenchés à partir d’un enregistrement Planning.
 
-* [Intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing : index des articles &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de Workfront Planning.
+* [Intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing : index des articles ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de Workfront Planning.
 
 * **Fonctionnalités de création de rapports de Workfront Planning** : vous pouvez afficher les informations de Workfront Planning dans un rapport à l’aide du tableau de bord de la zone de travail de Workfront ou dans Workfront Data Connect qui utilise la technologie Snowflake. Pour plus d’informations, voir [Rapports Adobe Workfront Planning : index des articles](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md).
 
-* [Bonnes pratiques relatives à Adobe Workfront Planning : index des articles &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) : découvrez des conseils sur le déploiement d’Adobe Workfront Planning dans votre organisation à l’aide d’une stratégie qui donne la priorité à la sécurité, réduit les perturbations et offre des gains rapides.
+* [Bonnes pratiques relatives à Adobe Workfront Planning : index des articles ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) : découvrez des conseils sur le déploiement d’Adobe Workfront Planning dans votre organisation à l’aide d’une stratégie qui donne la priorité à la sécurité, réduit les perturbations et offre des gains rapides.
 
 ## Activité de version Workfront Planning
 
@@ -127,3 +119,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 Nous publions régulièrement de nouvelles fonctionnalités dans Workfront Planning.
 
 Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Workfront Planning en tant que produit autonome
+
+Les clients peuvent acheter Workfront Planning sans acheter de licence de workflow. Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).

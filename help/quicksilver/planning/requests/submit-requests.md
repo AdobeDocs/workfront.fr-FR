@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 2603
+source-wordcount: 2551
 ht-degree: 3%
 
 ---
@@ -32,10 +25,11 @@ ht-degree: 3%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -113,9 +107,7 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 ## Considérations relatives à l’envoi de requêtes à Workfront Planning
 
-* Dans l’environnement de production, vous ne pouvez pas modifier une demande dans Workfront après l’avoir envoyée.
-
-  <span class="preview">Dans l’environnement de Prévisualisation, vous ne pouvez modifier une demande envoyée qu’avant la création d’un enregistrement à partir de celle-ci. Une fois l’enregistrement créé, vous ne pouvez plus modifier la demande envoyée. </span>
+* vous ne pouvez modifier une demande envoyée qu’avant la création d’un enregistrement à partir de celle-ci. Une fois l’enregistrement créé, vous ne pouvez plus modifier la demande envoyée.
 * Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez, si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.
 * Les enregistrements créés par l&#39;envoi de formulaires de demande sont identiques aux enregistrements ajoutés par le biais de toute autre méthode dans Workfront Planning.
 
@@ -226,18 +218,16 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
 1. (Facultatif) Saisissez un commentaire dans la zone **Commentaires**.
-1. <span class="preview">(Facultatif et conditionnel) Si la demande est en attente d’approbation et que vous avez ouvert la demande, cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) à droite du nom de la demande, puis cliquez sur **Modifier** ou double-cliquez sur les champs de la demande pour les modifier. </span>
+1. (Facultatif et conditionnel) Si la demande est en attente d’approbation et que vous l’avez ouverte, cliquez sur l’icône **Plus** ![menu Plus](assets/more-menu.png) à droite du nom de la demande, puis cliquez sur **Modifier** ou double-cliquez sur les champs de la demande pour les modifier.
 
    >[!NOTE]
    >
-   >  <div class="preview">
    >
    >* La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
    >* Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
    >* Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
-   >
-   >  </div>
-1. <span class="preview">(Facultatif) Après modification de la demande, cliquez sur **Soumettre les modifications**.</span>
+
+1. (Facultatif) Après modification de la requête, cliquez sur **Envoyer les modifications**.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
 
    La page de l’enregistrement s’ouvre dans Workfront Planning.
