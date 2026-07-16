@@ -10,23 +10,15 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
 TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 1018
-ht-degree: 61%
+source-wordcount: 1070
+ht-degree: 62%
 
 ---
 
@@ -58,20 +50,22 @@ Si une ligne est absente du tableau des conditions d’accès dans un article do
   <p>Votre entreprise a peut-être acheté un package Workfront dans une ou plusieurs de ces zones.</p>
   <p>Auparavant, Workfront offrait des packages Workfront Select, Workfront Prime et Workfront Ultimate, sans faire de distinction entre les workflows, la planification, l’automatisation et l’intégration. Votre entreprise peut se trouver sur l’un de ces packages hérités. 
    <ul><li>Pour savoir quel package Adobe Workfront votre organisation utilise, et notamment si votre organisation dispose du modèle de package actuel ou hérité, contactez votre administrateur Workfront.</li>
-   <li>Pour obtenir des instructions sur la manière dont un administrateur Workfront peut localiser le package Workfront de votre organisation, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster et le package Workfront de votre organisation</a>.</li><li>Pour plus d’informations sur les packages Workfront, voir <a href="https://business.adobe.com/fr/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul> </td> 
+   <li>Pour obtenir des instructions sur la manière dont un administrateur Workfront peut localiser le package Workfront de votre organisation, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster et le package Workfront de votre organisation</a>.</li><li>Pour plus d’informations sur les packages Workfront, voir <a href="https://business.adobe.com/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> Les licences Adobe Workfront se rapportent à l’ensemble des fonctionnalités Workfront incluses dans la licence qui vous est attribuée. Par exemple, un utilisateur ou une utilisatrice peut disposer d’une licence qui inclut le marquage des tâches comme terminées et le temps de connexion, tandis qu’un autre utilisateur ou utilisatrice peut disposer d’une licence qui lui permet uniquement d’approuver des ressources ou d’envoyer des requêtes. <p> 
+   <p>Les licences Adobe Workfront peuvent faire référence aux types de licences suivants :</p>
+   <ul><li>Licences de workflow Workfront</li>
+  <li>Licences Workfront Planning</li></ul>
+
+<p>Pour connaître la licence qui vous est attribuée, contactez votre administrateur ou administratrice Workfront.</p>
+   <p>Pour plus d’informations sur les licences, consultez :</p>
    <ul>
-   <li>Pour connaître la licence qui vous est attribuée, contactez votre administrateur ou administratrice Workfront.</li>
-   <li>Pour plus d’informations sur les licences, consultez :
-   <ul>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md">Créer et modifier des niveaux d’accès personnalisés</a></li>
    <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Vue d’ensemble des nouvelles licences</a></li>
-   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences</a></li></ul></li>
-   <li>Si vous disposez du niveau d’accès correct et que vous n’y avez toujours pas accès, demandez à votre administrateur Workfront s’il a défini des restrictions supplémentaires dans votre niveau d’accès. Pour plus d’informations sur la manière dont un administrateur Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Création ou modification de niveaux d’accès personnalisés</a>.
-   </ul>
-      </p> </td> 
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Vue d’ensemble des licences</a></li></ul>
+   <p>Si vous disposez du bon niveau d’accès et que vous n’y avez toujours pas accès, demandez à votre administrateur ou administratrice Workfront s’il existe des restrictions supplémentaires à votre niveau d’accès. Pour plus d’informations sur la façon dont un administrateur ou une administratrice Workfront peut modifier votre niveau d’accès, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Créer ou modifier des niveaux d’accès personnalisés</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produit</td> 
@@ -109,7 +103,7 @@ Si une ligne est absente du tableau des conditions d’accès dans un article do
    <ul><li>Le modèle de licence actuel est basé sur le nombre d’opérations effectuées et n’a aucune limitation sur les actions qu’une organisation peut effectuer. </li>
    <li>Les licences héritées dépendent de la possibilité ou non pour les scénarios de se connecter à des applications tierces, ou de l’utilisation ou non des scénarios pour l’automatisation de Workfront uniquement. </li>
    </ul>
-   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
+   Pour plus d’informations sur l’attribution de licence Fusion, voir <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licences Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 

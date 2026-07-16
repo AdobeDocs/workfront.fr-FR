@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '733'
 ht-degree: 6%
 
 ---
@@ -44,7 +44,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront ou workflow avec un package Planning</p>
+<p>Tout Workfront ou workflow avec un package Planning</p> 
+Ou
+<p>Tout package de produit autonome Workfront Planning</p>
 
 </tr>
 
@@ -82,7 +84,7 @@ Tenez compte des points suivants lors de la configuration des autorisations d’
 
 1. Accédez à un espace de travail > menu **Plus** ![menu Plus](assets/more-menu.png) > **Paramètres** > **Types d’enregistrement**.
 
-   ![Zone des paramètres des types d&#39;enregistrements &#x200B;](assets/workspace-record-types-settings-area.png)
+   ![Zone des paramètres des types d&#39;enregistrements ](assets/workspace-record-types-settings-area.png)
 
 1. (Facultatif) Cliquez dans la cellule d’un **Type d’enregistrement** pour modifier les noms des types d’enregistrement.
 
