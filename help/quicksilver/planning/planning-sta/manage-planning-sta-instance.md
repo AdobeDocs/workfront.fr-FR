@@ -108,5 +108,5 @@ Nous vous recommandons de configurer vos préférences système au cours de la p
 
 La configuration des préférences système de Workfront Planning est similaire à leur configuration dans Workfront.
 
-Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
