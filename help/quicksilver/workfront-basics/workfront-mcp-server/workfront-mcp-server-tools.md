@@ -5,17 +5,15 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 9%
+source-wordcount: '1964'
+ht-degree: 8%
 
 ---
 
 
 # Outils de serveur MCP Adobe Workfront
-
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
 Cet article répertorie les outils que le serveur MCP [!DNL Adobe Workfront] expose à une plateforme agentic d’IA connectée. La plateforme appelle ces outils en votre nom lorsque vous lui demandez de rechercher, créer, mettre à jour ou supprimer des éléments Workfront.
 
@@ -50,6 +48,8 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Obtenir le document par ID de version | `approvals_get_document_by_version_id` | Récupère les détails du document (nom, taille, date de chargement, chargeur) pour un ID de version de document connu. | Lire |
 | Obtenir des documents par projet | `approvals_get_documents_by_project` | Répertorie les documents au sein d’un projet Workfront, avec l’ID de version actuelle de chaque document. | Lire |
 | Résoudre la portée du document | `approvals_resolve_document_scope` | Développe un projet ou un dossier dans la liste des ID de version de document qu’il contient. Prend en charge les portées de projet, de dossier et de dossier par nom. | Lire |
+| Rechercher un document | `approvals_find_document` | Recherche d’un document par nom de fichier ou ID de version de document | Lire |
+| Obtenir des documents par portée | approvals_get_documents_by_scope | Répertorier le document dans un projet ou un dossier. | Lire |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Rechercher une équipe par nom | `approvals_find_team_by_name` | Recherche l’identifiant d’une équipe Workfront par nom (correspondance approximative ou partielle). | Lire |
 | Rechercher un projet par nom | `approvals_find_project_by_name` | Recherche les projets Workfront par correspondance de noms partielle dans tout le système. | Lire |
 | Obtenir les projets par propriétaire | `approvals_get_projects_by_owner` | Répertorie les projets Workfront dont l’utilisateur appelant est le propriétaire. | Lire |
-| Obtenir la région Adobe | `approvals_get_adobe_region` | Renvoie le nom Adobe d’une région de fournisseur de cloud. | Lire |
+| Rechercher des projets | approvals_find_projects | Recherchez des projets Workfront, éventuellement filtrés par nom et/ou limités aux projets dont l’utilisateur appelant est propriétaire. | Lire |
 
 
 ## Outils de planification
@@ -142,7 +142,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Répertorier les types d’enregistrements globaux | `planning_list_global_record_types` | Répertorie tous les types d’enregistrements définis de manière centralisée (globaux) visibles pour l’utilisateur actuel. | Lire |
 | Répertorier les types d’enregistrements globaux pouvant être ajoutés | `planning_list_addable_global_record_types` | Répertorie les types d’enregistrements globaux qui peuvent être ajoutés à un espace de travail spécifique. | Lire |
 | Ajouter un type d’enregistrement global à l’espace de travail | `planning_add_global_record_type_to_workspace` | Associe un type d’enregistrement global dans un espace de travail spécifié. | Write |
-| Supprimer le type d’enregistrement global de l’espace de travail | `planning_remove_global_record_type_from_workspace` | Annule le lien d&#39;un type d&#39;enregistrement global d&#39;un espace de travail ; supprime tous ses enregistrements dans cet espace de travail. | Write |
+| Supprimer le type d’enregistrement global de l’espace de travail | `planning_remove_global_record_type_from_ws` | Annule le lien d&#39;un type d&#39;enregistrement global d&#39;un espace de travail ; supprime tous ses enregistrements dans cet espace de travail. | Write |
 | Obtenir des espaces de travail d’enregistrement externes | `planning_get_external_record_workspaces` | Recherche les espaces de travail et les types d’enregistrements connectés à un enregistrement externe spécifique. | Lire |
 | Obtenir le partage du type d’enregistrement | `planning_get_record_type_sharing` | Retourne le partage et les autorisations pour un type d’enregistrement spécifique. | Lire |
 | Modifier le partage de type d’enregistrement | `planning_modify_record_type_sharing` | Met à jour qui peut accéder à un type d’enregistrement et à quel niveau d’autorisation. | Write |
