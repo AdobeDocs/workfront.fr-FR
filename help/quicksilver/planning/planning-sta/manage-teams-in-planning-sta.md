@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -78,4 +78,3 @@ Pour plus d’informations sur l’accès nécessaire à Workfront en tant que p
    * Pointez sur le nom de l’équipe dans la liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) > **Supprimer l’équipe**
    * Sélectionnez l’équipe dans la liste, puis cliquez sur **Supprimer l’équipe** dans la barre d’outils bleue en bas de la page
 1. Cliquez sur **Oui, supprimer** pour confirmer.
-

@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 1%
@@ -132,6 +132,4 @@ Tenez compte des points suivants lorsque vous utilisez des niveaux d’accès da
 1. Cliquez sur **Désactiver** pour confirmer.
 
    Pour conserver des enregistrements historiques de votre travail, nous vous recommandons de désactiver les utilisateurs au lieu de les supprimer.
-
-
 
