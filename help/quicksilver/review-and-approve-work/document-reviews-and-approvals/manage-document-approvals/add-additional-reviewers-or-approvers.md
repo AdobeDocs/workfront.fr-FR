@@ -9,27 +9,19 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jo3N878hmvHRqo6kCepxPDk2-zlalLvqQbMjHHB8aGE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 9%
+source-wordcount: 746
+ht-degree: 13%
 
 ---
 
 # Ajouter des approbateurs ou des réviseurs supplémentaires à un workflow d’approbation de document
-
-{{highlighted-preview}}
 
 Vous pouvez ajouter d&#39;autres approbateurs ou réviseurs à un workflow d&#39;approbation de document qui a déjà des approbations en attente.
 
@@ -73,33 +65,34 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 
 
-## Ajoutez d’autres approbateurs ou réviseurs ou réviseuses dans la zone des documents hérités en production
+<!--
+## Add additional approvers or reviewers in the legacy documents area in Production
 
-Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du résumé du document :
+To add additional approvers or reviewers from the Document Summary:
 
-1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Cliquez sur le document dont vous avez besoin pour ouvrir le panneau Résumé du document correspondant.
+1. Click on the document you need and the Document Summary panel for that document will open.
 
-1. Sélectionnez la version du document auquel vous souhaitez ajouter un approbateur ou un réviseur dans le menu déroulant Version. La dernière version est sélectionnée par défaut.
+1. Select the version of the document you would like to add an approver or reviewer to in the version drop-down menu. The latest version is selected by default.
 
-1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Modifier le workflow**.
+1. Scroll down to the **Approvals** section, then click **Edit workflow**.
 
-   ![modifier le workflow d’approbation](assets/edit-approval-in-legacy.png)
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. Localisez l’étape à laquelle vous souhaitez ajouter des approbateurs ou des réviseurs, puis ajoutez le nom ou l’adresse électronique de l’utilisateur dans la zone de texte. Vous pouvez également ajouter une équipe entière si nécessaire.
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-1. Une fois leur nom ajouté, choisissez s’ils sont approbateurs ou réviseurs.
+1. Once their name is added, choose if they are an approver or reviewer. 
 
-   ![liste déroulante approbateur ou réviseur](assets/choose-approver-or-reviewer.png)
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
 
-1. Répétez les étapes 5 à 6 pour ajouter d’autres approbateurs ou réviseurs ou réviseuses.Une fois le document enregistré, les participants ajoutés reçoivent une notification par e-mail indiquant que leur approbation ou révision est nécessaire pour le document.
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
 
-<div class="preview">
-
-## Ajouter des approbateurs ou des réviseurs supplémentaires dans la zone des documents hérités de la Prévisualisation
+## Ajouter des approbateurs ou des réviseurs supplémentaires dans la zone des documents hérités
 
 Si votre organisation utilise le stockage Workfront, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront, voir [Différences entre le stockage cloud Adobe et le stockage Workfront hérité](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -128,33 +121,32 @@ Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du r�
 >
 >Pour transformer une approbation en mode de base en approbation à plusieurs étapes ou à chemins d’accès, cliquez sur **Aller à l’avancé** dans le coin supérieur droit. Vos participants existants sont conservés sous le chemin 1, étape 1. Après l’enregistrement, vous ne pouvez pas revenir au mode de base. Pour plus d’informations, voir [Créer un workflow d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-</div>
+<!--
+## Add additional approvers or reviewers in the new Documents area in Production
 
-## Ajoutez d’autres approbateurs ou réviseurs ou réviseuses dans la nouvelle zone Documents de l’environnement de production
-
-Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-
-1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
-
-1. Cliquez sur le document, puis sur l’icône **Validations** sur le côté droit de la page.
-
-   ![Ajouter des approbateurs dans le résumé du document](assets/approvals-icon-new.png)
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
-1. Cliquez sur **Modifier le workflow**.
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. Localisez l’étape à laquelle vous souhaitez ajouter des approbateurs ou des réviseurs, puis ajoutez le nom ou l’adresse électronique de l’utilisateur dans la zone de texte. Vous pouvez également ajouter une équipe entière si nécessaire.
+1. Click on the document, then click the **Approvals** icon on the right side of the page. 
 
-1. Une fois leur nom ajouté, choisissez s’ils sont approbateurs ou réviseurs.
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-   ![liste déroulante approbateur ou réviseur](assets/choose-approver-or-reviewer.png)
 
-1. Répétez les étapes 5 à 6 pour ajouter d’autres approbateurs ou réviseurs ou réviseuses.Une fois le document enregistré, les participants ajoutés reçoivent une notification par e-mail indiquant que leur approbation ou révision est nécessaire pour le document.
+1. Click **Edit workflow**.
 
-<div class="preview">
+1. Locate the stage you would like to add approvers or reviewers to, then add the user's name or email in the text box. You can also add an entire team if needed. 
 
-## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des nouveaux Documents dans l&#39;Aperçu
+1. Once their name is added, choose if they are an approver or reviewer. 
+
+   ![approver or reviewer drop-down](assets/choose-approver-or-reviewer.png)
+
+1. Repeat steps 5-6 to add additional approvers or reviewers.
+ Once you save, the participants added receive an email notification that their approval or review is needed on the document.
+-->
+
+## Ajoutez d&#39;autres approbateurs ou réviseurs à partir du Résumé du document dans la zone des nouveaux Documents
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -182,5 +174,3 @@ Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du r�
 >[!TIP]
 >
 >Pour transformer une approbation en mode de base en approbation à plusieurs étapes ou à chemins d’accès, cliquez sur **Aller à l’avancé** dans le coin supérieur droit. Vos participants existants sont conservés sous le chemin 1, étape 1. Après l’enregistrement, vous ne pouvez pas revenir au mode de base. Pour plus d’informations, voir [Créer un workflow d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
-</div>

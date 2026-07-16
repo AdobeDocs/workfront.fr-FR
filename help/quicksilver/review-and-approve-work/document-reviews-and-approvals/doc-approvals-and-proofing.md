@@ -9,22 +9,17 @@ exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/UBrLQv-1DRwZ-TO3c1SAUn8OF0yOAYnKPGrf-lSS0xM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1236
-ht-degree: 6%
+source-wordcount: 678
+ht-degree: 10%
 
 ---
 
 # Utiliser conjointement les approbations unifiées et la relecture
-
-{{highlighted-preview}}
 
 Les approbations unifiées dans Workfront présentent un nouvel ensemble de fonctionnalités qui vous aident à examiner et approuver des documents. Vous pouvez utiliser un workflow Approbations unifiées avec la visionneuse de relecture existante pour ajouter des commentaires et des balises aux documents en cours de révision.
 
@@ -37,7 +32,8 @@ Il existe des différences clés dans le workflow lors de l’utilisation conjoi
 ## Charger un document et créer une épreuve
 
 1. Accédez au projet, à la tâche ou au problème auquel vous souhaitez ajouter un document.
-1. Cliquez sur l’onglet **Documents**, puis sur le menu déroulant **Ajouter**.Ou
+1. Cliquez sur l’onglet **Documents**, puis sur le menu déroulant **Ajouter**.
+Ou
 Glissez-déposez le document dans la liste des documents.
 
    >[!NOTE]
@@ -48,55 +44,55 @@ Glissez-déposez le document dans la liste des documents.
 
 Les utilisateurs affectés en tant que participants peuvent utiliser la visionneuse de relecture pour ajouter des commentaires et des balises sur le document. Passez à la section suivante pour savoir comment ajouter des participants à la révision.
 
-## Ouvrir le résumé du document et affecter des participants à la production
+<!--
+## Open the document Summary and assign participants in Production
 
-Vous avez la possibilité d’affecter des réviseurs et des approbateurs, ou une combinaison des deux :
+You have the option to assign reviewers, approvers, or a mix of both:
 
-* **Les réviseurs** peuvent ajouter des commentaires et marquer les ressources. Une fois l’opération terminée, ils peuvent marquer leur révision comme terminée. Il n’est pas nécessaire de marquer la révision comme terminée pour que le document progresse dans le processus d’approbation.
-* Les **approbateurs** peuvent ajouter des commentaires et marquer des ressources. Ils doivent prendre la décision de faire avancer le processus d&#39;approbation.
+* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the document to move forward in the approval process.
+* **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
-Pour affecter des participants :
+To assign participants:
 
-1. Sélectionnez le document que vous avez chargé et ouvrez le résumé du document.
-   ![Ouvrir le résumé du document](assets/open-doc-summary.png)
+1. Select the document you uploaded and open the document Summary.
+    ![Open document summary](assets/open-doc-summary.png)
 
-1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Renseignez les détails suivants :
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Une décision requise (facultatif)</strong></td>
-   <td>La première personne qui prend une décision termine l’étape.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Date d’échéance (facultatif)</strong></td>
-   <td>Définissez une date d’échéance pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance spécifiée.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![nouvelle étape](assets/new-stage.png)
+   ![new stage](assets/new-stage.png)
 
-1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Demander les approbations**. Les participants sont avertis par e-mail.
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Ouvrir le résumé du document et affecter des participants dans l&#39;aperçu
+## Ouvrir le résumé du document et affecter des participants
 
 La boîte de dialogue Demander l’approbation s’ouvre en mode de base par défaut pour une approbation en une seule étape. Passez en mode avancé pour configurer les validations à plusieurs étapes ou les chemins d’accès parallèles.
 
@@ -112,58 +108,56 @@ Pour affecter des participants :
 
 1. Cliquez sur **Demander l’approbation**. Les participants sont avertis par e-mail.
 
-</div>
+<!--
+## Create a new version as needed in Production
 
-## Créez une nouvelle version selon les besoins dans l’environnement de production
+If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
-Si vous avez besoin d’une autre série d’examens et d’approbations, vous pouvez créer une nouvelle version de l’épreuve et ajouter les participants précédents, les nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants dans le résumé du document.
+To add a new version:
 
-Pour ajouter une nouvelle version :
+1. Drag and drop the new file on top of the previous document in Workfront. This automatically creates a new version. 
 
-1. Effectuez un glisser-déposer du nouveau fichier au-dessus du document précédent dans Workfront. Une nouvelle version est automatiquement créée.
+1. Once the document finishes uploading, select the document, then click **Create proof** > **Simple proof**. 
 
-1. Une fois le chargement du document terminé, sélectionnez le document, puis cliquez sur **Créer une épreuve** > **Épreuve simple**.
+1. Select the document again, and open the document Summary.
+    ![Open document summary](assets/open-doc-summary.png)
 
-1. Sélectionnez à nouveau le document, puis ouvrez le résumé du document.
-   ![Ouvrir le résumé du document](assets/open-doc-summary.png)
-
-1. Faites défiler l’écran jusqu’à la section **Validations**, puis cliquez sur **Créer un workflow**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Renseignez les détails suivants :
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Nom de l’étape</strong></td>
-   <td>Ajoutez un nom d’étape. Vous pouvez remplacer le nom par un nom plus explicite, tel que <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Une décision requise (facultatif)</strong></td>
-   <td>La première personne qui prend une décision termine l’étape.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Date d’échéance (facultatif)</strong></td>
-   <td>Définissez une date d’échéance pour l’approbation. Les utilisateurs et les équipes sont avertis par e-mail 72 heures, puis 24 heures avant la date d’échéance spécifiée.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres étapes si nécessaire.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Si vous ajoutez plusieurs étapes, le workflow d’approbation se poursuit dans l’ordre dans lequel elles sont répertoriées. Lorsque toutes les décisions requises sont prises, l’étape suivante commence et l’étape précédente est verrouillée.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![nouvelle étape](assets/new-stage.png)
+   ![new stage](assets/new-stage.png)
 
-1. Une fois que vous avez ajouté tous les réviseurs et approbateurs, cliquez sur **Demander les approbations**. Les participants sont avertis par e-mail.
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Créez une nouvelle version selon vos besoins dans l’aperçu
+## Créez une version selon vos besoins.
 
 Si vous avez besoin d’une autre série d’examens et d’approbations, vous pouvez créer une nouvelle version de l’épreuve et ajouter les participants précédents, les nouveaux participants ou une combinaison des deux. Vous pouvez afficher des informations sur les versions précédentes et les participants dans le résumé du document.
 
@@ -184,8 +178,6 @@ Pour ajouter une nouvelle version :
 1. Configurez le workflow de validation. Pour la description des champs, le bouton (bascule) Mode avancé et le flux de chemins d’accès parallèles, voir [Création d’un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 1. Cliquez sur **Demander l’approbation**. Les participants sont avertis par e-mail.
-
-</div>
 
 ## Examinez le BAT et prenez une décision
 
