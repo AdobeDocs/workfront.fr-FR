@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 6%
+source-wordcount: '2885'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,8 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!IMPORTANT]
 >
->Aperçu et production pour tous les clients : 16 juillet 2026Hors planning&rbrack;{type=Neutral}
+>Aperçu et production pour tous les clients : 16 juillet 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 
 Cette version introduit une gestion des accès automatisée et basée sur les droits pour les données Workfront Planning dans Snowflake dans le cadre de Workfront Data Connect.
@@ -57,7 +58,9 @@ L’article [Dictionnaire de données de Workfront Data Connect](/help/quicksilv
 
 >[!NOTE]
 >
->Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 7 juillet 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Les responsables Workspace peuvent désormais définir une règle d’autorisation par défaut (Ouverte ou Restreinte) pour chaque type d’enregistrement, de sorte que les enregistrements nouvellement créés soient automatiquement protégés sans aucune étape manuelle.
 
@@ -73,7 +76,9 @@ Pour plus d’informations, voir [Définition des autorisations par défaut pour
 
 >[!NOTE]
 >
->Aperçu : 7 juillet 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 7 juillet 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Les vues chronologiques regroupées prennent désormais en charge une disposition en couloir, les groupes étant rendus sous la forme d’une colonne d’en-tête gauche figée au lieu de bandes horizontales défilantes. Ce type de regroupement s&#39;ajoute au regroupement empilé actuel.
 
@@ -86,11 +91,27 @@ Tous les utilisateurs qui consultent la vue peuvent voir les regroupements appli
 Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 
+## Éléments récemment consultés dans la zone de recherche globale
+
+>[!NOTE]
+>
+>Aperçu et production pour tous les clients : 30 juin 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+La zone de recherche globale de Planning mémorise désormais vos recherches les plus récentes : les 7 derniers espaces de travail, types d&#39;enregistrements et vues visités sont affichés dans des sections dédiées clairement étiquetées afin que vous puissiez y accéder rapidement sans avoir à exécuter à nouveau une requête.
+
+Les résultats récents respectent les autorisations actuelles et la liste des éléments les plus récents est visuellement distincte des résultats de recherche en direct. Comme auparavant, vous pouvez accéder à la recherche à partir de la page de destination Planning ou de n’importe quelle page à l’aide d’une combinaison de clavier.
+
+Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+
 ## Prise en charge des champs de planification monétaire dans les tableaux de bord de la zone de travail
 
 >[!NOTE]
 >
->Aperçu : 25 juin 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 25 juin 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais inclure des champs de planification monétaire dans des rapports de tableau, d’indicateur de performance clé et de graphique dans les tableaux de bord Zone de travail.
 
@@ -102,7 +123,9 @@ Pour plus d’informations, voir [Utilisation des champs de devise dans les tabl
 
 >[!NOTE]
 >
->Aperçu : 22 juin 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 22 juin 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Nous avons mis à jour l’aspect de la commande Couleurs de ligne en mode Tableau.
 
@@ -112,7 +135,9 @@ Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Aperçu : 18 juin 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 18 juin 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Lorsque vous créez un champ à sélection unique et multiple ou un champ de type Personnes , vous pouvez désormais indiquer une valeur par défaut pour ces champs. Les valeurs par défaut seront toujours appliquées lorsque le champ est visible sur un enregistrement.
 
@@ -124,7 +149,9 @@ Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/plan
 
 >[!NOTE]
 >
->Aperçu : 11 juin 2026Version rapide de production : 15 juillet 2026Production pour tous : 16 juillet 2026
+>Aperçu : 11 juin 2026
+>Version rapide de production : 15 juillet 2026
+>Production pour tous : 16 juillet 2026
 
 Nous avons mis à jour l’aspect de la vue Tableau pour les zones suivantes dans Workfront Planning :
 
@@ -155,7 +182,9 @@ Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Aperçu et production pour tous les clients : 5 juin 2026Disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing.Hors planning&rbrack;{type=Neutral}
+>Aperçu et production pour tous les clients : 5 juin 2026
+>Disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing.
+>[!BADGE Hors planning]{type=Neutral}
 
 
 Pour vous permettre d’ajouter des marques à vos campagnes en commençant par envoyer une demande, vous pouvez désormais ajouter le champ d’enregistrement connecté Marques à un formulaire de demande Planning.
@@ -169,7 +198,9 @@ Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Wo
 
 >[!NOTE]
 >
->Aperçu : 1er juin 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 1er juin 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 
 Nous avons ajouté l’onglet Exemples d’espaces de travail à la zone de destination Planification où vous pouvez afficher des exemples d’espaces de travail des bonnes pratiques. Les espaces de travail ne sont pas modifiables. Les responsables Workspace peuvent modifier les vues dans les exemples d’espaces de travail. L’onglet est visible pour les utilisateurs d’Administration standard et système.
@@ -186,7 +217,8 @@ Pour plus d’informations, voir [&#x200B; Présentation des espaces de travail 
 
 >[!NOTE]
 >
->Disponible pour tous les clients : 28 mai 2026Hors planning&rbrack;{type=Neutral}
+>Disponible pour tous les clients : 28 mai 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 La version 2 de l’API Workfront Planning est désormais disponible et étend considérablement les fonctionnalités de la version 1.
 
@@ -213,7 +245,9 @@ Pour connaître les spécifications de l’API Workfront Planning, consultez la 
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 
 Vous pouvez désormais ajuster les autorisations d’enregistrements individuels pour contrôler qui peut les gérer dans un type d’enregistrement.
@@ -242,7 +276,9 @@ Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilve
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Pour réduire les clics et vous aider à trouver rapidement les types d’enregistrements dont vous avez besoin, nous avons amélioré l’expérience d’ajout d’enregistrements afin qu’ils soient plus rapides et plus intuitifs lorsque vous ajoutez des types d’enregistrements globaux à un autre espace de travail.
 
@@ -256,7 +292,10 @@ Pour plus d’informations, voir [Ajouter des types d’enregistrements existant
 
 >[!NOTE]
 >
->Aperçu : 28 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026Dans Beta &rbrack;{type=Neutral}
+>Aperçu : 28 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
+>[!BADGE Dans Beta &#x200B;]{type=Neutral}
 
 Vous pouvez désormais utiliser Adobe Planning Designer optimisé par l’IA pour configurer facilement vos espaces de travail et vos structures de données. Planning Designer prend en charge de nombreux éléments, de la création et la configuration des espaces de travail à la définition de champs et de formules, la gestion des enregistrements, la révision de l&#39;historique des modifications et la création de vues personnalisées.
 
@@ -271,7 +310,9 @@ Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Des
 
 >[!NOTE]
 >
->Aperçu et production pour tous : 28 mai 2026Disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing et de Adobe Experience Manager.Hors planning&rbrack;{type=Neutral}
+>Aperçu et production pour tous : 28 mai 2026
+>Disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing et de Adobe Experience Manager.
+>[!BADGE Hors planning]{type=Neutral}
 
 Pour améliorer l’intégrité des données, nous avons publié une synchronisation transparente des métadonnées entre les types d’enregistrements GenStudio for Performance Marketing et AEM Assets lorsque les AEM Assets sont liés à des types d’enregistrements GenStudio dans Workfront Planning.
 
@@ -287,7 +328,9 @@ Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Ad
 
 >[!NOTE]
 >
->Aperçu et production pour tous : 28 mai 2026Disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing et de Adobe Experience Manager.Hors planning&rbrack;{type=Neutral}
+>Aperçu et production pour tous : 28 mai 2026
+>Disponible uniquement pour les clients Adobe Workfront Planning qui disposent également d’Adobe GenStudio for Performance Marketing et de Adobe Experience Manager.
+>[!BADGE Hors planning]{type=Neutral}
 
 Pour améliorer l’intégrité des données, nous avons publié une synchronisation transparente des métadonnées entre les types d’enregistrements Planning dans l’espace de travail GenStudio et les fragments de contenu AEM lorsque les fragments de contenu sont liés à des campagnes GenStudio for Performance Marketing.
 
@@ -302,7 +345,9 @@ Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Ad
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 27 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Plusieurs types de champs dans la vue Liste ont été mis à jour afin d’inclure la navigation au clavier et d’autres améliorations.
 
@@ -328,7 +373,8 @@ Pour plus d’informations, voir [Gérer la vue Liste dans Adobe Workfront Plann
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026\
+>Aperçu : 27 mai 2026
+>Version rapide de production : 11 juin 2026\
 >Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais ajouter des champs de référence Workfront en tant que champs de recherche lors de la connexion d&#39;un type d&#39;enregistrement Planning à un type d&#39;objet Workfront.
@@ -341,7 +387,9 @@ Pour plus d’informations, consultez la section [Connecter des types d’enregi
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 27 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais filtrer les informations dans la vue chronologique en fonction de critères correspondant aux objets inclus dans la répartition des enregistrements.
 
@@ -353,7 +401,9 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 27 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Nous vous rappelons que les champs d’enregistrement que vous modifiez ou supprimez peuvent avoir une incidence sur les formulaires de demande qui contiennent ces champs. Vous aurez désormais la possibilité de passer en revue les formulaires concernés et de vous assurer que les modifications que vous souhaitez apporter aux champs n’auront aucune incidence sur les informations existantes.
 
@@ -363,7 +413,9 @@ Pour plus d’informations, voir [Modifier les paramètres de champ](/help/quick
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 27 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais modifier les demandes Planning après les avoir envoyées, avant qu&#39;un enregistrement ne soit créé à partir de la demande.
 
@@ -381,7 +433,8 @@ Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Plannin
 
 >[!NOTE]
 >
->Aperçu et production pour tous les clients : 14 mai 2026Hors planning&rbrack;{type=Neutral}
+>Aperçu et production pour tous les clients : 14 mai 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 Pour une meilleure visibilité lorsque vous utilisez des fragments de contenu AEM connectés à des enregistrements Workfront Planning, nous avons ajouté une fenêtre d’aperçu qui affiche des informations sur les fragments dans Workfront Planning.
 
@@ -393,7 +446,9 @@ Pour plus d’informations, consultez [Connecter des enregistrements](/help/quic
 
 >[!NOTE]
 >
->Aperçu et production pour tous les clients : 14 mai 2026Disponible uniquement pour les clients et clientes Adobe Workfront Planning qui disposent également de Adobe Experience Manager.Hors planning&rbrack;{type=Neutral}
+>Aperçu et production pour tous les clients : 14 mai 2026
+>Disponible uniquement pour les clients et clientes Adobe Workfront Planning qui disposent également de Adobe Experience Manager.
+>[!BADGE Hors planning]{type=Neutral}
 
 Vous pouvez désormais ajouter les champs de recherche suivants lorsque vous connectez un type d’enregistrement Planning à un fragment de contenu AEM :
 
@@ -412,7 +467,9 @@ Pour plus d’informations, consultez la section [Connecter des types d’enregi
 
 >[!NOTE]
 >
->Aperçu : 14 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 14 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Pour une meilleure flexibilité de visualisation de vos informations dans la page de détails d&#39;un enregistrement, nous avons introduit la possibilité de créer des vues personnalisées pour cette page.
 
@@ -427,7 +484,8 @@ Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x
 >[!NOTE]
 >
 >Aperçu : 14 mai 2026\
->Production rapide : 11 juin 2026Production pour tous : 16 juillet 2026
+>Production rapide : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Vous pouvez désormais regrouper vos informations dans la page Enregistrements connectés à des projets d’un enregistrement dans Workfront Planning. Cette fonctionnalité n&#39;existait pas dans ce domaine avant cette amélioration.
 

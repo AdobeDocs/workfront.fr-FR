@@ -12,10 +12,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
-ht-degree: 22%
+source-wordcount: 608
+ht-degree: 19%
 
 ---
 
@@ -87,3 +87,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Présentation de la recherche globale
+
+Sur la page de destination Planning, vous pouvez utiliser la zone de recherche globale pour rechercher les objets Planning suivants :
+
+* Espaces de travail
+* Types d’enregistrements
+* Vues
+
+![Zone de recherche globale](assets/global-search-box.png)
+
+Tenez compte des points suivants concernant l’utilisation de la recherche globale :
+
+* Vous pouvez accéder à la recherche à partir de la page de destination Planning ou de n&#39;importe quelle page Planning en appuyant sur la combinaison de clavier suivante :
+
+   * CTRL+K pour Windows
+   * ⌘+K pour Mac
+* Les 7 derniers résultats de chaque objet s’affichent dans la zone de recherche.
+* Vous pouvez effectuer une recherche générale ou sélectionner un objet et rechercher des listes individuelles.
+
+
