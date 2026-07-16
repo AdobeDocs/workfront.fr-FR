@@ -86,7 +86,7 @@ Tenez compte des points suivants lors de la configuration des autorisations d’
 
 1. Accédez à un espace de travail > menu **Plus** ![menu Plus](assets/more-menu.png) > **Paramètres** > **Types d’enregistrement**.
 
-   ![Zone des paramètres des types d&#39;enregistrements ](assets/workspace-record-types-settings-area.png)
+   ![Zone des paramètres des types d&#39;enregistrements &#x200B;](assets/workspace-record-types-settings-area.png)
 
 1. (Facultatif) Cliquez dans la cellule d’un **Type d’enregistrement** pour modifier les noms des types d’enregistrement.
 
