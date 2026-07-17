@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
+source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1992'
 ht-degree: 8%
 
 ---
@@ -208,6 +208,7 @@ Les outils de workflow sont les actions d’usage général que la plateforme ag
 | Mettre à jour l’objet | `workflow_update_any_object` | Met à jour les champs d’un objet Workfront existant. | Write |
 | Supprimer l’objet | `workflow_delete_any_object` | Supprime un objet Workfront par ID. Nécessite une confirmation explicite de l’utilisateur avant l’exécution de l’action. | Write |
 | Résoudre les noms de champ | `workflow_resolve_field_names_any_object` | Convertit les noms ou les libellés des champs fournis par l’utilisateur aux noms des champs de l’API Workfront sous-jacents afin que la plateforme agentique d’IA puisse créer des requêtes précises. | Lire |
+| Lire la documentation des workflows | `workflow_read_workflow_docs` | Charge la documentation du workflow Workfront, y compris les guides d’utilisation des outils et les playbooks d’opérations spécifiques aux objets. Il s’agit de la première étape obligatoire avant d’effectuer des actions de workflow. | Lire |
 
 ### Commentaires
 
