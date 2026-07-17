@@ -19,26 +19,27 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 855
-ht-degree: 24%
+source-wordcount: 820
+ht-degree: 28%
 
 ---
 
 # Ajouter une miniature à un enregistrement
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
 
-Vous devez créer des types d&#39;enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
-Pour plus d’informations, voir [Création de types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -68,7 +69,7 @@ Pour plus d’informations, voir [Création de types d’enregistrements](/help/
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et <span class="preview">gérer les autorisations d’un enregistrement</span> </p>  
+   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et gérer les autorisations d’un enregistrement </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr>   
 </tbody> 
@@ -244,7 +245,7 @@ Vous pouvez ajouter une miniature des manières suivantes :
 
 1. (Facultatif) Pour supprimer la miniature avant de l’enregistrer, cliquez sur l’icône **Supprimer** ![Icône Supprimer l’image](assets/remove-image-icon.png) à droite de l’image.
 
-1. Cliquez sur **Utiliser l’image** pour ajouter l’image sous forme de miniature.
+1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
 Cette action ferme la boîte de dialogue **Miniature d’enregistrement**.
 La miniature s’affiche dans les zones de Workfront Planning où s’affiche l’enregistrement.
 

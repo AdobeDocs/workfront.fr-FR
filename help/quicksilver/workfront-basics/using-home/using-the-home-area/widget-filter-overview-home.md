@@ -20,18 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 22%
+source-wordcount: 881
+ht-degree: 17%
 
 ---
 
 # Vue d’ensemble des filtres du widget Page d’accueil
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 Vous pouvez utiliser des filtres sur les widgets suivants pour rechercher et organiser le travail :
 
@@ -262,53 +264,53 @@ Vous pouvez utiliser les filtres suivants dans le widget Mes événements :
 
 ## Mes demandes
 
-Dans l’environnement de production :
+Le widget Mes requêtes comprend un filtre personnalisable qui vous permet de contrôler les requêtes qui apparaissent dans le widget. Vous pouvez configurer ce filtre pour différents champs et valeurs et empiler des conditions à l’aide des opérateurs AND et OR.
+
+Pour obtenir des instructions sur la configuration du filtre dans le widget Mes requêtes, voir [Filtrer les requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) dans l’article Utilisation du widget Mes requêtes.
+
+<!--
+In the Production environment:
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tout</td> 
-      <td>Affiche toutes les requêtes envoyées, quel que soit leur statut ou leur auteur.</td> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ouvertes</td> 
-      <td> <p>Affiche toutes les demandes envoyées 
+      <td role="rowheader">Open</td> 
+      <td> <p>Displays all submitted requests 
       <ul>
-      <li>Ces rapports sont actuellement ouverts, peu importe qui les a soumis. Seules les demandes pour lesquelles vous disposez au moins d’une autorisation de visualisation s’affichent ici si vous ne les avez pas soumises vous-même.</li>
-      <li>Sans date d'achèvement effective ou dont l'objet de résolution n'a pas de date d'achèvement effective sont répertoriés dans le sous-onglet Ouvert.</li> 
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
       </ul>
       <p><b>NOTE</b> 
-      Les demandes dont le statut n’équivaut pas à « Clos » sont considérées comme ouvertes.</p> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mes demandes</td> 
-      <td>Affiche les demandes que vous avez envoyées, quel que soit leur statut. </td> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mes demandes ouvertes</td> 
-      <td> <p>Affiche les requêtes 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
       <ul>
-      <li>Que vous avez soumis et que vous êtes toujours en cours. </li> 
-      <li>Sans date d'achèvement effective ou dont l'objet de résolution n'a pas de date d'achèvement effective sont répertoriés dans le sous-onglet Mes demandes en cours.  </li> 
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
       <p><b>NOTE</b> 
-      Les demandes dont le statut n’équivaut pas à « Clos » sont considérées comme ouvertes.</p> </td> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-<div class="preview">
 
-Dans l’environnement de Prévisualisation :
 
-Le widget Mes requêtes comprend un filtre personnalisable qui vous permet de contrôler les requêtes qui apparaissent dans le widget. Vous pouvez configurer ce filtre pour différents champs et valeurs et empiler des conditions à l’aide des opérateurs AND et OR.
-
-Pour obtenir des instructions sur la configuration du filtre dans le widget Mes requêtes, voir [Filtrer les requêtes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) dans l’article Utilisation du widget Mes requêtes.
-
-</div>
+In the Preview environment:
+-->
 
 ## Mon travail
 

@@ -18,20 +18,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 11%
+source-wordcount: 514
+ht-degree: 10%
 
 ---
 
 # Demander des autorisations pour une vue ou un espace de travail
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +89,7 @@ Ou
    <ul><li><p>Affichage ou gestion d’une vue</p></li>
    <li><p>Affichage, contribution ou gestion d’un espace de travail</p></li>
    <li><p>Afficher, Contribuer ou Gérer pour un type d’enregistrement</p></li>
-   <li><p><span class="preview">Afficher ou gérer pour un enregistrement</span></p></li>
+   <li><p>Afficher ou gérer pour un enregistrement</p></li>
    </ul>  
    <p>Seuls les utilisateurs disposant d’autorisations de niveau Gérer pour un espace de travail et une vue peuvent partager une vue publiquement.</p></td> 
   </tr> 
@@ -175,9 +175,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Autorisations des requêtes
 
-Demander des autorisations pour une vue est similaire à demander une autorisation pour un espace de travail, un type d’enregistrement ou <span class="preview">un enregistrement</span>.
+Demander des autorisations pour une vue est similaire à demander une autorisation pour un espace de travail, un type d’enregistrement ou un enregistrement.
 
-Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail, un type d&#39;enregistrement, un <span class="preview">enregistrement</span> ou une vue auxquels vous n&#39;avez pas accès :
+Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail, un type d&#39;enregistrement, un enregistrement ou une vue auxquels vous n&#39;avez pas accès :
 
 1. Cliquez sur le lien partagé avec vous pour la vue ou l&#39;espace de travail.
 
@@ -187,7 +187,7 @@ Lorsqu&#39;une personne partage avec vous un lien vers un espace de travail, un 
 
    >[!NOTE]
    >
-   >Lorsque vous n’avez pas accès à un type d’enregistrement ou <span class="preview">enregistrement</span>, la page Vous n’avez pas accès à indique que vous devez avoir accès à l’espace de travail.
+   >Lorsque vous n’avez pas accès à un type d’enregistrement ou à un enregistrement, la page Vous n’avez pas accès à indique que vous devez avoir accès à l’espace de travail .
 
 
 1. (Conditionnel) Si le lien partagé correspond à une vue de l&#39;espace de travail auquel vous avez accès, cliquez sur **Ouvrir avec la vue existante**. Si vous disposez des autorisations nécessaires pour accéder à l’espace de travail, la page de type d’enregistrement s’ouvre dans la vue par défaut.

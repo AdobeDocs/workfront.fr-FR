@@ -20,18 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 33%
+source-wordcount: 440
+ht-degree: 36%
 
 ---
 
 # Supprimer des espaces de travail
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,7 +158,7 @@ Old:
 
    >[!NOTE]
    >
-   ><span class="preview">Vous ne pouvez pas supprimer les espaces de travail dans l’onglet **Exemples d’espaces de travail**. Nous vous recommandons d’utiliser le lot de modèle multi-espace de travail pour créer des espaces de travail similaires à ceux de l’onglet Exemple d’espace de travail . Pour plus d’informations, voir [Création d’espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).</span>
+   >Vous ne pouvez pas supprimer les espaces de travail dans l’onglet **Exemples d’espaces de travail**. Nous vous recommandons d’utiliser le lot de modèle multi-espace de travail pour créer des espaces de travail similaires à ceux de l’onglet Exemple d’espace de travail . Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 1. (Facultatif) Cliquez sur **Tout afficher** pour afficher des espaces de travail supplémentaires. Le lien **Tout afficher** s’affiche uniquement lorsque vous disposez de plus de deux lignes de cartes d’espace de travail.
 1. (Facultatif) Cliquez sur K **Afficher moins** pour limiter le nombre d’espaces de travail affichés à l’écran.

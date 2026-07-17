@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
-ht-degree: 76%
+source-wordcount: 675
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 76%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +63,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
    * Partager des vues
    * Partager des espaces de travail (enregistrements et champs)
    * Partager des types d’enregistrements (enregistrements et champs)
-   * <span class="preview">Partager des enregistrements</span>
+   * Partager des enregistrements
 
 * [Architecture : index des articles](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
 
@@ -127,3 +128,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 Nous publions régulièrement de nouvelles fonctionnalités dans Workfront Planning.
 
 Pour obtenir une liste à jour des fonctionnalités publiées, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Workfront Planning en tant que produit autonome
+
+Les clients peuvent acheter Workfront Planning sans acheter de licence de workflow. Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).

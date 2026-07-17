@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 3%
@@ -20,6 +20,7 @@ ht-degree: 3%
 >Les informations de cet article font référence à Adobe Workfront Planning, lorsqu’il est acheté en tant que produit autonome. Reportez-vous à cet article lorsque votre société a acheté un package Adobe Workfront Planning uniquement sans acheter de package Workfront Workflow.
 >
 >Pour plus d’informations sur Adobe Workfront Planning lorsqu’il est acheté avec un package Workfront, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 Dans Adobe Workfront Planning, vous pouvez gérer les équipes en tant que produit autonome de la même manière que dans Adobe Workfront, mais il existe certaines limites.
 
@@ -77,4 +78,3 @@ Pour plus d’informations sur l’accès nécessaire à Workfront en tant que p
    * Pointez sur le nom de l’équipe dans la liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) > **Supprimer l’équipe**
    * Sélectionnez l’équipe dans la liste, puis cliquez sur **Supprimer l’équipe** dans la barre d’outils bleue en bas de la page
 1. Cliquez sur **Oui, supprimer** pour confirmer.
-

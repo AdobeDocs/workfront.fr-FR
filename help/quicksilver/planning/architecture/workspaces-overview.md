@@ -12,18 +12,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 19%
+source-wordcount: 566
+ht-degree: 18%
 
 ---
 
 # Vue d’ensemble des espaces de travail
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +55,14 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 
    * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
    * **Autres espaces de travail** : affiche tous les autres espaces de travail du système. Cette option est réservée aux administrateurs système.
-   * <span class="preview">**Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres utilisateurs.</span>
+   * **Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres personnes.
 
   >[!NOTE]
   >
-  ><span class="preview">Nous vous recommandons de ne pas modifier les exemples d’espaces de travail, mais de les utiliser plutôt comme référence pour créer les vôtres. Utilisez le lot de modèles d’espaces de travail multiples pour créer des espaces de travail identiques à ceux répertoriés dans l’onglet Exemples d’espaces de travail . Pour plus d’informations, reportez-vous à la section « Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques » de l’article [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md). </span>
+  >Nous vous recommandons de ne pas modifier les exemples d’espaces de travail, mais plutôt de les utiliser comme référence pour créer les vôtres. Utilisez le lot de modèles d’espaces de travail multiples pour créer des espaces de travail identiques à ceux répertoriés dans l’onglet Exemples d’espaces de travail .
+  >
+  >Seuls les clients qui ont acheté un package Prime ou Ultimate Planning peuvent afficher l’onglet Exemples d’espaces de travail .
+  >Pour plus d’informations, consultez la section « Créer plusieurs espaces de travail à l’aide d’un lot de modèle multi-espace de travail conforme aux bonnes pratiques » de l’article [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 <!--
 No longer the case - they match now: 

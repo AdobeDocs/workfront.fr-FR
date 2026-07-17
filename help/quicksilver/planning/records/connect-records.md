@@ -22,20 +22,21 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3665
-ht-degree: 26%
+source-wordcount: 3723
+ht-degree: 27%
 
 ---
 
 # Connecter des enregistrements
 
+<!--
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -128,8 +129,8 @@ Vous pouvez connecter les éléments suivants :
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Autorisations de niveau Contribution ou supérieur à un espace de travail et type d’enregistrement pour connecter les enregistrements.</p>
-   <p><span class="preview">Gérer les autorisations pour l’enregistrement à partir duquel vous vous connectez</span></p>
-   <p><span class="preview">Autorisations d’affichage ou supérieures pour l’enregistrement auquel vous vous connectez</span></p>
+   <p>Gérer les autorisations pour l’enregistrement à partir duquel vous vous connectez</p>
+   <p>Autorisations d’affichage ou supérieures pour l’enregistrement auquel vous vous connectez</p>
    <p>Autorisations d’affichage ou supérieures à un espace de travail et à un type d’enregistrement pour afficher toutes les connexions aux objets et champs d’autres applications, quel que soit votre accès dans l’autre application. </p>
    <p>Autorisations d’affichage ou supérieures aux objets que vous souhaitez lier à partir de Workfront ou Experience Manager Assets. </p>
    <p>Les équipes d’administration système ont des droits sur tous les espaces de travail, y compris ceux qu’ils n’ont pas créés.</p> </td> 
@@ -467,7 +468,7 @@ Pour connecter des enregistrements à des objets Adobe Experience Manager :
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous êtes autorisé à afficher dans Experience Manager. Une fois la connexion établie, tous les utilisateurs de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
+   > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
    > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Dans l’onglet **Fragments de contenu**, sélectionnez les fragments de contenu à ajouter au champ d’enregistrement lié.

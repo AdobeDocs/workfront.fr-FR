@@ -20,19 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 26%
 
 ---
 
 # Modifier des enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +73,7 @@ Pour plus d’informations sur la création d’enregistrements, voir [Créer de
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et <span class="preview">gérer les autorisations d’un enregistrement</span> </p>  
+   <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et gérer les autorisations d’un enregistrement</p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +246,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    * Copiez une ou plusieurs valeurs existantes d&#39;un champ, puis collez-les dans un champ du même type sur un autre enregistrement
    * Cliquez sur l’en-tête de colonne d’une colonne pour la sélectionner et la copier, puis cliquez sur l’en-tête de colonne d’une autre colonne et collez le contenu de la colonne copiée. Les colonnes doivent contenir des types de champ similaires.
-   * Lorsque vous appuyez sur la touche Maj, cliquez pour sélectionner plusieurs lignes d’un tableau, copiez les informations des lignes sélectionnées, puis cliquez sur une autre ligne et collez les informations sélectionnées dans la nouvelle ligne, puis sur les lignes suivantes. <span class="preview">Cela n’est pas possible dans l’environnement de prévisualisation.</span>
+   * Lorsque vous appuyez sur la touche Maj, cliquez pour sélectionner plusieurs lignes d’un tableau, copiez les informations des lignes sélectionnées, puis cliquez sur une autre ligne et collez les informations sélectionnées dans la nouvelle ligne, puis sur les lignes suivantes. Cela n’est pas possible dans l’environnement de Prévisualisation.
    * Copiez les informations d’une cellule, puis sélectionnez plusieurs cellules et collez les mêmes informations dans plusieurs cellules. Vous pouvez sélectionner plusieurs cellules et coller les mêmes informations dans plusieurs cellules à partir de lignes et de colonnes adjacentes.
    * Sélectionnez le coin inférieur droit d’une cellule existante contenant les informations à copier, puis faites-la glisser sur les cellules adjacentes où vous souhaitez coller les mêmes informations. Toutes les cellules doivent contenir le même type d’informations.
 
@@ -253,15 +254,18 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    * Copiez une ou plusieurs cellules d’une source externe (par exemple, un fichier Excel), puis collez-les dans l’un des types de champs suivants :
 
-      * Champs de connexion Workfront Planning.
-
-        <span class="preview">Cela n’est pas possible dans l’environnement de prévisualisation.</span>
       * Champs Personnes. Seuls les champs comportant une seule valeur sont pris en charge.
       * Champs de texte.
       * Sélectionnez des champs.
       * Champs numériques, de pourcentage et monétaires.
 
-     Vous ne pouvez pas copier d’informations provenant d’une source externe et les coller dans d’autres types de champs, y compris les champs de connexion de Workfront ou d’autres applications.
+   Vous ne pouvez pas copier d’informations provenant d’une source externe et les coller dans d’autres types de champs, y compris les champs de connexion de Workfront ou d’autres applications.
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +293,12 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement et choisissez l’une des options suivantes :
 
-   * **Afficher** ou <span class="preview">**Ouvrir dans un nouvel onglet**</span> : permet d’ouvrir la page de l’enregistrement.
+   * **Afficher** ou **Ouvrir dans un nouvel onglet** : permet d’ouvrir la page de l’enregistrement.
    * **Copier le lien** : pour copier un lien vers la page de l’enregistrement.
-   * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.
+Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Dupliquer** : crée un doublon identique de l’enregistrement.
-   * **Insérer l’enregistrement ci-dessus/ Insérer l’enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. <span class="preview">Cela n’est pas possible dans l’environnement de prévisualisation.</span>
+   * **Insérer l’enregistrement ci-dessus/ Insérer l’enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. Cela n’est pas possible dans l’environnement de Prévisualisation.
    * **Supprimer** : pour supprimer l’enregistrement. Les enregistrements supprimés sont enregistrés dans la zone Récemment supprimés pendant 30 jours au maximum.
 
 
@@ -352,8 +357,6 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   <!--update screenshot for new details views preview-->
-
    ![Zone Détails](assets/details-box.png)
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
@@ -408,8 +411,6 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
      ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
 
      La page de l’enregistrement s’ouvre.
-
-     <!--update screenshot for new details views preview-->
 
      ![Page de détails](assets/details-page.png)
 

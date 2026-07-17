@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
+source-wordcount: 1252
 ht-degree: 16%
 
 ---
 
 # Créer des espaces de travail
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
       1. Après avoir ouvert la zone **Aperçu** pour chaque modèle d’espace de travail, cliquez sur **Précédent** pour revenir à la zone **Créer un espace de travail** ou cliquez sur **Utiliser des modèles** pour utiliser les modèles, y compris dans le lot, et créer des espaces de travail.
 
-   <div class="preview">
 
    * Cliquez sur l’onglet **Exemples d’espaces de travail**, puis procédez comme suit :
 
@@ -289,8 +290,6 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
          >
          >Cliquez sur une carte de type d’enregistrement dans un modèle pour afficher les champs de type d’enregistrement dans le panneau de droite.
       1. Cliquez sur **Utiliser des modèles**.
-
-   </div>
 
    Les 6 espaces de travail sont créés et s’affichent dans les onglets **Je suis** et **Tous les espaces de travail** pour les administrateurs système. Tous les utilisateurs disposant d’une licence standard verront les espaces de travail dans leur zone Espaces de travail une fois qu’un administrateur système les aura créés et qu’il aura partagé les nouveaux espaces de travail avec eux.
 

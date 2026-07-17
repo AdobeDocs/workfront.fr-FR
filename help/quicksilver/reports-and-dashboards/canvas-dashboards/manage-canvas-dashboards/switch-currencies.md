@@ -6,10 +6,10 @@ description: Vous pouvez utiliser les champs de devise dans un tableau de bord Z
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 12%
+source-wordcount: '673'
+ht-degree: 11%
 
 ---
 
@@ -18,16 +18,18 @@ ht-degree: 12%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Conditions d’accès
 
@@ -143,19 +145,18 @@ Le tableau suivant décrit les limites lorsque les devises sont définies dans l
 <ul>
 <li>Utiliser des champs de devise native dans les rapports de tableau, d’indicateur de performance clé et de graphique en zone de travail</li>
 <li>Utiliser des champs de devise personnalisés dans les rapports de graphique en zone de travail, d’ICP et de graphique</li>
+<li>Utilisez les champs de devise Planning dans un graphique en canevas, un KPI et des rapports tabulaires. </li>
 </ul>
+<p><b>NOTE</b></p>
+Si un champ Devise Planning utilise une devise sans taux de change défini, le tableau de bord Zone de travail peut afficher un message d'erreur.
 </td>
 <td>
 <ul>
 <li>Attribuer une devise par défaut au tableau de bord (à la création ou lors de la modification du tableau de bord)</li>
 <li>Afficher et utiliser le bouton (bascule) de devise au niveau du tableau de bord</li>
 <li>Verrouiller une devise spécifique pour l’affichage dans un graphique en canevas, un KPI ou un rapport tabulaire</li>
-<li>Utilisez les champs de devise Planning dans un graphique en canevas, un KPI et des rapports tabulaires <span class="preview"> dans l’environnement de production. Cette option est disponible dans l’environnement de prévisualisation.</span></li>
+
 </ul>
-
-<p><b>NOTE</b></p>
-<span class="preview">Si un champ de devise Planning utilise une devise sans taux de change défini, le tableau de bord Zone de travail peut afficher un message d'erreur lorsque.</span>
-
 </td> 
 </tr>
 </td> 
@@ -168,17 +169,19 @@ Le tableau suivant décrit les limites lorsque les devises sont définies dans l
   <li>Définir une devise par défaut pour le tableau de bord (à la création ou lors de la modification du tableau de bord)</li>
   <li>Afficher et utiliser le bouton (bascule) de devise au niveau du tableau de bord</li>
   <li>Verrouillez une devise spécifique pour l’affichage dans un graphique de zone de travail, un KPI ou un rapport de tableau pour ignorer la préférence de basculement de devise du tableau de bord</li>
+  <li>Utilisez les champs de devise Planning dans un graphique en canevas, un KPI et des rapports tabulaires. </li>
 </ul>
+<p><b>NOTE</b></p>
+
+<p>Si un champ Devise Planning utilise une devise sans taux de change défini, le tableau de bord Zone de travail peut afficher un message d'erreur.</p>
 </td>
 <td><ul>
   <li>Utiliser des champs de devise de données personnalisés dans les rapports de tableau, de graphique à zones de travail et d’ICP</li>
-  <li>Utilisez les champs de devise Planning dans un graphique en canevas, un KPI et des rapports tabulaires <span class="preview"> dans l’environnement de production. Cette option est disponible dans l’environnement de prévisualisation.</span></li>
+
 </ul>
 
 
-<p><b>NOTE</b></p>
 
-<p><span class="preview">Si un champ Devise Planning utilise une devise sans taux de change défini, le tableau de bord Zone de travail peut afficher un message d'erreur.</span></p>
 
 </td>
 </tr></table>

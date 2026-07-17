@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 21%
+source-wordcount: 1038
+ht-degree: 22%
 
 ---
 
@@ -32,10 +32,11 @@ ht-degree: 21%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +153,8 @@ Vous devez tenir compte des points suivants avant d’apporter des modifications
 * Vous pouvez modifier la configuration des éléments de champ suivants après avoir enregistré le champ :
 
    * Nom ou description d’un champ
-   * Les options d’un champ à sélection unique ou à sélection multiple <span class="preview">et leurs choix par défaut</span>.
-   * <span class="preview">Choix par défaut d’un champ Personnes.</span>
+   * Options d’un champ à sélection unique ou à sélection multiple et leurs choix par défaut.
+   * Les choix par défaut d’un champ Personnes .
    * Expression d’un champ de formule.
 
   >[!WARNING]
@@ -209,14 +210,10 @@ this is not yet true, but it might come later:
    >
    >* Lorsque vous modifiez les configurations de champ (options de champ ou expressions de formule), les enregistrements qui contiennent déjà des informations dans les champs modifiés mettent à jour leurs valeurs en temps réel. Il n’existe aucun avertissement ni journal d’audit pour les modifications de valeur déclenchées par les modifications de configuration des champs. Tous les utilisateurs qui consultent les champs verront immédiatement les nouvelles valeurs avec les modifications.
 
-1. <span class="preview">(Conditionnel) Si le champ que vous mettez à jour fait partie d’un formulaire de demande, la zone **Vérifier les modifications apportées au champ** s’affiche pour indiquer les formulaires qui seront affectés par vos modifications. Effectuez l’une des opérations suivantes </span>
-
-   <div class="preview">
+1. (Conditionnel) Si le champ que vous mettez à jour fait partie d’un formulaire de demande, la zone **Vérifier les modifications apportées au champ** s’affiche pour indiquer les formulaires qui seront affectés par vos modifications. Utilisez l’une des méthodes suivantes :
 
    * Cliquez sur la flèche pointant vers la droite pour afficher les formulaires concernés par la modification, puis cliquez sur le nom du formulaire pour ouvrir le formulaire dans un nouvel onglet et décidez si vous souhaitez conserver le champ du formulaire ou apporter des modifications supplémentaires au formulaire.
    * Cliquez sur **Conserver les modifications** ce qui met à jour le champ dans toutes les zones où il s’affiche.
-
-   </div>
 
    Les informations de champ sont mises à jour pour toutes les personnes ayant accès à l’affichage de l’espace de travail.
 

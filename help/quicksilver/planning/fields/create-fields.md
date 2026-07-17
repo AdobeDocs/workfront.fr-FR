@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 5497
+source-wordcount: 5395
 ht-degree: 39%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -356,7 +356,7 @@ Vous pouvez utiliser un champ à sélection multiple pour capturer des informati
    Cliquez sur **Personnalisé** pour sélectionner une couleur personnalisée à l’aide d’un sélecteur de couleurs ou d’un code hexadécimal.
 1. Cliquez en dehors de la zone de couleur pour la fermer.
 
-1. <span class="preview">Dans le champ **Choix par défaut**, sélectionnez par défaut les choix que vous souhaitez afficher dans ce champ. Vous pouvez choisir plusieurs options. Les utilisateurs peuvent supprimer les choix par défaut lorsqu’ils mettent à jour ce champ.</span>
+1. Dans le champ **Choix par défaut**, sélectionnez par défaut les choix que vous souhaitez afficher dans ce champ. Vous pouvez choisir plusieurs options. Les utilisateurs peuvent supprimer les choix par défaut lorsqu’ils mettent à jour ce champ.
 
 1. Cliquez sur **Créer**.
 
@@ -405,7 +405,7 @@ Les champs à sélection unique capturent des informations supplémentaires dans
 
    Cliquez sur **Personnalisé** pour sélectionner une couleur personnalisée à l’aide d’un sélecteur de couleurs ou d’un code hexadécimal.
 
-1. <span class="preview">Dans le champ **Choix par défaut**, sélectionnez par défaut le choix que vous souhaitez afficher dans ce champ. Vous ne pouvez choisir qu&#39;un seul choix. Les utilisateurs peuvent supprimer le choix par défaut lorsqu’ils mettent à jour ce champ. </span>
+1. Dans le champ **Choix par défaut**, sélectionnez par défaut le choix que vous souhaitez afficher dans ce champ. Vous ne pouvez choisir qu&#39;un seul choix. Les utilisateurs peuvent supprimer le choix par défaut lorsqu’ils mettent à jour ce champ.
 
 1. Cliquez en dehors de la zone de couleur pour la fermer.
 1. Cliquez sur **Créer**.
@@ -437,45 +437,21 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
 
 
 1. Ajoutez les informations suivantes dans l’onglet **Nouveau champ** :
+
    * **Nom** : nom du champ tel qu&#39;il apparaîtra dans une table ou la page d&#39;enregistrement. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
-   * **Format de date** : type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
-
-     En fonction de l’environnement dans lequel vous accédez aux champs, procédez comme suit :
-
-      * Dans l’environnement de production :
-
-         * Sélectionnez l’un des formats suivants :
-            * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
-            * **Standard** : 05/16/2023
-            * **Long** : 16 mai 2023
-            * **Européen** : 16/05/2023
-            * **ISO** : 2023-05-16
+   * **Format de date** : type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
+   * Sélectionnez l’un des formats suivants :
+      * **Short** : 6/9/26
+      * **&#x200B;**&#x200B;: 9 Juin 2026
+      * **Long** 9 juin 2026
       * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
-        Sélectionnez l’une des options suivantes :
+   * Sélectionnez l’une des options suivantes :
 
-         * **24h** : par exemple : 18:00
-         * **12h** : Par exemple : 18:00
-
-     <div class="preview">
-
-      * Dans l’environnement de Prévisualisation :
-
-         * Sélectionnez l’un des formats suivants :
-            * **Short** : 6/9/26
-            * **&#x200B;**&#x200B;: 9 Juin 2026
-            * **Long** 9 juin 2026
-      * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
-
-        Sélectionnez l’une des options suivantes :
-
-         * **24h** : par exemple : 18:00
-         * **12h** : Par exemple : 18:00
-      * **Utiliser le même fuseau horaire pour tous les collaborateurs**, puis sélectionner un **fuseau horaire** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)--> : sélectionnez cette option si vous souhaitez afficher le même horodatage pour toutes les personnes qui consultent le champ, quel que soit le fuseau horaire de leur utilisateur. Le fuseau horaire sélectionné est ajouté à l&#39;en-tête de colonne de ce champ.
-
-     </div>
-
+      * **24h** : par exemple : 18:00
+      * **12h** : Par exemple : 18:00
+      * **Afficher le même fuseau horaire à tous les utilisateurs**, puis sélectionner un **Fuseau horaire** : sélectionnez cette option si vous souhaitez afficher le même horodatage pour toutes les personnes qui consultent le champ, quel que soit le fuseau horaire de leur utilisateur. Le fuseau horaire sélectionné est ajouté à l&#39;en-tête de colonne de ce champ.
 
 1. Cliquez sur **Créer**.
 
@@ -696,15 +672,15 @@ Vous pouvez utiliser le type de champ Personnes pour ajouter un utilisateur à u
    >
    >    Si vous sélectionnez Autoriser plusieurs valeurs et que plusieurs personnes sont stockées dans les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner le paramètre à l’avenir lors de la modification de ce champ.
 
-1. <span class="preview">Dans le champ **Utilisateur par défaut** ou **Utilisateurs par défaut**, sélectionnez par défaut les utilisateurs que vous souhaitez afficher dans ce champ. </span>
+1. Dans le champ **Utilisateur par défaut** ou **Utilisateurs par défaut**, sélectionnez par défaut les utilisateurs que vous souhaitez afficher dans ce champ.
 
-   <span class="preview">Vous pouvez choisir plusieurs utilisateurs si vous avez également sélectionné le paramètre **Autoriser plusieurs valeurs**. </span>
+   Vous pouvez choisir plusieurs utilisateurs si vous avez également sélectionné le paramètre **Autoriser plusieurs valeurs**.
 
-   <span class="preview">Les utilisateurs peuvent supprimer les utilisateurs par défaut lorsqu’ils mettent à jour ce champ.</span>
+   Les utilisateurs peuvent supprimer les utilisateurs par défaut lorsqu’ils mettent à jour ce champ.
 
    >[!TIP]
    >
-   ><span class="preview">La désactivation des utilisateurs sélectionnés en tant qu’utilisateurs par défaut dans ce paramètre conserve les noms des utilisateurs par défaut. Cela ne supprime pas l’utilisateur désactivé de la valeur du champ et rien n’indique que l’utilisateur a été désactivé.</span>
+   >La désactivation des utilisateurs sélectionnés comme utilisateurs par défaut dans ce paramètre conserve les noms des utilisateurs par défaut. Cela ne supprime pas l’utilisateur désactivé de la valeur du champ et rien n’indique que l’utilisateur a été désactivé.
 
 1. Cliquez sur **Créer**.
 
