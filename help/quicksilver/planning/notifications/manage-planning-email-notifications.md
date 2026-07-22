@@ -9,11 +9,17 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/4MvX3EX6KfcXwk5lrq6bRU7HC6gzAI1Zgi49TMZbP7M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 614
@@ -154,7 +160,7 @@ OLD:
 
    ![Exemple de notifications par e-mail](assets/email-notification-example.png)
 
-1. (Facultatif) Cliquez sur le message dans la zone **** de l’e-mail.
+1. (Facultatif) Cliquez sur le message dans la zone **&#x200B;**&#x200B;de l’e-mail.
 
    La page des détails de l’enregistrement s’ouvre dans Workfront. Vous pouvez mettre à jour l’enregistrement ou répondre au commentaire.
 
@@ -165,7 +171,7 @@ La page **Notifications** s’ouvre dans Adobe Experience Cloud. Toutes les noti
 
 1. (Conditionnel et facultatif) Lorsqu&#39;une personne vous demande ou vous accorde des autorisations d&#39;accès à un objet Planning, accédez à l&#39;e-mail qui vous informe de la demande d&#39;autorisation. L&#39;expéditeur de l&#39;email est Adobe Experience Cloud.
 
-1. (Facultatif) Cliquez sur le message dans la zone **** de l’e-mail.
+1. (Facultatif) Cliquez sur le message dans la zone **&#x200B;**&#x200B;de l’e-mail.
 
    L’objet pour lequel vous avez demandé des autorisations s’ouvre dans Workfront.
 
