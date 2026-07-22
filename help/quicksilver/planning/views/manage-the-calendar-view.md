@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 26%
@@ -157,9 +157,9 @@ Tenez compte des points suivants :
   Vous pouvez effectuer un choix parmi les champs de date d’enregistrement ou les champs de date de recherche parmi les types d’objet ou d’enregistrement connectés.
 * Les scénarios suivants sont possibles :
 
-   * Lorsque les dates de début et de fin ne comportent aucune valeur, les enregistrements ne s’affichent pas dans le calendrier
-   * Lorsque les dates de début et de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour
-   * Lorsque la date de début est postérieure à la date de fin, l&#39;enregistrement ne s&#39;affiche pas dans le calendrier.
+  * Lorsque les dates de début et de fin ne comportent aucune valeur, les enregistrements ne s’affichent pas dans le calendrier
+  * Lorsque les dates de début et de fin n’ont aucune valeur, l’enregistrement s’affiche sous la forme d’un événement d’un jour
+  * Lorsque la date de début est postérieure à la date de fin, l&#39;enregistrement ne s&#39;affiche pas dans le calendrier.
 
 Pour gérer une vue Calendrier :
 
@@ -176,12 +176,12 @@ Pour gérer une vue Calendrier :
    * Cliquez sur **Aujourd’hui** dans le coin supérieur droit pour centrer le calendrier sur la date d’aujourd’hui.
    * Sélectionnez l’une des options suivantes dans le menu déroulant de la période pour mettre à jour les incréments de temps :
 
-      * **Mois** : les enregistrements s’affichent dans un calendrier mensuel.
+     * **Mois** : les enregistrements s’affichent dans un calendrier mensuel.
 
-      * **Semaine** : les enregistrements s’affichent dans les zones suivantes :
+     * **Semaine** : les enregistrements s’affichent dans les zones suivantes :
 
-         * Les enregistrements qui s&#39;étendent sur plusieurs jours s&#39;affichent en haut du calendrier.
-         * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
+       * Les enregistrements qui s&#39;étendent sur plusieurs jours s&#39;affichent en haut du calendrier.
+       * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
 
 1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
@@ -449,6 +449,15 @@ Mettez à jour les paramètres de la vue Calendrier pour indiquer les informatio
    Par exemple, les champs à sélection multiple ou unique peuvent avoir des options codées par couleur.
 
    Si vous n’avez pas de champ avec des options codées par couleur pour le type d’enregistrement sélectionné, cette option est grisée.
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. Cliquer sur **Enregistrer**.
