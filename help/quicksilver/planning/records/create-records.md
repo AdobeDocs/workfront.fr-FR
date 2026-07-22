@@ -1,6 +1,6 @@
 ---
 title: Créer des enregistrements
-description: Lors de l'utilisation d'Adobe Workfront Planning, un enregistrement est une instance d'un type d'enregistrement. Vous pouvez créer des enregistrements uniques pour chaque type d'enregistrement dans Workfront Planning en les ajoutant manuellement à la vue Tableau, en les important d'une liste, en les dupliquant ou en les créant lorsque vous les connectez à d'autres enregistrements.
+description: Lors de l'utilisation d'Adobe Workfront Planning, un enregistrement est une instance d'un type d'enregistrement. Vous pouvez créer des enregistrements uniques pour chaque type d'enregistrement dans Workfront Planning en les ajoutant manuellement à la vue Tableau, en les important d'une liste, en les dupliquant ou en les créant lorsque vous les connectez à d'autres enregistrements. Chaque enregistrement peut être associé à une miniature, une image de couverture et une couleur unique.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,20 +9,14 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 14%
 
 ---
@@ -165,19 +159,30 @@ Old:
 
 * En fonction de l’espace de travail à partir duquel ils sont ajoutés, les enregistrements ajoutés aux types d’enregistrements globaux sont visibles par les types d’utilisateurs suivants :
 
-   * Les enregistrements ajoutés à l’espace de travail d’origine d’un type d’enregistrement global sont visibles à partir de l’espace de travail d’origine.
-   * Les enregistrements ajoutés à un espace de travail secondaire d&#39;un type d&#39;enregistrement global ne sont visibles qu&#39;à partir de l&#39;espace de travail dans lequel ils ont été créés et de l&#39;espace de travail d&#39;origine du type d&#39;enregistrement global.
-Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  * Les enregistrements ajoutés à l’espace de travail d’origine d’un type d’enregistrement global sont visibles à partir de l’espace de travail d’origine.
+  * Les enregistrements ajoutés à un espace de travail secondaire d&#39;un type d&#39;enregistrement global ne sont visibles qu&#39;à partir de l&#39;espace de travail dans lequel ils ont été créés et de l&#39;espace de travail d&#39;origine du type d&#39;enregistrement global.
+    Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * En fonction de leurs autorisations sur l’espace de travail et des types d’enregistrements, les utilisateurs peuvent créer des enregistrements des manières suivantes :
 
-   * Les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail et du type d’enregistrement peuvent créer des enregistrements uniquement à l’aide du bouton Demander l’enregistrement sur la page du type d’enregistrement.
-   * Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur l’espace de travail et le type d’enregistrement peuvent créer des enregistrements à l’aide du bouton Nouvel enregistrement de la page du type d’enregistrement.
+  * Les utilisateurs disposant d’autorisations en lecture seule sur l’espace de travail et du type d’enregistrement peuvent créer des enregistrements uniquement à l’aide du bouton Demander l’enregistrement sur la page du type d’enregistrement.
+  * Les utilisateurs disposant d’autorisations de niveau Contribuer et Gérer sur l’espace de travail et le type d’enregistrement peuvent créer des enregistrements à l’aide du bouton Nouvel enregistrement de la page du type d’enregistrement.
 
   >[!IMPORTANT]
   >
   >Un gestionnaire d’espace de travail doit créer un formulaire de demande pour le type d’enregistrement afin que les utilisateurs disposant des autorisations d’affichage puissent ajouter des enregistrements à l’aide d’un formulaire de demande. Dans le cas contraire, les utilisateurs disposant d’une autorisation d’affichage ne peuvent pas créer d’enregistrements.
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement
 
@@ -190,7 +195,7 @@ Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrem
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
-Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
+   Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) Dans n’importe quel mode, cliquez sur l’un des éléments suivants dans le coin supérieur droit de l’écran, en fonction des autorisations de l’espace de travail et du type d’enregistrement :
 
@@ -207,9 +212,9 @@ Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
       * **Ajouter manuellement**. La zone d&#39;aperçu de l&#39;enregistrement s&#39;ouvre.\
         Ajoutez des informations sur l’enregistrement, comme décrit dans la section [Créer des enregistrements en les ajoutant sur la ligne à partir de la vue de tableau de type d’enregistrement](#create-records-by-adding-them-inline-from-the-record-type-table-view) de cet article, en commençant par l’étape 6. <!--insure this stays accurate-->
       * **Charger depuis un fichier**
-Ajoutez des enregistrements, comme décrit dans l’article [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), à partir de l’étape 6. <!--ensure this stays accurate-->
+        Ajoutez des enregistrements, comme décrit dans l’article [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), à partir de l’étape 6. <!--ensure this stays accurate-->
       * **Soumettre une demande**
-Le formulaire de demande du type d’enregistrement s’ouvre.
+        Le formulaire de demande du type d’enregistrement s’ouvre.
 
         Un gestionnaire d’espace de travail doit créer un formulaire de demande pour pouvoir ajouter un enregistrement à l’aide d’un formulaire de demande.
 
@@ -217,9 +222,9 @@ Le formulaire de demande du type d’enregistrement s’ouvre.
         >
         >Certains types d’enregistrements peuvent avoir plusieurs formulaires. Cliquez dessus pour l’ouvrir.
 
-        Ajoutez l’enregistrement, comme décrit dans l’article [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements &#x200B;](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+        Ajoutez l’enregistrement, comme décrit dans l’article [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements ](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
 
-      ![Trois manières de créer le choix d’enregistrements modal &#x200B;](assets/three-ways-to-create-records-choice-modal.png)
+      ![Trois manières de créer le choix d’enregistrements modal ](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditionnel) Si vous avez cliqué sur **Demander un enregistrement**, procédez comme suit :
 
@@ -272,7 +277,7 @@ Pour plus d’informations sur la modification des informations relatives aux en
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
-Les enregistrements du type sélectionné s&#39;affichent dans la vue.
+   Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) En mode Tableau, effectuez l’une des opérations suivantes :
 
@@ -303,7 +308,7 @@ Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -374,9 +379,9 @@ Pour plus d’informations sur la création d’une vue chronologique, voir [Gé
 
      Par défaut, les valeurs de date sont présélectionnées en fonction de la manière dont vous affichez la vue chronologique. Les scénarios suivants sont possibles :
 
-      * Par **Année** : les dates de début et de fin des enregistrements s’étendent sur un mois.
-      * Par **trimestre** : les dates de début et de fin d’enregistrement s’étendent sur une semaine.
-      * Par **mois** : les dates de début et de fin des enregistrements s’étendent sur trois jours.
+     * Par **Année** : les dates de début et de fin des enregistrements s’étendent sur un mois.
+     * Par **trimestre** : les dates de début et de fin d’enregistrement s’étendent sur une semaine.
+     * Par **mois** : les dates de début et de fin des enregistrements s’étendent sur trois jours.
 
 1. (Facultatif) Cliquez sur l’une des icônes suivantes :
 
@@ -441,8 +446,8 @@ Pour plus d’informations sur la création d’une vue Calendrier, voir [Gérer
 
      Par défaut, les valeurs de date sont présélectionnées en fonction de la manière dont vous affichez la vue Calendrier. Les scénarios suivants sont possibles :
 
-      * Par **mois** : les dates de début et de fin de l’enregistrement s’étendent sur un jour.
-      * Par **Semaine** : les dates de début et de fin des enregistrements s’étendent sur deux jours.
+     * Par **mois** : les dates de début et de fin de l’enregistrement s’étendent sur un jour.
+     * Par **Semaine** : les dates de début et de fin des enregistrements s’étendent sur deux jours.
 
 1. (Facultatif) Cliquez sur l’une des icônes suivantes :
 
@@ -524,8 +529,8 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
 
    * Un champ de connexion dans les domaines suivants de Workfront Planning :
 
-      * Vue Tableau
-      * Page de détails ou zone de prévisualisation d’un enregistrement
+     * Vue Tableau
+     * Page de détails ou zone de prévisualisation d’un enregistrement
 
    * Champ de connexion de la section Planification d’un projet, d’un portfolio ou d’un programme dans Workfront.
 
@@ -534,7 +539,7 @@ Pour créer des enregistrements au fur et à mesure que vous les connectez à pa
 1. (Conditionnel) Si vous ne trouvez pas un enregistrement lors de la tentative de connexion, cliquez sur **+ Ajouter**
 
    Ou
-Commencez à saisir un nom, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
+   Commencez à saisir un nom, puis cliquez sur **+ Ajouter**. Le bouton **+ Ajouter** est suivi du nom du type d’enregistrement auquel vous vous connectez. Par exemple, « Ajouter des marques » lors de l’ajout d’une marque à une campagne existante. Le nom saisi suit également le bouton Ajouter .
 
    ![Ajouter un bouton pour créer des enregistrements en contexte mis en surbrillance](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +589,53 @@ Vous pouvez configurer et activer l’automatisation dans la page de l’enregis
 
 Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->

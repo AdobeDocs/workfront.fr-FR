@@ -9,19 +9,12 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 7%
@@ -69,20 +62,20 @@ Tenez compte des points suivants lors de la connexion et de la création d’obj
 
 * Vous pouvez connecter des projets, portfolios, programmes, groupes et sociétés Workfront à partir d’un champ de connexion provenant des zones suivantes de Workfront Planning :
 
-   * Vue Tableau d’un type d’enregistrement
-   * Page de détails ou zone de prévisualisation d’un enregistrement
-   * Onglet Connexions d’un enregistrement
+  * Vue Tableau d’un type d’enregistrement
+  * Page de détails ou zone de prévisualisation d’un enregistrement
+  * Onglet Connexions d’un enregistrement
 
 * Vous pouvez créer des projets à partir des zones suivantes de Workfront Planning :
 
-   * Vue Tableau d’un type d’enregistrement
-   * La zone Détails d’un enregistrement dans le champ de connexion
-   * Page d’enregistrement connecté d’un enregistrement
+  * Vue Tableau d’un type d’enregistrement
+  * La zone Détails d’un enregistrement dans le champ de connexion
+  * Page d’enregistrement connecté d’un enregistrement
 
 * Vous pouvez créer des portfolios et des programmes à partir des zones suivantes de Workfront Planning :
 
-   * Vue Tableau d’un type d’enregistrement
-   * La zone Détails d’un enregistrement dans le champ de connexion
+  * Vue Tableau d’un type d’enregistrement
+  * La zone Détails d’un enregistrement dans le champ de connexion
 
 Pour plus d&#39;informations sur la connexion des enregistrements Planning aux objets Workfront, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +114,7 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Autorisations de niveau Contribution ou supérieur à l’espace de travail et au type d’enregistrement dans lesquels vous souhaitez ajouter des enregistrements. </p>  
-   <p><span class="preview">Gérez les autorisations de l’enregistrement à partir duquel vous créez l’objet Workfront.</span></p>
+   <p>Gérez les autorisations de l’enregistrement à partir duquel vous créez l’objet Workfront.</p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 
@@ -297,7 +290,7 @@ Pour créer des programmes au fur et à mesure que vous les connectez à partir 
    La boîte de dialogue **Créer un programme** s’ouvre.
 
 1. Mettez à jour le **nom du programme**. Champ obligatoire.
-1. Choisissez un **&#x200B;**&#x200B;dans la liste déroulante ou commencez à saisir le nom d&#39;un portfolio, puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste. Champ obligatoire.
+1. Choisissez un **** dans la liste déroulante ou commencez à saisir le nom d&#39;un portfolio, puis sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste. Champ obligatoire.
 1. Cliquez sur **Créer**.
 
    Le programme est créé et ajouté dans le champ de connexion de l&#39;enregistrement que vous avez sélectionné.
