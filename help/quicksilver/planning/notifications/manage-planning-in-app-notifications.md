@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 7%
 
 ---
@@ -36,8 +36,8 @@ Vous pouvez recevoir des notifications in-app de Workfront Planning lorsque les 
 * Quelqu’un vous identifie ou identifie vos équipes dans un commentaire d’enregistrement.
 
   Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
-* Quelqu&#39;un vous demande l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--<span class="preview">or record</span>-->
-* Quelqu&#39;un confirme que votre accès a été accordé pour une vue ou un espace de travail <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
+* Quelqu&#39;un vous demande l&#39;autorisation d&#39;accéder à une vue, un espace de travail ou un enregistrement
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue, un espace de travail ou un enregistrement
 
 ## Conditions d’accès
 

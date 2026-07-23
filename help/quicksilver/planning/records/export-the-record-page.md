@@ -18,21 +18,22 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 18%
+source-wordcount: 362
+ht-degree: 9%
 
 ---
 
 # Exporter des détails d’un enregistrement
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent pas nécessairement d’un compte Workfront, vous pouvez exporter la page de détails d’un enregistrement dans un fichier Microsoft Word et la partager avec eux.
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
+-->
 
 ## Conditions d’accès
 
@@ -60,7 +61,7 @@ Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail, un type d’enregistrement et <span class="preview">enregistrement</span> </p>  
+   <td>   <p>Autorisations d’affichage ou supérieures pour un espace de travail, un type d’enregistrement et un enregistrement</p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p> </td> 
   </tr> 
   </tr>
@@ -139,8 +140,8 @@ Old:
 
 * Vous pouvez exporter les détails d’un enregistrement aux formats de fichiers suivants :
 
-   * .docx Word
-   * pdf
+  * .docx Word
+  * pdf
 
 * Vous ne pouvez exporter que l&#39;onglet Détails de la page ou de la zone d&#39;aperçu d&#39;un enregistrement.
 

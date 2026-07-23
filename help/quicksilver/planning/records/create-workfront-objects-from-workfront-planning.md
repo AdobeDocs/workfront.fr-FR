@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 7%
@@ -69,20 +69,20 @@ Tenez compte des points suivants lors de la connexion et de la création d’obj
 
 * Vous pouvez connecter des projets, portfolios, programmes, groupes et sociétés Workfront à partir d’un champ de connexion provenant des zones suivantes de Workfront Planning :
 
-   * Vue Tableau d’un type d’enregistrement
-   * Page de détails ou zone de prévisualisation d’un enregistrement
-   * Onglet Connexions d’un enregistrement
+  * Vue Tableau d’un type d’enregistrement
+  * Page de détails ou zone de prévisualisation d’un enregistrement
+  * Onglet Connexions d’un enregistrement
 
 * Vous pouvez créer des projets à partir des zones suivantes de Workfront Planning :
 
-   * Vue Tableau d’un type d’enregistrement
-   * La zone Détails d’un enregistrement dans le champ de connexion
-   * Page d’enregistrement connecté d’un enregistrement
+  * Vue Tableau d’un type d’enregistrement
+  * La zone Détails d’un enregistrement dans le champ de connexion
+  * Page d’enregistrement connecté d’un enregistrement
 
 * Vous pouvez créer des portfolios et des programmes à partir des zones suivantes de Workfront Planning :
 
-   * Vue Tableau d’un type d’enregistrement
-   * La zone Détails d’un enregistrement dans le champ de connexion
+  * Vue Tableau d’un type d’enregistrement
+  * La zone Détails d’un enregistrement dans le champ de connexion
 
 Pour plus d&#39;informations sur la connexion des enregistrements Planning aux objets Workfront, voir [Connexion des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +121,7 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
 <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Autorisations de niveau Contribution ou supérieur à l’espace de travail et au type d’enregistrement dans lesquels vous souhaitez ajouter des enregistrements. </p>  
-   <p><span class="preview">Gérez les autorisations de l’enregistrement à partir duquel vous créez l’objet Workfront.</span></p>
+   <p>Gérez les autorisations de l’enregistrement à partir duquel vous créez l’objet Workfront.</p>
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (projets).</p>
    </td> 

@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
-source-wordcount: 1374
+source-wordcount: 1366
 ht-degree: 87%
 
 ---
@@ -203,7 +203,5 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 * Toute interruption d’un environnement de prévisualisation [!DNL Workfront] pendant les heures de bureau sera traitée en priorité, immédiatement après que les problèmes de production auront été résolus, le cas échéant.
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
-
-* La relecture n&#39;est pas disponible dans l&#39;environnement Aperçu .
 
 * La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).

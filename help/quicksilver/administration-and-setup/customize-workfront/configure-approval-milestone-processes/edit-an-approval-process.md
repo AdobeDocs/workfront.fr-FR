@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 8e9dbe4c91058d104f494ab012ae54e04abf8cee
 workflow-type: tm+mt
-source-wordcount: 1984
+source-wordcount: 1950
 ht-degree: 91%
 
 ---
@@ -42,12 +42,20 @@ Pour plus d’informations sur la création de processus d’approbation, voir [
 >[!NOTE]
 >
 >* Lorsque vous modifiez un processus d’approbation global déjà utilisé, vos modifications affectent tous les objets du système qui y sont associés.
->* Si vous ajoutez un nouvel approbateur ou une nouvelle approbatrice à l’étape en cours d’un processus d’approbation qui a déjà commencé pour un objet, le processus de cet objet est réinitialisé et les approbateurs et approbatrices doivent recommencer.
 >
->  Toutefois, si vous apportez les modifications suivantes dans un processus d’approbation qui a déjà commencé pour un objet, ce processus se poursuit sans interruption :
+>
+>Toutefois, si vous apportez les modifications suivantes dans un processus d’approbation qui a déjà commencé pour un objet, ce processus se poursuit sans interruption :
 >
 >* Ajouter une étape après l’étape actuelle
 >* Ajouter un approbateur ou une approbatrice supplémentaire avant l’étape actuelle
+
+<!--
+
+Note from Lisa: This was the second bullet in the note box above, below the bullet starting "When you edit a global approval process..." If you comment out bullet points in a note box, weird stuff happens. So I copied it below just in case.
+
+* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
+
+-->
 
 ## Conditions d’accès
 

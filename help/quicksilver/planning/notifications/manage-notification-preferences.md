@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 522
 ht-degree: 14%
 
 ---
@@ -41,8 +41,8 @@ Cet article décrit comment gérer les notifications Adobe Workfront Planning, e
 Vous pouvez recevoir une notification in-app ou par e-mail lorsque les actions suivantes se produisent dans Workfront Planning :
 
 * Quelqu’un vous ajoute, vous ou vos équipes, à un commentaire sur la page d’enregistrement
-* Quelqu&#39;un demande l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--or <span class="preview">or a record</span>-->
-* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à une vue ou à un espace de travail <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->
+* Quelqu&#39;un demande l&#39;autorisation d&#39;accéder à une vue, un espace de travail ou un enregistrement
+* Quelqu&#39;un vous accorde l&#39;autorisation d&#39;accéder à une vue, un espace de travail ou un enregistrement
 * Vous devez soumettre une demande Workfront Planning.
 * Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise.
 * Le statut passe à une demande Workfront Planning que vous avez soumise.
@@ -162,8 +162,8 @@ Pour plus d’informations sur les notifications de Workfront Planning, consulte
 * Pour plus d’informations sur les commentaires des enregistrements, voir [Gérer les commentaires des enregistrements](/help/quicksilver/planning/records/manage-record-comments.md).
 * Pour plus d’informations sur les notifications d’approbation, consultez les articles suivants :
 
-   * [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
-   * [Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
+  * [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
+  * [Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md)
 * Pour plus d’informations sur les notifications in-app depuis Workfront Planning, voir [Gérer les notifications in-app pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * Pour plus d’informations sur les notifications par e-mail provenant de Workfront Planning, voir [Gérer les notifications par e-mail pour Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
@@ -188,10 +188,10 @@ Désélectionnez les notifications que vous souhaitez arrêter de recevoir.
    * **Mentions** : vous recevez une notification lorsqu’une personne vous identifie ou identifie votre équipe dans un commentaire dans Workfront Planning
    * **Demandes** : vous recevez une notification lorsqu’une personne effectue l’une des opérations suivantes :
 
-      * Demande ou vous accorde l&#39;autorisation d&#39;accéder à un objet Workfront Planning
-      * Vous avez soumis une demande Workfront Planning
-      * Statut d’une demande Workfront Planning que vous avez soumise modifications
-      * Demande, accorde ou rejette une approbation à une demande Workfront Planning
+     * Demande ou vous accorde l&#39;autorisation d&#39;accéder à un objet Workfront Planning
+     * Vous avez soumis une demande Workfront Planning
+     * Statut d’une demande Workfront Planning que vous avez soumise modifications
+     * Demande, accorde ou rejette une approbation à une demande Workfront Planning
 
    Pour plus d’informations sur la gestion des notifications, voir [&#x200B; Préférences du compte et notifications &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences).
 

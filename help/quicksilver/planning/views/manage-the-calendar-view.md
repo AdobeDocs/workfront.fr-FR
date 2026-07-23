@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 26%
@@ -439,6 +439,10 @@ Mettez à jour les paramètres de la vue Calendrier pour indiquer les informatio
    * **Type d’enregistrement** : la couleur des barres d’enregistrement du calendrier correspond à la couleur du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
    * **Valeurs des champs** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez.
    * **Aucune** : les enregistrements s’affichent dans une barre blanche.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Le cas échéant) Si vous avez sélectionné **Valeurs de champ** pour les couleurs des enregistrements, sélectionnez un champ dans le menu déroulant **Faire correspondre la couleur de l’enregistrement à**.
 

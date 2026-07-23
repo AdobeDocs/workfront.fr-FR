@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 6%
 
 ---
@@ -42,8 +42,8 @@ Vous pouvez recevoir des notifications par e-mail de Workfront Planning lorsque 
 * Quelqu’un vous identifie ou identifie vos équipes dans un commentaire d’enregistrement.
 
   Pour plus d’informations sur le balisage d’autres utilisateurs dans un commentaire d’enregistrement, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
-* Quelqu&#39;un vous demande votre autorisation pour accéder à une vue, un espace de travail ou un type d&#39;enregistrement <!--or <span class="preview">or a record</span>-->
-* Quelqu&#39;un confirme que votre accès a été accordé pour une vue, un espace de travail ou un type d&#39;enregistrement <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Quelqu&#39;un vous demande votre autorisation pour accéder à une vue, un espace de travail, un type d&#39;enregistrement ou un enregistrement
+* Quelqu&#39;un confirme que votre accès a été accordé pour une vue, un espace de travail, un type d&#39;enregistrement ou un enregistrement
 * Vous devez soumettre une demande Workfront Planning. Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Une personne approuve ou rejette une demande Workfront Planning que vous avez soumise. Pour plus d’informations, voir [Approuver une demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Le statut passe à une demande Workfront Planning que vous avez soumise.

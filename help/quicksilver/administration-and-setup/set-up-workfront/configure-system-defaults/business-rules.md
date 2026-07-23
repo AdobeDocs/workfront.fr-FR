@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 4%
 
 ---
@@ -159,6 +159,10 @@ Le message s’affiche dans la langue localisée.
 >[!ENDSHADEBOX]
 
 Pour plus d’informations sur la localisation personnalisée, voir [Configurer la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+>[!NOTE]
+>
+>Les règles métier sont exécutées à la fin du processus principal. En d’autres termes, les règles métier sont destinées à empêcher les actions qui ne sont pas déjà gérées par le processus principal. Elles ne remplacent pas les exceptions levées lors de l’exécution principale. Elles s’exécutent à la toute fin du processus.
 
 ## Scénarios d’automatisation des règles métier
 
@@ -307,3 +311,4 @@ Pour activer une règle métier :
 1. Sélectionnez la règle métier dans la liste des règles et cliquez sur l&#39;icône Modifier .
 1. Sélectionnez **Oui** pour **Est actif** dans la boîte de dialogue des règles métier.
 1. Cliquez sur **Enregistrer**.
+

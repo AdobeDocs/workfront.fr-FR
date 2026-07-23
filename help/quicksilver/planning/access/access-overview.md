@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 1010
-ht-degree: 14%
+source-wordcount: 1002
+ht-degree: 15%
 
 ---
 
@@ -108,13 +108,12 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <ul>
    <li><p>Autorisations d’affichage ou supérieures aux espaces de travail, aux types d’enregistrements et aux vues que vous n’avez pas créés pour y accéder et à leurs objets.</p></li>
    <li><p>Autorisations de niveau supérieur ou de niveau supérieur relatives aux espaces de travail et aux types d’enregistrements que vous n’avez pas créés pour les modifier et créer, modifier ou supprimer des types d’enregistrements.</p></li>
-   <li><p><span class="preview">Gérer les autorisations de modification, de partage ou de suppression des enregistrements.</p>
+   <li><p>Gérer les autorisations de modification, de partage ou de suppression des enregistrements.</p>
    <li><p>Autorisations de niveau Contribution ou supérieur aux vues que vous n’avez pas créées, pour les modifier, les supprimer et les partager</p>
    </li>
     <li><p>Les administrateurs de Planning peuvent gérer les espaces de travail qu'ils n'ont pas créés. </p></li>
     <li><p>Les administrateurs de Planning ne peuvent pas accéder aux vues qu'ils n'ont pas créées. </p></li></ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Workfront Planning</a> 
+   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
    </td>
    </tr>
    <tr>

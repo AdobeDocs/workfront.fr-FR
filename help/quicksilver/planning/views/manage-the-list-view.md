@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 1%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Vous pouvez afficher les objets dans la vue Liste dans les zones suivantes de Workfront Planning :
 
-* Une page d&#39;enregistrements connectée pour les projets dans la zone de détails d&#39;un enregistrement <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* Une page d&#39;enregistrements connectée pour les projets dans la zone des détails d&#39;un enregistrement
 
   ![Projets sur la page des enregistrements connectés dans la vue Liste](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Tenez compte des points suivants pour la vue Liste de pages des enregistrements connectés :
 
-   * Vous pouvez uniquement afficher les projets dans la vue Liste dans la page Enregistrements connectés d’un enregistrement. La vue Liste n&#39;est disponible pour aucun autre objet ou type d&#39;enregistrement dans une page d&#39;enregistrements connectée.
+  * Vous pouvez uniquement afficher les projets dans la vue Liste dans la page Enregistrements connectés d’un enregistrement. La vue Liste n&#39;est disponible pour aucun autre objet ou type d&#39;enregistrement dans une page d&#39;enregistrements connectée.
 
   Pour plus d&#39;informations sur la création d&#39;une page d&#39;enregistrements connectés, voir [Ajouter une page d&#39;enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-   * Avant de pouvoir afficher une vue Liste dans une page Enregistrements connectés d’un enregistrement, vous devez connecter les projets Workfront aux types d’enregistrements Planning. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
-   * Vous pouvez créer plusieurs vues de liste pour les projets dans la page d&#39;enregistrements connectés d&#39;un enregistrement.
+  * Avant de pouvoir afficher une vue Liste dans une page Enregistrements connectés d’un enregistrement, vous devez connecter les projets Workfront aux types d’enregistrements Planning. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * Vous pouvez créer plusieurs vues de liste pour les projets dans la page d&#39;enregistrements connectés d&#39;un enregistrement.
 
 * Tenez compte des points suivants pour la vue Liste des formulaires de demande :
 
-   * Vous ne pouvez pas créer ou modifier des vues de liste supplémentaires pour les formulaires de demande Planning. Workfront crée une vue Liste pour les formulaires de demande. <!--this will change-->
+  * Vous ne pouvez pas créer ou modifier des vues de liste supplémentaires pour les formulaires de demande Planning. Workfront crée une vue Liste pour les formulaires de demande. <!--this will change-->
 
-     Pour plus d’informations sur les formulaires de demande, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Pour plus d’informations sur les formulaires de demande, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Selon l’emplacement d’affichage, toutes les vues de liste ne comportent pas tous les éléments décrits dans cet article.
 
 ## Gestion d’une vue de liste {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       Le **Gestionnaire de colonnes** s’ouvre.
 
       Vous ne pouvez ajouter que des champs existants à la vue Liste.
-Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
+      Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
 
    1. Cliquez sur l’icône **Formater les cellules** ![Icône Formater les cellules](assets/format-cells-icon.png). La boîte **Format** s’ouvre. <!--change the name of the box when they update it-->
-Procédez comme suit :
+      Procédez comme suit :
 
       1. Cliquez sur **Ajouter une condition**.
       1. Dans la ligne **If**, sélectionnez un champ, choisissez une valeur de champ et ajoutez un modificateur. Les modificateurs changent en fonction du type de champ choisi.
@@ -223,8 +224,8 @@ Procédez comme suit :
       1. Cliquez en dehors de la zone **Format** pour la fermer.
 
          Vous revenez alors à la vue Liste.
-La mise en forme est appliquée immédiatement à la vue Liste.
-Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
+         La mise en forme est appliquée immédiatement à la vue Liste.
+         Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
 
    1. (Facultatif) Cliquez sur l’icône **Regroupement** ![Icône de regroupement](assets/grouping-icon.png) pour regrouper les éléments de la liste par un champ commun. Sélectionnez l’une des options ou utilisez la barre de recherche pour rechercher un champ.
 
@@ -254,9 +255,9 @@ Un point bleu est placé en regard de l’icône **Formater les cellules** pour 
 
 1. (Conditionnel) Pour sélectionner des champs de type, utilisez les flèches de votre clavier pour parcourir la liste des options, puis appuyez sur la barre d’espace pour sélectionner le bon choix.
 
-   <span class="preview">Utilisez la ligne **Rechercher** dans la sélection des types de champs pour trouver l’option appropriée.</span>
+   Utilisez la ligne **Rechercher** dans certains types de champ pour trouver l’option appropriée.
 
-   <span class="preview">Vous pouvez ajouter de nouvelles options directement à partir de la cellule du champ si aucun résultat n’est trouvé. Cette fonctionnalité peut ne pas être disponible sur toutes les listes.</span>
+   Vous pouvez ajouter de nouvelles options directement à partir de la cellule du champ si aucun résultat n’est trouvé. Cette fonctionnalité peut ne pas être disponible sur toutes les listes.
 
 1. Pointez sur le nom d’un élément dans la liste, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur **Affichage** pour ouvrir l’élément dans un autre onglet
 
