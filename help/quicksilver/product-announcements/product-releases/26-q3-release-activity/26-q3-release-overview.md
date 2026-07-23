@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 14%
+source-wordcount: '3317'
+ht-degree: 16%
 
 ---
 
@@ -72,9 +72,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Mises à jour du connecteur Workfront MCP</a><p>[!BADGE Hors planning]{type=Neutral}</p>
                 <p>Nous avons mis à jour le connecteur MCP Workfront :<ul><li>Claude peut maintenant se connecter au connecteur MCP.</li><li>Vous pouvez désormais utiliser le connecteur MCP à partir des instances de l’EU <!--or from instances that do not use AWS-->.</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -82,7 +82,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Le nouveau serveur Workfront MCP connecte Workfront à une plateforme d’IA agentique prise en charge, telle que Claude ou ChatGPT, afin que vous puissiez rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel. Actuellement disponible uniquement pour les clients situés aux États-Unis qui utilisent AWS.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
     </tbody>
@@ -160,8 +160,8 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Afficher l’historique des modifications pour les objets Workfront</a><p>[!BADGE Hors planning]{type=Neutral}</p>
                 <p>Pour que vous puissiez voir plus facilement les modifications qui se sont produites dans une liste centrale, nous avons créé la liste Historique des modifications. Cette liste affiche des informations telles que l’objet, l’opération et la source de la modification (un utilisateur ou le système Workfront, par exemple).</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -169,9 +169,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouvelle préférence système pour convertir les portefeuilles de stockage hérités en stockage cloud Adobe</a><p>[!BADGE Hors planning]{type=Neutral}</p>
                 <p>Les administrateurs Workfront peuvent désormais convertir les portefeuilles de stockage hérités en stockage cloud Adobe directement à partir des préférences système. Pour convertir des portfolios, sélectionnez-les dans le nouveau champ Sélectionner les portfolios à convertir en stockage d’entreprise et enregistrez la page.</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -179,7 +179,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Le nouveau type de champ <b>Texte enrichi</b> dans les formulaires personnalisés est un puissant éditeur de texte, avec des options de mise en forme telles que l’exposant et l’indice, les en-têtes et les tableaux, en plus des options traditionnelles telles que le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets. La limite de caractères reste de 15 000.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -188,7 +188,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Vous pouvez désormais inclure des champs financiers natifs de Workfront dans les formulaires personnalisés. Auparavant, les champs financiers n’étaient pas pris en charge.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -197,7 +197,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Une nouvelle option de partage, « Tout le monde dans le système peut afficher et joindre », a été ajoutée aux formulaires personnalisés. Lorsque vous sélectionnez cette option, tous les utilisateurs à l’échelle du système peuvent joindre le formulaire à d’autres objets.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -206,7 +206,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Une nouvelle préférence système vous permet désormais d’appliquer les champs obligatoires dans la modification en masse, de sorte que les objets modifiés en masse ne puissent pas être enregistrés à moins que tous les champs obligatoires ne comportent des valeurs.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
     </tbody>
@@ -254,7 +254,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Vous pouvez désormais ouvrir un résumé imprimable de l’approbation d’un document directement à partir de la nouvelle zone Documents . Cette fonctionnalité est disponible pour les organisations qui utilisent l’espace de stockage dans le cloud Adobe.</p>
             </td>
             <td><p>2 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -263,7 +263,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Vous pouvez désormais ajouter un message personnalisé à chaque étape d’un workflow d’approbation de document. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -280,7 +280,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Affichage de l’utilisation de l’espace de stockage dans le cloud d’Adobe</a>
                 <p>La page Informations sur le client de la configuration comprend désormais une nouvelle section Présentation du stockage avec des indicateurs d’utilisation de l’espace de stockage dans le cloud Adobe.</p>
             </td>
-            <td><p>30 Avril 2026</p></td>
+            <td><p>30 avril 2026</p></td>
             <td><p>14 Mai 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -343,7 +343,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Les priorités prennent désormais en charge l’utilisation de données personnalisées dans les colonnes. Ouvrez le gestionnaire de colonnes de la liste de tâches pour ajouter les champs personnalisés à afficher dans les données de la colonne.</p>
             </td>
             <td><p>4 juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
     </tbody>
@@ -366,18 +366,18 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe</a><p><p>[!BADGE Hors planning]{type=Neutral}</p></p>
                 <p>Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais convertir une tâche de stockage héritée en projet de stockage dans le cloud Adobe.</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
         </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Utiliser un modèle de stockage hérité pour créer un projet de stockage dans le cloud Adobe</a><p><p>[!BADGE Hors planning]{type=Neutral}</p></p>
                 <p>Si votre entreprise utilise à la fois l’ancien stockage Workfront et l’ancien stockage dans le cloud Adobe, vous pouvez désormais utiliser un modèle de stockage hérité pour créer un projet d’espace de stockage dans le cloud Adobe dans certains scénarios.</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -426,15 +426,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Les administrateurs Workfront qui connectent Microsoft Power BI à Workfront Data Connect peuvent désormais ajouter en une seule étape à la liste autorisée l’ensemble des plages d’adresses IP d’Azure d’une région.</p>
             </td>
             <td><p>S/O</p></td>
-            <td><p>11 Juin 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
         </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Trier la liste Tableaux de bord de la zone de travail</a> 
                 <p>Vous pouvez désormais trier la liste Tableaux de bord de la zone de travail selon les colonnes Nom, Description, Créé par ou Créer une date. Cliquez sur un en-tête de colonne pour trier la liste en fonction de cette colonne, puis cliquez de nouveau sur le même en-tête pour inverser le sens du tri. Par défaut, la liste est triée par nom de A à Z. L’ordre de tri est conservé lorsque vous basculez entre les onglets de la liste Tableaux de bord de la zone de travail.</p>
             </td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>15 juillet 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
@@ -453,7 +453,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Les rapports Tableau de bord de la zone de travail prennent désormais en charge les champs de données de devise personnalisés sous forme de colonnes, filtres, regroupements et agrégations, y compris lorsque plusieurs taux de change sont configurés dans la configuration du système.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -462,7 +462,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Les requêtes de rapport du tableau de bord de la zone de travail sont désormais structurées pour éviter les lignes en double lorsque les filtres ou les champs traversent des enregistrements liés, de sorte que les nombres, les sommes et autres agrégats renvoient des valeurs précises.</p>
             </td>
             <td><p>14 Mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
     </tbody>
@@ -484,7 +484,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Pour obtenir plus de contexte sur l’état correct de vos requêtes, nous mettons à jour les statuts des requêtes dans la nouvelle expérience de requête.</p>
             </td>
             <td><p>27 Mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
         <tr>
@@ -492,9 +492,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Vues prédéfinies ajoutées à la liste des requêtes dans la zone des Requêtes et le widget Mes requêtes</a><p>[!BADGE Hors planning]{type=Neutral}</p>
                 <p>Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté les vues prédéfinies à la liste des demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil.</p>
             </td>
-            <td><p>23 Avril 2026</p></td>
-            <td><p>23 Avril 2026</p></td>
-            <td><p>23 Avril 2026</p></td>
+            <td><p>23 avril 2026</p></td>
+            <td><p>23 avril 2026</p></td>
+            <td><p>23 avril 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -565,7 +565,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Plusieurs types de champ sur les listes améliorées ont été mis à jour pour inclure la navigation au clavier et d’autres améliorations.</p>
             </td>
             <td><p>28 mai 2026</p></td>
-            <td><p>11 Juin 2026</p></td>
+            <td><p>11 juin 2026</p></td>
             <td><p>16 juillet 2026</p></td>
         </tr>
     </tbody>
@@ -609,6 +609,16 @@ Le lecteur de vérification pour bureau a été mis à jour de la version 2.1.54
 Cette mise à jour concerne Mac et Windows.
 
 ## Annonces
+
+### L’authentification par mot de passe uniquement pour les utilisateurs de lecteurs Data Connect se termine le 8 août 2026
+
+À compter du 8 août 2026, les utilisateurs de Workfront Data Connect/lecteurs Snowflake qui s’authentifient avec une connexion par mot de passe uniquement cesseront de fonctionner, sauf si l’authentification multifacteur (MFA) a été activée. Impossible d’ajouter l’autorisation d’accès aux médias de manière rétroactive après cette date. Si un utilisateur Reader est autorisé à expirer sans cette autorisation, l’accès ne peut être restauré qu’en créant un nouveau profil utilisateur.
+
+Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data Connect qui n’ont pas encore activé MFA, veuillez informer rapidement vos utilisateurs de cette modification.
+
+Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
+
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning en tant que produit autonome
 

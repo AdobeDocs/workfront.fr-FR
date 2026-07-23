@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,29 @@ ht-degree: 0%
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Couleur d’enregistrement personnalisable et codage des couleurs basé sur les connexions
+
+>[!NOTE]
+> 
+>Aperçu : 23 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+Les enregistrements prennent désormais en charge les palettes de couleurs personnalisables qui vous permettent de mettre à jour les couleurs automatiquement attribuées aux nouveaux enregistrements vers des couleurs standard ou personnalisées.
+
+Les modifications suivantes sont incluses dans cette amélioration : 
+
+* Nous avons ajouté l’option Couleur aux zones suivantes :
+  * L’icône Champs en mode Tableau. 
+  * La section Style de barre de la zone Paramètres d’une chronologie et d’un calendrier
+
+    Lorsque le paramètre Couleur est activé, la couleur affectée au nouvel enregistrement s&#39;affiche partout où l&#39;enregistrement s&#39;affiche dans ces vues. 
+
+* Un cercle de couleurs est ajouté à la page Détails de l’enregistrement. 
+* Vous pouvez désormais ajouter des champs d’enregistrement connectés, à sélection unique et multiple au codage de couleur des barres dans les vues Chronologie et Calendrier lors de la coloration par les valeurs de champ. 
+* Vous pouvez activer l’affichage de la couleur, en plus du nom et de l’image d’un enregistrement lorsque vous créez des champs d’enregistrement connectés. 
+* La section Couleur de la zone Paramètres a également été rationalisée en supprimant l’option « Aucun ».  
+
+Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md). 
 
 ## Planning Designer nécessite désormais l’acceptation du contrat Beta
 
