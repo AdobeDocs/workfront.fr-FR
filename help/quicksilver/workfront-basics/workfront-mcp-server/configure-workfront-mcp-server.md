@@ -5,10 +5,10 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
-ht-degree: 0%
+source-wordcount: '1935'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,9 @@ L’accès au serveur MCP est contrôlé par deux administrateurs distincts.
 
 Vous vous connectez à Workfront une fois par compte [!DNL Claude]. La connexion vous authentifie à une instance Workfront spécifique et vous restez connecté jusqu’à ce que vous choisissiez de vous déconnecter.
 
-
+* [Connectez-vous au bureau Claude à partir du répertoire des connecteurs](#connect-to-claude-desktop-from-the-connectors-directory)
+* [Se connecter à Claude avec une URL](#connect-to-claude-with-a-url)
+* [Personnaliser le comportement de Claude avec des compétences](#customize-claude-behavior-with-skills)
 
 ### Connectez-vous au bureau Claude à partir du répertoire des connecteurs
 
@@ -125,6 +127,10 @@ Pour en savoir plus sur les compétences [!DNL Claude], consultez la documentati
 ## Se connecter à ChatGPT
 
 La procédure pour connecter le serveur Workfront MCP à ChatGPT diffère selon que vous utilisez ChatGPT Desktop ou Codex, ou ChatGPT sur le web.
+
+* [Se connecter à ChatGPT Desktop ou ChatGPT Codex](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Se connecter à ChatGPT sur le web](#connect-to-chatgpt-on-the-web)
+* [Personnaliser le comportement de ChatGPT avec les TPG personnalisés](#customize-chatgpt-behavior-with-custom-gpts)
 
 ### Se connecter à ChatGPT Desktop ou ChatGPT Codex
 
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. Lorsqu’un outil est configuré et testé, cliquez sur **Publier**.
 
    Vous ne disposez peut-être pas des autorisations de publication. Si tel est le cas, contactez votre administrateur Copilot.
+
+## Connexion de Workfront à une solution MCP personnalisée
+
+Si vous créez votre propre application ou agent personnalisé, vous pouvez vous connecter directement au serveur MCP Workfront.
+
+Il existe deux façons de se connecter :
+
+* [Se connecter avec un jeton service à service](#connect-with-a-service-to-service-token)
+* [Se connecter avec OAuth](#connect-with-oauth)
+
+### Se connecter avec un jeton service à service
+
+1. Créez des informations d’identification de service à l’aide du Adobe Developer Console. Pour plus d’informations, voir [Authentification de serveur à serveur](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+1. Connectez-vous au serveur MCP Workfront à l’aide des informations suivantes :
+
+   * **URL** : `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **En-têtes** :
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` (obligatoire si vos informations d’identification ont accès à plusieurs instances Workfront, telles que l’aperçu et la production).
+
+### Se connecter avec OAuth
+
+La prise en charge en libre-service des intégrations OAuth personnalisées n’est pas encore disponible pour Workfront.
 
 ## Vérifier votre connexion
 
@@ -298,6 +328,10 @@ Pour une résolution des problèmes au jour le jour après votre connexion (par 
 ## Questions fréquentes sur la configuration
 
 +++ Développez pour afficher les questions fréquentes sur la configuration du serveur Workfront MCP.
+
+* [Puis-je me connecter à plusieurs instances Workfront en même temps ?](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [Quel administrateur l’active ?](#which-administrator-enables-this)
+* [Puis-je utiliser le serveur MCP Workfront si mon instance Workfront n’est pas activée sur le système Adobe Identity Management (IMS) ?](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### Puis-je me connecter à plusieurs instances Workfront en même temps ?
 
