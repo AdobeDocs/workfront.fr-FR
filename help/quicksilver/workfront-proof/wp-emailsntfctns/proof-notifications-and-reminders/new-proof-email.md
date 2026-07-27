@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
 TQID: https://experienceleague.adobe.com/0HC5D2PBZQ7L7N5NI0Q2FbUg6qSjLK7M1OkRLrUj0kA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 100%
@@ -50,18 +46,18 @@ L’e-mail de la nouvelle épreuve contient les éléments suivants :
 * Miniature de l’image de l’épreuve
 * Détails de l’épreuve suivants :
 
-   * Nom de l’épreuve
-   * Numéro de version
-   * Liste des réviseurs et réviseuses et leur progression sur l’épreuve
-   * Lien pour partager l’épreuve avec une autre personne.
+  * Nom de l’épreuve
+  * Numéro de version
+  * Liste des réviseurs et réviseuses et leur progression sur l’épreuve
+  * Lien pour partager l’épreuve avec une autre personne.
 
-     Cela vous permet de partager l’URL de l’épreuve et/ou le lien de téléchargement du fichier original. Cela ne vous permet pas d’ajouter explicitement des personnes réviseuses à l’épreuve, vous partagerez uniquement l’URL publique de l’épreuve, et la personne destinataire n’aura qu’un accès en lecture seule à l’épreuve.
+    Cela vous permet de partager l’URL de l’épreuve et/ou le lien de téléchargement du fichier original. Cela ne vous permet pas d’ajouter explicitement des personnes réviseuses à l’épreuve, vous partagerez uniquement l’URL publique de l’épreuve, et la personne destinataire n’aura qu’un accès en lecture seule à l’épreuve.
 
-     Pour plus d’informations, consultez [Partager une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+    Pour plus d’informations, consultez [Partager une épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-     Si vous ne souhaitez pas que ce lien apparaisse dans l’e-mail de la personne destinataire, vous pouvez désactiver le paramètre [!UICONTROL Partage public] pour cette épreuve.
+    Si vous ne souhaitez pas que ce lien apparaisse dans l’e-mail de la personne destinataire, vous pouvez désactiver le paramètre [!UICONTROL Partage public] pour cette épreuve.
 
-     (Téléchargez le fichier original et l’URL publique.) Pour plus d’informations, consultez [Gérer les détails des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+    (Téléchargez le fichier original et l’URL publique.) Pour plus d’informations, consultez [Gérer les détails des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Journal d’activité.
 
@@ -116,3 +112,4 @@ Vous pouvez choisir si une nouvelle personne chargée de la révision ajoutée �
 * Si vous choisissez d’ajouter un message personnalisé, la zone se développe et vous pouvez insérer une ligne d’objet personnalisée (4) et un texte personnalisé dans le corps de l’e-mail (5). Vous pouvez également supprimer le message personnalisé en cliquant sur le lien (6).
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
+

@@ -9,13 +9,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 100%
@@ -85,3 +82,4 @@ Cette option est utile si vous ne souhaitez pas que les clientes et clients et l
 * Vous pouvez également gérer le rôle qui leur est affecté sur l’épreuve, tel que [!UICONTROL Lecture seule], ainsi que les échanges par e-mail au sujet de l’épreuve. Pour plus d’informations, consultez la section [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 * Si vous ne souhaitez pas que votre personne travaillant en freelance participe au processus de relecture mais qu’elle soit informée de la décision finale, vous pouvez définir le rôle d’épreuve par défaut dans les paramètres de votre [!UICONTROL zone de dépôt] et une alerte par e-mail pour toutes les personnes ayant effectué un dépôt dans la [!UICONTROL zone de dépôt] dans [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Configurer les paramètres de notification par e-mail dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md), respectivement. Pour plus d’informations, consultez les sections [Alertes par email,](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [Gérer les rôles d’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) et [Configurer les paramètres de notification par e-mail dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 * Si vous souhaitez que votre personne travaillant en freelance participe activement au processus de révision, vous pouvez ajuster son rôle d’épreuve et le paramètre d’alerte par e-mail selon les besoins, en modifiant en ligne ces détails sur la page de détails de l’épreuve. Pour plus d’informations sur cette page, consultez la section [Gérer les détails de l’épreuve dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+

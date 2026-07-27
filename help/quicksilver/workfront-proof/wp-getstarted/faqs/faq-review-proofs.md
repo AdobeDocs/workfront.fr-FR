@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
 TQID: https://experienceleague.adobe.com/ugmfko-cMBK-g6po1pPQ4RQKAZ3pEbe4PkRf2EUb2C0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 100%
@@ -90,3 +86,4 @@ Si vous envoyez une épreuve à un groupe de révision, mais qu’une seule pers
 ## Puis-je générer une liste de tous les commentaires effectués sur une épreuve ?
 
 Oui, vous pouvez générer un *[!UICONTROL Résumé de l’impression]* des commentaires indiqués sur l’épreuve. Ce document peut être généré pour une seule version ou pour toutes les versions partagées avec cette personne en charge de la révision. Il affiche la liste de tous les commentaires, annotations et décisions qui ont été apportés à l’épreuve. Pour plus d’informations sur cette fonctionnalité, consultez [Imprimer et exporter des commentaires dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+
