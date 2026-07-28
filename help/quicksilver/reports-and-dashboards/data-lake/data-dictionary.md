@@ -7,9 +7,9 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
 workflow-type: tm+mt
-source-wordcount: '11896'
+source-wordcount: '11533'
 ht-degree: 8%
 
 ---
@@ -1708,15 +1708,15 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >
 >Le type d’enregistrement est identifié via la propriété `enumClass` . Voici les types attendus :<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
@@ -8898,194 +8898,114 @@ Contient les définitions actuelles de tous les champs configurés sur les types
         <td>Champ associé</td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de la définition du champ. Clé de Principal pour cette vue.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPEID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique du type d’enregistrement auquel ce champ appartient. Utilisez avec RECORDTYPE\_CURRENT pour rechercher les détails du type d’enregistrement.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`DISPLAYNAME`</td>
-        <td>Varchar</td>
-        <td>Nom d'affichage du champ tel qu'il apparaît dans l'interface Planning.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`ALIASNAME`</td>
+        <td>ALIASNAME</td>
         <td>Varchar</td>
         <td>Version minuscule du nom d’affichage du champ sécurisée par une URL, utilisée pour l’identification au niveau du système et l’accès à l’API (par exemple, « Date de fin » devient « end_date », « Pourcentage terminé » devient « percent_complete »).</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DESCRIPTION`</td>
-        <td>Varchar</td>
-        <td>Description de l’objectif du champ fournie par l’utilisateur.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDTYPE`</td>
-        <td>Varchar</td>
-        <td>Type de données ou catégorie de champ. Les valeurs possibles sont les suivantes : « text », « long-text », « number », « percentage », « currency », « date », « boolean », « single-select », « multi-select », « reference », « lookup », « formule », « user », « created-at » et « created-by ».</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`HASERROR`</td>
-        <td>Varchar</td>
-        <td>Indique si le champ présente actuellement une erreur de configuration ou de synchronisation. Les valeurs sont les chaînes « true » ou « false ». Une valeur « true » signifie que le champ est à l’état d’erreur et peut ne pas renvoyer correctement les données.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`LINKEDFIELD`</td>
-        <td>Variante</td>
-        <td>Objet JSON contenant la définition complète du champ source auquel ce champ est lié. Présent pour les types de champ « référence » et « recherche » ; inclut des propriétés telles que « alias », « displayName », « fieldType » et « createdAt ». Valeur nulle pour les champs non liés.</td>
-        <td>CHAMP\_COURANT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`OPTIONS`</td>
-        <td>Variante</td>
-        <td>Tableau JSON d’objets de choix pour les champs à sélection unique et à sélection multiple. Chaque objet de choix contient « color » (libellé de couleur nommé), « displayName » (libellé affiché dans l’interface utilisateur) et « name » (nom de l’API interne). Valeur nulle pour les types de champ non sélectionnés.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`DATEOPTIONS`</td>
-        <td>Variante</td>
-        <td>Objet JSON contenant une configuration d’affichage spécifique à la date pour les champs « date ». Inclut « dateFormat » (par exemple, « locale ») et « timeFormat » (nul si l’heure n’est pas affichée). Valeur nulle pour les types de champs autres que des dates.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FORMULAOPTIONS`</td>
-        <td>Variante</td>
-        <td>Objet JSON contenant la configuration de formule pour les champs « formule ». Inclut « formule » (expression de formule lisible par l’utilisateur), « returnType » (par exemple, « PERCENTAGE », « NUMBER »), « numberOptions » (précision, visualisation) et « dateOptions ». Valeur nulle pour les champs qui ne sont pas des formules.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`REFERENCEOPTIONS`</td>
-        <td>Variante</td>
-        <td>Un objet JSON contenant la configuration de connexion pour les champs « reference » qui sont liés à d’autres types d’enregistrements Planning. Inclut « backField » (la définition du champ de référence inverse sur le type d’enregistrement connecté) et « linkedRecordTypeId ». Valeur nulle pour les champs non référencés.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>« LOOKUPOPTIONS »</td>
-        <td>Variante</td>
-        <td>Objet JSON contenant la configuration de recherche pour les champs « lookup » qui extraient des valeurs d’un type d’enregistrement connecté. Inclut « referenceFieldId » (l’identifiant du champ de référence qui dirige la recherche), « rollup » (méthode d’agrégation, ou valeur nulle pour l’absence de cumul) et « sourceField » (objet avec l’identifiant du champ en cours de recherche). Valeur nulle pour les champs autres que de recherche.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`NUMBEROPTIONS`</td>
-        <td>Variante</td>
-        <td>Objet JSON contenant des options de formatage numérique pour les champs « number », « percentage » et « currency ». Inclut « allowNegatives » (booléen), « currency » (code de devise ou null), « precision » (décimales) et « visualizationType » (style d’affichage ou null pour le texte brut). Valeur nulle pour les types de champs non numériques.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`EXTERNALOPTIONS`</td>
-        <td>Variante</td>
-        <td>Objet JSON contenant la configuration des champs connectés à des systèmes externes en dehors de Planning. Généralement nul pour les champs créés en mode natif ; renseigné pour les champs sur des types d’enregistrements connectés en externe.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>« CREATEDAT »</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la création de ce champ.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a créé ce champ.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (sans fuseau horaire) de la dernière mise à jour de ce champ.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a mis à jour ce champ pour la dernière fois.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur associé à ce champ, généralement le propriétaire du champ.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>CRÉÉ</td>
         <td>Nombre</td>
         <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de champ. La valeur 1 indique que l’enregistrement a été créé lors du dernier cycle d’actualisation des données ; la valeur 0 indique qu’il ne l’a pas été. Voir CREATEDAT pour l’horodatage de création réel.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`MISE À JOUR`</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de champ. La valeur 1 indique que l’enregistrement a été mis à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique qu’il ne l’a pas été. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
+        <td>CRÉÉ À</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure (pas de fuseau horaire) de la création de ce champ.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
+        <td>CRÉÉ PAR</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur qui a créé ce champ.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>DATEOPTIONS</td>
+        <td>Variante</td>
+        <td>Objet JSON contenant une configuration d’affichage spécifique à la date pour les champs « date ». Inclut « dateFormat » (par exemple, « locale ») et « timeFormat » (nul si l’heure n’est pas affichée). Valeur nulle pour les types de champs autres que des dates.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>SUPPRIMÉ</td>
         <td>Nombre</td>
         <td>Indicateur signalant si ce champ a fait l’objet d’une suppression réversible. Une valeur égale à 1 indique supprimé ; 0 indique actif.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>« RESTAURÉ »</td>
-        <td>Nombre</td>
-        <td>Indicateur qui signale si ce champ a été restauré après avoir été supprimé de manière réversible.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>DESCRIPTION</td>
         <td>Varchar</td>
-        <td>Nom du service ou de l’intégration qui a déclenché la dernière modification de cet enregistrement de champ. Une valeur « Unknown » indique que le service d’origine n’a pas pu être déterminé.</td>
+        <td>Description de l’objectif du champ fournie par l’utilisateur.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`ISFUSION`</td>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>Nom d'affichage du champ tel qu'il apparaît dans l'interface Planning.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement de champ dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>Variante</td>
+        <td>Objet JSON contenant la configuration des champs connectés à des systèmes externes en dehors de Planning. Généralement nul pour les champs créés en mode natif ; renseigné pour les champs sur des types d’enregistrements connectés en externe.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDTYPE</td>
+        <td>Varchar</td>
+        <td>Type de données ou catégorie de champ. Les valeurs possibles sont les suivantes : « text », « long-text », « number », « percentage », « currency », « date », « boolean », « single-select », « multi-select », « reference », « lookup », « formule », « user », « created-at » et « created-by ».</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FORMULAOPTIONS</td>
+        <td>Variante</td>
+        <td>Objet JSON contenant la configuration de formule pour les champs « formule ». Inclut « formule » (expression de formule lisible par l’utilisateur), « returnType » (par exemple, « PERCENTAGE », « NUMBER »), « numberOptions » (précision, visualisation) et « dateOptions ». Valeur nulle pour les champs qui ne sont pas des formules.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>HASERROR</td>
+        <td>Varchar</td>
+        <td>Indique si le champ présente actuellement une erreur de configuration ou de synchronisation. Les valeurs sont les chaînes vraies ou fausses. Une valeur true signifie que le champ est dans un état d’erreur et peut ne pas renvoyer correctement les données.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de la définition du champ. Clé de Principal pour cette vue.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DIFFUSION</td>
         <td>Booléen</td>
         <td>Indicateur signalant si ce champ a été créé ou géré via une intégration Workfront Fusion. Une valeur « true » indique Fusion Management ; « false » ou une valeur vide indique qu’il s’agit d’un champ créé en mode natif.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement de champ dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
+        <td>LINKEDFIELD</td>
+        <td>Variante</td>
+        <td>Objet JSON contenant la définition complète du champ source auquel ce champ est lié. Présent pour les types de champ « référence » et « recherche » ; inclut des propriétés telles que « alias », « displayName », « fieldType » et « createdAt ». Null pour les éléments non liés
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9101,149 +9021,149 @@ Contient le statut actuel de tous les enregistrements créés dans Workfront Pla
         <td>Champ associé</td>
     </tr>
     <tr>
-        <td>`RECORDID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l'enregistrement Planning. Clé de Principal pour cette vue.</td>
-        <td>WF.PLANNINGRECORDS\_CURRENT</td>
-        <td>RECORDID</td>
-    </tr>
-    <tr>
-        <td>« WORKSPACEID »</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l'espace de travail Planning contenant cet enregistrement.</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>« WORKSPACENAME »</td>
-        <td>Varchar</td>
-        <td>Nom d'affichage de l'espace de travail Planning contenant cet enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPEID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique du type d’enregistrement (par exemple, Campagne, Initiative) auquel cet enregistrement appartient.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPENAME`</td>
-        <td>Varchar</td>
-        <td>Nom d’affichage du type d’enregistrement auquel cet enregistrement appartient.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_IDS`</td>
-        <td>Variante</td>
-        <td>Un objet JSON mappant le nom d’affichage de chaque champ à son identifiant de champ (par exemple, « {« Statut »: « F69bc... », « Date de fin »: « F69bc...« } »). Utilisez cette option pour mapper des noms de champ lisibles par l’utilisateur aux identifiants utilisés dans FIELDID\_VALUES et FIELDID\_VALUES\_RAW.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_VALUES_RAW`</td>
-        <td>Variante</td>
-        <td>Un objet JSON mappant le nom d’affichage de chaque champ à sa valeur brute (non formatée). Pour les champs de référence, la valeur est un tableau d’objets d’enregistrement connectés ; pour les champs de nombre et de formule, il s’agit d’une valeur numérique simple ; pour les champs de texte long, il s’agit d’un objet de contenu de texte enrichi. Saisie par le nom d’affichage du champ, correspondant à FIELD\_IDS.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_VALUES`</td>
-        <td>Variante</td>
-        <td>Un objet JSON mappant le nom d’affichage de chaque champ à sa valeur de chaîne formatée en affichage. Saisie par le nom d’affichage du champ, correspondant à FIELD\_IDS.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELD_TYPES`</td>
-        <td>Variante</td>
-        <td>Objet JSON mappant le nom d’affichage de chaque champ à sa chaîne de type de champ (par exemple, « texte », « nombre », « date », « sélection unique », « référence », « formule »). Saisie par le nom d’affichage du champ, correspondant à FIELD\_IDS.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_VALUES`</td>
-        <td>Variante</td>
-        <td>Un objet JSON mappant chaque identifiant de champ à sa valeur formatée en affichage. Pour les types de champ simples, la valeur est une chaîne ou un nombre ; pour les champs de texte long, il s’agit d’un objet contenant à la fois les propriétés « content » (texte brut) et « contentHTML » (au format HTML). Utilisez FIELD\_IDS pour rechercher le nom d’affichage de chaque ID de champ.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_VALUES_RAW`</td>
-        <td>Variante</td>
-        <td>Un objet JSON mappant chaque identifiant de champ à sa valeur brute (non formatée). Pour la plupart des types de champ, les valeurs sont des chaînes simples, des nombres ou des horodatages à la milliseconde Epoch. Les champs de texte long renvoient le contenu en texte brut sous la forme d’une chaîne. Utilisez FIELD\_IDS pour rechercher le nom d’affichage de chaque ID de champ.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_FIELDID`</td>
-        <td>Variante</td>
-        <td>Objet JSON qui répertorie tous les identifiants de champ présents sur cet enregistrement en tant que mappage automatique (chaque identifiant de champ est mappé à lui-même). Utilisez-la pour énumérer les champs qui sont renseignés sur un enregistrement donné ou pour effectuer une référence croisée avec FIELD\_CURRENT.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`REFERENCE_IDS`</td>
-        <td>Variante</td>
-        <td>Un objet JSON mappant le nom d’affichage de chaque champ de référence à l’identifiant de l’enregistrement de connexion (par exemple, «{« Projet »: « Ref8b471aa...« } »). Utilisez conjointement avec REFERENCE\_CURRENT pour résoudre les objets externes connectés pour cet enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>CRÉÉ</td>
         <td>Nombre</td>
         <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement. La valeur 1 indique que l’enregistrement a été créé lors du dernier cycle d’actualisation des données ; la valeur 0 indique qu’il ne l’a pas été. Voir CREATEDAT pour l’horodatage de création réel.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`MISE À JOUR`</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement. La valeur 1 indique que l’enregistrement a été mis à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique qu’il ne l’a pas été. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`DELETED`</td>
-        <td>Nombre</td>
-        <td>Indicateur signalant si cet enregistrement a été supprimé de manière réversible. La valeur 1 indique que l’enregistrement est supprimé ; la valeur 0 indique qu’il est actif.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>« CREATEDAT »</td>
+        <td>CRÉÉ À</td>
         <td>Horodatage\_NTZ</td>
         <td>Date et heure (pas de fuseau horaire) de la création de cet enregistrement.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>CRÉÉ PAR</td>
         <td>Varchar</td>
         <td>Identifiant de l’utilisateur qui a créé cet enregistrement.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>SUPPRIMÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur signalant si cet enregistrement a été supprimé de manière réversible. La valeur 1 indique que l’enregistrement est supprimé ; la valeur 0 indique qu’il est actif.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_IDS</td>
+        <td>Variante</td>
+        <td>Un objet JSON mappant le nom d’affichage de chaque champ à son identifiant de champ (par exemple, « {« Statut »: « F69bc... », « Date de fin »: « F69bc...« } »). Utilisez cette option pour mapper des noms de champ lisibles par l’utilisateur aux identifiants utilisés dans FIELDID\_VALUES et FIELDID\_VALUES\_RAW.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_TYPES</td>
+        <td>Variante</td>
+        <td>Objet JSON mappant le nom d’affichage de chaque champ à sa chaîne de type de champ (par exemple, « texte », « nombre », « date », « sélection unique », « référence », « formule »). Saisie par le nom d’affichage du champ, correspondant à FIELD\_IDS.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES</td>
+        <td>Variante</td>
+        <td>Un objet JSON mappant le nom d’affichage de chaque champ à sa valeur de chaîne formatée en affichage. Saisie par le nom d’affichage du champ, correspondant à FIELD\_IDS.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES_RAW</td>
+        <td>Variante</td>
+        <td>Un objet JSON mappant le nom d’affichage de chaque champ à sa valeur brute (non formatée). Pour les champs de référence, la valeur est un tableau d’objets d’enregistrement connectés ; pour les champs de nombre et de formule, il s’agit d’une valeur numérique simple ; pour les champs de texte long, il s’agit d’un objet de contenu de texte enrichi. Saisie par le nom d’affichage du champ, correspondant à FIELD\_IDS.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_FIELDID</td>
+        <td>Variante</td>
+        <td>Objet JSON qui répertorie tous les identifiants de champ présents sur cet enregistrement en tant que mappage automatique (chaque identifiant de champ est mappé à lui-même). Utilisez-la pour énumérer les champs qui sont renseignés sur un enregistrement donné ou pour effectuer une référence croisée avec FIELD\_CURRENT.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES</td>
+        <td>Variante</td>
+        <td>Un objet JSON mappant chaque identifiant de champ à sa valeur formatée en affichage. Pour les types de champ simples, la valeur est une chaîne ou un nombre ; pour les champs de texte long, il s’agit d’un objet contenant à la fois les propriétés « content » (texte brut) et « contentHTML » (au format HTML). Utilisez FIELD\_IDS pour rechercher le nom d’affichage de chaque ID de champ.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES_RAW</td>
+        <td>Variante</td>
+        <td>Un objet JSON mappant chaque identifiant de champ à sa valeur brute (non formatée). Pour la plupart des types de champ, les valeurs sont des chaînes simples, des nombres ou des horodatages à la milliseconde Epoch. Les champs de texte long renvoient le contenu en texte brut sous la forme d’une chaîne. Utilisez FIELD\_IDS pour rechercher le nom d’affichage de chaque ID de champ.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l'enregistrement Planning. Clé de Principal pour cette vue.</td>
+        <td>WF.PLANNINGRECORDS\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique du type d’enregistrement (par exemple, Campagne, Initiative) auquel cet enregistrement appartient.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPENAME</td>
+        <td>Varchar</td>
+        <td>Nom d’affichage du type d’enregistrement auquel cet enregistrement appartient.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>REFERENCE_IDS</td>
+        <td>Variante</td>
+        <td>Un objet JSON mappant le nom d’affichage de chaque champ de référence à l’identifiant de l’enregistrement de connexion (par exemple, «{« Projet »: « Ref8b471aa...« } »). Utilisez conjointement avec REFERENCE\_CURRENT pour résoudre les objets externes connectés pour cet enregistrement.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>MIS À JOUR</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement. La valeur 1 indique que l’enregistrement a été mis à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique qu’il ne l’a pas été. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DATE DE MISE À JOUR</td>
         <td>Horodatage\_NTZ</td>
         <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de cet enregistrement.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>UPDATEDBY</td>
         <td>Varchar</td>
         <td>Identifiant de l’utilisateur qui a mis à jour cet enregistrement pour la dernière fois.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l'espace de travail Planning contenant cet enregistrement.</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>WORKSPACENAME</td>
+        <td>Varchar</td>
+        <td>Nom d'affichage de l'espace de travail Planning contenant cet enregistrement.</td>
         <td>—</td>
         <td>—</td>
     </tr>
@@ -9268,293 +9188,7 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique du type d’enregistrement. Clé de Principal pour cette vue.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté ce type d’enregistrement. La valeur 1 indique que le type d’enregistrement a été créé lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire. Voir CREATEDAT pour l’horodatage de création réel.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`MISE À JOUR`</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté ce type d’enregistrement. Une valeur égale à 1 indique que le type d’enregistrement a été mis à jour lors du dernier cycle d’actualisation des données ; une valeur égale à 0 indique le contraire. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DELETED`</td>
-        <td>Nombre</td>
-        <td>Indicateur qui signale si ce type d’enregistrement a été supprimé de manière réversible. Une valeur égale à 1 indique supprimé ; 0 indique actif.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé ce type d’enregistrement dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a créé ce type d’enregistrement.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>« CREATEDAT »</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la création de ce type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a mis à jour ce type d’enregistrement pour la dernière fois.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de ce type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur associé à ce type d’enregistrement, généralement le propriétaire.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>« WORKSPACEID »</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l’espace de travail auquel appartient ce type d’enregistrement. Utilisez avec WORKSPACE\_CURRENT pour rechercher les détails de l’espace de travail.</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DISPLAYNAME`</td>
-        <td>Varchar</td>
-        <td>Nom d'affichage du type d'enregistrement affiché dans l'interface de Planning (par exemple, « Campagne », « Initiative »).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DESCRIPTION`</td>
-        <td>Varchar</td>
-        <td>Description fournie par l’utilisateur de l’objectif du type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`COLOR`</td>
-        <td>Varchar</td>
-        <td>Libellé de couleur nommé associé à ce type d’enregistrement dans l’interface de Planning (par exemple, « bleu », « vert », « violet », « magenta », « chartreuse », « gris foncé »). Pas de code hexadécimal.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`AUTORISATION`</td>
-        <td>Varchar</td>
-        <td>Niveau d’autorisation configuré pour l’accès à ce type d’enregistrement (par exemple, « VIEW », « CONTRIBUTE », « MANAGE »). Peut être vide si aucune autorisation personnalisée n’est définie.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PRIMARYFIELDID`</td>
-        <td>Varchar</td>
-        <td>Identifiant du champ désigné comme champ principal (titre) pour ce type d’enregistrement. Clé étrangère vers FIELD\_CURRENT.ID.</td>
-        <td>CHAMP\_COURANT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMIE`</td>
-        <td>Varchar</td>
-        <td>Indique si ce type d'enregistrement est classé en tant que type de taxonomie, utilisé pour organiser et catégoriser d'autres enregistrements. Une valeur « true » indique un type de taxonomie. Peut être vide pour les types d’enregistrements hors taxonomie.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`AUTORISATION`</td>
-        <td>Varchar</td>
-        <td>Niveau d’autorisation configuré pour l’accès à ce type d’enregistrement (par exemple, « VIEW », « CONTRIBUTE », « MANAGE »). Peut être vide si aucune autorisation personnalisée n’est définie.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>`PRIMARYFIELDID`</td>
-        <td>Varchar</td>
-        <td>Identifiant du champ désigné comme champ principal (titre) pour ce type d’enregistrement. Clé étrangère vers FIELD\_CURRENT.ID.</td>
-        <td>CHAMP\_COURANT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMIE`</td>
-        <td>Varchar</td>
-        <td>Indique si ce type d'enregistrement est classé en tant que type de taxonomie, utilisé pour organiser et catégoriser d'autres enregistrements. Une valeur « true » indique un type de taxonomie. Peut être vide pour les types d’enregistrements hors taxonomie.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISEXTERNAL`</td>
-        <td>Booléen</td>
-        <td>Indicateur qui signale si ce type d'enregistrement représente un type d'objet connecté en externe plutôt qu'un enregistrement Planning natif.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`EXTERNALOPTIONS`</td>
-        <td>Variante</td>
-        <td>Un objet JSON contenant les détails de configuration des types d’enregistrements connectés à des systèmes externes. Inclut « connectionName » (par exemple, « workfront »), « objectName » (le code d’objet de l’API Workfront, par exemple, « PROJ ») et « fields » (une carte d’alias de champ standard vers des ID de champ Planning pour les champs synchronisés). Valeur nulle pour les types d’enregistrements créés en mode natif.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>« RESTAURÉ »</td>
-        <td>Nombre</td>
-        <td>Indicateur qui signale si ce type d’enregistrement a été restauré après avoir été supprimé de manière réversible.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ALIAS`</td>
+        <td>ALIAS</td>
         <td>Varchar</td>
         <td>Alias interne pour le type d’enregistrement, utilisé pour l’identification au niveau du système et l’accès à l’API. Peut être vide pour les types d'enregistrements auxquels aucun alias n'a été attribué.</td>
         <td>—</td>
@@ -9567,9 +9201,9 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>COULEUR</td>
         <td>Varchar</td>
-        <td>Nom du service ou de l’intégration qui a déclenché la dernière modification de ce type d’enregistrement. Une valeur « Unknown » indique que le service d’origine n’a pas pu être déterminé.</td>
+        <td>Libellé de couleur nommé associé à ce type d’enregistrement dans l’interface de Planning (par exemple, « bleu », « vert », « violet », « magenta », « chartreuse », « gris foncé »). Pas de code hexadécimal.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9580,9 +9214,9 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>`ISFUSION`</td>
-        <td>Booléen</td>
-        <td>Indicateur qui signale si ce type d’enregistrement a été créé ou géré via une intégration Workfront Fusion. Une valeur « true » indique la gestion de Fusion ; « false » ou une valeur vide indique qu’il s’agit d’un type d’enregistrement créé en mode natif.</td>
+        <td>CRÉÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté ce type d’enregistrement. La valeur 1 indique que le type d’enregistrement a été créé lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire. Voir CREATEDAT pour l’horodatage de création réel.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9593,150 +9227,7 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>« CREATEDAT »</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la création de ce type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a créé ce type d’enregistrement.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de ce type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a mis à jour ce type d’enregistrement pour la dernière fois.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur associé à ce type d’enregistrement, généralement le propriétaire.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_RECORDID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l'enregistrement Planning propriétaire de cette connexion de référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDID.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l’objet externe référencé (par exemple, un identifiant de projet Workfront, un identifiant de tâche ou un autre identifiant d’objet connecté).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALCONNECTIONNAME`</td>
-        <td>Varchar</td>
-        <td>Nom de la connexion externe par laquelle l'objet référencé est connecté (par exemple, nom de la connexion Workfront configurée dans Planning).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALOBJECTNAME`</td>
-        <td>Varchar</td>
-        <td>Code d’objet de l’API Workfront pour le type d’objet externe référencé (par exemple, « PROJ » pour le projet, « TASK » pour la tâche, « PORT » pour Portfolio). Utilisez ceci pour déterminer la table Workfront à joindre lors de la recherche de l'objet référencé.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPEID`</td>
-        <td>Varchar</td>
-        <td>Identificateur unique du type d'enregistrement Planning associé à l'enregistrement propriétaire de cette référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`REFERENCEVALUE`</td>
-        <td>Varchar</td>
-        <td>Nom d’affichage de l’objet externe référencé à partir de la dernière actualisation des données (par exemple, nom de projet Workfront tel que « Beta » ou « Projet de tableaux de bord de la zone de travail »). Cette valeur reflète le nom de l’objet lors de l’actualisation et peut devenir obsolète si l’objet est renommé.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>CRÉÉ</td>
         <td>Nombre</td>
         <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été créée lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
         <td>—</td>
@@ -9749,9 +9240,9 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>`MISE À JOUR`</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été mise à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
+        <td>CRÉÉ À</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure (pas de fuseau horaire) de la création de ce type d’enregistrement.</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9762,7 +9253,59 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
+        <td>CRÉÉ À</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure (pas de fuseau horaire) de la création de ce type d’enregistrement.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CRÉÉ PAR</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur qui a créé ce type d’enregistrement.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CRÉÉ PAR</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur qui a créé ce type d’enregistrement.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>SUPPRIMÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur qui signale si ce type d’enregistrement a été supprimé de manière réversible. Une valeur égale à 1 indique supprimé ; 0 indique actif.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>SUPPRIMÉ</td>
         <td>Nombre</td>
         <td>Indicateur qui signale si cette connexion de référence a été supprimée de manière réversible. La valeur 1 indique que la référence est supprimée ; la valeur 0 indique qu'elle est active.</td>
         <td>—</td>
@@ -9775,11 +9318,388 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td></td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>DESCRIPTION</td>
+        <td>Varchar</td>
+        <td>Description fournie par l’utilisateur de l’objectif du type d’enregistrement.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>Nom d'affichage du type d'enregistrement affiché dans l'interface de Planning (par exemple, « Campagne », « Initiative »).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé ce type d’enregistrement dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Horodatage\_NTZ</td>
         <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement de référence dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
         <td>—</td>
         <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>Variante</td>
+        <td>Un objet JSON contenant les détails de configuration des types d’enregistrements connectés à des systèmes externes. Inclut « connectionName » (par exemple, « workfront »), « objectName » (le code d’objet de l’API Workfront, par exemple, « PROJ ») et « fields » (une carte d’alias de champ standard vers des ID de champ Planning pour les champs synchronisés). Valeur nulle pour les types d’enregistrements créés en mode natif.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique du type d’enregistrement. Clé de Principal pour cette vue.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISEXTERNAL</td>
+        <td>Booléen</td>
+        <td>Indicateur qui signale si ce type d'enregistrement représente un type d'objet connecté en externe plutôt qu'un enregistrement Planning natif.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DIFFUSION</td>
+        <td>Booléen</td>
+        <td>Indicateur qui signale si ce type d’enregistrement a été créé ou géré via une intégration Workfront Fusion. Une valeur « true » indique la gestion de Fusion ; « false » ou une valeur vide indique qu’il s’agit d’un type d’enregistrement créé en mode natif.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISTAXONOMIE</td>
+        <td>Varchar</td>
+        <td>Indique si ce type d'enregistrement est classé en tant que type de taxonomie, utilisé pour organiser et catégoriser d'autres enregistrements. Une valeur « true » indique un type de taxonomie. Peut être vide pour les types d’enregistrements hors taxonomie.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISTAXONOMIE</td>
+        <td>Varchar</td>
+        <td>Indique si ce type d'enregistrement est classé en tant que type de taxonomie, utilisé pour organiser et catégoriser d'autres enregistrements. Une valeur « true » indique un type de taxonomie. Peut être vide pour les types d’enregistrements hors taxonomie.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AUTORISATION</td>
+        <td>Varchar</td>
+        <td>Niveau d’autorisation configuré pour l’accès à ce type d’enregistrement (par exemple, « VIEW », « CONTRIBUTE », « MANAGE »). Peut être vide si aucune autorisation personnalisée n’est définie.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AUTORISATION</td>
+        <td>Varchar</td>
+        <td>Niveau d’autorisation configuré pour l’accès à ce type d’enregistrement (par exemple, « VIEW », « CONTRIBUTE », « MANAGE »). Peut être vide si aucune autorisation personnalisée n’est définie.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>Identifiant du champ désigné comme champ principal (titre) pour ce type d’enregistrement. Clé étrangère vers FIELD\_CURRENT.ID.</td>
+        <td>CHAMP\_COURANT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>Identifiant du champ désigné comme champ principal (titre) pour ce type d’enregistrement. Clé étrangère vers FIELD\_CURRENT.ID.</td>
+        <td>CHAMP\_COURANT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>Identificateur unique du type d'enregistrement Planning associé à l'enregistrement propriétaire de cette référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>Nom d’affichage de l’objet externe référencé à partir de la dernière actualisation des données (par exemple, nom de projet Workfront tel que « Beta » ou « Projet de tableaux de bord de la zone de travail »). Cette valeur reflète le nom de l’objet lors de l’actualisation et peut devenir obsolète si l’objet est renommé.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RESTAURÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur qui signale si ce type d’enregistrement a été restauré après avoir été supprimé de manière réversible.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>Nom de la connexion externe par laquelle l'objet référencé est connecté (par exemple, nom de la connexion Workfront configurée dans Planning).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l’objet externe référencé (par exemple, un identifiant de projet Workfront, un identifiant de tâche ou un autre identifiant d’objet connecté).</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>Code d’objet de l’API Workfront pour le type d’objet externe référencé (par exemple, « PROJ » pour le projet, « TASK » pour la tâche, « PORT » pour Portfolio). Utilisez ceci pour déterminer la table Workfront à joindre lors de la recherche de l'objet référencé.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l'enregistrement Planning propriétaire de cette connexion de référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TRIGGEREDBYSERVICE</td>
+        <td>Varchar</td>
+        <td>Nom du service ou de l’intégration qui a déclenché la dernière modification de ce type d’enregistrement. Une valeur « Unknown » indique que le service d’origine n’a pas pu être déterminé.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MIS À JOUR</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté ce type d’enregistrement. Une valeur égale à 1 indique que le type d’enregistrement a été mis à jour lors du dernier cycle d’actualisation des données ; une valeur égale à 0 indique le contraire. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MIS À JOUR</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été mise à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DATE DE MISE À JOUR</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de ce type d’enregistrement.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DATE DE MISE À JOUR</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de ce type d’enregistrement.</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDBY</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur qui a mis à jour ce type d’enregistrement pour la dernière fois.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDBY</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur qui a mis à jour ce type d’enregistrement pour la dernière fois.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>USERID</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur associé à ce type d’enregistrement, généralement le propriétaire.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>USERID</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur associé à ce type d’enregistrement, généralement le propriétaire.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l’espace de travail auquel appartient ce type d’enregistrement. Utilisez avec WORKSPACE\_CURRENT pour rechercher les détails de l’espace de travail.</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9802,108 +9722,108 @@ Contient les définitions actuelles de tous les espaces de travail Workfront Pla
         <td>Champ associé</td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l'espace de travail Planning. Clé de Principal pour cette vue.</td>
-        <td>WF.WORKSPACES\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>CRÉÉ</td>
         <td>Nombre</td>
         <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement d’espace de travail. La valeur 1 indique que l’espace de travail a été créé lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire. Voir CREATEDAT pour l’horodatage de création réel.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`MISE À JOUR`</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement d’espace de travail. La valeur 1 indique que l’espace de travail a été mis à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`DELETED`</td>
-        <td>Nombre</td>
-        <td>Indicateur qui signale si cet espace de travail a fait l'objet d'une suppression réversible. Une valeur égale à 1 indique supprimé ; 0 indique actif.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement d’espace de travail dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a créé cet espace de travail.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>« CREATEDAT »</td>
+        <td>CRÉÉ À</td>
         <td>Horodatage\_NTZ</td>
         <td>Date et heure (pas de fuseau horaire) de la création de cet espace de travail.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>CRÉÉ PAR</td>
         <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a mis à jour cet espace de travail pour la dernière fois.</td>
+        <td>Identifiant de l’utilisateur qui a créé cet espace de travail.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>SUPPRIMÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur qui signale si cet espace de travail a fait l'objet d'une suppression réversible. Une valeur égale à 1 indique supprimé ; 0 indique actif.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de cet espace de travail.</td>
+        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement d’espace de travail dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>ID</td>
         <td>Varchar</td>
-        <td>Identifiant de l’utilisateur associé à cet espace de travail, généralement le propriétaire de l’espace de travail.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
+        <td>Identifiant unique de l'espace de travail Planning. Clé de Principal pour cette vue.</td>
+        <td>WF.WORKSPACES\_CURRENT</td>
+        <td>ID</td>
     </tr>
     <tr>
-        <td>`NAME`</td>
+        <td>DIFFUSION</td>
+        <td>Booléen</td>
+        <td>Indicateur qui signale si cet espace de travail a été créé ou géré via une intégration de Workfront Fusion. Une valeur « true » indique Fusion Management ; « false » ou une valeur vide indique qu’il s’agit d’un espace de travail créé en mode natif.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>NOM</td>
         <td>Varchar</td>
         <td>Nom d'affichage de l'espace de travail, tel qu'indiqué dans l'interface Planning.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`PARENTID`</td>
+        <td>PARENTID</td>
         <td>Varchar</td>
         <td>Identifiant de l’espace de travail parent si cet espace de travail est imbriqué dans une hiérarchie d’espace de travail. Vide si cet espace de travail n'a pas de parent (c'est-à-dire qu'il s'agit d'un espace de travail de niveau supérieur).</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>« RESTAURÉ »</td>
+        <td>RESTAURÉ</td>
         <td>Nombre</td>
         <td>Indicateur qui signale si cet espace de travail a été restauré après avoir été supprimé de manière réversible.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>TRIGGEREDBYSERVICE</td>
         <td>Varchar</td>
         <td>Nom du service ou de l’intégration qui a déclenché la dernière modification de cet enregistrement d’espace de travail. Une valeur « Unknown » indique que le service d’origine n’a pas pu être déterminé.</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>`ISFUSION`</td>
-        <td>Booléen</td>
-        <td>Indicateur qui signale si cet espace de travail a été créé ou géré via une intégration de Workfront Fusion. Une valeur « true » indique Fusion Management ; « false » ou une valeur vide indique qu’il s’agit d’un espace de travail créé en mode natif.</td>
+        <td>MIS À JOUR</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement d’espace de travail. La valeur 1 indique que l’espace de travail a été mis à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
         <td>—</td>
         <td>—</td>
+    </tr>
+    <tr>
+        <td>DATE DE MISE À JOUR</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de cet espace de travail.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDBY</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur qui a mis à jour cet espace de travail pour la dernière fois.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>USERID</td>
+        <td>Varchar</td>
+        <td>Identifiant de l’utilisateur associé à cet espace de travail, généralement le propriétaire de l’espace de travail.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
     </tr>
 </table>
