@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 93
 ht-degree: 100%
@@ -41,3 +41,4 @@ Les e-mails de nouvelle version sont envoyés lorsque vous créez une [!UICONTRO
 >Si les notifications par e-mail sont désactivées par défaut dans les [!UICONTROL Paramètres du compte], les réviseurs et réviseuses ne recevront aucun e-mail de [!UICONTROL nouvelle version], sauf si la case [!UICONTROL Notifier les personnes par e-mail] est cochée sur la page Nouvelle version.
 
 ![New_Version_Email.png](assets/new-version-email-350x212.png)
+

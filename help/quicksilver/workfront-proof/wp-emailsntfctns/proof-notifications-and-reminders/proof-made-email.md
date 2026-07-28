@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 100%
@@ -66,3 +66,4 @@ Si vous ne souhaitez pas que ce lien apparaisse dans l’e-mail de votre personn
 
 1. Voir [Configurer les paramètres de notification par e-mail dans Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) pour des instructions plus détaillées.
 1. Si les notifications par e-mail sont désactivées par défaut dans [!UICONTROL Paramètres du compte], la personne créatrice ou la personne propriétaire de l’épreuve ne recevra aucun e-mail [!UICONTROL Épreuve effectuée] ou [!UICONTROL Nouvelle épreuve], même si cette option est activée dans ses paramètres personnels et que la case [!UICONTROL Notifier les personnes par e-mail] est cochée sur la page [!UICONTROL Nouvelle épreuve].
+

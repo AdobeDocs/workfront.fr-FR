@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 98%
@@ -87,3 +87,4 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte [!DNL Workfront Pr
 1. Dans l’e-mail de validation que vous recevez, cliquez sur le lien de confirmation.\
    La modification de l’e-mail est enregistrée dans votre profil. Vous devrez peut-être actualiser le navigateur dans lequel vous affichez la page [!DNL Workfront Proof] [!UICONTROL Paramètres personnels] pour vérifier qu’il s’agit d’un alias d’e-mail.
 1. (Facultatif) Pour faire de la nouvelle adresse e-mail votre adresse e-mail principale dans [!DNL Workfront Proof], cliquez sur le bouton [!UICONTROL Plus] (trois points) à l’extrémité droite de l’adresse, puis cliquez sur **[!UICONTROL Créer un e-mail principal]** dans le menu qui s’affiche.
+

@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 543
 ht-degree: 100%
@@ -63,5 +63,6 @@ Lorsqu’il n’est pas nécessaire que la personne responsable de la conception
 1. La personne responsable de la gestion de projet reçoit un e-mail contenant un résumé de l’examen du client ou de la cliente et de sa décision. Pour plus d’informations, voir [Configurer les paramètres de notification par e-mail dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 1. La personne responsable de la gestion de projet informe la personne chargée de la conception des demandes de modification en utilisant [!UICONTROL Imprimer les commentaires]. Pour plus d’informations, voir [Imprimer et exporter des commentaires dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 1. Si nécessaire, la personne chargée de la conception modifie le fichier et le charge dans [!DNL Workfront Proof], où la personne responsable de la gestion de projet peut créer une nouvelle version pour une nouvelle série de relecture.
+
 
 

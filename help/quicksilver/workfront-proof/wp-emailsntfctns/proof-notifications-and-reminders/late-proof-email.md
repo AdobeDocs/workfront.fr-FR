@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 403
 ht-degree: 100%
@@ -59,3 +59,4 @@ Tenez compte des points suivants concernant les notifications relatives aux épr
   >La personne créatrice des épreuves reçoit un e-mail d’[!UICONTROL épreuve créée] pour chacune des épreuves créées. Pour plus d’informations, consultez [l’e-mail d’[!UICONTROL épreuve créée]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
 * Si vous ou vos réviseurs et réviseuses ne recevez pas une notification par e-mail prévue, consultez [Configurer les e-mails  [!DNL Workfront Proof]  afin d’éviter les filtres anti-spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+

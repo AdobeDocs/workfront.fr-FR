@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 100%
@@ -36,3 +36,4 @@ Cette section contient les articles suivants :
 * [Configurer les e-mails  [!DNL Workfront Proof]  pour éviter les filtres anti-spam](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
 * [Configurer les paramètres de spam pour les clients de messagerie courants](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
 * [Enregistrements SPF [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+

@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 13%
@@ -41,5 +41,6 @@ Cet exemple explique le processus de base entre un concepteur ou un chef de proj
 * **Alerte par e-mail** : le concepteur ou le chef de projet reçoit un e-mail contenant un résumé de la révision du client ou de la cliente, en fonction des alertes par e-mail qu’il ou elle a définies. Pour plus d’informations, voir [Configuration des paramètres de notification par e-mail dans [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 * **Nouvelle version** (le cas échéant) : le concepteur ou le chef de projet modifie le fichier et le charge dans [!DNL Workfront Proof] en tant que nouvelle version.
+
 
 

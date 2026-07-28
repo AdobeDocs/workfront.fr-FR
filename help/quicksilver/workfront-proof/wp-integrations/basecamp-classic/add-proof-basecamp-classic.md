@@ -14,7 +14,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 100%
@@ -92,3 +92,4 @@ Après avoir ajouté l’épreuve à votre projet [!DNL Basecamp Classic], d’a
 > Si vous n’avez pas de session [!DNL Basecamp Classic] ouverte dans une autre fenêtre du navigateur, vous devez vous connecter à votre compte [!DNL Basecamp Classic] avant de pouvoir afficher le message dans [!DNL Basecamp].
 
 Voir aussi [Vérifier une épreuve dans  [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+

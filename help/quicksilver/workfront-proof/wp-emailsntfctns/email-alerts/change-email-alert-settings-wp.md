@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 181
 ht-degree: 100%
@@ -45,3 +45,4 @@ Vous pouvez également modifier les alertes par e-mail de [!DNL Workfront Proof]
 1. Cliquez sur l’icône [!UICONTROL Détails de la page] dans le coin inférieur gauche de la visionneuse de relecture. ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. Dans la section [!UICONTROL Workflow] de la page [!UICONTROL Détails de l’épreuve] qui s’affiche, dans **[!UICONTROL Alertes par e-mail]**, cliquez sur l’option de votre choix dans le menu déroulant.
+
