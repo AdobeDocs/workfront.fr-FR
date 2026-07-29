@@ -19,20 +19,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3684
-ht-degree: 42%
+source-wordcount: 3910
+ht-degree: 40%
 
 ---
 
 # Gérer la vue de tableau
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -309,19 +308,31 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
 
    Une miniature par défaut est également ajoutée au nouvel enregistrement.
 
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri ou un regroupement à la vue Tableau.
+   >
+   >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs et utilisatrices qui accèdent au type d’enregistrement dans la même vue.
+
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
 1. Cliquez sur **Champs** en haut du tableau, puis activez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-<!--
-For July 23: you might need to add some spacing below:
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+1. <span class="preview">(Facultatif) Cliquez sur **Champs** en haut du tableau, puis cliquez sur **Couleur** pour afficher la couleur d’un enregistrement à gauche de son champ principal. Les couleurs sont attribuées de manière aléatoire par défaut pour chaque nouvel enregistrement. Le paramètre **Color** est désélectionné par défaut.</span>
+
+1. <span class="preview"> (facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l&#39;enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.</span>
+
+   <div class="preview">
+
+   ![Zone du sélecteur de couleurs pour le codage des couleurs d’enregistrement](assets/color-picker-for-record-color-coding.png)
+
+   Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+
+   </div>
+
 
 ### Ajouter des filtres {#add-filters-1}
 

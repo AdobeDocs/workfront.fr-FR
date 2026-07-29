@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
-ht-degree: 26%
+source-wordcount: 3223
+ht-degree: 25%
 
 ---
 
 # Modifier des enregistrements
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * Vous pouvez modifier les enregistrements que vous avez créés ou qui ont été créés par d’autres personnes, si des autorisations vous ont été accordées à l’espace de travail.
 * Vous pouvez modifier les champs d’enregistrement à partir des zones suivantes :
 
-   * Aperçu de l’enregistrement dans une vue d’enregistrement
-   * Page des détails de l’enregistrement
-   * En ligne, dans une vue de tableau
-   * La vue Calendrier et Chronologie, lors du redimensionnement ou du déplacement des enregistrements. Cette opération met à jour les dates des enregistrements.
+  * Aperçu de l’enregistrement dans une vue d’enregistrement
+  * Page des détails de l’enregistrement
+  * En ligne, dans une vue de tableau
+  * La vue Calendrier et Chronologie, lors du redimensionnement ou du déplacement des enregistrements. Cette opération met à jour les dates des enregistrements.
 
 * Lorsque l’utilisateur modifie un enregistrement dans une vue, les modifications sont immédiatement visibles dans toutes les vues et dans les pages d’enregistrement pour tous les autres utilisateurs.
 
 * Les types de champs suivants sont automatiquement mis à jour et vous ne pouvez pas modifier leurs valeurs manuellement :
-   * Champs liés à partir d’autres enregistrements
-   * Champs de type Formule
-   * Champs système (Créé par, Date de création, Dernière modification par, Date de dernière modification, Date d’approbation, Approuvé par , ID d’enregistrement)
+  * Champs liés à partir d’autres enregistrements
+  * Champs de type Formule
+  * Champs système (Créé par, Date de création, Dernière modification par, Date de dernière modification, Date d’approbation, Approuvé par , ID d’enregistrement)
 * Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez sont répercutées sur les enregistrements liés dans tous les espaces de travail où cet enregistrement est lié.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
 * Les URL sont reconnues en tant que liens dans des types de champ de texte d’une seule ligne uniquement lorsqu’elles commencent par ce qui suit : http://, https://, ftp:// ou www. .
@@ -167,8 +167,8 @@ Old:
 
   Pour modifier les dates des enregistrements, consultez l’une des sections suivantes de cet article :
 
-   * [Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [Modifier un enregistrement dans la vue chronologique d’un type d’enregistrement](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [Modifier un enregistrement dans la vue chronologique d’un type d’enregistrement](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## Modifier des enregistrements
@@ -254,10 +254,10 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    * Copiez une ou plusieurs cellules d’une source externe (par exemple, un fichier Excel), puis collez-les dans l’un des types de champs suivants :
 
-      * Champs Personnes. Seuls les champs comportant une seule valeur sont pris en charge.
-      * Champs de texte.
-      * Sélectionnez des champs.
-      * Champs numériques, de pourcentage et monétaires.
+     * Champs Personnes. Seuls les champs comportant une seule valeur sont pris en charge.
+     * Champs de texte.
+     * Sélectionnez des champs.
+     * Champs numériques, de pourcentage et monétaires.
 
    Vous ne pouvez pas copier d’informations provenant d’une source externe et les coller dans d’autres types de champs, y compris les champs de connexion de Workfront ou d’autres applications.
 
@@ -296,7 +296,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    * **Afficher** ou **Ouvrir dans un nouvel onglet** : permet d’ouvrir la page de l’enregistrement.
    * **Copier le lien** : pour copier un lien vers la page de l’enregistrement.
    * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.
-Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+     Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Dupliquer** : crée un doublon identique de l’enregistrement.
    * **Insérer l’enregistrement ci-dessus/ Insérer l’enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. Cela n’est pas possible dans l’environnement de Prévisualisation.
    * **Supprimer** : pour supprimer l’enregistrement. Les enregistrements supprimés sont enregistrés dans la zone Récemment supprimés pendant 30 jours au maximum.
@@ -372,6 +372,9 @@ Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/h
    >  * Champs de recherche d&#39;autres enregistrements créés en connectant des types d&#39;enregistrements. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification et Formule
 
+1. <span class="preview">(Facultatif) Cliquez sur le cercle de couleur à gauche du nom d’enregistrement pour modifier la couleur d’enregistrement. </span>
+   <span class="preview">Des couleurs sont automatiquement attribuées aux enregistrements lors de leur création. Cliquez sur **Nuancier** ou **Personnalisé** pour sélectionner une nouvelle couleur.</span>
+
 1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
 1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une image miniature. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
@@ -428,6 +431,11 @@ Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/h
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification et Formule
 
 1. (Facultatif) Cliquez sur l’icône d’information située à droite de n’importe quel champ qui l’affiche pour afficher la description d’un champ.
+1. <span class="preview">(Facultatif) Cliquez sur le cercle de couleur à gauche du nom d’enregistrement pour modifier la couleur d’enregistrement. </span>
+   <span class="preview">Des couleurs sont automatiquement attribuées aux enregistrements lors de leur création. Cliquez sur **Nuancier** ou **Personnalisé** pour sélectionner une nouvelle couleur.</span>
+
+   ![Zone du sélecteur de couleurs pour la zone des détails de l’enregistrement](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement
 
    Ou

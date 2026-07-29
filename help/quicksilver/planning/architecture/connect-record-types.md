@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3058
+source-wordcount: 3068
 ht-degree: 25%
 
 ---
@@ -279,7 +279,7 @@ Old:
 
      Un nouvel onglet de connexion s’ouvre pour l’enregistrement ou le type d’objet sélectionné.
 
-   * **Marques** à partir d’Adobe GenStudio for Performance Marketing dans la section **Adobe GenStudio**
+   * **Marques** d’Adobe GenStudio for Performance Marketing dans la section **Applications Adobe**
 
      ![Sélection de la connexion à la marque &#x200B;](assets/brand-genstudio-connection-selection.png)
 
@@ -337,13 +337,18 @@ Old:
    >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager, à un type d’enregistrement Workfront Planning ou à une marque GenStudio, choisissez l’une des options suivantes dans la zone **Apparence de l’enregistrement** :
+1. (Facultatif) Sélectionnez l’une des options suivantes dans la zone **Apparence de l’enregistrement** :
 
    * **Nom et image** : le nom et la miniature ou l’icône des enregistrements connectés s’affichent dans le champ d’enregistrement connecté. Il s’agit de l’option par défaut.
    * **Nom** : seul le nom des enregistrements connectés s&#39;affichera dans le champ d&#39;enregistrement connecté.
    * **Image** : seule la miniature ou l’icône des enregistrements connectés s’affiche dans le champ d’enregistrement connecté.
+   <div class="preview">
 
-   Les enregistrements sans image miniature affichent à la place l’icône de type d’enregistrement. Un exemple de la façon dont les enregistrements connectés s’afficheront s’affiche dans la zone **Apparence des enregistrements**.
+   * **Couleur et nom** : lorsque vous connectez des enregistrements Planning, la couleur de chaque enregistrement connecté s&#39;affiche sous la forme d&#39;un cercle à gauche du nom de l&#39;enregistrement. Cette option n&#39;est pas disponible lorsque vous connectez des types d&#39;enregistrement à des types d&#39;objet provenant d&#39;autres applications.
+
+   </div>
+
+   Les enregistrements sans image miniature affichent à la place l’icône de type d’enregistrement.
 
    >[!NOTE]
    >
@@ -351,9 +356,9 @@ Old:
    >
    >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objets Workfront.
+   >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objet dans Workfront.
    >
-   >* Ce que vous sélectionnez dans la zone Apparence des enregistrements détermine l&#39;affichage des enregistrements dans les connexions partout dans le système, y compris toutes les pages de vues et de détails.
+   >* Ce que vous sélectionnez dans la zone **Apparence des enregistrements** détermine l’affichage des enregistrements dans les connexions, partout dans le système, y compris dans toutes les pages de vues et de détails.
 
 1. Sélectionnez l’option **Sélectionner les champs de recherche** pour ajouter des champs à partir du type d’enregistrement auquel vous vous connectez. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. Les lier affiche les informations de l&#39;enregistrement ou de l&#39;objet à partir duquel vous établissez la liaison. Cette option est sélectionnée par défaut.
 
@@ -368,7 +373,7 @@ Old:
    >
    >* Les informations du champ de date des objets Workfront s’affichent au format 24 heures dans Workfront Planning, quelle que soit la manière dont elles s’affichent dans Workfront.
    >
-   >   Par exemple, si la date de début prévue d’un projet s’affiche à 15 :00 dans Workfront, elle s’affiche à 15 :00 dans Workfront Planning dans un champ de recherche importé.
+   >   Par exemple, si la date de début prévue d’un projet s’affiche à 15 h dans Workfront, elle s’affiche à 15 h dans Workfront Planning dans un champ de recherche importé.
 
 1. Cliquez sur **Créer**.
 
@@ -429,9 +434,9 @@ Old:
    * **SOMME** : affiche le total de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ de l’enregistrement lié.
    * **MOY** : affiche la moyenne de toutes les valeurs provenant de plusieurs enregistrements sélectionnés dans le champ de l’enregistrement lié.
    * **UNIQUE** : supprime les doublons des valeurs des champs de recherche et affiche uniquement les valeurs uniques. Cette option n’est pas disponible pour les types de champs suivants :
-      * Paragraphe
-      * Case à cocher
-      * Personnes
+     * Paragraphe
+     * Case à cocher
+     * Personnes
 
    >[!NOTE]
    >

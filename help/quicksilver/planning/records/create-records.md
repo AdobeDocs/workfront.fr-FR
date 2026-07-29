@@ -20,21 +20,19 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
-ht-degree: 14%
+source-wordcount: 3647
+ht-degree: 13%
 
 ---
 
 # Créer des enregistrements
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -178,17 +176,14 @@ Old:
   >
   >Un gestionnaire d’espace de travail doit créer un formulaire de demande pour le type d’enregistrement afin que les utilisateurs disposant des autorisations d’affichage puissent ajouter des enregistrements à l’aide d’un formulaire de demande. Dans le cas contraire, les utilisateurs disposant d’une autorisation d’affichage ne peuvent pas créer d’enregistrements.
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* Tous les enregistrements sont automatiquement codés par couleur lors de leur création, quelle que soit la méthode que vous utilisez pour les créer.
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  Pour plus d’informations, consultez la section [Enregistrements de codage par couleur](#color-coding-records) dans cet article.
 
 </div>
--->
+
 
 ## Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement
 
@@ -293,8 +288,8 @@ Pour plus d’informations sur la modification des informations relatives aux en
      >
      >Lorsque vous ajoutez un nouvel enregistrement après le dernier enregistrement d&#39;un regroupement ou d&#39;un sous-regroupement, Workfront renseigne automatiquement les champs inclus dans les regroupements. Si nécessaire, vous pouvez modifier manuellement ces champs, afin que les enregistrements puissent être supprimés du regroupement.
 
-   * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * Pointez sur le champ principal d&#39;un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * Cliquez sur **Maj + Entrée** sur votre clavier à partir de n’importe quelle colonne ou ligne du tableau. Cela ajoute une ligne vide sous l’enregistrement à partir duquel vous commencez.
+   * Pointez sur le champ principal d’un enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du champ, puis cliquez sur **Insérer un enregistrement au-dessus** ou **Insérer un enregistrement au-dessous**.
 
    ![Ajouter une nouvelle campagne dans la ligne du tableau](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -596,52 +591,50 @@ Vous pouvez configurer et activer l’automatisation dans la page de l’enregis
 Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## Enregistrements de codage par couleur
 
-All records are automatically associated with a color when they are created. 
+Tous les enregistrements sont automatiquement associés à une couleur lors de leur création.
 
-1. Create a record using one of the methods described in this article. 
+1. Créez un enregistrement à l’aide de l’une des méthodes décrites dans cet article.
 
-    The color is immediately applied to the new record in the following areas:
+   La couleur est immédiatement appliquée au nouvel enregistrement dans les zones suivantes :
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * En tant que barre, à gauche du nom d’enregistrement ou du champ principal dans les vues tableau, chronologie et calendrier.
+   * Sous forme de cercle, à gauche du nom d’enregistrement dans la page **Détails** de l’enregistrement.
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditionnel) Pour afficher la couleur d’un enregistrement, effectuez l’une des opérations suivantes :
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * Dans la vue Tableau, cliquez sur l’icône **Champs** dans la barre d’outils en haut d’une liste d’enregistrements, puis activez le paramètre **Couleur**. Une barre est ajoutée à gauche du champ principal de l&#39;enregistrement.
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![Barre de couleurs d’enregistrement de la vue Tableau](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+   * Dans la vue chronologique, cliquez sur **Paramètres** > **Style de barre**, puis activez le paramètre **Couleur**. Une barre est ajoutée à la marge gauche de la barre de l’enregistrement lorsque vous choisissez d’appliquer un code couleur à la barre à l’aide de **Enregistrement**.
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![Barre de couleurs d’enregistrement de la vue Chronologie](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * Dans la vue Calendrier, cliquez sur **Paramètres** > **Style de barre**, puis activez le paramètre **Couleur**. La couleur de la barre d&#39;enregistrement correspond à celle de l&#39;enregistrement et une teinte plus foncée de la même couleur est ajoutée à la marge gauche de la barre d&#39;enregistrement lorsque vous choisissez de coder la barre en **Enregistrement**.
 
-    The Color setting is turned off by default.
+     ![Barre de couleurs d’enregistrement de l’affichage Calendrier](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   Le paramètre Couleur est désactivé par défaut.
 
-        Once selected, the new color is applied immediately. 
+1. Pour modifier la couleur associée à un enregistrement, procédez comme suit :
+
+   1. Dans la vue Tableau, cliquez sur la barre de couleurs des enregistrements
+      Ou
+      Dans l’aperçu ou la page des détails de l’enregistrement, cliquez sur le cercle de couleurs de l’enregistrement.
+   1. Cliquez sur l’onglet **Nuancier** ou **Personnalisé** pour sélectionner une nouvelle couleur.
+
+      Une fois sélectionnée, la nouvelle couleur est appliquée immédiatement.
 
 </div>
-
--->

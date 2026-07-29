@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
 source-wordcount: 1741
 ht-degree: 6%
@@ -311,7 +311,7 @@ Voici ce qui se produit :
 
 
 1. Pour afficher tous les champs, développez le menu déroulant des pages vues, puis sélectionnez **Tous les champs**.
-1. (Facultatif) Cliquez surK **Nouveaux détails** pour ajouter une nouvelle page et la personnaliser, puis procédez comme suit :
+1. (Facultatif) Cliquez sur **Nouveaux détails** pour ajouter une nouvelle page et la personnaliser, puis procédez comme suit :
 
    1. Dans la zone **Créer une vue**, ajoutez un nom pour la nouvelle vue de page de détails, puis cliquez sur **Créer**.
    1. Pointez sur les champs de l’affichage et cliquez sur l’icône **Masquer le champ** ![Masquer l’icône de champ](assets/hide-field-in-details-page-icon.png) à gauche des champs pour masquer le champ.
