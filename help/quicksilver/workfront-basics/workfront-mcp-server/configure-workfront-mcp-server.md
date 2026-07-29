@@ -5,9 +5,9 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
+source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2007'
 ht-degree: 1%
 
 ---
@@ -70,23 +70,15 @@ Vous vous connectez à Workfront une fois par compte [!DNL Claude]. La connexion
 Pour connecter Workfront à [!DNL Claude] :
 
 1. Ouvrez [!DNL Claude].
-
-1. Accédez à la zone des connecteurs.
-
-
-
+1. Cliquez sur **Personnaliser**.
+1. Dans le volet de navigation de gauche, cliquez sur **Connecteurs**.
 1. Recherchez **[!DNL Adobe Workfront]** dans la liste des connecteurs.
 
    Si vous ne le voyez pas, reportez-vous à la section [Conditions préalables d’administration](#admin-prerequisites) de cet article.
-
 1. Cliquez sur **Connecter**.
+1. Lorsque vous y êtes invité, connectez-vous à votre instance Workfront. Vous devrez peut-être sélectionner un profil et une instance Workfront. Le profil que vous sélectionnez détermine l’espace de travail connecté.
 
-
-
-1. Lorsque vous y êtes invité, connectez-vous à votre instance Workfront.
-
-
-1. Une fois l’authentification terminée, vous êtes connecté.
+   Une fois l’authentification terminée, le serveur MCP Workfront est connecté.
 
 
 
@@ -106,15 +98,18 @@ Pour connecter Workfront à [!DNL Claude] avec une URL :
 
 1. Connectez-vous à [Claude](https://claude.ai) à l’aide de vos informations d’identification.
 1. Dans le menu de gauche, sélectionnez l’icône **Personnaliser**.
-1. Sélectionnez **Connecteurs**, puis sélectionnez l’icône **+** pour ajouter un connecteur.
-1. Sélectionnez le bouton **Créer une application**.
+1. Dans le volet de navigation de gauche, sélectionnez **Connecteurs**.
+1. Sélectionnez l’icône **+**, puis sélectionnez **Ajouter un connecteur personnalisé**.
 1. Attribuez au connecteur le nom souhaité (par exemple, « Workfront ») et saisissez l’URL du serveur MCP :
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. Une fois le connecteur créé, une fenêtre de connexion s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Veillez à sélectionner l’instance Workfront souhaitée si vous appartenez à plusieurs instances.
+1. Cliquez sur **Connexion**.
+Une fenêtre de connexion à Workfront s’affiche.
+1. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID.
+Vous devrez peut-être sélectionner un profil et une instance Workfront. Le profil que vous sélectionnez détermine l’espace de travail connecté.
 
 +++
 
@@ -134,6 +129,8 @@ La procédure pour connecter le serveur Workfront MCP à ChatGPT diffère selon 
 
 ### Se connecter à ChatGPT Desktop ou ChatGPT Codex
 
++++ Développez pour afficher les instructions étape par étape pour connecter Workfront à ChatGPT Desktop ou ChatGPT Codex.
+
 1. Dans ChatGPT, ouvrez **Settings**.
 1. Cliquez sur **Plugins** dans le volet de navigation de gauche.
 1. Cliquez sur **Ajouter un serveur** en haut à droite de la fenêtre.
@@ -148,10 +145,14 @@ La procédure pour connecter le serveur Workfront MCP à ChatGPT diffère selon 
 1. Cliquer sur **Enregistrer**.
 1. Dans la liste qui s’affiche, cliquez sur **Authentifier** pour le serveur MCP que vous ajoutez.
 1. Connectez-vous à Workfront.
+Vous devrez peut-être sélectionner un profil et une instance Workfront. Le profil que vous sélectionnez détermine l’espace de travail connecté.
 1. Dans ChatGPT, dans la liste du serveur MCP, assurez-vous que le bouton (bascule) situé à droite du nouveau serveur MCP reste activé.
 
++++
 
 ### Se connecter à ChatGPT sur le web
+
++++ Développez pour afficher les instructions étape par étape pour connecter Workfront à ChatGPT sur le web.
 
 1. Connectez-vous à [ChatGPT](https://chatgpt.com) à l’aide de vos informations d’identification.
 1. Dans le coin inférieur gauche, sélectionnez votre nom, puis sélectionnez **Paramètres**.
@@ -168,8 +169,9 @@ La procédure pour connecter le serveur Workfront MCP à ChatGPT diffère selon 
 1. Assurez-vous que l’option Authentification est définie sur **OAuth** (défini par défaut).
 1. Lisez le message relatif au risque et cochez la case pour indiquer que vous l&#39;avez lu.
 1. Cliquez sur **Créer**.
-1. Une fois l’application créée, une fenêtre de connexion Workfront s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Veillez à sélectionner l’instance Workfront souhaitée si vous appartenez à plusieurs instances.
+1. Une fois l’application créée, une fenêtre de connexion Workfront s’affiche. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID. Vous devrez peut-être sélectionner un profil et une instance Workfront. Le profil que vous sélectionnez détermine l’espace de travail connecté.
 
++++
 
 ### Personnaliser le comportement de ChatGPT avec les TPG personnalisés
 
@@ -178,6 +180,8 @@ ChatGPT prend en charge les assistants créés par l’utilisateur, appelés GPT
 Pour en savoir plus sur les TPG personnalisés, consultez la documentation utilisateur de [ChatGPT](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) ou demandez de l’aide à ChatGPT sur les TPG personnalisés.
 
 ## Connexion de Workfront au copilote
+
++++ Développez pour afficher les instructions étape par étape pour connecter Workfront à Copilot.
 
 Pour créer un agent Copilot personnalisé auquel le MCP Workfront peut se connecter, utilisez Copilot Studio.
 
@@ -191,23 +195,26 @@ La fenêtre de l&#39;agent s&#39;ouvre.
 1. Dans le panneau qui s’affiche, saisissez un nom et une description pour cette connexion.
 1. Dans le champ URL du serveur , saisissez l’URL :
 
-```
-https://mcp.workfront.adobe.com/mcp/v1/workfront`
-```
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   ```
 
-1. Pour l’autorisation, sélectionnez **OAuth 2.0**, puis **Découverte dynamique**.
+1. Pour l’authentification, sélectionnez **OAuth 2.0**, puis sélectionnez **Découverte dynamique**.
 1. Cliquez sur **Créer** au bas du panneau.
 
    L’application est enregistrée.
 
 1. Une fois l’application enregistrée, dans le panneau qui s’affiche, cliquez sur **Non connecté**, puis sur **Créer une nouvelle connexion**, et enfin sur **Créer**.
-1. Dans le panneau de connexion qui s’affiche, connectez-vous à Workfront, puis sélectionnez **Continuer** lorsqu’apparaît l’instance Workfront à utiliser.
+1. Configurez une connexion en cliquant sur **Non connecté**, puis **Créer une connexion** et enfin **Créer**.
+1. Dans le panneau de connexion qui s’affiche, connectez-vous à Workfront, sélectionnez l’instance à utiliser (si vous avez accès à plusieurs instances), puis cliquez sur **Continuer**.
 1. Dans le panneau qui affiche votre serveur, cliquez sur **Ajouter et configurer**.
 
    Vous pouvez maintenant commencer à utiliser et à configurer des outils pour votre serveur MCP.
 1. Lorsqu’un outil est configuré et testé, cliquez sur **Publier**.
 
    Vous ne disposez peut-être pas des autorisations de publication. Si tel est le cas, contactez votre administrateur Copilot.
+
++++
 
 ## Connexion de Workfront à une solution MCP personnalisée
 
