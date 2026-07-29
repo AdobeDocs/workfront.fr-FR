@@ -9,20 +9,15 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 56%
+source-wordcount: 807
+ht-degree: 55%
 
 ---
 
@@ -166,8 +161,8 @@ Old:
 
 * Vous pouvez ajouter une mise à jour aux enregistrements et consulter l’historique des modifications dans les sections suivantes de Workfront Planning :
 
-   * À partir de la page des détails de l’enregistrement.
-   * D’une vue, dans la zone Détails de l’enregistrement .
+  * À partir de la page des détails de l’enregistrement.
+  * D’une vue, dans la zone Détails de l’enregistrement .
 
 ### Gérer les commentaires sur les enregistrements
 
@@ -177,7 +172,7 @@ Old:
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
+1. Cliquez sur une carte de type d’enregistrement.
 La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Choisissez une vue en tableau dans le menu déroulant **Affichage**.
@@ -206,11 +201,23 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
    >
    >Vous ne pouvez pas ajouter d’images à un commentaire d’enregistrement.
 
-
 1. Continuez à ajouter des commentaires à l’enregistrement.
 
    Pour plus d&#39;informations sur la mise à jour des objets, y compris les enregistrements Workfront Planning, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+1. Cliquez sur **Envoyer** pour enregistrer le commentaire.
+
+   Les utilisateurs que vous avez identifiés dans votre message reçoivent des notifications indiquant qu’un nouveau message a été généré.
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. (Facultatif) Cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Supprimer** pour supprimer le commentaire.
 1. (Facultatif) Cliquez sur l’icône **Masquer les commentaires** ![Masquer les commentaires](assets/hide-comments-icon.png) pour fermer le panneau de droite.
 
