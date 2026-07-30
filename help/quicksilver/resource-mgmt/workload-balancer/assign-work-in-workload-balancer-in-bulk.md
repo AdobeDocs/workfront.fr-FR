@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1226
 ht-degree: 58%
 
 ---
@@ -79,13 +72,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 * Vous ne pouvez pas affecter de ressources aux éléments de travail terminés ou aux éléments qui se trouvent dans un projet terminé.
 * Vous pouvez effectuer les opérations suivantes lors de l’affectation en bloc de fonctions et d’utilisateurs :
 
-   * Remplacez les affectations entre les utilisateurs et les rôles dans toutes les combinaisons valides.
-   * Annuler l’affectation d’un utilisateur ou d’une utilisiatrice à tous ses éléments de travail.
+  * Effectuez des affectations entre les utilisateurs et les rôles dans toutes les combinaisons valides.
+  * Annuler l’affectation d’un utilisateur ou d’une utilisiatrice à tous ses éléments de travail.
 
 **EXEMPLES**
 
-* Vous devez effectuer des affectations d’utilisateurs et utilisatrices sur plusieurs nouveaux projets. Les projets ont été créés à partir de modèles et les fonctions sont déjà affectées aux différentes tâches des projets. Vous souhaitez affecter une utilisatrice spécifique, Jackie Simms, à toutes les tâches actuellement affectées à une fonction. Vous pouvez utiliser la fonction Remplacer pour affecter ces tâches à Jackie Simms.
-* 45 tâches sur 3 projets différents sont affectées à Jackie Simms. Jackie quitte l’entreprise et vous devez maintenant réaffecter ses tâches à une autre personne. Vous pouvez utiliser la fonction Remplacer pour affecter ces tâches à la nouvelle personne.
+* Vous devez effectuer des affectations d’utilisateurs et utilisatrices sur plusieurs nouveaux projets. Les projets ont été créés à partir de modèles et les fonctions sont déjà affectées aux différentes tâches des projets. Vous souhaitez affecter une utilisatrice spécifique, Jackie Simms, à toutes les tâches actuellement affectées à une fonction. Vous pouvez utiliser la fonction Affecter pour affecter ces tâches à Jackie Simms.
+* 45 tâches sur 3 projets différents sont affectées à Jackie Simms. Jackie quitte l’entreprise et vous devez maintenant réaffecter ses tâches à une autre personne. Vous pouvez utiliser la fonction Affecter pour affecter ces tâches à la nouvelle personne.
 * 10 tâches sur 2 projets différents sont affectées à un autre utilisateur, Rick Kuvec. Vous réalisez que Rick a été affecté à ces tâches par erreur, mais vous ne savez pas à qui elles doivent être affectées à ce moment. Vous devez annuler l’affectation de Rick à toutes les tâches en même temps. Vous pouvez utiliser la fonction Annuler l’affectation pour retirer Rick de ces tâches.
 
 ## Attribuer du travail en masse dans l’équilibreur de charge de travail
@@ -131,7 +124,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Sélectionnez l’une des options suivantes et procédez comme suit :
 
-   * [&#x200B; Remplacer la ressource &#x200B;](#replace-user)
+   * [Attribuer la ressource](#replace-user)
    * [Désattribuer une ressource](#unassign-user)
 
    >[!TIP]
@@ -189,39 +182,39 @@ To assign a user to work items previously assigned to job roles:
 
 -->
 
-### Remplacer la ressource {#replace-user}
+### Attribuer une ressource {#replace-user}
 
-Vous pouvez remplacer une ressource déjà affectée à des tâches par une autre ressource dans les projets sélectionnés.
+Vous pouvez affecter ou remplacer des ressources dans les projets sélectionnés.
 
-Le remplacement de la ressource peut être :
+L’affectation de ressource peut être :
 
-* Rôle avec rôle
-* Utilisateur avec utilisateur
-* Utilisateur avec rôle
-* Rôle avec l’utilisateur
+* Rôle en rôle
+* Utilisateur à utilisateur
+* Utilisateur vers rôle
+* Rôle pour l’utilisateur
 
-Lorsque vous remplacez une ressource par une autre ressource à l’aide d’affectations en bloc dans l’équilibreur de charge de travail, voici ce qui se produit :
+Lorsque vous affectez ou remplacez une ressource à l’aide d’affectations en bloc dans l’équilibreur de charge de travail, voici ce qui se passe :
 
-* La ressource de remplacement est affectée à toutes les tâches actuellement affectées à la ressource d&#39;origine dans les projets sélectionnés.
+* La nouvelle ressource est affectée à toutes les tâches actuellement affectées à la ressource d&#39;origine dans les projets sélectionnés.
 * La nouvelle ressource n&#39;est affectée à aucun élément de travail déjà marqué comme Terminé.
 * Pour un remplacement utilisateur à utilisateur, si le rôle associé au premier utilisateur ne correspond à aucun des rôles du second utilisateur, le second utilisateur est affecté dans son rôle de Principal.
 
-Pour remplacer une ressource par une autre ressource :
+Pour affecter une ressource en bloc :
 
-1. Sélectionnez des tâches dans la zone Affectations en bloc de l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Remplacer la ressource**.
+1. Sélectionnez des tâches dans la zone Affectations en bloc de l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Affecter une ressource**.
 1. Dans le champ **Ressource actuellement affectée**, cliquez sur la flèche déroulante pour effectuer une sélection dans une liste de ressources. Seules les ressources actuellement affectées à des éléments de travail incomplets dans les projets spécifiés s&#39;affichent. Champ obligatoire.
 
-   ![&#x200B; Remplacer la ressource &#x200B;](assets/bulk-assignments-workload-balancer-replace-selected.png)
+   ![ Remplacer la ressource ](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
 1. Dans le champ **Ressource à affecter**, cliquez sur la flèche déroulante pour effectuer votre choix dans une liste de ressources suggérées ou pour saisir une autre fonction ou un autre nom d’utilisateur. Les ressources répertoriées en premier correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront affiche une note sur le nombre d’éléments pour lesquels la ressource actuellement affectée remplacera la seconde ressource.
 
-1. Cliquez sur **Remplacer**.
+1. Cliquez sur **Affecter**.
 
    La première ressource est remplacée par la seconde dans tous les éléments de travail du projet ou de la tâche sélectionné.
 
-   Vous recevez un message de confirmation indiquant le nombre d&#39;éléments de travail pour lesquels l&#39;affectation d&#39;origine a été remplacée par la deuxième ressource sélectionnée.
+   Un message de confirmation indique le nombre d&#39;éléments de travail pour lesquels l&#39;affectation d&#39;origine a été remplacée par la deuxième ressource sélectionnée.
 
 ### Désattribuer une ressource {#unassign-user}
 
@@ -247,7 +240,7 @@ Pour annuler l’affectation d’un utilisateur ou d’une utilisatrice à des �
    Workfront affiche une note par rapport au nombre d’éléments dont la personne affectée actuellement se verra annuler l’affectation.
 
 1. Cliquez sur **Annuler l’affectation**.\
-   Vous recevez une confirmation par rapport au nombre d’éléments de travail dont la personne spécifiée a été supprimée.
+   Un message de confirmation indique le nombre d’éléments de travail pour lesquels l’utilisateur spécifié a été supprimé.
 
 
 
