@@ -9,32 +9,23 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 55%
+source-wordcount: 899
+ht-degree: 51%
 
 ---
 
 # Gérer les commentaires d’enregistrement
 
-<!--
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -214,15 +205,14 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 
    Les utilisateurs que vous avez identifiés dans votre message reçoivent des notifications indiquant qu’un nouveau message a été généré.
 
-   <!--
    <div class="preview">
 
-   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+   Toutes les personnes disposant d&#39;autorisations d&#39;affichage pour le type d&#39;enregistrement peuvent voir un indicateur **Nouveau commentaire** dans la vue Tableau pour l&#39;enregistrement auquel vous avez ajouté le commentaire.
 
-      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+   ![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
 
    </div>
-   -->
+
 1. (Facultatif) Cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) dans le coin supérieur droit du commentaire, puis cliquez sur **Supprimer** pour supprimer le commentaire.
 1. (Facultatif) Cliquez sur l’icône **Masquer les commentaires** ![Masquer les commentaires](assets/hide-comments-icon.png) pour fermer le panneau de droite.
 

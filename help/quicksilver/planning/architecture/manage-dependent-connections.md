@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ Une fois configuré, tout type d’enregistrement qui fait référence aux deux 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux objets GenStudio et aux marques</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Si la valeur du champ source change, le champ dépendant est automatiquement effacé plutôt que laissé dans un état non valide, ce qui empêche la persistance de combinaisons incohérentes.
 
   Vous recevez un message intégré ou toast expliquant pourquoi le champ dépendant a été effacé.
+
+* Chaque champ dépendant peut avoir jusqu’à 3 champs de contrôle direct.
+
+* Les niveaux de dépendance sont limités à 6 connexions. Cela signifie que jusqu’à 7 types d’enregistrements peuvent être connectés.
+
+* Pour que la chaîne de dépendance fonctionne, tous les champs dépendants doivent exister simultanément sur le même type d’enregistrement.
 
 ## Créer une connexion dépendante
 
