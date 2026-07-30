@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3363'
 ht-degree: 16%
 
 ---
@@ -18,7 +18,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du troisième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -99,17 +99,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
-                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Suivi des modifications pour la révision et l’approbation unifiées</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>La page Historique des modifications capture désormais l’activité dans les workflows de révision et d’approbation unifiés, offrant ainsi aux administrateurs et administratrices un journal complet de gouvernance pour les actions d’approbation, d’évaluation et des participants.</p>
             </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
+            <td><p>10 Juillet 2026</p></td>
+            <td><p>15 juillet 2026</p></td>
+            <td><p>16 juillet 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouveaux champs de type de licence pour les niveaux d'accès<p>[!BADGE Hors planning]{type=Neutral}</p></a>
@@ -618,7 +616,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning en tant que produit autonome
 
@@ -681,7 +679,7 @@ Pour plus d’informations, voir [Prise en main de la version d’essai gratuite
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

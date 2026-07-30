@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4230
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -50,7 +46,7 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -96,6 +92,12 @@ La visionneuse Frame.io est la visionneuse par défaut pour tous les workflows d
 Si votre entreprise souhaite tirer parti des fonctionnalités Frame.io supplémentaires disponibles avec cette intégration, telles que le chargement direct de ressources vers des projets dans Frame.io, vous pouvez acheter une licence d’entreprise Frame.io. Contactez votre représentant de compte Adobe pour planifier une démonstration et explorer les avantages de la solution Frame.io complète.
 
 La fonctionnalité de relecture de Workfront n&#39;est pas disponible avec cette intégration.
+
+## Journal d’audit complet
+
+<span class="preview">L’examen et l’approbation unifiés comprennent une journalisation d’audit complète qui crée un journal de gouvernance complet sur Workfront et Frame.io. Les logs de tracking des modifications capturent les décisions d’approbation prises dans la visionneuse Frame.io et le cycle de vie des documents. Chaque entrée de journal inclut l’attribution du système source (Workfront ou Frame.io) avec les champs d’audit Workfront standard : date et heure, type de journal, nom d’utilisateur, action et nom d’objet. Les commentaires de la visionneuse Frame.io ne sont pas inclus dans les journaux d’audit.</span>
+
+<span class="preview">Les logs de tracking des modifications apparaissent dans la zone Configuration de Workfront et peuvent être exportés. Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Gestion de projet puissante dans Workfront
 
