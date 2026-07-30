@@ -9,24 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 78%
+source-wordcount: 851
+ht-degree: 75%
 
 ---
 
 # Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier les contrôles de listes qui s’affichent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet :
 
@@ -97,6 +93,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >* dans l’en-tête de la zone Projets :
    >   
    >  ![Bouton Désactiver les filtres](assets/disable-filter-pills.png)
+
+   <span class="preview">Certaines listes améliorées sont disponibles. Ces listes ont un libellé « Nouvelle expérience » en regard des contrôles de liste. Pour plus d&#39;informations sur les listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
 
 1. (Facultatif) Si vous souhaitez modifier le filtre, la vue ou le regroupement par défaut du modèle de mise en page, pointez sur le filtre, la vue ou le regroupement, puis cliquez sur **Définir comme valeur par défaut**.
 

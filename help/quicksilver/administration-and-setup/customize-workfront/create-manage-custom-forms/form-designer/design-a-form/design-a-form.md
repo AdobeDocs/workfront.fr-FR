@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
-ht-degree: 78%
+source-wordcount: 7922
+ht-degree: 77%
 
 ---
 
@@ -177,17 +169,17 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas 
 
 * Les caractères spéciaux suivants ne sont pas pris en charge dans les libellés de champ personnalisés et les noms d’API.
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * )
-   * :
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * )
+  * :
+  * `{`
+  * `}`
 
 ### Ajouter des champs de texte
 
@@ -227,7 +219,7 @@ Pour ajouter un champ de texte, procédez comme suit :
    * Texte descriptif
      <!--Text with formatting-->
 
-   ![Faire glisser un champ vers une section](assets/drag-field-to-section.png)
+   ![Faire glisser le champ vers la section](assets/drag-field-to-section.png)
 
 1. Dans la partie droite de l’écran, configurez les options disponibles pour le type de champ personnalisé que vous ajoutez :
 
@@ -272,7 +264,7 @@ Pour ajouter un champ de texte, procédez comme suit :
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Saisissez toute information supplémentaire concernant le champ. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.
+    <td>Saisissez des informations supplémentaires sur le champ. Lorsque les utilisateurs remplissent le formulaire personnalisé, ils peuvent placer le pointeur de la souris sur l’icône de point d’interrogation pour afficher une info-bulle contenant les informations que vous saisissez ici.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,14 +797,14 @@ Pour ajouter une recherche externe, procédez comme suit :
      </tr>
      <tr> 
       <td role="rowheader">Chemin JSON</td>
-      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
+      <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de l’API renvoie le JSON au format suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner États-Unis et Canada comme options de liste déroulante : </br>
       <pre>
-      &lbrace;
-       data : &lbrace;
-         { name : « USA »},
-         { name : « Canada »}
-       &rbrace;
-      &rbrace;
+      {
+data: {
+{ name: "USA"},
+{ name: "Canada"}
+}
+}
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1050,7 +1042,7 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
 
 ### Ajouter des champs natifs Workfront
 
-Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisés. Lorsque le formulaire personnalisé est joint à un objet, le champ est renseigné à partir des données de l’objet. Par exemple, le champ Description d’un formulaire personnalisé joint à un projet extrait la description du projet. (Le champ peut afficher « S.O. » si aucune donnée n’est disponible.)
+Vous pouvez ajouter des champs natifs Workfront à vos formulaires personnalisés. Lorsque le formulaire personnalisé est joint à un objet, le champ est renseigné à partir des données de l’objet. Par exemple, si le champ personnalisé fait référence au champ Description et s’il figure sur un formulaire personnalisé joint à un projet, il extrait la description du projet. (Le champ peut afficher « S.O. » si aucune donnée n’est disponible.)
 
 +++ Développez pour afficher la liste des champs natifs pris en charge.
 
@@ -1091,7 +1083,7 @@ Cette liste affiche les champs natifs disponibles pour les formulaires personnal
 * **Durée prévue** : projet, modèle
 * **Heures planifiées** : projet, tâche, événement, modèle de tâche
 * **Date De Début Prévue** : Projet, Tâche, Événement
-* **&#x200B;**&#x200B;: Projet, Modèle, Programme
+* **** : Projet, Modèle, Programme
 * **Priorité** : Projet, Tâche, Événement, Modèle, Tâche De Modèle
 * **Programme** : Projet, Modèle
 * **Date d&#39;achèvement prévisionnelle** : projet, tâche
@@ -1218,7 +1210,7 @@ Pour ajouter un fichier Adobe XD :
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obligatoire) Saisissez ou collez un lien de prototype XD valide.</p> 
-      <p><b>Note</b> : le paramètre Accès au lien de l’onglet Partager d’Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs et utilisatrices ne pourront pas afficher le prototype. 
+      <p><b>Remarque </b> : le paramètre Accès aux liens de l’onglet Partager dans Adobe XD doit être défini sur Toute personne disposant du lien. Sinon, les utilisateurs ne pourront pas voir le prototype. 
    </td> 
      </tr> 
      <tr> 
