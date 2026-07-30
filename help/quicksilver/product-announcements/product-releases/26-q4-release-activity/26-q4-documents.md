@@ -4,10 +4,10 @@ description: Améliorations des documents du quatrième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b04780c710368bf1154661b14b7bf27364a19a5
+source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 10%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
@@ -29,20 +29,14 @@ Tous les formats d’image de type média sont désormais pris en charge pour le
 
 Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<!--
-
-## Link content and folders from Experience Manager Assets with Adobe cloud storage
+## Lier du contenu et des dossiers de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
 
 >[!NOTE]
 >
->Preview: July 30, 2026
->Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
 
-If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents. Linked content stays in sync automatically: changes made in Experience Manager Assets appear in Workfront, and you can pull in new asset versions without leaving Workfront.
+Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier des ressources individuelles ou des dossiers entiers de Experience Manager Assets à n’importe quel objet Workfront prenant en charge les documents. Le contenu lié reste automatiquement synchronisé : les modifications apportées dans Experience Manager Assets apparaissent dans Workfront et vous pouvez extraire de nouvelles versions de ressources sans quitter Workfront.
 
-Linking is powered by Content Advisor, so you also get AI Search, smart suggestions, campaign brief analysis and more while selecting content.
+La liaison est optimisée par le gestionnaire d’accès. Vous obtenez ainsi également des Recherche optimisée par l&#39;IA, des suggestions intelligentes, une analyse de résumés de campagne, etc. lors de la sélection de contenu.
 
-For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
--->
+<!-- For more information, see [Link content and folders from Experience Manager Assets with Adobe cloud storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md). -->
