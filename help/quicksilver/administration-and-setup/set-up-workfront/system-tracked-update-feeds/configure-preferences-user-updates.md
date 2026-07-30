@@ -11,18 +11,14 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 80%
+source-wordcount: 291
+ht-degree: 73%
 
 ---
 
@@ -96,13 +92,13 @@ Par défaut, les utilisateurs et utilisatrices ne peuvent pas ajouter d’images
 >
 >* Les images enregistrées dans les mises à jour sont prises en compte dans la limite de stockage des documents. Pour plus d’informations, voir [Vérifier les limites de stockage des documents](../../../documents/managing-documents/check-document-storage.md).
 >* Les images sont accessibles via l’onglet [!UICONTROL Mises à jour] d’un objet et sont également disponibles dans la zone [!UICONTROL Documents] sous le [!UICONTROL menu principal].
->
+>* Cette préférence détermine également si les utilisateurs peuvent joindre des images aux commentaires sur les objets utilisant l’espace de stockage dans le cloud d’Adobe. Les images jointes sont stockées dans l’espace de stockage cloud d’Adobe.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
 1. Sélectionnez l’onglet **[!UICONTROL Préférences]**.
 
-   ![Préférences utilisateur pour les flux de mise à jour](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. Cochez la case **[!UICONTROL Autoriser les utilisateurs et les utilisatrices à ajouter des images dans les mises à jour]**.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.

@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -50,7 +46,7 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -212,7 +208,7 @@ Pour accéder à la révision et à l’approbation unifiées, vous devez dispos
 
 * Une fois que vous disposez d’une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud, Adobe Professional Services configure l’intégration pour votre organisation.
 
-   * Si vous ne savez pas qui est votre représentant de compte Adobe, vous pouvez contacter par le biais du portail d’assistance Adobe ou consulter Experience League pour connaître les options de contact.
+  * Si vous ne savez pas qui est votre représentant de compte Adobe, vous pouvez contacter par le biais du portail d’assistance Adobe ou consulter Experience League pour connaître les options de contact.
 
 +++
 
@@ -360,6 +356,14 @@ Pour obtenir la liste complète des types de fichiers pris en charge, consultez 
 **Puis-je partager des ressources en externe avec des parties prenantes qui n’ont pas accès à Workfront ?**
 
 Oui. Assets peut être partagé en externe. Les utilisateurs externes sont avertis par e-mail et seront invités à créer une connexion Frame.io pour accéder à la visionneuse et participer à la révision.
+
+**Puis-je joindre des images aux commentaires d’un document dans Workfront ?**
+
+Si votre entreprise utilise l’espace de stockage Adobe dans le cadre de la révision et de l’approbation unifiées, vous pouvez joindre des fichiers image directement aux commentaires d’un document. Les images jointes sont stockées dans l’espace de stockage cloud Adobe et tous les formats de fichiers images de type média sont pris en charge.
+
+Ces commentaires sont natifs de Workfront et sont distincts des commentaires dans la visionneuse Frame.io. Les images jointes à un commentaire ne sont pas accessibles dans Frame.io, et joindre une image n’ajoute pas de balisage à la ressource ou ne l’achemine pas pour approbation. Les types de fichiers autres que les images ne peuvent pas être joints à un commentaire.
+
+Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
