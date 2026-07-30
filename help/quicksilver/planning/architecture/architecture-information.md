@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
 source-wordcount: 235
 ht-degree: 95%
@@ -50,3 +50,11 @@ Les articles présentés dans les sections suivantes décrivent comment configur
 * [Configurer la zone Paramètres d’un type d’enregistrement](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Présentation de la hiérarchie et du chemin de navigation](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Créer des hiérarchies d’espace de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+
+<!--
+<div class="preview">
+
+* [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+
+</div>
+-->

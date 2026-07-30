@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 61%
@@ -116,36 +116,36 @@ Tenez compte des points suivants lorsque vous modifiez des tâches dans une list
 
 * Contrairement à la nécessité de disposer d’autorisations Gérer pour la tâche lors de sa modification dans la zone de modification, vous ne pouvez modifier une tâche dans une liste que si vous disposez des autorisations Contribuer pour la tâche. Vous pouvez ainsi modifier les informations limitées suivantes pour la tâche :
 
-   * Description
-   * Statut
-   * Pourcentage d’achèvement
-   * Informations sur les formulaires personnalisés
+  * Description
+  * Statut
+  * Pourcentage d’achèvement
+  * Informations sur les formulaires personnalisés
 
-     >[!NOTE]
-     >
-     >Vous ne pouvez modifier un champ personnalisé de tâche dans une liste que si vous disposez des autorisations pour mettre à jour le champ.
+    >[!NOTE]
+    >
+    >Vous ne pouvez modifier un champ personnalisé de tâche dans une liste que si vous disposez des autorisations pour mettre à jour le champ.
 
-   * Consigner les heures
-   * Modifier les affectations
-   * Afficher les informations financières
-   * Ajouter des dépenses, des tâches ou des problèmes
+  * Consigner les heures
+  * Modifier les affectations
+  * Afficher les informations financières
+  * Ajouter des dépenses, des tâches ou des problèmes
 
 * Vous pouvez modifier une tâche dans les listes suivantes :
 
-   * La section Tâches du projet.
-   * La section Sous-tâches du projet.
-   * Un rapport de tâche
+  * La section Tâches du projet.
+  * La section Sous-tâches du projet.
+  * Un rapport de tâche
 
-     >[!NOTE]
-     >
-     >Par défaut, Workfront enregistre automatiquement vos modifications apportées aux tâches dans la section Sous-tâches ou dans un rapport de tâche.
+    >[!NOTE]
+    >
+    >Par défaut, Workfront enregistre automatiquement vos modifications apportées aux tâches dans la section Sous-tâches ou dans un rapport de tâche.
 
 * Vous pouvez déterminer à quel moment Workfront enregistre les modifications apportées aux tâches dans une liste en définissant le mode de planification avant de commencer à modifier les tâches.
 
   Vous pouvez choisir entre l’enregistrement dans Workfront des modifications que vous apportez en procédant comme suit :
 
-   * Automatiquement, après chaque modification
-   * Manuellement, uniquement après avoir cliqué sur Enregistrer.
+  * Automatiquement, après chaque modification
+  * Manuellement, uniquement après avoir cliqué sur Enregistrer.
 
   Pour plus d’informations sur la configuration du moment où Workfront enregistre les modifications apportées aux tâches d’une liste, reportez-vous à la section [Modifier le mode de planification avant de modifier les tâches d’une liste](#modify-plan-mode-before-editing-tasks-in-a-list) de cet article.
 
@@ -269,9 +269,9 @@ Tenez compte de ce qui suit lorsque vous enregistrez manuellement les modificati
 * Vous ne pouvez pas modifier le projet. L’option permettant de modifier le projet est désactivée.
 * Vous ne pouvez pas mettre à jour les informations dans l’en-tête du projet. Vous ne pouvez effectuer que les opérations suivantes lorsque vous enregistrez manuellement les modifications apportées à la liste des tâches :
 
-   * Vous abonner au projet.
-   * Ajouter le projet à votre liste de favoris.
-   * Ouvrez une tâche en cliquant sur son nom dans la liste.
+  * Vous abonner au projet.
+  * Ajouter le projet à votre liste de favoris.
+  * Ouvrez une tâche en cliquant sur son nom dans la liste.
 
 * Modifiez les tâches en bloc. L’icône Modifier est désactivée lors de la sélection de plusieurs tâches.
 * Workfront déclenche des notifications sur les modifications que vous apportez aux tâches uniquement après avoir enregistré vos modifications.
@@ -308,7 +308,7 @@ Pour modifier les tâches d’une liste en sélectionnant l’option standard En
 
 1. Cliquez sur **Appliquer**. Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
 
-   ![Barre d’outils Enregistrement manuel](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![Barre d’outils Enregistrement manuel](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Cliquez à l’intérieur d’un champ pour lequel vous disposez de l’autorisation de mettre à jour manuellement. Le champ devient modifiable et vous pouvez apporter vos modifications.
 
@@ -408,21 +408,21 @@ Pour modifier des tâches dans une liste lors de l’utilisation de l’option d
 
    * Les menus déroulants Vue, Regroupement et Filtre sont supprimés et la vue est remplacée par les champs suivants :
 
-      * Numéro de tâche
-      * Nom de la tâche
-      * Type de contrainte
-      * Durée
-      * Date de début prévue
-      * Date d&#39;achèvement prévue
-      * Tâches antérieures
-      * Affectations
-      * Statut
-      * Pourcentage d’achèvement
+     * Numéro de tâche
+     * Nom de la tâche
+     * Type de contrainte
+     * Durée
+     * Date de début prévue
+     * Date d&#39;achèvement prévue
+     * Tâches antérieures
+     * Affectations
+     * Statut
+     * Pourcentage d’achèvement
 
    * L’icône de la vue Agile est supprimée.
    * Un paramètre de barre d’outils s’affiche avec des options permettant d’annuler, de rétablir et d’enregistrer vos modifications.
 
-     ![Barre d’outils Enregistrement manuel](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Barre d’outils Enregistrement manuel](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Modifiez les champs pour lesquels vous avez les autorisations de mise à jour manuelle.
 

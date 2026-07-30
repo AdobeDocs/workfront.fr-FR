@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 25%
 
 ---
@@ -90,14 +90,19 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
    <td> 
 <p>Pour connecter des types d’enregistrements à partir du même espace de travail : </p>
 <ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
-<li><p>Tout workflow et tout package Planning</li></ul>
+<li><p>Tout package Workfront ou Workflow avec tout package Planning</p></li>
+<p>Ou</p>
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li>
+</ul>
 
 <p>Pour connecter des types d’enregistrements à partir de différents espaces de travail :</p>
 
-<ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
+<ul>
+
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
+<p>Ou</p>
+<li><p>Tout package Planning Prime ou Ultimate lorsqu’il est acheté en tant que produit autonome</p></li>
+</ul>
 <p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
    </td> 
 <tr> 
@@ -299,7 +304,15 @@ Old:
    * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
    * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
 
-1. Sélectionnez l’option **Créer le champ correspondant sur le type d’enregistrement lié**. Lorsque cette option est sélectionnée, un champ de connexion est créé sur le type d’enregistrement auquel vous vous connectez, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
+1. Sélectionnez le **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Type de connexion** <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Lorsque cette option est sélectionnée, un champ de connexion est créé sur le type d’enregistrement auquel vous vous connectez, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * Aucun champ n&#39;est créé pour les objets Workfront connectés aux enregistrements Planning.
    >   * Aucun champ n’est créé pour un type d’enregistrement Planning lorsqu’il est connecté à un type d’enregistrement à partir de l’espace de travail GenStudio.
 
-1. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
+1. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Type de connexion**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 
    * Multiple-à-multiple
    * Un à plusieurs
