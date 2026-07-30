@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '595'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,50 @@ ht-degree: 1%
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Glisser-déposer des lignes en mode Tableau
+
+>[!NOTE]
+>
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+L’expérience de glisser-déposer de lignes en mode Tableau a été améliorée visuellement.
+
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+
+## Champs d’enregistrement connectés dépendants
+
+>[!NOTE]
+>
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+Les gestionnaires de Workspace peuvent désormais définir des dépendances entre les types d’enregistrements connectés. Par exemple, s’assurer qu’un champ Région affiche uniquement les valeurs liées à la zone géographique sélectionnée. Cette configuration s’effectue directement dans la configuration du champ de connexion : lors de l’ajout d’une connexion d’un type d’enregistrement Géographique à un type d’enregistrement dépendant (comme Région), un nouveau paramètre permet aux gestionnaires de l’espace de travail de la marquer comme dépendante du type d’enregistrement Géographique, en utilisant les relations déjà établies entre ces types d’enregistrement.
+
+Une fois configuré, tout type d’enregistrement qui fait référence aux deux champs (une campagne, par exemple) voit immédiatement l’effet : la sélection d’une valeur Géo limite le sélecteur de Région aux régions réellement liées à cette zone géographique. Cela permet d’appliquer automatiquement la structure des enregistrements, d’éliminer les combinaisons incohérentes et de réduire le nettoyage manuel.
+
+Les fonctionnalités suivantes sont incluses dans cette mise à jour :
+
+* Nous avons ajouté la nouvelle section Paramètres de connexion dans l’onglet Nouvelle connexion, lors de la connexion de types d’enregistrements
+* Nous avons ajouté un paramètre Rendre cette connexion dépendante dans la nouvelle section .
+
+<!--
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
+
+
+## Afficher un nouvel indicateur de commentaire pour un enregistrement en mode Tableau
+
+>[!NOTE]
+>
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+Nous avons ajouté un nouvel indicateur qui s’affiche lorsqu’un enregistrement contient des commentaires non lus. L&#39;indicateur s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement en mode Tableau.
+
+Pour plus d’informations, consultez la section [Gérer les commentaires d’enregistrements](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Couleur d’enregistrement personnalisable et codage des couleurs basé sur les connexions
 
