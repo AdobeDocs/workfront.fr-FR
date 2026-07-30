@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 3613
-ht-degree: 28%
+source-wordcount: 3659
+ht-degree: 27%
 
 ---
 
 # Ajout de règles logiques aux formulaires et champs personnalisés
+
+{{preview-fast-release-general}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -95,23 +97,23 @@ Pour afficher et ignorer la logique uniquement, sélectionnez un champ pour affi
 
 ## Observations relatives à l’utilisation des logiques d’affichage et de saut
 
-* Pour ajouter une logique d’affichage sur un champ personnalisé, un widget ou un saut de section, il faut placer au moins un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher) avant celui-ci dans le formulaire.
+* Pour ajouter une logique d’affichage à un champ, un widget ou un saut de section personnalisé, au moins un champ à choix multiples (boutons radio, liste déroulante ou cases à cocher) doit être positionné avant lui sur le formulaire.
 Pour plus d’informations sur les champs personnalisés et les widgets dans les formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Vous ne pouvez pas ajouter de logique de saut à un widget ou à un saut de section. Vous ne pouvez l’ajouter qu’à un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
 * Vous ne pouvez pas appliquer la logique d’affichage ou d’omission pour afficher ou masquer les choix d’un champ à options multiples. Par exemple, vous ne pouvez pas restreindre les choix qui s’affichent pour un champ Liste déroulante, un groupe de cases à cocher ou un champ de bouton radio, en fonction de la logique d’affichage ou d’omission d’un autre champ.
 * Vous pouvez ajouter une logique d’affichage et une logique de saut à un champ personnalisé si toutes les conditions suivantes sont remplies :
 
-   * Il s’agit d’un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
-   * Il est précédé d’un champ à choix multiples.
-   * Il est suivi d’un autre champ personnalisé.
+  * Il s’agit d’un champ à choix multiples (cases d’option, liste déroulante ou cases à cocher).
+  * Il est précédé d’un champ à choix multiples.
+  * Il est suivi d’un autre champ personnalisé.
 
 * Lorsque vous copiez des formulaires avec une logique d’affichage ou une logique de saut, celle-ci est copiée dans le nouveau formulaire personnalisé.
 * Lorsque vous modifiez des objets en masse, tous les champs personnalisés s’affichent dans la zone de modification des objets, y compris les champs qui sont ignorés ou masqués.
 * Gardez ce qui suit à l’esprit lorsque vous créez une règle de logique d’affichage pour un formulaire personnalisé :
 
-   * les champs personnalisés non inclus dans une instruction de logique d’affichage s’affichent par défaut sur un formulaire personnalisé.
-   * Vous pouvez créer des instructions de logique d’affichage à champs multiples.
-   * Si la logique d’affichage est appliquée à tous les champs sous un saut de section et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé.
+  * les champs personnalisés non inclus dans une instruction de logique d’affichage s’affichent par défaut sur un formulaire personnalisé.
+  * Vous pouvez créer des instructions de logique d’affichage à champs multiples.
+  * Si la logique d’affichage est appliquée à tous les champs sous un saut de section et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé.
 
 ## Ajouter une logique d’affichage à un formulaire personnalisé
 
@@ -202,7 +204,9 @@ Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’
 
    >[!NOTE]
    >
-   >La logique d’affichage avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >Dans l’environnement de production, la logique d’affichage avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >
+   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 
 ## Ajouter une logique de saut à un formulaire personnalisé
 
@@ -280,7 +284,9 @@ Lorsque le formulaire personnalisé est joint à un projet et que le statut du p
 
    >[!NOTE]
    >
-   >La logique de valeur par défaut n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >Dans l’environnement de production, la logique de valeur par défaut n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >
+   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 
 ## Ajouter une logique de validation à un formulaire personnalisé
 
@@ -329,7 +335,9 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
 
    >[!NOTE]
    >
-   >La logique de validation n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >Dans l’environnement de production, la logique de validation n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >
+   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 
 ## Ajouter une logique de mise en forme à un formulaire personnalisé
 
@@ -392,7 +400,9 @@ IF(
 
    >[!NOTE]
    >
-   >La logique de formatage n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >Dans l’environnement de production, la logique de formatage n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >
+   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 
 ## Ajouter une logique d’édition à un formulaire personnalisé
 
@@ -442,4 +452,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >La logique de modifiabilité n’est pas prise en charge dans le mode Aperçu du créateur de formulaire.
+   >Dans l’environnement de production, la logique d’édition n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
+   >
+   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
+

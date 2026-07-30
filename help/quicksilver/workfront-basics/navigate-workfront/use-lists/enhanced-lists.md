@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 2%
 
 ---
 
 # Utiliser les listes améliorées
+
+{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -203,17 +205,20 @@ Pour ajouter et supprimer des colonnes :
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Facultatif) Pour réorganiser les colonnes, passez le curseur sur le nom d’une colonne dans la section **Sélectionné** et cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png). Déplacez les colonnes verticalement pour les placer dans l’ordre.</span>
 1. Cliquer sur **Enregistrer**.
 
    ![Gestionnaire de colonnes](assets/glist-column-manager.png)
 
    La liste met à jour les colonnes en fonction des choix que vous avez effectués.
 
-### Modification de la hauteur de ligne dans un affichage
+## Personnaliser les lignes
 
 >[!NOTE]
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Pour modifier la hauteur de ligne dans une vue :
 
 1. Cliquez sur l’icône **Hauteur de ligne** ![Icône de hauteur de ligne](assets/row-height-icon.png) dans une liste améliorée.
 
@@ -222,6 +227,14 @@ Pour ajouter et supprimer des colonnes :
    * Standard. Il s’agit du choix par défaut.
    * Moyen
    * Grand
+
+Pour modifier l&#39;ordre des lignes :
+
+1. Faites glisser et déposez des lignes dans l’ordre de votre choix.
+
+   >[!NOTE]
+   >
+   >Si un tri est appliqué, vous ne pouvez pas modifier manuellement l&#39;ordre des lignes.
 
 ## Mise à jour des éléments de liste améliorés
 
@@ -366,8 +379,8 @@ La mise en forme conditionnelle permet de mettre en évidence des informations i
 1. Cliquez en dehors de la zone **Format** pour la fermer.
 
    Vous revenez alors à la vue Liste.
-La mise en forme est appliquée immédiatement à la vue Liste.
-Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
+   La mise en forme est appliquée immédiatement à la vue Liste.
+   Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
 
 ### Filtrer les éléments dans une liste améliorée
 

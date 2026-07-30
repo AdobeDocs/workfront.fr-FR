@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 44%
+source-wordcount: 1247
+ht-degree: 43%
 
 ---
 
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -38,6 +40,10 @@ Dans un modèle de mise en page, vous pouvez personnaliser ce que les personnes 
 
 Par exemple, vous pouvez déterminer lequel des éléments suivants les utilisateurs voient dans le panneau de gauche lors de l’affichage d’un projet :
 
+<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+![Panneau de gauche d’un projet](assets/left-panel-in-project-072326.png)
+
+Exemple d’image dans l’environnement de production :
 ![Panneau de gauche d’un projet](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
@@ -149,7 +155,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projets <img src="assets/projects-in-main-menu.png"> dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projets dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
