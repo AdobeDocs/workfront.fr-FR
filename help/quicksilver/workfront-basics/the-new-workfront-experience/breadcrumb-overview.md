@@ -7,14 +7,12 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
-ht-degree: 87%
+source-wordcount: 412
+ht-degree: 70%
 
 ---
 
@@ -83,4 +81,21 @@ Pour plus d’informations sur les objets parent dans [!DNL Workfront], voir [Co
 
    La page d’objet s’ouvre.
 
-   Si vous vous intéressez à un projet connecté à un objet dans Workfront Planning (une campagne, par exemple), vous pouvez basculer entre les deux types d’objets Planning et Workfront à partir du chemin de navigation. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+   Si vous vous intéressez à un projet connecté à un objet dans Workfront Planning (une campagne, par exemple), vous pouvez basculer entre les deux types d’objets Planning et Workfront à partir du chemin de navigation. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Copiez le nom et le lien à partir d’un chemin de navigation
+
+{{highlighted-preview}}
+
+Vous pouvez copier le nom d’un objet et le lier ensemble dans une seule action à partir du chemin de navigation.
+
+1. Passez la souris sur un objet du chemin de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Copier le lien]** qui s’affiche en regard du nom de l’objet.
+
+   ![Copier l’icône du lien dans un chemin de navigation](assets/copy-breadcrumbs.png)
+
+   Le nom de l’objet et son lien sont copiés ensemble. Lorsque vous collez les informations copiées, elles s’affichent sous la forme d’un lien cliquable avec le nom de l’objet comme texte du lien.
+
+</div>
