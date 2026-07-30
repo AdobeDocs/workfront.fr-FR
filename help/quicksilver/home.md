@@ -65,7 +65,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -137,7 +137,7 @@ La recherche documentaire peut être plus efficace avec quelques approches strat
 ### Explorer les sections d’apprentissage et de formation
 
 * **Supports de formation : accédez à la page Formation Workfront et découvrez une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront.**&#x200B;[&#128279;](https://experienceleague.adobe.com/fr/browse/workfront) Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
-* **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
+* **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?lang=fr&Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
 
 ### Trouver des réponses dans les forums de la Communauté
 
