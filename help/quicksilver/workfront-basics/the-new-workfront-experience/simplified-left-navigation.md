@@ -3,17 +3,19 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Panneau de navigation de gauche dans  [!DNL Adobe Workfront]
 description: Le panneau de navigation de gauche dans  [!DNL Workfront]  facilite la navigation dans le système.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1437'
+ht-degree: 78%
 
 ---
 
 # Panneau de navigation de gauche dans [!DNL Adobe Workfront]
+
+{{preview-fast-release-general}}
 
 La plupart des zones et des objets de Workfront utilisent un simple panneau de navigation sur le côté gauche de l’écran. Les avantages de la navigation dans le panneau de gauche sont les suivants :
 
@@ -80,7 +82,7 @@ Le panneau de gauche est disponible pour les objets suivants :
 >[!IMPORTANT]
 >
 >Si le panneau de gauche n’affiche qu’une seule section par défaut, comme **[!UICONTROL Tous les projets]** dans la zone **[!UICONTROL Projets]**, un administrateur de [!DNL Workfront] doit ajouter au moins un tableau de bord dans cette zone lors de la création d’un modèle de mise en page et vous affecter à ce modèle avant que le panneau de gauche ne s’affiche dans cette zone.
->Pour plus d’informations sur la manière dont une équipe d’administration [!DNL Workfront] personnalise le panneau de gauche dans un modèle de mise en page, voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Pour plus d’informations sur la personnalisation du panneau de gauche d’un modèle de mise en page par un administrateur de [!DNL Workfront], voir [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Le panneau de gauche est disponible pour les zones suivantes :
 
@@ -89,7 +91,7 @@ Le panneau de gauche est disponible pour les zones suivantes :
 * [Sections par défaut de la zone [!UICONTROL Ressources]](#default-sections-in-the-resourcing-area)
 * [Sections par défaut de la zone [!UICONTROL Projets]](#default-sections-in-the-projects-area)
 * [Sections par défaut de la zone [!UICONTROL Feuilles de temps]](#default-sections-in-the-timesheets-area)
-* [Sections par défaut de la zone  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Sections par défaut de la zone  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Sections par défaut de la zone [!UICONTROL Tableaux de bord]
 
@@ -200,7 +202,7 @@ Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Feuil
 
 >[!NOTE]
 >
->L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
+>L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] ](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UICONTROL Objectifs]** :
 
@@ -262,6 +264,10 @@ Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir 
 
    Vous devez disposer d’autorisations de modification sur l’objet pour modifier les informations.
 
+   <span class="preview">Exemple d’image dans l’environnement Aperçu :</span>
+   ![Sections du panneau de gauche](assets/left-navigation-panel-072326.png)
+
+   Exemple d’image dans l’environnement de production :
    ![Sections du panneau de gauche](assets/left-navigation-panel.png)
 
 1. (Facultatif) Pour ajouter un lien rapide vers un tableau de bord, cliquez sur **[!UICONTROL Ajouter un tableau de bord]** en bas du panneau de gauche, puis procédez comme suit :
@@ -272,12 +278,22 @@ Pour savoir quelles sections sont disponibles pour des zones spécifiques, voir 
       >[!TIP]
       >
       >Vous devez créer le tableau de bord pour qu’il apparaisse dans la liste.
+      >
+      >Tous les objets n’autorisent pas un tableau de bord dans le panneau de gauche. Pour plus d’informations sur les objets qui prennent en charge les tableaux de bord, voir [Ajouter un tableau de bord dans le panneau de gauche d’un objet ou d’une zone Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 1. (Facultatif) Pour supprimer un lien rapide de tableau de bord, passez la souris sur le tableau de bord dans le volet de navigation de gauche, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-dashboard-from-left.png) lorsqu’elle s’affiche.
 
-1. (Facultatif) Pour modifier l’ordre d’une section dans le panneau de gauche, cliquez sur l’icône **[!UICONTROL Faire glisser]** ![](assets/drag-icon.png) à côté d’une section et faites-la glisser vers le haut ou vers le bas.
+1. (Facultatif) Pour modifier l’ordre d’une section dans le panneau de gauche de l’environnement de production, cliquez sur l’icône **[!UICONTROL Faire glisser]** ![Icône Faire glisser](assets/drag-icon.png) à côté d’une section et faites-la glisser vers le haut ou vers le bas.
 
    ![Faire glisser une section](assets/drag-section.png)
+
+   <div class="preview">
+
+   Pour modifier l’ordre d’une section dans le panneau de gauche de l’environnement Aperçu, cliquez sur la section et faites-la glisser vers le haut ou le bas jusqu’à la position appropriée.
+
+   ![Faire glisser une section](assets/click-drag-left-nav-section.png)
+
+   </div>
 
 1. (Facultatif) Pour fermer le panneau de gauche, cliquez sur l’icône **[!UICONTROL Réduire]** ![](assets/left-panel-collapse-icon.png).
 
