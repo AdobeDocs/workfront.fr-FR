@@ -5,15 +5,17 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 8%
 
 ---
 
 
 # Outils de serveur MCP Adobe Workfront
+
+{{preview-fast-release-general}}
 
 Cet article répertorie les outils que le serveur MCP [!DNL Adobe Workfront] expose à une plateforme agentic d’IA connectée. La plateforme appelle ces outils en votre nom lorsque vous lui demandez de rechercher, créer, mettre à jour ou supprimer des éléments Workfront.
 
@@ -66,10 +68,15 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| Obtenir les informations sur le workflow d’approbation | `approvals_get_approval_info` | Retourne le workflow d&#39;approbation en cours (étapes, participants, statut) pour une version de document. | Lire |
-| Créer ou mettre à jour un workflow d’approbation | `approvals_create_or_update_approval_workflow` | Crée ou met à jour les étapes d&#39;un workflow d&#39;approbation pour une version de document. Prend en charge les dépendances d’étape linéaires et parallèles (graphique). | Write |
-| Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d&#39;approbation sur un document à partir d&#39;un modèle existant. | Write |
+| Obtenir les informations sur le workflow d’approbation | `approvals_get_approval_info` | Retourne le workflow d&#39;approbation en cours (étapes, participants, statut) pour une version de document. <span class="preview">Pour les validations comportant plusieurs chemins d’accès, il affiche chaque chemin et ses étapes.</span> | Lire |
+| Créer ou mettre à jour un workflow d’approbation | `approvals_create_or_update_approval_workflow` | Crée ou met à jour les étapes d&#39;un workflow d&#39;approbation pour une version de document. <span class="preview">Prend en charge un seul suivi des étapes ou plusieurs chemins de révision parallèles.</span> | Write |
+| Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d’approbation sur un document à partir d’un modèle existant, <span class="preview">y compris des modèles qui définissent plusieurs chemins d’accès parallèles</span>. | Write |
 | Supprimer l’étape d’approbation | `approvals_delete_approval_stage` | Supprime une seule étape d&#39;un workflow d&#39;approbation par nom ou par position. Seules les étapes non démarrées peuvent être supprimées. | Write |
+| <span class="preview">Ajouter un chemin à l’approbation</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Ajoute un nouveau chemin de révision parallèle à un workflow d’approbation existant, de sorte que plusieurs pistes de révision s’exécutent simultanément sur une version de document.</span> | <span class="preview">Write</span> |
+| <span class="preview">Supprimer le chemin de l’approbation</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Supprime un chemin parallèle d’un workflow d’approbation. Le premier chemin ne peut pas être supprimé et les chemins qui contiennent des étapes terminées ou verrouillées sont protégés.</span> | <span class="preview">Write</span> |
+| <span class="preview">Ajouter une étape au chemin d’accès</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Ajoute une étape de révision à la fin d’un chemin spécifique dans un workflow d’approbation parallèle.</span> | <span class="preview">Write</span> |
+| <span class="preview">Supprimer l’étape du chemin</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Supprime une étape non démarrée d’un chemin spécifique dans un workflow d’approbation parallèle. Chaque chemin doit contenir au moins une étape.</span> | <span class="preview">Write</span> |
+| <span class="preview">Réorganiser les étapes dans le chemin</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Modifie l’ordre des étapes dans un chemin d’accès unique d’un workflow d’approbation parallèle.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
