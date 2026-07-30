@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administration pour le quatrième 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -84,3 +84,39 @@ Les actions d’approbation, d’étape et de participant sont désormais suivie
 Chaque entrée comprend les champs suivis standard : date et heure, opération, nom d’utilisateur (ou « généré par le système ») et nom d’objet. Les activités du MCP sont capturées, y compris le LLM (comme Claude) qui a effectué la mise à jour. Les commentaires de la visionneuse Frame.io ne sont pas inclus.
 
 Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Définir une application personnalisée comme page de destination dans le modèle de mise en page
+
+>[!NOTE]
+>
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+Vous pouvez désormais définir une application personnalisée comme page de destination dans un modèle de mise en page. Les applications personnalisées qui ont déjà été ajoutées au menu principal peuvent être utilisées comme page de destination.
+
+Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options de menu principal ou de page de destination.
+
+Pour plus d’informations, voir [Personnalisation de la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) et [Création d’applications personnalisées pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
+## Configuration des champs suivis dans l’historique des modifications
+
+>[!NOTE]
+>
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+Vous pouvez ajouter des champs dont vous souhaitez effectuer le suivi pour un type d’objet particulier dans Workfront. Lorsque les utilisateurs modifient des informations dans ce champ, le système enregistre les informations relatives à la modification sous forme d&#39;entrée dans l&#39;historique des modifications.
+
+Auparavant, l’écran de configuration permettant de définir les champs suivis était en lecture seule.
+
+Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+## Accès administratif à l&#39;historique des modifications ajouté aux niveaux d&#39;accès
+
+>[!NOTE]
+>
+>Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+
+Au niveau d&#39;accès standard, vous pouvez maintenant définir si les utilisateurs disposant de ce niveau doivent avoir accès à la liste Historique des modifications. L’option **Historique des modifications** est disponible dans la section **Autoriser l’accès administratif pour** au niveau de l’accès.
+
+Pour plus d&#39;informations, consultez [Octroi aux utilisateurs d&#39;un accès administratif à certaines zones](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) et [Affichage et gestion de l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+
