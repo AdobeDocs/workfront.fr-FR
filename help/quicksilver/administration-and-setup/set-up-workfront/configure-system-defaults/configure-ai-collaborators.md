@@ -1,31 +1,25 @@
 ---
 user-type: administrator
 product-area: system-administration;setup
-navigation-topic: configure-locations
+navigation-upperic: configure-locations
 title: Configuration des collaborateurs d’IA
 description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer des collaborateurs IA et les affecter à des projets et à des tâches.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: abe9313aaa544a2deec69f40dd135782cc0d2c88
+source-git-commit: dc6bfcd7d3431532c1227f6cd31f22445882143f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 6%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
 # Configuration des collaborateurs d’IA
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Cette option n’est disponible que dans l’environnement de prévisualisation de sandbox.</span>
 
--->
-
->[!IMPORTANT]
->
->Actuellement, Content Reviewer est le seul type de collaborateur d’IA disponible. D’autres fonctionnalités AI Collaborator seront disponibles à l’avenir.
 
 Les collaborateurs AI permettent d’intégrer des agents AI à vos projets et tâches. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
 
@@ -36,6 +30,10 @@ Les types de collaborateurs IA disponibles sont les suivants :
 * Réviseur : créez un collaborateur à l’aide de marques ou d’Adobe Brand Intelligence, puis affectez-le en tant que réviseur de ressources.
 
   Pour plus d’informations, voir [Prise en main de Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+* Collaborateur de tâche : créez un collaborateur à l’aide de Copilote ou de Writer, puis affectez-le à une tâche pour effectuer un travail au niveau de la tâche.
+
+  Pour plus d&#39;informations, voir [Utiliser des collaborateurs de tâches](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Conditions d’accès
@@ -67,6 +65,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
+### Pour les réviseurs d’IA :
+
 * Votre entreprise doit avoir un contrat Adobe Gen AI signé dans son dossier.
 
   Pour plus d’informations, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Assistant AI dans Workfront.
@@ -76,6 +76,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 * Pour utiliser Adobe Brand Intelligence pour un collaborateur ou une collaboratrice de l’IA dédiée aux réviseurs, votre entreprise doit utiliser l’expérience de révision et d’approbation unifiée dans Workfront. </span>
 
   Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
+
+<div class="preview">
+
+### Pour les collaborateurs de la tâche
+
+Vous devez configurer un agent dans Claude, Copilot Studio ou Writer avant de pouvoir l&#39;utiliser comme collaborateur de tâches.
+
+</div>
 
 ## Créer un collaborateur d’IA de type réviseur
 
@@ -90,15 +98,106 @@ Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marqu
 1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
 1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l’écran.
 1. Cliquez sur **Réviseur**, puis sur **Continuer**.
-
-   >[!NOTE]
-   >
-   >Actuellement, seul le type Réviseur est disponible. D’autres types de collaborateurs IA seront disponibles à l’avenir.
-
 1. Dans le champ Nom du collaborateur, entrez le nom du collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
-1. <span class="preview">Indiquez si le collaborateur utilisera une marque ou Adobe Brand Intelligence pour ses révisions.</span>
+1. Choisissez si le collaborateur utilisera une marque ou Adobe Brand Intelligence pour ses révisions.
 1. (Conditionnel) Si le collaborateur de l’IA va utiliser une marque, sélectionnez la marque et les instructions qu’il suivra.
 1. Cliquer sur **Enregistrer**.
+
+<div class="preview">
+
+## Configurer un collaborateur de tâches
+
+Les collaborateurs de tâches sont des agents MCP que vous pouvez affecter à des tâches dans Workfront. Configurez le collaborateur de tâches avec un nom, un niveau d&#39;accès et d&#39;autres détails et attribuez-le comme vous le feriez pour un utilisateur.
+
+Étant donné que les collaborateurs de tâches sont des agents MCP, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Actuellement, les agents utilisés comme collaborateurs de tâches peuvent être créés dans Copilot Studio, Claude ou Writer.
+
+Pour obtenir la liste des bonnes pratiques à appliquer lors de la création d&#39;un agent devant travailler en tant que Task Collaborator, voir [Bonnes pratiques pour la création d&#39;un agent pour un Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
+
+### Configuration d’un collaborateur de tâches dans Workfront
+
+{{step-1-to-setup}}
+
+1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
+1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l’écran.
+1. Sélectionnez **Agents de tâche**, puis cliquez sur **Continuer**.
+1. Dans le champ Nom du collaborateur de l’IA, saisissez un nom pour le collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
+1. Dans le champ Description du collaborateur de l’IA, saisissez une description de l’objectif du collaborateur ou des actions qu’il effectue.
+1. Dans le champ Niveau d&#39;accès , sélectionnez un niveau d&#39;accès pour ce collaborateur. Ce niveau d’accès contrôle ce que le collaborateur peut faire, de la même manière qu’un niveau d’accès contrôle ce qu’un utilisateur peut faire.
+1. Dans la zone **Choisir l’origine de l’agent**, indiquez si vous souhaitez connecter un agent créé sur une plateforme commune telle que Copilot ou Writer, ou utiliser un agent personnalisé.
+1. (Conditionnel) Si vous utilisez un agent provenant d’une plateforme commune, saisissez les détails d’authentification de la plateforme de l’agent :
+
+   | Platform | Authentification requise |
+   |---|---|
+   | Copilot Studio | Secret du canal web |
+   | Claude Managed Agents | Clé API anthropique<br>ID d’agent<br>ID d’environnement |
+   | Rédacteur | Clé API<br>ID de l’application |
+
+1. Cliquez sur **Tester la connexion**. Vous pouvez ainsi savoir si la connexion a été correctement configurée.
+1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer/désactiver les actions que vous souhaitez que le collaborateur effectue.
+1. Cliquer sur **Enregistrer**.
+
+Pour plus d&#39;informations sur les collaborateurs de tâches, y compris sur la manière de les affecter à des tâches, voir [Utiliser les collaborateurs de tâches](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+
+### Bonnes pratiques pour créer un agent pour un collaborateur de tâches
+
+Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d’un agent à utiliser en tant que collaborateur de tâche dans Workfront. Pour afficher les bonnes pratiques, cliquez sur la section de l’application dans laquelle vous créez l’agent.
+
++++ Claude
+
+1. Accédez à la console Claude sur [platform.claude.com](https://platform.claude.com/).
+1. Créez une clé API.
+   1. Sous Clés API, cliquez sur **Créer une clé** dans le coin supérieur droit.
+   1. Indiquez un nom et une date d’expiration.
+   1. Copiez la clé et enregistrez-la dans un endroit sûr et sécurisé. Vous aurez besoin de cette clé pour configurer le collaborateur de tâches dans Workfront.
+
+1. Créer un environnement.
+   1. Sous **Agents gérés** > **Environnements**, cliquez sur **Créer un environnement** dans le coin supérieur droit.
+   1. Indiquez un nom et un type d’hébergement, le cas échéant.
+   1. Configurez les packages et métadonnées partagés selon les besoins. Les environnements peuvent être réutilisés sur plusieurs agents et permettent de partager des packages et des métadonnées.
+      L’identifiant d’environnement s’affiche sous le nom de l’environnement dans le coin supérieur gauche.
+
+1. Créez un agent.
+   1. Sous Agents gérés > Agents, cliquez sur **Créer un agent** dans le coin supérieur droit.
+   1. Attribuez un nom, un modèle, une invite système, des compétences et des outils, le cas échéant. Soyez descriptif, car les collaborateurs de la tâche transmettent le contexte de la tâche à cet agent, qui exécute ensuite le travail.
+      L’ID de l’agent s’affiche sous le nom de l’agent dans le coin supérieur gauche.
+
+1. Configurez la tâche de collaboration dans Workfront.
+   1. Saisissez votre clé API, votre identifiant d’environnement et votre identifiant d’agent
+   1. Cliquez sur **Tester la connexion** pour vérifier.
+
+1. Affectez le collaborateur de tâches à une tâche Workfront.
+   1. Le collaborateur de tâches se déclenche une fois toutes les tâches antérieures terminées.
+
++++
+<!--
++++ Copilot Studio
+
+
+
++++
+-->
++++ Rédacteur
+
+Lors de la création d’un agent à utiliser en tant que collaborateur de tâches dans Writer, nous recommandons le workflow suivant.
+
+Vous trouverez des informations plus détaillées sur la création d’agents dans la [documentation du rédacteur](https://dev.writer.com/no-code/introduction).
+
+1. Créez une application sans code dans Writer AI Studio.
+1. Ajoutez un seul champ de saisie de texte. Vous pouvez utiliser le nom par défaut « Entrée de texte ».
+1. Ajoutez des `@TextInput` à l’invite. Dans la section Invites de la configuration de l’application, assurez-vous que votre modèle d’invite référence la variable d’entrée. Sans cela, le modèle ne voit jamais les données de la tâche.
+1. Ajustez votre invite pour générer la sortie immédiatement. Supprimez toutes les instructions qui demandent à l’utilisateur une clarification ou un contexte supplémentaire avant de répondre. Par exemple : « Lorsque vous recevez une entrée, traitez-la comme une requête de génération de contenu et générez immédiatement la sortie. Ne demandez pas d&#39;éclaircissements. »
+1. Copiez votre clé API et votre ID d’application. Vous aurez besoin de Task Collaborator pour configurer Task Collaborator dans Workfront.
+
+   * Pour obtenir des instructions sur la configuration d’une clé API dans Writer, voir [Quickstart](https://dev.writer.com/home/quickstart) dans la documentation Writer.
+   * Pour obtenir des instructions sur la configuration d’un ID d’application dans Writer, consultez la section [Appeler des agents sans code via l’API](https://dev.writer.com/home/applications) dans la documentation du Writer.
+
+1. Configurez la tâche de collaboration dans Workfront. Dans le cadre de la configuration, saisissez votre clé API et votre ID d’application, puis cliquez sur **Tester la connexion** pour vérifier.
+1. Affectez le collaborateur de tâches à une tâche Workfront. Le collaborateur commence à travailler lorsque toutes les tâches antérieures de la tâche sont terminées.
+
++++
+
+</div>
 
 ## Gérer les collaborateurs d’IA
 

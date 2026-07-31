@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
+source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
 workflow-type: tm+mt
-source-wordcount: '14396'
+source-wordcount: '14399'
 ht-degree: 93%
 
 ---
@@ -1420,6 +1420,7 @@ ht-degree: 93%
       * [Attribuer des tâches](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Attribuer des tâches](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Créer des affectations avancées](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [Utiliser les collaborateurs de la tâche](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Vue d’ensemble des affectations intelligentes](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Vue d’ensemble de la modification des affectations de tâches](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modifier plusieurs affectations d’utilisateurs et utilisatrices dans une liste de tâches](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -1835,7 +1836,7 @@ ht-degree: 93%
     * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2575,8 +2576,8 @@ ht-degree: 93%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
