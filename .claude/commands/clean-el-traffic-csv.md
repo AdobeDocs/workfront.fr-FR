@@ -48,7 +48,7 @@ Pour chaque ligne de données, vérifiez si l’URL contient la sous-chaîne lit
 
 Pour chaque ligne restante, recherchez des `/using` dans l’URL et conservez uniquement la partie provenant de (et comprenant) la `/` qui suit, en ignorant tout ce qui se trouve avant et y compris les `/using`.
 
-Exemple : `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+Exemple : `https://experienceleague.adobe.com/fr/docs/workfront/using/home` → `/home`
 
 Si `/using` n’est pas trouvée dans l’URL d’une ligne de Workfront, laissez cette URL inchangée et marquez-la pour l’utilisateur ou l’utilisatrice plutôt que de faire des suppositions.
 
