@@ -1,34 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Lier du contenu et des dossiers avec le gestionnaire de contenu optimisé par Experience Manager Assets
-description: Vous pouvez utiliser le gestionnaire d’accès pour lier du contenu ou des dossiers de Experience Manager Assets à tout objet Adobe Workfront prenant en charge les documents. Le gestionnaire de contenu permet une découverte intelligente et contextuelle directement dans Workfront, ce qui vous aide à trouver rapidement du contenu pertinent et approuvé.
+navigation-topic: native-integrations
+title: Lier du contenu et des dossiers de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
+description: Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier du contenu et des dossiers de Experience Manager Assets à n’importe quel objet Adobe Workfront prenant en charge les documents.
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 18%
+source-wordcount: '913'
+ht-degree: 12%
 
 ---
 
-# Lier du contenu et des dossiers au gestionnaire de contenu de Experience Manager Assets
+# Lier du contenu et des dossiers de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
 
-Le gestionnaire de contenu permet une découverte intelligente et contextuelle directement dans Workfront, ce qui vous permet de trouver rapidement du contenu pertinent et approuvé en fonction du contexte. Grâce à des fonctionnalités telles que les suggestions intelligentes, les rendus Dynamic Media et les métadonnées de ressources détaillées, il vous permet d’évaluer et de réutiliser efficacement le contenu sans quitter Workfront, ce qui accélère la création de contenu tout en préservant la cohérence de la marque.
-
-Vous pouvez utiliser le gestionnaire de contenu pour lier du contenu et des dossiers de Experience Manager Assets vers Workfront. Une fois lié, vous pouvez afficher et gérer le contenu dans Workfront. Toute modification apportée au contenu dans Experience Manager Assets sera répercutée dans Workfront.
+Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier du contenu et des dossiers de Experience Manager Assets à Workfront. Une fois lié, vous pouvez afficher et gérer le contenu dans Workfront. Toute modification apportée au contenu dans Experience Manager Assets sera répercutée dans Workfront.
 
 >[!IMPORTANT]
 >
@@ -54,7 +39,7 @@ Vous pouvez utiliser le gestionnaire de contenu pour lier du contenu et des doss
   </tr> 
   <tr> 
    <td role="rowheader">Produits supplémentaires</td> 
-   <td>Vous devez disposer d’Experience Manager as a Cloud Service ou d’Assets Essentials, et quelqu’un doit vous ajouter au produit en tant qu’utilisateur ou utilisatrice dans l’Admin Console.</td> 
+   <td>Vous devez disposer d’Experience Manager as a Cloud Service et être ajouté au produit en tant qu’utilisateur dans Admin Console.</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Autorisations Experience Manager</td> 
@@ -79,27 +64,20 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 Avant de commencer :
 
-* Votre administrateur ou administratrice Workfront doit configurer une intégration Experience Manager. Pour plus d’informations, voir [Configurer l’intégration d’Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* Votre administrateur ou administratrice Workfront doit configurer une intégration Experience Manager. Pour plus d’informations, voir [Utilisation d’Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * Pour utiliser la fonctionnalité de suggestions intelligentes ou de résumés de campagne, vous devez signer un Cavalier GenAI. Pour plus d’informations, voir [Utilisation de la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-
-
-## Lier du contenu de Experience Manager Assets avec le gestionnaire de contenu
-
-Vous pouvez désormais utiliser le gestionnaire de contenu pour lier le contenu de Experience Manager Assets directement dans Workfront. Le gestionnaire de contenu n’est pas disponible pour Assets Essentials.
+## Lier du contenu depuis Experience Manager Assets
 
 Pour lier du contenu :
 
-1. Accédez à la zone **Documents** dans Workfront, dans laquelle vous souhaitez ajouter le document.
-1. Sélectionnez **Ajouter**, puis choisissez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
-
-   >[!NOTE]
-   >
-   >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration et ne pas mentionner spécifiquement Experience Manager Assets.
+1. Accédez à l’objet Workfront auquel vous souhaitez lier du contenu.
+1. Cliquez sur la section **Documents** dans le panneau de gauche.
+1. Cliquez sur **Nouveau** dans la partie droite de la page, puis sur **Fichiers AEM** pour lier une ressource individuelle.
+   ![Ajouter des fichiers AEM à la zone des documents](assets/aem-files.png)
 
 1. Grâce au gestionnaire d’accès, vous pouvez :
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -123,10 +101,12 @@ Pour lier du contenu :
          <td><strong>Application de modificateurs Dynamic Media aux rendus.</strong> Ajoutez des modificateurs pour transformer les rendus de ressources en temps réel et prévisualisez les résultats avant de sélectionner un rendu pour votre application hôte.</td>
          <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendus de ressources Dynamic Media disponibles</a>.</td>
       </tr>
+      <!--
       <tr>
-         <td><strong>Découvrir et parcourir les fragments de contenu.</strong> Effectuez une recherche dans les fragments de contenu, affichez des aperçus de miniatures en direct, vérifiez le statut (Brouillon, Modifié ou Publié) et examinez les propriétés, références et variations détaillées.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> Découverte de fragments de contenu </a>.</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>Accès aux métadonnées des ressources.</strong> Consultez les propriétés de la ressource telles que le titre, la description, le format, la taille et d’autres onglets de métadonnées (Produit, Campagne, Balises) cohérents avec la vue Assets.</td>
          <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Accès aux métadonnées des ressources cohérentes avec la vue Assets</a>.</td>
@@ -146,56 +126,42 @@ Pour lier du contenu :
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### Liaison d’une nouvelle version de Experience Manager Assets à la fonction de conseil
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-Vous pouvez extraire du nouveau contenu de Experience Manager Assets ou d’Assets Essentials et l’ajouter à une ressource existante en tant que nouvelle version. Si le document est déjà lié et qu’une nouvelle version est ajoutée dans Experience Manager Assets ou Assets Essentials, la nouvelle version s’affiche automatiquement dans Workfront.
+To link a new version:
 
-Pour lier une nouvelle version :
-
-1. Accédez à la zone **Documents** dans Workfront, dans laquelle vous souhaitez ajouter le document.
-1. Sélectionnez la ressource à remplacer par une nouvelle version. Vous ne pouvez pas créer de version d’une ressource dans un dossier lié.
-1. Sélectionnez **Ajouter** > **Version**, puis sélectionnez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
-
-   >[!NOTE]
-   >
-   >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration et il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets.
-
-1. Sélectionnez le contenu que vous souhaitez lier :
-
-   * Sélectionnez l’onglet Assets pour parcourir les ressources, les dossiers ou les collections dans Experience Manager Assets ou Assets Essentials.
-
-     ![Conseiller en contenu](assets/content-advisor-full.png)
-
-   * Les fragments de contenu ne prennent pas en charge les versions . Si vous sélectionnez un fragment de contenu, la nouvelle version remplacera le fragment de contenu existant au lieu de créer une nouvelle version.
-
-1. Cliquez sur **Sélectionner**.
-
-## Liaison d’un dossier de Experience Manager Assets au gestionnaire de contenu
-
-Les autorisations d’affichage de ressources individuelles dans un dossier dépendent des autorisations Experience Manager Assets.
-
-Pour lier un dossier :
-
-1. Accédez à la zone **Documents** dans Workfront, dans laquelle vous souhaitez placer le dossier.
-1. Sélectionnez **Ajouter**, puis choisissez l’intégration d’Experience Manager que votre administrateur ou administratrice a configurée.
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >L’administrateur Workfront peut choisir n’importe quel nom pour cette intégration et il se peut donc qu’il ne mentionne pas spécifiquement Experience Manager Assets.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. Cliquez sur **&#x200B;**&#x200B;> **Fichiers et dossiers**.
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. Cliquez sur l’icône **Filtre** puis, dans la section **Type de ressource**, choisissez **Dossiers**.
+<!--
+## Link a folder from Experience Manager Assets
 
-1. Sélectionnez le dossier à lier.
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. Cliquez sur **Sélectionner**.
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## Considérations
 
-* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour les objets utilisant l’espace de stockage Adobe. Si votre organisation utilise l’espace de stockage Adobe, vous pouvez toujours lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials, mais vous n’aurez pas accès aux fonctionnalités du gestionnaire de contenu telles que Recherche optimisée par l&#39;IA, les suggestions intelligentes ou les rendus Dynamic Media. Pour plus d’informations, voir [Lier du contenu et des dossiers de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
-* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour Assets Essentials. Pour lier des ressources et des dossiers à partir d’Assets Essentials, voir [Lier des ressources et des dossiers à partir de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
-
+* Les workflows de révision et d’approbation ne sont pas pris en charge pour les ressources AEM liées.
 * Les champs de métadonnées sont d’abord mappés lorsque vous envoyez une ressource de Workfront vers Experience Manager Assets. Si votre équipe d’administration Workfront a activé la synchronisation des métadonnées d’objet, les champs restent à jour s’ils sont modifiés dans l’une ou l’autre des applications.

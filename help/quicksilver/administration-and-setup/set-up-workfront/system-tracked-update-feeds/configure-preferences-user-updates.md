@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 80%
+source-wordcount: 291
+ht-degree: 73%
 
 ---
 
@@ -96,15 +96,16 @@ Par défaut, les utilisateurs et utilisatrices ne peuvent pas ajouter d’images
 >
 >* Les images enregistrées dans les mises à jour sont prises en compte dans la limite de stockage des documents. Pour plus d’informations, voir [Vérifier les limites de stockage des documents](../../../documents/managing-documents/check-document-storage.md).
 >* Les images sont accessibles via l’onglet [!UICONTROL Mises à jour] d’un objet et sont également disponibles dans la zone [!UICONTROL Documents] sous le [!UICONTROL menu principal].
->
+>* Cette préférence détermine également si les utilisateurs peuvent joindre des images aux commentaires sur les objets utilisant l’espace de stockage dans le cloud d’Adobe. Les images jointes sont stockées dans l’espace de stockage cloud d’Adobe.
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Interface]** > **[!UICONTROL Mettre à jour les flux]**.
 1. Sélectionnez l’onglet **[!UICONTROL Préférences]**.
 
-   ![Préférences utilisateur pour les flux de mise à jour](assets/updatefeeds-preferences-350x137.png)
-
 1. Cochez la case **[!UICONTROL Autoriser les utilisateurs et les utilisatrices à ajouter des images dans les mises à jour]**.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
    Lorsque cette préférence est activée, vous pouvez la désactiver à tout moment. Les images déjà publiées dans les mises à jour resteront dans la zone [!UICONTROL Mises à jour] de l’objet.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

@@ -18,14 +18,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 90%
+source-wordcount: 714
+ht-degree: 87%
 
 ---
 
 # Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices
+
+{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -84,6 +86,11 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      <tr> 
       <td role="rowheader">Processus d’approbation</td> 
       <td><p>Créez et gérez des processus d’approbation à utiliser dans l’ensemble du système et pour des groupes spécifiques.</p><p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement créer des processus d’approbation ad hoc sur les éléments auxquels ils ont accès pour la gestion.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Modifier l’historique</span></td> 
+      <td><p><span class="preview">Affichez les journaux de l’historique des modifications de Workfront dans Configuration &gt; Suivi des modifications &gt; Liste Historique des modifications .</span></p>
+      <p><span class="preview">Sans cet accès, les utilisateurs n’ont pas cette option dans la zone Configuration .</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Entreprises</td> 

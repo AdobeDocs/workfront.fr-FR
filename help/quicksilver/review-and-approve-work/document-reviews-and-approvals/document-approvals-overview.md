@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +96,12 @@ La visionneuse Frame.io est la visionneuse par défaut pour tous les workflows d
 Si votre entreprise souhaite tirer parti des fonctionnalités Frame.io supplémentaires disponibles avec cette intégration, telles que le chargement direct de ressources vers des projets dans Frame.io, vous pouvez acheter une licence d’entreprise Frame.io. Contactez votre représentant de compte Adobe pour planifier une démonstration et explorer les avantages de la solution Frame.io complète.
 
 La fonctionnalité de relecture de Workfront n&#39;est pas disponible avec cette intégration.
+
+## Journal d’audit complet
+
+<span class="preview">L’examen et l’approbation unifiés comprennent une journalisation d’audit complète qui crée un journal de gouvernance complet sur Workfront et Frame.io. Les logs de tracking des modifications capturent les décisions d’approbation prises dans la visionneuse Frame.io et le cycle de vie des documents. Chaque entrée de journal inclut l’attribution du système source (Workfront ou Frame.io) avec les champs d’audit Workfront standard : date et heure, type de journal, nom d’utilisateur, action et nom d’objet. Les commentaires de la visionneuse Frame.io ne sont pas inclus dans les journaux d’audit.</span>
+
+<span class="preview">Les logs de tracking des modifications apparaissent dans la zone Configuration de Workfront et peuvent être exportés. Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
 
 ## Gestion de projet puissante dans Workfront
 
@@ -212,7 +218,7 @@ Pour accéder à la révision et à l’approbation unifiées, vous devez dispos
 
 * Une fois que vous disposez d’une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud, Adobe Professional Services configure l’intégration pour votre organisation.
 
-   * Si vous ne savez pas qui est votre représentant de compte Adobe, vous pouvez contacter par le biais du portail d’assistance Adobe ou consulter Experience League pour connaître les options de contact.
+  * Si vous ne savez pas qui est votre représentant de compte Adobe, vous pouvez contacter par le biais du portail d’assistance Adobe ou consulter Experience League pour connaître les options de contact.
 
 +++
 
@@ -360,6 +366,14 @@ Pour obtenir la liste complète des types de fichiers pris en charge, consultez 
 **Puis-je partager des ressources en externe avec des parties prenantes qui n’ont pas accès à Workfront ?**
 
 Oui. Assets peut être partagé en externe. Les utilisateurs externes sont avertis par e-mail et seront invités à créer une connexion Frame.io pour accéder à la visionneuse et participer à la révision.
+
+**Puis-je joindre des images aux commentaires d’un document dans Workfront ?**
+
+Si votre entreprise utilise l’espace de stockage Adobe dans le cadre de la révision et de l’approbation unifiées, vous pouvez joindre des fichiers image directement aux commentaires d’un document. Les images jointes sont stockées dans l’espace de stockage cloud Adobe et tous les formats de fichiers images de type média sont pris en charge.
+
+Ces commentaires sont natifs de Workfront et sont distincts des commentaires dans la visionneuse Frame.io. Les images jointes à un commentaire ne sont pas accessibles dans Frame.io, et joindre une image n’ajoute pas de balisage à la ressource ou ne l’achemine pas pour approbation. Les types de fichiers autres que les images ne peuvent pas être joints à un commentaire.
+
+Pour plus d’informations, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
-ht-degree: 73%
+source-wordcount: 3225
+ht-degree: 72%
 
 ---
 
@@ -179,21 +179,21 @@ Old:
 
 * Vous pouvez ajouter une mise à jour aux projets, aux tâches et aux problèmes dans les zones suivantes de Workfront :
 
-   * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
-   * Dans la zone Accueil (pour les tâches et les problèmes)
+  * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
+  * Dans la zone Accueil (pour les tâches et les problèmes)
 
-     Pour plus d’informations, voir [&#x200B; Gérer votre travail avec le widget Mes tâches &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
-   * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
+    Pour plus d’informations, voir [&#x200B; Gérer votre travail avec le widget Mes tâches &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+  * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
-      * Une liste des objets
-      * Une feuille de temps
-      * Page d’accueil
-      * Équilibreur de charge de travail
+    * Une liste des objets
+    * Une feuille de temps
+    * Page d’accueil
+    * Équilibreur de charge de travail
 
-     Pour plus d’informations, consultez les articles suivants :
+    Pour plus d’informations, consultez les articles suivants :
 
-      * [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [Mettre à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Mettre à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -451,7 +451,6 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 
    >[!IMPORTANT]
    >
-   >
    >* Vous ne pouvez pas ajouter d’images aux objectifs ou aux cartes ad hoc sur les panoramas.
    >
    >* Votre administrateur ou administratrice Workfront doit activer l’ajout d’images dans la section Mettre à jour les préférences des flux de la zone Interface Workfront avant de pouvoir voir les icônes Image ou Ajouter une pièce jointe. Pour plus d’informations, voir [Configurer des préférences pour les mises à jour des utilisateurs et utilisatrices](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
@@ -462,6 +461,8 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
    >* Vous pouvez envoyer une mise à jour avec une image et sans texte.
    >* Lorsque vous supprimez un commentaire qui contient une image, celle-ci est supprimée de la section Mises à jour, ainsi que de la zone Documents. L’image est également supprimée de la zone Documents lorsque vous modifiez un commentaire et supprimez l’image.
    >* Lorsqu’une personne supprime une image jointe à un commentaire de la zone Documents, elle est également supprimée du commentaire.
+   >* Si votre entreprise utilise l’espace de stockage Adobe dans le cadre de la révision et de l’approbation unifiées, votre administrateur Workfront peut activer la même préférence pour vous permettre de joindre des images aux commentaires. Tous les formats d’image standard sont pris en charge et les images jointes sont stockées dans le stockage cloud d’Adobe.
+   >* Les images jointes à des commentaires sur des objets utilisant l’espace de stockage dans le cloud d’Adobe ne sont pas accessibles dans la visionneuse Frame.io.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +658,10 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informat
 
   Les objets suivants ne comportent pas de mises à jour générées par le système :
 
-   * Equipe
-   * Modèle
-   * Tâche de modèle
-   * Carte ad hoc sur un panorama
+  * Equipe
+  * Modèle
+  * Tâche de modèle
+  * Carte ad hoc sur un panorama
 
 Pour plus d’informations sur les mises à jour des utilisateurs et du système, ainsi que sur leur affichage dans la section Mises à jour des objets Workfront, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

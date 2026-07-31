@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 39%
 
 ---
@@ -308,13 +308,11 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
 
    Une image miniature par défaut <span class="preview">et couleur</span> sont également ajoutées au nouvel enregistrement.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Lorsqu&#39;un enregistrement contient des commentaires non lus, un indicateur **Nouveau commentaire** s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement.</span>
+   >
+   >![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 

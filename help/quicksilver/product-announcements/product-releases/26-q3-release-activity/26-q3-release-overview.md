@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3363'
 ht-degree: 16%
 
 ---
@@ -99,17 +99,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
-                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Suivi des modifications pour la révision et l’approbation unifiées</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>La page Historique des modifications capture désormais l’activité dans les workflows de révision et d’approbation unifiés, offrant ainsi aux administrateurs et administratrices un journal complet de gouvernance pour les actions d’approbation, d’évaluation et des participants.</p>
             </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
+            <td><p>10 Juillet 2026</p></td>
+            <td><p>15 juillet 2026</p></td>
+            <td><p>16 juillet 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nouveaux champs de type de licence pour les niveaux d'accès<p>[!BADGE Hors planning]{type=Neutral}</p></a>

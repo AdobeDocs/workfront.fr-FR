@@ -22,14 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 79%
+source-wordcount: 446
+ht-degree: 70%
 
 ---
 
 # Personnaliser la page de destination à l’aide d’un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les utilisateurs et utilisatrices doivent voir chaque fois qu’ils se connectent à Workfront.
 
@@ -104,6 +106,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * Utilisateurs et utilisatrices
    * Plans directeurs
    * Planification
+   * <span class="preview">Application personnalisée</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Les applications personnalisées qui ont déjà été ajoutées au menu principal peuvent être utilisées comme page de destination. Ils doivent être créés séparément avant d&#39;être disponibles en tant qu&#39;options de menu principal ou de page de destination. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >
