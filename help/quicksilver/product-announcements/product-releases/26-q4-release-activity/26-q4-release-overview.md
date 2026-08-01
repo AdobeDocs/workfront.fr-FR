@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 16%
+source-wordcount: '1305'
+ht-degree: 15%
 
 ---
 
@@ -53,6 +53,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Affecter des collaborateurs de tâches AI à des tâches dans Workfront</a>
+                <p>Les collaborateurs de tâches sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches pour effectuer un travail au niveau de la tâche.</p>
+            </td>
+            <td><p>31 juillet 2026</p></td>
+            <td><p>13 Août 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>

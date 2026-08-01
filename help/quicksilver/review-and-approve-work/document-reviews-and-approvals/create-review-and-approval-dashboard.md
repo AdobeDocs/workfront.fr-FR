@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2563
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
 
-   1. Sélectionnez **Étape d’approbation** > **Échéance**.
+   1. Sélectionnez **Étapes d’approbation** > **Échéance**.
    1. Remplacez l’opérateur par **Inférieur à**.
    1. Basculez **Définir la date relative** sur **ON**, puis saisissez _$$TODAY_ dans la zone de texte.
       ![exemple de filtre kpi en retard](assets/overdue-kpi-filter.png)
@@ -321,13 +321,13 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Cliquez sur **Modifier le filtre**, puis **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
 
-   1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Date de décision**.
+   1. Sélectionnez **Étapes d’approbation** > **Participants à l’étape d’approbation** > **Date de décision**.
 
    1. Remplacez l’opérateur par **Est nul**.
       ![exemple de filtre de graphique de révisions](assets/revision-chart-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
-   1. Sélectionnez **Étape d’approbation** > **Échéance**.
+   1. Sélectionnez **Étapes d’approbation** > **Échéance**.
    1. Remplacez l’opérateur par **Inférieur ou égal à**, puis activez l’option **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAYem_ dans la zone de texte.
       ![Exemple de filtre de graphique de révisions](assets/revision-chart-filter-2.png)
@@ -359,7 +359,7 @@ Pour plus d&#39;informations sur la création d&#39;un rapport tabulaire, voir [
 
    1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes du tableau** ![Icône Colonnes du tableau](assets/drilldown-column.png).
    1. Cliquez sur **Ajouter une colonne**.
-   1. Faites défiler vers le bas et sélectionnez **Approbations de documents** > **Statut**.
+   1. Faites défiler vers le bas et sélectionnez **Approbation du document** > **Statut**.
    1. Ajoutez les colonnes suivantes :
 
    <table>
@@ -373,23 +373,23 @@ Pour plus d&#39;informations sur la création d&#39;un rapport tabulaire, voir [
     </tr>
     <tr>
     <td><strong>Version du document</strong></td>
-    <td>Version Du Document &gt; Document &gt; Version</td>
+    <td>Version Du Document &gt; Document &gt; Version Actuelle &gt; Version</td>
     </tr>
     <tr>
     <td><strong>Échéance</strong></td>
-    <td>Approbation du document &gt; Étape d’approbation &gt; Échéance</td>
+    <td>Approbation du document &gt; Étapes d’approbation &gt; Échéance</td>
     </tr>
     <tr>
     <td><strong>Demandé par</strong></td>
-    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    <td>Approbation du document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
     </tr>
     <tr>
     <td><strong>Date demandée</strong></td>
-    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
+    <td>Approbation du document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
     </tr>
     <tr>
-    <td><strong>Approbateur</strong></td>
-    <td>Approbation du document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    <td><strong>Personne approbatrice</strong></td>
+    <td>Approbation du document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
     </tr>
     </table>
 
@@ -427,7 +427,7 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
 
 1. Cliquez sur **Modifier le filtre** > **Ajouter une condition** :
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
-   1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Demandeur** > saisissez _Nom_ dans la zone de recherche.
+   1. Sélectionnez **Étapes d’approbation** > **Participants à l’étape d’approbation** > **Demandeur** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Moi (utilisateur connecté)** pour afficher les projets dans Workfront où vous êtes marqué comme propriétaire du projet.
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approvals-my-project-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
@@ -473,19 +473,19 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
         </tr>
         <tr>
         <td><strong>Échéance</strong></td>
-        <td>Document &gt; Étape d’approbation &gt; Échéance</td>
+        <td>Document &gt; Étapes d’approbation &gt; Échéance</td>
         </tr>
         <tr>
         <td><strong>Demandé par</strong></td>
-        <td>Document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+        <td>Document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
         </tr>
         <tr>
         <td><strong>Date demandée</strong></td>
-        <td>Document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé à</td>
+        <td>Document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé à</td>
         </tr>
         <tr>
-        <td><strong>Approbateur</strong></td>
-        <td>Document &gt; Étape d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+        <td><strong>Personne approbatrice</strong></td>
+        <td>Document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
         </tr>
         </table>
 
@@ -495,7 +495,7 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![icône de l’onglet Filtrer](assets/filter-tab.png).
    1. Cliquez sur **Modifier le filtre**, puis **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
-   1. Sélectionnez **Étape d’approbation** > **Échéance**.
+   1. Sélectionnez **Étapes d’approbation** > **Échéance**.
    1. Remplacez l’opérateur par **Inférieur à**, puis activez le bouton (bascule) **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAY_ dans le champ de texte.
       ![exemple de filtre de table des approbations échues](assets/overdue-approval.png)
@@ -523,7 +523,7 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
 
 1. Cliquez sur **Modifier le filtre** > **Ajouter une condition** :
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
-   1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Demandeur** > saisissez _Nom_ dans la zone de recherche.
+   1. Sélectionnez **Étapes d’approbation** > **Participants à l’étape d’approbation** > **Demandeur** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Moi (utilisateur connecté)** pour afficher les projets dans Workfront dans lesquels vous êtes marqué comme propriétaire du projet.
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approvals-my-project-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
@@ -532,7 +532,7 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
 
 1. Cliquez sur **Modifier le filtre** > **Ajouter une condition** :
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
-   1. Sélectionnez **Étape d’approbation** > **Participants à l’étape d’approbation** > **Équipe de participants** > saisissez _Nom_ dans la zone de recherche.
+   1. Sélectionnez **Étapes d’approbation** > **Participants à l’étape d’approbation** > **Équipe de participants** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Mes équipes par défaut (Utilisateur connecté)** ou **Mes autres équipes (Utilisateur connecté)** pour afficher les projets affectés à votre équipe par défaut ou aux autres équipes auxquelles vous appartenez.
       ![exemple de filtre de table d&#39;approbation en attente](assets/approvals-ive-submitted-filter.png)
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.

@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Affecter des tâches
-description: Vous pouvez affecter des tâches aux utilisateurs et utilisatrices, fonctions ou équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
+description: Vous pouvez affecter des tâches à des utilisateurs, des rôles, des équipes ou des collaborateurs de tâche pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
-ht-degree: 84%
+source-wordcount: 1616
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-Vous pouvez affecter des tâches aux utilisateurs et aux utilisatrices, aux fonctions ou aux équipes pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
+Vous pouvez affecter des tâches à des utilisateurs, des fonctions, des équipes ou des collaborateurs de tâche pour indiquer qui est responsable de l’exécution des tâches. Vous pouvez affecter une tâche à plusieurs ressources à la fois.
 
 >[!TIP]
 >
@@ -65,6 +65,7 @@ En plus de cet article, nous vous recommandons de lire les articles suivants pou
 * [Vue d’ensemble des affectations intelligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Créer des affectations intelligentes](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Créer des affectations avancées](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Utiliser les collaborateurs de la tâche](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Modifier plusieurs affectations d’utilisateurs et d’utilisatrices dans une liste de tâches](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Modifier des tâches](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Vue d’ensemble de la planification d’un projet](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -112,8 +113,8 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 * Les utilisateurs et utilisatrices peuvent avoir plusieurs fonctions associées à leur profil. Pour plus d’informations sur l’affectation de fonctions à des utilisateurs et utilisatrices, consultez la section [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Si vous affectez plusieurs utilisateurs et utilisatrices à une tâche ou à un problème, la première personne sélectionnée est désignée automatiquement comme propriétaire de la tâche ou du problème.
-Pour plus d’informations sur la modification de cette option, consultez les informations sur l’option « Principal » dans l’article [Créer des affectations avancées](create-advanced-assignments.md).
+* Si vous affectez plusieurs utilisateurs à une tâche ou à un événement, le premier utilisateur sélectionné est automatiquement désigné comme propriétaire de la tâche ou de l’événement.
+Pour obtenir des instructions sur la modification de ce paramètre, consultez les informations sur l&#39;option Créer un Principal dans l&#39;article [Créer des affectations avancées](create-advanced-assignments.md).
 
 * Une équipe ne peut pas être une désignée comme cessionnaire principale pour une tâche ou un problème. Seules une personne ou une fonction peuvent être désignées comme cessionnaire principale sur une tâche ou un problème.
 
@@ -173,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Commencez à saisir le nom d’un utilisateur, d’une fonction ou d’une équipe à affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
+   * Commencez à saisir le nom d&#39;un utilisateur, d&#39;une fonction, d&#39;une équipe ou d&#39;un collaborateur de tâches à affecter, puis cliquez dessus lorsqu&#39;il apparaît dans la liste.
 
      >[!TIP]
      >
@@ -202,7 +203,7 @@ Selon le champ visible dans la vue, vous pouvez affecter les entités suivantes 
 |---|---|
 | **Affecter à** | Affecter un utilisateur ou une utilisatrice |
 | **Affecté** | Affecter un utilisateur ou une utilisatrice |
-| **Affectations** | Affecter des utilisateurs et des utilisatrices, des fonctions ou des équipes |
+| **Affectations** | Affecter des utilisateurs, des fonctions, des équipes ou des collaborateurs à une tâche |
 
 Pour affecter des tâches dans une liste, procédez comme suit :
 
@@ -220,7 +221,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 1. Pour affecter des tâches, effectuez l’une des opérations suivantes :
 
    * Cliquez dans les champs **Affecté à** ou **Affecté** et commencez à saisir le nom d’une personne active que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
-   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’une personne, d’une fonction ou d’une équipe active à affecter à la tâche, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d&#39;un utilisateur actif, d&#39;une fonction, d&#39;une équipe ou d&#39;un collaborateur de tâches que vous souhaitez affecter à la tâche, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
      >[!TIP]
      >
@@ -255,7 +256,7 @@ Pour affecter des tâches dans une liste, procédez comme suit :
 
    La boîte de dialogue **Modifier les tâches** s’ouvre.
 
-1. Dans la zone **Affectations**, commencez à saisir le nom des utilisateurs, des équipes ou des rôles dans le champ **Rechercher des personnes, des rôles ou des équipes** fourni, puis cliquez dessus lorsqu’ils s’affichent dans la liste
+1. Dans la zone **Affectations**, commencez à saisir le nom des utilisateurs, des équipes, des rôles ou des collaborateurs de la tâche dans le champ **Rechercher des personnes, des rôles ou des équipes** fourni, puis cliquez dessus lorsqu&#39;ils s&#39;affichent dans la liste
 
    >[!IMPORTANT]
    >
