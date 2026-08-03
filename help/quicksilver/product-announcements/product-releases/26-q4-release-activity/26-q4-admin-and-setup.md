@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administration pour le quatrième 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Les actions d’approbation, d’étape et de participant sont désormais suivie
 
 Chaque entrée comprend les champs suivis standard : date et heure, opération, nom d’utilisateur (ou « généré par le système ») et nom d’objet. Les activités du MCP sont capturées, y compris le LLM (comme Claude) qui a effectué la mise à jour. Les commentaires de la visionneuse Frame.io ne sont pas inclus.
 
-Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Définir une application personnalisée comme page de destination dans le modèle de mise en page
 
@@ -107,7 +107,7 @@ Vous pouvez ajouter des champs dont vous souhaitez effectuer le suivi pour un ty
 
 Auparavant, l’écran de configuration permettant de définir les champs suivis était en lecture seule.
 
-Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Pour plus d’informations, voir [Configurer les champs à suivre dans l’historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
 ## Accès administratif à l&#39;historique des modifications ajouté aux niveaux d&#39;accès
 
@@ -117,6 +117,6 @@ Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modi
 
 Au niveau d&#39;accès standard, vous pouvez maintenant définir si les utilisateurs disposant de ce niveau doivent avoir accès à la liste Historique des modifications. L’option **Historique des modifications** est disponible dans la section **Autoriser l’accès administratif pour** au niveau de l’accès.
 
-Pour plus d&#39;informations, consultez [Octroi aux utilisateurs d&#39;un accès administratif à certaines zones](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) et [Affichage et gestion de l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Pour plus d&#39;informations, consultez [Octroi aux utilisateurs d&#39;un accès administratif à certaines zones](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) et [Affichage et gestion de l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 

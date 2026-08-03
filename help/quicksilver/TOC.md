@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '14399'
+source-wordcount: '14406'
 ht-degree: 93%
 
 ---
@@ -543,6 +543,8 @@ ht-degree: 93%
       * [Supprimer des utilisateurs et utilisatrices](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [Vue d’ensemble des journaux d’audit](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [Afficher et exporter des journaux d’audit](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [Affichage et gestion de l’historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [Configurer les champs à suivre dans l’historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [Afficher les informations de connexion de l’utilisateur ou de l’utilisatrice](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Gérer les utilisateurs et utilisatrices dans Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Présentation des profils professionnels](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -821,7 +823,6 @@ ht-degree: 93%
     * [Importer des cartes tarifaires à partir d’un modèle](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [Modifications du taux de notification push pour les projets](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
     * [Partager une carte tarifaire](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-    * [Afficher et gérer l’historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
   * Configurer les intégrations {#configure-integrations}
     * [Configurer les intégrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Intégrations Adobe Workfront](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -1836,7 +1837,7 @@ ht-degree: 93%
     * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2576,8 +2577,8 @@ ht-degree: 93%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)

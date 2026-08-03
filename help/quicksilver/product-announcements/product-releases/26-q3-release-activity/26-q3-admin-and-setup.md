@@ -4,7 +4,7 @@ description: Améliorations apportées à l’administration au troisième trime
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Chaque entrée comprend les champs suivis standard : date et heure, opération, 
 
 Cette phase de suivi des modifications n’inclut pas les événements MCP. Celles-ci feront partie d’une version ultérieure.
 
-Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 -->
 
@@ -142,7 +142,7 @@ Pour que vous puissiez voir plus facilement les modifications qui se sont produi
 
 Auparavant, les journaux d’audit étaient disponibles, mais ne couvraient pas les objets.
 
-Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Nouvelle préférence système pour convertir les portefeuilles de stockage hérités en stockage cloud Adobe
 
