@@ -9,14 +9,10 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
 ht-degree: 25%
@@ -129,7 +125,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,21 +149,21 @@ Old:
 * Vous ne pouvez référencer que les champs qui s&#39;affichent dans la vue Tableau d&#39;un type d&#39;enregistrement ou dans la page Détails de l&#39;enregistrement.
 * Vous pouvez définir le format de la valeur d&#39;un calcul de formule en choisissant parmi les options de format suivantes :
 
-   * Texte
-   * Nombre
-   * Pourcentage
-   * Devise
-   * Balises
-   * Date
+  * Texte
+  * Nombre
+  * Pourcentage
+  * Devise
+  * Balises
+  * Date
 
   Pour plus d’informations, consultez la section « Formule » de l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 * Vous pouvez référencer des champs de formule dans de nouvelles formules. Une fois que la valeur est mise à jour dans un champ référencé dans un champ de formule, tous les champs suivants référençant ce champ ou les champs de formule qui contiennent ce champ sont automatiquement mis à jour.
 
 * Lorsque vous mettez à jour un champ de formule ou un champ susceptible de l’impacter, une alerte vous informe de l’impact de votre modification. L’alerte s’affiche dans les cas suivants :
 
-   * Lorsque vous mettez à jour un champ de formule (à l’exclusion des modifications de nom et de description) lorsque ce champ comporte des champs de formule ou de recherche dépendants. L’alerte répertorie ces champs dépendants et vous demande si vous souhaitez continuer.
+  * Lorsque vous mettez à jour un champ de formule (à l’exclusion des modifications de nom et de description) lorsque ce champ comporte des champs de formule ou de recherche dépendants. L’alerte répertorie ces champs dépendants et vous demande si vous souhaitez continuer.
 
-   * Lorsque vous supprimez un champ utilisé dans une expression de formule ou comme champ de recherche. L’alerte répertorie la formule dépendante et les champs de recherche et vous demande si vous souhaitez continuer la suppression.
+  * Lorsque vous supprimez un champ utilisé dans une expression de formule ou comme champ de recherche. L’alerte répertorie la formule dépendante et les champs de recherche et vous demande si vous souhaitez continuer la suppression.
 
 ## Limites des champs de formule
 
@@ -178,13 +174,13 @@ Old:
 * L’expression de la formule ne peut pas dépasser 50 000 caractères.
 
 * Les champs de formule peuvent s’afficher comme `#ERROR!` dans les cas suivants :
-   * Lorsqu’un champ utilisé dans une formule est supprimé.
-   * Lorsqu’un champ utilisé dans un champ de recherche agrégé s’affiche sous la forme `#ERROR!`.
+  * Lorsqu’un champ utilisé dans une formule est supprimé.
+  * Lorsqu’un champ utilisé dans un champ de recherche agrégé s’affiche sous la forme `#ERROR!`.
 
-     Par exemple, si vous affichez un champ de recherche qui contient des champs de formule de recherche agrégés et que l&#39;un des champs de formule référencés s&#39;affiche sous la forme `#ERROR!`.
-   * Lorsqu’une valeur de formule ne peut pas être affichée au format sélectionné.
+    Par exemple, si vous affichez un champ de recherche qui contient des champs de formule de recherche agrégés et que l&#39;un des champs de formule référencés s&#39;affiche sous la forme `#ERROR!`.
+  * Lorsqu’une valeur de formule ne peut pas être affichée au format sélectionné.
 
-     Par exemple, si je sélectionne Nombre pour le Format d&#39;un champ de formule et que les champs utilisés dans la formule sont des champs de texte qui affichent uniquement des valeurs non numériques, le résultat de la formule s&#39;affichera sous la forme `#ERROR!`, car il ne peut pas analyser le texte en un nombre.
+    Par exemple, si je sélectionne Nombre pour le Format d&#39;un champ de formule et que les champs utilisés dans la formule sont des champs de texte qui affichent uniquement des valeurs non numériques, le résultat de la formule s&#39;affichera sous la forme `#ERROR!`, car il ne peut pas analyser le texte en un nombre.
 
 
 ## Formules prises en charge

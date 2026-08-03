@@ -9,21 +9,15 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
-ht-degree: 34%
+source-wordcount: 1394
+ht-degree: 33%
 
 ---
 
@@ -67,8 +61,8 @@ Les enregistrements peuvent être affichés dans les vues suivantes :
 
   Pour plus d’informations, consultez les articles suivants :
 
-   * [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [Gestion de la vue Liste](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [Gestion de la vue Liste](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Cet article présente les informations suivantes sur les vues d’enregistrement :
 
@@ -99,15 +93,29 @@ Pour plus d’informations sur la gestion des vues d’enregistrement Workfront 
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p>
-<p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+Ou
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p> Standard pour créer et supprimer des vues</p>
-   <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
+   <td><p>Workflow léger ou supérieur</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p> Planning Standard pour créer et supprimer des vues</p>
+   <p>Planning Contributor ou version ultérieure pour mettre à jour les éléments d'affichage</p>
+   <p><b>NOTE</b><p>
+   <p>Tous les clients ne disposent pas de licences Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -171,7 +179,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +205,14 @@ Old:
 * Chaque utilisateur peut créer un maximum de 100 vues. Vous pouvez afficher plus de 100 vues pour un type d’enregistrement, mais un utilisateur ne peut créer que 100 vues.
 * Bien que certains éléments de vue puissent être appliqués à plusieurs vues pour le même enregistrement, ils sont propres à chaque vue d’enregistrement :
 
-   * Filtre
-   * Tri (pour la vue Tableau)
-   * Couleurs des lignes (pour la vue Tableau)
-   * Champs (pour la vue Tableau)
-   * Répartition (pour la vue Chronologie)
-   * Regroupement (pour les vues Tableau et Chronologie)
-   * Apparence des barres (pour les vues Chronologie et Calendrier)
-   * Hauteur de ligne (pour le tableau et la vue Calendrier mensuelle)
+  * Filtre
+  * Tri (pour la vue Tableau)
+  * Couleurs des lignes (pour la vue Tableau)
+  * Champs (pour la vue Tableau)
+  * Répartition (pour la vue Chronologie)
+  * Regroupement (pour les vues Tableau et Chronologie)
+  * Apparence des barres (pour les vues Chronologie et Calendrier)
+  * Hauteur de ligne (pour le tableau et la vue Calendrier mensuelle)
 
   Par exemple, lors de la création d’un filtre dans une vue Tableau, les résultats du filtre sont visibles uniquement dans la vue sélectionnée (vue Tableau) et pas dans toutes les vues associées au type d’enregistrement.
 

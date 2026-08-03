@@ -9,18 +9,13 @@ exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1758
+source-wordcount: 1780
 ht-degree: 5%
 
 ---
@@ -67,15 +62,27 @@ Pour plus d&#39;informations sur la création d&#39;enregistrements ou d&#39;obj
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
+<p>Tout Workfront ou workflow avec un package Planning</p> 
+Ou
+<p>Tout package Planning lorsqu’il est acheté en tant que package autonome</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
-   <p>L'administrateur système doit avoir accès à la configuration des automatisations en fonction de la modification de la valeur du champ</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   <p>L'administrateur système doit avoir accès à la configuration des automatisations en fonction de la modification de la valeur du champ</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Gérez les autorisations sur l’espace de travail et sur le type d’enregistrement dans lequel vous souhaitez créer des automatisations. </p>
@@ -136,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 
@@ -175,8 +182,8 @@ La page d’informations sur l’automatisation s’ouvre.
 
    * **Déclencheur** : sélectionnez une action qui déclenchera l’automatisation :
 
-      * Clic sur bouton
-      * Modification de la valeur de champ
+     * Clic sur bouton
+     * Modification de la valeur de champ
 
 1. (Conditionnel) Si vous avez sélectionné **Clic sur le bouton**, passez à l’étape 9 ci-dessous qui décrit la zone **Actions**. <!--ensure this number stays accurate-->
 
@@ -206,15 +213,15 @@ La page d’informations sur l’automatisation s’ouvre.
 
 1. Mettez à jour les champs suivants dans la section **Actions** : <!--submitted bugs for these fields - see if they need changing here-->
    * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
-Sélectionnez l’une des actions suivantes :
+     Sélectionnez l’une des actions suivantes :
 
-      * Création de plusieurs projets
-      * Créer un seul projet
-      * Créer un projet
-      * Créer un enregistrement
-      * Créer un programme
-      * Créer un portfolio
-      * Créer le groupe
+     * Création de plusieurs projets
+     * Créer un seul projet
+     * Créer un projet
+     * Créer un enregistrement
+     * Créer un programme
+     * Créer un portfolio
+     * Créer le groupe
 
      >[!TIP]
      >
@@ -223,52 +230,52 @@ Sélectionnez l’une des actions suivantes :
 1. (Conditionnel) Selon l’action sélectionnée, mettez à jour les champs suivants :
 
    * **Créer un seul projet** : <!--replace to the left: Create a single project-->
-      * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
-      * **Modèle de projet** : sélectionnez un modèle de projet que Workfront utilisera pour créer le projet.
+     * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
+     * **Modèle de projet** : sélectionnez un modèle de projet que Workfront utilisera pour créer le projet.
 
    * **Créer plusieurs projets** :
-      * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
-      * **Champ dont les choix créeront les enregistrements** : choisissez un champ à sélection multiple ou à sélection unique parmi le type d’enregistrement sélectionné. Workfront crée un projet pour chaque choix de champ actuellement sélectionné dans l’enregistrement à partir duquel vous déclenchez l’automatisation.
+     * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
+     * **Champ dont les choix créeront les enregistrements** : choisissez un champ à sélection multiple ou à sélection unique parmi le type d’enregistrement sélectionné. Workfront crée un projet pour chaque choix de champ actuellement sélectionné dans l’enregistrement à partir duquel vous déclenchez l’automatisation.
 
      >[!TIP]
      >
      >Un projet est créé uniquement pour les options actuellement sélectionnées sur le champ à sélection multiple ou unique de l’enregistrement à partir duquel vous exécutez l’automatisation, et pas pour tous les choix possibles pour ce champ.
      >
 
-      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si l’option est désélectionnée, sélectionnez un **modèle de projet** pour chaque choix de champ.
-      * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
+     * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si l’option est désélectionnée, sélectionnez un **modèle de projet** pour chaque choix de champ.
+     * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
 
    * **Créer un portefeuille** :
-      * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
-      * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
+     * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
+     * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
    * **Créer un programme** :
-      * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
-      * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
-      * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
+     * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
+     * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
+     * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un groupe** :
-      * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
-      * **Formulaire personnalisé à joindre au nouveau groupe** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
+     * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
+     * **Formulaire personnalisé à joindre au nouveau groupe** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un enregistrement** :
-      * **Type d’enregistrement** : sélectionnez le type d’enregistrement à créer.
+     * **Type d’enregistrement** : sélectionnez le type d’enregistrement à créer.
 
-        La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants de la sous-section **Paramètres** :
+       La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants de la sous-section **Paramètres** :
 
-         * **Champ sur le type d’enregistrement connecté où l’enregistrement actif s’affichera** : il s’agit du champ connecté sur le type d’enregistrement sélectionné pour l’action où l’enregistrement actif s’affichera.
+       * **Champ sur le type d’enregistrement connecté où l’enregistrement actif s’affichera** : il s’agit du champ connecté sur le type d’enregistrement sélectionné pour l’action où l’enregistrement actif s’affichera.
 
-        Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
+       Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
 
-        Champ obligatoire.
+       Champ obligatoire.
 
-        <!--submitted a change in functionality and UI text for this - revise??-->
-Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
 
-         * **Transférer depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
-         * **Transférer vers** : sélectionnez des champs du nouvel enregistrement qui seront renseignés avec les informations de l’enregistrement à partir duquel vous exécutez l’automatisation.
+       * **Transférer depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
+       * **Transférer vers** : sélectionnez des champs du nouvel enregistrement qui seront renseignés avec les informations de l’enregistrement à partir duquel vous exécutez l’automatisation.
 
-        >[!TIP]
-        >
-        >* Les types de champ du type d’enregistrement d’origine doivent correspondre aux types de champ du type d’enregistrement nouvellement créé.
-        >* Si vous choisissez aucun champ, les noms des nouveaux enregistrements seront **Enregistrement sans titre**.
+       >[!TIP]
+       >
+       >* Les types de champ du type d’enregistrement d’origine doivent correspondre aux types de champ du type d’enregistrement nouvellement créé.
+       >* Si vous choisissez aucun champ, les noms des nouveaux enregistrements seront **Enregistrement sans titre**.
 
 1. (Facultatif et conditionnel) Si vous avez choisi de créer un enregistrement, cliquez sur **Ajouter des champs** pour mapper des champs de recherche supplémentaires d’un enregistrement à un autre.
 1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ **Type d’enregistrement**, cliquez sur **Ajouter un champ connecté**.
@@ -282,8 +289,8 @@ Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
 
      Par exemple, si vous configurez une automatisation pour les campagnes afin de créer automatiquement un autre type d’enregistrement appelé Marques et que vous cliquez sur **Ajouter un champ connecté**, les champs suivants sont créés :
 
-      * Le champ de connexion **Enregistrement connecté** est créé pour le type d’enregistrement **Marques**.
-      * Le champ de connexion **Marques** est créé pour le type d’enregistrement **Campagnes**.
+     * Le champ de connexion **Enregistrement connecté** est créé pour le type d’enregistrement **Marques**.
+     * Le champ de connexion **Marques** est créé pour le type d’enregistrement **Campagnes**.
 
 1. (Facultatif) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et l’objet Workfront sélectionné dans la zone Actions, cliquez sur **Ajouter un champ connecté**.
 
@@ -319,8 +326,8 @@ Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
 
    * Pour une automatisation par clic sur un bouton, cliquez sur **Modifier** pour mettre à jour les informations suivantes :
 
-      * Le nom de l&#39;automatisation, en cliquant sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;automatisation, puis **Modifier**.
-      * Tout champ de l’automatisation, à l’exception du champ **Actions**.
+     * Le nom de l&#39;automatisation, en cliquant sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;automatisation, puis **Modifier**.
+     * Tout champ de l’automatisation, à l’exception du champ **Actions**.
 
      >[!TIP]
      >

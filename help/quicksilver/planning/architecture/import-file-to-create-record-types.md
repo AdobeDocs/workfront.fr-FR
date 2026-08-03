@@ -9,20 +9,14 @@ exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ydcYvw38Xrlh0QQz0FSI4RBsewDKL2r2Yf1m0tl83jc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 859
 ht-degree: 31%
 
 ---
@@ -52,19 +46,29 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
     <tr> 
 <tr> 
 </tr>   
-<tr> 
+tr&gt; 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p>
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
-<p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations d’un espace de travail</p>  
@@ -124,7 +128,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -146,20 +150,20 @@ Old:
 * Les champs sont uniques pour leur type d’enregistrement respectif.
 * Chaque ligne de chaque feuille devient un enregistrement unique associé à son type d’enregistrement respectif.
 * Chaque feuille du fichier Excel ne doit pas dépasser les dimensions suivantes :
-   * 25 000 lignes
-   * 500 colonnes
+  * 25 000 lignes
+  * 500 colonnes
 * La taille du fichier ne doit pas dépasser 5 Mo.
 * Les feuilles vides ne sont pas prises en charge.
 * Les champs des types suivants ne sont pas pris en charge et ne peuvent pas être mappés aux champs de la feuille d’importation :
 
-   * Champs de connexion à Workfront, aux types d’objets Adobe Experience Manager ou aux marques GenStudio.
-   * Champs de recherche des enregistrements Planning connectés, des objets Workfront, Adobe Experience Manager ou des marques GenStudio.
-   * Champs de formule
-   * Date de création, Créé par
-   * Date de dernière modification, Dernière modification par
-   * Date d’approbation, Approuvé par
-   * Personnes
-   * ID de l’enregistrement
+  * Champs de connexion à Workfront, aux types d’objets Adobe Experience Manager ou aux marques GenStudio.
+  * Champs de recherche des enregistrements Planning connectés, des objets Workfront, Adobe Experience Manager ou des marques GenStudio.
+  * Champs de formule
+  * Date de création, Créé par
+  * Date de dernière modification, Dernière modification par
+  * Date d’approbation, Approuvé par
+  * Personnes
+  * ID de l’enregistrement
 
 Pour importer des types d&#39;enregistrements à l&#39;aide d&#39;un fichier Excel ou CSV :
 

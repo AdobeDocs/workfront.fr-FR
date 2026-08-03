@@ -9,19 +9,14 @@ exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-QH0K-HG7X7i6xwKxrBkXQzUbefI2-HI1RliZJMCIDU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 4%
 
 ---
@@ -59,19 +54,24 @@ Vous pouvez afficher les enregistrements Workfront Planning dans Workfront dans 
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p>
-<p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<p>Tout Workfront ou workflow avec un package Planning</p>
+Ou
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td>
-   <td> <p>Accès en affichage ou supérieur aux projets, programmes et portefeuilles</p>  
-   <p>Il n'existe aucune configuration de niveau d'accès pour Workfront Planning. </p>
+   <td><p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p> 
+   <p>Accès en affichage ou supérieur aux projets, programmes et portefeuilles</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +185,8 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 
   Pour plus d’informations, voir les articles suivants :
 
-   * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+  * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 * Vous pouvez afficher la section Planning à partir d&#39;un objet Workfront, même si aucun enregistrement n&#39;est associé à l&#39;objet Workfront.
 * Un type d&#39;enregistrement ne s&#39;affiche dans la zone Planning d&#39;un objet Workfront que lorsque vous activez le champ Créer correspondant dans le paramètre de type d&#39;enregistrement lié lors de la création de la connexion entre deux types d&#39;enregistrement.
 
@@ -218,9 +218,9 @@ La page de l’objet s’ouvre dans Workfront.
    La section Planification s’affiche avec les informations suivantes :
 
    * Les enregistrements connectés s’affichent sur des cartes individuelles contenant les informations suivantes :
-      * Nom de l’enregistrement
-      * La miniature de l’enregistrement
-      * Nom du champ d’enregistrement connecté tel qu’il s’affiche dans Workfront Planning.
+     * Nom de l’enregistrement
+     * La miniature de l’enregistrement
+     * Nom du champ d’enregistrement connecté tel qu’il s’affiche dans Workfront Planning.
    * Les enregistrements s’affichent dans leur espace de travail et leur type d’enregistrement respectifs.
 
    ![Section Planification du projet](assets/planning-section-on-project.png)
@@ -230,7 +230,7 @@ La page de l’objet s’ouvre dans Workfront.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
 1. (Facultatif) Pointez sur une carte d’enregistrement, puis cliquez sur l’icône Déconnecter l’enregistrement **-**, puis sur **Déconnecter**.
-Les événements suivants se produisent :
+Voici ce qui se produit :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement dans Workfront Planning.
    * Les valeurs des champs de recherche Workfront liés à l&#39;enregistrement Planning sont également supprimées.
@@ -253,11 +253,11 @@ Vous pouvez contrôler quels types d&#39;enregistrements Planning s&#39;affichen
 
 * Le champ de connexion Planning affiche les enregistrements Planning après l&#39;établissement d&#39;une connexion et lorsque le champ est joint à des formulaires pour les objets Workfront suivants :
 
-   * Projet
-   * Portfolio
-   * Programme
-   * Groupe
-   * Entreprise
+  * Projet
+  * Portfolio
+  * Programme
+  * Groupe
+  * Entreprise
 
 Pour plus d’informations, voir [Créer un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -267,8 +267,8 @@ Tenez compte des points suivants lorsque vous affichez les enregistrements Workf
 
 * Un champ de connexion Planning s’affiche de la manière suivante sur le formulaire personnalisé d’un objet Workfront, une fois les enregistrements Planning connectés à l’objet Workfront :
 
-   * Si seul le champ principal de l&#39;enregistrement connecté est sélectionné, le champ de connexion Planning s&#39;affiche sous la forme d&#39;un champ à plusieurs valeurs, si la connexion permet de lier plusieurs enregistrements. Pour plus d’informations, voir [Présentation des types d’enregistrements Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * Si votre administrateur Workfront ou de groupe a ajouté des champs de recherche supplémentaires à partir de l’enregistrement connecté dans le formulaire personnalisé, le champ de connexion Planning s’affiche sous la forme d’une table. Vous pouvez sélectionner jusqu&#39;à 7 champs pour le champ de connexion Planification . La vue Tableau est en lecture seule.
+  * Si seul le champ principal de l&#39;enregistrement connecté est sélectionné, le champ de connexion Planning s&#39;affiche sous la forme d&#39;un champ à plusieurs valeurs, si la connexion permet de lier plusieurs enregistrements. Pour plus d’informations, voir [Présentation des types d’enregistrements Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+  * Si votre administrateur Workfront ou de groupe a ajouté des champs de recherche supplémentaires à partir de l’enregistrement connecté dans le formulaire personnalisé, le champ de connexion Planning s’affiche sous la forme d’une table. Vous pouvez sélectionner jusqu&#39;à 7 champs pour le champ de connexion Planification . La vue Tableau est en lecture seule.
 
 * Vous ne pouvez associer qu&#39;un seul type d&#39;enregistrement à un champ de connexion Planning. Le nombre de champs de connexion Planning d’un formulaire n’est pas limité.
 * Vous devez disposer des droits d&#39;accès et des autorisations appropriés sur l&#39;objet, l&#39;enregistrement et Workfront Planning pour joindre un formulaire personnalisé avec un champ personnalisé de connexion Planning à un objet Workfront.
