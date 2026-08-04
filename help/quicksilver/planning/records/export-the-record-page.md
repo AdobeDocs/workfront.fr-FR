@@ -9,19 +9,14 @@ exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 9%
+source-wordcount: 407
+ht-degree: 10%
 
 ---
 
@@ -64,7 +59,7 @@ Ou
    <td role="rowheader"><p>Licence Adobe Planning</p></td> 
    <td><p>Planning Contributor ou version ultérieure</p>
    <p><b>NOTE</b></p>
-   <p>Tous les clients ne disposent pas d'une licence de contributeur Planning</p>
+   <p>Tous les clients ne disposent pas de licences Planning Contributor</p>
    </td> 
   </tr> 
   <tr> 
@@ -168,7 +163,7 @@ Old:
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Dans n’importe quel affichage, cliquez sur le nom d’un enregistrement.
@@ -182,7 +177,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * **&#x200B;**
+   * ****
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 
