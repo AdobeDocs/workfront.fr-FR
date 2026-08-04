@@ -24,7 +24,7 @@ Cet article s’adresse aux administrateurs Workfront qui se préparent à dépl
 >[!IMPORTANT]
 >
 >* Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
->* Le passage à une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud déplace *tous* les workflows d’approbation existants des approbations de documents héritées vers les approbations unifiées. Pour plus d’informations](#unified-approvals-applies-regardless-of-storage-model) voir [ Les approbations unifiées s’appliquent quel que soit le modèle de stockage.
+>* Le passage à une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud déplace *tous* les workflows d’approbation existants des approbations de documents héritées vers les approbations unifiées. Pour plus d’informations[&#128279;](#unified-approvals-applies-regardless-of-storage-model) voir  Les approbations unifiées s’appliquent quel que soit le modèle de stockage.
 
 ## Les approbations unifiées s’appliquent quel que soit le modèle de stockage
 
