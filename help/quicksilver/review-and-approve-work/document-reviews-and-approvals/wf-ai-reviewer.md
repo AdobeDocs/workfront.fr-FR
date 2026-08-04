@@ -10,20 +10,14 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +37,7 @@ Tout utilisateur peut ajouter le réviseur de contenu à une demande de révisio
 
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
 * Votre organisation doit disposer de GenStudio Foundation.
-   * Content Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès à la fonctionnalité GenStudio Foundation par l’intermédiaire de l’analyseur de contenu est soumis aux conditions de votre contrat Workfront.
+  * Content Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès à la fonctionnalité GenStudio Foundation par l’intermédiaire de l’analyseur de contenu est soumis aux conditions de votre contrat Workfront.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 * Le réviseur de contenu n’est pas disponible dans les environnements Sandbox.
@@ -83,12 +77,46 @@ Pour configurer les directives de la marque, les administrateurs système doiven
 Une fois qu’au moins une marque est configurée, les administrateurs Workfront peuvent commencer à créer des réviseurs de contenu dans la zone Configuration . Vous pouvez créer plusieurs réviseurs de contenu axés sur différents conseils :
 
 * **Image** : ce réviseur de contenu examinera la ressource par rapport aux directives de marque d’image que vous avez configurées dans Workfront. [!BADGE Beta]{type=Positive tooltip="Cette fonctionnalité est actuellement en version bêta."}
-   * Les administrateurs système doivent signer l’accord bêta pour activer cette fonctionnalité.
+  * Les administrateurs système doivent signer l’accord bêta pour activer cette fonctionnalité.
 * **Brand Voice** : le réviseur de contenu examine la ressource en fonction des directives relatives à la voix de marque que vous avez configurées dans Workfront.
 
 Les réviseurs de contenu peuvent ensuite être affectés à des modèles d’approbation et à des demandes individuelles de révision et d’approbation.
 
 Pour plus d’informations, voir [Configuration des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Ce que le réviseur de contenu évalue {#what-content-reviewer-evaluates}
+
+Le réviseur de contenu évalue le contenu différemment selon le type de consigne : image ou voix de marque.
+
+### Image
+
+Le réviseur de contenu évalue :
+
+* **Composition** : Point focal, arrière-plan, recadrage, cadrage créatif
+* **Éclairage et humeur** : Utilisation de la lumière, de la vitalité, de l&#39;optimisme
+* **Diversité et inclusion** : représentation des personnes (race, sexe, âge, capacité)
+
+Le réviseur de contenu n’évalue pas :
+
+* **Utilisation du logo** : emplacement, espace libre, dimensionnement, version correcte du logo
+* **Palette de couleurs** : conformité des couleurs de la marque, évitement des couleurs non approuvées
+* **Typographie** : famille de polices, poids, espacement, alignement
+* **Style d’illustration** : cohérence avec l’approche d’illustration de la marque
+* **Accessibilité** : conformité du contraste, lisibilité
+
+### Voix de marque
+
+Le réviseur de contenu évalue :
+
+* **Ton de la voix** : Conversationnel, clair, humain, aligné avec la personnalité de la marque
+* **Jargon/formalité** : évitement des mots à la mode, de l’élitisme ou d’une formalité excessive
+* **Message** : Encouragement, honnêteté, positionnement responsable (par exemple, pour les sujets liés à l’IA)
+
+Le réviseur de contenu n’évalue pas :
+
+* **Juridique/conformité** : utilisation des marques, clauses de non-responsabilité, règles de localisation
+
+Pour obtenir des conseils sur la rédaction de directives de marque qui s’alignent sur les évaluations du réviseur de contenu, voir [Créer et gérer des marques pour le réviseur de contenu](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Ajout de réviseurs de contenu aux demandes de révision et d’approbation
 
