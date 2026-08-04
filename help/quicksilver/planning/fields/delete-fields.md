@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 28%
+source-wordcount: 708
+ht-degree: 27%
 
 ---
 
@@ -60,23 +60,33 @@ Vous pouvez supprimer les champs Workfront Planning qui ne sont plus pertinents
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
-<li><p>Tout workflow et tout package Planning</p></li></ul>
+<li><p>Tout package Planning lorsqu’il est acheté en tant que package autonome</p></li></ul>
 
 <p>Pour supprimer des champs des types d’enregistrements globaux :</p>
 <ul><li><p>Tout package Workfront et un package Planning Plus</p></li>
 Ou
-<li><p>Tous les packages Prime et Ultimate de workflow et de planification</p></li></ul>
-
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<li><p>Tous les packages Prime et Ultimate de workflow et de planification</p></li>
+Ou
+<li>Tout package Planning Principal et Ultimate lorsqu’il est acheté en tant que produit autonome</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations d’un espace de travail</p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  </td> 
@@ -136,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +167,9 @@ Old:
 
   Par exemple, lorsque vous connectez des campagnes à un autre type d’enregistrement appelé Produit et que vous supprimez le champ Produit connecté et le champ de recherche Statut du produit de la campagne, les éléments suivants sont supprimés :
 
-   * Le champ Produit connecté de la campagne
-   * Le champ de recherche Statut du produit de la campagne
-   * Le champ connecté à Campaign à partir du produit
+  * Le champ Produit connecté de la campagne
+  * Le champ de recherche Statut du produit de la campagne
+  * Le champ connecté à Campaign à partir du produit
 
   Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 

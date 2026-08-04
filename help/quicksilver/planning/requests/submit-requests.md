@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 3%
 
 ---
@@ -65,17 +65,26 @@ Pour plus d’informations sur la manière dont un gestionnaire d’espace de tr
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package de Workfront ou de workflow</p>
-<p>Tout package Workfront Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.</p>
-   </td> </tr>
-  </tr> 
+<p>Tout Workfront ou workflow avec un package Planning</p> 
+Ou
+<p>Toute planification Workfront lors de l’achat en tant que produit autonome</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Tous</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Tous</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -94,21 +103,21 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 * Les éléments suivants doivent exister dans Workfront Planning :
 
-   * Un espace de travail
-   * Un type d’enregistrement
-   * Formulaire de demande associé à un type d’enregistrement.
+  * Un espace de travail
+  * Un type d’enregistrement
+  * Formulaire de demande associé à un type d’enregistrement.
 
-     Pour plus d’informations, voir [Création d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Pour plus d’informations, voir [Création d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 * Le formulaire de demande doit être partagé d&#39;une manière accessible. Les scénarios suivants sont possibles :
 
-   * En interne, le formulaire doit être partagé avec les utilisateurs qui disposent d’autorisations d’affichage ou supérieures dans l’espace de travail.
+  * En interne, le formulaire doit être partagé avec les utilisateurs qui disposent d’autorisations d’affichage ou supérieures dans l’espace de travail.
 
-     Les utilisateurs de Workfront peuvent accéder au formulaire à partir d’un lien ou le trouver dans la zone des Demandes de Workfront.
+    Les utilisateurs de Workfront peuvent accéder au formulaire à partir d’un lien ou le trouver dans la zone des Demandes de Workfront.
 
-   * En externe, en partageant un lien vers le formulaire d’enregistrement avec des personnes externes qui ne disposent pas d’un compte Workfront.
+  * En externe, en partageant un lien vers le formulaire d’enregistrement avec des personnes externes qui ne disposent pas d’un compte Workfront.
 
-     Les utilisateurs de Workfront peuvent également accéder au lien partagé avec des personnes externes.
+    Les utilisateurs de Workfront peuvent également accéder au lien partagé avec des personnes externes.
 
 * S’il est partagé avec un lien, le lien vers le formulaire ne doit pas expirer.
 
@@ -121,9 +130,9 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
   Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 * Les enregistrements créés par l’envoi de formulaires de demande sont connectés à la demande d’origine. Impossible de supprimer cette connexion.
 * Vous pouvez afficher à la fois les enregistrements créés et les requêtes utilisées pour les créer dans les zones suivantes :
-   * Zone des requêtes dans Workfront.
-   * Dans un champ connecté d’une page de type d’enregistrement dans Workfront Planning, lorsque vous ajoutez la requête en tant qu’enregistrement connecté.
-   * Dans un champ connecté de la zone Détails d’un enregistrement dans Workfront Planning lorsque vous ajoutez la requête en tant qu’enregistrement connecté.
+  * Zone des requêtes dans Workfront.
+  * Dans un champ connecté d’une page de type d’enregistrement dans Workfront Planning, lorsque vous ajoutez la requête en tant qu’enregistrement connecté.
+  * Dans un champ connecté de la zone Détails d’un enregistrement dans Workfront Planning lorsque vous ajoutez la requête en tant qu’enregistrement connecté.
 
   >[!TIP]
   >
@@ -188,12 +197,12 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
      Les champs suivants affichent les informations de demande et d’enregistrement dans la zone des Demandes et le widget Mes demandes dans l’Accueil :
 
-      * **Objet** : nom de la demande d’origine tel qu’il a été ajouté dans la zone des Demandes. Vous ne pouvez pas masquer ni supprimer le champ **Objet** de la liste des demandes. Le nom comporte un lien qui ouvre la page de requête dans Planning.
-      * **Objet créé** : nom de l&#39;enregistrement créé à partir de la demande tel qu&#39;il s&#39;affiche dans Planning. Le nom de l’objet Créé comporte un lien qui ouvre l’enregistrement créé à partir de la requête.
-      * **Type d&#39;objet** : nom de l&#39;espace de travail et type d&#39;enregistrement dans lequel des enregistrements ont été créés à partir de la demande dans Planning.
-      * **Statut** : statut de l’objet de la requête. Pour plus d’informations sur les statuts des demandes, voir [Afficher les demandes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-      * **Formulaire de demande** : nom du formulaire de demande associé au type d&#39;enregistrement dans Planning.
-      * **Statut de l’objet créé** : le statut de l’enregistrement créé.
+     * **Objet** : nom de la demande d’origine tel qu’il a été ajouté dans la zone des Demandes. Vous ne pouvez pas masquer ni supprimer le champ **Objet** de la liste des demandes. Le nom comporte un lien qui ouvre la page de requête dans Planning.
+     * **Objet créé** : nom de l&#39;enregistrement créé à partir de la demande tel qu&#39;il s&#39;affiche dans Planning. Le nom de l’objet Créé comporte un lien qui ouvre l’enregistrement créé à partir de la requête.
+     * **Type d&#39;objet** : nom de l&#39;espace de travail et type d&#39;enregistrement dans lequel des enregistrements ont été créés à partir de la demande dans Planning.
+     * **Statut** : statut de l’objet de la requête. Pour plus d’informations sur les statuts des demandes, voir [Afficher les demandes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+     * **Formulaire de demande** : nom du formulaire de demande associé au type d&#39;enregistrement dans Planning.
+     * **Statut de l’objet créé** : le statut de l’enregistrement créé.
 
    * Si le formulaire de demande a été associé à une approbation, la demande est ajoutée à la liste des Demandes dans la zone des Demandes Workfront et au widget Mes Demandes avec le statut **En attente de révision**. Un nouvel enregistrement n&#39;est ajouté à la page de type d&#39;enregistrement qu&#39;une fois que les approbateurs l&#39;ont approuvé.
 

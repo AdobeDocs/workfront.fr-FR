@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 509
-ht-degree: 20%
+source-wordcount: 510
+ht-degree: 17%
 
 ---
 
@@ -56,14 +56,26 @@ Vous pouvez dupliquer un enregistrement existant dans la vue Tableau. Une copie 
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+Ou
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et gérer les autorisations d’un enregistrement </p>
@@ -124,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -150,8 +162,8 @@ Vous pouvez créer des enregistrements dans la vue Tableau d&#39;une page de typ
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
-Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
+   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
+   Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) Sélectionnez une vue de tableau.
 

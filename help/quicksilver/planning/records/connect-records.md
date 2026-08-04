@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 3723
-ht-degree: 27%
+source-wordcount: 3643
+ht-degree: 26%
 
 ---
 
@@ -59,27 +59,27 @@ Vous pouvez connecter les éléments suivants :
 
   Vous pouvez connecter des enregistrements avec des objets des types répertoriés ci-dessous à partir des applications suivantes :
 
-   * Adobe Workfront
+  * Adobe Workfront
 
-      * Projets
-      * Portefeuilles
-      * Programmes
-      * Entreprises
-      * Groupes
+    * Projets
+    * Portefeuilles
+    * Programmes
+    * Entreprises
+    * Groupes
 
-   * Adobe Experience Manager
+  * Adobe Experience Manager
 
-      * Ressources
+    * Ressources
 
-        Vous pouvez connecter les types de ressources suivants à partir de Workfront Planning :
+      Vous pouvez connecter les types de ressources suivants à partir de Workfront Planning :
 
-         * Fichiers d’images
-         * Dossiers
-      * Fragments de contenu
+      * Fichiers d’images
+      * Dossiers
+    * Fragments de contenu
 
 * Adobe GenStudio for Performance Marketing
 
-   * Marques
+  * Marques
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -112,17 +112,26 @@ Vous pouvez connecter les éléments suivants :
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing pour connecter les types d’enregistrements aux marques GenStudio ou pour avoir accès à l’espace de travail GenStudio</p>
    <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
+<p><b>NOTE</b></p>
+<p>Vous devez acheter un package de workflow Workfront pour connecter les enregistrements Planning aux objets Workfront. </p>
+
+</td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
-   <tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p> 
    <p>Accédez à l’affichage ou à un accès supérieur pour les types d’objets dont vous souhaitez vous connecter aux objets dans Workfront et AEM Assets. </p>  
 </td> 
   </tr>
@@ -214,15 +223,15 @@ Old:
 
 * Pour connecter des enregistrements à d&#39;autres enregistrements ou objets, vous devez disposer des éléments suivants :
 
-   * Au moins un espace de travail, un type d’enregistrement et un enregistrement
+  * Au moins un espace de travail, un type d’enregistrement et un enregistrement
 
-     Pour plus d’informations, consultez les articles suivants :
+    Pour plus d’informations, consultez les articles suivants :
 
-      * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
+    * [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
 
-   * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * Connexions entre types d’enregistrement ou entre types d’enregistrement et objets d’autres applications. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * Vous pouvez connecter un ou plusieurs enregistrements ou objets les uns aux autres. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement ou d&#39;objet. Pour plus d’informations, voir [Présentation des types d’enregistrements Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -305,7 +314,7 @@ Vous pouvez connecter des enregistrements de Workfront Planning dans les zones s
    >
    >* Les informations du champ de date des objets Workfront s’affichent au format 24 heures dans Workfront Planning, quelle que soit la manière dont elles s’affichent dans Workfront.
    >
-   >   Par exemple, si la date de début prévue d’un projet s’affiche à 15 :00 dans Workfront, elle s’affiche à 15 :00 dans Workfront Planning dans un champ de recherche importé.
+   >   Par exemple, si la date de début prévue d’un projet s’affiche à 15 h dans Workfront, elle s’affiche à 15 h dans Workfront Planning dans un champ de recherche importé.
 
 1. (Facultatif) Fermez la page du type enregistrement et accédez à l’espace de travail que vous avez sélectionné.
 1. Cliquez sur la carte correspondant au type d’enregistrement que vous avez lié.
@@ -468,7 +477,7 @@ Pour connecter des enregistrements à des objets Adobe Experience Manager :
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
+   > Vous pouvez connecter uniquement les ressources que vous êtes autorisé à afficher dans Experience Manager. Une fois la connexion établie, tous les utilisateurs de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
    > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Dans l’onglet **Fragments de contenu**, sélectionnez les fragments de contenu à ajouter au champ d’enregistrement lié.
@@ -602,14 +611,14 @@ Vous devez disposer des éléments suivants pour connecter les enregistrements W
 * Connexions entre les types d&#39;enregistrements et les types d&#39;objets Workfront établis dans Workfront Planning.
 * Votre administrateur Workfront ou de groupe doit ajouter l’un des éléments suivants à un type d’objet Workfront :
 
-   * La section Planification des projets, portfolios et programmes Workfront dans votre modèle de mise en page.
+  * La section Planification des projets, portfolios et programmes Workfront dans votre modèle de mise en page.
 
-   * Le champ personnalisé Planification se connecte à un formulaire personnalisé pour l&#39;un des objets suivants :
+  * Le champ personnalisé Planification se connecte à un formulaire personnalisé pour l&#39;un des objets suivants :
 
-      * Projet
-      * Portfolio
-      * Programme
-      * Groupe
-      * Entreprise
+    * Projet
+    * Portfolio
+    * Programme
+    * Groupe
+    * Entreprise
 
   Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

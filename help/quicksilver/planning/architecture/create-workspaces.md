@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 16%
 
 ---
@@ -60,16 +60,28 @@ Pour obtenir des informations générales sur les espaces de travail, voir [Pré
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package de Workfront ou de workflow</p> 
-<p>Tout package Workfront Planning</p>
+<p>Tout package Workfront ou Workflow avec un package Planning</p> 
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
+
+<p><b>NOTE</b></p>
 <p>Un package Workfront Planning Prime ou version ultérieure pour créer plusieurs espaces de travail à la fois</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
    <p>L’administrateur système peut créer plusieurs espaces de travail à la fois à l’aide du lot de modèles de bonnes pratiques</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -131,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -261,35 +273,35 @@ Les modèles inclus dans l&#39;offre groupée contiennent des espaces de travail
 
    * Cliquez sur **Créer un espace de travail**, puis procédez comme suit :
 
-      1. La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
+     1. La zone Créer un espace de travail s’affiche. Vous pouvez créer un espace de travail à partir de zéro ou à l’aide de l’un des modèles disponibles.
 
-      1. Cliquez sur **Vérifier la configuration de l’espace de travail** dans la zone **Commencer ici (recommandé)**.
-      1. (Facultatif) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants pour ouvrir la zone Aperçu pour chaque modèle :
+     1. Cliquez sur **Vérifier la configuration de l’espace de travail** dans la zone **Commencer ici (recommandé)**.
+     1. (Facultatif) Cliquez sur **Aperçu** dans l’un des modèles d’espace de travail prédéfinis suivants pour ouvrir la zone Aperçu pour chaque modèle :
 
-         * 1.Classifications et taxonomies globales
+        * 1.Classifications et taxonomies globales
 
-           Le modèle Classifications et taxonomies globales comprend tous les types d’enregistrements et champs que nous vous recommandons de créer dans votre environnement pour une implémentation réussie de Workfront Planning.
+          Le modèle Classifications et taxonomies globales comprend tous les types d’enregistrements et champs que nous vous recommandons de créer dans votre environnement pour une implémentation réussie de Workfront Planning.
 
-           Vous pouvez ensuite lier ou importer les types d’enregistrements de ce modèle dans d’autres espaces de travail que vous créez.
-         * 2.Fréscopa Global Marketing
-         * 3.Fréscopa Social Marketing
-         * 4.Fréscopa Media &amp; PR
-         * 5.Événements globaux Fréscopa
-         * 6.Fréscopa Direction d&#39;entreprise
+          Vous pouvez ensuite lier ou importer les types d’enregistrements de ce modèle dans d’autres espaces de travail que vous créez.
+        * 2.Fréscopa Global Marketing
+        * 3.Fréscopa Social Marketing
+        * 4.Fréscopa Media &amp; PR
+        * 5.Événements globaux Fréscopa
+        * 6.Fréscopa Direction d&#39;entreprise
 
-      1. Après avoir ouvert la zone **Aperçu** pour chaque modèle d’espace de travail, cliquez sur **Précédent** pour revenir à la zone **Créer un espace de travail** ou cliquez sur **Utiliser des modèles** pour utiliser les modèles, y compris dans le lot, et créer des espaces de travail.
+     1. Après avoir ouvert la zone **Aperçu** pour chaque modèle d’espace de travail, cliquez sur **Précédent** pour revenir à la zone **Créer un espace de travail** ou cliquez sur **Utiliser des modèles** pour utiliser les modèles, y compris dans le lot, et créer des espaces de travail.
 
 
    * Cliquez sur l’onglet **Exemples d’espaces de travail**, puis procédez comme suit :
 
-      1. Cliquez sur l’un des modèles d’espace de travail de l’onglet pour passer en revue les types d’enregistrements et les champs de chaque modèle. Les modèles de l’onglet **Exemples d’espaces de travail** sont en lecture seule.
-      1. Cliquez sur **Créer à partir de modèles** dans le coin supérieur droit d’un modèle.
-      1. (Facultatif) Cliquez sur **Aperçu** sur n’importe quel modèle pour afficher les types d’enregistrements et leurs champs.
+     1. Cliquez sur l’un des modèles d’espace de travail de l’onglet pour passer en revue les types d’enregistrements et les champs de chaque modèle. Les modèles de l’onglet **Exemples d’espaces de travail** sont en lecture seule.
+     1. Cliquez sur **Créer à partir de modèles** dans le coin supérieur droit d’un modèle.
+     1. (Facultatif) Cliquez sur **Aperçu** sur n’importe quel modèle pour afficher les types d’enregistrements et leurs champs.
 
-         >[!TIP]
-         >
-         >Cliquez sur une carte de type d’enregistrement dans un modèle pour afficher les champs de type d’enregistrement dans le panneau de droite.
-      1. Cliquez sur **Utiliser des modèles**.
+        >[!TIP]
+        >
+        >Cliquez sur une carte de type d’enregistrement dans un modèle pour afficher les champs de type d’enregistrement dans le panneau de droite.
+     1. Cliquez sur **Utiliser des modèles**.
 
    Les 6 espaces de travail sont créés et s’affichent dans les onglets **Je suis** et **Tous les espaces de travail** pour les administrateurs système. Tous les utilisateurs disposant d’une licence standard verront les espaces de travail dans leur zone Espaces de travail une fois qu’un administrateur système les aura créés et qu’il aura partagé les nouveaux espaces de travail avec eux.
 

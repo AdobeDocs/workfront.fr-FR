@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 899
-ht-degree: 51%
+source-wordcount: 931
+ht-degree: 49%
 
 ---
 
@@ -57,13 +57,28 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
+<p>Tout Workfront ou workflow avec un package Planning</p> 
+Ou
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Contributeur ou supérieur</p>
+   <td><p>Workflow léger ou supérieur</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Planning</p></td> 
+   <td><p>Planning Contributor ou version ultérieure</p>
+
+<p><b>NOTE</b></p>
+   <p> Tous les clients ne disposent pas de la licence de contributeur à Planning</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -125,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

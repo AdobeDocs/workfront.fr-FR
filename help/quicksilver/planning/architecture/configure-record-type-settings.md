@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 10%
+source-wordcount: 445
+ht-degree: 11%
 
 ---
 
@@ -67,30 +67,39 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package Workfront and Planning</p>
-<p>Tout package Workflow et Planning</p>
+<p>Tout Workfront ou workflow avec un package Planning</p>
+Ou 
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
 
 <p><b>NOTE</b></p>
 
 <p>Pour configurer les types d’enregistrements connectables :</p>
 
 <ul> 
-<li><p>Tout package Workfront and Planning</p></li>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
 Ou
-<li><p>Tout package de workflow et un package Planning Prime ou Ultimate</p></li></ul>
+<li>Un package Planning Prime ou Ultimate lorsqu’il est acheté en tant que produit autonome</li>
+</ul>
 
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
 <li><p>Tout package Workfront et un package Planning Plus</p></li>
 Ou
-<li><p>Tout package de workflow et un package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
+<li><p>Tout package de workflow et un package Planning Prime ou Ultimate</p></li>
+Ou
+<li>Un package Planning Prime ou autonome lors de l'achat en tant que produit autonome </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +162,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

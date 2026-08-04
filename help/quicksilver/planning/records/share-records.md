@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 37%
+source-wordcount: 711
+ht-degree: 35%
 
 ---
 
@@ -54,9 +54,9 @@ En outre, vous pouvez partager des enregistrements des manières suivantes :
 
   Pour plus d’informations, voir les articles suivants :
 
-   * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
+  * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
 
 * Vous pouvez partager des enregistrements individuels avec des personnes, des équipes, des rôles, des groupes ou des entreprises en désactivant les autorisations héritées lorsque les enregistrements sont partagés avec des espaces de travail ou des types d&#39;enregistrements.
 
@@ -79,13 +79,28 @@ En outre, vous pouvez partager des enregistrements des manières suivantes :
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+Ou
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> 
   <tr> 
+  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Contributeur ou supérieur</p>
+   <td><p>Contributeur de workflow ou version ultérieure</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Planning Contributor ou version ultérieure</p>
+   <p><b>NOTE</b></p>
+   <p>Tous les clients ne disposent pas d'une licence de contributeur Planning</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -147,7 +162,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

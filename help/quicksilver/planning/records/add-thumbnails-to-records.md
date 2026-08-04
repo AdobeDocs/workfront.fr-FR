@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 820
-ht-degree: 28%
+source-wordcount: 818
+ht-degree: 24%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 28%
 
 Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
 
-Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
-Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Vous devez créer des types d&#39;enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
+Pour plus d’informations, voir [Création de types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -59,14 +59,26 @@ Pour plus d’informations, consultez [Créer des types d’enregistrements](/he
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+Ou
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Accorder des autorisations supérieures ou égales à un espace de travail, un type d’enregistrement et gérer les autorisations d’un enregistrement </p>  
@@ -127,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,9 +165,9 @@ Tenez compte des points suivants :
 * Workfront charge automatiquement une miniature à chaque création d’enregistrement. Vous pouvez modifier cette image ultérieurement.
 * Les miniatures appartiennent aux informations d’enregistrement et s’affichent dans les zones où s’affichent les enregistrements. Par exemple, les miniatures s’affichent avec les informations des enregistrements dans les zones suivantes :
 
-   * Champ principal d’un enregistrement dans la vue de tableau
-   * Barre d’enregistrement dans la vue chronologique.
-   * Aperçu et page des détails de l’enregistrement.
+  * Champ principal d’un enregistrement dans la vue de tableau
+  * Barre d’enregistrement dans la vue chronologique.
+  * Aperçu et page des détails de l’enregistrement.
 
 ## Ajouter une miniature à un enregistrement
 
@@ -245,7 +257,7 @@ Vous pouvez ajouter une miniature des manières suivantes :
 
 1. (Facultatif) Pour supprimer la miniature avant de l’enregistrer, cliquez sur l’icône **Supprimer** ![Icône Supprimer l’image](assets/remove-image-icon.png) à droite de l’image.
 
-1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
+1. Cliquez sur **Utiliser l’image** pour ajouter l’image sous forme de miniature.
 Cette action ferme la boîte de dialogue **Miniature d’enregistrement**.
 La miniature s’affiche dans les zones de Workfront Planning où s’affiche l’enregistrement.
 

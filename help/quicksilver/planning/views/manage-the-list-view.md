@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 1%
+source-wordcount: '1847'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,7 @@ Cet article décrit comment naviguer dans une vue de liste, la créer ou la modi
 
 +++ Développez pour afficher les conditions d’accès requises pour la fonctionnalité de cet article. 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -60,15 +61,29 @@ Cet article décrit comment naviguer dans une vue de liste, la créer ou la modi
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p>
-<p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+Ou
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p> Standard pour créer et supprimer des vues</p>
-   <p>Contributeur ou version ultérieure pour mettre à jour les éléments d’affichage</p>
+   <td><p>Workflow léger ou supérieur</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p> Planning Standard pour créer et supprimer des vues</p>
+   <p>Planning Contributor ou version ultérieure pour mettre à jour les éléments d'affichage</p>
+   <p><b>NOTE</b><p>
+   <p>Tous les clients ne disposent pas de licences Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 

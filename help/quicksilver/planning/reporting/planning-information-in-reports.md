@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 31%
+source-wordcount: '255'
+ht-degree: 30%
 
 ---
 
@@ -19,11 +19,12 @@ Vous pouvez afficher des informations Adobe Workfront Planning dans des rapports
 
 >[!IMPORTANT]
 >
->La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape.La version Beta n’est pas disponible sur les fournisseurs cloud suivants :
+>La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape.
+>La version Beta n’est pas disponible sur les fournisseurs cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
 >* Azure
->* Google Cloud PlatformPour plus d’informations, voir [Gérer les tableaux de bord de la zone de travail : index d’article](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud Platform> pour plus d’informations, voir [Gérer les tableaux de bord de la zone de travail : index des articles](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Conditions d’accès
 
@@ -38,24 +39,33 @@ Vous pouvez afficher des informations Adobe Workfront Planning dans des rapports
 <tr> 
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
-<p>Tout package de Workfront ou de workflow</p>
-<p>N’importe quel package Planning</p>
+<p>Tout Workfront ou workflow avec un package Planning</p>
+<p><b>NOTE</b></p>
+<p>Les rapports ne sont pas disponibles pour les clients qui ont acheté Workfront Planning en tant que produit autonome</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Norme de workflow</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Configurations des niveaux d’accès</p></td> 
    <td><p>Accès en modification aux rapports, aux tableaux de bord et aux calendriers</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
-   <td><p>Afficher les autorisations d’accès à un espace de travail</a> </p>  
+   <td>
+   <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+   <p>Afficher les autorisations d’accès à un espace de travail</a> </p>  
    <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>  
    </td> 
   </tr>  

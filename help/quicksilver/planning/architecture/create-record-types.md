@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1179
+source-wordcount: 1193
 ht-degree: 43%
 
 ---
@@ -61,29 +61,37 @@ Pour plus d’informations sur les types d’enregistrements, voir [Présentatio
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package Workfront and Planning</p>
-<p>Tout package Workflow et Planning</p>
+<p>Tout Workfront ou workflow et un package Planning</p>
+Ou
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
 <p><b>NOTE</b></p>
 <p>Pour configurer les types d’enregistrements connectables : </p>
 <ul> 
-<li><p>Tout package Workfront et tout package Planning</p></li>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
 Ou
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
+<li>Un package Planning Prime ou Ultimate lorsqu’il est acheté en tant que produit autonome</li>
+</ul>
 
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
 <li><p>Tout package Workfront et un package Planning Plus</p></li>
 Ou
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
-
-</td> </tr>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
+Ou 
+<li>Un package Planning Prime ou Ultimate lorsqu’il est acheté en tant que produit autonome</li>
+</ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations d’un espace de travail</p>  
@@ -143,7 +151,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,27 +167,27 @@ Old:
 
 * Vous pouvez créer des types d’enregistrements dans un espace de travail de la manière suivante :
 
-   * Automatiquement :
-      * Lorsque vous créez un espace de travail à l’aide d’un modèle.
+  * Automatiquement :
+    * Lorsque vous créez un espace de travail à l’aide d’un modèle.
 
-        Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Lorsque vous les importez à l’aide d’un fichier CSV ou Excel.
+    * Lorsque vous les importez à l’aide d’un fichier CSV ou Excel.
 
-        Pour plus d’informations, consultez la section [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) dans cet article.
+      Pour plus d’informations, consultez la section [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file) dans cet article.
 
-     >[!TIP]
-     >
-     >Lorsque vous importez un type d’enregistrement à partir d’un fichier CSV ou Excel, vous pouvez également importer des enregistrements et des champs.
+    >[!TIP]
+    >
+    >Lorsque vous importez un type d’enregistrement à partir d’un fichier CSV ou Excel, vous pouvez également importer des enregistrements et des champs.
 
-   * Manuellement :
+  * Manuellement :
 
-      * À partir de zéro.
+    * À partir de zéro.
 
-        Cet article décrit comment créer des types d’enregistrements à partir de zéro.
+      Cet article décrit comment créer des types d’enregistrements à partir de zéro.
 
-      * En les ajoutant depuis un autre espace de travail
-Pour plus d’informations, consultez la section [Créer des types d’enregistrements en ajoutant des types existants à partir d’un autre espace de travail](#create-record-types-by-adding-existing-ones-from-another-workspace) dans cet article.
+    * En les ajoutant depuis un autre espace de travail
+      Pour plus d’informations, consultez la section [Créer des types d’enregistrements en ajoutant des types existants à partir d’un autre espace de travail](#create-record-types-by-adding-existing-ones-from-another-workspace) dans cet article.
 
 
 * Vous pouvez déplacer des types d’enregistrements dans une section et d’une section d’un espace de travail vers une autre. Vous ne pouvez pas déplacer des types d’enregistrements d’un espace de travail vers un autre.
@@ -230,8 +238,8 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
    * Remplacez « Type d’enregistrement sans titre » par le nom de votre futur type d’enregistrement. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Description** : ajoutez des informations supplémentaires sur le type d’enregistrement.
    * Sélectionnez une couleur et une forme pour l’icône associée au type d’enregistrement. Procédez comme suit :
-      * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
-      * Sélectionnez une icône dans la liste ou commencez à saisir son nom dans le champ de recherche pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
+     * Sélectionnez une couleur pour identifier votre nouveau type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement. Le gris est sélectionné par défaut.
+     * Sélectionnez une icône dans la liste ou commencez à saisir son nom dans le champ de recherche pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
 1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres de l’espace de travail croisé** et mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
 
@@ -242,7 +250,7 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
 1. Cliquer sur **Enregistrer**.
 
    La vignette de type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionnés.
-La Description du type d’enregistrement s’affiche sur la carte.
+   La Description du type d’enregistrement s’affiche sur la carte.
 
    ![Carte de type enregistrement avec description](assets/record-type-card-with-description.png)
 

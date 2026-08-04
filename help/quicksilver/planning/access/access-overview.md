@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1002
+source-wordcount: 1001
 ht-degree: 15%
 
 ---
@@ -69,8 +69,8 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    <tr>
    <td role="rowheader"><p>Package Adobe Workfront</p></td>
    <td>
-   <p>Tout package Workfront ou Workflow Planning
-   et tout package Workfront Planning</p>
+   <p>Tout package de Workfront ou de workflow
+   avec tout package Workfront Planning</p>
    <p><b>NOTE</b></p>
    <p>Pour accéder aux types d’enregistrements connectables :</p>
    <ul><li><p>Tout package Workfront et un package Planning</p></li>

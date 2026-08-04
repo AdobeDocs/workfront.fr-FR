@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1055
 ht-degree: 28%
 
 ---
@@ -66,11 +66,21 @@ This article describes how you can share a view with others. For information abo
 <p>Tout Workfront ou workflow avec un package Planning</p> 
 Ou
 <p>Tout package de produit autonome Workfront Planning</p> 
- </tr>
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Norme de workflow</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr>
 
 <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -133,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -174,13 +184,13 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
    * Si vous êtes administrateur système, sélectionnez l’une des options suivantes :
 
-      * **Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut.
-      * **Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.
+     * **Seules les personnes invitées peuvent y accéder** : Vous devez sélectionner les entités dans la boîte de partage et choisir leur accès à l&#39;espace de travail. Il s’agit de la sélection par défaut.
+     * **Tout le monde peut afficher dans le système** : tout le monde dans le système ayant accès à Planning peut afficher l&#39;espace de travail dans sa zone **Espaces de travail** dans Planning.
 
    * (Sous condition) Si vous êtes un responsable d’espace de travail disposant d’une licence Standard, vous pouvez voir l’une des sélections suivantes, mais vous ne pouvez pas la modifier :
 
-      * **Seules les personnes invitées peuvent y accéder**. Il s’agit du paramètre par défaut.
-      * **Tout le monde peut voir**
+     * **Seules les personnes invitées peuvent y accéder**. Il s’agit du paramètre par défaut.
+     * **Tout le monde peut voir**
 
      Vous devez demander à un administrateur système de modifier une autorisation globale pour un espace de travail.
 

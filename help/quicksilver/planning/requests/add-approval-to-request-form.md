@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 5%
+source-wordcount: 950
+ht-degree: 6%
 
 ---
 
@@ -60,21 +60,28 @@ Pour plus d’informations sur la soumission d’une demande à un type d’enre
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package Workfront et tout package Planning</p>
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
-<p>Tout package de workflow et tout package Planning</p>
-
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront.</p>
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Norme de workflow</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérez les autorisations d’un espace de travail et d’un type d’enregistrement</a> </p>  

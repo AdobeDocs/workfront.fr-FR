@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
-ht-degree: 78%
+source-wordcount: 588
+ht-degree: 74%
 
 ---
 
@@ -59,13 +59,26 @@ Le panneau de droite d’un enregistrement affiche les sections suivantes :
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<p>Tout Workfront ou workflow et un package Planning</p> 
+Ou
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Contributeur ou supérieur</p>
+   <td><p>Flux de travail clair ou supérieur</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Planning Contributor ou version ultérieure</p>
+   <p><b>NOTE</b></p>
+   <p>Tous les clients ne disposent pas d'une licence de contributeur Planning</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -128,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +185,29 @@ Vous pouvez passer en revue les modifications apportées aux champs d’enregist
 
 * Workfront Planning enregistre les informations suivantes dans la section Historique :
 
-   * Toute modification de champ
+  * Toute modification de champ
 
-   * Les anciennes et nouvelles valeurs des champs, en cas de modification des valeurs. Les anciennes valeurs apparaissent barrées.
+  * Les anciennes et nouvelles valeurs des champs, en cas de modification des valeurs. Les anciennes valeurs apparaissent barrées.
 
-   * Le nom complet de l’utilisateur ou de l’utilisatrice qui a effectué la modification.
+  * Le nom complet de l’utilisateur ou de l’utilisatrice qui a effectué la modification.
 
-   * La date et l’heure de la modification.
+  * La date et l’heure de la modification.
 
 * Les champs des types suivants affichent toujours l’ancienne valeur (en caractères barrés) et la nouvelle valeur :
 
-   * Texte
-   * Paragraphe
-   * Devise
-   * Date
-   * Nombre
-   * Pourcentage
-   * Sélection unique
+  * Texte
+  * Paragraphe
+  * Devise
+  * Date
+  * Nombre
+  * Pourcentage
+  * Sélection unique
 
 * Si au moins l’une des valeurs multiples a été supprimée, les champs des types suivants affichent uniquement l’ancienne valeur en caractères barrés :
 
-   * Sélection multiple
-   * Champs d’enregistrement liés
-   * Personnes
+  * Sélection multiple
+  * Champs d’enregistrement liés
+  * Personnes
 
   Si la modification a consisté uniquement à ajouter des valeurs au champ, l’ancienne valeur ne s’affiche pas et seule la nouvelle valeur du champ s’affiche.
 
@@ -204,11 +217,11 @@ Vous pouvez passer en revue les modifications apportées aux champs d’enregist
 
 * Les modifications apportées aux champs des types suivants ne s’affichent pas dans la section Historique :
 
-   * Champs liés (de recherche)
-   * Formule
-   * Créé par
-   * Créé le
-   * Dernière modification par
-   * Date de dernière modification
+  * Champs liés (de recherche)
+  * Formule
+  * Créé par
+  * Créé le
+  * Dernière modification par
+  * Date de dernière modification
 
 * Si un champ est supprimé du système, les mises à jour effectuées sur ce champ restent dans la section Historique. Rien n’indique que le champ a été supprimé dans la section Historique d’un enregistrement.

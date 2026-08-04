@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 5%
+source-wordcount: 1465
+ht-degree: 4%
 
 ---
 
@@ -79,22 +79,23 @@ Pour plus d’informations, consultez l’un des articles suivants :
    <td> 
 <p>Pour configurer les types d’enregistrements connectables : </p>
 <ul> 
-<li><p>Tout package Workfront et tout package Planning</p></li>
+<li>Tout workflow et un package Planning Prime ou Ultimate</p></li>
 Ou
-<li>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-
+<li>Un package Workfront Planning Prime ou Ultimate en tant que produit autonome</li>
+</ul>
 
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
-<li><p>Tout package Workfront et un package Planning Plus</p></li>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
+
 Ou
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
+<li>Un package Planning Prime ou Ultimate lorsqu’il est acheté en tant que produit autonome </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licence Adobe Workfront and Planning</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +106,17 @@ Ou
    -->
 
 <p>Pour créer un enregistrement global :</p>
-   <ul><li>Standard ou supérieur</li></ul>
+   <ul><li>Workfront et Planning Standard ou version ultérieure</li></ul>
    <p>Pour rendre un enregistrement connectable :</p>
 
-<ul><li>Standard pour rendre un enregistrement connectable à partir d’espaces de travail spécifiques</li>
+<ul><li>Workfront et Planning Standard pour rendre un enregistrement connectable depuis des espaces de travail spécifiques</li>
    <li>L’administrateur système doit rendre un enregistrement connectable depuis tous les espaces de travail</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations d’un espace de travail</p>  

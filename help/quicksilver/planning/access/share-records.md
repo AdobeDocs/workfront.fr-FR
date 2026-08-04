@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 7%
 
 ---
@@ -50,9 +50,9 @@ Vous pouvez partager un enregistrement Adobe Workfront Planning de différente
 
   Pour plus d’informations, voir les articles suivants :
 
-   * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Partager un espace de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
+  * [Partager un type d’enregistrement](/help/quicksilver/planning/access/share-record-types.md)
 
 * Partagez un enregistrement individuel ou partagez plusieurs enregistrements en bloc à l’aide de l’option **Partager**.
 
@@ -79,21 +79,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <p>Tout Workfront ou workflow avec un package Planning</p> 
 Ou
 <p>Tout package de produit autonome Workfront Planning</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Tous</p> 
-   <p><b>NOTE</b></p>
-   <p>Seules les personnes disposant d’une licence Standard peuvent se voir accorder des autorisations de gestion des enregistrements. Toutes les autres licences ne peuvent avoir que des autorisations d’affichage et l’option Gérer est grisée pour celles-ci.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Tous</p> 
+<p><b>NOTE</b></p>
+   <p>Seules les personnes disposant d'une licence Planning Standard peuvent se voir accorder des autorisations de gestion des enregistrements. Toutes les autres licences ne peuvent avoir que des autorisations d’affichage et l’option Gérer est grisée pour celles-ci.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -119,14 +129,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * Vous pouvez partager des enregistrements avec les entités suivantes : personnes, groupes, équipes, entreprises ou fonctions.
 * Les restrictions suivantes existent :
 
-   * Impossible de partager plus de 100 enregistrements à la fois.
-   * Vous ne pouvez pas partager d&#39;enregistrements avec plus de 100 entités.
+  * Impossible de partager plus de 100 enregistrements à la fois.
+  * Vous ne pouvez pas partager d&#39;enregistrements avec plus de 100 entités.
 * Si vous limitez les autorisations à un enregistrement, les utilisateurs ne verront plus cet enregistrement et les valeurs de ses champs de recherche où que ce soit dans le système où cet enregistrement s’affiche.
 * Workfront vérifie les autorisations d’enregistrement dans les connexions jusqu’à 5 enregistrements, en s’assurant que les utilisateurs voient uniquement les enregistrements partagés avec eux.
 * Vous pouvez accorder les niveaux d’autorisation suivants à un enregistrement :
 
-   * Afficher
-   * Gérer
+  * Afficher
+  * Gérer
 * Lorsque vous partagez un espace de travail et un type d’enregistrement avec des utilisateurs, ils reçoivent également les mêmes autorisations pour les enregistrements de l’espace de travail, par défaut.
 Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur un espace de travail ou un type d’enregistrement, ils reçoivent des autorisations de niveau Gestion sur les enregistrements de ce type d’enregistrement.
 * Lorsque vous supprimez une entité d’un espace de travail, toutes les autorisations de partage sont supprimées des types d’enregistrements et de tous les enregistrements qu’elles contiennent.
@@ -135,13 +145,13 @@ Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur 
   Si vous partagez un enregistrement avec une personne qui ne se trouve pas dans l’espace de travail, elle est automatiquement ajoutée à l’espace de travail.
 * L’accès d’un utilisateur à l’enregistrement est déterminé par la combinaison des 3 paramètres suivants :
 
-   * Leurs autorisations héritées du type d’enregistrement et de l’espace de travail
-   * Autorisations ajoutées individuellement dans la zone de partage d’enregistrements
-   * Le paramètre **Tout le monde peut voir** dans l’espace de travail.
+  * Leurs autorisations héritées du type d’enregistrement et de l’espace de travail
+  * Autorisations ajoutées individuellement dans la zone de partage d’enregistrements
+  * Le paramètre **Tout le monde peut voir** dans l’espace de travail.
 
-     Ainsi, l’enregistrement est visible par tous dans l’espace de travail
+    Ainsi, l’enregistrement est visible par tous dans l’espace de travail
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +160,8 @@ Lorsque les utilisateurs disposent des autorisations de niveau Contribution sur 
 
   Par exemple :
 
-   * S’ils disposent des autorisations d’affichage sur le type d’enregistrement, ils obtiennent les autorisations d’affichage sur l’enregistrement
-   * S’ils disposent des autorisations de niveau Contribution ou Gérer pour le type d’enregistrement, ils obtiennent des autorisations de niveau Gérer pour l’enregistrement
+  * S’ils disposent des autorisations d’affichage sur le type d’enregistrement, ils obtiennent les autorisations d’affichage sur l’enregistrement
+  * S’ils disposent des autorisations de niveau Contribution ou Gérer pour le type d’enregistrement, ils obtiennent des autorisations de niveau Gérer pour l’enregistrement
 
 * Lorsque l’utilisateur dispose des autorisations de niveau Gérer ou Contribuer pour l’espace de travail et le type d’enregistrement et que vous les ajoutez aux autorisations d’enregistrement, les autorisations d’affichage sont grisées. Ils conservent les mêmes autorisations pour l’enregistrement que pour le type d’enregistrement et vous ne pouvez pas leur accorder des autorisations inférieures pour l’enregistrement.
 

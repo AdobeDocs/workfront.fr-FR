@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 5%
 
 ---
@@ -53,18 +53,18 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
 
 * Selon l’objet ou le type d’enregistrement que vous affichez sur la page enregistrements connectés, vous pouvez les afficher dans les vues suivantes :
 
-   * Vous pouvez afficher les enregistrements Planning connectés dans les types de vues suivants :
-      * Tableau
-      * Journal
-      * Calendrier
-   * Vous pouvez afficher les projets Workfront connectés dans une vue Liste.
+  * Vous pouvez afficher les enregistrements Planning connectés dans les types de vues suivants :
+    * Tableau
+    * Journal
+    * Calendrier
+  * Vous pouvez afficher les projets Workfront connectés dans une vue Liste.
 
 * Vous pouvez ajouter des pages Enregistrements connectés pour les types d’objet ou d’enregistrement connectés suivants :
 
-   * Types d’enregistrements Workfront Planning
-   * Projets Workfront
+  * Types d’enregistrements Workfront Planning
+  * Projets Workfront
 
-     Vous pouvez afficher les projets Workfront connectés même si vous ne disposez pas des autorisations pour y accéder dans Workfront.
+    Vous pouvez afficher les projets Workfront connectés même si vous ne disposez pas des autorisations pour y accéder dans Workfront.
 
 ## Conditions d’accès
 
@@ -82,10 +82,10 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p>
-<p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
-   </td> 
+<p>Tout Workfront ou workflow avec un package Planning</p>
+Ou
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
+</td> 
 <tr>
 <td> 
    <p> Produits supplémentaires</p> </td> 
@@ -95,13 +95,25 @@ Tenez compte des points suivants lors de l’ajout d’une page Enregistrements 
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
    <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
-  </tr>
 
-<tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+<p><b>NOTE</b></p>
+   Si vous avez acheté un package Planning en tant que produit autonome, vous devez également acheter un package Workflow pour connecter les types d'enregistrements Planning aux types d'objets Workfront</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
+   <td><p>Norme de workflow</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>Autorisations d’objet</p></td>
@@ -161,9 +173,9 @@ Vous devez d’abord connecter les types d’enregistrements à d’autres types
 1. (Conditionnel) Selon le type d’enregistrements affiché dans la page d’enregistrement connectée, effectuez l’une des opérations suivantes :
 
    * Gérer les enregistrements Planning
-Pour plus d&#39;informations, consultez la section [Gérer la page des enregistrements connectés pour les enregistrements Planning](#manage-the-connected-records-page-for-planning-records) dans cet article.
+     Pour plus d&#39;informations, consultez la section [Gérer la page des enregistrements connectés pour les enregistrements Planning](#manage-the-connected-records-page-for-planning-records) dans cet article.
    * Gestion de projets Workfront
-Pour plus d’informations, consultez la section [Gérer la page des enregistrements connectés pour les projets Workfront](#manage-the-connected-records-page-for-workfront-projects) dans cet article.
+     Pour plus d’informations, consultez la section [Gérer la page des enregistrements connectés pour les projets Workfront](#manage-the-connected-records-page-for-workfront-projects) dans cet article.
 
 1. (Facultatif) Double-cliquez sur le nom de l’onglet **Page des enregistrements connectés**
 
@@ -283,16 +295,16 @@ Les enregistrements liés à l&#39;enregistrement que vous avez sélectionné s&
    1. Dans la zone **Type de vue**, sélectionnez l&#39;un des types de vues suivants :
 
       * Tableau
-Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/planning/views/manage-the-table-view.md)
+        Pour plus d’informations, voir [Gérer la vue Tableau](/help/quicksilver/planning/views/manage-the-table-view.md)
       * Journal
-Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+        Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendrier
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+        Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
 
    1. Cliquez sur **Créer**.
-Une nouvelle vue est ajoutée au menu déroulant des vues.
+      Une nouvelle vue est ajoutée au menu déroulant des vues.
 
    1. (Facultatif) Pointez sur le nom d’une vue que vous avez créée, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
 
@@ -303,7 +315,7 @@ Une nouvelle vue est ajoutée au menu déroulant des vues.
       * **Exporter**
 
       * **Supprimer**
-Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
+        Pour plus d’informations, voir [Supprimer des vues d’enregistrement](/help/quicksilver/planning/views/delete-record-views.md).
 
         ![Menu Afficher plus sur la page Projets - Enregistrements connectés](assets/view-more-menu-projects-connected-records-page.png)
 

@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 26%
+source-wordcount: 648
+ht-degree: 25%
 
 ---
 
@@ -55,29 +55,37 @@ Les types d’enregistrements sont les types d’objets d’Adobe Workfront Pl
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout package Workfront and Planning</p>
-<p>Tout package Workfront and Planning</p>
+<p>Tout Workfront ou workflow avec un package Planning</p>
+<p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p>
 <p><b>NOTE</b></p>
 <p>Pour configurer les types d’enregistrements connectables : </p>
 <ul> 
 <li><p>Tout package Workfront et tout package Planning</p></li>
 Ou
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
+Ou
+<li>Tout package Planning Prime et Ultimate</li>
+</ul>
 
 <p>Pour configurer les types d’enregistrements globaux :</p>
 
 <ul> 
-<li><p>Tout package Workfront et un package Planning Plus</p></li>
+<li><p>Tout package Workfront avec un package Planning Plus</p></li>
 Ou
-<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p>
-
-</td> </tr>
+<li><p>Tout workflow et un package Planning Prime ou Ultimate</p></li>
+Ou
+<li>Tout package Planning lorsqu’il est acheté en tant que produit autonome</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td role="rowheader"><p>Licences Adobe Workfront et Planning</p></td> 
+   <td><p>Tous</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
@@ -138,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,7 +170,7 @@ Old:
 1. Utilisez l’une des méthodes suivantes :
 
    * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte du type d’enregistrement, puis cliquez sur **Modifier** ou **Paramètres**
-Ou
+     Ou
    * Cliquez sur une carte de type d’enregistrement pour ouvrir la page de type d’enregistrement, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Modifier** ou **Paramètres**.
 
    ![Plus d’options de menu à partir d’une carte de type enregistrement avec Paramètres](assets/more-menu-options-from-record-type-card-with-settings-link.png)
@@ -176,8 +184,8 @@ Ou
    * Modifiez le nom du type d’enregistrement, si nécessaire. <!--did they add a field label for this?-->
    * **Description** : modifiez ou ajoutez une description pour le type d’enregistrement avec plus d’informations à son sujet.
    * Modifiez la couleur et la forme de l’icône associée au type d’enregistrement. Procédez comme suit :
-      * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement.
-      * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
+     * Sélectionnez une couleur pour identifier le type d’enregistrement. Il s’agit de la couleur de l’icône du type d’enregistrement.
+     * Sélectionnez une icône dans la liste ou commencez à saisir le nom d’une icône pour décrire ce qu’elle représente, puis sélectionnez-la lorsqu’elle s’affiche. Il s’agit de l’icône du type d’enregistrement. Une icône de fichier est sélectionnée par défaut.
 
 1. (Facultatif et conditionnel) Si vous êtes un administrateur système, cliquez sur l’onglet **Paramètres de l’espace de travail croisé** et mettez à jour les informations sur les fonctionnalités de l’espace de travail croisé du type d’enregistrement.
 

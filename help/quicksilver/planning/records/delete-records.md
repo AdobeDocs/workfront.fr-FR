@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 36%
+source-wordcount: 621
+ht-degree: 37%
 
 ---
 
@@ -55,12 +55,19 @@ Vous pouvez supprimer des enregistrements qui ne sont plus pertinents dans Adobe
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
-<p>Tout Workfront et tout package Planning</p> <p>Tout workflow et tout package Planning</p>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<ul> 
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+Ou
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
    </td> 
   </tr> 
   <tr> 
@@ -123,7 +130,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -173,7 +180,7 @@ Vous pouvez supprimer un enregistrement à partir des zones suivantes :
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement, puis cliquez de nouveau sur **Supprimer**, **Supprimer** pour confirmer.
 
    ![Plus d’options de menu dans la page des détails de l’enregistrement](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-L’enregistrement est supprimé.
+   L’enregistrement est supprimé.
 1. (Facultatif) Accédez à la vue Tableau de la page d’enregistrement, puis cliquez sur l’icône **Annuler** ![Icône Annuler](assets/undo-icon.png) dans le coin supérieur droit de la vue, puis cliquez sur **Récemment supprimé** pour récupérer les enregistrements supprimés.
 
 Pour plus d’informations sur la récupération des enregistrements supprimés, voir [&#x200B; Récupérer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md).
@@ -208,8 +215,8 @@ Pour plus d’informations sur la récupération des enregistrements supprimés,
    * Cliquez sur l&#39;icône **Annuler** ![Icône Annuler](assets/undo-icon.png), puis **Récemment supprimé** pour récupérer les enregistrements supprimés. Pour plus d’informations sur la récupération des enregistrements supprimés, voir [&#x200B; Récupérer les enregistrements supprimés &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilisez les raccourcis clavier suivants pour annuler ou rétablir la suppression d’un enregistrement :
 
-      * Ctrl + Z (⌘ + Z pour Mac) pour annuler la suppression d’un enregistrement
-      * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir la suppression de l’enregistrement.
+     * Ctrl + Z (⌘ + Z pour Mac) pour annuler la suppression d’un enregistrement
+     * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir la suppression de l’enregistrement.
 
 
 

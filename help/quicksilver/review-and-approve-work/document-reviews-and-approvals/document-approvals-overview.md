@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ La fonctionnalité de relecture de Workfront n&#39;est pas disponible avec cette
 
 <span class="preview">L’examen et l’approbation unifiés comprennent une journalisation d’audit complète qui crée un journal de gouvernance complet sur Workfront et Frame.io. Les logs de tracking des modifications capturent les décisions d’approbation prises dans la visionneuse Frame.io et le cycle de vie des documents. Chaque entrée de journal inclut l’attribution du système source (Workfront ou Frame.io) avec les champs d’audit Workfront standard : date et heure, type de journal, nom d’utilisateur, action et nom d’objet. Les commentaires de la visionneuse Frame.io ne sont pas inclus dans les journaux d’audit.</span>
 
-<span class="preview">Les logs de tracking des modifications apparaissent dans la zone Configuration de Workfront et peuvent être exportés. Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).</span>
+<span class="preview">Les logs de tracking des modifications apparaissent dans la zone Configuration de Workfront et peuvent être exportés. Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
 
 ## Gestion de projet puissante dans Workfront
 

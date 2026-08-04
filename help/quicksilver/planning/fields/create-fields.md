@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 39%
 
 ---
@@ -84,16 +84,25 @@ Pour plus d’informations sur les champs de planification Workfront, voir [Pré
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Tout Workfront et tout package Planning</p></li>
+<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
-<li><p>Tout workflow et tout package Planning</p></li></ul>
-<p>Pour plus d’informations sur les composants inclus dans chaque package Workfront Planning, contactez votre représentant de compte Workfront. </p> 
+<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Norme de workflow</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Licence Adobe Planning</p></td> 
+   <td><p>Norme de planification</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
+   <td> <p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td>   <p>Gérer les autorisations d’un espace de travail</p>  
@@ -154,7 +163,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +451,16 @@ Vous pouvez utiliser un champ de date pour capturer des informations supplément
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Format de date** : type de format de date à afficher dans ce champ. <!--update this casing - submitted bug for it-->
    * Sélectionnez l’un des formats suivants :
-      * **Short** : 6/9/26
-      * **&#x200B;**&#x200B;: 9 Juin 2026
-      * **Long** 9 juin 2026
-      * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
+     * **Short** : 6/9/26
+     * **&#x200B;**&#x200B;: 9 Juin 2026
+     * **Long** 9 juin 2026
+     * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
    * Sélectionnez l’une des options suivantes :
 
-      * **24h** : par exemple : 18:00
-      * **12h** : Par exemple : 18:00
-      * **Afficher le même fuseau horaire à tous les utilisateurs**, puis sélectionner un **Fuseau horaire** : sélectionnez cette option si vous souhaitez afficher le même horodatage pour toutes les personnes qui consultent le champ, quel que soit le fuseau horaire de leur utilisateur. Le fuseau horaire sélectionné est ajouté à l&#39;en-tête de colonne de ce champ.
+     * **24h** : par exemple : 18:00
+     * **12h** : Par exemple : 18h00
+     * **Afficher le même fuseau horaire à tous les utilisateurs**, puis sélectionner un **Fuseau horaire** : sélectionnez cette option si vous souhaitez afficher le même horodatage pour toutes les personnes qui consultent le champ, quel que soit le fuseau horaire de leur utilisateur. Le fuseau horaire sélectionné est ajouté à l&#39;en-tête de colonne de ce champ.
 
 1. Cliquez sur **Créer**.
 
@@ -514,9 +523,9 @@ Les types de champ en pourcentage capturent les informations au format numériqu
      >Si vous sélectionnez Autoriser les nombres négatifs et que les valeurs négatives sont stockées sur les enregistrements auxquels le champ est associé, vous ne pouvez plus désélectionner ce paramètre à l’avenir.
 
    * **Afficher sous** : dans le menu déroulant, choisissez la manière dont vous souhaitez que les valeurs de pourcentage s’affichent dans la vue Tableau. Sélectionnez l’une des options suivantes :
-      * **Nombre** : la valeur de pourcentage s’affiche sous la forme d’un nombre suivi du signe pourcentage.
-      * **Barre** : la valeur de pourcentage s’affiche sous forme de barre en regard du nombre en pourcentage. La couleur de remplissage de la barre indique la valeur de pourcentage. Il s’agit de la sélection par défaut.
-      * **Cercle** : la valeur de pourcentage s’affiche sous la forme d’un cercle à côté du nombre en pourcentage. La couleur de remplissage du contour du cercle indique la valeur de pourcentage.
+     * **Nombre** : la valeur de pourcentage s’affiche sous la forme d’un nombre suivi du signe pourcentage.
+     * **Barre** : la valeur de pourcentage s’affiche sous forme de barre en regard du nombre en pourcentage. La couleur de remplissage de la barre indique la valeur de pourcentage. Il s’agit de la sélection par défaut.
+     * **Cercle** : la valeur de pourcentage s’affiche sous la forme d’un cercle à côté du nombre en pourcentage. La couleur de remplissage du contour du cercle indique la valeur de pourcentage.
 
    >[!NOTE]
    >
@@ -720,17 +729,17 @@ Vous pouvez utiliser le type de champ Date de création pour ajouter la date à 
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Format de date** : sélectionnez l’un des formats suivants :
 
-      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
-      * **Standard** : 05/16/2023
-      * **Long** : 16 mai 2023
-      * **Européen** : 16/05/2023
-      * **ISO** : 2023-05-16
+     * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
+     * **Standard** : 05/16/2023
+     * **Long** : 16 mai 2023
+     * **Européen** : 16/05/2023
+     * **ISO** : 2023-05-16
    * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
      Sélectionnez l’une des options suivantes :
 
-      * **24h** : par exemple : 18:00
-      * **12h** : Par exemple : 18:00
+     * **24h** : par exemple : 18:00
+     * **12h** : Par exemple : 18h00
 
 1. Cliquez sur **Créer**.
 
@@ -769,17 +778,17 @@ Vous pouvez utiliser le type de champ Date de dernière modification pour ajoute
    * **Description** : informations complémentaires sur le champ. La description d&#39;un champ s&#39;affiche lorsque vous pointez sur la colonne du champ dans un tableau ou lorsque vous cliquez sur l&#39;icône d&#39;informations située à côté du nom du champ dans la page de détails de l&#39;enregistrement.
    * **Format de date** : sélectionnez l’un des formats suivants :
 
-      * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
-      * **Standard** : 05/16/2023
-      * **Long** : 16 mai 2023
-      * **Européen** : 16/05/2023
-      * **ISO** : 2023-05-16
+     * **Paramètres régionaux** : correspond aux paramètres régionaux de votre navigateur.
+     * **Standard** : 05/16/2023
+     * **Long** : 16 mai 2023
+     * **Européen** : 16/05/2023
+     * **ISO** : 2023-05-16
    * **Inclure l’heure** : sélectionnez cette option si vous souhaitez inclure un horodatage. Cette option est désélectionnée par défaut. Vous ne pouvez pas inclure d’heure après l’enregistrement du champ.
 
      Sélectionnez l’une des options suivantes :
 
-      * **24h** : par exemple : 18:00
-      * **12h** : Par exemple : 18:00
+     * **24h** : par exemple : 18:00
+     * **12h** : Par exemple : 18h00
 
 1. Cliquez sur **Créer**.
 
