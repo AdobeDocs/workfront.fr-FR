@@ -6,9 +6,9 @@ description: Planifiez le déploiement de Workfront sur l’espace de stockage c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 1%
 
 ---
@@ -21,14 +21,20 @@ La nouvelle zone Documents, la visionneuse Frame.io et les autres comportements 
 
 Cet article s’adresse aux administrateurs Workfront qui se préparent à déployer Workfront sur l’espace de stockage dans le cloud Adobe. Elle couvre les différences majeures sur les objets d’espace de stockage dans le cloud Adobe, la manière de choisir votre type de déploiement et les éléments à prendre en compte avant d’activer l’espace de stockage dans le cloud Adobe pour vos utilisateurs et utilisatrices.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
->* Le passage à une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud déplace *tous* les workflows d’approbation existants des approbations de documents héritées vers les approbations unifiées. Pour plus d’informations[&#128279;](#unified-approvals-applies-regardless-of-storage-model) voir  Les approbations unifiées s’appliquent quel que soit le modèle de stockage.
 
 ## Les approbations unifiées s’appliquent quel que soit le modèle de stockage
 
-Le passage à une version de Workfront qui prend en charge l’espace de stockage Adobe dans le cloud déplace *tous* les workflows d’approbation existants des approbations de documents héritées vers les approbations unifiées, pour chaque objet, qu’il reste sur l’espace de stockage Workfront hérité ou qu’il soit déplacé vers l’espace de stockage Adobe dans le cloud. Cela diffère des choix de déploiement du stockage décrits dans la section [Choisir comment le stockage dans le cloud Adobe est déployé](#choose-how-adobe-cloud-storage-rolls-out) : ces choix contrôlent le modèle de stockage que les nouveaux objets utilisent, et non si les workflows d’approbation passent aux approbations unifiées. Il n’existe pas de groupe pilote ni d’option progressive pour ce changement ; il s’applique à l’ensemble de l’organisation dès que vous utilisez une version prise en charge.
+Le passage à une version de Workfront qui prend en charge l’espace de stockage Adobe dans le cloud déplace *tous* les workflows d’approbation existants des approbations de documents héritées vers les approbations unifiées, pour chaque objet, qu’il reste sur l’espace de stockage Workfront hérité ou qu’il soit déplacé vers l’espace de stockage Adobe dans le cloud.
+
+
+>[!IMPORTANT]
+>
+>Cela diffère des choix de déploiement du stockage décrits dans la section [Choisir comment le stockage dans le cloud Adobe est déployé](#choose-how-adobe-cloud-storage-rolls-out) : ces choix contrôlent le modèle de stockage que les nouveaux objets utilisent, et non si les workflows d’approbation passent aux approbations unifiées.<br>
+>Il n’existe pas de groupe pilote ni d’option progressive pour ce changement ; il s’applique à l’ensemble de l’organisation dès que vous utilisez une version prise en charge.
+
 
 Avant de déployer l’espace de stockage dans le cloud d’Adobe, assurez-vous que les personnes qui gèrent les validations savent à quoi s’attendre :
 
@@ -242,11 +248,13 @@ Vous décidez de la manière dont l’espace de stockage dans le cloud Adobe app
 
 Pour obtenir des instructions détaillées, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Options de configuration
+
 * **Espace de stockage Adobe uniquement** : les nouveaux projets utilisent l’espace de stockage Adobe par défaut. Les utilisateurs ne peuvent pas créer de projets hérités.
 * **Stockage dans le cloud Adobe et stockage Workfront hérité** : lorsque les utilisateurs créent un projet, ils choisissent entre le stockage dans le cloud Adobe (appelé « Nouveau projet ») et le stockage Workfront hérité (appelé « Stockage hérité »).
 
   ![choisir un type de projet](assets/choose-project-type.png)
-
 
 
 >[!TIP]
