@@ -7,17 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,8 +37,9 @@ Vous pouvez créer un tableau de bord de rapports dans la zone Tableaux de bord 
 1. Cliquez sur **Nouveau tableau de bord**.
 1. Nommez votre tableau de bord .
 1. (Facultatif) Ajoutez une description.
+1. (Facultatif) Si plusieurs devises sont définies dans votre instance Workfront, vous pouvez également sélectionner une devise par défaut pour le tableau de bord.
 1. Cliquez sur **Créer**.
-   ![ajouter un nom et une description au tableau de bord](assets/create-a-dashboard.png)
+   ![Ajouter un nom et une description au tableau de bord](assets/create-a-dashboard.png)
 
 Une fois que vous avez créé un tableau de bord, vous pouvez commencer à ajouter des indicateurs clés de performance, des graphiques et des tableaux. Pour plus d’informations, consultez les sections suivantes :
 

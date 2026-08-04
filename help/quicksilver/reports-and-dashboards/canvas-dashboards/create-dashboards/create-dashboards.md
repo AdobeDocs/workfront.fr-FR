@@ -9,19 +9,14 @@ exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-s26q39f6l5lix-8JuSaHvvdpqeqpw3ve5Gn2ZNnHfM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 21%
+source-wordcount: 542
+ht-degree: 16%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 21%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
@@ -88,9 +83,7 @@ Les tableaux de bord de la zone de travail offrent une grande variété d’opti
 
 1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
 
-1. Dans la zone **Créer un tableau de bord** :
-
-1. Indiquez les informations suivantes :
+1. Dans la zone **Créer un tableau de bord**, spécifiez ce qui suit :
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +99,9 @@ Les tableaux de bord de la zone de travail offrent une grande variété d’opti
      </tr>
       <tr>
       <td role="rowheader"><strong>Devise</strong></td>
-      <td>Choisissez le type de devise par défaut pour le tableau de bord. <br>
-      <br>Les utilisateurs peuvent basculer entre différents types de devise lors du filtrage du tableau de bord. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrer un tableau de bord par type de devise</a>.</td>
+      <td><p>Choisissez le type de devise par défaut pour le tableau de bord.</p>
+      <p>Vous pouvez basculer entre différents types de devise lors du filtrage du tableau de bord. Pour plus d’informations, voir <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrer un tableau de bord par type de devise</a>.</p>
+      <p><strong>Remarque :</strong> si une seule devise est définie dans votre instance Workfront, le champ Devise n’apparaît pas lors de la création d’un tableau de bord.</p></td>
      </tr>
     </tbody>
    </table>
@@ -121,7 +115,7 @@ Une fois qu’un tableau de bord est créé, l’étape suivante consiste à y a
 Vous pouvez créer trois types de rapports dans les tableaux de bord de la zone de travail :
 
 * **ICP** : ce rapport affiche les données de vos indicateurs clés de performance sous la forme d’un nombre.
-Pour plus d’informations, consultez la section [&#x200B; Créer un rapport sur les indicateurs de performance clés &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
+Pour plus d’informations, consultez la section [ Créer un rapport sur les indicateurs de performance clés ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md).
 
 * **Graphique** : ce rapport affiche vos données sous la forme d’un graphique à barres, en colonnes, en courbes ou en secteurs.
 Pour plus d&#39;informations, voir [Créer un rapport de graphique](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
@@ -129,4 +123,4 @@ Pour plus d&#39;informations, voir [Créer un rapport de graphique](/help/quicks
 * **Tableau** : ce rapport affiche vos données sous la forme d’un tableau.
 Pour plus d&#39;informations, voir [Créer un rapport de tableau](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
-Pour plus d’informations sur l’ajout d’un rapport existant à un tableau de bord, voir [&#x200B; Ajouter un rapport existant à un tableau de bord &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).
+Pour plus d’informations sur l’ajout d’un rapport existant à un tableau de bord, voir [ Ajouter un rapport existant à un tableau de bord ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).
