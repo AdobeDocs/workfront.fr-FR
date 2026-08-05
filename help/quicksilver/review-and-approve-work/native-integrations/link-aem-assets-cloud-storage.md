@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: Lier du contenu et des dossiers de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
 description: Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier du contenu et des dossiers de Experience Manager Assets à n’importe quel objet Adobe Workfront prenant en charge les documents.
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 12%
 
 ---
@@ -125,6 +125,14 @@ Pour lier du contenu :
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Le contenu recommandé dans le gestionnaire d’accès utilise les données suivantes pour déterminer le contenu suggéré dans Workfront :
+   >
+   >* Champs de nom et de description de l’objet Workfront
+   >* Champs de formulaire personnalisés marqués comme obligatoires
+   >* Données des documents joints
 
 <!--
 ### Link a new version from Experience Manager Assets

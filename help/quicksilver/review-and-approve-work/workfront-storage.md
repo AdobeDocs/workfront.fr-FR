@@ -6,10 +6,10 @@ description: Planifiez le déploiement de Workfront sur l’espace de stockage c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 0%
+source-wordcount: '2936'
+ht-degree: 1%
 
 ---
 
@@ -17,15 +17,33 @@ ht-degree: 0%
 
 Le stockage dans le cloud Workfront sur Adobe offre une expérience de révision et d’approbation entièrement unifiée : révisions dans la visionneuse Frame.io, workflows d’approbation puissants, visibilité des ressources sur l’ensemble des produits, etc.
 
-Vos objets existants continuent à fonctionner de la même manière qu’aujourd’hui. La nouvelle zone Documents, la visionneuse Frame.io et d’autres comportements d’espace de stockage dans le cloud Adobe s’appliquent uniquement aux objets utilisant l’espace de stockage dans le cloud Adobe.
+La nouvelle zone Documents, la visionneuse Frame.io et les autres comportements d’espace de stockage dans le cloud Adobe décrits dans cet article s’appliquent uniquement aux objets utilisant l’espace de stockage dans le cloud Adobe.
 
 Cet article s’adresse aux administrateurs Workfront qui se préparent à déployer Workfront sur l’espace de stockage dans le cloud Adobe. Elle couvre les différences majeures sur les objets d’espace de stockage dans le cloud Adobe, la manière de choisir votre type de déploiement et les éléments à prendre en compte avant d’activer l’espace de stockage dans le cloud Adobe pour vos utilisateurs et utilisatrices.
 
+>[!NOTE]
+>
+>* Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
+
+## Les approbations unifiées s’appliquent quel que soit le modèle de stockage
+
+Le passage à une version de Workfront qui prend en charge l’espace de stockage Adobe dans le cloud déplace *tous* les workflows d’approbation existants des approbations de documents héritées vers les approbations unifiées, pour chaque objet, qu’il reste sur l’espace de stockage Workfront hérité ou qu’il soit déplacé vers l’espace de stockage Adobe dans le cloud.
+
+
 >[!IMPORTANT]
 >
->Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
+>Cela diffère des choix de déploiement du stockage décrits dans la section [Choisir comment le stockage dans le cloud Adobe est déployé](#choose-how-adobe-cloud-storage-rolls-out) : ces choix contrôlent le modèle de stockage que les nouveaux objets utilisent, et non si les workflows d’approbation passent aux approbations unifiées.<br>
+>Il n’existe pas de groupe pilote ni d’option progressive pour ce changement ; il s’applique à l’ensemble de l’organisation dès que vous utilisez une version prise en charge.
 
 
+Avant de déployer l’espace de stockage dans le cloud d’Adobe, assurez-vous que les personnes qui gèrent les validations savent à quoi s’attendre :
+
+* **Une nouvelle expérience d’approbation** Les réviseurs et les approbateurs passent de l’ancienne expérience d’approbation des documents aux approbations unifiées, qui ajoutent des approbations à plusieurs étapes, des chemins de révision parallèles, etc. Pour plus d’informations, consultez les articles suivants :
+
+  * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [Fonctionnalité disponible pour les approbations de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **Nouvel emplacement de création de rapports** Les données de workflow d’approbation unifiée et les rapports sont déplacés vers les tableaux de bord de la zone de travail. Les rapports d’approbation hérités existants ne sont pas automatiquement transférés. Pour plus d’informations, voir [Créer un tableau de bord de rapport pour révision et approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Mises à jour possibles des scénarios Fusion** les scénarios Fusion existants créés à partir des approbations de documents hérités peuvent devoir être modifiés, reconstruits ou retirés pour fonctionner avec les approbations unifiées. Pour plus d’informations, voir [Mise à jour des scénarios Workfront Fusion pour une révision et une approbation unifiées](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Comprendre le stockage Workfront hérité et le stockage dans le cloud Adobe
 
@@ -230,11 +248,13 @@ Vous décidez de la manière dont l’espace de stockage dans le cloud Adobe app
 
 Pour obtenir des instructions détaillées, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Options de configuration
+
 * **Espace de stockage Adobe uniquement** : les nouveaux projets utilisent l’espace de stockage Adobe par défaut. Les utilisateurs ne peuvent pas créer de projets hérités.
 * **Stockage dans le cloud Adobe et stockage Workfront hérité** : lorsque les utilisateurs créent un projet, ils choisissent entre le stockage dans le cloud Adobe (appelé « Nouveau projet ») et le stockage Workfront hérité (appelé « Stockage hérité »).
 
   ![choisir un type de projet](assets/choose-project-type.png)
-
 
 
 >[!TIP]

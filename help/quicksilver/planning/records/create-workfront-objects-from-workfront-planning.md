@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 6%
 
 ---
@@ -106,8 +106,16 @@ Pour plus d&#39;informations sur la connexion des enregistrements Planning aux o
 <li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
 <li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>Produit</p></td> 
+   <td><p>Si votre entreprise a acheté Workfront Planning en tant que produit autonome, vous devez également acheter un package Workflow pour créer des objets Workfront à partir de Planning.</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
    <td><p>Norme de workflow</p>
    </td> 

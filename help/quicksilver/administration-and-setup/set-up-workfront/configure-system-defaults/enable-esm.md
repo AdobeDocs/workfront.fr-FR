@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -74,11 +74,15 @@ Pour activer le stockage dans le cloud Adobe pour votre organisation :
    - **Organisation entière** : cette option applique le fournisseur de stockage par défaut à l’ensemble de votre environnement Workfront. Chaque fois qu’un utilisateur crée un projet, le fournisseur de stockage par défaut est utilisé.
    - **Groupes spécifiques** : cette option applique le fournisseur de stockage par défaut uniquement à des groupes spécifiques de votre organisation. Chaque fois qu’un utilisateur des groupes spécifiés crée un projet, le fournisseur de stockage par défaut est utilisé
 
-1. Cliquez sur **Enregistrer**.
+   ![groupes de préférences de stockage](assets/configure-storage-preference.png)
+
+1. Cliquer sur **Enregistrer**.
 
    >[!NOTE]
    >
    >Les projets existants conservent le modèle de stockage avec lequel ils ont été créés. Par exemple, les projets qui utilisent l’espace de stockage dans le cloud d’Adobe continuent à utiliser l’espace de stockage dans le cloud d’Adobe après avoir modifié la préférence de stockage par défaut.
+
+
 
 ## stockage dans le cloud Adobe dans les environnements sandbox
 

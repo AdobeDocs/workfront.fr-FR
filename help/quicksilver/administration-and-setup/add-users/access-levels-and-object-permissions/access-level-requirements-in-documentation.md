@@ -23,10 +23,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 62%
+source-wordcount: 1184
+ht-degree: 56%
 
 ---
 
@@ -58,14 +58,25 @@ Si une ligne est absente du tableau des conditions d’accès dans un article do
   <p>Votre entreprise a peut-être acheté un package Workfront dans une ou plusieurs de ces zones.</p>
   <p>Auparavant, Workfront offrait des packages Workfront Select, Workfront Prime et Workfront Ultimate, sans faire de distinction entre les workflows, la planification, l’automatisation et l’intégration. Votre entreprise peut se trouver sur l’un de ces packages hérités. 
    <ul><li>Pour savoir quel package Adobe Workfront votre organisation utilise, et notamment si votre organisation dispose du modèle de package actuel ou hérité, contactez votre administrateur Workfront.</li>
-   <li>Pour obtenir des instructions sur la manière dont un administrateur Workfront peut localiser le package Workfront de votre organisation, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster et le package Workfront de votre organisation</a>.</li><li>Pour plus d’informations sur les packages Workfront, voir <a href="https://business.adobe.com/fr/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul> </td> 
+   <li>Pour obtenir des instructions sur la manière dont un administrateur Workfront peut localiser le package Workfront de votre organisation, voir <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Afficher le cluster et le package Workfront de votre organisation</a>.</li><li>Pour plus d’informations sur les packages Workfront, voir <a href="https://business.adobe.com/fr/products/workfront/pricing.html">Tarification et package Adobe Workfront</a>.</li></ul>
+
+Votre entreprise peut acheter un package Workfront Planning dans l’une des offres suivantes :
+
+<ul>
+    <li> Avec un package Workflow, avec un nombre identique de licences Workflow et Planning. </li>
+    <li>Avec un package de workflow, avec un nombre de licences incompatible entre Workflow et Planning. </li>
+    <li>En tant que produit autonome.</li></ul>
+
+Les fonctionnalités peuvent différer entre les trois offres de Workfront Planning. Pour plus d’informations, voir <a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Prise en main d’Adobe Workfront Planning</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licence Adobe Workfront</td> 
    <td> Les licences Adobe Workfront se rapportent à l’ensemble des fonctionnalités Workfront incluses dans la licence qui vous est attribuée. Par exemple, un utilisateur ou une utilisatrice peut disposer d’une licence qui inclut le marquage des tâches comme terminées et le temps de connexion, tandis qu’un autre utilisateur ou utilisatrice peut disposer d’une licence qui lui permet uniquement d’approuver des ressources ou d’envoyer des requêtes. <p> 
    <p>Les licences Adobe Workfront peuvent faire référence aux types de licences suivants :</p>
-   <ul><li>Licences de workflow Workfront</li>
-  <li>Licences Workfront Planning</li></ul>
+   <ul><li><b>Licences de workflow Workfront </b> : disponible pour tous les clients qui achètent Workfront. Les licences de workflow sont les suivantes : Workflow Standard, Light, Contributor.</li>
+  <li><b>Licences Workfront Planning </b> : disponibles pour tous les clients qui achètent l’une des offres Workfront Planning. Les licences Planning sont les suivantes : Standard, Contributor, No Access. Les clients qui achètent Workfront Planning en tant que produit autonome ne disposent pas d’une licence de contributeur.  </li></ul>
 
 <p>Pour connaître la licence qui vous est attribuée, contactez votre administrateur ou administratrice Workfront.</p>
    <p>Pour plus d’informations sur les licences, consultez :</p>

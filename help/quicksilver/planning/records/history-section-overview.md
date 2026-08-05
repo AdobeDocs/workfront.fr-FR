@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 588
-ht-degree: 74%
+source-wordcount: 600
+ht-degree: 73%
 
 ---
 
@@ -72,7 +72,7 @@ Ou
    <td role="rowheader"><p>Licence Adobe Planning</p></td> 
    <td><p>Planning Contributor ou version ultérieure</p>
    <p><b>NOTE</b></p>
-   <p>Tous les clients ne disposent pas d'une licence de contributeur Planning</p>
+   <p>Tous les clients ne disposent pas de licences Planning Contributor</p>
    </td> 
   </tr> 
   <tr> 
@@ -168,7 +168,7 @@ Old:
 
    L’espace de travail s’ouvre et les types d’enregistrements s’affichent sur les cartes.
 
-1. Cliquez sur une carte de type d’enregistrement.
+1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails.
 La page de type d’enregistrement s’ouvre et tous les enregistrements de ce type s’affichent.
 
 1. Dans n’importe quel affichage, cliquez sur le nom d’un enregistrement.

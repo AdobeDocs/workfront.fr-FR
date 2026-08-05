@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,8 +41,9 @@ Vous pouvez créer un tableau de bord de rapports dans la zone Tableaux de bord 
 1. Cliquez sur **Nouveau tableau de bord**.
 1. Nommez votre tableau de bord .
 1. (Facultatif) Ajoutez une description.
+1. (Facultatif) Si plusieurs devises sont définies dans votre instance Workfront, vous pouvez également sélectionner une devise par défaut pour le tableau de bord.
 1. Cliquez sur **Créer**.
-   ![ajouter un nom et une description au tableau de bord](assets/create-a-dashboard.png)
+   ![Ajouter un nom et une description au tableau de bord](assets/create-a-dashboard.png)
 
 Une fois que vous avez créé un tableau de bord, vous pouvez commencer à ajouter des indicateurs clés de performance, des graphiques et des tableaux. Pour plus d’informations, consultez les sections suivantes :
 

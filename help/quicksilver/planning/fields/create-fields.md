@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 5377
-ht-degree: 39%
+source-wordcount: 5442
+ht-degree: 38%
 
 ---
 
@@ -206,6 +206,10 @@ Vous pouvez importer des champs lorsque vous importez des types d’enregistreme
 Pour plus d’informations, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Créer des champs en les important depuis Workfront
+
+>[!IMPORTANT]
+>
+>La création de champs par importation à partir de Workfront n&#39;est pas disponible pour les clients qui ont acheté Planning en tant que produit autonome.
 
 Vous pouvez importer des copies de champs Workfront existants.
 

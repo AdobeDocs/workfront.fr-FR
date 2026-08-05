@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 18%
 
 ---
@@ -145,6 +145,14 @@ Pour lier du contenu :
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Le contenu recommandé dans le gestionnaire d’accès utilise les données suivantes pour déterminer le contenu suggéré dans Workfront :
+   >
+   >* Champs de nom et de description de l’objet Workfront
+   >* Champs de formulaire personnalisés marqués comme obligatoires
+   >* Données des documents joints
 
 
 ### Liaison d’une nouvelle version de Experience Manager Assets à la fonction de conseil

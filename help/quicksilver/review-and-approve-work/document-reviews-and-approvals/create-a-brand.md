@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 627
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
 
 * Votre organisation doit disposer de GenStudio Foundation.
-   * Content Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès à la fonctionnalité GenStudio Foundation par l’intermédiaire de l’analyseur de contenu est soumis aux conditions de votre contrat Workfront.
+  * Content Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès à la fonctionnalité GenStudio Foundation par l’intermédiaire de l’analyseur de contenu est soumis aux conditions de votre contrat Workfront.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -142,6 +142,8 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
 
 
 ## Bonnes pratiques relatives à l’écriture de directives de marque
+
+Avant de rédiger vos directives, passez en revue [ce que le réviseur de contenu évalue](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) pour les types de consignes relatives aux images et à la voix de marque. Les lignes directrices en dehors de ces domaines d&#39;évaluation ne seront pas notées.
 
 *  Rédiger des directives sur la marque qui décrivent les critères mesurables. Le réviseur de contenu évalue le contenu littéralement, de sorte que les règles objectives génèrent des scores plus cohérents que les règles subjectives.
 

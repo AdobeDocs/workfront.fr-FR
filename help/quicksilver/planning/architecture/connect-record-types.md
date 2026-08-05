@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 3098
-ht-degree: 25%
+source-wordcount: 3121
+ht-degree: 24%
 
 ---
 
@@ -48,6 +48,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 -->
 
 Vous pouvez connecter des types d&#39;enregistrements entre eux ou vous pouvez connecter des types d&#39;enregistrements à des types d&#39;objets provenant d&#39;autres applications.
+
+>[!IMPORTANT]
+>
+>Lors de la connexion de types d&#39;enregistrements Planning avec des types d&#39;objets provenant d&#39;autres applications, vous devez également disposer d&#39;une licence et d&#39;un compte pour ces applications.
 
 Connecter les types d’enregistrements est utile lorsque plusieurs types d’objets de travail s’influencent mutuellement. Par exemple, vous pouvez utiliser des campagnes, chacune d’elles pouvant correspondre à plusieurs marques. Pour indiquer cette relation, vous pouvez connecter des campagnes à des marques. Cela crée un champ de connexion pour les marques dans l’enregistrement Campaign.
 
