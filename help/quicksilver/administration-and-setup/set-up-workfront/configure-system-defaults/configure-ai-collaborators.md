@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
+source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1438'
 ht-degree: 4%
 
 ---
@@ -107,9 +107,11 @@ Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marqu
 
 ## Configurer un collaborateur de tâches
 
-Les collaborateurs de tâches sont des agents MCP que vous pouvez affecter à des tâches dans Workfront. Configurez le collaborateur de tâches avec un nom, un niveau d&#39;accès et d&#39;autres détails et attribuez-le comme vous le feriez pour un utilisateur.
+Les collaborateurs de tâches sont des agents MCP que vous pouvez affecter à des tâches dans Workfront. Vous configurez la tâche collaborative avec un nom, un niveau d&#39;accès et d&#39;autres détails, et vous l&#39;affectez à une tâche comme vous le feriez pour un utilisateur.
 
 Étant donné que les collaborateurs de tâches sont des agents MCP, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Actuellement, les agents utilisés comme collaborateurs de tâches peuvent être créés dans Copilot Studio, Claude ou Writer.
+
+Les collaborateurs de tâches ne peuvent être affectés qu&#39;à des tâches et ne peuvent actuellement être affectés à des événements.
 
 Pour obtenir la liste des bonnes pratiques à appliquer lors de la création d&#39;un agent devant travailler en tant que Task Collaborator, voir [Bonnes pratiques pour la création d&#39;un agent pour un Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
