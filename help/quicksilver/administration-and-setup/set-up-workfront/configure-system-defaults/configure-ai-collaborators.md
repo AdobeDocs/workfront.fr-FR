@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1420'
 ht-degree: 4%
 
 ---
@@ -178,6 +178,10 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 +++
 -->
 +++ Rédacteur
+
+>[!NOTE]
+>
+> Vous pouvez utiliser un agent Principal en tant que collaborateur de la tâche, mais les playbooks du Principal ne peuvent pas être utilisés en tant que collaborateurs de la tâche.
 
 Lors de la création d’un agent à utiliser en tant que collaborateur de tâches dans Writer, nous recommandons le workflow suivant.
 
