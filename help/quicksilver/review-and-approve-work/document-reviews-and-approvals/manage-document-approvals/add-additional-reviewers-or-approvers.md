@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 13%
 
 ---
@@ -166,7 +166,7 @@ Pour ajouter des approbateurs ou des réviseurs supplémentaires à partir du r�
 
 1. Cliquez sur **Modifier le workflow**. La boîte de dialogue Demander l’approbation s’ouvre dans le mode dans lequel l’approbation a été enregistrée pour la dernière fois : De base pour les approbations en une seule étape ou Avancé pour les approbations en plusieurs étapes et les approbations avec des chemins d’accès parallèles.
 
-1. Ajoutez l’utilisateur, l’équipe ou l’e-mail :
+1. Ajoutez l’utilisateur ou l’e-mail :
 
    * En mode de base, saisissez le nom ou l’adresse e-mail dans le champ **Ajouter des noms ou des adresses e-mail**.
    * En mode avancé, sélectionnez le chemin d’accès qui contient l’étape à mettre à jour, puis saisissez le nom ou l’adresse électronique dans le champ **Ajouter des noms ou des adresses électroniques** de l’étape.

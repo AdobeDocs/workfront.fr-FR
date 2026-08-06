@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1438'
 ht-degree: 4%
 
 ---
@@ -46,7 +46,7 @@ Les types de collaborateurs IA disponibles sont les suivants :
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] paquet</td> 
-   <td><p>Standard, Prime ou Ultimate</p></td> 
+   <td><p>Select, Prime ou Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licence</td> 
@@ -107,9 +107,11 @@ Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marqu
 
 ## Configurer un collaborateur de tâches
 
-Les collaborateurs de tâches sont des agents MCP que vous pouvez affecter à des tâches dans Workfront. Configurez le collaborateur de tâches avec un nom, un niveau d&#39;accès et d&#39;autres détails et attribuez-le comme vous le feriez pour un utilisateur.
+Les collaborateurs de tâches sont des agents MCP que vous pouvez affecter à des tâches dans Workfront. Vous configurez la tâche collaborative avec un nom, un niveau d&#39;accès et d&#39;autres détails, et vous l&#39;affectez à une tâche comme vous le feriez pour un utilisateur.
 
 Étant donné que les collaborateurs de tâches sont des agents MCP, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Actuellement, les agents utilisés comme collaborateurs de tâches peuvent être créés dans Copilot Studio, Claude ou Writer.
+
+Les collaborateurs de tâches ne peuvent être affectés qu&#39;à des tâches et ne peuvent actuellement être affectés à des événements.
 
 Pour obtenir la liste des bonnes pratiques à appliquer lors de la création d&#39;un agent devant travailler en tant que Task Collaborator, voir [Bonnes pratiques pour la création d&#39;un agent pour un Task Collaborator](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 
@@ -178,6 +180,10 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 +++
 -->
 +++ Rédacteur
+
+>[!NOTE]
+>
+> Vous pouvez utiliser un agent Principal en tant que collaborateur de la tâche, mais les playbooks du Principal ne peuvent pas être utilisés en tant que collaborateurs de la tâche.
 
 Lors de la création d’un agent à utiliser en tant que collaborateur de tâches dans Writer, nous recommandons le workflow suivant.
 
