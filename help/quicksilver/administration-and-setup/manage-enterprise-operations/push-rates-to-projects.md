@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 13%
+source-wordcount: '346'
+ht-degree: 11%
 
 ---
 
 # Modifications du taux de notification push pour les projets
 
-Lorsqu’une carte tarifaire est associée à un <!--or a staffing plan--> de projet, les taux sur la carte tarifaire peuvent toujours être ajustés. Vous pouvez ensuite transférer ces taux vers les projets auxquels la carte tarifaire est associée. Si vous n’appliquez pas les nouveaux taux, les taux d’origine restent dans le projet.
+Lorsqu’une carte tarifaire est associée à un projet<!--or a staffing plan--> les taux sur la carte tarifaire peuvent toujours être ajustés. Vous pouvez ensuite transférer ces taux vers les projets auxquels la carte tarifaire est associée. Si vous n’appliquez pas les nouveaux taux, les taux d’origine restent dans le projet.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>Si une fonction ou un taux de facturation d’utilisateur est remplacé manuellement au niveau du projet, ce taux reste sur le projet lorsque les modifications de la carte tarifaire sont envoyées au projet. Seuls les taux liés à la carte tarifaire sont mis à jour.
 
 Pour plus d’informations sur l’association d’une carte tarifaire à un projet, voir [Associer une carte tarifaire à un projet](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
