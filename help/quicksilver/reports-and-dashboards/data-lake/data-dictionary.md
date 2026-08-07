@@ -1708,15 +1708,15 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >
 >Le type d’enregistrement est identifié via la propriété `enumClass` . Voici les types attendus :<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
