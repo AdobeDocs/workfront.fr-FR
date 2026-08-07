@@ -9,22 +9,15 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2721
-ht-degree: 74%
+source-wordcount: 2734
+ht-degree: 72%
 
 ---
 
@@ -111,7 +104,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -203,7 +196,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 
 1. Dans la boîte **Calcul**, commencez à créer votre calcul :
    1. Cliquez sur **Maximiser** pour ouvrir l’éditeur de calcul et créer votre calcul.
-Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet.
+      Un calcul commence généralement par une expression, suivie de parenthèses contenant les champs que vous souhaitez référencer lorsque le formulaire personnalisé est joint à un objet.
 
       Chaque champ doit être entouré d’accolades. Lorsque vous commencez à saisir le nom d’un champ, vous pouvez sélectionner l’une des suggestions du système pour l’insérer dans votre calcul.
 
@@ -231,7 +224,7 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         Le système répertorie tous les champs personnalisés que vous pouvez choisir lorsque vous saisissez `DE:`.
 
-         * Si vous souhaitez que le calcul référence un champ qui extrait les données de l’objet *parent* lorsque le formulaire personnalisé est associé à un objet, vous devez précéder le nom du champ du type de l’objet parent, également entre accolades.
+        * Si vous souhaitez que le calcul référence un champ qui extrait les données de l’objet *parent* lorsque le formulaire personnalisé est associé à un objet, vous devez précéder le nom du champ du type de l’objet parent, également entre accolades.
 
         Par exemple, si le formulaire personnalisé est configuré pour fonctionner avec des tâches et que vous souhaitez que le champ calcule le revenu réel de l’objet parent lorsque le formulaire est joint à une tâche, vous devez indiquer `Project` comme type d’objet du champ :
 
@@ -261,9 +254,13 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         >[!NOTE]
         >
-        >La syntaxe d’un champ de saisie anticipée est légèrement différente de celle des autres types de champs, car vous devez ajouter `:name` à la fin.
+        >La syntaxe d’un champ de recherche interne est un peu différente de celle des autres types de champs, car vous devez ajouter des `:name` à la fin.
         >
-        >Par exemple, pour référencer l’option sélectionnée dans un champ Typeahead personnalisé nommé « Responsable de l’exécution », saisissez :
+        >Par exemple, pour référencer l’option sélectionnée dans un champ de recherche interne personnalisée nommé « Partenaire exécutif », vous devez saisir :
+        >
+        >`{DE:Executive sponsor}.{name}`
+        >
+        >Pour le même exemple, à l’aide d’un champ de saisie semi-automatique, vous devez saisir :
         >
         >`{DE:Executive sponsor:name}`
 
@@ -299,13 +296,13 @@ Un calcul commence généralement par une expression, suivie de parenthèses con
 
         Les champs personnalisés calculés sur un objet sont automatiquement recalculés lorsque les événements suivants se produisent :
 
-         * Un élément de l’objet change, tel qu’un calcul quotidien de chronologie.
-         * Une personne modifie un autre champ qui est référencé par un champ personnalisé calculé sur l’objet.
-         * L’expression calculée est vide et le champ contient une valeur : elle définit la valeur sur null.
+        * Un élément de l’objet change, tel qu’un calcul quotidien de chronologie.
+        * Une personne modifie un autre champ qui est référencé par un champ personnalisé calculé sur l’objet.
+        * L’expression calculée est vide et le champ contient une valeur : elle définit la valeur sur null.
 
-           >[!NOTE]
-           >
-           ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont traitées et enregistrées en fonction du temps universel coordonné (UTC), et non en fonction des configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil d’utilisateur ou d’utilisatrice. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque personne.</div>
+          >[!NOTE]
+          >
+          ><div>Dans un formulaire personnalisé joint à un objet, les instructions de date et d’heure dans les champs personnalisés calculés sont traitées et enregistrées en fonction du temps universel coordonné (UTC), et non en fonction des configurations de fuseau horaire définies pour l’instance de votre organisation et votre profil d’utilisateur ou d’utilisatrice. Les calculs dans un formulaire personnalisé sont générés en fonction des fuseaux horaires individuels de chaque personne.</div>
 
         +++
 

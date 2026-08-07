@@ -9,20 +9,14 @@ exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/magR86wFgKAZhiyX-s2oJH7ZEXafaaLCOalKJRMwXPg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4e6b06769d4001c4e08b4530289cfec7f8edd29e
 workflow-type: tm+mt
-source-wordcount: 1545
-ht-degree: 95%
+source-wordcount: 1571
+ht-degree: 93%
 
 ---
 
@@ -211,7 +205,7 @@ Pour plus d’informations sur la création d’un rapport, voir [Créer un rapp
       <td> <p>Vous pouvez ajouter cette ligne pour remplacer <code>valuefield</code>, si vous souhaitez associer votre liste par un calcul entre plusieurs champs.</p> <p>Vous devez joindre le <code>valuefield</code> des objets entre accolades chaque fois que vous l’utilisez dans une <code>valueexpression</code>.</p> <p>Les scénarios suivants sont possibles :</p> 
        <ol> 
         <li value="1"> <p>Si vous souhaitez afficher le nom d’un regroupement en majuscules, procédez comme suit :</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>Le <code>valuefield</code> de l’objet est orthographié tel qu’il apparaît dans l’explorateur d’API.</p> </li> 
-        <li value="2">Si vous souhaitez ajouter plusieurs <code>valuefields</code> en les reliant dans une ligne <code>valueexpression </code>, vous devez les séparer par un point.<p>Par exemple, si vous souhaitez afficher le nom du portfolio en majuscules dans une liste de tâches, vous utiliserez le code suivant dans la ligne <code>valueexpression</code> :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Si vous souhaitez utiliser un champ personnalisé dans une ligne <code>valueexpression</code>, vous devez faire précéder le nom du champ par <code>DE:</code> pour indiquer qu’il s’agit d’un champ personnalisé. Le nom du champ est orthographié tel qu’il apparaît dans l’interface.</p><p>Important : <span>lorsque vous utilisez un champ personnalisé placé dans une section de formulaire personnalisé dotée d’autorisations restreintes pour certaines personnes, le calcul de l’<code>valueexpression </code> est vide lorsque ces personnes affichent ce calcul dans un rapport. Pour plus d’informations sur l’ajustement des autorisations sur les sections de formulaire personnalisé, voir </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a></span>.</p><p>Par exemple, si vous disposez d’un champ personnalisé intitulé « Nom du développeur ou de la développeuse » et que vous souhaitez le regrouper en fonction de ce champ et l’afficher en majuscules, vous pouvez utiliser <code>valueexpression</code> pour l’indiquer :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Lors du référencement d’un champ personnalisé de type saisie semi-automatique, utilisez l’expression suivante pour référencer le nom de l’objet sélectionné dans un champ intitulé « Nom du développeur ou de la développeuse » :</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">Si vous souhaitez ajouter plusieurs <code>valuefields</code> en les reliant dans une ligne <code>valueexpression </code>, vous devez les séparer par un point.<p>Par exemple, si vous souhaitez afficher le nom du portfolio en majuscules dans une liste de tâches, vous utiliserez le code suivant dans la ligne <code>valueexpression</code> :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Si vous souhaitez utiliser un champ personnalisé dans une ligne <code>valueexpression</code>, vous devez faire précéder le nom du champ par <code>DE:</code> pour indiquer qu’il s’agit d’un champ personnalisé. Le nom du champ est orthographié tel qu’il apparaît dans l’interface.</p><p>Important : <span>lorsque vous utilisez un champ personnalisé placé dans une section de formulaire personnalisé dotée d’autorisations restreintes pour certaines personnes, le calcul de l’<code>valueexpression </code> est vide lorsque ces personnes affichent ce calcul dans un rapport. Pour plus d’informations sur l’ajustement des autorisations sur les sections de formulaire personnalisé, voir </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Création d’un formulaire personnalisé</a></span>.</p><p>Par exemple, si vous disposez d’un champ personnalisé intitulé « Nom du développeur ou de la développeuse » et que vous souhaitez le regrouper en fonction de ce champ et l’afficher en majuscules, vous pouvez utiliser <code>valueexpression</code> pour l’indiquer :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemple : </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Lors du référencement d’un champ personnalisé de type Recherche interne , utilisez l’expression suivante pour référencer le nom de l’objet sélectionné dans un champ intitulé « Nom du développeur » :</p><p><code>valueexpression=UPPER({DE:Developer Name}.{name})</code></p><p>Lors du référencement d’un champ personnalisé de type saisie semi-automatique, utilisez l’expression suivante pour référencer le nom de l’objet sélectionné dans un champ intitulé « Nom du développeur ou de la développeuse » :</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
