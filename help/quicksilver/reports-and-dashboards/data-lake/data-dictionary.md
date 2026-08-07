@@ -7,9 +7,9 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
+source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
 workflow-type: tm+mt
-source-wordcount: '11533'
+source-wordcount: '11542'
 ht-degree: 8%
 
 ---
@@ -109,7 +109,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 
 >[!NOTE]
 >
->De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous vous déconseillons d’utiliser des requêtes « SELECT » lorsque le destinataire des données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
+>De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous mettons en garde contre l’utilisation de requêtes « SELECT » lorsque le destinataire de données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
 >Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
 
 ### Niveau d’accès
@@ -1708,15 +1708,15 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >
 >Le type d’enregistrement est identifié via la propriété `enumClass` . Voici les types attendus :<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
@@ -9180,12 +9180,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Description</td>
         <td>Table connexe</td>
         <td>Champ associé</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ALIAS</td>
@@ -9193,12 +9187,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Alias interne pour le type d’enregistrement, utilisé pour l’identification au niveau du système et l’accès à l’API. Peut être vide pour les types d'enregistrements auxquels aucun alias n'a été attribué.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>COULEUR</td>
@@ -9206,12 +9194,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Libellé de couleur nommé associé à ce type d’enregistrement dans l’interface de Planning (par exemple, « bleu », « vert », « violet », « magenta », « chartreuse », « gris foncé »). Pas de code hexadécimal.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CRÉÉ</td>
@@ -9219,25 +9201,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indicateur indiquant le dernier type d’opération ayant affecté ce type d’enregistrement. La valeur 1 indique que le type d’enregistrement a été créé lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire. Voir CREATEDAT pour l’horodatage de création réel.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CRÉÉ</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été créée lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CRÉÉ À</td>
@@ -9245,25 +9208,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Date et heure (pas de fuseau horaire) de la création de ce type d’enregistrement.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CRÉÉ À</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la création de ce type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CRÉÉ PAR</td>
@@ -9271,25 +9215,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Identifiant de l’utilisateur qui a créé ce type d’enregistrement.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CRÉÉ PAR</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a créé ce type d’enregistrement.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>SUPPRIMÉ</td>
@@ -9297,25 +9222,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indicateur qui signale si ce type d’enregistrement a été supprimé de manière réversible. Une valeur égale à 1 indique supprimé ; 0 indique actif.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>SUPPRIMÉ</td>
-        <td>Nombre</td>
-        <td>Indicateur qui signale si cette connexion de référence a été supprimée de manière réversible. La valeur 1 indique que la référence est supprimée ; la valeur 0 indique qu'elle est active.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DESCRIPTION</td>
@@ -9323,12 +9229,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Description fournie par l’utilisateur de l’objectif du type d’enregistrement.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
@@ -9336,12 +9236,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Nom d'affichage du type d'enregistrement affiché dans l'interface de Planning (par exemple, « Campagne », « Initiative »).</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
@@ -9349,25 +9243,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé ce type d’enregistrement dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DL_LOAD_TIMESTAMP</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement de référence dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
@@ -9375,12 +9250,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Un objet JSON contenant les détails de configuration des types d’enregistrements connectés à des systèmes externes. Inclut « connectionName » (par exemple, « workfront »), « objectName » (le code d’objet de l’API Workfront, par exemple, « PROJ ») et « fields » (une carte d’alias de champ standard vers des ID de champ Planning pour les champs synchronisés). Valeur nulle pour les types d’enregistrements créés en mode natif.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ID</td>
@@ -9388,12 +9257,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Identifiant unique du type d’enregistrement. Clé de Principal pour cette vue.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISEXTERNAL</td>
@@ -9401,12 +9264,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indicateur qui signale si ce type d'enregistrement représente un type d'objet connecté en externe plutôt qu'un enregistrement Planning natif.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DIFFUSION</td>
@@ -9414,12 +9271,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indicateur qui signale si ce type d’enregistrement a été créé ou géré via une intégration Workfront Fusion. Une valeur « true » indique la gestion de Fusion ; « false » ou une valeur vide indique qu’il s’agit d’un type d’enregistrement créé en mode natif.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISTAXONOMIE</td>
@@ -9427,25 +9278,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indique si ce type d'enregistrement est classé en tant que type de taxonomie, utilisé pour organiser et catégoriser d'autres enregistrements. Une valeur « true » indique un type de taxonomie. Peut être vide pour les types d’enregistrements hors taxonomie.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>ISTAXONOMIE</td>
-        <td>Varchar</td>
-        <td>Indique si ce type d'enregistrement est classé en tant que type de taxonomie, utilisé pour organiser et catégoriser d'autres enregistrements. Une valeur « true » indique un type de taxonomie. Peut être vide pour les types d’enregistrements hors taxonomie.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>AUTORISATION</td>
@@ -9453,25 +9285,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Niveau d’autorisation configuré pour l’accès à ce type d’enregistrement (par exemple, « VIEW », « CONTRIBUTE », « MANAGE »). Peut être vide si aucune autorisation personnalisée n’est définie.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>AUTORISATION</td>
-        <td>Varchar</td>
-        <td>Niveau d’autorisation configuré pour l’accès à ce type d’enregistrement (par exemple, « VIEW », « CONTRIBUTE », « MANAGE »). Peut être vide si aucune autorisation personnalisée n’est définie.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>PRIMARYFIELDID</td>
-        <td>Varchar</td>
-        <td>Identifiant du champ désigné comme champ principal (titre) pour ce type d’enregistrement. Clé étrangère vers FIELD\_CURRENT.ID.</td>
-        <td>CHAMP\_COURANT</td>
-        <td>ID</td>
     </tr>
     <tr>
         <td>PRIMARYFIELDID</td>
@@ -9479,38 +9292,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Identifiant du champ désigné comme champ principal (titre) pour ce type d’enregistrement. Clé étrangère vers FIELD\_CURRENT.ID.</td>
         <td>CHAMP\_COURANT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>RECORDTYPEID</td>
-        <td>Varchar</td>
-        <td>Identificateur unique du type d'enregistrement Planning associé à l'enregistrement propriétaire de cette référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>REFERENCEVALUE</td>
-        <td>Varchar</td>
-        <td>Nom d’affichage de l’objet externe référencé à partir de la dernière actualisation des données (par exemple, nom de projet Workfront tel que « Beta » ou « Projet de tableaux de bord de la zone de travail »). Cette valeur reflète le nom de l’objet lors de l’actualisation et peut devenir obsolète si l’objet est renommé.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>RESTAURÉ</td>
@@ -9518,64 +9299,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indicateur qui signale si ce type d’enregistrement a été restauré après avoir été supprimé de manière réversible.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALCONNECTIONNAME</td>
-        <td>Varchar</td>
-        <td>Nom de la connexion externe par laquelle l'objet référencé est connecté (par exemple, nom de la connexion Workfront configurée dans Planning).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALID</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l’objet externe référencé (par exemple, un identifiant de projet Workfront, un identifiant de tâche ou un autre identifiant d’objet connecté).</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALOBJECTNAME</td>
-        <td>Varchar</td>
-        <td>Code d’objet de l’API Workfront pour le type d’objet externe référencé (par exemple, « PROJ » pour le projet, « TASK » pour la tâche, « PORT » pour Portfolio). Utilisez ceci pour déterminer la table Workfront à joindre lors de la recherche de l'objet référencé.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_RECORDID</td>
-        <td>Varchar</td>
-        <td>Identifiant unique de l'enregistrement Planning propriétaire de cette connexion de référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDID.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
@@ -9583,12 +9306,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Nom du service ou de l’intégration qui a déclenché la dernière modification de ce type d’enregistrement. Une valeur « Unknown » indique que le service d’origine n’a pas pu être déterminé.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>MIS À JOUR</td>
@@ -9596,25 +9313,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Indicateur indiquant le dernier type d’opération ayant affecté ce type d’enregistrement. Une valeur égale à 1 indique que le type d’enregistrement a été mis à jour lors du dernier cycle d’actualisation des données ; une valeur égale à 0 indique le contraire. Voir UPDATEDAT pour l’horodatage réel de la dernière mise à jour.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>MIS À JOUR</td>
-        <td>Nombre</td>
-        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été mise à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DATE DE MISE À JOUR</td>
@@ -9622,25 +9320,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de ce type d’enregistrement.</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DATE DE MISE À JOUR</td>
-        <td>Horodatage\_NTZ</td>
-        <td>Date et heure (pas de fuseau horaire) de la dernière mise à jour de ce type d’enregistrement.</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATEDBY</td>
@@ -9648,25 +9327,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Identifiant de l’utilisateur qui a mis à jour ce type d’enregistrement pour la dernière fois.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATEDBY</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur qui a mis à jour ce type d’enregistrement pour la dernière fois.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>USERID</td>
@@ -9674,25 +9334,6 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Identifiant de l’utilisateur associé à ce type d’enregistrement, généralement le propriétaire.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>USERID</td>
-        <td>Varchar</td>
-        <td>Identifiant de l’utilisateur associé à ce type d’enregistrement, généralement le propriétaire.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>WORKSPACEID</td>
@@ -9700,12 +9341,90 @@ Contient les définitions actuelles de tous les types d’enregistrements config
         <td>Identifiant unique de l’espace de travail auquel appartient ce type d’enregistrement. Utilisez avec WORKSPACE\_CURRENT pour rechercher les détails de l’espace de travail.</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+    </tr>
+</table>
+
+### REFERENCE\_CURRENT
+
+Contient le statut actuel de toutes les connexions de référence inter-objets entre les enregistrements Workfront Planning et les objets Workfront (ou autres objets externes). Chaque ligne représente une connexion de référence. Utilisez cette vue avec PLANNINGRECORD\_CURRENT.REFERENCE\_IDS pour résoudre les objets externes connectés.
+
+<table>
+    <tr>
+        <td>Nom de la colonne</td>
+        <td>Type</td>
+        <td>Description</td>
+        <td>Table connexe</td>
+        <td>Champ associé</td>
+    </tr>
+    <tr>
+        <td>CRÉÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été créée lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>SUPPRIMÉ</td>
+        <td>Nombre</td>
+        <td>Indicateur qui signale si cette connexion de référence a été supprimée de manière réversible. La valeur 1 indique que la référence est supprimée ; la valeur 0 indique qu'elle est active.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Horodatage\_NTZ</td>
+        <td>Date et heure de la dernière tâche d’actualisation des données à avoir chargé cet enregistrement de référence dans le lac de données. Mis à jour après chaque cycle d’actualisation des données réussi.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>Identificateur unique du type d'enregistrement Planning associé à l'enregistrement propriétaire de cette référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>Nom d’affichage de l’objet externe référencé à partir de la dernière actualisation des données (par exemple, nom de projet Workfront tel que « Beta » ou « Projet de tableaux de bord de la zone de travail »). Cette valeur reflète le nom de l’objet lors de l’actualisation et peut devenir obsolète si l’objet est renommé.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>Nom de la connexion externe par laquelle l'objet référencé est connecté (par exemple, nom de la connexion Workfront configurée dans Planning).</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l’objet externe référencé (par exemple, un identifiant de projet Workfront, un identifiant de tâche ou un autre identifiant d’objet connecté).</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>Code d’objet de l’API Workfront pour le type d’objet externe référencé (par exemple, « PROJ » pour le projet, « TASK » pour la tâche, « PORT » pour Portfolio). Utilisez ceci pour déterminer la table Workfront à joindre lors de la recherche de l'objet référencé.</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>Identifiant unique de l'enregistrement Planning propriétaire de cette connexion de référence. Clé étrangère de PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>MIS À JOUR</td>
+        <td>Nombre</td>
+        <td>Indicateur indiquant le dernier type d’opération ayant affecté cet enregistrement de référence. La valeur 1 indique que la référence a été mise à jour lors du dernier cycle d’actualisation des données ; la valeur 0 indique le contraire.</td>
+        <td>—</td>
+        <td>—</td>
     </tr>
 </table>
 
