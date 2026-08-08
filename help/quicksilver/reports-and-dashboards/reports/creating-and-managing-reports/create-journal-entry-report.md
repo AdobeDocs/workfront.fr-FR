@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2782
-ht-degree: 94%
+source-wordcount: 2783
+ht-degree: 93%
 
 ---
 
@@ -430,7 +430,7 @@ Pour observer comment des champs personnalisés ont évolué au cours du cycle d
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nouvelle valeur de texte</p> </td> 
-      <td> <p>Valeur de texte actuelle du champ personnalisé.</p> <p>Si le champ personnalisé est un champ de saisie semi-automatique, la colonne <strong>Nouvelle valeur de texte</strong> affiche l’ID de l’objet.</p> </td> 
+      <td> <p>Valeur de texte actuelle du champ personnalisé.</p> <p>Si le champ personnalisé est un champ de recherche interne, la colonne <strong>Nouvelle valeur de texte</strong> affiche l’ID d’objet.</p> </td> 
      </tr> 
     </tbody> 
    </table>

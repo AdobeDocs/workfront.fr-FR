@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ Pour plus d’informations sur les rapports intégrés, consultez la section [Ut
 
 Pour plus d’informations sur la création d’un rapport en le copiant, consultez [Créer une copie d’un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Pour plus d’informations sur la création et la gestion de rapports, y compris des cours, des vidéos et des tutoriels, consultez la section Adobe Experience League.
+Pour plus d’informations sur la création et la gestion de rapports, y compris des cours, des vidéos et des tutoriels, consultez la section Adobe Experience League.
 
 ## Conditions d’accès
 
@@ -142,7 +142,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour plus d’informations sur les champs que vous voyez dans les colonnes, consultez [Glossaire de la terminologie Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Ajouter une saisie semi-automatique de colonne](assets/nwe-add-column-typeahead-350x459.png)
+   ![Ajouter une colonne](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Facultatif) Dans la zone **Paramètres d’une colonne**, sélectionnez **Trier sur la base de cette colonne** pour trier les valeurs de la colonne par ordre alphabétique croissant ou décroissant, puis indiquez si la liste doit utiliser cette colonne comme premier tri.
 

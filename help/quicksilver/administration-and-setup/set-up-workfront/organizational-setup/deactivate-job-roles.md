@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 98%
+source-wordcount: 645
+ht-degree: 96%
 
 ---
 
@@ -34,8 +34,6 @@ ht-degree: 98%
 En tant qu’administrateur et administratrice d’[!DNL Adobe Workfront] ou utilisateur et utilisatrice disposant d’un accès administratif aux fonctions, vous pouvez désactiver les fonctions qui deviennent obsolètes dans votre système. Lorsque vous désactivez une fonction au lieu de la supprimer, vous pouvez conserver toutes les informations historiques qui lui sont associées.
 
 Vous pouvez également réactiver les fonctions précédemment désactivées.
-
-## Conditions d’accès
 
 ## Conditions d’accès
 
@@ -78,7 +76,7 @@ Si vous désactivez une fonction, elle ne s’affiche plus dans les zones suivan
   >Lorsque vous ajoutez un nouveau rôle à une personne, les fonctions désactivées ne s’affichent pas. Mais elles continuent de s’afficher dans les champs [!UICONTROL Rôle principal] et [!UICONTROL Autres rôles], si la personne était associée à ces fonctions avant leur désactivation
 
 * La boîte de dialogue [!UICONTROL Partage] pour les objets, y compris l’attribution du modèle de mise en page
-* Champs de saisie semi-automatique dans les formulaires personnalisés
+* Champs de recherche interne et de saisie semi-automatique dans les formulaires personnalisés
 * La variable [!UICONTROL Membres du pool] champ dans [!UICONTROL Pools de ressources]
 * Le champ [!UICONTROL Fonction] d’un écran de modification [!UICONTROL Taux de facturation] lorsqu’une personne remplace les taux de facturation des projets
 * La boîte de dialogue [!UICONTROL Ajouter une affectation au panorama Kanban] d’un projet
@@ -114,8 +112,8 @@ Nous vous recommandons d’effectuer les opérations suivantes avant de désacti
 
   Pour plus d’informations sur la création de processus de validation et de règles de routage, voir les articles suivants :
 
-   * [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Désactiver une fonction
 
