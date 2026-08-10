@@ -5,28 +5,33 @@ title: Compétences disponibles pour une installation directe
 description: Workfront propose des compétences que vous pouvez installer directement dans votre LLM.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+recommendations: noDisplay, noCatalog
+source-git-commit: 7fd4c07f2ea1e47e7abb7d3dd78638a6a01d0f47
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
 
 # Compétences disponibles pour une installation directe
 
-Workfront propose des compétences que vous pouvez installer directement dans votre LLM. Les compétences guident l’utilisation de ces outils pour des tâches spécifiques, avec les étapes adéquates déjà intégrées.
+Adobe Workfront propose des compétences que vous pouvez installer directement dans votre LLM. Les compétences guident l’utilisation de ces outils pour des tâches spécifiques, avec les étapes adéquates déjà intégrées.
 
-Vous trouverez ces compétences dans le référentiel GitHub des compétences Adobe .
+Vous trouverez ces compétences sous forme de fichiers dans le référentiel GitHub des compétences Adobe. Ce référentiel contient des fichiers pour divers produits Adobe. Lorsque vous téléchargez ces fichiers et que vous les copiez à Claude, Claude peut alors utiliser les compétences décrites dans les fichiers.
+
+Par exemple, les compétences d&#39;architecte de solution Planning permettent à Claude de répondre à des questions sur Workfront Planning et d&#39;effectuer certaines actions.
+
+Il n’est pas nécessaire d’appeler ou de déclencher ces compétences après les avoir copiées dans le LLM. Au lieu de cela, vous pouvez interagir avec votre LLM comme vous le faites habituellement, en posant des questions en langage naturel, et le LLM utilise les informations et les actions décrites dans les compétences appropriées à la conversation.
 
 >[!NOTE]
 >
 >Actuellement, ces compétences ne sont disponibles que pour Claude.
 >Pour obtenir des instructions sur la configuration de Claude avec Adobe, voir [Prise en main](https://developer.adobe.com/adobe-for-creativity/getting-started/) dans la documentation d’Adobe Developer.
 
-## Installez une compétence du référentiel GitHub de Workfront dans Claude.
+## Installer une compétence à partir du référentiel GitHub de Workfront dans Claude
 
-1. Accédez au [référentiel de compétences &#x200B;](https://github.com/adobe/skills/tree/main/plugins/workfront) sur GitHub.
+1. Accédez au [référentiel de compétences ](https://github.com/adobe/skills/tree/main/plugins/workfront) sur GitHub.
 1. Téléchargez le dossier de compétences que vous souhaitez utiliser.
 1. Copiez le dossier dans votre bibliothèque de compétences Claude.
 
