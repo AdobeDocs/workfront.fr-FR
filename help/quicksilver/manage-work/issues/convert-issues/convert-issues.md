@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Présentation de la conversion des problèmes dans Adobe Workfront
 description: Si vous devez travailler plus pour résoudre un problème après sa soumission, vous pouvez convertir ce problème en projet ou en tâche.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -11,24 +12,15 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
-ht-degree: 91%
+source-wordcount: 1547
+ht-degree: 92%
 
 ---
 
@@ -50,8 +42,8 @@ Pour plus d’informations sur la conversion d’événements en projets, voir [
 * Workfront remplace l’objet de résolution du problème lorsque vous le convertissez en tâche ou en projet. La nouvelle tâche ou le nouveau problème devient le nouvel objet de résolution du problème après la conversion.
 * Tenez compte des points suivants :
 
-   * Pendant la conversion, on vous demandera peut-être si vous souhaitez conserver le problème et sa résolution liés projet ou la tâche que vous créez.
-   * Si vous conservez le problème, le statut et le pourcentage terminé du projet ou de la tâche mettent automatiquement à jour le statut et le pourcentage terminé du problème lorsque des modifications se produisent sur le projet, la tâche ou le problème, ou lorsque Workfront recalcule la chronologie.
+  * Pendant la conversion, on vous demandera peut-être si vous souhaitez conserver le problème et sa résolution liés projet ou la tâche que vous créez.
+  * Si vous conservez le problème, le statut et le pourcentage terminé du projet ou de la tâche mettent automatiquement à jour le statut et le pourcentage terminé du problème lorsque des modifications se produisent sur le projet, la tâche ou le problème, ou lorsque Workfront recalcule la chronologie.
 
   >[!NOTE]
   >
@@ -65,11 +57,11 @@ Pour plus d’informations sur la conversion d’événements en projets, voir [
 * Lors de la conversion d’un problème en projet à l’aide d’un modèle, la plupart des informations du modèle sont transférées vers le nouveau projet. Cependant, certaines informations provenant du problème peuvent également être transférées vers le nouveau projet. Pour plus d’informations, voir la section [Vue d’ensemble des champs du projet lors de la conversion d’un problème en projet à l’aide d’un modèle](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) dans cet article.
 * Lors de la conversion d’un problème, tous les documents ou leurs informations ne sont pas déplacés vers le nouvel objet vers lequel le problème est converti. Les éléments suivants sont inclus lorsque vous convertissez un problème auquel sont associés des documents ou des liens vers des documents :
 
-   * Document
-   * Le document est lié à des services tiers, tels que Google Drive ou SharePoint.
-   * Versions
-   * Les épreuves ne sont incluses que lorsque l’option **Conserver le problème original et lier sa résolution à cette tâche** n’est pas sélectionnée.
-   * Les approbations de documents ne sont pas incluses lorsque vous convertissez un problème auquel des documents et des liens de documents sont joints.
+  * Document
+  * Le document est lié à des services tiers, tels que Google Drive ou SharePoint.
+  * Versions
+  * Les épreuves ne sont incluses que lorsque l’option **Conserver le problème original et lier sa résolution à cette tâche** n’est pas sélectionnée.
+  * Les approbations de documents ne sont pas incluses lorsque vous convertissez un problème auquel des documents et des liens de documents sont joints.
 * Le traitement d’un événement est limité à 5 minutes. Si le problème est associé à un grand nombre de documents et qu’il ne parvient pas à être converti, vous devrez peut-être supprimer certains des documents et réessayer.
 * Si vous avez décidé de conserver le problème dans la conversion et que des documents y sont joints, le document et ses versions sont copiés dans le projet ou la tâche. Les épreuves et les approbations de document ne sont pas copiés dans le projet ou la tâche.
 * Si vous avez décidé de ne pas conserver le problème dans la conversion et que des documents y sont joints, le document, ses versions et les épreuves sont transférés vers le projet ou la tâche. Les approbations de document ne seront pas transférées vers le projet ou la tâche.
@@ -102,7 +94,7 @@ Le tableau suivant répertorie les informations sur le projet et indique si elle
   <tr> 
    <td>Priorité</td> 
    <td><p>Est transféré à partir du problème.</p>
-   <p>Lorsque vous utilisez un modèle pour le projet converti, vous avez la possibilité de modifier manuellement la Priorité. Si vous choisissez de ne pas le modifier, la priorité de l’événement est transférée au projet. 
+   <p>Lorsque vous utilisez un modèle pour le projet converti, vous avez la possibilité de modifier manuellement la priorité. Si vous choisissez de ne pas la modifier, la priorité du problème est transférée au projet. 
     </td> 
   </tr> 
   <tr> 

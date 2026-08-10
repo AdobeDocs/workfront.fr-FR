@@ -9,22 +9,15 @@ exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 57%
+source-wordcount: 902
+ht-degree: 56%
 
 ---
 
@@ -112,10 +105,10 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
 * Ajoutez des portfolios à partir de Workfront Planning comme suit :
 
-   * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
+  * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
   Pour plus d&#39;informations sur la création de portefeuilles en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-   * Utilisation des automatisations de Workfront Planning.
+  * Utilisation des automatisations de Workfront Planning.
 
   Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +138,19 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
      Un portfolio est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
 
-      * `Untitled Portfolio` pour un portefeuille de stockage Workfront hérité.
+     * `Untitled Portfolio` pour un portefeuille de stockage Workfront hérité.
 
-        Un portfolio de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+       Un portfolio de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage dans le cloud Adobe
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage dans le cloud Adobe
 
-        >[!IMPORTANT]
-        >
-        >Les portfolios utilisant l’espace de stockage dans le cloud Adobe doivent avoir des noms uniques.
+       >[!IMPORTANT]
+       >
+       >Les portfolios utilisant l’espace de stockage dans le cloud Adobe doivent avoir des noms uniques.
 
      Pour les portfolios de stockage dans le cloud Adobe, un nouveau dossier de documents portant le même nom que le portfolio est automatiquement créé dans la zone Documents .
+
+     Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Remplacez le nom du portfolio par un nouveau nom dans l’en-tête du portfolio.
 
@@ -163,7 +158,7 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
 1. (Facultatif) Cliquez sur le nom sous **[!UICONTROL Personne gestionnaire de portfolio]** dans l’en-tête situé en haut de la page afin d’attribuer une autre personne responsable au portfolio.
 
-   ![nom du gestionnaire &#x200B;](assets/portfolio-manager-name-350x51.jpg)
+   ![nom du gestionnaire ](assets/portfolio-manager-name-350x51.jpg)
 
    En tant que créateur ou créatrice du portfolio, vous êtes gestionnaire de portfolio par défaut.
 
