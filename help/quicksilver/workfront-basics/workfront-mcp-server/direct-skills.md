@@ -31,7 +31,7 @@ Il n’est pas nécessaire d’appeler ou de déclencher ces compétences après
 
 ## Installer une compétence à partir du référentiel GitHub de Workfront dans Claude
 
-1. Accédez au [référentiel de compétences ](https://github.com/adobe/skills/tree/main/plugins/workfront) sur GitHub.
+1. Accédez au [référentiel de compétences &#x200B;](https://github.com/adobe/skills/tree/main/plugins/workfront) sur GitHub.
 1. Téléchargez le dossier de compétences que vous souhaitez utiliser.
 1. Copiez le dossier dans votre bibliothèque de compétences Claude.
 
