@@ -22,4 +22,4 @@ Les collaborateurs de l’IA sont des agents d’IA que vous pouvez affecter à 
 
 Regardez comment un collaborateur d’IA sélectionne et effectue des tâches dans Workfront.
 
->[!VIDEO]((URL HERE)/?quality=12&amp;learn=on)
+>[!VIDEO] ((URL HERE)/?quality=12&amp;learn=on)
