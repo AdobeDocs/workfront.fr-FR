@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 57%
+source-wordcount: 902
+ht-degree: 56%
 
 ---
 
@@ -112,10 +112,10 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
 * Ajoutez des portfolios à partir de Workfront Planning comme suit :
 
-   * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
+  * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
   Pour plus d&#39;informations sur la création de portefeuilles en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-   * Utilisation des automatisations de Workfront Planning.
+  * Utilisation des automatisations de Workfront Planning.
 
   Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +145,19 @@ Vous pouvez créer un portefeuille dans Workfront à l’aide de l’une des mé
 
      Un portfolio est créé et son nom par défaut suit les schémas suivants, en fonction du Workfront de stockage utilisé pour les documents :
 
-      * `Untitled Portfolio` pour un portefeuille de stockage Workfront hérité.
+     * `Untitled Portfolio` pour un portefeuille de stockage Workfront hérité.
 
-        Un portfolio de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
+       Un portfolio de stockage Workfront hérité affiche une icône **Stockage Workfront hérité** ![Icône de portfolio de stockage hérité](assets/legacy-storage-project-icon.png) en regard de son nom.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage dans le cloud Adobe
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` d’un portfolio de stockage dans le cloud Adobe
 
-        >[!IMPORTANT]
-        >
-        >Les portfolios utilisant l’espace de stockage dans le cloud Adobe doivent avoir des noms uniques.
+       >[!IMPORTANT]
+       >
+       >Les portfolios utilisant l’espace de stockage dans le cloud Adobe doivent avoir des noms uniques.
 
      Pour les portfolios de stockage dans le cloud Adobe, un nouveau dossier de documents portant le même nom que le portfolio est automatiquement créé dans la zone Documents .
+
+     Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Remplacez le nom du portfolio par un nouveau nom dans l’en-tête du portfolio.
 

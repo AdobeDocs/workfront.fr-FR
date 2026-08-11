@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: Déléguer le travail
 description: Lorsque vous prévoyez de quitter le bureau pendant une courte période, vous pouvez temporairement déléguer votre travail à d’autres personnes afin de vous assurer que votre absence ne devienne pas un obstacle à la réalisation de vos travaux. Les articles de cette section contiennent des informations sur la manière dont vous pouvez déléguer le travail lorsque vous quittez temporairement le bureau.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4
@@ -19,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 83%

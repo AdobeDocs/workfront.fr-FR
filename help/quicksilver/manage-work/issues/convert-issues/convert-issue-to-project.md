@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Convertir un événement en projet
 description: Si du travail supplémentaire doit être effectué pour résoudre un problème après l’envoi du problème, vous pouvez convertir le problème en projet dans Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 78%
@@ -108,12 +109,12 @@ Old:
 
 * Le traitement d’un événement en projet est limité à 5 minutes. Si le problème est associé à un grand nombre de documents et qu’il ne parvient pas à être converti, vous devrez peut-être supprimer certains des documents et réessayer.
 * Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent lors de la conversion d’un événement en projet : <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
-   * Un problème d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
+  * Un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
+  * Un problème d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
 
-     Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Convertir un problème en projet
 

@@ -4,10 +4,10 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '653'
+ht-degree: 4%
 
 ---
 
@@ -69,8 +69,28 @@ Voici quelques exemples de workflows :
 >* Lors de la configuration d&#39;un agent dans Copilot Studio, vous devez définir la sécurité sur **Aucune authentification**.
 >* Pour plus d’informations et d’instructions sur la création d’un espace de collaboration dans Workfront, consultez [Configurer un espace de collaboration de tâche](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article Configurer des espaces de collaboration IA.
 
+## Déclencheurs de démarrage de Task Collaborator
+
+Lorsqu&#39;un collaborateur de tâches est affecté à une tâche, il commence à travailler lorsque l&#39;une des situations suivantes est remplie :
+
+* Le collaborateur de tâches est affecté à une tâche prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
+* Le collaborateur de tâches et un utilisateur sont affectés à une tâche, et le collaborateur de tâches est affecté en premier.
+* Une tâche à laquelle un collaborateur de tâches est déjà affecté est prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
+* Une tâche à laquelle un collaborateur de tâches et un utilisateur sont déjà affectés est prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
+* Un utilisateur et un collaborateur de tâches sont affectés à une tâche et l&#39;utilisateur est supprimé.
+* Un utilisateur et un collaborateur de tâches sont affectés à une tâche, et le collaborateur de tâches est défini comme cessionnaire Principal pour la tâche.
+
+Les situations suivantes n&#39;entraînent pas le début du travail sur la tâche par le collaborateur de tâches :
+
+* Un collaborateur de tâches est affecté à une tâche à laquelle un utilisateur est déjà affecté.
+* Un collaborateur de tâches est @mentioned dans une tâche.
+* Un collaborateur de tâches est affecté à une tâche à laquelle un collaborateur de tâches est déjà affecté. Dans ce cas, seul le premier collaborateur affecté à la tâche commence à travailler sur la tâche.
+* Un collaborateur de tâches est affecté à une tâche qui n&#39;est pas prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci ne sont pas encore terminés.)
+
 ## Affecter un collaborateur de tâches à une tâche
 
 Les collaborateurs de tâches sont affectés à des tâches de la même manière que les utilisateurs.
+
+Lorsque vous recherchez un collaborateur de tâches dans la liste des cessionnaires disponibles, le nom du collaborateur de tâches n&#39;est qu&#39;un prénom.
 
 Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).

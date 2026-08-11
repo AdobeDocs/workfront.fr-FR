@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: Exporter le graphique de Gantt au format PDF
 description: Vous pouvez exporter le graphique Gantt vers un PDF. Ensuite, vous pouvez l’imprimer ou le joindre à un e-mail pour le partager avec d’autres utilisateurs.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: 983
 ht-degree: 40%
 
 ---
@@ -119,18 +120,18 @@ Old:
 
      Sélectionnez l’une des options suivantes :
 
-      * Dates effectives
-      * Affectations
-      * Niveau de référence
-      * Date d’engagement
-      * % effectué
-      * Chemin critique
-      * Losanges de jalons
-      * Lignes de jalons
-      * Tâches antérieures
-      * Statut de progression
-      * (Conditionnel) Dates Prévues
-      * (Conditionnel) Dates Prévues
+     * Dates effectives
+     * Affectations
+     * Niveau de référence
+     * Date d’engagement
+     * % effectué
+     * Chemin critique
+     * Losanges de jalons
+     * Lignes de jalons
+     * Tâches antérieures
+     * Statut de progression
+     * (Conditionnel) Dates Prévues
+     * (Conditionnel) Dates Prévues
 
      Pour plus d’informations, voir [Configurer l’affichage des informations sur le [!UICONTROL graphique de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
@@ -178,7 +179,7 @@ La boîte de dialogue **[!UICONTROL Exporter vers PDF]** s’affiche.
 
 
 1. Si le PDF est imprimé après avoir été exporté vers PDF, sélectionnez la taille du papier sur lequel vous souhaitez imprimer dans le menu déroulant **[!UICONTROL Taille de la page]**.
-Vous pouvez choisir parmi les options suivantes :
+Vous pouvez sélectionner l’une des options suivantes :
 
    * **[!UICONTROL Lettre]**
    * **[!UICONTROL Légal]**

@@ -6,9 +6,9 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ L’administrateur Workfront peut effectuer l’une des opérations suivantes :
 * Choisissez l’une des deux options de stockage par défaut pour votre entreprise
 * Permet de choisir le stockage à utiliser lors de la création de l&#39;un des objets suivants :
 
-   * Projets
-   * Portefeuilles
-   * Modèles
+  * Projets
+  * Portefeuilles
+  * Modèles
 
 Pour plus d’informations sur la définition des préférences de stockage pour Workfront, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
@@ -106,12 +106,12 @@ Les clients peuvent avoir accès à l’une des fonctionnalités de stockage de 
 * Uniquement l’espace de stockage dans le cloud Adobe. La zone Préférences de stockage dans les Préférences système n&#39;existe pas.
 * Stockage Workfront et stockage dans le cloud Adobe L’administrateur Workfront peut choisir entre les options suivantes :
 
-   * Sélectionne un environnement de stockage par défaut pour la gestion future des documents.
-   * Permet aux utilisateurs de choisir le stockage qu’ils choisissent lorsqu’ils créent les objets suivants :
+  * Sélectionne un environnement de stockage par défaut pour la gestion future des documents.
+  * Permet aux utilisateurs de choisir le stockage qu’ils choisissent lorsqu’ils créent les objets suivants :
 
-      * Projets
-      * Portefeuilles
-      * Modèles
+    * Projets
+    * Portefeuilles
+    * Modèles
 
   >[!NOTE]
   >
@@ -144,12 +144,19 @@ Tenez compte des points suivants lorsque vous utilisez des portfolios :
 
 * Lorsque vous créez un portfolio de stockage dans le cloud Adobe, Workfront crée un dossier dans la section Documents du portfolio où les documents sont enregistrés. Le nom du dossier est identique à celui du portfolio. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du portfolio pour qu’il corresponde au nouveau nom du portfolio.
 
-* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité et qu’aucun document n’y est associé, le portfolio est converti en portfolio de stockage dans le cloud Adobe.
-* Lorsque vous ajoutez un projet de stockage dans le cloud Adobe à un portfolio de stockage Workfront hérité auquel des documents sont associés, le stockage des documents du portfolio reste sur le stockage Workfront. Toutefois, l’icône de stockage Workfront héritée pour le portfolio ![icône de stockage de portfolio héritée](assets/legacy-storage-project-icon.png) est supprimée du portfolio.
+<!--
+This is not possible anymore: 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+-->
 * Vous ne pouvez pas ajouter un projet de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un projet de stockage hérité à un portefeuille de stockage Adobe.
 * Votre administrateur peut convertir un portefeuille de stockage hérité en stockage cloud Adobe dans les Préférences système de la Configuration. Tous les objets enfants (programmes, projets et documents) restent dans le stockage hérité. Les nouveaux projets utiliseront l’espace de stockage dans le cloud d’Adobe. Les nouveaux documents ajoutés au portfolio continueront à être stockés dans l’espace de stockage hérité.
 Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* &#x200B;<!-- this point also repeats for programs below-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
 
+  Vous ne pouvez plus ajouter de projets de stockage hérités existants à ce portefeuille.
+
+  Tous les nouveaux projets doivent utiliser l’espace de stockage dans le cloud Adobe (car le portfolio utilise désormais l’espace de stockage dans le cloud Adobe). Lorsqu’un projet de stockage dans le cloud Adobe de ce type est créé pour le programme, celui-ci est automatiquement converti de l’ancien vers l’espace de stockage dans le cloud Adobe et ne peut plus être ajouté à partir de ce moment-là.
 * Lorsque vous créez des portfolios à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le portefeuille. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 
@@ -164,6 +171,11 @@ Tenez compte des points suivants lorsque vous utilisez des programmes :
 * Vous ne pouvez pas ajouter un programme de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un programme hérité à un portefeuille de stockage dans le cloud Adobe.
 * Vous ne pouvez pas créer de projet à partir d’un modèle de stockage dans le cloud Adobe dans un programme de stockage hérité.
 * Vous pouvez créer un projet à partir d’un modèle de stockage hérité dans un programme de stockage dans le cloud Adobe, mais les documents et dossiers du modèle ne sont pas ajoutés au nouveau projet. Le projet reçoit l’espace de stockage cloud Adobe.
+* &#x200B;<!-- this point also repeats for portfolios above-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
+
+  Vous ne pouvez plus ajouter de projets de stockage hérités existants à ce portefeuille.
+
+  Tous les nouveaux projets doivent utiliser l’espace de stockage dans le cloud Adobe (car le portfolio utilise désormais l’espace de stockage dans le cloud Adobe). Lorsqu’un projet de stockage dans le cloud Adobe de ce type est créé pour le programme, celui-ci est automatiquement converti de l’ancien vers l’espace de stockage dans le cloud Adobe et ne peut plus être ajouté à partir de ce moment-là.
 * Lorsque vous créez des programmes à l’aide d’une automatisation de Workfront Planning, Workfront utilise la préférence de stockage par défaut de votre système pour le programme. Vous devez acheter le package Planning pour accéder à Workfront Planning.
 
 ### Gestion des documents pour les tâches
@@ -176,10 +188,10 @@ Tenez compte des points suivants lorsque vous utilisez des tâches :
 * Pour les projets d’espace de stockage Adobe, le dossier de documents d’une tâche s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer une tâche d’un projet de stockage Workfront hérité vers un projet de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
 * Les scénarios suivants existent lors de la conversion d&#39;une tâche en projet : <!--this info also duplicated in Convert tasks to projects-->
-   * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
-   * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
+  * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
+  * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
 * Vous ne pouvez pas ajouter de documents aux tâches d’espace de stockage Adobe dans le panneau Résumé .
 
 ### Gestion des documents pour les problèmes
@@ -192,10 +204,10 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
 * Pour les projets d’espace de stockage Adobe, le dossier de documents relatif à un événement s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer un problème d’un projet de stockage Workfront hérité vers un projet de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
 * Les scénarios suivants existent lors de la conversion d&#39;un événement en projet : <!--this info also duplicated in Convert an issue to a project-->
-   * Un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
-   * Un problème d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
+  * Un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
+  * Un problème d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage Workfront hérité pour convertir un problème de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir un problème de stockage Workfront hérité crée un projet de stockage Workfront hérité.
 * Vous ne pouvez pas ajouter de documents à des problèmes d’espace de stockage Adobe dans le panneau Résumé .
 
 ### Gestion des documents pour les demandes
@@ -211,8 +223,8 @@ Tenez compte des points suivants lorsque vous utilisez des modèles :
 * Vous pouvez utiliser un modèle de stockage Workfront hérité pour créer des projets de stockage Workfront hérités ; vous pouvez utiliser un modèle de stockage cloud Adobe pour créer un projet de stockage cloud Adobe.
 
 * Lors de la création de projets à l’aide de modèles provenant d’un portfolio ou d’un programme, les scénarios suivants existent :
-   * Vous ne pouvez pas utiliser un modèle de stockage dans le cloud Adobe d’un portfolio ou programme de stockage Workfront hérité pour créer un projet.
-   * Vous pouvez créer un projet de stockage dans le cloud Adobe pour un portfolio ou un programme de stockage Adobe à l’aide d’un modèle de stockage hérité. Les documents et dossiers de modèle ne sont pas joints au nouveau projet.
+  * Vous ne pouvez pas utiliser un modèle de stockage dans le cloud Adobe d’un portfolio ou programme de stockage Workfront hérité pour créer un projet.
+  * Vous pouvez créer un projet de stockage dans le cloud Adobe pour un portfolio ou un programme de stockage Adobe à l’aide d’un modèle de stockage hérité. Les documents et dossiers de modèle ne sont pas joints au nouveau projet.
 
 * Vous pouvez joindre un modèle de stockage Workfront hérité à un projet de stockage dans le cloud Adobe sans modifier l’emplacement de stockage des documents dans le projet.
 * Vous pouvez joindre un modèle de stockage dans le cloud Adobe à un projet de stockage Workfront hérité et cela ne modifie pas l’emplacement de stockage des documents sur le projet. Les documents du dossier de stockage dans le cloud Adobe pour le modèle sont ajoutés directement au projet, sans le dossier , tandis que les documents des dossiers de tâches de modèles sont ajoutés aux dossiers joints aux tâches du projet dans la section Documents des tâches.

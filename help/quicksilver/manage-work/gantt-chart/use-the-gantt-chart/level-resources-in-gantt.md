@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: Niveler les ressources dans le [!UICONTROL Diagramme de Gantt]
 description: Si la même ressource est affectée à deux tâches différentes, vous pouvez utiliser le nivellement des ressources pour ajuster la chronologie des tâches afin qu’elles ne se déroulent pas en même temps. Cet article fournit des informations sur la façon d'niveler des ressources dans le graphique Gantt.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 86%

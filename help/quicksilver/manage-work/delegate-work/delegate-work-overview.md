@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: Vue d’ensemble de la délégation de travail
 description: Lorsque vous prévoyez de quitter le bureau pendant une courte période, vous pouvez temporairement déléguer votre travail à d’autres personnes afin de vous assurer que votre absence ne devienne pas un obstacle à la réalisation de vos travaux.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 90%
@@ -70,9 +71,9 @@ Tenez compte des points suivants lorsque vous déléguez des tâches et des prob
 * Vous ne pouvez déléguer des tâches et des problèmes qu’à partir de la zone [!UICONTROL Accueil].
 * Lors de la délégation de travail, des exceptions existent pour les types de licence suivants :
 
-   * Vous pouvez déléguer du travail aux personnes réviseuses ou demandeuses, bien que [!DNL Workfront] ne le recommande pas.
-   * Les personnes réviseuses peuvent déléguer du travail à d’autres personnes. Elles ne peuvent pas afficher les éléments de travail dans leur zone [!UICONTROL Accueil]. Elles ne peuvent afficher que les approbations.
-   * Les personnes demandeuses ne peuvent pas déléguer du travail à d’autres personnes. Elles ne peuvent pas afficher les éléments de travail dans leur zone [!UICONTROL Accueil].
+  * Vous pouvez déléguer du travail aux personnes réviseuses ou demandeuses, bien que [!DNL Workfront] ne le recommande pas.
+  * Les personnes réviseuses peuvent déléguer du travail à d’autres personnes. Elles ne peuvent pas afficher les éléments de travail dans leur zone [!UICONTROL Accueil]. Elles ne peuvent afficher que les approbations.
+  * Les personnes demandeuses ne peuvent pas déléguer du travail à d’autres personnes. Elles ne peuvent pas afficher les éléments de travail dans leur zone [!UICONTROL Accueil].
 * Vous pouvez uniquement déléguer les tâches et les problèmes qui vous sont affectés. Vous ne pouvez pas déléguer des tâches et des problèmes affectés à d’autres personnes, équipes ou fonctions.
 * Vous pouvez uniquement déléguer des tâches et des problèmes qui ne sont pas terminés avant la date de début de la délégation.
 * Si un élément de travail se termine au cours de la période de délégation, il reste dans la zone Accueil de la personne déléguée et de la personne cessionnaire pendant 2 semaines avant sa suppression automatique par [!DNL Workfront].

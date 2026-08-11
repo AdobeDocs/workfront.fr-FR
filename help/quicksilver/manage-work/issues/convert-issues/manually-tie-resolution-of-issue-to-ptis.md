@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Lier manuellement la résolution d'un problème à d'autres problèmes, tâches ou projets
 description: Vous pouvez lier manuellement la résolution d’un problème à la résolution d’un projet, d’une tâche ou d’un problème sans le convertir. Le problème devient l’un des objets résolvables du projet, de la tâche ou du problème que vous sélectionnez. Lorsque vous procédez de la sorte, une modification du statut du projet, de la tâche ou du problème déclenche une modification du statut du problème d’origine.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 95%
