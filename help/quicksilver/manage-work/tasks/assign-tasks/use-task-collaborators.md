@@ -4,9 +4,9 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '684'
 ht-degree: 4%
 
 ---
@@ -75,8 +75,8 @@ Lorsqu&#39;un collaborateur de tâches est affecté à une tâche, il commence �
 
 * Le collaborateur de tâches est affecté à une tâche prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
 * Le collaborateur de tâches et un utilisateur sont affectés à une tâche, et le collaborateur de tâches est affecté en premier.
-* Une tâche à laquelle un collaborateur de tâches est déjà affecté est prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
-* Une tâche à laquelle un collaborateur de tâches et un utilisateur sont déjà affectés est prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
+* Une tâche à laquelle un collaborateur de tâches est déjà affecté devient prête à démarrer et le collaborateur de tâches est le seul ou le principal cessionnaire. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
+* Une tâche à laquelle un collaborateur de tâches et un utilisateur sont déjà affectés est prête à démarrer et le collaborateur de tâches a été affecté en premier ou est le cessionnaire principal. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
 * Un utilisateur et un collaborateur de tâches sont affectés à une tâche et l&#39;utilisateur est supprimé.
 * Un utilisateur et un collaborateur de tâches sont affectés à une tâche, et le collaborateur de tâches est défini comme cessionnaire Principal pour la tâche.
 
@@ -84,7 +84,7 @@ Les situations suivantes n&#39;entraînent pas le début du travail sur la tâch
 
 * Un collaborateur de tâches est affecté à une tâche à laquelle un utilisateur est déjà affecté.
 * Un collaborateur de tâches est @mentioned dans une tâche.
-* Un collaborateur de tâches est affecté à une tâche à laquelle un collaborateur de tâches est déjà affecté. Dans ce cas, seul le premier collaborateur affecté à la tâche commence à travailler sur la tâche.
+* Un collaborateur de tâches est affecté à une tâche à laquelle un collaborateur de tâches est déjà affecté. Dans ce cas, le premier collaborateur de tâche affecté aura déjà commencé le travail, et le second collaborateur de tâche ne fera rien.
 * Un collaborateur de tâches est affecté à une tâche qui n&#39;est pas prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci ne sont pas encore terminés.)
 
 ## Affecter un collaborateur de tâches à une tâche
