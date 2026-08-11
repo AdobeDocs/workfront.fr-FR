@@ -9,20 +9,14 @@ exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uQNAYGgSYY6--5tGVwmcr29NwFZKrp63QZTzNnvvp94
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 82%
 
 ---
@@ -105,6 +99,7 @@ Les informations peuvent être exportées dans les formats suivants :
 * PDF (paysage ou portrait)
 * Excel
 * Excel (.xlsx)
+* CSV
 * Délimité par des tabulations
 
 >[!NOTE]
@@ -122,9 +117,9 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 * **50 000 cellules :** nombre maximal de cellules autorisées dans un rapport exporté pour des fichiers Excel.
 * **50 000 lignes :** nombre de lignes de données autorisées dans une exportation de rapport pour les fichiers PDF et délimités par des tabulations.
 
-   * Pour les fichiers Excel, cette limite est de 65 000 lignes **.**
-   * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes **.**
-   * Ces limites excluent les en-têtes de colonne, ainsi que les lignes des regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes de données, le fichier exporté contiendra 50 000 lignes.
+  * Pour les fichiers Excel, cette limite est de 65 000 lignes **.**
+  * Pour les fichiers Excel(.xlsx), cette limite est de 100 000 lignes **.**
+  * Ces limites excluent les en-têtes de colonne, ainsi que les lignes des regroupements dans le rapport. Par exemple, si un rapport comporte 6 regroupements et 50 000 lignes de données, le fichier exporté contiendra 50 000 lignes.
 
   >[!IMPORTANT]
   >
@@ -142,20 +137,20 @@ L’affichage des rapports dans Workfront présente plusieurs limites, ainsi que
 
 * Ces limites s’appliquent aux éléments suivants :
 
-   * Export manuel d’un rapport.
-   * Rapport planifié.
-   * Export via une intégration API.
-   * Données exportées via un Kickstart.
+  * Export manuel d’un rapport.
+  * Rapport planifié.
+  * Export via une intégration API.
+  * Données exportées via un Kickstart.
 
-     Pour plus d’informations sur l’export de données via Kickstart, voir [Exporter des données à partir d’Adobe Workfront via Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+    Pour plus d’informations sur l’export de données via Kickstart, voir [Exporter des données à partir d’Adobe Workfront via Kickstart](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-     >[!NOTE]
-     >
-     >Vous pouvez exporter 50 000 lignes dans un fichier Kickstart, mais vous ne pouvez exporter les données que dans un fichier au format Excel.
+    >[!NOTE]
+    >
+    >Vous pouvez exporter 50 000 lignes dans un fichier Kickstart, mais vous ne pouvez exporter les données que dans un fichier au format Excel.
 
-   * Export d’informations d’utilisation pour un projet.
+  * Export d’informations d’utilisation pour un projet.
 
-     Pour plus d’informations sur l’export des informations d’utilisation pour un projet, voir [Vue d’ensemble du rapport d’utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+    Pour plus d’informations sur l’export des informations d’utilisation pour un projet, voir [Vue d’ensemble du rapport d’utilisation des ressources](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **Taille de fichier de 10 Mo :** limite de taille de fichier pour tout rapport exporté dont la remise est planifiée. Si un fichier exporté joint à un e-mail dépasse 5 Mo, un lien pour le téléchargement du fichier est envoyé par e-mail à la place du rapport exporté joint.
 * **65 530 liens hypertexte :** il s’agit d’une limite imposée par Excel aux documents qui contiennent plus de 65 530 liens hypertexte. Ces documents ne peuvent pas être ouverts lorsqu’ils sont exportés manuellement ou envoyés dans un rapport diffusé. Notez qu’un document Excel peut ne contenir que 200 lignes de données, mais s’il existe plus de 65 530 liens dans le document, celui-ci ne s’ouvre pas. Cette limite existe uniquement pour les fichiers Excel, et non pour les autres formats pris en charge.
@@ -240,13 +235,13 @@ Lorsque vous exportez une liste de tâches ou de problèmes, le **Nom du fichier
 
 * Lorsque vous exportez des listes de tâches et de problèmes dans un projet :
 
-   * *Nom_du_projet_Tâches_exportées* (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
-   * *Nom_du_projet_Problèmes_exportés* (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
+  * *Nom_du_projet_Tâches_exportées* (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
+  * *Nom_du_projet_Problèmes_exportés* (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
 
 * Lorsque vous exportez des listes de tâches et de problèmes dans une tâche (sous-tâches) :
 
-   * **Nom_du_projet_nom_de_la_tâche_Tâches_exportées** (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
-   * **Nom_du_projet_nom_de_la_tâche_Problèmes_exportés** (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
+  * **Nom_du_projet_nom_de_la_tâche_Tâches_exportées** (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
+  * **Nom_du_projet_nom_de_la_tâche_Problèmes_exportés** (*dans des formats PDF, Excel, Excel (.xlsx) ou délimité par des tabulations)*
 
 Lorsque vous exportez une liste d’autres objets d’un projet vers un fichier PDF, le nom du fichier du document exporté indique le type d’objets que vous avez exportés.\
 Le nom du fichier peut ressembler à ceci :
