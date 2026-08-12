@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 3%
 
 ---
@@ -144,6 +137,28 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 * Il existe des limitations dans l’affichage de certains types de champs dans un formulaire de demande ou dans la page des détails de la demande après l’envoi d’un formulaire.
 
   Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+<!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
@@ -282,6 +297,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
 
+## Soumettre une demande Planning à partir d&#39;une page de type d&#39;enregistrement
+
+Vous pouvez soumettre une demande lorsque vous ajoutez de nouveaux enregistrements à partir d’une page de type d’enregistrement.
+
+{{step1-to-planning}}
+
+1. Cliquez sur la carte d’un espace de travail, puis sur la carte d’un type d’enregistrement pour lequel vous avez accès à la création d’enregistrements.
+1. Depuis n’importe quel affichage de la page du type d’enregistrement, cliquez sur Nouvel enregistrement, puis sur **Soumettre une demande**.
+
+   >[!TIP]
+   >
+   >Les formulaires de demande doivent être créés et publiés avant que l’option **Envoyer une demande** ne soit ajoutée à la fonctionnalité **Nouvel enregistrement**.
+
+1. Cliquez sur **Continuer**.
+
+1. (Conditionnel) Si le type d&#39;enregistrement comporte plusieurs formulaires de demande, cliquez sur le formulaire de demande à utiliser dans la zone **Nouvelle demande**.
+
+   Le formulaire de demande s’ouvre.
+1. Commencer à renseigner toutes les informations dans tous les champs disponibles
+
+   Ou cliquez sur **Remplir le formulaire** pour que l’IA remplisse le formulaire pour vous.
+1. Cliquez sur **Soumettre la demande**.
+
+   La demande a été soumise.
+
+1. (Facultatif) Cliquez sur l’une des options suivantes :
+
+   * **Envoyez une autre demande** pour ouvrir un nouveau formulaire.
+   * **Affichez votre demande** pour ouvrir votre nouvelle demande.
+   * L’icône **X** dans le coin supérieur droit de la zone pour revenir à la page du type d’enregistrement.
+
+   Si aucune approbation n&#39;est associée à votre demande, un enregistrement a été ajouté au type d&#39;enregistrement que vous avez sélectionné à l&#39;étape 2. <!--accurate??-->
+
+
 ## Envoyez une demande à Workfront Planning à partir d’un lien partagé vers un formulaire de demande
 
 Les informations de cette section s’appliquent uniquement aux personnes qui envoient une demande à partir d’un lien partagé et qui peuvent ne pas disposer d’un compte Workfront.
@@ -323,13 +372,13 @@ Les personnes externes ne peuvent pas accéder aux zones internes de Workfront, 
 
 1. (Facultatif) Cliquez sur **Afficher votre demande** pour ouvrir la demande dans Workfront.
 
-Ou
+   Ou
 
-Cliquez sur [Soumettre une autre demande](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) pour ouvrir le formulaire de demande et ajouter une nouvelle demande.
+   Cliquez sur [Soumettre une autre demande](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) pour ouvrir le formulaire de demande et ajouter une nouvelle demande.
 
-La page des détails de la requête s’ouvre.
+   La page des détails de la requête s’ouvre.
 
-![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
+   ![Demander une page avec des commentaires](assets/new-request-page-with-comment.png)
 
 1. (Facultatif) Saisissez un commentaire dans la zone **Commentaires**.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
@@ -382,7 +431,7 @@ Pour supprimer une demande Planning après l&#39;ouverture de la demande :
 
 1. Ouvrez une demande Planning en cliquant sur son nom dans la liste des demandes.
 1. Cliquez sur l’icône **Plus** ![Menu Plus](assets/more-menu.png) à droite du nom de la requête, puis cliquez sur **Supprimer**.
-1. Cliquez sur D **e** lete dans la zone **Supprimer définitivement** pour confirmer.
+1. Cliquez sur **Supprimer** dans la zone **Supprimer définitivement** pour confirmer.
 
    La demande est supprimée et ne peut pas être récupérée.
 

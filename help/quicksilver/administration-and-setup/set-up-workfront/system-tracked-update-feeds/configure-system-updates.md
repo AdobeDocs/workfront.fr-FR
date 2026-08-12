@@ -11,20 +11,15 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 904
-ht-degree: 51%
+source-wordcount: 958
+ht-degree: 48%
 
 ---
 
@@ -190,6 +185,8 @@ Par exemple, vous pouvez demander [!DNL Workfront] enregistrer une mise à jour 
 
 La modification s’affiche alors sous la forme d’une mise à jour du système dans la zone [!UICONTROL Mises à jour] de la tâche ou du problème.
 
+Lorsque vous désactivez une action, toute mise à jour précédemment enregistrée la concernant est conservée dans la zone [!UICONTROL Mises à jour] où elle a été enregistrée. [!DNL Workfront] arrête d’enregistrer les nouvelles mises à jour de l’action désactivée.
+
 Le tableau suivant décrit les actions que vous pouvez suivre sur les objets dans [!DNL Workfront] :
 
 <table style="table-layout:auto"> 
@@ -199,7 +196,7 @@ Le tableau suivant décrit les actions que vous pouvez suivre sur les objets dan
  <thead> 
   <tr> 
    <th><strong>Action</strong> </th> 
-   <th><strong>Objets</strong> </th> 
+   <th><strong>Objets auxquels s’applique l’action</strong> </th> 
    <th><strong>Statut par défaut</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +265,6 @@ Pour configurer les actions que vous souhaitez que [!DNL Workfront] suive, proc�
 1. Cochez la case d’une action pour l’activer ou désélectionnez-la pour la désactiver.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-   Lorsque vous désactivez une action, toute mise à jour précédemment enregistrée la concernant est conservée dans la zone [!UICONTROL Mises à jour] où elle a été enregistrée. [!DNL Workfront] arrête d’enregistrer les nouvelles mises à jour de l’action désactivée.
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+
