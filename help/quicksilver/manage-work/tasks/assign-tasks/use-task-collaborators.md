@@ -4,9 +4,9 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 3%
 
 ---
@@ -94,6 +94,10 @@ Les collaborateurs de tâches sont affectés à des tâches de la même manière
 Lorsque vous recherchez un collaborateur de tâches dans la liste des cessionnaires disponibles, le nom du collaborateur de tâches n&#39;est qu&#39;un prénom.
 
 Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>Les collaborateurs de tâche ne peuvent pas être affectés à la révision ou à l&#39;approbation d&#39;un document.
 
 ## Résolution des problèmes des collaborateurs de tâches
 
