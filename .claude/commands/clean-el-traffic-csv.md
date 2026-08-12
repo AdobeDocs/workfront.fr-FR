@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: Nettoie une exportation CSV de trafic Experience League/Adobe Analytics brut vers des pages uniquement Workfront, triées par Pages vues. À utiliser lorsque l’utilisateur fournit un fichier CSV de trafic de pages Experience League (colonnes telles que « URL de page générique », « Visiteurs uniques », « Visites », « Pages vues ») et demande à le nettoyer, à le filtrer ou à le traiter, ou mentionne les feuilles de calcul « suivi de la documentation » / « articles les plus consultés ».
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Nettoyer le trafic Experience League au format CSV
 
-Transforme une exportation brute de trafic de page Experience League sous forme de tableau à structure libre Adobe Analytics en un fichier CSV dédupliqué, propre et uniquement Workfront, trié par pages vues, en remplaçant le fichier d’origine.
+Transforme une exportation brute de trafic de page Experience League sous forme de tableau à structure libre Adobe Analytics en un fichier CSV dédupliqué, propre et uniquement Workfront, trié par pages vues, en remplaçant le fichier d’origine et en enregistrant une copie datée sur le Bureau.
 
 ## Formes d&#39;entrée
 
@@ -79,6 +79,18 @@ Ordre des lignes finales : ligne de période → ligne d’en-tête → lignes d
 ### Étape 8 : enregistrer
 
 Remplacez le fichier d’entrée d’origine avec le résultat nettoyé.
+
+### Étape 9 : enregistrer une copie datée sur le Bureau (exportation brute uniquement, si une période a été capturée à l’étape 0)
+
+Créez une version de la période compatible avec les noms de fichier : supprimez les virgules et remplacez n’importe quel `\ / : * ? " < > |` par `-` (ces caractères ne sont pas valides dans les noms de fichier Windows et pourraient autrement apparaître dans une période en fonction des paramètres régionaux/du format d’exportation).
+
+Enregistrez une copie supplémentaire du fichier CSV nettoyé (même contenu que l’étape 8) sur le Bureau de l’utilisateur actuel, nommée :
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+Exemple : une plage de `Apr 1, 2026 - Apr 30, 2026` capturée devient `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`.
+
+Ignorez cette étape pour un fichier CSV déjà nettoyé (forme 2), sauf si l’utilisateur fournit une période séparément.
 
 ## Hors de portée
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-Pour un fichier CSV déjà nettoyé (forme d’entrée 2), ignorez la logique de déplacement de l’en-tête et de période ; exécutez simplement les étapes 2 à 6 et 8 sur l’en-tête/les lignes existants en l’état.
+Pour un fichier CSV déjà nettoyé (forme d’entrée 2), ignorez le déplacement de l’en-tête, la logique de période et l’étape 9 : exécutez simplement les étapes 2 à 6 et 8 sur l’en-tête/les lignes existants en l’état.

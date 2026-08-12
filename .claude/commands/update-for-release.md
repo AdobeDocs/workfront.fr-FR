@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
+source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Cette compétence vous guide tout au long de la mise à jour des articles d’aide de Workfront pour une prochaine version. Le workflow est l’inverse de `remove-preview-highlighting` : le nouveau comportement est ajouté aux articles, marqué comme Aperçu, et (plus tard, en disponibilité générale) nettoyé par cette autre compétence.
 
-## Étendue
+## Portée
 
 Appliquer lorsque **tous** sont vrais :
 
@@ -79,27 +79,29 @@ Pour chaque article de la liste confirmée par l’utilisateur :
 4. **Regrouper les nouveaux détails dans « toujours inclure » plutôt que dans « à réviser ».** C&#39;est l&#39;étape la plus importante.
 
    - **Toujours inclure** (appliquer automatiquement, pas d’invite) : comportements invisibles que l’utilisateur ne peut pas observer lors de son interaction avec l’interface utilisateur. Exemples :
-      - Effets secondaires (par exemple, « la modification de ce paramètre renvoie l’e-mail à tous les participants »)
-      - Comportement sur d’autres objets ou événements ultérieurs
-      - Conditions préalables et autorisations
-      - Limites non affichées dans l’interface utilisateur
-      - Tout ce que l’utilisateur peut uniquement apprendre du PRD, des documents ou de l’équipe produit
+     - Effets secondaires (par exemple, « la modification de ce paramètre renvoie l’e-mail à tous les participants »)
+     - Comportement sur d’autres objets ou événements ultérieurs
+     - Conditions préalables et autorisations
+     - Limites non affichées dans l’interface utilisateur
+     - Tout ce que l’utilisateur peut uniquement apprendre du PRD, des documents ou de l’équipe produit
    - **À réviser** (présenté à l’utilisateur avec `AskQuestion` à sélection multiple) : faits que l’utilisateur ou l’utilisatrice peut voir à l’écran lors de l’utilisation de la fonctionnalité. Exemples :
-      - Un compteur de caractères que l’interface utilisateur affiche déjà (par exemple, `0 / 500`).
-      - État développé/réduit par défaut d’un champ
-      - État sélectionné par défaut d’une case à cocher visible
-      - Libellés du bouton en regard du champ
-      - Messages de validation qui apparaissent en ligne
+     - Un compteur de caractères que l’interface utilisateur affiche déjà (par exemple, `0 / 500`).
+     - État développé/réduit par défaut d’un champ
+     - État sélectionné par défaut d’une case à cocher visible
+     - Libellés du bouton en regard du champ
+     - Messages de validation qui apparaissent en ligne
 
    Pour chaque élément « à réviser », fournissez une justification en une seule phrase (« Aide les débutants à planifier un message plus long », « Aide les utilisateurs qui ne le voient pas lors des étapes suivantes à savoir comment le développer »). Inclure uniquement les articles sélectionnés par l’utilisateur. Le principe par défaut est le suivant : « Si l’utilisateur ou l’utilisatrice peut le voir à l’écran pendant qu’il ou elle effectue la tâche, ne le redémarrez pas », mais l’utilisateur ou l’utilisatrice reçoit l’appel final.
 
-5. **Proposer des modifications.** Affichez les extraits avant/après (ou une description de style diff ciblée) de l’article, couvrant : le placement des fragments de code, les renommes d’en-tête, le nouveau contenu de l’aperçu et son emplacement, la référence de la capture d’écran et tout habillage de `class="preview"` intégré.
+   **Lors de la rédaction des phrases réelles** pour l’un ou l’autre compartiment, appliquez `~/.cursor/skills/writing-quality/SKILL.md` règles de voix et de ton au fur et à mesure que vous écrivez : une description simple du champ/comportement, et non une entrée de journal des modifications (« a été supprimé », « a été ajouté »), et ne reformulez pas une instruction inchangée simplement pour y joindre une note d’aperçu. Rédigez-le correctement la première fois plutôt que de fixer le ton lors d’une passe ultérieure.
 
-6. **Attendez une approbation explicite** (« ok », « apply », « yes ») avant d&#39;écrire le fichier.
+5. **Effectuez une dernière passe de qualité d’écriture** sur le texte brouillon avant de le montrer. Il s’agit d’un filet de sécurité, et ce n’est pas la première fois que ces règles s’appliquent. En effet, il est possible de détecter toute omission à l’étape 4 (redondance, tonalité, incohérence vocale avec les lignes environnantes).
 
-7. **Valider.** Après avoir écrit, exécutez `ReadLints` sur le fichier et signalez les problèmes éventuels. Relisez la section modifiée pour confirmer la structure.
+6. **Proposer des modifications.** Affichez les extraits avant/après (ou une description de style diff ciblée) de l’article, couvrant : le placement des fragments de code, les renommes d’en-tête, le nouveau contenu de l’aperçu et son emplacement, la référence de la capture d’écran et tout habillage de `class="preview"` intégré.
 
-8. **Différer les modifications de niveau prose** à la compétence **qualité-écriture**. Ne reproduisez pas de voix, de majuscules, de règles audacieuses ou de modèles de liens ici — lisez `~/.cursor/skills/writing-quality/SKILL.md` si une passe en prose est demandée.
+7. **Attendez une approbation explicite** (« ok », « apply », « yes ») avant d&#39;écrire le fichier.
+
+8. **Valider.** Après avoir écrit, exécutez `ReadLints` sur le fichier et signalez les problèmes éventuels. Relisez la section modifiée pour confirmer la structure.
 
 ### &#x200B;5. Après chaque article
 
@@ -177,10 +179,13 @@ Règles :
 
 ## Contrôles qualité avant présentation des modifications
 
+Exécutez cette liste de contrôle complète pour **chaque** article de la session, y compris les articles secondaires dans lesquels vous « ajoutez simplement une puce », et pas seulement le premier/principal.
+
 - Le fragment de code apparaît une fois, sur sa propre ligne, après le H1, avec des lignes vides au-dessus et en dessous.
 - Les en-têtes de section existants se terminent par `in Production`.
 - Les nouveaux en-têtes de section se terminent par `in Preview` et la section se trouve dans `<div class="preview">`.
 - Les ajouts intégrés se trouvent à l’intérieur des `<span class="preview">`.
+- La nouvelle prose marquée par un aperçu se lit comme une description de comportement/champ simple, et non comme une entrée de journal des modifications, et ne reformule pas de manière redondante une instruction inchangée.
 - `ReadLints` est propre sur le fichier modifié.
 - L’article se lit correctement dans les deux états (avec le contenu de l’aperçu affiché et masqué).
 
