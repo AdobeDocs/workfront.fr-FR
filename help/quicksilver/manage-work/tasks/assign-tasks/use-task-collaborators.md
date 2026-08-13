@@ -4,16 +4,16 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
+source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
 
 # Utiliser les collaborateurs de la tâche
 
-{{highlighted-preview-article-level}}
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
 Les collaborateurs de tâches sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches Workfront, en plus du collaborateur de l’IA de type réviseur existant utilisé pour les révisions de documents et de ressources. Comme les autres collaborateurs de l’IA, les collaborateurs de tâches sont configurés dans la zone Configuration et affectés à des tâches comme un utilisateur.
 

@@ -16,20 +16,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 1765
-ht-degree: 2%
+source-wordcount: 1892
+ht-degree: 3%
 
 ---
 
 # Présentation du type d’enregistrement de l’espace de travail croisé
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -199,10 +197,9 @@ These two capabilities will come later - and edit some of the bullets below afte
   * Création et gestion des automatisations
   * Créer et gérer des formulaires de demande
 
-    <!--
-        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
-        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
-        -->
+    <span class="preview">Vous pouvez créer des enregistrements pour un type d’enregistrement secondaire à l’aide d’un formulaire de demande provenant de la page du type d’enregistrement secondaire ou en indiquant spécifiquement à quel espace de travail l’enregistrement doit être enregistré lors du remplissage d’un formulaire de demande créé pour le type d’enregistrement global principal et de la mise à jour du champ Workspace.
+    Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).</span>
+
 
 * Les enregistrements ajoutés dans un espace de travail secondaire sont visibles à partir des espaces de travail suivants, lorsque vous disposez d&#39;autorisations d&#39;affichage ou supérieures pour ces espaces de travail :
 

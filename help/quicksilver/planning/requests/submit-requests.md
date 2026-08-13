@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 2778
+source-wordcount: 3070
 ht-degree: 3%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 3%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,26 +145,21 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
   Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--
+* Lorsque vous soumettez un formulaire de demande pour créer des enregistrements à partir d&#39;un type d&#39;enregistrement global, les nouveaux enregistrements sont enregistrés dans le type d&#39;enregistrement principal ou secondaire, selon l&#39;endroit d&#39;où vous les soumettez.
 
-* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+  Selon l’environnement utilisé pour envoyer des demandes et créer des enregistrements, les scénarios suivants existent lorsque vous envoyez des formulaires pour des formulaires de demande associés à des types d’enregistrements globaux :
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
-  
-   * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+  * Dans l’environnement de production :
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
- 
-   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+    * Si vous soumettez un formulaire de demande associé à un type d&#39;enregistrement global à l&#39;aide de l&#39;une des méthodes décrites dans cet article, les enregistrements s&#39;affichent dans la page du type d&#39;enregistrement principal.
 
--->
+  * <span class="preview"> Dans l’environnement de Prévisualisation, les scénarios sont les suivants : </span>
 
+    * <span class="preview">Lorsque vous envoyez un formulaire de demande à partir de la page d&#39;un type d&#39;enregistrement global secondaire, l&#39;enregistrement s&#39;affiche dans la page du type d&#39;enregistrement global secondaire. Les utilisateurs verront également le nouvel enregistrement sur la page du type d’enregistrement principal, s’ils ont accès à l’espace de travail secondaire. </span>
+    * <span class="preview">Lorsque vous soumettez un formulaire de demande à partir de la page type d&#39;enregistrement principal ou en utilisant toute autre méthode décrite dans cet article, les enregistrements s&#39;affichent dans la page type d&#39;enregistrement principal.</span>
+    * <span class="preview">Si le champ **Workspace** est disponible dans le formulaire de demande et que l’utilisateur choisit manuellement un espace de travail spécifique auquel ajouter l’enregistrement, l’enregistrement est enregistré dans cet espace, que le formulaire ait été sélectionné dans les pages de type d’enregistrement principal ou secondaire.</span>
+
+  Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 <!--
