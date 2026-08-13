@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administration pour le quatrième 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,35 @@ Cette page décrit les améliorations apportées par l’administrateur à l’e
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## Les administrateurs de groupe peuvent gérer les profils professionnels
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Les administrateurs de groupe peuvent désormais créer, modifier et supprimer les profils professionnels des groupes qu’ils administrent, sans avoir besoin d’un accès d’administrateur système. Cela donne aux entreprises plus de flexibilité pour déléguer la gestion des profils métier au niveau du groupe.
 
@@ -31,7 +55,9 @@ Pour plus d’informations, voir [Afficher et gérer les profils métier](/help/
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Les vues des listes améliorées sont désormais prises en charge au niveau du système via un modèle de mise en page. Vous pouvez masquer les vues système existantes, affecter une vue spécifique en tant que vue par défaut et ajouter une vue personnalisée à la liste des vues système.
 
@@ -43,7 +69,9 @@ Pour plus d&#39;informations, voir [Personnaliser des filtres, des vues et des r
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Les boîtes de dialogue de modification en bloc permettent désormais de modifier les champs de recherche externes. Cela n’était pas possible auparavant.
 
@@ -57,7 +85,9 @@ Pour plus d’informations sur les champs de recherche externe, voir [Création 
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Le mode d’aperçu du créateur de formulaire personnalisé prend désormais en charge les options logiques avancées, notamment la logique d’affichage avancée, la logique de valeur par défaut, la logique de validation, la logique de formatage et la logique d’modifiabilité. Vous pouvez tester les formules logiques dans l’aperçu du formulaire et les ajuster selon vos besoins dans le créateur de logiques. Vous pouvez également sélectionner un objet de test (projet, tâche, problème, etc.) pour prévisualiser le formulaire avec des données contextuelles réelles.
 
@@ -71,7 +101,9 @@ Pour plus d’informations, consultez les sections [Ajouter des règles de logiq
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 La page Historique des modifications dans Workfront capture désormais l’activité dans les workflows de révision et d’approbation unifiés, offrant ainsi aux administrateurs et administratrices un journal complet de gouvernance pour les événements de cycle de vie des révisions et des documents.
 
@@ -89,7 +121,9 @@ Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modi
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Vous pouvez désormais définir une application personnalisée comme page de destination dans un modèle de mise en page. Les applications personnalisées qui ont déjà été ajoutées au menu principal peuvent être utilisées comme page de destination.
 
@@ -101,7 +135,9 @@ Pour plus d’informations, voir [Personnalisation de la page de destination à 
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Vous pouvez ajouter des champs dont vous souhaitez effectuer le suivi pour un type d’objet particulier dans Workfront. Lorsque les utilisateurs modifient des informations dans ce champ, le système enregistre les informations relatives à la modification sous forme d&#39;entrée dans l&#39;historique des modifications.
 
@@ -113,7 +149,9 @@ Pour plus d’informations, voir [Configurer les champs à suivre dans l’histo
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Au niveau d&#39;accès standard, vous pouvez maintenant définir si les utilisateurs disposant de ce niveau doivent avoir accès à la liste Historique des modifications. L’option **Historique des modifications** est disponible dans la section **Autoriser l’accès administratif pour** au niveau de l’accès.
 

@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Formatez et validez les notes de mise à jour de Workfront pour garantir la cohérence, la structure correcte et des liens appropriés. À utiliser uniquement pour les fichiers de notes de mise à jour dans les répertoires de versions de produits ou lorsque l’utilisateur mentionne des notes de mise à jour, des versions de produit ou des versions trimestrielles. Ne s’applique pas aux articles de procédure ni à la documentation générale.
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 3%
+source-wordcount: '2183'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ Règles :
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corps** : description des fonctionnalités, puis lien vers la documentation d’aide.
+5. **Corps** : description des fonctionnalités, puis lien vers la documentation d’aide.
 
 #### Pages de présentation
 
@@ -93,17 +93,17 @@ Règles :
 
 3. **`>[!IMPORTANT]`bloc** avec le tableau de calendrier des versions
 
-4. `Adobe Workfront enhancements`**&#x200B;** H2 avec liste à puces des liens d’ancrage :
+4. `Adobe Workfront enhancements`**** H2 avec liste à puces des liens d’ancrage :
 
 ```markdown
 * [Administrator enhancements](#administrator-enhancements)
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 par zone de produit** avec le tableau des fonctionnalités HTML (voir .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+5. **H3 par zone de produit** avec le tableau des fonctionnalités HTML (voir .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Dans chaque tableau, **les fonctionnalités les plus récentes en premier** — la ligne la plus récente apparaît en haut du tableau (après la ligne d’en-tête)
 
-&#x200B;6. **Sections de fin** (H2) : notes de mise à jour pour d’autres zones, mises à jour des visionneuses de vérification pour bureau, annonces, version de l’API, mises à jour de maintenance, mises à jour de formation
+6. **Sections de fin** (H2) : notes de mise à jour pour d’autres zones, mises à jour des visionneuses de vérification pour bureau, annonces, version de l’API, mises à jour de maintenance, mises à jour de formation
 
 ### Étape 3 : valider les liens
 
@@ -135,7 +135,24 @@ Appliquez ces correctifs lors du formatage :
 | HTML dans les pages de zone de produit | Conserver en tant que markdown (HTML est réservé aux tableaux de présentation uniquement) |
 | `exl-id` manquant | Ne le faites pas — n&#39;en générez pas |
 
-### Étape 6 : mettre à jour la table des matières
+### Étape 6 : synchroniser la page d’aperçu
+
+Chaque fois que vous ajoutez une **nouvelle fonctionnalité** à une page de zone produit, ajoutez ou mettez à jour une ligne correspondante dans la `{YY}-q{N}-release-overview.md` de ce trimestre dans la même modification. Une fonctionnalité qui n’existe que sur la page de la zone de produit et non dans le tableau de présentation est invisible à partir de l’index release-overview.
+
+- Recherchez la section H3 pour cette zone de produit (par exemple, `### Reporting enhancements`) et ajoutez une nouvelle ligne de `<tr>` en **haut** du tableau (après la ligne d’en-tête), correspondant au format de ligne existant (voir .claude/commands/_release-notes-formatter-reference.md#overview-feature-table).
+- Les dates de cette ligne doivent correspondre au bloc `>[!NOTE]` de la page product-area pour cette fonctionnalité (étape 4).
+- Si une fonctionnalité est reclassée dans une autre zone de produit (par exemple, déplacée de la création de rapports à l&#39;administrateur), déplacez sa ligne vers la section H3 de la nouvelle zone — ne laissez pas une copie obsolète dans l&#39;ancienne.
+- Les fonctions Planning uniquement ne sont pas ajoutées aux tableaux d&#39;aperçu : Planning possède sa propre page d&#39;activité de version, dont le lien figure une fois sous « Notes de mise à jour pour d&#39;autres zones » (aucune ligne par fonction n&#39;est nécessaire à cet endroit).
+
+Ne touchez pas à la page d’aperçu lorsqu’une fonctionnalité y a déjà une ligne et que son contenu ou ses dates n’ont pas changé.
+
+Erreurs courantes à éviter :
+
+- Ajout de la ligne H2 d’une fonctionnalité à une page de la zone produit sans ajouter la ligne correspondante au tableau d’aperçu.
+- Laissant une ligne d’aperçu obsolète dans l’ancienne section de la zone produit après avoir déplacé le contenu vers la page d’une autre zone.
+- Dates des lignes d’aperçu qui ne correspondent pas au bloc de `>[!NOTE]` de la page de la zone de produit.
+
+### Étape 7 : mettre à jour la table des matières
 
 Chaque fois que vous créez une **nouvelle** page de notes de mise à jour (présentation ou zone produit), ajoutez-la à `help/quicksilver/TOC.md` dans la même modification. Une page qui ne figure pas dans la table des matières n’apparaît pas dans la navigation publiée, même si des liens dans le tableau d’aperçu pointent vers elle.
 
@@ -161,7 +178,7 @@ Erreurs courantes à éviter :
 - Création d’un lien vers la présentation d’un autre trimestre à partir de la nouvelle page produit (étape 3).
 - Insérer les pages d&#39;un nouveau trimestre sous l&#39;en-tête du trimestre précédent.
 
-### Étape 7 : mettre à jour la page d’accueil
+### Étape 8 : mettre à jour la page d’accueil
 
 Chaque fois que vous créez une **page d’aperçu du nouveau trimestre** (c’est-à-dire qu’il s’agit de la première page d’un nouveau trimestre, et pas seulement d’une nouvelle page de zone produit ajoutée à un trimestre existant), mettez à jour les `help/quicksilver/home.md` dans la même modification :
 
@@ -175,6 +192,31 @@ Erreurs courantes à éviter :
 
 - Création d&#39;une page d&#39;aperçu d&#39;un nouveau trimestre sans mise à jour de l&#39;onglet « Dernière version » de `home.md` (il continuera à pointer vers l&#39;ancien trimestre).
 - Oubliez également d’ajouter le nouveau trimestre à la liste d’onglets de l’année en cours.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; Mise à jour en amont
+### Étape 8 : mettre à jour la page d’index des versions de produit
+=======
+### Étape 9 : mettre à jour la page d’index des versions de produit
+>>>>>>>>>>Modifications cachées
+> 
+Chaque fois que vous créez une **page d’aperçu du nouveau trimestre**, mettez également à jour les `help/quicksilver/product-announcements/product-releases/product-releases.md` dans la même modification :
+
+- Recherchez le bloc `<p>Releases in {year}</p>` pour l’année en cours dans la colonne « Versions de Workfront ».
+- Ajoutez un nouveau `<li>` en **haut** de la liste de cette année, pointant vers la page d’aperçu du nouveau trimestre, au même format que les entrées existantes :
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- S&#39;il existe (`planning-release-activity-{YY}-q{N}.md`) une page Planning des activités de publication d&#39;un nouveau trimestre, ajoutez également une `<li>` correspondante en haut de la colonne « Autres versions de produit » de la même ligne.
+- Si l&#39;année en cours ne comporte pas encore de ligne (premier trimestre d&#39;une nouvelle année), ajoutez une nouvelle `<tr data-mc-conditions="">` au-dessus de la ligne de l&#39;année précédente, en suivant la structure des lignes existante.
+
+Ne `product-releases.md` touchez pas lorsque vous ajoutez uniquement une page de zone produit à un trimestre qui contient déjà une page d’aperçu.
+
+Erreurs courantes à éviter :
+
+- Création d’une page d’aperçu d’un nouveau trimestre sans l’ajouter à `product-releases.md` (la page continue à afficher uniquement les trimestres précédents).
+- Ajouter le lien de l&#39;aperçu sans oublier le lien de publication-activité Planning correspondant.
 
 ## Conventions de dénomination des fichiers
 
@@ -247,6 +289,7 @@ Lors de l’examen d’un fichier de notes de mise à jour, vérifiez les points
 - [ Les fonctionnalités ] sont classées en commençant par la plus récente (pages de zone de produit et tableaux de présentation)
 - [ ] Les nouvelles pages de notes de mise à jour sont répertoriées dans `help/quicksilver/TOC.md` sous le trimestre approprié, avec la présentation en premier et les zones de produits dans l’ordre alphabétique (Autre dernière)
 - [ ] Si une nouvelle page d’aperçu du trimestre a été créée, `help/quicksilver/home.md`’onglet « Dernière version » et l’onglet de l’année en cours y pointent
+- [ ] Si la page d’aperçu d’un nouveau trimestre a été créée, `help/quicksilver/product-announcements/product-releases/product-releases.md` la place en haut de la liste des « versions de Workfront » de l’année en cours (plus le lien Planification , s’il existe)
 
 ## Ressources supplémentaires
 

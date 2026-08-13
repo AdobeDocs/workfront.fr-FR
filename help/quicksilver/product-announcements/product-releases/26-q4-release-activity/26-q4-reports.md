@@ -4,10 +4,10 @@ description: Améliorations des rapports pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 8%
+source-wordcount: '414'
+ht-degree: 5%
 
 ---
 
@@ -17,11 +17,43 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## Application de dates de fin aux rapports planifiés
+
+>[!NOTE]
+>
+>Aperçu : 13 août 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Les rapports planifiés requièrent désormais une date de fin pour empêcher une diffusion indéfinie. Les plannings dont la date de fin est dépassée sont automatiquement désactivés.
+
+Les plannings existants ont été mis à jour avec des dates de fin pour améliorer la fiabilité et réduire l’utilisation inutile du système. Workfront offre également une visibilité accrue et des avertissements pour vous aider à gérer les cycles de vie des planifications de rapports à l’approche de leur date de fin.
+
+Pour plus d’informations, voir [Planification de la diffusion automatique des rapports](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## Les champs de référence natifs sont disponibles pour les listes et les rapports
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Vous pouvez désormais ajouter des champs de référence natifs aux listes et aux rapports dans Workfront.
 
@@ -34,7 +66,9 @@ Pour plus d’informations sur l’ajout de champs aux rapports, voir [Créer un
 
 >[!NOTE]
 >
->Aperçu : 30 juillet 2026>Version rapide de production : 13 août 2026>Production pour tous : 15 octobre 2026
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
 Les options sélectionnées pour les champs personnalisés à sélection multiple s’affichent désormais dans un ordre cohérent et prévisible sur les listes et rapports hérités. L’ordre des champs est déterminé par la manière dont les champs sont organisés dans le formulaire personnalisé.
 

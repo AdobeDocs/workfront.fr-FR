@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 3%
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Améliorations de la vue Tableau lors du glisser-déposer de plusieurs lignes
+
+>[!NOTE]
+>
+>Aperçu : 13 août 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
+
+De nouveaux indicateurs visuels s’affichent lorsque vous faites glisser et déposez plusieurs lignes dans la vue Tableau. Un signe plus important et un indicateur numérique indiquent désormais le nombre de lignes sélectionnées pour l’action de glisser-déposer.
+
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## Acheminez l’objet de requête envoyé vers l’espace de travail correct lors de l’utilisation de types d’enregistrements globaux
+
+>[!NOTE]
+>
+>Aperçu : 13 août 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Les enregistrements créés pour les types d&#39;enregistrements globaux en soumettant un formulaire de demande sont désormais automatiquement acheminés vers l&#39;espace de travail à partir duquel ils ont été soumis.
+
+Les enregistrements créés en soumettant une demande depuis un espace de travail secondaire d&#39;un type d&#39;enregistrement global sont ajoutés à cet espace de travail secondaire. Les enregistrements créés par l’envoi d’une demande depuis l’espace de travail d’origine ou depuis la zone des Demandes principale sont ajoutés à l’espace de travail d’origine.
+
+Si le formulaire de saisie comprend un champ Workspace et qu’un utilisateur sélectionne un espace de travail avant l’envoi, la demande est acheminée vers l’espace de travail sélectionné, quel que soit l’endroit où le formulaire a été lancé. Cela permet de s’assurer que les enregistrements sont organisés dans l’espace de travail prévu à partir du moment où ils sont créés.
+
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Présentation de la compétence d’architecte de solution Workfront Planning
 
