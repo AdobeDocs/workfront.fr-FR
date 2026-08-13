@@ -4,10 +4,10 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 4%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
@@ -94,3 +94,23 @@ Les collaborateurs de tâches sont affectés à des tâches de la même manière
 Lorsque vous recherchez un collaborateur de tâches dans la liste des cessionnaires disponibles, le nom du collaborateur de tâches n&#39;est qu&#39;un prénom.
 
 Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>Les collaborateurs de tâche ne peuvent pas être affectés à la révision ou à l&#39;approbation d&#39;un document.
+
+## Résolution des problèmes des collaborateurs de tâches
+
+Si votre collaborateur de tâches ne renvoie pas de réponse ou de sortie, vérifiez les points suivants :
+
+* Assurez-vous que votre agent est publié du côté du fournisseur de la plateforme d’IA.
+* Assurez-vous de disposer de crédits d’IA suffisants avec la plateforme de votre agent.
+* Assurez-vous que l’action effectuée sur la tâche ne nécessite pas un niveau d’accès spécifique.
+* Si vous utilisez Copilot comme fournisseur d’agent, assurez-vous d’utiliser le paramètre « aucune authentification ».
+* Si vous utilisez Copilot, assurez-vous que votre agent est configuré dans un environnement global. La fonctionnalité Task Collaborator ne prend actuellement pas en charge les versions régionales de Copilot Studio.
+* Assurez-vous que le collaborateur est la personne principale désignée pour la tâche.
+* Assurez-vous que la tâche à laquelle le collaborateur de tâches est affecté peut démarrer. Par exemple, vérifiez que toutes les tâches antérieures à cette tâche sont terminées.
+
+>[!TIP]
+>
+>Vous pouvez également accéder à la plateforme du fournisseur d’agents et demander à l’agent d’effectuer la tâche dans la plateforme. Si l’agent ne peut pas effectuer la tâche dans la plateforme, Task Collaborator rencontrera également des problèmes dans Workfront.

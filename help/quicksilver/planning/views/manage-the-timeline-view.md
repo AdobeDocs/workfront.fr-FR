@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 4349
+source-wordcount: 4418
 ht-degree: 33%
 
 ---
@@ -419,8 +419,8 @@ Vous pouvez regrouper des enregistrements par des informations similaires lorsqu
 Tenez compte des points suivants lorsque vous utilisez des regroupements dans la vue chronologique :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des regroupements que vous sélectionnez.
-&lt;!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —cochez celui-ci pour l’instant—>
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
+&lt;!—!—* Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. --vérifier celui-ci pour l’instant-->
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
@@ -442,6 +442,7 @@ Pour ajouter un regroupement dans la vue chronologique :
 1. Cliquez sur l&#39;un des champs suggérés ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
    Le regroupement est appliqué automatiquement à la chronologie et les enregistrements s’affichent à l’intérieur de la zone de regroupement.
+1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter jusqu’à trois champs pour effectuer un regroupement.
 1. (Facultatif et conditionnel) Selon le type de champ que vous avez sélectionné pour le regroupement, sélectionnez l’une des options de tri suivantes pour trier les regroupements par ordre croissant ou décroissant :
 
    * **A -> Z** ou **Z -> A** pour les champs sélectionnés, les champs de texte, les champs de paragraphe, les enregistrements ou objets connectés, les champs de personne
@@ -458,6 +459,7 @@ Pour ajouter un regroupement dans la vue chronologique :
 
 1. Dans la zone **Regrouper les enregistrements par**, effectuez un glisser-déposer des regroupements dans l’ordre approprié.
 
+
 1. Dans la zone **Disposition** de la zone **Regrouper les enregistrements par**, sélectionnez l’une des options suivantes :
 
    * **Empilés** : les regroupements s’affichent sans colonne de gauche figée et s’adaptent à la largeur des chronologies de leurs éléments.
@@ -466,7 +468,9 @@ Pour ajouter un regroupement dans la vue chronologique :
    * **Couloir** : les regroupements s’affichent avec une colonne d’en-tête gauche figée qui répertorie les éléments regroupés et les regroupements s’adaptent à la largeur de la vue chronologique.
 
      ![Groupement couloir dans la vue Chronologie](assets/swimlane-grouping-in-timeline-view.png)
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
    Ou
@@ -623,7 +627,7 @@ Tenez compte des points suivants lors de la répartition de la chronologie des e
 
   Si vous souhaitez afficher à la fois les portefeuilles et les projets dans la vue chronologique d&#39;un type d&#39;enregistrement Planning Workfront, les portefeuilles et les projets doivent être connectés à l&#39;enregistrement Planning ou à un enregistrement connecté à l&#39;enregistrement Planning dont vous gérez la vue chronologique.
 * Vous ne pouvez pas afficher les marques Adobe GenStudio connectées à des types d&#39;enregistrements Planning.
-Pour plus d’informations, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
+Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Vous pouvez uniquement afficher les types d’enregistrements associés à au moins deux champs de date.
 * Les champs de date des types d’enregistrement que vous souhaitez afficher dans la vue chronologique doivent être visibles dans la vue Tableau du type d’enregistrement sélectionné, sous la forme de champs de recherche.
 * Les dates de début et de fin des types d’enregistrements que vous souhaitez afficher dans la vue chronologique doivent être dans l’ordre chronologique. Par exemple, si un enregistrement a une date de Début fixée au 31 janvier et une date de Fin fixée au 1er janvier, il ne s&#39;affiche pas dans la vue chronologique. Pour plus d’informations, consultez la section [Gérer une vue chronologique](#manage-a-timeline-view) de cet article.

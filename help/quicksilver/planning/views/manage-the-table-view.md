@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3973
+source-wordcount: 4011
 ht-degree: 39%
 
 ---
@@ -336,6 +336,8 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri ou un regroupement à la vue Tableau.
    >
    >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs et utilisatrices qui accèdent au type d’enregistrement dans la même vue.
+   >
+   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
 1. Cliquez sur **Champs** en haut du tableau, puis activez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
@@ -469,7 +471,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
       ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
 
-   La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
+   La liste des enregistrements est automatiquement filtrée.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
@@ -566,8 +568,8 @@ Vous pouvez regrouper des enregistrements par des informations similaires lorsqu
 Tenez compte des points suivants :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
-* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l&#39;ordre des regroupements que vous sélectionnez.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —cochez celui-ci pour l’instant &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+* Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
+&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.

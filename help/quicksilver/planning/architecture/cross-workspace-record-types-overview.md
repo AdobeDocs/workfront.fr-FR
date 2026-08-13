@@ -16,9 +16,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 1751
+source-wordcount: 1765
 ht-degree: 2%
 
 ---
@@ -105,31 +105,31 @@ Le type d’enregistrement configuré pour être global possède les propriété
 
 * Vous pouvez effectuer les actions suivantes sur le type d’enregistrement global à partir de son espace de travail d’origine :
 
-   * Le modifier.
+  * Le modifier.
 
-     La modification d’un type d’enregistrement global inclut la modification de son apparence, des fonctionnalités de plusieurs espaces de travail et de tous les champs créés dans l’espace de travail d’origine.
-   * Partager
+    La modification d’un type d’enregistrement global inclut la modification de son apparence, des fonctionnalités de plusieurs espaces de travail et de tous les champs créés dans l’espace de travail d’origine.
+  * Partager
 
-     Le partage d’un type d’enregistrement ajoute des utilisateurs à l’espace de travail et partage également les enregistrements avec ces utilisateurs.
-   * Le supprimer.
+    Le partage d’un type d’enregistrement ajoute des utilisateurs à l’espace de travail et partage également les enregistrements avec ces utilisateurs.
+  * Le supprimer.
 
-     Vous ne pouvez supprimer un type d’enregistrement global de son espace de travail d’origine qu’après avoir supprimé toutes les instances de s’il dans tous les espaces de travail secondaires où il a été ajouté.
+    Vous ne pouvez supprimer un type d’enregistrement global de son espace de travail d’origine qu’après avoir supprimé toutes les instances de s’il dans tous les espaces de travail secondaires où il a été ajouté.
 
-     Pour plus d’informations, consultez la section [Supprimer des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
-   * Rendre connectable depuis d’autres espaces de travail
-   * Créer et gérer des formulaires de demande
-   * Création et gestion des automatisations
+    Pour plus d’informations, consultez la section [Supprimer des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
+  * Rendre connectable depuis d’autres espaces de travail
+  * Créer et gérer des formulaires de demande
+  * Création et gestion des automatisations
 
 * Les enregistrements suivants s’affichent dans l’espace de travail du Principal d’un type d’enregistrement global :
 
-   * Enregistrements ajoutés à partir du type d’enregistrement global dans l’espace de travail Principal
-   * Enregistrements ajoutés à partir des types d’enregistrements globaux dans les espaces de travail secondaires où ils ont été ajoutés
+  * Enregistrements ajoutés à partir du type d’enregistrement global dans l’espace de travail Principal
+  * Enregistrements ajoutés à partir des types d’enregistrements globaux dans les espaces de travail secondaires où ils ont été ajoutés
 
-     Les enregistrements que vous ajoutez à partir d’un espace de travail secondaire sont cumulés et affichés dans l’espace de travail principal. Tous les membres de l’espace de travail principal d’origine obtiennent des autorisations d’affichage pour eux et les enregistrements ne leur sont visibles qu’à partir de l’espace de travail de Principal, même s’ils ne disposent pas des autorisations sur l’espace de travail secondaire.
+    Les enregistrements que vous ajoutez à partir d’un espace de travail secondaire sont cumulés et affichés dans l’espace de travail principal. Tous les membres de l’espace de travail principal d’origine obtiennent des autorisations d’affichage pour eux et les enregistrements ne leur sont visibles qu’à partir de l’espace de travail de Principal, même s’ils ne disposent pas des autorisations sur l’espace de travail secondaire.
 * Les scénarios suivants existent pour le type d’autorisations dont vous disposez sur les enregistrements affichés dans l’espace de travail principal, en fonction de l’endroit d’où ils ont été ajoutés :
 
-   * Vous disposez des mêmes autorisations pour les enregistrements créés dans l’espace de travail du Principal que pour l’espace de travail et pour le type d’enregistrement global d’origine.
-   * Vous disposez des mêmes autorisations pour les enregistrements créés dans un espace de travail secondaire que pour l&#39;espace de travail secondaire et pour le type d&#39;enregistrement global dans cet espace.
+  * Vous disposez des mêmes autorisations pour les enregistrements créés dans l’espace de travail du Principal que pour l’espace de travail et pour le type d’enregistrement global d’origine.
+  * Vous disposez des mêmes autorisations pour les enregistrements créés dans un espace de travail secondaire que pour l&#39;espace de travail secondaire et pour le type d&#39;enregistrement global dans cet espace.
 
   <!--
     Removed this as this was too confusing: 
@@ -159,23 +159,23 @@ Le type d’enregistrement configuré pour être global possède les propriété
 
 * Les gestionnaires d’espace de travail Secondaire peuvent effectuer les actions supplémentaires suivantes sur le type d’enregistrement ajouté à partir d’un type d’enregistrement global dans un espace de travail secondaire :
 
-   * Supprimez-le.
+  * Supprimez-le.
 
-     La suppression du type d’enregistrement d’un espace de travail secondaire le supprime uniquement de l’espace de travail secondaire. Les enregistrements et les champs qui lui ont été ajoutés à partir de l’espace de travail secondaire sont également supprimés de cet espace. Les enregistrements ajoutés dans l’espace secondaire restent dans l’espace de travail principal. Le type d’enregistrement n’est pas supprimé de son espace de travail d’origine ni de tout autre espace de travail secondaire où il a été ajouté.
+    La suppression du type d’enregistrement d’un espace de travail secondaire le supprime uniquement de l’espace de travail secondaire. Les enregistrements et les champs qui lui ont été ajoutés à partir de l’espace de travail secondaire sont également supprimés de cet espace. Les enregistrements ajoutés dans l’espace secondaire restent dans l’espace de travail principal. Le type d’enregistrement n’est pas supprimé de son espace de travail d’origine ni de tout autre espace de travail secondaire où il a été ajouté.
 
-     Pour plus d’informations, consultez la section [Supprimer des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
+    Pour plus d’informations, consultez la section [Supprimer des types d’enregistrement](/help/quicksilver/planning/architecture/delete-record-types.md).
 
-   * Partager
+  * Partager
 
-     En partageant un type d’enregistrement global dans un espace de travail secondaire, les événements suivants se produisent également :
+    En partageant un type d’enregistrement global dans un espace de travail secondaire, les événements suivants se produisent également :
 
-      * Les utilisateurs sont ajoutés à l’espace de travail avec des autorisations d’affichage.
-      * Les utilisateurs reçoivent les mêmes autorisations pour tous les enregistrements du type d’enregistrement global dans l’espace de travail secondaire.
-   * Partagez les vues des types d’enregistrements.
+    * Les utilisateurs sont ajoutés à l’espace de travail avec des autorisations d’affichage.
+    * Les utilisateurs reçoivent les mêmes autorisations pour tous les enregistrements du type d’enregistrement global dans l’espace de travail secondaire.
+  * Partagez les vues des types d’enregistrements.
 
-     Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans un espace de travail secondaire. Vous pouvez uniquement partager des vues en interne à partir d’un espace de travail secondaire. Vous pouvez partager une vue en interne et publiquement pour un type d’enregistrement global dans son espace de travail d’origine.
+    Vous ne pouvez pas partager une vue publiquement à partir d’un type d’enregistrement global dans un espace de travail secondaire. Vous pouvez uniquement partager des vues en interne à partir d’un espace de travail secondaire. Vous pouvez partager une vue en interne et publiquement pour un type d’enregistrement global dans son espace de travail d’origine.
 
-     Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+    Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
 
 <!--
@@ -193,21 +193,26 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 * Aucun utilisateur ne peut effectuer les actions suivantes sur un type d’enregistrement global dans un espace de travail secondaire :
 
-   * Le modifier.
+  * Le modifier.
 
-     Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs ajoutés à partir de l’espace de travail d’origine.
-   * Créer et gérer des formulaires de demande
-   * Création et gestion des automatisations
+    Vous ne pouvez pas modifier son apparence, les fonctionnalités de l’espace de travail croisé ou les champs ajoutés à partir de l’espace de travail d’origine.
+  * Création et gestion des automatisations
+  * Créer et gérer des formulaires de demande
+
+    <!--
+        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
+        -->
 
 * Les enregistrements ajoutés dans un espace de travail secondaire sont visibles à partir des espaces de travail suivants, lorsque vous disposez d&#39;autorisations d&#39;affichage ou supérieures pour ces espaces de travail :
 
-   * Emplacement secondaire où ils ont été ajoutés
-   * Espace de travail principal d’origine du type d’enregistrement global
+  * Emplacement secondaire où ils ont été ajoutés
+  * Espace de travail principal d’origine du type d’enregistrement global
 
 * Les scénarios suivants existent pour accéder aux enregistrements créés dans les espaces de travail secondaires :
 
-   * Si vous disposez d’autorisations de niveau Gérer sur l’espace de travail d’origine et d’aucune autorisation sur un espace de travail secondaire, vous pouvez afficher les enregistrements ajoutés à partir des espaces de travail secondaires dans l’espace de travail d’origine, mais vous ne pouvez pas les gérer à partir de l’espace de travail d’origine.
-   * Si vous disposez des autorisations de gestion sur les espaces de travail d’origine et secondaire, vous pouvez gérer les enregistrements à partir de l’espace de travail d’origine du type d’enregistrement global et de l’espace de travail secondaire où ils ont été ajoutés.
+  * Si vous disposez d’autorisations de niveau Gérer sur l’espace de travail d’origine et d’aucune autorisation sur un espace de travail secondaire, vous pouvez afficher les enregistrements ajoutés à partir des espaces de travail secondaires dans l’espace de travail d’origine, mais vous ne pouvez pas les gérer à partir de l’espace de travail d’origine.
+  * Si vous disposez des autorisations de gestion sur les espaces de travail d’origine et secondaire, vous pouvez gérer les enregistrements à partir de l’espace de travail d’origine du type d’enregistrement global et de l’espace de travail secondaire où ils ont été ajoutés.
   <!--
     not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
     -->
