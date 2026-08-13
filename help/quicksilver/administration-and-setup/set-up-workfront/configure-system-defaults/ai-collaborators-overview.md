@@ -7,10 +7,10 @@ description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: cd2f35687330dc8662b52e930ee8a118c90b6c49
+source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '84'
+ht-degree: 4%
 
 ---
 
@@ -23,3 +23,5 @@ Les collaborateurs de l’IA sont des agents d’IA que vous pouvez affecter à 
 Regardez comment un collaborateur d’IA sélectionne et effectue des tâches dans Workfront.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
+
+Pour plus d’informations sur les collaborateurs AI, voir [Configuration des collaborateurs AI](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
