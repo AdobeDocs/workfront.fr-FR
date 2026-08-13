@@ -83,7 +83,7 @@ Règles :
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Corps** : description des fonctionnalités, puis lien vers la documentation d’aide.
+&#x200B;5. **Corps** : description des fonctionnalités, puis lien vers la documentation d’aide.
 
 #### Pages de présentation
 
@@ -93,17 +93,17 @@ Règles :
 
 3. **`>[!IMPORTANT]`bloc** avec le tableau de calendrier des versions
 
-4. `Adobe Workfront enhancements`**** H2 avec liste à puces des liens d’ancrage :
+4. `Adobe Workfront enhancements`**&#x200B;** H2 avec liste à puces des liens d’ancrage :
 
 ```markdown
 * [Administrator enhancements](#administrator-enhancements)
 * [Document enhancements](#document-enhancements)
 ```
 
-5. **H3 par zone de produit** avec le tableau des fonctionnalités HTML (voir .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+&#x200B;5. **H3 par zone de produit** avec le tableau des fonctionnalités HTML (voir .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Dans chaque tableau, **les fonctionnalités les plus récentes en premier** — la ligne la plus récente apparaît en haut du tableau (après la ligne d’en-tête)
 
-6. **Sections de fin** (H2) : notes de mise à jour pour d’autres zones, mises à jour des visionneuses de vérification pour bureau, annonces, version de l’API, mises à jour de maintenance, mises à jour de formation
+&#x200B;6. **Sections de fin** (H2) : notes de mise à jour pour d’autres zones, mises à jour des visionneuses de vérification pour bureau, annonces, version de l’API, mises à jour de maintenance, mises à jour de formation
 
 ### Étape 3 : valider les liens
 
@@ -194,12 +194,14 @@ Erreurs courantes à éviter :
 - Oubliez également d’ajouter le nouveau trimestre à la liste d’onglets de l’année en cours.
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; Mise à jour en amont
+
 ### Étape 8 : mettre à jour la page d’index des versions de produit
 =======
+
 ### Étape 9 : mettre à jour la page d’index des versions de produit
->>>>>>>>>>Modifications cachées
+&#x200B;>>>>>>>>>>Modifications cachées
 > 
-Chaque fois que vous créez une **page d’aperçu du nouveau trimestre**, mettez également à jour les `help/quicksilver/product-announcements/product-releases/product-releases.md` dans la même modification :
+>Chaque fois que vous créez une **page d’aperçu du nouveau trimestre**, mettez également à jour les `help/quicksilver/product-announcements/product-releases/product-releases.md` dans la même modification :
 
 - Recherchez le bloc `<p>Releases in {year}</p>` pour l’année en cours dans la colonne « Versions de Workfront ».
 - Ajoutez un nouveau `<li>` en **haut** de la liste de cette année, pointant vers la page d’aperçu du nouveau trimestre, au même format que les entrées existantes :
