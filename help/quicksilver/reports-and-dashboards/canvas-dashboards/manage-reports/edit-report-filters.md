@@ -9,19 +9,14 @@ exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IICvipFI1uZkMpwcdiFM9K9pweav2TL8zu-GdDB73bU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 50%
+source-wordcount: 1229
+ht-degree: 42%
 
 ---
 
@@ -30,7 +25,7 @@ ht-degree: 50%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
@@ -104,7 +99,7 @@ Vous devez ajouter un filtre à un rapport avant de pouvoir le modifier.
 
 1. Sélectionnez le champ ou le modificateur que vous souhaitez modifier, puis ajustez les sélections actuelles selon vos besoins.
 
-   ![&#x200B; Ajouter une condition &#x200B;](assets/add-condition.png)
+   ![ Ajouter une condition ](assets/add-condition.png)
 
 1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
 
@@ -190,6 +185,18 @@ Les relations disponibles pour les colonnes supplémentaires, les options de fil
 * Étapes d&#39;approbation du document > Participants à l&#39;étape d&#39;approbation du document
 
 Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.
+
+### Exclure les projets personnels, les tâches et les utilisateurs de robots des rapports Tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Si un rapport Tableaux de bord de la zone de travail renvoie plus de résultats que prévu par rapport à un rapport classique similaire, les projets personnels, les tâches personnelles ou les utilisateurs de robots peuvent être inclus par défaut. Ajoutez une condition de filtre pour les exclure.
+
+Dans les rapports Projet et Tâche des tableaux de bord de la zone de travail, le filtre `isPersonal` n’est pas automatiquement appliqué. Par conséquent, les projets personnels et les tâches personnelles sont inclus par défaut dans les résultats. Pour les exclure, ajoutez une condition de filtre telle que `isPersonal=false`.
+
+De même, les rapports d’utilisateur des tableaux de bord de la zone de travail incluent tous les utilisateurs par défaut, y compris les collaborateurs AI (utilisateurs de robots). Pour exclure les utilisateurs de robots, ajoutez une condition de filtre telle que `isBot=false`.
+
+Les rapports classiques sur les projets et les tâches excluent automatiquement les projets personnels et les tâches personnelles et les rapports classiques sur les utilisateurs excluent automatiquement les utilisateurs de robots. Pour les inclure à la place dans un rapport classique, ajoutez une condition de filtre telle que `isPersonal=true` (éléments personnels uniquement) ou `isPersonal_Mod=notnull` (éléments personnels et non personnels).
 
 ### Opérateurs de champ par type de champ
 
