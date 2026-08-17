@@ -10,22 +10,15 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MePbnMO9YHsyUXI3D0K2dMDeAAv3Rae-QKlXaS26aMk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 63%
+source-wordcount: 851
+ht-degree: 64%
 
 ---
 
@@ -99,7 +92,7 @@ Les sections suivantes illustrent les endroits où vous pouvez accéder à l’�
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![Équilibreur de charge de travail](assets/nwe-balancer-global.png)
+   ![Équilibreur de charge de travail](assets/wb-in-res-mgmt.png)
 
    L’équilibreur de charge de travail affiche par défaut les informations suivantes dans la zone Ressources :
 
@@ -118,7 +111,7 @@ La page de votre équipe interne s’affiche.
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![Équilibreur de charge de travail pour l’équipe](assets/nwe-balancer-team-350x172.png)
+   ![Équilibreur de charge de travail d’une équipe](assets/wb-on-team.png)
 
    L’équilibreur de charge de travail d’une équipe affiche par défaut les informations suivantes :
 
@@ -138,7 +131,7 @@ La page de votre équipe interne s’affiche.
 
    L’équilibreur de charge de travail pour le projet s’affiche.
 
-   ![Équilibreur de charge de travail pour le projet](assets/nwe-balancer-project-350x152.png)
+   ![Équilibreur de charge de travail d’un projet](assets/wb-on-project.png)
 
    L’équilibreur de charge de travail d’un projet affiche les informations suivantes par défaut :
 
@@ -161,7 +154,7 @@ Tous les paramètres d’affichage sont disponibles pour l’équilibreur de cha
 
    L’équilibreur de charge de travail de l’utilisateur s’affiche.
 
-   ![Équilbreur de charge de travail pour un utilisateur](assets/workload-balancer-user.png)
+   ![Équilbreur de charge de travail d’un utilisateur](assets/workload-balancer-user.png)
 
    L’équilibreur de charge de travail d’un utilisateur affiche les informations suivantes par défaut :
 
