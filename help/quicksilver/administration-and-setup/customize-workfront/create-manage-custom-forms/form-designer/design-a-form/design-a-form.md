@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c846fa411e3efbc45d75fd015345626c9476134
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -807,12 +799,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
-      &lbrace;
-       data : &lbrace;
+      {
+       data : {
          { name : « USA »},
          { name : « Canada »}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -852,8 +844,6 @@ Pour ajouter une recherche externe, procédez comme suit :
 >* Durée d’attente entre les reprises : 500 ms
 >* Statuts de la réponse attendue : 2xx
 
-
-
 ### Ajouter des champs de recherche interne
 
 Un champ de recherche interne permet aux utilisateurs de saisir le nom d’un objet qui existe dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte. Par exemple, si l’utilisateur saisit un nom d’utilisateur, une liste de noms correspondants s’affiche. Le type de champ de recherche interne est pris en charge sur les objets suivants :
@@ -871,6 +861,12 @@ Un champ de recherche interne permet aux utilisateurs de saisir le nom d’un ob
 * Problème
 * Document
 * Emplacement
+
+>[!NOTE]
+>
+>Les champs de saisie semi-automatique ne sont plus disponibles pour être ajoutés aux formulaires personnalisés. Vous pouvez convertir une saisie semi-automatique existante en recherche interne en cliquant sur le bouton dans les options de champ à droite. Lors de la conversion, les données historiques restent sur le champ et sont utilisées de la même manière dans les rapports.
+> 
+>Notez également que si un champ de saisie semi-automatique est inclus dans un package de promotion d’environnement, il est automatiquement converti en recherche interne lorsque la promotion a lieu. Pour plus d’informations sur la promotion de l’environnement, consultez [Présentation du déplacement d’objets entre des environnements Workfront (promotion de l’environnement)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 Pour ajouter une recherche interne :
 
@@ -1091,7 +1087,7 @@ Cette liste affiche les champs natifs disponibles pour les formulaires personnal
 * **Durée prévue** : projet, modèle
 * **Heures planifiées** : projet, tâche, événement, modèle de tâche
 * **Date De Début Prévue** : Projet, Tâche, Événement
-* **&#x200B;**&#x200B;: Projet, Modèle, Programme
+* **** : Projet, Modèle, Programme
 * **Priorité** : Projet, Tâche, Événement, Modèle, Tâche De Modèle
 * **Programme** : Projet, Modèle
 * **Date d&#39;achèvement prévisionnelle** : projet, tâche
