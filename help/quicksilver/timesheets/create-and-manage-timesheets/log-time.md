@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 76%
 
 ---
@@ -125,8 +125,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
 {{step1-click-main-menu}}
 
 1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
-   ![Feuille de temps](assets/timesheet-redesigned-nwe.png)
-
+   ![Feuille de temps](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Facultatif) Cliquez sur l’icône **full-screen** ![](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, puis sur l’icône **exit-full-screen** ![](assets/exit-full-screen.png) pour revenir à la feuille de temps.
 
@@ -154,8 +153,8 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
 1. (Le cas échéant) Si vous ajoutez 50 éléments ou plus en une seule fois, un message de confirmation indiquant le nombre d’éléments ajoutés à votre feuille de temps s’affiche.
 
    Cliquez sur **Ajouter tout** pour ajouter tous les éléments
-Ou
-Cliquez sur **Annuler** pour arrêter l&#39;ajout des éléments sélectionnés, puis sur **Annuler** pour fermer la liste des éléments.
+   Ou
+   Cliquez sur **Annuler** pour arrêter l&#39;ajout des éléments sélectionnés, puis sur **Annuler** pour fermer la liste des éléments.
 
    Les tâches et les problèmes sont répertoriés sous le nom du projet.
 
@@ -288,7 +287,7 @@ Cliquez sur **Annuler** pour arrêter l&#39;ajout des éléments sélectionnés,
 
 1. (Facultatif) Cliquez sur [!UICONTROL **Mises à jour**] dans le panneau de gauche, puis ajoutez une mise à jour à la feuille de temps. Pour plus d’informations sur les mises à jour de Workfront, consultez l’article [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. (Facultatif) Retournez à la zone **feuille de temps** pour fermer ou soumettre votre feuille de temps.
 
@@ -485,20 +484,20 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
 
 ### Panneau Résumé
 
-Vous pouvez consigner le temps consacré aux tâches et aux événements dans le panneau Résumé .
-Pour plus d’informations, voir [Aperçu du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans le panneau Résumé.
+Pour plus d’informations, voir [Vue d’ensemble du panneau Résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ![](assets/summary-hour-log.png)
 
 ### Panneaux {#boards}
 
-Vous pouvez enregistrer le temps passé sur les cartes connectées sur un panorama Workfront. Il s’agit du même processus que la journalisation du temps sur une tâche ou un événement, et les heures consignées sur la carte sont enregistrées sur la tâche ou l’événement associé.
-Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Vous pouvez consigner les heures dans les cartes connectées sur un panorama Workfront. Il s’agit du même processus que la consignation des heures dans une tâche ou un problème. Les heures consignées sur la carte sont enregistrées dans la tâche ou le problème connectés.
+Pour plus d’informations, voir [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ### Application mobile {#mobile-app}
 
-Vous pouvez enregistrer le temps depuis l’application mobile Workfront.
-Pour plus d’informations, voir [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Vous pouvez consigner les heures à partir de l’application mobile Workfront.
+Pour plus d’informations, voir [Adobe Workfront pour Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) ou [Adobe Workfront pour iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
 
 ## Modifier les heures consignées dans les listes et les rapports
 
@@ -526,19 +525,19 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
 
 * Lorsque vous modifiez des heures spécifiques à un projet :
 
-   * Le nombre d&#39;heures
-   * Type d&#39;heures. Vous pouvez modifier le Type d&#39;heures uniquement pour qu&#39;il soit spécifique au projet.
-   * Affectation de fonction. Vous ne pouvez modifier l’affectation de fonction que si elle a été activée dans la configuration. Pour plus d’informations, voir [Configurer les préférences de feuille de temps et d’heure](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * Description de la saisie d&#39;heures.
+  * Le nombre d&#39;heures
+  * Type d&#39;heures. Vous pouvez modifier le Type d&#39;heures uniquement pour qu&#39;il soit spécifique au projet.
+  * Affectation de fonction. Vous ne pouvez modifier l’affectation de fonction que si elle a été activée dans la configuration. Pour plus d’informations, voir [Configurer les préférences de feuille de temps et d’heure](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * Description de la saisie d&#39;heures.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * Lorsque vous modifiez des heures générales :
 
-   * Nombre d’heures.
-   * Type d&#39;heures. Vous ne pouvez modifier le Type d&#39;heures qu&#39;en types généraux.
-   * Description de la saisie d&#39;heures.
+  * Nombre d’heures.
+  * Type d&#39;heures. Vous ne pouvez modifier le Type d&#39;heures qu&#39;en types généraux.
+  * Description de la saisie d&#39;heures.
 
 >[!TIP]
 >
@@ -551,8 +550,8 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
 
 * Lorsque vous modifiez un mélange d’heures générales et d’heures spécifiques à un projet, en bloc :
 
-   * Nombre d’heures.
-   * Description de la saisie d&#39;heures.
+  * Nombre d’heures.
+  * Description de la saisie d&#39;heures.
 
 >[!TIP]
 >
@@ -585,6 +584,6 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 1. Cliquez sur **Enregistrer les modifications**.
 
    Les informations sur la saisie des heures sont mises à jour.
-Si vous avez sélectionné plusieurs entrées d&#39;heures et modifié le champ Heures, le même nombre d&#39;heures est attribué à toutes les entrées d&#39;heures sélectionnées. Les heures d’origine sont remplacées par la nouvelle valeur pour toutes les entrées d’heures sélectionnées.
+   Si vous avez sélectionné plusieurs entrées d&#39;heures et modifié le champ Heures, le même nombre d&#39;heures est attribué à toutes les entrées d&#39;heures sélectionnées. Les heures d’origine sont remplacées par la nouvelle valeur pour toutes les entrées d’heures sélectionnées.
 
 

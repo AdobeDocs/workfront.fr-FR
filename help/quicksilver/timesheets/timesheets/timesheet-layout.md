@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 99%
@@ -45,7 +45,7 @@ Les préférences relatives aux feuilles de temps et aux heures contrôlent ce q
 
 Pour plus d’informations sur l’enregistrement des heures sur une feuille de temps, voir [Enregistrer des heures](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Disposition des feuilles de temps](assets/timesheet-layout-unshimmed.png)
+![Disposition des feuilles de temps](assets/timesheet-layout-leftnav-updated.png)
 
 Une feuille de temps comprend les éléments suivants :
 
@@ -71,8 +71,8 @@ L’en-tête de la feuille de temps comprend les informations suivantes :
 
 * La période de la feuille de temps.
 * La zone Actions qui comprend les éléments suivants :
-   * Une icône en forme d’étoile pour ajouter les feuilles de temps à votre liste de favoris.
-   * L’icône Plus contient une option Supprimer qui vous permet de supprimer la feuille de temps.
+  * Une icône en forme d’étoile pour ajouter les feuilles de temps à votre liste de favoris.
+  * L’icône Plus contient une option Supprimer qui vous permet de supprimer la feuille de temps.
 * Le nom du ou de la propriétaire de la feuille de temps.
 * Le nombre d’heures totales correspond aux heures enregistrées pour les éléments affichés dans la feuille de temps.
 * Le nombre d’heures supplémentaires. Il s’agit d’une entrée manuelle qui n’est visible que lorsque le paramètre **Heures supp.** est activé sur une feuille de temps. Pour plus d’informations, voir [Modifier les informations de la feuille de temps](../create-and-manage-timesheets/edit-timesheets.md).
