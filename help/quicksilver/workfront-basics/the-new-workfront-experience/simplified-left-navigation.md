@@ -89,7 +89,7 @@ Le panneau de gauche est disponible pour les zones suivantes :
 * [Sections par défaut de la zone [!UICONTROL Ressources]](#default-sections-in-the-resourcing-area)
 * [Sections par défaut de la zone [!UICONTROL Projets]](#default-sections-in-the-projects-area)
 * [Sections par défaut de la zone [!UICONTROL Feuilles de temps]](#default-sections-in-the-timesheets-area)
-* [Sections par défaut de la zone  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Sections par défaut de la zone  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Sections par défaut de la zone [!UICONTROL Tableaux de bord]
 
@@ -200,7 +200,7 @@ Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Feuil
 
 >[!NOTE]
 >
->L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] ](../../workfront-goals/goal-management/wf-goals-overview.md).
+>L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UICONTROL Objectifs]** :
 
