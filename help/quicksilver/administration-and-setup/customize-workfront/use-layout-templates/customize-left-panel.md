@@ -9,30 +9,19 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 TQID: https://experienceleague.adobe.com/2RcCpRizLBAaJzlW9N-Y-rxjyBDZq8j8E2xpb6u4WvQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: 1247
-ht-degree: 43%
+source-wordcount: 1230
+ht-degree: 44%
 
 ---
 
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -40,11 +29,7 @@ Dans un modèle de mise en page, vous pouvez personnaliser ce que les personnes 
 
 Par exemple, vous pouvez déterminer lequel des éléments suivants les utilisateurs voient dans le panneau de gauche lors de l’affichage d’un projet :
 
-<span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
 ![Panneau de gauche d’un projet](assets/left-panel-in-project-072326.png)
-
-Exemple d’image dans l’environnement de production :
-![Panneau de gauche d’un projet](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -155,12 +140,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projets dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projets dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Resourcing]</td> 
-      <td>[!UICONTROL Resourcing] dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Resourcing] dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planner] (ne peut pas être masqué), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
@@ -206,7 +191,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
        <td>[!UICONTROL Group]</td> 
        <td>Nom d’un groupe</td> 
-       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles&rbrack;, [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
+       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles], [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
      </tr>
      <!--
       <tr> 
