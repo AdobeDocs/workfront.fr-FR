@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 63%
+source-wordcount: 851
+ht-degree: 64%
 
 ---
 
@@ -99,7 +99,7 @@ Les sections suivantes illustrent les endroits où vous pouvez accéder à l’�
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![Équilibreur de charge de travail](assets/nwe-balancer-global.png)
+   ![Équilibreur de charge de travail](assets/wb-in-res-mgmt.png)
 
    L’équilibreur de charge de travail affiche par défaut les informations suivantes dans la zone Ressources :
 
@@ -118,7 +118,7 @@ La page de votre équipe interne s’affiche.
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![Équilibreur de charge de travail pour l’équipe](assets/nwe-balancer-team-350x172.png)
+   ![Équilibreur de charge de travail d’une équipe](assets/wb-on-team.png)
 
    L’équilibreur de charge de travail d’une équipe affiche par défaut les informations suivantes :
 
@@ -138,7 +138,7 @@ La page de votre équipe interne s’affiche.
 
    L’équilibreur de charge de travail pour le projet s’affiche.
 
-   ![Équilibreur de charge de travail pour le projet](assets/nwe-balancer-project-350x152.png)
+   ![Équilibreur de charge de travail d’un projet](assets/wb-on-project.png)
 
    L’équilibreur de charge de travail d’un projet affiche les informations suivantes par défaut :
 
@@ -161,7 +161,7 @@ Tous les paramètres d’affichage sont disponibles pour l’équilibreur de cha
 
    L’équilibreur de charge de travail de l’utilisateur s’affiche.
 
-   ![Équilbreur de charge de travail pour un utilisateur](assets/workload-balancer-user.png)
+   ![Équilbreur de charge de travail d’un utilisateur](assets/workload-balancer-user.png)
 
    L’équilibreur de charge de travail d’un utilisateur affiche les informations suivantes par défaut :
 

@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -852,8 +852,6 @@ Pour ajouter une recherche externe, procédez comme suit :
 >* Durée d’attente entre les reprises : 500 ms
 >* Statuts de la réponse attendue : 2xx
 
-
-
 ### Ajouter des champs de recherche interne
 
 Un champ de recherche interne permet aux utilisateurs de saisir le nom d’un objet qui existe dans Workfront. Une liste de suggestions s’affiche lorsque l’utilisateur ou l’utilisatrice commence à saisir du texte. Par exemple, si l’utilisateur saisit un nom d’utilisateur, une liste de noms correspondants s’affiche. Le type de champ de recherche interne est pris en charge sur les objets suivants :
@@ -871,6 +869,12 @@ Un champ de recherche interne permet aux utilisateurs de saisir le nom d’un ob
 * Problème
 * Document
 * Emplacement
+
+>[!NOTE]
+>
+>Les champs de saisie semi-automatique ne sont plus disponibles pour être ajoutés aux formulaires personnalisés. Vous pouvez convertir une saisie semi-automatique existante en recherche interne en cliquant sur le bouton dans les options de champ à droite. Lors de la conversion, les données historiques restent sur le champ et sont utilisées de la même manière dans les rapports.
+> 
+>Notez également que si un champ de saisie semi-automatique est inclus dans un package de promotion d’environnement, il est automatiquement converti en recherche interne lorsque la promotion a lieu. Pour plus d’informations sur la promotion de l’environnement, consultez [Présentation du déplacement d’objets entre des environnements Workfront (promotion de l’environnement)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 Pour ajouter une recherche interne :
 

@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
 source-wordcount: 4457
 ht-degree: 87%
@@ -139,7 +139,7 @@ Pour naviguer dans l’équilibreur de charge de travail pour plusieurs projets,
 
 1. Cliquez sur **Équilibreur de charge de travail** dans le panneau de gauche.
 
-   ![Équilibreur de charge de travail](assets/nwe-balancer-global.png)
+   ![Équilibreur de charge de travail](assets/wb-in-res-mgmt.png)
 
    L’équilibreur de charge de travail affiche les informations relatives à l’affectation du travail à partir de la semaine en cours dans les deux zones suivantes :
 
@@ -503,7 +503,7 @@ Vous pouvez accéder à l’équilibreur de charge de travail à partir de votre
 
    L’équilibreur de charge de travail de l’utilisateur s’affiche.
 
-   ![Équilbreur de charge de travail pour un utilisateur](assets/workload-balancer-user.png)
+   ![Équilbreur de charge de travail d’un utilisateur](assets/workload-balancer-user.png)
 
    L’équilibreur de charge de travail d’un utilisateur affiche les informations suivantes par défaut :
 
