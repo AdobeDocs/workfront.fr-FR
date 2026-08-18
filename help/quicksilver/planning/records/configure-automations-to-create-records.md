@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: 1884
 ht-degree: 5%
 
 ---
@@ -212,12 +212,17 @@ La page d’informations sur l’automatisation s’ouvre.
 
       ![Déclencheur de modification de la valeur du champ sélectionné](assets/field-value-change-trigger-selected.png)
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      >Le modificateur de chaque condition change en fonction du type de champ sélectionné.
+      >* Le modificateur de chaque condition change en fonction du type de champ sélectionné.
+      >* Chaque condition peut contribuer à plusieurs filtres lorsqu’un champ comporte plusieurs valeurs sélectionnées. Le nombre total de filtres dans vos conditions ne peut pas dépasser 5 et les groupes de filtres ne peuvent pas être imbriqués. Si votre configuration dépasse cette limite, une erreur en ligne s’affiche sous les conditions et vous ne pouvez pas enregistrer l’automatisation tant que vous n’avez pas réduit le nombre d’options ou de conditions sélectionnées.
+      >
+      >   Si vous avez besoin de plus de conditions que la limite ne le permet, divisez le travail en deux automatisations distinctes.
+      >
+      >   Pour plus d’informations, voir [Utilisation de groupes de filtres](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) dans *Abonnements aux événements*.
 
 1. Mettez à jour les champs suivants dans la section **Actions** : <!--submitted bugs for these fields - see if they need changing here-->
-   * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Ce champ est obligatoire.
+   * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Champ obligatoire.
      Sélectionnez l’une des actions suivantes :
 
      * Création de plusieurs projets

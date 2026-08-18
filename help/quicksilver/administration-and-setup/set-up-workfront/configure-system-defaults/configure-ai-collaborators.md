@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
 
 # Configuration des collaborateurs d’IA
-
-
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
 
 Les collaborateurs AI permettent d’intégrer des agents AI à vos projets et tâches. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
 
@@ -73,24 +69,20 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 * Vous devez avoir configuré une marque dans Workfront avant de pouvoir l’utiliser pour un collaborateur d’IA de type réviseur.
 
   Pour obtenir des instructions, voir [Créer et gérer des marques pour le réviseur de contenu](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* Pour utiliser Adobe Brand Intelligence pour un collaborateur ou une collaboratrice de l’IA dédiée aux réviseurs, votre entreprise doit utiliser l’expérience de révision et d’approbation unifiée dans Workfront. </span>
+* Pour utiliser Adobe Brand Intelligence pour un collaborateur ou une collaboratrice de l’IA dédiée aux réviseurs, votre entreprise doit utiliser l’expérience de révision et d’approbation unifiée dans Workfront.
 
-  Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
-
-<div class="preview">
+  Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ### Pour les collaborateurs de la tâche
 
 Vous devez configurer un agent dans Claude, Copilot Studio ou Writer avant de pouvoir l&#39;utiliser comme collaborateur de tâches.
-
-</div>
 
 ## Créer un collaborateur d’IA de type réviseur
 
 Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
-* **Adobe Brand Intelligence** : lorsqu’un collaborateur d’IA examine une ressource à l’aide d’Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur dans Frame.io.  </span>
+* **Adobe Brand Intelligence** : lorsqu’un collaborateur d’IA examine une ressource à l’aide d’Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur dans Frame.io.
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ Les collaborateurs Reviewer AI peuvent être configurés pour utiliser les marqu
 1. Choisissez si le collaborateur utilisera une marque ou Adobe Brand Intelligence pour ses révisions.
 1. (Conditionnel) Si le collaborateur de l’IA va utiliser une marque, sélectionnez la marque et les instructions qu’il suivra.
 1. Cliquer sur **Enregistrer**.
-
-<div class="preview">
 
 ## Configurer un collaborateur de tâches
 
@@ -202,8 +192,6 @@ Vous trouverez des informations plus détaillées sur la création d’agents da
 1. Affectez le collaborateur de tâches à une tâche Workfront. Le collaborateur commence à travailler lorsque toutes les tâches antérieures de la tâche sont terminées.
 
 +++
-
-</div>
 
 ## Gérer les collaborateurs d’IA
 
