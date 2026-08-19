@@ -4,9 +4,9 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '995'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,24 @@ Voici quelques exemples de workflows :
 >* Les collaborateurs de tâches prennent actuellement en charge les agents créés dans Copilot Studio, Claude et Writer.ai.
 >* Lors de la configuration d&#39;un agent dans Copilot Studio, vous devez définir la sécurité sur **Aucune authentification**.
 >* Pour plus d’informations et d’instructions sur la création d’un espace de collaboration dans Workfront, consultez [Configurer un espace de collaboration de tâche](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article Configurer des espaces de collaboration IA.
+
+## Informations lues par un collaborateur de tâche
+
+Lorsqu&#39;un collaborateur de tâches commence à travailler sur une tâche, il lit automatiquement les informations de tâche suivantes comme contexte :
+
+* Titre de la tâche
+* Description de la tâche
+* Commentaires dans le flux de mise à jour de la tâche
+* Informations dans tout formulaire personnalisé joint à la tâche
+
+Ces informations sont toujours lues et ne peuvent pas être configurées en tant que paramètre Workfront.
+
+>[!TIP]
+>
+>Pour de meilleurs résultats, nous vous recommandons :
+>
+>* Incluez toutes les informations d’arrière-plan que l’agent doit utiliser directement dans la description de la tâche ou dans un champ de formulaire personnalisé approprié.
+>* Assurez-vous que la tâche correspond à ce que votre agent a reçu pour instruction de faire. Par exemple, si votre agent a pour instruction de traduire du texte de l’anglais vers le français, incluez le texte que vous souhaitez traduire dans la description de la tâche.
 
 ## Déclencheurs de démarrage de Task Collaborator
 
