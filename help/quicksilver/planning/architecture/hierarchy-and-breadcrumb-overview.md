@@ -9,14 +9,11 @@ exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -47,12 +44,12 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
 * Vous pouvez créer jusqu’à 5 hiérarchies pour un espace de travail.
 * Vous pouvez avoir jusqu&#39;à 4 types d&#39;enregistrements et d&#39;objets connectés dans une seule hiérarchie.
 * Vous ne pouvez connecter que les types d&#39;objets suivants dans une hiérarchie d&#39;espace de travail :
-   * Types d’enregistrements appartenant à l’espace de travail dans lequel vous créez les hiérarchies.
-   * Projets Workfront. Les projets Workfront ne peuvent pas être ajoutés en tant que parents d’autres types d’enregistrements. Il s&#39;agit toujours du dernier type d&#39;objet d&#39;une hiérarchie.
+  * Types d’enregistrements appartenant à l’espace de travail dans lequel vous créez les hiérarchies.
+  * Projets Workfront. Les projets Workfront ne peuvent pas être ajoutés en tant que parents d’autres types d’enregistrements. Il s&#39;agit toujours du dernier type d&#39;objet d&#39;une hiérarchie.
 * Vous ne pouvez pas ajouter les types d&#39;objets suivants dans une hiérarchie :
-   * Types d’enregistrements d’autres espaces de travail, même s’ils sont définis comme des types d’enregistrements connectables ou globaux. Vous pouvez ajouter des types d&#39;enregistrements globaux aux hiérarchies uniquement lorsqu&#39;ils ont été ajoutés à l&#39;espace de travail à partir duquel vous créez la hiérarchie.
-   * Tous les autres objets Workfront.
-   * Adobe Experience Manager Assets ou fragments de contenu.
+  * Types d’enregistrements d’autres espaces de travail, même s’ils sont définis comme des types d’enregistrements connectables ou globaux. Vous pouvez ajouter des types d&#39;enregistrements globaux aux hiérarchies uniquement lorsqu&#39;ils ont été ajoutés à l&#39;espace de travail à partir duquel vous créez la hiérarchie.
+  * Tous les autres objets Workfront.
+  * Adobe Experience Manager Assets ou fragments de contenu.
 * Les hiérarchies peuvent inclure à la fois des types d&#39;enregistrements Planning et des projets Workfront.
 
   Par exemple, vous pouvez avoir un type d’enregistrement Campagne avec les Tactiques de planification et Projets Workfront comme enfants dans la même hiérarchie d’espace de travail.
@@ -64,25 +61,25 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
 * Vous ne pouvez pas supprimer un champ de connexion si le type d’enregistrement référencé dans le champ fait partie d’une hiérarchie. Vous devez d&#39;abord supprimer le type d&#39;enregistrement de la hiérarchie ou supprimer la hiérarchie avant de pouvoir supprimer le type d&#39;enregistrement.
 * Vous pouvez supprimer un champ de recherche d’un type d’enregistrement connecté. Les informations du champ ne peuvent pas être récupérées.
 * Voici des règles pour la configuration de la hiérarchie :
-   * Un type d’enregistrement ne peut avoir qu’un seul type d’enregistrement parent dans un espace de travail donné.
+  * Un type d’enregistrement ne peut avoir qu’un seul type d’enregistrement parent dans un espace de travail donné.
 
-     Par exemple, un type d’enregistrement Tactique ne peut pas avoir à la fois un type d’enregistrement Campagne et un type d’enregistrement Objectif en tant que parent dans le même espace de travail.
-   * Un type d’enregistrement peut être le parent dans plusieurs hiérarchies.
+    Par exemple, un type d’enregistrement Tactique ne peut pas avoir à la fois un type d’enregistrement Campagne et un type d’enregistrement Objectif en tant que parent dans le même espace de travail.
+  * Un type d’enregistrement peut être le parent dans plusieurs hiérarchies.
 
-     Par exemple, vous pouvez avoir trois hiérarchies différentes dans un espace de travail et chacune d’elles peut avoir comme type d’enregistrement parent Campagnes .
-   * Un enregistrement peut être connecté à plusieurs enregistrements parents du même type, lorsque vous connectez un à plusieurs ou plusieurs à plusieurs types d&#39;enregistrements.
+    Par exemple, vous pouvez avoir trois hiérarchies différentes dans un espace de travail et chacune d’elles peut avoir comme type d’enregistrement parent Campagnes .
+  * Un enregistrement peut être connecté à plusieurs enregistrements parents du même type, lorsque vous connectez un à plusieurs ou plusieurs à plusieurs types d&#39;enregistrements.
 
-     Par exemple, la tactique A peut appartenir à la fois à la campagne X et à la campagne Y.
-   * Un type d’enregistrement ne peut se connecter qu’à un seul type d’enregistrement enfant à la fois. Un type d’enregistrement enfant peut également être un parent pour un autre type d’enregistrement.
+    Par exemple, la tactique A peut appartenir à la fois à la campagne X et à la campagne Y.
+  * Un type d’enregistrement ne peut se connecter qu’à un seul type d’enregistrement enfant à la fois. Un type d’enregistrement enfant peut également être un parent pour un autre type d’enregistrement.
 
-     Par exemple, un type d’enregistrement Campagne peut être le parent d’un seul autre type d’enregistrement dans la même hiérarchie (Tactiques), et les tactiques peuvent à leur tour être le parent de programmes qui peuvent être un parent de projets.
-   * Un type d’enregistrement ne peut pas être le parent dans une hiérarchie et l’enfant dans une autre hiérarchie du même espace de travail.
-   * Les types d’enregistrements globaux peuvent apparaître dans plusieurs espaces de travail à l’intérieur de plusieurs hiérarchies, après leur ajout à ces espaces de travail.
+    Par exemple, un type d’enregistrement Campagne peut être le parent d’un seul autre type d’enregistrement dans la même hiérarchie (Tactiques), et les tactiques peuvent à leur tour être le parent de programmes qui peuvent être un parent de projets.
+  * Un type d’enregistrement ne peut pas être le parent dans une hiérarchie et l’enfant dans une autre hiérarchie du même espace de travail.
+  * Les types d’enregistrements globaux peuvent apparaître dans plusieurs espaces de travail à l’intérieur de plusieurs hiérarchies, après leur ajout à ces espaces de travail.
 
-     Par exemple, si une campagne est un type d’enregistrement global et fait partie d’une hiérarchie dans Workspace 1, elle peut être ajoutée en tant que type d’enregistrement existant dans Workspace 2 et y faire partie d’une hiérarchie. Cependant, il ne peut pas faire partie d’une hiérarchie dans Workspace 2 uniquement lorsqu’il est désigné comme type d’enregistrement global dans Workspace 1, mais pas ajouté à Workspace 2.
-   * Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
+    Par exemple, si une campagne est un type d’enregistrement global et fait partie d’une hiérarchie dans Workspace 1, elle peut être ajoutée en tant que type d’enregistrement existant dans Workspace 2 et y faire partie d’une hiérarchie. Cependant, il ne peut pas faire partie d’une hiérarchie dans Workspace 2 uniquement lorsqu’il est désigné comme type d’enregistrement global dans Workspace 1, mais pas ajouté à Workspace 2.
+  * Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
 
-     Par exemple, si vous créez une hiérarchie entre Campagnes comme enregistrement parent et Persona comme enregistrement enfant, vous pouvez connecter la même persona à un maximum de 10 campagnes.
+    Par exemple, si vous créez une hiérarchie entre Campagnes comme enregistrement parent et Persona comme enregistrement enfant, vous pouvez connecter la même persona à un maximum de 10 campagnes.
 
 ## Remarques concernant l’affichage des chemins de navigation
 
@@ -97,7 +94,7 @@ Tenez compte des points suivants :
 * Les chemins de navigation s’affichent dans la zone de prévisualisation d’un enregistrement, ainsi que dans la page de détails des enregistrements.
 * Si un type d&#39;enregistrement fait partie de plusieurs hiérarchies, vous pouvez basculer entre les hiérarchies à partir du chemin de navigation de l&#39;enregistrement sur la page de l&#39;enregistrement.
 * Si le type d’enregistrement dans une hiérarchie comporte plusieurs enregistrements, vous pouvez sélectionner des enregistrements dans le chemin de navigation.
-* Les chemins de navigation fonctionnent dans Workfront et Planning.
+* Les chemins de navigation fonctionnent dans Workfront et Planning, si votre société a acheté les packages Workfront et Planning.
 
   Par exemple, lorsque vous étudiez un projet lié aux campagnes et tactiques Planning, ainsi qu’aux portfolios et programmes Workfront, vous pouvez basculer entre les deux types d’objets Planning et Workfront à partir du chemin de navigation.
 
