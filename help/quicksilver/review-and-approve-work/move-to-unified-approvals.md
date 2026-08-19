@@ -6,7 +6,7 @@ description: Découvrez ce qui se passe avec vos workflows d’approbation de do
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
@@ -34,8 +34,6 @@ Le passage à une version de Workfront qui prend en charge l’espace de stockag
 | Révision et balisage | Visionneuse de relecture | [Visionneuse de relecture](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) sur les objets de stockage Workfront hérités ou [visionneuse Frame.io](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) sur les objets de stockage dans le cloud Adobe |
 | Révision assistée par l’IA | Non disponible | Contrôles de conformité de marque automatiques avec [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Rapports | Rapports hérités | Widgets des indicateurs de performance clés d’accueil et [tableaux de bord de la zone de travail](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-
-
 
 ### Qu’advient-il des approbations déjà en cours ?
 
