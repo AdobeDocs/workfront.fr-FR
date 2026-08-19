@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 3%
 
 ---
@@ -201,5 +201,4 @@ Vous pouvez modifier, copier et supprimer des collaborateurs IA existants.
 
 1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
 1. (Conditionnel) Pour modifier un espace de collaboration, cliquez sur le nom de l&#39;espace de collaboration que vous souhaitez modifier, apportez des modifications dans la fenêtre Modifier l&#39;espace de collaboration, puis cliquez sur **Enregistrer**.
-1. (Conditionnel) Pour copier un espace de collaboration, cliquez sur l&#39;icône Copier ![icône Copier](assets/copy-ai-collaborator.png) dans la ligne de l&#39;espace de collaboration IA que vous souhaitez copier, cliquez sur le nom de la copie, apportez des modifications dans la fenêtre Modifier l&#39;espace de collaboration, puis cliquez sur **Enregistrer**.
 1. (Conditionnel) Pour supprimer un espace de collaboration, cliquez sur l’icône Supprimer ![icône Supprimer](assets/delete-collaborator-icon.png) dans la ligne de l’espace de collaboration IA que vous souhaitez supprimer, puis cliquez sur **Supprimer**.

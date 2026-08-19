@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 76%
 
 ---
@@ -165,11 +165,11 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas 
 
 * Chaque nom d’API de champ personnalisé doit être unique dans l’instance Workfront de votre organisation. Ainsi, vous pouvez réutiliser un nom de champ déjà créé pour un autre formulaire personnalisé.
 
-* Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom d’API après que vous ou d’autres utilisateurs avez commencé à utiliser le formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
+* Par défaut, les noms d’API sont en lecture seule. Bien qu’il soit possible de le faire, nous vous recommandons de ne pas modifier ce nom d’API après l’utilisation du formulaire personnalisé dans Workfront. Si vous le faites, le système ne reconnaîtra plus le champ personnalisé là où il peut être référencé actuellement dans d’autres zones de Workfront.
 
   Par exemple, si vous ajoutez le champ personnalisé à un rapport et que vous modifiez ultérieurement son nom d’API, Workfront ne le reconnaît pas dans le rapport et il ne fonctionnera plus correctement à ce moment-là, sauf si vous le rajoutez au rapport avec le nouveau nom.
 
-* Par défaut, les noms d’API sont en lecture seule. Pour rendre le nom de l’API modifiable, cliquez sur l’icône **Modifier** en regard du **Nom de l’API**. Ensuite, saisissez **confirmer** dans la zone de confirmation, puis cliquez sur **Renommer le champ**.
+  Vous pouvez également interrompre les intégrations et les calculs existants qui dépendent du nom de l’API du champ.
 
 * Nous vous recommandons de ne pas saisir un nom d’API déjà utilisé pour les champs Workfront intégrés.
 
