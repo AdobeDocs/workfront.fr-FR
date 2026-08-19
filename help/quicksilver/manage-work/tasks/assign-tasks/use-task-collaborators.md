@@ -4,9 +4,9 @@ content-type: reference
 description: Découvrez comment utiliser les collaborateurs de tâches, des collaborateurs d’IA qui peuvent être affectés à des tâches Workfront.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 Les collaborateurs de tâches sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches Workfront, en plus du collaborateur de l’IA de type réviseur existant utilisé pour les révisions de documents et de ressources. Comme les autres collaborateurs de l’IA, les collaborateurs de tâches sont configurés dans la zone Configuration et affectés à des tâches comme un utilisateur.
 
-Les collaborateurs de tâches se connectent aux agents que vous avez configurés, à l’instar d’un serveur MCP.
+Les collaborateurs de tâches se connectent aux agents que vous avez configurés dans Copilot Studio, Claude ou Writer.
 
 Pour plus d’informations et d’instructions sur la création d’un espace de collaboration dans Workfront, consultez [Configurer un espace de collaboration de tâche](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article Configurer des espaces de collaboration IA.
 
@@ -63,6 +63,7 @@ Voici quelques exemples de workflows :
 >[!NOTE]
 >
 >* Les détails spécifiques relatifs aux responsabilités et capacités d’un agent sont configurés dans l’application dans laquelle l’agent est créé, et non dans Workfront.
+>* Le serveur MCP Workfront n&#39;a pas besoin d&#39;être ajouté à l&#39;agent utilisé comme collaborateur de tâches et n&#39;a pas besoin d&#39;être connecté pour que le collaborateur de tâches fonctionne.
 >* Les collaborateurs de tâches prennent actuellement en charge les agents créés dans Copilot Studio, Claude et Writer.ai.
 >* Lors de la configuration d&#39;un agent dans Copilot Studio, vous devez définir la sécurité sur **Aucune authentification**.
 >* Pour plus d’informations et d’instructions sur la création d’un espace de collaboration dans Workfront, consultez [Configurer un espace de collaboration de tâche](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article Configurer des espaces de collaboration IA.
