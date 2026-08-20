@@ -10,18 +10,13 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
-ht-degree: 95%
+source-wordcount: 3308
+ht-degree: 94%
 
 ---
 
@@ -118,13 +113,13 @@ La ressource d’abonnement contient les champs suivants :
 
 * objID (facultatif)
 
-   * **Chaîne**: identifiant du code d’objet de l’objet spécifié pour lequel les événements sont déclenchés. Si ce champ n’est pas spécifié, l’utilisateur ou l’utilisatrice reçoit des événements pour tous les objets du type spécifié.
+  * **Chaîne**: identifiant du code d’objet de l’objet spécifié pour lequel les événements sont déclenchés. Si ce champ n’est pas spécifié, l’utilisateur ou l’utilisatrice reçoit des événements pour tous les objets du type spécifié.
 
 * objCode (obligatoire)
 
-   * **Chaîne** : code d’objet de l’objet concerné par l’abonnement aux modifications. Les valeurs possibles pour objCode sont répertoriées dans le tableau ci-dessous.
+  * **Chaîne** : code d’objet de l’objet concerné par l’abonnement aux modifications. Les valeurs possibles pour objCode sont répertoriées dans le tableau ci-dessous.
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +258,23 @@ La ressource d’abonnement contient les champs suivants :
 
 * eventType (obligatoire)
 
-   * **Chaîne** : valeur qui représente le type d’événement auquel l’objet est abonné. Les types d’événement disponibles sont les suivants :
+  * **Chaîne** : valeur qui représente le type d’événement auquel l’objet est abonné. Les types d’événement disponibles sont les suivants :
 
-      * CREATE
-      * SUPPRIMER
-      * UPDATE
+    * CREATE
+    * SUPPRIMER
+    * UPDATE
 
 * url (obligatoire)
 
-   * **Chaîne** : URL du point d’entrée auquel les payloads d’événement d’abonnement sont envoyés via HTTP.
+  * **Chaîne** : URL du point d’entrée auquel les payloads d’événement d’abonnement sont envoyés via HTTP.
 
-* authToken (obligatoire)
+* authToken (obligatoire lors de la création)
 
-   * **Chaîne** : jeton porteur OAuth2 utilisé pour l’authentification avec l’URL spécifiée dans le champ « URL ».
+  * **Chaîne** : jeton porteur OAuth2 utilisé pour l’authentification avec l’URL spécifiée dans le champ « URL ». La réponse de création d’abonnement n’inclut pas ce champ du tout et chaque réponse ultérieure qui l’inclut l’affiche masquée (uniquement les 4 derniers caractères). La valeur complète n’est jamais renvoyée après votre envoi. Nous vous recommandons donc de conserver une copie de ce que vous envoyez.
+
+>[!NOTE]
+>
+>`authToken` est toujours masqué dans les réponses, affichant au maximum les 4 derniers caractères (par exemple : `****1234`). Si le jeton comporte 8 caractères ou moins, il est entièrement masqué à la place, de sorte que le masquage ne révèle jamais la moitié ou plus d’un jeton court. Cela s’applique à chaque point d’entrée qui renvoie des détails d’abonnement, y compris le point d’entrée de liste obsolète.
 
 ## Création de requêtes d’API d’abonnement aux événements
 
@@ -430,7 +429,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +503,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +630,10 @@ Par exemple, un abonnement à un événement **METTRE À JOUR - TÂCHE** peut ê
 * Lorsque plusieurs abonnements d’événement sont attribués à un seul objet, tous les abonnements d’événement associés à cet objet peuvent être renvoyés à un seul point d’entrée. Cette pratique peut être utilisée comme équivalent à un opérateur logique **OU** qui ne peut pas être défini à l’aide des paramètres de filtre.
 * Les champs suivants ne sont pas filtrables :
 
-   * DOCU.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.fields
+  * DOCU.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.fields
 
 ### Utiliser des opérateurs de comparaison
 
@@ -860,13 +859,13 @@ Ce filtre permet aux messages de passer uniquement si le champ spécifié (`fiel
 
 #### state
 
-Ce connecteur applique le filtre au nouvel état ou à l’ancien état de l’objet qui a été créé ou mis à jour. Cela s’avère utile lorsque vous souhaitez savoir où un changement a été effectué de quelque chose à un autre.
-`oldState` n&#39;est pas possible sur CREATE `eventTypes`.
+Ce connecteur fait en sorte que le filtre s’applique au nouvel état ou à l’ancien état de l’objet créé ou mis à jour. Cela s’avère utile lorsque vous souhaitez savoir où une modification a été apportée d’un état à un autre.
+`oldState` n’est pas possible sur CREATE `eventTypes`.
 
 >[!NOTE]
 >
->L’abonnement ci-dessous avec le filtre donné ne renvoie que les messages où le nom de la tâche contient des `again` sur la `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
->Un cas d’utilisation serait de trouver les messages objCode qui ont changé d’une chose à l’autre. Par exemple, pour connaître toutes les tâches qui ont changé de « Recherche Un nom » à « Équipe de recherche Un nom »
+>L’abonnement ci-dessous avec le filtre donné ne renverra que les messages dont le nom de la tâche contient `again` sur `oldState`, ce qu’il était avant qu’une mise à jour ne soit effectuée sur la tâche.
+>Un cas pratique pour cela serait de trouver les messages objCode qui ont changé d’un état à un autre. Par exemple, pour connaître toutes les tâches qui sont passées de « Research Some name » à « Research TeamName Some name ».
 
 ```
 {
@@ -1031,8 +1030,8 @@ L’exemple ci-dessus contient les composants suivants :
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Ce groupe évalue deux filtres internes :
 
-      * Le premier vérifie si le statut de la tâche est « CUR » (en cours).
-      * Le second vérifie si la priorité est égale à « 1 » (priorité élevée).
+     * Le premier vérifie si le statut de la tâche est « CUR » (en cours).
+     * Le second vérifie si la priorité est égale à « 1 » (priorité élevée).
    * Comme le connecteur est « OR », ce groupe est validé si l’une des conditions est vraie.
 
 1. Connecteur de niveau supérieur (filterConnector : AND) :
@@ -1370,7 +1369,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1378,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```
