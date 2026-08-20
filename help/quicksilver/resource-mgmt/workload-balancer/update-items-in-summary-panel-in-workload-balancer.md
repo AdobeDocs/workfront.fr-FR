@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 TQID: https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 64%
+source-wordcount: 423
+ht-degree: 51%
 
 ---
 
 # Mettre à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé
 
-Vous pouvez utiliser le panneau Résumé d’une tâche ou d’un problème pour mettre à jour des informations importantes de cet élément. Trouver l’équilibreur de charge de travail
+Vous pouvez utiliser le panneau Résumé d’une tâche ou d’un événement pour mettre à jour les informations importantes relatives à cet élément dans l’équilibreur de charge de travail.
 
 Le panneau Résumé est disponible pour les tâches et les événements dans les zones Tâches affectées et Tâches non affectées de l’équilibreur de charge de travail.
 
@@ -96,7 +90,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    ![Panneau Résumé](assets/summary-panel-task-wb-new-comments.png)
 
-1. Modifiez plusieurs champs de l’élément de travail, saisissez une mise à jour ou accédez à d’autres zones de Workfront pour ajouter des documents ou d’autres informations à l’élément de travail.
+1. Modifiez un certain nombre de champs pour l’élément de travail, saisissez une mise à jour ou accédez à d’autres zones de Workfront à partir d’ici pour ajouter des documents ou d’autres informations à l’élément de travail.
 
    >[!CAUTION]
    >

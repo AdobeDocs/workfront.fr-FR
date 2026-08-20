@@ -7,22 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 58%
+source-wordcount: 1229
+ht-degree: 56%
 
 ---
 
@@ -32,7 +25,7 @@ ht-degree: 58%
 
 Vous pouvez affecter des ressources à plusieurs tâches et événements en bloc à l’aide de l’équilibreur de charge de travail d’Adobe Workfront.
 
-Pour des informations générales sur l’attribution de travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail, voir [Vue d’ensemble de l’attribution de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Pour obtenir des informations générales sur l’affectation de travail aux utilisateurs et aux collaborateurs de tâches à l’aide de l’équilibreur de charge de travail, voir [Aperçu de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Conditions d’accès
 
@@ -211,9 +204,9 @@ Pour affecter une ressource en bloc :
 1. Sélectionnez des tâches dans la zone Affectations en bloc de l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Affecter une ressource**.
 1. Dans le champ **Ressource actuellement affectée**, cliquez sur la flèche déroulante pour effectuer une sélection dans une liste de ressources. Seules les ressources actuellement affectées à des éléments de travail incomplets dans les projets spécifiés s&#39;affichent. Champ obligatoire.
 
-   ![&#x200B; Remplacer la ressource &#x200B;](assets/bulk-assignments-workload-balancer-replace-selected.png)
+   ![ Remplacer la ressource ](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-1. Dans le champ **Ressource à affecter**, cliquez sur la flèche déroulante pour effectuer votre choix dans une liste de ressources suggérées ou pour saisir une autre fonction ou un autre nom d’utilisateur. Les ressources répertoriées en premier correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. Dans le champ **Ressource à affecter**, cliquez sur la flèche déroulante pour effectuer votre choix dans une liste de ressources suggérées ou pour saisir une autre fonction ou un autre nom d’utilisateur. Les ressources répertoriées en premier correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront affiche une note sur le nombre d’éléments pour lesquels la ressource actuellement affectée remplacera la seconde ressource.
 
@@ -231,7 +224,6 @@ Lorsque vous annulez l’affectation d’un utilisateur ou d’une utilisatrice 
 
 * L’utilisateur spécifié est supprimé de toutes les tâches qui lui sont affectées.
 * Si la personne non affectée est associée à des fonctions, les fonctions demeurent affectées aux éléments de travail lors de la suppression de la personne.
-
 * Si la personne spécifiée est affectée aux éléments de travail terminés, la personne demeure affectée à ces éléments de travail.
 
 Pour plus d’informations sur les affectations d’utilisateurs et d’utilisatrices et de fonctions, voir [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).

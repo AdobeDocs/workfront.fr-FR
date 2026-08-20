@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 TQID: https://experienceleague.adobe.com/AREKzNODjF60azs3tXIndVE9QuXXw-14Qlv2nUl9Po4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 81%
+source-wordcount: 387
+ht-degree: 68%
 
 ---
 
 # Annuler l’affectation de travaux dans l’équilibreur de charge de travail
 
-Vous pouvez annuler l’affectation de personnes à des tâches dans la zone de travail affecté de l’équilibreur de charge de travail Adobe Workfront ou réaffecter ces tâches à d’autres personnes, rôles ou équipes.
+Vous pouvez annuler l’affectation d’utilisateurs à des tâches dans la zone Tâches affectées de l’équilibreur de charge de travail d’Adobe Workfront ou les réaffecter à d’autres utilisateurs, collaborateurs de tâches, rôles ou équipes.
 
 Vous pouvez manuellement annuler l’affectation de tâches à des personnes en les faisant glisser et en les déposant, ou en bloc. Cet article décrit comment annuler manuellement l’affectation d’utilisateurs et utilisatrices.
 
@@ -75,7 +69,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Annuler l’affectation d’éléments de travail dans l’équilibreur de charge de travail
 
-Vous pouvez soit annuler l’affectation d’éléments à des personnes et les déplacer vers la zone de travail non affecté, soit les réaffecter à d’autres personnes.
+Vous pouvez annuler l&#39;affectation d&#39;éléments des utilisateurs et les déplacer vers la zone Tâches non affectées ou les réaffecter à d&#39;autres utilisateurs ou collaborateurs de tâches.
 
 Pour annuler l’affectation d’éléments de travail à des personnes :
 

@@ -7,19 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 92%
+source-wordcount: 440
+ht-degree: 84%
 
 ---
 
@@ -29,7 +24,7 @@ ht-degree: 92%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-Les groupes de ressources sont des groupes d’utilisateurs et d’utilisatrices qui vous aident à gérer les ressources dans Adobe Workfront.
+Les pools de ressources sont des ensembles d&#39;utilisateurs qui vous aident à gérer les ressources dans Adobe Workfront.
 
 Vous devez créer un groupe de ressources avant de pouvoir l’associer à des utilisateurs et des utilisatrices.
 
@@ -77,11 +72,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step-1-to-users}}
 
-1. Cochez la case en regard du nom d’un utilisateur ou d’une utilisatrice de la liste, puis cliquez sur **Modifier**.
+1. Cochez la case en regard du nom d’un utilisateur dans la liste, puis cliquez sur **Modifier**.
 1. Cliquez sur **Planification des ressources**.
 1. Commencez à saisir le nom d’un groupe de ressources que vous souhaitez associer à l’utilisateur ou à l’utilisatrice dans le champ **Groupes de ressources**, puis sélectionnez-le dans la liste lorsqu’il s’affiche.\
    Vous pouvez associer plusieurs groupes de ressources à une même personne.\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![Ajouter un pool de ressources à l&#39;utilisateur](assets/add-resource-pool-to-user.png)
 
 1. Cliquez sur **Enregistrer les modifications**.
 

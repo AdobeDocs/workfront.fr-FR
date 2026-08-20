@@ -7,22 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 86%
+source-wordcount: 1104
+ht-degree: 83%
 
 ---
 
@@ -30,7 +23,7 @@ ht-degree: 86%
 
 <!-- Audited: 5/2025 -->
 
-En tant que personne gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail Adobe Workfront pour afficher les éléments de travail qui n’ont pas encore été attribués à des utilisateurs et utilisatrices et leur attribuer ces éléments.
+En tant que gestionnaire de ressources, vous pouvez utiliser l’équilibreur de charge de travail d’Adobe Workfront pour afficher les tâches qui n’ont pas encore été affectées aux utilisateurs et aux collaborateurs de tâches, ainsi que pour leur affecter ces tâches.
 
 Pour des informations générales sur l’équilibreur de charge de travail, voir [Vue d’ensemble de l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
@@ -51,10 +44,10 @@ Workfront utilise les informations suivantes pour calculer la capacité des util
 
 * Préférences en matière de gestion des ressources. L’équipe d’administration Workfront détermine la manière dont le temps disponible est calculé pour le système en sélectionnant l’une des options suivantes dans la zone Gestion des ressources de la configuration :
 
-   * Planning par défaut du système Workfront et équivalent temps complet de l’utilisateur ou de l’utilisatrice.
-   * Planning de l’utilisateur ou de l’utilisatrice, tel qu’il est indiqué dans la zone Profil de l’utilisateur ou de l’utilisatrice.
+  * Planning par défaut du système Workfront et équivalent temps complet de l’utilisateur ou de l’utilisatrice.
+  * Planning de l’utilisateur ou de l’utilisatrice, tel qu’il est indiqué dans la zone Profil de l’utilisateur ou de l’utilisatrice.
 
-     Calcule la disponibilité quotidienne et hebdomadaire des utilisateurs et utilisatrices. Toute exception au planning sélectionné se répercute sur la capacité de l’utilisateur ou de l’utilisatrice dans l’équilibreur de charge de travail.
+    Calcule la disponibilité quotidienne et hebdomadaire des utilisateurs et utilisatrices. Toute exception au planning sélectionné se répercute sur la capacité de l’utilisateur ou de l’utilisatrice dans l’équilibreur de charge de travail.
 
   Pour plus d’informations, voir [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -172,9 +165,9 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 * Les tâches ou les problèmes sont généralement affectés en premier à une ou plusieurs fonctions ou à une équipe. Lorsque les projets sont prêts à démarrer, ils doivent peut-être également être affectés aux utilisateurs et utilisatrices.\
   Si une tâche ou un problème est assigné à une ou plusieurs fonctions, puis que vous affectez également un utilisateur ou une utilisatrice, Adobe Workfront décide quelle fonction associer à l’utilisateur ou à l’utilisatrice supplémentaire (le cas échéant) selon les règles suivantes :
 
-   * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
-   * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné(e) à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
-   * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois au ou aux rôles et à l’utilisateur ou l’utilisatrice.
+  * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
+  * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné(e) à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
+  * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois au ou aux rôles et à l’utilisateur ou l’utilisatrice.
 
 * Si une tâche ou un problème est affecté à une équipe et que vous affectez également un utilisateur ou une utilisatrice, la tâche ou le problème reste affecté(e) à la fois à l’équipe et à l’utilisateur ou à l’utilisatrice.
 
