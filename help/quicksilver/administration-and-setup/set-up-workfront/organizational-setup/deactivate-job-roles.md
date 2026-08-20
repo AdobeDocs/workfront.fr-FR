@@ -9,23 +9,15 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 645
-ht-degree: 96%
+source-wordcount: 648
+ht-degree: 90%
 
 ---
 
@@ -82,7 +74,7 @@ Si vous désactivez une fonction, elle ne s’affiche plus dans les zones suivan
 * La boîte de dialogue [!UICONTROL Ajouter une affectation au panorama Kanban] d’un projet
 * Le champ [!UICONTROL Fonction] d’un plan ou d’une initiative lorsqu’une personne utilise [!DNL Adobe Workfront Scenario Planner]
 
-  Le [!DNL Scenario Planner] n’est disponible que dans la nouvelle expérience d’[!DNL Adobe Workfront] et nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
+  Le [!DNL Scenario Planner] n’est disponible que dans la nouvelle expérience d’[!DNL Adobe Workfront] et nécessite une licence supplémentaire. Pour plus d’informations sur le [!DNL Workfront Scenario Planner], voir [Vue d’ensemble du  [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
@@ -120,12 +112,12 @@ Nous vous recommandons d’effectuer les opérations suivantes avant de désacti
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fonctions].**
-1. (Facultatif) Dans le menu déroulant **[!UICONTROL Filtrer]**, sélectionnez **[!UICONTROL Actif]** pour afficher uniquement les fonctions actives.
-1. Cliquez sur le nom de la fonction à désactiver.
-1. Dans le menu déroulant **[!UICONTROL Est actif]**, sélectionnez **[!UICONTROL Non]**.
+1. (Facultatif) Dans la liste **[!UICONTROL Filtres]**, sélectionnez **[!UICONTROL Actif]** pour afficher uniquement les fonctions actives.
+1. Cochez la case en regard de la fonction à désactiver, puis cliquez sur l’icône [!UICONTROL **Modifier**] [Modifier](assets/edit-icon.png).
+1. Pour le champ **[!UICONTROL Est actif]**, sélectionnez **[!UICONTROL Non]**.
 
-   ![Désactiver la fonction](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Désactiver la fonction](assets/edit-job-role.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
    La fonction est désactivée et ne peut plus être attribuée au travail, associée aux modèles de mise en page, etc. Pour plus d’informations sur toutes les utilisations des fonctions dans [!DNL Workfront], voir [Vue d’ensemble des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
