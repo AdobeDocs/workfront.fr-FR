@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 3%
+source-wordcount: '1072'
+ht-degree: 2%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 3%
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
+
+>[!NOTE]
+>
+>Aperçu : 20 août 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Nous avons apporté des améliorations visuelles aux en-têtes de colonne pour un champ d’enregistrement connecté dépendant dans la vue Tableau.
+
+Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Améliorations de la vue Tableau lors du glisser-déposer de plusieurs lignes
 
@@ -63,22 +75,6 @@ Si le formulaire de saisie comprend un champ Workspace et qu’un utilisateur s�
 
 Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
-
 ## Présentation de la compétence d’architecte de solution Workfront Planning
 
 >[!NOTE]
@@ -86,12 +82,14 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >Aperçu : 10 août 2026
 >Production : 10 Août 2026
 
-Nous mettons à disposition une nouvelle compétence, l’architecte de solution de planification Workfront, qui apporte des conseils d’agent et de bonne pratique pour la planification Workfront directement dans Claude. Dans l’interface Claude, vous pouvez désormais effectuer les opérations suivantes :
+Nous publions une nouvelle compétence, l’architecte de solution Workfront Planning, qui apporte des conseils agentiques et de bonnes pratiques pour Workfront Planning directement dans Claude :
 
-* Configurez un nouvel espace de travail Planning pour répondre aux besoins de votre entreprise, le serveur Workfront MCP exécutant la configuration dans votre environnement.
-* Effectuez l’audit d’une configuration existante pour détecter des antimodèles à grande échelle.
-* Vérifiez l’utilisation par rapport aux limites recommandées.
-* Posez des questions sur Planning.
+* **Configurer** nouveaux espaces de travail Planning aux spécifications, avec le serveur MCP Workfront exécutant le programme d’installation dans votre environnement.
+* **Audit** configurations existantes pour les antimodèles à grande échelle.
+* **Vérifiez l’utilisation** par rapport aux limites recommandées (enregistrements, connexions, profondeur de hiérarchie).
+* **Posez des questions** sur Planning à tout moment.
+
+Au-delà de la configuration initiale, la compétence soutient la gouvernance continue en capturant la dérive de configuration avant qu&#39;elle ne provoque des frictions, en signalant les limites avant qu&#39;elles ne deviennent des bloqueurs, en appliquant des normes cohérentes dans chaque espace de travail, indépendamment de qui le configure et en donnant des réponses précises à toute personne de l&#39;équipe sans attendre un spécialiste. Ensemble, ils couvrent tout le cycle de vie de la configuration correcte d’un espace de travail et de son maintien à mesure que l’utilisation augmente.
 
 Pour plus d’informations, voir [Compétences disponibles pour une installation directe](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
 
