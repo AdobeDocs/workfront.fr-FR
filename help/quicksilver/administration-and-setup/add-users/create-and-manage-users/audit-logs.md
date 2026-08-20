@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 88%
@@ -102,14 +102,14 @@ Le système génère une entrée de journal de niveau d’accès lorsqu’une pe
 * Supprime un niveau d’accès
 * Modifie un niveau d’accès :
 
-   * Modifie le type de licence
-   * Modifie les autorisations en ce qui concerne les projets, tâches, problèmes, Portfolios, programmes, rapports, documents, utilisateurs, utilisatrices ou modèles
+  * Modifie le type de licence
+  * Modifie les autorisations en ce qui concerne les projets, tâches, problèmes, Portfolios, programmes, rapports, documents, utilisateurs, utilisatrices ou modèles
 
-     >[!NOTE]
-     >
-     >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
-     >
-     >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
+    >[!NOTE]
+    >
+    >Le système n’enregistre aucune modification des autorisations dans les données financières ou dans les types d’accès suivants : Afficher et Modifier.
+    >
+    >Par exemple, si une personne passe le type d’accès Planificateur ou planificatrice d’Afficher à Modifier, le système n’affiche pas les informations contenues dans le menu déroulant Affiner vos paramètres.
 
 ### Profils professionnels
 
@@ -121,16 +121,16 @@ Le système génère une entrée du journal d’audit du profil professionnel lo
 
 ### Règles métier
 
-Les règles métier ne sont disponibles que pour les clients qui ont acheté un plan Ultimate Workfront. Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Les règles métier ne sont disponibles que pour les clients qui ont acheté un package Ultimate Workfront. Pour plus d’informations, voir [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Le système génère une entrée du journal d’audit des règles métier lorsqu’un utilisateur effectue l’une des opérations suivantes :
 
 * Crée une règle métier
 * Modifie une règle métier :
 
-   * Modifie le nom.
-   * Ajoute ou supprime des expressions
-   * Change un déclencheur
+  * Modifie le nom.
+  * Ajoute ou supprime des expressions
+  * Change un déclencheur
 
 * Supprime une règle métier
 
@@ -141,13 +141,13 @@ Le système génère une entrée de journal d’audit d’une entreprise lorsqu�
 * Crée une entreprise.
 * Modifie une entreprise :
 
-   * Modifie le nom.
-   * Ajoute ou supprime des personnes membres.
-   * Ajoute, modifie ou supprime la valeur dans son champ Groupe.
-   * Ajoute ou modifie un taux de facturation d’entreprise pour une fonction.
-   * Supprime un taux de facturation d’entreprise pour une fonction.
-   * Définit cette variable comme entreprise principale pour l’organisation.
-   * Joint ou supprime un formulaire personnalisé.
+  * Modifie le nom.
+  * Ajoute ou supprime des personnes membres.
+  * Ajoute, modifie ou supprime la valeur dans son champ Groupe.
+  * Ajoute ou modifie un taux de facturation d’entreprise pour une fonction.
+  * Supprime un taux de facturation d’entreprise pour une fonction.
+  * Définit cette variable comme entreprise principale pour l’organisation.
+  * Joint ou supprime un formulaire personnalisé.
 
 * Supprime une entreprise.
 
@@ -160,11 +160,11 @@ Le système génère une entrée de journal d’audit d’une condition lorsqu�
 * Crée une condition.
 * Modifie une condition :
 
-   * Modifie le nom.
-   * Modifie la couleur
-   * Définit comme valeur par défaut
-   * Modifie ou supprime la description de la condition.
-   * Masque ou affiche la condition.
+  * Modifie le nom.
+  * Modifie la couleur
+  * Définit comme valeur par défaut
+  * Modifie ou supprime la description de la condition.
+  * Masque ou affiche la condition.
 
 * Supprime une condition.
 
@@ -177,21 +177,21 @@ Le système génère une entrée de journal d’audit d’un champ personnalisé
 * Crée un champ personnalisé.
 * Modifie un champ personnalisé :
 
-   * Modifie le nom, le libellé, les instructions ou le format de l’API
-   * Modifie le type d’affichage.
+  * Modifie le nom, le libellé, les instructions ou le format de l’API
+  * Modifie le type d’affichage.
 
-     Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, paragraphe, liste déroulante, case à cocher, case d’option.
+    Cette option est disponible uniquement si le champ est de l’un des types suivants : une seule ligne, paragraphe, liste déroulante, case à cocher, case d’option.
 
-   * Modifie la taille du champ.
+  * Modifie la taille du champ.
 
-     Cette option n’est disponible que si le champ possède l’un des types suivants : une seule ligne, paragraphe, texte enrichi
+    Cette option n’est disponible que si le champ possède l’un des types suivants : une seule ligne, paragraphe, texte enrichi
 
-   * Ajoute, supprime ou masque un choix de champ.
-   * Modifie une valeur ou un libellé de choix de champ.
-   * Configure le choix du champ à sélectionner ou non par défaut.
-   * Configure un champ déroulant pour permettre plusieurs sélections ou une sélection unique.
-   * Configure un champ de date pour afficher ou non l’heure.
-   * Modifie l’hyperlien ou modifie la valeur d’un champ de texte descriptif.
+  * Ajoute, supprime ou masque un choix de champ.
+  * Modifie une valeur ou un libellé de choix de champ.
+  * Configure le choix du champ à sélectionner ou non par défaut.
+  * Configure un champ déroulant pour permettre plusieurs sélections ou une sélection unique.
+  * Configure un champ de date pour afficher ou non l’heure.
+  * Modifie l’hyperlien ou modifie la valeur d’un champ de texte descriptif.
 
 * Supprime un champ personnalisé.
 * Partage un champ personnalisé.
@@ -203,17 +203,17 @@ Le système génère une entrée de journal d’audit de formulaire personnalis�
 * Modifie un formulaire personnalisé.
 * Modifie un formulaire personnalisé :
 
-   * Modifie le nom ou la description.
-   * Active ou désactive la fonction Est actif.
-   * Ajoute ou supprime un champ ou une section.
-   * Pour une section personnalisée, modifie un paramètre sous Paramètres supplémentaires.
-   * Remplace un champ par obligatoire ou non obligatoire.
-   * Modifie un calcul dans un champ personnalisé.
-   * Masque ou affiche la formule associée à un champ calculé dans le texte de survol Instructions.
-   * Active ou désactive la mise à jour des calculs précédents.
-   * Ajoute ou modifie la logique du champ
+  * Modifie le nom ou la description.
+  * Active ou désactive la fonction Est actif.
+  * Ajoute ou supprime un champ ou une section.
+  * Pour une section personnalisée, modifie un paramètre sous Paramètres supplémentaires.
+  * Remplace un champ par obligatoire ou non obligatoire.
+  * Modifie un calcul dans un champ personnalisé.
+  * Masque ou affiche la formule associée à un champ calculé dans le texte de survol Instructions.
+  * Active ou désactive la mise à jour des calculs précédents.
+  * Ajoute ou modifie la logique du champ
 
-     <!--   
+    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -237,9 +237,9 @@ Le système génère une entrée de journal d’audit Taux de change lorsqu’un
 * Crée un taux de change.
 * Modifie un taux de change :
 
-   * Ajoute une devise.
-   * Modifie le taux de la devise.
-   * Définit la devise comme devise de base (par défaut) pour tous les projets et rapports du système.
+  * Ajoute une devise.
+  * Modifie le taux de la devise.
+  * Définit la devise comme devise de base (par défaut) pour tous les projets et rapports du système.
 
 * Supprime un taux de change.
 
@@ -253,8 +253,8 @@ Le système génère une entrée de journal d’audit Groupe lorsqu’un utilisa
 * Supprime un groupe.
 * Modifie un groupe :
 
-   * Ajoute ou supprime des utilisateurs et utilisatrices.
-   * Ajoute ou supprime des sous-groupes.
+  * Ajoute ou supprime des utilisateurs et utilisatrices.
+  * Ajoute ou supprime des sous-groupes.
 
 ### Fonctions {#job-role}
 
@@ -263,10 +263,10 @@ Le système génère une entrée de journal d’audit Fonctions lorsqu’un util
 * Crée une fonction.
 * Modifie une fonction :
 
-   * Modifie le nom.
-   * Ajoute, modifie ou supprime la description.
-   * Ajoute, modifie ou supprime le coût par heure (Coût/heure).
-   * Ajoute, modifie ou supprime le taux de facturation (Fact/Hr.).
+  * Modifie le nom.
+  * Ajoute, modifie ou supprime la description.
+  * Ajoute, modifie ou supprime le coût par heure (Coût/heure).
+  * Ajoute, modifie ou supprime le taux de facturation (Fact/Hr.).
 
 * Supprime une fonction.
 
@@ -299,11 +299,11 @@ Le système génère une entrée de journal d’audit Priorité lorsqu’un util
 * Crée une priorité.
 * Modifie une priorité :
 
-   * Modifie le nom.
-   * Modifie la couleur
-   * Définit comme valeur par défaut
-   * Ajoute, modifie ou supprime la description de la priorité
-   * Masque ou affiche la priorité
+  * Modifie le nom.
+  * Modifie la couleur
+  * Définit comme valeur par défaut
+  * Ajoute, modifie ou supprime la description de la priorité
+  * Masque ou affiche la priorité
 
 * Supprime une priorité
 
@@ -316,10 +316,10 @@ Le système génère une entrée de journal d’audit Préférences du projet lo
 * Crée un calendrier personnalisé
 * Modifie une préférence de projet :
 
-   * La verrouille ou déverrouille
-   * Modifie l’un de ses paramètres
-   * L’active, la désactive ou la modifie
-   * Modifie un calcul de chronologie
+  * La verrouille ou déverrouille
+  * Modifie l’un de ses paramètres
+  * L’active, la désactive ou la modifie
+  * Modifie un calcul de chronologie
 
 * Supprime un trimestre personnalisé
 
@@ -332,11 +332,11 @@ Le système génère une entrée de journal d’audit de gravité lorsqu’une p
 * Crée une gravité de problème
 * Modifie une gravité de problème :
 
-   * Modifie le nom.
-   * Modifie la couleur
-   * Définit comme valeur par défaut
-   * Modifie ou supprime la description de la gravité
-   * Masque ou affiche la gravité
+  * Modifie le nom.
+  * Modifie la couleur
+  * Définit comme valeur par défaut
+  * Modifie ou supprime la description de la gravité
+  * Masque ou affiche la gravité
 
 * Supprime une gravité de problème
 
@@ -349,11 +349,11 @@ Le système génère une entrée de journal d’audit Statut lorsqu’une person
 * Crée un statut au niveau du système ou du groupe
 * Modifie un statut au niveau du système ou du groupe :
 
-   * Modifie le nom.
-   * Fait du statut le statut par défaut
-   * La verrouille ou déverrouille
-   * Le masque ou annule son masquage
-   * Modifie la couleur ou la description
+  * Modifie le nom.
+  * Fait du statut le statut par défaut
+  * La verrouille ou déverrouille
+  * Le masque ou annule son masquage
+  * Modifie la couleur ou la description
 
 * Supprime un statut au niveau du système ou du groupe
 

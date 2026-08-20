@@ -6,9 +6,9 @@ description: Planifiez le déploiement de Workfront sur l’espace de stockage c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Le passage à une version de Workfront qui prend en charge l’espace de stockag
 
 Avant de déployer l’espace de stockage dans le cloud d’Adobe, assurez-vous que les personnes qui gèrent les validations savent à quoi s’attendre :
 
+* **Qu’advient-il des approbations existantes** Les workflows d’approbation hérités existants sont affectés par cette modification, qu’elle soit en cours ou terminée. Pour plus d&#39;informations, voir [Passer des approbations de documents hérités aux approbations unifiées](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **Une nouvelle expérience d’approbation** Les réviseurs et les approbateurs passent de l’ancienne expérience d’approbation des documents aux approbations unifiées, qui ajoutent des approbations à plusieurs étapes, des chemins de révision parallèles, etc. Pour plus d’informations, consultez les articles suivants :
 
   * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)

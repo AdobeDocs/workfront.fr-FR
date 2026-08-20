@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 4030
-ht-degree: 39%
+source-wordcount: 4047
+ht-degree: 38%
 
 ---
 
@@ -181,7 +181,21 @@ Pour plus d&#39;informations sur la modification des enregistrements en mode Tab
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-Lors de la création d’une vue tableau, tous les enregistrements du type sélectionné s’affichent dans un tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement. Tous les champs et tous les enregistrements s’affichent par défaut.
+Dans une vue Tableau, tous les enregistrements du type d’enregistrement sélectionné s’affichent au format tableau. Chaque ligne est un enregistrement unique et chaque colonne est un champ d’enregistrement.
+
+Les éléments suivants s’affichent par défaut dans une vue de tableau :
+
+* Tous les champs et tous les enregistrements pour le type d&#39;enregistrement sélectionné.
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+500 enregistrements affichés par défaut
 
 Pour gérer une vue tableau :
 
@@ -288,6 +302,12 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
+
+      <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
 
    1. Appuyez sur la touche **Entrée** de votre clavier pour passer au champ suivant.
 
@@ -578,7 +598,12 @@ Tenez compte des points suivants :
 * Lorsque vous regroupez des champs de recherche avec plusieurs valeurs (qui n’ont pas été résumées par un agrégateur), les enregistrements sont regroupés selon chaque combinaison unique de valeurs de champ.
 * Vous pouvez référencer un champ qui se trouve à jusqu’à 4 niveaux du type d’enregistrement actuel. Par exemple, si vous créez un regroupement pour un type d’enregistrement Activité et que l’Activité est connectée au type d’enregistrement Produit connecté au type d’enregistrement Campagne connecté à un projet Workfront, vous pouvez référencer le statut du projet dans le regroupement que vous créez pour le type d’enregistrement Activité.
 * Les regroupements sont répertoriés dans l’ordre alphabétique de leurs valeurs.
-  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 Pour ajouter un regroupement :
 

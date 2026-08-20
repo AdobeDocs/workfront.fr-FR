@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
+source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2705'
 ht-degree: 6%
 
 ---
@@ -49,9 +49,9 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Rechercher la version du document par nom | `approvals_find_document_version_by_name` | Recherche l’ID de version actuelle d’un document par nom de fichier. Prend en charge les correspondances partielles. | Lire |
 | Obtenir le document par ID de version | `approvals_get_document_by_version_id` | Récupère les détails du document (nom, taille, date de chargement, chargeur) pour un ID de version de document connu. | Lire |
 | Résoudre la portée du document | `approvals_resolve_document_scope` | Développe un projet ou un dossier dans la liste des ID de version de document qu’il contient. Prend en charge les portées de projet, de dossier et de dossier par nom. | Lire |
-| Obtenir des documents par portée | `approvals_get_documents_by_scope` | Répertorier le document dans un projet ou un dossier. | Lire |
+| Obtenir des documents par portée | `approvals_get_documents_by_scope` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil répertorie les documents dans un projet ou un dossier. | Lire |
 | Liste des dossiers liés à AEM* | `approvals_list_aem_linked_folders` | Répertorie les dossiers de documents Workfront liés à Adobe Experience Manager. | Lire |
-| Rechercher un document | `approvals_find_document` | Recherche d’un document par nom de fichier ou ID de version de document | Lire |
+| Rechercher un document | `approvals_find_document` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil a recherché un document par nom de fichier ou ID de version de document. | Lire |
 | Envoi de documents vers un dossier AEM* | `approvals_send_documents_to_aem_folder` | Déplace un ou plusieurs documents Workfront vers un dossier lié à AEM. | Write |
 
 *Pour utiliser ces outils, vous devez disposer d’une intégration native [!DNL Adobe Experience Manager] configurée dans votre instance Workfront. Pour plus d’informations, voir [Présentation des intégrations Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -112,6 +112,10 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | --- | --- | --- | --- |
 | Rechercher un projet par nom | `approvals_find_project_by_name` | Recherche les projets Workfront par correspondance de noms partielle dans tout le système. | Lire |
 | Obtenir les projets par propriétaire | `approvals_get_projects_by_owner` | Répertorie les projets Workfront dont l’utilisateur appelant est le propriétaire. | Lire |
+| Obtenir l’utilisateur actuel | `approvals_get_current_user` | Supprimé le 13 août 2026. Cet outil a renvoyé l&#39;identité Workfront de l&#39;utilisateur appelant, y compris le nom, l&#39;ID utilisateur, le nom de l&#39;équipe interne et l&#39;ID de l&#39;équipe interne. Pour des fonctionnalités similaires, voir [Obtenir l’utilisateur actuel](#insights-tools) sous les outils Insights. | Lire |
+| Rechercher un utilisateur par nom | `approvals_find_user_by_name` | Obsolète. Utilisez `insights_search_users` à la place. Cet outil recherche l’ID d’un utilisateur Workfront par nom (correspondance approximative ou partielle), puis renvoie le nom, l’ID, l’adresse électronique, le titre et l’URL de l’avatar. | Lire |
+| Rechercher une équipe par nom | `approvals_find_team_by_name` | Obsolète. Utilisez `insights_find_id_by_name` à la place. Cet outil a recherché l’identifiant d’une équipe Workfront par nom (correspondance approximative ou partielle). | Lire |
+| Rechercher des projets | `approvals_find_projects` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil a recherché des projets Workfront, éventuellement filtrés par nom et/ou limités aux projets détenus par l’utilisateur appelant. | Lire |
 
 ## Outils de planification
 
