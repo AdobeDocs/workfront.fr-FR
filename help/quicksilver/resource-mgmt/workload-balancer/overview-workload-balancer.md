@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 100%
+source-wordcount: 1256
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Une fois que les personnes chargées de la gestion de projet ont planifié le tr
 
 >[!IMPORTANT]
 >
->Vous pouvez utiliser l’équilibreur de charge de travail pour attribuer le travail réel (tâches et problèmes) aux utilisateurs et utilisatrices.
+>Vous pouvez utiliser l’équilibreur de charge de travail pour affecter du travail réel (tâches et événements) aux utilisateurs et aux collaborateurs de tâches.
 >
 >Vous devez utiliser le planificateur de ressources et non l’équilibreur de charge de travail pour estimer, à un niveau élevé, l’attribution des fonctions pour vos projets. Pour plus d’informations sur le planificateur de ressources, consultez la section [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -114,49 +114,45 @@ Pour plus d’informations sur la création et l’utilisation de filtres dans l
 
 * Les utilisateurs et les utilisatrices dont vous souhaitez gérer la charge de travail doivent respecter les critères suivants afin que les informations sur leur disponibilité et leurs compétences soient exactes :
 
-   * Avoir des plannings et des fonctions associés à leur profil.
+  * Avoir des plannings et des fonctions associés à leur profil.
 
-     Pour plus d’informations sur l’association de plannings et de fonctions avec des utilisateurs et des utilisatrices, consultez la section [Ajouter des utilisateurs et des utilisatrices](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * Si un planning n’est pas associé à un utilisateur ou à une utilisatrice, le planning par défaut de votre système Workfront est associé à l’utilisateur ou à l’utilisatrice par défaut, à des fins de gestion des ressources.
-   * Avoir des exceptions de plannning mises à jour dans leurs plannings.
+    Pour plus d’informations sur l’association de plannings et de fonctions avec des utilisateurs et des utilisatrices, consultez la section [Ajouter des utilisateurs et des utilisatrices](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * Si un planning n’est pas associé à un utilisateur ou à une utilisatrice, le planning par défaut de votre système Workfront est associé à l’utilisateur ou à l’utilisatrice par défaut, à des fins de gestion des ressources.
+  * Avoir des exceptions de plannning mises à jour dans leurs plannings.
 
-     Pour plus d’informations sur la création de plannings, consultez la section [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    Pour plus d’informations sur la création de plannings, consultez la section [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Avoir leur planning de congés mis à jour dans leur profil.
+  * Avoir leur planning de congés mis à jour dans leur profil.
 
-     Pour plus d’informations sur la mise à jour du planning de congés d’un utilisateur ou d’une utilisatrice, consultez la section [Configurer les congés personnels](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    Pour plus d’informations sur la mise à jour du planning de congés d’un utilisateur ou d’une utilisatrice, consultez la section [Configurer les congés personnels](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Les membres de l’équipe d’administration de Workfront doivent déterminer comment Workfront calcule la disponibilité de l’utilisateur ou de l’utilisatrice. En modifiant les options de gestion des ressources dans la section de configuration de Workfront, ils peuvent définir si Workfront doit utiliser le planning système par défaut ou le planning personnalisé de l’utilisateur ou de l’utilisatrice pour évaluer sa disponibilité.
 
   Pour plus d’informations, consultez la section [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* Vous pouvez affecter du travail à un collaborateur de tâches de la même manière que vous affectez du travail à un utilisateur. La tâche collaborative doit exister dans Workfront avant de pouvoir être affectée à des tâches.
+
+  Pour plus d’informations sur la création de collaborateurs de tâches, voir [Configurer un collaborateur de tâches](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article [Configurer des collaborateurs de l’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Bonnes pratiques relatives à la configuration des tâches et des problèmes {#best-practices-for-setting-up-tasks-and-issues}
 
 Assurez-vous que la tâche et la configuration de problème suivantes existent avant de commencer à assigner du travail aux utilisateurs et aux utilisatrices dans l’équilibreur de charge de travail :
 
 * Les tâches parent ne sont pas affectées aux utilisateurs et aux utilisatrices ni aux rôles. Les tâches parent ne s’affichent pas dans l’équilibreur de charge de travail.
-* La valeur du nombre d’heures prévues pour les tâches et les problèmes est supérieure à zéro.
-
-* La valeur de la durée des tâches et des problèmes est supérieure à zéro.
+* La valeur du champ Heures planifiées pour les tâches et les événements est supérieure à zéro.
+* Les tâches et les événements ont une valeur pour leur durée qui est supérieure à zéro.
 * Les dates prévues des problèmes sont dans la chronologie du projet.
 
 ## Avant de commencer à utiliser l’équilibreur de charge de travail
 
 * Consultez les articles suivants avant de commencer à utiliser l’équilibreur de charge de travail :
 
-   * Cet article vous explique comment naviguer dans l’équilibreur de charge de travail pour effectuer les actions suivantes : [Naviguer dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
+  * Cet article vous explique comment naviguer dans l’équilibreur de charge de travail pour effectuer les actions suivantes : [Naviguer dans l’équilibreur de charge de travail](../workload-balancer/navigate-the-workload-balancer.md).
 
-   * Les articles suivants vous expliquent comment affecter du travail et gérer les affectations des utilisateurs et des utilisatrices :
+  * Les articles suivants vous expliquent comment affecter du travail et gérer les affectations des utilisateurs et des utilisatrices :
 
-      * [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Gérer les affectations utilisateur et utilisatrices dans l’équilibreur de charge de travail](../workload-balancer/manage-user-allocations-workload-balancer.md).
+    * [Vue d’ensemble de l’affectation de travail dans l’équilibreur de charge de travail](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [Gérer les affectations utilisateur et utilisatrices dans l’équilibreur de charge de travail](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * L’équilibreur de charge de travail se trouve dans différentes zones de Workfront. Pour plus d’informations sur l’emplacement de l’équilibreur de charge de travail, consultez la section [Localiser l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

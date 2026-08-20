@@ -19,16 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 82%
+source-wordcount: 751
+ht-degree: 80%
 
 ---
 
 # Affecter manuellement du travail à l’aide de l’équilibreur de charge de travail
 
-Vous pouvez affecter manuellement des tâches aux utilisateurs et aux utilisatrices à l’aide de l’équilibreur de charge de travail d’Adobe Workfront.
+Vous pouvez affecter manuellement des tâches aux utilisateurs et aux collaborateurs de tâches à l’aide de l’équilibreur de charge de travail Adobe Workfront.
 
 Pour des informations générales sur l’attribution de travail aux utilisateurs et utilisatrices à l’aide de l’équilibreur de charge de travail, voir [Vue d’ensemble de l’attribution de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

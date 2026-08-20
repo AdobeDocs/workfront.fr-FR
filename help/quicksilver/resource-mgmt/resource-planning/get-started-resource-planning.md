@@ -17,10 +17,10 @@ subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
-ht-degree: 90%
+source-wordcount: 559
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser les outils de gestion des ressources d’Adobe Workfront po
 
 Vous pouvez utiliser des outils de planification des ressources pour gérer vos fonctions, leur disponibilité et l’affectation générale aux projets en fonction de cette disponibilité.
 
-L’affectation générale des personnes au budget des projets ne les affecte pas au travail réel (tâches et problèmes). Vous devez affecter vos ressources à des travaux en utilisant l’équilibreur de charge de travail.
+L’affectation générale des personnes au budget des projets ne les affecte pas au travail réel (tâches et problèmes). Vous devez affecter vos ressources au travail à l’aide de l’équilibreur de charge de travail.
 
 Pour plus d’informations sur la planification des ressources dans Workfront à l’aide de l’équilibreur de charge de travail, voir [Vue d’ensemble de l’équilibreur de charge de travail](../workload-balancer/overview-workload-balancer.md).
 
@@ -55,7 +55,7 @@ Pour bugdéter les heures de vos ressources pour les projets auxquels vous prév
 
 * Pour les affectations de budget pour un seul projet : utilisez le planificateur de ressources au niveau du projet dans la zone Budget des ressources du business case d’un projet. Pour plus d’informations sur la planification des ressources pour un projet, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Pour gérer les personnes et les organiser en groupes basés sur des compétences communes ou une structure de services, puis gérer leurs affectations pour les projets auxquels elles sont affectées, vous devez créer des groupes de ressources. Pour plus d’informations sur la création de groupes de ressources, voir [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Pour gérer les utilisateurs, les organiser en pools en fonction des compétences communes ou de la structure du service, puis gérer leurs allocations pour les projets qui leur sont assignés, vous devez créer des pools de ressources. Pour plus d’informations sur la création de groupes de ressources, voir [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
@@ -69,9 +69,9 @@ Pour bugdéter les heures de vos ressources pour les projets auxquels vous prév
 
 * À l’aide du planificateur de ressources, vous pouvez effectuer les opérations suivantes :
 
-   * Classer vos projets par ordre de priorité afin de décider quels projets doivent recevoir en premier lieu des ressources. (Uniquement dans le planificateur de ressources)
-   * Comprendre la disponibilité de vos ressources en fonction du planning de vos utilisateurs et utilisatrices.
-   * Budgéter les affectations d’heures, de temps complet ou de coûts pour vos ressources (personnes et fonctions) pour les projets auxquels elles sont affectées.
+  * Classer vos projets par ordre de priorité afin de décider quels projets doivent recevoir en premier lieu des ressources. (Uniquement dans le planificateur de ressources)
+  * Comprendre la disponibilité de vos ressources en fonction du planning de vos utilisateurs et utilisatrices.
+  * Budgéter les affectations d’heures, de temps complet ou de coûts pour vos ressources (personnes et fonctions) pour les projets auxquels elles sont affectées.
 
   Pour plus d’informations sur l’utilisation du planificateur de ressources, consultez l’article [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
