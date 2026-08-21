@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
-ht-degree: 82%
+source-wordcount: 1277
+ht-degree: 80%
 
 ---
 
@@ -81,7 +81,7 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**.
 
-   ![Zone Finance dans la vue détaillée](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Zone Finance dans la vue détaillée](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +147,15 @@ Tenez compte des points suivants lors de l’affichage ou de la modification de 
 
 ## Modifier des informations financières sur un projet
 
-En tant que personne propriétaire de projet, vous pouvez modifier les informations du sous-onglet Finances d’un projet.
+En tant que propriétaire de projet, vous pouvez modifier les informations dans la zone Finances d’un projet.
 
-Pour modifier les informations sur le sous-onglet Finances du projet :
+Pour modifier des informations dans la zone Financement de projet :
 
-1. Accédez à un projet dont vous êtes la personne propriétaire.
+1. Accédez à un projet que vous possédez.
 
    >[!NOTE]
    >
-   >Pour effectuer les étapes suivantes, vous devez disposer des autorisations de gestion sur le projet. Nous recommandons également que seule la personne propriétaire du projet modifie le sous-onglet Finances du projet.
+   >Pour effectuer les étapes suivantes, vous devez disposer des autorisations de gestion sur le projet. Nous recommandons également que seule la personne propriétaire du projet modifie la zone Finances du projet.
 
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) dans le coin supérieur droit de la section Détails, puis cliquez sur **Finance**. La zone Finances s’ouvre alors pour modification.
@@ -165,13 +165,11 @@ Pour modifier les informations sur le sous-onglet Finances du projet :
    >
    >Les champs ne peuvent pas être modifiés s’ils sont automatiquement calculés par Workfront ou si vous ne disposez pas d’autorisations de modification.
 
-   ![Modifier la zone financière](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. Mettez à jour l’un des champs ci-dessous.
+1. Mettez à jour l’un des champs répertoriés ci-dessous.
 
    >[!NOTE]
    >
-   >Selon la manière dont votre administrateur Workfront a configuré votre modèle de mise en page, les champs de la section Détails du projet peuvent être différents dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Selon la configuration de votre modèle de mise en page par l’administration de Workfront, les champs de la section Détails du projet peuvent différer dans votre environnement. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

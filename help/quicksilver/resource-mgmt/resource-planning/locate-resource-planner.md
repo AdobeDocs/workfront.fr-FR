@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 92%
+source-wordcount: 455
+ht-degree: 88%
 
 ---
 
@@ -89,10 +89,10 @@ Pour accéder à la section Planificateur dans la zone Ressources :
 
 Le planificateur s’affiche par défaut.  Pour plus d’informations sur l’établissement d’un budget des ressources dans le planificateur de ressources, consultez l’article [Établir un budget des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![&#x200B; Planificateur de ressources par défaut &#x200B;](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![&#x200B; Planificateur de ressources par défaut &#x200B;](assets/default-resource-planner.png)
 
-1. Cliquez sur **Pools de ressources** dans le panneau de gauche.
-Pour plus d&#39;informations sur la création de pools de ressources, voir [Créer des pools de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. Cliquez sur **Groupes de ressources** dans le panneau de gauche.
+Pour plus d’informations sur la création de groupes de ressources, consultez l’article [Créer des groupes de ressources](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Utiliser le planificateur de ressources pour un projet {#use-the-resource-planner-for-one-project}
 
@@ -105,8 +105,8 @@ Lorsque vous utilisez le planificateur de ressources pour un projet, les numéro
 
    >[!TIP]
    >
-   >Vous ne pouvez ajouter un groupe de ressources dans la zone Établissement du budget des ressources du Business Case que si aucun projet de ressources n’est associé au projet. Lorsque le projet dispose déjà d’un groupe de ressources, les personnes du groupe et leurs fonctions s’affichent par défaut dans la zone d’établissement du budget des ressources.
+   >Vous ne pouvez ajouter un pool de ressources que dans la zone de budgétisation des ressources de l&#39;Analyse de rentabilité lorsque le projet n&#39;est associé à aucun pool de ressources. <!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![Établissement du budget des ressources](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Établissement du budget des ressources](assets/resource-budgeting-area-on-project.png)
 
    Pour plus d’informations sur la planification des ressources pour un projet, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

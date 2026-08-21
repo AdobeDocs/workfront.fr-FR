@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 645
-ht-degree: 96%
+source-wordcount: 648
+ht-degree: 90%
 
 ---
 
@@ -120,12 +120,12 @@ Nous vous recommandons d’effectuer les opérations suivantes avant de désacti
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Fonctions].**
-1. (Facultatif) Dans le menu déroulant **[!UICONTROL Filtrer]**, sélectionnez **[!UICONTROL Actif]** pour afficher uniquement les fonctions actives.
-1. Cliquez sur le nom de la fonction à désactiver.
-1. Dans le menu déroulant **[!UICONTROL Est actif]**, sélectionnez **[!UICONTROL Non]**.
+1. (Facultatif) Dans la liste **[!UICONTROL Filtres]**, sélectionnez **[!UICONTROL Actif]** pour afficher uniquement les fonctions actives.
+1. Cochez la case en regard de la fonction à désactiver, puis cliquez sur l’icône [!UICONTROL **Modifier**] [Modifier](assets/edit-icon.png).
+1. Pour le champ **[!UICONTROL Est actif]**, sélectionnez **[!UICONTROL Non]**.
 
-   ![Désactiver la fonction](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Désactiver la fonction](assets/edit-job-role.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.
+1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
    La fonction est désactivée et ne peut plus être attribuée au travail, associée aux modèles de mise en page, etc. Pour plus d’informations sur toutes les utilisations des fonctions dans [!DNL Workfront], voir [Vue d’ensemble des fonctions](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

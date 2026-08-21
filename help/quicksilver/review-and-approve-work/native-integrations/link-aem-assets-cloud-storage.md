@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Lier du contenu et des dossiers de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
-description: Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier du contenu et des dossiers de Experience Manager Assets à n’importe quel objet Adobe Workfront prenant en charge les documents.
+title: Liaison de ressources de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
+description: Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier des ressources de Experience Manager Assets à n’importe quel objet Adobe Workfront prenant en charge les documents.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
 
-# Lier du contenu et des dossiers de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
+# Liaison de ressources de Experience Manager Assets à l’espace de stockage dans le cloud Adobe
 
-Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier du contenu et des dossiers de Experience Manager Assets à Workfront. Une fois lié, vous pouvez afficher et gérer le contenu dans Workfront. Toute modification apportée au contenu dans Experience Manager Assets sera répercutée dans Workfront.
+Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier des ressources de Experience Manager Assets à Workfront. Une fois la liaison effectuée, vous pouvez afficher et gérer les ressources dans Workfront. Toutes les modifications apportées aux ressources dans Experience Manager Assets seront répercutées dans Workfront.
 
 >[!IMPORTANT]
 >
->Si votre entreprise refuse de signer l’accord GenAI Rider, vous pouvez toujours utiliser le gestionnaire de contenu pour choisir les ressources et les dossiers dans Experience Manager Assets, mais vous n’aurez pas accès aux fonctionnalités optimisées par l’IA telles que Recherche optimisée par l&#39;IA, les suggestions intelligentes ou l’analyse des résumés de campagne.
+>Si votre entreprise refuse de signer l’accord GenAI Rider, vous pouvez toujours utiliser le gestionnaire de contenu pour choisir des ressources dans Experience Manager Assets, mais vous n’aurez pas accès aux fonctionnalités optimisées par l’IA telles que Recherche optimisée par l&#39;IA, aux suggestions intelligentes ou à l’analyse des résumés de campagne.
 
 ## Conditions d’accès
 

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 26%
 
 ---
@@ -477,7 +477,7 @@ Pour connecter des enregistrements à des objets Adobe Experience Manager :
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous êtes autorisé à afficher dans Experience Manager. Une fois la connexion établie, tous les utilisateurs de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
+   > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
    > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Dans l’onglet **Fragments de contenu**, sélectionnez les fragments de contenu à ajouter au champ d’enregistrement lié.
@@ -596,13 +596,17 @@ Les enregistrements et les objets sont immédiatement ajoutés.
    >
    >Vous devez ajouter les enregistrements connectés à l’enregistrement actif pour les afficher dans la page des enregistrements connectés.
 
-1. Cliquez sur **Connecter** dans une liste d’enregistrements ou **Connecter des enregistrements** dans une liste de projets pour ajouter ou supprimer des enregistrements ou des projets existants.
+1. Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la page d’enregistrement connectée pour ajouter ou supprimer des enregistrements ou des projets existants.
 
-   ![Bouton Connexion mis en surbrillance dans l’onglet Détails de l’enregistrement connecté](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    Pour plus d’informations, voir [Ajouter une page Enregistrements connectés à un enregistrement](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-1. Cliquez sur **Nouvelle ligne** dans une liste de projets pour créer un projet sans modèle. Les nouveaux projets sont automatiquement connectés à l’enregistrement actif.
 1. (Facultatif) Si vous ne trouvez pas d’enregistrement connecté, cliquez sur **+ Ajouter** pour les créer et les connecter.
+1. Cliquez sur **Nouvelle ligne** pour créer un enregistrement. Les nouveaux enregistrements sont automatiquement connectés à l’enregistrement actif.
+
 
 ## Connecter des enregistrements à partir d’objets Workfront
 

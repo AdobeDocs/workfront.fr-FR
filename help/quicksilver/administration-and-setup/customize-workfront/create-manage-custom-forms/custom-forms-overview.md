@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 396
 ht-degree: 72%
 
 ---
@@ -34,7 +34,7 @@ Vous pouvez créer un formulaire personnalisé que les utilisateurs et utilisatr
 
 Par exemple, vous pouvez attacher un formulaire personnalisé appelé « Recherche de contenu marketing » à un projet afin que les utilisateurs et les utilisatrices du projet puissent demander du contenu marketing pour le projet :
 
-![Page de détails](assets/see-image-details-page.png)
+![Page Détails du projet](assets/see-image-details-page.png)
 
 ## Création d’un formulaire personnalisé
 

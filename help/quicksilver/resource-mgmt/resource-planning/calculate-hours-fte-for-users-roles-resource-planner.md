@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 67%
@@ -60,7 +60,7 @@ L’administrateur Workfront détermine la manière dont le temps disponible pou
 * Le planning par défaut du système et de l’ETP de la personne.
 * Le planning de la personne.
 
-![Paramètre du système pour les plannings des personnes](assets/setup-resource-mgmt.png)
+![Paramètre du système pour les plannings des personnes](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +70,31 @@ Selon la configuration de ce paramètre, la disponibilité des personnes dans le
 
 * **Planning par défaut** : le planning par défaut du système et l’ETP de la personne sont utilisés pour déterminer les valeurs des heures disponibles et de l’ETP pour la personne dans le planificateur de ressources. Le planning de l’utilisateur est ignoré. Dans ce cas :
 
-   * Les heures disponibles dans le planificateur de ressources sont calculées à l&#39;aide de la formule suivante :
+  * Les heures disponibles dans le planificateur de ressources sont calculées à l&#39;aide de la formule suivante :
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     Par exemple, si le planning par défaut comporte 40 heures par semaine disponibles pour le travail et que l’ETP de la personne est 0,5, cette dernière peut travailler 20 heures par semaine dans le planificateur de ressources.
+    Par exemple, si le planning par défaut comporte 40 heures par semaine disponibles pour le travail et que l’ETP de la personne est 0,5, cette dernière peut travailler 20 heures par semaine dans le planificateur de ressources.
 
-     Pour plus d’informations sur les planifications, y compris la planification par défaut, voir [Créer un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Pour plus d’informations sur les planifications, y compris la planification par défaut, voir [Créer un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * L’équivalent temps complet disponible pour l’utilisateur dans le planificateur de ressources est identique à l’équivalent temps complet de l’utilisateur spécifié dans les paramètres utilisateur.
+  * L’équivalent temps complet disponible pour l’utilisateur dans le planificateur de ressources est identique à l’équivalent temps complet de l’utilisateur spécifié dans les paramètres utilisateur.
 
-     Par exemple, si l’ETP de la personne est 0,5 dans ses paramètres, l’ETP disponible de la personne est 0,5 dans le planificateur de ressources. Pour plus d’informations sur la valeur de l’ETP de la personne tel qu’il s’affiche dans les paramètres de l’utilisateur ou de l’utilisatrice, voir [Modifier le profil d’une personne](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    Par exemple, si l’ETP de la personne est 0,5 dans ses paramètres, l’ETP disponible de la personne est 0,5 dans le planificateur de ressources. Pour plus d’informations sur la valeur de l’ETP de la personne tel qu’il s’affiche dans les paramètres de l’utilisateur ou de l’utilisatrice, voir [Modifier le profil d’une personne](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Planning de l’utilisateur** : le planning de l’utilisateur est utilisé pour déterminer la disponibilité de l’utilisateur dans le planificateur de ressources. La valeur de l’ETP de la personne est ignorée. Dans ce cas :
 
-   * Les heures disponibles dans le planificateur de ressources sont les mêmes que les heures du calendrier de l&#39;utilisateur.
+  * Les heures disponibles dans le planificateur de ressources sont les mêmes que les heures du calendrier de l&#39;utilisateur.
 
-     Par exemple, si l’horaire de l’utilisateur dispose de 40 heures de travail par semaine, l’utilisateur peut travailler 40 heures par semaine dans le Planificateur de ressources.
+    Par exemple, si l’horaire de l’utilisateur dispose de 40 heures de travail par semaine, l’utilisateur peut travailler 40 heures par semaine dans le Planificateur de ressources.
 
-   * L&#39;équivalent temps complet disponible dans le planificateur de ressources est calculé par la formule suivante :
+  * L&#39;équivalent temps complet disponible dans le planificateur de ressources est calculé par la formule suivante :
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     Par exemple, si l’horaire de l’utilisateur dispose de 20 heures pour travailler et que l’horaire par défaut dans Workfront dispose de 40 heures pour travailler, l’équivalent temps complet de l’utilisateur est de 0,5.
+    Par exemple, si l’horaire de l’utilisateur dispose de 20 heures pour travailler et que l’horaire par défaut dans Workfront dispose de 40 heures pour travailler, l’équivalent temps complet de l’utilisateur est de 0,5.
 
-     Pour plus d’informations sur les plannings, y compris le planning par défaut, voir [Créer un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Pour plus d’informations sur les plannings, y compris le planning par défaut, voir [Créer un planning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -104,8 +104,9 @@ Selon la configuration de ce paramètre, la disponibilité des personnes dans le
 
 Vous devez d’abord calculer la disponibilité de la personne, puis la disponibilité de chacune de ses fonctions.
 
-La disponibilité des fonctions dans le planificateur de ressources prend en compte la disponibilité totale de l&#39;utilisateur et le pourcentage de disponibilité d&#39;équivalent temps complet associé à chaque rôle de l&#39;utilisateur.\
-![percent_of_fte_availlability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+La disponibilité des fonctions dans le planificateur de ressources prend en compte la disponibilité totale de l&#39;utilisateur et le pourcentage de disponibilité d&#39;équivalent temps complet associé à chaque rôle de l&#39;utilisateur.
+
+![percent_of_fte_availlability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 Pour plus d&#39;informations sur l&#39;association d&#39;une valeur de pourcentage de disponibilité d&#39;équivalent temps complet à une fonction pour un utilisateur, voir [Modifier le profil d&#39;un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

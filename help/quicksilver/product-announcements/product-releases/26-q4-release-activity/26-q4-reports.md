@@ -4,7 +4,7 @@ description: Améliorations des rapports pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -30,22 +30,6 @@ Les rapports planifiés requièrent désormais une date de fin pour empêcher un
 Les plannings existants ont été mis à jour avec des dates de fin pour améliorer la fiabilité et réduire l’utilisation inutile du système. Workfront offre également une visibilité accrue et des avertissements pour vous aider à gérer les cycles de vie des planifications de rapports à l’approche de leur date de fin.
 
 Pour plus d’informations, voir [Planification de la diffusion automatique des rapports](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
-
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
 
 ## Les champs de référence natifs sont disponibles pour les listes et les rapports
 
