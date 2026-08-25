@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 2%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -38,6 +38,7 @@ Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/qui
 >Aperçu : 13 août 2026
 >Version rapide de production : 13 août 2026
 >Production pour tous : 15 octobre 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 De nouveaux indicateurs visuels s’affichent lorsque vous faites glisser et déposez plusieurs lignes dans la vue Tableau. Un signe plus important et un indicateur numérique indiquent désormais le nombre de lignes sélectionnées pour l’action de glisser-déposer.
 

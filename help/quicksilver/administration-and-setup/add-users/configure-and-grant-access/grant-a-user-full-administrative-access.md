@@ -20,10 +20,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
-ht-degree: 81%
+source-wordcount: 1576
+ht-degree: 80%
 
 ---
 
@@ -358,6 +358,14 @@ Les utilisateurs disposant d&#39;une licence Standard ou Plan qui peuvent modifi
    <td>Système : préférences</td> 
    <td>Accès complet</td> 
    <td>Pas d’accès</td> 
+  <tr> 
+   <td>Suivi des modifications : configuration</td> 
+   <td>Accès complet</td> 
+   <td>Pas d’accès</td> 
+  <tr> 
+   <td>Suivi des modifications : liste Historique des modifications</td> 
+   <td>Accès complet</td> 
+   <td>Accès complet</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Les utilisateurs disposant d&#39;une licence Standard ou Plan qui peuvent modifi
   <tr> 
    <th>Zone/objet</th> 
    <th>Administrateur ou administratrice Workfront </th> 
-   <th>Utilisateur ou utilisatrice disposant d’une licence Plan et de certains droits d’administration</th> 
+   <th>Utilisateur disposant d’une licence Standard ou Plan et de certains droits d’administration</th> 
   </tr> 
  </thead> 
  <tbody> 
