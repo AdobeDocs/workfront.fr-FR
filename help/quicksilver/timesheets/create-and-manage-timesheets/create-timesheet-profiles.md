@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 67%
@@ -69,14 +69,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 ## Créer ou modifier un profil de feuille de temps
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +123,9 @@ Old info:
 
      Utilisez le menu déroulant pour sélectionner l’approbateur de la feuille de temps (si un approbateur est requis). Vous pouvez sélectionner l’une des options suivantes :
 
-      * **Aucune** : la feuille de temps n’a pas besoin d’être approuvée.
-      * **Leur responsable** : il s’agit de la personne chargée de l’approbation par défaut, définie par le système. Dans ce cas, la personne désignée comme responsable approuve la feuille de temps lorsqu’elle est soumise à approbation.
-      * **Personnes spécifiques** : vous pouvez désigner des utilisateurs spécifiques, par leur nom, en tant qu’approbateurs de feuilles de temps. Vous pouvez avoir plusieurs approbateurs et approbatrices pour une feuille de temps. Dans ce cas, une fois que l’un des approbateurs ou l’une des approbatrices a approuvé la feuille de temps, celle-ci est marquée comme **Fermée** et disparaît de la liste des approbations de tous les autres approbateurs et approbatrices.
+     * **Aucune** : la feuille de temps n’a pas besoin d’être approuvée.
+     * **Leur responsable** : il s’agit de la personne chargée de l’approbation par défaut, définie par le système. Dans ce cas, la personne désignée comme responsable approuve la feuille de temps lorsqu’elle est soumise à approbation.
+     * **Personnes spécifiques** : vous pouvez désigner des utilisateurs spécifiques, par leur nom, en tant qu’approbateurs de feuilles de temps. Vous pouvez avoir plusieurs approbateurs et approbatrices pour une feuille de temps. Dans ce cas, une fois que l’un des approbateurs ou l’une des approbatrices a approuvé la feuille de temps, celle-ci est marquée comme **Fermée** et disparaît de la liste des approbations de tous les autres approbateurs et approbatrices.
 
    * **Peut modifier l’heure** : sélectionnez cette option pour permettre aux approbateurs de modifier les heures sur la feuille de temps.
 
@@ -143,14 +135,14 @@ Old info:
 
      Lorsque l’option **Restreindre la modification des feuilles de temps aux personnes propriétaires et à l’équipe d’administration** est activée :
 
-      * Les approbateurs peuvent uniquement approuver et rejeter des feuilles de temps, que l&#39;option Peut modifier l&#39;heure soit activée ou non.
-      * Les personnes responsables des personnes propriétaires de feuilles de temps peuvent consulter uniquement les feuilles de temps de leurs personnes subordonnées directes.
+     * Les approbateurs peuvent uniquement approuver et rejeter des feuilles de temps, que l&#39;option Peut modifier l&#39;heure soit activée ou non.
+     * Les personnes responsables des personnes propriétaires de feuilles de temps peuvent consulter uniquement les feuilles de temps de leurs personnes subordonnées directes.
 
      Lorsque l’option **Restreindre la modification des feuilles de temps aux personnes propriétaires et à l’équipe d’administration** est désactivée :
 
-      * Lorsque l’option **Peut modifier l’heure** est activée, les approbateurs peuvent envoyer, rouvrir ou fermer la feuille de temps et modifier l’heure.
-      * Lorsque l’option **Peut modifier l’heure** est désactivée, les approbateurs ne peuvent pas envoyer, rouvrir ou fermer la feuille de temps et ne peuvent pas modifier l’heure. Les approbateurs et approbatrices ne peuvent qu’approuver ou rejeter la feuille de temps.
-      * Les personnes responsables des personnes propriétaires de feuilles de temps peuvent soumettre, rappeler, rouvrir et modifier les feuilles de temps de leurs personnes subordonnées directes.
+     * Lorsque l’option **Peut modifier l’heure** est activée, les approbateurs peuvent envoyer, rouvrir ou fermer la feuille de temps et modifier l’heure.
+     * Lorsque l’option **Peut modifier l’heure** est désactivée, les approbateurs ne peuvent pas envoyer, rouvrir ou fermer la feuille de temps et ne peuvent pas modifier l’heure. Les approbateurs et approbatrices ne peuvent qu’approuver ou rejeter la feuille de temps.
+     * Les personnes responsables des personnes propriétaires de feuilles de temps peuvent soumettre, rappeler, rouvrir et modifier les feuilles de temps de leurs personnes subordonnées directes.
 
      >[!NOTE]
      >

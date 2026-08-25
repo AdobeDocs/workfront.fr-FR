@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 96%
+source-wordcount: 482
+ht-degree: 69%
 
 ---
 
@@ -101,10 +101,9 @@ Old permissions:
 
 La zone **Feuilles de temps** s’ouvre.
 
+![Zone Feuilles de temps](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
-
-1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png), saisissez un mot-clé et recherchez une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de feuille de temps ou le nom de la personne propriétaire.
+1. (Facultatif) Cliquez sur l’icône **rechercher** ![Icône Rechercher](assets/search-icon.png), saisissez un mot-clé, puis recherchez une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de feuille de temps ou le nom de la personne propriétaire.
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
@@ -114,23 +113,17 @@ La zone **Feuilles de temps** s’ouvre.
 
      Sélectionnez **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-     Cela applique à la liste des feuilles de temps les filtres « Mes approbations de feuille de temps » ou « Mes feuilles de temps ».
+     Cela applique les filtres Mes approbations de feuille de temps ou Mes feuilles de temps à la liste des feuilles de temps.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Cliquez sur l’icône Filtre ![](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône Filtre ![icône Filtre](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Si l’équipe d’administration de Workfront ou de groupes a supprimé les filtres « Mes approbations de feuilles de temps » et « Mes feuilles de temps » des contrôles de liste de la zone de configuration ou de votre modèle de mise en page, les options correspondantes ne s’afficheront pas en haut de la liste des feuilles de temps ou dans la liste des filtres. Pour plus d’informations, consultez les articles suivants :
-   >
-   >   
-   >   
-   >   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste des feuilles de temps ou dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé ces filtres des contrôles de liste dans la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facultatif) Cliquez sur les icônes **Vue** ![](assets/view-icon.png) ou **Regroupement** ![](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer de nouveaux.
+1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer un nouveau.
 
    Pour plus d’informations sur la création de filtres, de vues ou de regroupements, voir les articles suivants :
 
@@ -138,9 +131,9 @@ La zone **Feuilles de temps** s’ouvre.
    * [Créer ou modifier des vues dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Créer des regroupements dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Sélectionnez les feuilles de temps à exporter, puis cliquez sur l’icône **Exporter** ![](assets/export-38x15.png).
+1. Sélectionnez les feuilles de temps à exporter, puis cliquez sur l’icône **Exporter** ![Exporter](assets/export-38x15.png).
 
-   ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
+   ![Cliquez sur l’icône Exporter](assets/export-timesheets.png)
 
 1. Sélectionnez le type de fichier vers lequel vous souhaitez exporter la liste des feuilles de temps à partir des options suivantes :
 

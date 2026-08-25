@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 93%
+source-wordcount: 757
+ht-degree: 76%
 
 ---
 
@@ -68,13 +68,13 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Modifier les feuilles de temps
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Feuilles de temps**.
+{{step1-to-timesheets}}
 
-   Le filtre **Tous** est sélectionné par défaut, ce qui affiche toutes les feuilles de temps que vous pouvez afficher.
+Le filtre **Tous** est sélectionné par défaut, ce qui affiche toutes les feuilles de temps que vous pouvez afficher.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Liste des feuilles de temps avec une feuille de temps sélectionnée](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Facultatif) Cliquez sur l’icône de **recherche** ![](assets/search-icon.png), saisissez un mot-clé et recherchez une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de la feuille de temps ou le nom de la personne propriétaire.
+1. (Facultatif) Cliquez sur l’icône **rechercher** ![Icône Rechercher](assets/search-icon.png), saisissez un mot-clé, puis recherchez une feuille de temps spécifique. Par exemple, vous pouvez rechercher une période de la feuille de temps ou le nom de la personne propriétaire.
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
@@ -86,21 +86,15 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
      Cela applique à la liste des feuilles de temps les filtres « Mes approbations de feuille de temps » ou « Mes feuilles de temps ».
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Cliquez sur l’icône Filtre ![](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône Filtre ![icône Filtre](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Si l’équipe d’administration de Workfront ou de groupes a supprimé les filtres « Mes approbations de feuilles de temps » et « Mes feuilles de temps » des contrôles de liste de la zone de configuration ou de votre modèle de mise en page, les options correspondantes ne s’afficheront pas en haut de la liste des feuilles de temps ou dans la liste des filtres. Pour plus d’informations, consultez les articles suivants :
-   >
-   >   
-   >   
-   >   * [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste des feuilles de temps ou dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé ces filtres des contrôles de liste dans la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facultatif) Cliquez sur les icônes **Vue** ![](assets/view-icon.png) ou **Regroupement** ![](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement, ou en créer un nouveau ou une nouvelle.
+1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer un nouveau.
 
    Pour plus d’informations sur la création de filtres, de vues ou de regroupements, voir les articles suivants :
 
@@ -108,7 +102,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [Créer ou modifier des vues dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Créer des regroupements dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Sélectionnez une ou plusieurs feuilles de temps, puis cliquez sur l’icône **Modifier** ![](assets/edit-icon.png) en haut de la liste des feuilles de temps.
+1. Sélectionnez une ou plusieurs feuilles de temps, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste des feuilles de temps.
 1. Affichez ou spécifiez les informations suivantes :
 
    <table style="table-layout:auto"> 
@@ -130,7 +124,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
       <td role="rowheader"><strong>Statut</strong> </td> 
       <td> Il s’agit du statut de la feuille de temps.
-      Vous trouverez ci-dessous des options possibles pour le statut de la feuille de temps : 
+      Voici les options de statut possibles de la feuille de temps : 
       <ul><li><b>Ouverte</b> : la feuille de temps est ouverte et les entrées d’heure peuvent être modifiées.</li>
       <li><b>Envoyée</b> : la feuille de temps est soumise pour approbation aux approbateurs et approbatrices désignés.</li>
       <li><b>Rejetée</b> : la feuille de temps n’a pas été approuvée par les approbateurs et approbatrices et est à nouveau disponible pour que l’utilisateur ou l’utilisatrice puisse modifier les entrées de temps.</li>
@@ -146,7 +140,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td> <p>Sélectionnez cette option si vous souhaitez permettre aux approbateurs et approbatrices de modifier les heures de la feuille de temps.</p> <p>Cette option n’est pas disponible lorsque vous sélectionnez plusieurs feuilles de temps. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Heures supplémentaires</span> </td> 
+      <td role="rowheader"><strong>Heures supplémentaires</strong> </td> 
       <td> <p>Vous pouvez choisir de masquer la zone Heures supplémentaires sur la feuille de temps.</p> <p>Cette option est désactivée par défaut.</p> </td> 
      </tr> 
     </tbody> 

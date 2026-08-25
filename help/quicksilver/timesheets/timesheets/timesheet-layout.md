@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 1056
+source-wordcount: 1059
 ht-degree: 99%
 
 ---
@@ -179,7 +179,7 @@ Vous pouvez ajouter un commentaire pour chaque entrée d’heure que vous ajoute
 
 Les commentaires que vous saisissez dans la zone de commentaire de la saisie des heures s’affichent dans la feuille de temps, sous chaque élément de travail où vous avez consigné le temps lorsque le paramètre **Afficher les commentaires** est activé dans la barre d’outils.
 
-![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
+![Commentaire sur l&#39;entrée des heures](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## Heures
 

@@ -6,10 +6,10 @@ description: Vous pouvez supprimer un profil de feuille de temps qui n’est peu
 author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 27%
+source-wordcount: '259'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur les profils de feuille de temps, voir [Créer, mo
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -54,22 +54,24 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Supprimer des profils de feuilles de temps
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Si vous supprimez un profil de feuille de temps au niveau du système, cliquez sur **Feuille de temps et heures**.
+1. Si vous supprimez un profil de feuille de temps au niveau du système, cliquez sur **Feuilles de temps et heures > Profils de feuille de temps**.
 
    Ou
 
    Si vous supprimez un profil de feuille de temps pour un groupe, cliquez sur **Groupes** > cliquez sur le nom du groupe, puis sur **Profils de feuille de temps**.
-1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône **Plus** ![](assets/more-icon.png) > **Supprimer** pour le profil de feuille de temps à l’échelle du système
 
-1. Cliquez sur **Profils de feuilles de temps**.
-1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) > **Supprimer**.
-Ou
-Cliquez sur **Plus** > **Supprimer** pour le profil de feuille de temps au niveau du groupe.
+1. Au niveau du système, sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) > **Supprimer**.
+
+   Ou
+
+   Cliquez sur **Plus** > **Supprimer** pour le profil de feuille de temps au niveau du groupe.
+
 1. (Conditionnel) Si le profil de feuille de temps est déjà attribué aux utilisateurs, la zone **Profil de feuille de temps de remplacement** s’affiche. Procédez comme suit :
    1. Sélectionnez un autre profil de feuille de temps dans la liste déroulante. Le profil de feuille de temps que vous supprimez sera remplacé par le profil de feuille de temps avec lequel vous le remplacez pour tous les utilisateurs affectés. Les feuilles de temps seront générées en fonction du profil nouvellement affecté dans le cycle de génération de feuilles de temps suivant.
    1. Cliquez sur **Supprimer** pour confirmer la suppression.
+
 1. (Conditionnel) Si le profil de feuille de temps n’est pas affecté aux utilisateurs, la zone **Supprimer la feuille de temps** s’affiche.
 
    Cliquez sur **Supprimer** pour confirmer la suppression.

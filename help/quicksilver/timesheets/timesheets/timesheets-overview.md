@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 100%
+source-wordcount: 525
+ht-degree: 98%
 
 ---
 
@@ -68,17 +68,17 @@ Pour accéder à une feuille de temps :
 
 Toutes vos feuilles de temps ainsi que les feuilles de temps auxquelles vous avez accès s’affichent par défaut. Pour plus d’informations sur la disposition des feuilles de temps dans Adobe Workfront, consultez la section [Vue d’ensemble de la disposition des feuilles de temps](../../timesheets/timesheets/timesheet-layout.md).
 
-![](assets/all-timesheets-list-nwe-350x68.png)
+![Liste de toutes les feuilles de temps](assets/all-timesheets-list-nwe-350x68.png)
 
 1. Cliquez sur l’une des options suivantes dans le coin supérieur droit pour afficher vos feuilles de temps :
 
    * **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-   ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   ![Ma liste de feuilles de temps](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
    * **Mes approbations de feuilles de temps** pour afficher uniquement les feuilles de temps que vous approuvez.
 
-     ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+     ![Liste Mes approbations de feuilles de temps](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
 1. (Facultatif) Mettez à jour l’affichage, le filtre et le regroupement en haut de la liste des feuilles de temps. Pour plus d’informations, consultez la section [Éléments de rapport : filtres, affichage et regroupements](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).

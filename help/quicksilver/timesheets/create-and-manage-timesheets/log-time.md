@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
-ht-degree: 76%
+source-wordcount: 4292
+ht-degree: 72%
 
 ---
 
@@ -122,12 +122,12 @@ Vous pouvez consigner les heures consacrées aux éléments suivants sur la feui
 
 Pour consigner les heures sur une feuille de temps, procédez comme suit :
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. Cliquez sur [!UICONTROL **Feuilles de temps**]. Votre feuille de temps actuelle s’affiche par défaut.
-   ![Feuille de temps](assets/timesheet-layout-leftnav-updated.png)
+Votre feuille de temps actuelle s’affiche par défaut.
+![Feuille de temps](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Facultatif) Cliquez sur l’icône **full-screen** ![](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, puis sur l’icône **exit-full-screen** ![](assets/exit-full-screen.png) pour revenir à la feuille de temps.
+1. (Facultatif) Cliquez sur l’icône **plein écran** ![icône plein écran](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, puis cliquez sur l’icône **quitter-plein écran** ![Quitter-plein écran](assets/exit-full-screen.png) pour revenir à la feuille de temps.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +164,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
 
    <!--(ensure this stays accurate)-->
 
-1. (Facultatif) Cliquez sur les icônes **Réduire** ![](assets/collapse-icon.png) ou **Développer** ![](assets/expand-icon.png) en regard du nom du projet pour afficher ou masquer la liste des tâches et des problèmes du projet.
+1. (Facultatif) Cliquez sur les icônes **Réduire** ![Icône Réduire](assets/collapse-icon.png) ou **Développer** ![Icône Développer](assets/expand-icon.png) en regard du nom du projet pour afficher ou masquer la liste des tâches et des événements du projet.
 
 
    >[!TIP]
@@ -178,7 +178,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
    >     * Maj+Option+Touche Bas pour les ordinateurs Mac
 
 
-1. (Facultatif) Pour épingler manuellement un élément qui s’affiche automatiquement sur la feuille de temps, survolez le nom de l’élément, puis cliquez sur l’icône **épingler** ![](assets/empty-pin-icon.png).
+1. (Facultatif) Pour épingler manuellement un élément qui s’affiche automatiquement sur la feuille de temps, passez la souris sur le nom de l’élément, puis cliquez sur l’icône **épingle** ![icône Épingler](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
    >   * Option+P pour les ordinateurs Windows et Mac
 
 
-1. (Facultatif) Cliquez sur l’icône de recherche ![](assets/search-icon.png) et commencez à saisir un mot-clé pour trouver un projet, une tâche ou un problème sur la feuille de temps.
+1. (Facultatif) Cliquez sur l’icône de recherche ![icône de recherche](assets/search-icon.png) et commencez à saisir un mot-clé pour rechercher un projet, une tâche ou un événement sur la feuille de temps.
 
 1. (Le cas échéant) Si l’administrateur ou l’administratrice Workfront ou de groupe a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. La fonction qui vous a été affectée pour l’élément de travail s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences en matière de feuilles de temps et d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -214,7 +214,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
    >
    >Pensez à ajouter une nouvelle ligne pour l’élément de travail pour lequel vous souhaitez consigner des heures supplémentaires et à sélectionner un nouveau type d’heure, si vous souhaitez conserver le type d’heure désactivé associé aux heures consignées précédemment.
 
-1. Cliquez sur l’icône **supprimer** ![](assets/delete.png) en regard de la fonction pour la supprimer. Toutes les heures consignées pour la fonction sont également supprimées.
+1. Cliquez sur l’icône **supprimer** ![Icône Supprimer](assets/delete.png) en regard de la fonction pour la supprimer. Toutes les heures consignées pour la fonction sont également supprimées.
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
 
 1. (Facultatif) Cliquez sur **Commentaires** pour ajouter un commentaire sur l’entrée de l’heure.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Bouton Commentaire sur votre journal : feuille de temps modifiée](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +352,7 @@ En outre, pour consigner les heures consacrées à un élément dans le widget M
 1. Accédez à la zone **Accueil**.
 1. Ajoutez le widget **Mon travail** à votre page d’accueil.
 1. (Facultatif) Sélectionnez une tâche, un événement ou une demande dans une liste, puis cliquez sur **Y travailler**.
-1. Pointez sur la tâche ou le problème pour lequel vous souhaitez consigner des heures, puis cliquez sur l’icône **Consigner des heures** ![](assets/log-time-icon-in-new-home.png) à droite des informations relatives à la tâche.
+1. Pointez sur la tâche ou le problème pour lequel vous souhaitez enregistrer le temps, puis cliquez sur l’icône **Consigner le temps** ![Consigner le temps](assets/log-time-icon-in-new-home.png) à droite des informations sur la tâche.
 
    La zone **Consigner le temps** s’affiche.
 
@@ -485,9 +485,9 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
 ### Panneau Résumé
 
 Vous pouvez consigner les heures consacrées aux tâches et aux problèmes dans le panneau Résumé.
-Pour plus d’informations, voir [Vue d’ensemble du panneau Résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Pour en savoir plus, consultez la [vue d’ensemble du Résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-![](assets/summary-hour-log.png)
+![Panneau Résumé](assets/summary-hour-log.png)
 
 ### Panneaux {#boards}
 
@@ -531,7 +531,7 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
   * Description de la saisie d&#39;heures.
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![Zone d’édition des heures du projet](assets/edit-hour-box-project-hour-type.png)
 
 * Lorsque vous modifiez des heures générales :
 
@@ -545,7 +545,7 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![Zone d&#39;édition des heures générales](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * Lorsque vous modifiez un mélange d’heures générales et d’heures spécifiques à un projet, en bloc :
@@ -561,13 +561,13 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Zone d’édition d’heures mixtes](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 
 1. Accédez à la liste ou au rapport d’une heure.
 1. Cliquez sur la case à gauche d’une ou de plusieurs entrées d’heure pour les sélectionner.
-1. Cliquez sur le ![](assets/edit-icon.png) **icône Modifier** en haut de la liste.
+1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
    La boîte de dialogue **Modifier l’heure** ou **Modifier les heures** s’ouvre.
 1. Mettez à jour l’un des champs disponibles suivants :

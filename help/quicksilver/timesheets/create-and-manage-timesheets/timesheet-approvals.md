@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 53%
+source-wordcount: 689
+ht-degree: 51%
 
 ---
 
@@ -95,17 +95,13 @@ La zone **Feuilles de temps** s’ouvre.
 
    Sélectionnez le filtre **Mes approbations de feuille de temps** en haut de la liste des feuilles de temps.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >L&#39;option Mes approbations de feuilles de temps ne s&#39;affiche pas en haut de la liste des feuilles de temps ou dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé le filtre Mes approbations de feuilles de temps des contrôles de liste de la zone Configuration ou de votre modèle de mise en page.
-   >
-   >Pour plus d&#39;informations, voir [Personnaliser des filtres, des vues et des regroupements à l&#39;aide d&#39;un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste des feuilles de temps ou dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé ces filtres des contrôles de liste dans la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facultatif) Cliquez sur l’icône **Rechercher** ![](assets/search-icon.png) en haut de la liste des feuilles de temps et tapez un mot-clé pour localiser une feuille de temps spécifique. Vous pouvez rechercher une période, le nom d’une personne propriétaire ou d’une personne approbatrice.
+1. (Facultatif) Cliquez sur l’icône **rechercher** ![Icône Rechercher](assets/search-icon.png) en haut de la liste des feuilles de temps et saisissez un mot-clé pour localiser une feuille de temps spécifique. Vous pouvez rechercher une période, le nom d’une personne propriétaire ou d’une personne approbatrice.
 1. Cliquez sur la période de la feuille de temps que vous souhaitez approuver. La feuille de temps s’ouvre.
 
    >[!TIP]
