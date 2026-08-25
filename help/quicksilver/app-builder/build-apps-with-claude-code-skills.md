@@ -31,7 +31,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 * **[!DNL Claude Code]** installé.
 * **Accès aux compétences**.
 
-  * Vous trouverez les compétences à l’adresse [](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md).
+  * Vous trouverez les compétences à l’adresse [&#128279;](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md).
 
     Si ce lien ne s’ouvre pas pour vous, demandez à votre administrateur de vous accorder l’accès.
   * Après avoir téléchargé les compétences, exécutez les commandes suivantes pour les configurer.
@@ -51,9 +51,9 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
   1. Ouvrez l’[Adobe Developer Console](https://developer.adobe.com/console).
   1. Vérifiez que l’organisation affichée dans le coin supérieur droit est correcte.
   1. Cliquez sur **Créer un projet** > **Créer un projet à partir d’un modèle**.
-  1. Vérifiez si **** apparaît dans la liste.
+  1. Vérifiez si **&#x200B;**&#x200B;apparaît dans la liste.
 
-     * Si vous voyez **** dans la liste, vous avez accès.
+     * Si vous voyez **&#x200B;**&#x200B;dans la liste, vous avez accès.
      * S’il n’y a pas d’option **Créer un projet à partir d’un modèle** ou d’option **App Builder**, vous n’avez pas encore accès. Demandez à votre administrateur Workfront ou Adobe de vous ajouter en tant que développeur (dans Adobe Admin Console > Utilisateurs > Développeurs) et confirmez que votre organisation dispose d’une licence App Builder.
 * **Le serveur MCP Workfront est connecté**, [!DNL Claude] utilise donc l’API Workfront réelle au lieu de deviner les types de données, les champs et les commandes.
 
