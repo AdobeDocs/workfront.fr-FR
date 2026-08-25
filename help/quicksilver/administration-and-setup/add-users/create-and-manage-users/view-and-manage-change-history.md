@@ -6,9 +6,9 @@ description: L’historique des modifications vous permet d’afficher un journa
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 6%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 {{preview-fast-release-general}}
 
-L’historique des modifications vous permet de configurer et de suivre les modifications apportées aux objets et aux champs spécifiques dans Adobe Workfront. La configuration flexible vous permet de définir exactement les objets et champs dont vous souhaitez effectuer le suivi.
+L’historique des modifications permet à l’administrateur système de configurer et de suivre les modifications apportées aux objets et aux champs spécifiques dans Adobe Workfront. La configuration flexible permet à l’administrateur de configurer les objets et champs qui font l’objet d’un suivi.
 
-L’historique des modifications peut effectuer le suivi des types de données suivants que vous définissez :
+L’historique des modifications peut effectuer le suivi des types de données définis suivants :
 
 * Activité dans la zone Configuration telle que la création ou la suppression d’un niveau d’accès ou d’une fonction
 * Mises à jour au niveau du champ, telles que la modification d’une description de projet ou du modèle de mise en page d’un utilisateur
@@ -35,6 +35,11 @@ Dans la liste Historique des modifications , vous pouvez afficher le journal des
 * Type de modification (opération)
 * Date et heure de la modification
 * Source de la modification, comme des utilisateurs spécifiques, des API, Workfront Fusion, des LLM d’IA ou le système Workfront
+
+>[!NOTE]
+>
+>Lorsque vous accédez à l&#39;historique des modifications, vous ne verrez les modifications suivies que pour les champs que vous êtes autorisé à consulter.
+>Par exemple, si les données financières sont suivies sur des projets et que vous n&#39;avez pas accès aux données financières, les champs financiers ne s&#39;afficheront pas dans la liste Historique des modifications.
 
 ## Conditions d’accès
 
@@ -62,25 +67,6 @@ Dans la liste Historique des modifications , vous pouvez afficher le journal des
 Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## Afficher la liste Historique des modifications
 
