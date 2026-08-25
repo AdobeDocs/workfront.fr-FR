@@ -7,20 +7,15 @@ author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 79%
+source-wordcount: 831
+ht-degree: 89%
 
 ---
 
@@ -82,7 +77,7 @@ La zone **Feuilles de temps** s’ouvre.
 
 1. Ouvrez la feuille de temps dans laquelle afficher les commentaires.
 1. Cliquez sur **Afficher les commentaires** dans le coin supérieur droit de la feuille de temps.
-Les commentaires s’affichent sous l’élément dans lequel l’entrée d’heure et le commentaire ont été consignés.
+Les commentaires s’affichent sous l’élément où l’entrée d’heure et le commentaire ont été consignés.
 
    ![Commentaires développés sous les tâches de la feuille de temps modifiée](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
@@ -97,9 +92,8 @@ Les commentaires s’affichent sous l’élément dans lequel l’entrée d’he
 
 Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout de commentaires à la feuille de temps globale est similaire à l’ajout sur d’autres objets.
 
-1. Cliquez sur l&#39;icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche ou Workfront, le cas échéant.
+{{step1-to-timesheets}}
 
-1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps à laquelle ajouter un commentaire.
 1. Cliquez sur **Mises à jour** dans le panneau de gauche, puis cliquez sur le bouton **Commentaires**.
 1. Commencez à ajouter de nouveaux commentaires ou à répondre à des commentaires existants, comme décrit dans la section [Mettre à jour le travail](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -129,9 +123,8 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 
 ### Ajouter un commentaire sur une entrée d’heures dans une feuille de temps {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Cliquez sur **Feuilles de temps**.
 1. Accédez à la feuille de temps dans laquelle vous souhaitez ajouter un commentaire, puis cliquez sur **Feuille de temps** dans le panneau de gauche.
 1. Cliquez dans le champ des heures où vous souhaitez ajouter un commentaire, puis cliquez sur **Commentaire** pour ajouter un commentaire à votre entrée d’heure.
 
@@ -168,12 +161,12 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 
 Vous ne pouvez commenter que les tâches et les problèmes d’une feuille de temps. Vous ne pouvez pas commenter les projets ni le temps général.
 
-1. Cliquez sur l’icône [!UICONTROL **Menu principal**] ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
-1. Cliquez sur [!UICONTROL **Feuilles de temps**].
+{{step1-to-timesheets}}
+
 1. Accédez à la feuille de temps dans laquelle vous souhaitez ajouter un commentaire, puis cliquez sur [!UICONTROL **Feuille de temps**] dans le panneau de gauche.
 1. Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur [!UICONTROL **Ouvrir le résumé**].
-1. Commencez à saisir une mise à jour dans la zone [!UICONTROL **Mises à jour**] du panneau Résumé, puis cliquez sur [!UICONTROL **Envoyer**].
-La mise à jour s’affiche dans la section Mises à jour de la tâche et de l’événement.
+1. Commencez à saisir une mise à jour dans la zone [!UICONTROL **Mises à jour**] du panneau Résumé, puis cliquez sur [!UICONTROL **Soumettre**].
+La mise à jour s’affiche dans la section Mises à jour de la tâche et du problème.
 1. (Facultatif) Cliquez sur [!UICONTROL **Fermer le résumé**] pour fermer le panneau du résumé.
 
    Pour plus d’informations sur la mise à jour des tâches et des problèmes dans le panneau du résumé, consultez la section [Vue d’ensemble du résumé](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

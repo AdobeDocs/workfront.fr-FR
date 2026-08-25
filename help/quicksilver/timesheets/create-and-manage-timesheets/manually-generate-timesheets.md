@@ -7,20 +7,15 @@ author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
 TQID: https://experienceleague.adobe.com/0hU3VlHM8l5TXee6K3lJaV9-W3ZKujDYf9-f1NXH-Nc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 73%
+source-wordcount: 405
+ht-degree: 71%
 
 ---
 
@@ -70,7 +65,7 @@ Ce qui suit est vrai lorsque vous générez manuellement des feuilles de temps 
 
 Vous pouvez générer manuellement des feuilles de temps au niveau du système ou du groupe à partir de la zone Feuilles de temps et heures de la Configuration.
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Si vous générez des feuilles de temps utilisées dans tout le système, cliquez sur **Feuilles de temps et heures.**
 
@@ -79,7 +74,7 @@ Vous pouvez générer manuellement des feuilles de temps au niveau du système o
    Si vous générez des feuilles de temps utilisées par un groupe spécifique, cliquez sur **Groupes**, puis cliquez sur le nom du groupe.
 
 1. Cliquez sur **Profils de feuilles de temps**.
-1. Cliquez sur l’icône plus ![icône plus](assets/more-icon.png), puis **Générer des feuilles de temps**.
+1. Cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png), puis **Générer des feuilles de temps**.
 
 1. En haut de la liste des profils de feuille de temps, cliquez sur l&#39;icône **Plus** ![icône Plus](assets/more-icon.png) pour les profils de feuille de temps au niveau du système, ou **Plus** pour les profils de feuille de temps de groupe, puis cliquez sur **Générer des feuilles de temps**.
 
@@ -89,9 +84,8 @@ Vous pouvez générer manuellement des feuilles de temps au niveau du système o
 
 Vous pouvez générer manuellement des feuilles de temps au niveau du système à partir de la zone « Diagnostics » dans « Configuration ».
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Développer **Système**, puis cliquez sur **Diagnostics**.
-
 1. Cliquez sur **Effectuer des diagnostics**.
 1. Cliquez sur **Générer des feuilles de temps**.

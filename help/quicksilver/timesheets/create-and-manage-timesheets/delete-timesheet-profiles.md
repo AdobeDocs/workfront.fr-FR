@@ -6,10 +6,10 @@ description: Vous pouvez supprimer un profil de feuille de temps qui n’est peu
 author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 27%
+source-wordcount: '272'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur les profils de feuille de temps, voir [Créer, mo
  <col>
  <tbody> 
   <tr> 
-   <td>Package Adobe Workfront</td> 
+   <td>Package Adobe Workfront</td> 
    <td><p>Tous</p></td> 
   </tr> 
   <tr> 
@@ -54,16 +54,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Supprimer des profils de feuilles de temps
 
-1. Cliquez sur l’icône **Menu principal** ![](assets/main-menu-icon.png) en haut à droite d’Adobe Workfront, puis cliquez sur **Configurer** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Si vous supprimez un profil de feuille de temps au niveau du système, cliquez sur **Feuille de temps et heures**.
 
    Ou
 
    Si vous supprimez un profil de feuille de temps pour un groupe, cliquez sur **Groupes** > cliquez sur le nom du groupe, puis sur **Profils de feuille de temps**.
-1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône **Plus** ![](assets/more-icon.png) > **Supprimer** pour le profil de feuille de temps à l’échelle du système
+1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône **Plus** ![icône Plus](assets/more-icon.png) > **Supprimer** pour le profil de feuille de temps à l’échelle du système
 
-1. Cliquez sur **Profils de feuilles de temps**.
+1. Cliquez sur **Profils de feuille de temps**.
 1. Sélectionnez au moins un profil de feuille de temps à supprimer, puis cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) > **Supprimer**.
 Ou
 Cliquez sur **Plus** > **Supprimer** pour le profil de feuille de temps au niveau du groupe.
