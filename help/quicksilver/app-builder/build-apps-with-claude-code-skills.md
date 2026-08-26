@@ -4,37 +4,40 @@ description: Utilisez un ensemble de compétences en code Claude pour créer des
 author: Becky
 feature: Digital Content and Documents
 hide: true
-source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
+source-git-commit: 366cc4ffea48295b00389b5ee36f2df42b2c8a07
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
 
 # Créer des applications App Builder avec des compétences en code Claude
 
-Un ensemble de compétences [!DNL Claude Code] [!DNL Claude] permet de créer des applications [!DNL Adobe App Builder] personnalisées pour les [!DNL Workfront]. Cela signifie que vous pouvez en créer un en décrivant ce que vous souhaitez en langage clair, sans être développeur ni écrire les étapes de configuration vous-même.
+Un ensemble de compétences [!DNL Claude] permet (ou tout faisceau de codage d’IA prenant en charge les compétences au format Claude, telles que [!DNL Claude Code] ou [!DNL OpenAI Codex]) de créer des applications de [!DNL Adobe App Builder] personnalisées pour les [!DNL Workfront]. Si vous avez accès à l’un de ces outils, vous pouvez créer une extension d’interface utilisateur en décrivant ce que vous souhaitez en anglais clair, sans avoir à passer par une expérience de développement ou des étapes de configuration manuelles.
 
 Les extensions d’interface d’utilisation de Workfront, optimisées par Adobe App Builder, permettent aux clientes et clients et aux partenaires de créer des expériences d’utilisation personnalisées. Les extensions d’interface utilisateur vous permettent de modifier l’expérience Workfront de votre entreprise afin de mieux répondre aux besoins de l’entreprise, ce qui peut améliorer l’efficacité, offrir des expériences connectées transparentes, améliorer considérablement la satisfaction des utilisateurs et aider votre entreprise à réaliser sa vision unique.
 
 Pour plus d’informations sur les extensions de l’interface utilisateur de Workfront, voir [Création d’applications personnalisées pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-## Compétences d’extensibilité de l’interface utilisateur pour Claude
+## Compétences d’extensibilité de l’interface utilisateur
 
-L’utilisation de [!DNL Adobe App Builder] peut être assez technique, ce qui peut créer des obstacles si un utilisateur n’est pas familier avec la procédure ou les techniques. Les compétences Extensibilité de l’interface utilisateur simplifient ce processus en utilisant [!DNL Claude]. Vous décrivez la fonctionnalité que vous souhaitez et [!DNL Claude] effectue le travail pratique, comme configurer les outils, créer votre projet dans [!DNL Adobe App Builder], créer l’application, la déployer sur le cloud Adobe et la faire fonctionner dans Workfront. Vous êtes impliqué dans le processus uniquement lorsqu’une décision ou une connexion nécessite une action de votre part.
+Les compétences Extensibilité de l’interface utilisateur permettent à un faisceau de codage d’IA de gérer la création d’extensions d’interface utilisateur dans Workfront. Vous décrivez la fonctionnalité que vous souhaitez et elle effectue les tâches pratiques, telles que la configuration des outils, la création de votre projet dans [!DNL Adobe App Builder], la création de l’application, son déploiement dans le cloud Adobe et sa mise en œuvre dans Workfront. Vous êtes impliqué dans le processus uniquement lorsqu’une décision ou une connexion nécessite une action de votre part. Cet article utilise [!DNL Claude] comme exemple, mais les instructions s’appliquent à tout faisceau de codage d’IA avec la prise en charge des compétences Claude .
 
 ## Conditions préalables
 
 Avant de commencer, vérifiez que vous disposez des éléments suivants :
 
-* **[!DNL Claude Code]** installé.
+* **Un faisceau de codage d’IA qui prend en charge les compétences Claude** tel que [!DNL Claude Code].
+
+  Pour plus d&#39;informations sur les compétences Claude, voir [Que sont les compétences ? &#x200B;](https://support.claude.com/en/articles/12512176-what-are-skills) dans la documentation Claude.
+
 * **Accès aux compétences**.
 
   * Vous trouverez les compétences à l’adresse [&#128279;](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md).
 
     Si ce lien ne s’ouvre pas pour vous, demandez à votre administrateur de vous accorder l’accès.
-  * Après avoir téléchargé les compétences, exécutez les commandes suivantes pour les configurer.
+  * Les compétences sont publiées dans Adobe Public Skills Marketplace ([adobe/skills](https://github.com/adobe/skills)). Dans [!DNL Claude Code], exécutez :
 
     ```
     /plugin marketplace add adobe/skills
