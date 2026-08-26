@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
-ht-degree: 93%
+source-wordcount: '14452'
+ht-degree: 92%
 
 ---
 
@@ -2210,6 +2210,7 @@ ht-degree: 93%
     * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Vue d’ensemble des types d’enregistrements entre espaces de travail](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurer des fonctionnalités entre espaces de travail pour les types d’enregistrements](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Configurer des règles métier de type enregistrement](planning/architecture/configure-business-rules.md)
     * [Configurer la zone Paramètres d’un type d’enregistrement](planning/architecture/configure-record-type-settings.md)
     * [Ajouter des types d’enregistrements existants depuis un autre espace de travail](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Vue d’ensemble de la connexion des types d’enregistrements](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 93%
     * [Partager des types d’enregistrements](planning/access/share-record-types.md)
     * [Partager des vues](planning/access/share-views.md)
     * [Partager des enregistrements](planning/access/share-records.md)
+    * {hide-from-toc}[Partager les champs Planning Workfront](planning/access/share-fields.md)
     * [Définition des autorisations par défaut pour les enregistrements](planning/access/set-default-record-permissions.md)
     * [Demander des autorisations pour une vue ou un espace de travail](planning/access/request-permissions.md)
   * Enregistrements d’Adobe Workfront Planning {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 93%
   * [App Builder : index des articles](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Acquisition et installation d’applications à partir d’Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Création d’applications personnalisées pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[Créer des applications App Builder avec des compétences Claude Code](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[Document de test masqué](hidden-test.md)
 * {hide-from-toc}[Masquer 2](hidden-test-2.md)
 

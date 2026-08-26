@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 77%
+source-wordcount: 722
+ht-degree: 72%
 
 ---
 
@@ -58,52 +58,52 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Informations d’accès et d’autorisation : index des articles](/help/quicksilver/planning/access/access-information.md) contient les informations suivantes :
 
-   * Licences Workfront et autorisations Planning
-   * Autorisations de partage Planning
-   * Partager des vues
-   * Partager des espaces de travail (enregistrements et champs)
-   * Partager des types d’enregistrements (enregistrements et champs)
-   * Partager des enregistrements
+  * Licences Workfront et autorisations Planning
+  * Autorisations de partage Planning
+  * Partager des vues
+  * Partager des espaces de travail (enregistrements et champs)
+  * Partager des types d’enregistrements (enregistrements et champs)
+  * Partager des enregistrements
 
 * [Architecture : index des articles](/help/quicksilver/planning/architecture/architecture-information.md) contient les informations suivantes :
 
-   * Créer, modifier et supprimer des espaces de travail
-   * Créer, modifier et supprimer des types d’enregistrements
-   * Créer des types d’enregistrements globaux
-   * Connecter des types d’enregistrements et des exemples de types d’enregistrements connectés
-   * Modèles Workspace
+  * Créer, modifier et supprimer des espaces de travail
+  * Créer, modifier et supprimer des types d’enregistrements
+  * Créer des types d’enregistrements globaux
+  * Connecter des types d’enregistrements et des exemples de types d’enregistrements connectés
+  * Modèles Workspace
 
 * [Champs : index des articles](/help/quicksilver/planning/fields/fields-information.md) contient les informations suivantes :
 
-   * Créer, modifier et supprimer des champs
-   * Champs de formule
-   * Champs principaux
+  * Créer, modifier et supprimer des champs
+  * Champs de formule
+  * Champs principaux
 
 * [Enregistrements : index des articles](/help/quicksilver/planning/records/records-information.md) contient les informations suivantes :
 
-   * Créer, modifier et supprimer des enregistrements
-   * Connecter des enregistrements
-   * Ajouter une image de couverture ou une vignette à un enregistrement
-   * Gérer la mise en page d’une page d’enregistrement
-   * Enregistrer les commentaires et la section de l’historique
-   * Partager des enregistrements
-   * Gérer les enregistrements Workfront Planning à partir de Workfront
+  * Créer, modifier et supprimer des enregistrements
+  * Connecter des enregistrements
+  * Ajouter une image de couverture ou une vignette à un enregistrement
+  * Gérer la mise en page d’une page d’enregistrement
+  * Enregistrer les commentaires et la section de l’historique
+  * Partager des enregistrements
+  * Gérer les enregistrements Workfront Planning à partir de Workfront
 
 * [Demandes Adobe Workfront Planning : index des articles](/help/quicksilver/planning/requests/requests-article-index.md) contient les informations suivantes :
 
-   * Création d’un formulaire de demande pour un type d’enregistrement.
-   * Comment envoyer une demande à un formulaire de demande de type d’enregistrement et créer des enregistrements ?
+  * Création d’un formulaire de demande pour un type d’enregistrement.
+  * Comment envoyer une demande à un formulaire de demande de type d’enregistrement et créer des enregistrements ?
 
 * [Vues : index des articles](/help/quicksilver/planning/views/views-information.md) contient les informations suivantes :
 
-   * Créer les vues d’enregistrement
-   * Gérer les vues Tableau, Chronologie et Calendrier
+  * Créer les vues d’enregistrement
+  * Gérer les vues Tableau, Chronologie et Calendrier
 
 * [Notifications : index des articles](/help/quicksilver/planning/notifications/notifications-information.md) contient les informations suivantes :
 
-   * Gestion des préférences de notification
-   * Planification des notifications in-app
-   * Planification des notifications par e-mail
+  * Gestion des préférences de notification
+  * Planification des notifications in-app
+  * Planification des notifications par e-mail
 
 ## Fonctionnalités supplémentaires disponibles pour Workfront Planning
 
@@ -112,6 +112,8 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 * [Modules Adobe Workfront Planning pour Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning.
 
 * [Vue d’ensemble de l’assistant IA d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant IA Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant faire le travail à votre place.
+
+* [Utiliser le serveur MCP Workfront pour les objets Planning &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md) : le serveur MCP Adobe Workfront permet de rechercher, créer, mettre à jour et gérer des éléments Workfront en interrogeant une plateforme IA agentic en langage naturel. La plateforme décide des actions Workfront à appeler et gère la conversation avec Workfront pour vous.
 
 * [Configurer les automatisations d’Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans Adobe Workfront Planning qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans Workfront Planning lorsqu’ils sont déclenchés à partir d’un enregistrement Planning.
 
