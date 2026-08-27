@@ -5,7 +5,7 @@ title: Créer un rapport de tableau croisé dynamique dans un tableau de bord Zo
 description: Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données sous la forme d'un tableau.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données, tels que les sommes, les nombres et les moyennes, sous la forme d&#39;un tableau. Les tableaux croisés dynamiques sont utiles lors de la comparaison de plusieurs valeurs agrégées ou de décomptes par rapport à plusieurs dimensions.
 
-![&#x200B; Exemple de rapport de tableau croisé dynamique &#x200B;](assets/pivot-table-example.png)
+![ Exemple de rapport de tableau croisé dynamique ](assets/pivot-table-example.png)
 
 ## Conditions d’accès
 
@@ -239,3 +239,4 @@ Une fois l’objet d’entité de base sélectionné, la liste déroulante **Sec
 Nous limitons l’accès au choix des objets enfants en tant que segments d’un tableau croisé dynamique. Les options de segment peuvent être des attributs de l&#39;enregistrement lui-même ou d&#39;autres enregistrements associés qui ne représentent pas une relation 1:many ou plusieurs:many.
 
 Nous limitons également l’accès au référencement de tout attribut parent ou enfant en tant que mesure afin de réduire le risque de double comptage ou de double synthèse des valeurs, ce qui entraîne une fausse représentation des données réelles.
+

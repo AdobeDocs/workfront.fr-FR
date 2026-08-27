@@ -10,13 +10,10 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: 674
 ht-degree: 8%
@@ -175,3 +172,4 @@ Par défaut, les regroupements eux-mêmes sont triés par ordre alphabétique ou
 Vous pouvez cliquer sur un en-tête de colonne pour trier les données de chaque groupe. Lorsque vous triez selon un champ différent du champ de regroupement, l’ordre des groupes ne change pas.
 
 Cependant, lorsque vous triez en fonction du même champ que celui du rapport, l’ordre de regroupement peut changer. Par exemple, un regroupement basé sur du texte qui exécute normalement A-Z peut passer à Z-A.
+
