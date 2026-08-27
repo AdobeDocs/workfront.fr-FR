@@ -91,7 +91,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur Règles métier.
 
 
-*********** DE CLAUDE - CI-DESSOUS - DOIT MODIFIER *******************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** DE CLAUDE - CI-DESSOUS - DOIT MODIFIER &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
 
 ## Configuration de règles métier dans Workfront Planning : guide détaillé
 
@@ -155,9 +155,9 @@ En d’autres termes : « Lorsque le statut d’un enregistrement Matières est 
 Vous pouvez ajouter plusieurs règles pour le même statut. Par exemple, vous pouvez exiger que la marque, la zone thérapeutique, l&#39;indication et la date de lancement estimée soient toutes renseignées avant qu&#39;un enregistrement puisse passer à « Prêt pour l&#39;exécution » — chacune d&#39;elles étant sa propre règle et toutes vérifiées ensemble.
 
 **Quels champs pouvez-vous exiger ?**
-- Champs d’enregistrement connectés (par exemple, un enregistrement de marque ou d’indication lié) : la règle passe dès qu’au moins un enregistrement est lié.
-- Champs de texte standard (une seule ligne ou paragraphe) : la règle est transmise lorsqu’il existe une valeur.
-- Champs de date : la règle est acceptée une fois qu&#39;une date est définie.
+&#x200B;- Champs d’enregistrement connectés (par exemple, un enregistrement de marque ou d’indication lié) : la règle passe dès qu’au moins un enregistrement est lié.
+&#x200B;- Champs de texte standard (une seule ligne ou paragraphe) : la règle est transmise lorsqu’il existe une valeur.
+&#x200B;- Champs de date : la règle est acceptée une fois qu&#39;une date est définie.
 
 **Ce que vous ne pouvez pas encore utiliser :** les champs de formule et de recherche ne sont pas pris en charge en tant que cibles de règle dans cette version, car ils sont calculés en arrière-plan plutôt que renseignés directement par une personne.
 
