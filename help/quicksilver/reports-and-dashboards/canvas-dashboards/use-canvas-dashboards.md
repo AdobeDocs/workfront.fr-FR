@@ -10,15 +10,12 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 8%
 
 ---
@@ -105,6 +102,24 @@ Vous pouvez personnaliser temporairement les rapports de tableau de bord. Ces mo
    >[!IMPORTANT]
    >
    >Ces modifications s’appliquent uniquement à la session en cours et n’affectent pas la configuration de rapport d’origine. Pour rendre ces modifications permanentes, vous devez modifier le rapport.
+
+<div class="preview">
+
+### Accéder aux données du tableau croisé dynamique dans l&#39;aperçu
+
+Vous pouvez cliquer sur une valeur dans un rapport de tableau croisé dynamique pour analyser en profondeur et afficher les enregistrements individuels qui constituent cette valeur agrégée.
+
+{{step1-to-dashboards}}
+
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+1. Cliquez sur le nom d’un tableau de bord existant pour l’ouvrir.
+   ![Ouvrir un tableau de bord](assets/open-dashboard.png)
+1. Recherchez le rapport de tableau croisé dynamique que vous souhaitez consulter.
+1. Cliquez sur une valeur du tableau croisé dynamique pour ouvrir le tableau d&#39;analyse.
+
+   Le tableau d’exploration vers le bas affiche les colonnes que le créateur du rapport a configurées dans les paramètres de colonne d’exploration vers le bas. Pour plus d&#39;informations, voir [Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
 
 
 <!--

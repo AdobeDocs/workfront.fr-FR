@@ -9,21 +9,15 @@ exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1236
-ht-degree: 14%
+source-wordcount: 1343
+ht-degree: 13%
 
 ---
 
@@ -32,7 +26,7 @@ ht-degree: 14%
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
@@ -80,7 +74,7 @@ Pour plus d’informations sur le contenu de ce tableau, voir [Conditions d’ac
 
 ## Conditions préalables
 
-Vous devez créer un tableau de bord avant de pouvoir créer un rapport tabulaire.
+Vous devez créer un tableau de bord avant de pouvoir créer un rapport tabulaire. Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 
 ## Créer un rapport de tableau dans un tableau de bord de zones de travail
@@ -89,13 +83,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport t
 
 {{step1-to-dashboards}}
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**, puis cliquez sur le nom du tableau de bord auquel vous souhaitez ajouter le rapport.
 
-1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
-
-1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
-
-1. Cliquez sur **Créer**.
+1. Cliquez sur **Ajouter un rapport** dans le coin supérieur droit de la page.
 
 1. Dans la zone **Ajouter un rapport**, sélectionnez **Créer un rapport**.
 
@@ -151,13 +141,9 @@ Pour plus d&#39;informations sur les exemples de rapports de table, voir [Créer
 
 {{step1-to-dashboards}}
 
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord de la zone de travail**, puis cliquez sur le nom du tableau de bord auquel vous souhaitez ajouter le rapport.
 
-1. Cliquez sur **Nouveau tableau de bord** dans le coin supérieur droit.
-
-1. Dans la zone **Créer un tableau de bord**, saisissez les **Nom** et **Description** du tableau de bord.
-
-1. Cliquez sur **Créer**.
+1. Cliquez sur **Ajouter un rapport** dans le coin supérieur droit de la page.
 
 1. Dans la zone **Ajouter un rapport**, sélectionnez **Créer un rapport**.
 
@@ -232,7 +218,7 @@ Les utilisateurs disposant d’un accès en affichage ou en modification aux don
 * Les personnes qui ne voient pas les données financières sont limitées aux documents qu’elles sont déjà autorisées à consulter (projets, tâches, problèmes, etc.). Elles ne verront pas les valeurs financières des documents auxquels elles ne peuvent pas accéder.
 * Les personnes à l’origine des rapports doivent faire preuve de prudence lors de l’inclusion de données financières dans les tableaux de bord et bien vérifier avec qui elles partagent les tableaux de bord afin d’éviter tout accès involontaire.
 
-Il s’agit d’une limite connue et nous prévoyons d’y remédier dès que possible.
+Il s’agit d’une limite connue et nous prévoyons d’y remédier à l’avenir.
 
 ### Utilisation du sélecteur de champ
 
