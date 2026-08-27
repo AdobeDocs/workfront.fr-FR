@@ -9,20 +9,15 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
-ht-degree: 33%
+source-wordcount: 4518
+ht-degree: 32%
 
 ---
 
@@ -465,12 +460,16 @@ Pour ajouter un regroupement dans la vue chronologique :
    * **Empilés** : les regroupements s’affichent sans colonne de gauche figée et s’adaptent à la largeur des chronologies de leurs éléments.
 
      ![Regroupement empilé dans la vue Chronologie](assets/stacked-grouping-in-timeline-view.png)
-   * **Couloir** : les regroupements s’affichent avec une colonne d’en-tête gauche figée qui répertorie les éléments regroupés et les regroupements s’adaptent à la largeur de la vue chronologique.
+   * **Couloir** : les regroupements s’affichent avec un panneau de gauche figé qui répertorie les éléments regroupés et les regroupements s’adaptent à la largeur de la vue chronologique.
 
      ![Groupement couloir dans la vue Chronologie](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   Les regroupements sont appliqués immédiatement.
+
+1. <span class="preview">(Facultatif) Cliquez sur l’icône **Regroupement** ![Icône de regroupement](assets/grouping-icon.png) de la barre d’outils pour ouvrir la zone **Regrouper les enregistrements par**, puis cliquez sur **Développer tout** pour développer tous les regroupements ou **Réduire tout** pour réduire tous les regroupements et réduire manuellement uniquement ceux dont vous avez besoin. </span>
+1. <span class="preview">(Facultatif et conditionnel) Dans l’affichage du couloir, faites glisser et déposez le séparateur du panneau de gauche pour ajuster sa largeur. La largeur de panneau de chaque utilisateur est enregistrée entre les sessions, avec une largeur par défaut pour les nouveaux utilisateurs.</span>
+1. <span class="preview">(Facultatif) Pour les noms de regroupement longs, passez la souris sur la ligne d’un regroupement pour afficher le nom complet du regroupement dans une info-bulle.</span>
+
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
    Ou
