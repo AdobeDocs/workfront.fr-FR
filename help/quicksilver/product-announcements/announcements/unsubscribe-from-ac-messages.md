@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 90%
+source-wordcount: 240
+ht-degree: 72%
 
 ---
 
@@ -34,16 +34,19 @@ Les messages du Centre des annonces sont des messages envoyés par Adobe Workfr
 
 Pour vous désabonner de la réception des messages du Centre d’annonces, procédez comme suit :
 
-1. Cliquez sur l’icône numérotée ![icône de notification](assets/notifications-icon-jewel.jpg) dans le coin supérieur droit de Workfront pour afficher votre liste de notifications.
-1. Cliquez sur **Toutes les annonces** en bas de la liste.
+1. Cliquez sur l’icône numérotée dans le coin supérieur droit de Workfront pour afficher votre liste de notifications, puis cliquez sur **Toutes les annonces** au bas de la liste.
 
-   La page **Annonces** s’affiche, répertoriant toutes vos annonces.
+   ![Icône de notifications](assets/notifications-icon-jewel.png)
 
-   ![Page des annonces](assets/announcements-page-qs-350x210.png)
 
-1. Cliquez sur **Paramètres** dans le coin supérieur droit de la page Annonces, puis sélectionnez **Nouvelles versions** ou **Formation**, selon le type d’annonce que vous ne souhaitez plus recevoir.
+1. Cliquez sur **Paramètres** dans le coin supérieur droit de la page Annonces,
 
-   ![Paramètres du centre d’annonces](assets/announcementcenter-settings-350x187.png)
+   ![Page des annonces](assets/ac-page.png)
+
+
+1. Dans la boîte de dialogue **Paramètres du Centre d’annonces**, désélectionnez la case correspondant au type de messages du Centre d’annonces dont vous souhaitez vous désabonner.
+
+   ![Paramètres du centre d’annonces](assets/ac-settings.png)
 
 1. Cliquez sur **Enregistrer les paramètres**.
 

@@ -15,10 +15,10 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
+source-git-commit: 67718eeb12ae1e1b5ec5be1c88dbdedf5926f117
 workflow-type: tm+mt
-source-wordcount: 85
-ht-degree: 65%
+source-wordcount: 90
+ht-degree: 62%
 
 ---
 
@@ -35,3 +35,4 @@ Pour plus d’informations sur l’utilisation des documents, voir les articles 
 * [Organisation des documents : index des articles](../documents/organizing-documents/organize-documents.md)
 * [Adobe Cloud Drive : index des articles](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
 * [Intégrations Workfront et Experience Manager Assets : index des articles](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Métadonnées C2PA dans Adobe Workfront](../documents/c2pa-metadata-overview.md)
