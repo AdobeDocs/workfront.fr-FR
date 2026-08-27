@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 25%
+source-wordcount: 2002
+ht-degree: 23%
 
 ---
 
@@ -193,6 +193,10 @@ Pour gérer une vue Calendrier :
        * Les enregistrements qui s&#39;étendent sur plusieurs jours s&#39;affichent en haut du calendrier.
        * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
 
+         <span class="preview">Le calendrier affiche jusqu’à 1 000 enregistrements au cours des semaines précédente, actuelle et suivante pour les deux zones de la vue hebdomadaire.</span>
+
+1. <span class="preview">(Facultatif et conditionnel) Cliquez sur **Charger plus** au bas du calendrier, s’il existe plus de 1 000 enregistrements et que certains d’entre eux ne s’affichent pas par défaut, lors de l’affichage du calendrier par semaine.</span>
+
 1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
 1. Pour créer des enregistrements dans la vue Calendrier ou modifier leurs dates, effectuez l&#39;une des opérations suivantes :
@@ -327,7 +331,7 @@ Pour ajouter un filtre à une vue Calendrier :
 
       ![Filtres à plusieurs niveaux dans les vues](assets/multi-tiered-filters-in-views.png)
 
-   La liste des enregistrements est filtrée automatiquement. <!--at this time, you can't name and save the filter - but will this change?!-->
+   La liste des enregistrements est automatiquement filtrée.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Facultatif) Cliquez sur l’icône **x** pour supprimer une condition de filtre.
@@ -448,7 +452,7 @@ Mettez à jour les paramètres de la vue Calendrier pour indiquer les informatio
 
    * **Type d’enregistrement** : la couleur des barres d’enregistrement du calendrier correspond à la couleur du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
    * **Valeurs des champs** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez.
-   * **Aucune** : les enregistrements s’affichent dans une barre blanche. <span class="preview">L’option Aucun a été supprimée de l’environnement de prévisualisation.</span>
+   * **Aucune** : les enregistrements s’affichent dans une barre blanche. <span class="preview">L’option **Aucune** a été supprimée de l’environnement de prévisualisation.</span>
 
 
 

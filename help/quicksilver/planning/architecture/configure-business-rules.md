@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 12%
 
 ---
 
@@ -75,7 +75,10 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Remarques concernant la configuration des règles métier
 
-* Vous pouvez configurer des règles indiquant à quel moment les enregistrements peuvent être modifiés ou supprimés.
+* Vous pouvez configurer des règles indiquant le moment où les enregistrements peuvent être modifiés ou supprimés, selon les conditions que vous définissez.
+
+  Par exemple, vous pouvez créer des conditions pour que certains champs aient une valeur. Si la valeur est absente de ces champs, les utilisateurs ne peuvent pas modifier ni supprimer cet enregistrement.
+* Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
 * Vous ne pouvez pas configurer de règles pour le moment où les enregistrements sont créés. Toute personne disposant d’autorisations de niveau Gérer pour le type d’enregistrement peut créer des enregistrements.
 * Vous pouvez créer une condition pour votre règle métier qui fait référence à tous les types de champ, à l’exception des suivants :
   * Champs de formule
