@@ -4,10 +4,10 @@ description: Améliorations des rapports pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 5%
+source-wordcount: '487'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 5%
 Cette page décrit les améliorations apportées aux rapports avec la version du quatrième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Rapports de tableau croisé dynamique dans les tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 27 août 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Le nouveau type de rapport de tableau croisé dynamique des tableaux de bord de la zone de travail agrège les données avec des déploiements complets et précis. Vous pouvez créer des mesures telles que les nombres, les sommes et les moyennes directement sur votre tableau de bord, puis accéder aux enregistrements sous-jacents derrière un total.
+
+Pour plus d&#39;informations, voir [Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
 ## Application de dates de fin aux rapports planifiés
 

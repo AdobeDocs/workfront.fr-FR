@@ -11,9 +11,9 @@ hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '113'
 ht-degree: 10%
 
 ---
@@ -30,4 +30,6 @@ Vous pouvez ajouter différents rapports à un tableau de bord de la zone de tra
 * Rapports de graphique (graphiques à barres, à colonnes, en courbes et en secteurs)
 * Rapports sur les indicateurs clés de performance
 * Rapports sur les tableaux
+* Rapports de tableau croisé dynamique
 * Rapports sur les approbations en attente
+

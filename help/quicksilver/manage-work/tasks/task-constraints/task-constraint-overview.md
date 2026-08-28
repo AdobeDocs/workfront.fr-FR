@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 99%
+source-wordcount: 704
+ht-degree: 98%
 
 ---
 
@@ -38,6 +38,8 @@ Les contraintes de tâches déterminent quand une tâche doit commencer et se te
 
 Lorsque vous élaborez votre plan de projet, vous prenez des décisions sur la séquence et la période de vos tâches dans le projet. Les tâches peuvent fonctionner indépendamment de toute séquence de tâches, mais elles peuvent avoir un impact sur la chronologie du projet. Les contraintes de tâches permettent au gestionnaire ou à la gestionnaire de projet de planifier le moment où certaines tâches peuvent commencer ou se terminer dans le cadre d’un projet.
 
+Les contraintes de tâche s’appliquent de la même manière aux tâches de projet et aux tâches de modèle.
+
 En fonction de la contrainte utilisée, vous devrez peut-être spécifier une date de début prévue, une date d’achèvement prévue, ou les deux, pour la tâche.
 
 Les types de contraintes qui requièrent des dates définies ont un impact sur les relations antérieures.
@@ -46,7 +48,9 @@ Les types de contraintes qui requièrent des dates définies ont un impact sur l
 >
 >Envisagez d’utiliser un type de contrainte qui ne nécessite pas de dates spécifiques si vous utilisez des relations antérieures entre les tâches.
 
-Le tableau suivant présente chaque contrainte et son abréviation. Les abréviations sont utilisées dans les listes de tâches et lors de la création de fichiers d’import Kickstart. Cliquez sur le titre lié à chaque contrainte de tâche pour obtenir plus d’informations sur ce type de contrainte.
+Le tableau suivant présente chaque contrainte et son abréviation.
+
+Les abréviations sont utilisées dans les listes de tâches et lors de la création de fichiers d’import Kickstart. Cliquez sur le titre lié à chaque contrainte de tâche pour obtenir plus d’informations sur ce type de contrainte.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 

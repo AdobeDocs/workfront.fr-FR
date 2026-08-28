@@ -4,7 +4,7 @@ description: Améliorations des documents du quatrième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 7%
@@ -16,6 +16,30 @@ ht-degree: 7%
 Cette page décrit les améliorations apportées aux documents avec la version du quatrième trimestre 2026 dans l’environnement de Prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Add teams to approvals for objects using Adobe cloud storage
+
+>[!NOTE]
+>
+>Preview: August 27, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now add a Workfront Team as an approver or reviewer on a document approval or approval template, instead of adding each person individually:
+
+* Objects on Adobe cloud storage: Workfront adds each active team member individually, so the approver list always reflects who's currently on the team.
+* Objects using legacy Workfront storage: The team is added as a single participant by default, but you can now choose to add each team member as an individual participant.
+* In approval templates, Workfront stores a reference to the team and expands it into active members when you apply the template to a document, not when you save the template.
+
+For more information, see:
+
+* [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area) in Create a document approval workflow
+* [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area) in Create a document approval workflow
+* [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+
+-->
 
 ## Joindre des images aux commentaires sur les objets d’espace de stockage dans le cloud Adobe
 

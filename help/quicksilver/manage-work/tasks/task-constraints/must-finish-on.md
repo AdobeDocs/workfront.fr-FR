@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 98%
+source-wordcount: 477
+ht-degree: 81%
 
 ---
 
@@ -41,19 +41,23 @@ Tenez compte de ce qui suit lors de la planification d’une tâche avec une con
 * Les relations de tâche antérieure ne forcent pas la replanification de la tâche. Adobe Workfront ignore pour l’essentiel les relations avec la tâche antérieure.
 * La tâche s’affiche comme **En danger** si les tâches antérieures commencent à prendre du retard ou sont en retard.
 
+* La contrainte Doit Terminer le n&#39;a aucun effet sur une tâche comportant des sous-tâches. Une tâche comportant des sous-tâches a toujours ses propres dates de début prévu, d&#39;achèvement prévu et de durée cumulées à partir des dates de début de sous-tâche au plus tôt et d&#39;achèvement de sous-tâche au plus tard, quelle que soit la contrainte qui lui est appliquée. Vous devez associer la contrainte Doit Terminer le directement à la sous-tâche qui a besoin d&#39;une date fixe à la place. Le parent continuera à cumuler automatiquement.
+
+Pour plus d&#39;informations, voir également [Durée de la tâche et type de durée](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Lorsque vous déplacez ou copiez une tâche avec une contrainte MFO vers un autre projet, la contrainte de tâche ou les dates du projet peuvent changer en fonction des dates de contrainte et des dates de début et de fin du projet. Les scénarios suivants sont possibles :
 
-   * Lorsque le projet de destination est planifié à partir du début :
+  * Lorsque le projet de destination est planifié à partir du début :
 
-      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
-      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
+    * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
+    * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet est modifiée pour correspondre à la date de contrainte d’achèvement de la tâche.
 
-      * Lorsque le projet de destination est planifié à partir de l’achèvement :
+    * Lorsque le projet de destination est planifié à partir de l’achèvement :
 
-         * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi Tard Que Possible.
-         * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
+      * Lorsque la date de contrainte de la tâche est postérieure à la date d’achèvement du projet, la contrainte de la tâche passe à Aussi Tard Que Possible.
+      * Lorsque la date de contrainte de la tâche est antérieure à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
 
-      * Quel que soit le planning du projet, lorsque la date de contrainte de la tâche se trouve entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
+    * Quel que soit le planning du projet, lorsque la date de contrainte de la tâche se trouve entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
   Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

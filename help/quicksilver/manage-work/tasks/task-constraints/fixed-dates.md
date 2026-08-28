@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 98%
+source-wordcount: 517
+ht-degree: 83%
 
 ---
 
@@ -35,19 +35,23 @@ Tenez compte des points suivants lors de l’utilisation de la contrainte de dat
 * Lorsque vous sélectionnez la contrainte de tâche Dates fixes (FIXT), vous devez préciser la Date de début prévue et la Date d’achèvement prévue de la tâche. Dans ce cas, la relation antérieure de la tâche est ignorée.
 * Le champ Durée de la tâche n’est pas modifiable lors de l’utilisation de la contrainte FIXT. La durée est calculée comme la différence entre les dates de début et d’achèvement prévues de la tâche.
 * Si le Type de durée de la tâche est piloté par l’effort, le nombre de personnes affectées à la tâche a également un impact la Durée de la tâche.
+* La contrainte Dates fixes n&#39;a aucun effet sur une tâche comportant des sous-tâches. Une tâche comportant des sous-tâches a toujours ses propres dates de début prévu, d&#39;achèvement prévu et de durée cumulées à partir des dates de début de sous-tâche au plus tôt et d&#39;achèvement de sous-tâche au plus tard, quelle que soit la contrainte qui lui est appliquée. Vous devez associer la contrainte de dates fixes directement à la sous-tâche qui a besoin d&#39;une date fixe à la place. Le parent continuera à cumuler automatiquement.
+
+Pour plus d&#39;informations, voir également [Durée de la tâche et type de durée](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Lorsque vous déplacez ou copiez une tâche avec une contrainte FIXT vers un autre projet, la contrainte de la tâche ou les dates du projet peuvent changer en fonction des dates de contrainte et des dates de début et d’achèvement du projet. Les scénarios suivants sont possibles :
 
-   * Lorsque le projet de destination est planifié à partir du début :
+  * Lorsque le projet de destination est planifié à partir du début :
 
-      * Lorsque les dates de contrainte de tâche sont antérieures à la date de début du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
-      * Si l’une des dates de contrainte de tâche ou les deux sont postérieures à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet change pour correspondre à la date de contrainte d’achèvement de la tâche.
+    * Lorsque les dates de contrainte de tâche sont antérieures à la date de début du projet, la contrainte de tâche passe à Aussi Tôt Que Possible.
+    * Si l’une des dates de contrainte de tâche ou les deux sont postérieures à la date d’achèvement prévue du projet, la date d’achèvement prévue du projet change pour correspondre à la date de contrainte d’achèvement de la tâche.
 
-   * Lorsque le projet de destination est planifié à partir de l’achèvement :
+  * Lorsque le projet de destination est planifié à partir de l’achèvement :
 
-      * Lorsque les dates de contrainte de la tâche sont postérieures à la date d’achèvement du projet, la contrainte de tâche devient Aussi Tard Que possible.
-      * Lorsque les dates de contrainte de tâche sont antérieures à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
+    * Lorsque les dates de contrainte de la tâche sont postérieures à la date d’achèvement du projet, la contrainte de tâche devient Aussi Tard Que possible.
+    * Lorsque les dates de contrainte de tâche sont antérieures à la date de début prévue du projet, la date de début prévue du projet change pour correspondre à la date de contrainte de début de la tâche.
 
-   * Quelle que soit le planning du projet, lorsque les dates de contrainte de la tâche sont comprises entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
+  * Quelle que soit le planning du projet, lorsque les dates de contrainte de la tâche sont comprises entre les dates de début et d’achèvement du projet, aucune modification n’est apportée à la contrainte de tâche ou aux dates du projet.
 
   Pour plus d’informations sur le déplacement de tâches, voir [Déplacer des tâches](../../../manage-work/tasks/manage-tasks/move-tasks.md). Pour plus d’informations sur la copie de tâches, voir [Copier et dupliquer des tâches](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

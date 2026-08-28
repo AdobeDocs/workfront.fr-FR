@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1501'
 ht-degree: 14%
 
 ---
@@ -264,6 +264,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Rapports de tableau croisé dynamique dans les tableaux de bord de la zone de travail</a>
+                <p>Le nouveau type de rapport de tableau croisé dynamique des tableaux de bord de la zone de travail agrège les données avec des déploiements précis et complets, avec une exploration en profondeur des enregistrements sous-jacents.</p>
+            </td>
+            <td><p>27 Août 2026</p></td>
+            <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>

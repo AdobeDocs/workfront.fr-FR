@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
 workflow-type: tm+mt
-source-wordcount: '14457'
+source-wordcount: '14466'
 ht-degree: 92%
 
 ---
@@ -1624,6 +1624,7 @@ ht-degree: 92%
       * [Créer un rapport de KPI dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [Créer un rapport de graphique dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [Créer un rapport de tableau dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
     * Gérer les tableaux de bord de la zone de travail {#manage-canvas-dashboards}
       * [Gérer les tableaux de bord de la zone de travail : index des articles](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Partager un tableau de bord de la zone de travail](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)

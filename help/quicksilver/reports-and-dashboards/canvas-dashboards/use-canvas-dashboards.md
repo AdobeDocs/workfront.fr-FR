@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 8%
 
 ---
@@ -106,6 +106,24 @@ Vous pouvez personnaliser temporairement les rapports de tableau de bord. Ces mo
    >
    >Ces modifications s’appliquent uniquement à la session en cours et n’affectent pas la configuration de rapport d’origine. Pour rendre ces modifications permanentes, vous devez modifier le rapport.
 
+<div class="preview">
+
+### Accéder aux données du tableau croisé dynamique dans l&#39;aperçu
+
+Vous pouvez cliquer sur une valeur dans un rapport de tableau croisé dynamique pour analyser en profondeur et afficher les enregistrements individuels qui constituent cette valeur agrégée.
+
+{{step1-to-dashboards}}
+
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+1. Cliquez sur le nom d’un tableau de bord existant pour l’ouvrir.
+   ![Ouvrir un tableau de bord](assets/open-dashboard.png)
+1. Recherchez le rapport de tableau croisé dynamique que vous souhaitez consulter.
+1. Cliquez sur une valeur du tableau croisé dynamique pour ouvrir le tableau d&#39;analyse.
+
+   Le tableau d’exploration vers le bas affiche les colonnes que le créateur du rapport a configurées dans les paramètres de colonne d’exploration vers le bas. Pour plus d&#39;informations, voir [Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ Par défaut, les regroupements eux-mêmes sont triés par ordre alphabétique ou
 Vous pouvez cliquer sur un en-tête de colonne pour trier les données de chaque groupe. Lorsque vous triez selon un champ différent du champ de regroupement, l’ordre des groupes ne change pas.
 
 Cependant, lorsque vous triez en fonction du même champ que celui du rapport, l’ordre de regroupement peut changer. Par exemple, un regroupement basé sur du texte qui exécute normalement A-Z peut passer à Z-A.
+
