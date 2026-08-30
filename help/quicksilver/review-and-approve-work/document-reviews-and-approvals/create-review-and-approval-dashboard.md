@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
+source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
 workflow-type: tm+mt
-source-wordcount: 2584
+source-wordcount: 2771
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Cliquez sur **Sélectionner un champ**.
 
-   1. Recherchez et sélectionnez le dossier **Approbation du document**.
+   1. Recherchez et sélectionnez le dossier **Approbation**.
 
    1. Sélectionnez **Statut**.
 
@@ -97,8 +97,16 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Cliquez sur **Ajouter une condition**.
 
    1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Statut**.
-   1. Laissez l’opérateur sur **Égal**, puis saisissez _en attente de révision_ dans la zone de texte.
-      ![exemple de filtre kpi en attente](assets/pending-kpi-filter.png)
+   1. Laissez l’opérateur sur **Égal**, puis choisissez **En attente de révision**.
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Type d&#39;approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
+   ![exemple de filtre kpi en attente](assets/pending-kpi-filter.png)
+
+
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 
@@ -124,7 +132,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Cliquez sur **Sélectionner un champ**.
 
-   1. Recherchez et sélectionnez le dossier **Approbation du document**.
+   1. Recherchez et sélectionnez le dossier **Approbation**.
 
    1. Sélectionnez **Statut**.
 
@@ -147,8 +155,13 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Statut**.
-   1. Modifiez l’opérateur sur **Ne contient pas**, puis saisissez _approuvé_ dans la zone de texte.
+   1. Modifiez l’opérateur sur **Ne contient pas** puis choisissez **Approuvé**.
       ![exemple 2 de filtre kpi en retard](assets/overdue-kpi-filter-2.png)
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Type d&#39;approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 
@@ -175,7 +188,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Cliquez sur **Sélectionner un champ**.
 
-   1. Recherchez et sélectionnez le dossier **Approbation du document**.
+   1. Recherchez et sélectionnez le dossier **Approbation**.
 
    1. Sélectionnez **Statut**.
 
@@ -193,14 +206,19 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Sélectionnez **Statut**.
 
-   1. Remplacez l’opérateur par **Contient** et saisissez _Approved_ dans la zone de texte.
+   1. Remplacez l’opérateur par **Contient**, puis choisissez **Approuvé**.
       ![exemple de filtre kpi terminé](assets/completed-kpi-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez sur **Et** pour le remplacer par **Ou**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Statut**.
-   1. Remplacez l’opérateur par **Égal**, puis saisissez _révisé_ dans la zone de texte.
+   1. Remplacez l’opérateur par **Égal**, puis choisissez **Révisé**.
       ![exemple de filtre kpi terminé](assets/completed-kpi-filter-2.png)
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Type d&#39;approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 #### Approbations abandonnées
@@ -225,7 +243,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Cliquez sur **Sélectionner un champ**.
 
-   1. Recherchez et sélectionnez le dossier **Étape d’approbation du document**.
+   1. Recherchez et sélectionnez le dossier **Étape d’approbation**.
 
    1. Sélectionnez **Échéance**.
 
@@ -243,7 +261,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Sélectionnez **Statut**.
 
-   1. Modifiez l’opérateur sur **Ne contient pas** et saisissez _approuvé_ dans la zone de texte.
+   1. Remplacez l’opérateur par **Ne contient pas**, puis choisissez **Approuvé**.
       ![exemple de filtre kpi abandonné](assets/abandoned-kpi-filter.png)
    1. Cliquez sur **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
@@ -251,6 +269,11 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Remplacez l’opérateur par **Inférieur à**, puis activez le bouton (bascule) **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAY-2w_ dans la zone de texte.
       ![exemple de filtre kpi abandonné](assets/abandoned-kpi-filter-2.png)
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez le **Relation d’approbation** et **Type d’approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 ### Graphiques
@@ -278,7 +301,7 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Dans le menu déroulant **Type de graphique**, laissez **Barre** sélectionné.
    1. Dans le menu déroulant **Type de barre**, laissez l’option **Simple** sélectionnée.
-   1. Cliquez sur **Mettre à jour le champ** pour l&#39;axe **Bas (X)**, puis sélectionnez **Approbation du document** > **Statut**.
+   1. Cliquez sur **Mettre à jour le champ** pour l&#39;axe **Bas (X)**, puis sélectionnez **Validation** > **Statut**.
    1. Définissez le **Type d’agrégation** sur **Nombre**.
    1. Cliquez sur **Mettre à jour le champ** pour l’axe **Gauche (Y)**, puis sélectionnez **Statut**.
 1. Pour configurer la section **Filtre**, procédez comme suit :
@@ -288,6 +311,11 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Sélectionnez **Version du document** > **Version**.
    1. Remplacez l’opérateur par **N’est pas nul**.
       ![exemple de filtre](assets/approvals-by-decision-chart-filter.png)
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Type d&#39;approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 
@@ -313,9 +341,9 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
 
    1. Dans le menu déroulant **Type de graphique**, laissez **Barre** sélectionné.
    1. Dans le menu déroulant **Type de barre**, laissez l’option **Simple** sélectionnée.
-   1. Cliquez sur **Mettre à jour le champ** pour l’**Axe inférieur (X)**, puis sélectionnez **Approbation du document** > **Version du document** > **Version**.
+   1. Cliquez sur **Mettre à jour le champ** pour l&#39;axe **Bas (X)**, puis sélectionnez **Approbation** > **Version du document** > **Version**.
    1. Définissez le **Type d’agrégation** sur **Nombre**.
-   1. Cliquez sur **Mettre à jour le champ** pour l’axe **Gauche (Y)**, puis sélectionnez **Approbation du document** > **Version du document** > **Document** > **Name**.
+   1. Cliquez sur **Mettre à jour le champ** pour l’axe **Gauche (Y)**, puis sélectionnez **Approbation** > **Version du document** > **Document** > **Name**.
 
 1. Pour configurer la section **Filtre**, procédez comme suit :
    1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![icône de l’onglet Filtrer](assets/filter-tab.png).
@@ -332,6 +360,11 @@ Pour plus d’informations, voir [Création d’un rapport sur les indicateurs d
    1. Remplacez l’opérateur par **Inférieur ou égal à**, puis activez l’option **Définir la date relative** sur **ACTIVÉ**.
    1. Saisissez _$$TODAYem_ dans la zone de texte.
       ![Exemple de filtre de graphique de révisions](assets/revision-chart-filter-2.png)
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Type d&#39;approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
 ## Ajouter des informations de révision et d’approbation détaillées avec les tableaux
@@ -360,7 +393,7 @@ Pour plus d&#39;informations sur la création d&#39;un rapport tabulaire, voir [
 
    1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes du tableau** ![Icône Colonnes du tableau](assets/drilldown-column.png).
    1. Cliquez sur **Ajouter une colonne**.
-   1. Faites défiler vers le bas et sélectionnez **Approbation du document** > **Statut**.
+   1. Faites défiler vers le bas et sélectionnez **Validation** > **Statut**.
    1. Ajoutez les colonnes suivantes :
 
    <table>
@@ -378,19 +411,19 @@ Pour plus d&#39;informations sur la création d&#39;un rapport tabulaire, voir [
     </tr>
     <tr>
     <td><strong>Échéance</strong></td>
-    <td>Approbation du document &gt; Étapes d’approbation &gt; Échéance</td>
+    <td>Approbation &gt; Étapes d’approbation &gt; Échéance</td>
     </tr>
     <tr>
     <td><strong>Demandé par</strong></td>
-    <td>Approbation du document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    <td>Approbation &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
     </tr>
     <tr>
     <td><strong>Date demandée</strong></td>
-    <td>Approbation du document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
+    <td>Approbation &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
     </tr>
     <tr>
     <td><strong>Personne approbatrice</strong></td>
-    <td>Approbation du document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+    <td>Approbation &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
     </tr>
     </table>
 
@@ -403,8 +436,14 @@ Pour plus d&#39;informations sur la création d&#39;un rapport tabulaire, voir [
    1. Cliquez sur **Modifier le filtre**, puis **Ajouter une condition**.
    1. Cliquez dans le filtre de condition vide, puis cliquez sur **Choisir un champ**.
    1. Sélectionnez **Statut**.
-   1. Remplacez l’opérateur par **Égal**, puis saisissez _en attente d’approbation_ dans la zone de texte.
+   1. Remplacez l’opérateur par **Égal**, puis choisissez **En attente d’approbation**.
       ![exemple de filtre de table d&#39;approbation en attente](assets/pending-approval-table-filter.png)
+
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez **Type d&#39;approbation**.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez **Version du document**.
+
    1. (Facultatif) Ajoutez des filtres supplémentaires comme décrit dans la section **Filtres facultatifs** ci-dessous.
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 
@@ -456,7 +495,7 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
 
    1. Dans le panneau de gauche, cliquez sur l’icône **Colonnes du tableau** ![Icône Colonnes du tableau](assets/drilldown-column.png).
    1. Cliquez sur **Ajouter une colonne**.
-   1. Faites défiler vers le bas et sélectionnez **Approbations de documents** > **Statut**.
+   1. Faites défiler vers le bas et sélectionnez **Validations** > **Statut**.
    1. Ajoutez les colonnes suivantes :
 
       <table>
@@ -474,19 +513,19 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
         </tr>
         <tr>
         <td><strong>Échéance</strong></td>
-        <td>Document &gt; Étapes d’approbation &gt; Échéance</td>
+        <td>Approbation &gt; Étapes d’approbation &gt; Échéance</td>
         </tr>
         <tr>
         <td><strong>Demandé par</strong></td>
-        <td>Document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+        <td>Approbation &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Demandeur &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
         </tr>
         <tr>
         <td><strong>Date demandée</strong></td>
-        <td>Document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé à</td>
+        <td>Approbation &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Créé le</td>
         </tr>
         <tr>
         <td><strong>Personne approbatrice</strong></td>
-        <td>Document &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
+        <td>Approbation &gt; Étapes d’approbation &gt; Participants à l’étape d’approbation* &gt; Utilisateur participant &gt; saisissez <em>Nom</em> dans la zone de recherche.</td>
         </tr>
         </table>
 
@@ -536,5 +575,10 @@ Pour afficher des informations plus spécifiques en fonction de votre cas d’ut
    1. Sélectionnez **Étapes d’approbation** > **Participants à l’étape d’approbation** > **Équipe de participants** > saisissez _Nom_ dans la zone de recherche.
    1. Remplacez l’opérateur par **Égal**, puis choisissez **Mes équipes par défaut (Utilisateur connecté)** ou **Mes autres équipes (Utilisateur connecté)** pour afficher les projets affectés à votre équipe par défaut ou aux autres équipes auxquelles vous appartenez.
       ![exemple de filtre de table d&#39;approbation en attente](assets/approvals-ive-submitted-filter.png)
+
+   1. Cliquez sur **Ajouter une condition**.
+   1. Cliquez dans le filtre de condition vide, cliquez sur **Choisir un champ**, puis choisissez la relation d’approbation, puis le type d’approbation.
+   1. Laissez l’opérateur sur **Égal**, puis sélectionnez Version du document.
+
 1. Cliquez sur **Enregistrer** dans le coin supérieur droit de l’écran.
 +++
