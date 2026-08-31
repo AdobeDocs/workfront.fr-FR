@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 2%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-Vous pouvez configurer des règles métier de type enregistrement qui définissent la manière dont les enregistrements de ce type sont gérés dans Adobe Workfront Planning.
+Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning qui définissent la manière dont les enregistrements de ce type sont gérés.
+
+Vous pouvez autoriser les actions suivantes sur les enregistrements si les règles métier définies sont respectées :
+
+* Modification d’un enregistrement
+* Supprimer un enregistrement
 
 ## Conditions d’accès
 
@@ -75,7 +80,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Remarques concernant la configuration des règles métier
 
-* Vous pouvez configurer des règles indiquant le moment où les enregistrements peuvent être modifiés ou supprimés, selon les conditions que vous définissez.
+* Vous pouvez configurer des règles qui indiquent à quel moment les enregistrements peuvent être modifiés ou supprimés.
 
   Par exemple, vous pouvez créer des conditions pour que certains champs aient une valeur. Si la valeur est absente de ces champs, les utilisateurs ne peuvent pas modifier ni supprimer cet enregistrement.
 * Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
@@ -88,139 +93,141 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 ## Configuration des règles métier
 
 1. Accédez à un type d’enregistrement.
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur Règles métier.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Règles métier**.
+
+   Les pages Règles métier s’ouvrent.
+1. Cliquez sur **Nouvelle règle métier**.
+1. Dans la zone Nouvelle règle métier, ajoutez un nom pour la règle métier dans le premier champ disponible. Il s’agit d’un champ obligatoire.
+1. (Facultatif) Ajoutez une description pour définir la règle métier.
+
+<!--
+
+***********FROM CLAUDE - BELOW - MUST EDIT*******************
 
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** DE CLAUDE - CI-DESSOUS - DOIT MODIFIER &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+### What business rules actually do
 
-## Configuration de règles métier dans Workfront Planning : guide détaillé
+Business rules attach a condition to a **status change**. Instead of enforcing complete data the moment someone creates a record (which would slow everyone down), the rule only kicks in at one specific, deliberate moment: when a status is about to change to a status you've configured.
 
-Avez-vous déjà effectué un transfert record vers « Prêt pour l’exécution » pour découvrir plus tard que la moitié des champs requis (marque, indication, dates de lancement) n’ont jamais été remplis ? Quand quelqu&#39;un s&#39;en aperçoit, il y a déjà un projet en aval avec des données manquantes, et quelqu&#39;un doit retrouver les détails et les renvoyer manuellement.
+A rule looks like this in plain language:
 
-Les règles métier corrigent ce problème. Ils permettent de mettre en place un point de contrôle simple : **avant qu&#39;un enregistrement puisse passer à un statut spécifique, certains champs doivent être renseignés.** Si ce n&#39;est pas le cas, la personne qui apporte la modification voit exactement ce qui manque et ne peut pas procéder tant que la situation n&#39;est pas corrigée.
+> "Before a record can move to **Ready for Execution**, the field **Brand** must have a value."
 
-Ce guide décrit le fonctionnement des règles métier, comment en configurer une et ce que votre équipe vivra une fois qu’elles seront disponibles en ligne.
+If the field is empty, the status change is blocked and the person gets a clear message telling them what to fix. Once they fill it in and try again, the change goes through.
 
-### À quoi servent les règles métier ?
+A few important things this is *not*:
 
-Les règles métier attachent une condition à un **changement de statut**. Au lieu d’appliquer des données complètes au moment où une personne crée un enregistrement (ce qui ralentirait tout le monde), la règle ne se déclenche qu’à un moment spécifique et délibéré : lorsqu’un statut est sur le point de passer à un statut que vous avez configuré.
-
-Voici à quoi ressemble une règle en langage clair :
-
-> « Avant qu’un enregistrement puisse passer à **Prêt pour l’exécution**, le champ **Marque** doit avoir une valeur. »
-
-Si le champ est vide, le changement de statut est bloqué et la personne reçoit un message clair lui indiquant ce qu’elle doit corriger. Une fois qu’il l’a renseignée et qu’il a réessayé, la modification est effectuée.
-
-Voici quelques points importants *pas* :
-
-* **Cela ne bloque pas la création d’enregistrements.** Les utilisateurs peuvent toujours créer un nouvel enregistrement instantanément et le remplir au fil du temps, exactement comme aujourd’hui.
-* **Il ne remplit pas automatiquement les champs ou ne modifie pas automatiquement les statuts.** Une personne doit toujours faire changer le statut elle-même.
-* **Il ne signale pas rétroactivement les anciens enregistrements.** Les enregistrements dont le statut est déjà défini sur la cible ne sont pas affectés : la vérification ne s&#39;exécute que la prochaine fois qu&#39;un utilisateur tente de déplacer un enregistrement *vers* ce statut.
-
-
-
-### Avant de commencer
-
-Avant de pouvoir configurer des règles, deux ou trois choses doivent être vraies :
-
-1. **La fonctionnalité doit être activée pour votre organisation.** Cela s’effectue du côté d’Adobe (via un indicateur de fonctionnalité), et non d’une manière que vous activez vous-même. Si la section règles métier décrite ci-dessous ne s’affiche pas, contactez votre contact Adobe pour confirmer qu’elle a été activée pour votre client.
-2. **Vous avez besoin d’autorisations admin ou workspace-configurator.** Les planificateurs réguliers ne peuvent pas créer ni modifier de règles — seules les personnes qui gèrent la configuration de l&#39;espace de travail peuvent le faire.
-
-### Étape 1 : ouvrir la zone de configuration des règles métier
-
-Les règles métier cohabitent avec votre autre configuration d’administration : vous n’avez pas besoin de rechercher un panneau « Planification » distinct. Dans la zone Configuration du workflow :
-
-1. Accédez à la zone principale **configuration du workflow/configuration de l’administration** pour votre espace de travail.
-2. Recherchez la section **règles métier** pour le type d’enregistrement que vous souhaitez configurer (par exemple, « Matériaux » ou « Campagnes »).
-
-
-### Etape 2 : sélection du type d&#39;enregistrement
-
-Les règles sont configurées par type d’enregistrement. Sélectionnez donc celle à laquelle vous souhaitez ajouter une règle. Par exemple, si vous souhaitez vous assurer que chaque enregistrement Matières comporte des champs clés remplis avant l&#39;exécution, sélectionnez **Matières**.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
+* **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
 
 
 
-### Étape 3 : créer une règle
+### Before you start
 
-Pour chaque règle, vous spécifiez trois éléments :
+A couple of things need to be true before you can configure rules:
 
-| Ce que vous avez défini | Exemple |
+1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
+2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
+
+### Step 1: Open the business rules configuration area
+
+Business rules live alongside your other admin setup — you won't need to hunt for a separate "Planning" panel. From your workflow setup area:
+
+1. Go to the main **workflow setup / admin configuration** area for your workspace.
+2. Look for the **business rules** section for the record type you want to configure (for example, "Materials" or "Campaigns").
+
+
+### Step 2: Choose the record type
+
+Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
+
+
+
+### Step 3: Create a new rule
+
+For each rule, you'll specify three things:
+
+| What you set | Example |
 |---|---|
-| **Type d’enregistrement** | Matériaux |
-| **Statut cible** | Prêt pour l’exécution |
-| **Champ obligatoire** | Marque |
+| **Record type** | Materials |
+| **Target status** | Ready for Execution |
+| **Required field** | Brand |
 
-En d’autres termes : « Lorsque le statut d’un enregistrement Matières est modifié en **Prêt pour l’exécution**, le champ **Marque** doit comporter une valeur. »
+In other words: "When a Materials record's status is changed to **Ready for Execution**, the field **Brand** must have a value."
 
-Vous pouvez ajouter plusieurs règles pour le même statut. Par exemple, vous pouvez exiger que la marque, la zone thérapeutique, l&#39;indication et la date de lancement estimée soient toutes renseignées avant qu&#39;un enregistrement puisse passer à « Prêt pour l&#39;exécution » — chacune d&#39;elles étant sa propre règle et toutes vérifiées ensemble.
+You can add more than one rule for the same status. For example, you might require Brand, Therapeutic Area, Indication, and Estimated Launch Date all to be filled in before a record can move to "Ready for Execution" — each is its own rule, and all of them are checked together.
 
-**Quels champs pouvez-vous exiger ?**
-&#x200B;- Champs d’enregistrement connectés (par exemple, un enregistrement de marque ou d’indication lié) : la règle passe dès qu’au moins un enregistrement est lié.
-&#x200B;- Champs de texte standard (une seule ligne ou paragraphe) : la règle est transmise lorsqu’il existe une valeur.
-&#x200B;- Champs de date : la règle est acceptée une fois qu&#39;une date est définie.
+**What fields can you require?**
 
-**Ce que vous ne pouvez pas encore utiliser :** les champs de formule et de recherche ne sont pas pris en charge en tant que cibles de règle dans cette version, car ils sont calculés en arrière-plan plutôt que renseignés directement par une personne.
+* Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
+* Standard text fields (single-line or paragraph) — the rule passes once there's any value.
+* Date fields — the rule passes once a date is set.
 
-### Étape 4 : Écrivez le message que les gens verront
+**What you can't use yet:** formula fields and lookup fields aren't supported as rule targets in this release, since they're calculated in the background rather than filled in directly by a person.
 
-Lorsque vous créez une règle, vous fournissez également le message qui s’affiche si quelqu’un tente d’effectuer la modification sans remplir le champ . Veillez à ce qu’il soit spécifique et exploitable, par exemple :
+### Step 4: Write the message people will see
 
-> « La marque est requise. »
+When you create a rule, you'll also provide the message that shows up if someone tries to make the change without the field filled in. Keep it specific and actionable — something like:
 
-Vous n&#39;avez pas à vous soucier de la mise en forme d&#39;une bannière d&#39;erreur entière — le système gère la combinaison des messages si plusieurs règles sont violées à la fois (voir ci-dessous).
+> "Brand is required."
 
-### Étape 5 : enregistrer la règle
+You don't need to worry about formatting a whole error banner — the system handles combining messages if multiple rules are violated at once (see below).
 
-Une fois enregistrée, la règle prend effet **immédiatement** pour tous les utilisateurs de l’espace de travail. Nul besoin de se déconnecter, d’actualiser ou d’attendre un déploiement. La prochaine fois que quelqu’un tentera de déplacer un enregistrement vers ce statut, la règle sera vérifiée.
+### Step 5: Save the rule
 
-### Ce que votre équipe vivra réellement
+Once saved, the rule takes effect **immediately** for everyone in the workspace — no need to log out, refresh, or wait for a deployment. The very next time anyone tries to move a record into that status, the rule is checked.
 
-Voici ce qui change pour les personnes qui utilisent Planning au jour le jour, une fois qu&#39;une règle est active.
+### What your team will actually experience
 
-#### Si un champ obligatoire est vide
+Here's what changes for the people using Planning day to day, once a rule is live.
 
-1. Un planificateur ouvre un enregistrement et change son statut en statut de point de contrôle (par exemple, « Prêt pour l’exécution »).
-2. Le système vérifie toutes les règles liées à ce statut.
-3. Si un champ obligatoire est vide, la modification est **rejetée** — le statut revient à ce qu’il était.
-4. Un message toast s’affiche, indiquant exactement le ou les champs manquants :
-   > *« Changement de statut bloqué : &#39;Marque&#39; et &#39;Date de lancement estimée&#39; doivent être renseignées avant de passer à &#39;Prêt pour l&#39;exécution&#39;.«*
-5. Le planificateur remplit le ou les champs manquants et tente à nouveau de modifier le statut.
-6. Cette fois, la règle est acceptée et l’état est mis à jour normalement.
+#### If a required field is empty
 
-#### Si tout est déjà renseigné
+1. A planner opens a record and changes the status to the gated status (say, "Ready for Execution").
+2. The system checks all rules tied to that status.
+3. If a required field is empty, the change is **rejected** — the status reverts back to what it was.
+4. A toast message appears, naming exactly which field(s) are missing:
+   > *"Status change blocked: 'Brand' and 'Estimated Launch Date' must be populated before moving to 'Ready for Execution.'"*
+5. The planner fills in the missing field(s) and tries the status change again.
+6. This time, the rule passes, and the status updates normally.
 
-Rien ne change. Le statut est mis à jour instantanément, sans étapes ou fenêtres contextuelles supplémentaires. Les règles de gestion sont invisibles jusqu&#39;à ce qu&#39;elles soient réellement nécessaires.
+#### If everything is already filled in
 
-#### Si plusieurs champs sont manquants à la fois
+Nothing changes. The status updates instantly, with no extra steps or popups. Business rules are invisible until they're actually needed.
 
-Toutes les règles enfreintes sont vérifiées ensemble, et le message répertorie tous les champs manquants en une seule fois. Les planificateurs n&#39;ont pas à corriger un champ, à réessayer, à se faire informer du suivant et à répéter.
+#### If several fields are missing at once
 
-### Étape 6 : modifier ou supprimer une règle ultérieurement
+All the violated rules are checked together, and the message lists every missing field in one go — planners don't have to fix one field, try again, get told about the next one, and repeat.
 
-Les règles ne sont pas immuables. Pour apporter des modifications :
+### Step 6: Edit or remove a rule later
 
-1. Revenez à la zone de configuration des règles métier pour le type d’enregistrement.
-2. Recherchez la règle que vous souhaitez modifier.
-3. Modifiez le champ, le statut de la cible ou le message requis, ou supprimez entièrement la règle.
-4. Enregistrez. La modification s’applique immédiatement aux modifications de statut futures.
+Rules aren't set in stone. To make changes:
 
-Gardez à l’esprit que la modification ou la suppression d’une règle **affecte uniquement les transitions dans les années à venir.** Les enregistrements qui ont déjà atteint le statut cible avant la modification ne sont pas réévalués.
-3## Quelques choses à savoir
+1. Go back to the business rules configuration area for the record type.
+2. Find the rule you want to change.
+3. Edit the required field, target status, or message — or delete the rule entirely.
+4. Save. The change applies immediately to future status changes.
 
-* **Ceci est distinct du verrouillage des enregistrements après un changement de statut.** Les règles métier (comme décrit ici) vérifient uniquement l’exhaustivité des champs *avant* qu’un changement de statut ne soit effectué. Une autre fonctionnalité liée détermine si un enregistrement est complètement verrouillé des modifications/suppressions une fois qu&#39;il atteint un certain statut - ce n&#39;est pas ce qui est couvert ici.
-* Les **modifications de statut en bloc** (modification du statut sur de nombreux enregistrements à la fois) ne sont pas encore entièrement définies pour la manière dont elles interagissent avec les règles métier. Si votre équipe s’appuie fortement sur des actions en bloc, vérifiez auprès de votre contact Adobe le comportement actuel.
-* **Si une règle ne peut pas être évaluée** en raison d’une erreur système, la transition est bloquée plutôt que silencieusement autorisée. Vous ne vous retrouverez jamais avec un enregistrement incomplet qui glisse au-delà d’une règle en raison d’un problème de serveur principal.
-* La **désactivation de la fonctionnalité** ne supprime pas les règles configurées, elles sont simplement suspendues. Le fait de le réactiver les restaure exactement comme ils étaient, aucune reconfiguration n’était nécessaire.
+Keep in mind: editing or deleting a rule **only affects transitions going forward.** Records that already made it into the target status before the change aren't reevaluated.
+3## A few things worth knowing
 
-### Référence rapide : configuration de votre première règle
+* **This is separate from locking records after a status change.** Business rules (as described here) only check field completeness *before* a status change goes through. A different, related feature governs whether a record becomes fully locked from edits/deletion once it reaches a certain status — that's not what's covered here.
+* **Bulk status changes** (changing status on many records at once) aren't fully defined yet for how they interact with business rules — if your team relies heavily on bulk actions, check with your Adobe contact on current behavior.
+* **If a rule can't be evaluated** due to a system error, the transition is blocked rather than silently allowed through — you'll never end up with an incomplete record slipping past a rule because of a backend hiccup.
+* **Turning the feature off** doesn't delete your configured rules — they're just paused. Turning it back on restores them exactly as they were, no reconfiguration needed.
 
-1. Vérifiez que la fonctionnalité est activée pour votre client .
-2. Accédez à Configuration du workflow → Règles métier pour votre type d’enregistrement.
-3. Choisissez le type d&#39;enregistrement (par exemple, Matériaux).
-4. Créez une règle : statut de la cible + champ obligatoire.
-5. Rédigez un message d’erreur clair et spécifique.
-6. Sauvegarde — c&#39;est en ligne immédiatement.
-7. Répétez l’opération pour chaque champ à exiger.
-8. Testez-le vous-même : essayez de modifier le statut d’un enregistrement avec le champ vide, confirmez que le message attendu s’affiche, remplissez le champ, puis confirmez que le changement de statut est maintenant terminé.
+### Quick reference: setting up your first rule
 
-C&#39;est ça - à partir de maintenant, toute personne convertissant un enregistrement aura un coup de pouce clair si quelque chose manque, au lieu d&#39;un projet en aval qui se montrera silencieusement incomplet.
+1. Confirm the feature is enabled for your tenant.
+2. Go to workflow setup → business rules for your record type.
+3. Choose the record type (e.g., Materials).
+4. Create a rule: target status + required field.
+5. Write a clear, specific error message.
+6. Save — it's live immediately.
+7. Repeat for each field you want to require.
+8. Test it yourself: try changing a record's status with the field empty, confirm you see the expected message, fill in the field, and confirm the status change now goes through.
+
+That's it — from here on, anyone converting a record forward will get a clear nudge if something's missing, instead of a downstream project quietly showing up incomplete.
+
+-->
