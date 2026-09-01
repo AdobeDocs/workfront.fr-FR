@@ -1,14 +1,14 @@
 ---
 title: Configurer les règles métier de type d’enregistrement
-description: Vous pouvez configurer des règles métier de type enregistrement qui définissent la manière dont les enregistrements de ce type sont gérés dans Adobe Workfront Planning.
+description: Vous pouvez configurer des règles métier de type enregistrement qui peuvent appliquer certaines actions sur les enregistrements en fonction des valeurs de champ.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 12%
+source-wordcount: '1038'
+ht-degree: 3%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 12%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning qui définissent la manière dont les enregistrements de ce type sont gérés.
+Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning afin d’indiquer que certains champs sont requis avant qu’une action sur un enregistrement de ce type soit autorisée ou empêchée.
 
-Vous pouvez autoriser les actions suivantes sur les enregistrements si les règles métier définies sont respectées :
+Selon la formulation de la règle, vous pouvez autoriser les actions suivantes sur les enregistrements si les règles métier définies sont respectées :
 
-* Modification d’un enregistrement
-* Supprimer un enregistrement
+* Modifier ou ne pas modifier un enregistrement
+* Supprimer ou ne pas supprimer un enregistrement
 
 ## Conditions d’accès
 
@@ -80,25 +80,87 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Remarques concernant la configuration des règles métier
 
-* Vous pouvez configurer des règles qui indiquent à quel moment les enregistrements peuvent être modifiés ou supprimés.
+* Les règles métier joignent une condition à une modification de champ ou à une suppression d’enregistrement. La règle n’entre en jeu qu’à un seul moment précis et délibéré : lorsqu’un champ est sur le point de devenir une valeur de champ que vous configurez dans la règle.
 
-  Par exemple, vous pouvez créer des conditions pour que certains champs aient une valeur. Si la valeur est absente de ces champs, les utilisateurs ne peuvent pas modifier ni supprimer cet enregistrement.
+* Voici à quoi ressemble une règle en langage clair : « Avant de pouvoir modifier cet enregistrement, le champ Résumé de la campagne doit avoir une valeur ».
+
+  Si le champ est vide, la modification de l’enregistrement est bloquée et l’utilisateur reçoit un message clair expliquant ce qu’il doit faire avant de continuer. Une fois qu’il a mis à jour le champ obligatoire et réessayé, la modification est autorisée.
+
+* Les règles ne bloquent pas la création d’enregistrements. Les utilisateurs peuvent toujours créer des enregistrements, mais ils doivent s’assurer que les champs obligatoires ne sont pas vides ou ne contiennent pas la valeur spécifiée.
+* Les règles ne modifient ou ne suppriment pas automatiquement les enregistrements. La modification doit être délibérée et déclenchée par un utilisateur.
+* Les règles ne sont pas appliquées rétroactivement : les anciens enregistrements ne sont pas affectés. La vérification des règles ne s’exécute que la prochaine fois qu’une personne tente de modifier ou de supprimer un enregistrement.
 * Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
-* Vous ne pouvez pas configurer de règles pour le moment où les enregistrements sont créés. Toute personne disposant d’autorisations de niveau Gérer pour le type d’enregistrement peut créer des enregistrements.
 * Vous pouvez créer une condition pour votre règle métier qui fait référence à tous les types de champ, à l’exception des suivants :
   * Champs de formule
   * Champs de recherche
   * Champs de référence
+* Les règles s’appliquent à toutes les personnes autorisées à modifier ou supprimer des enregistrements.
+* Vous pouvez avoir plusieurs règles métier pour un type d’enregistrement.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  Toutes les règles sont vérifiées ensemble au même moment et le message d’erreur affiche tous les champs manquants dans une instruction.
 
 ## Configuration des règles métier
 
-1. Accédez à un type d’enregistrement.
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Règles métier**.
+1. Accédez à une page de type d’enregistrement.
+1. Depuis n’importe quel affichage, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Règles métier**.
 
    Les pages Règles métier s’ouvrent.
 1. Cliquez sur **Nouvelle règle métier**.
-1. Dans la zone Nouvelle règle métier, ajoutez un nom pour la règle métier dans le premier champ disponible. Il s’agit d’un champ obligatoire.
-1. (Facultatif) Ajoutez une description pour définir la règle métier.
+1. Dans la zone **Nouvelle règle métier**, ajoutez un nom pour la règle métier dans le premier champ disponible. Il s’agit d’un champ obligatoire.
+1. (Facultatif) Ajoutez une description pour définir la règle métier, puis cliquez sur **Enregistrer**.
+1. Dans la section **Si** du formulaire de configuration des règles métier, sélectionnez les actions que vous souhaitez restreindre ou autoriser en fonction d&#39;une règle spécifique. Choisissez parmi les options suivantes : <!--check UI text-->
+   * **Modification de l&#39;enregistrement** : les utilisateurs seront autorisés à modifier ou non l&#39;enregistrement, si la condition définie dans cette règle est remplie.
+   * **Suppression de l&#39;enregistrement** : les utilisateurs seront autorisés à supprimer ou non l&#39;enregistrement, si la condition définie dans cette règle est remplie.
+     <!--add screen shot when UI text is final-->
+1. Dans le champ **Formule**, ajoutez la règle métier. Choisissez un opérateur pour votre règle dans la section **Expressions de formule** du panneau de droite.
+
+   Par exemple, vous pouvez choisir **IF** dans la section **Autres** champs, ou commencer à taper « IF », puis cliquer dessus lorsqu&#39;il s&#39;affiche dans la liste de suggestions.
+
+   >[!TIP]
+   >
+   >Il est recommandé de sélectionner les champs et les opérateurs dans la liste de suggestions afin de conserver la syntaxe correcte de la règle.
+1. Sélectionnez et le champ à rendre obligatoire pour permettre la modification ou la suppression des enregistrements de ce type d&#39;enregistrement.
+
+   Par exemple, vous pouvez saisir l’instruction suivante pour que le champ **Résumé de la campagne** soit obligatoire :
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Nous vous recommandons vivement d’inclure dans la formule de règle les informations suivantes afin de faciliter la compréhension des utilisateurs et des utilisatrices lorsqu’une action qu’ils ou elles tentent d’effectuer sur un enregistrement n’est pas autorisée :
+   >
+   >* Champs exacts pour lesquels la règle est configurée.
+   >* Conséquence exacte en cas de non-respect de la règle.
+
+   Le champ **Formule** contient des indicateurs lorsqu’un champ ou une expression est erroné.  <!--add screen shot?-->
+
+   Dans la section **Alors** de la règle métier, vous pouvez voir une explication de la fonction de la règle.
+
+1. Cliquez sur **Activer** pour rendre la règle active pour ce type d’enregistrement, puis sur **Enregistrer**.
+
+   Les règles sont appliquées immédiatement après leur activation et tous les utilisateurs et utilisatrices autorisés à modifier ou supprimer des enregistrements dans le type d’enregistrement sélectionné doivent les suivre.
+1. (Facultatif et recommandé) Cliquez sur la flèche vers l&#39;arrière à gauche de l&#39;en-tête de la page **Règles métier** pour afficher la page de type d&#39;enregistrement et accéder à une vue de tableau ou ouvrir la page d&#39;un enregistrement, puis essayez de modifier ou de supprimer un enregistrement afin de tester la règle que vous venez de créer.
+
+## Gestion des règles métier
+
+Vous pouvez modifier, supprimer ou désactiver des règles métier existantes.
+
+La modification d’une règle existante ne modifie pas les enregistrements existants. La règle modifiée s&#39;applique uniquement aux enregistrements existants lorsqu&#39;une personne tente de les modifier ou de les supprimer.
+
+1. Revenez à la page de configuration **Règles métier** pour le type d’enregistrement.
+1. Recherchez la règle que vous souhaitez modifier.
+1. Pointez sur le nom de la règle, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
+
+   * **Modifier** : ouvre la page de configuration des règles métier et vous pouvez modifier les informations relatives à la règle métier.
+   * **Désactiver** : <!--check this in the UI: right now, it says Disable--> permet d’empêcher le déclenchement de la règle, mais en la préservant pour le futur, si nécessaire.
+   * **Supprimer** : toutes les informations relatives à la règle sont supprimées. Les règles supprimées ne peuvent pas être récupérées.
+
+   Les règles modifiées ou désactivées ne s’appliquent qu’aux enregistrements futurs et ne sont pas appliquées rétroactivement.
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -117,18 +179,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -141,8 +194,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 
