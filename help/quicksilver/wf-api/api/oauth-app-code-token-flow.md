@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 TQID: https://experienceleague.adobe.com/G8mttRndZ2pCn-2YM86VrIFDCIsY091eh3zSO23qFI8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 94%
+source-wordcount: 783
+ht-degree: 87%
 
 ---
 
 # Configurer et utiliser les applications OAuth2 personnalisées de votre organisation à l’aide du flux de code d’autorisation
+
+>[!IMPORTANT]
+>
+>Les applications OAuth2 personnalisées sont en cours d’obsolescence. Veuillez noter les dates suivantes :
+>
+>* 1er novembre 2026 : vous ne pourrez plus créer d’applications OAuth2 personnalisées.
+>* 1er février 2027 : les applications OAuth2 personnalisées existantes ne fonctionneront plus.
+>
+>Pour plus d’informations, voir [Migration de Workfront OAuth2 vers Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 Pour intégrer Workfront et permettre à votre application client de communiquer avec Workfront au nom de l’utilisateur ou de l’utilisatrice, vous devez procéder comme suit :
 
@@ -94,7 +98,7 @@ L’application tierce peut avoir besoin d’être configurée. Le tableau suiva
 
 ## Configurer un flux de code d’autorisation
 
-![&#x200B; Flux de code OAuth &#x200B;](assets/oauth-2-authorization-code-flow.png)
+![ Flux de code OAuth ](assets/oauth-2-authorization-code-flow.png)
 
 Pour connecter vos utilisateurs et utilisatrices avec OAuth2, suivez le processus suivant :
 

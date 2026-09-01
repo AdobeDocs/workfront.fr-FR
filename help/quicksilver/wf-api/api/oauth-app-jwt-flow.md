@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 99%
+source-wordcount: 554
+ht-degree: 90%
 
 ---
 
 # Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT
+
+>[!IMPORTANT]
+>
+>Les applications OAuth2 personnalisées sont en cours d’obsolescence. Veuillez noter les dates suivantes :
+>
+>* 1er novembre 2026 : vous ne pourrez plus créer d’applications OAuth2 personnalisées.
+>* 1er février 2027 : les applications OAuth2 personnalisées existantes ne fonctionneront plus.
+>
+>Pour plus d’informations, voir [Migration de Workfront OAuth2 vers Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 Pour intégrer Workfront et permettre à votre application client de communiquer avec Workfront au nom de l’utilisateur ou de l’utilisatrice, vous devez procéder comme suit :
 
@@ -69,7 +73,7 @@ Le tableau suivant contient des informations sur les champs qui peuvent être n�
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>Obligatoire. Le paramètre d’expiration est un paramètre obligatoire mesurant le temps absolu écoulé depuis le 01/01/1970 GMT. Vous devez vous assurer que l’heure d’expiration est postérieure à l’heure d’émission. Passé ce délai, le jeton JWT n’est plus valide. </p> <p>Note : nous vous recommandons d’utiliser un jeton à durée de vie très courte (quelques minutes), de sorte qu’il expire peu après avoir été échangé contre un jeton d’accès. Chaque fois qu’un nouveau jeton d’accès est requis, un JWT est signé et échangé. Il s’agit d’une approche plus sûre. Nous ne recommandons pas les jetons à longue durée de vie qui sont réutilisés pour obtenir des jetons d’accès en fonction des besoins.</p> </td> 
+   <td> <p>Requis. Le paramètre d’expiration est un paramètre obligatoire qui mesure le temps absolu depuis le 01/01/1970 GMT. Vous devez vous assurer que le délai d’expiration est postérieur à l’heure de l’événement. Passé ce délai, le JWT n’est plus valide. </p> <p>Note : nous vous recommandons d’utiliser un jeton à durée de vie très courte (quelques minutes), de sorte qu’il expire peu après avoir été échangé contre un jeton d’accès. Chaque fois qu’un nouveau jeton d’accès est requis, un JWT est signé et échangé. Il s’agit d’une approche plus sûre. Nous ne recommandons pas les jetons à longue durée de vie qui sont réutilisés pour obtenir des jetons d’accès en fonction des besoins.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 
