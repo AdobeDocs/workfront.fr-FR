@@ -8,11 +8,18 @@ description: Vous pouvez intégrer  [!DNL Adobe Workfront]  à des applications 
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
 TQID: https://experienceleague.adobe.com/uYKhcVyG4-ktNtWp9kz4CX8GIhMunU5UJhMfwcoLcM0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0e2544a99ea6aee353649286407be4781934c34e
 workflow-type: tm+mt
 source-wordcount: 1032
@@ -42,7 +49,7 @@ Les avantages des intégrations intégrées peuvent inclure les points suivants�
 >
 >Avec l’[!DNL Workfront for Microsoft Teams integration], vous pouvez recevoir des notifications dans [!DNL Microsoft Teams] à propos de vos éléments de travail [!DNL Workfront]. Sans quitter [!DNL Microsoft Teams], vous pouvez effectuer des actions telles que l’approbation, l’ajout de commentaires ou la modification du statut des éléments de travail. Toute modification apportée à des éléments de travail à partir de [!DNL Microsoft Teams] est également reflétée dans [!DNL Workfront].
 
-Pour plus d’informations sur les intégrations intégrées, et notamment pour obtenir une liste des intégrations intégrées actuellement disponibles, voir la section Vue d’ensemble des intégrations intégrées [[!DNL Adobe Workfront] ](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
+Pour plus d’informations sur les intégrations intégrées, et notamment pour obtenir une liste des intégrations intégrées actuellement disponibles, voir la section Vue d’ensemble des intégrations intégrées [[!DNL Adobe Workfront] &#x200B;](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Personnaliser les applications OAuth2
 
