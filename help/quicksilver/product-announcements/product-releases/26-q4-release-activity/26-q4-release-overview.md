@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1579'
 ht-degree: 14%
 
 ---
@@ -264,6 +264,24 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Champ Type d’approbation des tableaux de bord de la zone de travail</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>L'entité Approbation comprend désormais un champ Type d'approbation , qui permet aux utilisateurs de faire la distinction entre les approbations d'épreuves, les approbations de version de documents, les approbations d'admission et d'autres types d'approbation.</p>
+            </td>
+            <td><p>S/O</p></td>
+            <td><p>S/O</p></td>
+            <td><p>28 Août 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Mise à jour de la terminologie d’approbation dans les tableaux de bord de la zone de travail</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Plusieurs noms de champ utilisés dans les tableaux de bord de la zone de travail pour les approbations de documents et de travaux ont été renommés par souci de clarté.</p>
+            </td>
+            <td><p>S/O</p></td>
+            <td><p>S/O</p></td>
+            <td><p>28 Août 2026</p></td>
         </tr>
         <tr>
             <td>

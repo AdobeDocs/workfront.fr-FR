@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1193
-ht-degree: 43%
+source-wordcount: 1203
+ht-degree: 42%
 
 ---
 
@@ -249,7 +249,7 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
 
 1. Cliquer sur **Enregistrer**.
 
-   La vignette de type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionnés.
+   La carte du type d’enregistrement est ajoutée à la section et à l’espace de travail que vous avez sélectionné.
    La Description du type d’enregistrement s’affiche sur la carte.
 
    ![Carte de type enregistrement avec description](assets/record-type-card-with-description.png)
@@ -293,12 +293,18 @@ Vous pouvez ajouter manuellement des types d’enregistrements dans les sections
 
    Les modifications sont enregistrées automatiquement.
 
-   Pour plus d’informations sur l’ajout d’enregistrements, la suppression ou la modification de types d’enregistrements, ou la mise à jour de la vue dans la page du type d’enregistrement, voir les articles suivants :
+   Pour plus d’informations sur l’ajout d’enregistrements, la suppression ou la modification de types d’enregistrements, la <!--<span class="preview">creating business rules</span>--> ou la mise à jour de la vue dans la page de type d’enregistrement, consultez les articles suivants :
 
    * [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md)
    * [Supprimer des types d’enregistrements](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Modifier des types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md)
+
+   <!--  
+    <div class="preview">
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    </div>
+    -->
 
 ## Créer des types d’enregistrements en important des informations depuis un fichier CSV ou Excel
 
