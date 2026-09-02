@@ -10,18 +10,13 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
-ht-degree: 94%
+source-wordcount: 3545
+ht-degree: 88%
 
 ---
 
@@ -67,7 +62,10 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Étape d’approbation
 * Participant ou participante à l’étape d’approbation
 * Affectation
+* Réservation
 * Entreprise
+* Champ personnalisé
+* Formulaire personnalisé
 * Tableau de bord
 * Document
 * Version du document
@@ -75,6 +73,8 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * champ
 * Heure
 * Problème
+* Catégorie Non Liée À La Main-D&#39;Œuvre
+* Ressource non liée à la main-d’œuvre
 * Note
 * Portfolio
 * Programme
@@ -90,6 +90,8 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 * Valeur définie de l’attribut de ressource du plan des effectifs
 * Valeur du paramètre de ressource du plan des effectifs
 * Tâche
+* Équipe
+* Membre d&#39;équipe
 * Modèle
 * Feuille de temps
 * l’utilisateur ou de l’utilisatrice
@@ -151,8 +153,20 @@ La ressource d’abonnement contient les champs suivants :
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">Réservation</td> 
+        <td scope="col"><p>RÉSERVATION</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">Entreprise </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Champ personnalisé</td> 
+        <td scope="col"><p>PARAMÈTRE</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Formulaire personnalisé</td> 
+        <td scope="col"><p>VINGT</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Tableau de bord</td> 
@@ -181,6 +195,14 @@ La ressource d’abonnement contient les champs suivants :
        <tr> 
         <td scope="col">Problème</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Catégorie Non Liée À La Main-D'Œuvre</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Ressource non liée à la main-d’œuvre</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Note</td> 
@@ -241,6 +263,14 @@ La ressource d’abonnement contient les champs suivants :
        <tr> 
         <td scope="col"><p>Tâche</p></td> 
         <td scope="col"><p>TASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Equipe</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Membre d'équipe</td> 
+        <td scope="col"><p>TEAMMB</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Modèle</p></td> 
@@ -768,6 +798,8 @@ Ce filtre permet aux messages de passer si la mise à jour du `fieldName` spéci
 
 Ce filtre permet aux messages de passer si la modification apportée contient `fieldValue` dans le filtre. La valeur `fieldValue` respecte la casse.
 
+Si `fieldName` fait référence à un tableau d’objets (par exemple, `tags`), `fieldValue` peut être un objet ; le filtre correspond si un élément du tableau possède des valeurs correspondantes pour la ou les clés que vous spécifiez. Les autres champs de cet élément ne sont pas pris en compte ; il s’agit d’une correspondance partielle et non d’une correspondance complète sur l’objet entier.
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +815,33 @@ Ce filtre permet aux messages de passer si la modification apportée contient `f
     ]
 }
 ```
+
+**Exemple : filtrage d&#39;un champ de tableau d&#39;objets**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+Ce filtre correspond aux événements NOTE lorsque le tableau de `tags` contient au moins une balise dont la `objID` est égale à `6229be410016986cfc6eb4b37c618a17`, quels que soient le `objCode` de cette balise ou tout autre champ.
+
+>[!NOTE]
+>
+>Lors du filtrage d’un champ de tableau d’objets (tel que `tags`) avec `contains` ou `notContains`, `fieldValue` devez uniquement inclure les clés qui vous intéressent ; par exemple, `{"objID": "abc123"}` correspond à n’importe quelle balise avec cet identifiant, quels que soient ses autres champs (comme `objCode`). Il ne s’agit pas d’une vérification de l’égalité de l’objet complet. `containsOnly` ne prend actuellement pas en charge les champs de tableau d’objets.
 
 #### containsOnly
 
@@ -817,6 +876,8 @@ Ce filtre permet aux messages d’être transmis uniquement si la totalité des 
 
 Ce filtre autorise les messages uniquement si le champ spécifié (`fieldName`) ne contient pas la valeur spécifiée (`fieldValue`).
 
+Lorsqu’elle est utilisée avec un tableau d’objets , cette fonction renvoie la valeur true uniquement si aucun élément ne correspond à la ou aux clés spécifiées.
+
 >[!NOTE]
 >
 >Il est utilisé pour les champs de type tableau (sélection multiple) ou chaîne. Si le champ est une chaîne, il faut vérifier que la valeur spécifiée n’est pas contenue dans la chaîne (par exemple, « Nouveau » n’est pas dans la chaîne « Projet - Mis à jour »). Si le champ est un tableau et que la valeur de champ spécifiée est une chaîne ou un entier, il faut vérifier que le tableau ne contient pas la valeur spécifiée (par exemple, « Choix 1 » ne se trouve pas dans [ « Choix 2 », « Choix 3 »]). L’exemple d’abonnement ci-dessous autorise les messages uniquement lorsque les champs `groups` ne contiennent pas la chaîne « Groupe 2 ».
@@ -837,6 +898,10 @@ Ce filtre autorise les messages uniquement si le champ spécifié (`fieldName`) 
     ]
 }
 ```
+
+>[!NOTE]
+>
+>Lors du filtrage d’un champ de tableau d’objets (tel que `tags`) avec `contains` ou `notContains`, `fieldValue` devez uniquement inclure les clés qui vous intéressent ; par exemple, `{"objID": "abc123"}` correspond à n’importe quelle balise avec cet identifiant, quels que soient ses autres champs (comme `objCode`). Il ne s’agit pas d’une vérification de l’égalité de l’objet complet. `containsOnly` ne prend actuellement pas en charge les champs de tableau d’objets.
 
 #### modifier
 
