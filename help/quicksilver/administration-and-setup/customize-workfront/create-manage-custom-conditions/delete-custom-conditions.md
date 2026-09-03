@@ -9,22 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
 TQID: https://experienceleague.adobe.com/jHR0a3-MzkRRrlZ-h-X9f0n5HQbO9nDhWSxqy8KnWa8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 67%
+source-wordcount: 256
+ht-degree: 58%
 
 ---
 
 # Supprimer une condition personnalisée
+
+{{preview-fast-release-general}}
 
 Vous pouvez supprimer une condition personnalisée si elle n’est plus nécessaire.
 
@@ -63,8 +61,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur **Préférences du projet** > **Conditions**.
 
 1. Sélectionnez l’onglet du type d’objet (**Projet**, **Tâche**, ou **Problème**) dans lequel se trouve la condition à supprimer.
+1. Dans l’environnement de production, cliquez sur **Supprimer** en regard du nom de la condition à supprimer.
+   <span class="preview">Dans l’environnement Aperçu , cochez la case en regard du nom de la condition à supprimer, puis cliquez sur **Supprimer** dans la barre d’actions située dans la partie inférieure de l’écran.</span>
 
-1. Cliquez sur **Supprimer** en regard du nom de la condition à supprimer.
 1. Dans la zone **Supprimer la condition** qui s’affiche, sélectionnez une nouvelle condition dans la liste déroulante pour tous les projets, tâches ou événements qui utilisaient la condition que vous supprimez.
 
    Les conditions personnalisées ne sont disponibles dans la liste déroulante que si elles correspondent à la même condition intégrée que celle que vous supprimez. Par exemple, si vous supprimez une condition qui équivaut à À risque, seules les conditions personnalisées qui équivalent également à À risque peuvent être sélectionnées.

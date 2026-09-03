@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 2%
 # Définir les attributs de taux
 
 Les attributs de taux étendent la fonctionnalité de carte tarifaire et de taux d’Adobe Workfront en vous permettant d’ajouter des dimensions supplémentaires aux taux au-delà de la fonction. Cela est essentiel pour les agences et les entreprises dont les taux varient non seulement en fonction de la fonction, mais également de facteurs tels que l’agence, l’emplacement, la marque, le centre de coûts ou d’autres facteurs.
+
 En combinant ces attributs, Workfront peut sélectionner automatiquement le taux correct pour les affectations, assurant ainsi la précision et la cohérence financières entre les projets.
 
 Les attributs de taux sont destinés à être une configuration de base unique.
@@ -34,9 +35,9 @@ Les attributs de taux sont considérés comme une configuration ponctuelle, car 
 * Les taux, les affectations, les valeurs prévues et les valeurs réelles dépendent toutes des valeurs d&#39;attribut choisies.
 * La modification ultérieure des attributs (changement de nom, suppression ou réorganisation) peut entraîner :
 
-   * Perte du lien entre les taux et les attributs
-   * Taux non valides ou « orphelins »
-   * Désalignement dans la facturation et le reporting
+  * Perte du lien entre les taux et les attributs
+  * Taux non valides ou « orphelins »
+  * Désalignement dans la facturation et le reporting
 
 Pour ces raisons, les attributs doivent être soigneusement conçus lors de votre implémentation Workfront initiale et laissés inchangés par la suite.
 
@@ -63,8 +64,8 @@ Cela permet à la configuration de refléter votre structure d’entreprise tout
 
 * Workfront prend en charge jusqu’à 5 niveaux d’attributs. Le système suit toujours la hiérarchie des attributs, sélectionnant la correspondance la plus spécifique disponible.
 
-   * 0 = taux de base générique
-   * 1 - 5 = taux de plus en plus spécifiques
+  * 0 = taux de base générique
+  * 1 - 5 = taux de plus en plus spécifiques
 
 * Vous pouvez renommer les attributs en fonction de votre activité (agence, marque, marché, centre de coûts, etc.).
 * La configuration est unique : la modification ultérieure des attributs risque de compromettre l’intégrité des données financières.
@@ -187,13 +188,13 @@ Les filtres doivent toujours être configurés dans les deux directions. Si l’
 
    * **Type de filtre** :
 
-      * Un filtre **Standard** applique une condition universelle à l’objet d’attribut. Par exemple, Emplacement > Est actif = Vrai (seuls les emplacements actifs seront affichés).
+     * Un filtre **Standard** applique une condition universelle à l’objet d’attribut. Par exemple, Emplacement > Est actif = Vrai (seuls les emplacements actifs seront affichés).
 
-        Le filtre Standard est toujours appliqué, que d’autres attributs soient sélectionnés ou non.
+       Le filtre Standard est toujours appliqué, que d’autres attributs soient sélectionnés ou non.
 
-      * Un filtre **Attribut** lie un attribut à un autre dans la chaîne. Par exemple, Emplacement > Référence = Agence (seuls les emplacements liés à l’agence sélectionnée s’affichent).
+     * Un filtre **Attribut** lie un attribut à un autre dans la chaîne. Par exemple, Emplacement > Référence = Agence (seuls les emplacements liés à l’agence sélectionnée s’affichent).
 
-        Le filtre Attribut n’est appliqué que si l’attribut référencé possède une valeur. Par exemple, si Agence est sélectionné, seuls des emplacements valides sont suggérés. Si Agence est vide, tous les emplacements sont affichés (mais peuvent toujours être limités par les filtres standard appliqués à l’emplacement).
+       Le filtre Attribut n’est appliqué que si l’attribut référencé possède une valeur. Par exemple, si Agence est sélectionné, seuls des emplacements valides sont suggérés. Si Agence est vide, tous les emplacements sont affichés (mais peuvent toujours être limités par les filtres standard appliqués à l’emplacement).
 
    * **Champ** : champ direct de l’objet d’attribut, tel que l’ID d’emplacement ou l’indicateur actif.
    * **Opérateur** : ces options dépendent du type de champ sélectionné. Exemples : Est égal à, N’est pas égal à, Est vide, Vrai/Faux.
