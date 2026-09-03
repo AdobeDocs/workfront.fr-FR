@@ -4,10 +4,10 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 9%
+source-wordcount: '2559'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -279,17 +279,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>17 septembre 2026</p></td>
             <td><p>15 Octobre 2026</p></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add teams to approvals for objects using Adobe cloud storage</a>
-                <p>You can now add a Workfront Team as an approver or reviewer on a document approval or approval template instead of adding people individually.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Ajout d’équipes aux approbations d’objets à l’aide de l’espace de stockage cloud Adobe</a>
+                <p>Vous pouvez désormais ajouter une équipe Workfront en tant qu’approbateur ou réviseur sur un modèle d’approbation ou d’approbation de document au lieu d’ajouter des personnes individuellement.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 septembre 2026</p></td>
+            <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Définir un espace de travail Frame.io sur des modèles de projet</a>
@@ -319,26 +317,24 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>17 septembre 2026</p></td>
             <td><p>15 Octobre 2026</p></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Versions panel in the new documents area</a>
-                <p>The Versions panel in the new Documents area has a new design, with versions numbered and approval status shown directly in the list.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Panneau Versions repensées dans la zone des nouveaux documents</a>
+                <p>Le panneau Versions de la zone Nouveaux documents présente une nouvelle conception, avec les versions numérotées et le statut d’approbation affiché directement dans la liste.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 septembre 2026</p></td>
+            <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Approvals panel in the new documents area</a>
-                <p>The Approvals panel in the new Documents area now shows approval history across all versions, not just the current version.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Panneau Approbations repensées dans la zone des nouveaux documents</a>
+                <p>Le panneau Approbations de la zone Nouveaux documents affiche désormais l’historique des approbations de toutes les versions, et pas seulement de la version actuelle.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 septembre 2026</p></td>
+            <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Joindre des images aux commentaires sur les objets d’espace de stockage dans le cloud Adobe</a><p>[!BADGE Hors planning]{type=Neutral}</p>
@@ -370,6 +366,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des taux de facturation de l’entreprise</a>
+                <p>Les boîtes de dialogue Taux de facturation de la société sont repensées de manière moderne, le comportement de remplacement est plus fiable et les clients Workflow Ultimate peuvent appliquer des attributs de taux et des dates d’effet aux taux de la société.</p>
+            </td>
+            <td><p>3 septembre 2026</p></td>
+            <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -579,7 +584,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
 ## Annonces
 
@@ -591,7 +596,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 
