@@ -9,22 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
 TQID: https://experienceleague.adobe.com/EbnybXqWehstH2ziLqNZfMHtarMvUiugvWioYv9wLds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 445
-ht-degree: 89%
+source-wordcount: 857
+ht-degree: 53%
 
 ---
 
 # Remplacer les taux de facturation des fonctions à l’échelle de l’entreprise
+
+{{preview-fast-release-general}}
 
 Lorsqu’une fonction est créée, vous avez la possibilité de sélectionner un taux de facturation horaire pour cette fonction. Vous pouvez créer plusieurs taux de facturation horaires spécifiques à une société. Chaque taux de facturation est effectif pour une période spécifique.
 
@@ -40,7 +38,8 @@ Au niveau du projet, vous pouvez activer une option pour permettre aux taux de f
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] paquet</td> 
-   <td><p>Tous</p></td> 
+   <td><p>Pour ajouter des attributs de taux aux taux de facturation au niveau de la société : Workflow Ultimate</p>
+       <p>Pour créer des taux de facturation au niveau de l’entreprise et modifier tous les autres paramètres de taux : tout Workfront ou package de workflow</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] licence</td> 
@@ -67,12 +66,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Localisez l’entreprise à laquelle la fonction est affectée.
 1. Cliquez sur le nom de l’entreprise dans la liste.
 1. Cliquez sur **[!UICONTROL Taux de facturation]** dans le panneau de gauche.
-1. Cliquez sur **[!UICONTROL Ajouter un taux de facturation] > [!UICONTROL Nouveau taux de facturation]**, ou choisissez un taux existant à modifier.
+1. Cliquez sur **[!UICONTROL Ajouter un taux de facturation] > [!UICONTROL Nouveau taux de facturation]** ou <span class="preview">**Ajouter un taux de facturation**</span>.
 1. Dans la boîte de dialogue [!UICONTROL Nouveau taux de facturation], sélectionnez une [!UICONTROL **fonction**] pour définir son taux de facturation.
 
-   Le [!UICONTROL **Taux de facturation par défaut**] affiche le taux au niveau du système pour cette fonction.
+### Dans l’environnement de production :
 
-   ![Boîte de dialogue du nouveau taux de facturation](assets/date-effective-billing-rates-for-company.png)
+Le [!UICONTROL **Taux de facturation par défaut**] affiche le taux au niveau du système pour cette fonction.
+
+![Boîte de dialogue du nouveau taux de facturation](assets/date-effective-billing-rates-for-company.png)
 
 1. Dans le champ [!DNL **Taux de facturation 1**], saisissez le taux de facturation. Cliquez ensuite sur [!UICONTROL **Enregistrer**] pour remplacer une fois le taux de facturation.
 
@@ -93,3 +94,48 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >[!NOTE]
    >
    >Les taux modifiés des fonctions sur le projet n’auront d’incidence que sur ce projet. Les taux modifiés au niveau de l’entreprise auront une incidence sur tous les projets. Pour plus d’informations, voir [Présentation du remplacement des taux de facturation et du calcul du revenu d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+<div class="preview">
+
+### Dans l’environnement de Prévisualisation :
+
+1. Sélectionnez des attributs pour le taux, tels que l&#39;agence, le lieu ou le centre de coûts.
+
+   Ces attributs sont définis séparément et peuvent affecter les calculs de produits et de coûts. Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
+   ![Boîte de dialogue du nouveau taux de facturation](assets/company-billing-rates-090326.png)
+
+1. Sélectionnez la **Devise** pour le taux. L’administrateur Workfront ajoute la devise de base dans la zone Configuration . Vous pouvez remplacer la sélection par une autre devise disponible et modifier la devise sur les périodes effectives.
+
+   >[!TIP]
+   >
+   >Seules les devises disponibles dans la zone Taux de change de votre système sont disponibles dans ce champ. Si une seule devise est configurée, seule cette devise est disponible.
+
+   Pour plus d’informations sur la configuration de la devise de base dans Workfront, voir [Configurer des taux de change](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+   Pour plus d’informations sur la modification de la devise d’un projet, voir [Modifier la devise du projet](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+1. Dans le champ [!DNL **Taux de facturation**], saisissez le taux de facturation de la fonction.
+
+   Il s’agit du taux de facturation horaire de la fonction. Cette valeur calcule les revenus prévus et réels des tâches et des problèmes associés au rôle et, par conséquent, les revenus prévus et réels des projets. Entrez le taux en utilisant la devise sélectionnée.
+
+   Si vous utilisez des attributs, les attributs et la fonction se combinent pour définir un taux unique. Par exemple, un rôle Designer à New York pour l’Agence A peut avoir un taux distinct d’un rôle Designer à Paris pour l’Agence B.
+
+   Pour les taux de facturation effectifs à la date, cliquez sur **Ajouter un taux effectif à la date**. Saisissez le taux de facturation horaire pour la période, puis affectez une Date de début et une Date de fin selon les besoins. Le premier taux de facturation ne comporte pas de date de début et le dernier taux de facturation ne comporte pas de date de fin.
+
+   Workfront vous permet de laisser des espaces entre les périodes, mais vous recevrez un avertissement pour confirmer que c’est intentionnel.
+
+   Pour plus d’informations sur le calcul du chiffre d’affaires par Workfront, voir [Présentation de la facturation et du chiffre d’affaires](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+   >[!TIP]
+   >
+   >Lors de la modification d’un taux existant, vous pouvez trier la liste pour afficher la date de début la plus récente en haut de la liste des taux.
+
+1. Cliquer sur [!UICONTROL **Enregistrer**].
+
+   >[!NOTE]
+   >
+   >Les taux modifiés des fonctions sur le projet n’auront d’incidence que sur ce projet. Les taux modifiés au niveau de l’entreprise auront un impact sur tous les projets auxquels l’entreprise est affectée. Pour plus d’informations, voir [Présentation du remplacement des taux de facturation et du calcul du revenu d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+</div>
+
