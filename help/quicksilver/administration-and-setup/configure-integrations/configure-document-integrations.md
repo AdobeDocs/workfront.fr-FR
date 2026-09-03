@@ -9,26 +9,21 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 84%
+source-wordcount: 1184
+ht-degree: 79%
 
 ---
 
 # Configurer les intégrations de documents
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -93,18 +88,18 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * [!DNL Microsoft SharePoint]
 
-  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration  [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Pour plus d’informations sur l’intégration à [!DNL SharePoint], voir [Configurer l’intégration  [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Fournisseurs tiers de documents en ligne :
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google Drive]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google Drive]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +201,8 @@ Une fois l’intégration des documents personnalisés réalisée, vous pouvez l
 
    [!DNL Workfront] utilise cette clé API pour effectuer des appels API autorisés au fournisseur de documents.
 
+1. <span class="preview">(Facultatif) Pour activer la prise en charge des fichiers volumineux, sélectionnez **[!UICONTROL Activer le chargement en blocs pour les fichiers volumineux]** dans la section **[!UICONTROL Prise en charge des fichiers volumineux]**, puis saisissez la taille maximale du bloc, en Mo, dans le champ **[!UICONTROL Seuil de chargement en blocs (Mo)]**. Ce champ accepte les valeurs jusqu’à 100 Mo. Lorsque cette option est activée, les fichiers de plus de 25 Mo sont chargés par blocs de cette taille au lieu d’être dans une seule requête.</span>
+
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer l’intégration.
 
 ## Utiliser les intégrations de documents
@@ -226,7 +223,7 @@ Les informations ne sont mappées que dans un seul sens, de [!DNL Workfront] à 
 Vous pouvez mapper le même champ [!DNL Workfront] sur plusieurs champs [!DNL Workfront DAM], mais vous ne pouvez pas utiliser le même champ [!DNL Workfront DAM] pour plusieurs champs [!DNL Workfront].
 
 Si vous devez configurer plusieurs champs [!DNL Workfront] pour les exporter vers un champ [!DNL Workfront DAM], créez d’abord un champ personnalisé calculé dans [!DNL Workfront] pour afficher tous les champs personnalisés individuels d’un objet. Mappez ensuite le champ [!DNL Workfront] calculé sur un champ [!DNL Workfront DAM].\
-Pour plus d’informations sur les champs calculés personnalisés, voir [&#x200B; Ajouter des champs calculés à un formulaire &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Pour plus d’informations sur les champs calculés personnalisés, voir [ Ajouter des champs calculés à un formulaire ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Le mappage affecte tous les documents chargés par n’importe quelle personne de [!DNL Workfront] à [!UICONTROL Workfront] DAM.
 
@@ -266,9 +263,9 @@ Pour configurer [!DNL Workfront] pour envoyer des métadonnées à [!DNL Workfro
 ### Intégration de Google Drive
 
 * Lorsqu’un dossier lié est ajouté à Workfront, les fichiers qu’il contient ne sont plus automatiquement ajoutés.
-   * Vous pouvez ajouter le dossier Google à Workfront sans les fichiers, puis ajouter les fichiers individuels à Workfront. Les fichiers sont automatiquement ajoutés au dossier Google dans Workfront.
-Ou
-   * Vous pouvez créer un dossier Document dans Workfront, puis sélectionner tous les fichiers du dossier Google et les ajouter au dossier Workfront.
+  * Vous pouvez ajouter le dossier Google à Workfront sans les fichiers, puis ajouter les fichiers individuels à Workfront. Les fichiers sont automatiquement ajoutés au dossier Google dans Workfront.
+    Ou
+  * Vous pouvez créer un dossier Document dans Workfront, puis sélectionner tous les fichiers du dossier Google et les ajouter au dossier Workfront.
 
 
-* L&#39;intégration du document Google Drive prend en charge l&#39;ajout de fichiers depuis la zone My Drive de votre lecteur Google. Vous ne pouvez pas ajouter de dossiers ou d&#39;images à partir d&#39;un lecteur partagé. En savoir plus sur les [lecteurs partagés &#x200B;](https://support.google.com/a/users/answer/7212025?hl=en).
+* L&#39;intégration du document Google Drive prend en charge l&#39;ajout de fichiers depuis la zone My Drive de votre lecteur Google. Vous ne pouvez pas ajouter de dossiers ou d&#39;images à partir d&#39;un lecteur partagé. En savoir plus sur les [lecteurs partagés ](https://support.google.com/a/users/answer/7212025?hl=en).

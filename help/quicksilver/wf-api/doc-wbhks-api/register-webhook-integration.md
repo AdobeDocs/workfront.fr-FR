@@ -9,22 +9,20 @@ feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 99%
+source-wordcount: 409
+ht-degree: 81%
 
 ---
 
 # Enregistrer une intégration de webhook
+
+{{highlighted-preview}}
 
 Les administrateurs et administratrices Adobe Workfront peuvent ajouter une intégration webhook personnalisée pour leur entreprise en accédant à Configuration > Documents > Intégrations personnalisées dans Workfront. À partir de la page Intégration personnalisée de la configuration, les administrateurs et administratrices peuvent afficher une liste des intégrations de webhook de documents existantes. Cette page permet d’ajouter, de modifier, d’activer et de désactiver des intégrations.
 
@@ -56,7 +54,7 @@ Lors de l’ajout d’une intégration, l’administrateur ou administratrice sa
   </tr> 
   <tr> 
    <td>Paramètres de requête</td> 
-   <td> <p>Les valeurs optionnelles à ajouter à la chaîne de requête de chaque appel API. Par exemple, access_type </p> </td> 
+   <td> <p>Valeurs facultatives à ajouter à la chaîne de requête de chaque appel API. Par exemple, access_type=offline. </p> </td> 
   </tr> 
   <tr> 
    <td>Type d'authentification</td> 
@@ -85,6 +83,14 @@ Lors de l’ajout d’une intégration, l’administrateur ou administratrice sa
   <tr> 
    <td>ApiKey</td> 
    <td> <p>(ApiKey uniquement) Utilisé pour effectuer des appels API autorisés vers le fournisseur de webhooks. La clé API émise par le fournisseur de webhooks.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Activer le chargement en blocs pour les fichiers volumineux</td> 
+   <td> <p>Cochez cette case pour activer les chargements en plusieurs parties (segmentés) pour les fichiers de plus de 25 Mo. Lorsque cette option n’est pas sélectionnée, les fichiers sont chargés dans une seule demande, quelle que soit leur taille.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Seuil de chargement en blocs (Mo)</td> 
+   <td> <p>Taille maximale, en Mo, de chaque bloc lorsqu’un fichier volumineux est divisé pour le chargement. Accepte des valeurs allant jusqu’à 100 Mo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
