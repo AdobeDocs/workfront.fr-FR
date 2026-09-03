@@ -9,37 +9,24 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ue8QlqaB8O8dJ6mVw9t660r82Xl4K6jGgVPWW6L0YNc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 71%
+source-wordcount: 1278
+ht-degree: 73%
 
 ---
 
 # Convertir une tâche en projet
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Lorsqu’une tâche d’un projet nécessite plus d’efforts que prévu, vous pouvez la convertir en projet.
@@ -111,16 +98,16 @@ Old:
 * Les documents, les versions des documents et les épreuves sont déplacés vers le nouveau projet.
 * Le temps de traitement est limité à 5 minutes lors de la conversion d’une tâche en projet. Si la tâche est associée à un grand nombre de documents et ne parvient pas à effectuer la conversion, vous devrez peut-être supprimer certains des documents et réessayer.
 * Lorsque votre entreprise utilise à la fois l’espace de stockage cloud Workfront et Adobe hérité pour les documents, les scénarios suivants existent lors de la conversion d’une tâche en projet : <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
-   * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
-   * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage dans le cloud Adobe. Les documents et leurs approbations sont conservés pour le projet en cours.
+  * Une tâche de stockage Workfront héritée crée un projet de stockage Workfront hérité.
+  * Une tâche de stockage dans le cloud Adobe crée un projet de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage Workfront hérité pour convertir une tâche d’espace de stockage dans le cloud Adobe crée un projet d’espace de stockage dans le cloud Adobe.
+  * L’utilisation d’un modèle de stockage dans le cloud Adobe pour convertir une tâche de stockage Workfront héritée crée un projet de stockage dans le cloud Adobe. Les documents et leurs approbations sont conservés pour le projet en cours.
 
-     Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-     >[!TIP]
-     >
-     >Votre instance Workfront peut ne pas avoir accès aux deux types de stockage de documents.
+    >[!TIP]
+    >
+    >Votre instance Workfront peut ne pas avoir accès aux deux types de stockage de documents.
 
 
 * Le statut et le pourcentage terminé de toutes les sous-tâches et de tous les problèmes sont conservés.
@@ -163,7 +150,7 @@ Old:
     </tr> 
     <tr> 
     <td>Statut du projet</td> 
-    <td>Correspond à la préférence par défaut au niveau du système déterminée par l’administrateur Workfront dans la zone Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Définir une condition personnalisée par défaut pour les projets</a>
+    <td>Correspond à la préférence par défaut au niveau du système, déterminée par l’administrateur ou administratrice Workfront dans la zone Configuration. Pour plus d’informations, voir <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Définir une condition personnalisée comme condition par défaut pour les projets</a>.
     </td> 
     </tr> 
     <tr> 
@@ -240,7 +227,7 @@ Old:
    * **Nouveau projet**, pour créer un projet sans utiliser de modèle
    * Un modèle dans la section **Sélectionner à partir des modèles**
 
-     ![&#x200B; Menu déroulant de l’option Convertir la tâche en modèle de projet &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ Menu déroulant de l’option Convertir la tâche en modèle de projet ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Cliquez sur **Continuer** dans la notification qui s’affiche.
 1. Dans la boîte **Convertir en projet**, indiquez ce qui suit :

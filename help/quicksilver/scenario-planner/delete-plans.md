@@ -8,7 +8,7 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 71%
@@ -55,7 +55,7 @@ Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas suppri
  </tbody> 
 </table>
 
-Pour plus d’informations sur l’accès au planificateur de scénarios, voir [&#x200B; Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Pour plus d’informations sur l’accès au planificateur de scénarios, voir [ Accès nécessaire pour utiliser le  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Documentation sur les exigences d’accès à Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -133,8 +133,7 @@ Une liste des plans s’affiche.
 
    >[!TIP]
    >
-   ><span class="preview">Vous pouvez également supprimer un plan dans une liste en le sélectionnant, puis en cliquant sur **Supprimer** au bas de la liste pour le supprimer.</span>
-
+   ><span class="preview">Vous pouvez également supprimer un plan dans une liste en le sélectionnant, puis en cliquant sur **Supprimer** au bas de la liste pour le supprimer.</span> <!--move the tip as the main step when we release this??-->
 
    Le plan est supprimé et vous revenez à la liste des plans.
 
