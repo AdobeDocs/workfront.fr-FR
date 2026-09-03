@@ -9,25 +9,21 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
-ht-degree: 7%
+source-wordcount: 2406
+ht-degree: 6%
 
 ---
 
 # Créer un workflow d’approbation de document
+
+{{highlighted-preview}}
 
 Vous pouvez demander à d’autres personnes ou équipes d’approuver un document dans Adobe Workfront, ou leur demander de réviser un document sans avoir à l’approuver.
 
@@ -291,6 +287,30 @@ Pour créer un workflow de validation avancée :
 1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
 
 1. Cliquez sur **Demander l’approbation**.
+
+<div class="preview">
+
+## Affichez les workflows d’approbation des versions précédentes dans la zone des nouveaux documents de l’aperçu.
+
+Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Le panneau Approbations répertorie uniquement les versions du document comportant un workflow d’approbation.
+
+Pour afficher les workflows d&#39;approbation des versions précédentes :
+
+1. Accédez au projet, à la tâche ou à l’événement contenant le document, puis sélectionnez **Documents** dans le panneau de gauche.
+1. Cliquez sur le document, puis sur l’icône **Validations** sur le côté droit de la page.
+
+   ![Ajouter des approbateurs dans le résumé du document](assets/approvals-icon-new.png)
+
+1. Cliquez sur une version pour la développer. Vous pouvez afficher ses étapes, la décision de chaque approbateur ou approbatrice, la règle de décision de l’étape (par exemple, s’il ne faut prendre qu’une seule décision pour terminer l’étape) et les dates d’échéance.
+1. Cliquez sur une autre version pour développer son workflow d’approbation sans quitter le panneau.
+
+   >[!NOTE]
+   >
+   >Si le workflow d’approbation d’une version a été retiré parce qu’une approbation d’une version plus récente a été demandée, il reste dans la liste, réduit, de sorte que vous pouvez toujours vérifier ses décisions antérieures.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
