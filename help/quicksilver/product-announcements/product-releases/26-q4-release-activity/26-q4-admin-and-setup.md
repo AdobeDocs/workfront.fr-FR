@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administration pour le quatrième 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## Définir un niveau d’accès par défaut pour les utilisateurs configurés dans le Adobe Admin Console
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Vous pouvez désormais définir un niveau d’accès par défaut pour les utilisateurs configurés dans Workfront via Adobe Admin Console. Un administrateur Workfront peut configurer cette valeur par défaut dans les Préférences système.
+
+Auparavant, Workfront attribuait à l’utilisateur un niveau d’accès Contributeur ou Demandeur .
+
+Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+## Semaines personnalisées en plus des trimestres personnalisés pour les clients Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Si votre entreprise a acheté un package Planning, en plus d’un package Workflow, vous pouvez désormais configurer des semaines personnalisées de la même manière que vous configurez des trimestres personnalisés en tant qu’administrateur de Workfront.
+
+Les semaines personnalisées ne sont pas visibles dans Workfront. Ils ne sont visibles que dans la vue chronologique Planification de Workfront.
+
+Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Réorganiser les applications personnalisées dans le menu principal
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Lorsque vous travaillez dans un modèle de mise en page, vous pouvez désormais repositionner les applications personnalisées dans n’importe quel ordre à l’aide des options de menu Workfront par défaut. Cela vous permet de positionner chaque application à l’endroit le plus pertinent.
+
+Auparavant, les applications personnalisées étaient toujours les derniers éléments des options du menu principal du modèle de mise en page et ne pouvaient pas être repositionnées.
+
+Pour plus d&#39;informations sur l&#39;ajout d&#39;applications personnalisées au menu principal, consultez [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Prise en charge des fichiers volumineux pour les intégrations de documents personnalisés
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Les intégrations de documents personnalisés prennent désormais en charge les chargements groupés de fichiers volumineux. Lorsque cette option est activée, les fichiers de plus de 25 Mo sont divisés en plus petits blocs et chargés en parallèle, ce qui rend les chargements de fichiers volumineux plus rapides et plus fiables. Les administrateurs peuvent activer cette option et définir la taille maximale du bloc (jusqu’à 100 Mo) par intégration.
+
+Pour plus d’informations, voir [Configurer des intégrations de documents](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Les administrateurs de groupe peuvent gérer les profils professionnels
 

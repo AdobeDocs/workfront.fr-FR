@@ -4,10 +4,10 @@ description: Autres améliorations apportées au cours de la période de publica
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 6%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 6%
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Mises à jour de listes améliorées
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Dans toutes les listes améliorées, les mises à jour suivantes sont désormais disponibles :
+
+* Le bouton permettant d’ajouter une nouvelle ligne à un tableau a été déplacé à l’intérieur de la grille, au lieu de sous la grille.
+* Les options **Colonnes** situées au-dessus de la liste incluent désormais un champ de recherche.
+
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Plusieurs écrans mis à jour vers des listes améliorées
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Les listes Workfront suivantes utilisent désormais le format de liste amélioré :
+
+* Configuration > Interface > Mettre À Jour Les Flux > Actions
+* Configuration > Interface > Mettre à jour les flux > Champs suivis
+* Configuration > Préférences du projet > Conditions
+* Configuration > Emplacements
+* Configuration > Cartes de performance
+* Configuration > Types de risques
+* Projet > Documents > Détails du document > Toutes les versions
+* Configuration > Documents > Intégration SharePoint
+* Configuration > Documents > Intégration personnalisée
+* Menu principal > Scénarios > listes de plans et d’initiatives de scénario
+
+Les mises à jour incluent les éléments suivants pour certaines ou toutes les listes :
+
+* Une nouvelle apparence de la liste, avec des mises à jour des couleurs, de la mise en forme et des polices.
+* L’option permettant de créer un nouvel objet dans la liste a été déplacée en haut à droite et s’affiche sous la forme d’un bouton bleu.
+* La barre d’outils a été supprimée. Désormais, lorsque vous sélectionnez un ou plusieurs objets dans le tableau, la barre d’actions s’affiche en bleu en bas de la liste.
+* Certaines colonnes ont peut-être été repositionnées ou supprimées, ou de nouvelles colonnes ont été ajoutées.
+* Certaines confirmations et certains avertissements ont été supprimés ou modifiés.
+* L’enregistrement dans certaines listes est désormais automatique et le bouton Enregistrer a peut-être été supprimé.
+* Certaines listes améliorées permettent de renommer ou de trier les colonnes.
+* Certaines listes améliorées incluent le gestionnaire de colonnes, qui vous permet d’ajouter et d’organiser des colonnes. Vous pouvez sélectionner des colonnes en fonction de champs natifs ou personnalisés dans Workfront.
+* Les icônes dans les cellules du tableau ont été remplacées par des menus Plus avec plusieurs options.
+
+REMARQUE : toutes les mises à jour ne sont pas disponibles sur toutes les listes.
+
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Les métadonnées C2PA sont conservées dans vos fichiers
 
