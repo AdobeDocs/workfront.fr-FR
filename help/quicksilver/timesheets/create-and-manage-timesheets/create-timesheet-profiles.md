@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
 workflow-type: tm+mt
-source-wordcount: 1593
+source-wordcount: 1599
 ht-degree: 67%
 
 ---
@@ -76,13 +76,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step-1-to-setup}}
 
-1. Si vous créez ou modifiez un profil de feuille de temps à utiliser dans tout le système, cliquez sur **Feuille de temps et heures**.
+1. Pour créer ou modifier un profil de feuille de temps à utiliser dans tout le système, cliquez sur **Feuilles de temps et heures > Profils de feuille de temps**.
 
    Ou
 
-   Si vous créez ou modifiez un profil de feuille de temps pour un groupe, cliquez sur **Groupes**, puis sur le nom du groupe.
+   Pour créer ou modifier un profil de feuille de temps pour un groupe, cliquez sur **Groupes**, cliquez sur le nom du groupe, puis cliquez sur **Profils de feuille de temps** dans le panneau de gauche.
 
-1. Cliquez sur **Profils de feuilles de temps**.
 1. Pour créer un profil de feuille de temps, cliquez sur **Nouveau profil**.
 
    Ou

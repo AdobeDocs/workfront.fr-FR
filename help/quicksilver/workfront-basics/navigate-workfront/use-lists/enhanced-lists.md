@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: 3318
 ht-degree: 2%
 
 ---
@@ -74,18 +74,31 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | --- | --- |
 | Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
 | Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
-| Listes de statuts, priorités, gravités et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
-| Liste des rapports | Les rapports (**utiliser des dossiers partageables** doivent être activés) |
+| Listes de statuts, priorités, gravités, <span class="preview">conditions</span> et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li><span class="preview">Configuration > Préférences du projet > Conditions</span></li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
+| <span class="preview">Listes d’actions et champs suivis dans les flux de mise à jour</span> | <ul><li><span class="preview">Onglet Configuration > Interface > Mettre à jour les flux > Champs suivis</span></li> <li><span class="preview">Onglet Configuration > Interface > Mettre à jour les flux > Actions</span></li></ul> |
+| <span class="preview">Liste des cartes de performance</span> | <span class="preview">Configuration > Cartes de performance</span> |
+| <span class="preview">Liste des types de risques</span> | <span class="preview">Configuration > Types de risques</span> |
 | Liste des fonctions et taux sur une carte tarifaire | Configuration > Cartes tarifaires > sélectionner une carte tarifaire > Fonctions et taux |
+| <span class="preview">Liste des emplacements</span> | <span class="preview">Configuration > Emplacements</span> |
 | Liste des traductions | Configuration > Localisation |
+| <span class="preview">Listes des intégrations </span> | <ul><li><span class="preview">Configuration > Documents > Intégration SharePoint</span></li><li><span class="preview">Configuration > Documents > Intégration personnalisée</span></li></ul> |
+| Liste des rapports | Les rapports (**utiliser des dossiers partageables** doivent être activés) |
 | Liste des instantanés | Projet > Instantanés |
 | Liste des ressources pour la facturation | Projet > Ressource pour la facturation |
 | Nouvelles affectations avancées pour une tâche | Tâche > Affectations > Avancé |
+| <span class="preview">Vue Toutes les versions d’un document</span> | <span class="preview">Projet > Documents > Détails du document > Toutes les versions</span> |
 | Vue Administration des forums | Panoramas > Vue Administration |
 | Documents sur l’espace de stockage dans le cloud d’Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
+| <span class="preview">Listes des plans et initiatives de scénario</span> | <span class="preview">Menu principal > Scénarios</span> |
+| <span class="preview">Liste des objectifs et des indicateurs de progression</span> | <ul><li><span class="preview">Menu principal > Objectifs</span></li><li><span class="preview">Menu principal > Objectifs > Indicateurs de progression</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## Ajouter des éléments à une liste améliorée
@@ -164,9 +177,16 @@ Selon les objets que vous consultez dans une liste améliorée, vous pouvez masq
 
 1. Cliquez sur **Colonnes** au-dessus de la liste.
 
+   Exemple d’image dans l’environnement de production :
    ![Exemple d’affichage des colonnes](assets/glist-display-move-columns.png)
 
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
+   ![Exemple d’affichage des colonnes](assets/display-columns-090126.png)
+
 1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste.
+
+<span class="preview">Vous pouvez rechercher une colonne dans la zone de recherche.</span>
+
 1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
 
    >[!NOTE]
