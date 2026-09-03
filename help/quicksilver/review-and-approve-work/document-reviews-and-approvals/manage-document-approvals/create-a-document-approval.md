@@ -9,21 +9,15 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2406
-ht-degree: 6%
+source-wordcount: 2662
+ht-degree: 5%
 
 ---
 
@@ -101,6 +95,11 @@ Pour créer un workflow d’approbation en une seule étape :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></span></td>
+   <td><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel. <br>
+   Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</span></td>
+   </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
    <td>La première personne qui prend une décision termine l’étape.</td>
@@ -120,6 +119,10 @@ Pour créer un workflow d’approbation en une seule étape :
 1. Cliquez sur **Demander l’approbation**.
 
    ![Demander la validation en mode de base](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### Création d’un workflow de validation avancée
 
@@ -154,6 +157,11 @@ Pour créer un workflow de validation avancée :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></span></td>
+   <td><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel. <br>
+   Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</span></td>
+   </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
    <td>La première personne qui prend une décision termine l’étape.</td>
@@ -175,6 +183,10 @@ Pour créer un workflow de validation avancée :
 1. (Facultatif) Pour supprimer un chemin d’accès, passez le curseur sur le libellé du chemin et cliquez sur l’icône de corbeille. **Le chemin 1** ne peut pas être supprimé et les chemins ne peuvent pas être réorganisés. Les autres chemins ne peuvent être supprimés que si aucune étape du chemin n’est verrouillée ou terminée.
 
    ![Mode avancé avec chemins parallèles](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
 
@@ -210,6 +222,11 @@ Pour créer un workflow d’approbation en une seule étape :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir un nom d’utilisateur ou un e-mail à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></span></td>
+   <td><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe. <br>
+   Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</span></td>
+   </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
    <td>La première personne qui prend une décision termine l’étape.</td>
@@ -227,6 +244,12 @@ Pour créer un workflow d’approbation en une seule étape :
 1. Cliquez sur **Demander l’approbation**.
 
    ![Demander la validation en mode de base](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -267,6 +290,11 @@ Pour créer un workflow de validation avancée :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir un nom d’utilisateur ou un e-mail à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></span></td>
+   <td><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe. <br>
+   Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</span></td>
+   </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
    <td>La première personne qui prend une décision termine l’étape.</td>
@@ -289,6 +317,10 @@ Pour créer un workflow de validation avancée :
 1. (Facultatif) Pour supprimer un chemin d’accès, passez le curseur sur le libellé du chemin et cliquez sur l’icône de corbeille. **Le chemin 1** ne peut pas être supprimé et les chemins ne peuvent pas être réorganisés. Les autres chemins ne peuvent être supprimés que si aucune étape du chemin n’est verrouillée ou terminée.
 
    ![Mode avancé avec chemins parallèles](assets/request-approval-advanced.jpeg)
+
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
 
 1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
 

@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
+source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,10 @@ Pour chaque article de la liste confirmée par l’utilisateur :
 
 2. **Déterminez le modèle de mise en surbrillance.** Demandez à l’utilisateur ou à l’utilisatrice qui correspond à cet article (la réponse peut différer selon l’article) :
 
-   - **Duplication par section** : ajoutez des `in Production` à l’en-tête de section existant. Ajoutez une nouvelle section avec `in Preview` ajouté, encapsulé dans des `<div class="preview"> ... </div>`. À utiliser lorsque le nouveau comportement modifie la procédure de manière significative (étapes supplémentaires, nouvelle image, nouvelles lignes de tableau ou libellé différent). Typique pour les procédures pratiques.
-   - **Habillage par ligne** : ajoutez la ou les nouvelles phrases en ligne à l’intérieur de la section existante, enveloppée dans du `<span class="preview"> ... </span>`. À utiliser lorsque l’ajout est une phrase ou deux qui s’adapte naturellement à un paragraphe, une cellule de tableau ou une réponse à une question fréquente existants.
-   - **Mixte** : certaines sections du même article utilisent la duplication par section, d’autres utilisent l’encapsulation par ligne. Faites apparaître cette option lorsque l’article comporte à la fois des sections de procédure et des sections de style FAQ.
+   - **Duplication par section** : ajoutez des `in Production` à l’en-tête de section existant. Ajoutez une nouvelle section avec `in Preview` ajouté, encapsulé dans des `<div class="preview"> ... </div>`. À utiliser lorsque le nouveau comportement modifie de manière significative la procédure elle-même : étapes supplémentaires ou réorganisées, nouvelle image ou libellé d’étape différent. Typique pour les procédures pratiques.
+   - **Duplication par ligne** : pour une description de champ basée sur une table dans laquelle une seule ligne change et le reste de la table/procédure reste inchangé, laissez la ligne existante octet pour octet inchangée et ajoutez une nouvelle `<tr class="preview">` directement après. N’insérez pas de nouvelles phrases dans la ligne d’origine. Consultez « Duplication par ligne » sous Règles de contenu pour connaître les conventions exactes.
+   - **Habillage par ligne** : ajoutez la ou les nouvelles phrases en ligne à l’intérieur de la section existante, enveloppée dans du `<span class="preview"> ... </span>`. À utiliser lorsque l’ajout est une phrase ou deux qui s’adapte naturellement à un paragraphe existant ou à une réponse aux questions fréquentes (et non une ligne de tableau ; utilisez une duplication par ligne pour ces éléments).
+   - **Mixte** : certaines sections du même article utilisent différents modèles pour différents contenus. Faites apparaître cette option lorsque l’article mélange des tableaux de procédure, des sections de style FAQ et des paragraphes simples.
 
 3. **Placez le fragment de code** sur sa propre ligne immédiatement après le titre H1, avec une ligne vide au-dessus et en dessous. Le fragment de code se trouve **avant** le paragraphe d’introduction.
 
@@ -153,6 +154,25 @@ Règles :
 - **En ligne (niveau de phrase)** : insérez des `<span class="preview"> ... </span>` dans le paragraphe existant, la cellule de tableau ou la réponse aux questions fréquentes.
 - N&#39;imbriquez jamais un `<span class="preview">` dans un `<div class="preview">`.
 
+### Duplication par ligne
+
+Pour une description de champ basée sur une table où seul le *comportement* du champ change (pas la procédure environnante) :
+
+- Laissez le `<tr>` existant inchangé. Il correspond désormais au comportement actuel/de production. N’épissez jamais de nouvelles phrases ou ne les étendez jamais.
+- Ajoutez une nouvelle ligne juste après :
+
+  ```html
+  <tr class="preview">
+  <td><span class="preview"><strong>{new label} in preview</strong></span></td>
+  <td><span class="preview">{self-contained description}</span></td>
+  </tr>
+  ```
+
+- **Libellé** : ne vous contentez pas de prendre le libellé du champ d’origine et de l’ajouter `(in Preview)`. Écrivez un libellé court et naturel pour la nouvelle fonctionnalité elle-même (par exemple, le libellé d’origine « Ajouter des noms ou des e-mails » → le nouveau libellé « Ajouter des personnes ou des équipes »), puis ajoutez des `in preview` minuscules sans parenthèses : « Ajouter des personnes ou des équipes dans l’aperçu ».
+- **Description** : rédigez une nouvelle description d’une à trois phrases du nouveau comportement uniquement, dans la voix existante de l’article. Ne réutilisez pas les phrases de la ligne d’origine en tant que base et n’insérez pas d’ajouts dans celles-ci. La nouvelle ligne doit se lire comme une description complète et autonome.
+- **Notes supplémentaires** : ajoutez avec un saut de ligne `<br>` suivi de `Note:` sur la ligne suivante, à l’intérieur du même `<span class="preview">` - n’imbriquez pas un `<p>Note: ...</p>`. Comme la nouvelle ligne est indépendante, reprenez ici brièvement tout fait encore pertinent de la note de la ligne originale plutôt que de supposer que le lecteur l&#39;a également vue (p. ex., une restriction « une étape ouverte à la fois » en mode avancé qui s&#39;applique également à la nouvelle ligne).
+- **Variantes multiples** : si le même champ est mis à jour dans plusieurs procédures du même article (De base ou avancé, hérité ou gestion de contenu web, etc.) et que le comportement sous-jacent diffère entre eux (par exemple, l’héritage conserve une valeur par défaut d’opt-in tandis que la gestion de contenu web se développe toujours), écrivez chaque ligne pour correspondre au comportement réel de la variante. Ne copiez pas le libellé d’une variante dans la ligne d’une autre.
+
 ### Placement du fragment de code
 
 - La ligne de fragment suit immédiatement le H1, avec une ligne vide au-dessus et en dessous.
@@ -164,6 +184,15 @@ Règles :
 - Enregistrez de nouvelles captures d’écran dans le dossier `assets/` de l’article avec un nom de fichier descriptif en majuscules.
 - Référencez la nouvelle capture d’écran à partir de la nouvelle section dans l’aperçu. Si la capture d’écran d’une section en production ne reflète plus la fonctionnalité avec précision, laissez-la en place ; elle représente toujours le comportement de production jusqu’à la disponibilité générale.
 - Ne fabriquez pas de noms de fichiers de capture d’écran. Si aucune capture d’écran n’a encore été fournie, demandez à l’utilisateur.
+- **Espace réservé pour une capture d’écran qui n’existe pas encore** : si l’utilisateur ou l’utilisatrice souhaite continuer sans attendre la ressource, ajoutez un commentaire HTML directement après la référence de capture d’écran existante (de production), en réutilisant ce nom de fichier avec un suffixe `-v2` :
+
+  ```html
+  <!--
+  preview screen![{same alt text}](assets/{existing-filename}-v2.png)
+  -->
+  ```
+
+  Permutez la référence réelle (et supprimez les commentaires) une fois la capture d’écran fournie.
 
 ### Notes et conseils
 
@@ -185,6 +214,8 @@ Exécutez cette liste de contrôle complète pour **chaque** article de la sessi
 - Les en-têtes de section existants se terminent par `in Production`.
 - Les nouveaux en-têtes de section se terminent par `in Preview` et la section se trouve dans `<div class="preview">`.
 - Les ajouts intégrés se trouvent à l’intérieur des `<span class="preview">`.
+- Duplications par ligne : le `<tr>` d’origine est octet pour octet inchangé ; les deux cellules du nouveau `<tr class="preview">` sont enveloppées dans du `<span class="preview">` ; l’étiquette est une nouvelle étiquette courte + minuscules « dans l’aperçu » (et non l’étiquette d’origine + « (dans l’aperçu) ») ; toute note supplémentaire utilise `<br>` + `Note:` en ligne, et non un `<p>` imbriqué.
+- Si le même champ apparaît dans plusieurs variantes de procédure (De base/Avancé, Hérité/ESM), le libellé de chaque nouvelle ligne correspond au comportement réel de cette variante plutôt que d’être copié-collé à partir d’une autre variante.
 - La nouvelle prose marquée par un aperçu se lit comme une description de comportement/champ simple, et non comme une entrée de journal des modifications, et ne reformule pas de manière redondante une instruction inchangée.
 - `ReadLints` est propre sur le fichier modifié.
 - L’article se lit correctement dans les deux états (avec le contenu de l’aperçu affiché et masqué).
