@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
 source-wordcount: 798
 ht-degree: 14%
@@ -28,6 +28,7 @@ ht-degree: 14%
 ---
 
 # Charger une nouvelle version du document et demander une approbation
+
 
 Si un document est marqué « A besoin d’être retravaillé » lors d’une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et commencer une nouvelle série d’approbations. Une fois que vous avez chargé une nouvelle version du document, les versions précédentes sont verrouillées.
 
@@ -207,3 +208,7 @@ Pour ajouter une nouvelle version et demander l’approbation :
 1. Cliquez sur **Demander l’approbation**.
 
    Le workflow d’approbation démarre et les approbateurs reçoivent une notification indiquant que leur approbation est nécessaire pour la nouvelle version du document. La version précédente du document est verrouillée et toutes les approbations en attente sur la version précédente sont retirées.
+
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->

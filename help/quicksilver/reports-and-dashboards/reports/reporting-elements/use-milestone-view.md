@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 66%
@@ -35,13 +35,9 @@ ht-degree: 66%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Vous pouvez appliquer la vue Jalon à une liste de projets ou à un rapport. Vous pouvez utiliser la vue Jalon pour afficher tous les jalons associés aux tâches dans les projets que vous consultez.
@@ -123,9 +119,9 @@ Lors de l’application de la vue Jalon à une liste de projets, les projets s�
 
   Workfront trie les projets de la première section selon les critères suivants, dans cet ordre :
 
-   1. ID de chemin jalonné. Vous pouvez afficher l’ID de chemin jalonné dans un rapport Chemin jalonné.
+  1. ID de chemin jalonné. Vous pouvez afficher l’ID de chemin jalonné dans un rapport Chemin jalonné.
 
-   2. Champ sélectionné comme premier champ de tri pour la liste des projets dans la vue précédemment appliquée à la liste des projets, avant de sélectionner la vue Jalon.
+  2. Champ sélectionné comme premier champ de tri pour la liste des projets dans la vue précédemment appliquée à la liste des projets, avant de sélectionner la vue Jalon.
 
 * Les projets qui ne sont pas associés à un chemin jalonné s’affichent ensuite, dans la section Non attribué. Workfront trie les projets de la section Non attribué en fonction du champ sélectionné comme premier champ de tri pour la liste des projets dans la vue précédemment appliquée à la liste des projets, avant de sélectionner la vue Jalon.
 
@@ -140,9 +136,9 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 
   Si vous consultez les dates prévues et que vous disposez également d’un accès de niveau Gérer au projet, vous pouvez modifier les dates suivantes directement à partir de la vue Jalon :
 
-   * **Dates de début du projet :** si un projet est planifié à partir de la date de début, vous pouvez modifier manuellement la date de début planifiée du projet, puis la date d’achèvement planifiée est calculée.
-   * **Dates d’achèvement du projet :** si un projet est planifié à partir de la date d’achèvement prévue, vous pouvez modifier manuellement la date d’achèvement prévue du projet, puis la date de début prévue est calculée.
-   * **Dates d’achèvement de la tâche :** vous pouvez mettre à jour manuellement la date d’achèvement prévue des tâches directement à partir de la vue Jalon.
+  * **Dates de début du projet :** si un projet est planifié à partir de la date de début, vous pouvez modifier manuellement la date de début planifiée du projet, puis la date d’achèvement planifiée est calculée.
+  * **Dates d’achèvement du projet :** si un projet est planifié à partir de la date d’achèvement prévue, vous pouvez modifier manuellement la date d’achèvement prévue du projet, puis la date de début prévue est calculée.
+  * **Dates d’achèvement de la tâche :** vous pouvez mettre à jour manuellement la date d’achèvement prévue des tâches directement à partir de la vue Jalon.
 
 * **Pourcentage terminé :** affiche le pourcentage d’achèvement de chaque tâche et projet.
 
@@ -152,10 +148,10 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 
 * **Icônes de statut d’avancement de la tâche :** les icônes suivantes indiquent le statut d’avancement de la tâche :
 
-   * À l’heure - vert
-   * Derrière - jaune
-   * À risque - bleu
-   * En retard - rouge
+  * À l’heure - vert
+  * Derrière - jaune
+  * À risque - bleu
+  * En retard - rouge
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +173,33 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 
 * **Ombrage du statut de la tâche pour les tâches terminées** : une fois qu’une tâche est marquée comme terminée, l’arrière-plan de la tâche est ombré dans la vue « Jalon » pour indiquer si la tâche a été terminée à l’heure ou en retard :
 
-   * **Ombrage rouge de la colonne de la tâche** : l’arrière-plan d’une tâche est rouge lorsque le statut de progression est **En retard**.
+  * **Ombrage rouge de la colonne de la tâche** : l’arrière-plan d’une tâche est rouge lorsque le statut de progression est **En retard**.
 
-   * **Ombrage vert de la colonne de la tâche** : l’arrière-plan d’une tâche est vert lorsque le statut de progression est **À l’heure**.
+  * **Ombrage vert de la colonne de la tâche** : l’arrière-plan d’une tâche est vert lorsque le statut de progression est **À l’heure**.
 
 * **Ombrage du statut du projet pour les colonnes « Début » et « Fin » du projet** :
 
-   * **Colonne « Début » du projet** : l’arrière-plan de la colonne « Début » du projet est rouge ou vert uniquement lorsque la date de début effectif est renseignée :
+  * **Colonne « Début » du projet** : l’arrière-plan de la colonne « Début » du projet est rouge ou vert uniquement lorsque la date de début effectif est renseignée :
 
-      * **Ombrage rouge de la colonne « Début » du projet** : l’arrière-plan de la colonne « Début » du projet est rouge lorsque le statut de progression du projet est **En retard**.
+    * **Ombrage rouge de la colonne « Début » du projet** : l’arrière-plan de la colonne « Début » du projet est rouge lorsque le statut de progression du projet est **En retard**.
 
-      * **Ombrage vert pour la colonne « Début » du projet** : l’arrière-plan de la colonne « Début » du projet est vert lorsque le statut de progression du projet est **À l’heure**.
+    * **Ombrage vert pour la colonne « Début » du projet** : l’arrière-plan de la colonne « Début » du projet est vert lorsque le statut de progression du projet est **À l’heure**.
 
-     >[!TIP]
-     >
-     >Vous devez accéder à la page Détails du projet pour afficher la date de début effective du projet.
+    >[!TIP]
+    >
+    >Vous devez accéder à la page Détails du projet pour afficher la date de début effective du projet.
 
-   * **Colonne d’achèvement du projet** : l’arrière-plan de la colonne d’achèvement du projet est rouge ou vert uniquement lorsque la date d’achèvement est renseignée :
+  * **Colonne d’achèvement du projet** : l’arrière-plan de la colonne d’achèvement du projet est rouge ou vert uniquement lorsque la date d’achèvement est renseignée :
 
-      * **Ombrage rouge pour la colonne d’achèvement du projet** : l’arrière-plan de la colonne d’achèvement du projet est rouge lorsque le statut de progression du projet est **En retard**.
+    * **Ombrage rouge pour la colonne d’achèvement du projet** : l’arrière-plan de la colonne d’achèvement du projet est rouge lorsque le statut de progression du projet est **En retard**.
 
-      * **Ombrage vert de la colonne d’achèvement du projet** : l’arrière-plan de la colonne d’achèvement du projet est vert lorsque le statut de progression du projet est **À l’heure**.
+    * **Ombrage vert de la colonne d’achèvement du projet** : l’arrière-plan de la colonne d’achèvement du projet est vert lorsque le statut de progression du projet est **À l’heure**.
 
-     >[!TIP]
-     >
-     >Vous devez accéder à la page Détails du projet pour afficher la date d&#39;achèvement effective du projet.
+    >[!TIP]
+    >
+    >Vous devez accéder à la page Détails du projet pour afficher la date d&#39;achèvement effective du projet.
 
-   * Aucune couleur d’ombrage n’est attribuée aux colonnes « Début » et « Achèvement » lorsque le statut de progression des tâches est « En danger » ou « En retard ».
+  * Aucune couleur d’ombrage n’est attribuée aux colonnes « Début » et « Achèvement » lorsque le statut de progression des tâches est « En danger » ou « En retard ».
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +208,9 @@ Lors de l’affichage d’une liste de projets ou d’un rapport de projet dans 
 * **Nom du projet** : le nom du projet s’affiche avec un lien vers le projet.
 * **Icône Statut du projet** : les indicateurs suivants affichent le statut du projet :
 
-   * Dans les temps - vert
-   * À risque - jaune
-   * En difficulté - rouge
+  * Dans les temps - vert
+  * À risque - jaune
+  * En difficulté - rouge
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

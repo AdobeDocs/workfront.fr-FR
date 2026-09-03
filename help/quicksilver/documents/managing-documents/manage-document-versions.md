@@ -16,16 +16,18 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 46%
+source-wordcount: 1077
+ht-degree: 30%
 
 ---
 
 # Gérer les versions de documents
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 Vous pouvez gérer plusieurs versions d’un document dans Workfront.
 
@@ -70,7 +72,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
   Si vous avez besoin d’informations sur le chargement de nouvelles versions d’un document dans Workfront, consultez la section [Charger une nouvelle version d’un document](../../documents/managing-documents/upload-new-document-version.md).
 
-## Afficher une liste de toutes les versions d’un document
+## Gestion des versions de document dans la zone des documents hérités
+
+### Afficher une liste de toutes les versions d’un document
 
 {{step1-to-documents}}
 
@@ -80,7 +84,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Faites défiler l’écran jusqu’à la section **Versions** pour afficher toutes les versions du document.
 
-## Afficher et gérer les détails d’une version antérieure d’un document
+### Afficher et gérer les détails d’une version antérieure d’un document
 
 {{step1-to-documents}}
 
@@ -92,7 +96,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 
-## Télécharger une seule version du document
+### Télécharger une seule version du document
 
 {{step1-to-documents}}
 
@@ -104,7 +108,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    ![Télécharger un seul document](assets/more-versions-350x143.png)
 
-## Télécharger toutes les versions d’un document
+### Télécharger toutes les versions d’un document
 
 {{step1-to-documents}}
 
@@ -114,7 +118,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. Faites défiler l’écran jusqu’à la section **Versions**, puis cliquez sur **Tout télécharger**.
 
-## Supprimer une version du document
+### Supprimer une version du document
 
 Si vous chargez une version d’un document par erreur, ou si une version n’est plus nécessaire, vous pouvez supprimer la version et conserver le document original.
 
@@ -149,3 +153,82 @@ Pour supprimer une version du document, procédez comme suit :
    >* Si le document est lié à une source extérieure, ce lien est supprimé et le document n’est plus accessible via Workfront.
 
    ![Supprimer la version du document](assets/more-versions-350x143.png)
+
+<div class="preview">
+
+## Gérer les versions de documents dans la nouvelle zone Documents de l&#39;aperçu
+
+Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Workfront numérote chaque version dans l’ordre dans lequel vous la chargez (par exemple, V1, V2, V3) pour correspondre aux numéros de version dans Frame.io.
+
+### Afficher une liste de toutes les versions d’un document
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
+
+1. Cliquez sur l’icône **Versions** ![Icône Versions](assets/versions-icon.png) sur le côté droit de la page. Le panneau Versions s’ouvre et répertorie chaque version du document sous Historique des versions.
+
+   >[!NOTE]
+   >
+   >Si une version comporte un workflow d’approbation, son statut, tel que « Approuvé » ou « Retiré », s’affiche en regard de celle-ci. Les versions sans workflow d’approbation n’affichent pas de statut.
+
+### Demander l’approbation d’une version
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
+1. Cliquez sur l’icône **Versions** ![Icône Versions](assets/versions-icon.png) sur le côté droit de la page.
+1. Cliquez sur le menu **Plus** en regard de la version, puis cliquez sur **Demander l’approbation**.
+1. Configurez le workflow de validation. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+   >[!NOTE]
+   >
+   >Si une version précédente possède déjà un workflow d’approbation ouvert, demander l’approbation de cette version la retire. La version précédente conserve son numéro de version et son historique d’approbation, mais son statut passe à « Retiré ».
+
+### Afficher et gérer les détails d’une version antérieure d’un document
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
+1. Cliquez sur l’icône **Versions** ![Icône Versions](assets/versions-icon.png) sur le côté droit de la page.
+1. Cliquez sur le menu **Plus** en regard de la version, puis cliquez sur **Afficher les détails**.
+
+### Télécharger une seule version du document
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
+
+1. Cliquez sur l’icône **Versions** ![Icône Versions](assets/versions-icon.png) sur le côté droit de la page.
+
+1. Cliquez sur le menu **Plus** en regard de la version, puis cliquez sur **Télécharger**.
+
+### Télécharger toutes les versions d’un document
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
+
+1. Cliquez sur l’icône **Versions** ![Icône Versions](assets/versions-icon.png) sur le côté droit de la page.
+
+1. Cliquez sur **Tout télécharger** en haut du panneau Versions.
+
+   ![télécharger toutes les versions d’un document](assets/download-all-versions.png)
+
+### Supprimer une version du document
+
+{{step1-to-documents}}
+
+1. Sur la page **Documents**, sélectionnez un document dans la liste.
+
+1. Cliquez sur l’icône **Versions** ![Icône Versions](assets/versions-icon.png) sur le côté droit de la page.
+
+1. Cliquez sur le menu **Plus** en regard de la version, puis cliquez sur **Supprimer**.
+
+   >[!NOTE]
+   >
+   >La suppression d’une version ne modifie pas les numéros des autres versions. Par exemple, si vous supprimez la version V3 d&#39;un document contenant les versions V1 à V5, les versions restantes conservent leurs numéros d&#39;origine et il n&#39;y a pas de version V3 par la suite. La version suivante que vous chargez devient V6.
+
+</div>

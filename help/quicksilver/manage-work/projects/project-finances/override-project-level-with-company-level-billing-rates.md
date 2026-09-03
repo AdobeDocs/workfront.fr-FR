@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 89%
+source-wordcount: 480
+ht-degree: 57%
 
 ---
 
@@ -68,19 +68,19 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Activer l’option de remplacement des taux de facturation au niveau de l’entreprise
 
-Lorsqu’une entreprise est associée à un projet et que cette option est activée, les modifications apportées aux taux de facturation au niveau de l’entreprise remplacent le taux de facturation défini pour le projet.
+Lorsque cette option est activée après l’association d’une entreprise à un projet, les modifications apportées aux taux de facturation au niveau de l’entreprise remplacent les taux de facturation définis pour le projet.
 
 Lorsqu’une personne recalcule manuellement les finances du projet, les modifications apportées aux taux de facturation au niveau de l’entreprise sont appliquées. Les calculs de revenus historiques sont également ignorés, à moins qu’ils ne soient marqués comme facturés.
 
 1. Accédez à un projet.
 1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du projet dans l’en-tête, puis cliquez sur **Modifier**.
-1. Dans la section **Finances**, activez l’option **Autoriser le remplacement des taux de facturation au niveau du projet par des taux de facturation au niveau de l’entreprise**.
+1. Dans la section **Finances**, sélectionnez **Autoriser les taux de facturation au niveau de l’entreprise à remplacer les taux de facturation au niveau du projet**.
 
    >[!CAUTION]
    >
-   >L’activation de cette option annule les calculs de revenus historiques, sauf s’ils sont marqués comme facturés. Vous pouvez conserver les calculs historiques des revenus en créant un enregistrement de facturation. Pour plus d’informations, voir l’article [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >L’activation de cette option annule les calculs de revenus historiques, sauf s’ils sont marqués comme facturés. Vous pouvez conserver les calculs historiques des revenus en créant un enregistrement de facturation. Pour plus d’informations, voir l’article [Création d’enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. Cliquez sur **Enregistrer les modifications**.
+1. Cliquer sur **Enregistrer**.
 
 ## Mettre à jour les taux de facturation au niveau de l’entreprise et les appliquer à un projet
 
@@ -93,23 +93,24 @@ Après avoir activé l’option de remplacement des taux de facturation au nivea
 {{step-1-to-setup}}
 
 1. Cliquez sur **Entreprises**.
-1. Cliquez sur le nom de l’entreprise associée au projet pour lequel vous avez activé le remplacement des taux de facturation au niveau de l’entreprise.
+1. Cliquez sur le nom de la société associée au projet pour lequel vous avez activé le remplacement des taux de facturation au niveau de la société.
 1. Cliquez sur **Taux de facturation** dans le panneau de gauche.
-1. Mettez à jour le **Taux de facturation de l’entreprise** et les dates de début et de fin pour une fonction existante, puis appuyez sur Entrée.
+1. Sélectionnez le taux de fonctions à mettre à jour, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
-   Pour ajouter un nouveau taux de facturation d’entreprise avec date de validité, sélectionnez un taux de facturation pour la fonction et cliquez sur **Modifier**. Pour plus d’informations sur les taux de facturation de l’entreprise avec date de validité, voir [Remplacer les taux de facturation des fonctions au niveau de l’entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Mettez à jour le taux de facturation et les dates d’effet si nécessaire, puis cliquez sur **Enregistrer**. Pour plus d’informations sur les taux de facturation de l’entreprise avec date de validité, voir [Remplacer les taux de facturation des fonctions au niveau de l’entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Pour mettre à jour les taux de l’entreprise pour un ou plusieurs projets, effectuez l’une des opérations suivantes :
 
    * Plusieurs projets :
 
-      1. Accédez à une liste de projets.
-      1. Cochez la case correspondant aux projets que vous souhaitez mettre à jour.
-      1. Cliquez sur **Modifier**.
-      1. Dans la section Paramètres, activez l’option **Recalculer les coûts et les revenus**.
-      1. Cliquez sur **Enregistrer les modifications**.
+     1. Accédez à une liste de projets.
+     1. Cochez les cases correspondant aux projets que vous souhaitez mettre à jour.
+     1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-icon-on-an-object.png) en haut de la liste, puis cliquez sur **Recalculer les finances**.
 
    * Projet unique :
 
-      1. Accédez au projet pour lequel vous avez activé le remplacement par des taux de facturation au niveau de l’entreprise.
-      1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du projet dans l’en-tête, puis cliquez sur **Recalculer les finances**.
+     1. Accédez au projet pour lequel vous avez activé le remplacement par des taux de facturation au niveau de l’entreprise.
+     1. Cliquez sur le menu **Plus** ![Plus](assets/qs-more-icon-on-an-object.png) en regard du nom du projet dans l’en-tête, puis cliquez sur **Recalculer les finances**.
+
+     Pour plus d&#39;informations sur le recalcul des finances d&#39;un ou de plusieurs projets, voir [Recalculer les finances du projet](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
+

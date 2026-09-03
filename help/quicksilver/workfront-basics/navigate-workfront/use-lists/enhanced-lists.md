@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 2%
 
 ---
@@ -90,7 +90,6 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Vue Administration des forums | Panoramas > Vue Administration |
 | Documents sur l’espace de stockage dans le cloud d’Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
 | <span class="preview">Listes des plans et initiatives de scénario</span> | <span class="preview">Menu principal > Scénarios</span> |
-| <span class="preview">Liste des objectifs et des indicateurs de progression</span> | <ul><li><span class="preview">Menu principal > Objectifs</span></li><li><span class="preview">Menu principal > Objectifs > Indicateurs de progression</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ Selon les objets que vous consultez dans une liste améliorée, vous pouvez masq
 
 1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste.
 
-<span class="preview">Vous pouvez rechercher une colonne dans la zone de recherche.</span>
+   <span class="preview">Vous pouvez rechercher une colonne dans la zone de recherche.</span>
 
 1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
 

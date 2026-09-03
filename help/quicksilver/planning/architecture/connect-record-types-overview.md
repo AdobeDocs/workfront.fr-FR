@@ -19,10 +19,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2329
-ht-degree: 5%
+source-wordcount: 2440
+ht-degree: 6%
 
 ---
 
@@ -30,11 +30,10 @@ ht-degree: 5%
 
 # Types d’enregistrements connectés - Aperçu
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -193,6 +192,13 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
 
   * Vous devez connecter les types d&#39;enregistrements pour pouvoir créer des hiérarchies dans Workfront Planning. Lorsque les connexions de type enregistrement n’existent pas, elles sont automatiquement créées lorsque vous créez une hiérarchie. Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
+  <div class="preview">
+
+  * Vous pouvez rendre un champ de connexion dépendant du champ connecté correspondant à partir du type d’enregistrement connecté. Lorsque les deux champs s’affichent sur un troisième type d’enregistrement, les sélections disponibles pour un champ dépendent des sélections effectuées sur l’autre champ.
+
+    Pour plus d’informations et d’autres considérations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+  </div>
 
 ## Types de connexion
 

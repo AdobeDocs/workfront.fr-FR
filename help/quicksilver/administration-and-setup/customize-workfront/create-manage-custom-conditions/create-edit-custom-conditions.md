@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 77%
@@ -82,7 +82,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    Exemple d’image dans l’environnement de production :
    ![Modifier la condition personnalisée](assets/custom-conditions-0825.png)
 
-   Exemple d’image dans l’environnement de prévisualisation :
+   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Modifier la condition personnalisée](assets/edit-conditions-082526.png)
 
 1. Configurez votre condition personnalisée à l’aide des options suivantes :

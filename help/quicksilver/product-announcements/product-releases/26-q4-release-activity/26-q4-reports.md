@@ -4,10 +4,10 @@ description: Améliorations des rapports pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 4%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 4%
 Cette page décrit les améliorations apportées aux rapports avec la version du quatrième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## Champ Type d’approbation dans les tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Production pour tous : 28 août 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+L&#39;entité Approbation comprend désormais un champ **Type d&#39;approbation**, qui permet aux utilisateurs de distinguer les approbations d&#39;épreuves, les approbations de version de documents, les approbations d&#39;admission et d&#39;autres types d&#39;approbation.
+
+## Mise à jour de la terminologie d’approbation dans les tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Production pour tous : 28 août 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+Les noms de champ suivants utilisés dans les tableaux de bord de la zone de travail pour les approbations de document et de travail ont été renommés par souci de clarté :
+
+| Nom précédent | Nouveau nom |
+| --- | --- |
+| Approbation du document | Approbation |
+| Étape d’approbation du document | Étape d’approbation |
+| Personne participant à l’étape d’approbation du document | Participant ou participante à l’étape d’approbation |
+| Processus d’approbation | Processus d&#39;approbation de travail |
+| Étape d’approbation | Étape d&#39;approbation de travail |
+| Statut de l&#39;approbateur | Statut de l&#39;approbateur de travail |
+| Approbation en attente | Approbation de travail en attente |
+
+Cette modification n’a aucune incidence sur le fonctionnement des rapports actuels.
 
 ## Rapports de tableau croisé dynamique dans les tableaux de bord de la zone de travail
 

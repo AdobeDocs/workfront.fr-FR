@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+source-git-commit: 722c7a8b78495fb70c57a1e94eb2f49b357060b3
 workflow-type: tm+mt
-source-wordcount: '14474'
+source-wordcount: '14480'
 ht-degree: 92%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 92%
       * [Améliorations de l’IA au quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Améliorations apportées à l’administration pour le quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
       * [Améliorations des documents du quatrième trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Améliorations de la gestion financière pour le quatrième trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Améliorations du projet au quatrième trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Améliorations des rapports pour le quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
       * [Améliorations de la gestion des ressources pour le quatrième trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
@@ -2213,7 +2214,7 @@ ht-degree: 92%
     * [Créer des types d’enregistrements en important des informations à partir d’un fichier CSV ou Excel](planning/architecture/import-file-to-create-record-types.md)
     * [Vue d’ensemble des types d’enregistrements entre espaces de travail](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configurer des fonctionnalités entre espaces de travail pour les types d’enregistrements](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[Configurer des règles métier de type enregistrement](planning/architecture/configure-business-rules.md)
+    * [Configurer des règles métier de type enregistrement](planning/architecture/configure-business-rules.md)
     * [Configurer la zone Paramètres d’un type d’enregistrement](planning/architecture/configure-record-type-settings.md)
     * [Ajouter des types d’enregistrements existants depuis un autre espace de travail](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Vue d’ensemble de la connexion des types d’enregistrements](planning/architecture/connect-record-types-overview.md)

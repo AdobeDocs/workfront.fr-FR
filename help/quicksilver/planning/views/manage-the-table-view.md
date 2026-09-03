@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 38%
 
 ---
 
 # Gérer la vue de tableau
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -190,7 +191,7 @@ Les éléments suivants s’affichent par défaut dans une vue de tableau :
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
    * Saisissez l’en-tête de colonne et faites-le glisser à l’endroit souhaité. La colonne que vous avez déplacée s’affiche brièvement sur fond bleu jusqu’à ce que vous procédiez à d’autres ajustements dans le tableau.
 
    * Cliquez sur **Champs** dans la barre d’outils du tableau, puis faites glisser les champs dans l’ordre souhaité et cliquez en dehors de la case **Visibilité et ordre des champs** pour la fermer.
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![Barre d’outils du mode Tableau des champs développée](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    ><span class="preview">Dans la ligne de glisser-déposer, un indicateur numérique affiche le nombre d’enregistrements sélectionnés, le cas échéant, plusieurs. </span>
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
-1. Cliquez sur **Champs** en haut du tableau, puis activez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
+1. Cliquez sur **Champs** en haut du tableau dans l’environnement de production.
+
+   Ou
+
+   <span class="preview">Pointez sur l’en-tête du champ principal</span>, puis sélectionnez le bouton bascule du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Facultatif) Cliquez sur **Champs** en haut du tableau, puis cliquez sur **Couleur** pour afficher la couleur d’un enregistrement à gauche de son champ principal. Les couleurs sont attribuées de manière aléatoire par défaut pour chaque nouvel enregistrement. Le paramètre **Color** est désélectionné par défaut.</span>
+1. <span class="preview">Cliquez sur **Champs** en haut du tableau</span>
+
+   Ou
+   <span class="preview">Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Couleur** pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut. </span>
 
 1. <span class="preview"> (facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l&#39;enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![Zone du sélecteur de couleurs pour le codage des couleurs d’enregistrement](assets/color-picker-for-record-color-coding.png)
+![Zone du sélecteur de couleurs pour le codage des couleurs d’enregistrement](assets/color-picker-for-record-color-coding.png)
 
-   Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
-   </div>
+</div>
 
 
 ### Ajouter des filtres {#add-filters-1}
-
-Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 
 Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 

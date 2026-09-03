@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1404'
 ht-degree: 4%
 
 ---
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * L’en-tête de colonne des champs d’enregistrement connectés indique que le champ est dans une relation de connexion dépendante.
 
      ![Info-bulle de l’icône Dépendante dans l’en-tête de colonne](assets/dependent-icon-tooltip-in-column-header.png)
+1. (Facultatif) Cliquez sur **Règles de filtrage des enregistrements** et sélectionnez des champs à partir du type d’enregistrement auquel vous vous connectez pour limiter les options pour les valeurs de ce champ, puis cliquez sur **Terminé**.
 
+   Lorsque les deux champs sont présents sur un troisième type d’enregistrement, les options pour le type d’enregistrement de champ connecté sont limitées par le filtre que vous sélectionnez ici.
 1. (Facultatif et recommandé) Accédez à un troisième type d’enregistrement et ajoutez les premier et deuxième types d’enregistrement en tant que champs d’enregistrement connectés.
 
    ![Indicateur de champ connecté dépendant sur un troisième type d’enregistrement](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

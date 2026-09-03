@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 3%
+source-wordcount: '1108'
+ht-degree: 4%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 3%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning afin d’indiquer que certains champs sont requis avant qu’une action sur un enregistrement de ce type soit autorisée ou empêchée.
 
@@ -95,7 +93,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   * Champs de recherche
   * Champs de référence
 * Les règles s’appliquent à toutes les personnes autorisées à modifier ou supprimer des enregistrements.
-* Vous pouvez avoir plusieurs règles métier pour un type d’enregistrement.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* Vous pouvez avoir plusieurs règles métier pour un type d’enregistrement.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   Toutes les règles sont vérifiées ensemble au même moment et le message d’erreur affiche tous les champs manquants dans une instruction.
 
@@ -104,10 +102,15 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Accédez à une page de type d’enregistrement.
 1. Depuis n’importe quel affichage, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement, puis cliquez sur **Règles métier**.
 
-   Les pages Règles métier s’ouvrent.
+   La page du tableau Règles métier s’ouvre.
 1. Cliquez sur **Nouvelle règle métier**.
 1. Dans la zone **Nouvelle règle métier**, ajoutez un nom pour la règle métier dans le premier champ disponible. Il s’agit d’un champ obligatoire.
 1. (Facultatif) Ajoutez une description pour définir la règle métier, puis cliquez sur **Enregistrer**.
+
+   Le formulaire de configuration des règles métier s’ouvre.
+
+   ![Formulaire de configuration des règles métier](assets/business-rule-setup-form.png)
+
 1. Dans la section **Si** du formulaire de configuration des règles métier, sélectionnez les actions que vous souhaitez restreindre ou autoriser en fonction d&#39;une règle spécifique. Choisissez parmi les options suivantes : <!--check UI text-->
    * **Modification de l&#39;enregistrement** : les utilisateurs seront autorisés à modifier ou non l&#39;enregistrement, si la condition définie dans cette règle est remplie.
    * **Suppression de l&#39;enregistrement** : les utilisateurs seront autorisés à supprimer ou non l&#39;enregistrement, si la condition définie dans cette règle est remplie.
@@ -124,7 +127,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    Par exemple, vous pouvez saisir l’instruction suivante pour que le champ **Résumé de la campagne** soit obligatoire :
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -149,7 +152,7 @@ Vous pouvez modifier, supprimer ou désactiver des règles métier existantes.
 
 La modification d’une règle existante ne modifie pas les enregistrements existants. La règle modifiée s&#39;applique uniquement aux enregistrements existants lorsqu&#39;une personne tente de les modifier ou de les supprimer.
 
-1. Revenez à la page de configuration **Règles métier** pour le type d’enregistrement.
+1. Revenez à la page de table **Règles métier** pour le type d’enregistrement.
 1. Recherchez la règle que vous souhaitez modifier.
 1. Pointez sur le nom de la règle, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
 
@@ -159,8 +162,9 @@ La modification d’une règle existante ne modifie pas les enregistrements exis
 
    Les règles modifiées ou désactivées ne s’appliquent qu’aux enregistrements futurs et ne sont pas appliquées rétroactivement.
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 

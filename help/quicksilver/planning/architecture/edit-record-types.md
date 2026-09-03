@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 25%
+source-wordcount: 771
+ht-degree: 22%
 
 ---
 
 # Modifier des types d’enregistrements
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -214,10 +214,8 @@ Old:
    >
    >![Zone de recherche globale](assets/global-search-box.png)
 
-<!--
-1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+1. <span class="preview">(Facultatif) Pour ajouter, modifier, désactiver ou supprimer des règles métier de type enregistrement, accédez à la page Type d&#39;enregistrement et cliquez sur le menu **Plus** à droite du nom du type d&#39;enregistrement, puis cliquez sur **Règles métier**. </span>
 
-   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+   <span class="preview">Les règles métier sont des conditions définies sur le type d&#39;enregistrement qui définissent à quel moment les enregistrements de ce type peuvent être modifiés ou supprimés. </span>
 
-   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
--->
+   <span class="preview"> Pour plus d’informations, voir [Création de types d’enregistrements dans les règles métier](/help/quicksilver/planning/architecture/configure-business-rules.md).</span>

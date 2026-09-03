@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 958
-ht-degree: 48%
+source-wordcount: 1032
+ht-degree: 46%
 
 ---
 
@@ -32,16 +32,10 @@ ht-degree: 48%
 
 <!-- Audited: 08/2025 -->
 
-<!--
 
-<div class="preview">
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 [!DNL Adobe Workfront] génère des mises à jour système automatiques dans la zone [!UICONTROL Mises à jour] d’un objet pour enregistrer les événements suivants :
 
@@ -270,6 +264,6 @@ Pour configurer les actions que vous souhaitez que [!DNL Workfront] suive, proc�
 1. Cochez la case d’une action pour l’activer ou désélectionnez-la pour la désactiver.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
-   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+   <span class="preview">Le bouton **Enregistrer** a été supprimé de l’environnement Aperçu et les modifications sont enregistrées automatiquement. </span>
 
 

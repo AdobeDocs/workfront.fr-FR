@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
-ht-degree: 82%
+source-wordcount: 1429
+ht-degree: 81%
 
 ---
 
 # Gérer les informations dans la zone Vue d’ensemble des projets
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | Date de dernière mise à jour | La date et l’heure de la dernière mise à jour du projet. |
    | Dernière mise à jour par | Le nom de l’utilisateur ou de l’utilisatrice qui a effectué la dernière mise à jour du projet. |
    | Modèle |  |
+   | Espace de travail Frame.io | <span class="preview">L’espace de travail Frame.io est hérité du modèle utilisé pour le créer. Vous ne pouvez pas modifier ce champ après la création du projet.</span> |
 
 
 1. Si votre entreprise a acheté une licence supplémentaire pour le planificateur de scénarios Adobe Workfront et que les informations du projet sont publiées à partir d’une initiative liée, passez en revue les informations suivantes sur l’initiative dans la zone du planificateur de scénarios :

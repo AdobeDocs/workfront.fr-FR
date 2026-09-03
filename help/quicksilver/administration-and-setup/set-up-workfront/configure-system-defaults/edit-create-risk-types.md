@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 35%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 35%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront dispose de plusieurs types de risques par défaut que vous pouvez associer aux projets au cours de la phase de planification afin d’identifier les obstacles potentiels avant l’approbation de tout travail.
 
@@ -94,7 +100,7 @@ Pour augmenter le nombre de types de risques dans votre instance Workfront, proc
 
 1. Cliquez sur **[!UICONTROL Types de risques]**.
 1. Sélectionnez le type de risque à modifier.
-1. Cliquez sur l’icône **[!UICONTROL Modifier]** ![Modifier](assets/edit-icon.png).
+1. Cliquez sur l&#39;icône **[!UICONTROL Edition]**.
 
    La boîte de dialogue [!UICONTROL **Modifier le type de risque**] s&#39;ouvre.
 
@@ -110,18 +116,29 @@ Pour augmenter le nombre de types de risques dans votre instance Workfront, proc
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications].**
 
-1. (Facultatif) Pour supprimer un type de risque, sélectionnez-le dans la liste, cliquez sur l&#39;icône [!UICONTROL **Supprimer**] ![Icône Supprimer](assets/delete.png), puis cliquez sur [!UICONTROL **Oui, supprimer**]. Le type de risque est supprimé et ne peut pas être récupéré.
+1. (Facultatif) Pour supprimer un type de risque, sélectionnez-le dans la liste, cliquez sur l&#39;icône [!UICONTROL **Supprimer**], puis sur [!UICONTROL **Oui, supprimer**]. Le type de risque est supprimé et ne peut pas être récupéré.
 
-1. (Facultatif) Pour exporter une liste de types de risques, cliquez sur l’icône [!UICONTROL **Exporter**] ![Icône Exporter](assets/export-icon.png). Vous pouvez exporter des vers les types de fichiers suivants :
+1. (Facultatif) Pour exporter une liste de types de risques, cliquez sur l’icône [!UICONTROL **Exporter**]. Vous pouvez exporter des vers les types de fichiers suivants :
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * Délimité par des tabulations
+   * Dans l’environnement de production :
+
+     * PDF
+     * Excel
+     * Excel (xlsx)
+     * Délimité par des tabulations
+     * CSV
+
+   <div class="preview">
+
+   * Dans l’environnement de Prévisualisation :
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   Vous pouvez d&#39;abord sélectionner un nombre limité de types de risques, puis les exporter pour une liste plus réduite.
+   >   Dans l’environnement de production, vous pouvez d’abord sélectionner un nombre limité de types de risques, puis les exporter pour obtenir une liste plus réduite. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Créer des types de risques {#create-risk-types}
 

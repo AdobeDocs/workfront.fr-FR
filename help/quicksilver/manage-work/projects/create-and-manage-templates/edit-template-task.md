@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 64%
+source-wordcount: 3125
+ht-degree: 66%
 
 ---
 
@@ -39,13 +39,9 @@ ht-degree: 64%
 <!--take out production and preview references and new/ old experiences at release-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Après avoir créé un modèle, vous pouvez modifier les informations des tâches de modèle. Les informations que vous mettez à jour sur une tâche de modèle sont associées à des tâches de projet une fois que vous avez utilisé le modèle pour créer un projet ou que vous avez joint le modèle à un projet.
@@ -150,10 +146,10 @@ Vous pouvez modifier une tâche de modèle à l&#39;aide des zones Modifier la t
       * Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png), puis sélectionnez l’une des zones ci-dessous, ou cliquez sur **Modifier tout** pour modifier les informations de toutes les zones :
 
 
-         * Vue d’ensemble
-         * Formulaires personnalisés
-Les noms des formulaires de douane s’affichent uniquement si des formulaires personnalisés sont joints à la tâche de modèle.
-         * Finances
+        * Vue d’ensemble
+        * Formulaires personnalisés
+          Les noms des formulaires de douane s’affichent uniquement si des formulaires personnalisés sont joints à la tâche de modèle.
+        * Finances
 
         >[!TIP]
         >
@@ -411,7 +407,7 @@ Les noms des formulaires de douane s’affichent uniquement si des formulaires p
    <td> <p>Spécifiez le nombre d’heures prévues pour la tâche, en heures. Il s’agit de la quantité de temps réel nécessaire aux personnes assignées à la tâche pour la terminer. Vous ne pouvez spécifier le nombre d'heures prévues pour une tâche que lorsque le type de durée est défini sur Calcul d'affectation. Pour plus d’informations sur les types de durée, voir <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Vue d’ensemble de la durée de la tâche et du type de durée</a>.</p> 
    <b>NOTE</b>
    <p>
-   Lors de la création de tâches récurrentes, les heures planifiées sont celles de chaque occurrence. Les heures prévues des tâches parents représentent le total de toutes les heures prévues pour toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
+   Lors de la création de tâches récurrentes, les heures prévues sont celles de chaque occurrence. Les heures prévues des tâches parent correpondent au nombre total d’heures prévues de toutes les occurrences. Pour plus d’informations sur la création de tâches récurrentes, voir <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Créer des tâches récurrentes</a>.
    </p>
 
    </td> 
@@ -505,13 +501,13 @@ Vous pouvez également ajouter des formulaires personnalisés aux tâches future
 
 1. Sélectionnez le ou les formulaires personnalisés à associer à la tâche de modèle.
 
-   Vous devez créer les formulaires personnalisés avant qu’ils ne puissent être sélectionnés dans ce champ.
-Seuls les formulaires personnalisés actifs s’affichent dans la liste.
+   Vous devez créer les formulaires personnalisés avant de pouvoir les sélectionner dans ce champ.
+   Seuls les formulaires personnalisés actifs sont affichés dans la liste.
 
    Pour plus d’informations sur la création de formulaires personnalisés, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    Vous pouvez ajouter jusqu’à dix formulaires personnalisés à une tâche de modèle.
-Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
+   Les formulaires sont automatiquement ajoutés aux tâches créées à partir du modèle.
 1. (Le cas échéant et facultatif) Si vous avez joint un formulaire personnalisé à la tâche de modèle, modifiez les champs du formulaire concernés. Vous devez spécifier tous les champs requis avant de pouvoir enregistrer la tâche de modèle.
 
    >[!NOTE]

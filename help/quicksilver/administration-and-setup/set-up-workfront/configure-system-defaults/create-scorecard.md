@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Créer une carte de score
 description: Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.Les responsables Portfolio définissent généralement les questions et les réponses de la carte de performance afin de s’assurer qu’elles sont significatives et utiles lors de la hiérarchisation et de la sélection des projets. Un administrateur ou une administratrice  [!DNL Adobe Workfront]  élabore les cartes de performance sur la base des recommandations des gestionnaires de portfolios.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 69%
+source-wordcount: 846
+ht-degree: 60%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 69%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 Une carte de performance permet de mesurer l’adéquation d’un projet avec les critères précédemment établis d’un portfolio. Une carte de performance reflète souvent la mission, les valeurs et les objectifs stratégiques d’une organisation.
 
@@ -128,6 +129,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    La carte de performance est ainsi créée et les chefs de projet peuvent désormais la joindre à leur analyse de rentabilité de projet.
 
+
+1. <span class="preview">(Facultatif) Pour modifier une carte de performance, sélectionnez-la dans la liste des cartes de performance, puis cliquez sur **Modifier** ![Modifier la carte de performance](assets/edit-scorecard-icon.png) au bas de la liste. </span>
+
+1. <span class="preview">(Facultatif) Pour supprimer une carte de performance, sélectionnez-la dans la liste des cartes de performance, puis cliquez sur **Supprimer** ![Supprimer la carte de performance](assets/delete-scorecard-icon.png) au bas de la liste. </span>
+
 ## Copier une carte de performance existante
 
 Vous pouvez créer une carte de performance en copiant et en modifiant une carte existante.
@@ -135,11 +141,15 @@ Vous pouvez créer une carte de performance en copiant et en modifiant une carte
 {{step-1-to-setup}}
 
 1. Cliquez sur **[!UICONTROL Cartes de performance]** dans le panneau de gauche.
-1. Sélectionnez une carte de performance dans la liste, puis cliquez sur l’icône **Copier** ![Copier la carte de performance](assets/copy-scorecard-icon.png) en haut de la liste des cartes de performance.
+1. Sélectionnez une carte de performance dans la liste, puis cliquez sur **Copier** en haut de la liste des cartes de performance <span class="preview"> ou **Copier** ![Copier l’icône de carte de performance](assets/copy-scorecard-icon.png) en bas de la liste</span>.
 
-   La boîte de dialogue **Copier la carte de performance** s’ouvre.
+   La boîte de dialogue **Copier** de la carte de performance s’ouvre.
 
    ![Zone Copier la carte de performance](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >Le nom de la carte de performance s’affiche dans le titre de la zone.
 
 1. Indiquez les informations suivantes :
 

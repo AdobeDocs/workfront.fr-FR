@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1770'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,79 @@ ht-degree: 3%
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Gérer la visibilité des miniatures et des couleurs des enregistrements à partir de la colonne du champ principal dans la vue Tableau
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Vous pouvez désormais gérer la visibilité des miniatures et des couleurs des enregistrements lors de la modification de la colonne du champ principal en mode Tableau.
+
+Avec cette mise à jour, la miniature et les paramètres de couleur sont supprimés de l’icône Champs dans la barre d’outils du mode Tableau.
+
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Créer des règles métier pour les types d’enregistrements
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+En tant que gestionnaire d’espace de travail, vous pouvez désormais définir des règles métier pour les types d’enregistrements qui se répercuteront ultérieurement sur la manière dont les enregistrements de ce type sont gérés. Vous pouvez définir des règles qui permettent aux utilisateurs de modifier ou de supprimer des enregistrements uniquement lorsque certaines conditions sont remplies ou que certains champs sont renseignés.
+
+Vous pouvez créer une condition pour votre règle métier qui fait référence à tous les types de champ, à l’exception des suivants :
+
+* Champs de formule
+* Champs de recherche
+* Champs de référence
+
+Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux.
+
+Pour plus d’informations, voir [Configurer des règles métier de type enregistrement](/help/quicksilver/planning/architecture/configure-business-rules.md).
+
+>[!NOTE]
+>
+>Avec cette mise à jour, les options de menu suivantes du menu Plus d’un type d’enregistrement ont également été mises à jour :
+>
+>* **Créer des formulaires de demande** et **Gérer les formulaires de demande** est devenu **Formulaires de demande**
+>* **Gérer les automatisations** est devenu **Automatisations**
+
+## Introduction de semaines personnalisées pour la vue chronologique
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+En tant qu’administrateur Workfront, vous pouvez désormais configurer des semaines personnalisées, en plus des trimestres personnalisés. Les semaines et les trimestres personnalisés sont visibles à partir de la vue chronologique de Workfront Planning. Workfront génère des semaines séquentielles à partir de la semaine 1 au début du trimestre personnalisé 1.
+
+Vous pouvez personnaliser les libellés des semaines qui sont visibles dans la vue chronologique. Vous pouvez choisir un format prédéfini ou en saisir un personnalisé.
+
+Les semaines personnalisées ne sont pas visibles dans Workfront. Ils ne sont visibles que dans la vue chronologique Planification de Workfront.
+
+Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Filtres pour les champs d’enregistrement connectés dépendants
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Vous pouvez désormais filtrer certains types d&#39;enregistrements qui répondent à un critère de filtre lorsque vous ajoutez des connexions dépendantes dans Planning.
+
+Au lieu que tous les types d’enregistrement soient disponibles dans les champs connectés dépendants, seuls ceux qui répondent à vos critères de filtrage s’afficheront.
+
+Pour cette fonctionnalité, nous avons ajouté une nouvelle option Règles de filtrage des enregistrements dans l&#39;onglet Nouvelle connexion lors de la connexion des types d&#39;enregistrements.
+
+Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Réduire et développer tous les regroupements dans la vue chronologique
 

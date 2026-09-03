@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 82%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # Supprimer des plans dans le [!DNL Scenario Planner]
+
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Vous pouvez supprimer les plans que vous avez créés. Vous ne pouvez pas supprimer les plans qui sont partagés avec vous.
 
@@ -126,6 +130,10 @@ Une liste des plans s’affiche.
 
 1. Cliquez sur le nom d’un plan pour l’ouvrir.
 1. Cliquez sur le **[!UICONTROL menu Plus]** ![menu Plus](assets/more-menu.png) à droite du nom du plan, puis cliquez sur **[!UICONTROL Supprimer]** > **[!UICONTROL Oui, supprimer]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">Vous pouvez également supprimer un plan dans une liste en le sélectionnant, puis en cliquant sur **Supprimer** au bas de la liste pour le supprimer.</span> <!--move the tip as the main step when we release this??-->
 
    Le plan est supprimé et vous revenez à la liste des plans.
 

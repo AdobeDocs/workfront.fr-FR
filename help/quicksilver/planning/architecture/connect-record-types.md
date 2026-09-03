@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
-ht-degree: 24%
+source-wordcount: 3273
+ht-degree: 23%
 
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 24%
 
 # Connecter des types d’enregistrements
 
-<!--
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -308,18 +306,15 @@ Old:
 
    ![Nouvelle connexion au type d’enregistrement depuis un autre espace de travail](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Conditionnel) Lorsque vous connectez des types d&#39;enregistrements à partir du même espace de travail ou d&#39;un type d&#39;enregistrement Planning à un type d&#39;objet Workfront, sélectionnez l&#39;une des options suivantes :
+1. <span class="preview">Sélectionnez l’option **Rendre cette connexion dépendante** pour ajouter des dépendances entre ce champ de connexion et le champ créé sur le type d’enregistrement connecté. </span>
 
-   * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
-   * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
+   <span class="preview">Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>
 
-1. Sélectionnez le **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Type de connexion** <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->.
+1. Sélectionnez le champ **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Type de connexion**.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">La section **Type de connexion** a été remplacée par la section **Paramètres de connexion** lors de la connexion aux types d&#39;enregistrements Planning. </span>
 
    Lorsque cette option est sélectionnée, un champ de connexion est créé sur le type d’enregistrement auquel vous vous connectez, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
 
@@ -332,6 +327,10 @@ Old:
    >* Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives. Par exemple :
    >   * Aucun champ n&#39;est créé pour les objets Workfront connectés aux enregistrements Planning.
    >   * Aucun champ n’est créé pour un type d’enregistrement Planning lorsqu’il est connecté à un type d’enregistrement à partir de l’espace de travail GenStudio.
+1. (Conditionnel) Lorsque vous connectez des types d&#39;enregistrements à partir du même espace de travail ou d&#39;un type d&#39;enregistrement Planning à un type d&#39;objet Workfront, sélectionnez l&#39;une des options suivantes :
+
+   * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
+   * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
 
 1. (Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Type de connexion**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 
@@ -358,7 +357,9 @@ Old:
    >
    >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
+1. <span class="preview">(Facultatif et conditionnel) Si vous avez sélectionné **Rendre cette connexion dépendante**, cliquez sur **Règles de filtrage des enregistrements** pour créer un filtre afin de limiter les valeurs des valeurs des champs connectés lorsque les deux champs d’enregistrement connectés s’affichent sur le même type d’enregistrement. </span>
 
+   <span class="preview">Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 1. (Facultatif) Sélectionnez l’une des options suivantes dans la zone **Apparence de l’enregistrement** :
 
    * **Nom et image** : le nom et la miniature ou l’icône des enregistrements connectés s’affichent dans le champ d’enregistrement connecté. Il s’agit de l’option par défaut.
@@ -382,7 +383,9 @@ Old:
    >
    >* Ce que vous sélectionnez dans la zone **Apparence des enregistrements** détermine l’affichage des enregistrements dans les connexions, partout dans le système, y compris dans toutes les pages de vues et de détails.
 
-1. Sélectionnez l’option **Sélectionner les champs de recherche** pour ajouter des champs à partir du type d’enregistrement auquel vous vous connectez. Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet vers lequel vous établissez un lien. Les lier affiche les informations de l&#39;enregistrement ou de l&#39;objet à partir duquel vous établissez la liaison. Cette option est sélectionnée par défaut.
+1. Sélectionnez le menu **Sélectionner les champs de recherche** ou <span class="preview">cliquez sur le menu **Champs de recherche**</span> pour choisir et ajouter des champs à partir du type d’enregistrement auquel vous vous connectez.
+
+   Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet auquel vous vous connectez. Les lier affiche les informations de l&#39;enregistrement ou de l&#39;objet à partir duquel vous établissez la liaison. <!--No more: This is selected by default.-->
 
    >[!NOTE]
    >

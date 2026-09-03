@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 84%
+source-wordcount: 1184
+ht-degree: 79%
 
 ---
 
 # Configurer les intégrations de documents
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +99,14 @@ Vous pouvez configurer les intégrations suivantes pour la gestion des documents
 
 * Fournisseurs tiers de documents en ligne :
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google Drive]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google Drive]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ Une fois l’intégration des documents personnalisés réalisée, vous pouvez l
 
    [!DNL Workfront] utilise cette clé API pour effectuer des appels API autorisés au fournisseur de documents.
 
+1. (Facultatif) <span class="preview">Pour activer la prise en charge des fichiers volumineux, sélectionnez **[!UICONTROL Activer le chargement groupé pour les fichiers volumineux]** dans la section **[!UICONTROL Prise en charge des fichiers volumineux]**, puis saisissez la taille maximale du bloc, en Mo, dans le champ **[!UICONTROL Seuil de chargement groupé (Mo)]**. Ce champ accepte les valeurs jusqu’à 100 Mo. Lorsque cette option est activée, les fichiers de plus de 25 Mo sont chargés par blocs de cette taille au lieu d’être dans une seule requête.</span>
+
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer l’intégration.
 
 ## Utiliser les intégrations de documents
@@ -266,9 +270,9 @@ Pour configurer [!DNL Workfront] pour envoyer des métadonnées à [!DNL Workfro
 ### Intégration de Google Drive
 
 * Lorsqu’un dossier lié est ajouté à Workfront, les fichiers qu’il contient ne sont plus automatiquement ajoutés.
-   * Vous pouvez ajouter le dossier Google à Workfront sans les fichiers, puis ajouter les fichiers individuels à Workfront. Les fichiers sont automatiquement ajoutés au dossier Google dans Workfront.
-Ou
-   * Vous pouvez créer un dossier Document dans Workfront, puis sélectionner tous les fichiers du dossier Google et les ajouter au dossier Workfront.
+  * Vous pouvez ajouter le dossier Google à Workfront sans les fichiers, puis ajouter les fichiers individuels à Workfront. Les fichiers sont automatiquement ajoutés au dossier Google dans Workfront.
+    Ou
+  * Vous pouvez créer un dossier Document dans Workfront, puis sélectionner tous les fichiers du dossier Google et les ajouter au dossier Workfront.
 
 
 * L&#39;intégration du document Google Drive prend en charge l&#39;ajout de fichiers depuis la zone My Drive de votre lecteur Google. Vous ne pouvez pas ajouter de dossiers ou d&#39;images à partir d&#39;un lecteur partagé. En savoir plus sur les [lecteurs partagés &#x200B;](https://support.google.com/a/users/answer/7212025?hl=en).

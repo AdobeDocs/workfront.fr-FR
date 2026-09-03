@@ -26,14 +26,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1155
-ht-degree: 48%
+source-wordcount: 1318
+ht-degree: 45%
 
 ---
 
 # Configurer les préférences système
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -113,7 +115,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Collaborer avec des personnes sans les comptes Workfront en utilisant leur adresse e-mail</p> </td> 
-      <td>Permet aux utilisateurs de Workfront de partager certains éléments avec des personnes sans compte Workfront en incluant leur adresse e-mail au lieu de leur nom. Les utilisateurs peuvent partager les éléments suivants avec des utilisateurs externes à l’aide de leur adresse e-mail :
+      <td>Permet aux utilisateurs et utilisatrices de Workfront de partager certains éléments avec des personnes sans compte Workfront en incluant leur adresse e-mail au lieu de leur nom. Les utilisateurs et utilisatrices peuvent partager les éléments suivants avec des utilisateurs et utilisatrices externes à l’aide de leur adresse e-mail :
        <ul>
         <li>Document<br></li>
         <li>Demande de document<br></li>
@@ -150,6 +152,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr>
       <td>Toujours appliquer les champs obligatoires en mode de modification en masse</td>
       <td><p>Permet de choisir de forcer les utilisateurs à saisir des informations dans les champs requis lors de la modification en bloc d’objets.</p> <p>Lorsque cette option est sélectionnée, les champs obligatoires doivent avoir des valeurs avant d’être enregistrés en mode de modification en bloc. Si une valeur est manquante dans le champ obligatoire pour au moins un objet sélectionné en bloc, l’enregistrement n’est pas autorisé.</p> <p>Lorsque cette option n’est pas sélectionnée, les champs obligatoires ne sont appliqués que lorsqu’un utilisateur modifie le champ. Si un champ n’est pas modifié, il est traité comme facultatif et non validé.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Niveau d’accès pour les personnes créées dans Admin Console</span></td>
+      <td><span class="preview">Permet de choisir un niveau d’accès par défaut à affecter automatiquement aux utilisateurs créés dans Workfront via Adobe Admin Console. Si vous ne définissez pas de valeur par défaut, ces utilisateurs continuent de recevoir un niveau d’accès de type Contributeur ou Demandeur . Les niveaux d'accès Administrateur système et Utilisateur externe ne sont pas disponibles par défaut, et ce paramètre n'est pas disponible pour les organisations qui utilisent Workfront Planning en tant que produit autonome.<p><b>REMARQUE </b> : vous ne pouvez pas supprimer un niveau d'accès tant qu'il est défini par défaut. Pour supprimer le niveau d’accès par défaut, sélectionnez un autre niveau d’accès par défaut.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Préférences de stockage </td> 
