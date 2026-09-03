@@ -9,24 +9,21 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4584
 ht-degree: 32%
 
 ---
 
 # Gérer la vue chronologique
+
+<!--remove Production and Preview references at release-->
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -233,19 +230,13 @@ Pour gérer une vue chronologique :
 
      >[!TIP]
      >
-     >La vue chronologique affiche uniquement les semaines fiscales selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés dans la zone Configuration , les informations de la semaine ne s’affichent pas dans la vue chronologique.
+     >Selon l’environnement que vous utilisez pour accéder à la vue chronologique, les scénarios suivants existent :
+     >
+     >* Dans l’environnement de production, la vue Chronologie affiche uniquement les semaines personnalisées selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés dans la zone Configuration , les informations de la semaine ne s’affichent pas dans la vue chronologique.
+     >
+     >* <span class="preview">Dans l’environnement Aperçu , la vue chronologique affiche par défaut les semaines personnalisées selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés et Semaines personnalisées dans la zone Configuration , la vue chronologique affiche les trimestres personnalisés et les semaines dans les affichages Trimestre et Mois . </span>
+     >
 
-     <!--
-        When we release custom weeks, replace the tip above with this:
-        >[!TIP]
-        >
-        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
-        >
-        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-        >
-        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
-        >
-        -->
 
 1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
 1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. L’option **Standard** est la valeur par défaut.  <!--check to see if they updated the name of the setting here-->
