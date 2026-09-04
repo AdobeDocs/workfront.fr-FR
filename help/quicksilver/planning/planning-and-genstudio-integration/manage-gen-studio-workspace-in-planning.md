@@ -9,16 +9,12 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2022
 ht-degree: 7%
 
 ---
@@ -171,7 +167,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -227,7 +223,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -282,10 +278,10 @@ Old:
    </table>
 
 * La mise à jour de la configuration de l’espace de travail, des types d’enregistrements, des vues et des champs pour un espace de travail GenStudio est identique à la mise à jour d’un espace de travail Workfront Planning avec ses éléments.
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* Vous pouvez créer des hiérarchies pour les types d’enregistrements dans l’espace de travail GenStudio.
+
+  Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* Vous pouvez connecter un type d’enregistrement GenStudio aux marques GenStudio, mais vous ne pouvez pas inclure les marques GenStudio dans une hiérarchie.
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -310,7 +306,7 @@ La page principale de Workfront Planning s’ouvre.
 
 1. Cliquez sur **Autres espaces de travail** et recherchez un espace de travail qui comporte une indication créée par le **Système** et la balise **GenStudio** sur sa carte.
 
-   ![Carte d’espace de travail GenStudio avec balise &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![Carte d’espace de travail GenStudio avec balise ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Cliquez sur la carte **Espace de travail** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
 1. Par défaut, les types d’enregistrements GenStudio suivants sont créés et visibles à partir de Workfront Planning :
@@ -500,26 +496,18 @@ La page principale de Workfront Planning s’ouvre.
    * Trier en fonction de ce critère
    * Masquer
    * Modifier ses paramètres
+   * Le supprimer.
 
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
-   <!--GenStudio-native fields are note removed from GenStudio. -->
+     >[!NOTE]
+     >
+     >* Vous ne pouvez modifier la configuration d’un champ GenStudio que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
+     >* Vous ne pouvez pas supprimer un champ GenStudio.
 
-   >[!NOTE]
-   >
-   >* Vous ne pouvez modifier la configuration d’un champ GenStudio que lorsque vous disposez des autorisations de niveau Gérer dans GenStudio.
-   >* Vous ne pouvez pas supprimer un champ GenStudio.
+## Création de hiérarchies d’espaces de travail dans l’espace de travail GenStudio
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
+La création de hiérarchies dans l’espace de travail GenStudio est similaire à la création de hiérarchies dans n’importe quel espace de travail.
 
-## Create workspace hierarchies in the GenStudio workspace
+Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
-Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
-
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
-For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
