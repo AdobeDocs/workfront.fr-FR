@@ -10,22 +10,20 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Aperçu de la révision et de l’approbation unifiées
+
+{{highlighted-preview}}
 
 La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
 Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
@@ -50,7 +48,7 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -348,6 +346,18 @@ La visionneuse Frame.io comprend un ensemble complet d&#39;outils de balisage vi
 **Les commentaires ajoutés dans la visionneuse Frame.io apparaîtront-ils dans le projet Workfront ?**
 
 Les commentaires et les annotations restent dans la visionneuse Frame.io afin de conserver leur contexte complet, y compris les horodatages et les balises visuelles. Cela peut évoluer dans les prochaines versions.
+
+<span class="preview">
+
+Dans la prévisualisation, le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.</span>
+
+<div class="preview">
+
+**Qui peut voir l’indicateur de commentaire Frame.io dans Workfront ?**
+
+Seuls les utilisateurs qui pouvaient déjà voir ces commentaires dans Frame.io peuvent voir l’indicateur. Si vous possédez une licence Enterprise Frame.io, vous la voyez pour tout commentaire sur le document. Si vous ne disposez pas d&#39;une licence Entreprise Frame.io, vous ne la verrez qu&#39;une fois qu&#39;une approbation existe pour le document. Les approbations vous permettent également de voir tous les commentaires précédents du document.
+
+</div>
 
 **Est-il possible d’ajouter des commentaires sur une version téléchargée d’une ressource (par exemple, un PDF) ?**
 
