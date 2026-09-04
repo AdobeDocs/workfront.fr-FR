@@ -4,9 +4,9 @@ description: Améliorations des documents du quatrième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 3%
 
 ---
@@ -34,23 +34,19 @@ For more information, see [Manage approval templates](/help/quicksilver/review-a
 
 -->
 
-<!--
-
-## Frame comment visibility in Workfront
+## Visibilité des commentaires de cadre dans Workfront
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+Lorsqu’un processus d’approbation est créé pour un document, les utilisateurs peuvent laisser des commentaires et ajouter des annotations dans la visionneuse Frame.io. Ces commentaires ne s&#39;affichent pas dans le panneau Commentaires de Workfront, mais vous pouvez les afficher dans la visionneuse Frame.io.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+Désormais, le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.
 
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
-
--->
+Pour plus d’informations, voir [Ajouter une mise à jour à un document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
 
 ## Accès direct aux épreuves à partir des liens des e-mails de validation
 
