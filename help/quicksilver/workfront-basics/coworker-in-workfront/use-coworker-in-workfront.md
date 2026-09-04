@@ -28,7 +28,7 @@ Lorsque vous utilisez Coworker dans Workfront, il peut fonctionner avec des info
 
 Dans la mesure où Coworker fait partie de l’écosystème d’entreprise Adobe CX plus vaste, vous pouvez utiliser Coworker pour travailler avec des informations et des objets dans d’autres produits Adobe, soit dans le rail de droite de Workfront, soit en passant de Workfront à l’interface de Coworker Adobe CX.
 
-Pour plus d’informations sur Coworker et ses fonctionnalités en dehors de Workfront, consultez la présentation du Module de conversation avec un collègue d’entreprise d’Adobe CX [&#128279;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+Pour plus d’informations sur Coworker et ses fonctionnalités en dehors de Workfront, consultez la présentation du Module de conversation avec un collègue d’entreprise d’Adobe CX [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/overview).
 
 
 ## Conditions d’accès
@@ -78,14 +78,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * **Microphone** : dictez votre message à l’aide de la voix. Sélectionnez à nouveau pour arrêter l’enregistrement.
    * **Envoyer** : envoyez le message. Lorsque le Chat Coworker répond, cela devient un contrôle d’arrêt que vous pouvez utiliser pour interrompre.
 
-   Pour plus d’informations sur ces actions, consultez [la zone d’entrée de conversation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) dans la documentation du collègue Adobe CX.
+   Pour plus d’informations sur ces actions, consultez [la zone d’entrée de conversation](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) dans la documentation du collègue Adobe CX.
 
 1. Pour afficher et gérer les conversations précédentes, cliquez sur l’icône Conversations ![icône Conversations](assets/ai-icon.png) dans le panneau Collègue de l’expérience client.
 
-   Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation Adobe CX Coworker.
+   Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation Adobe CX Coworker.
 1. Pour afficher et gérer les artefacts de conversation, tels que les listes de sortie, cliquez sur l’icône Artefacts ![icône Artefacts](assets/artifacts-icon.png).
 
-   Pour plus d’informations sur les artefacts dans CX Coworker, voir [Artefacts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation Adobe CX Coworker.
+   Pour plus d’informations sur les artefacts dans CX Coworker, voir [Artefacts](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation Adobe CX Coworker.
 1. Pour gérer les paramètres de Coworker, cliquez sur l’icône Paramètres ![Paramètres](assets/coworker-settings-icon.png).
 1. Pour développer le panneau Collègue, cliquez sur l’icône Développer ![icône Développer](assets/coworker-expand-icon.png).
 1. Pour accéder à l’interface de collègue d’Adobe CX, cliquez sur l’icône Applications ![icône Applications](assets/apps-icon.png) dans le coin supérieur droit de la page, puis sélectionnez Collègue dans la liste des applications disponibles.
