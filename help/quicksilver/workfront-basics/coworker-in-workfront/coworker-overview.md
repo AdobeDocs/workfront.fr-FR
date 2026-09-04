@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations du secteur des soins de santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker n’est actuellement pas disponible pour les organisations du secteur des soins de santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Le Module de conversation des collègues CX est une interface conversationnelle permettant d’effectuer des tâches. Vous décrivez un objectif en langage clair, puis un collègue planifie le travail, l’exécute sur l’ensemble de vos systèmes Adobe et connectés, valide les résultats et vous renvoie le travail terminé pour approbation&#x200B;
 

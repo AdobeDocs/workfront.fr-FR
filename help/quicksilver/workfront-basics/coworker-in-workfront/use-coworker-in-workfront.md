@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations du secteur des soins de santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker n’est actuellement pas disponible pour les organisations du secteur des soins de santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Vous pouvez accéder à CX Coworker dans Workfront.
 
@@ -28,7 +28,7 @@ Lorsque vous utilisez Coworker dans Workfront, il peut fonctionner avec des info
 
 Dans la mesure où Coworker fait partie de l’écosystème d’entreprise Adobe CX plus vaste, vous pouvez utiliser Coworker pour travailler avec des informations et des objets dans d’autres produits Adobe, soit dans le rail de droite de Workfront, soit en passant de Workfront à l’interface de Coworker Adobe CX.
 
-Pour plus d’informations sur Coworker et ses fonctionnalités en dehors de Workfront, consultez la présentation du Module de conversation avec un collègue d’entreprise d’Adobe CX [](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+Pour plus d’informations sur Coworker et ses fonctionnalités en dehors de Workfront, consultez la présentation du Module de conversation avec un collègue d’entreprise d’Adobe CX [&#128279;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
 
 
 ## Conditions d’accès
