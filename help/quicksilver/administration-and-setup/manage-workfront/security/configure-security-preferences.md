@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
 source-wordcount: 1318
 ht-degree: 45%
@@ -182,17 +182,17 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td role="rowheader">Saisie automatique intelligente dans les formulaires de demande </td> 
       <td>Permet de choisir d’activer la possibilité de remplir automatiquement les formulaires de demande en fonction des données de demande précédentes. Pour plus d’informations sur la saisie automatique des formulaires, voir <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Saisie automatique d’une demande à partir de données précédentes</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Participer aux programmes bêta de l’IA </td> 
+      <td>Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité
     <tr> 
       <td role="rowheader">Concepteur de planification</td> 
       <td>Cette option est disponible uniquement pour les clients qui ont acheté un package Workfront Planning. L'activation de ce paramètre permet aux utilisateurs de créer et de modifier des espaces de travail à l'aide de Planning Designer. Pour plus d’informations, voir <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Prise en main d’Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Participer aux programmes bêta de l’IA </td> 
-      <td>Permet de choisir d’activer les fonctionnalités d’IA actuellement dans Beta. Si vous activez cette option, vous pouvez sélectionner les fonctionnalités d’IA Beta à activer. Pour plus d’informations sur chaque fonctionnalité AI Beta, cliquez sur l’icône d’information en regard de cette fonctionnalité.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Outils MCP en lecture seule</span></td> 
-      <td><span class="preview">Permet au serveur Workfront MCP d’effectuer des actions de lecture sur les données Workfront, par exemple, rechercher ou répertorier des projets, des tâches ou d’autres éléments. Cette option est activée par défaut.<p>Pour plus d’informations sur le serveur MCP Workfront, consultez <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuration du serveur MCP Adobe Workfront</a>.</p></span></td> 
+      <td><span class="preview">Permet au serveur Workfront MCP d’effectuer des actions de lecture sur les données Workfront, telles que rechercher ou répertorier des projets, des tâches ou d’autres éléments. Cette option est activée par défaut.<p>Pour plus d’informations sur le serveur MCP Workfront, consultez <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Configuration du serveur MCP Adobe Workfront</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Créer des outils MCP</span></td> 

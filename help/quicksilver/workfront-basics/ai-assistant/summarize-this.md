@@ -14,14 +14,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: 425
 ht-degree: 12%
 
 ---
 
 # Résumer à l’aide de l’assistant IA
+
+>[!IMPORTANT]
+>
+>À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation pour effectuer le travail. Pour plus d’informations sur CX Coworker, voir [Présentation de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’assistant d’IA de Workfront peut résumer certains objets, ce qui vous donne une vue d’ensemble de l’intention ou des détails de l’objet.
 

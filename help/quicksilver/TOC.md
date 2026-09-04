@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 722c7a8b78495fb70c57a1e94eb2f49b357060b3
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: '14480'
+source-wordcount: '14501'
 ht-degree: 92%
 
 ---
@@ -970,6 +970,11 @@ ht-degree: 92%
     * [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Outils de serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Compétences disponibles pour une installation directe](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
+  * Collègue CX dans Workfront {#coworker-in-workfront}
+    * [Collègue CX dans Workfront : index des articles](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [Présentation du collègue CX](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Compétences des collègues CX](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Utiliser un collègue CX dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Mettre à jour des éléments de travail et afficher les mises à jour {#update-work-items-view-updates}
     * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Vue d’ensemble de la section Mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)

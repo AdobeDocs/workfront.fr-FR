@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 4%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->La fonctionnalité d’intégrité du projet est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta.
+>* À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation pour effectuer le travail. Pour plus d’informations sur CX Coworker, voir [Présentation de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* La fonctionnalité d’intégrité du projet est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta.
 
 La fonctionnalité d’intégrité des projets d’Adobe Workfront utilise la puissance de l’assistant d’IA pour vous donner instantanément une évaluation des performances de vos projets, des domaines nécessitant votre attention et de la manière d’éviter les problèmes qui peuvent vous coûter du temps et de l’argent.
 
@@ -328,7 +329,7 @@ Pour générer une évaluation de l&#39;intégrité d&#39;un projet ou d&#39;un 
 
    >[!NOTE]
    >
-   >Si vous accédez à l’assistant AI à partir d’une autre page de Workfront, vous pouvez saisir *Quelle est la santé du projet [NOM DU PROJET]?* ou *Quelle est la santé du programme [NOM DU PROGRAMME]?* <br>
+   >Si vous accédez à l’assistant AI à partir d’une autre page de Workfront, vous pouvez saisir *Quel est l’intégrité du projet [NOM DU PROJET] ?* ou *Quelle est la santé du programme [NOM DU PROGRAMME] ?* <br>
    >Pour obtenir la liste complète des invites actuelles que vous pouvez saisir, reportez-vous à la section [Liste des invites de l&#39;assistant AI](#ai-assistant-prompts-list) de cet article.
 
 1. Cliquez sur l’icône **Envoyer** ![Icône Envoyer](assets/send-icon.png). L’évaluation de l’intégrité du projet génère et s’affiche dans le panneau. Un badge s’affiche en haut de chaque évaluation de l’intégrité du projet, qui reflète l’état actuel du projet.
