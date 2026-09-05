@@ -9,14 +9,11 @@ exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +80,12 @@ L’utilisation de hiérarchies dans vos espaces de travail présente les avanta
   * Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
 
     Par exemple, si vous créez une hiérarchie entre Campagnes comme enregistrement parent et Persona comme enregistrement enfant, vous pouvez connecter la même persona à un maximum de 10 campagnes.
+  * Si votre entreprise a acheté un package Adobe GenStudio for Performance Marketing, les scénarios suivants existent :
+
+    * Vous ne pouvez pas vous connecter à des types d&#39;enregistrements GenStudio à partir de types d&#39;enregistrements Planning.
+    * Vous pouvez connecter des types d’enregistrements GenStudio dans l’espace de travail GenStudio.
+    * Vous pouvez connecter les marques GenStudio aux types d’enregistrements GenStudio et Planning.
+    * Vous ne pouvez pas inclure les marques GenStudio dans une hiérarchie.
 
 ## Remarques concernant l’affichage des chemins de navigation
 
