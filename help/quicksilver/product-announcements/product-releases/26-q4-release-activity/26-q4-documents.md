@@ -4,9 +4,9 @@ description: Améliorations des documents du quatrième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 3%
 
 ---
@@ -19,21 +19,34 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 <!--
 
-## Frame comment visibility in Workfront
+## System Administrators full access to approval templates
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
-
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 -->
+
+## Visibilité des commentaires de cadre dans Workfront
+
+>[!NOTE]
+>
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
+
+Lorsqu’un processus d’approbation est créé pour un document, les utilisateurs peuvent laisser des commentaires et ajouter des annotations dans la visionneuse Frame.io. Ces commentaires ne s&#39;affichent pas dans le panneau Commentaires de Workfront, mais vous pouvez les afficher dans la visionneuse Frame.io.
+
+Désormais, le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.
+
+Pour plus d’informations, voir [Ajouter une mise à jour à un document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
 
 ## Accès direct aux épreuves à partir des liens des e-mails de validation
 
@@ -184,3 +197,23 @@ Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier des r
 La liaison est optimisée par le gestionnaire d’accès. Vous obtenez ainsi également des Recherche optimisée par l&#39;IA, des suggestions intelligentes, une analyse de résumés de campagne, etc. lors de la sélection de contenu.
 
 Pour plus d’informations, voir [Lier du contenu de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+

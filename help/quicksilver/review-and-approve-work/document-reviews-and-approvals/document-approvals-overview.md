@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Aperçu de la révision et de l’approbation unifiées
+
+{{highlighted-preview}}
 
 La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
 Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
@@ -348,6 +350,18 @@ La visionneuse Frame.io comprend un ensemble complet d&#39;outils de balisage vi
 **Les commentaires ajoutés dans la visionneuse Frame.io apparaîtront-ils dans le projet Workfront ?**
 
 Les commentaires et les annotations restent dans la visionneuse Frame.io afin de conserver leur contexte complet, y compris les horodatages et les balises visuelles. Cela peut évoluer dans les prochaines versions.
+
+<span class="preview">
+
+Dans la prévisualisation, le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.</span>
+
+<div class="preview">
+
+**Qui peut voir l’indicateur de commentaire Frame.io dans Workfront ?**
+
+Seuls les utilisateurs qui pouvaient déjà voir ces commentaires dans Frame.io peuvent voir l’indicateur. Si vous possédez une licence Enterprise Frame.io, vous la voyez pour tout commentaire sur le document. Si vous ne disposez pas d&#39;une licence Entreprise Frame.io, vous ne la verrez qu&#39;une fois qu&#39;une approbation existe pour le document. Les approbations vous permettent également de voir tous les commentaires précédents du document.
+
+</div>
 
 **Est-il possible d’ajouter des commentaires sur une version téléchargée d’une ressource (par exemple, un PDF) ?**
 

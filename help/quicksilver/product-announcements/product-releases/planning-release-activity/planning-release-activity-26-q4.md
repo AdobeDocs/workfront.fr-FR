@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 3%
 
 ---
@@ -218,6 +218,7 @@ Les fonctionnalités suivantes sont incluses dans cette mise à jour :
 
 * Nous avons ajouté la nouvelle section Paramètres de connexion dans l’onglet Nouvelle connexion, lors de la connexion de types d’enregistrements
 * Nous avons ajouté un paramètre Rendre cette connexion dépendante dans la nouvelle section .
+* Nous avons modifié la façon dont vous ajoutez des champs de recherche aux connexions
 
 
 Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).

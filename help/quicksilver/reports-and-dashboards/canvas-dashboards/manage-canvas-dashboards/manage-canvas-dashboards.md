@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 76a1cd19239fa701e462f5abcc7f3b0e64136501
 workflow-type: tm+mt
-source-wordcount: 85
-ht-degree: 60%
+source-wordcount: 89
+ht-degree: 57%
 
 ---
 
@@ -36,6 +36,7 @@ Cette section contient les articles suivants :
 * [Utiliser des champs de devise dans les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
 * [Filtrer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
 * [Modifier un nom ou la description d’un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+* [Duplication d’un tableau de bord de zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
 * [Supprimer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
 * [Ajouter un tableau de bord de la zone de travail à un modèle de mise en page](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 

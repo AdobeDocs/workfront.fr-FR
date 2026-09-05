@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 6%
 
 ---
@@ -191,6 +191,13 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
       >Par exemple, si la date de début prévue d’un projet s’affiche à 15 h dans Workfront, elle s’affiche à 15 h dans Workfront Planning dans un champ de recherche importé.
 
   * Vous devez connecter les types d&#39;enregistrements pour pouvoir créer des hiérarchies dans Workfront Planning. Lorsque les connexions de type enregistrement n’existent pas, elles sont automatiquement créées lorsque vous créez une hiérarchie. Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+
+  * Si votre entreprise a acheté un package Adobe GenStudio for Performance Marketing, les scénarios suivants existent :
+
+    * Vous ne pouvez pas vous connecter à des types d&#39;enregistrements GenStudio à partir de types d&#39;enregistrements Planning.
+    * Vous pouvez connecter des types d’enregistrements GenStudio dans l’espace de travail GenStudio.
+    * Vous pouvez connecter les marques GenStudio à partir des types d’enregistrements GenStudio et Planning.
+    * Vous ne pouvez pas inclure les marques GenStudio dans une hiérarchie.
 
   <div class="preview">
 
