@@ -5,9 +5,9 @@ title: Outils de serveur MCP Adobe Workfront
 description: Liste de référence des outils disponibles via le serveur MCP Adobe Workfront, regroupés par zone Workfront.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -300,6 +300,13 @@ Les outils Insights récupèrent des informations sur les objets Workfront.
 | Liste des entités | `insights_list_entities` | Répertoriez tous les types d’objets Workfront disponibles pour la requête. | Lire |
 | Rechercher des utilisateurs | `insights_search_users` | Recherchez des personnes par nom dans votre instance Workfront. Saisissez un nom complet ou partiel, puis récupérez les utilisateurs qui correspondent le mieux. Cela peut également inclure de manière facultative des « robots » collaborateurs de l’IA aux côtés des utilisateurs réguliers. | Lire |
 
+## Outils de retour d’informations
+
+<span class="preview">Les outils de retour d’informations vous permettent de signaler votre expérience avec le serveur MCP Workfront directement à partir de votre plateforme IA agentic.</span>
+
+| Titre | Nom de l’outil | Fonctionnement | Action |
+| --- | --- | --- | --- |
+| <span class="preview">Partager vos commentaires</span> | <span class="preview">`share_feedback`</span> | <span class="preview"> Enregistre le sentiment signalé et ce qui s’est passé au cours de la conversation, afin que les outils de MCP de Workfront puissent être améliorés. Utilisé uniquement lorsque vous demandez explicitement à partager des commentaires (par exemple, « partager des commentaires » ou « signaler un bogue »).</span> | <span class="preview">Write</span> |
 
 
 
