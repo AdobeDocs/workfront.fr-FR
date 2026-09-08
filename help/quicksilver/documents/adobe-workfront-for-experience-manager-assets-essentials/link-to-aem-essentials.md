@@ -6,9 +6,9 @@ description: Vous pouvez lier une ressource ou un dossier de Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 51%
 
 ---
@@ -19,7 +19,7 @@ Vous pouvez lier une ressource ou un dossier de Experience Manager Assets Essent
 
 Pour lier des ressources et des dossiers à partir de Experience Manager Assets à l’aide de la fonction de conseil, consultez [Lier des ressources et des dossiers à la fonction de conseil optimisée par Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
-Si vous utilisez l’espace de stockage dans le cloud d’Adobe, voir [Utilisation de Adobe Experience Manager avec l’intégration Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Si vous utilisez l’espace de stockage cloud d’Adobe, voir [Utilisation de Adobe Experience Manager avec Workfront et l’espace de stockage cloud d’Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Conditions d’accès
@@ -50,7 +50,7 @@ Si vous utilisez l’espace de stockage dans le cloud d’Adobe, voir [Utilisati
    </tr>
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Modifier l’accès aux documents</p> </td> 
+   <td> <p>Accès en modification aux documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorisations d’objet</td> 

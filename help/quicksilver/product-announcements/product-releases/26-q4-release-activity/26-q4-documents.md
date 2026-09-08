@@ -4,7 +4,7 @@ description: Améliorations des documents du quatrième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 3%
@@ -211,7 +211,7 @@ Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier des r
 
 La liaison est optimisée par le gestionnaire d’accès. Vous obtenez ainsi également des Recherche optimisée par l&#39;IA, des suggestions intelligentes, une analyse de résumés de campagne, etc. lors de la sélection de contenu.
 
-Pour plus d’informations, voir [Lier du contenu de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+Pour plus d’informations, voir [Lier du contenu de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 <!--
 
