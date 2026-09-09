@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 2662
+source-wordcount: 2878
 ht-degree: 5%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 5%
 {{highlighted-preview}}
 
 Vous pouvez demander à d’autres personnes ou équipes d’approuver un document dans Adobe Workfront, ou leur demander de réviser un document sans avoir à l’approuver.
+
+Par défaut, un modèle d’approbation n’est visible que par son créateur ou sa créatrice. Dans cet article, vous ne pouvez sélectionner que les modèles que vous avez créés ou qui ont été partagés avec vous. Pour plus d’informations, voir [Partager un modèle](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) dans Gérer les modèles d’approbation.
 
 >[!IMPORTANT]
 >
@@ -95,7 +97,7 @@ Pour créer un workflow d’approbation en une seule étape :
    <table>
    <tr>
    <td><strong>Utiliser un modèle de validation (optionnel)</strong></td>
-   <td>Sélectionnez un modèle dans le menu déroulant. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
+   <td>Sélectionnez un modèle dans le menu déroulant. Le menu répertorie uniquement les modèles que vous avez créés ou qui ont été partagés avec vous, soit avec vous en particulier, soit avec tous les membres de votre organisation. Les administrateurs système voient ici chaque modèle du compte, quelle que soit la personne qui l’a créé ou partagé. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
    </tr>
    <tr>
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
@@ -151,6 +153,14 @@ Pour créer un workflow de validation avancée :
    >[!TIP]
    >
    >Pendant la création de l’approbation, vous pouvez revenir au mode de base en cliquant sur **Accéder au mode de base** dans le coin supérieur droit. Après avoir cliqué sur **Demander l’approbation**, l’option **Accéder à la version de base** n’est plus disponible.
+
+1. (Facultatif) Pour appliquer un modèle :
+
+   1. Activez Le Bouton (Bascule) **Modèles**.
+   1. Cliquez sur l’icône de filtre, puis sélectionnez **Tout**, **Mes modèles** ou **Partagé avec moi** pour affiner la liste.
+   1. Cliquez sur un modèle pour l’appliquer à l’approbation.
+
+   Les administrateurs système voient ici chaque modèle du compte, quelle que soit la personne qui l’a créé ou partagé.
 
 1. Renseignez les détails de l’étape 1 du chemin 1 :
 
@@ -222,7 +232,7 @@ Pour créer un workflow d’approbation en une seule étape :
    <table>
    <tr>
    <td><strong>Utiliser un modèle de validation (optionnel)</strong></td>
-   <td>Le champ Modèles est réduit par défaut. Cliquez sur le champ pour le développer, puis sélectionnez un modèle dans le menu déroulant. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
+   <td>Le champ Modèles est réduit par défaut. Cliquez sur le champ pour le développer, puis sélectionnez un modèle dans le menu déroulant. Le menu répertorie uniquement les modèles que vous avez créés ou qui ont été partagés avec vous, soit avec vous en particulier, soit avec tous les membres de votre organisation. Les administrateurs système voient ici chaque modèle du compte, quelle que soit la personne qui l’a créé ou partagé. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
    </tr>
    <tr>
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
@@ -284,6 +294,14 @@ Pour créer un workflow de validation avancée :
    >[!TIP]
    >
    >Pendant la création de l’approbation, vous pouvez revenir au mode de base en cliquant sur **Accéder au mode de base** dans le coin supérieur droit. Après avoir cliqué sur **Demander l’approbation**, l’option **Accéder à la version de base** n’est plus disponible.
+
+1. (Facultatif) Pour appliquer un modèle :
+
+   1. Activez Le Bouton (Bascule) **Modèles**.
+   1. Cliquez sur l’icône de filtre, puis sélectionnez **Tout**, **Mes modèles** ou **Partagé avec moi** pour affiner la liste.
+   1. Cliquez sur un modèle pour l’appliquer à l’approbation.
+
+   Les administrateurs système voient ici chaque modèle du compte, quelle que soit la personne qui l’a créé ou partagé.
 
 1. Renseignez les détails de l’étape 1 du chemin 1 :
 

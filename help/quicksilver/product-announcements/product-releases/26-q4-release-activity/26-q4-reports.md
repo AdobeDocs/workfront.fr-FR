@@ -4,10 +4,10 @@ description: Améliorations des rapports pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 8%
+source-wordcount: '783'
+ht-degree: 6%
 
 ---
 
@@ -17,27 +17,21 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## Copie de tableaux de bord dans les tableaux de bord de la zone de travail
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 3 septembre 2026
+>Mise à jour rapide de la production : 17 septembre 2026
+>Production pour tous : 15 octobre 2026
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+Vous pouvez désormais copier un tableau de bord de zone de travail à l’aide de la nouvelle action **Copier le tableau de bord**. Cette action est disponible pour tout utilisateur dont le niveau d’accès accorde des droits de modification ou de création sur les tableaux de bord, même s’il ne dispose que d’un accès en lecture seule au tableau de bord spécifique en cours de copie. Les utilisateurs ne disposant pas de droits de modification ou de création sur les tableaux de bord ne voient pas cette action.
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+Lorsque vous copiez un tableau de bord, vous pouvez le renommer, mettre à jour sa description et sa devise, et choisir les widgets, les filtres de tableau de bord et les invites à transférer vers la copie.
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+L’exécution en tant que configurations utilisateur sur les widgets n’est conservée que si vous êtes l’utilisateur désigné ou un administrateur système. Les préférences de partage ne sont pas copiées dans le nouveau tableau de bord et un message de confirmation contenant un lien vers le nouveau tableau de bord s’affiche une fois la copie terminée.
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+Auparavant, il n’existait aucun moyen de copier un tableau de bord ; les utilisateurs devaient reconstruire les tableaux de bord en partant de zéro pour créer des variations spécifiques à l’audience.
 
 ## Champ Type d’approbation dans les tableaux de bord de la zone de travail
 

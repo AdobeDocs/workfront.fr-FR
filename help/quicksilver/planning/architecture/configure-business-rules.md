@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1164'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Ou
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licence Adobe Workfront</p></td> 
-   <td><p>Norme de workflow</p>
+   <td><p>Contributeur de workflow ou version ultérieure</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Cliquez sur **Activer** pour rendre la règle active pour ce type d’enregistrement, puis sur **Enregistrer**.
 
    Les règles sont appliquées immédiatement après leur activation et tous les utilisateurs et utilisatrices autorisés à modifier ou supprimer des enregistrements dans le type d’enregistrement sélectionné doivent les suivre.
+1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) au nom de la règle métier dans l’en-tête de page pour ouvrir la zone **Détails de la règle** et mettre à jour les informations sur la règle métier.
 1. (Facultatif et recommandé) Cliquez sur la flèche vers l&#39;arrière à gauche de l&#39;en-tête de la page **Règles métier** pour afficher la page de type d&#39;enregistrement et accéder à une vue de tableau ou ouvrir la page d&#39;un enregistrement, puis essayez de modifier ou de supprimer un enregistrement afin de tester la règle que vous venez de créer.
 
 ## Gestion des règles métier
@@ -153,18 +154,22 @@ Vous pouvez modifier, supprimer ou désactiver des règles métier existantes.
 La modification d’une règle existante ne modifie pas les enregistrements existants. La règle modifiée s&#39;applique uniquement aux enregistrements existants lorsqu&#39;une personne tente de les modifier ou de les supprimer.
 
 1. Revenez à la page de table **Règles métier** pour le type d’enregistrement.
-1. Recherchez la règle que vous souhaitez modifier.
-1. Pointez sur le nom de la règle, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
+1. Recherchez la règle à modifier dans la vue Tableau.
+1. Pointez sur le nom d’une règle active, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
 
    * **Modifier** : ouvre la page de configuration des règles métier et vous pouvez modifier les informations relatives à la règle métier.
-   * **Désactiver** : <!--check this in the UI: right now, it says Disable--> permet d’empêcher le déclenchement de la règle, mais en la préservant pour le futur, si nécessaire.
+   * **Désactiver** : permet d’empêcher le déclenchement de la règle, mais en la préservant pour le futur, si nécessaire.
    * **Supprimer** : toutes les informations relatives à la règle sont supprimées. Les règles supprimées ne peuvent pas être récupérées.
 
+   ![Menu Plus de règle métier développé](assets/business-rule-more-menu-in-table-expanded.png)
+
    Les règles modifiées ou désactivées ne s’appliquent qu’aux enregistrements futurs et ne sont pas appliquées rétroactivement.
+1. (Facultatif et conditionnel) Passez la souris sur le nom d’une règle métier désactivée dans le tableau, puis cliquez sur **Plus** > **Activer** pour activer la règle.
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   La règle est activée.
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 

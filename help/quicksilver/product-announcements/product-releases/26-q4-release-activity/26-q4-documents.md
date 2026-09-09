@@ -4,9 +4,9 @@ description: Améliorations des documents du quatrième trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -17,22 +17,37 @@ Cette page décrit les améliorations apportées aux documents avec la version d
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## System Administrators full access to approval templates
+## Contrôler qui peut consulter et utiliser les modèles d&#39;approbation
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Aperçu : 30 juillet 2026
+>Version rapide de production : 13 août 2026
+>Production pour tous : 15 octobre 2026
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+Les modèles d’approbation sont désormais privés par défaut. Auparavant, chaque demandeur d’approbation pouvait voir chaque modèle du système, ce qui rendait les listes de modèles longues et difficiles à parcourir. Désormais, un modèle n’est visible que par l’utilisateur qui l’a créé, sauf si le créateur ou la créatrice le partage.
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Les créateurs et créatrices de modèles peuvent partager un modèle avec des utilisateurs et utilisatrices spécifiques ou avec toutes et tous les membres de leur organisation à partir de la liste Modèles d’approbation dans la Configuration de Workfront. Lors de la demande d’approbation, les utilisateurs voient uniquement les modèles qu’ils ont créés ou qui ont été partagés avec eux.
 
--->
+Cette modification s’applique aux modèles nouveaux et existants, et l’accès est appliqué de manière cohérente, quelle que soit la manière dont un modèle est demandé.
+
+Pour plus d’informations, voir :
+
+* [Partager un modèle](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) dans Création d’un modèle de workflow d’approbation pour les documents
+* [Créer un workflow d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## Accès complet des administrateurs système aux modèles d&#39;approbation
+
+>[!NOTE]
+>
+>Aperçu : 8 septembre 2026
+>Mise à jour rapide de la production : 8 septembre 2026
+>Production pour tous : 8 septembre 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+Les administrateurs et administratrices système peuvent désormais afficher, modifier, supprimer et supprimer en bloc chaque modèle d’approbation du compte, quelle que soit la personne qui l’a créé ou partagé. Auparavant, les administrateurs système étaient soumis aux mêmes règles de partage que les autres utilisateurs et ne pouvaient afficher ou gérer que les modèles qu’ils créaient ou qui étaient partagés avec eux.
+
+Pour plus d’informations, voir [Gérer les modèles d’approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Visibilité des commentaires de cadre dans Workfront
 
@@ -196,7 +211,7 @@ Si votre entreprise utilise l’espace de stockage Adobe, vous pouvez lier des r
 
 La liaison est optimisée par le gestionnaire d’accès. Vous obtenez ainsi également des Recherche optimisée par l&#39;IA, des suggestions intelligentes, une analyse de résumés de campagne, etc. lors de la sélection de contenu.
 
-Pour plus d’informations, voir [Lier du contenu de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+Pour plus d’informations, voir [Lier du contenu de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 <!--
 

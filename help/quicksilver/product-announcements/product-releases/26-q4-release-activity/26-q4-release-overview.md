@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2869'
 ht-degree: 8%
 
 ---
@@ -240,6 +240,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
     &lt;td>&lt;p>13 août 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>15 octobre, 2026&lt;/p>&lt;/td>
     &lt;/tr>
+    &lt;td>
+    &lt;td>
+    &lt;a href=« /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md » class=« MCXref xref » xrefformat=« {para}« >Nouvel outil de commentaires sur le partage disponible dans le connecteur Workfront MCP&lt;/a>
+    &lt;p>Un nouvel outil de commentaires sur le partage vous permet de signaler votre sentiment et ce qui s’est passé au cours de la conversation. Les outils Workfront MCP peuvent donc être améliorés.&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>3 septembre 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15 octobre 2026&lt;/p>&lt;/td>
+    &lt;/tr>
     &lt;/tbody>
      
      
@@ -259,17 +268,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accès complet des administrateurs système aux modèles d’approbation</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Les administrateurs et administratrices système peuvent désormais afficher, modifier, supprimer et supprimer en bloc chaque modèle d’approbation du compte, quelle que soit la personne qui l’a créé ou partagé.</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>8 septembre 2026</p></td>
+            <td><p>8 septembre 2026</p></td>
+            <td><p>8 septembre 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Visibilité des commentaires de cadre dans Workfront</a>
@@ -342,6 +349,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             </td>
             <td><p>3 septembre 2026</p></td>
             <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Contrôler qui peut consulter et utiliser les modèles d'approbation</a>
+                <p>Les modèles d’approbation sont désormais privés par défaut et les créateurs et créatrices peuvent les partager avec des utilisateurs et utilisatrices spécifiques ou avec toutes et tous les membres de leur organisation.</p>
+            </td>
+            <td><p>30 Juillet 2026</p></td>
+            <td><p>13 Août 2026</p></td>
             <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
@@ -443,17 +459,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copie de tableaux de bord dans les tableaux de bord de la zone de travail</a>
+                <p>Vous pouvez désormais copier un tableau de bord Zone de travail à l’aide de la nouvelle action Copier le tableau de bord et choisir les éléments à transférer vers la copie.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3 septembre 2026</p></td>
+            <td><p>17 septembre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -606,6 +620,19 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+
+## Mises à jour de la visionneuse de relecture de bureau
+
+### Version 2.1.59
+
+Version de production pour tous les clients : 9 septembre 2026
+
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.59. Cette mise à jour comprend les modifications suivantes :
+
+* Le lecteur de vérification pour bureau est désormais disponible en tant que build native pour les Mac dotés du silicium Apple.
+* Mise à jour du framework d’application sous-jacent (Electron) vers une version plus récente, ce qui améliore les performances et la sécurité.
+
+Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ## Annonces
 

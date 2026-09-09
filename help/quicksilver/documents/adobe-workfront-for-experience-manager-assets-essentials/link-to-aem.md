@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 18%
@@ -202,7 +202,7 @@ Pour lier un dossier :
 
 ## Considérations
 
-* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour les objets utilisant l’espace de stockage Adobe. Si votre organisation utilise l’espace de stockage Adobe, vous pouvez toujours lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials, mais vous n’aurez pas accès aux fonctionnalités du gestionnaire de contenu telles que Recherche optimisée par l&#39;IA, les suggestions intelligentes ou les rendus Dynamic Media. Pour plus d’informations, voir [Lier du contenu et des dossiers de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+* La fonctionnalité de gestionnaire d’accès n’est pas disponible pour les objets utilisant l’espace de stockage Adobe. Si votre organisation utilise l’espace de stockage Adobe, vous pouvez toujours lier des ressources et des dossiers à partir de Experience Manager Assets ou d’Assets Essentials, mais vous n’aurez pas accès aux fonctionnalités du gestionnaire de contenu telles que Recherche optimisée par l&#39;IA, les suggestions intelligentes ou les rendus Dynamic Media. Pour plus d’informations, voir [Lier du contenu et des dossiers de Experience Manager Assets avec l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 * La fonctionnalité de gestionnaire d’accès n’est pas disponible pour Assets Essentials. Pour lier des ressources et des dossiers à partir d’Assets Essentials, voir [Lier des ressources et des dossiers à partir de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

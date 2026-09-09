@@ -20,18 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 13%
+source-wordcount: 800
+ht-degree: 12%
 
 ---
 
 # Créer un modèle de workflow d’approbation pour les documents
 
-{{highlighted-preview}}
-
-Dans la zone Configuration de Workfront , les utilisateurs disposant d’une licence Standard peuvent créer des modèles d’approbation réutilisables. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources de la zone Documents d’un objet.
+Dans la zone Configuration de Workfront , les utilisateurs disposant d’une licence Standard peuvent créer des modèles d’approbation réutilisables. Un modèle n’est visible que par l’utilisateur qui l’a créé, sauf si le créateur le partage avec des utilisateurs spécifiques ou avec tous les membres de l’organisation. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources de la zone Documents d’un objet.
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ Pour créer un modèle de validation :
 1. Cliquez sur **Enregistrer**.
 
 Une fois le modèle créé, il peut être appliqué aux documents dans la zone Documents d’un objet pour lancer le processus de révision et d’approbation formel dans Workfront.
+
+>[!NOTE]
+>
+>Les nouveaux modèles ne sont visibles que par vous. Pour partager, modifier ou supprimer un modèle, voir [&#x200B; Gérer les modèles d’approbation &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
