@@ -6,7 +6,7 @@ description: inventoriez, classez et corrigez les scénarios Workfront Fusion ba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -18,12 +18,6 @@ ht-degree: 1%
 Les scénarios Workfront Fusion reposant sur la relecture Workfront héritée ne fonctionnent pas automatiquement avec les projets de stockage dans le cloud Adobe. Les modules, webhooks et points d’entrée d’API spécifiques à une épreuve ont des équivalents directs dans certains cas et des changements significatifs dans d’autres. Cet article vous aide à inventorier les scénarios affectés, à les classer et à décider d’un chemin de correction avant d’importer les équipes qui dépendent de ces scénarios dans votre déploiement de l’espace de stockage dans le cloud Adobe.
 
 Les scénarios étendus aux projets Workfront hérités continuent de fonctionner comme aujourd’hui. Le travail de correction décrit dans cet article s’applique aux scénarios que vous avez l’intention d’exécuter sur des projets de stockage dans le cloud Adobe.
-
->[!IMPORTANT]
->
->Le connecteur Adobe Workfront Unified Review and Approvals est désormais disponible dans Workfront Fusion. Nous vous recommandons d’utiliser ce connecteur pour des scénarios plus simples et plus fiables lors de l’utilisation de Fusion avec le stockage dans le cloud Adobe.
->
->Pour plus d’informations et d’instructions, consultez [Modules de révision et d’approbation unifiés d’](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) dans la documentation de Workfront Fusion.
 
 Utilisez cet article pour inventorier et classer les scénarios afin de comprendre la meilleure façon de mettre à niveau vos scénarios Fusion pour tenir compte de l’espace de stockage cloud Adobe.
 
@@ -55,6 +49,12 @@ Le travail requis par chaque scénario dépend de sa fonction et de ce qui est d
 Examinez chaque scénario par rapport à votre logique commerciale spécifique pour décider de sa classification.
 
 ## Approche de remédiation
+
+>[!IMPORTANT]
+>
+>Le connecteur Adobe Workfront Unified Review and Approvals est désormais disponible dans Workfront Fusion. Nous vous recommandons d’utiliser ce connecteur pour des scénarios plus simples et plus fiables lors de l’utilisation de Fusion avec le stockage dans le cloud Adobe.
+>
+>Pour plus d’informations et d’instructions, consultez [Modules de révision et d’approbation unifiés d’](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) dans la documentation de Workfront Fusion.
 
 Utilisez l’approche suivante pour planifier et exécuter la remédiation de Fusion :
 
