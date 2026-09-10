@@ -54,7 +54,7 @@ Examinez chaque scénario par rapport à votre logique commerciale spécifique p
 >
 >Le connecteur Adobe Workfront Unified Review and Approvals est désormais disponible dans Workfront Fusion. Nous vous recommandons d’utiliser ce connecteur pour des scénarios plus simples et plus fiables lors de l’utilisation de Fusion avec le stockage dans le cloud Adobe.
 >
->Pour plus d’informations et d’instructions, consultez [Modules de révision et d’approbation unifiés d’](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) dans la documentation de Workfront Fusion.
+>Pour plus d’informations et d’instructions, consultez [Modules de révision et d’approbation unifiés d’](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) dans la documentation de Workfront Fusion.
 
 Utilisez l’approche suivante pour planifier et exécuter la remédiation de Fusion :
 
