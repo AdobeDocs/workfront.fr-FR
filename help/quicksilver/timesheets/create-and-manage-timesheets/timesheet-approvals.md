@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 51%
+source-wordcount: 728
+ht-degree: 48%
 
 ---
 
@@ -80,6 +80,7 @@ Si les paramètres de notification suivants sont en place, l’utilisateur qui s
 
 * L&#39;administrateur Workfront a activé les gestionnaires d&#39;événements Approbation de feuille de temps pour l&#39;utilisateur et Rejet de feuille de temps pour l&#39;utilisateur. Pour plus d’informations sur l’activation des notifications d’événements, voir [Types de notifications d’événements](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * La notification personnelle Ma feuille de temps est approuvée est activée sur la page de profil de l’utilisateur. Pour plus d’informations, consultez la section [Modifier vos propres notifications par e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* L’utilisateur qui a envoyé la feuille de temps dispose d’une licence Standard. Les utilisateurs disposant d’une licence light ou d’une licence inférieure ne reçoivent pas la notification par e-mail d’approbation de feuille de temps, même si la notification personnelle Ma feuille de temps est approuvée est activée sur leur profil.
 
 ### Approuver une feuille de temps à partir de la zone Feuilles de temps
 

@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 86%
+source-wordcount: 683
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essen
 
 >[!NOTE]
 >
->Vous pouvez également connecter plusieurs référentiels Experience Manager Assets à un environnement Workfront ou plusieurs environnements Workfront à un référentiel Experience Manager Assets via plusieurs identifiants d’organisation. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.<br>
+>Vous pouvez également relier plusieurs référentiels Experience Manager Assets à un environnement Workfront, ou plusieurs environnements Workfront à un référentiel Experience Manager Assets à travers des ID d’organisation. Suivez les instructions de configuration de cet article pour chaque intégration que vous souhaitez configurer.<br>
 >Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.
 
 ## Conditions d’accès
@@ -71,7 +71,7 @@ Connectez votre travail à votre contenu dans Experience Manager Assets Essen
   <tr>
    <td><strong>Configurations du niveau d’accès</strong>
    </td>
-   <td>Vous devez être administrateur Workfront pour configurer une intégration Experience Manager. Une fois configuré, les utilisateurs disposant d’une licence Standard ou Plan peuvent configurer des dossiers liés sur des projets individuels.
+   <td>Pour configurer une intégration d’Experience Manager, vous devez être un administrateur ou une administratrice de Workfront. Une fois configuré, les utilisateurs disposant d’une licence Standard ou Plan peuvent configurer des dossiers liés sur des projets individuels.
    </td>
   </tr>
 </table>
@@ -86,7 +86,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 {{step-1-to-setup}}
 
-1. Sélectionnez **Documents** ![Icône Documents](assets/document-icon.png) dans le panneau de gauche, puis **Intégration Experience Manager**.
+1. Sélectionnez **Documents** ![icône de documents](assets/document-icon.png) dans le panneau de gauche, puis sélectionnez **Experience Manager Assets**.
 1. Sélectionnez **Ajouter l’intégration Experience Manager**.
 1. Indiquez les informations suivantes :
 
@@ -100,7 +100,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    <tr>
       <td><strong>URL de navigation</strong>
       </td>
-      <td>Le système renseigne automatiquement l’URL de navigation. Cette URL est utilisée pour établir un lien vers l’instance Assets Essentials de votre organisation à partir du menu principal pour un accès rapide.
+      <td>Le système renseigne automatiquement l’URL de navigation. Cette URL est utilisée pour créer un lien vers l’instance Assets Essentials de votre organisation à partir du menu principal pour un accès rapide.
       </td>
    </tr>
    <tr>

@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 862924a86a71d982098dff8143cb047cdb301806
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: 1751
 ht-degree: 88%
 
 ---
@@ -90,7 +90,7 @@ Vous pouvez connecter votre travail à votre contenu dans [!DNL Experience Manag
   </tr>
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,7 +105,7 @@ Avant de commencer
 
 {{step-1-to-setup}}
 
-1. Sélectionnez **[!UICONTROL Documents]** dans le panneau de gauche, puis Intégration **[!UICONTROL [!DNL Experience Manager]]**.
+1. Sélectionnez **[!UICONTROL Documents]** dans le panneau de gauche, puis sélectionnez **[!UICONTROL [!DNL Experience Manager]Assets]**.
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Avant de commencer
 1. Sélectionner **[!UICONTROL Ajouter une intégration [!DNL Experience Manager]]**.
 1. Dans le champ **[!UICONTROL Nom]**, saisissez le nom que les utilisateurs et utilisatrices doivent voir lorsqu’ils interagissent avec cette intégration dans Workfront et Experience Manager Assets.
 1. Dans le champ **[!UICONTROL URL de navigation]**, le système renseigne automatiquement l’URL de navigation. Cette URL en lecture seule est utilisée pour créer un lien vers l’instance [!DNL Experience Manager] de votre organisation à partir du [!UICONTROL Menu principal] pour un accès rapide.
-1. Choisissez un référentiel dans le menu déroulant **[!UICONTROL [!DNL Experience Manager]le référentiel Assets]**. Le système renseigne automatiquement tous les référentiels [!DNL Experience Manager] associés à l’ID d’organisation auquel votre profil utilisateur est affecté.
+1. Sélectionnez un référentiel dans le menu déroulant Référentiel de ressources **[!UICONTROL [!DNL Experience Manager]]**. Le système renseigne automatiquement les référentiels [!DNL Experience Manager] associés à l’ID d’organisation auquel votre profil utilisateur est affecté.
    ![Choix du référentiel Experience Manager](assets/setup-information.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou passez à la section [Configurer les métadonnées (facultatif)](#set-up-metadata-optional) de cet article.

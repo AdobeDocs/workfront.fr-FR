@@ -13,10 +13,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 97%
+source-wordcount: 706
+ht-degree: 93%
 
 ---
 
@@ -69,7 +69,7 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Lorsqu’une feuille de temps est acceptée et fermée, envoyer un e-mail à la personne.</strong> </p> <p>Une fois votre feuille de temps validée, vous recevez une notification par e-mail.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Timesheet Approved] : &lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt;</em>.</p> <p> <p>Remarque : vous ne pouvez pas configurer cette notification pour un e-mail de synthèse quotidienne.</p> </p> </td> 
+   <td> <p><strong>Lorsqu’une feuille de temps est acceptée et fermée, envoyer un e-mail à la personne.</strong> </p> <p>Une fois votre feuille de temps validée, vous recevez une notification par e-mail.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Timesheet Approved] : &lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt;</em>.</p> <p> <p>Remarque : vous ne pouvez pas configurer cette notification pour un e-mail de synthèse quotidienne.</p> </p> <p> <p>Remarque : vous devez disposer d'une licence Standard pour recevoir cette notification. Les utilisateurs disposant d’une licence light ou inférieure ne reçoivent pas la notification par e-mail d’approbation de feuille de temps, même si elle est activée.</p> </p> </td> 
    <td> Nom de la personne qui a approuvé votre feuille de temps<br>Date et heure de l’approbation de la feuille de temps<br>Statut de la feuille de temps ([!UICONTROL Approved])<br>Date de début et date de fin de la feuille de temps<br>Nombre total d’heures consignées dans la feuille de temps<br>Heures supplémentaires consignées dans la feuille de temps </td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 

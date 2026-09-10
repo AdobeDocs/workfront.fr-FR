@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 35%
+source-wordcount: 645
+ht-degree: 34%
 
 ---
 
@@ -120,25 +120,30 @@ Pour augmenter le nombre de types de risques dans votre instance Workfront, proc
 
 1. (Facultatif) Pour exporter une liste de types de risques, cliquez sur l’icône [!UICONTROL **Exporter**]. Vous pouvez exporter des vers les types de fichiers suivants :
 
-   * Dans l’environnement de production :
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel (xlsx)
-     * Délimité par des tabulations
-     * CSV
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Délimité par des tabulations
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * Dans l’environnement de Prévisualisation :
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   Dans l’environnement de production, vous pouvez d’abord sélectionner un nombre limité de types de risques, puis les exporter pour obtenir une liste plus réduite. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   Dans l’environnement de production, vous pouvez d’abord sélectionner un nombre limité de types de risques, puis les exporter pour obtenir une liste plus réduite.
+   >
+   > <span class="preview">Cette fonctionnalité a été supprimée de l’environnement de prévisualisation.</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Créer des types de risques {#create-risk-types}
 

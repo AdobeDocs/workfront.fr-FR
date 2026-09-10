@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning afin d’indiquer que certains champs sont requis avant qu’une action sur un enregistrement de ce type soit autorisée ou empêchée.
 
-Selon la formulation de la règle, vous pouvez autoriser les actions suivantes sur les enregistrements si les règles métier définies sont respectées :
+Selon la formulation de la règle, vous pouvez autoriser ou interdire les actions suivantes sur les enregistrements si les règles métier définies sont respectées :
 
 * Modifier ou ne pas modifier un enregistrement
 * Supprimer ou ne pas supprimer un enregistrement
