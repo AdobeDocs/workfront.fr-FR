@@ -220,7 +220,7 @@ Il existe des commandes pour l’espace Idéation qui configurent ce que vous vo
 
    * **Documents** — documents téléchargés dans l&#39;espace sélectionné
    * **Recherche Web** — recherche Web externe
-   * **** — Adobe Customer Journey Analytics
+   * **&#x200B;**&#x200B;— Adobe Customer Journey Analytics
 
 1. Cliquer sur **Enregistrer**.
 
