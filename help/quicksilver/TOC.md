@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
 workflow-type: tm+mt
-source-wordcount: '14499'
+source-wordcount: '14542'
 ht-degree: 92%
 
 ---
@@ -1849,7 +1849,7 @@ ht-degree: 92%
     * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2309,6 +2309,13 @@ ht-degree: 92%
     * [Gérer votre instance d’Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/manage-planning-sta-instance.md)
     * [Gestion des utilisateurs dans Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Gestion des équipes dans Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}Espace d’idéation dans Workfront Planning {#ideation}
+    * {hide-from-toc}[Espace d’idéation pour Adobe Workfront Planning : index des articles](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[Prise en main de l’espace d’idéation pour Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Créer des briefs dans l&#39;espace Idéation](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[Partager un espace d&#39;idées avec d&#39;autres personnes](planning/ideation/share-the-ideation-space.md)
+
 * Intégrations Adobe Workfront {#adobe-workfront-integrations}
   * [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
   * [Vue d’ensemble des intégrations intégrées d’Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2594,8 +2601,8 @@ ht-degree: 92%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
