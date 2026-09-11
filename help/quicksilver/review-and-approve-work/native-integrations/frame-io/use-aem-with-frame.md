@@ -24,10 +24,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 840211ef726bb638f75158d95f751c5833cc22bb
 workflow-type: tm+mt
-source-wordcount: 2112
-ht-degree: 56%
+source-wordcount: 2166
+ht-degree: 54%
 
 ---
 
@@ -301,12 +301,10 @@ Pour lier du contenu :
          <td><strong>Application de modificateurs Dynamic Media aux rendus.</strong> Ajoutez des modificateurs pour transformer les rendus de ressources en temps réel et prévisualisez les résultats avant de sélectionner un rendu pour votre application hôte.</td>
          <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Rendus de ressources Dynamic Media disponibles</a>.</td>
       </tr>
-      <!--
       <tr>
-         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td><strong>Découvrir et parcourir les fragments de contenu.</strong> Effectuez une recherche dans les fragments de contenu, affichez des aperçus de miniatures en direct, vérifiez le statut (Brouillon, Modifié ou Publié) et examinez les propriétés, références et variations détaillées.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> Découverte de fragments de contenu </a>.</td>
       </tr>
-      -->
       <tr>
          <td><strong>Accès aux métadonnées des ressources.</strong> Consultez les propriétés de la ressource telles que le titre, la description, le format, la taille et d’autres onglets de métadonnées (Produit, Campagne, Balises) cohérents avec la vue Assets.</td>
          <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Accès aux métadonnées des ressources cohérentes avec la vue Assets</a>.</td>
