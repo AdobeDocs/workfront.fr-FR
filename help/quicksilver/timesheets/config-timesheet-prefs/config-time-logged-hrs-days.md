@@ -19,10 +19,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
-ht-degree: 79%
+ht-degree: 76%
 
 ---
 
@@ -87,6 +87,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    Tenez compte des points suivants lors de la configuration de ce paramètre :
 
    * Cette option n’est pas disponible lors que vous choisissez la consignation du temps en heures.
-   * Cette option est utilisée uniquement pour la consignation du temps. Cette option n’est pas liée à l’option **Planning** qui est également disponible lors de la modification d’un utilisateur ou d’une utilisatrice. L’option **Planning** est utilisée lors du calcul des chronologies et dans d’autres zones de Workfront. (Pour plus d’informations sur l’utilisation de l’option **Planning**, consultez [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * Cette option est utilisée uniquement pour la consignation du temps. Cette option n’est pas liée à l’option **Planning** qui est également disponible lors de la modification d’un utilisateur ou d’une utilisatrice. L’option **Planning** est utilisée lors du calcul des chronologies et dans d’autres zones de Workfront. Pour plus d’informations sur l’utilisation de l’option **Planification**, voir [Création d’une planification](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 1. Cliquez sur **Enregistrer les modifications**.

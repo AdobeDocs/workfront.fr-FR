@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -130,14 +130,19 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >Vous pouvez ajouter des champs connectés aux règles métier, mais veillez à utiliser des instructions qui recherchent un tableau plutôt qu’une valeur de champ. Par exemple, au lieu de `ISBLANK`, utilisez `ARRAYLENGTH(field)=0`.
+
+
+   Le champ **Formule** contient des indicateurs lorsqu’un champ ou une expression est erroné.  <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >Nous vous recommandons vivement d’inclure dans la formule de règle les informations suivantes afin de faciliter la compréhension des utilisateurs et des utilisatrices lorsqu’une action qu’ils ou elles tentent d’effectuer sur un enregistrement n’est pas autorisée :
    >
    >* Champs exacts pour lesquels la règle est configurée.
    >* Conséquence exacte en cas de non-respect de la règle.
-
-   Le champ **Formule** contient des indicateurs lorsqu’un champ ou une expression est erroné.  <!--add screen shot?-->
 
    Dans la section **Alors** de la règle métier, vous pouvez voir une explication de la fonction de la règle.
 
