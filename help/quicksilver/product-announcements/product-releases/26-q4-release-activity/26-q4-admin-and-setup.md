@@ -4,13 +4,11 @@ description: Améliorations apportées à l’administration pour le quatrième 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # Améliorations apportées à l’administration pour le quatrième trimestre 2026
 
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -74,6 +72,8 @@ Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/q
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
 >Production pour tous : 15 octobre 2026
+>
+>Cette fonctionnalité a été temporairement supprimée de l’environnement de Prévisualisation le 14 septembre 2026.
 
 Lorsque vous travaillez dans un modèle de mise en page, vous pouvez désormais repositionner les applications personnalisées dans n’importe quel ordre à l’aide des options de menu Workfront par défaut. Cela vous permet de positionner chaque application à l’endroit le plus pertinent.
 
