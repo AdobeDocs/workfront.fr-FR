@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 3%
-
 ---
-
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
 
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
@@ -76,7 +74,7 @@ Les semaines personnalisées ne sont pas visibles dans Workfront. Ils ne sont vi
 
 Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-## Filtres pour les champs d’enregistrement connectés dépendants
+## Filtres pour les champs d’enregistrement connectés
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/q
 >Mise à jour rapide de la production : 17 septembre 2026
 >Production pour tous : 15 octobre 2026
 
-Vous pouvez désormais filtrer certains types d&#39;enregistrements qui répondent à un critère de filtre lorsque vous ajoutez des connexions dépendantes dans Planning.
+Vous pouvez désormais filtrer certains types d&#39;enregistrements qui répondent à un critère de filtre lorsque vous ajoutez des connexions dans Planning.
 
-Au lieu que tous les types d’enregistrement soient disponibles dans les champs connectés dépendants, seuls ceux qui répondent à vos critères de filtrage s’afficheront.
+Seuls les enregistrements qui répondent à vos critères de filtrage s&#39;afficheront sous forme d&#39;options dans les champs connectés.
 
 Pour cette fonctionnalité, nous avons ajouté une nouvelle option Règles de filtrage des enregistrements dans l&#39;onglet Nouvelle connexion lors de la connexion des types d&#39;enregistrements.
 
@@ -128,7 +126,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
