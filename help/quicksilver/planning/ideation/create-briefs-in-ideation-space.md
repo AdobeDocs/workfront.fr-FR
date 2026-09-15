@@ -4,17 +4,15 @@ description: Cet article décrit comment réfléchir et élaborer des stratégie
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 4%
-
+source-wordcount: '1461'
+ht-degree: 3%
 ---
-
 
 # Créer des briefs dans l’espace Idéation
 
-<!-- add to TOC and miniTOC-->
+<!--add to TOC and miniTOC-->
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>
 
@@ -50,18 +48,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
 <li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Produits supplémentaires</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
   <tr> 
    <td role="rowheader"><p>Licence de workflow Adobe</p></td> 
    <td><p>Standard</p>
@@ -88,14 +85,16 @@ Ou
       <p>Autorisations d’éditeur dans l’espace Idéation pour créer des résumés</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Rôles utilisateur Adobe GenStudio for Performance Marketing</p></td> 
-   <td><p><ul><li>Tout rôle d’utilisateur GenStudio pour accéder aux campagnes, aux produits et aux rôles</li>
-   <li>GenStudio System Manager pour accéder aux activations <!--and Events--></li></ul>
-   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
@@ -220,7 +219,7 @@ Il existe des commandes pour l’espace Idéation qui configurent ce que vous vo
 
    * **Documents** — documents téléchargés dans l&#39;espace sélectionné
    * **Recherche Web** — recherche Web externe
-   * **&#x200B;**&#x200B;— Adobe Customer Journey Analytics
+   * **** — Adobe Customer Journey Analytics
 
 1. Cliquer sur **Enregistrer**.
 

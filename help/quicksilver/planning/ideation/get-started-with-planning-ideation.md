@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1001'
 ht-degree: 2%
-
 ---
-
 
 # Prise en main de l’Espace d’idéation pour Adobe Workfront Planning
 
@@ -19,7 +17,8 @@ ht-degree: 2%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 L’espace d’idéation Adobe est une fonctionnalité d’idéation stratégique optimisée par l’IA d’Adobe, directement intégrée à Workfront Planning. Il fournit aux équipes marketing un point de départ structuré et fondé sur des données pour la stratégie de campagne, en remplaçant la recherche manuelle et les conjectures par des résumés générés par l’IA, ancrés dans l’historique réel des performances d’une organisation.
 
-Accessible uniquement à partir de Workfront Planning, l’espace Idéation se trouve tout au début du cycle de vie de la campagne, avant la planification, la production et la diffusion. Il se trouve également directement dans l’espace de travail Workfront Planning, où les équipes planifient et exécutent leur travail.
+Accessible uniquement à partir de Workfront Planning ou du menu principal de Workfront, l’espace d’idéation se trouve tout au début du cycle de vie de la campagne, avant la planification, la production et la diffusion. Il se diffuse directement dans l’espace de travail de Workfront Planning, où les équipes planifient et exécutent leur travail.
 
 ## Disponibilité du produit
 
 Le calendrier de publication prévu de l’espace d’idéation, qui peut être modifié, comprend les jalons suivants :
 
 * Beta fermée :**lancée en juillet 2026, avec un petit nombre de clients.**
-* **Open Beta :** prévu pour septembre 2026. Il s’agira d’une offre d’opt-in, pour laquelle les clients doivent activer et configurer l’option, au lieu de s’y exclure activement.
+* **Open Beta :** prévu pour octobre 2026. Il s’agira d’une offre d’opt-in, pour laquelle les clients doivent activer et configurer l’option, au lieu de s’y exclure activement.
 * **Disponibilité générale :** prévu pour la fin du second semestre 2026.
 
 ## Exigences du produit
 
-Vous pouvez accéder à l’espace d’idéation si votre entreprise et vous avez accès aux packages suivants en même temps :
+Vous pouvez accéder à l’Espace d’idée si votre entreprise et vous avez accès aux packages suivants, en fonction du moment où vous accédez à l’Espace d’idée :
 
-* Un package de workflow Adobe Workfront avec un package Workfront Planning
+* Au cours de la version Open Beta, vous devez disposer des éléments suivants :
 
-  Ou
+  * Un package de workflow Adobe Workfront avec un package Workfront Planning
 
-  Un produit Adobe Workfront Planning autonome
+* Après la mise à jour de la disponibilité générale, vous pouvez disposer de l’une des options suivantes :
 
-  >[!NOTE]
-  >
-  >L’espace d’idéation n’est accessible qu’à partir d’Adobe Planning. Vous n’avez pas besoin d’une connexion distincte pour accéder à l’espace d’idéation. Il est immédiatement disponible si vous pouvez vous connecter à Workfront Planning.
+  * Un package de workflow Adobe Workfront avec un package Workfront Planning
+  * Un produit Adobe Workfront Planning autonome
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>L’espace d’idéation est accessible uniquement à partir du menu principal d’Adobe Workfront ou de Workfront Planning. Vous n’avez pas besoin d’une connexion distincte pour accéder à l’espace d’idéation. Il est immédiatement disponible si vous pouvez vous connecter à Workfront.
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 Pour plus d&#39;informations sur l&#39;accès requis pour utiliser l&#39;espace d&#39;idéation, voir [Accès requis pour utiliser l&#39;espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
-En plus des exigences ci-dessus, vous devez également répondre aux critères suivants pour participer au programme Beta fermé :
+<!--
+No longer required or recommended, per Et:
 
-* disposer d’un compte Adobe Customer Journey Analytics (CJA) actif avec suivi de campagne en place ;
-* Disposer de campagnes multicanal avec un processus de planification reproductible
-* Utilisation active de Workfront Planning pour les opérations marketing
-* Ayez au moins un stratège ou un utilisateur d’idéation identifié qui sera l’utilisateur principal de l’espace d’idéation.
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## Audience et cas d’utilisation
 
@@ -117,7 +123,7 @@ Pour plus d’informations sur l’utilisation de l’espace Idéation , consult
 
 ## Vue d’ensemble de l’emplacement
 
-L’espace d’idéation est un outil d’idéation marketing stratégique permettant aux marketeurs de marques et de produits de créer des campagnes plus efficaces plus rapidement et avec une meilleure harmonisation des équipes. Il fonde les suggestions de l’IA dans un contexte de marketing réel (résumés précédents, données de performance, informations sur l’audience, directives de la marque et ressources de campagne existantes) afin que les résultats soient pertinents, et non génériques.
+L’espace Idéation est un outil collaboratif d’idéation marketing stratégique permettant aux marketeurs de marques et de produits de créer des campagnes plus efficaces plus rapidement et avec une meilleure harmonisation des équipes. Il fonde les suggestions de l’IA dans un contexte de marketing réel (résumés précédents, données de performance, informations sur l’audience, directives de la marque et ressources de campagne existantes) afin que les résultats soient pertinents, et non génériques.
 
 Voici quelques exemples de la manière dont vous pouvez tirer le meilleur parti de votre idée lors de la création de briefs :
 
@@ -142,7 +148,7 @@ L’espace Idéation prend également en charge un mode conversationnel, de va e
 
 Les utilisateurs et utilisatrices peuvent poser des questions de suivi et affiner un bref entretien au lieu d’obtenir un seul résultat ponctuel.
 
-Lorsqu’un brief est lié à une connexion Workfront Planning active, Coworker empêche son remplacement afin que le brief sous-jacent reste intact.
+Lorsqu’un brief est lié à une connexion Workfront Planning active, Coworker empêche son remplacement afin que le brief sous-jacent reste intact. <!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -181,10 +187,10 @@ Worth noting
 
 ## Ressources supplémentaires
 
-* [Planification d&#39;Adobe Workfront Campaign](https://business.adobe.com/fr/products/workfront/campaign-planning.html)
+* [Planification d&#39;Adobe Workfront Campaign](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Documentation sur Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
-* [Présentation d’Adobe GenStudio](https://business.adobe.com/fr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/fr/products/adobe-analytics/customer-journey-analytics.html)
+* [Présentation d’Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
