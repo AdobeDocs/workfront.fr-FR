@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 12%
@@ -115,7 +115,7 @@ This field has a character limit of 255.
 
    ![ajouter une étape](assets/add-stage.png)
 
-<!-- 
+<!--
 screen for preview
 ![add a stage](assets/add-stage-v2.png)
 -->
@@ -127,7 +127,7 @@ screen for preview
 
    ![ajouter des chemins parallèles](assets/add-path.png)
 
-<!-- 
+<!--
 screen for preview
 ![add parallel paths](assets/add-path-v2.png)
 -->
@@ -142,7 +142,7 @@ Une fois le modèle créé, il peut être appliqué aux documents dans la zone D
 
 >[!NOTE]
 >
->Les nouveaux modèles ne sont visibles que par vous. Pour partager, modifier ou supprimer un modèle, voir [&#x200B; Gérer les modèles d’approbation &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+>Les nouveaux modèles ne sont visibles que par vous. Pour partager, modifier ou supprimer un modèle, voir [ Gérer les modèles d’approbation ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

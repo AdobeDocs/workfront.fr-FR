@@ -11,26 +11,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9eFg04PjbqHlseDjHQQJXw9uAjNLSGDBu870P-ZCVk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '626'
 ht-degree: 16%
-
 ---
-
 # Modifier un rapport dans un tableau de bord de la zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
@@ -130,6 +133,8 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
    * **Paramètres de groupe**
 
    Pour plus d’informations sur ces sections, voir [Créer un rapport de tableau](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+   Pour modifier des filtres ou des regroupements, voir [Filtrer un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md) et [Regrouper les données de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Cliquez sur **Enregistrer** pour mettre à jour le rapport.
 
