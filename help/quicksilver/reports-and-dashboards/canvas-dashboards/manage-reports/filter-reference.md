@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 34%
+source-wordcount: '1031'
+ht-degree: 39%
 ---
 # Référence des filtres de rapport pour les tableaux de bord de la zone de travail
 
@@ -212,26 +212,29 @@ Les relations disponibles pour les colonnes supplémentaires, les options de fil
 
 Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.
 
+<!--
 <div class="preview">
 
-## Filtre sur les relations de collection dans l’aperçu
+## Filter on collection relationships in Preview
 
-Une collection est un champ qui renvoie à un groupe d’enregistrements associés plutôt qu’à un seul enregistrement. Par exemple, les participants aux étapes d&#39;approbation d&#39;un projet sont une collection. Lorsque vous créez un filtre, vous pouvez filtrer directement les collections, sans passer en mode texte.
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-Pour filtrer sur une collection, ouvrez le panneau Sélectionner un champ , puis sélectionnez Collections. Cette section répertorie uniquement les relations de collection. Les relations à enregistrement unique restent sous Relations.
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![relations de collection](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-Après avoir sélectionné une collection, vous pouvez effectuer deux opérations :
+After you select a collection, you can do two things:
 
-* Filtrez les champs propres à la collection. Par exemple, à partir des projets d’un portefeuille, vous pouvez filtrer selon le statut d’un projet.
-* Suivez une relation à enregistrement unique de la collection. Par exemple, à partir des projets d’un portefeuille, vous pouvez contacter le propriétaire du projet.
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-Les collections ne prennent pas en charge la navigation plus profonde. Vous ne pouvez pas ouvrir une collection imbriquée dans une autre collection, suivre plusieurs relations ou sélectionner la relation qui vous ramène à l’endroit où vous avez commencé.
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-La section Collections s’affiche uniquement lorsque vous créez un filtre. Elle n’apparaît pas dans d’autres sélecteurs de champs, tels que ceux des colonnes de tableau, des regroupements ou des champs de graphique.
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## Exclure les projets personnels, les tâches et les utilisateurs de robots
 
