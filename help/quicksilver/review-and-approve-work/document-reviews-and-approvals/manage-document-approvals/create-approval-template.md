@@ -142,7 +142,7 @@ Une fois le modèle créé, il peut être appliqué aux documents dans la zone D
 
 >[!NOTE]
 >
->Les nouveaux modèles ne sont visibles que par vous. Pour partager, modifier ou supprimer un modèle, voir [ Gérer les modèles d’approbation ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+>Les nouveaux modèles ne sont visibles que par vous. Pour partager, modifier ou supprimer un modèle, voir [&#x200B; Gérer les modèles d’approbation &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
