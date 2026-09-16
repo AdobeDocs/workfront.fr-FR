@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 12%
-
 ---
-
 # Créer un modèle de workflow d’approbation pour les documents
 
 Dans la zone Configuration de Workfront , les utilisateurs disposant d’une licence Standard peuvent créer des modèles d’approbation réutilisables. Un modèle n’est visible que par l’utilisateur qui l’a créé, sauf si le créateur le partage avec des utilisateurs spécifiques ou avec tous les membres de l’organisation. Une fois créés, les modèles d’approbation peuvent être appliqués aux ressources de la zone Documents d’un objet.
@@ -74,6 +78,7 @@ Pour créer un modèle de validation :
 1. Cliquez sur **Nouveau modèle** sur le côté droit de la page.
 
 1. Ajoutez un **Nom du modèle**.
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +115,9 @@ This field has a character limit of 255.
 
    ![ajouter une étape](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![ajouter des chemins parallèles](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. (Facultatif) Pour renommer un chemin d’accès, pointez sur le libellé du chemin d’accès, cliquez sur l’icône en forme de crayon, puis saisissez un nouveau nom. Pour supprimer un chemin d’accès, passez le curseur sur le libellé du chemin et cliquez sur l’icône de corbeille. **Le chemin 1** ne peut pas être supprimé et les autres chemins ne peuvent être supprimés que si aucune étape du chemin n’est verrouillée ou terminée.

@@ -11,25 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/F8JANtG9rzY6b-hLFTPQ28p8CVrsb3-lF-b97G4OnII
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: e793fdc87c17e777ce811b53b5f7bdb19b5cedf3
 workflow-type: tm+mt
-source-wordcount: 962
-ht-degree: 94%
-
+source-wordcount: '992'
+ht-degree: 88%
 ---
-
 # Afficher les problèmes
 
 <!--Audited: 10/2025-->
@@ -105,11 +112,18 @@ Pour afficher les problèmes sur un projet, une tâche ou une itération, procé
 
 1. Ouvrez un projet, une tâche ou une itération contenant des problèmes, puis cliquez sur **Problèmes** dans le panneau de gauche.
 
-1. Pour afficher tous les problèmes, ouverts ou fermés, cliquez sur l’un des filtres répertoriés ci-dessous dans le menu déroulant **Filtre**.
+   >[!NOTE]
+   >
+   >Le nombre en regard du lien de la section Problèmes représente le nombre de problèmes ouverts (non résolus) répertoriés dans la section.
 
->[!TIP]
->
->La liste des filtres varie en fonction de ce que votre administrateur ou administratrice système ou de groupes a choisi d’y afficher.
+
+1. Pour afficher les événements ouverts ou fermés, cliquez sur l&#39;un des filtres répertoriés ci-dessous dans le menu déroulant **Filtrer**.
+
+   >[!TIP]
+   >
+   >La liste des filtres varie en fonction de ce que votre administrateur ou administratrice système ou de groupes a choisi d’y afficher.
+   >
+   >Si aucun filtre n&#39;est appliqué à la liste des événements, tous les événements sont affichés, quel que soit leur statut.
 
 * **Ouverts :** affiche les problèmes ouverts.
 
@@ -117,8 +131,8 @@ Pour afficher les problèmes sur un projet, une tâche ou une itération, procé
 
   Pour plus d’informations sur les objets de résolution, consultez [Vue d’ensemble des objets de résolution et des objets résolvables](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-* **Terminés :** affiche tous les problèmes avec une date d’achèvement effective.
-* **Tous :** affiche tous les problèmes.
+* **Terminé :** affiche tous les événements dont la date d’achèvement est effective.
+
 
 ## Comprendre les informations relatives aux problèmes
 
@@ -143,11 +157,11 @@ Pour accéder à un problème et afficher les informations le concernant,procéd
 
 * **Mises à jour** : vous pouvez effectuer les actions suivantes :
 
-   * Commenter le problème ou répondre à un commentaire existant.
-   * Consigner le temps.
-   * Modifier le statut du problème.
+  * Commenter le problème ou répondre à un commentaire existant.
+  * Consigner le temps.
+  * Modifier le statut du problème.
 
-     Pour plus d’informations sur la mise à jour du travail dans Workfront, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    Pour plus d’informations sur la mise à jour du travail dans Workfront, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Documents** : vous pouvez joindre des documents au problème. Pour plus d’informations sur l’ajout de documents à Workfront, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -157,32 +171,32 @@ Pour accéder à un problème et afficher les informations le concernant,procéd
 
   Affichez ou modifiez les champs suivants dans la zone **Vue d’ensemble** :
 
-   * **Nom**
-   * **Chemin** : chemin d’accès à partir duquel le problème a été consigné dans le projet.
+  * **Nom**
+  * **Chemin** : chemin d’accès à partir duquel le problème a été consigné dans le projet.
 
-     Si un problème a été envoyé en tant que demande dans une file d’attente des demandes, les noms du projet, du groupe de rubriques et de la rubrique de la file d’attente sont répertoriés ici. Ce champ ne peut pas être modifié.
+    Si un problème a été envoyé en tant que demande dans une file d’attente des demandes, les noms du projet, du groupe de rubriques et de la rubrique de la file d’attente sont répertoriés ici. Ce champ ne peut pas être modifié.
 
-     Pour plus d’informations sur l’envoi de demandes, voir [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+    Pour plus d’informations sur l’envoi de demandes, voir [Créer et envoyer des demandes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   * **Description**
-   * **URL** : toute adresse web relative au problème.
-   * **Priorité** : indicateur visuel qui vous permet de hiérarchiser les problèmes.
-   * **Gravité** : indicateur visuel qui indique la gravité du problème décrit dans le problème.
-   * **Contact principal** : le contact principal par défaut est la personne qui a créé le problème. Ce champ peut être modifié.
-   * **Nombre d’heures prévues** : affiche le temps nécessaire à quelqu’un pour terminer le problème. La valeur par défaut est de 8 heures. Ce champ peut être modifié.
-   * **Heures effectives** : affiche le temps nécessaire qu’il a fallu pour terminer le problème. Il s’agit du temps effectif que quelqu’un consigne pour le problème.
-   * **Date de début prévue** : date de début prévue du problème. La valeur par défaut est la date et l’heure auxquelles le problème a été créé.
-   * **Date de début effective** : date et heure auxquelles le statut du problème a été remplacé par En cours.
-   * **Date d’achèvement prévue** : date à laquelle le problème devrait être terminé.
-   * **Date d’achèvement effective** : date à laquelle le problème est réellement terminé. Ce champ est renseigné automatiquement lorsque le statut du problème passe à Clôturé ou Résolu, ou peut être modifié manuellement.
-   * **Coût réel** : coût basé sur les Heures effectives consignées sur le problème. Ce champ n’est pas modifiable. Le coût réel d’un problème est calculé à partir de la formule suivante, où le taux de coût utilisateur est le taux de coût associé à la personne qui consigne le temps passé sur ce problème :
+  * **Description**
+  * **URL** : toute adresse web relative au problème.
+  * **Priorité** : indicateur visuel qui vous permet de hiérarchiser les problèmes.
+  * **Gravité** : indicateur visuel qui indique la gravité du problème décrit dans le problème.
+  * **Contact principal** : le contact principal par défaut est la personne qui a créé le problème. Ce champ peut être modifié.
+  * **Nombre d’heures prévues** : affiche le temps nécessaire à quelqu’un pour terminer le problème. La valeur par défaut est de 8 heures. Ce champ peut être modifié.
+  * **Heures effectives** : affiche le temps nécessaire qu’il a fallu pour terminer le problème. Il s’agit du temps effectif que quelqu’un consigne pour le problème.
+  * **Date de début prévue** : date de début prévue du problème. La valeur par défaut est la date et l’heure auxquelles le problème a été créé.
+  * **Date de début effective** : date et heure auxquelles le statut du problème a été remplacé par En cours.
+  * **Date d’achèvement prévue** : date à laquelle le problème devrait être terminé.
+  * **Date d’achèvement effective** : date à laquelle le problème est réellement terminé. Ce champ est renseigné automatiquement lorsque le statut du problème passe à Clôturé ou Résolu, ou peut être modifié manuellement.
+  * **Coût réel** : coût basé sur les Heures effectives consignées sur le problème. Ce champ n’est pas modifiable. Le coût réel d’un problème est calculé à partir de la formule suivante, où le taux de coût utilisateur est le taux de coût associé à la personne qui consigne le temps passé sur ce problème :
 
-     Coût réel du problème = Heures consignées * Taux de coût utilisateur
+    Coût réel du problème = Heures consignées * Taux de coût utilisateur
 
-   * **Entré par** : il s’agit de la personne ayant créé le problème. Ce champ n’est pas modifiable.
-   * **Dernière mise à jour par** : il s’agit de la personne qui a mis à jour en dernier un champ sur le problème. Ce champ n’est pas modifiable.
+  * **Entré par** : il s’agit de la personne ayant créé le problème. Ce champ n’est pas modifiable.
+  * **Dernière mise à jour par** : il s’agit de la personne qui a mis à jour en dernier un champ sur le problème. Ce champ n’est pas modifiable.
 
-     Dans la zone **Formulaires personnalisés**, affichez ou sélectionnez un ou plusieurs formulaires personnalisés à associer au problème.
+    Dans la zone **Formulaires personnalisés**, affichez ou sélectionnez un ou plusieurs formulaires personnalisés à associer au problème.
 
 * **Heures** : affiche une liste des entrées d’heure sur le problème.
 * **Approbations :** affiche les chemins d’approbation associés au problème.

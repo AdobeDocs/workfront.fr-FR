@@ -3,13 +3,11 @@ title: Créer des enregistrements Planning à partir de résumés d'espace d'id�
 description: Grâce à l'Espace d'idéation, une nouvelle fonctionnalité d'Adobe Workfront Planning, vous pouvez transformer des résumés en enregistrements Planning. Les briefs exportés créent de nouveaux enregistrements ou mettent à jour des enregistrements existants. Cet article décrit comment créer ou modifier des enregistrements Planning existants à l'aide de l'espace Idéation.
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 4%
-
+source-wordcount: '1166'
+ht-degree: 3%
 ---
-
 
 # Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idées
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Tout Workfront ou workflow avec un package Planning</p></li>
 Ou
 <li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Produits supplémentaires</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Licence de workflow Adobe</p></td> 
    <td><p>Standard</p>
@@ -98,24 +95,26 @@ Ou
       <p>Autorisations d’éditeur dans l’espace Idéation pour créer des résumés</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Rôles utilisateur Adobe GenStudio for Performance Marketing</p></td> 
-   <td><p><ul><li>Tout rôle d’utilisateur GenStudio pour accéder aux campagnes, aux produits et aux rôles</li>
-   <li>GenStudio System Manager pour accéder aux activations <!--and Events--></li></ul>
-   Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> Rôles utilisateur et autorisations </a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++  
++++   
 
 ## Considérations relatives à l’utilisation de l’Espace d’idéation pour créer des enregistrements
 
-* Vous pouvez uniquement lancer l’espace d’idéation à partir de Workfront Planning au fur et à mesure que vous créez ou modifiez des enregistrements. L’espace Idéation n’existe pas en dehors de Workfront Planning.
+* Vous pouvez uniquement lancer l’Espace d’idéation à partir de Workfront Planning ou du menu principal de Workfront, au fur et à mesure que vous créez ou modifiez des enregistrements. L’espace Idéation n’existe pas en dehors de Workfront.
 * Pour accéder à l’espace Idéation , vous devez disposer d’un espace de travail et d’un type d’enregistrement dans Workfront Planning.
 * Les nouveaux enregistrements commencent toujours par le contenu de l’espace réservé, quelle que soit la manière dont vous les créez.
 * Lorsque vous supprimez un enregistrement Planning lié à un brief d&#39;idéation, le brief reste dans l&#39;espace Idéation et la zone de travail associée dans l&#39;espace Idéation n&#39;est pas supprimée.
@@ -151,7 +150,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    L’enregistrement est immédiatement créé avec le texte d’espace réservé.
 
-1. (Facultatif) Cliquez sur **Utiliser un brief existant** dans la zone d&#39;invite pour parcourir et ajouter un document existant que l&#39;espace Idéation utilisera pour créer le brief et l&#39;enregistrement futur.
+1. (Facultatif) Cliquez sur **Utiliser un brief existant** dans la zone d&#39;invite pour parcourir et ajouter un document existant que l&#39;espace Idéation utilisera pour créer le brief et l&#39;enregistrement futur. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![Invite vide du résumé de l’idéation](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ Vous ne pouvez pas modifier en masse les enregistrements dans l’espace Idéati
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 
