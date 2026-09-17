@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: bc90d9bf6c793baafc600e87d8e36570ee8fb58f
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '2962'
 ht-degree: 8%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -15,7 +15,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -616,18 +616,22 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
 ## Mises à jour de la visionneuse de relecture de bureau
 
-### Version 2.1.59
+### Version 2.2.1
 
-Version de production pour tous les clients : 9 septembre 2026
+Version de production pour tous les clients : 16 septembre 2026
 
-Le lecteur de vérification pour bureau a été mis à jour vers la version 2.1.59. Cette mise à jour comprend les modifications suivantes :
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.2.1. Cette mise à jour comprend les modifications suivantes :
 
-* Le lecteur de vérification pour bureau est désormais disponible en tant que build native pour les Mac dotés du silicium Apple.
-* Mise à jour du framework d’application sous-jacent (Electron) vers une version plus récente, ce qui améliore les performances et la sécurité.
+* Vous pouvez désormais ouvrir des BAT à partir de n’importe quel environnement (Production, Aperçu, Sandbox, etc.) dans la même visionneuse, sans devoir les réinstaller lorsque vous basculez d’un environnement à l’autre.
+* Résolution d’un problème lors de l’ouverture de BAT à partir d’une URL sur des régions hors États-Unis.
+* La visionneuse conserve désormais vos 10 épreuves les plus récentes.
+* Mise à jour du logo Workfront vers la marque actuelle.
+* Ajout de détails supplémentaires à l’écran À propos de Workfront Proof pour accélérer le dépannage.
+* Mise à jour du cadre sous-jacent (Electron) pour améliorer les performances et la sécurité.
 
 Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
@@ -641,7 +645,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 
