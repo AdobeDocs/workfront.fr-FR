@@ -1,6 +1,6 @@
 ---
-title: Commencer à utiliser Adobe Workfront Planning
-description: Adobe Workfront Planning est une nouvelle fonctionnalité d’Adobe Workfront. Elle vous permet de créer des espaces de travail personnalisés pour établir des processus opérationnels qui correspondent aux exigences de chaque division de votre société.
+title: Commencer à utiliser la planification Adobe Workfront
+description: La planification Adobe Workfront est une nouvelle fonctionnalité d’Adobe Workfront. Elle vous permet de créer des espaces de travail personnalisés pour établir des processus opérationnels qui correspondent aux exigences de chaque division de votre société.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -11,29 +11,39 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EXDQUUA9-OKoA8Yj3de1TnanFEgXfKPvP8ksBGChiSI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: 1228
-ht-degree: 68%
-
+source-wordcount: '1359'
+ht-degree: 62%
 ---
-
-# Commencer à utiliser Adobe Workfront Planning
+# Commencer à utiliser la planification Adobe Workfront
 
 <!--
 
@@ -43,11 +53,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 >[!IMPORTANT]
 >
@@ -77,11 +86,11 @@ Workfront Planning est accessible lorsque votre entreprise achète l’un des pa
 
 Pour plus d’informations sur les fonctionnalités incluses dans Planning en tant que produit autonome, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
-## Présentation d’Adobe Workfront Planning
+## Présentation de la planification Adobe Workfront
 
-Lorsqu’elle est achetée avec une licence de workflow, Adobe Workfront Planning est une fonctionnalité supplémentaire d’Adobe Workfront. Workfront Planning a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
+Lorsqu’elle est achetée avec une licence de workflow, Adobe Workfront Planning est une fonctionnalité supplémentaire d’Adobe Workfront. La planification Workfront a pour objectif d’offrir une visibilité complète sur les détails opérationnels d’une entreprise et de répondre aux questions métier critiques à chaque étape du cycle de vie de la gestion du travail.
 
-Workfront Planning peut répondre à des questions telles que :
+La planification Workfront peut répondre à des questions telles que :
 
 * Combien de campagnes réalisons-nous dans la zone EMEA au quatrième trimestre ?
 * Des audiences se chevauchent-elles entre des campagnes simultanées ?
@@ -96,49 +105,49 @@ Voici quelques-unes des principales fonctionnalités :
 * Personnaliser entièrement vos workflows, depuis le choix des types d’objets (ou d’enregistrements) utilisés par votre entreprise jusqu’à la configuration de la façon dont ces objets sont liés les uns aux autres.
 * Lier des types d’objets provenant d’autres systèmes, créant ainsi un cadre cohérent pour tous vos processus.
 
-## Activer Workfront Planning pour les utilisateurs et utilisatrices de votre instance Workfront
+## Activer la planification Workfront pour les utilisateurs et utilisatrices de votre instance Workfront
 
-Une fois que votre entreprise a acheté un package Workfront Planning, en tant qu’administrateur  ou administratrice Workfront, vous devez vous assurer que les éléments suivants sont en place avant que les utilisateurs et utilisatrices puissent accéder à Workfront Planning :
+Une fois que votre entreprise a acheté un package Planification Workfront, en tant qu’administrateur ou administratrice Workfront, vous devez vous assurer que les éléments suivants sont en place avant que les utilisateurs et utilisatrices puissent accéder à la planification Workfront :
 
 * Attribuez un modèle de mise en page incluant Planning aux utilisateurs avec un niveau d&#39;accès Contributeur ou Léger.
 
-  Planning est activé par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.
+  La planification est activée par défaut pour les utilisateurs et utilisatrices standard et les administrateurs et administratrices système.
 
   Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Affecter des utilisateurs et utilisatrices à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Attribuez aux utilisateurs des licences Workfront et Planning et des autorisations Workfront Planning qui leur permettraient d&#39;afficher ou de créer des objets dans Workfront Planning.
 
-  Pour plus d’informations sur l’octroi de l’accès à Workfront Planning et sur l’autorisation d’utilisation à d’autres personnes, voir [Vue d’ensemble des accès Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+  Pour plus d’informations sur l’octroi de l’accès à la planification Workfront et sur l’autorisation d’utilisation à d’autres personnes, voir [Vue d’ensemble des accès à la planification Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 
-## Terminologie relative à Workfront Planning
+## Terminologie relative à la planification Workfront
 
-Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de concepts et de terminologie qui lui sont propres. Assurez-vous de connaître ces concepts avant de commencer à configurer Workfront Planning pour votre organisation.
+Bien que la planification Workfront fasse partie de Workfront, il s’accompagne de concepts et de terminologie propres. Assurez-vous de connaître ces concepts avant de commencer à configurer la planification Workfront pour votre organisation.
 
-Le cadre de Workfront Planning est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
+Le cadre de la planification Workfront est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Pour plus d&#39;informations, voir Présentation de la terminologie de Workfront Planning[&#128279;](/help/quicksilver/planning/general/planning-terminology.md).
+Pour plus d&#39;informations, voir Présentation de la terminologie de Workfront Planning](/help/quicksilver/planning/general/planning-terminology.md).[
 
 <!--the content from this section was moved to the article linked above-->
 
-## Localiser Adobe Workfront Planning
+## Localiser la planification Adobe Workfront
 
-Pour localiser Adobe Planning, assurez-vous que votre organisation a accès à Workfront Planning et que l’administrateur ou l’administratrice du système ou du groupe a ajouté la zone Planning à votre menu principal. Pour plus d’informations, voir [Vue d’ensemble des accès d’Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Pour localiser la planification Adobe, assurez-vous que votre organisation a accès à la planification Workfront et que l’administrateur ou l’administratrice du système ou du groupe a ajouté la zone Planification à votre menu principal. Pour plus d’informations, voir [Vue d’ensemble des accès à la planification Adobe](/help/quicksilver/planning/access/access-overview.md).
 
-Pour localiser Workfront Planning :
+Pour localiser la planification Workfront :
 
 1. Connectez-vous à Workfront.
 
 {{step1-click-main-menu-shell-only}}
 
-1. Cliquez sur **Planning** ![icône Planning](assets/planning-icon.png).
+1. Cliquez sur **Planification** ![icône Planification](assets/planning-icon.png).
 
-   La page principale de Workfront Planning s’ouvre.
+   La page principale de la planification Workfront s’ouvre.
 
-   ![Administration de pages de destination Planning](assets/planning-landing-page-admin.png)
+   ![Administration de pages de destination de la planification](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
-   >    Votre administrateur ou administratrice Workfront peut ajouter la zone Planning à l’option Sélectionner une page de destination de votre modèle de mise en page. Vous pouvez ainsi ouvrir Planning dès que vous vous connectez à Workfront. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+   >    Votre administrateur ou administratrice Workfront peut ajouter la zone Planification à l’option Sélectionner une page de destination de votre modèle de mise en page. Vous pouvez ainsi ouvrir la planification dès que vous vous connectez à Workfront. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Facultatif et le cas échéant) Si vous êtes administrateur ou administratrice Workfront, cliquez sur un des onglets suivants :
    * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
@@ -173,19 +182,19 @@ Pour localiser Workfront Planning :
 
 * [Index des informations générales et des articles pour Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md) : index de tous les articles contenant de la documentation sur Workfront Planning, regroupés par domaine d’intérêt.
 * [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md) : informations générales sur Workfront Planning lors de l’achat en tant que produit autonome.
-* [Vue d’ensemble de l’assistant IA d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant IA Workfront pour Planning, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant faire le travail à votre place.
+* [Vue d’ensemble de l’assistant IA de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant IA de Workfront pour la planification, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant faire le travail à votre place.
 
-  <!--
-    >[!NOTE]
-    >
-    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
-    -->
+<div class="preview">
 
-* [Modules Adobe Workfront Planning pour Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules Adobe Workfront Planning, vous pouvez déclencher un scénario lorsque des événements se produisent dans Workfront Planning. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte Adobe Workfront Planning. Vous devez acheter une licence supplémentaire pour pouvoir accéder à Workfront Fusion.
+* [Présentation d’Adobe Workfront Planning CX Coworker ](/help/quicksilver/planning/general/planning-cx-coworker-overview.md) : interface de conversation dans laquelle vous décrivez un objectif en langage clair, puis planifiez, exécutez et validez le travail sur Workfront Planning et d’autres systèmes Adobe connectés avant de le ramener pour approbation. Le CX Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience plein écran et dans le rail de droite de Workfront.
+
+</div>
+
+* [Modules de planification Adobe Workfront pour Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules de planification Adobe Workfront, vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte de planification Adobe Workfront. Vous devez acheter une licence supplémentaire pour pouvoir accéder à Workfront Fusion.
 
 * [Concepts de base de l’API Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md) : l’objectif de l’API Adobe Workfront Planning est de simplifier la création d’intégrations à Planning en introduisant une architecture REST-ful qui fonctionne sur HTTP.
 
-* [Commencer à utiliser l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de Workfront Planning. Vous devez acheter une licence GenStudio for Performance Marketing.
+* [Commencer à utiliser l’intégration de la planification Adobe Workfront et d’Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de la planification Workfront. Vous devez acheter une licence GenStudio for Performance Marketing.
 
 * [Présentation des tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) : vous pouvez afficher des informations de planification Workfront dans un rapport dans Workfront à l’aide du tableau de bord de la zone de travail Workfront. Vous devez acheter une licence Workfront Workflow pour accéder au tableau de bord de la zone de travail.
 

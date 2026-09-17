@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '14563'
+source-wordcount: '14569'
 ht-degree: 92%
 ---
 # Guide Workfront {#using}
@@ -1850,7 +1850,7 @@ ht-degree: 92%
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2193,7 +2193,8 @@ ht-degree: 92%
     * [Présentation de la terminologie de Workfront Planning](planning/general/planning-terminology.md)
     * [Recommandations relatives à l’implémentation d’Adobe Workfront Planning](planning/general/planning-best-practices.md)
     * [Principes de base des API Adobe Workfront Planning](planning/general/planning-api-basics.md)
-    * [Vue d’ensemble de l’assistant IA Adobe Workfront Planning](planning/general/planning-ai-assistant-overview.md)
+    * [Vue d’ensemble de l’assistant IA de la planification Adobe Workfront](planning/general/planning-ai-assistant-overview.md)
+    * [Présentation d’Adobe Workfront Planning CX Coworker](planning/general/planning-cx-coworker-overview.md)
     * [Prise en main d’Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Activité de publication Adobe Workfront Planning pour 2024](planning/general/release-activity.md)
     * [Activité des versions de la planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
@@ -2602,8 +2603,8 @@ ht-degree: 92%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)

@@ -5,14 +5,15 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 10%
+source-wordcount: '1119'
+ht-degree: 7%
 ---
 
 # Présentation d’Adobe Workfront Planning CX Coworker
 
+<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -21,11 +22,18 @@ ht-degree: 10%
 
 {{planning-important-intro}}
 
-Le CX Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail dans Adobe et les systèmes connectés avant de le soumettre à votre approbation.
+Le CX Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
 
 Le CX Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience plein écran et dans le rail de droite de Workfront.
 
 Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de votre entreprise. Les utilisateurs ne peuvent donc effectuer que les actions qu’ils sont déjà autorisés à effectuer dans Workfront, avec un accès en lecture seule par défaut et un accès en écriture contrôlé par les administrateurs Workfront.
+
+>[!IMPORTANT]
+>
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations.
+>
+>Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
 
 ## Conditions d’accès
 
@@ -81,87 +89,90 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++
 
-
 ## Considérations relatives au CX Coworker
 
 * Le CX Coworker doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre société.
 
-  Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Pour plus d’informations, consultez la présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre organisation, il est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [Configurer les informations de base de votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-* L’administrateur Workfront doit activer l’assistant AI pour tous les autres utilisateurs. Pour plus d’informations, voir [Activer ou désactiver l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* L’administrateur Workfront doit également activer le CX Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* L’assistant d’IA fonctionne dans le contexte de chaque page. Les requêtes que vous envoyez pour l’assistant AI doivent faire référence à la fonctionnalité disponible dans la page que vous avez ouverte.
+* Le CX Coworker fonctionne avec des informations et des objets qui se trouvent dans Workfront ou Workfront Planning et auxquels vous avez l’autorisation d’accéder. Dans le rail de droite Planification, le panneau Collègue fonctionne dans le contexte de l’espace de travail, du type d’enregistrement ou de la page d’enregistrement que vous avez ouvert.
 
-* Les actions effectuées par l’assistant AI dans la zone Planning s’inscrivent dans le cadre de vos autorisations Workfront Planning et de votre niveau d’accès Workfront. Pour plus d’informations, voir les articles suivants :
+* Les actions effectuées par CX Coworker dans la zone Planning s’inscrivent dans le cadre de vos autorisations Workfront Planning et de votre niveau d’accès Workfront. Pour plus d’informations, voir les articles suivants :
 
   * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-  * [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+  * [Vue d’ensemble du type de licence lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Les modifications apportées par l’assistant AI au nom de l’utilisateur sont suivies dans le panneau Historique de l’enregistrement.
+* Les modifications apportées par CX Coworker pour le compte de l’utilisateur sont suivies dans le panneau Historique de l’enregistrement.
 
-* Les actions effectuées par l’assistant d’IA sont permanentes et peuvent être irréversibles. Par exemple, la suppression d’un champ est irréversible. Examinez toutes les actions proposées par l’assistant AI avant de les accepter.
+* Les actions effectuées par le CX Coworker sont permanentes et peuvent être irréversibles. Par exemple, la suppression d’un champ est irréversible. Passez en revue toutes les actions proposées par le CX Coworker avant de les accepter.
 
-* Lors de la création, de la mise à jour ou de la suppression d’un objet par le biais de l’assistant AI, celui-ci affiche les actions prévues et demande confirmation. Vous pouvez ensuite confirmer ou annuler les actions.
+* Lors de la création, de la mise à jour ou de la suppression d’un objet par le biais du CX Coworker, le CX Coworker affiche les actions prévues et demande une confirmation. Vous pouvez ensuite confirmer ou annuler les actions.
 
-## Fonctionnalité actuellement disponible pour l’assistant d’IA
+## Fonctionnalité actuellement disponible pour le CX Coworker
 
-Actuellement, l’assistant AI est disponible dans la zone Planification de Workfront pour les pages suivantes :
+Actuellement, le CX Coworker est disponible dans la zone Planning de Workfront et utilise un ensemble de compétences pour accéder aux informations des objets Planning et les manipuler. Pour plus d’informations, voir [Compétences ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
-* Page Workspace
-* Page Type d’enregistrement
-* Page Enregistrement
-
-Vous pouvez utiliser l’assistant d’IA pour effectuer les actions suivantes à ce stade :
+Vous pouvez utiliser le CX Coworker pour effectuer les actions suivantes :
 
 * Rechercher des enregistrements. Vous pouvez effectuer une recherche en fonction des informations contenues dans n’importe quel champ d’enregistrement.
 * Créer des enregistrements. Un identifiant avec un lien vers le nouvel enregistrement s’affiche une fois l’enregistrement créé. Vous pouvez spécifier les champs que vous souhaitez mettre à jour pendant le processus de création, tels que les dates ou la description.
-* Créez des enregistrements basés sur un document que vous téléchargez. Workfront prend en charge les formats de document suivants pour l’assistant AI :
+* Créez des enregistrements basés sur un document que vous téléchargez. Workfront prend en charge les formats de document suivants pour CX Coworker :
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT et la plupart des formats d’image
 * Mettre à jour les champs des enregistrements affichés à l’écran
-* Supprimer des enregistrements
-* Restaurer les enregistrements que vous venez de supprimer
+* Supprimer, dupliquer ou restaurer des enregistrements
+* Lier des enregistrements à d&#39;autres enregistrements
+* Afficher l&#39;historique des modifications d&#39;un enregistrement
 
 
-## Recherchez l’assistant AI dans Workfront Planning.
+## Localisation du CX Coworker dans Workfront Planning
 
-L’assistant d’IA se trouve dans les zones suivantes de Workfront Planning :
+Le CX Coworker se trouve dans les zones suivantes de Workfront Planning :
 
 * La barre de navigation principale, dans le coin supérieur droit de l’écran.
-* Dans la zone des détails d&#39;un enregistrement, après avoir ouvert l&#39;enregistrement dans l&#39;aperçu ou après avoir ouvert la page de l&#39;enregistrement.
+* Dans la zone des détails d’un enregistrement lorsque vous l’ouvrez dans un nouvel onglet.
 
-## Accéder à l’assistant d’IA dans la zone Planification
+## Accès au CX Coworker dans la zone Planning
+
 
 1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **Planning**.
 
    La zone Planification s’ouvre.
 
+   Recherchez l’icône **AI** ![AI](assets/ai-icon.png) dans le coin supérieur droit de la page ou passez aux étapes ci-dessous.
+
 1. Cliquez sur une carte **espace de travail**.
 
-1. (Facultatif) Cliquez sur une carte **type d’enregistrement**.
+1. Cliquez sur une carte **type d’enregistrement**.
 
-1. (Facultatif) Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement.
+1. Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’ouverture dans .
 
-1. Cliquez sur l’icône **Assistant IA** dans le coin supérieur droit de l’écran dans la barre de navigation globale ou dans le coin supérieur droit de l’aperçu ou de la page de l’enregistrement.
+1. Cliquez sur l’icône **** dans le coin supérieur droit de l’écran.
 
-   ![Icône de l’assistant AI](assets/ai-assistant-icon-highlighted.png)
+1. Dans l’espace prévu à cet effet, commencez à saisir des commandes pour le CX Coworker, puis cliquez sur Entrée lorsque vous avez terminé.
 
-1. Dans l’espace prévu à cet effet, commencez à saisir les commandes de l’assistant d’IA, puis cliquez sur Entrée lorsque vous avez terminé.
-
-   ![Panneau Assistant IA avec zone de commande vide](assets/ai-assistant-panel-with-empty-command-box.png)
+   Panneau ![CX Coworker avec une zone de commande vide](assets/cx-coworker-right-rail.png)
 
    Par exemple, vous pouvez saisir l’une des valeurs suivantes :
 
-   * Créez une campagne dont la date de début est le 4 juillet et la date de fin le 30 juillet
-   * Mettez à jour le champ Description de l’enregistrement Campagne d’été avec une date à déterminer
-   * Supprimer le dernier enregistrement
-   * Restaurer l’enregistrement
+   * Créez un nouvel enregistrement de campagne appelé Vente d’été 2026.
+   * Mettez à jour le champ Budget dans l’enregistrement Campagne d’été sur 75 000 $
+   * Supprimez l’enregistrement de la campagne nommé Ancienne promotion
+   * Restaurer la campagne que j’ai supprimée accidentellement
 
-   Un indicateur visuel s’affiche pendant que l’assistant AI traite les commandes, définissant les attentes en matière de temps de réponse.
+   >[!TIP]
+   >
+   >Assurez-vous que votre administrateur Workfront a activé les outils MCP en écriture seule dans vos préférences système avant de demander au CX Coworker d’effectuer des actions de modification sur les objets.
+
+   Un indicateur visuel s’affiche pendant le traitement des commandes par CX Coworker, définissant les attentes en matière de temps de réponse.
 
    Après avoir reçu une réponse réussie, suivez les liens fournis ou notez les modifications sur la gauche.
 
+
+1. (Facultatif) Cliquez sur l’icône **Développer le plein écran** ![Icône Développer le plein écran](assets/expand-full-screen-icon.png) pour ouvrir la boîte de dialogue Collègue dans un onglet de navigateur complet.
 
 
