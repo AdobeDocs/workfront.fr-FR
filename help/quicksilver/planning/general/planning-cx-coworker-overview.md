@@ -86,7 +86,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Le CX Coworker doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre société.
 
-  Pour plus d’informations, consultez la présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Une fois que Workfront a activé l’agent pour votre organisation, il est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [Configurer les informations de base de votre système](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
