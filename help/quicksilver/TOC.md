@@ -3,13 +3,11 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 92%
-
 ---
-
 # Guide Workfront {#using}
 
 * [Documentation Workfront](home.md)
@@ -970,11 +968,11 @@ ht-degree: 92%
     * [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Outils de serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Compétences disponibles pour une installation directe](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Collègue CX dans Workfront {#coworker-in-workfront}
-    * [Collègue CX dans Workfront : index des articles](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [Présentation du collègue CX](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [Compétences des collègues CX](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [Utiliser un collègue CX dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+  * CX Coworker dans Workfront {#coworker-in-workfront}
+    * [CX Coworker dans Workfront : index des articles](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [Présentation de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [Compétences CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Utilisation de CX Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Mettre à jour des éléments de travail et afficher les mises à jour {#update-work-items-view-updates}
     * [Mettre à jour des éléments de travail et afficher les mises à jour : index des articles](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Vue d’ensemble de la section Mises à jour](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1645,7 +1643,9 @@ ht-degree: 92%
     * Gérer les rapports {#manage-reports}
       * [Gérer les rapports : index des articles](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Modifier un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [Modifier les filtres de rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [Filtrer un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [Référence des filtres de rapport pour les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [Regrouper les données de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [Dupliquer un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Supprimer un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Rapports {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 92%
     * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)

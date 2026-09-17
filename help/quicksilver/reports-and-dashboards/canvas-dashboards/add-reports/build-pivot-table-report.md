@@ -5,13 +5,11 @@ title: Créer un rapport de tableau croisé dynamique dans un tableau de bord Zo
 description: Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données sous la forme d'un tableau.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1510'
 ht-degree: 9%
-
 ---
-
 # Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
    1. Répétez les deux étapes ci-dessus pour ajouter jusqu’à 2 segments.
 
-1. Pour configurer la section **Filtre**, procédez comme suit :
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png), puis configurez les conditions qui déterminent les données à afficher.
 
-   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png).
-
-   1. Sélectionnez **Modifier le filtre**.
-
-   1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
-
-   1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
+   Pour plus d’informations, voir [Filtrer un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Suivez les étapes ci-dessous pour configurer la section **Paramètres des colonnes d’analyse** :
 

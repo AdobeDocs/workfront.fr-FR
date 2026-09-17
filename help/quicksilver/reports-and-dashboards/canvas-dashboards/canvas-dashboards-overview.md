@@ -12,22 +12,27 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GijvNmSyIroodL3bz-AJRl0A-wuvKetxmrtSzscaje0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 27%
-
+source-wordcount: '579'
+ht-degree: 26%
 ---
-
 # Vue d’ensemble des tableaux de bord de zone de travail
 
 >[!IMPORTANT]
@@ -57,37 +62,39 @@ Grâce aux tableaux de bord de la zone de travail, vous pouvez créer des rappor
 
 * Utiliser les tableaux de bord de la zone de travail
 
-   * [Utiliser les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
+  * [Utiliser les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Version bêta des tableaux de bord de la zone de travail
 
-   * [Informations sur la version Beta des tableaux de bord Zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+  * [Informations sur la version Beta des tableaux de bord Zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 * Créer des tableaux de bord
 
-   * [Créer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+  * [Créer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
 
 * Ajouter des rapports
 
-   * [Ajouter un rapport existant à un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-   * [Créer un rapport de KPI dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-   * [Créer un rapport de graphique dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-   * [Créer un rapport de tableau dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+  * [Ajouter un rapport existant à un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+  * [Créer un rapport de KPI dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+  * [Créer un rapport de graphique dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+  * [Créer un rapport de tableau dans un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 
 * Gérer les tableaux de bord de zones de travail
 
-   * [Partager un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-   * [Organiser des rapports dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
-   * [Filtrer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
-   * [Modifier un nom ou la description d’un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-   * [Supprimer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-   * [Ajouter un tableau de bord de la zone de travail à un modèle de mise en page](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+  * [Partager un tableau de bord de zones de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+  * [Organiser des rapports dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+  * [Filtrer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
+  * [Modifier un nom ou la description d’un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+  * [Supprimer un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+  * [Ajouter un tableau de bord de la zone de travail à un modèle de mise en page](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
 * Gérer les rapports
 
-   * [Modifier un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-   * [Modifier les filtres de rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-   * [Supprimer un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+  * [Modifier un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+  * [Filtrer un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+  * [Référence des filtres de rapport pour les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+  * [Regrouper les données de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
+  * [Supprimer un rapport dans un tableau de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
 ## Fonctionnalités actuelles et prévues
 

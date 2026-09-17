@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
+source-wordcount: '1860'
 ht-degree: 9%
-
 ---
-
 # Créer un rapport de graphique dans un tableau de bord de zones de travail
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport d
 
 ### Filtres
 
-Pour configurer la section **Filtre**, procédez comme suit :
+Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png), puis configurez les conditions qui déterminent les données à afficher.
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer**![&#x200B; Filtrer](assets/filter-icon.png).
-1. Sélectionnez **Modifier le filtre**.
-1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
-1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
+Pour plus d’informations, voir [Filtrer un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 ### Paramètres d’exploration
 
@@ -194,13 +194,11 @@ Suivez les étapes ci-dessous pour configurer la section **Paramètres des colon
 
 ### Paramètres du groupe d&#39;analyse
 
-Suivez les étapes ci-dessous pour configurer la section **Paramètres du groupe d’analyse** :
+Dans le panneau de gauche, cliquez sur l’icône **Paramètres de groupe d’analyse** ![Paramètres de groupe](assets/drilldown-group-icon.png), puis ajoutez des regroupements pour le tableau d’analyse.
 
-1. Dans le panneau de gauche, cliquez sur l’icône **Paramètres du groupe** ![Paramètres du groupe](assets/drilldown-group-icon.png).
+Pour plus d’informations, voir [Configurer des regroupements d’analyse en profondeur dans les rapports de graphique et d’indicateurs clés de performance](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) dans [Regrouper les données de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
-1. Cliquez sur le bouton **Ajouter un regroupement** puis sélectionnez le champ à créer en tant que regroupement.
-
-1. Cliquez sur **Enregistrer** pour créer le rapport et l’ajouter au tableau de bord.
+Cliquez sur **Enregistrer** pour créer le rapport et l’ajouter au tableau de bord.
 
 ## Création d’un exemple de rapport de graphique
 
@@ -266,7 +264,7 @@ Dans cette section, nous allons passer en revue les étapes pour créer un graph
 
    1. Saisissez *$$TODAY* dans le champ évaluateur.
 
-      Pour plus d’informations sur les caractères génériques, consultez la section Variables de filtre de caractères génériques basés sur la date dans l’article [Modifier les filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+      Pour plus d’informations, voir [Variables de filtre de caractères génériques basées sur la date](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables) dans [Référence de filtre de rapport pour les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
       ![Champ évaluateur](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ Une fois l’objet d’entité de base sélectionné, la liste déroulante **Sec
 
 ### Référencer des objets enfants
 
-Les relations disponibles pour les colonnes supplémentaires, les options de filtre et les attributs de regroupement sont généralement limitées aux objets situés plus haut dans la hiérarchie d&#39;objets Workfront ou comportent une seule sélection sur l&#39;objet d&#39;entité de base du rapport. Il existe certaines exceptions à cette règle, notamment :
-
-* Projet > Tâches
-* Approbation de document > Étapes d&#39;approbation de document
-* Étapes d&#39;approbation du document > Participants à l&#39;étape d&#39;approbation du document
-
-Lors de l’utilisation de l’une des relations parent-enfant répertoriées ci-dessus, une ligne s’affiche dans le tableau pour chaque enregistrement enfant connecté à l’objet parent.
+Certaines relations parent-enfant sont disponibles pour les colonnes, les filtres et les regroupements. Pour plus d’informations, voir [Référencer des objets enfants](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) dans [Référence de filtre de rapport pour les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).

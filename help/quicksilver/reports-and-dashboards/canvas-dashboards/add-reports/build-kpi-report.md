@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 12%
-
 ---
-
 # Créer un rapport de KPI dans un tableau de bord de zones de travail
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
 
    1. Dans le menu déroulant **Type d’agrégation**, sélectionnez la manière dont les données sont cumulées pour produire la sortie d’indicateurs de performance clés. Les options de ce champ varient en fonction du type de champ sélectionné à l’étape précédente.
 
-1. Pour configurer la section **Filtre**, procédez comme suit :
+1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png), puis configurez les conditions qui déterminent les données à afficher.
 
-   1. Dans le panneau de gauche, cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-icon.png).
-
-   1. Sélectionnez **Modifier le filtre**.
-
-   1. Cliquez sur **Ajouter une condition** puis spécifiez le champ à utiliser comme filtre et le modificateur qui définit le type de condition auquel le champ doit répondre.
-
-   1. (Facultatif) Cliquez sur **Ajouter un groupe de filtres** pour ajouter un autre ensemble de critères de filtrage. L’opérateur par défaut entre les visionneuses est AND. Cliquez sur l’opérateur pour le remplacer par OU.
-
-      Pour plus d’informations sur les filtres, voir [Modifier les filtres de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+   Pour plus d’informations, voir [Filtrer un rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Suivez les étapes ci-dessous pour configurer la section **Paramètres des colonnes d’analyse** :
 
@@ -141,11 +137,9 @@ De nombreuses options de configuration sont disponibles pour créer un rapport s
 
    1. Cliquez sur **Ajouter une colonne** puis sélectionnez le champ à afficher en tant que colonne dans le tableau. Répétez ce processus pour chaque colonne à ajouter.
 
-1. Suivez les étapes ci-dessous pour configurer la section **Paramètres du groupe d’analyse** :
+1. Dans le panneau de gauche, cliquez sur l’icône **Paramètres de groupe d’analyse** ![Icône de groupe d’analyse](assets/drilldown-group-icon.png), puis ajoutez des regroupements pour le tableau d’analyse.
 
-   1. Dans le panneau de gauche, cliquez sur l’icône **Paramètres de groupe** ![Icône de groupe d’analyse](assets/drilldown-group-icon.png).
-
-   1. Cliquez sur le bouton **Ajouter un regroupement** puis sélectionnez le champ à créer en tant que regroupement.
+   Pour plus d’informations, voir [Configurer des regroupements d’analyse en profondeur dans les rapports de graphique et d’indicateurs clés de performance](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports) dans [Regrouper les données de rapport dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Cliquez sur **Enregistrer** pour créer le rapport et l’ajouter au tableau de bord.
 
