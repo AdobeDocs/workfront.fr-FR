@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b6991b200d21445caa5ef4d29ad2e35a64aed304
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2853'
 ht-degree: 8%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -15,7 +15,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -192,9 +192,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker désormais disponible dans Workfront</a>
                 <p>CX Coworker est une nouvelle interface conversationnelle qui permet d’effectuer des tâches dans Workfront et dans les systèmes Adobe connectés, en remplaçant l’assistant AI actuel.</p>
             </td>
-            <td><p>3 septembre 2026</p></td>
-            <td><p>17 septembre 2026</p></td>
-            <td><p>15 Octobre 2026</p></td>
+            <td><p>Le déploiement par phases commence le 3 septembre 2026</p></td>
+            <td><p>Le déploiement par phases commence le 17 septembre 2026</p></td>
+            <td><p>Le déploiement par phases commence le 15 octobre 2026</p></td>
         </tr>
 
     &lt;tr>
@@ -616,7 +616,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
 <!--
 ## Desktop proofing viewer updates
@@ -647,7 +647,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 

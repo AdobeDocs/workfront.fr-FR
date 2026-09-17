@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 3%
+source-wordcount: '2210'
+ht-degree: 2%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
 
@@ -21,9 +21,9 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 3 septembre 2026
->Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Aperçu : le déploiement par phases commence le 3 septembre 2026
+>Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
+>Production pour tous : déploiement échelonné à partir du 15 octobre 2026
 
 CX Coworker est désormais disponible dans Workfront Planning. Vous pouvez désormais accéder à CX Coworker dans un panneau disponible dans tout Workfront Planning.
 
@@ -35,28 +35,28 @@ Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puis
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations.
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Pour plus d&#39;informations, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-<!--
-
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## Suppression de l’icône de l’assistant AI dans la zone d’aperçu Détails en vue du lancement de CX Coworker
 
 >[!NOTE]
 >
->Preview: September 16, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Aperçu : le déploiement par phases commence le 16 septembre 2026
+>Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
+>Production pour tous : déploiement échelonné à partir du 15 octobre 2026
+>[!BADGE Hors planning]{type=Neutral}
 
-This change is available for customers who have the CX Coworker in Workfront.
+Cette modification est disponible pour les clients qui disposent du CX Coworker dans Workfront.
 
-In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+En vue du lancement du CX Coworker Adobe dans Workfront, nous avons supprimé l’icône de l’assistant AI de la page d’aperçu des détails. L’icône existe toujours sur la page Détails lorsqu’elle est ouverte en plein écran. Cliquez dessus pour ouvrir le CX Coworker.
 
-For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+>[!IMPORTANT]
+>
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
--->
+Pour plus d’informations, voir [CX Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
 ## Amélioration de l’expérience lors de la duplication d’enregistrements ayant des champs connectés avec un type de connexion un-à-un ou un-à-plusieurs
 
@@ -181,7 +181,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
