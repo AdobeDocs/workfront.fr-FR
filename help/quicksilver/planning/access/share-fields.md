@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1335'
 ht-degree: 4%
 ---
 
@@ -15,11 +15,10 @@ ht-degree: 4%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Vous pouvez partager le champ d’un enregistrement Workfront Planning avec d’autres utilisateurs afin d’assurer la collaboration lors de l’utilisation d’Adobe Workfront Planning.
 
@@ -87,9 +86,15 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * L’accès à un champ est obtenu en combinant les paramètres suivants :
 
   * **Autorisations héritées** : par défaut, un champ hérite du même accès qu’une personne dispose au type d’enregistrement. Vous pouvez désactiver les autorisations héritées et donner aux utilisateurs un accès au champ inférieur à celui dont ils disposent pour le type d’enregistrement.
-  * La sélection **Tout le monde dans l’espace de travail peut afficher** ou **Seules les personnes invitées peuvent accéder**. Vous pouvez autoriser toutes les personnes disposant d’autorisations sur l’espace de travail à afficher le champ ou n’accorder des autorisations qu’à des entités individuelles.
+  * La sélection **Toute personne ayant accès au type d’enregistrement peut afficher** ou **Seules les personnes invitées peuvent accéder**. Vous pouvez autoriser toutes les personnes disposant d’autorisations sur l’espace de travail à afficher le champ ou n’accorder des autorisations qu’à des entités individuelles.
 
   Si plusieurs règles s’appliquent à la même personne, elles reçoivent l’autorisation la plus élevée disponible de la part de l’une des règles.
+
+* Pour rendre un champ en lecture seule accessible à tous dans un espace de travail, vérifiez que la configuration suivante existe :
+
+  * Désactiver les autorisations héritées
+  * Conservez le paramètre **Toute personne ayant accès au type d’enregistrement peut afficher**
+  * N’ajoutez aucune entité individuelle.
 
 * Selon les autorisations de type d’enregistrement, les utilisateurs peuvent recevoir les autorisations de champ suivantes :
 
@@ -158,7 +163,7 @@ En tant que responsable d’espace de travail, vous pouvez ajuster les autorisat
 
    La boîte **Partager** s’ouvre.
 
-1. (Facultatif) Dans la zone **Accorder l’accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut. Tous les utilisateurs disposant d’autorisations d’**Affichage** ou supérieures pour l’espace de travail et le type d’enregistrement disposent des mêmes autorisations pour le champ .
+1. (Facultatif) Dans la zone **Accorder l’accès**, l’option **Toute personne ayant accès au type d’enregistrement peut consulter** est sélectionnée par défaut. Tous les utilisateurs disposant d’autorisations d’**Affichage** ou supérieures pour l’espace de travail et le type d’enregistrement disposent des mêmes autorisations pour le champ .
 
 1. (Facultatif) Cliquez sur les avatars d’utilisateurs sous l’option **Autorisations héritées de** pour afficher les utilisateurs, les équipes, les groupes, les sociétés ou les fonctions qui héritent des autorisations de l’espace de travail.
 
@@ -177,6 +182,13 @@ En tant que responsable d’espace de travail, vous pouvez ajuster les autorisat
       >[!TIP]
       >
       >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement et le champ.
+
+   1. (Facultatif) Cliquez sur le menu déroulant **Toute personne ayant accès au type d’enregistrement peut afficher** et sélectionnez **Seules les personnes invitées peuvent accéder**.
+
+      >[!IMPORTANT]
+      >
+      >Cette modification, ainsi que la désactivation des **autorisations héritées** suppriment l’accès pour toutes les personnes qui peuvent afficher le type d’enregistrement et ne donnent accès qu’aux personnes désignées. Les responsables et les administrateurs de Workspace auront toujours accès à tous les champs.
+
 
    1. Dans la zone **Accorder l’accès**, ajoutez les utilisateurs, équipes, groupes, sociétés ou fonctions auxquels vous souhaitez accorder un niveau d’autorisation différent de celui dont ils disposent pour l’espace de travail ou le type d’enregistrement.
 
