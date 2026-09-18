@@ -1,6 +1,6 @@
 ---
 title: Types d’enregistrements connectés - Aperçu
-description: Une façon d’indiquer comment les types d’enregistrements individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrements Adobe Workfront Planning aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et utilisatrices et de garder leur attention sur une seule application.
+description: Une façon d’indiquer comment les types d’enregistrements individuels sont associés les uns aux autres consiste à les connecter. En outre, vous pouvez connecter les types d’enregistrements de la planification Adobe Workfront aux types d’objets d’autres applications afin d’améliorer l’expérience de vos utilisateurs et utilisatrices et de garder leur attention sur une seule application.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -9,23 +9,29 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 2498
+source-wordcount: '2578'
 ht-degree: 6%
-
 ---
-
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Types d’enregistrements connectés - Aperçu
@@ -206,6 +212,14 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
     Pour plus d’informations et d’autres considérations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
   </div>
+
+* Les scénarios suivants existent lors de la duplication d&#39;enregistrements avec un enregistrement connecté dans un type de connexion Un à un ou Un à plusieurs :
+
+  * Dans l’environnement de production, l’enregistrement connecté se déplace vers l’enregistrement dupliqué ou vous devez le supprimer manuellement de l’enregistrement d’origine avant de dupliquer l’enregistrement, puis le rajouter.
+  * <span class="preview">Dans l’environnement Aperçu, vous pouvez choisir si l’enregistrement connecté reste sur l’enregistrement d’origine ou passe à l’enregistrement dupliqué.</span>
+
+  Pour plus d’informations, voir [Dupliquer des enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+
 
 ## Types de connexion
 

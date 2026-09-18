@@ -5,13 +5,12 @@ title: Utiliser le serveur MCP Adobe Workfront
 description: Utilisez le serveur Adobe Workfront MCP pour rechercher, créer, mettre à jour et gérer des éléments Workfront par le biais d’une conversation en langage naturel dans une plateforme agentique d’IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # Utiliser le serveur MCP Adobe Workfront
 
@@ -138,6 +137,12 @@ Pour forcer la plateforme agentique d’IA à récupérer des données récentes
 
 * *Obtenez les dernières données de Workfront. Ne pas utiliser les résultats mis en cache.*
 
+### Les données d’informations sont en temps quasi réel et non instantanées.
+
+Les outils Insights utilisés pour rechercher, filtrer et générer des rapports sur les données Workfront reflètent les modifications en temps quasi réel, avec un service level agreement (SLA) d’une durée maximale d’environ 15 minutes. Si vous apportez une modification à Workfront et que vous la demandez immédiatement, la réponse risque de ne pas refléter cette modification.
+
+Si vous devez confirmer une modification très récente, patientez quelques minutes et demandez à nouveau, ou vérifiez directement dans Workfront.
+
 ### Rechercher les mises à jour du serveur MCP Workfront
 
 Vous pouvez actualiser régulièrement votre connexion au serveur MCP Workfront pour vous assurer que vous disposez des outils et fonctionnalités les plus récents.
@@ -167,6 +172,7 @@ Workfront n’a pas de contrôle sur la manière dont le fournisseur de platefor
 | Problème | Cause probable | Corriger |
 | --- | --- | --- |
 | La plateforme IA agentic vous donne des informations dépassées. | La plateforme agentique d’IA réutilise les données des étapes précédentes de la conversation. | Demandez de nouvelles données à Workfront. |
+| Les données que vous venez de modifier dans Workfront ne s’affichent pas encore. | Les données d’informations sont disponibles en temps quasi réel, avec une SLA allant jusqu’à environ 15 minutes. | Patientez quelques minutes et demandez à nouveau, ou vérifiez directement dans Workfront. |
 | La plateforme agentic d’IA a renvoyé des données provenant d’éléments Workfront incorrects. | La plateforme de l&#39;IA agentic a choisi les mauvais éléments en fonction d&#39;une formulation ambiguë. | Demandez à nouveau avec des noms, des identifiants ou des filtres plus spécifiques. |
 | Une mise à jour ou une suppression n’a pas pris effet dans Workfront. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront ou vous n’êtes pas autorisé à effectuer l’action sur l’élément spécifique. | Confirmez auprès de la plateforme d’agence IA que l’action a exécutée. Vérifiez ensuite que les actions d’écriture sont activées pour le serveur MCP Workfront et que vous êtes autorisé à modifier l’élément. |
 

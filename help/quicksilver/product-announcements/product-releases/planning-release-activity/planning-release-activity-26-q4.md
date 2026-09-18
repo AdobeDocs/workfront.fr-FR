@@ -6,16 +6,71 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 3%
+source-wordcount: '2210'
+ht-degree: 2%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
 
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## CX Coworker désormais disponible dans Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : le déploiement par phases commence le 3 septembre 2026
+>Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
+>Production pour tous : déploiement échelonné à partir du 15 octobre 2026
+
+CX Coworker est désormais disponible dans Workfront Planning. Vous pouvez désormais accéder à CX Coworker dans un panneau disponible dans tout Workfront Planning.
+
+Le CX Coworker Chat est une interface de conversation qui permet d’effectuer le travail. Décrivez un objectif en langage clair. Un collègue planifie le travail, l’exécute dans Workfront Planning et dans vos systèmes Adobe connectés, valide les résultats et vous renvoie le travail terminé pour approbation.
+
+Coworker respecte les contrôles d’accès existants de votre entreprise, avec un accès en lecture seule par défaut, et les administrateurs système contrôlent quand les utilisateurs obtiennent un accès en écriture.
+
+Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puissant d’effectuer le travail. Coworker fait partie de l’écosystème Adobe et ne se limite pas à la planification Workfront.
+
+>[!IMPORTANT]
+>
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
+
+Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+## Suppression de l’icône de l’assistant AI dans la zone d’aperçu Détails en vue du lancement de CX Coworker
+
+>[!NOTE]
+>
+>Aperçu : le déploiement par phases commence le 16 septembre 2026
+>Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
+>Production pour tous : déploiement échelonné à partir du 15 octobre 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+Cette modification est disponible pour les clients qui disposent du CX Coworker dans Workfront.
+
+En vue du lancement du CX Coworker Adobe dans Workfront, nous avons supprimé l’icône de l’assistant AI de la page d’aperçu des détails. L’icône existe toujours sur la page Détails lorsqu’elle est ouverte en plein écran. Cliquez dessus pour ouvrir le CX Coworker.
+
+>[!IMPORTANT]
+>
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
+
+Pour plus d’informations, voir [CX Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+## Amélioration de l’expérience lors de la duplication d’enregistrements ayant des champs connectés avec un type de connexion un-à-un ou un-à-plusieurs
+
+>[!NOTE]
+>
+>Aperçu : 17 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Les enregistrements peuvent désormais être dupliqués même lorsqu’il existe des enregistrements connectés de type Un-à-un ou Un-à-plusieurs. Après la duplication, les utilisateurs peuvent choisir de conserver l’enregistrement connecté sur l’enregistrement d’origine ou de le connecter au nouvel enregistrement. Conserver sur l’original est le choix par défaut.
+
+La boîte de dialogue de résolution des conflits de connexion a été mise à jour pour refléter ce nouveau comportement et fournir une plus grande flexibilité lors de la gestion des enregistrements connectés.
+
+Pour plus d’informations, voir [Dupliquer des enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Gérer la visibilité des miniatures et des couleurs des enregistrements à partir de la colonne du champ principal dans la vue Tableau
 

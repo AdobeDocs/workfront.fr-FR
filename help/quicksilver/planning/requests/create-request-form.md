@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 5%
-
 ---
-
 # Créer et gérer ’un formulaire de demande dans Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -199,12 +205,12 @@ Pour créer un formulaire de demande, vous devez effectuer les opérations suiva
    * **Libellé** : il s&#39;agit du nom du champ tel qu&#39;il apparaîtra sur le formulaire de demande. Le nom du champ d’enregistrement n’est pas modifié.
    * **Instructions** : ajoutez plus d’informations sur le champ .
    * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Dans le cas contraire, le formulaire ne peut pas être envoyé.
-   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué.
+   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
-   >     
+   >Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
+
 1. (Facultatif) Cliquez de manière prolongée sur un champ, faites-le glisser et déposez-le à un autre emplacement du formulaire.
 1. (Facultatif) Cliquez sur l’onglet **Éléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
 
@@ -237,6 +243,7 @@ Tenez compte des points suivants lors de l’ajout de règles d’approbation :
 * Si au moins un approbateur rejette la demande, celle-ci est rejetée et l&#39;enregistrement n&#39;est pas créé. La demande reste dans la zone des Demandes de Workfront.
 * Si vous ajoutez plusieurs approbateurs et que l&#39;option Une seule décision est obligatoire n&#39;est pas activée, tous les approbateurs doivent prendre une décision avant qu&#39;une demande ne soit approuvée ou rejetée.
 * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -255,11 +262,13 @@ Pour configurer les paramètres de formulaire :
 
    ![Zone de règle d&#39;approbation par défaut](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Facultatif) Pour chaque règle d’approbation supplémentaire, procédez comme suit :
 
-   1. Cliquez sur **Ajouter une règle d’approbation**
+   1. Cliquez sur **Ajouter une règle d’approbation**.
    1. Cliquez sur le titre de l’espace réservé « Règle d’approbation sans titre » et saisissez un nom pour la règle d’approbation.
    1. Cliquez sur **Sélectionner un champ** et sélectionnez le champ qui active la règle.
    1. Sélectionnez l’opérateur de la règle. Les opérateurs varient en fonction du type de champ.
@@ -267,6 +276,8 @@ Pour configurer les paramètres de formulaire :
    1. (Facultatif) Ajoutez d’autres conditions à l’aide de l’opérateur AND ou OR en cliquant sur Ajouter une condition et en configurant la condition supplémentaire.
    1. Dans la zone Actions de la règle d&#39;approbation, dans le champ **Approbateurs**, ajoutez au moins un utilisateur ou une équipe à définir au niveau de l&#39;approbateur lorsque la condition est remplie.
    1. (Conditionnel) Si vous souhaitez que l&#39;enregistrement soit créé après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. (Facultatif) Pour réorganiser les règles de routage, cliquez sur la poignée située à gauche de la règle et faites-la glisser jusqu&#39;à l&#39;emplacement souhaité.
 

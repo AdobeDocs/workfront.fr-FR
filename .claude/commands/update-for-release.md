@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 'Documentez une nouvelle fonctionnalité Workfront pour une prochaine version : identifiez les articles d’aide concernés, choisissez le fragment de code d’aperçu approprié, marquez le nouveau contenu avec la mise en surbrillance de l’aperçu (par section ou par ligne, selon les besoins et selon l’article) et faites apparaître les détails au niveau de l’interface utilisateur des bordures comme des invites explicites d’approbation/de rejet avant d’appliquer les modifications. À utiliser lorsque l’utilisateur met à jour les articles d’aide de Workfront pour une fonctionnalité qui est envoyée (généralement Aperçu en premier), mentionne un PDF ou une version à venir, demande des informations sur la mise en surbrillance de l’aperçu ou souhaite de l’aide pour ajouter des sections « en aperçu » / « en production » aux articles de procédure ou de présentation.'---
 
 # Mise à jour pour la version (Workfront)
 
@@ -94,9 +87,9 @@ Pour chaque article de la liste confirmée par l’utilisateur :
 
    Pour chaque élément « à réviser », fournissez une justification en une seule phrase (« Aide les débutants à planifier un message plus long », « Aide les utilisateurs qui ne le voient pas lors des étapes suivantes à savoir comment le développer »). Inclure uniquement les articles sélectionnés par l’utilisateur. Le principe par défaut est le suivant : « Si l’utilisateur ou l’utilisatrice peut le voir à l’écran pendant qu’il ou elle effectue la tâche, ne le redémarrez pas », mais l’utilisateur ou l’utilisatrice reçoit l’appel final.
 
-   **Lors de la rédaction des phrases réelles** pour l’un ou l’autre compartiment, appliquez `~/.cursor/skills/writing-quality/SKILL.md` règles de voix et de ton au fur et à mesure que vous écrivez : une description simple du champ/comportement, et non une entrée de journal des modifications (« a été supprimé », « a été ajouté »), et ne reformulez pas une instruction inchangée simplement pour y joindre une note d’aperçu. Rédigez-le correctement la première fois plutôt que de fixer le ton lors d’une passe ultérieure.
+   **Avant de rédiger les phrases proprement dites** pour l’un ou l’autre des compartiments, **invoquez la compétence `writing-quality` (outil de compétence)** et appliquez ses règles de voix et de ton au fur et à mesure que vous écrivez : une description simple du champ/comportement, et non une entrée du journal des modifications (« a été supprimé », « a été ajouté »), et ne reformulez pas une instruction inchangée simplement pour y joindre une note d’aperçu. Rédigez-le correctement la première fois plutôt que de fixer le ton lors d’une passe ultérieure.
 
-5. **Effectuez une dernière passe de qualité d’écriture** sur le texte brouillon avant de le montrer. Il s’agit d’un filet de sécurité, et ce n’est pas la première fois que ces règles s’appliquent. En effet, il est possible de détecter toute omission à l’étape 4 (redondance, tonalité, incohérence vocale avec les lignes environnantes).
+5. **Exécutez la compétence `writing-quality` (outil de compétence) comme dernière passe** sur le texte brouillon avant de le montrer, obligatoire pour chaque article, et non facultatif. Il récupère tout ce qui a été manqué à l’étape 4 (redondance, tonalité, discordance vocale avec les lignes environnantes).
 
 6. **Proposer des modifications.** Affichez les extraits avant/après (ou une description de style diff ciblée) de l’article, couvrant : le placement des fragments de code, les renommes d’en-tête, le nouveau contenu de l’aperçu et son emplacement, la référence de la capture d’écran et tout habillage de `class="preview"` intégré.
 
@@ -217,12 +210,18 @@ Exécutez cette liste de contrôle complète pour **chaque** article de la sessi
 - Duplications par ligne : le `<tr>` d’origine est octet pour octet inchangé ; les deux cellules du nouveau `<tr class="preview">` sont enveloppées dans du `<span class="preview">` ; l’étiquette est une nouvelle étiquette courte + minuscules « dans l’aperçu » (et non l’étiquette d’origine + « (dans l’aperçu) ») ; toute note supplémentaire utilise `<br>` + `Note:` en ligne, et non un `<p>` imbriqué.
 - Si le même champ apparaît dans plusieurs variantes de procédure (De base/Avancé, Hérité/ESM), le libellé de chaque nouvelle ligne correspond au comportement réel de cette variante plutôt que d’être copié-collé à partir d’une autre variante.
 - La nouvelle prose marquée par un aperçu se lit comme une description de comportement/champ simple, et non comme une entrée de journal des modifications, et ne reformule pas de manière redondante une instruction inchangée.
+- La compétence `writing-quality` a été invoquée dans le projet de prose de cet article (les deux compartiments).
 - `ReadLints` est propre sur le fichier modifié.
 - L’article se lit correctement dans les deux états (avec le contenu de l’aperçu affiché et masqué).
 
 ## Références
 
-- Style de documentation de Workfront : consultez la compétence **qualité-écriture** sur `~/.cursor/skills/writing-quality/SKILL.md`.
+- Style de documentation de Workfront : **invoquez la compétence `writing-quality`** via l’outil Compétence (source : `.cursor/skills/writing-quality/`).
 - Catalogue de fragments de code : `help/_includes/snippets.md` dans le référentiel de documents.
 - Nettoyage GA (workflow inverse) : consultez la compétence **remove-preview-highlighting** à l’`.cursor/skills/remove-preview-highlighting/SKILL.md`.
 - Adobe Wiki MCP pour PRDs : `user-Adobe Wiki Confluence` de serveur, `get_wiki_content` d&#39;outils.
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---

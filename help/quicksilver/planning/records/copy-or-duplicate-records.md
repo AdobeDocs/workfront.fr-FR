@@ -11,32 +11,36 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: '714'
 ht-degree: 17%
-
 ---
-
 # Dupliquer des enregistrements
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
-Dans Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement.
+Dans la planification Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
 
 Vous pouvez dupliquer un enregistrement existant dans la vue Tableau. Une copie identique de l’enregistrement existant est ajoutée à la page du type d’enregistrement.
 
@@ -162,7 +166,7 @@ Vous pouvez créer des enregistrements dans la vue Tableau d&#39;une page de typ
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
    Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) Sélectionnez une vue de tableau.
@@ -178,6 +182,11 @@ Vous pouvez créer des enregistrements dans la vue Tableau d&#39;une page de typ
      ![&#x200B; Icône Dupliquer dans la barre d’outils en mode Tableau &#x200B;](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Un enregistrement identique avec un nom identique est créé sous l’enregistrement d’origine. Tous les champs du nouvel enregistrement sont remplis avec les mêmes informations que dans l&#39;enregistrement d&#39;origine.
+
+1. (Conditionnel) Si l&#39;enregistrement que vous dupliquez est connecté à un enregistrement dans un type de connexion Un à un ou Un à plusieurs, cliquez sur l&#39;une des options suivantes, selon l&#39;environnement utilisé :
+
+   * Dans l’environnement de production, cliquez sur **Connexion** pour supprimer l’enregistrement connecté de l’enregistrement d’origine et l’ajouter à l’enregistrement dupliqué, ou cliquez sur **Annuler** si vous ne souhaitez pas continuer à dupliquer l’enregistrement.
+   * <span class="preview">Dans l&#39;environnement Aperçu, cliquez sur **Se connecter au nouvel enregistrement** si vous souhaitez que l&#39;enregistrement connecté soit déplacé vers le nouvel enregistrement, ou cliquez sur **Conserver l&#39;original** si vous souhaitez que l&#39;enregistrement connecté reste sur l&#39;original. L&#39;enregistrement dupliqué n&#39;aura pas d&#39;enregistrement connecté dans ce champ.</span>
 
 1. (Facultatif) Commencez à mettre à jour les informations sur le nouvel enregistrement dans les champs disponibles en mode Tableau ou cliquez sur l’enregistrement et mettez à jour les informations dans la page ou l’aperçu de l’enregistrement.
 
