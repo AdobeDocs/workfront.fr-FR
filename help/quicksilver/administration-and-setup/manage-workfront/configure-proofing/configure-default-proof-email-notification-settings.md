@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 97%
-
+source-wordcount: '303'
+ht-degree: 78%
 ---
-
 # Configurer les paramètres par défaut de notification par e-mail des épreuves
 
 Les utilisateurs et utilisatrices de relecture dans Adobe Workfront peuvent recevoir des notifications par e-mail de Workfront et de Workfront Proof en cas de commentaires ou de décisions en lien avec une épreuve. Si les utilisateurs et les utilisatrices reçoivent déjà des notifications par e-mail de la part de Workfront Proof, nous vous recommandons de désactiver les notifications envoyées à partir de Workfront pour éviter les notifications par e-mail en double.
@@ -68,9 +71,9 @@ Pour configurer les paramètres de notification par e-mail des épreuves envoyé
 
 1. Développez **E-mail**, puis cliquez sur **Révision et approbation**.
 
-1. Dans la section **Notifications des épreuves dans Workfront**, décidez d’activer ou de désactiver l’option Envoyer des e-mails à partir de Workfront lorsqu’un commentaire est fait sur une épreuve.
+1. Dans la section **Notifications de BAT dans Workfront** , choisissez d’activer ou de désactiver l’option **Envoyer des notifications depuis Workfront lorsqu’un commentaire est apporté sur un BAT**.
 
-   * Lorsque ce paramètre est activé, les utilisateurs et utilisatrices reçoivent un e-mail de Workfront lorsqu’un commentaire est fait sur une épreuve.
-   * Lorsque ce paramètre est désactivé, les utilisateurs et utilisatrices ne reçoivent pas d’e-mail de Workfront lorsqu’un commentaire est fait sur une épreuve.
+   * Lorsque ce paramètre est activé, les utilisateurs et utilisatrices reçoivent un e-mail de Workfront lorsqu’un commentaire est fait sur une épreuve. Une notification in-app Workfront s’affiche également.
+   * Lorsque ce paramètre est désactivé, les utilisateurs ne reçoivent pas de notification par e-mail ou in-app de Workfront lorsqu’un commentaire est apporté à une épreuve.
 
 1. Cliquer sur **Enregistrer**.
