@@ -164,7 +164,7 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
     * <span class="preview">Lorsque vous soumettez un formulaire de demande à partir de la page type d&#39;enregistrement principal ou en utilisant toute autre méthode décrite dans cet article, les enregistrements s&#39;affichent dans la page type d&#39;enregistrement principal.</span>
     * <span class="preview">Si le champ **Workspace** est disponible dans le formulaire de demande et que l’utilisateur choisit manuellement un espace de travail spécifique auquel ajouter l’enregistrement, l’enregistrement est enregistré dans cet espace, que le formulaire ait été sélectionné dans les pages de type d’enregistrement principal ou secondaire.</span>
 
-  Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--
 <div class="preview">
