@@ -11,28 +11,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 2795
-ht-degree: 71%
-
+source-wordcount: '2873'
+ht-degree: 69%
 ---
-
 # Créer et soumettre des demandes
 
 <!--Audited: 03/2026-->
@@ -216,6 +226,11 @@ Pour créer une demande dans l’application web Workfront :
    >* La description du projet configuré comme file d’attente des demandes sélectionnée s’affiche à droite du nom de la file d’attente des demandes.
    >   
    >Pour plus d’informations sur la manière de publier un projet en tant que file d’attente des demandes d’aide, voir l’article [Créer une file d’attente des demandes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+1. (Conditionnel) Si vous soumettez la demande à partir de l’expérience Nouvelle demande et que votre organisation autorise le **remplissage de formulaire** optimisé par l’IA, vous pouvez charger des documents, des e-mails ou des liens vers d’autres objets (projet, tâches ou événements) sous forme d’invites. L’IA utilise ces éléments pour remplir le formulaire et vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.
+
+
+   Pour obtenir des instructions, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 1. Dans le formulaire **Nouvelle demande**, effectuez l’une des opérations suivantes :
 
