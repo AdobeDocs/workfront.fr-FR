@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b16738e5fbfa99fe2e9288adc059559fa3a725d3
+source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2835'
 ht-degree: 9%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -15,7 +15,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -406,8 +406,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
-    &lt;/tbody>
+    </tbody>
 </table>
 
 ### Améliorations de la gestion financière
@@ -680,26 +679,24 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
-<!--
-## Desktop proofing viewer updates
+## Mises à jour de la visionneuse de relecture de bureau
 
 ### Version 2.2.1
 
-Production release for all customers: September 16, 2026
+Version de production pour tous les clients : 17 septembre 2026
 
-The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.2.1. Cette mise à jour comprend les modifications suivantes :
 
-* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
-* Resolved an issue with opening proofs from a URL on non-US regions.
-* The viewer now keeps your 10 most recent proofs.
-* Updated the Workfront logo to the current branding.
-* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
-* Updated the underlying framework (Electron) for performance and security improvements.
+* Vous pouvez désormais ouvrir des BAT à partir de n’importe quel environnement (Production, Aperçu, Sandbox, etc.) dans la même visionneuse, sans devoir les réinstaller lorsque vous basculez d’un environnement à l’autre.
+* Résolution d’un problème lors de l’ouverture de BAT à partir d’une URL sur des régions hors États-Unis.
+* La visionneuse conserve désormais vos 10 épreuves les plus récentes.
+* Mise à jour du logo Workfront vers la marque actuelle.
+* Ajout de détails supplémentaires à l’écran À propos de Workfront Proof pour accélérer le dépannage.
+* Mise à jour du cadre sous-jacent (Electron) pour améliorer les performances et la sécurité.
 
-For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
+Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ## Annonces
 
@@ -711,12 +708,14 @@ Avec la version de janvier 2027, les champs hérités **Facturation par heure** 
 
 En remplacement dans les rapports , vous pouvez utiliser le code de mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
 
+    «
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates).lists
     type=iterate
     valueexpression=CONCAT({startDate}, » -  »,{endDate}, »:  »,{value})
     valueformat=HTML
+    « 
 
 Pour gérer et réviser les taux, utilisez les expériences de gestion des taux dédiées :
 
@@ -736,7 +735,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 
