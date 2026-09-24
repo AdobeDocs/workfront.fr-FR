@@ -26,7 +26,7 @@ ht-degree: 9%
 
 Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données, tels que les sommes, les nombres et les moyennes, sous la forme d&#39;un tableau. Les tableaux croisés dynamiques sont utiles lors de la comparaison de plusieurs valeurs agrégées ou de décomptes par rapport à plusieurs dimensions.
 
-![ Exemple de rapport de tableau croisé dynamique ](assets/pivot-table-example.png)
+![&#x200B; Exemple de rapport de tableau croisé dynamique &#x200B;](assets/pivot-table-example.png)
 
 ## Conditions d’accès
 
