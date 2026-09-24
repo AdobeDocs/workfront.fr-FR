@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
-ht-degree: 21%
-
+source-wordcount: '1502'
+ht-degree: 18%
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
 # Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -41,7 +42,7 @@ Vous pouvez également partager des formulaires de demande Planning. Pour plus d
 
 Cet article décrit les niveaux d’autorisation pour les espaces de travail Workfront Planning, les types d’enregistrements, les enregistrements, les champs et les vues.
 
-## Objets que vous pouvez partager dans Adobe Workfront Planning
+## Objets que vous pouvez partager dans la planification Adobe Workfront
 
 Vous pouvez partager manuellement certains objets Workfront Planning, tandis que d’autres héritent de ces autorisations d’autres objets.
 
@@ -49,45 +50,66 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
 * Espaces de travail
 
-   * Vous pouvez partager des espaces de travail avec des personnes de votre organisation.
-   * Lorsque vous partagez un espace de travail, tous les types d’enregistrements, les enregistrements et les champs associés aux espaces de travail sont également partagés.
-   * Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Les vues sont partagées séparément.
+  * Vous pouvez partager des espaces de travail au sein de votre organisation avec des utilisateurs, des groupes, des équipes, des entreprises et des fonctions.
+  * Lorsque vous partagez un espace de travail, tous les types d’enregistrements, les enregistrements et les champs associés aux espaces de travail sont également partagés.
+  * Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Les vues sont partagées séparément.
 
   Pour plus d’informations, voir [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
 * Types d’enregistrements
 
-   * Vous pouvez partager des types d’enregistrements avec des personnes de votre organisation.
-   * Le niveau des autorisations accordées pour l’espace de travail s’affiche sous la forme d’autorisations héritées pour le type d’enregistrement.
-   * Vous ne pouvez pas partager un type d’enregistrement avec un niveau d’autorisation supérieur à celui de l’utilisateur sur l’espace de travail.
+  * Vous pouvez partager des types d’enregistrements au sein de votre organisation, avec des utilisateurs, des groupes, des équipes, des sociétés et des fonctions.
+  * Le niveau des autorisations accordées pour l’espace de travail s’affiche sous la forme d’autorisations héritées pour le type d’enregistrement.
+  * Vous ne pouvez pas partager un type d’enregistrement avec un niveau d’autorisation supérieur à celui de l’utilisateur sur l’espace de travail.
 
   Pour plus d’informations, voir [Partage de types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
 
 * Enregistrements
 
-   * Vous pouvez partager des enregistrements avec des personnes au sein de votre organisation.
-   * Les utilisateurs héritent par défaut des autorisations de l’espace de travail et du type d’enregistrement.
-   * Vous ne pouvez pas partager un enregistrement avec un niveau d&#39;autorisation supérieur ou inférieur à celui dont dispose l&#39;utilisateur sur le type d&#39;enregistrement.
+  * Vous pouvez partager des enregistrements avec des personnes au sein de votre organisation, avec des utilisateurs, des groupes, des équipes, des entreprises et des fonctions.
+  * Les utilisateurs héritent par défaut des autorisations de l’espace de travail et du type d’enregistrement.
+  * Vous ne pouvez pas partager un enregistrement avec un niveau d&#39;autorisation supérieur ou inférieur à celui dont dispose l&#39;utilisateur sur le type d&#39;enregistrement.
 
   Pour plus d’informations, voir [Partager des enregistrements](/help/quicksilver/planning/access/share-records.md).
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * Vues
 
-   * Vous devez donner aux utilisateurs, y compris aux administrateurs système, les autorisations d’accéder aux vues séparément de leurs autorisations d’accès aux espaces de travail.
-   * Lorsque vous partagez une vue, tous les éléments de vue sont partagés, notamment les filtres, le regroupement, le tri ou les paramètres.
-   * Lorsque vous partagez une vue, les enregistrements visibles dans la vue ne sont pas partagés. Les enregistrements doivent être partagés en partageant les espaces de travail.
-   * Vous pouvez partager une vue publiquement avec des personnes extérieures à votre organisation lorsque vous générez un lien public pour une vue.Les personnes qui accèdent à la page d&#39;enregistrement à partir d&#39;un lien public peuvent afficher tous les enregistrements et leurs champs, y compris les enregistrements et champs connectés.
+  * Vous devez donner aux utilisateurs, y compris aux administrateurs système, les autorisations d’accéder aux vues séparément de leurs autorisations d’accès aux espaces de travail.
+  * Lorsque vous partagez une vue, tous les éléments de vue sont partagés, notamment les filtres, le regroupement, le tri ou les paramètres.
+  * Lorsque vous partagez une vue, les enregistrements visibles dans la vue ne sont pas partagés. Les enregistrements doivent être partagés en partageant les espaces de travail.
+  * Vous pouvez partager une vue publiquement avec des personnes extérieures à votre organisation lorsque vous générez un lien public pour une vue. Les personnes qui accèdent à la page d&#39;enregistrement à partir d&#39;un lien public peuvent afficher tous les enregistrements et leurs champs, y compris les enregistrements et champs connectés.
 
   Pour plus d’informations, consultez la section [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
 
-## Considérations sur le partage d’objets dans Adobe Workfront Planning
+## Considérations sur le partage d’objets dans la planification Adobe Workfront
 
 * Votre type de licence Adobe Workfront fonctionne de concert avec vos autorisations Workfront Planning pour vous donner l’accès à l’affichage, à la contribution ou à la gestion des espaces de travail et de leurs objets.
 
-  Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation pour Workfront Planning, voir [Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+  Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation pour la planification Workfront, voir [Vue d’ensemble du type de licence lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md).
 * Les administrateurs système peuvent gérer tous les espaces de travail du système, y compris ceux qu’ils n’ont pas créés.
 * Les autres utilisateurs et utilisatrices, y compris les administrateurs et administratrices système, ne peuvent accéder qu’aux vues qu’ils ont créées ou qui ont été partagées avec eux. Les administrateurs système ne peuvent être autorisés qu&#39;à gérer une vue.
 
@@ -95,35 +117,35 @@ Vous pouvez partager manuellement les objets suivants dans Workfront Planning :
 
 * Vous pouvez partager des objets Planning des manières suivantes :
 
-   * En interne, vous pouvez partager des objets Workfront Planning avec les entités Workfront suivantes :
+  * En interne, vous pouvez partager des objets Workfront Planning avec les entités Workfront suivantes :
 
-      * Utilisateurs et utilisatrices
-      * Groupes
-      * Équipes
-      * Entreprises
-      * Fonctions
+    * Utilisateurs et utilisatrices
+    * Groupes
+    * Équipes
+    * Entreprises
+    * Fonctions
 
-     Vous pouvez partager un objet Planning avec un maximum de 100 entités par objet.
+    Vous pouvez partager un objet Planning avec un maximum de 100 entités par objet.
 
-   * En interne, en partageant un lien vers un espace de travail ou une vue avec d&#39;autres utilisateurs de Planning. Les scénarios suivants sont possibles :
+  * En interne, en partageant un lien vers un espace de travail ou une vue avec d&#39;autres utilisateurs de Planning. Les scénarios suivants sont possibles :
 
-      * Les utilisateurs recevant le lien vers un espace de travail doivent être des utilisateurs actifs et se connecter à Workfront pour accéder à l’espace de travail.
-      * Les utilisateurs et utilisatrices qui reçoivent un lien de partage interne pour une vue doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour accéder à la vue.
-   * En externe, en partageant un lien de partage public vers une vue avec des utilisateurs externes qui ne disposent pas d’un compte Workfront.
+    * Les utilisateurs recevant le lien vers un espace de travail doivent être des utilisateurs actifs et se connecter à Workfront pour accéder à l’espace de travail.
+    * Les utilisateurs et utilisatrices qui reçoivent un lien de partage interne pour une vue doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour accéder à la vue.
+  * En externe, en partageant un lien de partage public vers une vue avec des utilisateurs externes qui ne disposent pas d’un compte Workfront.
 
-## Partager des autorisations pour les objets Adobe Workfront Planning
+## Autorisations de partage des objets de la planification Adobe Workfront
 
 Les tableaux des sections suivantes illustrent le niveau d’autorisation que vous pouvez sélectionner lorsque vous partagez un espace de travail ou une vue, ainsi que les fonctionnalités autorisées par chaque niveau.
 
 >[!IMPORTANT]
 >
->Tous les utilisateurs et utilisatrices ne peuvent pas avoir les niveaux d’autorisation décrits ci-dessous. La licence individuelle de la personne détermine le niveau d’autorisation qu’elle peut recevoir pour les objets Workfront Planning.
+>Tous les utilisateurs et utilisatrices ne peuvent pas avoir les niveaux d’autorisation décrits ci-dessous. La licence individuelle de la personne détermine le niveau d’autorisation qu’elle peut recevoir pour les objets de la planification Workfront.
 >
 >Seuls les utilisateurs disposant d’une licence standard (ou de plan) peuvent disposer d’autorisations de niveau Contribuer ou Gérer sur les espaces de travail et Gérer les autorisations sur les vues.
 > 
 >Les utilisateurs disposant de tous les autres types de licence peuvent disposer des autorisations d’affichage des espaces de travail et des vues.
 >
->Pour plus d’informations, voir [Vue d’ensemble des types de licences lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+>Pour plus d’informations, voir [Vue d’ensemble des types de licences lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Autorisations d’accès aux espaces de travail
@@ -143,6 +165,10 @@ Voici les niveaux d’autorisation des espaces de travail :
 | Partager | ✓ |            |       |
 | Supprimer | ✓ |            |       |
 | Afficher | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### Autorisations relatives aux types d’enregistrements
 
@@ -231,9 +257,13 @@ Les scénarios suivants sont possibles :
 
 ### Autorisations pour les champs d’enregistrement
 
-Les autorisations de champ sont héritées du type d’enregistrement lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
 
-Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez avoir les autorisations de modifier les enregistrements.
+#### Autorisations d’enregistrement des champs dans l’environnement de production
+
+
+Les autorisations de modification des paramètres de champ sont héritées du type d’enregistrement, lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
+
+Les autorisations suivantes se rapportent aux paramètres des champs et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez avoir les autorisations de modifier les enregistrements.
 
 |        | Gérer | Contribuer | Afficher |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ Les autorisations suivantes se réfèrent aux champs eux-mêmes et non aux valeu
 | Modifier | ✓ |            |       |
 | Afficher | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### Autorisations d’enregistrement des champs dans l’environnement de prévisualisation
+
+Les autorisations relatives aux paramètres des champs sont héritées du type d’enregistrement, lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
+
+Les autorisations suivantes se rapportent aux paramètres des champs et non aux valeurs associées à chaque champ.
+
+|        | Gérer | Contribuer | Afficher |
+|--------|--------|------------|-------|
+| Créer | ✓ |            |       |
+| Supprimer | ✓ |            |       |
+| Modifier | ✓ |            |       |
+| Afficher | ✓ | ✓ | ✓ |
+
+
+Les autorisations relatives aux valeurs de champ sont héritées du type d’enregistrement et fonctionnent conjointement avec les autorisations relatives aux enregistrements.
+
+Vous pouvez gérer les autorisations relatives aux valeurs de champs individuels et restreindre les champs susceptibles de contenir des informations confidentielles.
+
+Vous pouvez accorder les autorisations suivantes aux valeurs de champ en partageant un champ :
+
+|        | Gérer | Afficher |
+|--------|--------|------|
+| Supprimer | ✓ |      |
+| Modifier | ✓ |      |
+| Afficher | ✓ | ✓ |
+
+Les utilisateurs doivent au moins disposer d’autorisations en lecture seule sur le type d’enregistrement pour accéder aux champs.
+
+</div>
 
 ### Autorisations d’affichage
 
