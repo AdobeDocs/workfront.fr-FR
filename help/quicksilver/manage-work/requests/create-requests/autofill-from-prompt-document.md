@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 10%
-
+source-wordcount: '1764'
+ht-degree: 8%
 ---
-
 # Utiliser le remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide de prompts ou de documents
 
 >[!NOTE]
 >
 >Pour utiliser cette fonctionnalité, votre entreprise doit répondre aux exigences requises pour utiliser l’assistant Workfront AI. Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-Le remplissage de formulaire par l’IA peut vous aider à remplir automatiquement les champs de demande en fonction d’une invite que vous saisissez. Il peut également remplir des champs basés sur du texte, tels que des e-mails ou des documents chargés. Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
+Le remplissage de formulaire par l’IA peut vous aider à remplir automatiquement les champs de demande en fonction d’une invite que vous saisissez. Il peut également remplir les champs en fonction des informations suivantes que vous ajoutez à l’invite :
+
+* Un email
+* Documents chargés
+* Lien vers un projet, une tâche ou un événement.
+
+Vous pouvez approuver ou rejeter ces suggestions avant d’envoyer la demande.
 
 Cette fonctionnalité est disponible lors de la création d’une demande dans la zone des Demandes Workfront, pour les demandes Workfront et Workfront Planning.
 
@@ -155,6 +165,7 @@ Pour utiliser des suggestions basées sur une invite de texte collée :
    >[!NOTE]
    >
    >Toute suggestion non révisée sera automatiquement acceptée lorsque vous soumettrez la demande.
+1. Cliquez sur **Soumettre** pour soumettre la demande.
 
 ### Exemples d’invites de texte
 
@@ -342,6 +353,43 @@ Vous pouvez charger un document à appliquer à l’ensemble du formulaire ou à
    >[!NOTE]
    >
    >Toute suggestion non révisée sera automatiquement acceptée lorsque vous soumettrez la demande.
+1. Cliquez sur **Soumettre** pour soumettre la demande.
+
+### Ajoutez un lien vers un autre objet pour remplir automatiquement une demande
+
+Vous pouvez ajouter un lien vers un projet, une tâche ou un événement existant à votre invite pour l&#39;appliquer à l&#39;ensemble du formulaire ou à une seule section du formulaire.
+
+1. Accédez à un projet, une tâche ou un événement dont vous souhaitez inclure les informations dans une nouvelle demande et copiez le lien de l’objet de la ligne d’adresse du navigateur vers le presse-papiers.
+
+   Le projet, la tâche ou l’événement doit se trouver dans la même instance de Workfront que votre demande.
+
+1. Commencez à créer une demande.
+
+   Pour obtenir des instructions, voir [Création et envoi de requêtes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. Pour appliquer les informations d’un objet lié à l’ensemble du formulaire, cliquez sur l’icône **AI** ![AI](assets/request-prompt-icon.png) sous le nom du formulaire.
+
+   Ou
+
+   Pour appliquer les informations de l’objet lié à une seule section, cliquez sur l’icône **AI** ![AI](assets/request-prompt-icon.png) en regard du nom de la section.
+
+1. Commencez à ajouter votre invite, puis collez le lien que vous avez copié à partir du projet, de la tâche ou de l’événement dans la fenêtre de l’invite.
+1. (Conditionnel) Cliquez sur **Appliquer au formulaire** ou **Appliquer à la section**.
+1. Cliquez sur **Remplir le formulaire** ou **Remplir la section**.
+
+   Workfront génère des suggestions pour le formulaire.
+1. Pour chaque suggestion de champ, cliquez sur les icônes **Accepter la suggestion** ou **Rejeter la suggestion** correspondant à ce champ.
+
+   ![Accepter ou refuser la suggestion](assets/accept-reject-suggestion.png)
+
+   Ou
+
+   Sélectionnez **Accepter tout** ou **Rejeter tout** en haut de la page pour accepter ou rejeter toutes les suggestions.
+
+   >[!NOTE]
+   >
+   >Toute suggestion non révisée sera automatiquement acceptée lorsque vous soumettrez la demande.
+1. Cliquez sur **Soumettre** pour soumettre la demande.
 
 ## Dépannage
 

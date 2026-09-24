@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
-ht-degree: 38%
-
+source-wordcount: '1550'
+ht-degree: 37%
 ---
-
 # Afficher les demandes envoyées
 
 <!--
@@ -56,8 +59,9 @@ La zone des Demandes affiche les demandes suivantes, selon la manière dont vous
   >[!NOTE]
   >
   >* Vous pouvez uniquement afficher vos propres brouillons de demandes.
-  >* Dans la nouvelle expérience de demande, les demandes envoyées et les brouillons se trouvent dans la même liste.
+  >* Dans la nouvelle expérience de requête, les requêtes envoyées et les brouillons figurent dans la même liste.
   >* Les brouillons créés dans l’expérience héritée ne s’affichent pas dans la nouvelle expérience Demande.
+  >* Dans la nouvelle expérience de requête, vous ne pouvez voir les anciennes requêtes Workfront que de juillet 2025 à aujourd’hui. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## Conditions d’accès
 
@@ -166,8 +170,8 @@ Pour afficher les requêtes que vous ou d’autres utilisateurs et utilisatrices
    * **En révision** : (Planification uniquement) cette demande a des approbateurs et au moins un approbateur a ouvert la demande, mais aucune décision n&#39;a été prise. Ce statut est codé en dur.
    * **Rejeté** : (Planning uniquement) Cette demande contient des approbateurs et a été rejetée. Cette demande ne créera pas d’enregistrement. Ce statut est codé en dur.
    * **En cours** :
-      * Demandes Workfront : la demande a été convertie et le travail est en cours.
-      * Demandes Planning Workfront : l’achèvement de la demande est mappé à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur d’achèvement.
+     * Demandes Workfront : la demande a été convertie et le travail est en cours.
+     * Demandes Planning Workfront : l’achèvement de la demande est mappé à un champ Planning spécifique et la valeur du champ ne correspond pas encore à la valeur d’achèvement.
    * **En attente** : cette option est disponible pour les requêtes Workfront. Il peut être défini manuellement par les utilisateurs.
    * **Terminé** : l&#39;enregistrement Planning qui complète la demande a été créé. (Planification uniquement)
    <!--
