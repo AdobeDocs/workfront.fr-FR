@@ -10,25 +10,32 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1256
+source-wordcount: '1256'
 ht-degree: 92%
-
 ---
-
 # Vue d’ensemble de l’équilibreur de charge de travail {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
@@ -44,7 +51,7 @@ Une fois que les personnes chargées de la gestion de projet ont planifié le tr
 
 >[!IMPORTANT]
 >
->Vous pouvez utiliser l’équilibreur de charge de travail pour affecter du travail réel (tâches et événements) aux utilisateurs et aux collaborateurs de tâches.
+>Vous pouvez utiliser l’équilibreur de charge de travail pour affecter du travail réel (tâches et événements) aux utilisateurs et aux agents de travail.
 >
 >Vous devez utiliser le planificateur de ressources et non l’équilibreur de charge de travail pour estimer, à un niveau élevé, l’attribution des fonctions pour vos projets. Pour plus d’informations sur le planificateur de ressources, consultez la section [Vue d’ensemble du planificateur de ressources](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -130,9 +137,9 @@ Pour plus d’informations sur la création et l’utilisation de filtres dans l
 
   Pour plus d’informations, consultez la section [Configurer les préférences de gestion des ressources](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* Vous pouvez affecter du travail à un collaborateur de tâches de la même manière que vous affectez du travail à un utilisateur. La tâche collaborative doit exister dans Workfront avant de pouvoir être affectée à des tâches.
+* Vous pouvez affecter du travail à un agent de travail de la même manière que vous affectez du travail à un utilisateur. L&#39;agent de travail doit exister dans Workfront avant de pouvoir être affecté à des tâches.
 
-  Pour plus d’informations sur la création de collaborateurs de tâches, voir [Configurer un collaborateur de tâches](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article [Configurer des collaborateurs de l’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  Pour plus d’informations sur la création d’agents de travail, voir [Configurer un agent de travail](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) dans l’article [Configurer des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Bonnes pratiques relatives à la configuration des tâches et des problèmes {#best-practices-for-setting-up-tasks-and-issues}
 

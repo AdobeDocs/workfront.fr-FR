@@ -9,30 +9,35 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: '1229'
 ht-degree: 56%
-
 ---
-
 # Attribuer du travail en bloc à l’aide de l’équilibreur de charge de travail
 
 <!--Audited: 07/2024-->
 
 Vous pouvez affecter des ressources à plusieurs tâches et événements en bloc à l’aide de l’équilibreur de charge de travail d’Adobe Workfront.
 
-Pour obtenir des informations générales sur l’affectation de travail aux utilisateurs et aux collaborateurs de tâches à l’aide de l’équilibreur de charge de travail, voir [Aperçu de l’affectation de travail dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Pour obtenir des informations générales sur l’affectation de tâches aux utilisateurs et aux agents de travail à l’aide de l’équilibreur de charge de travail, voir [Présentation de l’affectation de tâches dans l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Conditions d’accès
 
@@ -211,7 +216,7 @@ Pour affecter une ressource en bloc :
 1. Sélectionnez des tâches dans la zone Affectations en bloc de l’équilibreur de charge de travail comme décrit ci-dessus et sélectionnez **Affecter une ressource**.
 1. Dans le champ **Ressource actuellement affectée**, cliquez sur la flèche déroulante pour effectuer une sélection dans une liste de ressources. Seules les ressources actuellement affectées à des éléments de travail incomplets dans les projets spécifiés s&#39;affichent. Champ obligatoire.
 
-   ![&#x200B; Remplacer la ressource &#x200B;](assets/bulk-assignments-workload-balancer-replace-selected.png)
+   ![ Remplacer la ressource ](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
 1. Dans le champ **Ressource à affecter**, cliquez sur la flèche déroulante pour effectuer votre choix dans une liste de ressources suggérées ou pour saisir une autre fonction ou un autre nom d’utilisateur. Les ressources répertoriées en premier correspondent par défaut aux critères des affectations intelligentes. Pour en savoir plus, consultez la section [Vue d’ensemble des affectations intelligentes](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

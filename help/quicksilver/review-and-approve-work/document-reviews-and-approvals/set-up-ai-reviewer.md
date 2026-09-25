@@ -10,26 +10,35 @@ hide: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ
+TQID: 'https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 290
-ht-degree: 18%
-
+source-wordcount: '289'
+ht-degree: 19%
 ---
-
 # Créer des outils de révision IA
 
 >[!NOTE]
@@ -68,7 +77,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Conditions préalables
 
-Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans Workfront. Pour plus d’informations, voir [Création et gestion des marques pour le réviseur de contenu](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Avant de commencer, vous devez configurer des directives relatives à la marque d’image dans Workfront. Pour plus d’informations, voir [Création et gestion des marques pour l’AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Ajouter un réviseur d’IA
 
@@ -76,11 +85,11 @@ Avant de commencer, vous devez configurer des directives relatives à la marque 
 >
 >Le réviseur de l’IA n’est pas conçu pour être un décideur dans le workflow de révision et d’approbation. Il ne fournit qu’un score et des recommandations pour aligner la ressource sur les exigences de marque spécifiées.
 
-Pour ajouter un réviseur de contenu :
+Pour ajouter un réviseur d’IA :
 
 {{step-1-to-setup}}
 
-1. Dans le panneau de gauche, accédez à **Révision et approbation** > **Réviseurs AI**.
+1. Dans le panneau de gauche, accédez à **Révision et approbation** > **Réviseur**.
 1. Cliquez sur **Ajouter nouveau**.
 1. Nommez le réviseur ou la réviseuse.
 1. Sélectionnez une **marque**.
