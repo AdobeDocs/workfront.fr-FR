@@ -4,10 +4,10 @@ description: Améliorations des demandes pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 ---
 # Améliorations des demandes pour le quatrième trimestre 2026
 
@@ -15,21 +15,17 @@ Cette page décrit les améliorations apportées aux demandes à l’environneme
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## Affichez l’historique des demandes depuis 3 ans maximum dans la nouvelle expérience de demande
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 24 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+Vous pouvez désormais accéder aux demandes relatives aux problèmes Workfront envoyées jusqu’à 3 ans avant juillet 2025 à partir de la nouvelle expérience de demande. Auparavant, vous n’aviez accès qu’aux demandes envoyées après juillet 2025.
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+Pour plus d’informations, voir [Afficher les demandes envoyées](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Le remplissage de formulaire par l’IA extrait désormais les données des enregistrements référencés avec un lien
 

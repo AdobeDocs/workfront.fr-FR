@@ -4,9 +4,9 @@ description: Cette page fournit des informations sur les fonctionnalités inclus
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2877'
 ht-degree: 9%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -563,17 +563,15 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">View historical requests from up to 3 years in the new request experience</a>
-                <p>You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">Afficher l’historique des demandes sur une période allant jusqu’à 3 ans dans la nouvelle expérience de demande</a>
+                <p>Vous pouvez désormais accéder aux demandes relatives aux problèmes Workfront envoyées jusqu’à 3 ans avant juillet 2025 à partir de la nouvelle expérience de demande.</p>
             </td>
-            <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>24 septembre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 Le remplissage de formulaire <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI extrait désormais les données des enregistrements référencés avec un lien</a><p>[!BADGE Hors planning]{type=Neutral}</p>
