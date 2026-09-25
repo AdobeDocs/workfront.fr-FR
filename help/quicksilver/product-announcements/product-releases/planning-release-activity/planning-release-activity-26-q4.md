@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2785'
 ht-degree: 2%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
@@ -33,63 +33,59 @@ Les utilisateurs sans accès ne voient pas les champs restreints, tandis que les
 
 Pour plus d’informations, voir [Partager des champs de planification Workfront](/help/quicksilver/planning/access/share-fields.md).
 
-<!--
-
-## Share a Planning request
+## Partage d’une requête Planning
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 24 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
-You can now share a Planning request with others from the Requests area in the new request experience.
+Vous pouvez désormais partager une demande Planning avec d’autres personnes à partir de la zone des Demandes dans la nouvelle expérience de demande.
 
-You can give others one of the following permissions to the request: View, Contribute, or Manage.
+Vous pouvez accorder à d’autres l’une des autorisations suivantes à la requête : Afficher, Contribuer ou Gérer.
 
-For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+Pour plus d&#39;informations, voir [Partage des enregistrements Planning](/help/quicksilver/planning/requests/share-requests.md).
 
-## Set up multi-stage approvals for Planning requests
-
->[!NOTE]
->
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
-
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Enhancements to display logic and field editing in Planning requests forms
+## Configurer les approbations en plusieurs étapes pour les demandes Planning
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 24 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
-You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+Les administrateurs Workspace peuvent désormais créer des processus d’approbation à une ou plusieurs étapes pour chaque formulaire de demande Planning, en affectant un ou plusieurs approbateurs ou équipes à chaque étape et en réutilisant les modèles d’approbation existants afin d’accélérer la configuration. Les demandes avancent automatiquement une fois que tous les approbateurs requis d’une étape l’ont approuvée, et chaque approbateur est averti lorsqu’une demande atteint son étape. Les demandeurs et les approbateurs peuvent suivre à quelle étape une demande en est et voir quelles approbations sont toujours en attente.
 
-In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Configure capabilities for each access tier per request form
+## Améliorations de l’affichage de la logique et de la modification des champs dans les formulaires de demandes Planning
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 24 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
-Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+Vous pouvez désormais créer une logique d’affichage avancée dans les formulaires de requête Planning en fonction des valeurs de champ de connexion, de sorte que les formulaires s’adaptent aux sélections des demandeurs. Tous les champs Planning, y compris les champs de connexion, sont pris en charge lors de la création de cette logique.
 
-Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+En outre, vous pouvez désormais modifier les options d’un champ directement à partir du formulaire de demande. Par exemple, pour les types de champs sélectionnés, vous pouvez mettre à jour les choix de champ, leur ordre et leur valeur par défaut à partir du formulaire de requête. Auparavant, cette fonctionnalité n’était pas disponible.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d’informations, voir [Créer un formulaire de demande](/help/quicksilver/planning/requests/create-request-form.md).
 
--->
+## Configuration des fonctionnalités pour chaque niveau d’accès par formulaire de demande
+
+>[!NOTE]
+>
+>Aperçu : 24 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Les administrateurs de Workfront et de l’espace de travail peuvent désormais indiquer le niveau d’autorisations qu’un demandeur reçoit sur ses demandes lorsqu’ils configurent le formulaire de demande.
+
+Les demandeurs peuvent obtenir les autorisations suivantes pour une demande qu’ils ont soumise : Afficher, Contribuer ou Gérer. Les utilisateurs et utilisatrices peuvent commenter, modifier, partager ou afficher une demande, et les fonctionnalités qui ne sont pas partagées avec eux sont grisées lors de l’affichage de la zone de partage d’une demande.
+
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Le remplissage de formulaire par l’IA extrait désormais les données des enregistrements référencés avec un lien
 
@@ -122,7 +118,7 @@ Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puis
 >
 >CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Pour plus d&#39;informations, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Suppression de l’icône de l’assistant AI dans la zone d’aperçu Détails en vue du lancement de CX Coworker
 
@@ -266,7 +262,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
