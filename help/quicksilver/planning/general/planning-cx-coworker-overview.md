@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 7%
 ---
 
@@ -32,7 +46,7 @@ Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de 
 >
 >CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations.
 >
->Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 
 ## Conditions d’accès
@@ -93,9 +107,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Le CX Coworker doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre société.
 
-  Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Pour plus d’informations, consultez la présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’administrateur Workfront doit également activer le CX Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -114,7 +128,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Fonctionnalité actuellement disponible pour le CX Coworker
 
-Actuellement, le CX Coworker est disponible dans la zone Planning de Workfront et utilise un ensemble de compétences pour accéder aux informations des objets Planning et les manipuler. Pour plus d’informations, voir [Compétences &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Actuellement, le CX Coworker est disponible dans la zone Planning de Workfront et utilise un ensemble de compétences pour accéder aux informations des objets Planning et les manipuler. Pour plus d’informations, voir [Compétences ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Vous pouvez utiliser le CX Coworker pour effectuer les actions suivantes :
 
@@ -138,20 +152,19 @@ Le CX Coworker se trouve dans les zones suivantes de Workfront Planning :
 
 ## Accès au CX Coworker dans la zone Planning
 
-
 1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **Planning**.
 
    La zone Planification s’ouvre.
 
-   Recherchez l’icône **AI** ![AI](assets/ai-icon.png) dans le coin supérieur droit de la page ou passez aux étapes ci-dessous.
+   Recherchez l’icône **Collègue** ![icône de collègue](assets/coworker-icon.png) dans le coin supérieur droit de la page ou passez aux étapes ci-dessous.
 
 1. Cliquez sur une carte **espace de travail**.
 
 1. Cliquez sur une carte **type d’enregistrement**.
 
-1. Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’ouverture dans .
+1. Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans un nouvel onglet](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Cliquez sur l’icône **&#x200B;**&#x200B;dans le coin supérieur droit de l’écran.
+1. Cliquez sur l’icône **** ![icône Collègue](assets/coworker-icon.png) dans le coin supérieur droit de l’écran.
 
 1. Dans l’espace prévu à cet effet, commencez à saisir des commandes pour le CX Coworker, puis cliquez sur Entrée lorsque vous avez terminé.
 

@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 2%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
@@ -21,7 +33,7 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 24 septembre 2026
+>Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
 >Production pour tous : 15 octobre 2026
 
@@ -37,7 +49,7 @@ Pour plus d’informations, voir [Partager des champs de planification Workfront
 
 >[!NOTE]
 >
->Aperçu : 24 septembre 2026
+>Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
 >Production pour tous : 15 octobre 2026
 
@@ -51,7 +63,7 @@ Pour plus d&#39;informations, voir [Partage des enregistrements Planning](/help/
 
 >[!NOTE]
 >
->Aperçu : 24 septembre 2026
+>Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
 >Production pour tous : 15 octobre 2026
 
@@ -63,7 +75,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 
 >[!NOTE]
 >
->Aperçu : 24 septembre 2026
+>Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
 >Production pour tous : 15 octobre 2026
 
@@ -73,11 +85,11 @@ En outre, vous pouvez désormais modifier les options d’un champ directement �
 
 Pour plus d’informations, voir [Créer un formulaire de demande](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Configuration des fonctionnalités pour chaque niveau d’accès par formulaire de demande
+## Configuration des autorisations par défaut pour les demandeurs dans les formulaires de demande Planning
 
 >[!NOTE]
 >
->Aperçu : 24 septembre 2026
+>Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
 >Production pour tous : 15 octobre 2026
 
@@ -87,7 +99,7 @@ Les demandeurs peuvent obtenir les autorisations suivantes pour une demande qu�
 
 Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Le remplissage de formulaire par l’IA extrait désormais les données des enregistrements référencés avec un lien
+## Le remplissage de formulaire par l’IA extrait les données des enregistrements référencés avec un lien
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ Le remplissage de formulaire AI peut désormais récupérer les données de cham
 
 Pour plus d’informations, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker désormais disponible dans Workfront Planning
+## CX Coworker disponible dans Workfront Planning
 
 >[!NOTE]
 >
@@ -118,9 +130,9 @@ Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puis
 >
 >CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Pour plus d&#39;informations, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Suppression de l’icône de l’assistant AI dans la zone d’aperçu Détails en vue du lancement de CX Coworker
+## Icône de l’assistant AI supprimée de la zone d’aperçu des Détails de l’enregistrement en vue du lancement de CX Coworker
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ Pour plus d’informations, voir [Configurer des règles métier de type enregis
 >* **Créer des formulaires de demande** et **Gérer les formulaires de demande** est devenu **Formulaires de demande**
 >* **Gérer les automatisations** est devenu **Automatisations**
 
-## Introduction de semaines personnalisées pour la vue chronologique
+## Semaines personnalisées pour la vue Chronologie
 
 >[!NOTE]
 >
@@ -262,7 +274,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
@@ -331,7 +343,7 @@ Pour plus d’informations, voir [Compétences disponibles pour une installation
 >Version rapide de production : 13 août 2026
 >Production pour tous : 15 octobre 2026
 
-L’expérience de glisser-déposer de lignes en mode Tableau a été améliorée visuellement.
+L’expérience de glisser-déposer de lignes uniques en mode tableau a été améliorée visuellement.
 
 Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -356,9 +368,6 @@ Les fonctionnalités suivantes sont incluses dans cette mise à jour :
 
 
 Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Afficher un nouvel indicateur de commentaire pour un enregistrement en mode Tableau
 
