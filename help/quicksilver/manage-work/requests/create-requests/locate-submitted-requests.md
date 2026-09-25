@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 37%
+source-wordcount: '1646'
+ht-degree: 36%
 ---
 # Afficher les demandes envoyées
 
@@ -36,13 +36,11 @@ ht-degree: 37%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Vous pouvez afficher les demandes que vous ou une autre personne avez envoyées, ou les demandes que vous avez commencées mais que vous n’avez jamais terminées. Les demandes non terminées sont enregistrées en tant que brouillons.
 
@@ -61,7 +59,7 @@ La zone des Demandes affiche les demandes suivantes, selon la manière dont vous
   >* Vous pouvez uniquement afficher vos propres brouillons de demandes.
   >* Dans la nouvelle expérience de requête, les requêtes envoyées et les brouillons figurent dans la même liste.
   >* Les brouillons créés dans l’expérience héritée ne s’affichent pas dans la nouvelle expérience Demande.
-  >* Dans la nouvelle expérience de requête, vous ne pouvez voir les anciennes requêtes Workfront que de juillet 2025 à aujourd’hui. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* Dans l’environnement de production, dans la nouvelle expérience de requête, vous ne trouverez les requêtes Workfront envoyées que de juillet 2025 à aujourd’hui. <span class="preview">Dans l’environnement de Prévisualisation, dans la nouvelle expérience de requête, vous pouvez renvoyer les requêtes Workfront envoyées uniquement de 2023 à aujourd’hui. Vous pouvez voir toutes les requêtes Workfront dans l’expérience héritée.</span>
 
 ## Conditions d’accès
 
