@@ -46,7 +46,7 @@ Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de 
 >
 >CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations.
 >
->Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 
 ## Conditions d’accès
@@ -107,9 +107,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Le CX Coworker doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre société.
 
-  Pour plus d’informations, consultez la présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’administrateur Workfront doit également activer le CX Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -128,7 +128,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Fonctionnalité actuellement disponible pour le CX Coworker
 
-Actuellement, le CX Coworker est disponible dans la zone Planning de Workfront et utilise un ensemble de compétences pour accéder aux informations des objets Planning et les manipuler. Pour plus d’informations, voir [Compétences ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Actuellement, le CX Coworker est disponible dans la zone Planning de Workfront et utilise un ensemble de compétences pour accéder aux informations des objets Planning et les manipuler. Pour plus d’informations, voir [Compétences &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Vous pouvez utiliser le CX Coworker pour effectuer les actions suivantes :
 
@@ -164,7 +164,7 @@ Le CX Coworker se trouve dans les zones suivantes de Workfront Planning :
 
 1. Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans un nouvel onglet](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Cliquez sur l’icône **** ![icône Collègue](assets/coworker-icon.png) dans le coin supérieur droit de l’écran.
+1. Cliquez sur l’icône **&#x200B;**&#x200B;![icône Collègue](assets/coworker-icon.png) dans le coin supérieur droit de l’écran.
 
 1. Dans l’espace prévu à cet effet, commencez à saisir des commandes pour le CX Coworker, puis cliquez sur Entrée lorsque vous avez terminé.
 
