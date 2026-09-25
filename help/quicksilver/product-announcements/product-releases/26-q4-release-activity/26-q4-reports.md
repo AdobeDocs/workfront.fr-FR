@@ -4,18 +4,34 @@ description: Améliorations des rapports pour le quatrième trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: c94c1f3d662cee00a12c786063a4e4db2015361d
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 6%
-
+ht-degree: 8%
 ---
-
 # Améliorations des rapports pour le quatrième trimestre 2026
 
 Cette page décrit les améliorations apportées aux rapports avec la version du quatrième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Filter on collection relationships in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 24, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+
+Previously, filtering on collection relationships required text mode.
+
+For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+
+-->
 
 ## Copie de tableaux de bord dans les tableaux de bord de la zone de travail
 
@@ -56,9 +72,9 @@ Les noms de champ suivants utilisés dans les tableaux de bord de la zone de tra
 | Approbation du document | Approbation |
 | Étape d’approbation du document | Étape d’approbation |
 | Personne participant à l’étape d’approbation du document | Participant ou participante à l’étape d’approbation |
-| Processus d’approbation | Processus d&#39;approbation de travail |
-| Étape d’approbation | Étape d&#39;approbation de travail |
-| Statut de l&#39;approbateur | Statut de l&#39;approbateur de travail |
+| Processus d’approbation | Processus d’approbation du travail |
+| Étape d’approbation | Étape d’approbation du travail |
+| Statut de l&#39;approbateur | Statut de l’approbateur ou approbatrice du travail |
 | Approbation en attente | Approbation de travail en attente |
 
 Cette modification n’a aucune incidence sur le fonctionnement des rapports actuels.

@@ -5,13 +5,12 @@ title: Configuration du serveur MCP Adobe Workfront
 description: Configurez votre instance Workfront et votre plateforme d’IA agentic pour pouvoir travailler avec Workfront par le biais de conversations en langage naturel.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
-
 
 # Configuration du serveur MCP Adobe Workfront
 
@@ -53,6 +52,8 @@ L’accès au serveur MCP est contrôlé par deux administrateurs distincts.
   Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Si vous utilisez une version d’entreprise d’une plateforme AI agentic, l’administrateur de cette plateforme doit activer le connecteur [!DNL Adobe Workfront] pour votre organisation ou vous donner un accès URL personnalisé pour vous connecter au serveur MCP Workfront.
+
+* <span class="preview">Si vous connectez une application personnalisée ou une plateforme agentic à l’aide d’une URL de rappel OAuth unique par client, votre administrateur Workfront doit ajouter cette URL à la liste **URL de redirection autorisées** dans **Préférences système > Préférences MCP**. Sans cela, l’authentification est refusée. Pour plus d’informations, voir [Connexion à OAuth](#connect-with-oauth) dans cet article.</span>
 
 
 ## Connecter Workfront à Claude
@@ -106,7 +107,7 @@ Pour connecter Workfront à [!DNL Claude] avec une URL :
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. Cliquez sur **Connexion**.
+1. Cliquez sur **Connecter**.
 Une fenêtre de connexion à Workfront s’affiche.
 1. Authentifiez-vous à l’aide de vos informations d’identification Adobe ID.
 Vous devrez peut-être sélectionner un profil et une instance Workfront. Le profil que vous sélectionnez détermine l’espace de travail connecté.
@@ -238,7 +239,33 @@ Il existe deux façons de se connecter :
 
 ### Se connecter avec OAuth
 
-La prise en charge en libre-service des intégrations OAuth personnalisées n’est pas encore disponible pour Workfront.
+<div class="preview">
+
+Si la plateforme d’agence IA ou l’application personnalisée à laquelle vous vous connectez dispose d’une URL de rappel OAuth (de redirection) unique par client, telle qu’une URL contenant un identifiant de connexion ou de client, votre administrateur Workfront doit ajouter cette URL à la liste des URL de redirection autorisées de votre organisation avant de pouvoir vous authentifier.
+
+>[!NOTE]
+>
+>Cela n’est nécessaire que pour les intégrations qui ne font pas partie des plateformes prises en charge en mode natif, telles que Claude ou Copilot. Si vous utilisez une plateforme prise en charge de manière native, reportez-vous à la section correspondant à cette plateforme dans cet article.
+
+Votre administrateur Workfront ajoute les URL de redirection autorisées dans les Préférences système.
+
+Pour obtenir des instructions sur l’ajout d’URL de redirection pour les serveurs MCP, voir [Ajouter ou supprimer une URL de redirection autorisée](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url).
+
+Une fois l’URL ajoutée, vous pouvez connecter votre application personnalisée ou votre plateforme d’agence à l’URL du serveur Workfront MCP :
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+Lors de la connexion, il vous sera demandé de vous authentifier à l’aide de vos informations d’identification Adobe ID.
+
+>[!IMPORTANT]
+>
+>Les URL de rappel doivent correspondre exactement. Workfront ne prend pas en charge la correspondance de caractères génériques ou de préfixes pour les URL de rappel personnalisées. Seules les URL de cette liste peuvent se connecter à vos agents MCP : supprimez immédiatement une URL si l&#39;agent associé est retiré ou compromis.
+
+Si votre URL de rappel ne figure pas dans la liste, la demande d’authentification est rejetée. Demandez à votre administrateur Workfront de confirmer que l’URL est saisie exactement comme votre intégration le fournit.
+
+</div>
 
 ## Vérifier votre connexion
 

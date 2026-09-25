@@ -5,12 +5,14 @@ title: Créer un rapport de tableau croisé dynamique dans un tableau de bord Zo
 description: Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données sous la forme d'un tableau.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 9%
 ---
 # Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >

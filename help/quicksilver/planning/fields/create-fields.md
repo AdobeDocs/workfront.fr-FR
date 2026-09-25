@@ -1,6 +1,6 @@
 ---
 title: Créer des champs
-description: Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour chaque type d’enregistrement. Vous pouvez ensuite associer le champ à des enregistrements Workfront Planning.
+description: Dans la planification Adobe Workfront, vous pouvez créer des champs personnalisés pour chaque type d’enregistrement. Vous pouvez ensuite associer le champ à des enregistrements de la planification Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -11,23 +11,28 @@ git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: adda394cd1896753d3b6688eed528f92738eedcf
 workflow-type: tm+mt
-source-wordcount: 5442
+source-wordcount: '5561'
 ht-degree: 38%
-
 ---
-
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??
 -->
@@ -42,17 +47,14 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Créer des champs
 
-<!--information about choice values must stay in yellow till Jan 2026-->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
-Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour des types d’enregistrements. Vous pouvez ensuite associer les champs à des enregistrements Workfront Planning afin d’améliorer les informations d’enregistrement.
+Dans la planification Adobe Workfront, vous pouvez créer des champs personnalisés pour des types d’enregistrements. Vous pouvez ensuite associer les champs à des enregistrements de la planification Workfront afin d’améliorer les informations d’enregistrement.
 
 Vous devez créer des types d’enregistrements avant de pouvoir créer des champs à associer à ceux-ci. Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
@@ -193,7 +195,7 @@ Lorsque vous créez un type d’enregistrement, plusieurs champs associés au no
 
 ## Créer des champs en créant un espace de travail à partir d’un modèle
 
-Adobe Workfront Planning crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
+La planification Adobe Workfront crée des champs pour les types d’enregistrement lorsque vous créez un espace de travail à partir d’un modèle.
 
 Pour plus d’informations, consultez la section [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -295,6 +297,10 @@ Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/qu
     -->
 
 1. Poursuivez en ajoutant chaque champ, comme décrit dans les sections ci-dessous.
+
+1. <span class="preview">(Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne de la vue Tableau et cliquez sur le menu déroulant **Plus**, puis **Partager le champ** pour partager le champ. </span>
+
+   </span>Pour plus d’informations, voir [Partage de champs](/help/quicksilver/planning/access/share-fields.md). </span>
 
 ### Texte à une ligne {#single-line-text}
 

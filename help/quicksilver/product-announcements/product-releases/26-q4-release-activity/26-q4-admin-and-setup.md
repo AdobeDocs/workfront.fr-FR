@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administration pour le quatrième 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 1%
 ---
 # Améliorations apportées à l’administration pour le quatrième trimestre 2026
@@ -14,6 +14,18 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Ajout d’URL de redirection autorisées pour les intégrations MCP
+
+>[!NOTE]
+>
+>Aperçu : 22 septembre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Pour rendre les serveurs Workfront MCP plus flexibles et personnalisables pour votre organisation, nous avons ajouté la possibilité d’ajouter des URL de rappel OAuth personnalisées. Les administrateurs et administratrices de Workfront peuvent désormais gérer la liste autorisée de données de leur propre organisation des URL de rappel OAuth approuvées pour les intégrations MCP. Cela vous permet de connecter des plateformes d’agence IA personnalisées dont l’URL de rappel OAuth est unique à votre organisation, au-delà des plateformes que Workfront prend en charge de manière native.
+
+Pour plus d’informations, voir [Ajouter ou supprimer une URL de redirection autorisée](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url) dans [Configurer les préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 <!--
 
