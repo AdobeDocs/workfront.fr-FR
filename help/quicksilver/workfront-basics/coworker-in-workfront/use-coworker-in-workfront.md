@@ -82,14 +82,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * **Microphone** : dictez votre message à l’aide de la voix. Sélectionnez à nouveau pour arrêter l’enregistrement.
    * **Envoyer** : envoyez le message. Lorsque le Chat Coworker répond, cela devient un contrôle d’arrêt que vous pouvez utiliser pour interrompre.
 
-   Pour plus d’informations sur ces actions, voir [Zone d’entrée de conversation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) dans la documentation d’Adobe CX Coworker.
+   Pour plus d’informations sur ces actions, voir [Zone d’entrée de conversation](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) dans la documentation d’Adobe CX Coworker.
 
 1. Pour afficher et gérer les conversations précédentes, cliquez sur l’icône Conversations ![icône Conversations](assets/ai-icon.png) dans le panneau CX Coworker.
 
    Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation d’Adobe CX Coworker.
 1. Pour afficher et gérer les artefacts de conversation, tels que les listes de sortie, cliquez sur l’icône Artefacts ![icône Artefacts](assets/artifacts-icon.png).
 
-   Pour plus d’informations sur les artefacts dans CX Coworker, consultez [Artefacts](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation d’Adobe CX Coworker.
+   Pour plus d’informations sur les artefacts dans CX Coworker, consultez [Artefacts](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation d’Adobe CX Coworker.
 1. Pour gérer les paramètres de Coworker, cliquez sur l’icône Paramètres ![Paramètres](assets/coworker-settings-icon.png).
 1. Pour développer le panneau Collègue, cliquez sur l’icône Développer ![icône Développer](assets/coworker-expand-icon.png).
 1. Pour accéder à l’interface d’Adobe CX Coworker, cliquez sur l’icône Applications ![icône Applications](assets/apps-icon.png) dans le coin supérieur droit de la page, puis sélectionnez Collègue dans la liste des applications disponibles.
