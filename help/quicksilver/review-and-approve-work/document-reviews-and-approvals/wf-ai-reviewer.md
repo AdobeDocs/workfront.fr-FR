@@ -130,7 +130,7 @@ AI Reviewer n’évalue pas :
 
 * **Juridique/conformité** : utilisation des marques, clauses de non-responsabilité, règles de localisation
 
-Pour obtenir des conseils sur la rédaction de directives de marque conformes à ce que l’évaluateur d’IA évalue, voir [&#x200B; Créer et gérer des marques pour l’évaluateur d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Pour obtenir des conseils sur la rédaction de directives de marque conformes à ce que l’évaluateur d’IA évalue, voir [ Créer et gérer des marques pour l’évaluateur d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Ajouter des réviseurs d’IA pour réviser et approuver les demandes
 
