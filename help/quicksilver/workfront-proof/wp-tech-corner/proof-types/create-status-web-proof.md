@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
-title: Créer une épreuve statique de site web à l’aide de  [!DNL Workfront Proof]
+title: Créer une épreuve statique de site web à l’aide de [!DNL Workfront Proof]
 description: Vous pouvez créer des épreuves statiques à partir de vos pages web. En outre, vous pouvez simuler divers appareils en définissant la résolution des captures d’écran.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+TQID: 'https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 493
-ht-degree: 91%
-
+source-wordcount: '519'
+ht-degree: 96%
 ---
-
 # Créer une épreuve statique de site web à l’aide de [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -34,8 +43,8 @@ Vous pouvez créer des épreuves statiques à partir de vos pages web. En outre,
 1. Ouvrez la page [!UICONTROL Nouvelle épreuve], comme décrit dans la section [Générer des épreuves dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 1. Collez ou entrez votre URL dans la zone **www.shareyourlink.com**.
 1. Vous pouvez répéter cette étape pour ajouter plusieurs URL.
-1. Juste en dessous de cette zone, cliquez sur la résolution (la valeur par défaut est 1 366 x 768), puis sélectionnez les résolutions de votre choix dans la zone **[!UICONTROL Résolution de capture d’écran]**.
-Sélectionnez une résolution inférieure si vous souhaitez tester les conceptions pour les appareils mobiles. En règle générale, les conceptions se chargent selon la résolution de fenêtre du navigateur/écran.
+1. Juste en dessous de cette zone, cliquez sur la résolution (la valeur par défaut est 1366 x 768), puis sélectionnez les résolutions de votre choix dans la zone **[!UICONTROL Résolution de capture d’écran]**.
+Sélectionnez une résolution plus petite si vous souhaitez réviser des conceptions pour appareils mobiles. En règle générale, les conceptions se chargent selon la résolution de l’écran/de la fenêtre du navigateur.
 
 1. Cliquez sur **[!UICONTROL Rechercher des sous-pages]** si vous souhaitez inclure des pages connectées qui se trouvent dans le même domaine/sous-domaine que l’URL saisie.
    [!DNL Workfront Proof] analyse les pages connectées et les répertorie sous l’option **[!UICONTROL Rechercher des sous-pages]**. Vous pouvez sélectionner les pages à inclure.

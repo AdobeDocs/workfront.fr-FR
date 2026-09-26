@@ -1,6 +1,6 @@
 ---
 title: Aperçu du champ
-description: Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs des types d’enregistrement.
+description: Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs des types d’enregistrement.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 72%
-
 ---
-
 # Vue d’ensemble des champs
 
 <!--
@@ -32,10 +39,10 @@ ht-degree: 72%
 
 {{planning-important-intro}}
 
-Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs des types d’enregistrement.
+Vous pouvez ajouter de nouveaux champs dans la planification Adobe Workfront qui reflètent le cycle de vie de votre entreprise. Les champs sont des attributs des types d’enregistrement.
 
 
-## Remarques relatives aux champs Adobe Workfront Planning
+## Remarques relatives aux champs de la planification Adobe Workfront
 
 * Vous ne pouvez créer des champs qu’à partir de la vue de tableau d’une page de type enregistrement. Les champs s’affichent sous forme de colonnes dans la vue de tableau. Tous les champs associés à un type d’enregistrement s’affichent également dans la page d’enregistrement.
 
@@ -43,8 +50,8 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 
   Pour plus d’informations sur la gestion des champs, reportez-vous également aux articles suivants :
 
-   * [Modifier des paramètres des champs](/help/quicksilver/planning/fields/edit-fields.md)
-   * [Supprimer des champs](/help/quicksilver/planning/fields/delete-fields.md)
+  * [Modifier des paramètres des champs](/help/quicksilver/planning/fields/edit-fields.md)
+  * [Supprimer des champs](/help/quicksilver/planning/fields/delete-fields.md)
 
 * Les champs associés à un type d’enregistrement peuvent être associés à tous les enregistrements de ce type. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,49 +59,49 @@ Vous pouvez ajouter de nouveaux champs dans Adobe Workfront Planning qui refl�
 
 * Vous pouvez créer des champs manuellement ou automatiquement des manières suivantes :
 
-   * Manuellement :
+  * Manuellement :
 
-      * Lorsque vous ajoutez des colonnes dans la vue Tableau d’une page de type d’enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
+    * Lorsque vous ajoutez des colonnes dans la vue Tableau d’une page de type d’enregistrement. Les colonnes du tableau sont les champs associés au type d’enregistrement. Il s’agit des mêmes champs que ceux affichés sur la page d’un enregistrement.
 
-        Vous ne pouvez pas créer de champs à partir de la page de l’enregistrement.
+      Vous ne pouvez pas créer de champs à partir de la page de l’enregistrement.
 
-      * Lorsque vous connectez des types d’enregistrements. Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
+    * Lorsque vous connectez des types d’enregistrements. Vous pouvez créer des champs d’enregistrement liés lorsque vous ajoutez une nouvelle connexion entre deux types d’enregistrement ou un type d’enregistrement et des types d’objet à partir d’autres applications.
 
-        Pour plus d’informations sur la connexion des types d’enregistrement, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+      Pour plus d’informations sur la connexion des types d’enregistrement, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Lorsque vous importez des champs existants depuis Workfront.
+    * Lorsque vous importez des champs existants depuis Workfront.
 
-        Pour plus d’informations, voir [Importer des champs depuis Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+      Pour plus d’informations, voir [Importer des champs depuis Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
-   * Automatiquement :
+  * Automatiquement :
 
-      * Lorsque vous créez un type d’enregistrement :
+    * Lorsque vous créez un type d’enregistrement :
 
-         * Nom
-         * Description
-         * Date de début
-         * Date de fin
-         * Statut. Les valeurs par défaut des statuts des enregistrements sont les suivantes :
-            * Développement
-            * Prévu
-            * Actif
-            * Terminé
-            * Suspendu
+      * Nom
+      * Description
+      * Date de début
+      * Date de fin
+      * Statut. Les valeurs par défaut des statuts des enregistrements sont les suivantes :
+        * Développement
+        * Prévu
+        * Actif
+        * Terminé
+        * Suspendu
 
-        Vous pouvez ajouter d’autres valeurs ou renommer les valeurs existantes.
+      Vous pouvez ajouter d’autres valeurs ou renommer les valeurs existantes.
 
-      * Lorsque vous créez un espace de travail à partir d’un modèle.
+    * Lorsque vous créez un espace de travail à partir d’un modèle.
 
-        Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Lorsque vous importez des types d’enregistrements à l’aide d’un fichier Excel ou CSV.
+    * Lorsque vous importez des types d’enregistrements à l’aide d’un fichier Excel ou CSV.
 
-        Pour plus d’informations, voir la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+      Pour plus d’informations, voir la section [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
-* Les champs Workfront Planning ne sont pas accessibles à partir de Workfront.
+* Les champs de la planification Workfront ne sont pas accessibles à partir de Workfront.
 
-* Les champs Workfront sont accessibles à partir de Workfront Planning uniquement lorsque vous connectez des types d’enregistrement à des types d’objets Workfront et ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Les champs Workfront sont accessibles à partir de la planification Workfront uniquement lorsque vous connectez des types d’enregistrement à des types d’objets Workfront et ajoutez des champs liés ou de recherche à partir d’objets Workfront. Pour plus d’informations, voir [Connecter des types d’enregistrement](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * Vous pouvez afficher et mettre à jour les paramètres des champs que vous ou tout autre utilisateur avez créés, si vous disposez des autorisations de niveau Gérer sur l’espace de travail et du type d’enregistrement auxquels le champ appartient.
 

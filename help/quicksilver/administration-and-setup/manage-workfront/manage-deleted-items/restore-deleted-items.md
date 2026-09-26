@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 97%
-
 ---
-
 # Restaurer les éléments supprimés
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 * Statuts
 * Informations financières :
 
-   * Enregistrements de facturation
-   * Taux de facturation
-   * Frais
+  * Enregistrements de facturation
+  * Taux de facturation
+  * Frais
 
 * Informations concernant la chronologie :
 
-   * Tâches antérieures
-   * Contraintes de tâche
-   * Type de durée
+  * Tâches antérieures
+  * Contraintes de tâche
+  * Type de durée
 
 * Niveaux de référence
 
@@ -125,12 +132,12 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 
   Tenez compte des points suivants lors de la restauration de documents et de versions de document :
 
-   * Les documents qui ont été supprimés individuellement peuvent être restaurés individuellement.
+  * Les documents qui ont été supprimés individuellement peuvent être restaurés individuellement.
 
-     Les documents qui ont été supprimés avec leur projet, tâche ou problème parent sont récupérés lorsque vous restaurez le parent, mais vous ne pouvez pas les restaurer individuellement.
+    Les documents qui ont été supprimés avec leur projet, tâche ou problème parent sont récupérés lorsque vous restaurez le parent, mais vous ne pouvez pas les restaurer individuellement.
 
-   * Toutes les versions d’un document ou d’une épreuve de document sont restaurées lorsque le document est restauré.\
-     Les versions individuelles d’un document ou d’une épreuve de document qui ont été supprimées individuellement ne peuvent pas être récupérées.
+  * Toutes les versions d’un document ou d’une épreuve de document sont restaurées lorsque le document est restauré.\
+    Les versions individuelles d’un document ou d’une épreuve de document qui ont été supprimées individuellement ne peuvent pas être récupérées.
 
 ## Informations qui ne sont pas récupérées lorsque vous restaurez un projet, une tâche ou un problème
 
@@ -179,13 +186,13 @@ Lorsque vous restaurez un projet, une tâche ou un problème, les informations a
 
 * Après avoir restauré un élément :
 
-   * Un message s’affiche pour vous indiquer si vous avez réussi.
+  * Un message s’affiche pour vous indiquer si vous avez réussi.
 
-     Vous recevez également une notification par e-mail. Si vous avez restauré plusieurs éléments, l’e-mail les répertorie.
+    Vous recevez également une notification par e-mail. Si vous avez restauré plusieurs éléments, l’e-mail les répertorie.
 
-   * Un commentaire s’affiche dans la zone Mises à jour du projet, de la tâche ou du problème, ainsi que dans celle de l’objet parent.
+  * Un commentaire s’affiche dans la zone Mises à jour du projet, de la tâche ou du problème, ainsi que dans celle de l’objet parent.
 
-     Cela ne se produit pas lorsque vous restaurez un document ou un modèle.
+    Cela ne se produit pas lorsque vous restaurez un document ou un modèle.
 
 ## Épreuves restaurées
 

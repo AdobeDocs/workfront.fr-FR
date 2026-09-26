@@ -5,20 +5,26 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+TQID: 'https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 30%
-
+source-wordcount: '496'
+ht-degree: 32%
 ---
-
 # Autres améliorations au cours du quatrième trimestre de 2025
 
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -31,7 +37,8 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 >
 >* Aperçu : 13 octobre 2025
 >* Version rapide de production : 13 octobre 2025
->* Production pour tous les clients : 13 octobre 2025>[!BADGE heure de désactivation]{type=Neutral}
+>* Version de production pour toute la clientèle : mardi 13 octobre 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 L&#39;onglet Résumé d&#39;un rapport a été mis à jour avec les améliorations suivantes :
 

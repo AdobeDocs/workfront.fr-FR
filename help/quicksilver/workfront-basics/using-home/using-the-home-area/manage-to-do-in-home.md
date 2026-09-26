@@ -6,14 +6,23 @@ description: Vous pouvez créer des tâches personnelles à partir de la zone [!
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 13%
-
+source-wordcount: '394'
+ht-degree: 14%
 ---
-
-# Créer et gérer des tâches personnelles
+# Créer et gérer des éléments de tâches personnelles
 
 Vous pouvez créer un élément de tâches personnel dans le widget Tâches de la zone [!UICONTROL Accueil]. Les tâches sont des tâches personnelles que vous créez pour vous-même.
 
@@ -58,7 +67,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Création d’éléments à faire
 
-1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le ![](assets/main-menu-icon.png) **[!UICONTROL Menu principal]** dans le coin supérieur droit, ou sur le ![](assets/lines-main-menu.png) **Menu principal** dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser**, puis sur **Tâches** pour ajouter le widget Tâches à votre écran d’accueil.
 1. Accédez au widget **Tâches**, puis cliquez sur **Ajouter une tâche**.
 1. Saisissez le nom de votre élément de tâche personnel, puis cliquez sur Entrée.
@@ -70,7 +79,7 @@ Vous pouvez afficher vos tâches, ainsi que les tâches des autres utilisateurs,
 
 ## Gestion des tâches
 
-1. Cliquez sur le **&#x200B;**&#x200B;Menu principal![](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur le **&#x200B;**&#x200B;Menu principal![](assets/lines-main-menu.png) dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur le ![](assets/main-menu-icon.png) **[!UICONTROL Menu principal]** dans le coin supérieur droit, ou sur le ![](assets/lines-main-menu.png) **Menu principal** dans le coin supérieur gauche, le cas échéant, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser**, puis sur **Tâches** pour ajouter le widget Tâches à votre écran d’accueil.
 1. Accédez au widget **Tâches** et effectuez l’une des opérations suivantes :
    1. Pour modifier le nom d’un élément de la liste de tâches, cliquez dans l’espace de nom et apportez une modification.

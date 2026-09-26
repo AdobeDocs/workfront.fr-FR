@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Configurer les options de décision d’approbation dans  [!DNL Workfront Proof]
-description: Vous pouvez configurer les options de décision d’approbation pour toutes les épreuves créées par les utilisateurs et utilisatrices de  [!DNL Workfront Proof]  dans votre organisation.
+title: Configurer les options de décision d’approbation dans [!DNL Workfront Proof]
+description: Vous pouvez configurer les options de décision d’approbation pour toutes les épreuves créées par [!DNL Workfront Proof] utilisateurs de votre entreprise.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+TQID: 'https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 85%
-
+source-wordcount: '606'
+ht-degree: 95%
 ---
-
 # Configurer les options de décision d’approbation dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -67,8 +76,8 @@ Les motifs de décision sont un bon moyen d’obtenir des informations suppléme
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**.
 
 1. Ouvrez l’onglet **[!UICONTROL Décisions]**.
-Par défaut, les motifs sont disponibles pour tous les décideurs de vos épreuves, mais vous pouvez uniquement les limiter aux décideurs du Principal.
-Selon vos besoins, vous pouvez autoriser la sélection de plusieurs raisons ou en faire une liste à choix unique. Vous pouvez également rendre les motifs obligatoires, ce qui signifie que les réviseurs devront choisir un motif avant d&#39;être autorisés à enregistrer leur décision sur une épreuve.
+Par défaut, les motifs sont accessibles à l’ensemble des personnes décisionnaires sur vos épreuves, mais vous pouvez les limiter aux principales personnes décisionnaires.
+En fonction de vos besoins, vous pouvez autoriser la sélection de plusieurs motifs ou en faire une liste à choix unique. Vous pouvez également rendre les motifs obligatoires, ce qui signifie que les réviseurs et réviseuses devront choisir un motif avant de pouvoir enregistrer leur décision sur une épreuve.
    ![Reasons_setup.png](assets/reasons-setup-350x121.png)
 
 1. Dans la section **[!UICONTROL Motifs]**, cliquez sur **[!UICONTROL Nouveau motif]**.
@@ -78,9 +87,9 @@ Selon vos besoins, vous pouvez autoriser la sélection de plusieurs raisons ou e
 1. Si vous souhaitez inclure une zone de texte, sélectionnez **[!UICONTROL Inclure une zone de texte]**.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
    ![reason_setup_2.png](assets/reasons-setup-2-350x146.png)
-L’étape la plus importante consiste à sélectionner les décisions sur lesquelles les motifs doivent s’afficher. Si vous oubliez de le faire, les motifs n’apparaîtront pas sur vos épreuves.
+   L’étape la plus importante consiste à sélectionner les décisions sur lesquelles les motifs doivent s’afficher. Si vous oubliez de le faire, les motifs n’apparaîtront pas sur vos épreuves.
 
-1. Cochez les cases de la colonne **[!UICONTROL Afficher les motifs]** dans la liste des décisions en haut de la page. Vous pouvez sélectionner une ou plusieurs décisions pour vos raisons.
+1. Cochez les cases de la colonne **[!UICONTROL Afficher les motifs]** dans la liste des décisions en haut de la page. Vous pouvez sélectionner une ou plusieurs décisions pour vos motifs.
    ![reasons_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)
 
 ## Créer un message post-décision
@@ -90,10 +99,10 @@ Vous pouvez créer un message post-décision qui s’affichera après que le ré
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**.
 
 1. Ouvrez l’onglet **[!UICONTROL Décisions]**.
-1. Dans la section **[!UICONTROL Publier le message de décision]**, cliquez sur **[!UICONTROL Modifier]** à la fin de la ligne **[!UICONTROL Message]**.
-Vous pouvez également décider si vous souhaitez que le message s’affiche pour tous les décideurs ou si vous souhaitez le limiter au décideur par Principal.
+1. Dans la section **[!UICONTROL Message post-décision]**, cliquez sur **[!UICONTROL Modifier]** à la fin de la ligne **[!UICONTROL Message]**.
+Vous pouvez également décider d’afficher le message à l’ensemble des personnes décisionnaires ou de le limiter à la principale personne décisionnaire.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. Dans la colonne **[!UICONTROL Afficher le message]**, indiquez les décisions sur lesquelles ce message doit s’afficher.
-Si vous ne sélectionnez pas au moins une décision, le message ne s’affichera pas sur vos BAT. Veillez à cocher au moins une case dans cette colonne.
+1. Dans la colonne **[!UICONTROL Afficher le message]**, indiquez les décisions sur lesquelles ce message doit être affiché.
+Si vous ne sélectionnez pas au moins une décision, le message n’apparaîtra pas sur vos épreuves. Veillez à cocher au moins une case dans cette colonne.
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

@@ -7,24 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
-TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
+TQID: 'https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 865
-ht-degree: 95%
-
+source-wordcount: '911'
+ht-degree: 100%
 ---
-
 # Activité de la version 2018.2 Beta 2
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 2. Cette fonctionnalité a été mise à disposition dans l’environnement de prévisualisation le 5 avril 2018. Elle sera disponible dans l’environnement de production en juin 2018.
@@ -75,7 +82,7 @@ Vous pouvez désormais afficher les relations entre les prédécesseurs de proje
 
 Avant cette modification, vous ne pouviez afficher les relations entre les prédécesseurs de plusieurs projets que pour les tâches individuelles au niveau du projet.
 
-Pour plus d’informations, voir [Configurer l’affichage des informations sur le graphique de Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+Pour plus d’informations, voir [Configurer l’affichage des informations sur le graphique de Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
 ## Utiliser le coût budgété dans l’Optimiseur de portfolio pour calculer les finances du portfolio {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
@@ -95,7 +102,7 @@ Pour plus d’informations, voir [Vue d’ensemble de l’optimisateur de portfo
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est pas incluse dans la version officielle de l’environnement de prévisualisation avec la version 2018.2. Elle sera réintroduite pendant la période bêta de la version 2018.3 et sera publiée dans l’environnement de production avec la version 2018.3. 
+>Cette fonctionnalité ne sera pas incluse dans la version officielle de l’environnement de prévisualisation avec la version 2018.2. Elle sera réintroduite pendant la période Beta de la version 2018.3 et sera publiée dans l’environnement de production avec la version 2018.3. 
 
 Les heures budgétées du rapport d’utilisation sont désormais renseignées à partir des informations disponibles dans la zone de nouvelle ressource du budget des ressources du business case.
 
@@ -107,7 +114,7 @@ Pour plus d’informations, consultez la section [Vue d’ensemble du rapport d�
 
 >[!NOTE]
 >
->Cette fonctionnalité n’est pas incluse dans la version officielle de l’environnement de prévisualisation avec la version 2018.2. Elle sera réintroduite pendant la période bêta de la version 2018.3 et sera publiée dans l’environnement de production avec la version 2018.3. 
+>Cette fonctionnalité ne sera pas incluse dans la version officielle de l’environnement de prévisualisation avec la version 2018.2. Elle sera réintroduite pendant la période Beta de la version 2018.3 et sera publiée dans l’environnement de production avec la version 2018.3. 
 
 Le rapport d’utilisation d’un projet affiche désormais les heures budgétées par utilisateur ou par utilisatrice.
 

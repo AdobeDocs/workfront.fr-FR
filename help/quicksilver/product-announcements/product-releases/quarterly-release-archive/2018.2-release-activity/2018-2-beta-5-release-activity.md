@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 99%
-
 ---
-
 # Activité de la version 2018.2 Beta 5
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 5. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 1er juin 2018. Les améliorations de la relecture avec la version Beta 5 seront disponibles dans l’environnement de prévisualisation le lundi 4 juin. Elles seront disponibles dans l’environnement de production en juillet 2018.
@@ -136,8 +143,8 @@ Les vues Projet et Rôle du planificateur de ressources contiennent désormais l
 * Mode Plein écran.
 * Les performances sont désormais plus rapides et plus efficaces.
 
-   * Nouvelles limites pour le nombre de projets, de rôles et de personnes que vous pouvez afficher.
-   * Chargement différé, pour un chargement plus rapide des projets et des rôles.
+  * Nouvelles limites pour le nombre de projets, de rôles et de personnes que vous pouvez afficher.
+  * Chargement différé, pour un chargement plus rapide des projets et des rôles.
 
 * Accès rapide aux projets et aux personnes directement à partir du planificateur de ressources.
 * Fonction de glisser-déposer plus rapide dans la vue Projet pour classer vos projets par priorité.
@@ -266,10 +273,10 @@ Les améliorations suivantes seront disponibles dans la version Beta de l’appl
 
   Les zones suivantes ont été améliorées avec cette fonctionnalité :
 
-   * Mon travail et Accueil
-   * Notifications
-   * Contacts
-   * Approbations
+  * Mon travail et Accueil
+  * Notifications
+  * Contacts
+  * Approbations
 
 * Nouvelle apparence lors de l’affichage de l’onglet Détails d’un élément
 

@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/WtxzO6dVznvS6Dch08s3x7QzNB94pRlVBRD9inx4A58
+TQID: 'https://experienceleague.adobe.com/WtxzO6dVznvS6Dch08s3x7QzNB94pRlVBRD9inx4A58'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 750
-ht-degree: 86%
-
+source-wordcount: '768'
+ht-degree: 88%
 ---
-
 # Configurer le bouton [!UICONTROL Terminé] pour les tâches
 
 Le bouton [!UICONTROL Terminer] permet de définir automatiquement le statut d’une tâche ou d’un problème. Par défaut,  marque une tâche comme [!UICONTROL Terminée] lorsqu&#39;une personne désignée clique sur Marquer comme terminé pour son élément de travail.
@@ -116,5 +120,5 @@ Pour associer des utilisateurs et des utilisatrices à une équipe d’accueil 
 1. Dans la section **[!UICONTROL Organisation]**, sélectionnez le champ **[!UICONTROL Équipe principale]**. Commencez à taper le nom de l’équipe dont vous souhaitez associer les paramètres aux utilisateurs et utilisatrices. Cliquez sur le nom de l’équipe lorsque vous le voyez dans la liste.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.\
-   Les utilisateurs que vous avez sélectionnés sont désormais associés à une équipe interne.
-Tous les paramètres d’équipe, y compris les statuts associés au bouton [!UICONTROL Terminé] sont désormais visibles par ces utilisateurs.
+   Les personnes que vous avez sélectionnées sont maintenant associées à une équipe interne.
+   Tous les paramètres de l’équipe, y compris les statuts associés au bouton [!UICONTROL Terminé], sont désormais visibles pour ces utilisateurs et utilisatrices.

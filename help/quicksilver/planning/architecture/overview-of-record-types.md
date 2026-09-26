@@ -1,6 +1,6 @@
 ---
 title: Types d’enregistrements - Aperçu
-description: Les types d’enregistrement sont les blocs de construction d’un espace de travail Adobe Workfront Planning.
+description: Les types d’enregistrement sont les blocs de construction d’un espace de travail de la planification Adobe Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 38%
-
 ---
-
 # Vue d’ensemble des types d’enregistrement
 
 <!--
@@ -45,14 +52,14 @@ Pour plus d’informations sur les espaces de travail, consultez la section [Cr�
 
 ## Vue d’ensemble des types d’enregistrement
 
-Dans Workfront Planning, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
+Dans la planification Workfront, vous pouvez créer des types d’enregistrements personnalisés qui répondent aux besoins de votre entreprise.
 
 Pour plus d’informations sur la création de types d’enregistrements, voir [Création de types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Lorsque vous créez un espace de travail à partir d’un modèle, les types d’enregistrement sont créés dans les sections suivantes de l’espace de travail :
 
-   * **Types d’enregistrements opérationnels** : types d’enregistrements qui représentent des plans stratégiques, des initiatives ou des travaux planifiés. Par exemple, Campagne, Activité, Tactique, Opportunité sont des types d’enregistrements opérationnels.
-   * **Taxonomies** : types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience sont des taxonomies.
+  * **Types d’enregistrements opérationnels** : types d’enregistrements qui représentent des plans stratégiques, des initiatives ou des travaux planifiés. Par exemple, Campagne, Activité, Tactique, Opportunité sont des types d’enregistrements opérationnels.
+  * **Taxonomies** : types d’enregistrements qui capturent des attributs sur un type d’enregistrement opérationnel. Par exemple, Région, Adresse, Audience sont des taxonomies.
 
   Vous pouvez renommer ou supprimer les sections et les types d’enregistrements, ou en créer d’autres.
 
@@ -63,8 +70,8 @@ Pour plus d’informations sur la création de types d’enregistrements, voir [
   Pour connaître les limites du nombre de types d&#39;enregistrements que vous pouvez avoir dans une instance de Workfront ou un espace de travail, consultez la section [Présentation des limitations d&#39;objet Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 * Pour utiliser des types d’enregistrements dans plusieurs espaces de travail, vous pouvez désigner des types d’enregistrements comme globaux ou connectables.
 
-   * Les types d’enregistrements globaux peuvent être ajoutés en tant que types d’enregistrements existants à d’autres espaces de travail.
-   * Les types d’enregistrements connectables peuvent être connectés à à partir d’autres espaces de travail.
+  * Les types d’enregistrements globaux peuvent être ajoutés en tant que types d’enregistrements existants à d’autres espaces de travail.
+  * Les types d’enregistrements connectables peuvent être connectés à à partir d’autres espaces de travail.
 
   Pour plus d’informations, voir [Configuration des fonctionnalités de plusieurs espaces de travail pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 

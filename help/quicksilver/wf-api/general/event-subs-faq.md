@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 94%
-
 ---
-
 # Questions fréquentes - Abonnements aux événements
 
 <!--
@@ -70,16 +74,16 @@ Certains des scénarios suivants peuvent être responsables :
 * Des calculs de longue durée ou de chronologie sur des projets volumineux peuvent entraîner un retard dans la publication des messages à consommer par les abonnements aux événements.
 * L’abonnement a peut-être été désactivé.
 
-   * Après un délai de grâce de 100 messages, si une URL spécifique, qui peut être associée à un ou plusieurs abonnements, échoue plus de 70 % du temps ou si l’URL ne parvient pas à diffuser après 2 000 tentatives consécutives, toute tentative de diffusion des messages correspondant à des abonnements avec la même URL est abandonnée. Ces messages sont immédiatement placés en file d’attente pour une reprise.
+  * Après un délai de grâce de 100 messages, si une URL spécifique, qui peut être associée à un ou plusieurs abonnements, échoue plus de 70 % du temps ou si l’URL ne parvient pas à diffuser après 2 000 tentatives consécutives, toute tentative de diffusion des messages correspondant à des abonnements avec la même URL est abandonnée. Ces messages sont immédiatement placés en file d’attente pour une reprise.
 
-     Toutes les 10 minutes après la désactivation d’une URL, nous tentons de diffuser le message suivant qui passe pour être traité. Si ce message réussit, nous réactivons cette URL et par la suite tous les abonnements correspondants. Si l’envoi de ce message échoue, ce retardateur de 10 minutes se réinitialise et nous réessayons après son expiration.
+    Toutes les 10 minutes après la désactivation d’une URL, nous tentons de diffuser le message suivant qui passe pour être traité. Si ce message réussit, nous réactivons cette URL et par la suite tous les abonnements correspondants. Si l’envoi de ce message échoue, ce retardateur de 10 minutes se réinitialise et nous réessayons après son expiration.
 
-     Ce comportement peut être perçu comme incohérent ou comme des diffusions retardées, mais il suit simplement nos politiques de gestion des messages d’abonnement aux événements.
+    Ce comportement peut être perçu comme incohérent ou comme des diffusions retardées, mais il suit simplement nos politiques de gestion des messages d’abonnement aux événements.
 
-   * Une URL d’abonnement à un événement sera désactivée de manière irréversible si l’une des conditions suivantes est remplie :
+  * Une URL d’abonnement à un événement sera désactivée de manière irréversible si l’une des conditions suivantes est remplie :
 
-      * L’URL d’abonnement n’a pas pu diffuser pendant 7 jours et au moins 2 000 tentatives de diffusion consécutives ont échoué au cours des dernières 72 heures.
-      * L’URL d’abonnement n’a pas pu remettre 50 000 tentatives consécutives.
+    * L’URL d’abonnement n’a pas pu diffuser pendant 7 jours et au moins 2 000 tentatives de diffusion consécutives ont échoué au cours des dernières 72 heures.
+    * L’URL d’abonnement n’a pas pu remettre 50 000 tentatives consécutives.
 
 ## Que dois-je faire si je reçois un statut de réponse 500 lorsque je tente d’appeler l’API d’abonnement aux événements ?
 

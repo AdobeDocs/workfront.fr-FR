@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+TQID: 'https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 84%
-
+source-wordcount: '456'
+ht-degree: 90%
 ---
-
 # Configurer les recalculs de chronologies pour les projets
 
 Recalculer les chronologies permet aux personnes gestionnaires de voir comment des forces extérieures au projet affectent la chronologie du projet. La chronologie d’un projet fait référence aux dates prévues et prévisionnelles pour le projet.
@@ -76,8 +80,8 @@ En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouv
 
    * **Lorsque l’étendue d’un projet change** : pour plus d’informations sur ce qui constitue un changement d’étendue d’un projet, voir [Recalculer les chronologies des projets](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     Dans ce cas, [!DNL Workfront] recalcule la chronologie pour tous les projets dont le type de mise à jour est [!UICONTROL Automatique et En cas de modification] ou [!UICONTROL En cas de modification uniquement].
-Pour plus d’informations sur les types de mise à jour de projet, voir [Présentation des types de mise à jour de projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+     Dans ce cas, [!DNL Workfront] recalcule la chronologie de tous les projets dont le Type de mise à jour est [!UICONTROL Automatique et En cas de modification] ou [!UICONTROL En cas de modification uniquement].
+     Pour plus d’informations sur les types de mise à jour de projet, voir [Vue d’ensemble du type de mise à jour d’un projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 

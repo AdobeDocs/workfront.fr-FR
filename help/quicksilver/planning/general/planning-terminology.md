@@ -1,16 +1,28 @@
 ---
 title: Présentation de la terminologie Workfront Planning
-description: Bien qu’Adobe Workfront Planning soit un produit de Workfront, il est fourni avec une terminologie et des concepts propriétaires. Assurez-vous de connaître ces concepts avant de commencer à configurer Workfront Planning pour votre organisation.
+description: Bien qu’Adobe Workfront Planning soit un produit de Workfront, il est fourni avec une terminologie et des concepts propriétaires. Assurez-vous de connaître ces concepts avant de commencer à configurer la planification Workfront pour votre organisation.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 59%
-
 ---
-
 # Présentation de la terminologie de Workfront Planning
 
 
@@ -33,11 +45,11 @@ ht-degree: 59%
 >
 >Pour plus d’informations sur Workfront Planning en tant que produit autonome, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
-Bien que Workfront Planning fasse partie de Workfront, il s’accompagne de concepts et de terminologie qui lui sont propres. Assurez-vous de connaître ces concepts avant de commencer à configurer Workfront Planning pour votre organisation.
+Bien que la planification Workfront fasse partie de Workfront, il s’accompagne de concepts et de terminologie propres. Assurez-vous de connaître ces concepts avant de commencer à configurer la planification Workfront pour votre organisation.
 
-Le cadre de Workfront Planning est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
+Le cadre de la planification Workfront est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Le nombre d’objets Workfront Planning que vous pouvez créer est limité. Pour plus d’informations, voir [Vue d’ensemble des limites d’objets d’Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+Le nombre d’objets de la planification Workfront que vous pouvez créer est limité. Pour plus d’informations, voir [Vue d’ensemble des limites d’objets de la planification Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md).
 
 Vous trouverez ci-dessous les principaux objets et concepts Workfront Planning :
 
@@ -67,11 +79,11 @@ Les types d&#39;enregistrement sont les types d&#39;objet dans Workfront Plannin
 
 Les types d’enregistrements renseignent les espaces de travail.
 
-Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.
+Contrairement à Workfront, où les types d’objets sont prédéfinis, dans la planification Workfront, vous pouvez créer vos propres types d’objets.
 
 Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.
 
-Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.
+Dans la planification Workfront, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.
 
 Pour en savoir plus, voir [Vue d’ensemble des types d’enregistrement](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -131,7 +143,7 @@ Considérations relatives aux champs d’enregistrement :
 
 * Les champs sont propres à un type d’enregistrement et ne sont pas transférés d’un type d’enregistrement à un autre.
 
-* Les champs sont entièrement personnalisables et ne sont accessibles que dans Workfront Planning. Vous ne pouvez pas accéder aux champs Workfront Planning à partir de Workfront.
+* Les champs sont entièrement personnalisables et ne sont accessibles que dans la planification Workfront. Vous ne pouvez pas accéder aux champs de la planification Workfront à partir de Workfront.
 
 Pour plus d’informations, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 

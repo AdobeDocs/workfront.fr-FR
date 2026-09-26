@@ -8,28 +8,39 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 15e03405-63ff-48ea-b873-cf44f1f46282
-TQID: https://experienceleague.adobe.com/6l1X-py3VV1LysiT-WtBvW4zJjGseRKfAL6C6ysdhUI
+TQID: 'https://experienceleague.adobe.com/6l1X-py3VV1LysiT-WtBvW4zJjGseRKfAL6C6ysdhUI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 790
+source-wordcount: '790'
 ht-degree: 100%
-
 ---
-
 # 2019.3 Intégration et améliorations apportées aux appareils mobiles
 
 Cette page décrit toutes les modifications apportées à l’intégration et aux améliorations apportées aux appareils mobiles avec la version 2019.3. Cela a été rendu disponible dans l’environnement de production dans la semaine du 19 août 2019.
@@ -114,8 +125,8 @@ Nous avons ajouté les améliorations suivantes au niveau de l’aspect afin d�
 
 * Déplacement des éléments suivants de la barre supérieure de la page Détails vers des zones plus importantes de l’écran :
 
-   * L’icône Plus se trouve maintenant dans le coin inférieur gauche de l’écran.
-   * La coche permettant de commencer à travailler sur un élément est désormais un bouton Travailler sur ce projet dans la partie supérieure de l’écran.
+  * L’icône Plus se trouve maintenant dans le coin inférieur gauche de l’écran.
+  * La coche permettant de commencer à travailler sur un élément est désormais un bouton Travailler sur ce projet dans la partie supérieure de l’écran.
 
 * Vous pouvez désormais afficher les formulaires personnalisés joints en appuyant sur Afficher plus au bas de la page Détails.
 * Modification de l’aspect des pages que vous utilisez pour envoyer des tâches, des problèmes et des requêtes.

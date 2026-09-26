@@ -7,24 +7,33 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y
+TQID: 'https://experienceleague.adobe.com/B2qrBL5KaVw9ihUW2qxDoK0WWpV0S-iFwhkwz30E06Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 3%
-
+source-wordcount: '2346'
+ht-degree: 4%
 ---
-
 # Commencer avec la version d’essai gratuite d’Adobe Workfront Planning
 
 <!--add screen shots-->
@@ -60,10 +69,10 @@ La version d’essai gratuite de Workfront Planning offre les avantages suivants
 * Un environnement Planning organisé sur plusieurs espaces de travail
 * Un package Workfront Planning Prime qui comprend les fonctionnalités suivantes :
 
-   * Espaces de travail illimités
-   * 500 000 enregistrements par espace de travail
-   * 2 millions d’espaces de travail au total
-   * Types d’enregistrements globaux
+  * Espaces de travail illimités
+  * 500 000 enregistrements par espace de travail
+  * 2 millions d’espaces de travail au total
+  * Types d’enregistrements globaux
 * Exemples de données pour vous donner une idée de l’endroit où commencer
 * L’intégration guidée par l’IA vous permet d’utiliser un langage simple ou de charger un artefact existant. Planning génère alors une structure personnalisée à l’aide de l’IA. Cela crée automatiquement des espaces de travail, des types d’enregistrements, des champs et des vues.
 * Formation et conseils intégrés au produit
@@ -75,12 +84,12 @@ Votre société doit répondre aux exigences suivantes pour pouvoir participer �
 
 * posséder l’un des nouveaux packages d’Adobe Workfront ou de workflow suivants :
 
-   * Sélectionner
-   * Prime
-   * Ultimate
+  * Sélectionner
+  * Prime
+  * Ultimate
 
   L’évaluation de Workfront Planning n’est pas disponible pour les packages Workfront hérités.
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+  Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Acceptez le contrat d’évaluation juridique disponible dans l’instance Workfront de votre organisation entre le 26 janvier et le 1er avril 2026 . Vous devez être un administrateur Workfront pour accepter le contrat d’évaluation.
 
 ## Aperçu des dates importantes
@@ -88,31 +97,31 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 Les dates suivantes sont des dates importantes associées à l’offre d’évaluation gratuite d’Adobe Workfront Planning :
 
 * **26 janvier 2026** : les bannières d’évaluation gratuite de Workfront Planning ont été publiées pour les clients Workfront. Les bannières incluaient les éléments suivants :
-   * Lien vers ce document.
-   * Fenêtre d&#39;acceptation du contrat d&#39;essai. Seul un administrateur Workfront peut accepter le contrat. Vous pouvez accepter le contrat d&#39;évaluation à tout moment à compter de cette date.
+  * Lien vers ce document.
+  * Fenêtre d&#39;acceptation du contrat d&#39;essai. Seul un administrateur Workfront peut accepter le contrat. Vous pouvez accepter le contrat d&#39;évaluation à tout moment à compter de cette date.
 * **2 mars 2026** : lancement de l’essai Workfront Planning.
 
   Au lancement de l’évaluation, les éléments suivants sont ajoutés à votre instance Workfront :
 
-   * Les bannières Workfront Planning continuent de s’afficher pour tous les utilisateurs. Un lien vers ce document est inclus dans les bannières.
-   * La préférence **Vérifier l’accord d’essai** est ajoutée à la zone **Configuration**.
+  * Les bannières Workfront Planning continuent de s’afficher pour tous les utilisateurs. Un lien vers ce document est inclus dans les bannières.
+  * La préférence **Vérifier l’accord d’essai** est ajoutée à la zone **Configuration**.
 
   Les scénarios suivants sont possibles :
 
-   * Si votre administrateur Workfront a accepté le contrat avant cette date, vous pouvez trouver la zone Planning dans votre menu principal et commencer à utiliser Workfront Planning.
+  * Si votre administrateur Workfront a accepté le contrat avant cette date, vous pouvez trouver la zone Planning dans votre menu principal et commencer à utiliser Workfront Planning.
 
   >[!NOTE]
   >
   >La zone Planning s&#39;affiche dans le menu principal pour tous les utilisateurs du système, quel que soit leur type de licence Workfront.
 
-   * Si votre administrateur Workfront n&#39;a pas accepté l&#39;accord avant cette date, les bannières annonçant les programmes d&#39;évaluation de Planning s&#39;affichent pour tous les utilisateurs, mais Planning n&#39;est pas encore disponible dans le menu principal. Votre administrateur système doit d&#39;abord accepter le contrat avant de pouvoir accéder à Workfront Planning.
+  * Si votre administrateur Workfront n&#39;a pas accepté l&#39;accord avant cette date, les bannières annonçant les programmes d&#39;évaluation de Planning s&#39;affichent pour tous les utilisateurs, mais Planning n&#39;est pas encore disponible dans le menu principal. Votre administrateur système doit d&#39;abord accepter le contrat avant de pouvoir accéder à Workfront Planning.
 
 * **1er avril 2026** : vous ne pouvez plus vous inscrire à l’évaluation.
 
   Les éléments suivants sont supprimés de votre instance Workfront :
 
-   * Les bannières d’évaluation de la planification Workfront.
-   * La préférence **Accord d’évaluation de révision** est supprimée de la zone **Configuration**.
+  * Les bannières d’évaluation de la planification Workfront.
+  * La préférence **Accord d’évaluation de révision** est supprimée de la zone **Configuration**.
 
 * **1er mai 2026** : la période d’évaluation de Workfront Planning se termine et votre accès à Planning est supprimé. Access restera actif jusqu&#39;au 15 mai 2026.
 
@@ -137,9 +146,9 @@ Tous les utilisateurs de votre organisation reçoivent le package Workfront Plan
 
   Les utilisateurs de votre système reçoivent les autorisations suivantes pour accéder aux espaces de travail de la zone Planning au cours de l’essai gratuit :
 
-   * Tous les administrateurs système disposent des autorisations de niveau Gérer sur les espaces de travail sur lesquels je me trouve et sur l’onglet Tous les espaces de travail .
-   * Tous les autres utilisateurs disposent des autorisations d’affichage dans la zone Espaces de travail, mais l’administrateur système peut leur accorder des autorisations de gestion des espaces de travail qui s’y affichent.
-   * Tous les utilisateurs, y compris l&#39;administrateur système, disposent des autorisations d&#39;affichage sur l&#39;onglet Exemples d&#39;espaces de travail dans la zone Planning.
+  * Tous les administrateurs système disposent des autorisations de niveau Gérer sur les espaces de travail sur lesquels je me trouve et sur l’onglet Tous les espaces de travail .
+  * Tous les autres utilisateurs disposent des autorisations d’affichage dans la zone Espaces de travail, mais l’administrateur système peut leur accorder des autorisations de gestion des espaces de travail qui s’y affichent.
+  * Tous les utilisateurs, y compris l&#39;administrateur système, disposent des autorisations d&#39;affichage sur l&#39;onglet Exemples d&#39;espaces de travail dans la zone Planning.
 
 * **Après le 1er mai 2026:**
 
@@ -260,10 +269,10 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
      Pour notre recommandation sur l’utilisation de l’espace de travail des taxonomies mondiales, consultez [&#x200B; Transformer votre première victoire en élan durable : un guide pour une mise à l’échelle gérée &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Exemples d’espaces de travail supplémentaires : les espaces de travail suivants servent d’exemples de ce dont une entreprise type (Fréscopa) pourrait avoir besoin en tant qu’espaces de travail spécifiques, types d’enregistrements, champs et vues pour organiser son organisation et sa structure de travail :
 
-      * **Fréscopa Global Marketing**
-      * **Fréscopa Social Marketing**
-      * **Fréscopa Media &amp; PR**
-      * **Fréscopa Executive Company Leadership**
+     * **Fréscopa Global Marketing**
+     * **Fréscopa Social Marketing**
+     * **Fréscopa Media &amp; PR**
+     * **Fréscopa Executive Company Leadership**
 
    >[!NOTE]
    >
@@ -304,8 +313,8 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
 
      Pour plus d’informations, voir les articles suivants :
 
-      * [Créer des champs](/help/quicksilver/planning/fields/create-fields.md)
-      * [Vue d’ensemble de la connexion des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     * [Créer des champs](/help/quicksilver/planning/fields/create-fields.md)
+     * [Vue d’ensemble de la connexion des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
 1. Dans les espaces de travail que vous avez créés, partagez l’une des entités suivantes :
 

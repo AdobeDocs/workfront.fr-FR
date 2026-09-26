@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 'Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] '
+title: Réviser et prendre des décisions sur les épreuves dans l’application mobile [!DNL Adobe Workfront]
 description: Lorsqu’une épreuve vous est assignée pour approbation, elle apparaît dans votre liste d’approbations dans l’application mobile. Vous pouvez réviser l’épreuve directement dans l’application et prendre une décision dessus.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
+TQID: 'https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 770
+source-wordcount: '770'
 ht-degree: 97%
-
 ---
-
 # Réviser et prendre des décisions sur les épreuves dans l’application mobile [!DNL Adobe Workfront]
 
 Lorsqu’une épreuve vous est assignée pour approbation, elle apparaît dans votre liste d’approbations dans l’application mobile. Vous pouvez réviser l’épreuve directement dans l’application et prendre une décision dessus. Pour plus d’informations sur la révision et la validation des épreuves dans [!DNL Adobe Workfront], voir [Réviser des épreuves dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

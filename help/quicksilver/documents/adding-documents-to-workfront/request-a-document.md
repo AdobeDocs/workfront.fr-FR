@@ -8,31 +8,39 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/IUSv8kAWns-YH5CFM8ijinqqUXfswp0aVh5igluSYDI
+TQID: 'https://experienceleague.adobe.com/IUSv8kAWns-YH5CFM8ijinqqUXfswp0aVh5igluSYDI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 91%
-
+source-wordcount: '415'
+ht-degree: 87%
 ---
-
 # Demander un document
 
 Vous pouvez demander un document sur n’importe quel objet prenant en charge les documents.
 
 >[!NOTE]
 >
->Cette fonctionnalité n&#39;est pas disponible dans la zone des nouveaux documents.<br>
->Si votre entreprise utilise l’espace de stockage dans le cloud d’Adobe, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Cette fonctionnalité n’est pas disponible dans la zone des nouveaux documents.<br>
+>Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -79,7 +87,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    >[!NOTE]
    >
-   >Si la vue d’ensemble des [licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) est activée sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse e-mail. Un paramètre de la [Configurer les préférences de sécurité du système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) détermine si ces utilisateurs d’e-mails externes doivent ou non créer un mot de passe avant d’interagir avec Workfront. 
+   >Si vous avez la [vue d’ensemble des licences héritées](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) activée sur votre compte, vous pouvez envoyer une demande à n’importe quelle adresse e-mail. Il existe un paramètre dans [Configurer les préférences de sécurité système](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) qui détermine si ces utilisateurs et utilisatrices de messagerie externes doivent créer un mot de passe avant d’interagir avec Workfront. 
 
 1. Décrivez la raison pour laquelle vous demandez le document.
 1. Cliquez sur **Envoyer la demande**.

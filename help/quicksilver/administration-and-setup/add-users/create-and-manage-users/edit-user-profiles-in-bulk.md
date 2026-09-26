@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 65%
-
 ---
-
 # Modifier en masse des profils d’utilisateurs et d’utilisatrices
 
 Vous pouvez modifier les comptes des utilisateurs et utilisatrices en masse. Lors de la modification en masse d’utilisateurs et d’utilisatrices, seuls les champs que vous sélectionnez spécifiquement sont mis à jour avec les mêmes informations pour tous les utilisateurs et utilisatrices sélectionnés. Tous les autres champs non sélectionnés restent identiques pour chaque utilisateur ou utilisatrice, même s’ils sont différents pour chaque utilisateur ou utilisatrice.
@@ -123,11 +130,11 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   La liste suivante décrit la manière dont la liste des modèles disponibles dans ce champ dépend de votre accès :
 
-   * En tant qu’administrateur ou administratrice Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.
-   * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir le modèle de mise en page au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
-   * Les utilisateurs disposant d’une licence Standard ou Plan et ayant accès à la modification d’utilisateurs ne peuvent afficher que des modèles de mise en page au niveau du système.
+  * En tant qu’administrateur ou administratrice Workfront, vous pouvez consulter tous les modèles de mise en page au niveau du système et du groupe.
+  * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir le modèle de mise en page au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
+  * Les utilisateurs disposant d’une licence Standard ou Plan et ayant accès à la modification d’utilisateurs ne peuvent afficher que des modèles de mise en page au niveau du système.
 
-     Pour plus d’informations sur les modèles de mise en page au niveau du groupe, voir [Création et modification de modèles de mise en page d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+    Pour plus d’informations sur les modèles de mise en page au niveau du groupe, voir [Création et modification de modèles de mise en page d’un groupe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ### Organisation
 
@@ -140,9 +147,9 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   Vous ne pouvez affecter un groupe à une personne que si l’une des conditions suivantes est vraie :
 
-   * Vous êtes un administrateur ou une administratrice Workfront.
-   * Vous êtes l’administrateur ou l’administratrice du groupe.
-   * le groupe est public
+  * Vous êtes un administrateur ou une administratrice Workfront.
+  * Vous êtes l’administrateur ou l’administratrice du groupe.
+  * le groupe est public
 
 * **Autres groupes** : les personnes peuvent appartenir à plusieurs groupes. Vous ne pouvez affecter un groupe à un utilisateur ou une utilisatrice que si vous êtes un administrateur ou une administratrice Workfront, que si vous êtes administrateur ou administratrice du groupe ou que si le groupe est public.
 
@@ -211,9 +218,9 @@ Pour plus d’informations, voir [Configurer les notifications d’événements 
 
   La liste des profils disponibles dans ce champ dépend de votre accès :
 
-   * En tant que membre de l’équipe d’administration de Workfront, vous pouvez consulter tous les profils de feuille de temps au niveau du système et de tous les groupes.
-   * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir les profils de feuille de temps au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
-   * Les utilisateurs disposant d&#39;une licence Standard ou Plan et ayant accès à la modification d&#39;utilisateurs ne peuvent afficher que les profils de feuilles de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+  * En tant que membre de l’équipe d’administration de Workfront, vous pouvez consulter tous les profils de feuille de temps au niveau du système et de tous les groupes.
+  * En tant qu’administrateur ou administratrice de groupes, vous pouvez voir les profils de feuille de temps au niveau du système, ainsi que ceux associés aux groupes que vous gérez.
+  * Les utilisateurs disposant d&#39;une licence Standard ou Plan et ayant accès à la modification d&#39;utilisateurs ne peuvent afficher que les profils de feuilles de temps au niveau du système. Pour plus d’informations sur les profils de feuille de temps au niveau du groupe, consultez la section [Créer, modifier et affecter des profils de feuille de temps](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Type d’heure par défaut** : sélectionnez le type d’heure par défaut pour les utilisateurs et les utilisatrices. Il s’agit du type d’heure utilisé par défaut lorsque les utilisateurs et les utilisatrices consignent des heures.
 * **Types d’heures disponibles** : sélectionnez les types d’heures qui doivent être disponibles pour les utilisateurs. Ces types d’heures sont visibles partout dans Workfront où les personnes peuvent consigner des heures. Les utilisateurs peuvent uniquement voir les types d’heures activés au niveau du projet ainsi qu’au niveau de l’utilisateur. Pour plus d’informations sur les types d’heures disponibles pour les utilisateurs, voir [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).

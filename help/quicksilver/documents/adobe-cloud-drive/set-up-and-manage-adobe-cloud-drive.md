@@ -6,13 +6,27 @@ description: En tant qu’administrateur, vous pouvez configurer Adobe Cloud Dri
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 2%
-
 ---
-
 # Configurer et gérer Adobe Cloud Drive pour votre organisation
 
 En tant qu’administrateur, vous pouvez configurer Adobe Cloud Drive pour permettre aux utilisateurs d’accéder directement, depuis le poste de travail, à leurs fichiers de projet dans l’espace de stockage Adobe Cloud, via le Finder sur macOS et l’Explorateur de fichiers sur Windows. Cet article explique comment activer l’accès dans le Adobe Admin Console, déployer l’application sur les appareils des utilisateurs et utilisatrices et gérer l’accès de manière continue.
@@ -85,9 +99,9 @@ Le tableau suivant montre l&#39;interaction de ces contrôles :
 
 | Commutateur au niveau de l’organisation | Utilisateur dans le rôle utilisateur ACD | Licence Workflow Ultimate | Accès au résultat |
 | --- | --- | --- | --- |
-| Marche | Non requis | Oui | Accordé |
-| Arrêt | Oui | Oui | Accordé |
-| Arrêt | Non | Oui | Refusé |
+| Activé | Non requis | Oui | Accordé |
+| Désactivé | Oui | Oui | Accordé |
+| Désactivé | Non | Oui | Refusé |
 | Soit | Soit | Non | Refusé |
 
 <!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->

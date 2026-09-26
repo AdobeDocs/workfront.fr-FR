@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 29%
-
+source-wordcount: '592'
+ht-degree: 31%
 ---
-
 # Charger des documents et créer des épreuves dans Priorités
 
 Vous pouvez charger des documents et créer des épreuves dans Priorités.
@@ -77,7 +82,7 @@ Vous pouvez charger un document vers un élément de travail à partir de la lis
 1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
 1. Vérifiez que vous êtes sur l’onglet **Tâche** ou **Événements** dans le panneau de résumé.
 1. Cliquez sur l’icône **Télécharger le fichier** ![Télécharger le fichier](assets/upload-file-icon.png).
-1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
+1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
    ![Ajouter des fichiers](assets/add-files.png)
@@ -96,7 +101,7 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
 1. Dans la liste des tâches, cliquez sur le nom de l’élément de travail.
 1. Cliquez sur l’onglet **Documents** en haut de l’écran.
 1. Cliquez sur **Charger le document** dans le coin supérieur droit, puis sélectionnez **Document**.
-1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
+1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
    ![Ajouter des fichiers](assets/add-files.png)
@@ -160,7 +165,7 @@ Vous pouvez créer un BAT à partir d’un document de la liste de travail ou de
 1. Cliquez sur l’onglet **Documents** en haut de l’écran.
 1. Cliquez sur **Charger le document** dans le coin supérieur droit, puis sélectionnez **Épreuve**.
 1. Créez un BAT, comme décrit dans la section
-   [Créer une épreuve avancée avec un workflow de base](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [Création d’une épreuve avancée avec un workflow De base](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Créer une épreuve avancée avec un workflow automatisé](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--

@@ -3,29 +3,36 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: Vue d’ensemble des rôles d’épreuve
-description: Les rôles d’épreuve vous permettent d’accorder des autorisations pour des épreuves au cas par cas. Les rôles d’épreuve sont différents des profils d’autorisation d’épreuve. Pour plus d’informations sur les profils d’autorisation d’épreuve, voir Vue d’ensemble du profil d’autorisation d’épreuve.
+description: Les rôles d’épreuve vous permettent d’accorder des autorisations pour des épreuves . Les rôles d’épreuve sont différents des profils d’autorisation d’épreuve. Pour plus d’informations sur les profils d’autorisation d’épreuve, voir Vue d’ensemble du profil d’autorisation d’épreuve.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-TQID: https://experienceleague.adobe.com/69ZDYn1qsA9dpvF1Noq-bgEXeVYaQFGSxx-ziCL-Jmw
+TQID: 'https://experienceleague.adobe.com/69ZDYn1qsA9dpvF1Noq-bgEXeVYaQFGSxx-ziCL-Jmw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '342'
 ht-degree: 89%
-
 ---
-
 # Vue d’ensemble des rôles d’épreuve
 
-Les rôles d’épreuve vous permettent d’accorder des autorisations pour des épreuves au cas par cas. Les rôles d’épreuve sont différents des profils d’autorisation d’épreuve. Pour plus d’informations sur les profils d’autorisation d’épreuve, voir [Vue d’ensemble du profil d’autorisation d’épreuve](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+Les rôles d’épreuve vous permettent d’accorder des autorisations pour des épreuves . Les rôles d’épreuve sont différents des profils d’autorisation d’épreuve. Pour plus d’informations sur les profils d’autorisation d’épreuve, voir [Vue d’ensemble du profil d’autorisation d’épreuve](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Rôles d’épreuve
 

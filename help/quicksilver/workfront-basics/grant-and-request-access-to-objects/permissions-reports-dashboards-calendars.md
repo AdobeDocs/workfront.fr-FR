@@ -7,23 +7,28 @@ description: Votre administrateur ou administratrice Adobe Workfront accorde au
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 100%
-
 ---
-
 # Partager des rapports, des tableaux de bord et des calendriers
 
 Votre administrateur ou administratrice Adobe Workfront accorde aux personnes l’accès en mode Vue ou Modification aux rapports, tableaux de bord et calendriers lors de l’affectation des niveaux d’accès. Pour plus d’informations sur l’accès aux rapports, aux tableaux de bord et aux calendriers, voir [Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -49,9 +54,9 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
   Consultez également les articles suivants pour savoir comment partager des rapports, des tableaux de bord et des calendriers :
 
-   * [Partager un rapport dans Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Partager un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Partager un rapport de calendrier](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Partager un rapport dans Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [Partager un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [Partager un rapport de calendrier](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * Vous pouvez partager des rapports et des tableaux de bord individuellement ou en masse.
 
@@ -63,8 +68,8 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 
 * Vous pouvez accorder les autorisations suivantes aux rapports, tableaux de bord et calendriers :
 
-   * Afficher
-   * Gérer
+  * Afficher
+  * Gérer
 
 * Lorsque vous partagez un tableau de bord, les personnes disposent par défaut des autorisations Afficher pour tous les rapports, calendriers et pages externes du tableau de bord.
 * Les personnes disposant d’une licence Demande ne peuvent pas afficher de rapport à l’échelle du système. Un rapport doit être partagé avec les Demandeurs ou demandeuses individuellement en cas de besoin de le visualiser.

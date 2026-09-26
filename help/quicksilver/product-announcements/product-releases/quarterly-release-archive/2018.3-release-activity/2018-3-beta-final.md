@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 100%
-
 ---
-
 # Version Beta finale 2018.3
 
 Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2018.3. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 10 octobre 2018. Cela sera disponible dans l’environnement de production en novembre 2018.
@@ -128,10 +134,10 @@ Les nouvelles fonctionnalités suivantes seront disponibles dans les magasins d�
 
   Vous pouvez maintenant effectuer les actions suivantes en appuyant longuement dans votre écran d’accueil sur l’application Workfront :
 
-   * Recherche
-   * Accéder aux notifications
-   * Accéder au dernier projet consulté 
-   * Accéder à la dernière tâche consultée ou au dernier problème consulté
+  * Recherche
+  * Accéder aux notifications
+  * Accéder au dernier projet consulté 
+  * Accéder à la dernière tâche consultée ou au dernier problème consulté
 
 * Nouvelles notifications push et nouvelles actions à partir des notifications push
 
@@ -141,18 +147,18 @@ Les nouvelles fonctionnalités suivantes seront disponibles dans les magasins d�
 
   Vous pouvez effectuer les opérations suivantes en appuyant longuement sur une notification push, sans devoir accéder à l’application ou à l’élément qui l’a générée :
 
-   * Commenter un élément
-   * Accepter de travailler sur le projet
-   * Prendre une décision d’approbation
+  * Commenter un élément
+  * Accepter de travailler sur le projet
+  * Prendre une décision d’approbation
 
 * Prise en charge de l’orientation paysage pour les appareils iOS
 
   Nous prenons désormais en charge les orientations paysage et portrait pour les applications mobiles iOS et Android, à l’exception des modèles d’iPhone suivants :
 
-   * iPhone 5
-   * iPhone 5S
-   * iPhone SE\
-     Avant cette amélioration, l’orientation paysage n’était prise en charge que pour les appareils Android.
+  * iPhone 5
+  * iPhone 5S
+  * iPhone SE\
+    Avant cette amélioration, l’orientation paysage n’était prise en charge que pour les appareils Android.
 
 * Prise en charge des plateformes iOS 12 et Android P
 * Prise en charge des tablettes iOS et Android

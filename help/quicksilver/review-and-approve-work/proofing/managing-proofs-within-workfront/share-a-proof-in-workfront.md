@@ -6,25 +6,33 @@ description: Vous pouvez partager un document révisé dans Adobe Workfront en p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
+TQID: 'https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1164'
 ht-degree: 94%
-
 ---
-
 # Partager une épreuve dans Adobe Workfront
 
 Vous pouvez partager un document révisé dans Adobe Workfront en partageant le document ou en ajoutant des utilisateurs et utilisatrices à l’épreuve.
@@ -93,15 +101,15 @@ Le partage d’un lien vers l’épreuve accorde aux utilisateurs et utilisatric
 
    * Pour envoyer le lien directement par e-mail à partir d’Adobe Workfront, procédez comme suit :
 
-      1. Dans le champ **Ou envoyer le lien par e-mail à**, commencez à taper et sélectionnez le nom de votre destinataire. Vous pouvez également spécifier l’adresse e-mail d’une personne externe avec laquelle vous souhaitez effectuer un partage.
+     1. Dans le champ **Ou envoyer le lien par e-mail à**, commencez à taper et sélectionnez le nom de votre destinataire. Vous pouvez également spécifier l’adresse e-mail d’une personne externe avec laquelle vous souhaitez effectuer un partage.
 
-         >[!NOTE]
-         >
-         >Si vous voyez un e-mail d’alias lors du partage de l’épreuve, ne créez pas un nouvel utilisateur ou une nouvelle utilisatrice invité en saisissant l’e-mail d’origine s’il existe un e-mail d’alias correspondant.
+        >[!NOTE]
+        >
+        >Si vous voyez un e-mail d’alias lors du partage de l’épreuve, ne créez pas un nouvel utilisateur ou une nouvelle utilisatrice invité en saisissant l’e-mail d’origine s’il existe un e-mail d’alias correspondant.
 
-      1. Sélectionnez l’une des options suivantes :
+     1. Sélectionnez l’une des options suivantes :
 
-         <table style="table-layout:auto">
+        <table style="table-layout:auto">
           <col>
           <col>
           <tbody>
@@ -120,11 +128,11 @@ Le partage d’un lien vers l’épreuve accorde aux utilisateurs et utilisatric
           </tbody>
          </table>
 
-      1. Cliquez sur **Envoyer**.
+     1. Cliquez sur **Envoyer**.
 
-         Vos destinataires reçoivent une notification par e-mail contenant des informations sur l’épreuve et les boutons que vous avez choisis d’inclure.
+        Vos destinataires reçoivent une notification par e-mail contenant des informations sur l’épreuve et les boutons que vous avez choisis d’inclure.
 
-         ![](assets/proof-share-email-350x87.png)
+        ![](assets/proof-share-email-350x87.png)
 
 ## Ajouter des utilisateurs et utilisatrices à une épreuve
 

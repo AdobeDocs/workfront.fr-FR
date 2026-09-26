@@ -3,26 +3,30 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Afficher des projets dans Adobe Workfront View
-description: Par défaut, la liste des projets affichée dans  [!DNL Adobe Workfront]  affiche les 100 projets actifs les plus récents. La liste des projets n’est classée selon aucun critère.
+description: Par défaut, la liste des projets affichée dans la vue [!DNL Adobe Workfront] affiche les 100 projets actifs les plus récents. La liste des projets n’est classée selon aucun critère.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+TQID: 'https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 359
-ht-degree: 95%
-
+source-wordcount: '360'
+ht-degree: 91%
 ---
-
 # Afficher les projets dans [!UICONTROL Adobe Workfront View]
 
 Par défaut, la liste des projets affichée dans [!DNL Adobe Workfront View] affiche les 100 projets actifs les plus récents. La liste des projets n’est classée selon aucun critère.
@@ -69,7 +73,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * **[!UICONTROL Progression]**
    * **[!UICONTROL Statut]**
    * **[!UICONTROL Sponsor]**
-Les projets sont désormais répertoriés, regroupés par les valeurs possibles de ces champs.\
+     Les projets sont désormais répertoriés, regroupés par les valeurs possibles de ces champs.\
       Vous pouvez regrouper les projets selon un critère à la fois. Les critères sont préchargés dans l’application dans les graphiques situés en haut de la liste des projets et ne peuvent pas être modifiés.
 
 ## Afficher les détails du projet

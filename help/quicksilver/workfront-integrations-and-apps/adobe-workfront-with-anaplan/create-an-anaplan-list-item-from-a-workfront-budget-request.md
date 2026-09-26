@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 'Créer un élément de liste  [!DNL Anaplan]  à partir d’une demande de budget  [!DNL Adobe Workfront] '
-description: Ce scénario d’intégration associe un projet (campagne)  [!DNL Adobe Workfront]  avec un élément de liste de budget  [!DNL Anaplan] . Pour ce faire, ajoutez une demande de budget au projet  [!DNL Workfront]  qui doit recevoir un financement. Ce scénario recherche les demandes de budget non traitées, puis exécute un processus pour créer un élément de liste de budget vide dans  [!DNL Anaplan]  pour lancer les processus d’attribution de budget dans Anaplan.
+title: Créer un élément de liste [!DNL Anaplan] à partir d’une demande de budget [!DNL Adobe Workfront]
+description: Ce scénario d’intégration associe un projet (campagne) [!DNL Adobe Workfront] avec un élément de liste de budget [!DNL Anaplan]. Pour ce faire, ajoutez une demande de budget au projet [!DNL Workfront] qui doit recevoir un financement. Ce scénario recherche les demandes de budget non traitées, puis exécute un processus pour créer un élément de liste budgétaire vide en [!DNL Anaplan] de lancer les processus de répartition budgétaire dans Anaplan.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
+TQID: 'https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 864
-ht-degree: 95%
-
+source-wordcount: '864'
+ht-degree: 92%
 ---
-
 # Créer un élément de liste [!DNL Anaplan] à partir d’une demande de budget [!DNL Adobe Workfront]
 
 Ce scénario d’intégration associe un projet (campagne) [!DNL Adobe Workfront] avec un élément de liste de budget [!DNL Anaplan]. Pour ce faire, ajoutez une demande de budget au projet [!DNL Workfront] qui doit recevoir un financement. Ce scénario recherche les demandes de budget non traitées, puis exécute un processus pour créer un élément de liste de budget vide dans [!DNL Anaplan] pour lancer les processus d’attribution de budget dans [!DNL Anaplan].
@@ -174,12 +184,12 @@ Pour utiliser ce scénario, vous devez disposer des éléments suivants dans [!D
 
   Le module de la liste doit permettre de recevoir les attributs suivants :
 
-   * [!UICONTROL GUID de projet Workfront]
-   * [!UICONTROL Nom de la campagne]
-   * [!UICONTROL Fonds demandés pour la main-d’œuvre]
-   * [!UICONTROL Fonds demandés pour les dépenses]
-   * [!UICONTROL Type de demande de budget]
-   * [!UICONTROL Raison de l’ajustement des fonds]
+  * [!UICONTROL GUID de projet Workfront]
+  * [!UICONTROL Nom de la campagne]
+  * [!UICONTROL Fonds demandés pour la main-d’œuvre]
+  * [!UICONTROL Fonds demandés pour les dépenses]
+  * [!UICONTROL Type de demande de budget]
+  * [!UICONTROL Raison de l’ajustement des fonds]
 
   Cette liste et ce module doivent stocker les détails supplémentaires nécessaires au bon fonctionnement d’[!DNL Anaplan], y compris la possibilité de définir un budget et de signaler que l’élément de liste des budgets est prêt à être resynchronisé sur [!DNL Workfront].
 

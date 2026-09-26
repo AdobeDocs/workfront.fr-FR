@@ -8,25 +8,33 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/QuLxjUMlRgN0FvlDwR0JVQ-m-wV-z3C6sh30lJYRKfU
+TQID: 'https://experienceleague.adobe.com/QuLxjUMlRgN0FvlDwR0JVQ-m-wV-z3C6sh30lJYRKfU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1001
-ht-degree: 15%
-
+source-wordcount: '1009'
+ht-degree: 14%
 ---
-
 # Vue d’ensemble de l’accès à Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
@@ -113,7 +121,8 @@ Pour utiliser Workfront Planning, vous devez disposer des droits d&#39;accès su
    </li>
     <li><p>Les administrateurs de Planning peuvent gérer les espaces de travail qu'ils n'ont pas créés. </p></li>
     <li><p>Les administrateurs de Planning ne peuvent pas accéder aux vues qu'ils n'ont pas créées. </p></li></ul>
-   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning</a>. 
+   <p>Pour plus d’informations sur les autorisations de partage pour les objets Workfront Planning, voir  
+   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Présentation des autorisations de partage dans Adobe Workfront Planning</a> 
    </td>
    </tr>
    <tr>
@@ -190,11 +199,11 @@ Vous pouvez accorder des autorisations aux entités suivantes dans Workfront Pla
 * Vues
 * Enregistrements
 
-Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans la planification Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Votre type de licence Adobe Workfront fonctionne avec votre type de licence Workfront Planning et vos autorisations Planning pour vous permettre d’afficher, de contribuer ou de gérer des objets Workfront Planning.
 
-Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets de Workfront Planning, consultez la section [Vue d’ensemble des types de licence lors de l’utilisation d’Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Pour plus d’informations sur la façon dont les types de licence affectent les niveaux d’autorisation des objets de la planification Workfront, consultez la section [Vue d’ensemble des types de licence lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Partage de la zone Planning à l&#39;aide d&#39;un modèle de mise en page
 
@@ -222,11 +231,11 @@ Pour ajouter ou supprimer des zones Workfront Planning des utilisateurs de votre
 
    Pour plus d’informations sur la personnalisation d’un modèle de mise en page, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Affectez le modèle de mise en page aux personnes auxquelles vous souhaitez accorder l’accès à Workfront Planning.
+1. Affectez le modèle de mise en page aux personnes auxquelles vous souhaitez accorder l’accès à la planification Workfront.
 
    Pour plus d’informations, consultez la section [Affecter des personnes à un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-   Toutes les personnes affectées au modèle peuvent désormais accéder à Workfront Planning dans leur menu principal.
+   Toutes les personnes affectées au modèle peuvent désormais accéder à la planification Workfront dans leur menu principal.
 
    Les personnes peuvent commencer à créer des espaces de travail, des types d’enregistrements, des enregistrements et des champs.
 

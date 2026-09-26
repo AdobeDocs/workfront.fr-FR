@@ -6,18 +6,21 @@ description: Vous pouvez choisir parmi plusieurs widgets pour personnaliser le c
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 52%
-
 ---
-
 # Ajout, modification ou suppression de widgets dans l’Accueil
 
 <!-- Audited: 4/2025 -->
@@ -124,9 +127,9 @@ Pour ajouter un widget :
 
    * **Mes approbations**\
        Affiche toutes les approbations affectées ou déléguées en attente, un bouton pour déléguer des approbations et des boutons pour prendre des décisions d’approbation directement dans le widget. Les validations sont classées de la manière suivante :
-      * Échéances échues
-      * Prochaines échéances
-      * Éléments sans échéance
+     * Échéances échues
+     * Prochaines échéances
+     * Éléments sans échéance
 
    * **Mesures d’approbation des documents**\
            Affiche 2 graphiques avec des informations sur le temps d’approbation moyen et les décisions, ainsi que des vues de liste des approbations en attente et en retard. Pour utiliser ce widget, vous devez avoir activé [Approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).

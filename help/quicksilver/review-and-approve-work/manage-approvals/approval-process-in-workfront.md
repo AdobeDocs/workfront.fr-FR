@@ -7,26 +7,35 @@ description: Vous pouvez créer un processus d’approbation et le joindre à un
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
-ht-degree: 96%
-
+source-wordcount: '1816'
+ht-degree: 97%
 ---
-
 # Vue d’ensemble du processus d’approbation
 
 <!-- Audited: 12/2023 -->
@@ -39,8 +48,8 @@ Cette option est disponible pour les types d’objets suivants dans Adobe Workf
 * Document
 * Épreuve
 
-Cet article contient des informations générales sur les processus d&#39;approbation associés aux éléments de travail.
-Pour obtenir des instructions sur la création d’un processus d’approbation, voir [Création d’un processus d’approbation des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Cet article contient des informations générales sur les processus d’approbation associés aux éléments de travail.
+Pour obtenir des instructions sur la création d’un processus d’approbation, voir [Créer un processus d’approbation pour les éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Types de processus d’approbation pour les éléments de travail
 
@@ -48,15 +57,15 @@ Si vous êtes administrateur ou administratrice d’Adobe Workfront ou utilisat
 
 * **Processus d’approbation globale au niveau du système** : les utilisateurs et utilisatrices peuvent les joindre à l’un des éléments suivants :
 
-   * un projet, une tâche ou un problème dans la section Approbations
-   * Dans la zone Modifier le projet de la zone Processus d’approbation par défaut de la tâche
-   * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente des demandes.
+  * un projet, une tâche ou un problème dans la section Approbations
+  * Dans la zone Modifier le projet de la zone Processus d’approbation par défaut de la tâche
+  * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente des demandes.
 
 * **Processus d’approbation globale au niveau du groupe** : les utilisateurs et utilisatrices peuvent les joindre aux éléments suivants :
 
-   * un projet, une tâche ou un problème appartenant au groupe associé au processus d’approbation dans la section Approbations
-   * Dans la zone Modifier le projet de la zone Processus d’approbation par défaut de la tâche pour un projet appartenant au groupe associé au processus d’approbation
-   * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente des demandes et appartenir au groupe associé au processus d’approbation.
+  * un projet, une tâche ou un problème appartenant au groupe associé au processus d’approbation dans la section Approbations
+  * Dans la zone Modifier le projet de la zone Processus d’approbation par défaut de la tâche pour un projet appartenant au groupe associé au processus d’approbation
+  * Dans la section Détails de la file d’attente ou Rubrique de la file d’attente d’un projet dans les zones Processus d’approbation par défaut. Le projet doit être activé en tant que file d’attente des demandes et appartenir au groupe associé au processus d’approbation.
 
   Pour plus d’informations sur la création d’un processus d’approbation au niveau du système ou du groupe, voir [Créer un processus d’approbation pour les éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -77,31 +86,31 @@ Pour plus d’informations sur la création d’un processus d’approbation au 
 * Vous devez créer le projet, la tâche, le problème, le modèle ou la tâche de modèle avant que le processus d’approbation puisse y être associé.
 * Un processus d’approbation est toujours associé à deux éléments essentiels :
 
-   * Chaque processus d’approbation correspond à un certain statut d’élément de travail dans le système Workfront. Lorsque vous modifiez le statut d’un élément de travail, une approbation jointe de ce statut nécessite que le changement de statut soit confirmé avant que le nouveau statut puisse être affecté à l’élément.
+  * Chaque processus d’approbation correspond à un certain statut d’élément de travail dans le système Workfront. Lorsque vous modifiez le statut d’un élément de travail, une approbation jointe de ce statut nécessite que le changement de statut soit confirmé avant que le nouveau statut puisse être affecté à l’élément.
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * Vous pouvez associer une approbation au niveau du groupe à un statut global ou au niveau du groupe.
-     >   * Vous ne pouvez pas modifier le statut d’un élément à l’aide d’un processus d’approbation et le remplacer par un statut autre que celui associé au processus d’approbation.
-     >   
-     >   
-     >     Par exemple, si une approbation de tâche est associée au statut En cours, la tâche passe automatiquement au statut En cours lorsque l’approbation est accordée. Elle ne peut pas passer automatiquement au statut Terminé ou à tout autre statut qui n’est pas associé à l’approbation.
-     >   
-     >   
-     >* Les entités associées à un processus d’approbation peuvent être des utilisateurs ou utilisatrices, des fonctions ou des équipes. L’acceptation ou le rejet de l’approbation incombe en dernier ressort aux utilisateurs et utilisatrices. Vous pouvez affecter des approbations aux personnes qui occupent une certaine fonction dans le projet. Par exemple, vous pouvez affecter une approbation à un ou une propriétaire de projet ou à un sponsor. Pour plus d’informations, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * Vous pouvez associer une approbation au niveau du groupe à un statut global ou au niveau du groupe.
+    >   * Vous ne pouvez pas modifier le statut d’un élément à l’aide d’un processus d’approbation et le remplacer par un statut autre que celui associé au processus d’approbation.
+    >   
+    >   
+    >     Par exemple, si une approbation de tâche est associée au statut En cours, la tâche passe automatiquement au statut En cours lorsque l’approbation est accordée. Elle ne peut pas passer automatiquement au statut Terminé ou à tout autre statut qui n’est pas associé à l’approbation.
+    >   
+    >   
+    >* Les entités associées à un processus d’approbation peuvent être des utilisateurs ou utilisatrices, des fonctions ou des équipes. L’acceptation ou le rejet de l’approbation incombe en dernier ressort aux utilisateurs et utilisatrices. Vous pouvez affecter des approbations aux personnes qui occupent une certaine fonction dans le projet. Par exemple, vous pouvez affecter une approbation à un ou une propriétaire de projet ou à un sponsor. Pour plus d’informations, voir [Créer un processus d’approbation pour des éléments de travail](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-     Les scénarios suivants sont possibles :
+    Les scénarios suivants sont possibles :
 
-      * Lorsque vous affectez une approbation à des fonctions, tout membre de l’équipe de projet associé à la fonction peut prendre une décision sur l’approbation. Le rôle associé à l’approbation peut être soit son rôle de Principal, soit tout autre rôle.
+    * Lorsque vous affectez une approbation à des fonctions, tout membre de l’équipe de projet associé à la fonction peut prendre une décision sur l’approbation. Le rôle associé à l’approbation peut être soit son rôle de Principal, soit tout autre rôle.
 
-        Pour plus d’informations sur l’équipe de projet, voir [Vue d’ensemble de l’équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+      Pour plus d’informations sur l’équipe de projet, voir [Vue d’ensemble de l’équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
 
-      * Lorsque vous affectez une approbation à une équipe, tout membre de cette équipe peut prendre une décision sur l’approbation. L’équipe associée à l’approbation peut être son équipe principale ou n’importe quelle autre équipe.
+    * Lorsque vous affectez une approbation à une équipe, tout membre de cette équipe peut prendre une décision sur l’approbation. L’équipe associée à l’approbation peut être son équipe principale ou n’importe quelle autre équipe.
 
-        Pour plus d’informations sur les rôles et les équipes d’un utilisateur ou d’une utilisatrice, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+      Pour plus d’informations sur les rôles et les équipes d’un utilisateur ou d’une utilisatrice, voir [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Lorsque vous créez un élément de travail, un processus d’approbation n’est pas automatiquement associé. Vous devez en joindre un manuellement si vous souhaitez l’utiliser. Pour plus d’informations sur l’association d’un processus d’approbation à un élément, voir [Associer un processus d’approbation nouveau ou existant au travail](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 * L’administrateur ou l’administratrice Workfront ou un utilisateur ou une utilisatrice ayant un accès administratif aux processus d’approbation peut créer des processus d’approbation globale à l’échelle du système à utiliser dans l’ensemble du système. Un administrateur ou une administratrice de groupe disposant d’un accès administratif aux processus d’approbation peut créer un processus d’approbation globale à l’échelle du groupe qui ne sera utilisé que par un certain groupe qu’il ou elle gère.

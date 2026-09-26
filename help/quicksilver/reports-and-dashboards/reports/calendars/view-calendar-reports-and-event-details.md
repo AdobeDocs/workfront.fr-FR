@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 72%
-
 ---
-
 # Afficher des rapports de calendrier et des détails de l’événement
 
 Vous pouvez afficher les rapports de calendrier et les détails des événements que vous avez créés ou qui ont été partagés avec vous dans Adobe Workfront.
@@ -85,7 +90,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Le cas échéant) Cliquez sur le bouton **[!UICONTROL Vue]**, puis sélectionnez la durée du calendrier à afficher.
    ![Durée du calendrier](assets/view-menu-calendar-report-350x189.png)
-Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
+   Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
 
    * **[!UICONTROL Mois]** : affiche quatre semaines du calendrier.
    * **[!UICONTROL Semaine]** : affiche une semaine du calendrier.
@@ -110,17 +115,17 @@ Vous pouvez choisir parmi les vues de rapports de calendrier suivantes :
 
    * Pour modifier rapidement les dates affichées, procédez comme suit :
 
-      1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
+     1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
 
-         ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue **Semaine**, le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
+        Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue **Semaine**, le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
 
-      1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
+     1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
 
 1. (Facultatif) Pour masquer les événements d’un regroupement de projets ou de calendriers lié au calendrier, désélectionnez-le regroupement dans la liste des projets.
    ![Masquer les événements](assets/hide-events-for-project-or-cal-grouping.png)
-Vous pouvez rendre à nouveau les événements visibles en sélectionnant le regroupement [!UICONTROL projet] ou calendrier dans la liste des projets.
+   Vous pouvez rendre à nouveau les événements visibles en sélectionnant le regroupement [!UICONTROL projet] ou calendrier dans la liste des projets.
 
 ## Afficher des rapports de calendrier et des détails de l’événement
 

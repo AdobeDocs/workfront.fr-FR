@@ -6,18 +6,24 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+TQID: 'https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '913'
 ht-degree: 6%
-
 ---
-
 # Améliorations apportées aux projets au troisième trimestre 2025
 
 Cette page décrit les améliorations apportées par Project à l’environnement de Prévisualisation avec la version du troisième trimestre de 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -58,12 +64,12 @@ Le champ Heures réelles visible dans la section Détails du projet, des tâches
 >[!IMPORTANT]
 >
 >Selon le moment où les heures ont été consignées, il peut y avoir une incohérence entre les heures réelles et les heures réelles héritées pour un projet, une tâche ou un événement.<br>
->Les scénarios suivants existent :
+>Les scénarios suivants sont possibles :
 >
 >* Les heures réelles représentent les heures enregistrées pour les projets, tâches et événements depuis mai 2021.
 >* Les heures effectives héritées représentent les heures enregistrées pour les projets, les tâches et les événements pendant la durée de vie du projet, de la tâche ou de l&#39;événement. Cela inclut les heures enregistrées avant mai 2021 jusqu’à l’heure actuelle.
 ><br>Vous devrez peut-être mettre à jour vos rapports pour refléter le nouveau champ et ses valeurs.
-><br>Workfront utilise les heures réelles héritées pour calculer les coûts de main-d&#39;œuvre réels.
+><br>Workfront utilise les heures réelles héritées pour calculer les coûts réels de main-d&#39;œuvre.
 
 Pour plus d&#39;informations, voir [Afficher les heures réelles](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

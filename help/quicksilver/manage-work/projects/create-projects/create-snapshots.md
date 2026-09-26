@@ -6,13 +6,20 @@ description: Les instantanés d’Adobe Workfront vous permettent de voir les di
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 4%
-
+source-wordcount: '1282'
+ht-degree: 3%
 ---
-
 # Création et affichage d’instantanés de projet
 
 Les chefs de projet ont souvent besoin de comparer les données antérieures d’un projet avec l’état actuel pour prendre des décisions éclairées et voir comment leurs projets ont changé au fil du temps.
@@ -188,7 +195,7 @@ Vous pouvez utiliser le gestionnaire de colonnes dans certaines listes amélior�
 
 1. Recherchez un champ d’objet existant dans la colonne **Disponible**, puis cliquez sur **+** à droite du nom du champ pour l’ajouter à la colonne **Sélectionné**.
 1. Cliquez sur **-** à droite d’un champ dans la colonne **Sélectionné** pour le supprimer de la liste.
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
    La liste met à jour les colonnes en fonction des choix que vous avez effectués.
 

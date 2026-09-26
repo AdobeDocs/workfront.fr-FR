@@ -3,29 +3,33 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront pour Android
-description: L’application  [!DNL Adobe Workfront]  vous permet d’accéder à votre travail sur n’importe quel appareil Android. Vous pouvez installer et utiliser l’application mobile  [!DNL Workfront]  sur les téléphones et tablettes exécutant Android 5.0 ou version ultérieure.
+description: L’application [!DNL Adobe Workfront] vous permet d’accéder à votre travail depuis n’importe quel appareil Android. Vous pouvez installer et utiliser l’application mobile [!DNL Workfront] sur des téléphones et des tablettes exécutant Android 5.0 ou une version ultérieure.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+TQID: 'https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 100%
-
+source-wordcount: '540'
+ht-degree: 94%
 ---
-
 # [!DNL Adobe Workfront] pour [!DNL Android]
 
 L’application [!DNL Adobe Workfront] vous permet d’accéder à votre travail sur n’importe quel appareil [!DNL Android]. Vous pouvez installer et utiliser l’application mobile [!DNL Workfront] sur les téléphones et tablettes exécutant [!DNL Android] 5.0 ou version ultérieure.
 
-Pour plus d’informations sur la connexion à l’application mobile, voir la section [Se connecter à l’application mobile  [!DNL Workfront] ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) dans l’article [Se connecter à  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Pour plus d’informations sur la connexion à l’application mobile, voir la section [Se connecter à l’application mobile  [!DNL Workfront] &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) dans l’article [Se connecter à  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Accueil]
 
@@ -55,7 +59,7 @@ La zone [!UICONTROL Accueil] vous permet de travailler directement sur les tâch
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [[!UICONTROL Widgets de la zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et la section [[!UICONTROL Mon travail] de l’application mobile ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Pour plus d’informations, voir [[!UICONTROL Widgets de la zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et la section [[!UICONTROL Mon travail] de l’application mobile &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Zone d’accueil](assets/mobile-home-area.png)
 
@@ -120,9 +124,9 @@ La zone [!UICONTROL Approbations] vous permet d’afficher et d’approuver les 
  </tbody>
 </table>
 
-Pour plus d’informations sur les approbations, voir [Approbations dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Pour plus d’informations sur les approbations, voir [Approbations dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Pour plus d’informations sur la révision et l’approbation d’épreuves, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Pour plus d’informations sur la révision et l’approbation d’épreuves, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Liste des approbations dans l’application mobile](assets/mobile-approvals-adobe-350x574.png)
 

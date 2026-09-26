@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-QH0K-HG7X7i6xwKxrBkXQzUbefI2-HI1RliZJMCIDU
+TQID: 'https://experienceleague.adobe.com/-QH0K-HG7X7i6xwKxrBkXQzUbefI2-HI1RliZJMCIDU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1740
+source-wordcount: '1788'
 ht-degree: 4%
-
 ---
-
 <!--add also Group and Company when they are available-->
 
 # Gérer les connexions d’enregistrement à partir d’objets Workfront
@@ -235,7 +242,7 @@ La page de l’objet s’ouvre dans Workfront.
 1. (Facultatif) Commencez à modifier les champs dans la zone d’aperçu de l’enregistrement. Vos modifications sont enregistrées automatiquement.
 1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une nouvelle icône d’onglet](assets/open-details-in-a-new-tab-icon.png) dans le coin supérieur droit de la zone d’aperçu pour ouvrir la page de détails de l’enregistrement. La page de détails de l’enregistrement s’ouvre dans Workfront Planning.
 1. (Facultatif) Pointez sur une carte d’enregistrement, puis cliquez sur l’icône Déconnecter l’enregistrement **-**, puis sur **Déconnecter**.
-Voici ce qui se produit :
+Les événements suivants se produisent :
    * L’enregistrement n’est plus connecté à l’objet Workfront.
    * L’objet Workfront est également supprimé du champ connecté de l’enregistrement dans Workfront Planning.
    * Les valeurs des champs de recherche Workfront liés à l&#39;enregistrement Planning sont également supprimées.

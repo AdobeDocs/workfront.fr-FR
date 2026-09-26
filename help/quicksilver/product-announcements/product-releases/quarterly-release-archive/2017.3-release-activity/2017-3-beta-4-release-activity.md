@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+TQID: 'https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 96%
-
+source-wordcount: '1681'
+ht-degree: 98%
 ---
-
 # Activité de la version 2017.3 Beta 4
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2017.3 Beta 4. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation la semaine du 25 septembre 2017. Elle ont été rendues disponibles dans l’environnement de production début novembre 2017.
@@ -62,7 +70,7 @@ La version 2017.3, version Beta 4 contient des améliorations pour l’équipe
 
 ## Dupliquer les tâches {#duplicate-tasks}
 
-Vous pouvez désormais dupliquer rapidement une tâche ou un ensemble de tâches dans un projet. Cette action crée une tâche identique à la tâche d’origine. Pendant le processus de duplication, aucune option supplémentaire ne vous permet d’apporter des modifications à la tâche nouvellement créée.  
+Vous pouvez désormais dupliquer rapidement une tâche ou un ensemble de tâches au sein d’un projet. Cette action crée une tâche identique à la tâche originale. Il n’y a pas d’options supplémentaires pendant le processus de duplication qui vous permettraient d’apporter des modifications à la tâche nouvellement créée.  
 
 Avant ce changement, vous pouviez copier une tâche dans un nouveau projet ou dans un projet existant et modifier certaines informations au moment de la copie.
 
@@ -119,7 +127,7 @@ Pour plus d’informations sur la mise à jour du pourcentage de disponibilité 
 Vous trouverez désormais une nouvelle zone dans Configuration appelée Gestion des ressources. Dans cette zone, nous avons ajouté un paramètre qui vous permet de spécifier comment calculer la disponibilité des utilisateurs et utilisatrices dans le planificateur de ressources. Vous pouvez la calculer à l’aide des méthodes suivantes :
 
 * Manuellement : le planning par défaut du système ainsi que l’équivalent temps complet individuel de l’utilisateur ou de l’utilisatrice sont utilisés pour déterminer la disponibilité horaire de l’utilisateur ou de l’utilisatrice dans le planificateur de ressources. Le planning de la personne est ignoré.
-* Automatiquement : le planning de l’utilisateur est utilisé pour déterminer la disponibilité horaire de l’utilisateur dans le planificateur de ressources. La disponibilité d&#39;équivalent temps complet est calculée en fonction du calendrier de l&#39;utilisateur et du calendrier par défaut. La valeur de l’équivalent temps complet de l’utilisateur est ignorée. 
+* Automatiquement : le planning de l’utilisateur ou de l’utilisatrice est utilisé pour déterminer la disponibilité horaire de l’utilisateur ou de l’utilisatrice dans le planificateur de ressources. La disponibilité équivalent temps complet est calculée sur la base du planning de l’utilisateur ou de l’utilisatrice et du planning par défaut. La valeur de l’ETP de la personne est ignorée. 
 
 Pour plus d’informations sur la configuration des préférences de gestion des ressources pour votre système, consultez [Configurer les préférences de gestion des ressources](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

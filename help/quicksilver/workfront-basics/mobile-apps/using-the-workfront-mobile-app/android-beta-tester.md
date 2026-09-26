@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Devenir Beta-testeur ou Beta-testeuse Android
-description: Consultez cet article pour devenir un Beta-testeur ou une Beta-testeuse Android pour l’application mobile  [!DNL Adobe Workfront] .
+description: Consultez cet article pour devenir un testeur bêta Android pour l’application mobile [!DNL Adobe Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+TQID: 'https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '325'
 ht-degree: 94%
-
 ---
-
 # Devenir Beta-testeur ou Beta-testeuse [!DNL Android]
 
 ## Télécharger l’application Beta
@@ -30,7 +33,7 @@ Vous pouvez utiliser le [!DNL Google Play Store] pour rechercher et télécharge
 
 1. Accédez à l’application [!DNL Play Store] sur votre appareil.
 1. Recherchez [!DNL Workfront], puis appuyez dessus lorsqu’il apparaît dans la liste.
-Vous devez installer l’application [!DNL Workfront] avant de rejoindre la version bêta.
+Vous devez installer l’application [!DNL Workfront] avant de rejoindre le programme Beta.
 1. Installez et ouvrez l’application [!DNL Workfront] si vous ne l’avez pas déjà fait.
 1. Faites défiler la page vers le milieu, puis appuyez sur **[!UICONTROL S’inscrire maintenant]** dans la section **[!UICONTROL Devenir Beta-testeur ou Beta-testeuse]**.
 

@@ -5,15 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 56%
-
+source-wordcount: '218'
+ht-degree: 34%
 ---
-
 # Premier trimestre 2025 Améliorations de la gestion des documents
 
 Cette page décrit toutes les améliorations apportées à la gestion des documents avec la version du premier trimestre 2025 dans l’environnement de prévisualisation. Si indiqué, ces améliorations seront disponibles dans l’environnement de production avec la version du premier trimestre 2025.
@@ -24,7 +31,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 21 novembre 2024. Production pour version rapide : avec la version 24.12 (vendredi 12 décembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 21 novembre 2024 ; Production pour la version rapide : avec la version 24.12 (12 décembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Vous pouvez désormais modifier plusieurs documents à la fois. Vous pouvez modifier les descriptions et mettre à jour les formulaires personnalisés.
 
@@ -34,7 +41,7 @@ Pour plus d’informations, voir [Modifier des documents en bloc](/help/quicksil
 
 >[!NOTE]
 >
->Version de prévisualisation : vendredi 7 novembre 2024. Production pour version rapide : avec la version 24.11 (vendredi 14 novembre 2024). Production pour version trimestrielle : avec la version 25.1 (vendredi 16 janvier 2025).
+>Version préliminaire : 7 novembre 2024 ; Production pour la version rapide : avec la version 24.11 (14 novembre 2024) ; Production pour la version trimestrielle : avec la version 25.1 (16 janvier 2025)
 
 Lorsqu&#39;une nouvelle version est ajoutée à un document avec des approbations en attente, l&#39;approbation de la version précédente s&#39;affiche désormais comme « Retirée », ce qui indique que le processus d&#39;approbation préalable est terminé en raison de l&#39;ajout de la nouvelle version.
 

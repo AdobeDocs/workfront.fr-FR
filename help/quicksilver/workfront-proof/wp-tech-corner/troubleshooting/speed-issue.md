@@ -3,25 +3,34 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Problèmes de vitesse dans  [!DNL Workfront Proof]
-description: Cette page d’aide peut vous aider à déterminer si les problèmes de vitesse que vous rencontrez lorsque vous utilisez  [!DNL Workfront Proof]  sont liés à votre fournisseur d’accès Internet ou au réseau de diffusion de contenu de  [!DNL Workfront Proof].
+title: Problèmes de vitesse dans [!DNL Workfront Proof]
+description: Cette page d’aide peut vous aider à déterminer si les problèmes de vitesse que vous rencontrez lorsque vous utilisez [!DNL Workfront Proof] sont liés à votre fournisseur d’accès Internet ou au réseau de diffusion de contenu de [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
-TQID: https://experienceleague.adobe.com/oqa0s2kT-1eMT2y0AY-58ERLUAZ4SnAr1iXR2BI6LfE
+TQID: 'https://experienceleague.adobe.com/oqa0s2kT-1eMT2y0AY-58ERLUAZ4SnAr1iXR2BI6LfE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 641
-ht-degree: 98%
-
+source-wordcount: '658'
+ht-degree: 100%
 ---
-
 # Problèmes de vitesse dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -58,7 +67,7 @@ Lorsque vous rencontrez des problèmes de performance, il est important d’exé
 1. (Windows uniquement) Saisissez **ping app.proofhq.com**.
 1. Lorsque l’exécution ping est terminée, cliquez avec le bouton droit de la souris sur l’invite de commande et sélectionnez Tout.
 1. Copiez et collez les résultats dans la réponse à votre e-mail.
-Assurez-vous d&#39;avoir laissé traceroute et ping se terminer avant d&#39;envoyer les résultats à l&#39;équipe d&#39;assistance.
+Veillez à laisser traceroute et ping se terminer avant d’envoyer les résultats à l’équipe de support.
 
 ## Tester la vitesse de connexion avec Speedtest.net
 

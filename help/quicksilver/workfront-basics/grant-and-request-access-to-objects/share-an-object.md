@@ -6,26 +6,33 @@ description: Votre personne chargée de l’administration d’Adobe Workfront 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-TQID: https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE
+TQID: 'https://experienceleague.adobe.com/p6Ww-WXlQx70CRwN3XuQPRK215VLA0P0A0bgp6qs-vE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: '346'
 ht-degree: 74%
-
 ---
-
 # Partager un objet
 
 <!--Audited: 01/2024-->
@@ -60,9 +67,9 @@ Pour plus d’informations sur le partage d’objets dans Workfront, consultez l
 * Pour les épreuves, voir [Partager une épreuve dans Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 * Pour les rapports, les tableaux de bord et les calendriers, reportez-vous aux articles suivants :
 
-   * [Partager un rapport dans Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Partager un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Partager un rapport de calendrier](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Partager un rapport dans Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [Partager un tableau de bord](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [Partager un rapport de calendrier](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
   En outre, voir [Partager des rapports, des tableaux de bord et des calendriers](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) pour obtenir des informations générales sur le partage de rapports, de tableaux de bord et de calendriers.
 
@@ -78,8 +85,8 @@ Pour plus d’informations sur le partage d’objets dans Workfront, consultez l
 
 * Pour les objets Workfront Planning, reportez-vous aux articles suivants :
 
-   * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
-   * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Partager des affichages](/help/quicksilver/planning/access/share-views.md)
+  * [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md)
 
   L’accès à Workfront Planning nécessite une licence supplémentaire.
 

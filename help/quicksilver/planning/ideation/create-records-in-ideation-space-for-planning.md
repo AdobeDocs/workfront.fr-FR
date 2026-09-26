@@ -3,7 +3,15 @@ title: Créer des enregistrements Planning à partir de résumés d'espace d'id�
 description: Grâce à l'Espace d'idéation, une nouvelle fonctionnalité d'Adobe Workfront Planning, vous pouvez transformer des résumés en enregistrements Planning. Les briefs exportés créent de nouveaux enregistrements ou mettent à jour des enregistrements existants. Cet article décrit comment créer ou modifier des enregistrements Planning existants à l'aide de l'espace Idéation.
 role: User, Admin
 author: Alina
-source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 3%

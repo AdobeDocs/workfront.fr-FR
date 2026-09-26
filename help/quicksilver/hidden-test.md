@@ -3,16 +3,18 @@ title: Test caché
 description: test caché
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
+TQID: 'https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '616'
 ht-degree: 49%
-
 ---
-
 # Test caché
 
 Fichier masqué utilisé pour tester les heures de publication dans un référentiel plus volumineux.
@@ -242,7 +244,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
-   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour Adobe Workfront Planning.</p>   
+   <td> <p>Il n’existe aucun contrôle de niveau d’accès pour la planification Adobe Workfront.</p>   
 </td> 
   </tr> 
 <tr> 

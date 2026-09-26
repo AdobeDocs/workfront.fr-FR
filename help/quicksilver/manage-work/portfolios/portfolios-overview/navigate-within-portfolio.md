@@ -8,27 +8,35 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+TQID: 'https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 61%
-
+source-wordcount: '720'
+ht-degree: 65%
 ---
-
 # Naviguer dans un portfolio
 
 <!--Audited: 08/2025-->
@@ -114,12 +122,12 @@ Old:
    * **[!UICONTROL Tous]** : inclut tous les portefeuilles pour lesquels vous avez au moins accès à l’affichage.
 
      Pour plus d&#39;informations sur l&#39;accès aux portefeuilles, voir [Présentation des niveaux d&#39;accès](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-Pour plus d’informations sur les autorisations d’accès aux portefeuilles, voir [Partager un portefeuille](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+     Pour plus d’informations sur les autorisations aux portfolios, voir [Partager un portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Pour ajouter de nouveaux portfolios, voir [Créer un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Cliquez sur le nom d’un portefeuille pour y accéder.
-Les mesures de performances de portfolio suivantes s’affichent dans la zone [!UICONTROL Détails &#x200B;] au sein d’un portfolio :
+1. Cliquez sur le nom d’un portfolio pour y accéder.
+Les mesures de performances du portfolio suivantes s’affichent dans la zone [!UICONTROL Détails du portfolio] à l’intérieur du portfolio :
 
    * Si le portfolio est [!UICONTROL À l’heure].
    * Si le portfolio est [!UICONTROL Dans le budget].
@@ -131,9 +139,9 @@ Les mesures de performances de portfolio suivantes s’affichent dans la zone [!
 
    * **[!UICONTROL Actif]** : comprend tous les projets associés au portfolio sélectionné dont les statuts sont les suivants :
 
-      * [!UICONTROL Planification]
-      * [!UICONTROL Approuvé]
-      * [!UICONTROL Actif]
+     * [!UICONTROL Planification]
+     * [!UICONTROL Approuvé]
+     * [!UICONTROL Actif]
    * **[!UICONTROL Demandé]** : inclut des projets associés au portfolio sélectionné avec le statut **[!UICONTROL Demandé]**.
 
      Pour plus d’informations sur la révision des projets demandés, voir [Réviser des projets demandés](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

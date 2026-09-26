@@ -6,13 +6,25 @@ description: inventoriez, classez et corrigez les scénarios Workfront Fusion ba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
-
 ---
-
 # Mettre à jour les scénarios Workfront Fusion pour une révision et une approbation unifiées
 
 Les scénarios Workfront Fusion reposant sur la relecture Workfront héritée ne fonctionnent pas automatiquement avec les projets de stockage dans le cloud Adobe. Les modules, webhooks et points d’entrée d’API spécifiques à une épreuve ont des équivalents directs dans certains cas et des changements significatifs dans d’autres. Cet article vous aide à inventorier les scénarios affectés, à les classer et à décider d’un chemin de correction avant d’importer les équipes qui dépendent de ces scénarios dans votre déploiement de l’espace de stockage dans le cloud Adobe.

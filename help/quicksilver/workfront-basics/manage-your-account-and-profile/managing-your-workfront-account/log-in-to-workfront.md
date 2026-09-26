@@ -1,37 +1,42 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Se connecter à  [!DNL Adobe Workfront]
+title: Se connecter à [!DNL Adobe Workfront]
 description: Lisez cet article pour savoir comment vous connecter à Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 32%
-
 ---
-
 # Se connecter à [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
 Une seule connexion est utilisée pour Workfront et toutes vos applications Adobe CX Enterprise.
 
-Pour plus d’informations, voir [Administration et interface d’entreprise CX](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
+Pour plus d&#39;informations, voir Interface et administration de [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
 
 ## Accéder à [!DNL Workfront]
 
@@ -41,9 +46,9 @@ Une fois connecté à CX Enterprise, vous pouvez afficher toutes les organisatio
 
 >[!NOTE]
 >
->La première fois que vous vous connectez à CX Enterprise, l&#39;organisation utilise par défaut la première de la liste alphabétique. La prochaine fois que vous vous connecterez, l’organisation par défaut sera la dernière que vous avez visitée.
+>La première fois que vous vous connectez à CX Enterprise, l’organisation utilise par défaut la première de la liste alphabétique. La prochaine fois que vous vous connecterez, l’organisation par défaut sera la dernière que vous avez visitée.
 
-[!DNL Workfront] apparaît dans la liste des produits CX Enterprise auxquels vous avez accès. Vous pouvez choisir [!DNL Workfront] dans le menu d’accès rapide de la page d’accueil de l’entreprise CX ou utiliser le sélecteur de produits ![sélecteur de produits](assets/main-menu-icon.png) pour modifier les applications à tout moment.
+[!DNL Workfront] apparaît dans la liste des produits CX Enterprise auxquels vous avez accès. Vous pouvez choisir [!DNL Workfront] dans le menu d’accès rapide de la page d’accueil de CX Enterprise ou utiliser le sélecteur de produits ![sélecteur de produits](assets/main-menu-icon.png) pour modifier les applications à tout moment.
 
 ![Sélection de [!DNL Workfront] pour accéder à l’application](assets/cx-enterprise-home-2026.png)
 

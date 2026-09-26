@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 5%
-
 ---
-
 # Améliorations des rapports pour le deuxième trimestre 2026
 
 Cette page décrit les améliorations apportées aux rapports avec la version du deuxième trimestre 2026 dans l’environnement Aperçu. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -24,7 +31,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Nous avons ajouté un champ booléen `currentVersion` à l’objet Version du document pour faciliter l’identification et la création de rapports sur la dernière version d’un document.
 Avec cette mise à jour :
@@ -34,8 +43,8 @@ Avec cette mise à jour :
 
 * Lorsqu’une nouvelle version est chargée :
 
-   * La nouvelle version est marquée comme `TRUE`
-   * Les versions précédentes sont marquées comme `FALSE`
+  * La nouvelle version est marquée comme `TRUE`
+  * Les versions précédentes sont marquées comme `FALSE`
 
 * Les rapports peuvent identifier de manière cohérente les versions actuelles dans les tableaux de bord Zone de travail et les rapports hérités
 
@@ -45,7 +54,9 @@ Les filtres existants pour les rapports classiques utilisant `isCurrentVersion` 
 
 >[!NOTE]
 >
->Aperçu : 3 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 3 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher `{{$include }}` données les plus récentes dans l’application.
 
@@ -59,7 +70,9 @@ Pour plus d’informations, voir [Planification de la diffusion automatique des 
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 >
 >Les tableaux de bord de la zone de travail sont actuellement en version bêta.
 
@@ -73,7 +86,9 @@ Pour plus d’informations, consultez les sections [Créer un rapport d’indica
 
 >[!NOTE]
 >
->Aperçu : 12 mars 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : 12 mars 2026
+>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais vous authentifier auprès de Data Connect à l’aide de clés RSA ou de connexions PAT (Programmatic Access Tokens), ajoutant ainsi des alternatives plus sécurisées et flexibles aux informations d’identification traditionnelles de nom d’utilisateur/mot de passe.
 
@@ -87,7 +102,9 @@ Ces nouvelles options permettent aux entreprises de maintenir des connexions sta
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
+>Aperçu : 26 février 2026
+>Version rapide de production : 12 mars 2026
+>Production pour tous : 16 avril 2026
 
 Le libellé du champ personnalisé s’affiche désormais avant le nom du champ et l’objet dans les outils de création de rapports, ce qui vous permet de localiser plus facilement les champs. Les libellés des champs s’affichent également lors de la définition de filtres, de vues et de regroupements dans des listes.
 
@@ -99,14 +116,16 @@ Pour plus d’informations, voir [Créer un rapport personnalisé](/help/quicksi
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
+>Aperçu : 26 février 2026
+>Version rapide de production : 12 mars 2026
+>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais organiser et partager des rapports à l’aide de dossiers de rapports partageables. Cette nouvelle fonctionnalité permet aux équipes qui gèrent d’importants volumes de rapports de maintenir un contrôle d’accès évolutif et cohérent :
 
 * **Créer des structures de dossiers organisées** : les administrateurs système peuvent créer des dossiers de niveau supérieur, tandis que les utilisateurs disposant d’un accès de gestion peuvent créer des sous-dossiers jusqu’à 4 niveaux de profondeur.
 * **Contrôles d’autorisation granulaires** : partagez des dossiers avec deux niveaux d’autorisation :
-   * Afficher : les utilisateurs peuvent ouvrir des rapports et partager des dossiers
-   * Gérer : les utilisateurs peuvent modifier les détails du dossier, ajouter/supprimer des éléments et recevoir automatiquement un accès de gestion à tous les rapports du dossier
+  * Afficher : les utilisateurs peuvent ouvrir des rapports et partager des dossiers
+  * Gérer : les utilisateurs peuvent modifier les détails du dossier, ajouter/supprimer des éléments et recevoir automatiquement un accès de gestion à tous les rapports du dossier
 * **Autorisations héritées** : cascade d’autorisations des dossiers parents vers tous les sous-dossiers et rapports de l’arborescence de dossiers
 * **Expérience de liste améliorée** : lorsque vous activez les dossiers à partager, vous avez accès à l’expérience de liste améliorée. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -117,7 +136,9 @@ Pour plus d’informations, voir [Utilisation de dossiers de rapports partageabl
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
+>Aperçu : 26 février 2026
+>Version rapide de production : 12 mars 2026
+>Production pour tous : 16 avril 2026
 
 >[!NOTE]
 >

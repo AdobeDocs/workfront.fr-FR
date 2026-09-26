@@ -6,22 +6,26 @@ description: En tant que personne membre de l’administration Adobe Workfront,
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 90%
-
 ---
-
 # Partager un modèle
 
 En tant que personne membre de l’administration Adobe Workfront, vous pouvez accorder aux utilisateurs et aux utilisatrices l’accès à l’affichage ou à la modification des modèles lorsque vous leur attribuez un niveau d’accès. Un utilisateur doit disposer d’une licence Standard ou Plan pour pouvoir accéder à l’option Modifier les modèles.
@@ -42,18 +46,18 @@ Les autorisations sont spécifiques à un élément dans Workfront et définisse
 * Toute personne créant ou possédant un modèle dispose par défaut des droits de gestion de ce modèle. Pour plus d’informations sur la désignation d’un utilisateur ou d’une utilisatrice en tant que propriétaire du modèle, consultez la section [Modifier les modèles de projet](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Vous pouvez partager les éléments suivants lors du partage d’un modèle :
 
-   * Modèle
+  * Modèle
 
-     Pour plus d’informations sur la manière de partager un modèle, consultez la section [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Pour plus d’informations sur la manière de partager un modèle, consultez la section [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-     Vous pouvez accorder les autorisations suivantes à un modèle :
+    Vous pouvez accorder les autorisations suivantes à un modèle :
 
-      * Afficher
-      * Gérer
+    * Afficher
+    * Gérer
 
-   * Futurs projets créés à l’aide du modèle. Vous pouvez accorder aux projets créés à partir d’un modèle les mêmes niveaux d’autorisation qu’à un projet individuel.
+  * Futurs projets créés à l’aide du modèle. Vous pouvez accorder aux projets créés à partir d’un modèle les mêmes niveaux d’autorisation qu’à un projet individuel.
 
-     Pour plus d’informations sur la manière de partager un projet à partir d’un modèle au niveau du modèle, consultez la section [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+    Pour plus d’informations sur la manière de partager un projet à partir d’un modèle au niveau du modèle, consultez la section [Partager des modèles de projet](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * En partageant un modèle ou un projet issu de ce modèle, les autorisations attribuées se transmettent par défaut à tous les objets enfant associés au modèle ou au projet.
 

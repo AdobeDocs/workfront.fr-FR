@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 95%
-
+source-wordcount: '948'
+ht-degree: 99%
 ---
-
 # Premier trimestre 2026 - Améliorations apportées aux requêtes
 
 Cette page décrit toutes les améliorations apportées aux requêtes dans l’environnement de prévisualisation dans la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -29,12 +36,13 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026\
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour accéder plus facilement à l’objet créé par une requête spécifique, nous avons ajouté des liens vers la colonne Objet créé. Vous pouvez maintenant cliquer sur le lien de cette colonne pour accéder directement à la page de l’objet créé.
 
-Ce lien est disponible uniquement pour les requêtes Planning, lorsque la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
+Ce lien est disponible uniquement pour les requêtes de planification, lorsque la requête elle-même a créé un objet. Si une requête Workfront est convertie en projet ou en un autre objet, le lien vers cet objet converti n’est pas disponible dans la liste des requêtes de la nouvelle expérience de création de requêtes.
 
 Auparavant, cette colonne ne contenait que le nom de l’objet, et non son lien.
 
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026\
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour accéder facilement aux informations dont vous avez besoin, nous avons ajouté la possibilité de partager des vues à la nouvelle expérience de création de requêtes. Vous pouvez désormais partager des vues avec d’autres utilisateurs et utilisatrices, équipes ou groupes.
@@ -74,7 +83,8 @@ Pour plus d’informations sur les vues de requête, notamment le partage, voir 
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026\
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour accéder plus facilement aux informations dont vous avez besoin, vous avez désormais la possibilité d’ajouter des champs personnalisés sous forme de colonnes dans la liste Requêtes et le widget Mes requêtes sur la page d’accueil. Vous pouvez désormais ajouter des champs de formulaires personnalisés sous forme de colonnes, et les requêtes qui contiennent des informations dans ce champ afficheront ces informations dans la liste ou le widget.
@@ -92,7 +102,8 @@ Pour obtenir des instructions sur l’ajout de colonnes, voir :
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026\
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour faciliter le filtrage des requêtes qui vous concernent, nous avons créé un caractère générique pour l’utilisateur actuel. Désormais, lors du filtrage, vous pouvez sélectionner « Moi (utilisateur connecté) ». Le filtre s’applique alors à l’utilisateur ou l’utilisatrice qui consulte la liste des requêtes.
@@ -107,7 +118,8 @@ Pour plus d’informations sur la configuration des vues dans la liste Requêtes
 
 >[!NOTE]
 >
->Aperçu : 11 décembre 2025>Version rapide de production : 11 décembre 2025\
+>Prévisualisation : 11 décembre 2025
+>Version rapide de production : 11 décembre 2025\
 >Production pour tous : 11 décembre 2025
 
 Pour faciliter la création de requêtes, nous avons créé un remplissage de formulaire optimisé par l’IA. Désormais, vous pouvez coller un prompt ou charger un document dans un formulaire de requête, et l’IA extrait les informations pertinentes pour remplir le formulaire.
@@ -121,7 +133,8 @@ Pour plus d’informations sur le remplissage de formulaire optimisé par l’IA
 
 >[!NOTE]
 >
->Aperçu : 20 novembre 2025>Version rapide de production : 14 janvier 2026\
+>Prévisualisation : 20 novembre 2025
+>Version rapide pour la production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Pour faciliter la création et l’envoi de requêtes, nous avons ajouté la possibilité d’enregistrer des brouillons dans la nouvelle expérience de création de requêtes. Désormais, lorsque vous commencez à remplir une requête en cours et que vous la fermez, la requête est enregistrée au statut Brouillon et figure sur le formulaire de requête utilisé pour créer le brouillon. Vous pouvez ensuite rouvrir, mettre à jour et envoyer le brouillon à votre convenance.
@@ -134,10 +147,11 @@ Pour plus d’informations, consultez la section [Créer des requêtes à partir
 
 >[!NOTE]
 >
->Aperçu : 20 novembre 2025>Version rapide de production : 14 janvier 2026\
+>Prévisualisation : 20 novembre 2025
+>Version rapide pour la production : 14 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
-Pour que vos requêtes soient plus faciles à organiser et à gérer, nous avons ajouté la possibilité de supprimer des requêtes à la nouvelle expérience de création de requêtes. Désormais, vous pouvez supprimer les requêtes que vous avez envoyées. Les administrateurs et administratrices des espaces de travail Workfront et Workfront Planning peuvent également supprimer des requêtes.
+Pour que vos requêtes soient plus faciles à organiser et à gérer, nous avons ajouté la possibilité de supprimer des requêtes à la nouvelle expérience de création de requêtes. Désormais, vous pouvez supprimer les requêtes que vous avez envoyées. Les administrateurs et administratrices des espaces de travail Workfront et de la planification Workfront peuvent également supprimer des requêtes.
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de création de requêtes.
 
@@ -148,7 +162,8 @@ Pour plus d’informations et d’instructions, voir [Supprimer une requête env
 
 >[!NOTE]
 >
->Aperçu : 20 novembre 2025>version rapide de production : 11 décembre 2025\
+>Prévisualisation : 20 novembre 2025
+>Version rapide de production : 11 décembre 2025\
 >Production pour tous : 15 janvier 2026
 
 Pour faciliter l’envoi de requêtes, nous avons ajouté la possibilité de copier des requêtes dans la nouvelle expérience de création de requêtes. Vous pouvez désormais copier une requête, modifier n’importe quel champ et l’envoyer en tant que nouvelle requête.

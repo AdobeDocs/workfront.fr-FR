@@ -6,18 +6,21 @@ description: 'Cet article répertorie les notifications in-app que vous pouvez r
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 32%
-
 ---
-
 # Vue d’ensemble des notifications in-app
 
 Cet article répertorie les notifications in-app que vous pouvez recevoir. Les notifications in-app vous donnent deux types d’informations : les notifications d’annonce et les notifications d’élément de travail. Elles sont disponibles à la fois dans l’application web et dans l’application mobile.
@@ -103,9 +106,9 @@ Lorsque vous cliquez sur l’icône numérotée ![icône de notifications](asset
 * ![Icône Événement](assets/issue.png) [!UICONTROL Événement affecté à] [nom de l&#39;équipe] - [nom de l&#39;affectation]
 * ![Tâche qui vous est affectée](assets/icon-taskassngdtoyou.png) [!UICONTROL Tâche affectée à] [nom de l’équipe] - [nom de l’affectation]
 
-   * Les notifications d’affectation sont envoyées uniquement lorsque le statut du projet est défini sur [!UICONTROL Actuel] (ou sur un statut personnalisé équivalent à [!UICONTROL Actuel]).
-   * Les personnes demandeuses et les personnes chargées de la révision ne sont pas censées être affectées à un travail. Par conséquent, elles ne sont pas averties si elles sont affectées à des tâches et des problèmes.
-   * Si vous attribuez du travail à vous-même ou à une équipe à laquelle vous appartenez, vous ne recevrez pas de notification.
+  * Les notifications d’affectation sont envoyées uniquement lorsque le statut du projet est défini sur [!UICONTROL Actuel] (ou sur un statut personnalisé équivalent à [!UICONTROL Actuel]).
+  * Les personnes demandeuses et les personnes chargées de la révision ne sont pas censées être affectées à un travail. Par conséquent, elles ne sont pas averties si elles sont affectées à des tâches et des problèmes.
+  * Si vous attribuez du travail à vous-même ou à une équipe à laquelle vous appartenez, vous ne recevrez pas de notification.
 
 ### [!UICONTROL Commentaires]
 

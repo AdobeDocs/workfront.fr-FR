@@ -1,6 +1,6 @@
 ---
 title: Activité de publication de la planification Adobe Workfront pour 2023
-description: Les fonctionnalités d’Adobe Workfront Planning sont actuellement disponibles pour un nombre limité de clientes et de clients Workfront. Consultez régulièrement cet article pour en savoir plus sur les dernières fonctionnalités de planification publiées.
+description: Les fonctionnalités de la planification Adobe Workfront sont actuellement disponibles pour un nombre limité de clientes et de clients Workfront. Consultez régulièrement cet article pour en savoir plus sur les dernières fonctionnalités de planification publiées.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 95%
-
 ---
-
 # Activité de publication Adobe Workfront Planning pour 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -83,7 +91,7 @@ Production : 21 décembre 2023
 
 >[!IMPORTANT]
 >
->Votre entreprise doit acheter Adobe Workfront Fusion pour créer des connexions avec les fonctionnalités d’Adobe Workfront Planning.
+>Votre entreprise doit acheter Adobe Workfront Fusion pour créer des connexions avec les fonctionnalités de la planification Adobe Workfront.
 >
 >Pour plus d’informations, consultez la [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
@@ -119,11 +127,11 @@ Dans le cadre de cette amélioration, il convient de noter ce qui suit :
 
 * Vous pouvez choisir n’importe quel champ parmi les types suivants comme champ principal et remplacer le champ Nom dans la première colonne :
 
-   * Texte à une ligne
+  * Texte à une ligne
 
-   * Nombre
+  * Nombre
 
-   * Formule
+  * Formule
 
 * Le champ principal d’une vue de tableau est toujours gelé et ne peut pas être déplacé, sauf si vous définissez un autre champ comme champ principal.
 
@@ -141,11 +149,11 @@ Version de production : 21 décembre 2023
 
 >[!IMPORTANT]
 >
->L’instance Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements des fonctionnalités Adobe Workfront Planning à Adobe Experience Manager Assets.
+>L’instance Workfront de votre entreprise doit être intégrée à Adobe Business Platform ou à Adobe Admin Console pour pouvoir connecter les enregistrements des fonctionnalités de la planification Adobe Workfront à Adobe Experience Manager Assets.
 >
 >Si vous avez des questions relatives à l’intégration à Adobe Admin Console, voir les [questions fréquentes sur Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Vous pouvez désormais établir une connexion entre les types d’enregistrement de fonctionnalités Adobe Workfront Planning et Adobe Experience Manager Assets.
+Vous pouvez désormais établir une connexion entre les types d’enregistrement de fonctionnalités de la planification Adobe Workfront et Adobe Experience Manager Assets.
 
 Une fois la connexion établie, les fonctionnalités suivantes sont disponibles avec cette mise à jour :
 
@@ -201,11 +209,11 @@ Tenez compte des points suivants :
 
 * Vous ne pouvez pas copier et coller les valeurs des champs suivants :
 
-   * Personnes
+  * Personnes
 
-   * Champs système
+  * Champs système
 
-   * Champs liés créés à la suite de la connexion d’enregistrements
+  * Champs liés créés à la suite de la connexion d’enregistrements
 
 Pour plus d’informations, voir [Modifier les enregistrements](/help/quicksilver/planning/records/edit-records.md).
 
@@ -225,7 +233,7 @@ Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/pl
 
 Prévisualisation et production : 30 octobre 2023
 
-Nous avons introduit les types de champs suivants pour les enregistrements de fonctionnalités Adobe Workfront Planning :
+Nous avons introduit les types de champs suivants pour les enregistrements de fonctionnalités de la planification Adobe Workfront :
 
 * Créé par
 
@@ -292,19 +300,19 @@ Les options suivantes concernent les couleurs que vous pouvez choisir d’affich
 
 * Les regroupements peuvent être assortis aux couleurs suivantes :
 
-   * Gris (par défaut)
+  * Gris (par défaut)
 
-   * Couleur du champ par lequel vous effectuez le regroupement.
+  * Couleur du champ par lequel vous effectuez le regroupement.
 
 * Les barres peuvent être assorties aux couleurs suivantes :
 
-   * Couleur du type d’enregistrement
+  * Couleur du type d’enregistrement
 
-   * Couleur d’un champ que vous sélectionnez.
+  * Couleur d’un champ que vous sélectionnez.
 
-   * Couleur du regroupement
+  * Couleur du regroupement
 
-   * Pas de couleur (par défaut)
+  * Pas de couleur (par défaut)
 
 Lorsque vous associez des couleurs à un champ donné, vous pouvez ne sélectionner que les champs avec des options de code couleur.
 
@@ -346,8 +354,8 @@ Tenez compte des points suivants :
 
   Pour plus d’informations, consultez les articles suivants :
 
-   * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
+  * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 
 ### Prise en charge de l’URL pour les champs de texte d’une seule ligne
 
@@ -369,7 +377,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 
 ## Semaine du 21 août 2023
 
-### Connecter des enregistrements de fonctionnalités Adobe Workfront Planning à des programmes et portfolios
+### Connecter des enregistrements de fonctionnalités de la planification Adobe Workfront à des programmes et portfolios
 
 Version préliminaire et de production : 24 août 2023
 
@@ -383,8 +391,8 @@ Vous pouvez désormais associer un enregistrement de capacités de planification
 
 Prévisualisation et production : 24 août 2023
 
-Vous pouvez désormais trier les enregistrements dans la vue Tableau d’une page de type d’enregistrement.
-Les fonctionnalités suivantes sont désormais disponibles :
+Vous pouvez désormais trier les enregistrements dans la vue en tableau d’une page de type d’enregistrement.
+Les possibilités suivantes sont désormais disponibles :
 
 * Trier au niveau du tableau, ce qui permet de trier sur plusieurs champs en même temps.
 * Trier au niveau d’une colonne ou d’un champ, ce qui permet de trier un champ à la fois.
@@ -397,8 +405,8 @@ Nous avons apporté les améliorations suivantes à la vue chronologique :
 
 * Vous pouvez désormais afficher la vue chronologique dans les modes suivants :
 
-   * Standard : affiche les enregistrements sur des lignes séparées.
-   * Compact : affiche les enregistrements dont les dates ne se chevauchent pas sur la même ligne.
+  * Standard : affiche les enregistrements sur des lignes séparées.
+  * Compact : affiche les enregistrements dont les dates ne se chevauchent pas sur la même ligne.
 
 * Nous avons modifié l’aspect des lignes de regroupement dans la vue chronologique afin qu’elles s’affichent au-dessus de la chronologie des enregistrements qu’elles contiennent. Avant cette amélioration, les lignes de regroupement s’affichaient sur toute la longueur de la chronologie.
 
@@ -466,7 +474,7 @@ Nous avons désormais exigé que les noms de champ d’un type d’enregistremen
 
 ## Semaine du 5 juin 2023
 
-### Connecter des enregistrements de fonctionnalités Adobe Workfront Planning à des projets Workfront
+### Connecter des enregistrements de fonctionnalités de la planification Adobe Workfront à des projets Workfront
 
 Prévisualisation et production : 5 juin 2023
 

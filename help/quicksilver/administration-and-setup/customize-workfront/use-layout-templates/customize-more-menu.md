@@ -9,13 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
-source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '352'
 ht-degree: 40%
-
 ---
-
 # Personnaliser le menu Plus à l’aide d’un modèle de mise en page
 
 Vous pouvez utiliser un modèle de mise en page pour déterminer les options qui s’affichent lorsqu’un utilisateur clique sur le menu Plus (menu à trois points) lors de l’affichage des objets suivants dans Adobe Workfront : projets, tâches, événements, portfolios et programmes.
@@ -69,4 +76,4 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Faites glisser des éléments ![icône Déplacer](assets/move-icon---dots.png) pour modifier leur ordre dans le panneau de gauche.
 
-1. Cliquez sur **Terminé**.
+1. Cliquez sur **Terminer**.

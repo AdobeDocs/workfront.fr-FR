@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '891'
 ht-degree: 64%
-
 ---
-
 # Créer ou modifier des vues dans Adobe Workfront
 
 <!-- Audited: 11/2024 -->
@@ -83,7 +88,7 @@ Vous pouvez créer une nouvelle vue standard ou personnaliser une vue standard e
 1. Cliquez sur le bouton **+ Nouvel affichage** pour créer un affichage.
 Ou
 Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) qui s’affiche lorsque vous pointez à droite d’une vue existante à modifier.
-La boîte de dialogue **Personnaliser la vue** s&#39;affiche.
+La boîte de dialogue **Personnaliser la vue** s’affiche.
 
 1. Dans la section **Aperçu de la colonne**, effectuez l’une des opérations suivantes :
 
@@ -131,9 +136,9 @@ La boîte de dialogue **Personnaliser la vue** s&#39;affiche.
      >
      >Pour plus d’informations sur l’utilisation des regroupements dans un rapport, voir l’article [Vue d’ensemble des regroupements dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Facultatif) Cliquez sur **Options avancées** pour spécifier les informations suivantes de la colonne :
+     * (Facultatif) Cliquez sur **Options avancées** pour spécifier les informations suivantes de la colonne :
 
-        <table style="table-layout:auto"> 
+       <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -156,7 +161,7 @@ La boîte de dialogue **Personnaliser la vue** s&#39;affiche.
          </tbody> 
         </table>
 
-        Pour plus d’informations sur la mise en forme conditionnelle des vues dans les rapports, voir l’article [Utiliser la mise en forme conditionnelle en mode texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+       Pour plus d’informations sur la mise en forme conditionnelle des vues dans les rapports, voir l’article [Utiliser la mise en forme conditionnelle en mode texte](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Le cas échéant) Si vous avez cliqué sur **Options avancées**, cliquez sur **Terminé**.
 

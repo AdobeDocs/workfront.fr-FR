@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: satellite-accounts
-title: Configurer un compte satellite dans  [!DNL Workfront Proof]
-description: Les comptes satellites sont des comptes payants que vous configurez et gérez à partir de votre propre compte  [!DNL Workfront]  Proof. Pour plus d'informations, voir « Comptes satellites dans  [!DNL Workfront]  Proof ».
+title: Configurer un compte satellite dans [!DNL Workfront Proof]
+description: Les comptes satellites sont des comptes payants que vous configurez et gérez à partir de votre propre compte [!DNL Workfront] Proof. Pour plus d’informations, voir « Comptes satellite dans [!DNL Workfront] Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
-TQID: https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE
+TQID: 'https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 100%
-
+source-wordcount: '551'
+ht-degree: 95%
 ---
-
 # Configurer un compte satellite dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -42,7 +51,7 @@ Tout administrateur ou administratrice de facturation peut créer un compte sate
 Pour créer un compte satellite :
 
 1. Allez sur la page [!UICONTROL Facturation].\
-   Pour plus d’informations sur la page de facturation, voir [La page Facturation de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Pour plus d’informations sur la page de facturation, voir [La page Facturation de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Nouveau compte satellite]**. (1)
 
@@ -60,7 +69,7 @@ Pour créer un compte satellite :
 Après avoir configuré le compte satellite comme décrit dans [Créer un compte satellite](#creating-a-satellite-account), vous devez le mettre à niveau vers le plan souhaité.
 
 1. Allez sur la page [!UICONTROL Facturation].\
-   Pour plus d’informations sur la page de facturation, voir [La page Facturation de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Pour plus d’informations sur la page de facturation, voir [La page Facturation de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Dans le menu déroulant **[!UICONTROL Vos comptes]** en haut de la page (1), choisissez le compte satellite approprié.
 

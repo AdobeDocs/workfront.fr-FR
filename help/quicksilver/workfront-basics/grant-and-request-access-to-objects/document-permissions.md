@@ -9,24 +9,29 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/O7L1-5vtv0igPFna43Zrr2r2yzg4P7oPXgS2juSQ4Ec
+TQID: 'https://experienceleague.adobe.com/O7L1-5vtv0igPFna43Zrr2r2yzg4P7oPXgS2juSQ4Ec'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1418
+source-wordcount: '1418'
 ht-degree: 41%
-
 ---
-
 # Partager un document sur un stockage Workfront hérité
 
 L&#39;administrateur Workfront contrôle qui peut afficher ou modifier des documents dans la zone Niveaux d&#39;accès de la configuration. Pour plus d’informations, voir [Accorder l’accès aux documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
@@ -348,8 +353,8 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 * Le partage d’un document est similaire au partage de tout autre objet dans Workfront. Pour plus d’informations sur le partage de documents dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Vous pouvez accorder les autorisations suivantes aux documents :
 
-   * Afficher
-   * Gérer
+  * Afficher
+  * Gérer
 
 * Vous pouvez également partager un document publiquement ou à l’échelle du système.
 

@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: utilisateur ou utilisatrice,planning
 navigation-topic: configure-timesheets-and-schedules
 title: Présentation des plannings
-description: Vous pouvez définir votre semaine de travail en utilisant des plannings. Vous pouvez associer un planning à une personne ou à un projet. Cela permet à  [!DNL Adobe Workfront]  de calculer les chronologies et la disponibilité des personnes. Pour savoir obtenir des instructions, voir Créer un planning.
+description: Vous pouvez définir votre semaine de travail en utilisant des plannings. Vous pouvez associer un planning à une personne ou à un projet. Cela permet à [!DNL Adobe Workfront] de calculer les chronologies et la disponibilité des personnes. Pour savoir obtenir des instructions, voir Créer un planning.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 94%
-
 ---
-
 # Vue d’ensemble des plannings
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ L’ordre dans lequel les plannings sont utilisés par le système lorsqu’il e
 
 * Lorsqu’un utilisateur est affecté à une tâche, [!DNL Workfront] utilise l’une des planifications suivantes, telles que définies dans les [!UICONTROL Préférences du projet] de la section [!UICONTROL Configuration] :
 
-   * Planning de l’utilisateur affecté à la tâche
-   * Planning associé au projet.
+  * Planning de l’utilisateur affecté à la tâche
+  * Planning associé au projet.
 
-     Pour plus d’informations sur le temps libre, voir [Configurer les congés personnels](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+    Pour plus d’informations sur le temps libre, voir [Configurer les congés personnels](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Lorsque plusieurs personnes sont affectées à une tâche et ont des horaires différents pendant la durée de la tâche, [!DNL Workfront] utilise l’un des plannings suivants, tels que définis dans la zone [!UICONTROL Préférences du projet] de la [!UICONTROL Configuration] :
 
-   * Planning de la personne désignée comme personne cessionnaire principale.
-   * Planning associé au projet.
+  * Planning de la personne désignée comme personne cessionnaire principale.
+  * Planning associé au projet.
 
-     Pour plus d’informations sur les préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    Pour plus d’informations sur les préférences de projet, voir [Configurer les préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Si la personne affectée à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à une fonction, à une équipe ou n’est pas assignée, alors [!DNL Workfront] utilise le planning du projet désigné comme le planning par défaut pour les calculs des chronologies.
 * Si la personne affectée à la tâche n’a pas de planning, ou si la tâche est affectée uniquement à une fonction, à une équipe ou n’est pas assignée, et que le projet n’a pas de planning, alors [!DNL Workfront] utilise le planning du système désigné comme le planning par défaut pour les calculs des chronologies.

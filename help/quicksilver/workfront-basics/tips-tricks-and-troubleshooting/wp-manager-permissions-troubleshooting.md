@@ -4,24 +4,28 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Résolution des problèmes d’autorisations de gestion Workfront Proof
-description: Les profils d’autorisation disponibles dans  [!DNL Adobe]  Workfront pour les utilisateurs et utilisatrices de la relecture Workfront sont Administration, Supervision et Gestion.
+description: Les profils d’autorisation disponibles dans [!DNL Adobe] Workfront pour les utilisateurs de relecture sont Administrateur, Superviseur et Responsable.
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
-ht-degree: 100%
-
+source-wordcount: '256'
+ht-degree: 94%
 ---
-
 # Résolutions des problèmes d’autorisations de gestion [!UICONTROL [!DNL Workfront] Proof]
 
 Vous trouverez ci-dessous les profils d’autorisation disponibles dans [!DNL Adobe Workfront] pour les utilisateurs et utilisatrices de la relecture :
@@ -43,8 +47,8 @@ Lorsqu’un utilisateur ou une utilisatrice reçoit les autorisations de [!UICON
 * **PROBLÈME :** les utilisateurs et utilisatrices avec des autorisations de [!UICONTROL gestion] ne peuvent pas ajouter de versions aux épreuves créées par d’autres personnes (ils peuvent éventuellement envoyer une épreuve dans l’ensemble de documents, mais les versions ne seraient PAS connectées à l’ensemble d’origine créé par une autre personne).\
    **SOLUTION :** les personnes avec des autorisations de [!UICONTROL gestion] ne peuvent envoyer les versions à l’épreuve d’une autre personne que si les personnes disposant des autorisations de [!UICONTROL gestion] remplissent les deux conditions suivantes :
 
-   * Elles ont été explicitement ajoutées aux épreuves.
-   * Elles ont été définies comme [!UICONTROL Auteurs et autrices] (rôle d’épreuve) sur les épreuves.
+  * Elles ont été explicitement ajoutées aux épreuves.
+  * Elles ont été définies comme [!UICONTROL Auteurs et autrices] (rôle d’épreuve) sur les épreuves.
 
 * **PROBLÈME :** les utilisateurs et utilisatrices avec des autorisations de [!UICONTROL gestion] ne peuvent pas modifier les commentaires d’autres personnes sur une épreuve qu’ils ne possèdent pas ou qu’ils n’ont pas créée.\
    **SOLUTION :** si les utilisateurs et utilisatrices disposant d’autorisations de [!UICONTROL gestion] ne sont pas propriétaires des épreuves, mais qu’ils doivent pouvoir modifier les commentaires, ajoutez-les en tant qu’[!UICONTROL Auteurs et autrices] (ou [!UICONTROL Modérateurs et modératrices]).\

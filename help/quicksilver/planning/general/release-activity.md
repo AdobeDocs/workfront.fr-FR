@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 39%
-
 ---
-
 # Activité de publication Adobe Workfront Planning pour 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ Nous avons implémenté de nouvelles limitations pour les objets Workfront Plann
 
 * Workfront Planning permet d’effectuer les opérations suivantes :
 
-   * Espaces de travail illimités
+  * Espaces de travail illimités
 
-   * 25 000 enregistrements par espace de travail
+  * 25 000 enregistrements par espace de travail
 
-   * 500 000 enregistrements au total pour votre instance
+  * 500 000 enregistrements au total pour votre instance
 
 * Workfront Planning Plus vous permet d’effectuer les opérations suivantes :
 
-   * Espaces de travail illimités
+  * Espaces de travail illimités
 
-   * 500 000 enregistrements par espace de travail
+  * 500 000 enregistrements par espace de travail
 
-   * 2 millions d’enregistrements au total pour votre instance.
+  * 2 millions d’enregistrements au total pour votre instance.
 
 Pour plus d’informations, voir [Présentation de la limitation d’objet d’Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
@@ -149,10 +161,10 @@ Les fonctionnalités suivantes sont incluses dans cette mise à jour :
 
 * Selon sa configuration, le formulaire de demande peut afficher tous les champs du type d’enregistrement, à l’exception des champs des types suivants :
 
-   * Personnes
-   * Champs connectés (y compris les connexions avec des ressources Experience Manager)
-   * Champs de recherche connectés
-   * Formule
+  * Personnes
+  * Champs connectés (y compris les connexions avec des ressources Experience Manager)
+  * Champs de recherche connectés
+  * Formule
 
 Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -179,13 +191,13 @@ Il existe une nouvelle option Paramètres grâce à laquelle vous pouvez personn
 
 * Modifiez la couleur des barres d’enregistrement ou de leurs regroupements pour qu’ils correspondent à l’un des éléments suivants :
 
-   * Couleur du type d’enregistrement
+  * Couleur du type d’enregistrement
 
-   * Couleur d’un champ que vous sélectionnez.
+  * Couleur d’un champ que vous sélectionnez.
 
-   * Couleur du regroupement
+  * Couleur du regroupement
 
-   * Pas de couleur (par défaut)
+  * Pas de couleur (par défaut)
 
 Lorsque vous associez des couleurs à un champ donné, vous pouvez ne sélectionner que les champs avec des options de code couleur.
 
@@ -494,9 +506,9 @@ Cette mise à jour comprend les améliorations suivantes :
 
 * Nous avons supprimé le modèle Gestion marketing . Nous avons ajouté les modèles suivants pour la gestion marketing et nous vous recommandons d’utiliser le modèle approprié en fonction de la complexité de vos workflows :
 
-   * De base : Gestion marketing
-   * Avancé : Gestion marketing
-   * Entreprise : Gestion marketing
+  * De base : Gestion marketing
+  * Avancé : Gestion marketing
+  * Entreprise : Gestion marketing
 
 Pour plus d’informations, voir les articles suivants :
 
@@ -622,9 +634,9 @@ Voici quelques-unes des informations de la page de destination :
 
 * Si vous êtes administrateur Workfront, les onglets suivants s’affichent :
 
-   * Mes espaces de travail : affiche uniquement les espaces de travail que vous avez créés.
+  * Mes espaces de travail : affiche uniquement les espaces de travail que vous avez créés.
 
-   * Autres espaces de travail : affiche les espaces de travail que vous avez créés ou qui sont partagés avec vous.
+  * Autres espaces de travail : affiche les espaces de travail que vous avez créés ou qui sont partagés avec vous.
 
 * Liens vers la documentation et l’activité de publication pour Workfront Planning
 
@@ -1234,7 +1246,7 @@ Afin d’assurer une certaine cohérence lors de la création d’enregistrement
 
 Prévisualisation et sandbox : 11 janvier 2024
 
-Les fonctionnalités d’Adobe Workfront Planning ont été temporairement supprimées des environnements de prévisualisation et de sandbox. Elles seront ajoutées ultérieurement à ces environnements, ce que nous communiquerons dans les notes d’activité de mise à jour.
+Les fonctionnalités de la planification Adobe Workfront ont été temporairement supprimées des environnements de prévisualisation et de sandbox. Elles seront ajoutées ultérieurement à ces environnements, ce que nous communiquerons dans les notes d’activité de mise à jour.
 
 ### Autorisations de fonctionnalités de planification sur les espaces de travail et les vues
 

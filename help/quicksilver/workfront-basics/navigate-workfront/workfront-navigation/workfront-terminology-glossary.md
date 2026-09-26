@@ -1,50 +1,72 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: 'Glossaire de la terminologie  [!DNL Adobe Workfront] '
-description: Le glossaire  [!DNL Adobe Workfront]  répertorie les termes couramment utilisés dans l’interface et les rapports  [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] , et s’avère utile si vous essayez de comprendre la signification de concepts  [!DNL Workfront]  définis dans la documentation  [!DNL Workfront] .
+title: Glossaire de la terminologie [!DNL Adobe Workfront]
+description: Le glossaire [!DNL Adobe Workfront] répertorie les termes couramment utilisés dans [!DNL Adobe Workfront]. Vous pouvez utiliser le glossaire lorsque vous souhaitez retrouver la définition des concepts que vous voyez dans l'interface de , les rapports, ou lorsque vous essayez de comprendre la signification de [!DNL Workfront] concepts définis dans la documentation [!DNL Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+TQID: 'https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 22016
+source-wordcount: '22039'
 ht-degree: 97%
-
 ---
-
 # Glossaire de la terminologie [!DNL Adobe Workfront]
 
 <!--Audited: 04/2026-->
@@ -335,7 +357,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Répartition]</td> 
-   <td> <p>Dans Workfront Planning, vous pouvez afficher les enregistrements connectés dans la vue chronologique d’un enregistrement à l’aide de la fonction Répartition. </p>
+   <td> <p>Dans la planification Workfront, vous pouvez afficher les enregistrements connectés dans la vue chronologique d’un enregistrement à l’aide de la fonction Répartition. </p>
    <p>La répartition des enregistrements en fonction de leurs connexions vous permet d’afficher la chronologie d’autres enregistrements connectés et de comprendre comment ils peuvent affecter les performances et les échéances de vos enregistrements. </p>
    <p>Les enregistrements connectés s’affichent imbriqués sous leur enregistrement respectif. </p>
    <p>Pour plus d’informations, consultez <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Gérer la vue chronologique</a>. </p>
@@ -514,7 +536,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
    <td> <p>Dans Workfront, un rapport de calendrier est un rapport dynamique dans lequel les utilisateurs et les utilisatrices peuvent afficher la date et d’autres détails importants d’un événement, y compris la date d’échéance, le statut du travail et l’utilisateur ou l’utilisatrice auquel ou à laquelle l’événement est affecté.</p> <p> Pour plus d’informations sur les rapports de calendrier, voir <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Vue d’ensemble des rapports de calendrier</a>.</p>
-   <p> Dans Workfront Planning, une vue Calendrier est un type d’affichage pour un type d’enregistrement qui affiche des enregistrements dans un calendrier. Vous devez disposer d’une licence supplémentaire pour accéder à Workfront Planning. </p>
+   <p> Dans la planification Workfront, une vue Calendrier est un type d’affichage pour un type d’enregistrement qui affiche des enregistrements dans un calendrier. Vous devez disposer d’une licence supplémentaire pour accéder à la planification Workfront. </p>
     </td> 
   </tr> 
    <tr> 
@@ -660,7 +682,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Types d’enregistrements connectés]</td> 
-   <td> <p>Dans Workfront Planning, vous pouvez créer l’une des connexions suivantes : </p>
+   <td> <p>Dans la planification Workfront, vous pouvez créer l’une des connexions suivantes : </p>
    <ul>
    <li>Deux types d’enregistrements</li>
    <li>Entre un type d’enregistrement et un type d’objet Workfront ;</li>
@@ -672,7 +694,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Enregistrements connectés]</td> 
-   <td> <p>Après avoir connecté deux types d’enregistrements dans Workfront Planning, vous pouvez connecter deux enregistrements spécifiques de ces types.  </p>
+   <td> <p>Après avoir connecté deux types d’enregistrements dans la planification Workfront, vous pouvez connecter deux enregistrements spécifiques de ces types.  </p>
    <p>La connexion d’enregistrements permet d’afficher les informations d’un enregistrement ou d’un objet provenant d’une autre application sur un autre enregistrement.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/records/connected-records-overview.md">Vue d’ensemble des enregistrements connectés</a>. </p>
   <p>Workfront Planning requiert une licence supplémentaire. </p>
@@ -680,7 +702,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Connexions]</td> 
-   <td> <p>Dans Workfront Planning, les connexions peuvent faire référence à des types d’enregistrements connectés ou à des enregistrements connectés. Workfront Planning requiert une licence supplémentaire.</p> </td> 
+   <td> <p>Dans la planification Workfront, les connexions peuvent faire référence à des types d’enregistrements connectés ou à des enregistrements connectés. Workfront Planning requiert une licence supplémentaire.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
@@ -963,7 +985,7 @@ Le tableau suivant répertorie les termes fréquemment utilisés dans Adobe Wor
    <p> Il est important d’utiliser le champ tel qu’il apparaît dans la base de données lors de l’écriture d'un rapport en mode texte, d’une vue, d’un filtre, d’un regroupement ou lors de la création d'un champ calculé.</p>
    <p>Pour plus d’informations, consultez <a href="../../../wf-api/general/api-explorer.md">Explorateur d’API</a> et <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Vue d’ensemble du mode texte</a>.</p>  
    <p>Par défaut, Workfront est fourni avec un ensemble de champs qui définissent les objets et leurs informations. Vous pouvez également créer des champs personnalisés pour définir des objets, mais vous ne pouvez pas créer d’objets personnalisés.</p> 
-   <p>Dans Workfront Planning, vous pouvez créer des champs personnalisés pour tous les types d’enregistrements. Les types d’enregistrements Workfront ont un nombre très limité de champs. Vous devez créer tous les champs à partir de zéro et les associer à des types d’enregistrements. Pour plus d’informations, voir <a href="/help/quicksilver/planning/fields/fields-overview.md">Vue d’ensemble des champs</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p>   
+   <p>Dans la planification Workfront, vous pouvez créer des champs personnalisés pour tous les types d’enregistrements. Les types d’enregistrements Workfront ont un nombre très limité de champs. Vous devez créer tous les champs à partir de zéro et les associer à des types d’enregistrements. Pour plus d’informations, voir <a href="/help/quicksilver/planning/fields/fields-overview.md">Vue d’ensemble des champs</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p>   
   </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
@@ -1324,10 +1346,10 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Champs de recherche]</td> 
-   <td> <p>Dans Workfront Planning, après avoir établi la connexion entre deux types d’enregistrement et lié des enregistrements spécifiques, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir depuis lequel vous vous connectez.</p>
+   <td> <p>Dans la planification Workfront, après avoir établi la connexion entre deux types d’enregistrement et lié des enregistrements spécifiques, vous pouvez référencer les champs des enregistrements liés sur l’enregistrement à partir depuis lequel vous vous connectez.</p>
    <p>Par exemple, si vous connectez un type d’enregistrement Campaign à un type d’objet Projet Workfront, vous pouvez afficher le champ Budget des projets connectés dans les enregistrements de campagne. Le champ Budget du projet est un champ de recherche parmi les projets d’une campagne.</p> <p>Les valeurs des champs de recherche sont automatiquement renseignées sur les enregistrements auxquels ils sont connectés.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/planning/records/connected-records-overview.md">Vue d’ensemble des enregistrements connectés</a>.</p>
-   <p>Workfront Planning requiert une licence supplémentaire.</p>
+   <p>La planification Workfront requiert une licence supplémentaire.</p>
     </td> 
   </tr> 
  </tbody> 
@@ -1911,7 +1933,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Enregistrement]</td> 
-   <td> <p>Dans Workfront Planning, un enregistrement est une instance unique d’un type d’enregistrement.</p>
+   <td> <p>Dans la planification Workfront, un enregistrement est une instance unique d’un type d’enregistrement.</p>
   <p>Une fois qu’un type d’enregistrement a été ajouté à un espace de travail, vous pouvez commencer à ajouter des enregistrements de ce type sur la page du type d’enregistrement.</p>
   <p>Par exemple, « Campagne » peut être un type d’enregistrement et « Campagne d’été pour la région EMEA » un enregistrement du type d’enregistrement Campagne.</p>
   <p>Pour plus d’informations sur la création d’enregistrements, voir <a href="/help/quicksilver/planning/records/create-records.md">Créer des enregistrements</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p></td> 
@@ -1921,7 +1943,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>Type d’objet de Workfront Planning.</p>
   <p>Contrairement à Workfront, où les types d’objets sont prédéfinis, dans Workfront Planning, vous pouvez créer vos propres types d’objets.Les types d’objet Workfront Planning sont appelés types d’enregistrement.</p>
   <p>Par exemple, dans Workfront, les types d’objets Programme, Portfolio, Projet, Tâche ou Problème sont déjà créés.</p>
-  <p>Dans Workfront Planning, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.</p> Pour plus d’informations sur la création de types d’enregistrements, voir <a href="/help/quicksilver/planning/architecture/create-record-types.md">Création de types d’enregistrements</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p></td> 
+  <p>Dans la planification Workfront, vous pouvez créer tous les types d’enregistrements qui correspondent aux workflows de votre organisation. Vous pouvez ensuite définir la manière dont les types d’enregistrements sont associés les uns aux autres ou aux dépendances des formulaires.</p> Pour plus d’informations sur la création de types d’enregistrements, voir <a href="/help/quicksilver/planning/architecture/create-record-types.md">Création de types d’enregistrements</a>. </p> <p>Workfront Planning requiert une licence supplémentaire. </p></td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
@@ -2478,8 +2500,8 @@ The designated full time equivalency for users. A full-time user should have 100
    <ul><li>Tableau</li>
    <li>Journal</li>
    <li>Calendrier</li></ul>
-   <p>Dans Workfront Planning, les vues incluent les filtres, les regroupements, le tri et d’autres paramètres appliqués aux enregistrements affichés à l’écran.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/planning/views/manage-record-views.md">Gérer les vues d’enregistrement</a>.</p>   
-   <p>Workfront Planning requiert une licence supplémentaire.</p>
+   <p>Dans la planification Workfront, les vues incluent les filtres, les regroupements, le tri et d’autres paramètres appliqués aux enregistrements affichés à l’écran.</p> <p>Pour plus d’informations, consultez la section <a href="/help/quicksilver/planning/views/manage-record-views.md">Gérer les vues d’enregistrement</a>.</p>   
+   <p>La planification Workfront requiert une licence supplémentaire.</p>
    </td> 
   </tr> 
   <tr> 

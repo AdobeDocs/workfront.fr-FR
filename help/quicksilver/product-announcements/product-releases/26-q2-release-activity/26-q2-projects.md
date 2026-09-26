@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: def76c9c-d808-489b-82c7-b1f44c241116
-TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+TQID: 'https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 17%
-
+source-wordcount: '282'
+ht-degree: 16%
 ---
-
 # Améliorations du projet au deuxième trimestre de 2026
 
 Cette page décrit les améliorations apportées par Project à l’environnement de Prévisualisation avec la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -27,7 +33,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 5 février 2026>Production : à partir du 5 février 2026\
+>Aperçu : 5 février 2026
+>Production : à partir du 5 février 2026\
 >[!BADGE Horaire de désactivation]{type=Neutral}
 
 Nous avons mis à jour la section Affectations de la zone Modifier les tâches de modèles lors de la modification de tâches de modèles uniques ou de leur modification en bloc.  
@@ -35,9 +42,9 @@ Les modifications suivantes sont incluses dans cette mise à jour : 
 
 * Une nouvelle expérience est disponible concernant l’affectation de ressources à des tâches de modèles. Cette option est désormais disponible lors de la modification d’une tâche de modèle ou de la modification en bloc de plusieurs tâches de modèle. Nous avons ajouté les champs suivants à la section Affectations : 
 
-   * Allocations 
-   * Propriétaire ou propriétaire de la tâche 
-   * Rôle du cessionnaire 
+  * Allocations 
+  * Propriétaire ou propriétaire de la tâche 
+  * Rôle du cessionnaire 
 
 * L’option « Revenir à l’ancienne expérience » a été supprimée.
 
@@ -47,7 +54,8 @@ Pour plus d’informations, voir [Modifier les tâches de modèle](/help/quicksi
 
 >[!NOTE]
 >
->Aperçu : 26 janvier 2026>Production : à partir du 5 février 2026
+>Aperçu : 26 janvier 2026
+>Production : à partir du 5 février 2026
 
 Nous avons mis à jour la section Affectations dans la zone Modifier les tâches lors de la modification de tâches uniques ou de leur modification en bloc.
 
@@ -55,11 +63,11 @@ Les modifications suivantes sont incluses dans cette mise à jour :
 
 * Une nouvelle expérience est disponible pour l’affectation de ressources à des tâches. Cette option est désormais disponible lors de la modification d’une tâche ou de plusieurs tâches en bloc. Nous avons ajouté les champs suivants à la section Affectations :
 
-   * Allocations
+  * Allocations
 
-   * Propriétaire ou propriétaire de la tâche
+  * Propriétaire ou propriétaire de la tâche
 
-   * Rôle du cessionnaire
+  * Rôle du cessionnaire
 
 * L’option « Revenir à l’ancienne expérience » a été supprimée.
 

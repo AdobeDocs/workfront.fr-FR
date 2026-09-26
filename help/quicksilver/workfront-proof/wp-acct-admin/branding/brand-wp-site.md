@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: 'Personnaliser le branding du site  [!DNL Workfront Proof] '
-description: En tant qu’administrateur ou administratrice de  [!DNL Workfront Proof] , vous pouvez personnaliser votre compte  [!DNL Workfront Proof]  pour vous offrir, ainsi qu’à vos utilisateurs et utilisatrices, une expérience plus personnalisée.
+title: Personnaliser le branding du site [!DNL Workfront Proof]
+description: En tant qu’administrateur ou administratrice de [!DNL Workfront Proof], vous pouvez personnaliser votre compte [!DNL Workfront Proof] pour vous offrir, ainsi qu’à vos utilisateurs et utilisatrices, une expérience plus personnalisée.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-TQID: https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies
+TQID: 'https://experienceleague.adobe.com/RA5oWAqGovk6LODhTtcgETCubkVzvassVU7g6xYeies'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 579
-ht-degree: 98%
-
+source-wordcount: '595'
+ht-degree: 100%
 ---
-
 # Personnaliser le branding du site [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -73,8 +82,8 @@ Pour ajouter votre propre image de branding à la page de [!UICONTROL chargement
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. Dans le menu déroulant, sélectionnez **[!UICONTROL Image de marque]**.
-Si vous sélectionnez **[!UICONTROL Désactiver]**, le logo [!DNL Workfront Proof] s’affiche sur la page de chargement du BAT
+1. Dans le menu déroulant, sélectionnez **[!UICONTROL Image de branding]**.
+Si vous sélectionnez **[!UICONTROL Désactiver]**, le logo [!DNL Workfront Proof] apparaît sur la page de chargement de l’épreuve.
 
 1. Cliquer sur **[!UICONTROL Enregistrer]**. (3)
 
@@ -144,4 +153,4 @@ Pour configurer l’image de branding des e-mails, procédez comme suit :
 
 Si vous créez une épreuve via l’API [!DNL Workfront Proof], vous pouvez supprimer les boutons et les liens, et créer vos propres liens personnalisés.
 
-Voir API [[!DNL Workfront Proof] &#x200B;](https://api.proofhq.com/) pour plus d’informations.
+Voir API [[!DNL Workfront Proof] ](https://api.proofhq.com/) pour plus d’informations.

@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 96%
-
+source-wordcount: '577'
+ht-degree: 99%
 ---
-
 # Empêcher les doublons d’utilisateurs et d’utilisatrices
 
 Lors de la création d’un utilisateur ou d’une utilisatrice dans Adobe Workfront, vous ne pouvez plus utiliser une adresse e-mail déjà utilisée par un autre utilisateur ou une autre utilisatrice, même si l’adresse e-mail varie selon la casse (par exemple, JohnDoe@example.com et johndoe@example.com). En outre, pour se préparer à de futures améliorations en matière d’authentification, il faut s’assurer que tous les utilisateurs et toutes les utilisatrices disposent d’une adresse e-mail unique dans une instance de Workfront.
@@ -63,8 +69,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Mettre à jour les adresses e-mail des utilisateurs et utilisatrices existants dans votre instance Workfront
 
-En tant qu’administrateur ou administratrice Workfront, vous devez mettre à jour les utilisateurs et utilisatrices disposant d’adresses e-mail correspondantes qui ne diffèrent qu’au cas par cas.
-Pour corriger les adresses e-mail en double dans une instance Workfront :
+En tant qu’administrateur ou administratrice Workfront, vous devez mettre à jour les utilisateurs et utilisatrices existants dont les adresses e-mail correspondent, mais ont une casse différente.
+Pour corriger les adresses e-mail dupliquées dans une instance de Workfront, procédez comme suit :
 
 1. Examinez les éventuels doublons de personnes et décidez celles qui ne sont plus nécessaires.
 
@@ -107,8 +113,8 @@ Pour corriger les adresses e-mail en double dans une instance Workfront :
 
      Par exemple, John Doe peut avoir un compte d’utilisateur pour son utilisation quotidienne et un autre à des fins de test :
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * Modifiez le domaine pour utiliser un faux domaine en ajoutant le texte suivant à l’adresse e-mail :
 
@@ -116,8 +122,8 @@ Pour corriger les adresses e-mail en double dans une instance Workfront :
 
      Par exemple, John Doe pourrait avoir les domaines suivants : (ceux-ci doivent être uniques).
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      Vous ne pouvez plus vous connecter à ces comptes, car la réinitialisation du mot de passe nécessite une adresse e-mail valide. Ces comptes sont uniquement accessibles à l’aide de la fonction « Connexion en tant que ».
 

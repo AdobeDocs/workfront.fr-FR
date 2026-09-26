@@ -6,25 +6,31 @@ description: Vous pouvez marquer une tâche ou un problème comme Terminé si vo
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-TQID: https://experienceleague.adobe.com/KIxSnxmDRCIYGQ9Dn-sTJ-LyYQSJQqYloDbyqG9TCOs
+TQID: 'https://experienceleague.adobe.com/KIxSnxmDRCIYGQ9Dn-sTJ-LyYQSJQqYloDbyqG9TCOs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 784
-ht-degree: 77%
-
+source-wordcount: '810'
+ht-degree: 78%
 ---
-
 # Marquer un élément comme [!UICONTROL Terminé] dans la zone [!UICONTROL Accueil].
 
 Vous pouvez marquer une tâche ou un problème comme Terminé si vous êtes le ou la cessionnaire de la tâche ou du problème. Lorsque vous marquez une tâche ou un problème comme [!UICONTROL Terminé], le statut de la tâche ou du problème passe à [!UICONTROL Terminé].
@@ -73,7 +79,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 1. Recherchez l’élément de travail, puis cliquez sur **[!UICONTROL Marquer comme terminé]** sur l’élément de travail.
-Voir [Présentation des options du bouton [!UICONTROL Terminé]](#understand-the-options-of-the-done-button) pour plus d’informations sur l’apparence de ce bouton.
+Voir [Comprendre les options du bouton [!UICONTROL Terminé]](#understand-the-options-of-the-done-button) pour des informations plus détaillées sur la façon dont ce bouton peut apparaître.
    ![Mon travail marque comme terminé](assets/my-work-done.png)
 
 

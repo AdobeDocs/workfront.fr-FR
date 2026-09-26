@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Présentation du passage de la version Workfront Proof autonome à la relecture intégrée dans Workfront
 description: Si votre organisation passe de la version autonome de Workfront Proof à la formule Workfront Pro, dans lequel Workfront Proof Premium est intégré à Workfront, certaines fonctionnalités de relecture ne seront pas disponibles.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
-
 ---
-
 
 # Présentation du passage de la version Workfront Proof autonome à la relecture intégrée dans Workfront
 
@@ -45,28 +46,28 @@ Si votre organisation passe de la version autonome de Workfront Proof à la for
 * Possibilité de se connecter entre le nouveau compte intégré et le compte Workfront Proof.
 * Possibilité d’exécuter des rapports Workfront Proof :
 
-   * Éléments récemment consultés
-   * Épreuves que je gère avec le statut À l’heure, À risque et En retard
-   * Épreuves en attente de ma décision avec le statut À l’heure, À risque et En retard
-   * Épreuves que je dois réviser
-   * Épreuves actives
-   * Épreuves archivées
-   * Épreuves verrouillées
-   * Accéder directement à l’épreuve à partir du rapport
-   * Accéder directement aux détails de l’épreuve à partir du rapport
-   * Partager l’épreuve directement à partir du rapport
-   * Envoyer l’épreuve par message directement à partir du rapport
-   * Copier l’épreuve à partir du rapport
-   * Télécharger l’original à partir du rapport
-   * Déléguer la propriété à partir du rapport
-   * Partager des liens de l’épreuve à partir du rapport
-   * Imprimer des commentaires à partir du rapport
-   * Exporter un fichier Excel à partir du rapport
-   * Verrouiller des épreuves en bloc
-   * Résumé détaillé avec la matrice de progression du workflow
-   * Activer des épreuves en bloc
-   * Archiver des épreuves en bloc
-   * Désarchiver des épreuves en bloc
-   * Modifier le propriétaire en bloc
-   * Déléguer la propriété en bloc
+  * Éléments récemment consultés
+  * Épreuves que je gère avec le statut À l’heure, À risque et En retard
+  * Épreuves en attente de ma décision avec le statut À l’heure, À risque et En retard
+  * Épreuves que je dois réviser
+  * Épreuves actives
+  * Épreuves archivées
+  * Épreuves verrouillées
+  * Accéder directement à l’épreuve à partir du rapport
+  * Accéder directement aux détails de l’épreuve à partir du rapport
+  * Partager l’épreuve directement à partir du rapport
+  * Envoyer l’épreuve par message directement à partir du rapport
+  * Copier l’épreuve à partir du rapport
+  * Télécharger l’original à partir du rapport
+  * Déléguer la propriété à partir du rapport
+  * Partager des liens de l’épreuve à partir du rapport
+  * Imprimer des commentaires à partir du rapport
+  * Exporter un fichier Excel à partir du rapport
+  * Verrouiller des épreuves en bloc
+  * Résumé détaillé avec la matrice de progression du workflow
+  * Activer des épreuves en bloc
+  * Archiver des épreuves en bloc
+  * Désarchiver des épreuves en bloc
+  * Modifier le propriétaire en bloc
+  * Déléguer la propriété en bloc
 

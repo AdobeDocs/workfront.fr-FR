@@ -9,26 +9,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg
+TQID: 'https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 88%
-
+source-wordcount: '2873'
+ht-degree: 94%
 ---
-
 # Vue d’ensemble de la version 2020.1
 
 <!--
@@ -58,7 +67,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p><strong>Dates de publication</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#limit" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Limiter la possibilité pour les utilisateurs de modifier les contrôles Filtrer, Afficher et Regrouper sur les listes et les rapports</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#limit" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Limiter la capacité de modification des contrôles de filtrage, d’affichage et de regroupement des utilisateurs et des utilisatrices dans les listes et les rapports</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Limit users' ability to edit Filter, View, and Grouping controls on lists and reports</a>
      -->
@@ -88,7 +97,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p><strong>Dates de publication</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nouveau mode d'enregistrement lors de la modification d'une liste de tâches : le mode Planification chronologique</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nouveau mode d’enregistrement lors des modifications dans une liste de tâches : mode « Planification chronologique »</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New saving mode when making changes in a task list: the Timeline Planning mode</a>
      -->
@@ -96,7 +105,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 14 mars 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Navigation améliorée de toutes les nouvelles listes avec une différenciation claire des groupes</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#improved" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Amélioration de la navigation de toutes les nouvelles listes avec une différenciation claire des regroupements</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Improved navigation of all new lists with clear grouping differentiation</a>
      -->
@@ -120,7 +129,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 17 janvier 2020</p> <p>Version de production : S.O.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#display" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Afficher les en-têtes des colonnes des listes et des rapports en casse de phrase</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#display" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Afficher les en-têtes de colonnes des listes et des rapports avec une majuscule pour chaque nom</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Display column headers of lists and reports in sentence case</a>
      -->
@@ -128,7 +137,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 17 janvier 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nouveau menu Plus dans la zone Mises à jour</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nouveau menu « Plus » dans la zone des mises à jour</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New More menu in the Updates area</a>
      -->
@@ -136,7 +145,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 8 janvier 2020</p> <p>Version de production : 8 janvier 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new3" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nouvelle barre de progression dans la zone Mises à jour</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new3" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nouvelle barre de progression dans la zone des mises à jour</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New progress bar in the Updates area</a>
      -->
@@ -165,7 +174,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p><strong>Dates de publication</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Afficher les heures quotidiennes prévues pour les tâches et les éléments inaccessibles dans la zone Tâches non affectées de l’équilibreur de charge de travail</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Afficher le nombre d’heures quotidiennes prévues pour les tâches et les éléments inaccessibles dans la zone de travail non affecté de l’équilibreur de charge de travail</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Show daily Planned Hours for projects, tasks, and inaccessible items in the Unassigned Work area of the Workload Balancer</a>
      -->
@@ -173,7 +182,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 14 mars 2020</p> <p>Version de production : à déterminer (cette fonctionnalité sera disponible dans l’environnement de production après la version 2020.1.)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Afficher les heures quotidiennes prévues pour les projets, les tâches et les éléments inaccessibles dans la zone Tâches affectées de l’équilibreur de charge de travail</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#show" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Afficher le nombre d’heures quotidiennes prévues pour les projets, les tâches et les éléments inaccessibles dans la zone de travail affecté de l’équilibreur de charge de travail</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Show daily Planned Hours for projects, tasks, and inaccessible items in the Assigned Work area of the Workload Balancer</a>
      -->
@@ -181,7 +190,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 27 février 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ajuster la durée de la chronologie dans l’équilibreur de charge de travail</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ajuster les durées des chronologies dans l’équilibreur de charge de travail</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Adjust timeline duration in the Workload Balancer</a>
      -->
@@ -197,7 +206,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 31 janvier 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Le paramètre Afficher les heures réelles a été supprimé du Planificateur de ressources</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Le paramètre d’affichage des heures effectives a été supprimé du planificateur de ressources</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Display Actual Hours setting removed from the Resource Planner</a>
      -->
@@ -218,7 +227,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p><strong>Dates de publication</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#more" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Voir plus facilement qui est identifié dans une mise à jour</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#more" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Identification plus facile des personnes taguées dans une mise à jour</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">More easily see who is tagged in an update</a>
      -->
@@ -226,7 +235,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 14 mars 2020</p> <p>Version de production : 26 mars 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Inclure et identifier le texte cité dans un commentaire ou une réponse de mise à jour</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Inclure et identifier le texte entre guillemets dans une mise à jour de commentaire ou une réponse</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
      -->
@@ -234,7 +243,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 27 février 2020</p> <p>Version de production : 26 mars 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#quote" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Citer un commentaire précédent dans un commentaire ou une réponse de mise à jour</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#quote" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Citer un commentaire précédent dans une mise à jour de commentaire ou une réponse</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Quote a previous comment in an update comment or reply</a>
      -->
@@ -250,7 +259,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 14 février 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Champs supplémentaires ajoutés aux tâches planifiées et planifiées</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#addition2" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Champs supplémentaires ajoutés aux références et aux tâches de référence</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Additional fields added to Baselines and Baseline Tasks</a>
      -->
@@ -258,7 +267,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 31 janvier 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#issues" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Les événements dont le statut est défini sur « Fermé - Approbation en attente » sont considérés comme incomplets</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#issues" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Les problèmes avec le statut « Fermé - En attente d’approbation » sont considérés comme incomplets</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Issues in "Closed-Pending Approval" status are considered incomplete</a>
      -->
@@ -341,7 +350,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p><strong>Dates de publication</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Modification requise pour l’ajout d’épreuves à la </a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Modification requise pour ajouter des épreuves à la liste autorisée</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Change required for whitelisting proofs</a>
      -->
@@ -349,7 +358,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 10 mars 2020</p> <p>Version de production : avec la version 2020.1 <span style="color: #ff0000;">(retiré de la version)</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash Portfolio Optimizer a été supprimé</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">L’optimisateur de portfolio Flash été supprimé.</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
      -->
@@ -357,7 +366,7 @@ Certaines fonctionnalités ont été publiées avant le lancement de la version 
    <td> <p>Version préliminaire Beta : 27 février 2020</p> <p>Version de production : avec la version 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Mise à jour du comportement des cookies Workfront pour maintenir la compatibilité avec Chrome</a>
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Comportement des cookies Workfront mis à jour pour maintenir la compatibilité avec Chrome</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront cookie behavior updated to maintain compatibility with Chrome</a>
      -->
@@ -435,7 +444,7 @@ Consultez l’enregistrement du webinaire consacré à la version 2020.1 ici.
 
 ### Webinaire sur la feuille de route des produits du 1er trimestre {#q1-product-roadmap-webinar}
 
-En savoir plus sur les nouveautés dans le [Webinaire sur la feuille de route du 1er trimestre](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Ce webinaire aura lieu le 26 mars 2020 à 9:00ah. MT. Cliquez sur le lien pour vous inscrire.
+En savoir plus sur les nouveautés dans le [Webinaire sur la feuille de route du 1er trimestre](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Ce webinaire aura lieu le 26 mars 2020 à 9 h (heure de Paris). MT. Cliquez sur le lien pour vous inscrire.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

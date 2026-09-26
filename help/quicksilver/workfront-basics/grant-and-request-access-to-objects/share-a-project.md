@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
-ht-degree: 56%
-
+source-wordcount: '1558'
+ht-degree: 57%
 ---
-
 # Partager un projet
 
 <!-- Audited: 1/2024 -->
@@ -79,9 +83,9 @@ Outre les considérations ci-dessous, voir [Vue d’ensemble des autorisations d
 * Vous pouvez partager des projets individuellement ou partager plusieurs d’entre eux à la fois. Le partage de projets est identique au partage d’autres objets. Pour plus d’informations sur le partage d’éléments dans Workfront, voir [Partager un objet](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Vous pouvez accorder les autorisations suivantes à un projet :
 
-   * Afficher
-   * Gérer
-   * Contribuer
+  * Afficher
+  * Gérer
+  * Contribuer
 
 * Lorsque vous partagez un projet, toutes les tâches, tous les problèmes et tous les documents héritent des mêmes autorisations, sauf indication contraire.
 
@@ -104,25 +108,25 @@ Vous pouvez partager un projet de l’une des façons suivantes :
 
 * Manuellement, effectuez l’une des opérations suivantes :
 
-   * Ajouter des personnes à l’équipe du projet. Lorsque vous ajoutez des personnes à l’équipe du projet, elles obtiennent automatiquement les autorisations d’affichage du projet.\
-     Pour plus d&#39;informations sur l&#39;ajout d&#39;utilisateurs à une équipe de projet, consultez la section Ajout d&#39;utilisateurs à une équipe de projet dans [présentation de l&#39;équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Partage individuel ou en passe des projets lors de l’utilisation de l’option **Partage**.
+  * Ajouter des personnes à l’équipe du projet. Lorsque vous ajoutez des personnes à l’équipe du projet, elles obtiennent automatiquement les autorisations d’affichage du projet.\
+    Pour plus d&#39;informations sur l&#39;ajout d&#39;utilisateurs à une équipe de projet, consultez la section Ajout d&#39;utilisateurs à une équipe de projet dans [présentation de l&#39;équipe de projet](../../manage-work/projects/planning-a-project/project-team-overview.md).
+  * Partage individuel ou en passe des projets lors de l’utilisation de l’option **Partage**.
 
 * Automatiquement en effectuant l’une des opérations suivantes :
 
-   * Placer un projet dans un **Portfolio** ou **Programme** qui est déjà partagé avec d’autres. Les personnes disposent des mêmes autorisations pour le projet que pour le portfolio ou le programme.\
-     Pour plus d’informations sur l’ajout d’un projet à un **Portfolio**, voir [Ajouter des projets à un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Pour plus d’informations sur l’ajout d’un projet à un **Programme**, voir [Ajouter un projet à un programme](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-Pour plus d’informations sur l’affichage des autorisations héritées sur un objet, voir [Affichage des autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Placer un projet dans un **Portfolio** ou **Programme** qui est déjà partagé avec d’autres. Les personnes disposent des mêmes autorisations pour le projet que pour le portfolio ou le programme.\
+    Pour plus d’informations sur l’ajout d’un projet à un **Portfolio**, voir [Ajouter des projets à un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+    Pour plus d’informations sur l’ajout d’un projet à un **Programme**, voir [Ajouter un projet à un programme](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+    Pour plus d’informations sur l’affichage des autorisations héritées sur un objet, voir [Afficher les autorisations héritées sur les objets](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Définir le modèle d’accès à un projet.
+  * Ajouter des entités au partage de projet sur un modèle utilisé pour créer le projet. Pour plus d’informations sur le partage de projets à partir de modèles, voir [Partager un modèle](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Définir le modèle d’accès à un projet.
 
-     >[!TIP]
-     >
-     >Lors de l’ajout ou de l’enregistrement d’un modèle, vous pouvez effacer les règles de partage de modéle de projet.
+    >[!TIP]
+    >
+    >Lors de l’ajout ou de l’enregistrement d’un modèle, vous pouvez effacer les règles de partage de modéle de projet.
 
-   * Modifiez un projet et définissez le paramètre **Lorsqu’une personne a accès à ce projet**.  Pour plus d’informations, voir [Modifier les projets](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Modifiez un projet et définissez le paramètre **Lorsqu’une personne a accès à ce projet**.  Pour plus d’informations, voir [Modifier les projets](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

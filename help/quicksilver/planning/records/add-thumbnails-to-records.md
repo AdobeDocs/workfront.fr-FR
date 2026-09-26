@@ -1,6 +1,6 @@
 ---
 title: Ajout d’une miniature à un enregistrement
-description: Vous pouvez modifier les informations d’enregistrement dans Adobe Workfront Planning et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
+description: Vous pouvez modifier les informations d’enregistrement dans la planification Adobe Workfront et associer chaque enregistrement à des miniatures individuelles afin de les rendre facilement reconnaissables.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM
+TQID: 'https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 818
-ht-degree: 24%
-
+source-wordcount: '843'
+ht-degree: 27%
 ---
-
 # Ajouter une miniature à un enregistrement
 
 <!--
@@ -36,10 +43,10 @@ ht-degree: 24%
 
 {{planning-important-intro}}
 
-Vous pouvez associer des enregistrements à des miniatures uniques dans Adobe Workfront Planning afin de les rendre facilement reconnaissables.
+Vous pouvez associer des enregistrements à des miniatures uniques dans la planification Adobe Workfront afin de les rendre facilement reconnaissables.
 
-Vous devez créer des types d&#39;enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
-Pour plus d’informations, voir [Création de types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
+Vous devez créer des types d’enregistrement avant de pouvoir commencer à créer et modifier des enregistrements.
+Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Conditions d’accès
 
@@ -257,7 +264,7 @@ Vous pouvez ajouter une miniature des manières suivantes :
 
 1. (Facultatif) Pour supprimer la miniature avant de l’enregistrer, cliquez sur l’icône **Supprimer** ![Icône Supprimer l’image](assets/remove-image-icon.png) à droite de l’image.
 
-1. Cliquez sur **Utiliser l’image** pour ajouter l’image sous forme de miniature.
+1. Cliquez sur **Utiliser l’image** pour ajouter l’image en tant que miniature.
 Cette action ferme la boîte de dialogue **Miniature d’enregistrement**.
 La miniature s’affiche dans les zones de Workfront Planning où s’affiche l’enregistrement.
 

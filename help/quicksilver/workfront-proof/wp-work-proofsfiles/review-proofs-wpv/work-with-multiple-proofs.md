@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Utiliser plusieurs épreuves dans la visionneuse de relecture
-description: Dans  [!DNL Workfront]  Épreuve, vous pouvez utiliser des dossiers pour regrouper les épreuves sur lesquels vous souhaitez travailler ensemble ou sur lesquels vous souhaitez que les personnes en charge de la révision travaillent ensemble. Lorsque vous (ou une autre personne en charge de la révision) ouvrez l’une des épreuves et lancez la visionneuse de relecture, toutes les épreuves du dossier sont également disponibles. Sans quitter la visionneuse de relecture, vous pouvez afficher les autres épreuves, les trier, les rechercher et les comparer.
+description: Dans [!DNL Workfront] Proof, vous pouvez utiliser des dossiers pour regrouper les épreuves sur lesquelles vous souhaitez travailler ensemble ou sur lesquelles vous souhaitez que les réviseurs travaillent ensemble. Lorsque vous (ou une autre personne en charge de la révision) ouvrez l’une des épreuves et lancez la visionneuse de relecture, toutes les épreuves du dossier sont également disponibles. Sans quitter la visionneuse de relecture, vous pouvez afficher les autres épreuves, les trier, les rechercher et les comparer.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
+TQID: 'https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 508
-ht-degree: 99%
-
+source-wordcount: '509'
+ht-degree: 94%
 ---
-
 # Utiliser plusieurs épreuves dans la visionneuse de relecture
 
 >[!IMPORTANT]

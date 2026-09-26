@@ -7,13 +7,17 @@ description: Cet article décrit comment remplacer les taux de facturation des u
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '749'
 ht-degree: 23%
-
 ---
-
 # Remplacer les taux de facturation des utilisateurs au niveau du projet
 
 En tant que chef de projet, vous pouvez spécifier le taux de facturation d’un utilisateur pour un projet spécifique. Ce taux de facturation au niveau du projet remplace le taux de facturation au niveau du système pour cet utilisateur. Workfront utilise le taux de facturation au niveau du projet de l’utilisateur pour calculer le revenu, au lieu d’utiliser le taux de facturation au niveau du système.
@@ -49,7 +53,7 @@ Pour plus d&#39;informations sur le calcul du produit pour le projet, voir [Pré
    <td> <p>Accès en modification aux projets et aux données financières</p>
        <p><p>Vous devez également disposer de l’un des éléments suivants :</p> 
         <ul> 
-          <li> <p>Niveau d’accès de l’administrateur système. </li> 
+          <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
           <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul></td> 
   </tr> 

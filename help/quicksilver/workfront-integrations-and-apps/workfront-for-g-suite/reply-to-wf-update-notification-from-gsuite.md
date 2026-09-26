@@ -2,33 +2,39 @@
 product-area: workfront-integrations
 keywords: google,doc,document,feuille,diapositive
 navigation-topic: workfront-for-g-suite
-title: Répondre à une notification  [!DNL Adobe Workfront]  mise à jour de Google Workspace
-description: Lorsque vous recevez une notification concernant une mise à jour dans  [!DNL Adobe] [!DNL Workfront], vous pouvez rapidement publier une réponse de Workfront pour Google Workspace.
+title: Répondre à une notification de mise à jour [!DNL Adobe Workfront] depuis Google Workspace
+description: Lorsque vous recevez une notification sur une mise à jour dans [!DNL Adobe] [!DNL Workfront], vous pouvez rapidement publier une réponse de Workfront pour Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9JalckdtN-ni-51cMEn0fdGp1yzTrB66FB03HKg-m6g
+TQID: 'https://experienceleague.adobe.com/9JalckdtN-ni-51cMEn0fdGp1yzTrB66FB03HKg-m6g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 200
-ht-degree: 28%
-
+source-wordcount: '201'
+ht-degree: 27%
 ---
-
 # Répondre à une notification de mise à jour d’[!DNL Adobe Workfront] à partir de [!DNL Google Workspace]
 
 >[!IMPORTANT]

@@ -7,31 +7,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI
+TQID: 'https://experienceleague.adobe.com/N2DV4OpcwawQInVKDxPgOgg-Rf6Vk9fSxLqmCyXhGuI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2948
-ht-degree: 96%
-
+source-wordcount: '2965'
+ht-degree: 97%
 ---
-
 # Vue d’ensemble de la version 23.3
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version 23.3. Ces améliorations ont été mises à disposition dans l’environnement de production avec la version 23.3 les 20 et 21 juillet 2023.
@@ -362,7 +374,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Fonctionnalité</span>
+                        <p><span class="bold">Fonctionnalités</span>
                         </p>
                     </td>
                     <td>
@@ -372,7 +384,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date d’entrée en vigueur des taux de facturation et de coût</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date d’entrée en vigueur des coûts et des taux de facturation</a></p>
                         <p>La date d’entrée en vigueur des coûts et des taux de facturation est désormais disponible sur les objets « Entreprise », « Utilisateur ou utilisatrice » et « Fonction » dans Workfront. Lorsque les taux de date d’entrée en vigueur sont appliqués à un projet et que les heures sont consignées dans les tâches du projet, les coûts et les revenus sont calculés à l’aide des taux spécifiés pour chaque période.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -558,7 +570,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouveau processus d’approbation de documents</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Nouvelle expérience d’approbation de documents</a> </p>
                         <p>Les approbations de documents sont en cours de reconception dans le cadre d’un déploiement échelonné qui sera mis à la disposition d’un plus grand nombre d’utilisateurs et d’utilisatrices avec chaque version.</p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>
@@ -727,7 +739,7 @@ Le webinaire consacré à la version 23.3 a eu lieu le 29 juin 2023. Vous pouv
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Améliorations apportées à la nouvelle expérience du tableau de bord de zone de travail</a></p>
-                        <p>Des améliorations apportées au tableau de bord de la zone de travail seront disponibles dans le délai imparti pour la version 23.3. Sauf indication contraire, ces améliorations seront disponibles dans l’environnement de production avec la version 23.3. 
+                        <p>Les améliorations apportées au tableau de bord de zone de travail sont disponibles au cours de la période de la version 23.3. Ces améliorations seront disponibles dans l’environnement de production avec la version 23.3, sauf indication contraire. 
  </p>
                     </td>
                     <td><p><b>Disponible à ces dates :</b></p>

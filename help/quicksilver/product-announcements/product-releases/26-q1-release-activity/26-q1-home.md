@@ -5,20 +5,26 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8f86d1af-d981-470e-a83f-ac7789b596c2
-TQID: https://experienceleague.adobe.com/JrPOn7Nr6nAd-00-6ulqzF0VcdKkk8T7u-5eyJoH0I4
+TQID: 'https://experienceleague.adobe.com/JrPOn7Nr6nAd-00-6ulqzF0VcdKkk8T7u-5eyJoH0I4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 200
-ht-degree: 98%
-
+source-wordcount: '212'
+ht-degree: 100%
 ---
-
 # Améliorations de la page d’accueil du premier trimestre 2026
 
 Cette page décrit toutes les améliorations apportées à la page d’accueil dans l’environnement de prévisualisation de la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -29,7 +35,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 17 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 17 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Nous avons apporté les améliorations suivantes au widget Mentions sur la page d’accueil :
 

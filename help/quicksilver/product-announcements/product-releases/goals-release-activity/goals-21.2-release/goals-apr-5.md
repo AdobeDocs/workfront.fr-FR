@@ -7,20 +7,29 @@ description: Cette page décrit toutes les améliorations apportées à la versi
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+TQID: 'https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 100%
-
 ---
-
 # Activité de version 21.2 des Objectifs Adobe Workfront : semaine du 5 avril 2021
 
 Cette page décrit toutes les améliorations apportées à la version 21.2 des Objectifs Adobe Workfront dans l’environnement de prévisualisation au cours de la semaine du 5 avril 2021. Ces améliorations seront disponibles dans l’environnement de production au cours du premier trimestre 2022.
@@ -41,15 +50,15 @@ Vous pouvez désormais effectuer les opérations suivantes pour afficher les inf
 
 * Créer un rapport d’objectifs. Il s’agit d’un nouvel objet pour les rapports dans la zone Rapports. Vous pouvez afficher diverses informations sur les objectifs dans le rapport d’objectifs (par exemple : le nom, la personne propriétaire, les dates, la progression, etc.), y compris les éléments suivants :
 
-   * Hiérarchie d’objectifs : affiche tous les objectifs parent et la manière dont ils sont reliés les uns aux autres.
-   * Est l’objectif de la société : indique si votre organisation est désignée comme propriétaire d’un objectif.
-   * Type de propriétaire : indique si l’entité propriétaire d’un objectif est un utilisateur ou une utilisatrice, une équipe ou un groupe.
+  * Hiérarchie d’objectifs : affiche tous les objectifs parent et la manière dont ils sont reliés les uns aux autres.
+  * Est l’objectif de la société : indique si votre organisation est désignée comme propriétaire d’un objectif.
+  * Type de propriétaire : indique si l’entité propriétaire d’un objectif est un utilisateur ou une utilisatrice, une équipe ou un groupe.
 
 * Créer un rapport de projet qui affiche des informations sur les objectifs, notamment les éléments suivants :
 
-   * Hiérarchie d’objectifs
-   * Objectifs : il s’agit d’un champ de collecte qui affiche tous les objectifs associés à un projet.
-   * Nombre d’objectifs liés : nombre d’objectifs associés au projet.
+  * Hiérarchie d’objectifs
+  * Objectifs : il s’agit d’un champ de collecte qui affiche tous les objectifs associés à un projet.
+  * Nombre d’objectifs liés : nombre d’objectifs associés au projet.
 
 Pour plus d’informations sur la localisation des informations sur les objectifs dans les projets, consultez [Ajout de projets aux objectifs dans les Objectifs Adobe Workfront](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 

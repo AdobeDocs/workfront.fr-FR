@@ -5,30 +5,41 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-TQID: https://experienceleague.adobe.com/re1xelgCEmdKbtnBBlusotpu2H9lS65ZILW-J-v8oOk
+TQID: 'https://experienceleague.adobe.com/re1xelgCEmdKbtnBBlusotpu2H9lS65ZILW-J-v8oOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2417
-ht-degree: 97%
-
+source-wordcount: '2430'
+ht-degree: 98%
 ---
-
 # Vue d’ensemble de la version du deuxième trimestre 2024
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2024. Ces améliorations ont été apportées à l’environnement de production pour l’ensemble des clientes et clients de la version 24.4 des 10 et 11 avril 2024.
@@ -229,7 +240,7 @@ Vous pouvez également [afficher un fichier PDF](https://acrobat.adobe.com/id/ur
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Créer et utiliser des modèles d’approbation</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
-                        <p>Vous pouvez désormais créer des modèles d’approbation dans la zone Configuration afin de rationaliser le processus de révision et d’approbation. Les modèles d’approbation vous permettent de rendre le processus de révision et d’approbation plus répétable en :
+                        <p>Vous pouvez maintenant créer des modèles d’approbation dans la zone Configuration afin de rationaliser le processus de révision et d’approbation. Les modèles d’approbation vous permettent de rendre le processus de révision et d’approbation plus répétable en
                         <ul>
                             <li>
                                 <p>Ajoutant des réviseurs et réviseuses et des approbateurs et approbatrices.</p>

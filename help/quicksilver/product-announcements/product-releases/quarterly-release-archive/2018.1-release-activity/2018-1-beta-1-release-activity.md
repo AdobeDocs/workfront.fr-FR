@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+TQID: 'https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 98%
-
+source-wordcount: '1070'
+ht-degree: 100%
 ---
-
 # Activité de la version 2018.1 Beta 1
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 1. Les fonctionnalités présentées sur cette page ont été mises à disposition dans l’environnement de prévisualisation le 1er décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
@@ -63,7 +69,7 @@ Pour plus d’informations, consultez la section « Créer et gérer des modèl
 
 Vous avez maintenant la possibilité de paramétrer si les utilisateurs et les utilisatrices de votre instance Workfront reçoivent des notifications par e-mail de Workfront lorsqu’un commentaire est posté sur une épreuve.
 
-Auparavant, les e-mails de relecture étaient toujours envoyés depuis Workfront lorsqu’un commentaire était fait sur une épreuve. Si les notifications étaient également activées dans Workfront Proof, les utilisateurs et utilisatrices recevaient des notifications en double. 
+Auparavant, les e-mails de relecture étaient toujours envoyés depuis Workfront lorsqu’un commentaire était posté sur une épreuve. Si les notifications étaient également activées dans Workfront Proof, les utilisateurs et les utilisatrices recevaient des notifications en double. 
 
 Pour les clientes et les clients existants de Workfront, Workfront est configuré par défaut pour envoyer des e-mails lorsqu’un commentaire est posté sur une épreuve.
 

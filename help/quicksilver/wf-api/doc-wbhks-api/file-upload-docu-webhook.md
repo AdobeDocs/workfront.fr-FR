@@ -8,21 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-TQID: https://experienceleague.adobe.com/qLRbcWkbOxvBp5Xw1aCLjGZXHMtu2k70NgOonZsZ0lk
+TQID: 'https://experienceleague.adobe.com/qLRbcWkbOxvBp5Xw1aCLjGZXHMtu2k70NgOonZsZ0lk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 100%
-
 ---
-
 # Téléchargement de fichiers via Document Webhooks
 
 Le chargement d’un fichier vers un fournisseur de services de stockage de documents est un processus en deux étapes qui nécessite deux points d’entrée API distincts. Adobe Workfront commence le processus de chargement en appelant /uploadInit. Ce point d’entrée renvoie un identifiant de document qui est ensuite transmis à /upload lors du chargement des octets du document. Selon le système de stockage de documents sous-jacent, il peut être nécessaire de créer un document vide et de mettre à jour le contenu du document ultérieurement.

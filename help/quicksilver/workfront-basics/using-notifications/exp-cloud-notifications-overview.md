@@ -1,25 +1,28 @@
 ---
 navigation-topic: notifications
 title: Présentation des notifications Experience Cloud
-description: Adobe Workfront a unifié tous les produits d’expériences digitales (DX) dans un seul système de notification cohérent appelé Notifications Experience Cloud.
+description: Adobe Workfront a unifié tous les produits d’expériences digitales (DX) sous un seul système de notification cohérent appelé Notifications Experience Cloud.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Présentation des notifications Experience Cloud
 
 Les notifications Adobe Workfront sont transférées vers le système de notification centralisé d’Adobe appelé Notifications Experience Cloud. Ce système de notifications est utilisé par tous les produits d’expérience digitale.
@@ -32,7 +35,7 @@ Après cette transition, les utilisateurs et les utilisatrices peuvent accéder 
 
 ## Pourquoi nous apportons ce changement
 
-Workfront fait partie de la suite de produits d’expérience digitale d’Adobe. Le passage à Experience Cloud offre plusieurs avantages, notamment :
+Workfront fait partie de la suite de produits d’expérience digitale d’Adobe. Le passage à Experience Cloud présente plusieurs avantages, notamment les suivants :
 
 * Expérience de notifications unifiées : vous pouvez désormais tester une interface qui fonctionne pour toutes les solutions DX d’Adobe.
 * Rester informé : l’unification des notifications en un seul endroit réduit le risque de notifications manquantes.
@@ -58,7 +61,7 @@ Workfront fait partie de la suite de produits d’expérience digitale d’Adobe
 
 1. Dans le coin supérieur droit de Workfront, cliquez sur l’icône **Notifications** ![Icône Notifications](assets/bell-icon.png).
 
-1. Dans le panneau **Notifications** qui s’ouvre, sélectionnez **Notifications**. Une liste de vos notifications s’affiche, la notification la plus récente apparaissant en haut de la liste.
+1. Dans le panneau **Notifications Experience Cloud** qui s’ouvre, sélectionnez **Notifications**. Une liste de vos notifications s’affiche, la notification la plus récente apparaissant en haut de la liste.
 
 1. Cliquez sur une notification pour la marquer comme *Lecture* et la supprimer de la liste des notifications récentes.
 
@@ -76,7 +79,7 @@ Workfront fait partie de la suite de produits d’expérience digitale d’Adobe
 
 1. Dans le coin supérieur droit de Workfront, cliquez sur l’icône **Notifications** ![Icône Notifications](assets/bell-icon.png).
 
-1. Dans le coin supérieur droit du panneau **&#x200B;**, cliquez sur l’icône **Paramètres** Icône![Paramètres](assets/settings-icon.png).
+1. Dans le coin supérieur droit du panneau **Experience Cloud**, cliquez sur l’icône **Paramètres** Icône![Paramètres](assets/settings-icon.png).
 
 1. Dans la section **Notifications**, cliquez sur l’icône de flèche ![flèche de la mosaïque Workfront](assets/arrow-icon.png) sur la mosaïque **Workfront**.
 
@@ -95,7 +98,7 @@ Non. Vos notifications historiques restent accessibles dans Workfront. Cependant
 
 +++ Mes utilisateurs devront-ils effectuer une action ?
 
-Pas au début. Les administrateurs Workfront commencent par vérifier la configuration, puis les utilisateurs remarqueront la nouvelle icône Notifications une fois la transition vers Experience Cloud effectuée. De là, ils devront apprendre à accéder à leurs notifications personnelles.
+Pas au début. Les administrateurs de Workfront commencent par vérifier la configuration, puis les utilisateurs remarquent la nouvelle icône Notifications une fois la transition vers Experience Cloud terminée. De là, ils devront apprendre à accéder à leurs notifications personnelles.
 +++
 
 +++Que se passe-t-il si mon organisation n’est pas prête à passer à Experience Cloud ?

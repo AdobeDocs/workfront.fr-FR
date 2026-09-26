@@ -9,20 +9,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/69b0htgpFAye-6FeaFxEKrMKeUzMPOGm6tFh1T6a2IQ
+TQID: 'https://experienceleague.adobe.com/69b0htgpFAye-6FeaFxEKrMKeUzMPOGm6tFh1T6a2IQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2045c2d02d37499800b5d91ad72c71bafd3a821b
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 95%
-
 ---
-
 # Versions de produit
 
 Vous trouverez ci-dessous des liens vers les notes de mise à jour des versions actuelle et antérieures.
@@ -141,7 +148,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
         <ul>
           <li><a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Fusion</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md" class="MCXref xref" xrefformat="{para}">Activité de mise à jour de la planification du quatrième trimestre 2026 d’Adobe Workfront</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Planning : index des articles</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md" class="MCXref xref" xrefformat="{para}">Activité des versions de la planification Adobe Workfront : index des articles</a></li>
         </ul>
       </td>
     </tr>
@@ -158,10 +165,10 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
       <td>
         <ul>
           <li><a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Fusion</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Planning du quatrième trimestre 2025</a></li>
-             <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Planning du troisième trimestre 2025</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Planning du deuxième trimestre 2025</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Planning du premier trimestre 2025</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md" class="MCXref xref" xrefformat="{para}">Activité des versions de la planification Adobe Workfront du quatrième trimestre 2025</a></li>
+             <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md" class="MCXref xref" xrefformat="{para}">Activité des versions la planification Adobe Workfront du troisième trimestre 2025</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md" class="MCXref xref" xrefformat="{para}">Activité des versions de la planification Adobe Workfront du deuxième trimestre 2025</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Activité des versions de la planification Adobe Workfront du premier trimestre 2025</a></li>
         </ul>
       </td>
     </tr>
@@ -178,7 +185,7 @@ Pour plus d’informations sur l’aide apportée à votre entreprise pour s’a
       <td>
         <ul>
           <li><a href="https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Fusion</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Activité de publication d’Adobe Workfront Planning du quatrième trimestre 2024</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Activité des versions de la planification Adobe Workfront du quatrième trimestre 2024</a></li>
         </ul>
       </td>
     </tr>

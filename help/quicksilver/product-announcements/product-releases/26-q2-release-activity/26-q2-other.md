@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 21%
-
+source-wordcount: '620'
+ht-degree: 20%
 ---
-
 # Autres améliorations au cours du deuxième trimestre de 2026
 
 Cette page décrit les améliorations apportées à l’environnement Aperçu de la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -27,7 +33,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Nous avons ajouté un nouveau paramètre pour ajuster la hauteur des lignes dans les listes améliorées.
 
@@ -37,7 +45,9 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Nous avons ajouté les noms personnalisés suivants pour un filtre d’équipe, de groupe, d’entreprise et de rôle dans des listes améliorées :
 
@@ -57,7 +67,9 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais appliquer une mise en forme conditionnelle aux listes de demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.
 
@@ -84,7 +96,9 @@ Pour plus d’informations, voir [Création et gestion des vues dans la zone des
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Pour vous permettre de trouver plus facilement les requêtes dont vous avez besoin, nous avons ajouté des regroupements à la liste des requêtes et au widget Mes requêtes . Désormais, vous pouvez regrouper les requêtes selon n’importe quelle colonne de la liste. Ces regroupements font partie de la vue que vous utilisez lorsque vous créez le regroupement.
 
@@ -94,7 +108,8 @@ Pour plus d’informations sur la création de vues pour la liste des demandes e
 
 >[!NOTE]
 >
->Aperçu : 11 décembre 2025>Version rapide de production : 11 février 2026\
+>Prévisualisation : 11 décembre 2025
+>Version rapide de production : 11 février 2026\
 >Production pour tous : 11 février 2026
 
 Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants.

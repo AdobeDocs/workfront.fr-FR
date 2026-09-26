@@ -10,28 +10,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+TQID: 'https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1776'
 ht-degree: 96%
-
 ---
-
 # Vue d’ensemble des niveaux d’accès
 
 >[!NOTE]
@@ -323,7 +332,8 @@ Voici les paramètres d’accès les plus élevés disponibles pour les objets d
 >
 >À compter de la version 24.7, les personnes contributrices ont un accès en affichage aux programmes et aux portefeuilles par défaut.
 >
-> &#x200B;>Les contributeurs intégrés avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Vous pouvez mettre à jour leur accès pour l’afficher manuellement si nécessaire.
+> 
+>Les personnes contributrices intégrées avant la version 24.7 n’auront toujours pas accès aux programmes et portefeuilles par défaut. Si nécessaire, vous pouvez mettre à jour manuellement leur autorisation d’affichage.
 
 ### Niveau d’accès Utilisateur ou utilisatrice externe
 
@@ -421,9 +431,9 @@ Un utilisateur ou une utilisatrice peut accorder à la personne destinataire l�
 
 * **Afficher** : ce niveau d’autorisation permet à la personne destinataire de partager l’objet de l’une des manières suivantes :
 
-   * à l’échelle du système afin que l’ensemble des utilisateurs et utilisatrices puissent le voir (non disponible pour tous les objets) ;
-   * avec les utilisateurs et utilisatrices externes qui n’ont pas de licence Workfront (non disponible pour tous les objets) ;
-   * avec une adresse e-mail (disponible uniquement pour les documents et les calendriers).
+  * à l’échelle du système afin que l’ensemble des utilisateurs et utilisatrices puissent le voir (non disponible pour tous les objets) ;
+  * avec les utilisateurs et utilisatrices externes qui n’ont pas de licence Workfront (non disponible pour tous les objets) ;
+  * avec une adresse e-mail (disponible uniquement pour les documents et les calendriers).
 
 * **Contribuer** : (non disponible pour tous les objets).
 * **Gérer** : lorsqu’une personne partage un objet, les droits de la personne destinataire sur l’objet sont déterminés par une combinaison de ses niveau d’accès et des autorisations accordées par la personne responsable du partage. Le niveau d’accès le plus bas disponible dans cette combinaison détermine ce que la personne destinataire peut faire avec l’objet.

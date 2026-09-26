@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-TQID: https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE
+TQID: 'https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '286'
 ht-degree: 98%
-
 ---
-
 # Statuts de groupe verrouillés et déverrouillés
 
 Le verrouillage des statuts personnalisés d’un groupe permet de s’assurer que les membres du groupe et ses sous-groupes utilisent les mêmes processus dans leur workflow. Lorsqu’un statut de groupe est verrouillé, il est disponible pour tous les utilisateurs et toutes les utilisatrices du groupe et dans les groupes inférieurs. Bien que vous (ou l’administration Workfront) puissiez modifier ou supprimer un statut que vous verrouillez, les administrateurs et les administratrices des sous-groupes ci-dessous ne peuvent pas le faire pour ces groupes ; seul l’ordre d’affichage dans la liste des statuts peut être modifié.

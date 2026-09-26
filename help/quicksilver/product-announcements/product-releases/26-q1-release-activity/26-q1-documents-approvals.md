@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM
+TQID: 'https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 280
-ht-degree: 95%
-
+source-wordcount: '298'
+ht-degree: 100%
 ---
-
 # Premier trimestre 2026 - Améliorations apportées aux documents et aux approbations
 
 Cette page décrit toutes les améliorations apportées aux documents et aux approbations dans l’environnement de prévisualisation de la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -45,7 +51,8 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->Aperçu : 15 décembre 2025>Version rapide de production : 15 décembre 2025\
+>Prévisualisation : 15 décembre 2025
+>Version rapide de production : 15 décembre 2025\
 >Production pour tous : 15 décembre 2025
 
 Vous pouvez choisir un projet Workfront pour y envoyer une épreuve. Cela permet de conserver toutes les ressources et épreuves associées au sein d’un même projet.
@@ -58,7 +65,8 @@ Pour plus d’informations, voir [Intégration d’Adobe Express à Workfront Pr
 
 >[!NOTE]
 >
->Aperçu : 13 novembre 2025>Version rapide de production : 13 novembre 2025\
+>Prévisualisation : 13 novembre 2025
+>Version rapide de production : 13 novembre 2025\
 >Production pour tous : 13 novembre 2025
 
 Nous introduisons la prise en charge inter-organisations d’Adobe Express avec Workfront Proof. Cette amélioration permet aux clients et clientes qui travaillent dans plusieurs organisations IMS d’utiliser et de gérer facilement les workflows d’épreuves.
@@ -70,7 +78,8 @@ Pour plus d’informations, voir [Commencer à utiliser l’intégration d’Ado
 
 >[!NOTE]
 >
->Aperçu : 30 octobre 2025>version rapide de production : 30 octobre 2025\
+>Prévisualisation : 30 octobre 2025
+>Version rapide de production : 30 octobre 2025\
 >Production pour tous : 30 octobre 2025
 
 Vous pouvez désormais utiliser Experience Manager Assets pour gérer et stocker vos ressources numériques qui ont passé le cycle de révision et d’approbation. Cette intégration permet d’exploiter les fonctionnalités d’Adobe Experience Manager, Frame.io et Workfront afin de rationaliser vos processus de gestion de contenu et de collaboration.

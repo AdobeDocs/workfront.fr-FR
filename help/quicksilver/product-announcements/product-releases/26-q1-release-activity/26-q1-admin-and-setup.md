@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
-TQID: https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA
+TQID: 'https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 96%
-
+source-wordcount: '733'
+ht-degree: 100%
 ---
-
 # Améliorations de l’équipe d’aministration au premier trimestre 2026
 
 Cette page décrit toutes les améliorations de l’équipe d’aministration apportées à l’environnement de prévisualisation par la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -34,7 +40,10 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Cette fonctionnalité est temporairement indisponible dans l’environnement de prévisualisation>Prévisualisation : 2 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Cette fonctionnalité n’est actuellement pas disponible dans l’environnement de prévisualisation.
+>Prévisualisation : 2 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 
 Vous pouvez désormais activer ou désactiver les priorités pour des utilisateurs et utilisatrices spécifiques dans le modèle de mise en page. Si les priorités étaient auparavant désactivées pour votre organisation, elles le resteront dans le modèle de mise en page avec cette modification.
@@ -48,7 +57,9 @@ Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d�
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Un même champ calculé peut avoir différentes formules lorsqu’il est joint à différents formulaires personnalisés. Si plusieurs formulaires contenant le même champ calculé sont associés à un objet, les formules doivent être identiques sur tous les formulaires. La modification de la formule n’est pas autorisée si elle peut entraîner un conflit.
 
@@ -61,7 +72,9 @@ Pour plus d’informations, voir [Ajouter des champs calculés à un formulaire]
 
 >[!NOTE]
 >
->Aperçu : 13 novembre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 13 novembre 2025
+>Prévisualisation : 13 novembre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 13 novembre 2025
 
 La date de saisie et l’ID Saisi par sont désormais stockés dans des formulaires, champs et sections personnalisés. Vous pouvez utiliser ces options de données dans les rapports sous la forme de filtres, de vues ou de regroupements. Pour les afficher dans la liste des formulaires, champs ou sections personnalisés de la configuration, ajoutez Date de saisie et Saisi par : nom sous forme de colonnes dans une vue nouvelle ou existante.
 
@@ -73,7 +86,9 @@ La date de saisie et l’ID Saisi par sont désormais stockés dans des formulai
 
 >[!NOTE]
 >
->Aperçu : 30 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Prévisualisation : 30 octobre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Pour plus de cohérence avec d’autres zones de la configuration telles que le concepteur de formulaire personnalisé, les boutons affichés lors de la modification d’un modèle de mise en page ont été modifiés en **Appliquer**, **Enregistrer et fermer** et **Annuler**. La nouvelle option, **Appliquer**, vous permet d’enregistrer vos modifications dans le modèle de mise en page et de continuer la modification. Auparavant, les options disponibles étaient **Enregistrer** et **Annuler**.
 
@@ -83,7 +98,9 @@ Pour plus d’informations, voir [Créer et gérer des modèles de mise en page]
 
 >[!NOTE]
 >
->Aperçu : 30 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Prévisualisation : 30 octobre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Lorsque le système comporte un grand nombre de champs personnalisés, la gestion de ces champs dans les formulaires et les rapports personnalisés peut s’avérer difficile. Vous pouvez désormais marquer les champs personnalisés comme inactifs avec le nouvel indicateur **Actif**. Cet indicateur est disponible lors de l’utilisation d’un champ dans un formulaire personnalisé ou lors de l’ajout ou de la modification d’un champ de la liste Champs.
 

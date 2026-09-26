@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
-title: Partager des éléments dans le cadre d’un partenariat dans  [!DNL Workfront Proof]
-description: Si vous disposez d’un partenariat  [!DNL Workfront Proof]  avec une autre organisation (par exemple un client ou une cliente ou un autre service de votre entreprise), vous pouvez partager des épreuves, des fichiers, des dossiers et des coordonnées dans le cadre de ce partenariat. Pour plus d’informations sur les relations de partenariat, voir la section Gérer une relation de partenariat entre des comptes  [!DNL Workfront Proof] .
+title: Partager des éléments dans le cadre d’un partenariat dans [!DNL Workfront Proof]
+description: Si vous disposez d’un partenariat [!DNL Workfront Proof] avec une autre organisation (par exemple un client ou une cliente ou un autre service de votre entreprise), vous pouvez partager des épreuves, des fichiers, des dossiers et des coordonnées dans le cadre de ce partenariat. Pour plus d’informations sur les relations de partenaire, voir Gérer une relation de partenaire entre des comptes [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d80acefe-19d3-45c2-8acb-1db89f6e49be
-TQID: https://experienceleague.adobe.com/DXIv13NTjQcQAo5M51HlQ2oKsHk-lauv4hcf86939oM
+TQID: 'https://experienceleague.adobe.com/DXIv13NTjQcQAo5M51HlQ2oKsHk-lauv4hcf86939oM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 472
-ht-degree: 100%
-
+source-wordcount: '473'
+ht-degree: 97%
 ---
-
 # Partager des éléments dans le cadre d’un partenariat dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]

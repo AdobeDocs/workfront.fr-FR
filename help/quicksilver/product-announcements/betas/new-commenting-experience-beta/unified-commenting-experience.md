@@ -10,18 +10,24 @@ hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+TQID: 'https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1043'
 ht-degree: 68%
-
 ---
-
 # Nouvelle expérience de commentaire
 
 <!--take out legacy, preview, prod references from below-->
@@ -424,26 +430,26 @@ Pour plus d’informations sur les fonctionnalités publiées pour la nouvelle e
 Le calendrier suivant était prévu pour la publication de la nouvelle expérience de commentaire :
 
 * Avec la version 23.2 (6 avril 2023) :
-   * Lancement de l’expérience de commentaires Beta pour résoudre les problèmes
-   * Publication de la nouvelle expérience de commentaires pour les objectifs (comme la seule expérience)
+  * Lancement de l’expérience de commentaires Beta pour résoudre les problèmes
+  * Publication de la nouvelle expérience de commentaires pour les objectifs (comme la seule expérience)
 * Avec la version 23.3 (20 juillet 2023) :
-   * Lancez le Beta d’expérience de commentaires pour les projets, les tâches et les documents.
-   * Publication de la nouvelle expérience de commentaires pour les cartes de la zone Tableaux (comme la seule expérience)
+  * Lancez le Beta d’expérience de commentaires pour les projets, les tâches et les documents.
+  * Publication de la nouvelle expérience de commentaires pour les cartes de la zone Tableaux (comme la seule expérience)
 * Lors de la version du quatrième trimestre 2023 (version limitée, uniquement pour les clientes et clients ayant choisi la version rapide) :
-   * Publication de la nouvelle expérience de commentaires pour les modèles, les tâches de modèles, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (en tant que seule expérience)
-   * Mise à jour du Beta d’expérience de commentaires pour les projets, tâches, événements et documents afin qu’il devienne l’option par défaut. Le libellé « Beta » a été supprimé.
+  * Publication de la nouvelle expérience de commentaires pour les modèles, les tâches de modèles, les programmes, les portefeuilles, les équipes, les utilisateurs et les feuilles de temps (en tant que seule expérience)
+  * Mise à jour du Beta d’expérience de commentaires pour les projets, tâches, événements et documents afin qu’il devienne l’option par défaut. Le libellé « Beta » a été supprimé.
 * Avec la version du quatrième trimestre 2023 (23.10) (26 octobre 2023)
-   * Publication de la nouvelle expérience de commentaires pour les modèles, les tâches de modèles, les programmes, les portfolios, les équipes, les utilisateurs et les feuilles de temps (en tant qu’expérience unique) auprès de tous les clients.
-   * L’option par défaut est désormais la nouvelle expérience de commentaires pour les projets, les tâches, les événements et les documents.
+  * Publication de la nouvelle expérience de commentaires pour les modèles, les tâches de modèles, les programmes, les portfolios, les équipes, les utilisateurs et les feuilles de temps (en tant qu’expérience unique) auprès de tous les clients.
+  * L’option par défaut est désormais la nouvelle expérience de commentaires pour les projets, les tâches, les événements et les documents.
 
   >[!IMPORTANT]
   >
   >    Cela a mis fin à l’étape Beta de la nouvelle expérience de commentaires.
 
-   * Intégration de toutes les fonctionnalités de la nouvelle expérience de commentaires à partir de cette date dans les versions mensuelles et trimestrielles régulières actuelles.
+  * Intégration de toutes les fonctionnalités de la nouvelle expérience de commentaires à partir de cette date dans les versions mensuelles et trimestrielles régulières actuelles.
 * Fin de l’année 2023 :
-   * L’expérience de commentaires héritée a été conservée en tant qu’option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour tous les utilisateurs et utilisatrices de ces objets.
-   * La nouvelle expérience de commentaires est devenue la seule expérience pour tous les autres objets.
+  * L’expérience de commentaires héritée a été conservée en tant qu’option secondaire pour les objets suivants : projets, tâches, problèmes et documents. La nouvelle expérience de commentaire est l’option par défaut pour tous les utilisateurs et utilisatrices de ces objets.
+  * La nouvelle expérience de commentaires est devenue la seule expérience pour tous les autres objets.
 
 * Avec la version du deuxième trimestre 2024 (11 avril 2024) :
 

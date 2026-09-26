@@ -7,13 +7,23 @@ description: Les étapes de l’épreuve sont des segments de temps dans lesquel
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 92%
-
 ---
-
 # Vue d’ensemble des étapes du workflow automatisé
 
 Les étapes de l’épreuve sont des segments de temps dans lesquels différentes personnes révisent une épreuve. Au fur et à mesure que l’épreuve passe d’une étape à l’autre, Adobe Workfront avertit les réviseurs et réviseuses pour leur indiquer quand il est temps de travailler dessus.
@@ -49,8 +59,8 @@ Lorsque vous attribuez des échéances de relecture différentes aux personnes r
 
 **Exemple :** par exemple, si vous créez une épreuve avec quatre personnes réviseuses :
 
-* Pour les validants Olivia et Tony, vous spécifiez une date limite de 14:00 dans quelques jours.
-* Pour Aaron et Amy, vous spécifiez un délai de 17 :00 quelques jours plus tard.
+* Pour les réviseurs Olivia et Tony, vous spécifiez une date limite pour 14:00 dans quelques jours.
+* Pour Aaron et Amy, vous spécifiez une date limite pour 17 heures quelques jours plus tard.
 * Ne spécifiez pas d’échéance pour vous-même.
 
 Le système crée une étape pour chacun de ces trois « groupes » de personnes chargées de la révision :

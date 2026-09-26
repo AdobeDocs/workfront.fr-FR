@@ -6,13 +6,20 @@ description: Les notifications suivantes vous alertent sur les activités qui on
 author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 100%
-
 ---
-
 # Notifications : informations sur les projets dont je suis propriétaire
 
 Les notifications suivantes vous alertent sur les activités qui ont lieu sur un projet dont vous êtes propriétaire. Pour plus d’informations sur la configuration des notifications que vous recevez, consultez la section [Modifier vos propres notifications par e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
@@ -47,9 +54,9 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Envoyer un e-mail au propriétaire du projet lorsqu'un événement est ajouté.</strong> </p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>L’objet de l’e-mail de notification instantanée est : <em>[!UICONTROL Issue added to] &lt;Nom du projet&gt;</em></p> <p> </p> <p> L’objet de la notification de la synthèse quotidienne est : <em> [!UICONTROL Digest of Projects You Own] &lt;Date de la synthèse quotidienne&gt; </em></p> </td> 
+   <td> <p><strong>Envoyer un e-mail au propriétaire du projet lorsqu'un événement est ajouté.</strong> </p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un problème est ajouté au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p> </p> <p> L’objet de la notification de la synthèse quotidienne est : <em> [!UICONTROL Digest of Projects You Own] &lt;Date de la synthèse quotidienne&gt; </em></p> </td> 
    <td> <p>Nom du projet<br>Nom du portfolio<br>Numéro de référence du problème<br>Nom de la personne qui a ajouté le problème<br>Nom du problème<br>Type de problème<br>Date de saisie<br>Priorité du problème<br>Nom de la personne cessionnaire<br>Statut du problème<br>Contact principal<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de problèmes ajoutés au projet<br>*Nom du problème<br>*Nom de la personne qui a ajouté le problème<br>*Date de la synthèse quotidienne</p> </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Une tâche est achevée sur un projet dont je suis propriétaire</strong> </p> <p>La personne propriétaire du projet reçoit une notification lorsqu’une tâche se termine sur son projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current].</p> <p>L’objet de l’e-mail de notification instantanée est : <em>[!UICONTROL Complete] : &lt;Nom de la tâche&gt; sur &lt;Nom du projet&gt;</em></p> <p> <p>Remarque : si la tâche passe à un statut qui correspond à [!UICONTROL Complete], l’objet de l’e-mail affiche toujours « [!UICONTROL Complete] ».</p> </p> <p> L’objet de la notification de la synthèse quotidienne est : <em> [!UICONTROL Digest of Projects You Own] &lt;Date de la synthèse quotidienne&gt; </em></p> </td> 
@@ -67,9 +74,9 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Un problème non affecté est ajouté à un projet que je possède </strong> </p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Qui doit être affecté à ce nouveau problème le] &lt;p&gt; ?</em></p> <p> </p> <p> L’objet de la notification de synthèse quotidienne est le suivant : <em> Synthèse des projets que vous possédez &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>Un problème non affecté est ajouté à un projet que je possède </strong> </p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsqu’un problème non attribué est ajouté au projet.</p> <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Who should be assigned to this new issue on] &lt;Project Name&gt; ?</em></p> <p> </p> <p> L’objet de la notification de synthèse quotidienne est le suivant : <em> Synthèse des projets que vous possédez &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Nom du projet<br>Nom du portfolio<br>Numéro de référence du problème<br>Nom de la personne qui a ajouté le problème<br>Nom du problème<br>Type de problème<br>Date de saisie<br>Priorité du problème<br>Nom de la personne cessionnaire (vide)<br>Statut du problème<br>Contact principal<br>*Nom du projet<br>*Numéro de référence du projet<br>*Nombre total de problèmes ajoutés<br>*Nom du problème<br>*Nom de la personne qui a ajouté le problème<br>*Date de la synthèse quotidienne<br></p> </td> 
-   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
+   <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Je suis propriétaire d’un nouveau projet</strong> </p> <p>Lorsqu’une personne est définie comme propriétaire d’un projet, elle reçoit une notification par e-mail.</p> <p>Si la personne propriétaire du projet est la même personne que celle qui a effectué l’affectation, aucune notification par e-mail n’est envoyée.</p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>Activez cela parce que ces personnes sont affectées à quelque chose. </p> <p> Affecter quelque chose, partager quelque chose, avoir accès à quelque chose.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL You're now the project owner of] &lt;Project Name&gt;</em>.</p> <p>Le texte suivant est inclus dans le corps de la notification par e-mail :<em><br></em></p> <p><em>[!UICONTROL Hi] &lt;Your Name&gt;,<br></em><em>&lt;Name of the user who assigned you as the Project Owner&gt; [!UICONTROL made you the owner of] &lt;Project Name&gt;. [!UICONTROL As the Project Owner, you might receive additional email notifications about project activity, be required to approve hours for the project, or be involved in approving work related to the project. It's all yours.]</em> </p> <p> L’objet de la notification de synthèse quotidienne est le suivant : <em> [!UICONTROL Digest of Projects You Own] &lt;date of daily digest&gt; </em></p> <p> </p> </td> 

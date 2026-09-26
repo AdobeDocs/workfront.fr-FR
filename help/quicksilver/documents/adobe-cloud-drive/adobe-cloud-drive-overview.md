@@ -9,17 +9,25 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d5dd769447e81d5d95b4907f8a01016b118f2322
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # Présentation d’Adobe Cloud Drive
 
 Adobe Cloud Drive est une application de bureau qui monte vos projets de stockage dans le cloud Adobe en tant que lecteur sur votre ordinateur Mac ou Windows. Les projets Workfront apparaissent sous la forme de dossiers et vous pouvez ouvrir, créer, modifier et enregistrer des fichiers directement dans les projets Workfront sur l’espace de stockage dans le cloud Adobe, à l’aide de n’importe quelle application de bureau.

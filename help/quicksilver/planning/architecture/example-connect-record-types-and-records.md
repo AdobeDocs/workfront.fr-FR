@@ -1,24 +1,31 @@
 ---
 title: Exemple de connexion de types d’enregistrements et d’enregistrements
-description: Cet article décrit un exemple de connexion entre un type d'enregistrement Adobe Workfront Planning et un type d'objet de projet Workfront. Il décrit également comment vous pouvez connecter un enregistrement Workfront Planning à un projet individuel.
+description: Cet article décrit un exemple de connexion entre un type d'enregistrement Adobe Workfront Planning et un type d'objet de projet Workfront. Il décrit également comment vous pouvez connecter un enregistrement de la planification Workfront à un projet individuel.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+TQID: 'https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2188
+source-wordcount: '2188'
 ht-degree: 63%
-
 ---
-
 # Exemple de connexion de types d’enregistrements et d’enregistrements
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
@@ -29,16 +36,16 @@ ht-degree: 63%
 
 Cet article décrit un exemple des opérations suivantes :
 
-* Comment créer une connexion entre deux types d’enregistrements Workfront Planning et deux enregistrements.
+* Comment créer une connexion entre deux types d’enregistrements de la planification Workfront et deux enregistrements.
 
-* Comment créer une connexion entre un type d’enregistrement Workfront Planning et un type d’objet de projet Workfront, ainsi qu’une connexion entre un enregistrement et un projet.
+* Comment créer une connexion entre un type d’enregistrement de planification Workfront et un type d’objet de projet Workfront, ainsi qu’une connexion entre un enregistrement et un projet.
 
 Pour plus d’informations, reportez-vous également aux articles suivants :
 
 * [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md)
 
-## Connecter deux types d’enregistrements Workfront Planning et des enregistrements (exemple)
+## Connecter deux types d’enregistrements de la planification Workfront et des enregistrements (exemple)
 
 Par exemple, vous avez un type d’enregistrement nommé Campaign comme type d’enregistrement d’origine.
 
@@ -156,7 +163,7 @@ Pour ce faire :
 1. Pour renseigner le champ **Campaign** de la vue de tableau **Product**, répétez les étapes 5 à 7 à partir de la vue de tableau de type enregistrement Product et en sélectionnant les informations sur la campagne. Le champ Informations sur le produit sera également mis à jour dans le tableau de la page de type d’enregistrement Campaign. <!--ensure the step numbers remain correct-->
 
 
-## Connecter un type d’enregistrement Workfront Planning à un type d’objet de projet Workfront et connecter un enregistrement à des projets individuels
+## Connecter un type d’enregistrement de la planification Workfront à un type d’objet de projet Workfront et connecter un enregistrement à des projets individuels
 
 >[!IMPORTANT]
 >
@@ -166,7 +173,7 @@ Par exemple, vous disposez d’un type d’enregistrement nommé Campagne comme 
 
 Vous avez également des projets dans Workfront avec un champ nommé « Revenus prévus ».
 
-Vous souhaitez créer un champ de connexion sur le type d&#39;enregistrement de Campaign dans lequel vous pouvez afficher les valeurs du champ Revenus prévus des projets dans Workfront qui sont connectés aux campagnes dans Workfront Planning.
+Vous souhaitez créer un champ de connexion sur le type d’enregistrement de Campaign dans lequel vous pouvez afficher les valeurs du champ Revenus prévus des projets dans Workfront qui sont connectés aux campagnes dans la planification Workfront.
 
 Pour ce faire :
 

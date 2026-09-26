@@ -8,13 +8,25 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 9%
-
+source-wordcount: '634'
+ht-degree: 11%
 ---
-
 # Limiter l’accès aux données financières dans les champs personnalisés
 
 Lorsque vous créez un champ personnalisé, vous pouvez définir des paramètres facultatifs pour restreindre l’accès aux données financières. Ainsi, les utilisateurs et utilisatrices disposant de certaines autorisations définies dans leurs niveaux d’accès peuvent voir les données et ne peuvent pas voir de données financières auxquelles ils ne devraient pas avoir accès.
@@ -68,7 +80,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Groupe Case à cocher
    * Cases d’option
    * Recherche externe
-   * Recherche externe multi-sélection
+   * Recherche externe à sélection multiple
    * Calculé
 
 1. Dans le champ **Format**, sélectionnez **Devise**.

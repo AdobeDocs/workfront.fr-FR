@@ -7,18 +7,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+TQID: 'https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 290
-ht-degree: 76%
-
+source-wordcount: '308'
+ht-degree: 78%
 ---
-
 # Autres améliorations au cours de la période de la version du premier trimestre 2026
 
 Cette page décrit les améliorations apportées à l’environnement de prévisualisation dans la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -36,7 +42,9 @@ Pour plus d’informations, consultez [Utilisation de groupes de filtres](/help/
 
 >[!NOTE]
 >
->Aperçu : 30 octobre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Prévisualisation : 30 octobre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Les champs qui autorisent plusieurs sélections, tels que les cases à cocher et les listes déroulantes à sélection multiple, sont désormais limités à 5 000 sélections lors du remplissage d’un formulaire.
 
@@ -49,7 +57,8 @@ Pour plus d’informations, voir [Modifier les informations dans les champs de f
 
 >[!NOTE]
 >
->Aperçu : 11 décembre 2025>Version rapide de production : 11 février 2026\
+>Prévisualisation : 11 décembre 2025
+>Version rapide de production : 11 février 2026\
 >Production pour tous : 11 février 2026
 
 Pour permettre aux organisations d’accéder aux avantages d’Adobe Unified Experience, nous avons commencé à la mettre à la disposition des clientes et des clients Workfront existants.

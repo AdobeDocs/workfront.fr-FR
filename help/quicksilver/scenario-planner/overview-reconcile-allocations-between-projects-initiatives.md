@@ -6,18 +6,24 @@ description: Vue d’ensemble de la réconciliation des affectations de ressourc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+TQID: 'https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 98%
-
 ---
-
 # Vue d’ensemble de la réconciliation des affectations de ressources entre les projets et les initiatives
 
 <!--
@@ -34,8 +40,8 @@ Avant de commencer, vous devez disposer des éléments suivants :
 * Affectations des fonctions requises pour l’initiative.
 * Tâches ou problèmes du projet qui ont un nombre d’heures prévues et qui sont affectées à l’un des éléments suivants :
 
-   * Fonctions
-   * Utilisateurs et utilisatrices à qui des fonctions ont été associées
+  * Fonctions
+  * Utilisateurs et utilisatrices à qui des fonctions ont été associées
 
 ## Connecter les projets et les initiatives
 
@@ -69,28 +75,28 @@ Ces deux processus créent une connexion entre les projets et les initiatives co
 
 * Vous pouvez afficher l’affectation d’une fonction liée à une initiative sur un projet lié dans les zones suivantes du projet :
 
-   * Section de la zone [!UICONTROL Détails du projet] d’un projet dans le [!DNL Scenario Planner]. Pour plus d’informations, consultez les articles suivants :
+  * Section de la zone [!UICONTROL Détails du projet] d’un projet dans le [!DNL Scenario Planner]. Pour plus d’informations, consultez les articles suivants :
 
-      * [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-      * [Gérer les informations dans la zone [!UICONTROL Vue d’ensemble] du projet](../manage-work/projects/manage-projects/understand-project-overview-area.md)
+    * [Mettre à jour ou créer des projets en publiant des initiatives dans le  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
+    * [Gérer les informations dans la zone [!UICONTROL Vue d’ensemble] du projet](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-     >[!TIP]
-     >
-     >Vous ne pouvez pas voir les informations relatives à la fonction du projet et de l’initiative côte à côte dans la section [!DNL Scenario Planner] des [!UICONTROL Détails du projet].
+    >[!TIP]
+    >
+    >Vous ne pouvez pas voir les informations relatives à la fonction du projet et de l’initiative côte à côte dans la section [!DNL Scenario Planner] des [!UICONTROL Détails du projet].
 
-   * Panneau [!UICONTROL Affectation des rôles] dans les zones suivantes :
+  * Panneau [!UICONTROL Affectation des rôles] dans les zones suivantes :
 
-      * [!UICONTROL Équilibreur de charge de travail] du projet
+    * [!UICONTROL Équilibreur de charge de travail] du projet
 
-        Pour plus d’informations sur l’affichage et la réconciliation des affectations de rôles entre l’initiative et le projet lié dans l’[!UICONTROL équilibreur de charge de travail], consultez la section [Afficher l’affectation des rôles pour les projets et les initiatives dans l’[!UICONTROL équilibreur de charge de travail]](../scenario-planner/show-role-allocation-workload-balancer.md).
+      Pour plus d’informations sur l’affichage et la réconciliation des affectations de rôles entre l’initiative et le projet lié dans l’[!UICONTROL équilibreur de charge de travail], consultez la section [Afficher l’affectation des rôles pour les projets et les initiatives dans l’[!UICONTROL équilibreur de charge de travail]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
-      * Section [!UICONTROL Tâches]
+    * Section [!UICONTROL Tâches]
 
-        Pour plus d’informations sur la réconciliation des affectations de rôles entre l’initiative et le projet lié dans la zone [!UICONTROL Tâches], consultez la section [Afficher l’affectation des rôles pour les projets et les initiatives dans la liste des tâches](../scenario-planner/show-role-allocation-task-list-nwe.md).
+      Pour plus d’informations sur la réconciliation des affectations de rôles entre l’initiative et le projet lié dans la zone [!UICONTROL Tâches], consultez la section [Afficher l’affectation des rôles pour les projets et les initiatives dans la liste des tâches](../scenario-planner/show-role-allocation-task-list-nwe.md).
 
-     >[!TIP]
-     >
-     >Vous pouvez voir les informations sur les fonctions du projet et de l’initiative côte à côte dans le panneau [!UICONTROL Affectation des rôles].
+    >[!TIP]
+    >
+    >Vous pouvez voir les informations sur les fonctions du projet et de l’initiative côte à côte dans le panneau [!UICONTROL Affectation des rôles].
 
 * Vous ne pouvez pas afficher l’affectation des fonctions pour un projet sur une initiative liée. Pour plus d’informations, consultez la section [Importer des projets dans des plans dans le  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 

@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
-ht-degree: 97%
-
+source-wordcount: '855'
+ht-degree: 100%
 ---
-
 # Environnement de prévisualisation R1.4
 
 Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version R1.4. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 15 février 2017.
@@ -42,8 +47,8 @@ Lors de la création de processus d’approbation de projet, de tâche et de pro
 
 * Les limitations préexistantes suivantes relatives à la modification des processus d’approbation globale existants ont été supprimées :
 
-   * Le processus d’approbation modifié ne se reflète que sur les objets du système pour lesquels le processus d’approbation n’a pas encore commencé ou n’a pas été modifié. Les objets dont le processus d’approbation est déjà lancé ou dont le processus d’approbation a été modifié ne sont pas mis à jour en fonction de vos modifications.
-   * Vous ne pouvez pas modifier le statut qui détermine le début de l’approbation.
+  * Le processus d’approbation modifié ne se reflète que sur les objets du système pour lesquels le processus d’approbation n’a pas encore commencé ou n’a pas été modifié. Les objets dont le processus d’approbation est déjà lancé ou dont le processus d’approbation a été modifié ne sont pas mis à jour en fonction de vos modifications.
+  * Vous ne pouvez pas modifier le statut qui détermine le début de l’approbation.
 
 * Aspect mis à jour
 
@@ -101,7 +106,7 @@ Les améliorations suivantes ont été apportées lors de la restauration de pro
 
 Il y a désormais une nouvelle interface pour la gestion des groupes et des sous-groupes qui offre une expérience plus commode et plus conviviale.
 
-Le champ Propriétaires du groupe et le champ Membres du groupe sont désormais combinés en un seul champ, avec une liste de membres du groupe répertoriée ci-dessous. En outre, vous pouvez filtrer la liste des membres du groupe et déterminer s’ils sont Propriétaires ou Membres. 
+Les champs Personnes propriétaires du groupe et Personnes membres du groupe sont désormais fusionnés en un seul champ, avec une liste des personnes membres du groupe située en dessous. De plus, vous pouvez filtrer la liste des personnes membres du groupe et déterminer s’il s’agit d’une personne propriétaire ou membre. 
 
 Pour plus d’informations sur l’ajout de sous-groupes aux groupes et sur la désignation d’utilisateurs et d’utilisatrices en tant que personnes membres ou personnes propriétaires de groupes, voir [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) et [Créer un groupe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 

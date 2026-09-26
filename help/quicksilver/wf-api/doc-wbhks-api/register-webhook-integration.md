@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+TQID: 'https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 81%
-
+source-wordcount: '409'
+ht-degree: 84%
 ---
-
 # Enregistrer une intégration de webhook
 
 {{highlighted-preview}}
@@ -89,11 +93,11 @@ Lors de l’ajout d’une intégration, l’administrateur ou administratrice sa
    <td> <p>(ApiKey uniquement) Utilisé pour effectuer des appels API autorisés vers le fournisseur de webhooks. La clé API émise par le fournisseur de webhooks.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Activer le chargement en blocs pour les fichiers volumineux</td> 
+   <td>Activer le chargement par blocs pour les fichiers volumineux</td> 
    <td> <p>Cochez cette case pour activer les chargements en plusieurs parties (segmentés) pour les fichiers de plus de 25 Mo. Lorsque cette option n’est pas sélectionnée, les fichiers sont chargés dans une seule demande, quelle que soit leur taille.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Seuil de chargement en blocs (Mo)</td> 
+   <td>Seuil de chargement par blocs (Mo)</td> 
    <td> <p>Taille maximale, en Mo, de chaque bloc lorsqu’un fichier volumineux est divisé pour le chargement. Accepte des valeurs allant jusqu’à 100 Mo.</p> </td> 
   </tr> 
  </tbody> 

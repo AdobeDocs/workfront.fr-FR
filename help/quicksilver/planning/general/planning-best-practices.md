@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 3%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Recommandations relatives à l’implémentation d’Adobe Workfront Planning
@@ -59,12 +68,12 @@ Vous trouverez ci-dessous quelques questions fréquentes sur la configuration de
 * ✅ Commencez par explorer nos modèles d’espace de travail prédéfinis pour obtenir des idées de cas d’utilisation similaires existants. Vous pouvez utiliser les types d’enregistrements et les champs prédéfinis qui se trouvent dans un modèle, ou bien ajouter les vôtres.
 * ✅ Identifiez les principaux cas d’utilisation que vous souhaitez résoudre avec Workfront Planning. Par exemple, la plupart des organisations souhaitent améliorer la visibilité des activités stratégiques, ce qui peut inclure la création d’un meilleur « calendrier de campagne ». Pour ce cas d’utilisation, vous souhaiterez donc commencer par répondre à quelques questions :
 
-   * Qui le demande?
-   * Comment appellent-ils les choses qu&#39;ils veulent mettre dans le calendrier ?
-Campagnes ? Tactiques ? Initiatives ? Activités ? Événements ?
-   * À quels types de questions veulent-ils répondre avec ce calendrier ?
-   * Y a-t-il des campagnes qui se chevauchent pour la même audience ?
-   * Quel est le budget de cette campagne, tactique, activité ou événement ?
+  * Qui le demande?
+  * Comment appellent-ils les choses qu&#39;ils veulent mettre dans le calendrier ?
+    Campagnes ? Tactiques ? Initiatives ? Activités ? Événements ?
+  * À quels types de questions veulent-ils répondre avec ce calendrier ?
+  * Y a-t-il des campagnes qui se chevauchent pour la même audience ?
+  * Quel est le budget de cette campagne, tactique, activité ou événement ?
 
   Les réponses à ces questions dictent ce que vous devez créer dans Workfront Planning.
 
@@ -210,9 +219,9 @@ Utilisez la fonction de partage pour accorder aux autres utilisateurs les autori
 
   Vous pouvez choisir parmi les niveaux d’autorisation suivants :
 
-   * **Gérer** : les personnes peuvent modifier, supprimer et partager l’espace de travail, les types d’enregistrements, ainsi que modifier, supprimer et créer des enregistrements.
-   * **Contribuer** : les utilisateurs peuvent créer, modifier et supprimer des enregistrements.
-   * **Afficher** : les utilisateurs peuvent afficher les enregistrements.
+  * **Gérer** : les personnes peuvent modifier, supprimer et partager l’espace de travail, les types d’enregistrements, ainsi que modifier, supprimer et créer des enregistrements.
+  * **Contribuer** : les utilisateurs peuvent créer, modifier et supprimer des enregistrements.
+  * **Afficher** : les utilisateurs peuvent afficher les enregistrements.
 
 * ✅ Bien que de nombreux clients aient l’impression d’accorder des autorisations **Gérer** aux espaces de travail à la plupart des personnes, limitez les autorisations **Gérer** à un groupe restreint de personnes de confiance qui ne supprimeront pas accidentellement un type d’enregistrement ou ne créeront pas de types d’enregistrement et de champs inutiles. Ils peuvent modifier, partager et même supprimer l’espace de travail. Ce niveau d’autorisations leur accorde un accès administratif complet au Workspace.
 
@@ -289,14 +298,14 @@ Vous pouvez créer un formulaire de demande pour chaque type d’enregistrement 
 
   Vous pouvez choisir parmi les options de partage suivantes :
 
-   * Pour le partage interne avec des personnes dans Workfront :
+  * Pour le partage interne avec des personnes dans Workfront :
 
-      * **Toute personne disposant d’un accès en affichage ou d’un niveau supérieur à l’espace de travail :** autorise tous les utilisateurs disposant d’autorisations en affichage ou d’un niveau supérieur à l’espace de travail à soumettre une requête qui crée un enregistrement.
-      * **Toute personne disposant d’un accès de niveau Contributeur ou supérieur à l’espace de travail** : limite les envois aux utilisateurs disposant d’autorisations de niveau Contributeur ou supérieur à l’espace de travail.
-      * **Seules les personnes invitées peuvent y accéder** : ajoutez des personnes, des équipes, des rôles, des groupes ou des entreprises qui peuvent envoyer des demandes au formulaire.
-   * Pour le partage externe avec des personnes qui ne disposent pas d’un compte Workfront :
-      * **Création d’un lien public**, puis copie et partage avec tout le monde, même les personnes sans compte Workfront : permet à toute personne disposant du lien de formulaire de soumettre une demande.
-      * **Date d’expiration du lien :** assurez-vous de définir une date d’expiration pour le lien public afin de renforcer la sécurité.
+    * **Toute personne disposant d’un accès en affichage ou d’un niveau supérieur à l’espace de travail :** autorise tous les utilisateurs disposant d’autorisations en affichage ou d’un niveau supérieur à l’espace de travail à soumettre une requête qui crée un enregistrement.
+    * **Toute personne disposant d’un accès de niveau Contributeur ou supérieur à l’espace de travail** : limite les envois aux utilisateurs disposant d’autorisations de niveau Contributeur ou supérieur à l’espace de travail.
+    * **Seules les personnes invitées peuvent y accéder** : ajoutez des personnes, des équipes, des rôles, des groupes ou des entreprises qui peuvent envoyer des demandes au formulaire.
+  * Pour le partage externe avec des personnes qui ne disposent pas d’un compte Workfront :
+    * **Création d’un lien public**, puis copie et partage avec tout le monde, même les personnes sans compte Workfront : permet à toute personne disposant du lien de formulaire de soumettre une demande.
+    * **Date d’expiration du lien :** assurez-vous de définir une date d’expiration pour le lien public afin de renforcer la sécurité.
 
 ### Bonnes pratiques relatives à la gestion des formulaires de demande
 

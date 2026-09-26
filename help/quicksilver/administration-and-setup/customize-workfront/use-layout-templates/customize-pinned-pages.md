@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-TQID: https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I
+TQID: 'https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '527'
 ht-degree: 60%
-
 ---
-
 # Personnaliser les pages épinglées à l’aide d’un modèle de mise en page
 
 Dans un modèle de mise en page, vous pouvez épingler les pages que vous souhaitez que les utilisateurs et utilisatrices aient toujours à leur disposition en haut d’Adobe Workfront. Il peut s&#39;agir de pages accessibles via le menu principal ![icône du menu principal](assets/main-menu-icon-left-nav.png) ou de tableaux de bord.
@@ -82,25 +90,25 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Faites votre choix parmi les zones suivantes :
 
-      * Calendriers
-      * Tableaux de bord
-      * Documents
-      * Objectifs
-      * Page d’accueil
-      * Mes mises à jour
-      * Portefeuilles
-      * Programmes
-      * Projets
-      * Rapports
-      * Demandes
-      * Ressources
-      * Scénarios
-      * Équipes
-      * Modèles
-      * Feuilles de temps
-      * Utilisateurs et utilisatrices
-      * Plans directeurs
-      * Planification
+     * Calendriers
+     * Tableaux de bord
+     * Documents
+     * Objectifs
+     * Page d’accueil
+     * Mes mises à jour
+     * Portefeuilles
+     * Programmes
+     * Projets
+     * Rapports
+     * Demandes
+     * Ressources
+     * Scénarios
+     * Équipes
+     * Modèles
+     * Feuilles de temps
+     * Utilisateurs et utilisatrices
+     * Plans directeurs
+     * Planification
 
      >[!IMPORTANT]
      >
@@ -113,9 +121,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      >* Pour plus d’informations sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Cliquez sur **Ajouter un tableau de bord**
-      * Saisissez un nom explicite dans le champ <!--**Quick link name**-->**Nom personnalisé**
-      * Sélectionnez un tableau de bord dans le champ **Ajouter un tableau de bord** <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
-      * Cliquez sur **Ajouter**.
+     * Saisissez un nom explicite dans le champ <!--**Quick link name**-->**Nom personnalisé**
+     * Sélectionnez un tableau de bord dans le champ **Ajouter un tableau de bord** <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+     * Cliquez sur **Ajouter**.
 
 1. Répétez l’étape précédente pour épingler d’autres pages.
 

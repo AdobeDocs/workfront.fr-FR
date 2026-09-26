@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
+TQID: 'https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3670
-ht-degree: 13%
-
+source-wordcount: '3730'
+ht-degree: 14%
 ---
-
 # Créer des enregistrements
 
 
@@ -36,7 +44,7 @@ ht-degree: 13%
 
 {{planning-important-intro}}
 
-Dans Adobe Workfront Planning, un enregistrement est une instance d’un type d’enregistrement.
+Dans la planification Adobe Workfront, un enregistrement est une instance d’un type d’enregistrement.
 
 Vous pouvez créer des enregistrements en effectuant l’une des opérations suivantes :
 
@@ -207,7 +215,7 @@ Old:
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
    Tous les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) Dans n’importe quel mode, cliquez sur l’un des éléments suivants dans le coin supérieur droit de l’écran, en fonction des autorisations de l’espace de travail et du type d’enregistrement :
@@ -289,7 +297,7 @@ Pour plus d’informations sur la modification des informations relatives aux en
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   La page de type d’enregistrement s’ouvre dans la vue à laquelle vous avez accédé pour la dernière fois. Par défaut, une page de type d’enregistrement s’ouvre en mode Tableau.
+   La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type enregistrement s’ouvre sous la forme d’un tableau.
    Les enregistrements du type sélectionné s&#39;affichent dans la vue.
 
 1. (Conditionnel) En mode Tableau, effectuez l’une des opérations suivantes :
@@ -506,7 +514,7 @@ Pour plus d’informations sur la création d’une vue Calendrier, voir [Gérer
 
 1. Dans une autre application, sélectionnez plusieurs lignes et colonnes, puis collez les informations dans la vue de tableau de type enregistrement, en commençant par le premier nouvel enregistrement.
 
-   Les informations suivantes sont importées dans la zone Workfront Planning :
+   Les informations suivantes sont importées dans la zone Planification Workfront :
 
    * Les lignes contiennent les nouveaux enregistrements.
    * Les colonnes fournissent des informations sur les champs des enregistrements.

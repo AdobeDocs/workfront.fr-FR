@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Intégrer  [!DNL Workfront Proof]  à Basecamp Classic
-description: Si vous utilisez  [!DNL Basecamp]  pour la gestion de projets, vous pouvez proposer à votre équipe de projet des outils de révision et d’approbation plus riches à l’aide de  [!DNL Workfront Proof].
+title: Intégration de [!DNL Workfront Proof] à Basecamp Classic
+description: Si vous utilisez [!DNL Basecamp] pour la gestion de projets, vous pouvez proposer à votre équipe de projet des outils de révision et d’approbation plus riches à l’aide de [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+TQID: 'https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 100%
-
+source-wordcount: '801'
+ht-degree: 99%
 ---
-
 # Intégrer [!DNL Workfront Proof] à [!DNL Basecamp Classic]
 
 >[!IMPORTANT]
@@ -89,7 +97,7 @@ Après avoir configuré les [Paramètres du compte](https://support.workfront.co
 >
 >Il est plus facile de suivre ces étapes si votre session [!DNL Basecamp] est ouverte dans une fenêtre de navigateur et que votre session [!DNL Workfront Proof] est ouverte dans une autre.
 
-* [Récupérer votre jeton API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
+* [Récupérer votre jeton API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token)
 * [Ajouter votre jeton API  [!DNL Basecamp]  à vos paramètres personnels](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Récupérer votre jeton API [!DNL Basecamp]
@@ -117,7 +125,7 @@ Pour coller le jeton API [!DNL Basecamp] dans vos [Paramètres personnels](http
    L’équipe d’administration doit d’abord activer l’intégration de [!DNL Basecamp Classic] pour activer vos paramètres personnels. Pour plus d’informations sur la configuration de l’intégration, voir [Activation de l’intégration  [!DNL Basecamp]  avec  [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) dans cet article.
 
 1. Dans la zone Jeton API [!DNL Basecamp] (2), collez le jeton que vous venez de copier à partir de votre page [!UICONTROL Mes informations] [!DNL Basecamp] dans le champ (3).\
-   Pour plus d’informations sur la copie de votre jeton API [!DNL Basecamp], voir [Récupération de votre jeton API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token) dans cet article.
+   Pour plus d’informations sur la copie de votre jeton API [!DNL Basecamp], voir [Récupération de votre jeton API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token) dans cet article.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** (4).
 

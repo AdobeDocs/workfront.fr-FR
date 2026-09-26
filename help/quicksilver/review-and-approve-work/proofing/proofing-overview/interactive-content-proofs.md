@@ -6,18 +6,24 @@ description: Le contenu interactif fournit plusieurs méthodes pour interagir av
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-TQID: https://experienceleague.adobe.com/y8EiNqvee6b7TAcYVxDMudQgy0njwI0EKG3EvKE-OSQ
+TQID: 'https://experienceleague.adobe.com/y8EiNqvee6b7TAcYVxDMudQgy0njwI0EKG3EvKE-OSQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '604'
 ht-degree: 100%
-
 ---
-
 # Vue d’ensemble des épreuves de contenu interactif
 
 <!-- Audited: 01/2024 -->
@@ -53,10 +59,10 @@ Vous pouvez créer une épreuve pour le contenu interactif de l’une des maniè
 
 Lorsque vous regroupez du contenu interactif dans un fichier ZIP à des fins de relecture, assurez-vous qu’il comprend les spécifications suivantes :
 
-* Toutes les ressources, telles que CSS, JavaScript, vidéos, sons et images, doivent être incluses dans le fichier de lot.
+* Toutes les ressources, telles que CSS, JavaScript, vidéos, sons et images, doivent être incluses dans le fichier de bundle.
 * Le contenu interactif doit inclure le fichier principal (index.html, index.htm). Si ce fichier n’est pas placé à l’emplacement racine, l’outil recherche automatiquement le dossier pour le trouver. Le fichier principal n’a pas besoin d’être nommé index.html/index.htm, cependant, un seul fichier .html/.htm peut être placé à l’emplacement principal.
 * Le fichier doit contenir au moins une page web de fichier statique.
-* La taille maximale du fichier est de 500 Mo.
+* La taille maximale du bundle est de 500 Mo.
 * Dans le cas de fichiers .zip créés dans iOS, l’outil identifie automatiquement le dossier dans lequel se trouve le contenu.
 * Les projets interactifs sont pris en charge uniquement en tant qu’archives .zip. Les envois de fichiers .zip standard échoueront.
 * Le site web doit être sécurisé (HTTPS).
@@ -73,7 +79,7 @@ Lorsque vous regroupez du contenu interactif dans un fichier ZIP à des fins de 
 
 ## À propos de la création d’une épreuve interactive
 
-Une fois que vous avez préparé votre fichier de lot ZIP, créez une épreuve interactive.
+Une fois que vous avez préparé votre fichier de bundle ZIP, créez une épreuve interactive.
 
 Pour plus d’informations, consultez [Créer une épreuve pour le contenu interactif dans un fichier ZIP](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 

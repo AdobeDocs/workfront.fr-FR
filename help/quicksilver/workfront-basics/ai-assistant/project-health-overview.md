@@ -5,28 +5,33 @@ description: La fonctionnalité d’intégrité du projet utilise la puissance d
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
+TQID: 'https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: '2100'
 ht-degree: 4%
-
 ---
-
 # Vue d’ensemble de l’intégrité du projet
 
 >[!IMPORTANT]
 >
->* À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation pour effectuer le travail. Pour plus d’informations sur CX Coworker, voir [Présentation de CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d’informations sur CX Coworker, consultez la présentation de [CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* La fonctionnalité d’intégrité du projet est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta.
 
 La fonctionnalité d’intégrité des projets d’Adobe Workfront utilise la puissance de l’assistant d’IA pour vous donner instantanément une évaluation des performances de vos projets, des domaines nécessitant votre attention et de la manière d’éviter les problèmes qui peuvent vous coûter du temps et de l’argent.

@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+TQID: 'https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 98%
-
+source-wordcount: '1722'
+ht-degree: 99%
 ---
-
 # Activité de la version 2018.2 Beta 4
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 4. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
@@ -145,7 +151,7 @@ La visionneuse de relecture de bureau comprend les améliorations suivantes par 
 
   La visionneuse de relecture héritée ne prenait pas en charge l’examen des sites qui sont protégés contre l’affichage dans un iframe.
 
-* Affichez le contenu avec des résolutions préconfigurées pour divers appareils. Par exemple, vous pouvez voir comment le contenu s’affiche sur différentes résolutions de bureau standard ou sur des appareils individuels tels qu’un iPhone 8. 
+* Affichez le contenu avec des résolutions préconfigurées pour différents appareils. Vous pouvez, par exemple, voir comment le contenu s’affiche dans différentes résolutions de bureau standard ou sur des appareils individuels tels que l’iPhone 8. 
 
 Pour plus d’informations sur le téléchargement, l’installation et l’utilisation de la visionneuse de relecture de bureau, voir .
 

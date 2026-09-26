@@ -7,25 +7,31 @@ description: La section Mises à jour d’un objet affiche les commentaires que 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 71%
-
 ---
-
 # Vue d’ensemble de la section Mises à jour
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Il existe des différences dans l’affichage des commentaires et des mises à j
 
 * Les objets suivants présentent des expériences similaires dans les trois onglets de la section Mises à jour :
 
-   * Projets
-   * Tâches
-   * Problèmes
-   * Programmes
-   * Portefeuilles
-   * Utilisateurs et utilisatrices
-   * Feuilles de temps
+  * Projets
+  * Tâches
+  * Problèmes
+  * Programmes
+  * Portefeuilles
+  * Utilisateurs et utilisatrices
+  * Feuilles de temps
 
 * Les objets suivants n’ont pas d’onglet Activité du système ou Tous et l’expérience dans l’onglet Commentaires correspond à celle de tous les autres objets :
 
-   * Equipe
-   * Modèle
-   * Tâche de modèle
+  * Equipe
+  * Modèle
+  * Tâche de modèle
 
 * Les objets suivants n’ont pas d’onglet Activité du système ni d’onglet Tout et l’expérience dans l’onglet Commentaires diffère de celle de tous les autres objets :
 
-   * Itérations
-   * Cartes ad hoc dans la zone Tableaux
+  * Itérations
+  * Cartes ad hoc dans la zone Tableaux
 
-     Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+    Pour plus d’informations sur les mises à jour des cartes, voir [Ajouter une carte ad hoc à un panorama](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * Les objets suivants ont un onglet Activité du système et ils n’ont pas d’onglet Tous :
 
-   * Cartes connectées dans la zone Tableaux
+  * Cartes connectées dans la zone Tableaux
 
-     Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+    Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Les objets suivants comportent un onglet Historique qui remplace l’onglet Activité du système :
 
-   * Enregistrements dans Workfront Planning
+  * Enregistrements dans Workfront Planning
 
-     Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
+    Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Les objets suivants n’ont pas d’onglet Tous et l’expérience de l’onglet Commentaires correspond à celle de la plupart des objets :
 
-   * Objectifs
+  * Objectifs
 
-     Pour plus d’informations sur les mises à jour des objectifs, voir [Gérer des commentaires d’objectif](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    Pour plus d’informations sur les mises à jour des objectifs, voir [Gérer des commentaires d’objectif](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -214,9 +220,9 @@ The following objects don't record system updates:
 * Iterations
 -->
 
-## Mises à jour apparaissant également sur les objets de niveau supérieur
+## Mises à jour apparaissant également sur les objets de  supérieur
 
-Les commentaires, les réponses ou les mises à jour système de certains objets apparaissent également dans la section Mises à jour d’objets de niveau supérieur.
+Les commentaires, les réponses ou les mises à jour système de certains objets apparaissent également dans la section Mises à jour d’objets de  supérieur.
 
 Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour s’affiche dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
 
@@ -228,7 +234,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
  <thead> 
   <tr> 
    <th><strong>Objet où la mise à jour d’origine a été ajoutée</strong> </th> 
-   <th> <p><strong>Objet de niveau supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
+   <th> <p><strong>Objet de  supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -324,19 +330,19 @@ Tenez compte des points suivants lors de l’affichage des mises à jour pour le
 
 * La section Mises à jour pour les équipes est renseignée par des commentaires ajoutés aux objets suivants :
 
-   * Utilisateurs et utilisatrices
-   * Histoires
-   * Feuilles de temps
-   * Itérations
+  * Utilisateurs et utilisatrices
+  * Histoires
+  * Feuilles de temps
+  * Itérations
 
 * L’onglet Mises à jour système de la zone Mises à jour pour les utilisateurs est renseigné par les mises à jour d’autres objets. Voici des mises à jour qui s’affichent dans l’onglet Mises à jour système du profil de l’utilisateur, lorsque ces champs sont suivis dans la zone Flux de mises à jour de la configuration :
 
-   * Ajout, suppression et autres mises à jour de documents
-   * Ajout, suppression, ajout au nom de et autres mises à jour de saisie d&#39;heures
-   * Mises à jour des champs personnalisés
-   * Mises à jour du profil utilisateur (mises à jour de l’avatar de l’utilisateur, du numéro de mobile, du champ « Me parler » et du titre)
-   * Ajout utilisateur, suppression, modification du niveau d&#39;accès, modifications des champs utilisateur intégrés
-   * Informations financières des tâches et projets.
+  * Ajout, suppression et autres mises à jour de documents
+  * Ajout, suppression, ajout au nom de et autres mises à jour de saisie d&#39;heures
+  * Mises à jour des champs personnalisés
+  * Mises à jour du profil utilisateur (mises à jour de l’avatar de l’utilisateur, du numéro de mobile, du champ « Me parler » et du titre)
+  * Ajout utilisateur, suppression, modification du niveau d&#39;accès, modifications des champs utilisateur intégrés
+  * Informations financières des tâches et projets.
 
 ### Limites lors de la saisie de commentaires au nom d’un autre utilisateur ou d’une autre utilisatrice
 

@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+TQID: 'https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1450'
 ht-degree: 63%
-
 ---
-
 # Créer un programme
 
 <!-- Audited: 05/2026-->
@@ -38,7 +45,7 @@ ht-degree: 63%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-Un programme représente un ensemble de projets qui partagent une stratégie, un objectif ou un objectif commun qui transcende les limites du projet.
+Un programme représente un ensemble de projets qui partagent une stratégie ou un objectif commun qui transcende les limites du projet.
 Les programmes sont une subdivision des portefeuilles et ils ne peuvent pas exister en dehors d&#39;un portefeuille. Les programmes partagent généralement les mêmes ressources que les autres programmes du même portefeuille.
 
 Vous pouvez créer des programmes pour organiser vos portefeuilles lorsqu’ils deviennent trop volumineux.
@@ -121,10 +128,10 @@ Vous pouvez créer un programme dans Workfront à l’aide de l’une des métho
 
 * Pour créer des programmes à partir de Workfront Planning, procédez comme suit :
 
-   * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
+  * Lorsque vous les connectez à partir d’un type d’enregistrement dans Workfront Planning.
 
   Pour plus d&#39;informations sur la création de programmes en les ajoutant à des enregistrements, reportez-vous à la section « Créer des enregistrements au fur et à mesure que vous les connectez » de l&#39;article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-   * Utilisation des automatisations de Workfront Planning.
+  * Utilisation des automatisations de Workfront Planning.
 
   Pour plus d’informations, voir [Création d’objets à l’aide des automatisations d’enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -140,21 +147,21 @@ Vous pouvez créer un programme dans Workfront à l’aide de l’une des métho
 
    * Créez un programme à partir de la zone [!UICONTROL Programmes] :
 
-      1. Cliquez sur **[!UICONTROL Programmes]** dans le [!DNL **Menu principal**] ![Menu principal](assets/lines-main-menu.png).
-      1. Cliquez sur **[!UICONTROL Nouveau programme]**.
-      1. Dans la zone qui s’affiche, saisissez le nom d’un portfolio existant dans le champ **[!UICONTROL Sélectionner un portfolio]**.
-      1. Saisissez le nom du nouveau programme dans le champ **[!UICONTROL Nom]**.
-      1. Cliquer sur **[!UICONTROL Enregistrer]**.
+     1. Cliquez sur **[!UICONTROL Programmes]** dans le [!DNL **Menu principal**] ![Menu principal](assets/lines-main-menu.png).
+     1. Cliquez sur **[!UICONTROL Nouveau programme]**.
+     1. Dans la zone qui s’affiche, saisissez le nom d’un portfolio existant dans le champ **[!UICONTROL Sélectionner un portfolio]**.
+     1. Saisissez le nom du nouveau programme dans le champ **[!UICONTROL Nom]**.
+     1. Cliquer sur **[!UICONTROL Enregistrer]**.
    * Créez un programme à partir de la zone [!UICONTROL Portfolios] :
 
-      1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!DNL **Menu principal**] ![Menu principal](assets/lines-main-menu.png), puis ouvrez un portfolio.
-      1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Programmes]**.
-      1. Cliquez sur le menu déroulant **[!UICONTROL Nouveau programme]**, puis sur **[!UICONTROL Nouveau programme]**.
+     1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!DNL **Menu principal**] ![Menu principal](assets/lines-main-menu.png), puis ouvrez un portfolio.
+     1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Programmes]**.
+     1. Cliquez sur le menu déroulant **[!UICONTROL Nouveau programme]**, puis sur **[!UICONTROL Nouveau programme]**.
    * Ajouter un programme existant :
-      1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!DNL **Menu principal**] ![Menu principal](assets/lines-main-menu.png), puis ouvrez un portfolio.
-      1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Programmes]**.
-      1. Cliquez sur le menu déroulant **[!UICONTROL Nouveau programme]** puis **[!UICONTROL Programme existant]**.
-      1. Commencez à saisir le nom d’un programme existant ou cliquez sur le menu déroulant et sélectionnez-le dans la liste.
+     1. Cliquez sur **[!UICONTROL Portfolios]** dans le [!DNL **Menu principal**] ![Menu principal](assets/lines-main-menu.png), puis ouvrez un portfolio.
+     1. Dans le panneau de gauche, cliquez sur **[!UICONTROL Programmes]**.
+     1. Cliquez sur le menu déroulant **[!UICONTROL Nouveau programme]** puis **[!UICONTROL Programme existant]**.
+     1. Commencez à saisir le nom d’un programme existant ou cliquez sur le menu déroulant et sélectionnez-le dans la liste.
 
      >[!NOTE]
      >

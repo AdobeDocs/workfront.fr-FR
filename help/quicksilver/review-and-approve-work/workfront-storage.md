@@ -6,13 +6,27 @@ description: Planifiez le déploiement de Workfront sur l’espace de stockage c
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2966'
 ht-degree: 1%
-
 ---
-
 # Passer à Workfront sur l’espace de stockage dans le cloud Adobe
 
 Le stockage dans le cloud Workfront sur Adobe offre une expérience de révision et d’approbation entièrement unifiée : révisions dans la visionneuse Frame.io, workflows d’approbation puissants, visibilité des ressources sur l’ensemble des produits, etc.

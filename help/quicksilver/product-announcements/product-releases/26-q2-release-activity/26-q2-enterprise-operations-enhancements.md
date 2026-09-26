@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 7%
-
+source-wordcount: '1381'
+ht-degree: 6%
 ---
-
 # Améliorations apportées aux opérations d’entreprise du deuxième trimestre 2026
 
 Cette page décrit les améliorations apportées aux opérations d’entreprise dans l’environnement Aperçu de la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -23,8 +30,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : 2 avril 2026
->Version rapide de production : jeudi 15 avril 2026
->Production pour tous : vendredi 16 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Les fonctionnalités d’exploitation d’entreprise avancées d’Adobe Workfront sont un moyen unifié et évolutif de gérer les finances, les projets et l’accès à l’entreprise. Ces fonctionnalités offrent la visibilité et le contrôle dont les entreprises ont besoin pour fonctionner de manière rentable et efficace.
 
@@ -36,7 +43,7 @@ Les fonctionnalités d’exploitation d’entreprise avancées d’Adobe Workfro
 
 Prévoyez, suivez et optimisez vos finances avec des hiérarchies de coûts et de taux de facturation à plusieurs niveaux.
 
-[Regardez une vidéo de démonstration de 13 minutes des fonctionnalités avancées de gestion financière.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[Visionnez une vidéo de démonstration de 13 minutes des fonctionnalités avancées de gestion financière.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 Les améliorations apportées à la gestion financière sont les suivantes :
 
@@ -86,7 +93,7 @@ Utilisez des **instantanés de projet** pour gérer les projets plus efficacemen
 
 Pour plus d’informations, voir [Création et affichage d’instantanés de projet](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
-[Visionnez une démonstration vidéo d’instantanés de projet.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+[Visionnez une vidéo de démonstration des instantanés de projet.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
 >[!NOTE]
 >
@@ -115,7 +122,7 @@ En outre, les autorisations d’affichage des données de coût et de facturatio
 
 La logique avancée des formulaires personnalisés offre des informations plus claires et une gestion de projet et financière plus précise.
 
-[Regardez une vidéo de démonstration des améliorations apportées aux champs et aux formulaires personnalisés.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
+[Regardez une vidéo présentant les améliorations apportées aux champs et aux formulaires personnalisés .](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 Les améliorations apportées aux formulaires personnalisés sont les suivantes :
 
@@ -128,9 +135,9 @@ Les améliorations apportées aux formulaires personnalisés sont les suivantes 
   >Les nouveaux types de logique ne sont disponibles que pour les organisations qui utilisent les packages Workflow Prime ou Ultimate.
 
 * Améliorations de l’interface du concepteur de formulaires :
-   * Le nom du formulaire s’affiche désormais dans le coin supérieur gauche du concepteur et vous permet de voir le nom d’un formulaire long lorsque vous le faites défiler.
-   * Les types d’objets que le formulaire peut joindre se trouvent dans une liste déroulante.
-   * Vous pouvez choisir d’afficher ou de masquer les indicateurs logiques sur les champs, pour tous les types logiques. Les types de logique Afficher et Ignorer affichent des indicateurs pour les deux champs concernés. Tous les autres types de logique affectent un champ.
+  * Le nom du formulaire s’affiche désormais dans le coin supérieur gauche du concepteur et vous permet de voir le nom d’un formulaire long lorsque vous le faites défiler.
+  * Les types d’objets que le formulaire peut joindre se trouvent dans une liste déroulante.
+  * Vous pouvez choisir d’afficher ou de masquer les indicateurs logiques sur les champs, pour tous les types logiques. Les types de logique Afficher et Ignorer affichent des indicateurs pour les deux champs concernés. Tous les autres types de logique affectent un champ.
 
   Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -165,7 +172,7 @@ Dans les modèles de disposition, vous pouvez personnaliser les en-têtes et les
 
 Pour plus d’informations, voir [Créer et gérer des modèles de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-[Regardez une vidéo de démonstration des améliorations apportées au modèle de mise en page.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[Regardez une vidéo de démonstration des améliorations apportées au modèle de disposition .](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### Localisation personnalisée
 

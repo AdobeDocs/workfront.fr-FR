@@ -6,18 +6,21 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+TQID: 'https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 98%
-
+source-wordcount: '928'
+ht-degree: 100%
 ---
-
 # Notifications : informations diverses
 
 Les notifications suivantes vous alertent sur les activités qui se produisent sur un projet que vous sponsorisez.
@@ -68,7 +71,7 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Instantané</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Une personne est ajoutée à un projet.</strong> </p> <p>Un responsable reçoit une notification par e-mail lorsqu’un de ses utilisateurs est ajouté à un projet. Cette notification est envoyée quel que soit le statut du projet. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail est le suivant : <em>Affectaion de projet : &lt;User Name&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
+   <td> <p><strong>Une personne est ajoutée à un projet.</strong> </p> <p>Une personne gestionnaire reçoit une notification par e-mail lorsqu’une personne de ses collaborateurs ou collaboratrices est ajoutée à un projet. Cette notification est envoyée quel que soit le statut du projet. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail est le suivant : <em>Affectaion de projet : &lt;User Name&gt;[&lt;Project GUID&gt;_ &lt;User GUID&gt;]</em></p> </td> 
    <td> <p>Nom du projet<br>Nom du portfolio<br>Numéro de référence du projet<br>Nom de la personne ayant ajouté la personne au projet<br>Nom de la personne ajoutée au projet<br>[!UICONTROL Planned Start Date] du projet<br>[!UICONTROL Planned Completion Date] du projet<br>Pourcentage terminé du projet <br>Noms d’autres personnes sur le projet<br>Statut du projet<br>Personne propriétaire du projet<br><strong>Bouton [!UICONTROL See More Details]</strong><br><br><br></p> </td> 
    <td><strong>Instantané</strong> </td> 
   </tr> 

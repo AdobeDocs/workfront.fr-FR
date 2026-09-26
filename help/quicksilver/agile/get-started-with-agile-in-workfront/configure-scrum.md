@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+TQID: 'https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1727
+source-wordcount: '1727'
 ht-degree: 73%
-
 ---
-
 # Configurer [!UICONTROL Scrum]
 
 Vous pouvez créer une équipe Agile dans [!DNL Adobe Workfront] comme décrit dans la section [Créer une équipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Lors de la création d’une équipe Agile, vous pouvez choisir la méthodologie que l’équipe utilise pour terminer son travail. Vous pouvez choisir parmi les options suivantes :
@@ -204,11 +212,11 @@ Pour modifier le comportement de l’affectation des couleurs aux articles pour 
    * **[!UICONTROL Formulaire libre]** : toutes les cartes sont affichées en bleu par défaut jusqu’à ce que quelqu’un modifie manuellement la couleur, comme décrit dans [[!UICONTROL Catégoriser les histoires par couleur] sur le panorama Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Priorité]** : les couleurs sont associées à la priorité de l’histoire, comme suit :
 
-      * Élevée = Rouge
-      * Moyenne = Jaune
-      * Faible = Vert
+     * Élevée = Rouge
+     * Moyenne = Jaune
+     * Faible = Vert
 
-        Si votre administrateur ou administratrice système a configuré des priorités personnalisées pour votre système [!DNL Workfront], la priorité la plus élevée est le rouge, la seconde le jaune et la troisième le vert.
+       Si votre administrateur ou administratrice système a configuré des priorités personnalisées pour votre système [!DNL Workfront], la priorité la plus élevée est le rouge, la seconde le jaune et la troisième le vert.
    * **[!UICONTROL Propriétaire de la tâche]** : toutes les histoires ayant le même cessionnaire principal ou la même cessionnaire principale sont de la même couleur. Le cessionnaire principal ou la cessionnaire principale est la personne qui a été affectée en premier à la tâche.
 
 1. Cliquez sur **[!UICONTROL Enregistrer les modifications]**.

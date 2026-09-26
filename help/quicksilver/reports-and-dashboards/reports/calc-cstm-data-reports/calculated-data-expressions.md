@@ -9,26 +9,33 @@ feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0
+TQID: 'https://experienceleague.adobe.com/a2yfues0ClR-ZnG1Vo5foOuzaw6d3yiGlU33DUt0Kx0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2553
+source-wordcount: '2553'
 ht-degree: 98%
-
 ---
-
 # Vue d’ensemble des expressions de données calculées
 
 <!--Audited: 12/2023-->
@@ -151,7 +158,7 @@ Vous pouvez créer un champ personnalisé calculé par date ou heure à l’aide
    <td> <p>Ajoute le nombre d’heures à la date et est au format suivant :</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Remarque : cette expression n’est pas prise en charge dans Workfront Planning.</p></td> 
+   <p>Remarque : cette expression n’est pas prise en charge dans la planification Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -472,7 +479,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <p>Les options de couleur sont $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, et les autres options de mise en forme sont $$BOLD, $$ITALIC, $$UNDERLINE. Une seule option de couleur est autorisée, ainsi que trois autres options de mise en forme. Si aucune option de couleur n’est spécifiée, la couleur par défaut du système est appliquée.</p>
    <p>L’expression est au format suivant :</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Remarque : cette expression n’est pas prise en charge dans Workfront Planning.</p></td> 
+   <p>Remarque : cette expression n’est pas prise en charge dans la planification Workfront.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -591,7 +598,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <p>L’expression est au format suivant :</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>Par exemple, ["-12.6", -13.0] devient ["-12.6", "-13"].</p>
-   <p>Remarque : cette expression n’est pas prise en charge dans Workfront Planning.</p></td> 
+   <p>Remarque : cette expression n’est pas prise en charge dans la planification Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -599,7 +606,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <p>L’expression est au format suivant :</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>Par exemple, ["-12.6", -13.0] devient ["-13", "-12.6"].</p>
-   <p>Remarque : cette expression n’est pas prise en charge dans Workfront Planning.</p></td> 
+   <p>Remarque : cette expression n’est pas prise en charge dans la planification Workfront.</p></td> 
   </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
@@ -628,7 +635,7 @@ Vous pouvez créer un champ personnalisé calculé qui affiche une valeur au for
    <td> <p>Évalue l’expression par rapport à une liste de valeurs et renvoie le résultat correspondant à la première valeur correspondante.</p>
    <p>L’expression est au format suivant :</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Cette expression n’est pas prise en charge dans Workfront Planning.</p></td> 
+   <p>Cette expression n’est pas prise en charge dans la planification Workfront.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
