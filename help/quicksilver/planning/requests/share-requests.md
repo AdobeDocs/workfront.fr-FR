@@ -5,10 +5,24 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 8%
+source-wordcount: '592'
+ht-degree: 7%
 ---
 # Demandes de partage de Planning
 
@@ -86,6 +100,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Différentes personnes et équipes peuvent détenir différents niveaux d’accès sur la même requête.
 * Les autorisations peuvent être attribuées par le biais de plusieurs entités. Si un utilisateur dispose des autorisations de niveau Contribution pour accéder à une demande, mais que son groupe ou sa fonction dispose des autorisations de niveau Affichage, il conserve le niveau d&#39;autorisation le plus élevé, à savoir Contribution.
+* Les requêtes héritent des autorisations de l’espace de travail et du type d’enregistrement. Vous ne pouvez pas supprimer ni modifier les autorisations héritées pour les demandes Planning.
 
 ## Partage d’une requête
 
@@ -110,7 +125,14 @@ Assurez-vous d’utiliser la nouvelle expérience de requête.
 1. (Facultatif) Pour chaque niveau d’autorisation, cliquez sur l’icône d’autorisation granulaire et sélectionnez ou désélectionnez les autorisations granulaires, telles que **Modifier**, **Commenter**, **Partager** ou **Supprimer**.
 
    ![Autorisations granulaires sur les requêtes](assets/granular-permissions-on-requests.png)
+1. (Facultatif) Développez la ligne Autorisations héritées pour voir qui obtient les autorisations de l’espace de travail et le type d’enregistrement.
+
+   >[!TIP]
+   >
+   >Vous ne pouvez pas supprimer ni modifier les autorisations héritées pour les demandes Planning.
+
 1. Cliquer sur **Enregistrer**.
+
 
    La demande est partagée avec les entités que vous avez sélectionnées.
 

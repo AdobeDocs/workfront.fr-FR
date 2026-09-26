@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 9%
-
 ---
-
 # Octroi de l’accès aux autorisations de marque
 
 Les utilisateurs se voient accorder les autorisations de création, de modification et de publication de marque des responsables système d’Adobe GenStudio lorsqu’ils sont ajoutés à un groupe d’utilisateurs.
@@ -55,7 +62,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 * Les approbations unifiées doivent être activées pour votre instance Workfront.
 
 * Votre organisation doit disposer de GenStudio Foundation.
-   * Content Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès à la fonctionnalité GenStudio Foundation par l’intermédiaire de l’analyseur de contenu est soumis aux conditions de votre contrat Workfront.
+  * AI Reviewer dans Workfront fournit les fonctionnalités disponibles dans GenStudio Foundation pour les workflows de révision et d’approbation de ressources. Vous n’avez pas besoin d’accéder directement à GenStudio Foundation pour terminer votre travail. Votre accès aux fonctionnalités de GenStudio Foundation par le biais de l’IA Reviewer est soumis aux conditions de votre contrat Workfront.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
 Pour plus d’informations sur la signature du contrat, voir [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -147,4 +154,4 @@ Pour accorder l’accès aux marques dans les niveaux d’accès Workfront :
    ![paramètre autoriser l’accès aux marques](assets/access-for-brands.png)
 1. Cliquez sur **Enregistrer**.
 
-Une fois que vous avez configuré les marques, vous pouvez créer un réviseur de contenu pour réviser les ressources en fonction des directives de la marque dans le workflow de révision et d’approbation. Pour plus d’informations, voir [Configuration des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+Une fois que vous avez configuré les marques, vous pouvez créer un réviseur de l’IA pour réviser les ressources en fonction des directives de la marque dans le workflow de révision et d’approbation. Pour plus d’informations, voir [Configuration des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).

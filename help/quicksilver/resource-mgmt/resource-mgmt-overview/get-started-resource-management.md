@@ -10,26 +10,34 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 88%
-
 ---
-
 # Commencer avec la gestion des ressources
 
 <!-- Audited: 12/2023 -->
@@ -64,7 +72,7 @@ Workfront comporte plusieurs ensembles d’outils utilisés pour gérer les ress
 
 * Pour planifier ou affecter des ressources à un travail effectif (tâches et problèmes), utilisez l’outil suivant :
 
-  * **Équilibreur de charge de travail** : il s’agit d’une étape inférieure de la gestion des ressources, dans laquelle vous pouvez affecter vos ressources au travail effectif (tâches et problèmes) qu’elles doivent faire, en fonction du nombre d’heures nécessaires pour le terminer et de leur disponibilité. L&#39;équilibreur de charge de travail vous permet d&#39;affecter des utilisateurs ou des collaborateurs de tâches au travail réel qui n&#39;est actuellement pas affecté ou qui est affecté à des fonctions.
+  * **Équilibreur de charge de travail** : il s’agit d’une étape inférieure de la gestion des ressources, dans laquelle vous pouvez affecter vos ressources au travail effectif (tâches et problèmes) qu’elles doivent faire, en fonction du nombre d’heures nécessaires pour le terminer et de leur disponibilité. L’équilibreur de charge de travail vous permet d’affecter des utilisateurs ou des agents de travail au travail réel qui n’est actuellement pas affecté ou qui est affecté à des fonctions.
 
     Pour plus d’informations sur l’équilibreur Workfront, consultez [Équilibreur de charge de travail : index des articles](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
@@ -109,8 +117,8 @@ Le processus de gestion des ressources dans Workfront comprend les étapes suiva
   * Fonctions\
     Pour plus d’informations sur la création de fonctions, consultez l’article [Créer et gérer des fonctions](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-  * Collaborateurs de la tâche
-    Pour plus d’informations sur la création de collaborateurs de tâches, voir [Configurer un collaborateur de tâches](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) dans l’article [Configurer des collaborateurs de l’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  * Agents de travail
+    Pour plus d’informations sur la création d’agents de travail, consultez [Configurer un agent de travail](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) dans l’article [Configurer des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
   * Plannings\
     Pour plus d’informations sur la création de plannings, consultez l’article [Créer un planning](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
