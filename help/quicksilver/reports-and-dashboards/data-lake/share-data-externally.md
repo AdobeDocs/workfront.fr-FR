@@ -9,28 +9,33 @@ feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pPk3qt9-o3QhAajyI4eGhwe0J2tRphXDstrJxmdW8Ww
+TQID: 'https://experienceleague.adobe.com/pPk3qt9-o3QhAajyI4eGhwe0J2tRphXDstrJxmdW8Ww'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1489
+source-wordcount: '1489'
 ht-degree: 4%
-
 ---
-
 # Établir une connexion à Workfront Data Connect
 
 Workfront Data Connect vous permet d’utiliser les données Workfront de votre organisation avec des outils de Business Intelligence ou de les stocker dans un entrepôt de données externe.
 
-Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée &#x200B;](#add-ips-to-the-allowlist) ci-dessous.
+Pour connecter votre lac de données Data Connect à un produit externe, vous devez d’abord créer une connexion comme décrit dans la section [Création d’un compte de lecteur ou d’une connexion pour Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Vous devez ensuite ajouter les adresses IP requises à la place sur la liste autorisée de données, comme décrit dans la section [Ajouter des adresses IP à la liste autorisée ](#add-ips-to-the-allowlist) ci-dessous.
 
 La plupart des produits nécessitent les informations suivantes sur votre lac de données pour établir une connexion :
 
@@ -151,7 +156,7 @@ Pour collecter des plages d’adresses IP à partir de Microsoft et les ajouter 
 
 1. Sous chaque objet correspondant, recherchez le tableau nommé `addressPrefixes`. Chaque chaîne de ce tableau est un bloc CIDR (par exemple, `20.59.79.96/27` ou un préfixe IPv6). Il s’agit des valeurs que vous ajouterez à votre Workfront placer sur la liste autorisée.
 
-1. Ajoutez chaque CIDR à la Workfront placer sur la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la place sur la liste autorisée &#x200B;](#add-ips-to-the-allowlist) dans cet article. Patientez quelques minutes pour la propagation des politiques si votre environnement met les règles en cache.
+1. Ajoutez chaque CIDR à la Workfront placer sur la liste autorisée, comme décrit dans la section [Ajout d’adresses IP à la place sur la liste autorisée ](#add-ips-to-the-allowlist) dans cet article. Patientez quelques minutes pour la propagation des politiques si votre environnement met les règles en cache.
 
 1. À partir de Power BI ou de Power Query Online, exécutez une petite requête de test sur Data Connect pour valider la connexion. En cas d’échec, capturez l’heure approximative et demandez à votre équipe réseau si les refus s’alignent sur les plages manquantes. Vérifiez à nouveau si vous avez manqué `PowerQueryOnline` lorsque seul le `PowerBI` a été ajouté, ce qui est un écart courant.
 

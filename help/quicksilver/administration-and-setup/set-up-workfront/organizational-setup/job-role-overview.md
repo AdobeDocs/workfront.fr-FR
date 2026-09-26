@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+TQID: 'https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 99%
-
 ---
-
 # Vue d’ensemble de la fonction
 
 Une fonction représente une capacité fonctionnelle ou un ensemble de compétences qu’un utilisateur ou une utilisatrice peut remplir. Cet article décrit les différentes utilisations des fonctions dans [!DNL Adobe Workfront].
@@ -48,24 +56,24 @@ Vous pouvez utiliser des fonctions aux fins suivantes :
 
   Par exemple, nous vous recommandons d’associer des tâches à des fonctions lors de la création de modèles, lorsqu’on ne sait pas encore vraiment quel utilisateur ou quelle utilisatrice pourrait être affecté ultérieurement au travail effectif. Pour plus d’informations, voir les articles suivants :
 
-   * [Créer un modèle de projet](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Attribuer des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-   * [Attribuer des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md)
+  * [Créer un modèle de projet](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Attribuer des tâches](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
+  * [Attribuer des problèmes](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * Vous pouvez associer des fonctions à des processus d’approbation de projet, de tâche ou de problème, et tous les utilisateurs et toutes les utilisatrices pouvant remplir la fonction peuvent prendre une décision sur l’approbation. Pour plus d’informations, voir [Créer un processus d’approbation pour les éléments de travail](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * Vous pouvez partager les objets suivants avec des fonctions :
 
-   * Projets
-   * Tâches
-   * Problèmes
-   * Portefeuilles
-   * Programmes
-   * Modèles
-   * Tâches de modèles
-   * Rapports
-   * Tableaux de bord
+  * Projets
+  * Tâches
+  * Problèmes
+  * Portefeuilles
+  * Programmes
+  * Modèles
+  * Tâches de modèles
+  * Rapports
+  * Tableaux de bord
 
-     Pour plus d’informations sur le partage d’objets, voir [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Pour plus d’informations sur le partage d’objets, voir [Vue d’ensemble des autorisations de partage sur les objets](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * Vous pouvez associer des fonctions aux règles de routage lors de la création de files d’attente de demandes. Pour plus d’informations, voir [Créer des règles de routage](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 * Vous pouvez attribuer des modèles de mise en page à des fonctions. Toute personne ayant vu la fonction lui être assignée comme rôle principal peut afficher [!DNL Workfront] selon le modèle de mise en page affecté.

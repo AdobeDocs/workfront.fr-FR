@@ -7,20 +7,27 @@ description: Si votre organisation utilise Adobe Workfront pour saisir les heur
 author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-TQID: https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE
+TQID: 'https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '344'
 ht-degree: 100%
-
 ---
-
 # Suivre les relevés d’heures avec l’API Adobe Workfront
 
 Si votre organisation utilise Adobe Workfront pour saisir les heures travaillées, mais utilise un autre outil comme système d’enregistrement pour ces données, vous pouvez utiliser l’API Workfront pour synchroniser les données entre les deux systèmes.
@@ -32,11 +39,11 @@ Après avoir récupéré un jeu initial de toutes les heures actuelles dans le s
 
 * **changeType :** type de modification apportée à l’objet :
 
-   * **A :** ajouter
+  * **A :** ajouter
 
-   * **E :** modifier
+  * **E :** modifier
 
-   * **D :** supprimer
+  * **D :** supprimer
 
 * **aux2 :** nom de la personne pour laquelle l’enregistrement d’heure est destiné.
 

@@ -1,6 +1,6 @@
 ---
 title: Liste des modèles d’espace de travail
-description: Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe. Adobe Workfront Planning s’accompagne d’un ensemble de modèles qui vous aideront à vous familiariser avec les types d’enregistrements et les champs de base lorsque vous créez votre espace de travail.
+description: Un espace de travail est une collection de types d’enregistrements utilisés par une équipe et représente le cycle de vie du travail de l’équipe. La planification Adobe Workfront s’accompagne d’un ensemble de modèles qui vous aideront à vous familiariser avec les types d’enregistrements et les champs de base lorsque vous créez votre espace de travail.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,40 +8,47 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk
+TQID: 'https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 22%
-
 ---
-
 # Liste des modèles d’espace de travail
 
 {{planning-important-intro}}
 
-Dans Adobe Workfront Planning, un espace de travail désigne une collection de types d’enregistrements utilisés par une équipe et représentant le cycle de vie du travail de l’équipe.
+Dans la planification Adobe Workfront, un espace de travail désigne une collection de types d’enregistrements utilisés par une équipe et représentant le cycle de vie du travail de l’équipe.
 
-Workfront Planning s’accompagne d’un ensemble de modèles qui vous aideront à vous familiariser avec les types d’enregistrements et les champs de base lorsque vous créez votre espace de travail. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
+La planification Workfront s’accompagne d’un ensemble de modèles qui vous aideront à vous familiariser avec les types d’enregistrements et les champs de base lorsque vous créez votre espace de travail. Pour plus d’informations sur la création d’espaces de travail, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Cet article décrit les modèles d’espaces de travail disponibles dans Adobe Workfront Planning.
+Cet article décrit les modèles d’espaces de travail disponibles dans la planification Adobe Workfront.
 
-## Considérations relatives aux modèles Adobe Workfront Planning
+## Considérations relatives aux modèles de la planification Adobe Workfront
 
 * Selon le nombre d&#39;espaces de travail que vous créez lors de l&#39;utilisation d&#39;un modèle d&#39;espace de travail Planning, vous pouvez utiliser les types de modèles suivants :
 
-   * Modèles uniques : un modèle crée un espace de travail.
-   * Lot de modèles à plusieurs espaces de travail : le lot de modèles crée 6 espaces de travail interconnectés.
+  * Modèles uniques : un modèle crée un espace de travail.
+  * Lot de modèles à plusieurs espaces de travail : le lot de modèles crée 6 espaces de travail interconnectés.
 * Chaque modèle est fourni avec un ensemble de types d’enregistrements.
 
   Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Les types d’enregistrements de chaque modèle sont des sections organisées.
-* Chaque type d’enregistrement est fourni avec un ensemble de champs. Certains de ces champs sont des connexions à d’autres types d’enregistrements Workfront Planning.
+* Chaque type d’enregistrement est fourni avec un ensemble de champs. Certains de ces champs sont des connexions à d’autres types d’enregistrements de la planification Workfront.
 * Vous pouvez utiliser les modèles pour créer des espaces de travail. Une fois créés, vous pouvez les personnaliser et commencer à ajouter des types d’enregistrements, des champs, des enregistrements et des vues, puis les partager avec d’autres personnes.
 * Les types d’enregistrements de chaque modèle contiennent des exemples d’enregistrements. Vous pouvez les supprimer après avoir créé des espaces de travail à partir du modèle.
 * Une fois les espaces de travail créés à partir de modèles, les responsables d’espace de travail peuvent supprimer des types d’enregistrements, des champs, des vues et des enregistrements.
@@ -108,82 +115,82 @@ Vous trouverez ci-dessous des modèles d’espace de travail dans Workfront Plan
 
   Le modèle Operations Initiative Studio comprend les types d’enregistrements suivants et leurs champs :
 
-   * Initiatives
-   * Flux de travail
-   * Risques et événements
-   * Décisions
-   * Systèmes
-   * Équipes
+  * Initiatives
+  * Flux de travail
+  * Risques et événements
+  * Décisions
+  * Systèmes
+  * Équipes
 * **Communications Planning Studio** : Idée de configurer rapidement un centre de planification des communications. Commencez par dupliquer l’enregistrement du modèle de plan de communications Long ou Court, puis développez votre déploiement en ajoutant des tactiques et en suivant les points de contrôle d’approbation. Audiences, marchés et canaux de référence pour des rapports, un filtrage et une réutilisation cohérents. Inclut des exemples d’enregistrements et des vues prêtes à l’emploi de tableau, de chronologie et de calendrier afin que les équipes puissent explorer immédiatement les fonctionnalités de Planning.
 
   Le modèle Communications Planning Studio comprend les types d&#39;enregistrements suivants et leurs champs :
 
-   * Communications
-   * Audiences
-   * Tactique
-   * Points de contrôle d’approbation
-   * Canaux
-   * Marchés
-   * Rôles des parties prenantes
+  * Communications
+  * Audiences
+  * Tactique
+  * Points de contrôle d’approbation
+  * Canaux
+  * Marchés
+  * Rôles des parties prenantes
 
 * **De base : Marketing Management** : idéal pour les organisations qui établissent les bases d’un système marketing fondamental. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Campaign
-   * Personas
-   * Marques
-   * Produits
+  * Campaign
+  * Personas
+  * Marques
+  * Produits
 
 * **Avancé : Marketing Management** : adapté aux équipes prêtes à explorer des stratégies marketing plus nuancées. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Campagnes
-   * Programmes
-   * Régions
-   * Étapes de Parcours client
-   * Audiences
-   * Éléments livrables
-   * Marques
+  * Campagnes
+  * Programmes
+  * Régions
+  * Étapes de Parcours client
+  * Audiences
+  * Éléments livrables
+  * Marques
 
 * **Entreprise : Marketing Management** : Conçu pour les grandes organisations ou les organisations matures avec des systèmes marketing complexes. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Campagnes
-   * Programmes
-   * Tactique
-   * Activités
-   * Produits
-   * Éléments livrables
-   * Audiences cibles
-   * Régions
-   * Sous-régions
-   * Partenaires
-   * Cas d’utilisation
-   * Étapes de Parcours client
+  * Campagnes
+  * Programmes
+  * Tactique
+  * Activités
+  * Produits
+  * Éléments livrables
+  * Audiences cibles
+  * Régions
+  * Sous-régions
+  * Partenaires
+  * Cas d’utilisation
+  * Étapes de Parcours client
 
 * Gestion des ventes : Vous pouvez créer un système de vente complet qui simplifie votre processus de vente et améliore l&#39;efficacité. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Opportunité
-   * Activité
-   * Campaign
-   * Compte
-   * Lead
-   * Contact
-   * Région
-   * Secteur industriel
-   * Centre d&#39;achat
-   * Produit/Service
-   * Concurrence
+  * Opportunité
+  * Activité
+  * Campaign
+  * Compte
+  * Lead
+  * Contact
+  * Région
+  * Secteur industriel
+  * Centre d&#39;achat
+  * Produit/Service
+  * Concurrence
 
 
 * Gestion des produits : ce modèle vous permet de créer un processus de gestion des produits efficace et structuré. Le modèle comprend les types d’enregistrements et le nombre de champs suivants, y compris les champs connectés à d’autres types d’enregistrements :
 
-   * Thème
-   * Initiative
-   * Épique
-   * User Story
-   * Client
-   * Sprint
-   * Équipe du produit
-   * Requêtes de fonctionnalités
-   * Secteur industriel
+  * Thème
+  * Initiative
+  * Épique
+  * User Story
+  * Client
+  * Sprint
+  * Équipe du produit
+  * Requêtes de fonctionnalités
+  * Secteur industriel
 
 ## Modèles d’espace de travail Planning Workfront Multi-Workspace
 
@@ -203,56 +210,56 @@ Le lot de modèles multi-espace de travail contient les modèles suivants avec l
   >Nous n&#39;utilisons le nom « Fréscopa » qu&#39;à titre d&#39;exemple général d&#39;entreprise.
 
 
-   * Parcours clients
-   * Pays
-   * Canaux
-   * Régions
-   * États, provinces ou préfectures
-   * Langues
-   * Plateformes
-   * Types d’expérience
-   * Années
-   * Trimestres
-   * Stratégies de messagerie
-   * Audiences cibles
-   * Personas
-   * Produits
-   * Marques
-   * Catégories de produits
-   * Valeurs
-   * Vision et mission
-   * Piliers
-   * Indicateurs clés de performance
+  * Parcours clients
+  * Pays
+  * Canaux
+  * Régions
+  * États, provinces ou préfectures
+  * Langues
+  * Plateformes
+  * Types d’expérience
+  * Années
+  * Trimestres
+  * Stratégies de messagerie
+  * Audiences cibles
+  * Personas
+  * Produits
+  * Marques
+  * Catégories de produits
+  * Valeurs
+  * Vision et mission
+  * Piliers
+  * Indicateurs clés de performance
 
 * **2.Fréscopa Global Marketing** : Espace de travail centralisé pour la gestion de la stratégie marketing d’entreprise et de l’exécution de Fréscopa. Il rassemble des campagnes, du contenu et des mesures pour renforcer l’impact de la marque.
 
-   * Campagnes
-   * Tactiques de canal
-   * Expériences
-   * Événements
+  * Campagnes
+  * Tactiques de canal
+  * Expériences
+  * Événements
 
 * **3.Fréscopa Social Marketing** : espace de travail dédié à la gestion de la présence et des campagnes sur les médias sociaux de Fréscopa. Il centralise la planification, la publication et le suivi des performances sur toutes les plateformes sociales.
 
-   * Influenceurs
+  * Influenceurs
 
 * **4.Fréscopa Media &amp; PR** : endroit où les équipes Media &amp; PR coordonnent les activités à l’appui des objectifs marketing mondiaux.
 
-   * Reporters
-   * Médias
-   * Engagements multimédia
+  * Reporters
+  * Médias
+  * Engagements multimédia
 
 * **5.Événements globaux Fréscopa** : un emplacement centralisé pour planifier et suivre les événements Fréscopa dans toutes les régions, tous les pays et toutes les unités commerciales.
 
-   * Types d’événement
-   * Types de flux de travail
-   * Haut-parleurs
-   * Emplacements des événements
-   * Type d’audience de l’événement
+  * Types d’événement
+  * Types de flux de travail
+  * Haut-parleurs
+  * Emplacements des événements
+  * Type d’audience de l’événement
 
 * **6.Fréscopa Executive Company Leadership** : espace de travail centralisé permettant aux dirigeants stratégiques de s’interfacer avec des données exploitables telles que les objectifs de l’entreprise.
 
-   * Objectifs de l’entreprise
-   * Objectifs du service
-   * Objectifs de l&#39;équipe
-   * Résultats clés
+  * Objectifs de l’entreprise
+  * Objectifs du service
+  * Objectifs de l&#39;équipe
+  * Résultats clés
 

@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+TQID: 'https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 98%
-
+source-wordcount: '1722'
+ht-degree: 99%
 ---
-
 # Activité de la version 2018.2 Beta 4
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.2 Beta 4. La fonctionnalité sera disponible dans l’environnement de prévisualisation le 17 mai 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
@@ -52,7 +58,7 @@ La version 2018.2 Beta 4 contient les améliorations apportées aux administr
 * [Prise en charge de Google Team Drives](#support-for-google-team-drives)
 * [Nouvelle limite d’export pour le graphique de Gantt](#new-export-limit-for-the-gantt-chart)
 * [L’option Coller depuis le presse-papiers est désormais grisée lors de l’utilisation d’Internet Explorer ou de Safari](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari).
-* Nouvel environnement Beta pour Android et nouvelles fonctionnalités[&#128279;](#new-beta-environment-for-android-along-with-new-features)
+* Nouvel environnement Beta pour Android et nouvelles fonctionnalités[](#new-beta-environment-for-android-along-with-new-features)
 * [Exemples de filtres pour les messages d’abonnements aux événements](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Améliorations de la limite du travail en cours (WIP) dans le tableau Kanban {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -145,7 +151,7 @@ La visionneuse de relecture de bureau comprend les améliorations suivantes par 
 
   La visionneuse de relecture héritée ne prenait pas en charge l’examen des sites qui sont protégés contre l’affichage dans un iframe.
 
-* Affichez le contenu avec des résolutions préconfigurées pour divers appareils. Par exemple, vous pouvez voir comment le contenu s’affiche sur différentes résolutions de bureau standard ou sur des appareils individuels tels qu’un iPhone 8. 
+* Affichez le contenu avec des résolutions préconfigurées pour différents appareils. Vous pouvez, par exemple, voir comment le contenu s’affiche dans différentes résolutions de bureau standard ou sur des appareils individuels tels que l’iPhone 8. 
 
 Pour plus d’informations sur le téléchargement, l’installation et l’utilisation de la visionneuse de relecture de bureau, voir .
 
@@ -157,7 +163,7 @@ Nous avions temporairement désactivé l’exportation des données du planifica
 
 Pour plus d’informations sur l’exportation des données du planificateur de ressources vers Excel, voir la section « Option d’exportation » dans [Vue d’ensemble de la navigation dans le planificateur de ressources](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Pour participer à notre programme Beta actuel pour le planificateur de ressources, voir [Performances du planificateur de ressources (Beta)](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr).
+Pour participer à notre programme Beta actuel pour le planificateur de ressources, voir [Performances du planificateur de ressources (Beta)](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ## Paramètres du système : informations de session dans les pages externes {#system-setting-session-information-in-external-pages}
 

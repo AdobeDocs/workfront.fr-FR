@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+TQID: 'https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 91%
-
 ---
-
 # Supprimer le statut d’un groupe
 
 En tant qu’administrateur ou administratrice de groupe, vous pouvez supprimer le statut d’un groupe que vous gérez s’il n’est pas configuré comme obligatoire ou verrouillé au niveau du système ou pour un groupe supérieur dans la hiérarchie.
@@ -88,10 +94,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * **S’il est verrouillé** : l’une des conditions suivantes est vraie :
 
-      * S’il existe d’autres statuts verrouillés et non masqués, seuls ces statuts sont disponibles.
-      * S’il n’existe aucun statut verrouillé non masqué, le statut Workfront par défaut est disponible, même s’il est masqué ou déverrouillé.
+     * S’il existe d’autres statuts verrouillés et non masqués, seuls ces statuts sont disponibles.
+     * S’il n’existe aucun statut verrouillé non masqué, le statut Workfront par défaut est disponible, même s’il est masqué ou déverrouillé.
 
-        Pour plus d’informations sur les statuts Workfront par défaut, voir [Accéder à la liste des statuts des projets système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accéder à la liste des statuts des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)et les informations sur les 4 statuts de problème requis dans [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+       Pour plus d’informations sur les statuts Workfront par défaut, voir [Accéder à la liste des statuts des projets système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Accéder à la liste des statuts des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)et les informations sur les 4 statuts de problème requis dans [Accéder à la liste des statuts des problèmes système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
 1. Cliquez sur **Supprimer**.
 

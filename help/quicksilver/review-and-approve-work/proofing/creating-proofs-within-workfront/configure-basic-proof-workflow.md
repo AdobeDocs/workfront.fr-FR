@@ -6,23 +6,31 @@ description: Avec un workflow de base, vous pouvez créer plusieurs réviseurs e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-TQID: https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg
+TQID: 'https://experienceleague.adobe.com/xv-t9JjvYQvYv15ZV8wYPzBHFybKGU8J572demN1EPg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1725
-ht-degree: 97%
-
+source-wordcount: '1751'
+ht-degree: 99%
 ---
-
 # Créer une épreuve avancée avec un workflow de base
 
 <!-- Audited: 1/2024 -->
@@ -307,7 +315,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     <tbody> 
      <tr> 
       <td role="rowheader">Connexion requise : l’épreuve ne peut être partagée qu’avec d’autres utilisateurs et utilisatrices.</td> 
-      <td>Lorsque cette option est désactivée (par défaut), toute personne disposant d’une URL peut consulter le BAT. <br>Lorsque cette option est sélectionnée :
+      <td>Lorsque cette option est désactivée (par défaut), toute personne disposant de l’URL peut afficher l’épreuve. <br>Lorsque cette option est sélectionnée, ce qui suit s’applique :
        <ul>
         <li>Seuls les utilisateurs et utilisatrices de Workfront Proof peuvent afficher l’épreuve.</li>
         <li>Les utilisateurs et utilisatrices ne peuvent pas se connecter à l’épreuve à moins qu’ils n’aient été ajoutés à l’épreuve.</li>
@@ -336,10 +344,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader">S’abonner à l’épreuve via une URL publique ou un code intégré</td> 
-      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées au BAT peuvent s’abonner au BAT. Le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants sont attribués à la personne abonnée au BAT :
+      <td>Lorsque cette option est sélectionnée, les personnes qui n’ont pas été explicitement ajoutées à l’épreuve peuvent s’y abonner. La personne qui s’abonne à l’épreuve se voit attribuer le rôle et l’adresse e-mail que vous définissez dans les paramètres suivants :
        <ul>
         <li><strong>Rôle de personne abonnée :</strong> rôle par défaut pour l’épreuve affecté à toutes les personnes chargées de la révision qui s’abonnent à l’épreuve. </li>
-        <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> alerte e-mail par défaut qui est affectée à toutes les personnes chargées de la révision qui s’abonnent à l’épreuve.</li>
+        <li><strong>Paramètres des alertes par e-mail pour les personnes abonnées :</strong> l’alerte par défaut qui est affectée à tous les réviseurs et réviseuses qui s’abonnent à l’épreuve.</li>
        </ul><p>
         <ul>
          <li><strong>Un accès à l’épreuve via un lien e-mail requis pour :</strong> Indiquez si la personne abonnée reçoit un e-mail avec un lien vers l’épreuve. Vous pouvez sélectionner <strong>Aucun e-mail</strong> (aucun lien d’e-mail n’est nécessaire pour accéder à l’épreuve), <strong>E-mail de notification de l’épreuve uniquement</strong> (la personne abonnée reçoit un lien vers l’épreuve par e-mail sans vérification), ou <strong>E-mails de validation et de notification de l’épreuve</strong> (la personne abonnée reçoit un lien vers l’épreuve par e-mail et doit cliquer sur le lien pour accéder à une épreuve ; l’objectif de cette option est de s’assurer que la personne a saisi une adresse e-mail correcte à laquelle elle a accès).</li>

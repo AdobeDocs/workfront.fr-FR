@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 83%
-
 ---
-
 # Bases d’API
 
 >[!NOTE]
 >
->Les exemples de cet article incluent `<supported-version>`. Remplacez-le par la version de l’API Workfront que vous souhaitez utiliser.Pour le planning de contrôle de version et de prise en charge de l’API Workfront, voir [Planning de contrôle de version et de prise en charge des API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+>Les exemples de cet article incluent `<supported-version>`. Remplacez-le par la version de l’API Workfront que vous souhaitez utiliser.
+>Pour le planning de contrôle de version et de prise en charge de l’API Workfront, voir [Planning de contrôle de version et de prise en charge des API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 L’objectif de l’API Adobe Workfront est de simplifier la création d’intégrations avec Workfront en introduisant une architecture REST qui fonctionne sur HTTP. Ce document suppose que vous connaissez les réponses REST et JSON et décrit l’approche adoptée par l’API Workfront.
 
@@ -309,7 +320,7 @@ Une instruction OR renvoie uniquement les enregistrements de l’appel API qui r
 
 Par exemple, si vous souhaitez filtrer les éléments suivants :
 
-* Tâches dont le nom contient « Planning » OR
+* Tâches dont le nom contient « Planification » OR
 * Tâches dans un portfolio nommé « FixedAssets » AND (ET) affectées à une personne dont le nom contient « Steve » OR
 * Tâches dont la tâche parent s’appelle « Final Task » (tâche finale)
 
@@ -319,7 +330,7 @@ alors utilisez l’appel API suivant avec ses multiples instructions OR :
 
 #### Utiliser les paramètres du filtre
 
-L’un des inconvénients potentiels de l’utilisation de paramètres URL pour les filtres de recherche est que Workfront analyse certains paramètres avant de vérifier les différentes méthodes d’authentification (par exemple, nom d’utilisateur ou d’utilisatrice, mot de passe, apiKey, cookie). Dans ce cas, les paramètres ne sont pas utilisés comme filtres dans l’appel.
+L’un des inconvénients potentiels de l’utilisation de paramètres URL pour les filtres de recherche est que Workfront analyse certains paramètres avant de vérifier les différentes méthodes d’authentification (par exemple, nom d’utilisateur ou d’utilisatrice, mot de passe, apiKey, cookie). Dans ce cas, les paramètres ne sont pas utilisés comme filtres dans l’appel. 
 
 Pour éviter ce problème, vous pouvez placer ces valeurs dans des paramètres de filtre avec un formatage JSON. Par exemple, si vous voulez filtrer le nom d’utilisateur ou d’utilisatrice testuser, au lieu d’utiliser 
 <pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>faites passer le paramètre URL dans un filtre, comme le montre l’exemple suivant :
@@ -455,7 +466,7 @@ Pour garantir des performances optimales, le tableau suivant indique les limites
 Pour passer outre la limite du nombre de résultats par défaut et autoriser 200 résultats, vous pouvez inclure le filtre `$$LIMIT=200` dans votre requête, comme dans l’exemple suivant :
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-Pour garantir la fiabilité et les performances des autres clientes et clients du système, la limite maximale des résultats autorisés par requête est de 2 000 objets. Toute tentative de spécifier une limite plus importante entraîne un message d’erreur `IllegalArgumentException`.
+Pour garantir la fiabilité et les performances des autres clientes et clients du système, la limite maximale des résultats autorisés par requête est de 2 000 objets. Toute tentative de spécifier une limite plus importante entraîne un message d’erreur `IllegalArgumentException`. 
 
 Par conséquent, nous vous recommandons d’utiliser des réponses paginées pour les jeux de données volumineux. Pour spécifier le premier résultat à renvoyer, ajoutez le filtre `$$FIRST`. Par exemple, la demande suivante renvoie les résultats 201-250 pour une requête :
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>

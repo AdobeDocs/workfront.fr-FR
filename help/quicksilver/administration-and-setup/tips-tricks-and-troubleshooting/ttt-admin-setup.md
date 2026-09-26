@@ -10,23 +10,28 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-TQID: https://experienceleague.adobe.com/Wvy0zTDMmD-RHwg-S-gFh7Gr9ngnURhwxu9vpWnaOwY
+TQID: 'https://experienceleague.adobe.com/Wvy0zTDMmD-RHwg-S-gFh7Gr9ngnURhwxu9vpWnaOwY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 207
+source-wordcount: '207'
 ht-degree: 96%
-
 ---
-
 # Conseils, astuces et dépannage pour l’administration et la configuration
 
 Cette section contient les articles suivants :
@@ -48,7 +53,7 @@ Cette section contient les articles suivants :
 * [Erreur : [!UICONTROL les utilisateurs et les utilisatrices SSO ne peuvent pas se connecter à Adobe Workfront en raison de diverses erreurs.]](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
 * [Type de licence d’utilisation [!UICONTROL externe] manquant dans les niveaux d’accès](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 * [Erreur de connexion : [!UICONTROL les champs suivants ne sont pas valides : emailAddr ne peut être nul.]](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-* [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF  [!DNL Adobe Workfront] &#x200B;](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+* [Prévenir l’usurpation d’identité et ajouter des enregistrements SPF  [!DNL Adobe Workfront] ](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
 * [Récupérer des données historiques à partir d’ [!DNL Adobe Workfront] : avantages et inconvénients](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
 * [Enregistrer un fichier d’en-tête d’e-mail](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [Le partage affiche plusieurs autorisations.](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)

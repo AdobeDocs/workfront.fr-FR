@@ -7,25 +7,31 @@ description: 'Vous pouvez associer des notifications de rappel à plusieurs type
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-TQID: https://experienceleague.adobe.com/9ELqaSPcbparVZYyjKb79o4HoOSHDwgEOIyGzC00ntA
+TQID: 'https://experienceleague.adobe.com/9ELqaSPcbparVZYyjKb79o4HoOSHDwgEOIyGzC00ntA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '229'
 ht-degree: 96%
-
 ---
-
 # Joindre une notification de rappel à un objet
 
 Vous pouvez associer des notifications de rappel à plusieurs types d’objets différents : projets, tâches, problèmes, feuilles de temps, modèles, tâches de modèle et profils de feuilles de temps récurrentes.
@@ -75,7 +81,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Dans cet exemple, l’objet en cours de modification est une tâche :
 
-   ![&#x200B; Notification de rappel &#x200B;](assets/reminder-notification-select-one-350x213.png)
+   ![ Notification de rappel ](assets/reminder-notification-select-one-350x213.png)
 
    Si l’administrateur ou l’administratrice [!DNL Workfront] a créé plusieurs notifications de rappel, vous pouvez joindre plusieurs notifications à un seul objet.
 

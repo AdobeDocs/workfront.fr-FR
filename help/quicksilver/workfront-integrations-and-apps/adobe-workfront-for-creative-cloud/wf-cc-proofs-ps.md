@@ -2,36 +2,46 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Charger des épreuves à partir d’Adobe Photoshop
-description: Vous pouvez charger des paramètres prédéfinis de document photo en tant qu’épreuves directement vers  [!DNL Adobe Workfront]  pour une révision et une approbation approfondies.
+description: Vous pouvez charger des paramètres prédéfinis de document photo en tant qu’épreuves directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+TQID: 'https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 78%
-
+source-wordcount: '679'
+ht-degree: 84%
 ---
-
 # Charger des épreuves à partir d’[!DNL Photoshop]
 
 Vous pouvez charger certains types de paramètres prédéfinis de document Photoshop en tant qu’épreuves directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
 >[!IMPORTANT]
 >
->Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/fr/photoshop/using/create-documents.html).
+>Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -132,8 +142,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
-1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’exportation de votre choix en fonction du type de ressource choisi ci-dessus.
-Le document s’affiche dans la zone [!UICONTROL Documents] du panneau [!DNL Workfront] dans [!DNL Photoshop] et dans l’application de bureau [!DNL Workfront].
+1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource choisi ci-dessus.
+Le document apparaît dans la zone [!UICONTROL Documents], dans le panneau [!DNL Workfront] de [!DNL Photoshop] et dans l’application de bureau [!DNL Workfront].
 
 ## Charger une nouvelle version d’épreuve
 
@@ -149,11 +159,11 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du panneau [!DNL Workfront].
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
 
-1. Dans la section *[!UICONTROL *Approbation d’épreuve]&#x200B;**, choisissez &#x200B;** [!UICONTROL De base] **&#x200B; ou &#x200B;** [!UICONTROL Automatique]**.
+1. Dans la section *[!UICONTROL *Approbation d’épreuve]**, choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
 
 1. Ajoutez des **[!UICONTROL Réviseurs ou réviseuses]** ou un **[!UICONTROL Modèle de workflow]** en fonction du type d’approbation que vous avez sélectionné lors de l’étape 7.
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 1. Choisissez le **[!UICONTROL Type de ressource]** dans le menu déroulant.
-1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’exportation de votre choix en fonction du type de ressource choisi ci-dessus.
-Le document s’affiche dans la zone [!UICONTROL Documents] du panneau [!DNL Workfront] dans [!DNL Photoshop] et dans l’application de bureau [!DNL Workfront].
+1. Cliquez sur **[!UICONTROL Charger]**, puis configurez les options d’export souhaitées en fonction du type de ressource choisi ci-dessus.
+Le document apparaît dans la zone [!UICONTROL Documents] dans le panneau [!DNL Workfront] de [!DNL Photoshop] et dans l’application de bureau [!DNL Workfront].

@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 79%
-
 ---
-
 # Exigences de diffusion de l’abonnement à un événement
 
 Les messages d’abonnement aux événements sont des notifications qui peuvent être configurées pour avertir les utilisateurs et utilisatrices lorsque certains événements se produisent. Pour en savoir plus sur les abonnements aux événements, voir la section [Questions fréquentes - Abonnements aux événements](../../wf-api/general/event-subs-faq.md).
@@ -37,7 +40,7 @@ Les points d’entrée des services qui utilisent les messages d’abonnement au
 
 * Si un processus métier à long terme se déclenche depuis un message d’abonnement à un événement, Workfront recommande que
 
-   1. le point d’entrée enregistre les informations du message à la réception et réponde immédiatement avec un statut de niveau 200.
-   1. Une fois qu’un point d’entrée a répondu à une demande de diffusion d’abonnement à un événement, les messages enregistrés peuvent être traités.
+  1. le point d’entrée enregistre les informations du message à la réception et réponde immédiatement avec un statut de niveau 200.
+  1. Une fois qu’un point d’entrée a répondu à une demande de diffusion d’abonnement à un événement, les messages enregistrés peuvent être traités.
 
 * Les objets ou messages d’abonnement à un événement ne peuvent pas dépasser 1 Mo.

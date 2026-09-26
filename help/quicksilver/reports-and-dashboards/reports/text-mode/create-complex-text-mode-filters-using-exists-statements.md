@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4
+TQID: 'https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2668
+source-wordcount: '2668'
 ht-degree: 97%
-
 ---
-
 # Créer des filtres de mode Texte complexes à l’aide d’instructions EXISTS
 
 <!-- Audited: 01/2025 -->
@@ -75,22 +81,22 @@ Tenez compte des points suivants lors de la création de filtres qui s’étende
 * Vous devez créer des filtres complexes lorsque vous souhaitez référencer des objets qui ne sont pas directement connectés à l’objet de filtre.
 * Vous devez utiliser une instruction EXISTS pour effectuer les opérations suivantes :
 
-   * Créer des filtres qui s’étendent sur plusieurs niveaux.
-   * Créer des filtres qui recherchent les objets manquants.\
-     Par exemple, lors de la création d’un rapport d’utilisateur ou d’utilisatrice, vous pouvez filtrer les personnes qui n’ont pas consigné de temps pendant une certaine période.
+  * Créer des filtres qui s’étendent sur plusieurs niveaux.
+  * Créer des filtres qui recherchent les objets manquants.\
+    Par exemple, lors de la création d’un rapport d’utilisateur ou d’utilisatrice, vous pouvez filtrer les personnes qui n’ont pas consigné de temps pendant une certaine période.
 
 Tenez compte des règles suivantes lors de l’utilisation d’instructions EXISTS dans un filtre :
 
 * Vous pouvez référencer trois objets dans un filtre EXISTS :
 
-   * Objet du filtre (objet original).
-   * Objet dont vous souhaitez référencer le champ (objet cible).
-   * Objet qui connecte les objets originaux et cibles s’ils ne sont pas directement connectés les uns aux autres (objet de liaison).
+  * Objet du filtre (objet original).
+  * Objet dont vous souhaitez référencer le champ (objet cible).
+  * Objet qui connecte les objets originaux et cibles s’ils ne sont pas directement connectés les uns aux autres (objet de liaison).
 
 * Les filtres qui utilisent EXISTS contiennent deux instructions distinctes liées par un signe égal :
 
-   * L’instruction précédant le signe égal fait référence à l’objet auquel vous faites référence (la liaison ou l’objet cible).
-   * L’instruction située après le signe égal fait référence à l’objet à partir duquel vous faites référence (l’objet d’origine).
+  * L’instruction précédant le signe égal fait référence à l’objet auquel vous faites référence (la liaison ou l’objet cible).
+  * L’instruction située après le signe égal fait référence à l’objet à partir duquel vous faites référence (l’objet d’origine).
 
 * Vous devez utiliser le code d’objet de l’objet de liaison pour connecter vos instructions.\
   Vous trouverez le code d’objet de tous les objets dans l’explorateur d’API.\

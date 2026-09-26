@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 8%
-
+source-wordcount: '870'
+ht-degree: 7%
 ---
-
 # Améliorations des documents du deuxième trimestre de 2026
 
 <!--hide this article until multi stage goes out-->
@@ -24,7 +31,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 16 avril 2026>Version rapide de production : 16 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 16 avril 2026
+>Version rapide de production : 16 avril 2026
+>Production pour tous : 16 avril 2026
 
 Content Advisor est désormais disponible dans Workfront avec l’intégration Adobe Experience Manager Assets, ce qui permet aux équipes de découvrir et de réutiliser plus facilement du contenu existant à forte valeur ajoutée.
 
@@ -43,7 +52,9 @@ Cette intégration permet aux équipes de réduire la création de doublons de c
 
 >[!NOTE]
 >
->Aperçu : 31 mars 2026>Version rapide de production : 31 mars 2026>Production pour tous : 31 mars 2026
+>Aperçu : 31 mars 2026
+>Version rapide de production : 31 mars 2026
+>Production pour tous : 31 mars 2026
 
 Le 31 mars 2026, tous les clients Workfront ont été configurés pour GenStudio Foundation et les administrateurs système d’Admin Console auront reçu un e-mail les informant de cet ajout. Ce produit est configuré uniquement pour que les clients Workfront puissent donner aux marques l’accès aux clients Workfront selon les besoins pour la publication des collaborateurs de l’IA. Le produit lui-même n’est qu’un mécanisme d’accès pour les marques, et aucune fonctionnalité supplémentaire n’est disponible dans le produit GenStudio Foundation.
 
@@ -53,14 +64,16 @@ Les clients ne seront pas facturés pour ce nouveau produit.
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Les améliorations suivantes ont été apportées au widget Mes approbations dans l’Accueil :
 
 * Trier la liste des validations par ordre décroissant ou le plus récent
 * Développement du widget en plein écran
 
-Pour plus d’informations, voir [&#x200B; Gérer vos approbations avec le widget Mes approbations &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+Pour plus d’informations, voir [ Gérer vos approbations avec le widget Mes approbations ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
 
 ## Révision et approbations unifiées optimisées par Workfront et Frame.io
 
@@ -70,7 +83,9 @@ Pour plus d’informations, voir [&#x200B; Gérer vos approbations avec le widge
 
 >[!NOTE]
 >
->Aperçu : 12 mars 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 
 Nous sommes ravis de vous présenter la fonctionnalité Révision et approbation unifiées de Workfront et Frame.io, une expérience de révision et d&#39;approbation simplifiée.
@@ -99,13 +114,15 @@ Le stockage dans le cloud d’Adobe est une solution de stockage dans le cloud q
 
 L’accès au stockage dans le cloud d’Adobe ouvre également la voie à de futures intégrations de la gestion des ressources à d’autres produits Adobe, tels que Adobe Creative Cloud.
 
-Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows d’approbation à plusieurs étapes disponibles pour les approbations unifiées
 
 >[!NOTE]
 >
->Aperçu : 12 mars 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Les workflows d’approbation à plusieurs étapes sont désormais disponibles dans les approbations unifiées, ce qui permet aux organisations d’appliquer des processus d’approbation structurés et reproductibles qui reflètent la manière dont le travail est examiné dans le monde réel. Avec les approbations à plusieurs étapes, vous pouvez :
 
@@ -121,7 +138,9 @@ Pour plus d’informations, voir [Créer un processus d’approbation de documen
 
 >[!NOTE]
 >
->Aperçu : 12 mars 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 12 mars 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Vous pouvez désormais configurer et réutiliser des modèles de workflow d’approbation à plusieurs étapes, ce qui facilite l’application d’une gouvernance cohérente à tous les workflows d’approbation répétables.
 

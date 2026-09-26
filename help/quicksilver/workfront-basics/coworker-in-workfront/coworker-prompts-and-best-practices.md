@@ -1,23 +1,27 @@
 ---
-title: Invites et bonnes pratiques du collaborateur CX
+title: invites et bonnes pratiques CX Coworker
 content-type: reference
 description: Découvrez les bonnes pratiques relatives à l’utilisation de Coworker dans Workfront et consultez une liste d’exemples d’invites.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 2%
-
 ---
-
-# Invites et bonnes pratiques du collaborateur CX
+# invites et bonnes pratiques CX Coworker
 
 &lt;!—NE PAS UTILISER CELA—Liez plutôt à l&#39;exemple d&#39;article MCP, assurez-vous qu&#39;il est mis à jour avec les versions récentes de MCP—>
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations du secteur des soins de santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Avec CX Coworker, vous pouvez utiliser le langage naturel pour interagir avec Workfront Workflow et Workfront Planning.
 
@@ -83,13 +87,13 @@ Cependant, certaines actions, telles que la suppression d’objet, ne peuvent **
 
 ### Limites d’interaction/d’expérience utilisateur
 
-* Actuellement, CX Coworker n’« apprend » pas à long terme à partir du style ou des préférences d’un utilisateur individuel. Chaque conversation utilise uniquement la conversation actuelle et les connaissances sur les produits.
+* Actuellement, CX Coworker n’« apprend » pas à long terme à partir du style ou des préférences d’une personne. Chaque conversation utilise uniquement la conversation actuelle et les connaissances sur les produits.
 * Le contexte de la conversation est conservé au sein d’une seule session de conversation. L&#39;ouverture d&#39;une nouvelle page ou la fermeture de l&#39;assistant réinitialise l&#39;historique des conversations.
 * Si les procédures d’approbation résident dans une application externe telle que Confluence ou SharePoint et sont uniquement liées par des champs d’URL, Coworker ne récupère pas et ne raisonne pas actuellement sur ces pages.
 
 ### Stockage des données / Clés gérées par le client
 
-* Étant donné que CX Coworker fait partie de Adobe Experience Platform Agent Orchestrator, les données de vos interactions avec Coworker sont stockées dans Adobe Experience Platform, et non dans Workfront. Par conséquent, ces données ne sont pas couvertes par les accords BYOK (Customer Managed Keys) de Workfront.
+* CX Coworker faisant partie de Adobe Experience Platform Agent Orchestrator, les données de vos interactions avec Coworker sont stockées dans Adobe Experience Platform, et non dans Workfront. Par conséquent, ces données ne sont pas couvertes par les accords BYOK (Customer Managed Keys) de Workfront.
 
 ## Compétences fondamentales générales en IA
 
@@ -111,7 +115,7 @@ Exemple : comment modifier le type de durée d&#39;une tâche ?
 
 ### Résumé des projets, tâches et événements
 
-Un collègue CX peut résumer un projet, une tâche ou un problème<!--, or documents--> qui a été chargé dans Workfront.
+CX Coworker peut résumer des projets, des tâches ou des événements<!--, or documents--> qui ont été chargés vers Workfront.
 
 Pour plus d’informations sur les résumés de projets, de tâches et de problèmes, voir [Résumer à l’aide de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -151,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## Collègue CX dans Workfront
+## CX Coworker dans Workfront
 
 * [Informations sur le projet, la tâche et l&#39;événement](#project-task-and-issue-information)
 * [Gestion de projet et de travail](#project-and-work-management)
@@ -159,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Informations sur le projet, la tâche et l&#39;événement
 
-CX Coworker peut vous donner des informations sur les projets, les tâches et les problèmes, y compris des résumés et l’intégrité du projet.
+CX Coworker peut vous donner des informations sur les projets, les tâches et les problèmes, y compris des résumés et l’intégrité des projets.
 
 Consultez des exemples d’invites pour les approbations de documents et de ressources dans les zones suivantes :
 
@@ -262,7 +266,7 @@ Vous pouvez créer, mettre à jour et supprimer des affectations d’utilisateur
 
 ### Contenu et approbations
 
-Un collègue CX peut vous aider à gérer les approbations de documents et de ressources dans Workfront.
+CX Coworker peut vous aider à gérer les approbations de documents et de ressources dans Workfront.
 
 Tenez compte des points suivants lorsque vous utilisez les approbations de documents et de ressources :
 
@@ -309,7 +313,7 @@ Consultez des exemples d’invites pour les approbations de documents et de ress
 * Mettez à jour le modèle « Creative Review » en supprimant Rick Kuvec et en ajoutant Karen Sterling à l’étape 2.
 
 
-## Collaborateur CX dans la planification Workfront
+## CX Coworker dans Workfront Planning
 
 ### Utiliser les enregistrements Planning
 

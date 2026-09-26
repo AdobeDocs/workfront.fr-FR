@@ -7,32 +7,45 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-TQID: https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0
+TQID: 'https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1115
-ht-degree: 93%
-
+source-wordcount: '1138'
+ht-degree: 94%
 ---
-
 # Vue d’ensemble de l’activité de la version 2018.3
 
 >[!NOTE]
@@ -143,7 +156,7 @@ La version 2018.3 contient des améliorations à la fois pour les administrateu
 
 ### API version 10 désormais disponible dans l’environnement de prévisualisation {#api-version-10-now-available-in-preview}
 
-La version 10 de l’API est désormais disponible dans l’environnement de prévisualisation. Elle sera disponible dans l’environnement de production avec la version 18.3. Pour plus d’informations, voir [Nouveautés de l’API version 10](../../../../wf-api/api/new-api-version-10.md). 
+L’API version 10 est désormais disponible dans l’environnement de prévisualisation. Elle sera disponible dans l’environnement de production avec la version 18.3. Pour plus d’informations, consultez la section [Nouveautés de l’API version 10](../../../../wf-api/api/new-api-version-10.md). 
 
 ### La version 3 de l’API n’est plus prise en charge. {#api-version-3-no-longer-supported}
 

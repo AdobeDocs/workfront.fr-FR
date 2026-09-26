@@ -8,26 +8,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 1%
-
 ---
-
 # Transformez votre première victoire en un élan durable : un playbook pour une mise à l&#39;échelle gérée
 
 >[!IMPORTANT]
@@ -292,13 +305,13 @@ Dans les sous-sections ci-dessous, vous trouverez des idées pour les principaux
 
 * **Responsabilités** :
 
-   * Gère le Workspace de taxonomie globale.
+  * Gère le Workspace de taxonomie globale.
 
-   * Facilite le parcours de maturité sur le terrain en promouvant les réussites locales selon des normes mondiales.
+  * Facilite le parcours de maturité sur le terrain en promouvant les réussites locales selon des normes mondiales.
 
-   * Conserve les vues Workspace de Principal pour les rapports exécutifs.
+  * Conserve les vues Workspace de Principal pour les rapports exécutifs.
 
-   * Dirige l’audit sémantique mensuel sur tous les espaces de travail.
+  * Dirige l’audit sémantique mensuel sur tous les espaces de travail.
 
 ### Le champion a parlé (propriétaire du processus d’équipe).
 
@@ -306,13 +319,13 @@ Dans les sous-sections ci-dessous, vous trouverez des idées pour les principaux
 
 * **Responsabilités** :
 
-   * Il sert de point de contact unique pour l’équipe fonctionnelle.
+  * Il sert de point de contact unique pour l’équipe fonctionnelle.
 
-   * possède la structure de l’espace de travail local et les expériences de champs personnalisés ;
+  * possède la structure de l’espace de travail local et les expériences de champs personnalisés ;
 
-   * S’assure que l’équipe utilise le Forms de passerelle contrôlée pour la saisie de données.
+  * S’assure que l’équipe utilise le Forms de passerelle contrôlée pour la saisie de données.
 
-   * Participe à l’établissement d’une liaison collaborative lors de l’harmonisation.
+  * Participe à l’établissement d’une liaison collaborative lors de l’harmonisation.
 
 ### Le sponsor exécutif (leadership marketing)
 
@@ -320,11 +333,11 @@ Dans les sous-sections ci-dessous, vous trouverez des idées pour les principaux
 
 * **Responsabilités** :
 
-   * Définit les URL marketing d’entreprise dans l’espace de travail de taxonomie globale.
+  * Définit les URL marketing d’entreprise dans l’espace de travail de taxonomie globale.
 
-   * Fait valoir la valeur de l’étape 1 de Visibilité auprès des autres dirigeants.
+  * Fait valoir la valeur de l’étape 1 de Visibilité auprès des autres dirigeants.
 
-   * Renforce l’allocation des ressources 80/20 (valeur sur nettoyage).
+  * Renforce l’allocation des ressources 80/20 (valeur sur nettoyage).
 
 ### Le lead d’activation (gestion des modifications)
 
@@ -332,11 +345,11 @@ Dans les sous-sections ci-dessous, vous trouverez des idées pour les principaux
 
 * **Responsabilités** :
 
-   * Héberge les points de contact récurrents Office Hours et Discovery Workshops.
+  * Héberge les points de contact récurrents Office Hours et Discovery Workshops.
 
-   * Conserve la vitrine interne de l’histoire de succès.
+  * Conserve la vitrine interne de l’histoire de succès.
 
-   * Identifie les points de friction techniques que l’architecte d’entreprise doit résoudre.
+  * Identifie les points de friction techniques que l’architecte d’entreprise doit résoudre.
 
 ## &#x200B;10. Liste de contrôle pour la mise à l’échelle de l’équipe suivante
 

@@ -6,13 +6,17 @@ description: Workfront propose des compétences que vous pouvez installer direct
 author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fd4c07f2ea1e47e7abb7d3dd78638a6a01d0f47
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
-
 ---
-
 
 # Compétences disponibles pour une installation directe
 
@@ -31,7 +35,7 @@ Il n’est pas nécessaire d’appeler ou de déclencher ces compétences après
 
 ## Installer une compétence à partir du référentiel GitHub de Workfront dans Claude
 
-1. Accédez au [référentiel de compétences &#x200B;](https://github.com/adobe/skills/tree/main/plugins/workfront) sur GitHub.
+1. Accédez au [référentiel de compétences ](https://github.com/adobe/skills/tree/main/plugins/workfront) sur GitHub.
 1. Téléchargez le dossier de compétences que vous souhaitez utiliser.
 1. Copiez le dossier dans votre bibliothèque de compétences Claude.
 

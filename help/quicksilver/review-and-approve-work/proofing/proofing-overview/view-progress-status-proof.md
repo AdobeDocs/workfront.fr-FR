@@ -6,20 +6,27 @@ description: Vous pouvez afficher des informations sur la progression d’une é
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+TQID: 'https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 93%
-
+source-wordcount: '377'
+ht-degree: 97%
 ---
-
 # Vue d’ensemble des statuts et de la progression de la relecture
 
 Vous pouvez afficher des informations sur la progression d’une épreuve tout au long du processus de révision et un résumé global du statut de décision de l’épreuve dans la zone Documents.
@@ -100,7 +107,7 @@ Les icônes de progression peuvent apparaître dans les couleurs suivantes pour 
 
 ## Vue d’ensemble des statuts de l’épreuve
 
-Le statut de l’épreuve affiche le statut des décisions requises pour l’épreuve. Le statut du BAT est déterminé par le participant dans le « pire des cas ». Supposons, par exemple, qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et l’autre a le statut **Rejeté**. La décision du « pire des cas » de **Rejeté** prévaut sur les autres décisions et le statut global de l’épreuve s’affiche comme **Rejeté**. 
+Le statut de l’épreuve indique le statut des décisions requises pour l’épreuve. Le statut de l’épreuve dépend du participant du « pire cas ». Par exemple, supposons qu’il y ait trois décisions sur l’épreuve : deux ont le statut **Accepté** et une a le statut **Rejeté**. La décision dans le « pire cas » **Rejeté** est prioritaire sur les autres décisions et le statut global de l’épreuve est affiché comme **Rejeté**. 
 
 ![Modification de l’épreuve en cours](assets/proof-edit-existing-progress-350x62.png)
 

@@ -6,18 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-TQID: https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc
+TQID: 'https://experienceleague.adobe.com/oDMI6qVkOVnVSLVKMJ5fSCD3B-xHrk1TAiflkOVzazc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 544
-ht-degree: 94%
-
+source-wordcount: '551'
+ht-degree: 98%
 ---
-
 # Mises à jour de l’aspect pendant la période de publication de la version 23.2
 
 Cette page décrit des mises à jour mineures de l’aspect des différentes zones de l’application Adobe Workfront qui ont été effectuées pendant la période de publication de la version 23.2. Ces améliorations seront disponibles dans l’environnement de production au moins deux semaines après le lancement de la version préliminaire.
@@ -30,8 +36,8 @@ Pour obtenir la liste de toutes les modifications disponibles avec la version 2
 >
 >Version préliminaire : 4 avril 2023 ; version de production prévue : 20 avril 2023
 
-Nous avons mis à jour la liste Brouillons dans la zone Demandes afin de la rendre cohérente avec des listes plus récentes dans Workfront.
-Voici quelques-unes des mises à jour :
+Nous avons mis à jour la liste Brouillons dans la zone Requêtes afin de la rendre cohérente avec les listes plus récentes dans Workfront.
+Voici quelques-unes des mises à jour :
 
 * Remplacement du filtre « Filtrer par type de demande » par le filtre rapide standard.
 * Suppression de l’image de la liste Brouillons lorsque la liste ne contient aucune requête.

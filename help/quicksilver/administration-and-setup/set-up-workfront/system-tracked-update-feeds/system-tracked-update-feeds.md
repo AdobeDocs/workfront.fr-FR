@@ -11,24 +11,29 @@ role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+TQID: 'https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 96%
-
 ---
-
 # Vue d’ensemble des mises à jour suivies par le système
 
 <!-- Audited: 08/2025-->
@@ -49,7 +54,7 @@ La zone [!UICONTROL Mises à jour] comprend les types de mises à jour suivants�
 
   Pour plus d’informations sur les flux de mise à jour système et leur activation, consultez la section [Configurer les mises à jour système](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![&#x200B; Exemple de mises à jour système &#x200B;](assets/system-updates-example-unified-stream.png)
+  ![ Exemple de mises à jour système ](assets/system-updates-example-unified-stream.png)
 
 
   <!--
@@ -64,35 +69,35 @@ Les mises à jour suivies par le système ne sont pas disponibles pour tous les 
 
 * La zone [!UICONTROL Mises à jour] est disponible pour les objets suivants :
 
-   * [!UICONTROL Projet]
-   * [!UICONTROL Tâche]
-   * [!UICONTROL Problème]
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL Programme]
-   * [!UICONTROL Utilisateur ou utilisatrice]
-   * [!UICONTROL Modèle]
-   * [!UICONTROL Tâche de modèle]
-   * [!UICONTROL Équipe]
-   * [!UICONTROL Document]
-   * [!UICONTROL Feuille de temps]
-   * [!UICONTROL Histoire]
+  * [!UICONTROL Projet]
+  * [!UICONTROL Tâche]
+  * [!UICONTROL Problème]
+  * [!UICONTROL Portfolio]
+  * [!UICONTROL Programme]
+  * [!UICONTROL Utilisateur ou utilisatrice]
+  * [!UICONTROL Modèle]
+  * [!UICONTROL Tâche de modèle]
+  * [!UICONTROL Équipe]
+  * [!UICONTROL Document]
+  * [!UICONTROL Feuille de temps]
+  * [!UICONTROL Histoire]
 
-     Dans [!DNL Workfront], une histoire est une tâche.
-   * [!UICONTROL Itération]
-   * [!UICONTROL Objectif]
+    Dans [!DNL Workfront], une histoire est une tâche.
+  * [!UICONTROL Itération]
+  * [!UICONTROL Objectif]
 
-     Tous les packages Workfront n’incluent pas d’objectifs Workfront. Pour plus d’informations, voir la section [Conditions requises pour utiliser Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL Carte] sur un panorama
+    Tous les packages Workfront n’incluent pas d’objectifs Workfront. Pour plus d’informations, voir la section [Conditions requises pour utiliser Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * [!UICONTROL Carte] sur un panorama
 
-     Pour plus d’informations sur les mises à jour des cartes, voir la section [Utiliser des cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
+    Pour plus d’informations sur les mises à jour des cartes, voir la section [Utiliser des cartes connectées sur les panoramas](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] ne suit pas les mises à jour du système pour les objets suivants :
 
-   * [!UICONTROL Équipe]
-   * [!UICONTROL Modèle]
-   * [!UICONTROL Tâche de modèle]
-   * [!UICONTROL Carte] ad hoc
-   * [!UICONTROL Itérations]
+  * [!UICONTROL Équipe]
+  * [!UICONTROL Modèle]
+  * [!UICONTROL Tâche de modèle]
+  * [!UICONTROL Carte] ad hoc
+  * [!UICONTROL Itérations]
 
 
 <!--
@@ -128,9 +133,9 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * L’administration de [!DNL Workfront] peut définir le type de modifications dont le système doit effectuer le suivi dans la zone [!UICONTROL Mises à jour]. Tous les objets qui ont une zone [!UICONTROL Mises à jour] ont également des flux [!UICONTROL mise à jour] configurables. Les objets suivants ont une zone [!UICONTROL Mises à jour] qui capture les flux de mise à jour suivis par le système, mais qui ne comporte pas de flux de mise à jour configurables :
 
-   * [!UICONTROL Document]
-   * [!UICONTROL Feuille de temps]
-   * [!UICONTROL Itération]
-   * [!UICONTROL Objectif]
+  * [!UICONTROL Document]
+  * [!UICONTROL Feuille de temps]
+  * [!UICONTROL Itération]
+  * [!UICONTROL Objectif]
 
 

@@ -2,29 +2,34 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Partager un rapport de calendrier
-description: Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices et le rendre public, ce qui permet à une personne sans licence  [!DNL Adobe Workfront]  de l’afficher.
+description: Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices et le rendre public, ce qui permet à une personne sans licence [!DNL Adobe Workfront] de l’afficher.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4
+TQID: 'https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 594
+source-wordcount: '594'
 ht-degree: 74%
-
 ---
-
 # Partager un rapport de calendrier
 
 Vous pouvez partager un calendrier avec d’autres utilisateurs et utilisatrices et le rendre public, ce qui permet à une personne sans licence [!DNL Adobe Workfront] de l’afficher.
@@ -109,7 +114,7 @@ Vous pouvez rendre un calendrier public et partager un lien avec des personnes q
 1. Cliquez sur **[!UICONTROL Actions du calendrier]**, puis sur **[!UICONTROL Partager]**.
 1. Cliquez sur le menu **Plus** en regard du nom du calendrier.
    ![menu calendrier plus](assets/more-menu-calendar.png)
-Cliquez sur **Copier le lien public**.
+   Cliquez sur **Copier le lien public**.
 1. Cliquer sur **[!UICONTROL Enregistrer]**.
 
 ## Partager un calendrier avec un lien privé
@@ -122,5 +127,5 @@ Vous pouvez partager un lien de calendrier privé avec les utilisateurs et utili
 
    >[!NOTE]
    >
-   >Les utilisateurs et utilisatrices de [!DNL Workfront] doivent avoir accès au calendrier pour pouvoir y accéder à l’aide du lien. Pour accorder l’accès, voir la section [Partager un calendrier avec les utilisateurs et utilisatrices de  [!DNL Workfront] &#x200B;](#share-a-calendar-with-workfront-users).\
+   >Les utilisateurs et utilisatrices de [!DNL Workfront] doivent avoir accès au calendrier pour pouvoir y accéder à l’aide du lien. Pour accorder l’accès, voir la section [Partager un calendrier avec les utilisateurs et utilisatrices de  [!DNL Workfront] ](#share-a-calendar-with-workfront-users).\
    >Si les utilisateurs et utilisatrices ne disposent d’aucun accès, ils peuvent le demander après avoir collé le lien dans leur navigateur.

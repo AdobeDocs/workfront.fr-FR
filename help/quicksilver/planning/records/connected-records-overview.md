@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE
+TQID: 'https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: '748'
 ht-degree: 8%
-
 ---
-
 # Vue d’ensemble des enregistrements connectés
 
 <!--
@@ -31,7 +38,7 @@ ht-degree: 8%
 
 {{planning-important-intro}}
 
-Vous pouvez connecter des enregistrements d’Adobe Workfront Planning les uns aux autres ou aux objets d’autres applications.
+Vous pouvez connecter des enregistrements de la planification Adobe Workfront les uns aux autres ou aux objets d’autres applications.
 
 Cet article décrit les points à prendre en compte lors de la connexion des enregistrements dans Workfront Planning.
 
@@ -63,8 +70,8 @@ Pour plus d’informations, voir [Présentation des types d’enregistrements co
 * Toute personne ayant accès à Workfront Planning and View ou à des autorisations supérieures dans l&#39;espace de travail et disposant d&#39;un type d&#39;enregistrement peut voir les connexions que vous établissez entre les enregistrements ou entre les enregistrements et les objets d&#39;autres applications. Elle peut afficher les enregistrements et les objets connectés, quelles que soient ses autorisations dans les applications auxquelles vous vous connectez.
 * Vous pouvez afficher et modifier les connexions de tous les autres utilisateurs si vous disposez des autorisations de niveau Gérer pour l’espace de travail et le type d’enregistrement où se trouvent les enregistrements connectés.
 * Vous pouvez connecter un enregistrement à un ou plusieurs objets depuis une autre application. Cela dépend du type de connexion que vous avez sélectionné lors de la connexion des types d&#39;enregistrement. Pour plus d’informations, consultez la section « Types de connexions » dans l’article [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez accéder à n&#39;importe quel type d&#39;objet de la hiérarchie à partir des pages des enregistrements. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Lorsque les types d&#39;enregistrements connectés font partie des hiérarchies, vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Zones de connexion des enregistrements
 
@@ -76,14 +83,14 @@ Vous pouvez connecter manuellement des enregistrements à d&#39;autres enregistr
 
 * Vous pouvez connecter des enregistrements de Workfront Planning à des objets Workfront, Experience Manager Assets ou GenStudio Brands dans les zones suivantes d&#39;un enregistrement Planning :
 
-   * Champs d&#39;enregistrement connectés dans la vue Table d&#39;un type d&#39;enregistrement dans Planning.
-   * Les champs d’enregistrement connectés dans la page d’aperçu ou de détails d’un enregistrement.
-   * La page d&#39;aperçu ou de détails de l&#39;enregistrement dans la page Enregistrements connectés d&#39;un enregistrement.
+  * Champs d&#39;enregistrement connectés dans la vue Table d&#39;un type d&#39;enregistrement dans Planning.
+  * Les champs d’enregistrement connectés dans la page d’aperçu ou de détails d’un enregistrement.
+  * La page d&#39;aperçu ou de détails de l&#39;enregistrement dans la page Enregistrements connectés d&#39;un enregistrement.
 
 * Vous pouvez connecter des objets Workfront à des enregistrements Workfront Planning dans les zones suivantes de Workfront :
 
-   * Section Planning d’un objet Workfront.
-   * Champ de connexion Planning dans un formulaire personnalisé d’objet Workfront.
+  * Section Planning d’un objet Workfront.
+  * Champ de connexion Planning dans un formulaire personnalisé d’objet Workfront.
 
   Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 

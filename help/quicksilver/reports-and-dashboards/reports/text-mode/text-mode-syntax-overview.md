@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 98%
-
 ---
-
 # Vue d’ensemble de la syntaxe du mode texte
 
 <!--Audited: 1/2025-->
@@ -33,7 +37,7 @@ Pour obtenir des informations et des observations sur le mode texte avant de com
 
 Pour obtenir une liste complète de tous nos champs pouvant faire l’objet d’un rapport et de leurs attributs, voir la section [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
-Pour plus d’informations sur la création de rapports en mode texte, y compris des cours, des vidéos et des tutoriels, consultez la section Formation du site Adobe Experience League.
+Pour plus d’informations sur la création de rapports en mode texte, y compris des cours, des vidéos et des tutoriels, consultez la section Formation du site Adobe Experience League.
 
 ## Observations sur la syntaxe du mode texte
 
@@ -48,8 +52,8 @@ Les lignes directrices suivantes s’appliquent à la construction de tout élé
 * Utilisez toujours le format « camel case » lorsque vous faites référence à des objets ou à des attributs dans la base de données Workfront.
 * Tenez compte de la hiérarchie des objets dans Workfront. Les différences suivantes existent entre les vues, les filtres et les regroupements :
 
-   * Vous pouvez afficher un objet qui se trouve à trois objets du rapport ou de l’objet de liste dans une vue.
-   * Vous ne pouvez pas faire référence à des objets situés à plus de deux objets de l’objet principal dans un regroupement, un filtre ou une invite personnalisée.
+  * Vous pouvez afficher un objet qui se trouve à trois objets du rapport ou de l’objet de liste dans une vue.
+  * Vous ne pouvez pas faire référence à des objets situés à plus de deux objets de l’objet principal dans un regroupement, un filtre ou une invite personnalisée.
 
   **Exemple :** vous pouvez afficher le nom ou le GUID de la personne propriétaire du portfolio dans une vue de tâche :
 
@@ -63,8 +67,8 @@ Les lignes directrices suivantes s’appliquent à la construction de tout élé
 
   Pour plus d’informations sur la hiérarchie des objets dans Workfront, voir la section suivante :
 
-   * [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [Explorateur d’API](../../../wf-api/general/api-explorer.md)
+  * [Comprendre les objets dans Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [Explorateur d’API](../../../wf-api/general/api-explorer.md)
 
 * Utilisez des caractères génériques autant que possible pour rendre vos rapports et vos listes plus dynamiques et éviter de les dupliquer pour différentes personnes et des chronologies similaires.
 
@@ -96,15 +100,15 @@ Les similitudes suivantes existent entre la syntaxe des ensembles d’éléments
 
   Pour plus d’informations sur les lignes de code clés des vues et des regroupements lors de leur création en mode texte, voir la section :
 
-   * [Modifier une vue en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Modifier un regroupement à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [Modifier une vue en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [Modifier un regroupement à l’aide du mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Les lignes de code et la syntaxe sont similaires pour les filtres et les invites personnalisées.
 
   Pour plus d’informations, voir :
 
-   * [Modifier un filtre en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [Modifier un filtre en mode texte](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [Ajouter une invite à un rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntaxe pour les vues et les regroupements
 
@@ -197,22 +201,22 @@ Les règles suivantes s’appliquent au référencement des objets Workfront à 
 
   **Exemple :** pour afficher le nom d’un projet concaténé avec le nom de la tâche dans un rapport de tâche, utilisez les lignes suivantes :
 
-   * Dans une vue :
+  * Dans une vue :
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * Dans un regroupement :
+  * Dans un regroupement :
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   Pour plus d’informations sur la manière dont les objets se référencent entre eux dans la base de données Workfront, consultez l’[explorateur d’API](../../../wf-api/general/api-explorer.md).
 
 * Lorsque vous référencez un champ personnalisé, utilisez les règles suivantes :
 
-   * Utilisez le nom du champ exactement tel qu’il apparaît dans l’interface.
-   * Faites précéder le nom du champ par « DE: ».
-   * Placez le champ entre accolades.
-   * Séparez les champs relatifs à l’objet par des points.
+  * Utilisez le nom du champ exactement tel qu’il apparaît dans l’interface.
+  * Faites précéder le nom du champ par « DE: ».
+  * Placez le champ entre accolades.
+  * Séparez les champs relatifs à l’objet par des points.
 
   **Exemple :** pour afficher le champ personnalisé Détails supplémentaires du projet dans une vue de tâche dans une ligne valueexpression, utilisez la ligne suivante :
 
@@ -284,14 +288,14 @@ Vous pouvez utiliser les éléments suivants pour créer des filtres et des invi
 
 * Un connecteur d’instruction qui relie plusieurs instructions de filtre :
 
-   * ET
+  * ET
 
-     Il s’agit du connecteur par défaut entre les instructions de filtre.
+    Il s’agit du connecteur par défaut entre les instructions de filtre.
 
-   * OU
+  * OU
 
-     >[!TIP]
-     >
-     >Les connecteurs d’instruction sont sensibles à la casse et toujours écrits en majuscules. Le connecteur « AND » peut être omis en mode texte.
+    >[!TIP]
+    >
+    >Les connecteurs d’instruction sont sensibles à la casse et toujours écrits en majuscules. Le connecteur « AND » peut être omis en mode texte.
 
 * Des caractères génériques pour rendre les filtres plus dynamiques et les personnaliser en fonction de l’heure actuelle ou de la personne connectée. Pour plus d’informations sur les caractères génériques, consultez la section [Vue d’ensemble des variables de filtrage des caractères génériques](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

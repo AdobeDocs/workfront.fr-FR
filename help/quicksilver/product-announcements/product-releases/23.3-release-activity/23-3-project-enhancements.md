@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+TQID: 'https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 93%
-
 ---
-
 # Améliorations des projets dans la version 23.3
 
 Cette page décrit toutes les améliorations apportées aux projets avec la version 23.3. Ces améliorations ont été mises à disposition dans l’environnement de production avec la version 23.3 les 20 et 21 juillet 2023.
@@ -39,4 +45,4 @@ Dans cette première version, le processus d’approbation a été rendu plus si
 
 L’option Partager a été retirée du menu Plus pour les projets, les tâches et les problèmes afin de rendre le partage plus intuitif. Le nouveau bouton « Partager » s’affiche maintenant à côté du nom d’un objet juste avant le menu « Plus ». Le partage de documents, de portfolios et de programmes reste inchangé.
 
-Pour plus d’informations sur le partage d’objets, consultez la section [Partager un objet](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Pour plus d’informations sur le partage d’objets, consultez la section [Partager un objet](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

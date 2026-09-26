@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Gérer vos contacts dans  [!DNL Workfront Proof]
+title: Gérer vos contacts dans [!DNL Workfront Proof]
 description: Vous pouvez gérer vos collègues, membres et personnes invitées sur la page Contacts.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
-TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
+TQID: 'https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 90%
-
+source-wordcount: '494'
+ht-degree: 92%
 ---
-
 # Gérer vos contacts dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -39,7 +48,7 @@ Vous pouvez gérer vos collègues, membres et personnes invitées sur la page Co
 ## Filtrer les contacts
 
 1. Cliquez sur **[!UICONTROL Contacts]** dans la barre latérale de navigation de gauche.
-1. Cliquez sur l’en-tête de colonne selon lequel vous souhaitez effectuer un tri.
+1. Cliquez sur l’en-tête de la colonne à partir de laquelle vous souhaitez effectuer le tri.
 Ou
 Sélectionnez une option dans le menu **[!UICONTROL Trier]** dans le coin supérieur droit de la page Contacts.
 
@@ -76,7 +85,7 @@ Sélectionnez une option dans le menu **[!UICONTROL Trier]** dans le coin supér
    * Cliquez sur **[!UICONTROL Supprimer les contacts]** pour supprimer les contacts sélectionnés de votre liste.
 
      ![Trash_button.png](assets/trash-button.png)
-La suppression d’un contact ne signifie pas qu’un utilisateur est supprimé de votre compte. Cependant, si un administrateur ou un administrateur de facturation supprime une personne de la liste de contacts, cette personne est complètement supprimée du compte de votre organisation.
+     La suppression d’un contact ne signifie pas qu’un utilisateur est supprimé de votre compte. Cependant, si un administrateur ou un administrateur de facturation supprime une personne de la liste de contacts, cette personne est complètement supprimée du compte de votre organisation.
 
    * Cliquez sur l’icône **[!UICONTROL Plus]** à la fin de la ligne d’un contact et utilisez l’une des options du menu déroulant qui apparaît.
 

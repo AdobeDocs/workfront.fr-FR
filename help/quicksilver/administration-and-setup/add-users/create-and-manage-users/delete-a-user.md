@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 80%
-
 ---
-
 # Supprimer des utilisateurs et utilisatrices
 
 <!--Remove me October 2026-->
@@ -48,7 +54,7 @@ Lorsqu’une personne quitte votre entreprise, vous pouvez la supprimer d’Adob
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -96,17 +102,17 @@ La désactivation d’une personne entraîne les événements suivants :
 * Les objets ne peuvent plus être partagés avec la personne.
 * Leur association avec les objets suivants reste intacte :
 
-   * Tâches, problèmes, projets, portfolios
-   * Tableaux de bord
+  * Tâches, problèmes, projets, portfolios
+  * Tableaux de bord
 
-     >[!NOTE]
-     >
-     >Si vous désactivez une personne et ne pouvez plus afficher les rapports ou les tableaux de bord associés à une personne, vous devrez peut-être mettre à jour le champ **Exécuter ce rapport avec les droits d’accès suivants :**.\
-     >Pour en savoir plus, consultez le [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+    >[!NOTE]
+    >
+    >Si vous désactivez une personne et ne pouvez plus afficher les rapports ou les tableaux de bord associés à une personne, vous devrez peut-être mettre à jour le champ **Exécuter ce rapport avec les droits d’accès suivants :**.\
+    >Pour en savoir plus, consultez le [Pourquoi ne puis-je pas accéder à un rapport détenu par un utilisateur désactivé ?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) de l’article [FAQ sur les rapports](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
-   * Documents
-   * Mises à jour
-   * Heures
+  * Documents
+  * Mises à jour
+  * Heures
 
 * Si la personne a extrait des documents, les documents restent extraits lorsque vous les désactivez. Seul un administrateur ou une administratrice Workfront peut les réenregistrer. Pour plus d’informations sur l’extraction de documents, voir [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).
 
@@ -119,8 +125,8 @@ La suppression d’une personne entraîne les événements suivants :
 * Les objets ne peuvent plus être partagés avec la personne.
 * Supprime l’association de cette personne avec les objets suivants :
 
-   * Tâches, problèmes, projets, portfolio
-   * Tableaux de bord
+  * Tâches, problèmes, projets, portfolio
+  * Tableaux de bord
 
   <!--
 
@@ -132,12 +138,12 @@ La suppression d’une personne entraîne les événements suivants :
 
    -->
 
-   * Mises à jour
-   * Heures
+  * Mises à jour
+  * Heures
 
-     >[!NOTE]
-     >
-     >Ces objets restent dans Workfront mais la mention de leur personne propriétaire reste vide.
+    >[!NOTE]
+    >
+    >Ces objets restent dans Workfront mais la mention de leur personne propriétaire reste vide.
 
 * Lorsque des documents sont ajoutés à la section des documents de la barre de navigation globale par un utilisateur ou une utilisatrice, ils sont également supprimés.
 * Quand un utilisateur ou une utilisatrice extrait ses documents pour les charger dans la zone principale des documents, accessible par le menu principal, ces documents sont supprimés lors de la suppression de cet utilisateur ou de cette utilisatrice. Pour plus d’informations sur l’extraction de documents, consultez la section [Extraire des documents](../../../documents/managing-documents/check-out-documents.md).

@@ -3,30 +3,37 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: Configurer l’intégration de JumpSeat
-description: Vous pouvez intégrer  [!DNL JumpSeat]  à  [!DNL Workfront]  pour créer des conseils personnalisés sur le produit.
+description: Vous pouvez intégrer [!DNL JumpSeat] à [!DNL Workfront] pour créer des conseils personnalisés sur le produit.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4
+TQID: 'https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: '272'
 ht-degree: 93%
-
 ---
-
 # Configurer l’intégration de JumpSeat
 
 Vous pouvez intégrer [!DNL JumpSeat] à [!DNL Workfront] pour créer des conseils personnalisés sur le produit.
@@ -65,7 +72,7 @@ Vous pouvez intégrer [!DNL JumpSeat] à [!DNL Workfront] pour créer des consei
   </tr>
 </table>
 
-Pour plus de détails sur les informations contenues dans ce tableau, consultez [Conditions d’accès préalables dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur ce tableau, voir la section [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +109,7 @@ Pour configurer l’intégration de [!DNL JumpSeat] :
 
 {mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

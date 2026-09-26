@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
-ht-degree: 6%
-
+source-wordcount: '2416'
+ht-degree: 7%
 ---
-
 # Activité de publication du troisième trimestre 2025 pour Adobe Workfront Planning
 
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du troisième trimestre 2025.
@@ -38,7 +44,9 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 10 juillet 2025>Production pour tout le monde : 10 juillet 2025>[!BADGE Programme de congés]{type=Neutral}
+>Aperçu : 10 juillet 2025
+>Production pour tous : 10 juillet 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 
 Nous avons mis à jour l’onglet Paramètres avancés lors de la création ou de la modification d’un type d’enregistrement.
@@ -54,7 +62,9 @@ Pour plus d’informations, voir la section [Créer des types d’enregistrement
 
 >[!NOTE]
 >
->Aperçu : 10 juillet 2025>Production pour tout le monde : 10 juillet 2025>[!BADGE Programme de congés]{type=Neutral}
+>Aperçu : 10 juillet 2025
+>Production pour tous : 10 juillet 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 Désormais, lorsque vous ajoutez une équipe à un commentaire d’enregistrement dans Workfront Planning, tous les membres de l’équipe reçoivent une notification in-app et par e-mail concernant le commentaire. Avant cette amélioration, seuls les utilisateurs ajoutés individuellement aux commentaires étaient avertis .
 
@@ -64,7 +74,9 @@ Pour plus d’informations, voir Gérer les commentaires d’enregistrement [Gé
 
 >[!NOTE]
 >
->Aperçu : 10 juillet 2025>Version rapide de production : 14 août 2025>Production pour tous : 16 octobre 2025
+>Aperçu : 10 juillet 2025
+>Version rapide de production : 14 août 2025
+>Production pour tous : 16 octobre 2025
 
 
 Désormais, lorsque des regroupements sont appliqués à une vue Tableau, l’ajout d’un enregistrement au tableau renseigne automatiquement les champs associés aux regroupements auxquels vous ajoutez l’enregistrement.
@@ -79,7 +91,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 >[!NOTE]
 >
->Aperçu : 9 juillet 2025>Production pour tous : 17 juillet 2025
+>Aperçu : 9 juillet 2025
+>Production pour tous : 17 juillet 2025
 
 Vous pouvez désormais partager une vue ainsi qu’un type d’enregistrement à partir du même bouton sur la page du type d’enregistrement. Avant cette amélioration, vous pouviez uniquement partager le type d’enregistrement à partir du bouton Partager sur la page du type d’enregistrement et une vue à partir de l’onglet de la vue.
 
@@ -116,18 +129,18 @@ Pour rendre plus sûr et plus simple le partage d’un formulaire de demande dan
 * Nous avons séparé la boîte de dialogue Partager le formulaire en partage interne (en sélectionnant les personnes avec lesquelles partager) et partage public (en créant un lien de partage).
 * Vous pouvez désormais partager des formulaires de demande avec les personnes suivantes :
 
-   * Utilisateurs et utilisatrices
-   * Équipes
-   * Groupes
-   * Entreprises
-   * Fonctions
+  * Utilisateurs et utilisatrices
+  * Équipes
+  * Groupes
+  * Entreprises
+  * Fonctions
 
   Auparavant, vous pouviez uniquement partager en fonction de l’accès à l’espace de travail ou en partageant un lien.
 * Nous avons supprimé les autorisations héritées pour les formulaires de demande. Désormais, le formulaire de demande n’est partagé qu’avec ceux que vous sélectionnez.
 * Nous avons supprimé les options de gestion et de contribution pour les utilisateurs avec lesquels vous partagez le formulaire de demande. Désormais, les utilisateurs ajoutés peuvent uniquement envoyer le formulaire.
 * L’onglet Partage public affiche désormais le lien et le champ de date d’expiration une fois que l’option Créer un lien public a été activée.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/fr/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Développer et réduire tous les regroupements dans la vue Tableau
 
@@ -153,7 +166,8 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >[!NOTE]
 >
 >* Prévisualisation : vendredi 26 juin 2025
->* Production pour tous : 26 juin 2025>[!BADGE hors calendrier]{type=Neutral}
+>* Production pour tous : 26 juin 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 Désormais, lorsque vous connectez des types d’enregistrements et importez un champ de formule en tant que recherche, vous pouvez appliquer les fonctions d’agrégat (SOMME, MOYENNE, MIN, MAX, etc.) en fonction du format du champ de formule. Par exemple, si le champ de formule est numérique, vous pouvez utiliser des fonctions telles que SUM ou AVG ; si le champ de formule est formaté en tant que texte, les fonctions d&#39;agrégat telles que SUM ne s&#39;appliqueront pas.
 
@@ -188,7 +202,8 @@ Pour plus d’informations, voir [Activer des trimestres personnalisés pour les
 >[!NOTE]
 >
 >* Prévisualisation : vendredi 12 juin 2025
->* Production pour tous : 12 juin 2025>[!BADGE hors calendrier]{type=Neutral}
+>* Production pour tous : 12 juin 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 Nous avons introduit une amélioration qui met à jour tous les champs de formule qui dépendent les uns des autres en même temps après la mise à jour manuelle d’un champ référencé. Les champs de formule situés à 2, 3 ou 4 du champ dont la valeur a été modifiée manuellement et qui se référent entre eux seront désormais automatiquement mis à jour en même temps.
 
@@ -201,7 +216,8 @@ Pour plus d’informations, consultez [Vue d’ensemble des champs de formule](/
 >[!NOTE]
 >
 >* Prévisualisation : samedi 6 juin 2025
->* Production pour tous les clients : 6 juin 2025>[!BADGE hors calendrier]{type=Neutral}
+>* Production pour tous les clients : 6 juin 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 Nous avons ajouté les expressions suivantes aux champs de formule :
 
@@ -228,12 +244,12 @@ Nous avons ajouté la fonctionnalité suivante à une liste de demandes dans l�
 * Colonne « Entré par » pour indiquer la personne qui a ajouté une demande
 * Filtres permettant de limiter le nombre de demandes affichées dans l&#39;onglet Planification. Vous pouvez filtrer la liste selon les éléments suivants :
 
-   * Workspace d’où provient le formulaire de demande
-   * type d’enregistrement associé au formulaire de demande
-   * la date d’entrée de la demande
-   * nom du formulaire de demande
-   * le statut des requêtes ;
-   * nom de la personne qui a saisi la demande.
+  * Workspace d’où provient le formulaire de demande
+  * type d’enregistrement associé au formulaire de demande
+  * la date d’entrée de la demande
+  * nom du formulaire de demande
+  * le statut des requêtes ;
+  * nom de la personne qui a saisi la demande.
 
 * Les colonnes permettent d&#39;afficher ou de masquer des champs (ou des colonnes) dans la liste des demandes Planning.
 

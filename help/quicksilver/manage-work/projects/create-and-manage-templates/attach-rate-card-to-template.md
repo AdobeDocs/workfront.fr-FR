@@ -6,18 +6,22 @@ title: Joindre une carte tarifaire à un modèle
 description: Lorsque vous affectez une carte tarifaire à un modèle, celle-ci est ensuite associée à tous les projets créés à partir du modèle.
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 10%
-
 ---
-
 # Joindre une carte tarifaire à un modèle
 
 Lorsque vous affectez une carte tarifaire à un modèle, celle-ci est ensuite associée à tous les projets créés à partir du modèle. La carte tarifaire devient la carte par défaut du projet, mais elle peut être remplacée si nécessaire.
 
-Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 Pour plus d’informations sur les modèles de projet, voir [Présentation des modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/project-template-overview.md).
 
@@ -71,7 +75,7 @@ Le champ **Carte tarifaire** doit être activé pour les modèles de votre modè
 1. Dans la section Détails du modèle > Aperçu > Association des modèles , sélectionnez une carte tarifaire dans le champ **Carte tarifaire**.
 
    Seules les cartes tarifaires pour lesquelles vous disposez d’autorisations peuvent être sélectionnées.
-Vous pouvez commencer à saisir le nom d’une carte tarifaire pour affiner la liste des résultats.
+   Vous pouvez commencer à saisir le nom d’une carte tarifaire pour affiner la liste des résultats.
 
    ![Sélectionnez une carte tarifaire sur le modèle](assets/select-rate-card-on-template.png)
 

@@ -6,20 +6,24 @@ description: Les notifications suivantes vous alertent sur les activités qui se
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
+TQID: 'https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2012
+source-wordcount: '2012'
 ht-degree: 99%
-
 ---
-
 # Notifications : Informations sur le travail qui m’a été affecté
 
 Les notifications suivantes vous alertent sur les activités qui se produisent sur un élément de travail qui vous est affecté.
@@ -112,12 +116,12 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>La date d’échéance d’une tâche qui m’a été affectée est modifiée</strong> </p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque la [!UICONTROL Planned Completion Date] de la tâche est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire de la tâche.</p> <p>Une notification est envoyée uniquement si le statut du projet est autre que [!UICONTROL Planning].</p> <p>Aucune notification n’est envoyée concernant les tâches personnelles.</p> <p> Les utilisateurs disposant d’une licence externe ne reçoivent pas de notification. </p> <p> L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Due Date has been changed.]</em>.</p> <p> L’objet de la notificationde la synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>.</p> </td> 
+   <td> <p><strong>La date d’échéance d’une tâche qui m’a été affectée est modifiée</strong> </p> <p>La personne cessionnaire de la tâche reçoit une notification par e-mail lorsque la [!UICONTROL Planned Completion Date] de la tâche est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la date d’achèvement prévue est également la personne cessionnaire de la tâche.</p> <p>Une notification est envoyée uniquement si le statut du projet est différent de [!UICONTROL Planning].</p> <p>Aucune notification n’est envoyée concernant les tâches personnelles.</p> <p> Les utilisateurs disposant d’une licence externe ne reçoivent pas de notification. </p> <p> L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Due Date has been changed.]</em>.</p> <p> L’objet de la notificationde la synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>.</p> </td> 
    <td> Nom de la tâche<br>Nom du projet<br>Numéro de référence de tâche<br>Nouvelle date d’échéance ([!UICONTROL Planned Completion Date])<br>Date et heure de la modification de la date d’échéance<br>Nom de la personne qui a modifié la date d’échéance<br>* Nom du projet<br>* Numéro de référence du projet<br>* Nombre total de tâches pour lesquelles la date d’échéance (date d’achèvement prévue) a été modifiée<br>* Nom de la tâche<br>* Nouvelle date d’achèvement prévue<br>* Nom de la personne qui a modifié la date d’échéance<br>* Date de la synthèse quotidienne </td> 
    <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidienne</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>La date d’échéance d’une tâche qui m’a été affectée est modifiée</strong> </p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque la [!UICONTROL Planned Completion Date] est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la [!UICONTROL Planned Completion Date] est également la personne cessionnaire.</p> <p>Une notification est envoyée uniquement si le statut du projet est autre que [!UICONTROL Planning].</p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Due Date has been changed]</em>.</p> <p> </p> <p> L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em>.</p> </td> 
+   <td> <p><strong>La date d’échéance d’une tâche qui m’a été affectée est modifiée</strong> </p> <p>La personne cessionnaire du problème reçoit une notification par e-mail lorsque la [!UICONTROL Planned Completion Date] est modifiée, sauf si l’utilisateur ou l’utilisatrice qui a modifié la [!UICONTROL Planned Completion Date] est également la personne cessionnaire.</p> <p>Une notification est envoyée uniquement si le statut du projet est différent de [!UICONTROL Planning].</p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ou [!UICONTROL Requestor] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Due Date has been changed]</em>.</p> <p> </p> <p> L’objet de la notification de synthèse quotidienne est : <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em>.</p> </td> 
    <td> <p>Nom du problème<br>Nom du projet<br>Numéro de référence du problème<br>Nouvelle date d’échéance ([!UICONTROL Planned Completion Date])<br>Date et heure de la modification de la date d’échéance<br>Nom de la personne qui a modifié la date d’échéance<br>* Nom du projet<br>* Numéro de référence du projet<br>* Nombre total de problèmes où la date d’échéance ([!UICONTROL Planned Completion Date]) a été modifiée<br>* Nom du problème<br>* Nouvelle [!UICONTROL Planned Completion Date]<br>* Nom de la personne qui a modifié la date d’échéance<br>* Date de la synthèse quotidienne<br></p> </td> 
    <td> <p><strong>Instantané</strong> </p> <p><strong>et quotidien</strong> </p> </td> 
   </tr> 

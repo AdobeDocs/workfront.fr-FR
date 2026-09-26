@@ -6,22 +6,29 @@ description: Vous pouvez utiliser des actions pour suivre ce qui doit se passer 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-TQID: https://experienceleague.adobe.com/8b320H4rtb7kYEMgEfRRJ-ZoZv6oS-4t5bW14NO6shA
+TQID: 'https://experienceleague.adobe.com/8b320H4rtb7kYEMgEfRRJ-ZoZv6oS-4t5bW14NO6shA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '368'
 ht-degree: 99%
-
 ---
-
 # Utiliser des actions sur les commentaires d’une épreuve
 
 Vous pouvez utiliser des actions pour suivre ce qui doit se passer pour chaque thread de commentaires d’une épreuve. Une action est un mot ou une phrase comme « À faire », « Terminé » ou « En cours » que votre équipe d’administration Adobe Workfront configure dans le système pour votre organisation. Les personnes chargées de la révision peuvent ajouter une action à un commentaire afin de fournir des informations sur ce qui a été fait ou ce qui doit encore être fait en réponse au commentaire.

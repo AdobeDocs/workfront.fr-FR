@@ -7,13 +7,22 @@ description: Prise en main de l’intégration d’Adobe Express et de Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
-
 ---
-
 
 # Prise en main d’Adobe Express et de Workfront avec l’intégration Frame.io
 
@@ -80,7 +89,7 @@ Lorsqu’un modèle Express est mélangé, une approbation est requise avant la 
 
 Les utilisateurs doivent disposer d’une licence Workfront standard pour demander l’approbation d’Adobe Express.
 
-Découvrez comment [&#x200B; obtenir l’approbation des conceptions &#x200B;](https://helpx.adobe.com/fr/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Découvrez comment [ obtenir l’approbation des conceptions ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remix des modèles Express et envoi pour révision et approbation
@@ -100,7 +109,7 @@ Lors de la demande d’approbation d’un modèle Express remixé, les utilisate
 
 Si aucun projet n’est sélectionné, la ressource est définie par défaut dans un projet spécifique à Express.
 
-Pour plus d’informations, voir [Envoyer les modèles pour révision et approbation](https://helpx.adobe.com/fr/express/web/invite-collaborate/request-approval.html).
+Pour plus d’informations, voir [Envoyer les modèles pour révision et approbation](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 
 ## Examinez et approuvez les fichiers remixés Express avec Frame.io

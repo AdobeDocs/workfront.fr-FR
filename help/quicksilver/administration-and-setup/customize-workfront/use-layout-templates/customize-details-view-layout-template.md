@@ -8,24 +8,29 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-TQID: https://experienceleague.adobe.com/syB-759yDrJy14crtZfCKYIKWB6eh-bFr6Gt1INGUdc
+TQID: 'https://experienceleague.adobe.com/syB-759yDrJy14crtZfCKYIKWB6eh-bFr6Gt1INGUdc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: '576'
 ht-degree: 69%
-
 ---
-
 # Personnaliser la vue Détails à l’aide d’un modèle de mise en page
 
 En tant qu’administrateur Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour déterminer les informations qui s’affichent lorsqu’un utilisateur clique sur l’icône Détails ![icône Détails](assets/project-details-icon.png) dans le panneau de gauche lors de l’affichage d’une tâche, d’un événement, d’un document, d’un programme ou d’un portfolio.
@@ -43,7 +48,7 @@ Les modifications apportées à la vue Détails d’un objet déterminent égale
 
 * Zones « Créer un objet », telles que Créer une tâche
 
-  ![&#x200B; Boîte de dialogue Nouvelle tâche &#x200B;](assets/new-task-dialog.png)
+  ![ Boîte de dialogue Nouvelle tâche ](assets/new-task-dialog.png)
 
 
 * Écrans « Modifier un objet » lors de la modification d’un objet, tels que Modifier une tâche, Modifier un problème et Modifier un projet

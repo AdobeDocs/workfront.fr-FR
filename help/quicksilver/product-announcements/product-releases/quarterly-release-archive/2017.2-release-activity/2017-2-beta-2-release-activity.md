@@ -7,22 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+TQID: 'https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 746
-ht-degree: 95%
-
+source-wordcount: '796'
+ht-degree: 100%
 ---
-
 # Activité de la version 2017.2 Beta 2
 
 Cette page décrit tous les changements disponibles dans l’environnement de prévisualisation avec la version 2017.2 Beta 2. Les fonctionnalités de cette page ont été mises à disposition dans l’environnement de prévisualisation le 24 mai 2017. Elles seront disponibles dans l’environnement de production entre fin juillet et début août 2017.
@@ -68,7 +75,7 @@ Pour plus d’informations sur la désinscription à partir des e-mails d’abon
 
 ## Configurer l’affichage des jalons sur le graphique de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORRECTION &#x200B;** : cette fonctionnalité n’est pas encore disponible dans l’environnement sandbox de prévisualisation. Sa sortie est prévue à une date ultérieure, au cours du mois de juin 2017.*
+***CORRECTION ** : cette fonctionnalité n’est pas encore disponible dans l’environnement sandbox de prévisualisation. Sa sortie est prévue à une date ultérieure, au cours du mois de juin 2017.*
 
 Il existe désormais deux options pour afficher les informations sur les jalons dans un graphique de Gantt. Vous pouvez configurer l’un des indicateurs de jalon suivants, ou les deux :
 
@@ -80,7 +87,7 @@ Il existe désormais deux options pour afficher les informations sur les jalons 
 
   Une ligne s’affiche après chaque tâche associée au jalon, sur l’ensemble des tâches du graphique de Gantt.
 
-Avant cette modification, il n’existait qu’une seule option permettant d’afficher les jalons dans un graphique de Gantt, appelée « Jalons ». Cette option activait l’icône en forme de losange jalonné et la ligne jalonnée. Ces indicateurs n&#39;ont pas pu être séparés. Les deux options sont désormais disponibles sur tous les graphiques Gantt, y compris toutes les listes de projets et tous les rapports. 
+Avant cette modification, il n’existait qu’une seule option pour permettre l’affichage des jalons dans un graphique de Gantt, appelée « Jalons ». Cette option permet d’activer à la fois l’icône de losange de jalon et la ligne de jalon. Ces indicateurs ne pouvaient pas être séparés. Les deux options sont désormais disponibles sur tous les graphiques de Gantt, y compris les listes de projets et les rapports. 
 
 Pour plus d’informations sur la configuration de l’affichage des informations dans le graphique de Gantt, voir [Configurer l’affichage des informations sur le graphique de Gantt](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
@@ -109,7 +116,7 @@ Pour plus d’informations, voir [Gérer les versions des documents](../../../..
 
 ## Nouvel objet Demande dans le rapport d’approbation des épreuves {#new-requester-object-in-proof-approval-report}
 
-Désormais, lors de la création d’un rapport Approbation de l’épreuve, un nouvel objet Demandeur apparaît. Cet objet vous permet d&#39;établir des rapports sur les informations concernant l&#39;utilisateur qui a demandé l&#39;approbation du BAT. 
+Désormais, lors de la création d’un rapport d’approbation d’épreuve, un nouvel objet Demande est créé. Cet objet vous permet d’établir un rapport sur les informations relatives à l’utilisateur ou à l’utilisatrice qui a demandé l’approbation de l’épreuve. 
 
 Le nouvel objet Demande du rapport d’approbation d’épreuve contient tous les champs disponibles avec l’objet Utilisateur ou utilisatrice existant dans d’autres types de rapports d’objets.
 

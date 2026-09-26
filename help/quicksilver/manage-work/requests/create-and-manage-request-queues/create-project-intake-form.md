@@ -7,16 +7,28 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
-hidefromtoc: true
-last-update: 2026-04-01T18:03:50Z
+hidefromtoc: 'yes'
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 6%
-
 ---
-
 # Créer des formulaires de saisie de projet
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
@@ -89,7 +101,7 @@ Les types de champs suivants ne sont actuellement pas pris en charge dans Projec
 * Formule
 * Agrégation des données
 * Agrégation des données sur une seule ligne
-* Connexion de planning
+* Connexion à la planification
 * Les références de champs natifs qui font référence aux champs natifs du projet, qui sont en lecture seule (par exemple, `workRequiredExpression`)
 
 #### Demande d’expérience
@@ -180,7 +192,7 @@ Les formulaires de réception de projets ne prennent pas en charge le partage pu
    * Tous les approbateurs doivent prendre une décision avant qu&#39;un projet ne soit approuvé ou rejeté.
    * Si une équipe est définie en tant qu&#39;approbateur, une seule décision est requise de la part de l&#39;équipe.
 
-     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+     Pour plus d’informations sur l’ajout d’approbations à des formulaires de demande, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire dans l’en-tête, puis cliquez sur **Modifier** pour mettre à jour le nom du formulaire.
 

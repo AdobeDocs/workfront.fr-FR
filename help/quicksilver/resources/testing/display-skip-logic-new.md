@@ -2,13 +2,14 @@
 title: Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé
 description: Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 98%
-
+source-wordcount: '1491'
+ht-degree: 95%
 ---
-
 # Ajouter une logique d’affichage et une logique de saut dans un formulaire personnalisé
 
 Vous pouvez utiliser des règles intelligentes pour rendre un formulaire personnalisé dynamique et plus pertinent pour les utilisateurs et les utilisatrices qui le remplissent. Lorsqu’un utilisateur ou une utilisatrice répond d’une certaine manière à un champ à choix multiples sur un formulaire, une règle intelligente lui indique ce que vous souhaitez voir après, en fonction de cette réponse.
@@ -36,7 +37,7 @@ Les champs à choix multiples sont de type liste déroulante, cases à cocher et
   Dans ce cas, vous pouvez ajouter un champ de texte descriptif qui renvoie l’utilisateur ou l’utilisatrice au service des ventes. Dans le premier champ personnalisé qui demande le type de contenu marketing dont l’utilisateur ou l’utilisatrice a besoin, vous pouvez ajouter une règle de logique de saut qui n’affiche que la ligne de texte lorsqu’une personne sélectionne la case d’option Article technique dans le premier champ.
 
   Cela s’avère particulièrement utile si vous ajoutez de nombreux autres champs concernant les logos, les mises à jour de site web et les brochures que cette personne n’a pas besoin de voir.
-Vous pouvez appliquer une règle de logique de saut uniquement à un champ personnalisé, et non à un widget ou à une section.
+  Vous pouvez appliquer une règle de logique de saut uniquement à un champ personnalisé, et non à un widget ou à une section.
 
 
 ## Conditions d’accès
@@ -91,7 +92,7 @@ Dans cet exemple, vous allez créer un formulaire personnalisé avec un champ à
 
       ![](assets/add-a-field-tab-350x237.png)
 
-   1. Sélectionnez le type de champ **Cases d’option**, puis saisissez *De quel type de contenu marketing avez-vous besoin ?* en tant que **Libellé** du champ.
+   1. Sélectionnez le type de champ **Boutons radio**, puis saisissez *De quel type de contenu marketing avez-vous besoin ?* comme **Libellé** pour le champ ;
 
    1. Dans **Choix**, remplacez **Choix 1** et **Choix 2** par les phrases suivantes pour créer deux options que les utilisateurs et utilisatrices peuvent choisir dans le champ :
 
@@ -133,7 +134,7 @@ Pour en savoir plus, continuez à travailler sur l’exemple de formulaire perso
 
 1. Cliquez sur **Formulaires personnalisés**.
 1. Cliquez sur le nom du formulaire **Exemple de formulaire personnalisé : apprentissage de la logique d’affichage et de la logique de saut** que vous avez créé lors des étapes précédentes pour l’ouvrir et le modifier.
-1. Sélectionnez le champ déroulant que vous avez créé nommé *De quel type de site web avez-vous besoin ?*, ajoutez les options suivantes pour le champ, puis cliquez sur **Appliquer** :
+1. Sélectionnez le champ déroulant que vous avez créé et nommé *de quel type de site web avez-vous besoin ?*, ajoutez les choix suivants pour le champ, puis cliquez sur **Appliquer** :
 
    *E-commerce*
 

@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Définir une épreuve avec un workflow automatisé dans  [!DNL Workfront Proof]
+title: Définir une épreuve avec un workflow automatisé dans [!DNL Workfront Proof]
 description: Il s’agit d’une répétition des informations contenues dans l’article « Configurer des épreuves dans Workfront ». Consolidez ici ou là. Peut-être mieux ici.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
-ht-degree: 97%
-
+source-wordcount: '1659'
+ht-degree: 98%
 ---
-
 # Définir une épreuve avec un workflow automatisé dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ Vous pouvez ajouter un workflow automatisé à une épreuve lors du chargement d
    * **[!UICONTROL À partir de l’activation de l’étape] :** sélectionnez le nombre de jours ouvrables qui seront ajoutés à la date d’activation de l’étape pour définir automatiquement une date d’échéance pour l’épreuve.
    * **[!UICONTROL Activer l’étape] :** pour chaque étape de votre workflow, vous pouvez décider quand elle doit être activée. Pour votre première étape, les options suivantes sont disponibles.
 
-      * Lors de la création des épreuves
-      * À une date et une heure précises
-      * Manuellement
+     * Lors de la création des épreuves
+     * À une date et une heure précises
+     * Manuellement
 
-        Des options supplémentaires sont disponibles pour les étapes suivantes. Ces options nécessitent une étape parent. Il s’agit de :
-      * Une fois que la date d’échéance précédente est atteinte.
-      * Toutes les décisions sont approuvées ou approuvées avec modifications.
-      * Toutes les décisions sont approuvées.
-      * Toutes les décisions sont prises.
+       Des options supplémentaires sont disponibles pour les étapes suivantes. Ces options nécessitent une étape parent. Il s’agit de :
+     * Une fois que la date d’échéance précédente est atteinte.
+     * Toutes les décisions sont approuvées ou approuvées avec modifications.
+     * Toutes les décisions sont approuvées.
+     * Toutes les décisions sont prises.
    * **[!UICONTROL Date d’échéance calculée à partir de] :** l’option que vous sélectionnez dans cette liste déroulante affecte les options disponibles dans le champ **[!UICONTROL Date d’échéance]**.
 
    * **[!UICONTROL Création d’une épreuve] :** dans le champ **[!UICONTROL Date d’échéance]**, sélectionnez la date d’échéance pour l’épreuve.
@@ -124,26 +133,26 @@ Vous pouvez ajouter une étape supplémentaire à un workflow que vous êtes en 
 * **[!UICONTROL Nom de l’étape]** : apparaît sur le diagramme de workflow et est inclus dans les notifications par e-mail envoyées aux équipes de révision.
 * **[!UICONTROL Activer l’étape]** : pour chaque étape de votre workflow, vous pouvez décider du moment où elle doit être activée. Pour la première étape, les options suivantes sont disponibles :
 
-   * Lors de la création des épreuves
-   * À une date et une heure précises
-   * Manuellement
-   * Seules ces trois options sont disponibles pour la première étape. Les autres options seront disponibles lorsque vous ajouterez une deuxième étape. Elles nécessitent la sélection d’une étape parent.
-   * Après l’échéance précédente (nécessite de choisir une étape parent).
-   * Toutes les décisions sont approuvées ou [!UICONTROL approuvées avec modifications] (nécessite de choisir une étape parent).
-   * Toutes les décisions sont approuvées (nécessite de choisir une étape parent).
-   * Toutes les décisions sont prises (nécessite de choisir une étape parent).
+  * Lors de la création des épreuves
+  * À une date et une heure précises
+  * Manuellement
+  * Seules ces trois options sont disponibles pour la première étape. Les autres options seront disponibles lorsque vous ajouterez une deuxième étape. Elles nécessitent la sélection d’une étape parent.
+  * Après l’échéance précédente (nécessite de choisir une étape parent).
+  * Toutes les décisions sont approuvées ou [!UICONTROL approuvées avec modifications] (nécessite de choisir une étape parent).
+  * Toutes les décisions sont approuvées (nécessite de choisir une étape parent).
+  * Toutes les décisions sont prises (nécessite de choisir une étape parent).
 
 * **[!UICONTROL Échéance] :** vous pouvez choisir le mode de calcul de la date limite à chaque étape d’un workflow. Les options sont les suivantes :
 
-   * À partir de la création de l’épreuve : dans le champ [!UICONTROL Échéance] (9), vous pouvez sélectionner la date limite de l’épreuve.
-   * À partir de l’activation de l’étape : dans le menu déroulant [!UICONTROL Échéance], vous pouvez sélectionner le nombre de jours ouvrables qui seront ajoutés à la date d’activation de l’étape pour fixer automatiquement une date limite pour l’épreuve.
+  * À partir de la création de l’épreuve : dans le champ [!UICONTROL Échéance] (9), vous pouvez sélectionner la date limite de l’épreuve.
+  * À partir de l’activation de l’étape : dans le menu déroulant [!UICONTROL Échéance], vous pouvez sélectionner le nombre de jours ouvrables qui seront ajoutés à la date d’activation de l’étape pour fixer automatiquement une date limite pour l’épreuve.
 
 * **[!UICONTROL Verrouiller] :** il existe plusieurs options qui déterminent le moment où une étape peut être verrouillée. Les options sont les suivantes :
 
-   * Verrouillage manuel
-   * Jamais
-   * Lorsque l’étape suivante commence.
-   * Lorsque toutes les décisions sont prises.
+  * Verrouillage manuel
+  * Jamais
+  * Lorsque l’étape suivante commence.
+  * Lorsque toutes les décisions sont prises.
 
 **[!UICONTROL Personne décisionnaire principale]** : vous définissez qui est la personne décisionnaire principale de l’étape. Les personnes décisionnaires disponibles n’apparaissent dans la liste qu’une fois les équipes de révision ajoutées à l’étape.
 
@@ -173,7 +182,7 @@ Vous pouvez ajouter une étape supplémentaire à un workflow que vous êtes en 
 Vous pouvez convertir une épreuve de base en workflow automatisé.
 
 1. Cliquez sur **[!UICONTROL Convertir en workflow automatisé]** sur la page [!UICONTROL Détails de l’épreuve].
-Une fois l’épreuve retravaillée en Workflow automatisé, toutes les étapes sont actives, publiques et leur option [!UICONTROL Verrouiller l’étape] est définie sur Manuelle par défaut. Toutes les étapes restent entre les mains des utilisateurs et de leurs paramètres.
+Une fois l’épreuve retravaillée par le workflow automatisé, toutes les étapes sont actives et publiques, et l’option [!UICONTROL Verrouiller l’étape] est définie par défaut sur Manuel. Toutes les étapes restent entre les mains des personnes et de leurs paramètres.
 
    * « Activer l’étape » est réglée sur « À la création de l’épreuve » à chaque étape.
    * L’option « Date d’échéance calculée à partir » est définie sur « À la création de l’épreuve » à chaque étape.

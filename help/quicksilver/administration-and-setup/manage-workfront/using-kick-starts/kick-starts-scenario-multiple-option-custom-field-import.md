@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
-ht-degree: 89%
-
+source-wordcount: '2179'
+ht-degree: 91%
 ---
-
 # Scénario de lancement : importer des champs personnalisés à plusieurs options dans Workfront
 
 Vous pouvez importer des champs personnalisés avec plusieurs options dans Adobe Workfront à l’aide de la fonctionnalité de lancement.
@@ -156,7 +162,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
 
    Vous devez écrire les noms des objets et leurs attributs au format pris en charge par la base de données Workfront.
 
-   Pour plus d’informations sur la signification de ces objets, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Pour plus d’informations sur la signification de ces objets, voir [Glossaire de la terminologie  [!DNL Adobe Workfront] ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
    Pour plus d’informations sur les noms des objets dans la base de données Workfront, voir [Explorateur d’API](../../../wf-api/general/api-explorer.md).
 
@@ -183,19 +189,19 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
    * **`ID`** = doit être un nombre unique pour chaque ligne qui représente un nouveau champ. Vous pouvez utiliser n’importe quel nombre commençant par 1, à condition que chaque nouveau champ ait un numéro unique.
    * **`setDataType`** = pour chaque ligne représentant un nouveau champ, saisissez le type de données pris en charge par le champ. Le type de données doit être renseigné tel qu’il apparaîtrait dans la base de données. Sélectionnez l’un des types de données suivants :
 
-      * **`NMBR`** pour un nombre
-      * **`CURC`** pour une devise
-      * **`TEXT`** pour du texte
+     * **`NMBR`** pour un nombre
+     * **`CURC`** pour une devise
+     * **`TEXT`** pour du texte
 
    * `**setDisplaySize**`= la taille d’affichage (« **setDisplaySize** ») pour les champs personnalisés de plusieurs options est toujours 0.
    * **`setDisplayType`** = pour chaque ligne représentant un nouveau champ, saisissez le type d’affichage du champ. Le type d’affichage doit être renseigné tel qu’il apparaîtrait dans la base de données.
 
      Pour les champs personnalisés à plusieurs options, sélectionnez l’une des options suivantes :
 
-      * **`MULT`** pour une liste déroulante à sélection multiple
-      * **`SLCT`** pour une liste déroulante
-      * **`RDIO`** pour des cases d’option
-      * **`CHCK`** pour des cases à cocher
+     * **`MULT`** pour une liste déroulante à sélection multiple
+     * **`SLCT`** pour une liste déroulante
+     * **`RDIO`** pour des cases d’option
+     * **`CHCK`** pour des cases à cocher
 
      >[!TIP]
      >
@@ -230,7 +236,7 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
      >
      >Vous ne pouvez avoir qu’une seule option par défaut pour chaque champ.
 
-   * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**&#x200B;de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
+   * **`setParameterID`** = les options correspondant au champ personnalisé _Marque_ comportent un **`setParameterID`** de 1 et les options correspondant au _Média_ ont un **`setParameterID`**de 2. Les feuilles `PARAM` et `POPT` se croisent pour indiquer quelles options appartiennent à quel champ personnalisé.
    * **`setDisplayOrder`**= la colonne d’ordre d’affichage indique l’ordre dans lequel les options s’afficheront dans votre champ personnalisé. Vous pouvez commencer par 1 et continuer par ordre croissant pour toutes les options, quels que soient les champs auxquels elles appartiennent. L’important ici est d’avoir des nombres uniques pour chaque option.
    * Les colonnes **`setLabel`** et `**setValue`** contiennent généralement les mêmes informations et doivent refléter les noms souhaités dans l’interface d’utilisation de Workfront. La valeur d’une option est le nom qui s’affiche dans les rapports, par exemple, tandis que le libellé s’affiche dans les formulaires personnalisés lorsqu’il est associé à un objet. Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = saisissez `TRUE` si vous souhaitez que l’une des options soit masquée.
@@ -246,18 +252,18 @@ Pour remplir la feuille de calcul Excel avec des informations sur les nouveaux c
    Pour découvrir l’`ID` d’un groupe, vous pouvez créer un rapport Groupe et ajouter l’`ID` dans la vue ou accédez à un groupe et recherchez l’URL du groupe. L’identifiant de groupe se trouve dans l’URL de la page du groupe. Par exemple, si l’URL du groupe est `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, l’identifiant de groupe est `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode`**= il s’agit du code objet du type d’objet pour lequel vous souhaitez que le formulaire soit créé. Saisissez un code parmi les options suivantes :
-      * **`CMPY`** pour l‘entreprise
-      * **`TASK`** pour la tâche
-      * **`PROJ`** pour le projet
-      * **`PORT`** pour le portfolio
-      * **`PRGM`** pour le programme
-      * **`USER`** pour l’utilisateur ou utilisatrice
-      * **`DOCU`** pour le document
-      * **`OPTASK`** pour le problème
-      * **`EXPNS`** pour les frais
-      * **`ITRN`** pour l’itération
-      * **`BILL`** pour les enregistrements de facturation
-      * **`GROUP`** pour le groupe
+     * **`CMPY`** pour l‘entreprise
+     * **`TASK`** pour la tâche
+     * **`PROJ`** pour le projet
+     * **`PORT`** pour le portfolio
+     * **`PRGM`** pour le programme
+     * **`USER`** pour l’utilisateur ou utilisatrice
+     * **`DOCU`** pour le document
+     * **`OPTASK`** pour le problème
+     * **`EXPNS`** pour les frais
+     * **`ITRN`** pour l’itération
+     * **`BILL`** pour les enregistrements de facturation
+     * **`GROUP`** pour le groupe
 
      >[!NOTE]
      >
@@ -296,5 +302,5 @@ Après avoir suivi les étapes décrites dans les sections précédentes, procé
 1. (Le cas échéant) Selon le problème, comme indiqué dans le message d’erreur, certaines informations ont peut-être déjà été importées. Vous devez effectuer l’une des opérations suivantes avant de pouvoir réimporter la feuille :
 
    * Supprimez les informations importées de Workfront à partir de la zone Formulaires personnalisés, puis apportez la correction indiquée par le message d’erreur.
-   * Indiquez qu&#39;un champ ou un formulaire se trouve déjà dans le système pour les champs ou formulaires déjà importés, puis apportez la correction.
-Pour indiquer qu’un champ ou un formulaire personnalisé se trouve déjà dans Workfront, vous devez vous assurer que le champ `inNew` est marqué comme `FALSE` dans les feuilles qui contiennent des informations sur le formulaire (`CTGY`) ou le champ (`PARAM`) sur la feuille d’importation Kickstart.
+   * Indiquez qu’un champ ou un formulaire se trouve déjà dans le système pour les champs ou formulaires déjà importés, puis apportez la correction.
+     Pour indiquer qu’un champ ou un formulaire personnalisé se trouve déjà dans Workfront, vous devez vous assurer que le champ `inNew` est marqué comme `FALSE` dans les feuilles contenant des informations sur le formulaire (`CTGY`) ou le champ (`PARAM`) dans la feuille de démarrage de l’import.

@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
-TQID: https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo
+TQID: 'https://experienceleague.adobe.com/SKiCAgc9DDftQxDXZc1vtqwZamb7lF0TfEuLQWEpJzo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 486
+source-wordcount: '486'
 ht-degree: 17%
-
 ---
-
 # Améliorations apportées à la page d’accueil (quatrième trimestre 2024)
 
 Cette page décrit toutes les améliorations apportées à la page d’accueil par la version du quatrième trimestre 2024 dans l’environnement de prévisualisation. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -77,9 +83,9 @@ Avec cette modification, les zones suivantes seront affectées :
 * La zone _Espace de travail d’accueil_ sera renommée _Accueil_.
 * La zone _Accueil et Résumé_ sera renommée _Panneau Résumé_. Les personnalisations dans ce domaine s’appliqueront toujours au panneau Résumé dans la nouvelle page d’accueil. Pour plus d’informations, voir [Personnaliser l’accueil et le résumé à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Nous supprimerons les onglets suivants du panneau Accueil et Résumé :
-   * Projets
-   * Documents
-   * Versions du document
+  * Projets
+  * Documents
+  * Versions du document
 
 Remarque : le document et les versions de document s’appliquent uniquement à l’ancienne page d’accueil. Ils ne vous ont pas permis de personnaliser le résumé dans la zone Documents .
 

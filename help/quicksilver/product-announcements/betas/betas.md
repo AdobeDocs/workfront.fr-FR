@@ -6,18 +6,24 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
+TQID: 'https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: '176'
 ht-degree: 10%
-
 ---
-
 # Programmes Beta
 
 Les articles liés à cette page décrivent les programmes bêta actuellement disponibles dans Adobe Workfront.
@@ -34,7 +40,7 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
 * Intégrité du projet
 
-  Pour plus d’informations, voir [&#x200B; Présentation de l’intégrité du projet &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Pour plus d’informations, voir [ Présentation de l’intégrité du projet ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * Le réviseur de contenu Workfront
 

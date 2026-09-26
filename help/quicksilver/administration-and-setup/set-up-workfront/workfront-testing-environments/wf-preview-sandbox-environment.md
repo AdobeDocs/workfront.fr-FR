@@ -3,29 +3,34 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: 'Environnement de prévisualisation de sandbox  [!DNL Adobe Workfront] '
+title: Environnement de prévisualisation de sandbox [!DNL Adobe Workfront]
 description: L’environnement de prévisualisation de sandbox est un environnement de test qui sert de réplique à votre environnement réel. Il est actualisé chaque week-end par Workfront. Les données ajoutées à votre environnement réel le vendredi apparaissent dans votre environnement de prévisualisation de sandbox le lundi suivant. Tous les packages d’assistance ont accès à ce sandbox.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-TQID: https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4
+TQID: 'https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1366
+source-wordcount: '1366'
 ht-degree: 87%
-
 ---
-
 # Environnement de prévisualisation de sandbox [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
@@ -40,7 +45,7 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 * Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -204,4 +209,4 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
 
-* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).

@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Configurer la génération automatique des épreuves
 description: Vous pouvez configurer la génération automatique des épreues par le système lorsque les utilisateurs et utilisatrices que vous spécifiez ajoutent des documents à Workfront. Ce paramètre est désactivé par défaut.
 author: Courtney
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 81%
-
 ---
-
 
 # Configurer la génération automatique des épreuves
 
@@ -27,7 +28,7 @@ Vous devez disposer des éléments suivants :
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/fr/products/workfront/pricing.html" target="_blank">Plan Adobe Workfront</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plan Adobe Workfront</a> </td> 
    <td>Tous</td> 
   </tr> 
   <tr> 

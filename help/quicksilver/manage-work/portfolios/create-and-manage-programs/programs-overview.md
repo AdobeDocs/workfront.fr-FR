@@ -9,25 +9,31 @@ feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI
+TQID: 'https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 15%
-
 ---
-
 # Vue d’ensemble des programmes
 
 <!-- Audited: 08/2025 -->
@@ -125,18 +131,18 @@ Old:
 
 * Lorsque vous créez des projets, des programmes et des portefeuilles, tenez compte des points suivants :
 
-   * Un projet peut être indépendant, sans être associé à un programme ou un portefeuille.
-   * Un projet peut être associé à un portefeuille, mais il n’est pas nécessaire qu’il soit également associé à un programme.
-   * Un programme doit toujours être associé à un portefeuille. Il ne peut jamais exister en dehors d&#39;un portefeuille.
-   * Un projet associé à un programme est toujours associé au portefeuille du programme.
-   * Un programme ne peut être associé qu&#39;à un seul portefeuille.
-   * Un projet ne peut être associé qu&#39;à un seul programme et au portefeuille du programme à la fois.
-   * Un portefeuille peut comporter plusieurs programmes et projets.
-   * Un programme peut avoir plusieurs projets.
+  * Un projet peut être indépendant, sans être associé à un programme ou un portefeuille.
+  * Un projet peut être associé à un portefeuille, mais il n’est pas nécessaire qu’il soit également associé à un programme.
+  * Un programme doit toujours être associé à un portefeuille. Il ne peut jamais exister en dehors d&#39;un portefeuille.
+  * Un projet associé à un programme est toujours associé au portefeuille du programme.
+  * Un programme ne peut être associé qu&#39;à un seul portefeuille.
+  * Un projet ne peut être associé qu&#39;à un seul programme et au portefeuille du programme à la fois.
+  * Un portefeuille peut comporter plusieurs programmes et projets.
+  * Un programme peut avoir plusieurs projets.
 
   Pour plus d’informations sur la création de projets et de portfolios, consultez les articles suivants :
-   * [Créer un projet](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-   * [Créer un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+  * [Créer un projet](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+  * [Créer un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * Vous pouvez utiliser l’optimiseur de portfolio pour analyser les performances de tous les projets d’un portfolio. Vous ne pouvez pas comparer les performances de plusieurs projets dans le même programme seul. Vous devez analyser les performances du projet au niveau du portefeuille.

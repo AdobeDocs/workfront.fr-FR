@@ -5,13 +5,17 @@ title: Présentation du serveur MCP Adobe Workfront
 description: Découvrez la fonction du serveur MCP Adobe Workfront et comment il vous permet de travailler avec Workfront par le biais d’une conversation en langage naturel dans une plateforme agentique d’IA.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 
 # Présentation du serveur MCP Adobe Workfront
 
@@ -44,4 +48,4 @@ Pour plus d’informations, voir [Configuration du serveur Adobe Workfront MCP](
 
 Après la configuration, vous pouvez demander à votre plateforme IA agentic de rechercher, créer, mettre à jour et gérer les éléments Workfront en langage naturel.
 
-Pour plus d’informations, notamment sur les demandes d’exemple, les éléments à garder à l’esprit et les informations sur les données et la sécurité, consultez la section [&#x200B; Utiliser le serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour plus d’informations, notamment sur les demandes d’exemple, les éléments à garder à l’esprit et les informations sur les données et la sécurité, consultez la section [ Utiliser le serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).

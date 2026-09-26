@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NCVQgFJ7pyw6-6szjy0Z8NvwKca54gyXP3NDNpOg8ZU
+TQID: 'https://experienceleague.adobe.com/NCVQgFJ7pyw6-6szjy0Z8NvwKca54gyXP3NDNpOg8ZU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: '780'
 ht-degree: 96%
-
 ---
-
 # Remplacer le bouton [!UICONTROL Travailler sur ce projet] par un bouton [!UICONTROL Démarrer]
 
 La configuration par défaut d’[!DNL Adobe Workfront] comprend un bouton [!UICONTROL Travailler sur ce projet] pour les tâches et les problèmes qui s’affichent pour les éléments qui vous ont été attribués. Lorsque vous cliquez sur [!UICONTROL Travailler sur ce projet] sur les éléments qui vous sont attribués, vous signalez aux autres utilisateurs et utilisatrices que vous avez reçu le travail et que vous vous engagez à travailler dessus. Cependant, le bouton [!DNL Work On It] ne met pas à jour le statut de la tâche ou du problème pour signaler que le travail a réellement commencé.

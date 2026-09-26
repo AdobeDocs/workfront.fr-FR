@@ -5,22 +5,29 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 62dd094f-364e-4171-bf9a-c55cbbc92ad7
-TQID: https://experienceleague.adobe.com/tJcpVb7RemoSrgpy034Gvk6GGM3AF7-O9ph8TD6nUDU
+TQID: 'https://experienceleague.adobe.com/tJcpVb7RemoSrgpy034Gvk6GGM3AF7-O9ph8TD6nUDU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 142
-ht-degree: 97%
-
+source-wordcount: '148'
+ht-degree: 100%
 ---
-
 # Améliorations apportées aux projets au premier trimestre 2026
 
 Cette page décrit toutes les améliorations apportées au projet dans l’environnement de prévisualisation de la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -31,7 +38,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 11 décembre 2025>Version rapide de production : 15 janvier 2026\
+>Prévisualisation : 11 décembre 2025
+>Version rapide pour la production : 15 janvier 2026\
 >Production pour tous : 15 janvier 2026
 
 Les utilisateurs et utilisatrices de la licence Light peuvent désormais consigner le temps directement dans les projets. Auparavant, seuls les utilisateurs et utilisatrices de la licence standard pouvaient enregistrer des heures sur les projets.

@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+TQID: 'https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 10%
-
+source-wordcount: '663'
+ht-degree: 8%
 ---
-
 # Améliorations apportées à l’équipe d’administration au deuxième trimestre 2026
 
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du deuxième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -36,7 +42,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 2 avril 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 2 avril 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 Pour vous permettre de bénéficier plus facilement de l’IA dans votre travail quotidien, nous avons créé le Collaborateur IA dédié à la révision de contenu. L’espace de collaboration permet d’intégrer des agents d’IA à vos projets et tâches. Vous pouvez configurer un collaborateur de l’IA avec des directives de marque, puis l’affecter à une tâche comme vous le feriez pour un utilisateur.
 
@@ -48,7 +56,9 @@ Pour plus d’informations, voir [Configuration des collaborateurs d’IA](/help
 
 >[!NOTE]
 >
->Aperçu : 27 mars 2026>Version rapide de production : 27 mars 2026>Production pour tous : 27 mars 2026
+>Aperçu : 27 mars 2026
+>Version rapide de production : 27 mars 2026
+>Production pour tous : 27 mars 2026
 
 Nous avons mis à jour les fuseaux horaires disponibles dans Workfront pour respecter les normes IANA. Cela garantit la compatibilité avec d’autres systèmes et la précision au fil du temps.
 
@@ -60,7 +70,9 @@ Pour obtenir la liste de ces modifications, voir [Noms de fuseau horaire mis à 
 
 >[!NOTE]
 >
->Aperçu : 5 mars 2026>Version rapide de production : 15 avril 2026>Production pour tous : 16 avril 2026
+>Aperçu : 5 mars 2026
+>Version rapide de production : 15 avril 2026
+>Production pour tous : 16 avril 2026
 
 La zone Trimestre personnalisé a été déplacée de la section Préférences du projet. Il s’agit désormais d’une section autonome dans la configuration. 
 Cette mise à jour comprend les éléments suivants :
@@ -75,7 +87,9 @@ Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/q
 
 >[!NOTE]
 >
->Aperçu : 26 février 2026>Version rapide de production : 12 mars 2026>Production pour tous : 16 avril 2026
+>Aperçu : 26 février 2026
+>Version rapide de production : 12 mars 2026
+>Production pour tous : 16 avril 2026
 
 Par défaut, toutes les sections d’un formulaire personnalisé sont développées lorsque le formulaire lui-même est développé. Une nouvelle option du concepteur de formulaire personnalisé vous permet de marquer une section à réduire par défaut lorsqu’un utilisateur ouvre le formulaire. Cette option est appliquée au niveau de la section, et non des champs.
 
@@ -85,7 +99,9 @@ Pour plus d’informations, voir [Organisation et prévisualisation d’un formu
 
 >[!NOTE]
 >
->Aperçu : 29 janvier 2026>Version rapide de production : 12 février 2026>Production pour tous : à déterminer
+>Aperçu : 29 janvier 2026
+>Version rapide de production : 12 février 2026
+>Production pour tous : à déterminer
 >
 >Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 13 février 2026.
 

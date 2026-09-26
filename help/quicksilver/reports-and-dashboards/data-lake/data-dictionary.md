@@ -7,13 +7,20 @@ description: Cette page contient des informations sur la structure et le contenu
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Dictionnaire de données Workfront Data Connect
 
 Cette page contient des informations sur la structure et le contenu des données dans Workfront Data Connect.
@@ -250,7 +257,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
     </tbody>
 </table>
 
-### Chemin d&#39;approbation
+### Chemin d’approbation
 
 <table>
     <thead>
@@ -264,8 +271,8 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
       </thead>
       <tbody>
         <tr>
-            <td>Chemin d'approbation</td>
-            <td>Chemin d'approbation</td>
+            <td>Chemin d’approbation</td>
+            <td>Chemin d’approbation</td>
             <td>ARVPTH</td>
             <td>Approbation</td>
             <td>APPROVALPATHS_CURRENT<br>APPROVALPATHS_DAILY_HISTORY<br>APPROVALPATHS_EVENT</td>
@@ -648,7 +655,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
     </tbody>
 </table>
 
-### Approbations en attente
+### En attente des approbations
 
 <table>
     <thead>
@@ -662,10 +669,10 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
       </thead>
       <tbody>
         <tr>
-            <td>Approbations en attente</td>
-            <td>Approbations en attente</td>
+            <td>En attente des approbations</td>
+            <td>En attente des approbations</td>
             <td>AWAPVL</td>
-            <td>Approbations en attente</td>
+            <td>En attente des approbations</td>
             <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
         </tr>
       </tbody>
@@ -1708,15 +1715,15 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 >
 >Le type d’enregistrement est identifié via la propriété `enumClass` . Voici les types attendus :<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
@@ -2404,7 +2411,7 @@ Disponibilité limitée des clients
     </tbody>
 </table>
 
-### Configuration du fournisseur de documents
+### Configuration du fournisseur de document
 
 <table>
     <thead>
@@ -2418,8 +2425,8 @@ Disponibilité limitée des clients
       </thead>
       <tbody>
         <tr>
-            <td>Configuration du fournisseur de documents</td>
-            <td>Configuration du fournisseur de documents</td>
+            <td>Configuration du fournisseur de document</td>
+            <td>Configuration du fournisseur de document</td>
             <td>DOCCFG</td>
             <td>DocumentProviderConfig</td>
             <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
@@ -7146,7 +7153,7 @@ Disponibilité limitée des clients
       <tbody>
         <tr>
             <td>Tâche de modèle antérieure</td>
-            <td>Prédécesseur du modèle</td>
+            <td>Prédécesseur de modèle</td>
             <td>TPRED</td>
             <td>Tâche antérieure</td>
             <td>TEMPLATEPREDECESSORS_CURRENT<br>TEMPLATEPREDECESSORS_DAILY_HISTORY<br>TEMPLATEPREDECESSORS_EVENT</td>
@@ -8660,7 +8667,7 @@ Disponibilité limitée des clients
     </tbody>
 </table>
 
-### User Role Set
+### Jeu de rôles d’utilisateur ou d’utilisatrice
 
 <table>
     <thead>
@@ -8675,7 +8682,7 @@ Disponibilité limitée des clients
       <tbody>
         <tr>
             <td>UserRoleSet</td>
-            <td>User Role Set</td>
+            <td>Jeu de rôles d’utilisateur ou d’utilisatrice</td>
             <td>URSET</td>
             <td>UserRoleSet</td>
             <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>

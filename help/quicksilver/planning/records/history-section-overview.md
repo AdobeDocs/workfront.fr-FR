@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la section Historique
-description: Vous pouvez passer en revue les modifications apportées à l’enregistrement et enregistrées par le système dans le panneau droit d’un enregistrement dans Adobe Workfront Planning.
+description: Vous pouvez passer en revue les modifications apportées à l’enregistrement et enregistrées par le système dans le panneau droit d’un enregistrement dans la planification Adobe Workfront.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs
+TQID: 'https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 73%
-
 ---
-
 # Vue d’ensemble de la section Historique
 
 <!--
@@ -36,11 +43,11 @@ ht-degree: 73%
 
 {{planning-important-intro}}
 
-Vous pouvez collaborer sur les enregistrements Adobe Workfront Planning en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
+Vous pouvez collaborer sur les enregistrements de la planification Adobe Workfront en ajoutant des commentaires ou des réponses dans le panneau droit d’un enregistrement. Vous pouvez également afficher d’autres modifications apportées à l’enregistrement et enregistrées par le système dans cette zone.
 
 Le panneau de droite d’un enregistrement affiche les sections suivantes :
 
-* **Commentaires** : affiche les commentaires et réponses ajoutées aux enregistrements. Pour plus d’informations sur la gestion des commentaires dans les enregistrements Workfront Planning, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Commentaires** : affiche les commentaires et réponses ajoutées aux enregistrements. Pour plus d’informations sur la gestion des commentaires dans les enregistrements de la planification Workfront, voir [Gérer les commentaires d’enregistrement](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Historique** : affiche les modifications apportées aux champs d’enregistrement et enregistrées par le système.
 
 ## Conditions d’accès
@@ -183,7 +190,7 @@ Vous pouvez passer en revue les modifications apportées aux champs d’enregist
 
 ![Zone Historique des commentaires](assets/history-area-in-comments.png)
 
-* Workfront Planning enregistre les informations suivantes dans la section Historique :
+* La planification Workfront enregistre les informations suivantes dans la section Historique :
 
   * Toute modification de champ
 
@@ -213,7 +220,7 @@ Vous pouvez passer en revue les modifications apportées aux champs d’enregist
 
 * Les champs de type case à cocher n’affichent jamais l’ancienne valeur en caractères barrés. Si le champ est modifié, seul l’état actuel au moment de la modification s’affiche.
 
-  Pour plus d’informations sur les champs Workfront Planning, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
+  Pour plus d’informations sur les champs de la planification Workfront, voir [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
 * Les modifications apportées aux champs des types suivants ne s’affichent pas dans la section Historique :
 

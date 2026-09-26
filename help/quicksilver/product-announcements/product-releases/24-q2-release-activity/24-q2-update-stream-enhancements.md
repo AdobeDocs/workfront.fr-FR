@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+TQID: 'https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '744'
 ht-degree: 95%
-
 ---
-
 # Deuxième trimestre 2024 - Amélioration du flux de mise à jour et des notifications
 
 Cette page décrit les améliorations apportées au flux de mise à jour et aux notifications dans l’environnement Aperçu par la version du deuxième trimestre 2024. Si indiqué, ces améliorations seront disponibles dans l’environnement de production.
@@ -67,7 +73,7 @@ Les améliorations suivantes ont été apportées à la nouvelle expérience de 
 
 Pour plus d’informations, consultez la section [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:47)
+[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 14 h 47)
 
 ## L’onglet Activité du système sur la nouvelle expérience de commentaire prend en charge les commentaires en lecture seule.
 
@@ -79,7 +85,7 @@ Les commentaires apportés aux enregistrements d’activité du système dans l�
 
 Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Affichez une démonstration vidéo de cette fonctionnalité.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 2:00)
+[Afficher une démonstration vidéo de cette fonctionnalité](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussion sur cette fonctionnalité spécifique commence à 02:00)
 
 ## Nouvel onglet de flux de mise à jour pour capturer les commentaires et les entrées d’activité du système
 

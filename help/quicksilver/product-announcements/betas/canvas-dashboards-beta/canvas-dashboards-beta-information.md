@@ -9,29 +9,34 @@ recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jklN-Kfhi1HPkmFXKn-cu8ro6awWpv2v5NUsR9cLXF4
+TQID: 'https://experienceleague.adobe.com/jklN-Kfhi1HPkmFXKn-cu8ro6awWpv2v5NUsR9cLXF4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 33%
-
+source-wordcount: '590'
+ht-degree: 30%
 ---
-
 # Informations sur la version Beta des tableaux de bord Zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](#provide-feedback) ci-dessous.<br>
->Si vous avez des commentaires à formuler au sujet d’un bogue ou d’un problème technique éventuel, veuillez envoyer un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
 >
 >* Apporter votre propre clé pour Amazon Web Services
@@ -40,7 +45,7 @@ ht-degree: 33%
 
 Les tableaux de bord de la zone de travail sont une fonctionnalité en cours de développement. Ils vous permettent de visualiser facilement vos données Adobe Workfront en ajoutant divers types de rapports à une zone de travail. Cette dernière offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.
 
-Pour plus d’informations, voir [&#x200B; Présentation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Pour plus d’informations, voir [ Présentation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Conditions d’accès
 
@@ -88,7 +93,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
    >
    > Le bouton **Joindre la version Beta des tableaux de bord de la zone de travail** n’est accessible que par les administrateurs système. Tous les autres utilisateurs verront ce bouton dans un état désactivé.
 
-1. Vérifiez les conditions du contrat **&#x200B;**&#x200B;puis cliquez sur **Accepter**. Vous êtes maintenant inscrit à la version bêta. Notez que l’accessibilité complète de vos données Workfront dans les tableaux de bord de la zone de travail peut prendre quelques minutes.
+1. Vérifiez les conditions du contrat **** puis cliquez sur **Accepter**. Vous êtes maintenant inscrit à la version bêta. Notez que l’accessibilité complète de vos données Workfront dans les tableaux de bord de la zone de travail peut prendre quelques minutes.
 
    >[!NOTE]
    >

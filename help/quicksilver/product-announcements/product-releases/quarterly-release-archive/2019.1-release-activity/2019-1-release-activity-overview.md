@@ -7,24 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: da5e3490-da33-4f96-84cb-f539f07064a1
-TQID: https://experienceleague.adobe.com/VL9oVmCuS86CGggGHYghKLQtDV7r5bi55J6CzIcrWD0
+TQID: 'https://experienceleague.adobe.com/VL9oVmCuS86CGggGHYghKLQtDV7r5bi55J6CzIcrWD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2042
+source-wordcount: '2065'
 ht-degree: 92%
-
 ---
-
 # Vue d’ensemble de l’activité Version 2019.1
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version 2019.1.
@@ -231,7 +238,7 @@ Les mises à jour suivantes de l’outil Agile ont été mises à disposition di
 
 ### API version 10 désormais disponible dans l’environnement de prévisualisation {#api-version-10-now-available-in-preview}
 
-La version 10 de l’API est désormais disponible dans l’environnement de prévisualisation. Elle sera disponible dans l’environnement de production avec la version 18.3. Pour plus d’informations, voir [Nouveautés de la version 10.](https://support.workfront.com/hc/fr-fr/articles/360010455333) de l’API 
+L’API version 10 est désormais disponible dans l’environnement de prévisualisation. Elle sera disponible dans l’environnement de production avec la version 18.3. Pour plus d’informations, voir [Nouveautés de la version 10 de l’API.](https://support.workfront.com/hc/fr-fr/articles/360010455333) 
 
 ### Suppression de diverses options d’authentification unique {#various-single-sign-on-options-to-be-removed}
 

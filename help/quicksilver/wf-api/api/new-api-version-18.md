@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+TQID: 'https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 99%
-
+source-wordcount: '1147'
+ht-degree: 100%
 ---
-
 # Nouveautés de la version 18 de l’API
 
 Adobe Workfront a publié la version 18 de l’API le 8 avril 2024. La version 18 de l’API présente les changements suivants par rapport à la version 17.
@@ -410,7 +413,7 @@ Les références sont des instantanés de ce à quoi ressemblaient les performan
   </tbody>
 </table>
 
-### Catégorie (CTGY)
+### Category (CTGY)
 
 Un objet Category est un formulaire personnalisé.
 
@@ -495,7 +498,7 @@ Un objet Document représente un fichier (tel qu’un support écrit, des images
           <li>
             <p><b>moveToFolder</b> :
             </p>
-            <p>Ajouté. Cette nouvelle action utilise les paramètres suivants :
+            <p>Ajouté. Cette nouvelle action utilise les paramètres suivants :
             <ul>
               <li>
                 <p><code>documentIDs</code>
@@ -664,7 +667,7 @@ Un objet OpTask est généralement appelé Problème. Un problème est un élém
   </tbody>
 </table>
 
-### Projet (PROJ)
+### Project (PROJ)
 
 Les projets sont des éléments de travail dans Workfront et sont un bloc de création essentiel de la façon dont Workfront aide les personnes à travailler. Un objet Projet représente un groupe de tâches avec un objectif commun et spécifique.
 
@@ -925,7 +928,7 @@ Un objet Task représente un élément de travail qui doit être exécuté comme
   </tbody>
 </table>
 
-### Modèle (TMPL)
+### Template (TMPL)
 
 Un objet Template représente un modèle de projet. Les projets peuvent être créés à partir de modèles pour gagner du temps. Un modèle contient une équipe et des tâches qui seront copiées dans tout projet créé à partir du modèle.
 

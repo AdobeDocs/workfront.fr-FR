@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo
+TQID: 'https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
-ht-degree: 55%
-
+source-wordcount: '1039'
+ht-degree: 59%
 ---
-
 # Créer une équipe Agile
 
 <!--Audited: 01/2024-->
@@ -80,13 +87,13 @@ La méthodologie [!DNL Kanban] Agile d’[!DNL Workfront] vous permet de déplac
 Les fonctionnalités suivantes prennent en charge cette méthodologie :
 
 * Affichez la liste d’attente sur le storyboard [!DNL Kanban] Agile.
-Pour plus d’informations, voir [Ajouter la liste d’attente au tableau [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+Pour plus d’informations, voir [Ajouter la liste d’attente au storyboard [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Configurez les éléments de la liste d’attente pour qu’ils soient automatiquement ajoutés au storyboard agile [!UICONTROL Kanban] lorsque d’autres éléments sont déplacés vers un statut équivalent à Terminé.
-Pour plus d’informations, consultez la section [Configurer des histoires à ajouter automatiquement à partir de la liste d’attente](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) dans l’article [Configurer Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Pour plus d’informations, voir la section [Configurer des histoires à ajouter automatiquement à partir de la liste d’attente](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) dans l’article [Configurer Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 * Configurez une limite de travail en cours (WIP) à afficher sur le storyboard agile [!UICONTROL Kanban].
-Pour plus d’informations, voir [&#x200B; Gérer la limite de travail en cours (WIP) sur le tableau kanban &#x200B;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Pour plus d’informations, voir [Gérer la limite de travail en cours (WIP) sur le storyboard Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Avantages de l’utilisation de Scrum dans [!DNL Workfront]
 

@@ -6,22 +6,29 @@ description: Vous pouvez générer une épreuve pour un contenu interactif qui n
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-TQID: https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY
+TQID: 'https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 350
-ht-degree: 93%
-
+source-wordcount: '388'
+ht-degree: 99%
 ---
-
 # Créer une épreuve pour le contenu interactif dans un fichier ZIP
 
 Vous pouvez générer une épreuve pour un contenu interactif qui n’est pas un site web et qui est stocké dans un fichier ZIP. Parmi les exemples de ce type de contenu web, on peut citer les publicités avec vidéo ou audio en continu, les animations HTML, les bannières interactives.
@@ -62,18 +69,18 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Créer une épreuve pour le contenu interactif dans un fichier ZIP
 
-Une fois que vous avez ajouté du contenu interactif dans un fichier ZIP à une épreuve, Adobe Workfront crée une épreuve des documents compressés. Selon la taille du fichier, le temps de chargement peut varier. La création de fichiers plus volumineux prend plus de temps. Vous pouvez quitter la page et Workfront continue à créer votre fichier. La taille maximale de chargement de fichier est de 4 Go. 
+Lorsque vous ajoutez du contenu interactif dans un fichier ZIP à une épreuve, Adobe Workfront crée une épreuve à partir des documents zippés. Le temps de chargement varie en fonction de la taille du fichier. La création de fichiers plus volumineux prend plus de temps. Vous pouvez quitter la page et Workfront continue à créer votre fichier. La taille maximale du chargement de fichier est de 4 Go. 
 
 1. Préparez votre contenu en créant un fichier ZIP groupé.
 
    Le fichier ZIP doit répondre aux exigences suivantes :
 
-   * Toutes les ressources, telles que CSS, JavaScript, vidéos, sons et images, doivent être incluses dans le fichier de lot.
+   * Toutes les ressources, telles que CSS, JavaScript, vidéos, sons et images, doivent être incluses dans le fichier de bundle.
    * Assurez-vous que le fichier principal (tel qu’index.html, index.htm) se trouve dans le dossier racine et qu’il s’agit du seul fichier .html/.htm qui y est stocké.
 
      Si le fichier principal n’est pas placé dans le dossier racine, Workfront recherche le fichier principal dans le dossier.
 
-   * La taille maximale du lot est de 500 Mo.
+   * La taille maximale du bundle est de 500 Mo.
    * Dans le cas des fichiers ZIP créés dans iOS, l’outil identifie automatiquement le bon dossier dans lequel le contenu est placé.
 
 1. Accédez au projet, à la tâche ou au problème pour lequel vous souhaitez télécharger le fichier ZIP.

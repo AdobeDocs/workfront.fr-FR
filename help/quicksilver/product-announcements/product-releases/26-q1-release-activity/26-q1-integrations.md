@@ -5,20 +5,26 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ea9c93c-fae4-47da-ae34-39b73ce85a3c
-TQID: https://experienceleague.adobe.com/bTUJTZd4KSYmY75T1Q22USVhidJL9XEXk0F5mzAg174
+TQID: 'https://experienceleague.adobe.com/bTUJTZd4KSYmY75T1Q22USVhidJL9XEXk0F5mzAg174'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 184
-ht-degree: 95%
-
+source-wordcount: '196'
+ht-degree: 100%
 ---
-
 # Premier trimestre 2026 - Améliorations apportées aux intégrations
 
 Cette page décrit toutes les améliorations apportées aux intégrations dans l’environnement de prévisualisation de la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -30,7 +36,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 15 décembre 2025>Version rapide de production : 15 décembre 2025\
+>Prévisualisation : 15 décembre 2025
+>Version rapide de production : 15 décembre 2025\
 >Production pour tous : 15 décembre 2025
 
 Vous pouvez choisir un projet Workfront pour y envoyer une épreuve. Cela permet de conserver toutes les ressources et épreuves associées au sein d’un même projet.
@@ -43,7 +50,8 @@ Pour plus d’informations, voir [Intégration d’Adobe Express à Workfront Pr
 
 >[!NOTE]
 >
->Aperçu : 20 novembre 2025>version rapide de production : 11 décembre 2025\
+>Prévisualisation : 20 novembre 2025
+>Version rapide de production : 11 décembre 2025\
 >Production pour tous : 16 janvier 2026
 
 Nous avons mis à niveau le sélecteur de ressources dans l’intégration Adobe Workfront pour Experience Manager Assets. Grâce à cette mise à niveau, vous pouvez désormais sélectionner et extraire des collections AEM directement dans Workfront.

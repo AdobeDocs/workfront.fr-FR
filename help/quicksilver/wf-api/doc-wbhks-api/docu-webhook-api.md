@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
-ht-degree: 74%
-
+source-wordcount: '3700'
+ht-degree: 75%
 ---
-
 # API Document Webhooks
 
 <!-- Audited: 5/2025 -->
@@ -729,7 +736,7 @@ JSON contenant des informations sur ce service.
 
 ### Créer un dossier
 
-(Ajoutée dans la version 1.2) Crée un dossier dans un répertoire donné.
+(Ajouté dans la version 1.2) Crée un dossier dans un répertoire donné.
 URL
 
 POST /createFolder
@@ -866,7 +873,7 @@ Le fournisseur du webhook enregistre les actions personnalisées avec Workfront 
 ![Exécuter une action personnalisée](assets/mceclip0-350x262.png)
 
 Les utilisateurs peuvent déclencher l’action personnalisée en sélectionnant la section sous Actions de document.\
-![&#x200B; Déclencher des actions personnalisées &#x200B;](assets/mceclip1-350x95.png)
+![ Déclencher des actions personnalisées ](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -905,7 +912,7 @@ GET /customAction
 
 Chaîne JSON indiquant le succès ou l’échec, tel que spécifié dans la section Gestion des erreurs ci-dessous. En cas d’échec (c’est-à-dire si le statut = «échec »), Workfront affichera le message d’erreur envoyé à l’utilisateur ou l’utilisatrice.
 
-**Exemple :** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Exemple :** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 response
 
@@ -922,9 +929,9 @@ Des problèmes peuvent survenir lors du traitement des requêtes API. Cela doit 
 
 * Inclure un code d’erreur dans l’en-tête de la réponse. Les codes d’erreur sont les suivants :
 
-   * 403 - Interdit. Indique que les jetons de requête sont manquants ou non valides ou que les informations d’identification associées aux jetons n’ont pas accès à la ressource spécifiée. Pour les fournisseurs de webhooks basés sur OAuth, Workfront tentera de récupérer de nouveaux jetons d’accès.
-   * 404 - Introuvable. Indique que le fichier ou le dossier spécifié n’existe pas.
-   * 500 - Erreur interne du serveur. Tout autre type d’erreur.
+  * 403 - Interdit. Indique que les jetons de requête sont manquants ou non valides ou que les informations d’identification associées aux jetons n’ont pas accès à la ressource spécifiée. Pour les fournisseurs de webhooks basés sur OAuth, Workfront tentera de récupérer de nouveaux jetons d’accès.
+  * 404 - Introuvable. Indique que le fichier ou le dossier spécifié n’existe pas.
+  * 500 - Erreur interne du serveur. Tout autre type d’erreur.
 
 * Décrivez l’erreur dans le corps de la réponse en suivant le format suivant :
 
@@ -1047,13 +1054,13 @@ Teste les points d’entrée suivants : URL du point d’entrée de jeton.
 
 * Version 1.0 (Date de publication : mai 2015)
 
-   * Spécification initiale
+  * Spécification initiale
 
 * Version 1.1 (Date de publication : juin 2015)
 
-   * Mise à jour de /uploadInit - Ajout de documentId et documentVersionId
+  * Mise à jour de /uploadInit - Ajout de documentId et documentVersionId
 
 * Version 1.2 (Date de publication : octobre 2015)
 
-   * Ajout de /createFolder
+  * Ajout de /createFolder
 

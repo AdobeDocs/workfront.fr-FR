@@ -6,13 +6,20 @@ description: Les instantanés d’Adobe Workfront vous permettent de voir les di
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 4%
-
+source-wordcount: '1282'
+ht-degree: 3%
 ---
-
 # Création et affichage d’instantanés de projet
 
 Les chefs de projet ont souvent besoin de comparer les données antérieures d’un projet avec l’état actuel pour prendre des décisions éclairées et voir comment leurs projets ont changé au fil du temps.
@@ -83,7 +90,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Problèmes
    * Taux
    * Enregistrements de facturation
-   * &#x200B;<!--* Bookings (on its own line of course when they get released)--> des dépenses
+   * <!--* Bookings (on its own line of course when they get released)--> des dépenses
    * Équipe du projet (onglet Personnes)
 
    Vous pouvez personnaliser n’importe quelle liste de l’instantané en filtrant, triant, ajoutant et supprimant des colonnes ou en appliquant une vue. Des indicateurs de performance clés temporels peuvent être ajoutés à la vue d’instantané. Pour plus d’informations, consultez [Personnalisation des listes d’instantanés](#customize-snapshot-lists) dans cet article.
@@ -188,7 +195,7 @@ Vous pouvez utiliser le gestionnaire de colonnes dans certaines listes amélior�
 
 1. Recherchez un champ d’objet existant dans la colonne **Disponible**, puis cliquez sur **+** à droite du nom du champ pour l’ajouter à la colonne **Sélectionné**.
 1. Cliquez sur **-** à droite d’un champ dans la colonne **Sélectionné** pour le supprimer de la liste.
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.
 
    La liste met à jour les colonnes en fonction des choix que vous avez effectués.
 
@@ -205,7 +212,7 @@ Pour appliquer ou créer une vue :
    ![Menu Vues d’un instantané](assets/views-on-snapshot-list.png)
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste &#x200B;](#customize-columns-in-a-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste ](#customize-columns-in-a-list).
 1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [Filtrer les éléments dans une liste](#filter-items-in-a-list).
 
 Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis. Pour plus d&#39;informations sur les vues, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).

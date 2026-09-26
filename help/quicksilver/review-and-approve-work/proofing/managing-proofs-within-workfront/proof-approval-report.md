@@ -6,22 +6,29 @@ description: Vous pouvez utiliser le rapport d’approbation des épreuves pour 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-TQID: https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18
+TQID: 'https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 77%
-
 ---
-
 # Utiliser le rapport d’approbation de l’épreuve
 
 Vous pouvez utiliser le rapport d’approbation des épreuves pour afficher des informations sur les épreuves dans votre environnement.
@@ -80,9 +87,9 @@ Vous pouvez ajouter les champs suivants au rapport d’approbation des épreuves
 * **Modèle de workflow** : affiche tous les modèles de workflow attachés à l’épreuve. Si aucun modèle n’est joint, la colonne est vide.
 * **En attente de décision** : affiche « true » pour signaler qu’une décision n’a pas été prise sur la dernière version lorsque les conditions suivantes sont remplies :
 
-   * L’épreuve n’a pas été archivée.
-   * L’étape à laquelle se trouve la personne approbatrice est active.
-   * L’épreuve est en attente d’approbation.
+  * L’épreuve n’a pas été archivée.
+  * L’étape à laquelle se trouve la personne approbatrice est active.
+  * L’épreuve est en attente d’approbation.
 
 * **Date d’échéance pour la relecture** : affiche la date d’échéance de l’épreuve. Chaque étape doit être assortie d’une date d’échéance pour que ce champ soit renseigné. Le champ affiche la date d’échéance de la dernière étape activée.
 

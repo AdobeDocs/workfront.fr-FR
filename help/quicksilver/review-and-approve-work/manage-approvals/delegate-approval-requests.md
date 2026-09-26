@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
-ht-degree: 76%
-
+source-wordcount: '1203'
+ht-degree: 75%
 ---
-
 # Déléguer une demande d’approbation
 
 Vous pouvez déléguer temporairement le travail qui vous est confié pendant que vous n’êtes pas au bureau. Vous pouvez déléguer des affectations de tâches et d&#39;événements, ou vous pouvez déléguer des demandes d&#39;approbation. Cet article décrit comment déléguer des demandes d’approbation. Pour plus d&#39;informations sur la délégation des affectations de tâches et d&#39;événements, voir [Déléguer des tâches et des événements](../../manage-work/delegate-work/how-to-delegate-work.md).
@@ -135,11 +146,11 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
    * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert commence à 12 :00 le matin à la date que vous avez choisie.\
+   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert commence à 00 h 00 à la date que vous avez choisie.\
      La date de début doit être la date actuelle ou une date dans le futur.
    * **Date de fin** : effectuez l’une des opérations suivantes :
-      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert se termine à 23 :59 à la date que vous avez choisie.
-      * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
+     * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert se termine à 23 h 59 à la date que vous avez choisie.
+     * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -155,11 +166,11 @@ Pour déléguer des approbations à une autre personne, procédez comme suit :
 1. Spécifiez les informations suivantes dans la section Déléguer mes approbations :
 
    * **Nom** : commencez à saisir le nom de la personne à laquelle vous souhaitez déléguer des approbations, puis cliquez sur le nom lorsqu’il apparaît dans le menu déroulant.
-   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert commence à 12 :00 le matin à la date que vous avez choisie.\
+   * **Date de début** : sélectionnez la date à laquelle les approbations doivent commencer à être transférées. Le transfert commence à 00 h 00 à la date que vous avez choisie.\
      La date de début doit être la date actuelle ou une date dans le futur.
    * **Date de fin** : effectuez l’une des opérations suivantes :
-      * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert se termine à 23 :59 à la date que vous avez choisie.
-      * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
+     * Sélectionnez la date à laquelle les approbations cesseront d’être transférées. Le transfert se termine à 23 h 59 à la date que vous avez choisie.
+     * Sélectionnez **Aucune date de fin** pour que Workfront délègue les approbations pour une durée indéfinie.
 
 ## Mettre à jour ou arrêter une délégation d’approbation {#update-or-stop-an-approval-delegation}
 

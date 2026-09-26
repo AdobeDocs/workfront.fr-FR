@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 95%
-
 ---
-
 # Vue d’ensemble du statut des objectifs dans Objectifs Adobe Workfront
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * L’ouverture d’un objectif fermé met également à jour la progression de l’objectif.
 * Certaines actions que vous effectuez sur un objectif mettent également à jour son statut. Pour plus d’informations sur la mise à jour des statuts d’objectif, consultez les articles suivants :
 
-   * [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-   * [Activer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
-   * [Supprimer et désactiver des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Fermer et rouvrir des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [Créer des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+  * [Activer des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
+  * [Supprimer et désactiver des objectifs dans les Objectifs Adobe Workfront](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [Fermer et rouvrir des objectifs dans Objectifs Adobe Workfront](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Présentation des statuts des objectifs dans les objectifs Workfront
 
@@ -96,8 +102,8 @@ Les objectifs peuvent avoir l’un des statuts suivants dans les Objectifs Workf
 * Les objectifs ayant le statut brouillon ne contribuent pas au calcul de progression des autres objectifs et ne sont pas pris en compte dans les graphiques.
 * Les objectifs ayant le statut brouillon s’affichent dans les zones suivantes des Objectifs Workfront :
 
-   * Liste d’objectifs
-   * Section Alignement des objectifs (uniquement en tant qu’objectif aligné)
+  * Liste d’objectifs
+  * Section Alignement des objectifs (uniquement en tant qu’objectif aligné)
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Les objectifs peuvent avoir l’un des statuts suivants dans les Objectifs Workf
 * Les objectifs actifs contribuent au calcul de la progression d’autres objectifs et sont pris en compte dans les graphiques.
 * Les objectifs actifs s’affichent dans les zones suivantes des Objectifs Workfront :
 
-   * Liste d’objectifs
-   * Section Alignement des objectifs
-   * La progression des objectifs actifs s’affiche dans les graphiques.
+  * Liste d’objectifs
+  * Section Alignement des objectifs
+  * La progression des objectifs actifs s’affiche dans les graphiques.
 
 * Vous pouvez réactiver un objectif Fermé ou Inactif.
 
@@ -131,8 +137,8 @@ Les objectifs peuvent avoir l’un des statuts suivants dans les Objectifs Workf
 * Les objectifs inactifs ont un historique de progression parce qu’ils étaient autrefois actifs, contrairement aux objectifs au statut brouillon.
 * Les objectifs inactifs s’affichent dans les zones suivantes des Objectifs Workfront :
 
-   * Liste d’objectifs
-   * Section Alignement des objectifs (uniquement en tant qu’objectifs alignés)
+  * Liste d’objectifs
+  * Section Alignement des objectifs (uniquement en tant qu’objectifs alignés)
 
 ### Fermé {#closed}
 
@@ -148,6 +154,6 @@ Les objectifs peuvent avoir l’un des statuts suivants dans les Objectifs Workf
 * Vous ne pouvez pas mettre à jour la progression d’un objectif fermé.
 * Les objectifs fermés s’affichent dans la zone suivante des Objectifs Workfront :
 
-   * Liste d’objectifs
-   * Section Alignement des objectifs (uniquement en tant qu’objectifs alignés)
-   * Les informations relatives aux objectifs fermés sont également prises en compte dans la section Graphiques.
+  * Liste d’objectifs
+  * Section Alignement des objectifs (uniquement en tant qu’objectifs alignés)
+  * Les informations relatives aux objectifs fermés sont également prises en compte dans la section Graphiques.

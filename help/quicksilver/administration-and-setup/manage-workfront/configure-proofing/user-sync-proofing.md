@@ -9,22 +9,31 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
-TQID: https://experienceleague.adobe.com/oHi8YTmAgh3KY1xfh6psNCLr4Gng0iniB3LUqbBzcOw
+TQID: 'https://experienceleague.adobe.com/oHi8YTmAgh3KY1xfh6psNCLr4Gng0iniB3LUqbBzcOw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: '333'
 ht-degree: 97%
-
 ---
-
 # Synchronisation des utilisateurs et utilisatrices entre Adobe Workfront et Workfront Proof
 
 Les informations sur les utilisateurs et utilisatrices sont synchronisées d’Adobe Workfront sur Workfront Proof ; elles ne sont pas synchronisées de Workfront Proof sur Workfront. Pour cette raison, chaque fois que vous créez ou modifiez des utilisateurs et utilisatrices, vous devez apporter ces modifications dans Workfront. Vous ne pouvez pas modifier les utilisateurs et utilisatrices dans Workfront Proof.
@@ -49,8 +58,8 @@ Selon qu’une personne avec la même adresse e-mail existe ou non dans Workfron
 
 * **Si aucune personne avec une adresse e-mail correspondante n’existe dans Workfront Proof et que**
 
-   * **la relecture est activée pour la personne :** la personne est créée en tant qu’utilisateur ou utilisatrice dans Workfront Proof.
-   * **la relecture n’est pas activée pour la personne :** la personne est créée en tant que contact dans Workfront Proof.
+  * **la relecture est activée pour la personne :** la personne est créée en tant qu’utilisateur ou utilisatrice dans Workfront Proof.
+  * **la relecture n’est pas activée pour la personne :** la personne est créée en tant que contact dans Workfront Proof.
 
 * **Si une personne avec une adresse e-mail correspondante existe dans Workfront Proof :** la relecture est activée pour cette personne dans Workfront (si elle ne l’était pas déjà) et les informations sont synchronisées entre les deux personnes.
 

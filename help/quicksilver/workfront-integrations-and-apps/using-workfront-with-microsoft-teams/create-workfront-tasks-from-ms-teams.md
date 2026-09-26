@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Créer des tâches  [!DNL Adobe Workfront]  depuis  [!DNL Microsoft]  Teams
-description: Si une personne responsable d’une équipe a installé et configuré  [!DNL Workfront]  pour Microsoft Teams pour votre équipe et que la connexion à Workfront se fait à partir de Microsoft Teams, vous pouvez créer des tâches personnelles dans Adobe  [!DNL Workfront]  depuis Microsoft Teams.
+title: Créer des tâches [!DNL Adobe Workfront] à partir d’équipes [!DNL Microsoft]
+description: Vous pouvez créer des tâches personnelles dans Adobe [!DNL Workfront] à partir de Microsoft Teams si un propriétaire d’équipe a installé et configuré [!DNL Workfront] pour Microsoft Teams pour votre équipe et que vous êtes connecté à Workfront à partir de Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
+TQID: 'https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 100%
-
+source-wordcount: '453'
+ht-degree: 91%
 ---
-
 # Créer des tâches [!DNL Adobe Workfront] à partir de [!DNL Microsoft Teams]
 
 >[!IMPORTANT]
@@ -83,12 +89,12 @@ Pour plus d’informations sur l’installation de [!DNL Workfront for Microsoft
    * Si vous vous trouvez dans le canal de conversation avec le robot [!DNL Workfront], saisissez **[!UICONTROL Nouvelle tâche]** dans le champ de [!UICONTROL conversation] pour créer une tâche.
    * Si vous êtes dans un canal de conversation autre que le canal de conversation avec le robot [!DNL Workfront], procédez comme suit :
 
-      * Commencez à saisir **[!DNL @workfront]** dans le champ de [!UICONTROL conversation], puis sélectionnez le canal du robot [!DNL Workfront] que vous souhaitez.
-      * Continuez la saisie de la **[!UICONTROL nouvelle tâche]** dans le champ de [!UICONTROL conversation] pour créer une tâche.
+     * Commencez à saisir **[!DNL @workfront]** dans le champ de [!UICONTROL conversation], puis sélectionnez le canal du robot [!DNL Workfront] que vous souhaitez.
+     * Continuez la saisie de la **[!UICONTROL nouvelle tâche]** dans le champ de [!UICONTROL conversation] pour créer une tâche.
 
-        La carte [!UICONTROL Nouvelle tâche] s’affiche dans le canal du robot [!DNL Workfront].
+       La carte [!UICONTROL Nouvelle tâche] s’affiche dans le canal du robot [!DNL Workfront].
 
-        ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+       ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. Dans le canal du robot [!UICONTROL Workfront], spécifiez les informations suivantes sur la carte [!UICONTROL Nouvelle tâche] :
 

@@ -7,23 +7,28 @@ author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/7ML3Rt1kLl9--gYnSI21pYX4F0vH2LzkUC5IxHUR7ek
+TQID: 'https://experienceleague.adobe.com/7ML3Rt1kLl9--gYnSI21pYX4F0vH2LzkUC5IxHUR7ek'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 299
-ht-degree: 85%
-
+source-wordcount: '348'
+ht-degree: 87%
 ---
-
 # Exporter une liste
 
 <!--Audited: 11/2024-->
@@ -70,7 +75,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Accédez à une liste d’objets.
 1. (Facultatif) Sélectionnez les filtres, vues et regroupements à appliquer à la liste avant de l’exporter.
-Pour plus d&#39;informations sur les filtres, les vues et les regroupements, voir [Eléments de reporting : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Pour plus d’informations sur les filtres, les vues et les regroupements, voir [Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Facultatif) Pour exporter uniquement des éléments spécifiques d’une liste, sélectionnez tous les éléments de la liste que vous souhaitez inclure dans le fichier exporté.
 
@@ -100,4 +105,4 @@ Pour plus d&#39;informations sur les filtres, les vues et les regroupements, voi
      Cette opération exporte une copie de la liste dans l’un de ces formats et l’enregistre sur votre ordinateur.
 
 1. (Facultatif) Ouvrez la liste exportée à l’aide de l’application appropriée.
-Tous les éléments de la liste s’affichent dans le fichier exporté, qu’ils soient affichés ou non à l’écran dans l’application web.
+Tous les éléments de la liste s’affichent dans le fichier exporté, qu’ils s’affichent à l’écran dans l’application web ou non.

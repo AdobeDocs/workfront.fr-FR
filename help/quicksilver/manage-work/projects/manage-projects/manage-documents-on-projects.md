@@ -6,13 +6,20 @@ description: Selon que votre administrateur Workfront choisit votre préférence
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # Présentation de la gestion des documents pour les projets et les objets associés
 
 Votre administrateur Adobe Workfront peut définir la valeur par défaut de la préférence de stockage de votre organisation pour indiquer où les documents doivent être stockés dans Workfront.
@@ -122,7 +129,7 @@ Les clients peuvent avoir accès à l’une des fonctionnalités de stockage de 
 
 Les documents stockés sur des objets dans l’espace de stockage Workfront sont gérés différemment de ceux stockés dans l’espace de stockage cloud Adobe.
 
-Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Les sections suivantes décrivent le fonctionnement du stockage de documents pour les objets Workfront lorsque les options de stockage dans le cloud Workfront et Adobe existent dans le même environnement.
 
@@ -151,8 +158,8 @@ This is not possible anymore:
 -->
 * Vous ne pouvez pas ajouter un projet de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un projet de stockage hérité à un portefeuille de stockage Adobe.
 * Votre administrateur peut convertir un portefeuille de stockage hérité en stockage cloud Adobe dans les Préférences système de la Configuration. Tous les objets enfants (programmes, projets et documents) restent dans le stockage hérité. Les nouveaux projets utiliseront l’espace de stockage dans le cloud d’Adobe. Les nouveaux documents ajoutés au portfolio continueront à être stockés dans l’espace de stockage hérité.
-Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* &#x200B;<!-- this point also repeats for programs below-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
+Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* <!-- this point also repeats for programs below-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
 
   Vous ne pouvez plus ajouter de projets de stockage hérités existants à ce portefeuille.
 
@@ -171,7 +178,7 @@ Tenez compte des points suivants lorsque vous utilisez des programmes :
 * Vous ne pouvez pas ajouter un programme de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un programme hérité à un portefeuille de stockage dans le cloud Adobe.
 * Vous ne pouvez pas créer de projet à partir d’un modèle de stockage dans le cloud Adobe dans un programme de stockage hérité.
 * Vous pouvez créer un projet à partir d’un modèle de stockage hérité dans un programme de stockage dans le cloud Adobe, mais les documents et dossiers du modèle ne sont pas ajoutés au nouveau projet. Le projet reçoit l’espace de stockage cloud Adobe.
-* &#x200B;<!-- this point also repeats for portfolios above-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
+* <!-- this point also repeats for portfolios above-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
 
   Vous ne pouvez plus ajouter de projets de stockage hérités existants à ce portefeuille.
 

@@ -5,24 +5,29 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-TQID: https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M
+TQID: 'https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: '585'
 ht-degree: 14%
-
 ---
-
 # Améliorations apportées à l’administration du quatrième trimestre 2024
 
 Cette page décrit toutes les améliorations apportées à l’administration dans l’environnement de prévisualisation par la version du quatrième trimestre 2024. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -87,4 +92,4 @@ Pour plus d’informations sur la restauration d’un package de promotion d’e
 
 Un bouton « Disposition » du concepteur de formulaires personnalisés vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le concepteur de formulaire d’origine utilise trois colonnes et les paramètres des champs s’affichent dans la colonne tout à droite. Si vous sélectionnez deux colonnes, les paramètres des champs s’affichent en regard de la bibliothèque de champs dans la colonne tout à gauche.
 
-Pour plus d’informations, voir [&#x200B; Présentation des formulaires personnalisés &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Pour plus d’informations, voir [ Présentation des formulaires personnalisés ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

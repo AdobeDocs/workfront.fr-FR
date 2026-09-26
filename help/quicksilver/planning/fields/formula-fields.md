@@ -1,6 +1,6 @@
 ---
 title: Aperçu des champs de formule
-description: Dans Adobe Workfront Planning, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
+description: Dans la planification Adobe Workfront, vous pouvez créer des champs de formule qui utilisent des fonctions et des champs existants pour calculer une nouvelle valeur personnalisée.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
+TQID: 'https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 784
-ht-degree: 25%
-
+source-wordcount: '784'
+ht-degree: 26%
 ---
-
 # Vue d’ensemble des champs de formule
 
 <!--
@@ -149,7 +157,7 @@ Old:
 * Le référencement des types d’enregistrements connectés ou de leurs champs de recherche dans une formule dépend de vos autorisations sur les types d’enregistrements connectés. Si vous ne disposez pas des autorisations nécessaires pour afficher le type d’enregistrement, vous ne pouvez pas référencer leurs champs dans une formule.
 * Vous ne pouvez pas modifier le type de champ d&#39;un champ de formule après l&#39;avoir enregistré.
 * Vous pouvez mettre à jour le calcul d’un champ de formule après l’avoir enregistré, et les résultats du calcul sont automatiquement mis à jour pour tous les enregistrements du même type.
-* Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de Workfront Planning.
+* Vous devez ajouter les champs que vous référencez dans les formules tel qu’ils s’affichent dans l’interface de la planification Workfront.
 * Vous ne pouvez référencer que les champs qui s&#39;affichent dans la vue Tableau d&#39;un type d&#39;enregistrement ou dans la page Détails de l&#39;enregistrement.
 * Vous pouvez définir le format de la valeur d&#39;un calcul de formule en choisissant parmi les options de format suivantes :
 
@@ -243,7 +251,7 @@ En outre, nous prenons en charge les expressions suivantes pour les champs de fo
    </td></tr>
   <tr> 
    <td><strong> JSONELEMENT </strong> </td> 
-   <td> <p>Renvoie les données du fichier JSON en fonction du chemin JSONP fourni. Si le JSONPath n’existe pas dans le fichier JSON, un résultat vide est renvoyé. </p> <p>L'expression est formatée comme suit :
+   <td> <p>Renvoie les données du fichier JSON en fonction du chemin JSONP fourni. Si le JSONPath n’existe pas dans le fichier JSON, un résultat vide est renvoyé. </p> <p>L’expression est au format suivant :
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>

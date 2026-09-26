@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 2%
-
 ---
-
 # Concevoir la réussite : modéliser la hiérarchie de vos campagnes
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ Vous trouverez ci-dessous les niveaux d’une implémentation de Planning réuss
 
 * **Niveau 1 : campagnes (planification Workfront)**
 
-   * **Objectif :** définir les piliers stratégiques à long terme et les initiatives annuelles. Par exemple, définissez une initiative pour votre organisation appelée « Notoriété mondiale de la marque FY26 ». Il s’agit de votre objectif pour une période donnée. Créez des campagnes pour prendre en charge cette initiative.
+  * **Objectif :** définir les piliers stratégiques à long terme et les initiatives annuelles. Par exemple, définissez une initiative pour votre organisation appelée « Notoriété mondiale de la marque FY26 ». Il s’agit de votre objectif pour une période donnée. Créez des campagnes pour prendre en charge cette initiative.
 
-   * **Personnes :** les parties prenantes à ce niveau peuvent être un responsable marketing, un vice-président marketing ou d’autres prospects stratégiques.
+  * **Personnes :** les parties prenantes à ce niveau peuvent être un responsable marketing, un vice-président marketing ou d’autres prospects stratégiques.
 
   Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Niveau 2 : tactiques des canaux (planification Workfront)**
 
-   * **Focus :** définit les résumés opérationnels qui décrivent le « quoi » pour des canaux spécifiques. Il s&#39;agit de la dernière couche d&#39;intention stratégique avant le début des travaux. Par exemple, créez une tactique « Blitz sur les médias sociaux du 1er trimestre ». Vous pouvez ensuite l’associer à vos campagnes .
+  * **Focus :** définit les résumés opérationnels qui décrivent le « quoi » pour des canaux spécifiques. Il s&#39;agit de la dernière couche d&#39;intention stratégique avant le début des travaux. Par exemple, créez une tactique « Blitz sur les médias sociaux du 1er trimestre ». Vous pouvez ensuite l’associer à vos campagnes .
 
-   * **Personnes :** les principales parties prenantes sont un responsable des opérations marketing, des responsables de canaux ou des responsables de campagne.
+  * **Personnes :** les principales parties prenantes sont un responsable des opérations marketing, des responsables de canaux ou des responsables de campagne.
 
 * **Niveau 3 : projets (Planification et Workfront)**
 
-   * **Se concentrer :** exécuter sur les expériences ou activités exactes qui accompliront finalement votre initiative. Certains des éléments livrables sont spécifiques, tels que les publications sur les réseaux sociaux, les e-mails, les pages web.
+  * **Se concentrer :** exécuter sur les expériences ou activités exactes qui accompliront finalement votre initiative. Certains des éléments livrables sont spécifiques, tels que les publications sur les réseaux sociaux, les e-mails, les pages web.
 
-   * **Implémentation :** vous pouvez créer des tactiques dans Planning et les lier directement à des **projets** dans Workfront, où les diffusions individuelles sont gérées sous la forme de tâches et d&#39;événements.
+  * **Implémentation :** vous pouvez créer des tactiques dans Planning et les lier directement à des **projets** dans Workfront, où les diffusions individuelles sont gérées sous la forme de tâches et d&#39;événements.
 
-   * **Persona :** principales parties prenantes ici sont les créatifs, les contributeurs individuels, toute personne responsable de faire le travail pour soutenir l&#39;initiative.
+  * **Persona :** principales parties prenantes ici sont les créatifs, les contributeurs individuels, toute personne responsable de faire le travail pour soutenir l&#39;initiative.
 
 ### Extension stratégique : comment ajouter d’autres niveaux
 

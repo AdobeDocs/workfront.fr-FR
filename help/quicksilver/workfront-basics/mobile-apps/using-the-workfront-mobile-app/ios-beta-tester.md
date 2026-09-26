@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Devenir Beta-testeur ou Beta-testeuse iOS
-description: Consultez cet article pour devenir Beta-testeur ou Beta-testeuse iOS pour l’application mobile  [!DNL Adobe Workfront] .
+description: Consultez cet article pour devenir un testeur bêta iOS pour l’application mobile [!DNL Adobe Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+TQID: 'https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 97%
-
+source-wordcount: '443'
+ht-degree: 94%
 ---
-
 # Devenir Beta-testeur ou Beta-testeuse [!UICONTROL iOS]
 
 ## Télécharger l’application Beta
@@ -63,7 +66,7 @@ Vous devez disposer des applications [!DNL Workfront] et [!DNL TestFlight] sur v
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version Beta et télécharger l’application :
 
-![Code QR &#x200B;](assets/ios-qr-code-350x397.png)
+![Code QR ](assets/ios-qr-code-350x397.png)
 
 ## Nous faire part de votre retour d’expérience
 

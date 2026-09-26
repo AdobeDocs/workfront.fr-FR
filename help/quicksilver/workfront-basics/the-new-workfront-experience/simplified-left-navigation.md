@@ -1,18 +1,25 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: Panneau de navigation de gauche dans  [!DNL Adobe Workfront]
-description: Le panneau de navigation de gauche dans  [!DNL Workfront]  facilite la navigation dans le système.
+title: Panneau de navigation de gauche dans [!DNL Adobe Workfront]
+description: Le panneau de navigation de gauche d’[!DNL Workfront] facilite la navigation dans le système.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1421'
 ht-degree: 81%
-
 ---
-
 # Panneau de navigation de gauche dans [!DNL Adobe Workfront]
 
 La plupart des zones et des objets de Workfront utilisent un simple panneau de navigation sur le côté gauche de l’écran. Les avantages de la navigation dans le panneau de gauche sont les suivants :
@@ -89,7 +96,7 @@ Le panneau de gauche est disponible pour les zones suivantes :
 * [Sections par défaut de la zone [!UICONTROL Ressources]](#default-sections-in-the-resourcing-area)
 * [Sections par défaut de la zone [!UICONTROL Projets]](#default-sections-in-the-projects-area)
 * [Sections par défaut de la zone [!UICONTROL Feuilles de temps]](#default-sections-in-the-timesheets-area)
-* [Sections par défaut de la zone  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Sections par défaut de la zone  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Sections par défaut de la zone [!UICONTROL Tableaux de bord]
 
@@ -200,7 +207,7 @@ Pour savoir comment utiliser le panneau de gauche dans la zone [!UICONTROL Feuil
 
 >[!NOTE]
 >
->L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
+>L’accès aux objectifs nécessite une licence supplémentaire. Pour plus d’informations sur [!DNL Workfront Goals], voir Vue d’ensemble d’[[!DNL Adobe Workfront Goals] ](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Les sections suivantes s’affichent dans le panneau de gauche de la zone **[!UICONTROL Objectifs]** :
 

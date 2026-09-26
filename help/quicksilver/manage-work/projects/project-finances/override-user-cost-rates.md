@@ -7,13 +7,17 @@ description: Cet article décrit comment remplacer les taux de coûts utilisateu
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 22%
-
 ---
-
 # Remplacer les taux de coûts utilisateur au niveau du projet
 
 Vous pouvez spécifier le taux de coût pour un utilisateur ou une utilisatrice sur un projet spécifique. Ce taux de coût au niveau du projet remplace le taux de coût au niveau du système pour cet utilisateur. Workfront utilise le taux de coût au niveau du projet de la fonction pour calculer le coût, au lieu d&#39;utiliser le taux de coût au niveau du système.
@@ -43,7 +47,7 @@ Pour plus d&#39;informations sur le calcul des coûts du projet, voir [Général
    <td> <p>Accès en modification aux projets et aux données financières</p>
        <p><p>Vous devez également disposer de l’un des éléments suivants :</p> 
         <ul> 
-          <li> <p>Niveau d’accès de l’administrateur système. </li> 
+          <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
           <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
     </ul></td> 
   </tr> 
@@ -105,4 +109,4 @@ Pour plus d’informations, voir [Modifier le profil d’un utilisateur ou d’u
 
    Si une heure est consignée après la date d&#39;achèvement prévue du projet, le dernier taux de coût est utilisé.
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquer sur **Enregistrer**.

@@ -7,20 +7,27 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 3%
-
 ---
-
 # Importer des cartes tarifaires à partir d’un modèle
 
 Vous pouvez utiliser un fichier modèle pour créer vos cartes tarifaires dans Excel et les importer dans Adobe Workfront, au lieu d’ajouter manuellement toutes les fonctions et tous les taux.
 
 Pour afficher les exemples de cartes tarifaires décrits dans cet article, téléchargez le [fichier d’exemple](assets/rate-cards-sample.zip).
 
-Pour plus d’informations sur les cartes tarifaires, voir [&#x200B; Gérer les cartes tarifaires &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Pour plus d’informations sur les cartes tarifaires, voir [ Gérer les cartes tarifaires ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Règles importantes pour l’utilisation du fichier de modèle
 

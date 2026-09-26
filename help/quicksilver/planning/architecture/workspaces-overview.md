@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 18%
-
 ---
-
 # Vue d’ensemble des espaces de travail
 
 <!--
@@ -29,7 +36,7 @@ ht-degree: 18%
 
 {{planning-important-intro}}
 
-Un espace de travail est un ensemble de types d’enregistrements utilisés par une entité organisationnelle et représente le cycle de vie et les processus de travail de l’entité. Vous pouvez entièrement personnaliser les espaces de travail dans Adobe Workfront Planning.
+Un espace de travail est un ensemble de types d’enregistrements utilisés par une entité organisationnelle et représente le cycle de vie et les processus de travail de l’entité. Vous pouvez entièrement personnaliser les espaces de travail de la planification Adobe Workfront.
 
 <!--update screenshot with production, it was broken at Preview-->
 
@@ -41,10 +48,10 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
 * Workfront Planning ne comprend aucun espace de travail préconfiguré. Vous devez les créer en fonction des besoins de votre organisation.
 * Vous pouvez créer des espaces de travail comme suit :
 
-   * À partir de zéro
-   * En utilisant un modèle. Les modèles contiennent un nombre préconfiguré de types d’enregistrements et leurs champs.
-   * Utilisation de Planning Designer optimisé par l’IA Cette fonctionnalité est actuellement disponible dans Beta.
-   * Utilisation d’un lot de modèle multi-espace de travail.
+  * À partir de zéro
+  * En utilisant un modèle. Les modèles contiennent un nombre préconfiguré de types d’enregistrements et leurs champs.
+  * Utilisation de Planning Designer optimisé par l’IA Cette fonctionnalité est actuellement disponible dans Beta.
+  * Utilisation d’un lot de modèle multi-espace de travail.
 
   Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -53,9 +60,9 @@ Un espace de travail est un ensemble de types d’enregistrements utilisés par 
   Pour plus d’informations, voir [Présentation des types d’enregistrements](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Les espaces de travail s&#39;affichent dans les onglets suivants de la zone Planning :
 
-   * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
-   * **Autres espaces de travail** : affiche tous les autres espaces de travail du système. Cette option est réservée aux administrateurs système.
-   * **Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres personnes.
+  * **Espaces de travail sur lesquels je me trouve** : affiche les espaces de travail que vous avez créés ou les espaces de travail partagés avec vous.
+  * **Autres espaces de travail** : affiche tous les autres espaces de travail du système. Cette option est réservée aux administrateurs système.
+  * **Exemples d’espaces de travail** : affiche des exemples intégrés d’espaces de travail conformes aux bonnes pratiques. Vous ne pouvez pas modifier les espaces de travail, les types d&#39;enregistrements ni ajouter des enregistrements ou des champs, mais vous pouvez ajouter, modifier et partager des vues avec d&#39;autres personnes.
 
   >[!NOTE]
   >
@@ -91,7 +98,7 @@ No longer the case - they match now:
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Présentation de la recherche globale
 
@@ -107,8 +114,8 @@ Tenez compte des points suivants concernant l’utilisation de la recherche glob
 
 * Vous pouvez accéder à la recherche à partir de la page de destination Planning ou de n&#39;importe quelle page Planning en appuyant sur la combinaison de clavier suivante :
 
-   * CTRL+K pour Windows
-   * ⌘+K pour Mac
+  * CTRL+K pour Windows
+  * ⌘+K pour Mac
 * Les 7 derniers résultats de chaque objet s’affichent dans la zone de recherche.
 * Vous pouvez effectuer une recherche générale ou sélectionner un objet et rechercher des listes individuelles.
 

@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
-TQID: https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M
+TQID: 'https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 94%
-
+source-wordcount: '1000'
+ht-degree: 99%
 ---
-
 # Améliorations des rapports au premier trimestre 2026
 
 Cette page décrit toutes les améliorations apportées aux rapports dans l’environnement de prévisualisation de la version du premier trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -31,7 +38,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Nous avons effectué les mises à jour suivantes pour les champs de devise native :
 
@@ -47,7 +56,9 @@ Nous avons effectué les mises à jour suivantes pour les champs de devise nativ
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Nous avons ajouté une recherche rapide dans les rapports Tableau. Cette recherche fonctionne sur toutes les pages. Vous pouvez donc trouver des données même si elles ne sont pas actuellement visibles.
 
@@ -56,7 +67,9 @@ Nous avons ajouté une recherche rapide dans les rapports Tableau. Cette recherc
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Nous avons introduit une nouvelle option Afficher le total qui convertit les graphiques en secteurs en graphiques en anneau. Cette fonctionnalité permet aux utilisateurs et utilisatrices d’afficher une valeur centrale qui représente le total de tous les segments du graphique.
 
@@ -72,7 +85,9 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Nous avons introduit deux nouvelles options de configuration pour les graphiques en secteurs :
 
@@ -85,7 +100,9 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Nous avons mis à jour la barre de regroupement dans les tableaux de bord de la zone de travail afin d’afficher le nombre d’enregistrements pour la page active et le nombre total d’enregistrements pour le regroupement sur toutes les pages.
 
@@ -97,7 +114,9 @@ Auparavant, la barre de regroupement ne fournissait pas ces informations détail
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Vous pouvez désormais définir une ligne de référence dans les graphiques à barres, en colonnes et linéaires pour définir une cible ou un seuil pour vos rapports basés sur des séries.
 
@@ -109,7 +128,9 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 
 >[!NOTE]
 >
->Aperçu : 18 décembre 2025>Version rapide de production : 14 janvier 2026>Production pour tous : 15 janvier 2026
+>Prévisualisation : 18 décembre 2025
+>Version rapide pour la production : 14 janvier 2026
+>Production pour tous : 15 janvier 2026
 
 Vous pouvez désormais personnaliser les libellés des axes sur les rapports de graphique. Cette nouvelle fonctionnalité vous permet de saisir un libellé d’axe de remplacement à afficher au lieu de l’objet et du chemin d’accès au champ par défaut. De plus, vous pouvez choisir de masquer entièrement les libellés de l’axe.
 
@@ -119,7 +140,9 @@ Pour plus d’informations, voir [Créer un rapport de graphique dans un tableau
 
 >[!NOTE]
 >
->Version préliminaire : 23 octobre 2025>Production pour tous les clients : 23 octobre 2025>[!BADGE Programme de congés]{type=Neutral}
+>Version préliminaire : 23 octobre 2025
+>Production pour toute la clientèle : 23 octobre 2025
+>[!BADGE Hors planning]{type=Neutral}
 
 Vous pouvez désormais dupliquer un rapport de KPI, de tableau ou de graphique dans un tableau de bord de la zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant de l’enregistrer.
 
@@ -127,7 +150,9 @@ Vous pouvez désormais dupliquer un rapport de KPI, de tableau ou de graphique d
 
 >[!NOTE]
 >
->Aperçu : 6 novembre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Prévisualisation : 6 novembre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Nous avons supprimé les options de champ suivantes qui étaient auparavant disponibles lors de l’application d’un filtre à un rapport :
 
@@ -148,7 +173,9 @@ Les options de champ suivantes sont disponibles en tant qu’alternatives :
 
 >[!NOTE]
 >
->Aperçu : 6 novembre 2025>Version rapide de production : 13 novembre 2025>Production pour tous : 15 janvier 2026
+>Prévisualisation : 6 novembre 2025
+>Version rapide de production : 13 novembre 2025
+>Production pour tous : 15 janvier 2026
 
 Pour éviter les retards de chargement et améliorer les performances globales dans les tableaux de bord de la zone de travail, nous avons appliqué des limites au nombre de composants de tableau de bord pouvant être ajoutés à un tableau de bord :
 

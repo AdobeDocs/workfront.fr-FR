@@ -7,35 +7,44 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w
+TQID: 'https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2626
-ht-degree: 21%
-
+source-wordcount: '2640'
+ht-degree: 24%
 ---
-
 # Vue d’ensemble de la version du deuxième trimestre 2026
 
 Cette page fournit des informations sur les fonctionnalités incluses dans la version du deuxième trimestre 2026 prévue pour avril 2026.
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du deuxième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -78,7 +87,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Le collaborateur IA chargé de la révision du contenu est désormais disponible</a><p>Pour vous permettre de bénéficier plus facilement de l’IA dans votre travail quotidien, nous avons créé le Collaborateur IA dédié à la révision de contenu.  L’espace de collaboration permet d’intégrer des agents d’IA à vos projets et tâches. Vous pouvez configurer un collaborateur de l’IA dédiée à la révision de contenu avec des directives de marque, puis l’affecter à une tâche comme vous le feriez pour un utilisateur.</p>
         </td>
         <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
     <tr>
@@ -94,7 +103,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestres personnalisés supprimés des Préférences du projet</a><p>La zone Trimestre personnalisé a été déplacée de la section Préférences du projet. Il s’agit désormais d’une section autonome dans la configuration.</p>
         </td>
         <td><p>5 mars 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
     <tr>
@@ -109,7 +118,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Champ Rich Text remplaçant le texte par le type de champ Formatage</a><p>Le nouveau type de champ <b>Texte enrichi</b> dans les formulaires personnalisés est un puissant éditeur de texte, avec des options de mise en forme telles que l’exposant et l’indice, les en-têtes et les tableaux, en plus des options traditionnelles telles que le gras, l’italique, le soulignement, les puces, la numérotation, les liens hypertexte et les guillemets. La limite de caractères reste de 15 000.</p>
         </td>
-        <td><p>29 janvier 2026</p></td>
+        <td><p>29 janvier 2026</p></td>
         <td><p>12 Février 2026</p>
             <p>Cette fonctionnalité a été temporairement supprimée de l’environnement de production le 13 février 2026.</p></td>
         <td><p>À déterminer</p></td>
@@ -169,9 +178,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             Approvisionnement de <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation activé pour prendre en charge les collaborateurs d’IA </a><p></p>
             <p>Le 31 mars 2026, tous les clients Workfront ont été configurés pour GenStudio Foundation et les administrateurs système d’Admin Console auront reçu un e-mail les informant de cet ajout. Ce produit est configuré uniquement pour que les clients Workfront puissent donner aux marques l’accès aux clients Workfront selon les besoins pour la publication des collaborateurs de l’IA. Le produit lui-même n’est qu’un mécanisme d’accès pour les marques, et aucune fonctionnalité supplémentaire n’est disponible dans le produit GenStudio Foundation.</p><p>Les clients ne seront pas facturés pour ce nouveau produit.</p>
         </td>
-        <td><p>31 mars 2026</p></td>
-        <td><p>31 mars 2026</p></td>
-        <td><p>31 mars 2026</p></td>
+        <td><p>31 mars 2026</p></td>
+        <td><p>31 mars 2026</p></td>
+        <td><p>31 mars 2026</p></td>
     </tr>
     <tr>
         <td>
@@ -179,7 +188,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Les améliorations suivantes ont été apportées au widget Mes approbations dans l’Accueil :<ul><li>Trier la liste des validations par ordre décroissant ou le plus récent</li><li>Développement du widget en plein écran</li><ul> </p>
         </td>
         <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
     <tr>
@@ -189,7 +198,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
  </p>
         </td>
         <td><p>12 mars 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
     <tr>
@@ -198,7 +207,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Les workflows d’approbation à plusieurs étapes sont désormais disponibles dans les approbations unifiées, ce qui permet aux organisations d’appliquer des processus d’approbation structurés et reproductibles qui reflètent la manière dont le travail est examiné dans le monde réel. </p>
         </td>
         <td><p>12 mars 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
     <tr>
@@ -207,7 +216,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Vous pouvez désormais configurer et réutiliser des modèles de workflow d’approbation à plusieurs étapes, ce qui facilite l’application d’une gouvernance cohérente à tous les workflows d’approbation répétables. </p>
         </td>
         <td><p>12 mars 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
              </tbody>
@@ -232,7 +241,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
  </p>
         </td>
         <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
     <tr>
@@ -242,7 +251,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
  </p>
         </td>
         <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
               </tbody>
@@ -298,7 +307,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Nous avons ajouté un champ booléen <code>currentVersion</code> à l’objet Version du document pour faciliter l’identification et la création de rapports sur la dernière version d’un document.</p>
         </td>
         <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
      <tr>
@@ -307,7 +316,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Workfront comprend désormais un nouveau type de diffusion Lien pour les rapports planifiés. Au lieu de générer et de joindre un fichier, cette option envoie un e-mail contenant un lien direct vers le rapport dans Workfront, ce qui permet aux destinataires d’afficher les données les plus récentes dans l’application.</p>
         </td>
         <td><p>3 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
      <tr>
@@ -316,7 +325,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Vous pouvez désormais configurer les rapports sur les tableaux de bord de la zone de travail pour qu’ils s’exécutent en tant qu’utilisateur spécifique. Lorsqu’il est activé, le rapport affiche les données en fonction de l’accès de l’utilisateur sélectionné et non des autorisations de l’observateur.</p>
         </td>
         <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
     </tr>
    <tr>
@@ -376,7 +385,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Vous pouvez désormais afficher et ouvrir des tâches et des projets convertis à partir d’événements Workfront dans la nouvelle expérience de requêtes, à partir du champ Objet créé .</p><p>En outre, nous avons ajouté le champ Statut de l’objet créé pour indiquer le statut de l’objet converti. </p>
         </td>
            <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
  </tr>
     <tr>
@@ -409,7 +418,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Vous pouvez désormais appliquer une mise en forme conditionnelle aux listes de demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil. Cette fonctionnalité n’existait pas dans la vue Liste avant cette amélioration.</p>
         </td>
            <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
  </tr>
     <tr>
@@ -417,9 +426,9 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Vues prédéfinies ajoutées à la liste des requêtes dans la zone des Requêtes et le widget Mes requêtes </a><p></p>
             <p>Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté des vues prédéfinies à la liste des demandes dans la zone des Demandes et le widget Mes demandes dans l’Accueil.</p>
         </td>
-           <td><p>23 Avril 2026</p></td>
-        <td><p>23 Avril 2026</p></td>
-        <td><p>23 Avril 2026</p></td>
+           <td><p>23 avril 2026</p></td>
+        <td><p>23 avril 2026</p></td>
+        <td><p>23 avril 2026</p></td>
  </tr>
     <tr>
         <td>
@@ -427,7 +436,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <p>Pour vous permettre de trouver plus facilement les requêtes dont vous avez besoin, nous avons ajouté des regroupements à la liste des requêtes et au widget Mes requêtes . Désormais, vous pouvez regrouper les requêtes selon n’importe quelle colonne de la liste. Ces regroupements font partie de la vue que vous utilisez lorsque vous créez le regroupement.</p>
         </td>
            <td><p>2 Avril 2026</p></td>
-        <td><p>15 Avril 2026</p></td>
+        <td><p>15 avril 2026</p></td>
         <td><p>16 Avril 2026</p></td>
  </tr>
     <tr>
@@ -459,7 +468,7 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 Les nouvelles fonctionnalités de Workfront Fusion sont disponibles en production selon un rythme différent du planning de publication standard. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de publication d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Améliorations apportées à Workfront Planning
+### Améliorations apportées à la planification Workfront
 
 De nouvelles fonctionnalités Workfront Planning sont disponibles en production. Pour plus d’informations sur les dernières fonctionnalités, voir [Activité de la version du deuxième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
 
@@ -527,13 +536,13 @@ Pour offrir des intégrations plus stables et plus évolutives, nous passons à 
 * Workfront pour Jira
 * Workfront pour Salesforce.
 
-Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise avec Google Workspace.
-Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez [Présentation d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Nous vous recommandons d’utiliser l’automatisation et l’intégration de Workfront pour les besoins d’intégration de votre entreprise à Google Workspace.
+Pour une présentation de l’automatisation et de l’intégration de Workfront, consultez la [Vue d’ensemble d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, consultez [Mises à jour de maintenance de &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du deuxième trimestre 2026, consultez [Mises à jour de maintenance de ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 

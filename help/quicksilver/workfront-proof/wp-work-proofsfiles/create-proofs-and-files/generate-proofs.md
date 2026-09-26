@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: Générer des épreuves dans  [!DNL Workfront Proof]
+title: Générer des épreuves dans [!DNL Workfront Proof]
 description: Workfront Proof vous permet de créer des épreuves à partir de documents ou de sites web et de les partager avec d’autres personnes.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-TQID: https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk
+TQID: 'https://experienceleague.adobe.com/iBlyGnTO5o6I5gtqDsguJIijR--fvcdo1lWspoqHouk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: '1895'
 ht-degree: 54%
-
 ---
-
 # Générer des épreuves dans [!DNL Workfront Proof]
 
 <!-- Audited: 4/2025 -->
@@ -83,7 +92,7 @@ ht-degree: 54%
 
    * **De base :** sélectionnez cette option pour désigner les utilisateurs et utilisatrices qui doivent avoir accès à l’épreuve immédiatement après sa création. Vous pouvez également partager l’épreuve avec plusieurs utilisateurs et utilisatrices.
 
-     Pour plus d’informations sur le partage d’une épreuve, voir [&#x200B; Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Pour plus d’informations sur le partage d’une épreuve, voir [ Partager une épreuve dans  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
    * **Automatisé :** sélectionnez cette option pour gérer la révision et l’approbation du contenu lorsque vous disposez de processus de révision complexes, ou si vous envoyez régulièrement du contenu à des groupes de personnes identiques. Avec un workflow automatisé, le BAT passe d’une étape à l’autre jusqu’à l’approbation finale. Les utilisateurs concernés sont avertis à tout moment qu&#39;ils doivent donner leur accord.
 

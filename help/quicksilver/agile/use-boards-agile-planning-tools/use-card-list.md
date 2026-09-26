@@ -9,22 +9,29 @@ feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dxrYATDjdQBcRFpCKhu5e62nKVsGi1QSbPNZtIMvdCc
+TQID: 'https://experienceleague.adobe.com/dxrYATDjdQBcRFpCKhu5e62nKVsGi1QSbPNZtIMvdCc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 97%
-
+source-wordcount: '625'
+ht-degree: 99%
 ---
-
 # Utiliser la liste des cartes
 
 >[!IMPORTANT]
@@ -126,8 +133,8 @@ Les cartes ne peuvent être archivées qu’à partir du panorama d’itération
 1. Accédez à la liste des cartes du flux de travail.
 1. Cliquez sur [!UICONTROL **Rechercher**] et saisissez un terme de recherche. Appuyez ensuite sur Entrée.
 
-   Toutes les cartes contenant le terme de recherche s’affichent.
-Cliquez sur le X pour effacer la recherche.
+   Toutes les cartes qui contiennent le terme de recherche s’affichent.
+   Cliquez sur le X pour effacer la recherche.
 
    ![Rechercher des cartes dans un panorama](assets/boards-searchbox.png)
 

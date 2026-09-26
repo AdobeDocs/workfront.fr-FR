@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+TQID: 'https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1304
-ht-degree: 97%
-
+source-wordcount: '1334'
+ht-degree: 100%
 ---
-
 # Activité de la version 2018.1 Beta 2
 
 Cette page décrit toutes les modifications les plus récentes disponibles dans l’environnement de prévisualisation de la version 2018.1 Beta 2. Les fonctionnalités de cette page ont été rendues disponibles dans l’environnement de prévisualisation le 14 décembre 2017. Elles seront disponibles dans l’environnement de production en mars 2018.
@@ -129,9 +134,9 @@ Plusieurs améliorations sont désormais disponibles dans la zone Accueil, notam
 
 * Améliorations de l’aspect
 
-   * Le panneau de droite est désormais plus grand, offrant plus d’espace pour les informations relatives aux tâches et aux problèmes.
-   * Les éléments en retard sont désormais affichés en rouge plus clair lorsqu’ils sont sélectionnés dans le panneau de gauche.
-   * Vous pouvez désormais afficher plus facilement la relation entre le panneau de gauche et le panneau de droite. Le document sélectionné dans le panneau de gauche pointe vers le panneau de droite.
+  * Le panneau de droite est désormais plus grand, offrant plus d’espace pour les informations relatives aux tâches et aux problèmes.
+  * Les éléments en retard sont désormais affichés en rouge plus clair lorsqu’ils sont sélectionnés dans le panneau de gauche.
+  * Vous pouvez désormais afficher plus facilement la relation entre le panneau de gauche et le panneau de droite. Le document sélectionné dans le panneau de gauche pointe vers le panneau de droite.
 
 * Les champs par défaut s’affichent pour les éléments sélectionnés. 
 
@@ -170,13 +175,13 @@ L’aspect de la visionneuse de relecture est mis à jour. Les zones suivantes d
 
 ### Rechercher des commentaires par numéro de commentaire {#search-comments-by-comment-number}
 
-Désormais, lorsque vous recherchez dans la liste de commentaires de la visionneuse de relecture, vous pouvez saisir le numéro du commentaire dans le champ de recherche. La liste de commentaires est ensuite filtrée afin d’afficher le commentaire que vous avez recherché. 
+Désormais, lorsque vous recherchez la liste de commentaires dans la visionneuse de relecture, vous pouvez saisir le numéro du commentaire dans le champ de recherche. La liste des commentaires est ensuite filtrée pour afficher le commentaire que vous avez recherché. 
 
 Pour plus d’informations, voir :
 
 ### Option permettant de modifier le commentaire en regard de l’indicateur de balisage {#option-to-edit-comment-next-to-the-markup-indicator}
 
-Vous pouvez désormais modifier plus facilement un commentaire existant. Après avoir cliqué sur un indicateur de commentaire dans le BAT, une icône de modification s’affiche en regard de la bulle. 
+Vous pouvez désormais modifier plus facilement un commentaire existant. Après avoir cliqué sur un indicateur de commentaire sur l’épreuve, une icône de modification s’affiche en regard du ballon. 
 
 Avant cette modification, vous deviez cliquer sur l’icône Modifier dans la zone Commentaire.  
 

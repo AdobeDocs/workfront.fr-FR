@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
-TQID: https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54
+TQID: 'https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 809
-ht-degree: 97%
-
+source-wordcount: '825'
+ht-degree: 100%
 ---
-
 # Activité de la version Beta finale 2018.2
 
 Cette page décrit toutes les modifications récentes disponibles dans l’environnement de prévisualisation avec la version Beta finale 2018.2. Cette fonctionnalité a été rendue disponible dans l’environnement de prévisualisation le 20 juin 2018. Elles seront disponibles dans l’environnement de production en juillet 2018.
@@ -62,11 +68,11 @@ Vous recevez désormais une notification par e-mail lorsqu’une personne commen
 
 Avant cette modification, aucune notification n’était envoyée lorsqu’une personne commentait un document que vous déteniez. 
 
-Pour plus d’informations, voir [Modifier vos propres notifications par e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Pour plus d’informations, consultez la section [Modifier vos propres notifications par e-mail](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
->Lorsque cette fonctionnalité a été publiée à l’origine, les utilisateurs recevaient une notification in-app en plus d’une notification par e-mail. Vous ne recevez plus de notification in-app lorsqu’une personne commente un document que vous possédez. 
+>Lorsque cette fonctionnalité a été initialement publiée, les utilisateurs et les utilisatrices recevaient une notification in-app en plus d’une notification par e-mail. Vous ne recevez plus de notification in-app lorsqu’une personne commente un document que vous détenez. 
 
 ## Les mises à jour suivies par le système ne contiennent plus d’icône. {#system-tracked-updates-no-longer-contain-an-icon}
 

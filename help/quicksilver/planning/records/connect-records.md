@@ -8,27 +8,37 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY
+TQID: 'https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3743
+source-wordcount: '3743'
 ht-degree: 26%
-
 ---
-
 # Connecter des enregistrements
 
 <!--
@@ -40,7 +50,7 @@ ht-degree: 26%
 
 {{planning-important-intro}}
 
-Vous pouvez connecter des enregistrements d’Adobe Workfront Planning les uns aux autres ou aux objets d’autres applications. Vous pouvez afficher les informations d&#39;un enregistrement sur un autre lorsque vous les connectez.
+Vous pouvez connecter des enregistrements de la planification Adobe Workfront les uns aux autres ou aux objets d’autres applications. Vous pouvez afficher les informations d&#39;un enregistrement sur un autre lorsque vous les connectez.
 
 Cet article décrit comment connecter des enregistrements. Pour plus d&#39;informations générales sur la connexion des enregistrements, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
 
@@ -55,7 +65,7 @@ Pour obtenir un exemple de connexion de types d’enregistrement, voir [Exemple 
 Vous pouvez connecter les éléments suivants :
 
 * Enregistrements Adobe Workfront Planning entre eux
-* Enregistrements d’Adobe Workfront Planning avec des objets provenant d’autres applications
+* Enregistrements de la planification Adobe Workfront avec des objets provenant d’autres applications.
 
   Vous pouvez connecter des enregistrements avec des objets des types répertoriés ci-dessous à partir des applications suivantes :
 
@@ -111,7 +121,7 @@ Vous pouvez connecter les éléments suivants :
    <ul><li><p>Une licence Adobe Experience Manager et une intégration entre Adobe Experience Manager et Workfront pour connecter des ressources AEM ou des fragments de contenu à des types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing pour connecter les types d’enregistrements aux marques GenStudio ou pour avoir accès à l’espace de travail GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
 <p><b>NOTE</b></p>
 <p>Vous devez acheter un package de workflow Workfront pour connecter les enregistrements Planning aux objets Workfront. </p>
 
@@ -392,7 +402,7 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
 
    Pour plus d’informations sur la connexion des types d’enregistrement à des objets à partir d’une autre application, voir [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement Workfront Planning dans le champ lié d’une vue de tableau ou du champ lié dans la page d’enregistrement.
+1. (Facultatif) Cliquez sur le nom d’un objet Workfront connecté à un enregistrement de la planification Workfront dans le champ lié d’une vue de tableau ou du champ lié dans la page d’enregistrement.
 
    L’objet Workfront s’ouvre alors dans Workfront, si vous disposez au moins des autorisations d’affichage sur l’objet.
 
@@ -410,7 +420,7 @@ Après avoir établi une connexion entre un type d’enregistrement et un type d
 
    Supprimez des champs d’objet Workfront à partir de la zone **Champs sélectionnés**.
 
-   Cela permet d’ajouter ou de supprimer des champs liés dans les enregistrements Workfront Planning. Les informations associées aux champs supprimés restent dans Workfront.
+   Cela permet d’ajouter ou de supprimer des champs liés dans les enregistrements de la planification Workfront. Les informations associées aux champs supprimés restent dans Workfront.
 
 
 ### Connectez les enregistrements Workfront Planning aux objets Adobe Experience Manager à partir de la vue Tableau ou de la zone Détails d&#39;un enregistrement
@@ -432,7 +442,7 @@ Après avoir établi une connexion entre un type d’enregistrement et des objet
 
 >[!NOTE]
 >
->Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Les enregistrements Planning et leurs champs sont accessibles depuis Experience Manager Assets lorsque votre administrateur Workfront configure le mappage des métadonnées par le biais de l’intégration entre Workfront et Adobe Experience Manager Assets. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 >Lorsque vous connectez des enregistrements de l’espace de travail GenStudio dans Planning à des objets AEM (ressources et fragments de contenu), les informations GenStudio s’affichent automatiquement sur les objets AEM dans AEM. Les informations AEM s’affichent pour les enregistrements GenStudio dans les champs de recherche ajoutés lorsque la connexion est établie dans Workfront Planning. Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
@@ -468,7 +478,7 @@ Pour connecter des enregistrements à des objets Adobe Experience Manager :
     ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
     -->
 
-1. Dans l’onglet **&#x200B;**, cliquez sur pour sélectionner certains des types de ressources suivants :
+1. Dans l’onglet ****, cliquez sur pour sélectionner certains des types de ressources suivants :
 
    * Images
    * Dossiers
@@ -477,12 +487,12 @@ Pour connecter des enregistrements à des objets Adobe Experience Manager :
 
    >[!IMPORTANT]
    >
-   > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes de Workfront Planning peuvent afficher les ressources dans Workfront Planning, quel que soit leur accès dans Experience Manager Assets.
-   > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Vous pouvez connecter uniquement les ressources que vous pouvez afficher dans Experience Manager. Une fois connectées, toutes les personnes qui utilisent la planification Workfront peuvent y afficher les ressources, quel que soit leur accès dans Experience Manager Assets.
+   > Pour plus d’informations sur le gestionnaire de contenu, voir [Utiliser le gestionnaire de contenu pour accéder au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Dans l’onglet **Fragments de contenu**, sélectionnez les fragments de contenu à ajouter au champ d’enregistrement lié.
 
-   Pour plus d’informations sur les fragments de contenu, voir [Utiliser la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Pour plus d’informations sur les fragments de contenu, voir [Utiliser la fonction de conseil sur l’accès au contenu AEM dans les applications Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Lorsque vous avez terminé de choisir des ressources ou des fragments de contenu, cliquez sur **Sélectionner**. <!-- we might change this to Connect-->
 
@@ -574,7 +584,7 @@ Pour connecter des enregistrements à des objets Adobe Experience Manager :
 Les enregistrements et les objets sont immédiatement ajoutés.
 1. (Facultatif) Pointez sur la carte connectée d’un enregistrement ou d’un objet, puis cliquez sur l’icône **Déconnecter l’enregistrement** ![Déconnecter l’enregistrement](assets/disconnect-icon-with-tooltip.png) pour le déconnecter de l’enregistrement sélectionné.
 
-   ![&#x200B; Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions &#x200B;](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![ Icône Déconnecter l’enregistrement avec une info-bulle sur l’onglet Connexions ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    L&#39;enregistrement est immédiatement déconnecté de toutes les zones de Workfront Planning ou d&#39;autres applications où il peut apparaître comme connecté. Toutes les valeurs de champ de recherche sont également supprimées.
 

@@ -10,27 +10,35 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
+TQID: 'https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 8056
+source-wordcount: '8056'
 ht-degree: 76%
-
 ---
-
 # Créer un formulaire personnalisé
 
 <!-- Audited: 6/2025 -->
@@ -122,7 +130,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * [Ajouter des images, des fichiers PDF et des vidéos](#add-images-pdfs-and-videos)
    * [Ajouter des champs natifs Workfront](#add-workfront-native-fields)
    * [Ajouter des fichiers Adobe XD](#add-adobe-xd-files)
-   * [Ajouter des champs de connexion Planning](#add-planning-connection-fields)
+   * [Ajouter des champs de connexion à la planification](#add-planning-connection-fields)
 
 ## Ajouter des champs nouveaux ou existants à votre formulaire personnalisé
 
@@ -807,12 +815,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
-      &lbrace;
-       data : &lbrace;
+      {
+       data : {
          { name : « USA »},
          { name : « Canada »}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1095,7 +1103,7 @@ Cette liste affiche les champs natifs disponibles pour les formulaires personnal
 * **Durée prévue** : projet, modèle
 * **Heures planifiées** : projet, tâche, événement, modèle de tâche
 * **Date De Début Prévue** : Projet, Tâche, Événement
-* **&#x200B;**&#x200B;: Projet, Modèle, Programme
+* **** : Projet, Modèle, Programme
 * **Priorité** : Projet, Tâche, Événement, Modèle, Tâche De Modèle
 * **Programme** : Projet, Modèle
 * **Date d&#39;achèvement prévisionnelle** : projet, tâche
@@ -1251,29 +1259,29 @@ Pour ajouter un fichier Adobe XD :
 
    Cliquez sur **Enregistrer et fermer**.
 
-### Ajouter des champs de connexion Planning
+### Ajouter des champs de connexion à la planification
 
 >[!IMPORTANT]
 >
->Les informations de cette section se rapportent à Adobe Workfront Planning, une nouvelle fonctionnalité d’Adobe Workfront.
+>Les informations de cette section se rapportent à la planification Adobe Workfront, une nouvelle fonctionnalité d’Adobe Workfront.
 >
->Vous devez disposer de packages supplémentaires pour accéder à Workfront Planning.
+>Vous devez disposer de packages supplémentaires pour accéder à la planification Workfront.
 >
->Pour obtenir la liste complète des conditions requises pour accéder à Workfront Planning, consultez la [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Pour obtenir la liste complète des conditions requises pour accéder à la planification Workfront, consultez la [Vue d’ensemble de l’accès à la planification Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
->Pour plus d’informations sur Workfront Planning, voir [Commencer à utiliser Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour plus d’informations sur la planification Workfront, voir [Commencer à utiliser la planification Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
-Vous pouvez afficher les enregistrements connectés à partir de Workfront Planning dans un champ personnalisé sur un objet Workfront en ajoutant un champ personnalisé de connexion Planning au formulaire personnalisé d’un objet.
+Vous pouvez afficher les enregistrements connectés à partir de la planification Workfront dans un champ personnalisé sur un objet Workfront en ajoutant un champ personnalisé de connexion à la planification au formulaire personnalisé d’un objet.
 
-Vous pouvez ajouter le champ de connexion Planning aux formulaires personnalisés de tous les objets. Cependant, vous ne pouvez afficher les enregistrements connectés que sur les formulaires personnalisés associés aux objets Workfront qui peuvent être connectés à partir de Workfront Planning.
+Vous pouvez ajouter le champ de connexion à la planification aux formulaires personnalisés de tous les objets. Cependant, vous ne pouvez afficher les enregistrements connectés que sur les formulaires personnalisés associés aux objets Workfront qui peuvent être connectés à partir de la planification Workfront.
 
 >[!NOTE]
 >
->Les personnes qui consultent des informations dans le champ personnalisé doivent avoir accès à Workfront Planning et aux espaces de travail qui contiennent les types d’enregistrements connectés aux objets Workfront.
+>Les personnes qui consultent des informations dans le champ personnalisé doivent avoir accès à la planification Workfront et aux espaces de travail qui contiennent les types d’enregistrements connectés aux objets Workfront.
 
-Pour ajouter un champ de connexion Planning :
+Pour ajouter un champ de connexion à la planification :
 
-1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez la **Connexion Planning** et faites-la glisser vers une section de la zone de travail.
+1. Dans l’onglet **Nouveau champ** sur le côté gauche de l’écran, recherchez la **Connexion de planning** et faites glisser vers une section de la zone de travail.
 1. Dans la partie droite de l’écran, configurez les options du champ personnalisé :
 
    <table style="table-layout:auto"> 
@@ -1301,7 +1309,7 @@ Pour ajouter un champ de connexion Planning :
      </tr> 
      <tr> 
       <td role="rowheader">Type d’objet</td> 
-      <td><p>(Obligatoire) Sélectionnez un type d’objet Workfront connecté à un type d’enregistrement dans Workfront Planning.</p>
+      <td><p>(Obligatoire) Sélectionnez un type d’objet Workfront connecté à un type d’enregistrement dans la planification Workfront.</p>
       Choisissez parmi les types d’objets suivants :
       <ul><li> Projet</li>
       <li> Portfolio</li><li> Programme</li><li> Entreprise</li><li> Groupe</li></ul>
@@ -1347,9 +1355,9 @@ Pour ajouter un champ de connexion Planning :
 
    Cliquez sur **Enregistrer et fermer**.
 
-   Vous pouvez désormais joindre le formulaire à un objet connecté à partir de Workfront Planning et effectuer l’une des opérations suivantes :
+   Vous pouvez désormais joindre le formulaire à un objet connecté à partir de la planification Workfront et effectuer l’une des opérations suivantes :
 
-   * Afficher les types d’enregistrements Workfront Planning connectés à l’objet Workfront, le cas échéant ;
+   * Afficher les types d’enregistrements de la planification Workfront connectés à l’objet Workfront, le cas échéant ;
    * Connecter ou déconnecter des enregistrements de l’objet Workfront.
 
    Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

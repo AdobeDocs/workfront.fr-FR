@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-TQID: https://experienceleague.adobe.com/wC8C4dOSgFU3-7lqmI3CKrlDJv4u0TTIvyLGnuBF-2s
+TQID: 'https://experienceleague.adobe.com/wC8C4dOSgFU3-7lqmI3CKrlDJv4u0TTIvyLGnuBF-2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 88%
-
+source-wordcount: '1351'
+ht-degree: 90%
 ---
-
 # Message d’erreur : il y a un léger problème. Ce champ est utilisé dans une configuration multi-formulaires.
 
 ## Problème
@@ -42,8 +47,8 @@ Au moins deux formulaires personnalisés contenant le champ personnalisé calcul
 
 **Exemple :** les formulaires personnalisés A et B sont associés à la même tâche. Les deux formulaires contiennent un champ personnalisé calculé appelé Profit. L’erreur se produit lorsque vous essayez de modifier le calcul dans le champ Profit du formulaire personnalisé A.
 
-Vous ne pouvez pas modifier le calcul du champ personnalisé dans l&#39;un des formulaires car cela entrerait en conflit avec la formule du même champ dans l&#39;autre formulaire.
-Pour résoudre ce conflit, vous devez rechercher l’objet auquel sont joints les plusieurs formulaires avec le même champ personnalisé calculé, puis effectuer l’une des opérations suivantes :
+Vous ne pouvez pas modifier le calcul du champ personnalisé dans l’un des formulaires, car cela entrerait en conflit avec la formule dans le même champ de l’autre formulaire.
+Pour résoudre ce conflit, vous devez rechercher l’objet auquel sont attachés les différents formulaires utilisant le même champ personnalisé calculé, puis effectuer l’une des opérations suivantes :
 
 * Supprimez l’un des formulaires de l’objet.
 * Modifiez le calcul selon vos besoins, mais faites-le dans tous les formulaires personnalisés attachés à l’objet.

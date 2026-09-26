@@ -8,26 +8,35 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts
+TQID: 'https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: '1204'
 ht-degree: 71%
-
 ---
-
 # Approuver un document dans Workfront
 
 Si on vous affecte en tant que personne approbatrice à un document, il existe plusieurs façons de prendre votre décision d’approbation.
@@ -100,9 +109,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * La liste déroulante **Approuver** contient deux options :
 
-      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
+     * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
-      * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
+     * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
@@ -128,9 +137,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * La liste déroulante **Approuver** contient deux options :
 
-      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
+     * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
-      * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
+     * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
@@ -150,9 +159,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Le menu déroulant **Approuver** propose deux options :
 
-      * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
+     * **Approuver** indique qu’aucune modification n’est nécessaire pour cette version du document et que l’approbation est donnée.
 
-      * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
+     * **Approuver avec des modifications** indique que de petites modifications sont toujours requises dans le document, mais que l’approbation est donnée à la condition que ces modifications soient effectuées. Si vous sélectionnez cette option, vous verrez apparaître une fenêtre contenant une zone de texte nommée **Étapes suivantes** où vous pouvez spécifier les modifications nécessaires pour que le document soit approuvé. Vous pouvez saisir ces informations et cliquer sur **Ajouter un message** ou cliquer sur **Ignorer** pour envoyer la décision d’approbation sans informations supplémentaires.
 
    * **Travail nécessaire** indique que la version du document n’est pas approuvée et nécessite des modifications importantes.
 
@@ -171,7 +180,7 @@ Pour réviser et approuver un document :
 
    * **Approuver** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
    * **Approuver avec modifications** : le document nécessite des modifications et est prêt à l’emploi une fois qu’il a été créé. Aucune approbation supplémentaire n’est requise.
-   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [&#x200B; Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé. Une fois les modifications spécifiées effectuées, le document doit être téléchargé en tant que nouvelle version et passer par un autre cycle d&#39;approbations. Pour plus d’informations sur le téléchargement d’une nouvelle version, voir [ Télécharger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Une fois la décision prise, le propriétaire du document est averti par e-mail.
 

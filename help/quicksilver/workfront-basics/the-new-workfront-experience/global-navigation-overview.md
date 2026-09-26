@@ -1,17 +1,24 @@
 ---
 content-type: overview
 title: Aperçu de la barre de navigation supérieure
-description: La barre de navigation supérieure, qui s’affiche en haut de l’écran dans  [!DNL Adobe Workfront] , vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
+description: La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [!DNL Adobe Workfront], vous permet de trouver facilement d’autres zones de la plateforme et d’y accéder.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 90%
-
 ---
-
 # Vue d’ensemble de la barre de navigation supérieure
 
 <!--Audited: 01/2024-->
@@ -24,7 +31,7 @@ La barre de navigation supérieure, qui s’affiche en haut de l’écran dans [
 
 L’icône d’**[!UICONTROL accueil]** ![](assets/home-icon.png) vous conduit à la page d’[!UICONTROL accueil], qui est la page de destination par défaut.
 
-Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Par défaut, l’icône d’accueil ouvre la zone d’accueil. Pour plus d’informations sur l’accueil, voir [Utiliser la zone d’[!UICONTROL accueil] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Votre administrateur ou administratrice Workfront peut personnaliser l’icône d’accueil pour ouvrir une autre page en créant un modèle de mise en page et en vous l’affectant. Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 

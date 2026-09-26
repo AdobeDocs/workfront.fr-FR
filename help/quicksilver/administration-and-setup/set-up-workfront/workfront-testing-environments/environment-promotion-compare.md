@@ -9,13 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 12%
-
+source-wordcount: '464'
+ht-degree: 14%
 ---
-
 # Comparaison d’objets entre des environnements
 
 Vous pouvez comparer des objets entre des environnements pour vous assurer que vos packages de promotion d’environnement contiennent les objets dont vous avez besoin.
@@ -28,13 +35,13 @@ Vous devez disposer des éléments suivants :
 
 <table>
   <tr>
-   <td>Package Adobe Workfront
+   <td>Package Adobe Workfront
    </td>
    <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Licences Workfront</strong>
+   <td><strong>Licences </strong>
    </td>
    <td> <p>Standard</p>&gt;
    </td>
@@ -59,7 +66,7 @@ Votre organisation doit se trouver sur la plateforme Adobe Business pour compare
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (si disponible), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup.png).
 1. Sélectionnez **Système** dans le volet de navigation de gauche, puis sélectionnez **Promotion de l’environnement**.
 1. Cliquez sur **Comparer les environnements** dans le coin supérieur droit de l’écran.
-1. Dans le champ Environnement **Source**, sélectionnez l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **&#x200B;**.
+1. Dans le champ Environnement ****, sélectionnez l’environnement dans lequel vous souhaitez créer le package. Il s’agit de l’environnement à partir duquel vous copiez des objets **.**
 1. Dans le champ **Environnement cible**, sélectionnez l’environnement dans lequel vous souhaitez installer le package. Il s’agit de l’environnement dans lequel vous copiez des objets **vers**.
 1. Dans la zone **Objets à comparer**, sélectionnez les types d’objets à comparer entre les environnements.
 1. Cliquez sur **Générer la comparaison** dans le coin supérieur droit de l’écran.
@@ -76,7 +83,7 @@ La liste inclut les objets du ou des types sélectionnés qui existent dans l’
 
 ![Exemple de comparaison](assets/environment-promotion-comparison.png)
 
-Dans cet exemple :
+Dans cet exemple :
 
 * La première ligne montre un objet présent dans l’environnement cible, mais différent de l’environnement source.
 * La deuxième ligne montre un objet présent dans l’environnement cible et identique à celui de l’environnement source.

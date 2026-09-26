@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2V2i9ZZOyQ6gShXK-QUKDeCZCxcrbYwb8-mn-9kQbc8
+TQID: 'https://experienceleague.adobe.com/2V2i9ZZOyQ6gShXK-QUKDeCZCxcrbYwb8-mn-9kQbc8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 3%
-
 ---
-
 # Vue d’ensemble du type de licence lors de l’utilisation d’Adobe Workfront Planning
 
 <!--
@@ -47,7 +54,7 @@ Votre type de licence Adobe Workfront Workflow fonctionne conjointement avec vot
 * Afficher, contribuer ou gérer des espaces de travail, des types d’enregistrements et des enregistrements.
 * Afficher ou gérer des vues.
 
-Pour plus d’informations sur les autorisations sur les objets Workfront Planning, consultez [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Pour plus d’informations sur les autorisations sur les objets de la planification Workfront, consultez [Vue d’ensemble du partage d’autorisations dans la planification Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Pour plus d’informations sur l’accès à Workfront Planning, consultez [Présentation de l’accès à Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 

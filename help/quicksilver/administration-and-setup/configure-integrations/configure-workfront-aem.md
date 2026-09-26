@@ -1,34 +1,45 @@
 ---
-title: Configurer [!DNL Workfront] avec [!DNL Adobe Experience Manager] connecteur hérité
+title: Configuration de [!DNL Workfront] avec [!DNL Adobe Experience Manager] connecteur hérité
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: En tant qu’administrateur ou administratrice  [!DNL Adobe Workfront] , vous pouvez intégrer  [!DNL Workfront]  avec des ressources Adobe Experience Manager (AEM) et fournir à votre organisation une solution de gestion de contenu complète pour la création, le partage et la maintenance des ressources dans votre workflow.
+description: En tant qu’administrateur [!DNL Adobe Workfront], vous pouvez intégrer [!DNL Workfront] à Adobe Experience Manager (AEM) Assets et fournir à votre entreprise une solution complète de gestion de contenu pour la création, le partage et la maintenance des ressources au sein de votre workflow.
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+TQID: 'https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 70%
-
+source-wordcount: '1873'
+ht-degree: 69%
 ---
-
 # Configurer [!DNL Workfront] avec un connecteur hérité [!DNL Adobe Experience Manager]
 
 <!-- Audited: 4/2025 -->
@@ -87,7 +98,7 @@ Le [!DNL Workfront for AEM Assets connector] permet à votre organisation d’ef
 
 Avant de pouvoir installer le connecteur [!DNL Workfront] pour [!UICONTROL AEM Assets], vérifiez que les conditions préalables suivantes sont remplies :
 
-* est installé et configuré, version 6.5 ou ultérieure. Pour plus d’informations sur l’installation d’[!UICONTROL AEM Assets], voir la [[!DNL Adobe Experience Manager] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager).
+*  est installé et configuré, version 6.5 ou ultérieure. Pour plus d’informations sur l’installation d’[!UICONTROL AEM Assets], voir la [[!DNL Adobe Experience Manager] documentation](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Le cas échéant) Si les règles de pare-feu n’autorisent pas le trafic comme prévu, ajoutez l’adresse IP et/ou le domaine de votre cluster à votre liste autorisée. Pour plus d’informations, voir [Configurer la liste autorisée de votre pare-feu](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installer le package connecteur [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
@@ -118,7 +129,7 @@ Pour installer le connecteur [!DNL Workfront for AEM Assets], vous devez importe
    Package installed in <time>
    ```
 
-1. Fermez le [!UICONTROL Gestionnaire de packages &#x200B;]. Le connecteur est installé et vous pouvez maintenant configurer l’intégration d’[!DNL AEM Assets] à [!DNL Workfront].
+1. Fermez le [!UICONTROL Gestionnaire de packages ]. Le connecteur est installé et vous pouvez maintenant configurer l’intégration d’[!DNL AEM Assets] à [!DNL Workfront].
 
 1. Passez à [Configurer  [!DNL AEM Assets]  pour l’intégrer à  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront).
 
@@ -126,7 +137,7 @@ Pour installer le connecteur [!DNL Workfront for AEM Assets], vous devez importe
 
 Après avoir installé le connecteur, importez le package connecteur vers AEM et configurez l’application pour lier les documents dans [!DNL Workfront].
 
-Pour plus d’informations sur l’installation du connecteur, voir [Installer le package du connecteur  [!DNL Workfront for AEM Assets] &#x200B;](#install-the-workfront-for-aem-assets-connector-package).
+Pour plus d’informations sur l’installation du connecteur, voir [Installer le package du connecteur  [!DNL Workfront for AEM Assets] ](#install-the-workfront-for-aem-assets-connector-package).
 
 * [Conditions préalables](#prerequisites)
 * [Intégrer AEM à  [!DNL Workfront]](#integrate-aem-with-workfront)
@@ -187,7 +198,7 @@ Avant de commencer, vous devez activer les autorisations pour workfront-service�
 
       **[!UICONTROL Autoriser la navigation dans les collections] :** sélectionnez cette option si votre entreprise autorise les utilisateurs et utilisatrices [!DNL Workfront] à lier des collections AEM Assets à des objets [!DNL Workfront].
 
-      Federated ID utilisateur :**sélectionnez cette option si votre organisation utilise des Federated ID ou l’authentification unique (SSO) lors de la connexion à Workfront.**
+      Federated ID utilisateur] :**sélectionnez cette option si votre organisation utilise des Federated ID ou l’authentification unique (SSO) lors de la connexion à Workfront.**[!UICONTROL 
 
       **[!UICONTROL Ignorer le domaine de messagerie] :** sélectionnez cette option si vos utilisateurs et utilisatrices AEM n’utilisent pas le nom de domaine dans leur ID d’utilisateur ou d’utilisatrice.
 
@@ -197,7 +208,7 @@ Avant de commencer, vous devez activer les autorisations pour workfront-service�
 
       >[!NOTE]
       >
-      >L’application des modifications peut prendre un certain temps. Un redémarrage du lot peut accélérer le processus.
+      >L’application des modifications peut prendre un certain temps. Un redémarrage du bundle peut accélérer le processus.
 
 
 

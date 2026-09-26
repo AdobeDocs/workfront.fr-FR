@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 7%
-
+ht-degree: 8%
 ---
-
 # Améliorations des demandes du troisième trimestre de 2026
 
 Cette page décrit les améliorations apportées aux demandes à l’environnement de Prévisualisation avec la version du troisième trimestre de 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -22,7 +29,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 27 mai 2026Version rapide de production : 11 juin 2026Production pour tous : 16 juillet 2026
+>Aperçu : 27 mai 2026
+>Version rapide de production : 11 juin 2026
+>Production pour tous : 16 juillet 2026
 
 Pour obtenir plus de contexte sur l’état correct de vos requêtes, nous mettons à jour les statuts des requêtes dans la nouvelle expérience de requête.
 
@@ -41,7 +50,10 @@ Pour plus d’informations, voir [Affichage des requêtes envoyées](/help/quick
 
 >[!NOTE]
 >
->Aperçu : 23 avril 2026Version rapide de production : 23 avril 2026Production pour tous : 23 avril 2026Hors planning&rbrack;{type=Neutral}
+>Aperçu : 23 avril 2026
+>Version rapide de production : 23 avril 2026
+>Production pour tous : 23 avril 2026
+>[!BADGE Hors planning]{type=Neutral}
 
 Pour vous aider à mieux organiser votre liste de demandes, nous avons ajouté les vues prédéfinies suivantes à la liste des demandes dans la zone des Demandes et au widget Mes demandes dans l’Accueil :
 

@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 12%
-
 ---
-
 # Gérer les cartes tarifaires
 
 Une carte tarifaire représente l’accord contractuel avec votre client dans lequel des taux horaires sont définis pour les fonctions qui termineront le travail. Dans une carte tarifaire, vous pouvez définir plusieurs taux de facturation par fonction, en fonction d’attributs tels que l’agence, l’emplacement ou le centre de coûts. Vos attributs de taux uniques sont configurés dans la zone Configuration . Pour plus d’informations, voir [Définir des attributs de taux](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
@@ -64,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Le nom doit être unique.
 
-   ![&#x200B; Boîte de dialogue Nouvelle carte tarifaire &#x200B;](assets/new-rate-card-dialog.png)
+   ![ Boîte de dialogue Nouvelle carte tarifaire ](assets/new-rate-card-dialog.png)
 
 1. (Facultatif) Sélectionnez un [!UICONTROL **Groupe**] pour la carte tarifaire. C&#39;est l&#39;agence qui définit la carte tarifaire.
 1. (Facultatif) Sélectionnez une [!UICONTROL **Société**] pour la carte tarifaire. Il s’agit du client pour lequel les taux sont attribués par contrat.
@@ -134,7 +141,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Cliquez sur [!UICONTROL **Fonctions et taux**] dans le panneau de gauche pour modifier les taux de facturation.
 1. Pour modifier un taux, activez la case à cocher en regard du taux et cliquez sur [!UICONTROL **Modifier**] dans la barre d’actions située en bas de l’écran.
 
-   Pour plus d’informations sur la barre d’actions, voir [&#x200B; Utiliser des listes améliorées &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Pour plus d’informations sur la barre d’actions, voir [ Utiliser des listes améliorées ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    >[!NOTE]
    >

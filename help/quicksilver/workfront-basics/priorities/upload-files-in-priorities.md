@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+TQID: 'https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 309
-ht-degree: 35%
-
+source-wordcount: '324'
+ht-degree: 38%
 ---
-
 # Charger des fichiers dans Priorités
 
 Vous pouvez charger des fichiers à partir de la liste de travail Priorités ou d’éléments de travail individuels. Les fichiers chargés à partir de Priorités apparaissent dans l’onglet Documents de l’élément de travail.
@@ -66,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 1. Cliquez sur **Charger**.
    ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
 1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
-1. Glissez-déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V
+1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 ou
 Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
    ![Ajouter des fichiers](assets/add-files.png)

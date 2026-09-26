@@ -1,28 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: 'Se préparer à une version d’ [!DNL Adobe Workfront] '
+title: Préparation d’une version [!DNL Adobe Workfront]
 description: Suivez ces conseils pour mettre à jour votre organisation sans encombre pour chaque nouvelle version de Workfront.
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+TQID: 'https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1234
+source-wordcount: '1235'
 ht-degree: 99%
-
 ---
-
 # Se préparer à une version planifiée d’[!DNL Adobe Workfront]
 
 >[!NOTE]
@@ -43,7 +48,7 @@ Regardez la vidéo ci-dessous pour savoir comment vous pouvez vous préparer à 
 
 ## Comprendre le processus de version de [!DNL Workfront]
 
-Pour une description détaillée du processus de version de [!DNL Workfront], voir le planning et le processus de version d’[[!DNL Adobe Workfront] &#x200B;](workfront-release-schedule.md).
+Pour une description détaillée du processus de version de [!DNL Workfront], voir le planning et le processus de version d’[[!DNL Adobe Workfront] ](workfront-release-schedule.md).
 
 ## Se préparer pour une version de [!DNL Workfront]
 
@@ -57,7 +62,7 @@ Pour une description détaillée du processus de version de [!DNL Workfront], vo
 Nous vous recommandons d’envisager l’ensemble ou une partie des actions suivantes pour préparer votre organisation en vue des prochaines versions :
 
 * [Se tenir au courant grâce aux notes de mise à jour](#stay-up-to-date-with-release-notes)
-* [Surveiller le centre d’annonces de  [!DNL Workfront] &#x200B;](#watch-the-workfront-announcement-center)
+* [Surveiller le centre d’annonces de  [!DNL Workfront] ](#watch-the-workfront-announcement-center)
 * [Explorer l’environnement de [!UICONTROL prévisualisation de sandbox]](#explore-the-preview-sandbox-environment)
 * [Assister au webinaire de la version](#attend-the-release-webinar)
 * [Envoyer des commentaires à Workfront](#offer-feedback-to-workfront)

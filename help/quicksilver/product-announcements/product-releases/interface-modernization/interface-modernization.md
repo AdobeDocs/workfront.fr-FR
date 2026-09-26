@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+TQID: 'https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 9918
+source-wordcount: '9993'
 ht-degree: 2%
-
 ---
-
 # Modernisation de l’interface
 
 Cette page répertorie les mises à jour de l’interface que nous effectuons dans Adobe Workfront afin d’améliorer l’expérience utilisateur et de l’unifier avec d’autres applications Adobe. Ces modifications sont principalement visuelles et ne modifient pas considérablement les workflows, sauf indication contraire.
@@ -89,8 +98,8 @@ Les modifications suivantes sont incluses dans cette mise à jour :
 * Une nouvelle expérience est disponible concernant l’affectation de ressources à des tâches de modèles. La nouvelle expérience est désormais disponible lors de la modification d’une tâche ou de la modification de plusieurs tâches en bloc. Les champs suivants ont été supprimés de la zone Modifier les tâches :
 
 * Allocations
-   * Propriétaire ou propriétaire de la tâche
-   * Rôle du cessionnaire
+  * Propriétaire ou propriétaire de la tâche
+  * Rôle du cessionnaire
 
 Vous pouvez toujours trouver les champs supprimés lors d&#39;affectations avancées sur des tâches de modèle.
 
@@ -115,9 +124,9 @@ Les modifications suivantes sont incluses dans cette mise à jour :
 
 * Une nouvelle expérience est disponible pour l’affectation de ressources à des tâches. Cette option est désormais disponible lors de la modification d’une tâche ou de plusieurs tâches en bloc. Les champs suivants ont été supprimés de la zone Modifier les tâches :
 
-   * Allocations
-   * Propriétaire ou propriétaire de la tâche
-   * Rôle du cessionnaire
+  * Allocations
+  * Propriétaire ou propriétaire de la tâche
+  * Rôle du cessionnaire
 
 Vous pouvez toujours trouver les champs supprimés lors d&#39;affectations avancées à des tâches.
 
@@ -145,9 +154,9 @@ Les modifications suivantes sont incluses dans cette mise à jour :
 
 * Une nouvelle expérience est disponible pour l’affectation de ressources à des événements. Cette option est désormais disponible lors de la modification d’un événement ou de plusieurs événements en bloc. Les champs suivants ont été supprimés de la zone Modifier les événements :
 
-   * Allocations
-   * Propriétaire ou propriétaire de l&#39;événement
-   * Rôle du cessionnaire
+  * Allocations
+  * Propriétaire ou propriétaire de l&#39;événement
+  * Rôle du cessionnaire
 
 Vous pouvez mettre à jour les champs supprimés lors d&#39;affectations avancées sur des événements.
 
@@ -847,7 +856,7 @@ Pour plus d’informations, voir [Configurer les informations de base de votre s
 
 Nous avons mis à jour la page Importer des données (Kick-Starts) dans la zone Configuration avec une conception plus moderne et cohérente avec les autres zones de Workfront. En outre, le processus d’importation Kickstart a été simplifié afin que le fichier sélectionné soit chargé immédiatement. Il n’est plus nécessaire de cliquer sur un bouton **Charger** distinct pour terminer l’importation après avoir choisi le fichier.
 
-Pour plus d’informations, voir [&#x200B; Importer des données dans Workfront à l’aide d’un modèle Kickstart &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Pour plus d’informations, voir [ Importer des données dans Workfront à l’aide d’un modèle Kickstart ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Mises à jour de l&#39;interface de la liste des types de dépenses
 
@@ -1003,7 +1012,7 @@ Pour plus d’informations, voir [Créer et modifier des risques dans les projet
 
 Nous avons mis à jour l’aspect de la zone Copier le modèle pour qu’elle corresponde à la conception d’autres zones de Workfront.
 
-Pour plus d’informations, voir [&#x200B; Copier un modèle de projet &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+Pour plus d’informations, voir [ Copier un modèle de projet ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
 
 +++

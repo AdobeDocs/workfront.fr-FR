@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Créer et gérer des vues personnalisées dans  [!DNL Workfront Proof]
+title: Créer et gérer des vues personnalisées dans [!DNL Workfront Proof]
 description: Vous pouvez créer des vues personnalisées de vos fichiers et épreuves pour répertorier les éléments et comme vous souhaitez les afficher. Vous pouvez également exporter les informations dans votre vue personnalisée sous la forme d’un rapport (au format de fichier CSV, valeurs séparées par des virgules).
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 98%
-
 ---
-
 # Créer et gérer des vues personnalisées dans [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -229,34 +238,34 @@ Pour créer une vue personnalisée :
 
      Si vous souhaitez afficher uniquement les épreuves sans commentaires, sélectionnez les valeurs suivantes :
 
-      * Champ : commentaires
-      * Opérateur : égal à
-      * Champ de valeur : 0
+     * Champ : commentaires
+     * Opérateur : égal à
+     * Champ de valeur : 0
 
      Si vous souhaitez afficher uniquement les épreuves avec deux commentaires ou plus, sélectionnez les valeurs suivantes :
 
-      * Champ : commentaires
-      * Opérateur : supérieur ou égal à
-      * Champ de valeur : 2
+     * Champ : commentaires
+     * Opérateur : supérieur ou égal à
+     * Champ de valeur : 2
 
      Si vous souhaitez afficher uniquement les épreuves avec entre 1 et 4 commentaires, sélectionnez les valeurs suivantes :
 
-      * Champ : commentaires
-      * Opérateur : entre
-      * Champ de valeur (premier champ) : 1
-      * Champ de valeur (deuxième champ) : 4
+     * Champ : commentaires
+     * Opérateur : entre
+     * Champ de valeur (premier champ) : 1
+     * Champ de valeur (deuxième champ) : 4
 
-        Vous pouvez modifier un filtre que vous avez ajouté à votre vue personnalisée sans aucun problème ou le supprimer en cliquant sur l’icône en forme de croix en regard du filtre [!UICONTROL Configuration] si nécessaire.
+       Vous pouvez modifier un filtre que vous avez ajouté à votre vue personnalisée sans aucun problème ou le supprimer en cliquant sur l’icône en forme de croix en regard du filtre [!UICONTROL Configuration] si nécessaire.
 
-        Étant donné que la liste Champ ne se limite pas aux colonnes que vous avez sélectionnées dans l’onglet [!UICONTROL Colonnes], faites attention lorsque vous créez un filtre qui inclut une colonne que vous n’avez pas sélectionnée pour l’affichage dans votre vue personnalisée. Par exemple, le filtre suivant pour la vue sélectionne toutes les épreuves avec une valeur de compteur de version de 2 ou plus :
+       Étant donné que la liste Champ ne se limite pas aux colonnes que vous avez sélectionnées dans l’onglet [!UICONTROL Colonnes], faites attention lorsque vous créez un filtre qui inclut une colonne que vous n’avez pas sélectionnée pour l’affichage dans votre vue personnalisée. Par exemple, le filtre suivant pour la vue sélectionne toutes les épreuves avec une valeur de compteur de version de 2 ou plus :
 
-         * Champ = compteur de version
-         * Opérateur = supérieur ou égal à
-         * Champ de valeur = 2
+       * Champ = compteur de version
+       * Opérateur = supérieur ou égal à
+       * Champ de valeur = 2
 
-           >[!NOTE]
-           >
-           >Vous pouvez modifier un filtre que vous avez ajouté à votre vue personnalisée sans aucun problème ou le supprimer en cliquant sur l’icône en forme de croix en regard du filtre [!UICONTROL Configuration] si nécessaire.
+         >[!NOTE]
+         >
+         >Vous pouvez modifier un filtre que vous avez ajouté à votre vue personnalisée sans aucun problème ou le supprimer en cliquant sur l’icône en forme de croix en regard du filtre [!UICONTROL Configuration] si nécessaire.
 
 
 

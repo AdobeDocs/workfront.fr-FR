@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: Résoudre les problèmes d’échec de création d’épreuve
 description: Le processus de création d’épreuve comprend l’importation et la génération de l’épreuve. Parfois, lorsque vous créez une épreuve, un fichier peut ne pas être importé ou l’épreuve peut ne pas être générée après l’importation du fichier.
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
-
 ---
-
 
 # Résoudre les problèmes d’échec de création d’épreuve
 
@@ -47,11 +48,11 @@ Le processus de création d’épreuve comprend l’importation et la générati
 
 * Lors de la relecture des fichiers PDF, les raisons de l’échec de la génération de l’épreuve comprennent :
 
-   * Les polices et les images sont liées à des sources externes (telles que votre système de fichiers local).
+  * Les polices et les images sont liées à des sources externes (telles que votre système de fichiers local).
 
-     Les polices et les images doivent être incorporées dans le fichier PDF afin de s’afficher sur un autre ordinateur ou dans Workfront Proof.
+    Les polices et les images doivent être incorporées dans le fichier PDF afin de s’afficher sur un autre ordinateur ou dans Workfront Proof.
 
-   * Votre fichier PDF contient des calques vides ou des champs transparents ou superposés.
+  * Votre fichier PDF contient des calques vides ou des champs transparents ou superposés.
 
-     Si vous ne parvenez pas à déterminer quel calque ou objet est à l’origine de ce problème, exportez la conception/le document en tant que PDF optimisé (cela supprime tous les éléments indésirables).
+    Si vous ne parvenez pas à déterminer quel calque ou objet est à l’origine de ce problème, exportez la conception/le document en tant que PDF optimisé (cela supprime tous les éléments indésirables).
 

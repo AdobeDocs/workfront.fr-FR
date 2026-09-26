@@ -7,13 +7,17 @@ description: Vous pouvez définir un taux d'heures supplémentaires pour une tâ
 author: Lisa
 feature: Work Management
 exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 15%
-
 ---
-
 # Définir un taux d’heures supplémentaires
 
 Lorsqu&#39;un ratio d&#39;heures supplémentaires est ajouté à une tâche, il est appliqué à toutes les affectations de la tâche. Il multiplie toutes les heures prévues pour cette tâche et affecte les calculs du revenu prévu.

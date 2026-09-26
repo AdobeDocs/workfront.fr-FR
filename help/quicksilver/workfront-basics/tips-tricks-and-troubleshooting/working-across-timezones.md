@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Travailler sur plusieurs fuseaux horaires
-description: Il peut être utile de comprendre comment  [!DNL Adobe Workfront]  utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres domaines tels que les e-mails.
+description: Il peut être utile de comprendre comment [!DNL Adobe Workfront] utilise les fuseaux horaires pour calculer les champs horaires des objets et les heures dans d’autres zones, telles que les e-mails.
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1253
-ht-degree: 70%
-
+source-wordcount: '1261'
+ht-degree: 68%
 ---
-
 # Travailler sur plusieurs fuseaux horaires
 
 <!-- Audited: 2/2024 -->
@@ -97,13 +104,13 @@ Le fuseau horaire de votre navigateur doit être configuré pour l’emplacement
   Si des utilisateurs appartenant à plusieurs fuseaux horaires sont affectés à un objet, [!DNL Workfront] convertit les heures de l&#39;objet pour toutes les personnes impliquées, en utilisant le fuseau horaire configuré dans le navigateur de chaque utilisateur.
 
   **EXEMPLE**
-Dans le fuseau horaire standard de l&#39;Est (EST) où vous travaillez, vous définissez une tâche pour qu&#39;elle commence à 16 :00 et l&#39;affectez aux utilisateurs travaillant dans le fuseau horaire standard du Pacifique (PST). Pour ces utilisateurs, l’heure de début s’affiche à 13 :00. S’il était affiché à 16 :00, ils commenceraient à travailler dessus avec trois heures de retard.
+  Dans le fuseau horaire standard de l&#39;Est (EST) où vous travaillez, vous définissez une tâche pour qu&#39;elle commence à 16 h 00 et l&#39;affectez aux utilisateurs travaillant dans le fuseau horaire standard du Pacifique (PST). Pour ces utilisateurs et utilisatrices, l’heure de début s’affiche à 13 h. S’il était affiché à 16h00, ils commenceraient à travailler dessus trois heures en retard.
 
   Si le créateur de l&#39;objet ne connaît pas la différence entre les fuseaux horaires des personnes assignées et n&#39;effectue pas les ajustements nécessaires lors de la définition des heures de l&#39;objet, ou si les personnes assignées ne connaissent pas cette différence, il peut être difficile d&#39;obtenir le bon timing pendant que tout le monde collabore sur l&#39;objet.
 
   **EXEMPLE**
 
-  Vous configurez une tâche d&#39;une journée pour commencer à 9:000 h EST, en oubliant que certains utilisateurs de la tâche travaillent dans la zone PST. Pour eux, l&#39;heure de début est 6:00. Comme ils ne commenceront à travailler dessus qu&#39;à 9 heures :00 leur heure (midi votre heure), la tâche commence et se termine avec trois heures de retard.
+  Vous configurez une tâche d’une journée pour qu’elle commence à 9 h 00 (heure de Paris), en oubliant que certains utilisateurs de la tâche travaillent dans la zone PST. Pour eux, l&#39;heure de départ est 6h00. Comme ils ne commenceront à travailler dessus qu&#39;à 9 h 00 leur heure (midi votre heure), la tâche commence et se termine avec trois heures de retard.
 
 La configuration du fuseau horaire diffère selon les navigateurs. Pour plus d’informations, reportez-vous à la documentation de chaque navigateur ou à des informations d’aide.
 
@@ -126,20 +133,20 @@ Les administrateurs et administratrices de [!DNL Workfront] créent des planning
 
   Si plusieurs utilisateurs sont affectés à une tâche, le système utilise l’une des options suivantes, telles que configurées dans les préférences du projet à l’échelle du système ou du groupe :
 
-   * Le fuseau horaire pour le planning de la personne propriétaire principale de la tâche.
-   * Le fuseau horaire pour le planning du projet.
+  * Le fuseau horaire pour le planning de la personne propriétaire principale de la tâche.
+  * Le fuseau horaire pour le planning du projet.
 
   Si un utilisateur est affecté à une tâche, le système utilise l’une des options suivantes, telles que configurées dans les préférences du projet à l’échelle du système ou du groupe :
 
-   * Fuseau horaire du planning de la personne affectée à la tâche
-   * Le fuseau horaire pour le planning du projet.
+  * Fuseau horaire du planning de la personne affectée à la tâche
+  * Le fuseau horaire pour le planning du projet.
 
   Cela peut entraîner une modification des dates des tâches.
 
 >[!BEGINSHADEBOX]
 
 **EXEMPLE :**
-Un utilisateur EST est affecté à une tâche d&#39;un jour prévue pour commencer à 9:00h PST, qui est midi EST. Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
+Un utilisateur EST est affecté à une tâche d&#39;une journée qui doit commencer à 9 h 00 (heure du Pacifique), c&#39;est-à-dire midi (heure de Paris). Comme il ne reste à la personne EST que deux heures de travail pour la journée, la date d’achèvement de la tâche est reportée d’environ six heures au jour ouvrable suivant.
 
 
 >[!ENDSHADEBOX]

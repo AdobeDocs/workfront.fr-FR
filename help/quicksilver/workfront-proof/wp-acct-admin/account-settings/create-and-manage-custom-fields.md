@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Création et gérer des champs personnalisés dans [!DNL Workfront Proof]
-description: Un plan  [!DNL Workfront]  Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir Formules Workfront.
+title: Créer et gérer des champs personnalisés dans [!DNL Workfront Proof]
+description: Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différentes formules disponibles, voir Formules Workfront.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
+TQID: 'https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1055'
 ht-degree: 50%
-
 ---
-
 # Créer et gérer des champs personnalisés dans [!DNL Workfront Proof]
 
 <!-- Audited: 4/2025 -->
@@ -31,7 +40,7 @@ ht-degree: 50%
 >
 >Cet article fait référence aux fonctionnalités du produit autonome [!DNL Workfront Proof]. Pour plus d’informations sur la relecture dans [!DNL Adobe Workfront], voir [Relecture](../../../review-and-approve-work/proofing/proofing.md).
 
-Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
+Un plan [!DNL Workfront] Select ou Premium est requis pour utiliser cette fonctionnalité. Pour plus d’informations sur les différents plans disponibles, voir [Plans Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Les champs personnalisés vous permettent de capturer des données supplémentaires lors de la création d’une nouvelle épreuve, d’un nouvel utilisateur ou d’un nouvel invité. Par exemple, les utilisateurs et utilisatrices qui créent une épreuve peuvent inclure une section supplémentaire qui leur permettra de capturer un numéro de traitement, un code de service ou une référence du fournisseur.
 

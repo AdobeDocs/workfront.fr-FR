@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+TQID: 'https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '399'
 ht-degree: 14%
-
 ---
-
 # Améliorations apportées aux requêtes lors du quatrième trimestre 2025
 
 Cette page décrit les améliorations apportées aux demandes à l’environnement de Prévisualisation avec la version du quatrième trimestre 2025. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
@@ -31,7 +37,9 @@ Pour une liste de tous les changements disponibles à ce stade du cycle de publi
 
 >[!NOTE]
 >
->Aperçu : 2 octobre 2025>Version rapide de production : 15 octobre 2025>Production pour tous : 16 octobre 2025
+>Aperçu : 2 octobre 2025
+>Version rapide de production : 15 octobre 2025
+>Production pour tous : 16 octobre 2025
 
 Pour faciliter la consultation des informations dont vous avez besoin, nous avons ajouté la possibilité de créer et d’enregistrer des vues dans la zone Demandes . Vous pouvez désormais enregistrer une vue, y compris les filtres et les configurations de colonne, et passer d’une vue à l’autre. Un administrateur Workfront peut ajouter la nouvelle vue aux modèles de mise en page.
 
