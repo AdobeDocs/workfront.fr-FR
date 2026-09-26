@@ -87,7 +87,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Ajouter un fichier
    * Accéder directement au projet
 
-   ![détails du projet ](assets/project-details-060226.png)
+   ![détails du projet &#x200B;](assets/project-details-060226.png)
 
 ### Afficher les détails de la tâche
 
@@ -103,7 +103,7 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    * Ajouter un fichier
    * Ajout de liens rapides
 
-   ![ détails de la tâche ](assets/task-details-060226.png)
+   ![&#x200B; détails de la tâche &#x200B;](assets/task-details-060226.png)
 
 ### Afficher les détails de l&#39;événement
 

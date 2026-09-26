@@ -64,7 +64,7 @@ Tout administrateur ou administatrice [!DNL Workfont Proof] peut accepter une de
 
 1. Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres du compte]**, puis ouvrez l’onglet **[!UICONTROL Partenaires]**.
 
-1. Cliquez sur **Accepter**.****
+1. Cliquez sur **Accepter**.**&#x200B;**
 
 >[!NOTE]
 >

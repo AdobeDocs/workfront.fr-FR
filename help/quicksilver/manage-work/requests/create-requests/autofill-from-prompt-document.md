@@ -116,7 +116,7 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 >
 >Le remplissage de formulaire optimisé par l’IA est activé au niveau de l’organisation et ne peut pas être activé ou désactivé pour des utilisateurs ou des niveaux d’accès spécifiques.
 
-Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 <!--
 

@@ -66,7 +66,7 @@ Vous devez disposer des applications [!DNL Workfront] et [!DNL TestFlight] sur v
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version Beta et télécharger l’application :
 
-![Code QR ](assets/ios-qr-code-350x397.png)
+![Code QR &#x200B;](assets/ios-qr-code-350x397.png)
 
 ## Nous faire part de votre retour d’expérience
 

@@ -101,7 +101,7 @@ Pour ajouter ou modifier un filtre sur un rapport :
    * Sélectionnez le modificateur qui définit le type de condition auquel le champ doit répondre.
    * Saisissez ou sélectionnez la valeur à évaluer, si le modificateur en a besoin.
 
-   ![ Ajouter une condition ](assets/add-condition.png)
+   ![&#x200B; Ajouter une condition &#x200B;](assets/add-condition.png)
 
 1. (Facultatif) Répétez l’étape précédente pour ajouter d’autres conditions.
 

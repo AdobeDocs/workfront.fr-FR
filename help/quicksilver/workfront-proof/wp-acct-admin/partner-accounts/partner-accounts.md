@@ -44,5 +44,5 @@ ht-degree: 74%
 
 Cette section contient les articles suivants :
 
-* [Gérer une relation de partenariat entre des comptes  [!DNL Workfront Proof ]](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Gérer une relation de partenariat entre des comptes  [!DNL Workfront Proof &#x200B;]](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [Partager des éléments avec un compte de partenaire dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

@@ -42,7 +42,7 @@ ht-degree: 99%
 
 Le branding avancé est disponible pour les formules Select et Premium et est inclus dans le tarif de la formule.
 
-Pour plus d’informations sur le banding de base, qui comprend la page de connexion, les notifications par e-mail et les épreuves, voir [Branding du site  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Pour plus d’informations sur le banding de base, qui comprend la page de connexion, les notifications par e-mail et les épreuves, voir [Branding du site  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Les options de branding avancé comprennent la personnalisation des domaines suivants :
 

@@ -92,4 +92,4 @@ Pour plus d’informations sur la restauration d’un package de promotion d’e
 
 Un bouton « Disposition » du concepteur de formulaires personnalisés vous permet de choisir parmi une zone de travail de deux ou trois colonnes. Le concepteur de formulaire d’origine utilise trois colonnes et les paramètres des champs s’affichent dans la colonne tout à droite. Si vous sélectionnez deux colonnes, les paramètres des champs s’affichent en regard de la bibliothèque de champs dans la colonne tout à gauche.
 
-Pour plus d’informations, voir [ Présentation des formulaires personnalisés ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation des formulaires personnalisés &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

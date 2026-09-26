@@ -29,10 +29,10 @@ ht-degree: 81%
 
 Outre la recherche d’articles d’aide, vous pouvez également accéder aux ressources [!DNL Workfront] suivantes à partir d’Experience League :
 
-* Tutoriels Workfront : pour plus d’informations, consultez les Tutoriels [[!DNL Workfront] ](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
+* Tutoriels Workfront : pour plus d’informations, consultez les Tutoriels [[!DNL Workfront] &#x200B;](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab] : pour plus d’informations, voir [[!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Community ] : pour plus d’informations, consultez la section [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+* [!UICONTROL [!DNL Workfront] Community &#x200B;] : pour plus d’informations, consultez la section [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ## Obtenir de l’aide dans [!DNL Workfront]
 
@@ -42,5 +42,5 @@ Outre la recherche d’articles d’aide, vous pouvez également accéder aux re
 
 >[!NOTE]
 >
->Vous pouvez également accéder à l’aide à partir de l’icône du centre d’aide en haut à droite de l’en-tête. Pour plus d&#39;informations, voir Interface et administration de [](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
+>Vous pouvez également accéder à l’aide à partir de l’icône du centre d’aide en haut à droite de l’en-tête. Pour plus d&#39;informations, voir Interface et administration de [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
 

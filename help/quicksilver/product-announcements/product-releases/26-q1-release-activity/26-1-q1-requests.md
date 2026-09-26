@@ -170,4 +170,4 @@ Pour faciliter l’envoi de requêtes, nous avons ajouté la possibilité de cop
 
 Auparavant, cette fonctionnalité n’était pas disponible dans la nouvelle expérience de création de requêtes.
 
-Pour plus d’informations sur la copie et l’envoi d’une requête, voir [ Copier et envoyer des requêtes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Pour plus d’informations sur la copie et l’envoi d’une requête, voir [&#x200B; Copier et envoyer des requêtes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).

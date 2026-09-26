@@ -97,7 +97,7 @@ Après avoir configuré les [Paramètres du compte](https://support.workfront.co
 >
 >Il est plus facile de suivre ces étapes si votre session [!DNL Basecamp] est ouverte dans une fenêtre de navigateur et que votre session [!DNL Workfront Proof] est ouverte dans une autre.
 
-* [Récupérer votre jeton API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
+* [Récupérer votre jeton API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token)
 * [Ajouter votre jeton API  [!DNL Basecamp]  à vos paramètres personnels](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Récupérer votre jeton API [!DNL Basecamp]
@@ -125,7 +125,7 @@ Pour coller le jeton API [!DNL Basecamp] dans vos [Paramètres personnels](http
    L’équipe d’administration doit d’abord activer l’intégration de [!DNL Basecamp Classic] pour activer vos paramètres personnels. Pour plus d’informations sur la configuration de l’intégration, voir [Activation de l’intégration  [!DNL Basecamp]  avec  [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) dans cet article.
 
 1. Dans la zone Jeton API [!DNL Basecamp] (2), collez le jeton que vous venez de copier à partir de votre page [!UICONTROL Mes informations] [!DNL Basecamp] dans le champ (3).\
-   Pour plus d’informations sur la copie de votre jeton API [!DNL Basecamp], voir [Récupération de votre jeton API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token) dans cet article.
+   Pour plus d’informations sur la copie de votre jeton API [!DNL Basecamp], voir [Récupération de votre jeton API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token) dans cet article.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** (4).
 

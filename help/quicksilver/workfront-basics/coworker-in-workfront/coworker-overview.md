@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Le CX Coworker Chat est une interface de conversation qui permet d’effectuer le travail. Vous décrivez un objectif en langage clair, puis un collègue planifie le travail, l’exécute sur l’ensemble de vos systèmes Adobe et connectés, valide les résultats et vous renvoie le travail terminé pour approbation&#x200B;
 
@@ -31,9 +31,9 @@ Coworker respecte les contrôles d’accès au niveau des produits existants de 
 
 Coworker fait partie de l’écosystème Adobe et ne se limite pas à Workfront.
 
-Pour plus d’informations sur l’utilisation de CX Coworker dans Workfront, voir [ Utilisation de CX Coworker dans Workfront ](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+Pour plus d’informations sur l’utilisation de CX Coworker dans Workfront, voir [&#x200B; Utilisation de CX Coworker dans Workfront &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-Pour plus d’informations sur Coworker et ses fonctionnalités, consultez [Présentation du Chat ](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
+Pour plus d’informations sur Coworker et ses fonctionnalités, consultez [Présentation du Chat &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview).
 
 Pour connaître les compétences disponibles dans Coworker in Workfront, consultez [Compétences CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 

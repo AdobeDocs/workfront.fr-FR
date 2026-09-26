@@ -41,7 +41,7 @@ La synthèse des commentaires est accessible directement à partir des zones sui
 
 * [Visionneuse d’épreuves](#the-proof-viewer)
 * [Page Détails de l’épreuve](#the-proof-details-page)
-* [Menu Actions de l’ [!DNL Proof] ](#the-proof-actions-menu)
+* [Menu Actions de l’ [!DNL Proof] &#x200B;](#the-proof-actions-menu)
 
 ### Visionneuse d’épreuves {#the-proof-viewer}
 
@@ -110,7 +110,7 @@ Pour télécharger la synthèse [!DNL Excel] à partir de la page Détails de l�
 
 1. Cliquez sur le bouton **Plus**, puis sélectionnez **Exporter vers Excel**.
 
-   ![ Exporter vers Excel ](assets/export-to-excel.png)
+   ![&#x200B; Exporter vers Excel &#x200B;](assets/export-to-excel.png)
 
 ## Exporter au format PDF
 

@@ -75,7 +75,7 @@ Lorsque vous accédez à **Utilisateurs** > **Rôles**, deux rôles sont associ�
 | **Membre** | Tous les utilisateurs de l’organisation | Contient le commutateur de fonctionnalités Adobe Cloud Drive au niveau de l’organisation. Activé par défaut. |
 | **utilisateur ACD** | Personne, par défaut | Accorde un accès individuel lorsque le commutateur au niveau de l’organisation est désactivé. |
 
-![ Rôles dans Admin Console ](assets/admin-console-roles.png)
+![&#x200B; Rôles dans Admin Console &#x200B;](assets/admin-console-roles.png)
 
 ### Contrôles d’accès
 
@@ -93,7 +93,7 @@ Le rôle **utilisateur ACD** n’est pertinent que lorsque le bouton au niveau d
 
 Adobe Cloud Drive n’est disponible que sur le package Workflow Ultimate. Les options de rôle ne sont disponibles dans aucun autre package.
 
-La licence du package Workflow Ultimate peut être de n’importe quel type : Standard, Léger ou Contributeur. Pour plus d’informations sur les licences, voir [ Présentation des licences ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+La licence du package Workflow Ultimate peut être de n’importe quel type : Standard, Léger ou Contributeur. Pour plus d’informations sur les licences, voir [&#x200B; Présentation des licences &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Le tableau suivant montre l&#39;interaction de ces contrôles :
 
@@ -317,7 +317,7 @@ Pour plus d’informations sur la gestion de l’accès aux projets, voir [Gére
 
 ## Configuration réseau requise
 
-Adobe Cloud Drive nécessite un accès HTTPS sortant (port 443) à un ensemble de points d’entrée Adobe. Aucune règle de pare-feu entrant n’est requise. Pour obtenir la liste des points d’entrée, voir [Points d’entrée réseau ](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
+Adobe Cloud Drive nécessite un accès HTTPS sortant (port 443) à un ensemble de points d’entrée Adobe. Aucune règle de pare-feu entrant n’est requise. Pour obtenir la liste des points d’entrée, voir [Points d’entrée réseau &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
 
 Adobe Cloud Drive lit la configuration du proxy au niveau du système sur macOS et Windows. Les proxys authentifiés sont pris en charge.
 
@@ -345,7 +345,7 @@ Le dossier racine de chaque projet Workfront est en lecture seule dans la vue Bu
 
 ## Résolution des problèmes courants
 
-Pour connaître les étapes de dépannage de l’utilisateur final, voir [ Dépannage d’Adobe Cloud Drive ](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). Les problèmes répertoriés ci-dessous sont spécifiques aux administrateurs.
+Pour connaître les étapes de dépannage de l’utilisateur final, voir [&#x200B; Dépannage d’Adobe Cloud Drive &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). Les problèmes répertoriés ci-dessous sont spécifiques aux administrateurs.
 
 ### L’utilisateur ne trouve pas le programme d’installation d’Adobe Cloud Drive dans la distribution logicielle.
 

@@ -59,7 +59,7 @@ La zone [!UICONTROL Accueil] vous permet de travailler directement sur les tâch
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [[!UICONTROL Widgets de la zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et la section [[!UICONTROL Mon travail] de l’application mobile ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Pour plus d’informations, voir [[!UICONTROL Widgets de la zone d’accueil]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) et la section [[!UICONTROL Mon travail] de l’application mobile &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Zone d’accueil](assets/mobile-home-area.png)
 
@@ -124,9 +124,9 @@ La zone [!UICONTROL Approbations] vous permet d’afficher et d’approuver les 
  </tbody>
 </table>
 
-Pour plus d’informations sur les approbations, voir [Approbations dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Pour plus d’informations sur les approbations, voir [Approbations dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Pour plus d’informations sur la révision et l’approbation d’épreuves, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Pour plus d’informations sur la révision et l’approbation d’épreuves, voir [Réviser et prendre des décisions sur les épreuves dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Liste des approbations dans l’application mobile](assets/mobile-approvals-adobe-350x574.png)
 

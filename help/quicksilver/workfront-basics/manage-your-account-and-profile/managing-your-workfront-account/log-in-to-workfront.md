@@ -36,7 +36,7 @@ ht-degree: 32%
 
 Une seule connexion est utilisée pour Workfront et toutes vos applications Adobe CX Enterprise.
 
-Pour plus d&#39;informations, voir Interface et administration de [](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
+Pour plus d&#39;informations, voir Interface et administration de [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/experience-cloud).
 
 ## Accéder à [!DNL Workfront]
 

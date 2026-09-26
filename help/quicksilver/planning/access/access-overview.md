@@ -182,7 +182,7 @@ Pour plus d’informations, voir [Présentation du type de licence avec Adobe Wo
 
 ## Configurer le niveau d’accès
 
-Pour plus d’informations sur la configuration de l’accès dans Workfront, voir [ Création et modification de niveaux d’accès personnalisés ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Pour plus d’informations sur la configuration de l’accès dans Workfront, voir [&#x200B; Création et modification de niveaux d’accès personnalisés &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Attribution de licences aux utilisateurs
 

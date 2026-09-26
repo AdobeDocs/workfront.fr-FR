@@ -62,4 +62,4 @@ De plus, lorsque vous ouvrez un formulaire personnalisé dans la version Beta du
 
 Actuellement, les fonctionnalités modifier une logique existante et ajouter une nouvelle logique à un formulaire personnalisé ne sont pas encore disponibles dans la version Beta du concepteur de formulaires, mais sont prévues pour l’avenir.
 
-Pour plus d’informations, voir [ Présentation des formulaires personnalisés ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation des formulaires personnalisés &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

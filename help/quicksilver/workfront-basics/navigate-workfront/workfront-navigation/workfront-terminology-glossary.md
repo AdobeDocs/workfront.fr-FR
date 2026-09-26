@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: workfront-navigation
 title: Glossaire de la terminologie [!DNL Adobe Workfront]
-description: Le glossaire [!DNL Adobe Workfront] répertorie les termes couramment utilisés dans [!DNL Adobe Workfront]. Vous pouvez utiliser le glossaire lorsque vous souhaitez retrouver la définition des concepts que vous voyez dans l'interface de [!UICONTROL ], les rapports, ou lorsque vous essayez de comprendre la signification de [!DNL Workfront] concepts définis dans la documentation [!DNL Workfront].
+description: Le glossaire [!DNL Adobe Workfront] répertorie les termes couramment utilisés dans [!DNL Adobe Workfront]. Vous pouvez utiliser le glossaire lorsque vous souhaitez retrouver la définition des concepts que vous voyez dans l'interface de , les rapports, ou lorsque vous essayez de comprendre la signification de [!DNL Workfront] concepts définis dans la documentation [!DNL Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
@@ -1527,7 +1527,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[UICONTROL User] qui affiche et permet de définir les relations de l’[UICONTROL Company] et du [UICONTROL Reporting] de l’[UICONTROL User].</td> 
+   <td>Abréviation d’Organizational Chart (Organigramme). Il s’agit d’un graphique montrant les liens hiérarchiques au sein d’une organisation. Il s’agit également de l’onglet de l’écran de détail d’[!UICONTROL User] qui affiche et permet de définir les relations de l’[!UICONTROL Company] et du [!UICONTROL Reporting] de l’[!UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 

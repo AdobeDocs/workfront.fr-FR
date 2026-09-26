@@ -89,7 +89,7 @@ Dans cette section, vous pouvez accorder des autorisations d’administration à
 Vous pouvez accorder les autorisations suivantes :
 
 * Gérer les paramètres du compte
-Pour plus d’informations, voir [ Paramètres du compte ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
+Pour plus d’informations, voir [&#x200B; Paramètres du compte &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
 * Gérer les utilisateurs
 Pour plus d’informations, voir [Utilisateurs](https://support.workfront.com/hc/en-us/sections/115000911887-Users).
@@ -101,13 +101,13 @@ Pour plus d’informations, voir [Prendre une décision concernant un BAT dans l
 Pour plus d’informations, voir [Partenaires](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts).
 
 * Gestion des applications
-Pour plus d’informations, voir [ Intégrations ](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
+Pour plus d’informations, voir [&#x200B; Intégrations &#x200B;](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
 
 * Gestion des champs personnalisés
 Pour plus d’informations, voir [Création et gestion de champs personnalisés dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
 
 * Gérer la zone de dépôt
-Pour plus d’informations, voir [ Zone de dépôt ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
+Pour plus d’informations, voir [&#x200B; Zone de dépôt &#x200B;](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
 * Gestion des workflows avancés
 Pour plus d’informations, voir [Présentation des workflows automatisés](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -122,13 +122,13 @@ Pour plus d’informations, voir [Comprendre le journal d’audit  [!DNL Workfro
 Pour plus d’informations, voir [Sauvegarder  [!DNL Workfront Proof]  données](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
 
 * Gérer les facturations
-Pour plus d’informations, voir [ Gérer la facturation ](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing).
+Pour plus d’informations, voir [&#x200B; Gérer la facturation &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing).
 
 * Créer des comptes satellites
-Pour plus d’informations, voir [ Configuration d’un compte satellite dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md).
+Pour plus d’informations, voir [&#x200B; Configuration d’un compte satellite dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md).
 
 * Corbeille vide
-Pour plus d’informations, voir [ Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+Pour plus d’informations, voir [&#x200B; Restaurer et vider la corbeille dans  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 * Gestion des profils d’autorisation
 Pour plus d’informations, voir [Profils d’autorisations d’épreuve dans [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

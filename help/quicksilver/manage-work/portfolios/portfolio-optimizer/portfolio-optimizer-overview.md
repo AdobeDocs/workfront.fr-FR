@@ -78,7 +78,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
 
 #### En-tête de portfolio {#portfolio-header}
 
-![En-tête ](assets/portfolio-header-nwe-350x14.png)
+![En-tête &#x200B;](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] calcule les champs financiers de l’en-tête du portfolio grâce aux informations provenant de projets dont le statut correspond uniquement à [!UICONTROL Approuvé] ou [!UICONTROL Actuel].
 
@@ -117,7 +117,7 @@ Les champs financiers suivants s’affichent dans l’[!UICONTROL optimisateur d
 
 #### Finances du portfolio pour les projets sélectionnés {#portfolio-finances-for-selected-projects}
 
-![finances de ](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![finances de &#x200B;](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 

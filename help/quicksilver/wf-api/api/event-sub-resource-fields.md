@@ -404,7 +404,7 @@ Le tableau suivant répertorie les champs disponibles pour les ressources de l�
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=négatif tooltip=« Ce champ a été supprimé le 26 octobre 2023.« }</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=négatif tooltip="Ce champ a été supprimé le 26 octobre 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 

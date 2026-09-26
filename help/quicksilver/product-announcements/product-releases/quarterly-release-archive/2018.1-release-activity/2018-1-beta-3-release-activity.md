@@ -206,7 +206,7 @@ Les événements sont désormais inclus par défaut dans la liste d’attente de
 
 Avant cette modification, seules les tâches pouvaient être ajoutées à la liste d’attente. Si vous vouliez ajouter un problème, vous deviez d’abord le convertir en une tâche avant de pouvoir l’ajouter.
 
-Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [ Gérer la liste d’attente Agile ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Pour plus d’informations sur l’utilisation des événements dans la liste d’attente, voir [&#x200B; Gérer la liste d’attente Agile &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Appliquer des regroupements et des filtres à la liste d’attente d’une équipe Agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 

@@ -73,7 +73,7 @@ Pour plus d’informations sur la modification des statuts du système ou la cr�
 
    Les statuts des tâches disponibles dans Workfront sont répertoriés dans cet onglet.
 
-   ![ Statut de la tâche ](assets/task-status.png)
+   ![&#x200B; Statut de la tâche &#x200B;](assets/task-status.png)
 
    Pour plus d’informations sur chacun des statuts des tâches système intégrés, voir [Statuts des tâches système](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

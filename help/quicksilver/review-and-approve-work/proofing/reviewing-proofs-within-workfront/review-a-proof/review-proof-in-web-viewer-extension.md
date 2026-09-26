@@ -50,9 +50,9 @@ Les réviseurs et approbateurs doivent installer l’outil de révision Adobe Wo
 
 * [Extension Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
-* [Extension ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+* [Extension &#x200B;](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
-* [](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+* [&#128279;](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
 * [Extension Safari](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
 

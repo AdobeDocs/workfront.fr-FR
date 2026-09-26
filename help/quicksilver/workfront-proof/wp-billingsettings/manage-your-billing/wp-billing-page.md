@@ -146,7 +146,7 @@ N’oubliez pas que si vous avez besoin d’autres épreuves, stockage ou utilis
 
 Cette section affiche l’activité pour toutes les périodes de facturation récentes. Vous pouvez également télécharger vos factures depuis cette section.
 
-Pour plus d’informations, voir « [Télécharger votre facture  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md). »
+Pour plus d’informations, voir « [Télécharger votre facture  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md). »
 
 ## [!UICONTROL Activité de facturation]
 

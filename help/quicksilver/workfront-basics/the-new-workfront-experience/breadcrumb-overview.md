@@ -86,7 +86,7 @@ Pour plus d’informations sur les objets parent dans [!DNL Workfront], voir [Co
 
    La page d’objet s’ouvre.
 
-   Si vous vous intéressez à un projet connecté à un objet dans Workfront Planning (une campagne, par exemple), vous pouvez basculer entre les deux types d’objets Planning et Workfront à partir du chemin de navigation. Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+   Si vous vous intéressez à un projet connecté à un objet dans Workfront Planning (une campagne, par exemple), vous pouvez basculer entre les deux types d’objets Planning et Workfront à partir du chemin de navigation. Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 <div class="preview">
 

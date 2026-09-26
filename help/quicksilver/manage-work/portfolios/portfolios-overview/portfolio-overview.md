@@ -40,7 +40,7 @@ ht-degree: 74%
 
 La gestion de portfolio ou de portfolio de projets (PPM) est le processus de hiérarchisation et de gestion d’une liste de projets en vue d’atteindre des objectifs commerciaux spécifiques.
 
-Pour obtenir des informations générales sur PPM, consultez [Présentation de la gestion ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
+Pour obtenir des informations générales sur PPM, consultez [Présentation de la gestion &#x200B;](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
 
 Dans Adobe Workfront, un portfolio est un ensemble de projets présentant des caractéristiques unificatrices. Ces projets sont généralement en concurrence pour les mêmes ressources, le même budget ou le même créneau horaire. Vous pouvez diviser les portfolios en programmes et associer les projets aux programmes avant de les ajouter à un portfolio.
 

@@ -186,12 +186,12 @@ L’essai a commencé et votre organisation a reçu l’accès pour commencer l�
 1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
    * Accédez à la zone **Notifications** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
 1. Cliquez sur **Consulter le contrat d’évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
 1. Cliquez sur **Accepter** après avoir consulté le contrat.
-1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
+1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
 
@@ -205,7 +205,7 @@ L’essai a commencé et votre organisation a reçu l’accès pour commencer l�
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning ****
+   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
 
    * Accédez à la zone **Notifications** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning
 
@@ -221,10 +221,10 @@ L’essai a commencé et votre organisation a reçu l’accès pour commencer l�
    * En tant qu’administrateur système, vous recevez un accès de niveau Gérer à l’onglet **Exemples d’espaces de travail** dans la zone Planification .
    * Les utilisateurs standard bénéficient d&#39;un accès en affichage à l&#39;onglet **Exemples d&#39;espaces de travail** de Planning et peuvent créer leurs propres espaces de travail, types d&#39;enregistrements, enregistrements, champs et vues et les partager avec d&#39;autres utilisateurs.
    * Tous les autres utilisateurs reçoivent un accès en lecture seule à l’onglet **Exemples d’espaces de travail** dans la zone Planning et peuvent accéder à d’autres espaces de travail lorsque d’autres personnes les partagent avec eux.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning ****, puis cliquez sur **En savoir plus**.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **** et cliquez sur **Ouvrir l&#39;évaluation**.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**&#x200B;et cliquez sur **Ouvrir l&#39;évaluation**.
 
    Commencez à explorer l’onglet **Exemples d’espaces de travail** et passez en revue, utilisez ou partagez des espaces de travail partagés avec vous.
 
@@ -264,9 +264,9 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
 
    * **Classifications globales et taxonomies** : contient des exemples de types d’objets Planning qui constituent la base d’un système d’enregistrement marketing.
 
-     Tous les types d’enregistrements de cet espace de travail peuvent constituer des blocs de construction de votre structure Workfront Planning. Tous les types d’enregistrements sont globaux et peuvent être ajoutés ou connectés à partir de tous les autres espaces de travail. Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Tous les types d’enregistrements de cet espace de travail peuvent constituer des blocs de construction de votre structure Workfront Planning. Tous les types d’enregistrements sont globaux et peuvent être ajoutés ou connectés à partir de tous les autres espaces de travail. Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-     Pour notre recommandation sur l’utilisation de l’espace de travail des taxonomies mondiales, consultez [ Transformer votre première victoire en élan durable : un guide pour une mise à l’échelle gérée ](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
+     Pour notre recommandation sur l’utilisation de l’espace de travail des taxonomies mondiales, consultez [&#x200B; Transformer votre première victoire en élan durable : un guide pour une mise à l’échelle gérée &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Exemples d’espaces de travail supplémentaires : les espaces de travail suivants servent d’exemples de ce dont une entreprise type (Fréscopa) pourrait avoir besoin en tant qu’espaces de travail spécifiques, types d’enregistrements, champs et vues pour organiser son organisation et sa structure de travail :
 
      * **Fréscopa Global Marketing**

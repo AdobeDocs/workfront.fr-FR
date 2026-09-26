@@ -59,7 +59,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Avant d’installer Adobe Cloud Drive, vérifiez les points suivants :
 
-* Votre appareil répond à la configuration requise répertoriée dans la section [ Configuration requise ](#system-requirements) de cet article.
+* Votre appareil répond à la configuration requise répertoriée dans la section [&#x200B; Configuration requise &#x200B;](#system-requirements) de cet article.
 * Votre organisation utilise une version de Workfront qui prend en charge l’espace de stockage dans le cloud Adobe.
 
 Si votre entreprise gère les installations d’applications pour vous et qu’Adobe Cloud Drive n’est pas disponible au téléchargement, contactez votre administrateur Workfront.
@@ -87,7 +87,7 @@ Pour vous assurer qu’Adobe Cloud Drive peut accéder aux services dont il dép
 
 ## Télécharger le programme d’installation
 
-1. Accédez à la [distribution logicielle ](https://experience.adobe.com/#/downloads).
+1. Accédez à la [distribution logicielle &#x200B;](https://experience.adobe.com/#/downloads).
 
 1. Connectez-vous avec votre Adobe ID.
 1. Dans la liste de téléchargements **Général**, recherchez **Adobe Cloud Drive**.

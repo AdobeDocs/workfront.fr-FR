@@ -77,4 +77,4 @@ En tant que personne en charge de la révision, vous pouvez utiliser plusieurs �
 
      Lorsque vous comparez des épreuves, si vous souhaitez passer à une nouvelle épreuve, que ce soit sur le côté gauche ou droit de la visionneuse de relecture, cliquez sur le bouton [!UICONTROL Comparer] au-dessus de l’épreuve.
 
-     ![Comparer ](assets/mceclip0-350x126.png)
+     ![Comparer &#x200B;](assets/mceclip0-350x126.png)

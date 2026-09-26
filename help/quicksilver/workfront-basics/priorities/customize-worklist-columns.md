@@ -91,7 +91,7 @@ Pour plus d’informations sur ce tableau, voir [Conditions d’accès requises 
 
 1. Cliquez sur **Colonnes** sur le côté gauche de l’écran.
 
-   ![Colonnes ](assets/columns-new-060226.png)
+   ![Colonnes &#x200B;](assets/columns-new-060226.png)
 
 1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste de tâches.
 

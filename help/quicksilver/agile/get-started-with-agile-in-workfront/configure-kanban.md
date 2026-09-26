@@ -173,7 +173,7 @@ Pour configurer les cartes d’histoire affectées à l’équipe Agile afin d�
 
 Lorsque vous définissez la limite du travail en cours d’une équipe Kanban, vous pouvez contrôler le nombre d’éléments sur lesquels l’équipe travaille actuellement en limitant le nombre de tâches pouvant apparaître dans la colonne [!UICONTROL Nouveau] ou [!UICONTROL En cours] sur le tableau [!UICONTROL Kanban].
 
-Après avoir configuré la limite WIP pour une équipe Kanban, vous pouvez afficher la limite WIP et la mettre à jour à partir du storyboard [!UICONTROL Kanban] Agile, comme décrit dans la section [ Gérer la limite WIP (Work in Progress) sur le panorama [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Après avoir configuré la limite WIP pour une équipe Kanban, vous pouvez afficher la limite WIP et la mettre à jour à partir du storyboard [!UICONTROL Kanban] Agile, comme décrit dans la section [&#x200B; Gérer la limite WIP (Work in Progress) sur le panorama [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Pour limiter le travail en cours pour votre équipe Kanban, procédez comme suit :
 

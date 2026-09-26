@@ -45,7 +45,7 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 * Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -209,4 +209,4 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
 
-* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).

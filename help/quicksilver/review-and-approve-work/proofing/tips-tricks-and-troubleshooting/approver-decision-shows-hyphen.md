@@ -41,7 +41,7 @@ Le trait d’union est intentionnel. Il vous indique que le système n’attend 
 
 Le champ Date de décision affiche toujours la date de l’activité de décision la plus récente du destinataire, mais la décision du destinataire n’est plus comptabilisée dans le rapport.
 
-Pour plus d&#39;informations sur la création et l&#39;utilisation du rapport Approbation de l&#39;épreuve, voir [ Utiliser le rapport Approbation de l&#39;épreuve ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
+Pour plus d&#39;informations sur la création et l&#39;utilisation du rapport Approbation de l&#39;épreuve, voir [&#x200B; Utiliser le rapport Approbation de l&#39;épreuve &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
 
 
 

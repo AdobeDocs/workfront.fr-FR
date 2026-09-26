@@ -81,7 +81,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Conditions préalables {#prerequisites}
 
 * Vous devez utiliser une file d’attente de demandes existante pour stocker les demandes de plan directeur. Le projet doit être enregistré en tant que file d’attente des demandes et il doit avoir le statut [!UICONTROL Actuel].
-* La file d’attente des demandes doit être publique. Dans les détails de la file d’attente des demandes, « [!UICONTROL  Qui peut ajouter des demandes à cette file d’attente ?] » doit être défini sur **[!UICONTROL Tout le monde]**.
+* La file d’attente des demandes doit être publique. Dans les détails de la file d’attente des demandes, « [!UICONTROL &#x200B; Qui peut ajouter des demandes à cette file d’attente ?] » doit être défini sur **[!UICONTROL Tout le monde]**.
 
 >[!TIP]
 >
