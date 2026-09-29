@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 9%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -24,7 +24,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -686,7 +686,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
 ## Mises à jour de la visionneuse de relecture de bureau
 
@@ -707,11 +707,11 @@ Pour plus d’informations sur le téléchargement et la mise à jour du lecteur
 
 ## Annonces
 
-### Abandon des champs de taux de facturation et de coût hérités
+### Obsolescence des champs de taux de facturation et de coût hérités dans les vues de liste de fonctions
 
 Au fil du temps, nous avons mis en place des fonctionnalités améliorées de gestion des taux et des expériences dédiées aux fonctions qui offrent une approche plus complète et évolutive de la gestion des informations sur les taux. Par conséquent, l’administration des taux se dirige vers ces expériences dédiées plutôt que vers des workflows de gestion basés sur des listes.
 
-Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ni dans les vues Liste des utilisateurs et des fonctions, y compris les configurations de filtrage/affichage/regroupement (références directes et colonnes calculées du mode texte).
+Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ou dans les vues de liste des fonctions, y compris les configurations de filtrage/affichage/regroupement (références directes et colonnes calculées du mode texte).
 
 En remplacement dans les rapports , vous pouvez utiliser le code de mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
 
@@ -724,15 +724,14 @@ En remplacement dans les rapports , vous pouvez utiliser le code de mode texte r
     valueformat=HTML
     « 
 
-Pour gérer et réviser les taux, utilisez les expériences de gestion des taux dédiées :
+Pour gérer et examiner les taux de fonctions, utilisez les expériences de gestion des taux dédiées :
 
-* Accédez directement aux taux utilisateur à partir du profil utilisateur.
 * Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
-* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux pour les utilisateurs et les fonctions.
+* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
 
-Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des utilisateurs ou des fonctions doivent mettre à jour leurs workflows afin d’utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
+Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows pour utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
 
-Pour plus d’informations sur les fonctions et les taux utilisateur, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) et [Modifier le profil d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### L’authentification par mot de passe uniquement pour les utilisateurs de lecteurs Data Connect se termine le 8 août 2026
 
@@ -742,7 +741,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 
