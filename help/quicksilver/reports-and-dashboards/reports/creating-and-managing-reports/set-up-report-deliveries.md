@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 99%
+source-wordcount: '1636'
+ht-degree: 93%
 ---
 # Vue d’ensemble de la diffusion des rapports
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ Tenez compte des points suivants lors de la planification des rapports pour leur
 
 * Vous pouvez planifier jusqu’à 10 remises répétées de rapports pour n’importe quel rapport donné.
 * Vous ne pouvez planifier la diffusion d’un rapport que si vous qui l’avez créé. Si vous devez envoyer un rapport que vous n’avez pas créé, vous pouvez l’envoyer manuellement.
+* <span class="preview">Dans la Prévisualisation, chaque diffusion de rapport planifiée doit avoir une date de fin définie. Si une diffusion a été précédemment définie sur Jamais, Workfront définit automatiquement la date de fin sur 13 mois à compter de la date d’envoi suivante du rapport.</span>
 
 ## Limites d’export
 
@@ -146,6 +149,7 @@ Lorsque vous envoyez un rapport à partir de Workfront, l’utilisateur ou l’u
 * [Branding](#branding)
 * [Formatage](#formatting)
 * [Liens](#links)
+* [Avis d’expiration de rapport](#report-expiration-notices)
 
 ### Objet, nom de la pièce jointe et titre du rapport {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ Pour plus d’informations sur la sélection de l’onglet par défaut d’un ra
 Lorsque vous envoyez un rapport à partir de Workfront au format PDF ou Excel, tous les liens de travail existant dans le document d’origine restent actifs dans le fichier envoyé. Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en charge les liens.
 
 Le nom du rapport dans l’e-mail est également un lien.
+
+<div class="preview">
+
+### Avis d’expiration de rapport {#report-expiration-notices}
+
+Dans la Prévisualisation, les e-mails de rapport diffusés incluent la date d’expiration du rapport.
+
+Si la diffusion se répète tous les jours, l’e-mail inclut un avertissement d’expiration sur chaque diffusion une fois que la date d’expiration est dans les 45 jours.
+
+Si la diffusion se répète une fois par semaine ou un mois, l’e-mail inclut un avertissement d’expiration au cours des quatre dernières diffusions planifiées avant la date d’expiration.
+
+</div>
 
 ## Générer des rapports sur les rapports planifiés
 

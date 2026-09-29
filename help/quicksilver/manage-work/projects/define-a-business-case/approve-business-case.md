@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 85%
@@ -150,9 +150,9 @@ Pour établir un rapport pour les projets dont le business case est en attente d
 
    Le statut du projet passe à **Rejeté** si le business case est rejeté.
 
-   >[!NOTE]
-   >
-   >L’utilisateur ou utilisatrice qui a soumis l’approbation du business case ne reçoit aucune notification si sa demande de projet a été approuvée ou rejetée.
+>[!NOTE]
+>
+>L’utilisateur ou utilisatrice qui a soumis l’approbation du business case ne reçoit aucune notification si sa demande de projet a été approuvée ou rejetée.
 
 ## Approuver le business case en accédant aux projets demandés dans un portfolio
 
