@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 267e7ab4279a86112b343d32e96b482a490d73c4
+source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 4%
@@ -111,10 +111,10 @@ Pour créer un workflow d’approbation en une seule étape :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
    </tr>
-   <tr class="preview">
-   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
-   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel.</p>
-   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</p></td>
+   <tr>
+   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
+   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel.</span></p>
+   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</span></p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
@@ -181,10 +181,10 @@ Pour créer un workflow de validation avancée :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
    </tr>
-   <tr class="preview">
-   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
-   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel.</p>
-   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</p></td>
+   <tr>
+   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
+   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel.</span></p>
+   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</span></p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
@@ -247,10 +247,10 @@ Pour créer un workflow d’approbation en une seule étape :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir un nom d’utilisateur ou un e-mail à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
    </tr>
-   <tr class="preview">
-   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
-   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</p>
-   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</p></td>
+   <tr>
+   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
+   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</span></p>
+   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</span></p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
@@ -323,10 +323,10 @@ Pour créer un workflow de validation avancée :
    <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
    <td>Commencez à saisir un nom d’utilisateur ou un e-mail à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
    </tr>
-   <tr class="preview">
-   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
-   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</p>
-   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</p></td>
+   <tr>&gt;
+   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
+   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</span></p>
+   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</span></p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
