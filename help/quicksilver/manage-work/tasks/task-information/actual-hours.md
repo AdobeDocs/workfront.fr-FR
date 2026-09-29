@@ -12,28 +12,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 26%
-
 ---
-
 # Afficher les heures effectives
 
 <!-- Audited: 5/2025 -->
@@ -115,21 +125,21 @@ En fonction de la zone du Workfront à partir de laquelle vous accédez aux heur
 
 * Dans les rapports et listes de projets, de tâches et d’événements :
 
-   * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements entre mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
-   * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, entre une date antérieure à mai 2021 et aujourd’hui. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
+  * **Heures réelles** : heures enregistrées pour un projet, des tâches ou des événements entre mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+  * **Heures réelles héritées** : heures enregistrées pour des projets, des tâches ou des événements, à tout moment, entre une date antérieure à mai 2021 et aujourd’hui. Elles sont stockées dans la base de données Workfront en minutes et leur champ de valeur est `actualWorkRequired`.
 
-     Les heures consignées actuellement mettront à jour les heures réelles et les anciennes heures réelles.
+    Les heures consignées actuellement mettront à jour les heures réelles et les anciennes heures réelles.
 
-     >[!IMPORTANT]
-     >
-     >Le coût réel du projet utilise les heures réelles héritées pour calculer.
+    >[!IMPORTANT]
+    >
+    >Le coût réel du projet utilise les heures réelles héritées pour calculer.
 
 * Dans la zone Détails du projet, de la tâche ou de l’événement , les heures réelles peuvent s’afficher dans les champs suivants :
 
-   * **Heures réelles** : dans l’onglet Détails , il s’agit des heures enregistrées pour des projets, des tâches ou des événements entre mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
-   * **Heures réelles** : dans un formulaire personnalisé de projet, de tâche ou d’événement, lorsqu’ils sont accessibles à l’aide d’un champ personnalisé de référence de champ natif qui fait référence au champ natif des heures réelles. Il s’agit d’heures enregistrées pour des projets, des tâches ou des événements entre une date antérieure à mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+  * **Heures réelles** : dans l’onglet Détails , il s’agit des heures enregistrées pour des projets, des tâches ou des événements entre mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
+  * **Heures réelles** : dans un formulaire personnalisé de projet, de tâche ou d’événement, lorsqu’ils sont accessibles à l’aide d’un champ personnalisé de référence de champ natif qui fait référence au champ natif des heures réelles. Il s’agit d’heures enregistrées pour des projets, des tâches ou des événements entre une date antérieure à mai 2021 et aujourd’hui. Ils sont stockés dans la base de données Workfront en heures et leur champ de valeur est `actualWorkRequiredDouble`.
 
-     Les heures consignées actuellement mettront à jour les heures réelles et les anciennes heures réelles.
+    Les heures consignées actuellement mettront à jour les heures réelles et les anciennes heures réelles.
 
 >[!NOTE]
 >
