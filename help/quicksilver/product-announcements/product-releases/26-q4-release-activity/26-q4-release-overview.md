@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 9%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -707,11 +707,11 @@ Pour plus d’informations sur le téléchargement et la mise à jour du lecteur
 
 ## Annonces
 
-### Abandon des champs de taux de facturation et de coût hérités
+### Obsolescence des champs de taux de facturation et de coût hérités dans les vues de liste de fonctions
 
 Au fil du temps, nous avons mis en place des fonctionnalités améliorées de gestion des taux et des expériences dédiées aux fonctions qui offrent une approche plus complète et évolutive de la gestion des informations sur les taux. Par conséquent, l’administration des taux se dirige vers ces expériences dédiées plutôt que vers des workflows de gestion basés sur des listes.
 
-Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ni dans les vues Liste des utilisateurs et des fonctions, y compris les configurations de filtrage/affichage/regroupement (références directes et colonnes calculées du mode texte).
+Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ou dans les vues de liste des fonctions, y compris les configurations de filtrage/affichage/regroupement (références directes et colonnes calculées du mode texte).
 
 En remplacement dans les rapports , vous pouvez utiliser le code de mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
 
@@ -724,15 +724,14 @@ En remplacement dans les rapports , vous pouvez utiliser le code de mode texte r
     valueformat=HTML
     « 
 
-Pour gérer et réviser les taux, utilisez les expériences de gestion des taux dédiées :
+Pour gérer et examiner les taux de fonctions, utilisez les expériences de gestion des taux dédiées :
 
-* Accédez directement aux taux utilisateur à partir du profil utilisateur.
 * Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
-* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux pour les utilisateurs et les fonctions.
+* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
 
-Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des utilisateurs ou des fonctions doivent mettre à jour leurs workflows afin d’utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
+Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows pour utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
 
-Pour plus d’informations sur les fonctions et les taux utilisateur, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) et [Modifier le profil d’un utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### L’authentification par mot de passe uniquement pour les utilisateurs de lecteurs Data Connect se termine le 8 août 2026
 
