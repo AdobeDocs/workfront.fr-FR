@@ -9,23 +9,28 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 43ed208abe51a7172c0143fa6f838362edd913db
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 41%
-
+source-wordcount: '543'
+ht-degree: 37%
 ---
-
 # Gérer les dépenses liées à un projet
 
 <!-- Audited: 6/2025 -->
@@ -54,11 +59,11 @@ Le montant total de vos dépenses pour toutes les tâches et tous les projets co
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td>Accès en modification aux projets et aux données financières</td> 
+   <td>Modifier l’accès aux projets et tâches</td> 
   </tr> 
   <tr> 
    <td>Autorisations d’objet</td> 
-   <td>Accordez au projet des autorisations supérieures ou supérieures, avec l'autorisation d'Afficher ou de Modifier les finances générales</td> 
+   <td><p>Pour ajouter des dépenses et modifier ou supprimer des dépenses que vous avez créées : accordez des autorisations ou des autorisations supérieures au projet ou à la tâche, avec l’autorisation d’Ajouter des dépenses.</p><p>Pour afficher, modifier ou supprimer des dépenses ajoutées par d'autres utilisateurs : Gérez les autorisations sur le projet ou la tâche, avec les autorisations pour Afficher les taux de coûts (pour l'affichage) ou Modifier les taux de coûts (pour la modification ou la suppression).</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +102,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Supprimer des dépenses
 
-1. Accédez au projet pour lequel vous souhaitez supprimer une dépense.
+1. Accédez au projet ou à la tâche pour lesquels vous souhaitez supprimer une dépense.
 1. Cliquez sur **Dépenses** dans le panneau de gauche.
 1. Sélectionnez la dépense à supprimer, puis cliquez sur l&#39;icône **Supprimer** ![Supprimer](assets/delete.png).
 1. Dans la boîte de dialogue **Supprimer la dépense**, cliquez sur **Oui, supprimer**.
