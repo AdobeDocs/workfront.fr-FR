@@ -12,24 +12,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 246f2fe7a8f1b4c34ca6e3755bef488744acbcd6
 workflow-type: tm+mt
-source-wordcount: 1532
-ht-degree: 90%
-
+source-wordcount: '1490'
+ht-degree: 96%
 ---
-
 # Vue d’ensemble de l’effort de travail
 
 <!--Audited: 01/2024-->
@@ -54,20 +60,22 @@ En tant que personne gestionnaire de projet, vous pouvez choisir comment estimer
   </tr> 
   <tr> 
    <td role="rowheader">Effort de travail </td> 
-   <td> <p>Libellé manuel qui définit si l’utilisateur ou l’utilisatrice doit fournir un effort quotidien faible, moyen ou important pour accomplir une tâche.
-   &lt;!—!—
-
-    Le niveau d&#39;effort est estimé comme étant un pourcentage de la durée journalière du temps de travail. (REMARQUE : conserver ce brouillon. Vazgen a déclaré que ce n&#39;est pas nécessaire, mais en attendant les commentaires des utilisateurs)
-    
-    —>
-    &lt;/p> &lt;p>Tenez compte des points suivants à propos de l&#39;effort de travail :&lt;/p>
-    &lt;ul>
-    &lt;li>Ce champ est disponible uniquement pour les tâches de type Durée simple. &lt;/li>
-    &lt;li>Vous pouvez activer l’utilisation de ce libellé et définir le pourcentage de temps de travail qui lui est associé au niveau du projet. &lt;/li>
-    &lt;/ul> &lt;/td>
-</tr> 
+   <td> <p>Libellé manuel qui définit si l’utilisateur ou l’utilisatrice doit fournir un effort quotidien faible, moyen ou important pour accomplir une tâche.</p> <p>Tenez compte des points suivants concernant l’effort de travail :</p>
+    <ul> 
+     <li>Ce champ est disponible uniquement pour les tâches dont le type de durée est Simple. </li> 
+     <li>Vous pouvez activer l’utilisation de ce libellé et définir le pourcentage de temps de travail qui lui est associé au niveau du projet. </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 Cet article décrit l’effort de travail et explique comment l’utiliser pour estimer la quantité de travail pour vos tâches.
 
