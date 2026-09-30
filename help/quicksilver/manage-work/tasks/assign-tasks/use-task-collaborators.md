@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 3%
 ---
 # Utiliser des agents de travail
@@ -62,7 +62,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Présentation de l’agent de travail
 
-Les agents de travail permettent d’affecter des agents MCP à des tâches spécifiques dans Workfront. Vous configurez l’agent dans une application telle que Copilot Studio, Claude ou Writer.ai, puis vous connectez cet agent à Workfront en tant qu’agent de travail. Vous pouvez ensuite l’affecter à des tâches comme vous le feriez pour un utilisateur.
+Les agents de travail permettent d’affecter des agents à des tâches spécifiques dans Workfront. Vous configurez l’agent dans une application telle que Copilot Studio, Claude ou Writer.ai, puis vous connectez cet agent à Workfront en tant qu’agent de travail. Vous pouvez ensuite l’affecter à des tâches comme vous le feriez pour un utilisateur.
 
 Voici quelques exemples de workflows :
 
