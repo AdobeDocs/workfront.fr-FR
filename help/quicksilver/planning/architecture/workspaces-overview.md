@@ -98,7 +98,7 @@ No longer the case - they match now:
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
+* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Présentation de la recherche globale
 
