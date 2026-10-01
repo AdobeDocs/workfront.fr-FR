@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 38%
+source-wordcount: '498'
+ht-degree: 35%
 ---
 # Gérer les approbations à l’aide du widget Mes approbations
 
@@ -82,7 +82,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
-1. (Conditionnel) Cliquez sur le menu déroulant **Filtre**, puis sélectionnez **Toutes** pour voir les approbations qui vous sont affectées et qui vous sont déléguées.
+1. (Facultatif) Ajustez les options de filtre dans le widget Mes approbations pour choisir les approbations à afficher. Les options de filtre suivantes sont disponibles :
+
+   | Option de filtre | Description |
+   |--------|-------------|
+   | Tout | Affiche toutes les approbations qui vous ont été assignées, qui vous ont été déléguées par d’autres utilisateurs et que vous avez soumises. |
+   | Mes approbations | Affiche les validations qui vous sont affectées. Il s’agit de l’option par défaut. |
+   | Approbations déléguées | Affiche les approbations qui vous ont été déléguées par d&#39;autres utilisateurs. |
+   | Approbations que j&#39;ai envoyées | Affiche les approbations que vous avez envoyées à d&#39;autres utilisateurs. |
 
    >[!NOTE]
    >
