@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
@@ -78,27 +78,32 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Liste Workfront | Emplacement de la liste d’objets |
 | --- | --- |
 | Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
-| Liste des requêtes | <ul><li>Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
+| Liste des requêtes | <ul><li>Menu principal > Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
 | Listes de statuts, priorités, gravités, <span class="preview">conditions</span> et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li><span class="preview">Configuration > Préférences du projet > Conditions</span></li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
 | <span class="preview">Listes d’actions et champs suivis dans les flux de mise à jour</span> | <ul><li><span class="preview">Onglet Configuration > Interface > Mettre à jour les flux > Champs suivis</span></li> <li><span class="preview">Onglet Configuration > Interface > Mettre à jour les flux > Actions</span></li></ul> |
 | <span class="preview">Liste des cartes de performance</span> | <span class="preview">Configuration > Cartes de performance</span> |
 | <span class="preview">Liste des types de risques</span> | <span class="preview">Configuration > Types de risques</span> |
+| <span class="preview">Liste des notifications d’événement</span> | <ul><li><span class="preview">Configuration > E-mail > Notifications > Notifications d’événement</span></li><li><span class="preview">Page Détails du groupe > Notifications d’événement</span></li></ul> |
 | Liste des fonctions et taux sur une carte tarifaire | Configuration > Cartes tarifaires > sélectionner une carte tarifaire > Fonctions et taux |
 | <span class="preview">Liste des emplacements</span> | <span class="preview">Configuration > Emplacements</span> |
 | Liste des traductions | Configuration > Localisation |
-| <span class="preview">Listes des intégrations </span> | <ul><li><span class="preview">Configuration > Documents > Intégration SharePoint</span></li><li><span class="preview">Configuration > Documents > Intégration personnalisée</span></li></ul> |
-| Liste des rapports | Les rapports (**utiliser des dossiers partageables** doivent être activés) |
+| <span class="preview">Listes des intégrations </span> | <ul><li><span class="preview">Configuration > Documents > Intégration SharePoint</span></li><li><span class="preview">Configuration > Documents > Intégration personnalisée</span></li><li><span class="preview">Configuration > Documents > Experience Manager Assets</span></li></ul> |
+| Liste des rapports | Menu principal > Rapports (l’option **Utiliser des dossiers partageables** doit être activée) |
+| <span class="preview">Listes de rubriques de file d’attente, de groupes de rubriques et de règles de routage</span> | <ul><li><span class="preview">Projet ou modèle > Rubriques de file d&#39;attente</span></li><li><span class="preview">Projet ou modèle > Groupes de sujets</span></li><li><span class="preview">Projet ou modèle > Règles de transmission</span></li></ul> |
 | Liste des instantanés | Projet > Instantanés |
 | Liste des ressources pour la facturation | Projet > Ressource pour la facturation |
+| <span class="preview">Liste des tâches antérieures</span> | <span class="preview">Configuration > Tâche ou tâche de modèle > Tâches antérieures</span> |
 | Nouvelles affectations avancées pour une tâche | Tâche > Affectations > Avancé |
 | <span class="preview">Vue Toutes les versions d’un document</span> | <span class="preview">Projet > Documents > Détails du document > Toutes les versions</span> |
 | Vue Administration des forums | Panoramas > Vue Administration |
 | Documents sur l’espace de stockage dans le cloud d’Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
 | <span class="preview">Listes des plans et initiatives de scénario</span> | <span class="preview">Menu principal > Scénarios</span> |
+| <span class="preview">Liste des objectifs et des indicateurs de progression</span> | <ul><li><span class="preview">Menu principal > Objectifs</span></li><li><span class="preview">Menu principal > Objectifs > Indicateurs de progression</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -143,7 +148,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Notez que toutes les listes ne prennent pas en charge tous les types de champ.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -168,7 +173,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -292,8 +297,8 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
@@ -424,7 +429,7 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
 1. Cliquez sur **Filtrer** au-dessus de la liste.
 1. Dans la zone Filtre, cliquez sur **Ajouter une condition**.
 1. Sélectionnez un champ en fonction duquel effectuer le filtrage.
-1. Sélectionnez un modificateur de filtre, tel que « A l’un des », « N’a aucun des », « Est avant » ou « Est après ». Les options des modificateurs sont différentes selon le type de champ en fonction duquel vous effectuez le filtrage.
+1. Sélectionnez un modificateur de filtre, tel que « Est l’un des », « N’est aucun des », « Est avant » ou « Est après ». Les options des modificateurs sont différentes selon le type de champ en fonction duquel vous effectuez le filtrage.
 1. Sélectionnez la ou les valeurs du champ. Selon le type de champ en fonction duquel vous effectuez le filtrage, vous pouvez être invité à sélectionner l’élément dans une liste, à le rechercher ou à utiliser un calendrier pour sélectionner une période.
 
    ![Filtrer dans des listes améliorées](assets/glist-filter-with-options.png)
@@ -471,7 +476,7 @@ Workfront fournit un nombre limité de regroupements prédéfinis que vous ne po
    ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
 
 1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.
-1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regrouper pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
+1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regroupement pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
 
    ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
 

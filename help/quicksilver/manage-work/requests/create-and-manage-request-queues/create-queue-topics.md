@@ -12,27 +12,37 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 972
-ht-degree: 74%
-
+source-wordcount: '1012'
+ht-degree: 71%
 ---
-
 # Créer des rubriques de file d’attente
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -144,7 +154,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ajouter au groupe de rubriques</strong> </td> 
-      <td> S'il n'existe aucun groupe de sujets dans le projet, le nom du projet est par défaut un groupe de sujets.<br>Si vous souhaitez créer d'autres groupes de sujets à partir de cet emplacement, sélectionnez <strong>Créer un nouveau groupe de sujets</strong> dans le menu déroulant.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> S'il n'existe aucun groupe de sujets dans le projet, le nom du projet est par défaut un groupe de sujets.<br>Si vous souhaitez créer d'autres groupes de sujets à partir de cet emplacement, sélectionnez <strong>Créer un nouveau groupe de sujets</strong> dans le menu déroulant.<br><img src="assets/create-new-topic-group-within-queue-topic.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Formulaires personnalisés</strong> </td> 
@@ -197,6 +207,7 @@ Pour modifier une rubrique de file d&#39;attente existante :
 1. Accédez au projet ou au modèle contenant la rubrique de file d&#39;attente à modifier.
 1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
 1. Cliquez sur la rubrique de file d’attente que vous souhaitez modifier.
+   <span class="preview">Cochez la case en regard de la rubrique de file d’attente à modifier, puis cliquez sur **Modifier** dans la barre d’actions bleue située en bas de l’écran.</span>
 
 Pour plus d’informations sur les options de modification disponibles, voir [Création d’une rubrique de file d’attente](#create-a-queue-topic) dans cet article.
 
@@ -208,4 +219,5 @@ Vous pouvez supprimer une ou plusieurs rubriques de file d&#39;attente en même 
 1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
 1. Cliquez sur la case en regard du nom de chaque rubrique de file d&#39;attente à supprimer. Une coche apparaît dans la case.
 1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en haut de la page.
+   <span class="preview">Cliquez sur **Supprimer** dans la barre d’actions située en bas de l’écran.</span>
 
