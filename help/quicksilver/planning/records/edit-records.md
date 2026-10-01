@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '3235'
 ht-degree: 25%
@@ -232,6 +232,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
     >![Global search box](assets/global-search-box.png)
     -->
 
+   <!--update the screen shot above-->
+
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
    ![Modifier le champ de paragraphe d’enregistrement avec la vue Tableau de formatage](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -339,7 +341,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 ### Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement
 
-1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. (Conditionnel) Pointez sur les extrémités de la barre d’un enregistrement dans la vue Calendrier, puis cliquez sur ses marges, faites-les glisser et déposez-les vers une autre date. Cette opération met automatiquement à jour la date de début ou de fin de l’enregistrement.
 
    ![Barre à gauche de la vue Calendrier à redimensionner](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
@@ -376,7 +378,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 

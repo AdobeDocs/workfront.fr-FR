@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 18%
@@ -98,7 +98,7 @@ No longer the case - they match now:
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Présentation de la recherche globale
 
@@ -107,6 +107,16 @@ Sur la page de destination Planning, vous pouvez utiliser la zone de recherche g
 * Espaces de travail
 * Types d’enregistrements
 * Vues
+
+<!--
+<div class="preview">
+
+* Records
+
+</div>
+
+Update screen shot below
+-->
 
 ![Zone de recherche globale](assets/global-search-box.png)
 

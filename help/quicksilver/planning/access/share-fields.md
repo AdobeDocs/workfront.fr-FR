@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1495'
 ht-degree: 4%
 ---
 
@@ -91,19 +91,22 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 ## Considérations relatives au partage de champs
 
 * Vous pouvez partager des champs avec des utilisateurs, des fonctions, des groupes, des équipes ou des sociétés.
+* Le partage de champ contrôle l’accès aux valeurs, et non les paramètres de champ. Seuls les gestionnaires d’espace de travail peuvent modifier la configuration d’un champ.
+* Vous ne pouvez pas supprimer l’accès à un champ d’une personne ayant accès au type d’enregistrement.
 * Vous ne pouvez partager des champs qu’à partir de la vue Tableau d’un type d’enregistrement.
 * Les types de champs suivants ne peuvent pas être partagés :
 
   * Champs système (par exemple, Créé par, ID d’enregistrement)
   * Champs principaux
   * Champs de recherche. Ils héritent toujours des autorisations de leurs champs d’objet source.
+* Les champs de formule affichent toujours la valeur correctement calculée, quel que soit l’accès de la visionneuse aux champs référencés. Vous devez partager le champ de formule séparément pour restreindre sa sortie.
 * L’accès à un champ est obtenu en combinant les paramètres suivants :
 
   * **Autorisations héritées** : par défaut, un champ hérite du même accès qu’une personne dispose au type d’enregistrement. Vous pouvez désactiver les autorisations héritées et donner aux utilisateurs un accès au champ inférieur à celui dont ils disposent pour le type d’enregistrement.
   * La sélection **Toute personne ayant accès au type d’enregistrement peut afficher** ou **Seules les personnes invitées peuvent accéder**. Vous pouvez autoriser toutes les personnes disposant d’autorisations sur l’espace de travail à afficher le champ ou n’accorder des autorisations qu’à des entités individuelles.
 
   Si plusieurs règles s’appliquent à la même personne, elles reçoivent l’autorisation la plus élevée disponible de la part de l’une des règles.
-
+* Vous devez disposer des autorisations d’enregistrement et de champ pour afficher les valeurs d’un champ pour un enregistrement.
 * Pour rendre un champ en lecture seule accessible à tous dans un espace de travail, vérifiez que la configuration suivante existe :
 
   * Désactiver les autorisations héritées
@@ -116,14 +119,17 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   * Les autorisations de type Contribuer ou Gérer des enregistrements donnent à un utilisateur les autorisations de gérer les valeurs de champ
 
 * Seuls les propriétaires et les responsables d’espace de travail peuvent ajuster les autorisations de champ. Les responsables Workspace conservent toujours un accès de niveau Gérer à tous les champs, une fonction qui ne peut pas être réduite.
-* Le partage de champ contrôle l’accès aux valeurs, et non les paramètres de champ. Seuls les gestionnaires d’espace de travail peuvent modifier la configuration d’un champ.
 * L’ajout d’une personne à la liste de partage d’un champ ne lui accorde pas d’accès à l’espace de travail ou de type enregistrement. S’il ne dispose pas de cet accès, une icône d’avertissement indique que l’autorisation ne prendra effet qu’une fois qu’il aura été ajouté au type d’enregistrement.
-* Les champs avec des autorisations restreintes sont appliqués partout où le champ s’affiche. Cela inclut tous les affichages, les pages de détails des enregistrements, les formulaires de demande, les connexions et champs de recherche, les tableaux de bord de zone de travail, l’API et les outils de MCP.
+* Les champs avec des autorisations restreintes sont appliqués partout où le champ s’affiche. Cela inclut tous les affichages, les pages de détails d’enregistrement, les champs de connexion et de recherche, les tableaux de bord de la zone de travail, l’API et les outils MCP.
+* Les champs des formulaires de demande sont ouverts à toute personne soumettant le formulaire, quel que soit le partage des champs.
+* Les champs restreints ne sont pas visibles non plus dans les fichiers exportés et dans les fichiers importés.
 * Les vues publiques restent entièrement visibles et en lecture seule pour toute personne qui peut y accéder.
   <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * Les modifications de valeurs de champ restreintes ne sont pas enregistrées dans l’Historique d’un enregistrement.
 * Les modifications des autorisations pour les champs ne déclenchent pas de notifications.
 * Pour les types d’enregistrements globaux, les autorisations de champ s’appliquent à tous les espaces de travail secondaires et ne peuvent pas être ajustées localement.
+* Lorsqu’une personne ajoute un champ à un type d’enregistrement global dans l’espace de travail principal, cela crée une vue privée.  Cette vue n’est pas accessible à partir de l’espace de travail d’enregistrement global secondaire. Vous devez ouvrir l&#39;enregistrement global dans l&#39;espace de travail secondaire avec une nouvelle vue où le champ ajouté, si les autorisations ne sont pas restreintes, s&#39;affiche sous la forme d&#39;un champ masqué.
+
 
 <!--
 From Claude: 
@@ -197,7 +203,7 @@ En tant que responsable d’espace de travail, vous pouvez ajuster les autorisat
       >
       >Les responsables Workspace conservent les autorisations de niveau Gérer pour le type d’enregistrement et le champ.
 
-   1. (Facultatif) Cliquez sur le menu déroulant **Toute personne ayant accès au type d’enregistrement peut afficher** et sélectionnez **Seules les personnes invitées peuvent accéder**.
+   1. (Facultatif) Cliquez sur le menu déroulant **Toute personne ayant accès au type d’enregistrement peut afficher** et sélectionnez **Seules les personnes invitées peuvent accéder**. L&#39;option **Seuls les invités peuvent accéder** n&#39;est pas disponible pour les champs principaux.
 
       >[!IMPORTANT]
       >
