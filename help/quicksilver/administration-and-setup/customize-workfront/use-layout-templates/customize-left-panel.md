@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 44%
+source-wordcount: '1259'
+ht-degree: 43%
 ---
 # Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page
 
@@ -158,12 +158,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projets dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projets dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Resourcing]</td> 
-      <td>[!UICONTROL Resourcing] dans le menu principal  <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Resourcing] dans le menu principal [!UICONTROL] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planner] (ne peut pas être masqué), [!UICONTROL Workload Balancer], [!UICONTROL Utilization], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
@@ -209,7 +209,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
      <tr> 
        <td>[!UICONTROL Group]</td> 
        <td>Nom d’un groupe</td> 
-       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles&rbrack;, [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
+       <td>[!UICONTROL Group Members], [!UICONTROL Subgroup Members], [!UICONTROL Group Details], [!UICONTROL Project Preferences], [!UICONTROL Tasks &amp; Issues Preferences], [!UICONTROL Timesheets &amp; Hours], [!UICONTROL Subgroups], [!UICONTROL Statuts], [!UICONTROL Event Notifications], [!UICONTROL Portfolios], [!UICONTROL Programmes], [!UICONTROL Projects], [!UICONTROL Projects] Modèles], [!UICONTROL Récemment Supprimé], [!UICONTROL Récemment Restauré], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL Timesheet Profiles], [!UICONTROL Layout Templates]</td> 
      </tr>
      <!--
       <tr> 
@@ -237,6 +237,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Cliquez sur les icônes **Afficher** ![Afficher](assets/add-secondary-nav-item.png) ou **Masquer** ![Masquer](assets/delete-secondary-nav-item.png) pour afficher ou masquer des sections dans le panneau de gauche. Vous ne pouvez pas masquer les éléments qui ne comportent pas d’icône **Afficher** ou **Masquer**.
 
+     Chaque zone ou type d’objet doit comporter au moins une section dans le panneau de gauche. Si tous les autres éléments sont masqués, vous ne pouvez pas masquer le dernier élément restant.
+
    * Faites glisser des éléments ![icône Déplacer](assets/move-icon---dots.png) pour modifier leur ordre dans le panneau de gauche.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >* [!UICONTROL Accueil]
    >* [!UICONTROL Branding]
    > 
-   >Pour plus d’informations sur la personnalisation des zones supplémentaires, consultez les articles suivants :
+   >Pour plus d’informations sur la personnalisation de ces zones supplémentaires, consultez les articles suivants :
    >
    >* [Personnaliser des filtres, des vues et des regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personnaliser le panneau [!UICONTROL Résumé] à l’aide d’un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
