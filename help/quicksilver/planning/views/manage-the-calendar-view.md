@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '2010'
 ht-degree: 23%
 ---
 # Gérer la vue de calendrier
@@ -287,10 +287,10 @@ Pour ajouter un filtre à une vue Calendrier :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>A l’un des</p> ou <span class="preview"><p>Est l’un des</p></span>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <p>N’a aucun(e) des</p> ou <span class="preview"><p>Est l’un des</p></span>
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>

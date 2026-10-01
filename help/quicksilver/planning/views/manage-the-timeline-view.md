@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '5015'
+source-wordcount: '5023'
 ht-degree: 29%
 ---
 # Gérer la vue chronologique
@@ -374,10 +374,10 @@ Pour ajouter un filtre à une vue chronologique :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>A l’un des</p> ou <span class="preview"><p>Est l’un des</p></span>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>N’a aucun(e) des</p> ou <span class="preview"><p>N’est aucun de</p></span>
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>
