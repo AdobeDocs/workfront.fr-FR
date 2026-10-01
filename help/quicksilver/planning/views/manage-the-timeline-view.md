@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
 workflow-type: tm+mt
-source-wordcount: '4584'
-ht-degree: 32%
+source-wordcount: '5015'
+ht-degree: 29%
 ---
 # Gérer la vue chronologique
 
@@ -192,11 +192,16 @@ Pour gérer une vue chronologique :
 
    ![Exemple de vue Chronologie](assets/timeline-view-example.png)
 
-   Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans une chronologie et sont triés par ordre chronologique de leur date de début, par défaut.
+   Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans un journal et sont automatiquement triés par ordre chronologique de leur date de début, par défaut.
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    Le tri des enregistrements dans la chronologie n’est pas visible dans la vue compacte.
+   >    Le tri automatique des enregistrements dans la chronologie n&#39;est pas visible dans la vue compacte.
 
 1. (Sous condition) Si votre administrateur a activé les trimestres personnalisés et que Workfront détecte des problèmes liés à la configuration des trimestres personnalisés, il se peut que vous receviez un avertissement lors de l’ouverture de la vue chronologique.
 
@@ -263,6 +268,14 @@ Pour gérer une vue chronologique :
       Vous pouvez utiliser n’importe quel mot ou caractère spécial visible à l’écran.
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs qui ne s’affichent pas dans la vue chronologique.
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. Appuyez sur la touche Entrée de votre clavier pour passer au champ suivant.
    1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
@@ -361,10 +374,10 @@ Pour ajouter un filtre à une vue chronologique :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p>
+            <td><p>A l’un des</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p>
+            <p>N’a aucun(e) des</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>
@@ -486,6 +499,16 @@ Pour ajouter un regroupement dans la vue chronologique :
 
    Les regroupements sont appliqués immédiatement.
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">(Facultatif) Cliquez sur l’icône **Regroupement** ![Icône de regroupement](assets/grouping-icon.png) de la barre d’outils pour ouvrir la zone **Regrouper les enregistrements par**, puis cliquez sur **Développer tout** pour développer tous les regroupements ou **Réduire tout** pour réduire tous les regroupements et réduire manuellement uniquement ceux dont vous avez besoin. </span>
 1. <span class="preview">(Facultatif et conditionnel) Dans l’affichage du couloir, faites glisser et déposez le séparateur du panneau de gauche pour ajuster sa largeur. La largeur de panneau de chaque utilisateur est enregistrée entre les sessions, avec une largeur par défaut pour les nouveaux utilisateurs.</span>
 1. <span class="preview">(Facultatif) Pour les noms de regroupement longs, passez la souris sur la ligne d’un regroupement pour afficher le nom complet du regroupement dans une info-bulle.</span>
@@ -504,50 +527,50 @@ Pour ajouter un regroupement dans la vue chronologique :
    >Lorsque vous faites glisser des enregistrements d&#39;un regroupement à un autre, les champs sélectionnés dans le regroupement mettent automatiquement à jour les valeurs des enregistrements déplacés.
 1. (Facultatif) Cliquez sur **Paramètres**, puis sur **Couleur** pour attribuer des couleurs aux regroupements. Pour plus d’informations, consultez la section [Modifier les paramètres de la vue chronologique](#edit-the-timeline-view-settings) dans cet article.
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### Ajouter un tri
 
-You can sort records and groupings in the timeline view. 
+Vous pouvez trier les enregistrements et les regroupements dans la vue Chronologie.
 
-Consider the following when working with record sorting in the timeline view: 
+Tenez compte des points suivants lorsque vous utilisez le tri des enregistrements dans la vue chronologique :
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* Vous pouvez appliquer un tri dans les vues Tableau et Chronologie. Le tri dans la vue Tableau est indépendant de celui dans la vue Chronologie du même type d’enregistrement.
+* Vous pouvez appliquer 10 conditions de tri pour les enregistrements et autant de conditions de tri que de regroupements dans la vue chronologique (vous pouvez avoir jusqu’à 3 conditions de regroupement dans la vue chronologique).
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* Les tris sont propres à la vue que vous sélectionnez. Deux vues de chronologie du même type d’enregistrement peuvent être associées à des tris différents. Deux utilisateurs qui consultent la même vue chronologique voient le même tri qui est actuellement appliqué.
+* Vous ne pouvez pas nommer le tri que vous créez pour une vue chronologique.
+* Lors de la suppression du tri, il est supprimé pour toute personne accédant au même type d’enregistrement que vous et qui affiche la même vue que vous.
 
-* You can sort by connected record fields or lookup fields.  
+* Vous pouvez trier par champs d’enregistrement connectés ou champs de recherche.
 
-To add a sort in the timeline view:
+Pour ajouter un tri en mode Chronologie :
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. Créez une vue chronologique pour un type d’enregistrement, comme décrit dans l’article [Gestion des vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cliquez sur **Trier** dans la barre d&#39;outils de la vue.
 
-    The sorting box opens. 
+   La boîte de tri s’ouvre.
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![Tri dans la chronologie avec tri par regroupement](assets/sort-in-timeline.png)
+1. Dans le menu déroulant, sélectionnez **Trier les enregistrements**, puis cliquez sur un champ répertorié dans la liste **Commencer par un champ suggéré** ou cliquez sur **Choisir un autre champ**, puis recherchez un champ et cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
+1. Sélectionnez le sens dans lequel le tri des enregistrements doit être appliqué (alphabétique, descendant inverse, etc.). Le sens d’application d’un tri dépend du format du champ que vous avez sélectionné.
+1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 10 conditions.
+1. (Facultatif) Cliquez sur **Effacer tout** pour supprimer toutes les conditions.
+1. Dans le menu déroulant situé dans le coin supérieur gauche de la zone de tri, sélectionnez **Trier les regroupements**.
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >Si aucun regroupement n’est appliqué à la vue de la chronologie, l’option **Trier les regroupements** n’est pas disponible.
+1. (Facultatif) Sélectionnez la direction dans laquelle le tri des regroupements doit être appliqué (alphabétique, descendant inverse, etc.). Le sens d’application d’un tri dépend du format du champ que vous avez sélectionné.
+1. (Conditionnel) Cliquez sur **Réinitialiser tout** pour réinitialiser le sens du tri, si vous l’avez modifié à partir de la valeur par défaut.
+1. Pour réorganiser l&#39;ordre de tri des champs, cliquez sur **Regroupement** dans la barre d&#39;outils et réorganisez les regroupements. L’ordre des champs de tri change également.
+1. (Facultatif) Pour supprimer le tri par regroupements, supprimez les regroupements de la vue chronologique.
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   Le tri est appliqué immédiatement.
+1. Cliquez n’importe où sur la page pour fermer la zone de tri.
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
