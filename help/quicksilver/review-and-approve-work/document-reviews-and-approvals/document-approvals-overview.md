@@ -59,9 +59,9 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité complète des ressources sur les applications Workfront, Frame.io et Creative Cloud
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
+Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [&#128279;](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Révision et approbation unifiées
 

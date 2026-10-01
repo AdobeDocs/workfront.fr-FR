@@ -38,7 +38,7 @@ ht-degree: 1%
 
 Le stockage dans le cloud d’Adobe est une solution de stockage dans le cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise Adobe. L’intégration de Workfront et Frame.io repose sur le stockage cloud Adobe, ce qui permet une collaboration et une gestion des ressources transparentes entre ces plateformes.
 
-Cette option de stockage permet également des intégrations de gestion des ressources à d’autres produits Adobe, y compris les applications Adobe Creative Cloud. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
+Cette option de stockage permet également des intégrations de gestion des ressources à d’autres produits Adobe, y compris les applications Adobe Creative Cloud. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [&#128279;](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Principales fonctionnalités
 
@@ -87,7 +87,7 @@ Cette interface mise à jour simplifie la navigation, améliore la clarté et pe
 
 Les documents ne peuvent pas être partagés individuellement. Au lieu de cela, le système génère automatiquement un dossier pour chaque tâche ou événement et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers la tâche ou l’événement sont stockés dans ce dossier généré.
 
-Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [ Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [&#x200B; Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Objets liés dans des dossiers
 
