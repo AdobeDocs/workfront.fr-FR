@@ -32,7 +32,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >Version rapide de production : 14 octobre 2026
 >Production pour tous : 15 octobre 2026
 
-Les instances Workfront sur Google Cloud Platform (GCP) et Azure peuvent désormais activer la version Beta ouverte des tableaux de bord de la zone de travail. Pour plus d’informations, voir [ Utilisation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+Les instances Workfront sur Google Cloud Platform (GCP) et Azure peuvent désormais activer la version Beta ouverte des tableaux de bord de la zone de travail. Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Enregistrer une liste privée Snowflake pour Workfront Data Connect
 
@@ -90,7 +90,7 @@ Par exemple, vous pouvez effectuer les opérations suivantes :
 * Libellés de colonne personnalisés, format des nombres, des dates et des devises, et style de cellule conditionnel
 * Invites et filtres au niveau du tableau de bord
 
-Pour plus d’informations, voir [ Utilisation des tableaux de bord de la zone de travail ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
 ## Copier ou déplacer des widgets entre les tableaux de bord de la zone de travail
 
