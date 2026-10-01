@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4045'
 ht-degree: 38%
 ---
 # Gérer la vue de tableau
@@ -198,12 +198,10 @@ Les éléments suivants s’affichent par défaut dans une vue de tableau :
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-500 enregistrements affichés par défaut
 
 Pour gérer une vue tableau :
 
@@ -314,6 +312,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
       Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
 
-1. Pour les champs de nombre, de devise, de pourcentage et de formule formatés en tant que types de champ, développez le menu déroulant agrégateur au bas des colonnes et sélectionnez l’une des options suivantes :
+1. (Conditionnel) Pour les champs numériques, monétaires, de pourcentage et de formule formatés en tant que types de champ, développez le menu déroulant agrégateur au bas des colonnes et sélectionnez l’une des options suivantes :
 
    * **SUM** : affiche le total de toutes les cellules de la colonne. Il s’agit de la sélection par défaut.
    * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
    * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
    * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
+
+   <!-- 
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+    -->
 
    Tenez compte des points suivants lorsque vous utilisez des agrégateurs :
 
@@ -338,6 +345,61 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
    * En tant que gestionnaire de vues, vous pouvez choisir l&#39;agrégateur, qui sera partagé avec la vue lorsque vous partagerez la vue avec d&#39;autres utilisateurs.
    * En tant que visionneuse, vous pouvez modifier l’agrégateur, mais il n’est pas enregistré avec la vue.
    * Les vues partagées publiques sont partagées avec les agrégateurs enregistrés et ne peuvent pas être modifiées.
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### Ajouter des lignes (ou des enregistrements) {#add-rows-1}
 
@@ -455,10 +517,10 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p>
+            <td><p>A l’un des</p> ou <span class="preview"><p>Est l’un des</p></span>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p>
+            <p>N’a aucun(e) des</p> ou <span class="preview"><p>N’est aucun de</p></span>
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>
@@ -615,7 +677,7 @@ Tenez compte des points suivants :
 * Les regroupements sont répertoriés dans l’ordre alphabétique de leurs valeurs.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +692,14 @@ Pour ajouter un regroupement :
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un autre champ**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
    Le regroupement est appliqué automatiquement au tableau et les enregistrements s’affichent sous la ligne de séparation du regroupement.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (Facultatif) Cliquez sur **Ajouter une condition** et répétez les étapes ci-dessus pour ajouter jusqu’à 3 regroupements.
 

@@ -30,22 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 28%
+source-wordcount: '1210'
+ht-degree: 25%
 ---
 # Partager des espaces de travail
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
-Vous pouvez partager un espace de travail avec d’autres personnes pour travailler en collaboration dans Adobe Workfront Planning.
+Vous pouvez partager un espace de travail avec d’autres personnes pour travailler en collaboration dans la planification Adobe Workfront.
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
@@ -173,6 +173,15 @@ Old:
 * Lorsque vous partagez un espace de travail, les vues ne sont pas partagées. Vous devez partager les vues séparément.
 * Les autorisations Workspace s’affichent sous la forme d’autorisations héritées sur les types d’enregistrements.
 
+<div class="preview">
+
+* Vous pouvez remplacer le propriétaire d’un espace de travail par un utilisateur actif disposant d’une licence Standard. Vous ne pouvez pas faire d&#39;un groupe, d&#39;une équipe, d&#39;une entreprise ou d&#39;une fonction le propriétaire d&#39;un espace de travail.
+
+</div>
+
+
+&lt;!—!—vérifiez ce qui précède en production : DEVEZ-VOUS le remplacer par un utilisateur ACTIF ?? Ou inactif est également OK — n’avait pas d’environnement—>
+
 ## Autorisations de partage d’un espace de travail
 
 Les personnes suivantes peuvent partager un espace de travail avec d’autres personnes :
@@ -202,7 +211,7 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
 
      Vous devez demander à un administrateur système de modifier une autorisation globale pour un espace de travail.
 
-1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+1. Dans le champ **Accorder l’accès à cet espace de travail**, commencez à saisir le nom d’un utilisateur, d’un groupe, d’une équipe, d’une entreprise ou d’une fonction, puis cliquez dessus lorsqu’il s’affiche dans la liste. <!--update screen shot at production-->
 
    ![Partager l’interface utilisateur avec des groupes](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
    >
    >* Lorsque vous partagez un espace de travail avec un utilisateur, sa fonction principale et son adresse e-mail s’affichent également dans le champ. Le paramètre Afficher les informations de contact doit être activé pour que l’objet Utilisateurs de votre niveau d’accès puisse voir l’e-mail de l’utilisateur.
 
-1. (Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer une liste d’utilisateurs qui reçoivent les autorisations.
+1. (Facultatif) Lorsque vous effectuez un partage avec un groupe, une équipe, un rôle ou une entreprise, passez la souris sur le nom de l’entité et cliquez sur la flèche pointant vers la droite pour développer une liste d’utilisateurs qui reçoivent les autorisations. <!--update screen shot at preview-->
 
    ![Partager l’espace de travail avec un groupe](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -222,6 +231,18 @@ Pour partager un espace de travail avec d’autres personnes, procédez comme su
    * Gérer
 
      Pour plus d’informations sur les niveaux d’autorisation et les actions que les utilisateurs et les utilisatrices peuvent effectuer pour chaque niveau, consultez la [Vue d’ensemble des autorisations de partage dans la planification Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+   <div class="preview">
+
+   * Propriétaire
+
+     Vous pouvez uniquement faire d’un autre utilisateur principal sous licence standard le propriétaire d’un espace de travail. Le propriétaire d’origine reste sur l’espace de travail avec les autorisations Gérer.
+
+   </div>
+
+1. <span class="preview">(Conditionnel) Si vous choisissez de modifier le Propriétaire de l’espace de travail, cliquez sur **Modifier le propriétaire** pour confirmer. </span>
+
+
 1. Cliquez sur **Copier le lien** pour copier un lien vers l’espace de travail dans le presse-papiers.
 1. Partagez le lien copié avec d’autres personnes. Les personnes qui reçoivent le lien doivent être des utilisateurs et utilisatrices actifs et se connecter à Workfront pour pouvoir accéder à l’espace de travail.
 1. Cliquer sur **Enregistrer**.
@@ -254,7 +275,6 @@ Dans la notification par e-mail, cliquez sur **Afficher toutes les notifications
 1. Cliquez sur la flèche pointant vers la gauche de **Demandes d’accès en attente**, puis cliquez sur **Enregistrer**.
 
    Si vous avez approuvé la demande, les utilisateurs sont ajoutés à la zone de partage de l’espace de travail. L’utilisateur demandant l’autorisation reçoit un courrier électronique de confirmation confirmant que sa demande a été approuvée. <!--will they also get an in-app notification??-->
-
 
 ## Supprimer des autorisations d’un espace de travail
 

@@ -32,10 +32,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
-ht-degree: 38%
+source-wordcount: '5636'
+ht-degree: 37%
 ---
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??
@@ -301,6 +301,17 @@ Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/qu
     -->
 
 1. Poursuivez en ajoutant chaque champ, comme décrit dans les sections ci-dessous.
+1. (Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne de la vue Tableau et cliquez sur le menu déroulant **Plus**, puis **Modifier le champ** pour modifier le champ.
+
+   Pour plus d’informations, voir [Modifier les champs](/help/quicksilver/planning/fields/edit-fields.md).
+1. (Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne de la vue Tableau et cliquez sur le menu déroulant **Plus**, puis **Supprimer** pour supprimer le champ.
+
+   Pour plus d’informations, voir [Supprimer des champs](/help/quicksilver/planning/fields/delete-fields.md).
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview">(Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne de la vue Tableau et cliquez sur le menu déroulant **Plus**, puis **Partager le champ** pour partager le champ. </span>
 

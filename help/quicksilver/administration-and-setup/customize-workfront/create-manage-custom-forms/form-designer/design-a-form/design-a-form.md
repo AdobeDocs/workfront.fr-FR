@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 76%
+source-wordcount: '8284'
+ht-degree: 75%
 ---
 # Créer un formulaire personnalisé
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <li>Liste déroulante à sélection unique</li>
     <li>Liste déroulante à sélection multiple</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">Choix </td> 
     <td> 
     <p>Sélectionnez l’une des options suivantes :</p> 
@@ -507,6 +510,36 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">Choix</span></td> 
+    <td>
+    <div class="preview">
+    <p>Cliquez sur <strong>Modifier les choix</strong> pour ajouter ou modifier des choix pour le champ.</p>
+    <p>Pour ajouter un nouveau choix dans la boîte de dialogue Modifier les choix :</p>
+    <ol>
+    <li><p>Cliquez sur <strong>Nouvelle ligne</strong> au bas du tableau.</p> <p><b>Remarque :</b> il n’existe aucune limite au nombre de choix que vous pouvez ajouter.</p></li>
+    <li>Saisissez le <strong>Nom du choix</strong> et <strong>Valeur du choix</strong>. Ils sont généralement identiques, tout comme le nom et le libellé de l’API de champ.</li>
+    <li>(Facultatif) Sélectionnez <strong>Sélectionner par défaut</strong> pour que le choix soit sélectionné par défaut dans le champ.</li> 
+    </ol>
+    <p>Pour des actions supplémentaires :</p>
+    <ul>
+    <li>Pour modifier un choix existant, double-cliquez dans la zone à modifier.</li>
+    <li> Pour masquer un choix dans le champ, sélectionnez-le et cliquez sur <strong>Masquer le choix</strong> dans la barre d’actions située en bas de l’écran. Les choix masqués restent accessibles dans les rapports.</li> 
+    <li> <p>Pour supprimer un choix du champ, sélectionnez-le et cliquez sur <strong>Supprimer le choix</strong> dans la barre d’actions située en bas de l’écran.</p> <p><b>Avertissement</b> : si ce choix est utilisé par des objets actuels, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour le masquer, ce qui empêchera les utilisateurs et utilisatrices de le sélectionner à l’avenir.</p> </li> 
+    <li>Utilisez l’<img src="assets/drag-icon.png"> d’icône <strong>Glisser</strong> pour trier les choix manuellement.</li>
+    <li>Cliquez sur <strong>Trier les choix A à Z</strong> pour trier les choix par ordre alphabétique dans le champ.</li>
+    </ul>
+    <p>Cliquez sur <strong>Enregistrer</strong> lorsque vous avez terminé de modifier les choix.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">Boutons radio</span></li>
+    <li><span class="preview">Groupe de cases à cocher</span></li>
+    <li><span class="preview">Liste déroulante à sélection unique</span></li>
+    <li><span class="preview">Liste déroulante à sélection multiple</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>Actif</td>
      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>

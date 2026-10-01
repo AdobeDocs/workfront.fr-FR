@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 6%
 ---
 
@@ -316,7 +316,22 @@ Les outils Insights récupèrent des informations sur les objets Workfront.
 | --- | --- | --- | --- |
 | <span class="preview">Partager vos commentaires</span> | <span class="preview">`share_feedback`</span> | <span class="preview"> Enregistre le sentiment signalé et ce qui s’est passé au cours de la conversation, afin que les outils de MCP de Workfront puissent être améliorés. Utilisé uniquement lorsque vous demandez explicitement à partager des commentaires (par exemple, « partager des commentaires » ou « signaler un bogue »).</span> | <span class="preview">Write</span> |
 
+## Outils de reporting
 
+Les outils de création de rapports vous permettent de créer et de gérer des tableaux de bord de zone de travail par chat. Décrivez le rapport de votre choix en langage clair, et la plateforme agentic d’IA créera pour vous le tableau de bord et les widgets à l’aide de vos données Workfront.
+
+
+### Tableaux de bord de la zone de travail
+
+| Titre | Nom de l’outil | Fonctionnement | Action |
+| --- | --- | --- | --- |
+| Lire | `read` | Lit les données de rapports dans trois modes sélectionnés par les identifiants transmis : répertorie les tableaux de bord visibles, récupère la structure d’un seul tableau de bord ou récupère la configuration complète d’un widget. | Lire |
+| Créer un tableau de bord | `create_dashboard` | Crée un nouveau tableau de bord de rapports vide et le renvoie, avec un lien pour l’ouvrir. | Write |
+| Update Dashboard | `update_dashboard` | Met partiellement à jour les métadonnées, l’invite, le filtre et l’emplacement par widget d’un tableau de bord. Les champs omis restent inchangés. | Write |
+| Créer un widget | `create_widget` | Crée un widget et sa configuration de rapport sur un tableau de bord. Un seul outil gère les trois types de widgets : graphique, KPI et tableau. | Write |
+| Mettre à jour le widget | `update_widget` | Met partiellement à jour une configuration de widget existante. Le type de widget est déduit automatiquement. Vous n’envoyez donc que les champs à modifier. | Write |
+| Copier l’objet | `copy_object` | Copie l’intégralité d’un tableau de bord, y compris ses widgets, son invite et son filtre, dans un nouveau tableau de bord ou copie un seul widget dans ou entre plusieurs tableaux de bord. | Write |
+| Supprimer l&#39;objet | `delete_object` | Supprime de manière permanente un tableau de bord de création de rapports et tous ses widgets, ou un seul widget. Cette action ne peut pas être annulée. | Write |
 
 ## Mise à jour des outils
 
@@ -329,5 +344,6 @@ Lorsqu’Adobe publie une nouvelle version du serveur MCP de Workfront, la plate
 Nous nous efforçons d’ajouter les outils suivants au serveur MCP Workfront à l’avenir :
 
 * Panneaux
+
 
 

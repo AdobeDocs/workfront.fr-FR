@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 61%
+source-wordcount: '912'
+ht-degree: 60%
 ---
 # Accorder l’accès aux utilisateurs et utilisatrices
 
@@ -158,6 +158,10 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
      <tr> 
       <td role="rowheader"><strong>Afficher les taux de coûts</strong> </td> 
       <td> Permet aux utilisateurs d’afficher les taux de coûts sur les profils utilisateur.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Afficher l'historique d'emploi</strong> </td> 
+      <td> Permet aux utilisateurs d’afficher l’historique des tâches sur les profils utilisateur.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Afficher finances générales</strong> </td> 
