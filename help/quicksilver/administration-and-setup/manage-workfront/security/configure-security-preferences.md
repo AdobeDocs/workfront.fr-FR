@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1539'
 ht-degree: 39%
 ---
 # Configurer les préférences système
@@ -226,7 +226,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 <div class="preview">
 
-Les URL de redirection autorisées vous permettent de connecter une plateforme d’agence IA personnalisée dont l’URL de rappel OAuth est propre à votre organisation (par exemple, une URL contenant un identifiant de connexion ou de client). Pour plus d’informations sur le moment où cela est nécessaire, voir [Connexion avec OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) dans [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Les URL de redirection autorisées vous permettent de connecter une plateforme d’agence IA personnalisée dont l’URL de rappel OAuth est propre à votre organisation, telle qu’une URL contenant un identifiant de connexion ou de client.
+
+Pour plus d’informations sur les cas où vous pourriez avoir besoin d’une URL de redirection autorisée, voir [Connexion avec OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) dans [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 +++ Développez pour afficher des instructions détaillées sur la gestion des URL de redirection autorisées pour MCP.
 
@@ -238,12 +240,11 @@ Pour ajouter une URL :
 1. Saisissez le rappel **URL**.
 1. Cliquez sur **Ajouter**.
 1. Cliquer sur **Enregistrer**.
+1. Pour supprimer une URL, ouvrez **Gérer les URL**, supprimez l’entrée, puis cliquez sur **Enregistrer**. Cela peut s’avérer nécessaire lorsqu’une intégration associée est supprimée ou compromise.
 
 >[!IMPORTANT]
 >
 >Les URL de rappel doivent correspondre exactement. Workfront ne prend pas en charge la correspondance de caractères génériques ou de préfixes pour les URL de rappel personnalisées.
-
-Pour supprimer une URL, par exemple si l’intégration associée est supprimée ou compromise, ouvrez **Gérer les URL**, supprimez l’entrée, puis cliquez sur **Enregistrer**.
 
 +++
 
