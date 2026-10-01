@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4445'
 ht-degree: 0%
 ---
 # Aperçu de la révision et de l’approbation unifiées
@@ -50,16 +50,18 @@ Les coordinateurs de projet gèrent le travail dans Workfront pendant que les cr
 
 ## Basé sur le stockage cloud d’Adobe
 
-La révision et l’approbation unifiées reposent sur le stockage cloud Adobe, une solution de stockage cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise Adobe, y compris Workfront et Frame.io. <!--, and Creative Cloud.-->
+La révision et l’approbation unifiées reposent sur l’espace de stockage cloud Adobe, une solution de stockage cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise Adobe, notamment Workfront, Frame.io et Creative Cloud.
 
 Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 
 * Couche de stockage unifiée pour les ressources de création et de gestion de travail
 * Autorisations centralisées avec le système Adobe Identity Management (IMS) pour un contrôle d’accès sécurisé
-* Visibilité de bout en bout des ressources dans Workfront et Frame.io <!--, and Creative Cloud apps -->
+* Visibilité complète des ressources sur les applications Workfront, Frame.io et Creative Cloud
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Révision et approbation unifiées
 
