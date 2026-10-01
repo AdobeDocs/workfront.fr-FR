@@ -18,16 +18,96 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
-ht-degree: 2%
+source-wordcount: '3139'
+ht-degree: 3%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
 
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## Libellés d’opérateur de filtre plus clairs pour les champs à plusieurs valeurs
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Les opérateurs de filtres à plusieurs valeurs dans toutes les vues Planning ont été mis à jour et sont passés de « N’importe lequel de » à « N’importe lequel de », puis « N’a aucun de ». Cela vous permet d’obtenir un libellé plus clair et plus cohérent dans les créateurs de filtres de Workfront.
+
+Il s’agit d’une mise à jour pour les libellés uniquement. Vos filtres existants sont automatiquement migrés et continuent à se comporter exactement comme auparavant.
+
+Les modifications sont visibles dans les filtres de toutes les vues Planning. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Ajout d&#39;agrégateurs pour les champs non numériques en mode Tableau
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Nous avons introduit des agrégateurs pour d’autres types de champs dans la vue Tableau. Avant cette amélioration, seuls les champs numériques affichaient des agrégateurs au bas des colonnes.
+
+Les agrégateurs varient en fonction du type de champ :
+
+* Champs de texte, de sélection, de case à cocher et de personne : AUCUN, VIDE, NON VIDE
+* Champs de date : AUCUN, MAX, MIN
+* Champs de formule : agrégateurs correspondant à leur format
+
+Nous avons ajouté AUCUN aux types de champs liés aux nombres, et AUCUN est la valeur par défaut pour tous les types de champs.
+
+Les agrégateurs pour les champs système suivants ne sont pas pris en charge : Créé par, Dernière modification par et ID d’enregistrement.
+
+Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Modification du propriétaire d’un espace de travail
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Les créateurs Workspace sont actuellement affectés en tant que propriétaire par défaut. Avec cette mise à jour, les responsables d’espace de travail peuvent transférer la propriété à un autre utilisateur sous licence standard à partir de la boîte de dialogue de partage.
+
+Le nouveau propriétaire est mis en surbrillance en tant que propriétaire de l&#39;espace de travail dans la liste de partage et la page d&#39;accueil Planification, tandis que le propriétaire précédent conserve l&#39;accès de gestion à l&#39;espace de travail.
+
+Pour plus d’informations, consultez la section [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Trier les enregistrements et les regroupements dans la vue chronologique
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Vous pouvez désormais trier les enregistrements et les regroupements dans la vue Chronologie. Avant cette amélioration, cette fonctionnalité n’était pas disponible.
+
+Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Partage de champs dans Workfront Planning
 
@@ -130,7 +210,7 @@ Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puis
 >
 >CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Pour plus d&#39;informations, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Icône de l’assistant AI supprimée de la zone d’aperçu des Détails de l’enregistrement en vue du lancement de CX Coworker
 
@@ -274,7 +354,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 

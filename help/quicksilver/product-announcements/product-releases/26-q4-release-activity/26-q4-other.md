@@ -13,16 +13,69 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 3%
+source-wordcount: '1108'
+ht-degree: 2%
 ---
 # Autres améliorations au cours du quatrième trimestre de 2026
 
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Mises à jour des listes améliorées
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Les modifications suivantes ont été apportées aux filtres de liste et aux regroupements améliorés :
+
+* Dans les filtres et les regroupements qui utilisent des groupes de champs, les groupes sont désormais réduits par défaut. Il n’est plus nécessaire de faire défiler l’écran jusqu’à la page pour trouver le groupe de champs approprié.
+* Les opérateurs de filtre « A l’un des » et « N’a aucun des » ont été modifiés en « Est l’un des » et « N’est aucun des ».
+
+Les modifications suivantes ont été apportées aux en-têtes de colonne de liste améliorée, afin d’assurer la cohérence entre toutes les listes améliorées dans Workfront :
+
+* Une icône a été ajoutée à chaque en-tête pour indiquer le type de champ que la colonne représente. Par exemple, une colonne pour les cessionnaires ou les utilisateurs comporte l’icône d’une personne et un champ de date affiche un calendrier. Ces icônes s’affichent également en regard des champs dans le gestionnaire de colonnes.
+* Les en-têtes de colonne offrent désormais une expérience plus fluide et plus cohérente lors de la modification de la taille de la colonne.
+
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Plusieurs écrans mis à jour vers des listes améliorées
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Les listes Workfront suivantes utilisent désormais le format de liste amélioré :
+
+* Configuration > E-mail > Notifications > Notifications d’événement et page Détails du groupe > Notifications d’événement
+* Configuration > Documents > Experience Manager Assets
+* Projet ou modèle > Rubriques de file d&#39;attente
+* Projet ou modèle > Groupes de sujets
+* Projet ou modèle > Règles de transmission
+* Tâche ou tâche de modèle > Tâches antérieures
+
+Les mises à jour incluent les éléments suivants pour certaines ou toutes les listes :
+
+* Une nouvelle apparence de la liste, avec des mises à jour des couleurs, de la mise en forme et des polices.
+* L’option permettant de créer un nouvel objet dans la liste a été déplacée en haut à droite et s’affiche sous la forme d’un bouton bleu.
+* La barre d’outils a été supprimée. Désormais, lorsque vous sélectionnez un ou plusieurs objets dans le tableau, la barre d’actions s’affiche en bleu en bas de la liste.
+* Certaines colonnes ont peut-être été repositionnées ou supprimées, ou de nouvelles colonnes ont été ajoutées.
+* Certaines confirmations et certains avertissements ont été supprimés ou modifiés.
+* L’enregistrement dans certaines listes est désormais automatique et le bouton Enregistrer a peut-être été supprimé.
+* Certaines listes améliorées permettent de renommer ou de trier les colonnes.
+* Certaines listes améliorées incluent le gestionnaire de colonnes, qui vous permet d’ajouter et d’organiser des colonnes. Vous pouvez sélectionner des colonnes en fonction de champs natifs ou personnalisés dans Workfront.
+* Les icônes dans les cellules du tableau ont été remplacées par des menus Plus avec plusieurs options.
+
+REMARQUE : toutes les mises à jour ne sont pas disponibles sur toutes les listes.
+
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Mises à jour de listes améliorées
 

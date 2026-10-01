@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1666'
 ht-degree: 1%
 ---
 # Améliorations apportées à l’administration pour le quatrième trimestre 2026
@@ -23,6 +23,80 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Utiliser l’IA pour générer une localisation personnalisée
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Pour vous aider à gagner du temps dans la traduction de termes et de libellés de champ personnalisés, nous avons ajouté la possibilité de générer des traductions d’IA pour une localisation personnalisée. Désormais, les administrateurs et administratrices de Workfront peuvent utiliser l’IA pour générer des traductions pour du texte personnalisé non traduit, ou renseigner des traductions supplémentaires pour un terme précédemment localisé, puis consulter et ajuster les résultats avant d’enregistrer.
+
+Pour plus d’informations, voir [Configuration de la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+<!--
+
+## Grant access to MCP Tools
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
+
+* No access
+* Read
+* Create
+* Update / Delete
+
+You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
+
+For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
+
+## Améliorations apportées aux modèles de mise en page
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Plusieurs améliorations ont été apportées aux modèles de mise en page :
+
+* Les administrateurs système et de groupe peuvent désormais choisir de masquer ou d&#39;afficher les éléments système dans le menu principal, dans le modèle de mise en page. Les éléments système incluent les boutons Configuration et Aide.
+* Vous pouvez désormais repositionner les applications personnalisées dans n’importe quel ordre avec les options de menu Workfront par défaut. Cela vous permet de positionner chaque application à l’endroit le plus pertinent. Auparavant, les applications personnalisées étaient toujours les derniers éléments des options du menu principal du modèle de mise en page et ne pouvaient pas être repositionnées.
+* Vous pouvez désormais masquer la page Détails d’un objet dans le panneau de navigation de gauche. Au moins un élément doit être affiché dans le panneau de gauche d’un objet. Si tous les autres éléments sont masqués, vous ne pouvez pas masquer le dernier élément restant.
+
+Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et[Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+
+## Amélioration de l’expérience de mise à jour des choix de champ dans le concepteur de formulaire personnalisé
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Lorsque vous utilisez des champs déroulants, des boutons radio et des cases à cocher dans le concepteur de formulaire, vous pouvez désormais ajouter, modifier et supprimer des choix de champ dans une seule boîte de dialogue. Auparavant, vous ajoutiez et modifiiez des choix dans le panneau de droite du concepteur et il n’y avait pas beaucoup d’espace si vous créiez une longue liste de choix.
+
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs).
+
+## Création et gestion des abonnements aux événements dans l’interface de Workfront
+
+Pour faciliter la création et la gestion des abonnements aux événements de votre entreprise, nous avons ajouté la zone Abonnements aux événements à la Configuration. Désormais, vous pouvez :
+
+* Affichez une liste des abonnements aux événements existants :
+* Créez des abonnements aux événements, y compris le filtrage par critères que vous spécifiez :
+* Supprimez les abonnements aux événements.
+
+<!--ADD LINK WHEN READY-->
+
 
 ## Ajout d’URL de redirection autorisées pour les intégrations MCP
 
@@ -85,22 +159,6 @@ Si votre entreprise a acheté un package Planning, en plus d’un package Workfl
 Les semaines personnalisées ne sont pas visibles dans Workfront. Ils ne sont visibles que dans la vue chronologique Planification de Workfront.
 
 Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
-
-## Réorganiser les applications personnalisées dans le menu principal
-
->[!NOTE]
->
->Aperçu : 3 septembre 2026
->Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
->
->Cette fonctionnalité a été temporairement supprimée de l’environnement de Prévisualisation le 14 septembre 2026.
-
-Lorsque vous travaillez dans un modèle de mise en page, vous pouvez désormais repositionner les applications personnalisées dans n’importe quel ordre à l’aide des options de menu Workfront par défaut. Cela vous permet de positionner chaque application à l’endroit le plus pertinent.
-
-Auparavant, les applications personnalisées étaient toujours les derniers éléments des options du menu principal du modèle de mise en page et ne pouvaient pas être repositionnées.
-
-Pour plus d&#39;informations sur l&#39;ajout d&#39;applications personnalisées au menu principal, consultez [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Prise en charge des fichiers volumineux pour les intégrations de documents personnalisés
 
