@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
 workflow-type: tm+mt
-source-wordcount: '4045'
-ht-degree: 38%
+source-wordcount: '3630'
+ht-degree: 40%
 ---
 # Gérer la vue de tableau
 
@@ -53,7 +53,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -274,7 +274,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
    >[!TIP]
    >
@@ -328,13 +328,13 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    * **SUM** : affiche le total de toutes les cellules de la colonne. Il s’agit de la sélection par défaut.
    * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
-   * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
+   * **** : affiche la valeur la plus élevée de toutes les cellules de la colonne.
    * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
 
-   <!-- 
+   <!--    
     <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
     
     </div> 
     -->
@@ -398,69 +398,70 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
-### Ajouter des lignes (ou des enregistrements) {#add-rows-1}
+### Add rows (or records) {#add-rows-1}
 
-Les lignes d’une vue de tableau affichent des enregistrements individuels du type d’enregistrement sélectionné. L’ajout de lignes est identique à la création d’enregistrements.
+The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement.
+You can have up to 50,000 records (or rows) for a record type. 
 
-1. Accédez à une page de type d’enregistrement et sélectionnez une vue de tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
+1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
-1. Commencez à ajouter des enregistrements (ou lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
-   Les enregistrements que vous ajoutez dans la vue de tableau sont enregistrés immédiatement et sont visibles par tous les utilisateurs et utilisatrices qui disposent d’une autorisation d’affichage ou de niveau supérieure sur l’espace de travail.
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-   Une image miniature par défaut <span class="preview">et couleur</span> sont également ajoutées au nouvel enregistrement.
+    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
 
-   >[!TIP]
-   >
-   ><span class="preview">Lorsqu&#39;un enregistrement contient des commentaires non lus, un indicateur **Nouveau commentaire** s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement.</span>
-   >
-   >![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
-1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas réorganiser les lignes si vous appliquez au moins un tri ou un regroupement à la vue Tableau.
-   >
-   >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs et utilisatrices qui accèdent au type d’enregistrement dans la même vue.
-   >
-   ><span class="preview">Dans la ligne de glisser-déposer, un indicateur numérique affiche le nombre d’enregistrements sélectionnés, le cas échéant, plusieurs. </span>
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
+1. Click **Fields** at the top of the table in the Production environment
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
-1. Cliquez sur **Champs** en haut du tableau dans l’environnement de production.
+    Or 
+    
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
 
-   Ou
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-   <span class="preview">Pointez sur l’en-tête du champ principal</span>, puis sélectionnez le bouton bascule du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
 
-   Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
-
-1. <span class="preview">Cliquez sur **Champs** en haut du tableau</span>
-
-   Ou
-   <span class="preview">Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Couleur** pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut. </span>
-
-1. <span class="preview"> (facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l&#39;enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
 <div class="preview">
 
-![Zone du sélecteur de couleurs pour le codage des couleurs d’enregistrement](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### Ajouter des filtres {#add-filters-1}
+### Add filters {#add-filters-1}
 
-Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
+Filters help you reduce the amount of information displayed on the screen.
 
-Tenez compte des points suivants lorsque vous utilisez des filtres en mode Tableau :
+Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -666,7 +667,7 @@ Tenez compte des points suivants :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant ******************—>
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
