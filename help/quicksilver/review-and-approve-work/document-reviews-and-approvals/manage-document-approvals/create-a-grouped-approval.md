@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Une approbation groupée regroupe plusieurs ressources dans un seul workflow d’approbation. Vous pouvez utiliser le mode de base et avancé, plusieurs étapes et des chemins d’accès parallèles avec des approbations groupées, comme vous le pouvez avec des approbations de ressources uniques.
 
-Les approbations groupées sont disponibles uniquement dans la zone Nouveaux documents, qui s’affiche lorsque votre organisation utilise l’espace de stockage dans le cloud d’Adobe. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Les approbations groupées sont disponibles uniquement dans la zone Nouveaux documents, qui s’affiche lorsque votre organisation utilise l’espace de stockage dans le cloud d’Adobe. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
