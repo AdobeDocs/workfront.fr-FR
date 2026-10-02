@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 71%
@@ -118,7 +118,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -341,7 +341,6 @@ Pour réutiliser un champ personnalisé calculé existant :
       >* Trouvez les erreurs de calcul, soulignées en rouge, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
       >  ![Aide d’erreur](assets/error-help.png)
       >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![Aperçu du calcul](assets/preview-calc.png)
       >* Référencez des expressions dans un calcul long à l’aide des numéros de ligne s’affichant sur la gauche.
 
