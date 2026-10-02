@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 6%
 ---
 
@@ -50,6 +50,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
+| Charger le document vers ** | `upload_document_ui` | Il vous permet de charger un fichier dans un projet, une tâche, un problème, un programme, un portfolio ou un modèle, et éventuellement dans un dossier. | Write |
 | Rechercher la version du document par nom | `approvals_find_document_version_by_name` | Recherche l’ID de version actuelle d’un document par nom de fichier. Prend en charge les correspondances partielles. | Lire |
 | Obtenir le document par ID de version | `approvals_get_document_by_version_id` | Récupère les détails du document (nom, taille, date de chargement, chargeur) pour un ID de version de document connu. | Lire |
 | Résoudre la portée du document | `approvals_resolve_document_scope` | Développe un projet ou un dossier dans la liste des ID de version de document qu’il contient. Prend en charge les portées de projet, de dossier et de dossier par nom. | Lire |
@@ -62,7 +63,7 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 
 
 *L’envoi de documents vers un dossier AEM n’est pas encore pris en charge pour les projets sur l’espace de stockage Adobe. La prise en charge est attendue dans une version ultérieure.
-
+**Cet outil ouvre un panneau de chargement interactif dans le chat. Il ne fonctionne donc que dans les outils qui prennent en charge les applications MCP. Actuellement, seul Claude est pris en charge pour cet outil. Il apparaît sous « Outils interactifs » dans les autorisations d’outil et demande une approbation par défaut.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |

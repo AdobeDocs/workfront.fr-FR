@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 30%
+source-wordcount: '1162'
+ht-degree: 28%
 ---
 # Gérer les versions de documents
 
@@ -240,3 +240,11 @@ Workfront numérote chaque version dans l’ordre dans lequel vous la chargez (p
    >La suppression d’une version ne modifie pas les numéros des autres versions. Par exemple, si vous supprimez la version V3 d&#39;un document contenant les versions V1 à V5, les versions restantes conservent leurs numéros d&#39;origine et il n&#39;y a pas de version V3 par la suite. La version suivante que vous chargez devient V6.
 
 </div>
+
+### Afficher le fichier en cours lors d&#39;une validation
+
+Si un document est un fichier Creative Cloud (par exemple, un document cloud Photoshop) et qu’une personne le modifie alors qu’une approbation est en cours, Workfront affiche une section **Fichier actuel** avec un badge indiquant que de nouvelles mises à jour existent sur le document actif, distinctes de la version en cours d’approbation.
+
+>[!IMPORTANT]
+>
+>**Question ouverte :** la section Fichier actuel reste-t-elle visible de manière permanente une fois qu’elle apparaît pour la première fois, ou uniquement lorsqu’il existe des mises à jour non révisées sur le document actif ? Confirmez avec le produit avant de le publier.

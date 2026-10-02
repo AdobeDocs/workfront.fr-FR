@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
 workflow-type: tm+mt
-source-wordcount: '2863'
-ht-degree: 9%
+source-wordcount: '3444'
+ht-degree: 8%
 ---
 # Présentation de la version du quatrième trimestre 2026
 
@@ -62,6 +62,55 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Utiliser l’IA pour générer une localisation personnalisée</a>
+                <p>Les administrateurs Workfront peuvent désormais utiliser l’IA pour générer des traductions de texte de localisation personnalisé et réviser ou ajuster les résultats avant d’enregistrer.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Grant access to MCP Tools</a>
+                <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enhancements to layout templates</a>
+                <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Création et gestion des abonnements aux événements dans l’interface de Workfront</a>
+                <p>Pour faciliter la création et la gestion des abonnements aux événements de votre entreprise, nous avons ajouté la zone Abonnements aux événements à la Configuration.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Amélioration de l’expérience de mise à jour des choix de champ dans le concepteur de formulaire personnalisé</a>
+                <p>Lorsque vous utilisez des champs déroulants, des boutons radio et des cases à cocher dans le concepteur de formulaire, vous pouvez désormais ajouter, modifier et supprimer des choix de champ dans une seule boîte de dialogue.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -206,6 +255,26 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
+<!--        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New AI Collaborator type: Project Coordinators</a>
+                <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Mises à jour pour les collaborateurs IA</a>
+                <p>Les collaborateurs de l’IA peuvent désormais travailler avec des agents sur des tâches et des événements, utiliser le contexte du document et publier des mises à jour en temps réel dans la zone Mises à jour .</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker désormais disponible dans Workfront</a>
@@ -283,7 +352,35 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-<!--
+         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accès aux projets Workfront à partir d’applications Creative Cloud</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Vous pouvez désormais accéder à vos projets Workfront directement depuis Adobe Photoshop, Illustrator et InDesign. Les projets Workfront qui utilisent l’espace de stockage Adobe dans le cloud s’affichent dans le panneau Projets sur le côté gauche de la fenêtre de l’application, à côté de vos autres projets Creative Cloud.</p>
+            </td>
+            <td><p>S/O</p></td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>1er octobre 2026</p></td>
+        </tr>
+         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Regrouper plusieurs documents dans un seul workflow d’approbation</a><p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Vous pouvez désormais regrouper plusieurs documents sous un seul workflow d’approbation, afin qu’ils passent par les mêmes étapes.</p>
+            </td>
+            <td><p>Cette fonctionnalité n’est pas disponible dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible.</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
+                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
@@ -293,7 +390,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>[DATE]</p></td>
             <td><p>[DATE]</p></td>
         </tr>
--->
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Accès complet des administrateurs système aux modèles d’approbation</a><p>[!BADGE Hors planning]{type=Neutral}</p>
@@ -321,7 +418,6 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><p>17 septembre 2026</p></td>
             <td><p>15 Octobre 2026</p></td>
         </tr>
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Ajout d’équipes aux approbations d’objets à l’aide de l’espace de stockage cloud Adobe</a>
                 <p>Vous pouvez désormais ajouter une équipe Workfront en tant qu’approbateur ou réviseur sur un modèle d’approbation ou d’approbation de document au lieu d’ajouter des personnes individuellement.</p>
@@ -429,6 +525,17 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
+<!--        
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
+                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+            </td>
+            <td><p>October 1, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des taux de facturation de l’entreprise</a>
@@ -484,17 +591,51 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filter on collection relationships in Canvas Dashboards</a>
-                <p>You can now filter on collection relationships, which are fields that link to a group of related records rather than a single record.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Tableaux de bord de la zone de travail désormais disponibles sur Google Cloud Platform et Microsoft Azure</a>
+                <p>Les instances Workfront sur Google Cloud Platform (GCP) et Azure peuvent désormais activer la version Beta ouverte des tableaux de bord de la zone de travail.</p>
             </td>
-            <td><p>September 24, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>S/O</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
--->
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Enregistrer une liste privée Snowflake pour Workfront Data Connect</a>
+                <p>Vous pouvez désormais partager vos données Workfront Data Connect directement avec le compte Snowflake de votre organisation en enregistrant une liste privée. Cette méthode de connexion utilise la fonctionnalité de liste privée de Snowflake pour partager des données en toute sécurité entre les organisations sans les exposer publiquement. Elle fonctionne également entre les régions et les plateformes d’hébergement.</p>
+            </td>
+            <td><p>S/O</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Les outils Reporting MCP sont désormais disponibles pour les tableaux de bord de la zone de travail</a>
+                <p>Vous pouvez désormais créer et gérer des tableaux de bord de zone de travail par le biais de clients MCP tels que Claude et Cursor à l’aide d’invites en langage naturel et d’actions de tableau de bord structurées.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copier ou déplacer des widgets entre les tableaux de bord de la zone de travail</a>
+                <p>Vous pouvez désormais copier un widget dans le même tableau de bord, dans un autre tableau de bord auquel vous avez un accès en modification ou dans un nouveau tableau de bord. Vous pouvez également déplacer un widget vers un autre tableau de bord auquel vous avez un accès en modification ou vers un nouveau tableau de bord. </p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Filtre sur les relations de collection dans les tableaux de bord de la zone de travail</a>
+                <p>Vous pouvez désormais filtrer les relations de collection, qui sont des champs liés à un groupe d’enregistrements associés plutôt qu’à un seul enregistrement.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Copie de tableaux de bord dans les tableaux de bord de la zone de travail</a>
@@ -625,6 +766,24 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Plusieurs écrans mis à jour vers des listes améliorées</a>
+                <p>Plusieurs listes dans Configuration, Projets, Modèles et Tâches utilisent désormais le format de liste amélioré.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">Mises à jour des listes améliorées</a>
+                <p>Nous avons apporté quelques améliorations aux filtres de liste et aux regroupements améliorés : les groupes sont réduits par défaut et les opérateurs de filtre ont été mis à jour pour obtenir des libellés plus clairs.</p>
+            </td>
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>

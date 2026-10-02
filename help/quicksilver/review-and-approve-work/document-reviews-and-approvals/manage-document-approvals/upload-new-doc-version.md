@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 14%
+source-wordcount: '853'
+ht-degree: 13%
 ---
 # Charger une nouvelle version du document et demander une approbation
 
@@ -216,6 +216,10 @@ Pour ajouter une nouvelle version et demander l’approbation :
 1. Cliquez sur **Demander l’approbation**.
 
    Le workflow d’approbation démarre et les approbateurs reçoivent une notification indiquant que leur approbation est nécessaire pour la nouvelle version du document. La version précédente du document est verrouillée et toutes les approbations en attente sur la version précédente sont retirées.
+
+>[!NOTE]
+>
+>Si le document est un fichier Creative Cloud (par exemple, un document cloud Photoshop, Illustrator ou InDesign), la création d’une approbation à partir de l’application Creative Cloud crée automatiquement une version dans Workfront, comme si vous faisiez glisser une nouvelle version ici. Pour plus d’informations, voir [Utiliser des documents Workfront dans les applications Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md).
 
 <!--
    <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>

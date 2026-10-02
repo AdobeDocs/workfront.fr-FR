@@ -1,0 +1,87 @@
+---
+product-area: documents;workfront-integrations
+navigation-topic: adobe-creative-cloud-projects
+title: Utilisation de documents Workfront dans les applications Creative Cloud
+description: Ouvrez, modifiez et enregistrez des documents Workfront à partir de Photoshop, Illustrator et InDesign, et demandez des approbations pour ces documents.
+author: Courtney
+feature: Digital Content and Documents, Workfront Integrations and Apps
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 7%
+---
+# Utilisation de documents Workfront dans les applications Creative Cloud
+
+Une fois qu’un projet Workfront est disponible dans le panneau Projets Creative Cloud, vous pouvez travailler avec ses documents directement depuis Photoshop, Illustrator ou InDesign.
+
+## Conditions préalables
+
+* Votre organisation doit utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe.
+* Workfront et Photoshop, Illustrator ou InDesign doivent être autorisés dans la même organisation Adobe Identity Management System (IMS).
+
+## Conditions d’accès
+
++++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Version d’Adobe Workfront</td> 
+   <td>Workflow Ultimate, avec le stockage dans le cloud Adobe activé</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorisations d’objet</td> 
+   <td>
+      <p>Afficher l’accès à un projet pour l’afficher dans le panneau Projets Creative Cloud</p>
+      <p>Modifier l’accès à un projet pour l’ajouter, le modifier ou le supprimer</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Accès à un projet Workfront
+
+La structure de dossiers Documents d’un projet Workfront est mise en miroir dans le panneau Projets . Lorsque vous ouvrez un document à partir d’un dossier de projet, que vous le modifiez et que vous l’enregistrez, vos modifications apparaissent dans Workfront.
+
+>[!NOTE]
+>
+>Les projets de stockage Workfront hérités ne sont pas pris en charge dans les projets de stockage cloud Adobe uniquement du panneau Projets .
+
+
+Pour accéder à un projet Workfront dans Photoshop, Illustrator ou InDesign :
+
+1. Ouvrez Photoshop, Illustrator ou InDesign.
+1. Dans le panneau **Projets** sur le côté gauche de l’application, sélectionnez le projet Workfront à ouvrir.
+
+   ![Projets Workfront répertoriés dans le panneau Projets](assets/cc-projects.png)
+
+1. Ouvrez un document dans le projet pour le modifier. Une fois vos modifications enregistrées, elles sont automatiquement réenregistrées dans le projet Workfront.
+
+
+>[!TIP]
+>
+>Pour modifier un type de fichier que Photoshop, Illustrator ou InDesign ne peut pas ouvrir, tel qu’un document Word ou Excel, utilisez plutôt Adobe Cloud Drive. Pour plus d’informations, consultez [Présentation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+
+## Demander l&#39;approbation d&#39;un document
+
+Vous pouvez ajouter une approbation de document dans Workfront à tout document téléchargé à partir de Photoshop, Illustrator ou InDesign, ou à partir d’Adobe Cloud Drive, de la même manière que pour tout autre document. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+<!--
+need to verify
+Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
+-->

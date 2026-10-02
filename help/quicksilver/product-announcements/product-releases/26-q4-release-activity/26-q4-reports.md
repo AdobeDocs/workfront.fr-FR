@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 8%
+source-wordcount: '1434'
+ht-degree: 5%
 ---
 # Améliorations des rapports pour le quatrième trimestre 2026
 
@@ -24,23 +24,99 @@ Cette page décrit les améliorations apportées aux rapports avec la version du
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## Tableaux de bord de la zone de travail désormais disponibles sur Google Cloud Platform et Microsoft Azure
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Aperçu : S.O.
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+Les instances Workfront sur Google Cloud Platform (GCP) et Azure peuvent désormais activer la version Beta ouverte des tableaux de bord de la zone de travail. Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
-Previously, filtering on collection relationships required text mode.
+## Enregistrer une liste privée Snowflake pour Workfront Data Connect
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>Aperçu : S.O.
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
--->
+Vous pouvez désormais partager vos données Workfront Data Connect directement avec le compte Snowflake de votre organisation en enregistrant une liste privée. Cette méthode de connexion utilise la fonctionnalité de liste privée de Snowflake pour partager des données en toute sécurité entre les organisations sans les exposer publiquement. Elle fonctionne également entre les régions et les plateformes d’hébergement.
+
+Une liste privée est utile lorsque vous souhaitez joindre vos données Workfront à d’autres données de votre entrepôt de données d’entreprise. Comme les données résident sur votre propre compte Snowflake, vous pouvez les interroger avec le reste de vos données.
+
+Pour plus d’informations, voir [Enregistrement d’une liste privée pour Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md).
+
+## Outils de MCP de création de rapports désormais disponibles pour les tableaux de bord de zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Pour faciliter l’utilisation des tableaux de bord de la zone de travail, nous avons ajouté des outils au MCP Workfront. Vous pouvez désormais créer et gérer des tableaux de bord de zone de travail par le biais du chat. En outre, le tableau de bord et les widgets sont créés pour vous à l’aide de vos données Workfront. Cela fonctionne à partir de clients MCP comme Claude et Cursor.
+
+Par exemple, vous pouvez effectuer les opérations suivantes :
+
+* Créez des rapports en demandant des informations. Décrivez un tableau de bord ou un graphique en langage naturel au lieu de le créer manuellement.
+* Modifier sur place. Demandez à de renommer un widget, de modifier un filtre, de permuter un type de graphique ou de redimensionner, et les modifications s’appliqueront au tableau de bord dynamique.
+* Réutilisez ce que vous avez. Dupliquez un tableau de bord ou un widget existant comme point de départ au lieu de reconstruire à partir de zéro.
+
+### Fonctionnalités prises en charge
+
+**Tableaux de bord**
+
+* Créer un tableau de bord
+* Répertoriez vos tableaux de bord (les vôtres, partagés avec vous, tous ou favoris) et effectuez une recherche par titre
+* Ouverture ou affichage de la structure d’un tableau de bord
+* Mettre à jour le titre, la description, la devise, les filtres et les invites
+* Dupliquer un tableau de bord (avec ou sans ses widgets, invites et filtres)
+* Supprimer un tableau de bord
+
+**Widgets**
+
+* KPI : un seul nombre agrégé (somme, moyenne, nombre, min, max, etc.)
+* Graphique : à barres, à colonnes, en courbes et à secteurs ; prend en charge les graphiques simples, à séries multiples et empilés
+* Tableau — tableaux à plusieurs colonnes avec regroupement des lignes
+* Affichage de la configuration d’un widget et mise à jour, copie, redimensionnement ou repositionnement, ou suppression de celui-ci
+
+**Options de reporting**
+
+* Filtrer les données avec des conditions et des groupes ET/OU
+* Regrouper et agréger par n’importe quel champ
+* Accéder aux enregistrements sous-jacents à partir d’un KPI ou d’un graphique
+* Libellés de colonne personnalisés, format des nombres, des dates et des devises, et style de cellule conditionnel
+* Invites et filtres au niveau du tableau de bord
+
+Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Copier ou déplacer des widgets entre les tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Vous pouvez désormais copier un widget dans le même tableau de bord, dans un autre tableau de bord auquel vous avez un accès en modification ou dans un nouveau tableau de bord. Vous pouvez également déplacer un widget vers un autre tableau de bord auquel vous avez un accès en modification ou vers un nouveau tableau de bord.
+
+Lorsque vous copiez un widget, une boîte de dialogue s’ouvre désormais dans laquelle vous sélectionnez le tableau de bord de destination et si vous souhaitez copier ou déplacer le widget. Auparavant, le Report Builder s’ouvrait immédiatement.
+
+## Filtrer les relations de collection dans les tableaux de bord de la zone de travail
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Lorsque vous créez un filtre dans un tableau de bord Zone de travail, vous pouvez désormais filtrer les relations de collection, qui sont des champs liés à un groupe d’enregistrements associés plutôt qu’à un seul enregistrement. Par exemple, vous pouvez filtrer par statut des tâches appartenant à un projet pour afficher la liste des projets dont le statut des tâches est défini sur « Nouveau ».
+
+Auparavant, le filtrage sur les relations de collection nécessitait le mode texte.
+
+Pour plus d’informations, voir [Référence de filtre de rapport pour les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
 ## Copie de tableaux de bord dans les tableaux de bord de la zone de travail
 

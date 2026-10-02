@@ -17,14 +17,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 3%
+source-wordcount: '1577'
+ht-degree: 2%
 ---
 # Configuration des collaborateurs d’IA
 
-Les collaborateurs AI permettent d’intégrer des agents AI à vos projets et tâches. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
+{{preview-fast-release-general}}
+
+Les collaborateurs en IA permettent d’intégrer des agents en IA à vos projets, tâches et problèmes. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
 
 Par exemple, vous pouvez configurer un collaborateur en IA de type réviseur avec des directives de marque, puis affecter ce collaborateur à la révision d’un document.
 
@@ -34,9 +36,15 @@ Les types de collaborateurs IA disponibles sont les suivants :
 
   Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Agent de travail : créez un collaborateur à l’aide de Copilote ou de Writer, puis affectez le collaborateur à une tâche pour effectuer un travail au niveau de la tâche.
+* Agent de travail : créez un collaborateur à l’aide d’une plateforme d’IA standard telle que Claude, OpenAI, Copilote ou Writer, puis affectez le collaborateur à une tâche ou à un événement pour terminer des éléments de travail.
 
   Pour plus d’informations, voir [Utilisation des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+<!--
+* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+
+   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
+-->
 
 
 ## Conditions d’accès
@@ -57,7 +65,7 @@ Les types de collaborateurs IA disponibles sont les suivants :
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>[!UICONTROL System Administrator] <span class="preview">ou Administrateur de groupe</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -67,6 +75,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 ## Conditions préalables
+
+* [Pour les réviseurs d’IA](#for-ai-reviewers)
+* [Pour les agents de travail](#for-work-agents)
 
 ### Pour les réviseurs d’IA :
 
@@ -82,7 +93,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ### Pour les agents de travail
 
-Vous devez configurer un agent dans Claude, Copilot Studio ou Writer avant de pouvoir l&#39;utiliser comme agent de travail.
+Vous devez configurer un agent dans Claude, Copilot Studio, Writer, OpenAI ou IBM avant de pouvoir l’utiliser comme agent de travail.
+
+>[!NOTE]
+>
+>Notre objectif est de nous connecter à n&#39;importe quel fournisseur d&#39;agents. Si le fournisseur que vous utilisez n&#39;est pas actuellement compatible avec les agents de travail, veuillez contacter votre équipe de compte pour obtenir de l&#39;aide.
 
 ## Créer un réviseur d’IA
 
@@ -104,13 +119,16 @@ Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfr
 
 ## Configuration d’un agent de travail
 
-Les agents de travail sont des agents que vous pouvez affecter à des tâches dans Workfront. Vous configurez l’agent de travail avec un nom, un niveau d’accès et d’autres détails, puis vous l’affectez à une tâche comme vous le feriez pour un utilisateur.
+Les agents de travail sont des agents que vous pouvez affecter à des tâches ou à des événements dans Workfront. Vous configurez l’agent de travail avec un nom, un niveau d’accès et d’autres détails, puis vous l’affectez à une tâche comme vous le feriez pour un utilisateur.
 
-Les agents de travail étant des agents, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Actuellement, les agents utilisés comme agents de travail peuvent être créés dans Copilot Studio, Claude ou Writer.
+Les agents de travail étant des agents, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Actuellement, les agents utilisés comme agents de travail peuvent être créés dans Copilot Studio, Claude ou Writer, OpenAI et IBM.
 
-Les agents de travail ne peuvent être affectés qu&#39;à des tâches et ne peuvent actuellement être affectés à des événements.
+Les agents de travail peuvent être affectés à des tâches ou à des événements.
 
 Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’un agent pour travailler en tant qu’agent de travail, voir [Bonnes pratiques pour créer un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent).
+
+* [Configuration d’un agent de travail dans Workfront](#configure-a-work-agent-in-workfront)
+* [Bonnes pratiques relatives à la création d’un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configuration d’un agent de travail dans Workfront
 
@@ -122,6 +140,12 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
 1. Dans le champ Nom du collaborateur de l’IA, saisissez un nom pour le collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
 1. Dans le champ Description du collaborateur de l’IA, saisissez une description de l’objectif du collaborateur ou des actions qu’il effectue.
 1. Dans le champ Niveau d&#39;accès , sélectionnez un niveau d&#39;accès pour ce collaborateur. Ce niveau d’accès contrôle ce que le collaborateur peut faire, de la même manière qu’un niveau d’accès contrôle ce qu’un utilisateur peut faire.
+1. (Facultatif) Dans le champ Groupes , sélectionnez les groupes auxquels l’agent de travail sera associé.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Si vous êtes un administrateur de groupes, ce champ affiche uniquement les groupes pour lesquels vous êtes un administrateur. Les administrateurs et administratrices de groupe doivent sélectionner au moins un groupe.</span>
+
 1. Dans la zone **Choisir l’origine de l’agent**, indiquez si vous souhaitez connecter un agent créé sur une plateforme commune telle que Copilot ou Writer, ou utiliser un agent personnalisé.
 1. (Conditionnel) Si vous utilisez un agent provenant d’une plateforme commune, saisissez les détails d’authentification de la plateforme de l’agent :
 
@@ -129,14 +153,21 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
    |---|---|
    | Copilot Studio | Secret de canal web |
    | Claude Managed Agents | Clé API anthropique<br>ID d’agent<br>ID d’environnement |
-   | Rédacteur | Clé API<br>ID de l’application |
+   | Agent Principal | Clé API<br>ID de l’application |
+   | <span class="preview">Agents OpenAI</span> | <span class="preview">Clé API <br>ID de l’agent</span> |
+   | <span class="preview">IBM watsonx Orchestration</span> | <span class="preview">URL du service<br>clé API<br> ID de l’agent</span> |
 
 1. Cliquez sur **Tester la connexion**. Vous pouvez ainsi savoir si la connexion a été correctement configurée.
 1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer/désactiver les actions que vous souhaitez que le collaborateur effectue.
+
+   * <span class="preview">Envoyer une notification : l’agent ajoute un commentaire dans le flux de mise à jour, en identifiant l’utilisateur qui a demandé le travail, qui a affecté l’agent ou qui détient le projet. </span>
+   * <span class="preview">Charger un document</span>
+   * <span class="preview">Marquer la tâche comme terminée </span>
+   * Écrire des champs de tâche : sélectionnez les formulaires et les champs sur lesquels l’agent peut écrire.
+
 1. Cliquer sur **Enregistrer**.
 
 Pour plus d’informations sur les agents de travail, y compris sur la manière de les affecter à des tâches, voir [Utiliser des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
-
 
 ### Bonnes pratiques relatives à la création d’un agent pour un agent de travail
 
@@ -200,9 +231,46 @@ Vous trouverez des informations plus détaillées sur la création d’agents da
 
 +++
 
+<div class="preview">
+
+<!--
+## Configure a Project Coordinator
+
+The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+
+{{step-1-to-setup}}
+
+1. In the left navigation, click **AI Collaborators**.
+1. Click **New Collaborator** in the upper-right corner of the screen.
+1. Select **Project Coordinator**.
+1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
+1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
+1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
+1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
+   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
+   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
+   * In the **Time (MST)** field, select the time to send updates.
+   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
+   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
+   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
+   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
+1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
+1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
+1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
+1. Click **Save**.
+
+For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+-->
+
+</div>
+
 ## Gérer les collaborateurs d’IA
 
 Vous pouvez modifier, copier et supprimer des collaborateurs IA existants.
+
+>[!NOTE]
+>
+><span class="preview">Les administrateurs de groupe ne peuvent afficher et interagir qu’avec les collaborateurs de l’IA associés aux groupes pour lesquels ils sont administrateurs. Si d’autres groupes sont également associés à un collaborateur ou une collaboratrice de l’IA donné(e), un administrateur ou une administratrice de groupe peut les afficher, mais pas les modifier.</span>
 
 {{step-1-to-setup}}
 

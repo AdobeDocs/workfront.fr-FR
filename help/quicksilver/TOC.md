@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14588'
-ht-degree: 92%
+source-wordcount: '14626'
+ht-degree: 91%
 ---
 # Guide Workfront {#using}
 
@@ -1225,6 +1225,10 @@ ht-degree: 92%
     * [Utilisation d’Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Configuration et gestion d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Résolution des problèmes liés à Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Projets Adobe Creative Cloud {#adobe-creative-cloud-projects}
+    * [Projets Adobe Creative Cloud : index des articles](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Présentation des projets Adobe Creative Cloud](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Utilisation de documents Workfront dans les applications Creative Cloud](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Intégrations Workfront et Experience Manager Assets {#wf-aem-integrations}
     * [Intégrations Workfront et Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Connecteur amélioré Workfront pour Experience Manager {#wf-aem-enhanced-connector}
@@ -1324,6 +1328,7 @@ ht-degree: 92%
       * [Comprendre les mesures du projet](manage-work/projects/manage-projects/project-metrics.md)
       * [Vue d’ensemble des limites du projet](manage-work/projects/manage-projects/project-maximums.md)
       * [Résumer les mises à jour avec l’assistant IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[Utiliser le collaborateur du coordinateur de projet](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [Présentation de la gestion des documents pour les projets et les objets associés](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * Créer et gérer les modèles de projet {#create-and-manage-project-templates}
       * [Créer et gérer des modèles de projet : index des articles](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1436,7 @@ ht-degree: 92%
       * [Attribuer des tâches](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Attribuer des tâches](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Créer des affectations avancées](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [Utiliser les collaborateurs de la tâche](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [Utiliser des agents de travail](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [Vue d’ensemble des affectations intelligentes](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [Vue d’ensemble de la modification des affectations de tâches](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [Modifier plusieurs affectations d’utilisateurs et utilisatrices dans une liste de tâches](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
@@ -1949,6 +1954,9 @@ ht-degree: 92%
       * [Configurer et gérer les approbations unifiées : index des articles](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Créer et gérer des marques pour l’IA Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Créer une demande de révision ou d’approbation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [Créer une validation groupée](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[Vérifier une approbation groupée](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[Gérer les validations groupées](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [Ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à une ressource ou un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Supprimer des réviseurs et réviseuses ou des approbateurs et approbatrices d’une ressource ou d’un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Créer un modèle d’approbation pour les ressources et les documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4045'
-ht-degree: 38%
+source-wordcount: '4228'
+ht-degree: 37%
 ---
 # Gérer la vue de tableau
 
@@ -324,82 +324,78 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
 
-1. (Conditionnel) Pour les champs numériques, monétaires, de pourcentage et de formule formatés en tant que types de champ, développez le menu déroulant agrégateur au bas des colonnes et sélectionnez l’une des options suivantes :
 
-   * **SUM** : affiche le total de toutes les cellules de la colonne. Il s’agit de la sélection par défaut.
-   * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
-   * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
-   * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
+1. (Conditionnel) Selon les types de champs que vous consultez, effectuez l’une des opérations suivantes :
 
-   <!-- 
+   * Pour les champs de nombre, de devise, de pourcentage et de formule formatés en tant que types de champ, développez le menu déroulant agrégateur au bas des colonnes et sélectionnez l’une des options suivantes :
+
+     * **SUM** : affiche le total de toutes les cellules de la colonne.
+     * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
+     * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
+     * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
+     * <span class="preview">**NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.</span>
+
+   <div class="preview">
+
+   * Pour les champs de date, développez le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
+
+     * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
+     * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
+     * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
+     * **MIN** : affiche la date la plus proche.
+     * **&#x200B;**&#x200B;: affiche la date la plus récente.
+
+   * Pour le texte, sélectionnez, booléen, les champs Personnes développent le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
+
+     * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
+     * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
+     * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
+
+   </div>
+
+   Tenez compte des points suivants lorsque vous utilisez des agrégateurs :
+
+   * La ligne d’agrégateur de la colonne est figée lorsqu’elle affiche des valeurs et fait partie des paramètres d’affichage.
+   * En tant que gestionnaire de vues, vous pouvez choisir l&#39;agrégateur, qui sera partagé avec la vue lorsque vous partagerez la vue avec d&#39;autres utilisateurs.
+   * En tant que visionneuse, vous pouvez modifier l’agrégateur, mais il n’est pas enregistré avec la vue.
+   * Les vues partagées publiques sont partagées avec les agrégateurs enregistrés et ne peuvent pas être modifiées.
+
+   <div class="preview">
+
+   * Les types de champs suivants n’ont pas d’agrégateur :
+
+     * Créé par
+     * Dernière modification par
+     * ID de l’enregistrement
+   * Les champs de formule et les champs de recherche ont des agrégateurs qui correspondent à leur format de champ.
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
     <div class="preview"> 
 
     * **NONE**: The values of the column are not aggregated. This is the default option. 
     
     </div> 
-    -->
 
-   Tenez compte des points suivants lorsque vous utilisez des agrégateurs :
-
-   * La ligne d’agrégateur de la colonne est figée et fait partie des paramètres d’affichage.
-   * En tant que gestionnaire de vues, vous pouvez choisir l&#39;agrégateur, qui sera partagé avec la vue lorsque vous partagerez la vue avec d&#39;autres utilisateurs.
-   * En tant que visionneuse, vous pouvez modifier l’agrégateur, mais il n’est pas enregistré avec la vue.
-   * Les vues partagées publiques sont partagées avec les agrégateurs enregistrés et ne peuvent pas être modifiées.
-
-<!--
-At preview release, replace the last procedure step with this:
-
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
-
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
-
-        <div class="preview">
-
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-        </div> 
-   
-    <div class="preview">
-
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
-
-    * The following field types do not have an aggregator: 
-
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
-
-    </div>
-    -->
+-->
 
 ### Ajouter des lignes (ou des enregistrements) {#add-rows-1}
 
@@ -461,6 +457,7 @@ Pour plus d’informations, voir la section [Créer des enregistrements](/help/q
 Les filtres permettent de réduire la quantité d’informations affichées à l’écran.
 
 Tenez compte des points suivants lorsque vous utilisez des filtres en mode Tableau :
+
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -1265,9 +1262,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 
