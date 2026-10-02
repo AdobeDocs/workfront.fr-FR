@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Dupliquer un rapport dans un tableau de bord de la zone de travail
-description: Vous pouvez dupliquer un rapport dans un tableau de bord Zone de travail.
+title: Copier et déplacer des rapports dans les tableaux de bord de la zone de travail
+description: Vous pouvez copier ou déplacer un rapport entre les tableaux de bord de la zone de travail.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 28%
+source-wordcount: '693'
+ht-degree: 15%
 ---
-# Dupliquer un rapport dans un tableau de bord de la zone de travail
+# Copier et déplacer des rapports dans les tableaux de bord de la zone de travail
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Vous devez ajouter un rapport à un tableau de bord avant de pouvoir le duplique
 
 Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplication de rapport
+## Duplication d’un rapport en production
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/he
    >Ces onglets varient selon que vous avez dupliqué un rapport d’indicateur de performance clé, de tableau ou de graphique.  Pour plus d’informations, consultez les sections [Créer un rapport d’indicateurs de performance clés dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) et [Créer un rapport de tableau dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Cliquer sur **Enregistrer**. Le rapport dupliqué s’affiche sur le tableau de bord.
+
+<div class="preview">
+
+## Copier ou déplacer un rapport dans l&#39;aperçu
+
+Vous pouvez copier un rapport dans le tableau de bord actuel, le copier dans un autre tableau de bord ou le déplacer vers un autre tableau de bord. La copie crée un doublon du rapport à la destination ; le déplacement le déplace de son tableau de bord actuel.
+
+>[!IMPORTANT]
+>
+>* Pour copier un rapport, vous devez disposer d’autorisations de niveau Gérer pour le tableau de bord de destination.
+>* Pour déplacer un rapport, vous devez gérer l’accès aux tableaux de bord source et de destination.
+>* Si l&#39;option Exécuter en tant qu&#39;utilisateur est configurée pour le rapport et que vous n&#39;êtes pas administrateur système ou utilisateur, vous pouvez toujours la copier ou la déplacer, mais l&#39;option Exécuter en tant qu&#39;utilisateur est supprimée du rapport résultant.
+
+
+Pour copier ou déplacer un rapport :
+
+{{step1-to-dashboards}}
+
+1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
+1. Ouvrez le tableau de bord contenant le rapport.
+1. Cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport, puis sélectionnez **Copier le rapport**.
+
+   ![Option Copier le rapport](assets/copy-report-button.png)
+
+1. Dans la boîte de dialogue **Copier le rapport**, choisissez l’une des options suivantes :
+
+   <table>
+   <tr>
+   <td><strong>Copier</strong></td>
+   <td>Cliquez sur <strong>Copier</strong> en bas de l’écran pour copier le rapport. Le tableau de bord actuel est sélectionné par défaut. Vous devez gérer l’accès au tableau de bord pour copier un rapport.</td>
+   </tr>
+   <tr>
+   <td><strong>Copier et déplacer</strong></td>
+   <td>Sélectionnez un autre tableau de bord de destination pour copier le rapport et le déplacer vers un nouveau tableau de bord. Le rapport d’origine reste sur le tableau de bord actuel.Vous devez gérer l’accès au tableau de bord de destination pour copier et déplacer un rapport. </td>
+   </tr>
+   <tr>
+   <td><strong>Déplacer</strong></td>
+   <td>Sélectionnez un autre tableau de bord de destination vers lequel déplacer le rapport. Le rapport est alors déplacé vers le tableau de bord de destination et supprimé de celui en cours. Pour déplacer un rapport, vous devez gérer l’accès aux tableaux de bord source et de destination.</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >Si l&#39;option Exécuter en tant qu&#39;utilisateur est configurée pour le rapport et que vous n&#39;êtes pas un administrateur système ou que l&#39;utilisateur a défini cette option, vous pouvez toujours copier ou déplacer le rapport. L’option Exécuter en tant qu’utilisateur est supprimée du rapport obtenu.
+
+1. Cliquer sur **Enregistrer**.
+
+   ![copier et déplacer](assets/copy-and-move.png)
+
+</div>
