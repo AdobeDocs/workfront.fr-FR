@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 8%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -24,7 +24,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -524,18 +524,16 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des taux de facturation sur les modèles</a>
+                <p>Les modèles de projet prennent désormais en charge les améliorations de liste améliorées et les mises à jour d’attributs de taux pour les taux de facturation.</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>1er octobre 2026</p></td>
+            <td><p>14 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Améliorations des taux de facturation de l’entreprise</a>
@@ -845,7 +843,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
 ## Mises à jour de la visionneuse de relecture de bureau
 
@@ -900,7 +898,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 
