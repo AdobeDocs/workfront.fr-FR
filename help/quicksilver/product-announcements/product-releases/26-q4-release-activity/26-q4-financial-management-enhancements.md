@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 0c08d79733bc6da0ecfd41f765ce2c624e71ad0e
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '476'
+ht-degree: 2%
 ---
 # Améliorations de la gestion financière pour le quatrième trimestre de 2026
 
@@ -24,31 +24,27 @@ Cette page décrit les améliorations apportées à Financial Management avec la
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Enhancements to billing rates on templates
+## Améliorations des taux de facturation sur les modèles
 
 >[!NOTE]
 >
->Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
 
-Multiple updates have been made to the billing rates functionality on a project template.
+Plusieurs mises à jour ont été apportées à la fonctionnalité de taux de facturation d’un modèle de projet.
 
-### For customers on all Workfront and Workflow packages
+### Pour les clients de tous les packages de Workfront et de workflow
 
-The Rates area on templates has been updated to an enhanced list.
+La zone Taux sur les modèles a été mise à jour vers une liste améliorée.
 
-For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-### For customers on the Workflow Ultimate package only
+### Pour les clients et clientes du package Workflow Ultimate uniquement
 
-Rate attributes are now available to apply to job role billing rates on the template.
+Les attributs de taux sont désormais disponibles et peuvent être appliqués aux taux de facturation de la fonction sur le modèle.
 
-For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
--->
+Pour plus d’informations, voir [Modifier les modèles de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) et [Remplacer les taux de facturation des fonctions au niveau du projet](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 ## Améliorations des taux de facturation de l’entreprise
 
