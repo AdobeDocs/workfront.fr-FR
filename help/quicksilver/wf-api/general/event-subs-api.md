@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 88%
 ---
 # API d’abonnement aux événements
@@ -42,6 +42,10 @@ ht-degree: 88%
 Lorsqu’une action se produit sur un objet Adobe Workfront pris en charge par les abonnements aux événements, vous pouvez configurer Workfront pour envoyer une réponse au point d’entrée souhaité. Cela signifie que les applications tierces peuvent recevoir des mises à jour provenant d’interactions Workfront via l’API Workfront peu après qu’elles ont eu lieu. En règle générale, vous pouvez vous attendre à recevoir des notifications webhook en moins de 5 secondes à partir du changement de données en cours de journalisation. En moyenne, les clientes et clients reçoivent des notifications webhook en moins d’une seconde à partir de l’enregistrement du changement de données.
 
 Comme les abonnements aux événements envoient des données à un autre service, ils sont gérés par le biais de commandes plutôt que par le biais de l’application Workfront.
+
+>[!NOTE]
+>
+>Pour utiliser les abonnements aux événements dans l’application Workfront, consultez [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 Pour recevoir les payloads d’abonnement aux événements par le biais de votre pare-feu, vous devez ajouter les adresses IP suivantes à votre liste autorisée :
 
