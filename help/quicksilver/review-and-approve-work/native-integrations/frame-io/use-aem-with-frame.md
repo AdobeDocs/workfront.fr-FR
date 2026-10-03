@@ -179,7 +179,7 @@ Vous pouvez mapper n’importe quel champ pris en charge par Workfront à une ba
 
 Une fois les balises créées dans Experience Manager Assets, elles s’affichent dans la liste déroulante Balises de la section Métadonnées. Pour lier un champ à une balise, sélectionnez `xcm:keywords` dans la liste déroulante du champ Experience Manager Assets de la zone de mappage des métadonnées.
 
-Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
+Pour plus d’informations sur les balises dans Experience Manager Assets, notamment sur la création et la gestion des balises, voir [Administrer les balises](https://experienceleague.adobe.com/fr/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Champs de schéma de métadonnées personnalisés Experience Manager Assets**
 
@@ -302,7 +302,7 @@ Pour lier du contenu :
       </tr>
       <tr>
          <td><strong>Chargez un résumé de campagne pour découvrir les ressources pertinentes.</strong> Téléchargez un document de résumé de campagne PDF, DOCX ou TXT afin que le conseiller d’accès puisse l’analyser et recommander des ressources appropriées.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Briefs de campagne pour découvrir les ressources pertinentes</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Briefs de campagne pour découvrir les ressources pertinentes</a>.</td>
       </tr>
       <tr>
          <td><strong>Affichage et sélection des rendus de ressources Dynamic Media.</strong> Parcourez les rendus optimisés pour les canaux, y compris les paramètres d’image prédéfinis, les recadrages intelligents et les types de format, et appliquez les modificateurs Dynamic Media pour prévisualiser les réglages en temps réel.</td>
@@ -322,11 +322,11 @@ Pour lier du contenu :
       </tr>
       <tr>
          <td><strong>Filtrage des ressources à l’aide de filtres prédéfinis.</strong> Affinez les résultats des ressources à l’aide de filtres tels que le type de fichier, le format de fichier, le statut de la ressource, la taille de fichier, la largeur d’image, la hauteur d’image, la date de modification et la date de création.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Accès aux filtres cohérents avec la vue Assets</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Accès aux filtres cohérents avec la vue Assets</a>.</td>
       </tr>
       <tr>
          <td><strong>Enregistrer et réutiliser des recherches.</strong> Créez des recherches enregistrées en spécifiant un terme de recherche et des options de filtre, puis réutilisez-les dans Experience Manager Assets et d’autres applications Adobe.</td>
-         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Accéder aux recherches récentes et enregistrées et les réutiliser</a>.</td>
+         <td>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Accéder aux recherches récentes et enregistrées et les réutiliser</a>.</td>
       </tr>
       <tr>
          <td><strong>Rechercher des ressources dans et entre les collections.</strong> Recherchez des ressources ou des collections dans toutes les collections ou limitez votre recherche à une collection spécifique.</td>
