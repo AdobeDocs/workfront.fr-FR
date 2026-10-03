@@ -623,7 +623,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning en tant que produit autonome
 
