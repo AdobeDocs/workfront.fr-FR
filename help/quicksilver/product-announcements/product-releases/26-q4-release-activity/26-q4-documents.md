@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 3%
 ---
 # Améliorations des documents du quatrième trimestre de 2026
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Aperçu : S.O.
->Mise à jour rapide de la production : 17 septembre 2026
 >Production pour tous : 15 octobre 2026
+>Cette fonctionnalité n’a pas été publiée dans la version rapide Production le 17 septembre 2026, comme prévu initialement. Il sera désormais disponible en production pour tous le 15 octobre 2026.
 
 Lorsque vous définissez un message personnalisé lors de l’approbation d’un document, ce message apparaît désormais également dans l’objet de l’e-mail de demande d’approbation, avec en tête la date d’échéance à laquelle le message est défini. Cela permet aux réviseurs et aux réviseuses de voir ce qui nécessite une attention et à quel moment directement depuis leur boîte de réception, sans ouvrir l’e-mail.
 

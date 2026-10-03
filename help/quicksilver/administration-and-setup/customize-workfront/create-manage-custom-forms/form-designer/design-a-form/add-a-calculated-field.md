@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 72%
+source-wordcount: '2735'
+ht-degree: 71%
 ---
 # Ajout de champs calculés à un formulaire
 
@@ -103,9 +103,9 @@ Vous pouvez également avoir un calcul différent pour le même champ, sur le no
 >
 >Les modifications apportées aux expressions calculées peuvent rendre la valeur du champ des objets obsolète. Pour vérifier que vous affichez toujours les calculs à jour dans ces champs, effectuez l’une des opérations suivantes :
 >
->* Après avoir enregistré un objet contenant des données modifiées dans un formulaire personnalisé joint, cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) sur la page principale de l’objet, puis recalculez les expressions personnalisées.
->* Sélectionnez l’option Recalculer les expressions personnalisées lors de la modification d’objets en masse.
->* Sélectionnez l’option Mettre à jour les calculs précédents lorsque vous modifiez un champ personnalisé calculé sur un formulaire personnalisé.
+>* Après avoir enregistré un objet contenant des données modifiées dans un formulaire personnalisé joint, cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png) sur la page principale de l’objet, puis **Recalculer les expressions personnalisées**.
+>* Sélectionnez l’option **Recalculer les expressions personnalisées** lors de la modification d’objets en bloc.
+>* Sélectionnez l’option Mettre à jour les calculs précédents lors de la modification d’un champ personnalisé calculé dans un formulaire personnalisé.
 
 Pour réutiliser un champ personnalisé calculé existant :
 
@@ -334,18 +334,18 @@ Pour réutiliser un champ personnalisé calculé existant :
       >
       >Vous pouvez effectuer l’une des opérations suivantes pour obtenir de l’aide sur votre calcul :
       > 
-      >* Pointez sur une expression dans votre calcul pour afficher une description, un exemple montrant comment elle peut être utilisée et un lien **En savoir plus** vers des informations supplémentaires dans l’article [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![Texte d’aide de l’expression](assets/hover-expression-help-text.jpg)
+      >* Passez la souris sur une expression de votre calcul pour afficher une description et un exemple illustrant son utilisation. <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![Texte d’aide de l’expression](assets/hover-expression-help-text.png)
       >* Utilisez les codes de couleurs pour identifier les composants que vous avez ajoutés. Les expressions s’affichent en bleu et les champs en vert.
-      >  ![Couleurs des expressions de champ](assets/colors-fields-expressions.jpg)
-      >* Recherchez les erreurs de calcul, surlignées en rose, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
+      >  ![Couleurs des expressions de champ](assets/colors-fields-expressions.png)
+      >* Trouvez les erreurs de calcul, soulignées en rouge, au fur et à mesure. Vous pouvez pointer sur une erreur mise en surbrillance pour afficher une brève description de sa cause.
       >  ![Aide d’erreur](assets/error-help.png)
       >* Dans la zone située sous votre calcul, prévisualisez les résultats sur un objet Workfront existant.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![Aperçu du calcul](assets/preview-calc.jpg)
+      >  ![Aperçu du calcul](assets/preview-calc.png)
       >* Référencez des expressions dans un calcul long à l’aide des numéros de ligne s’affichant sur la gauche.
 
       +++
+
    1. Cliquez sur **Réduire** lorsque vous avez terminé de créer le calcul pour le champ personnalisé calculé.
 
    1. (Facultatif) Utilisez l’une des options suivantes pour configurer davantage votre champ personnalisé calculé :
@@ -356,7 +356,7 @@ Pour réutiliser un champ personnalisé calculé existant :
     <tbody> 
      <tr> 
       <td role="rowheader">Ajouter une logique</td> 
-      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche, en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé sur le formulaire. </p> <p>La fonction Ignorer la logique n’est pas disponible pour les champs personnalisés calculés.</p> </td> 
+      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche, en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Ajouter des règles de logique aux formulaires et champs personnalisés</a>. <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé sur le formulaire. </p> <p>Ignorer la logique et les autres types de logique ne sont pas disponibles pour les champs calculés personnalisés.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mettre à jour des calculs précédents</td> 

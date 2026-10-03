@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 6%
 ---
 
@@ -28,6 +28,19 @@ Pour plus d’informations sur l’utilisation de ces outils par le biais d’un
 >[!IMPORTANT]
 >
 >La plateforme agentic d’IA agit dans Workfront à l’aide de votre compte Workfront, de votre niveau d’accès et des autorisations d’objet. Un outil ne fonctionne que si vous disposez de l’accès correspondant dans Workfront. Adobe n’est pas responsable des modifications apportées par la plateforme IA agentic à vos données Workfront.
+
+## Impact des droits de produit sur la liste d’outils
+
+Les outils qui apparaissent dans votre plateforme d’IA agentic dépendent des droits de produit Workfront de votre entreprise.
+
+* Pour les clients disposant d’une licence uniquement pour Workfront Planning, consultez Outils de planification , mais pas Outils de workflow.
+* Les clients disposant d’une licence uniquement pour le workflow Workfront voient Outils de workflow, mais pas Outils de planification.
+* Les clients disposant d’une licence pour Workfront Workflow et Workfront Planning voient les deux ensembles d’outils.
+* Les outils d’informations et de contexte sont disponibles pour tous les clients.
+
+Si votre organisation n’est pas autorisée à accéder à une zone de produit, les outils associés n’apparaissent pas dans la liste d’outils pour cette connexion. Si une plateforme d’IA agentic tente d’appeler un outil qui n’est pas disponible pour vos droits, la requête est bloquée.
+
+Les tableaux suivants identifient la zone produit à laquelle chaque outil appartient.
 
 
 ## Actions de lecture et d’écriture
@@ -45,6 +58,10 @@ Votre administrateur Workfront contrôle les catégories d’outils que la plate
 Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer, demandez à votre administrateur Workfront d’activer les actions d’écriture. Pour plus d’informations, voir [Conditions préalables d’administration](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) dans *Configuration du serveur Adobe Workfront MCP*.
 
 ## Outils de validation
+
+Configuration requise du produit : tous les clients
+
+Il n’existe actuellement aucune limite de droits sur les outils d’approbation.
 
 ### Documents
 
@@ -123,6 +140,8 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 | Rechercher des projets | `approvals_find_projects` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil a recherché des projets Workfront, éventuellement filtrés par nom et/ou limités aux projets détenus par l’utilisateur appelant. | Lire |
 
 ## Outils de planification
+
+Configuration requise du produit : Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais n
 
 ## Outils de workflow
 
+Configuration requise pour le produit : workflow Workfront
+
 Les outils de workflow sont les actions d’usage général que la plateforme agentic d’IA utilise pour travailler avec n’importe quel objet Workfront : projets, tâches, événements, heures, affectations, programmes, portefeuilles, etc.
 
 ### Objets et champs
@@ -291,6 +312,8 @@ Exemples d’invites :
 
 ### Outils Insights
 
+Configuration requise pour le produit : processus Workfront ou planification Workfront.
+
 Les outils Insights récupèrent des informations sur les objets Workfront.
 
 >[!NOTE]
@@ -311,6 +334,8 @@ Les outils Insights récupèrent des informations sur les objets Workfront.
 
 ## Outils de retour d’informations
 
+Configuration requise pour le produit : processus Workfront ou planification Workfront.
+
 <span class="preview">Les outils de retour d’informations vous permettent de signaler votre expérience avec le serveur MCP Workfront directement à partir de votre plateforme IA agentic.</span>
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
@@ -318,6 +343,8 @@ Les outils Insights récupèrent des informations sur les objets Workfront.
 | <span class="preview">Partager vos commentaires</span> | <span class="preview">`share_feedback`</span> | <span class="preview"> Enregistre le sentiment signalé et ce qui s’est passé au cours de la conversation, afin que les outils de MCP de Workfront puissent être améliorés. Utilisé uniquement lorsque vous demandez explicitement à partager des commentaires (par exemple, « partager des commentaires » ou « signaler un bogue »).</span> | <span class="preview">Write</span> |
 
 ## Outils de reporting
+
+Configuration requise du produit : tous les clients
 
 Les outils de création de rapports vous permettent de créer et de gérer des tableaux de bord de zone de travail par chat. Décrivez le rapport de votre choix en langage clair, et la plateforme agentic d’IA créera pour vous le tableau de bord et les widgets à l’aide de vos données Workfront.
 
@@ -336,7 +363,9 @@ Les outils de création de rapports vous permettent de créer et de gérer des t
 
 ## Mise à jour des outils
 
-Lorsqu’Adobe publie une nouvelle version du serveur MCP de Workfront, la plateforme IA agentic utilise automatiquement l’ensemble d’outils mis à jour. Vous n’avez pas besoin de vous reconnecter ou de changer quoi que ce soit de votre côté.
+Lorsqu’Adobe publie une nouvelle version du serveur MCP de Workfront, la plateforme IA agentic utilise automatiquement l’ensemble d’outils mis à jour.
+
+La liste d’outils est définie au démarrage de la connexion. Si les droits sur les produits de votre entreprise changent, la liste des outils mise à jour s’affiche la prochaine fois que vous démarrez une nouvelle connexion au serveur MCP Workfront.
 
 
 
