@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 6%
 ---
 
@@ -369,11 +369,15 @@ La liste d’outils est définie au démarrage de la connexion. Si les droits su
 
 
 
+## Télémétrie d’intention
+
+Le serveur Workfront MCP effectue le suivi des intentions des utilisateurs pour les clients. Les données d’intention collectées sont génériques à des fins de télémétrie, et ne sont jamais collectées à l’intention d’un utilisateur ou d’une utilisatrice, dans la mesure où elles se rapportent au produit Workfront. La télémétrie d’intention d’invite n’est utilisée que pour améliorer les outils MCP existants afin de fournir des réponses plus précises.
+
+Les utilisateurs peuvent désactiver la collecte de données télémétriques en contactant le service clientèle pour déposer une demande.
+
+
 ## Outils supplémentaires bientôt disponibles
 
 Nous nous efforçons d’ajouter les outils suivants au serveur MCP Workfront à l’avenir :
 
 * Panneaux
-
-
-
