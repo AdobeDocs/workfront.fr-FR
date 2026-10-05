@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 94%
+source-wordcount: '984'
+ht-degree: 92%
 ---
 # Questions fréquentes - Abonnements aux événements
 
@@ -80,12 +80,12 @@ Certains des scénarios suivants peuvent être responsables :
 
     Ce comportement peut être perçu comme incohérent ou comme des diffusions retardées, mais il suit simplement nos politiques de gestion des messages d’abonnement aux événements.
 
-  * Une URL d’abonnement à un événement sera désactivée de manière irréversible si l’une des conditions suivantes est remplie :
+  * Une URL d’abonnement à un événement sera désactivée de manière irréversible si l’une des conditions suivantes est remplie :
 
-    * L’URL d’abonnement n’a pas pu diffuser pendant 7 jours et au moins 2 000 tentatives de diffusion consécutives ont échoué au cours des dernières 72 heures.
+    * L’URL d’abonnement n’a pas pu être diffusée pendant au moins 72 heures et a échoué plus de 2 000 tentatives de diffusion consécutives.
     * L’URL d’abonnement n’a pas pu remettre 50 000 tentatives consécutives.
 
-## Que dois-je faire si je reçois un statut de réponse 500 lorsque je tente d’appeler l’API d’abonnement aux événements ?
+## Que dois-je faire si je reçois un statut de réponse 500 lorsque je tente d’appeler l’API d’abonnement aux événements ?
 
 Veuillez contacter le support Workfront. Pour savoir comment contacter le support, voir [Contacter l’assistance clientèle](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
