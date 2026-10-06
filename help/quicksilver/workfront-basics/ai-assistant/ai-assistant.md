@@ -24,7 +24,7 @@ ht-degree: 51%
 
 >[!IMPORTANT]
 >
->À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Cette section contient les articles suivants :
 

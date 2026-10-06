@@ -31,7 +31,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->* À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* La fonctionnalité d’intégrité du projet est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta.
 
 La fonctionnalité d’intégrité des projets d’Adobe Workfront utilise la puissance de l’assistant d’IA pour vous donner instantanément une évaluation des performances de vos projets, des domaines nécessitant votre attention et de la manière d’éviter les problèmes qui peuvent vous coûter du temps et de l’argent.
@@ -155,7 +155,7 @@ Les conditions d’un projet donnent un aperçu de base des performances actuell
 Pour plus d’informations sur les conditions du projet, consultez les articles suivants :
 
 * [Mettre à jour la condition d’un projet](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-* [ Conditions personnalisées ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+* [&#x200B; Conditions personnalisées &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 ## Liste des états d’intégrité des projets et programmes
 
