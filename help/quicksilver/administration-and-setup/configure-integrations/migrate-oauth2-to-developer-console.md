@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 667caf828abe21bd1d89ab26bfbab71a7711fe9a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1474'
 ht-degree: 1%
 ---
 # Migration de Workfront OAuth2 vers Adobe Developer Console
@@ -94,7 +94,7 @@ Le service Workfront OAuth2 hérité (décompte dans **Configuration** > **Syst�
 |---|---|---|---|
 | Application machine à machine (interfaces de ligne de commande, démons, scripts principaux) | JWT avec paire de clés publique/privée | Authentification de serveur à serveur | Même objectif : ne pas impliquer l’utilisateur final, mais le mécanisme change. Le flux hérité utilise une paire de clés publique/privée et JWT, tandis que serveur à serveur utilise un identifiant client et un secret client avec une autorisation d’informations d’identification client OAuth. Il ne s’agit pas d’un échange d’informations d’identification sans rendez-vous. Le code d’authentification de l’intégration doit être modifié, et pas seulement les valeurs d’identification. Pour plus d’informations, voir [Utilisation du flux JWT pour les applications OAuth 2 personnalisées](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md). |
 | Application Web (applications côté serveur : Go, Java, .NET, Node, PHP) | Flux de code d’autorisation OAuth 2.0 | Application web OAuth (sous Authentification utilisateur) | Correspondance 1:1 la plus proche. Il présente le même flux et la même forme de base qu’un serveur principal qui stocke le secret client. Pour plus d’informations, voir [Flux de code d’autorisation pour les applications OAuth 2 personnalisées](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md). |
-| Application Web Monopage (JS, Angular, React, Vue) | Flux de code d’autorisation avec PKCE, pas de secret client | Application monopage OAuth (sous Authentification utilisateur) | Correspondance 1:1 la plus procheIl s’agit du même flux basé sur PKCE et sans secret. Pour plus d’informations, voir [&#x200B; Utilisation du flux PKCE pour les applications OAuth 2 &#x200B;](/help/quicksilver/wf-api/api/oauth-app-pkce-flow.md). |
+| Application Web Monopage (JS, Angular, React, Vue) | Flux de code d’autorisation avec PKCE, pas de secret client | Application monopage OAuth (sous Authentification utilisateur) | Correspondance 1:1 la plus procheIl s’agit du même flux basé sur PKCE et sans secret. Pour plus d’informations, voir [ Utilisation du flux PKCE pour les applications OAuth 2 ](/help/quicksilver/wf-api/api/oauth-app-pkce-flow.md). |
 | (aucun équivalent hérité) | — | Application native OAuth (sous Authentification utilisateur) | Il s’agit d’une nouvelle fonctionnalité. L’ancien Workfront OAuth2 ne dispose d’aucun type dédié aux applications mobiles ou de bureau natives. |
 
 <!--
@@ -118,7 +118,7 @@ Le service Workfront OAuth2 hérité (décompte dans **Configuration** > **Syst�
 >Si vous êtes un administrateur de produit Workfront, mais pas un administrateur d’organisation, vous devez travailler avec l’administrateur de votre organisation pour terminer cette migration, ou demander à en faire une.
 
 1. Connectez-vous à [developer.adobe.com](https://developer.adobe.com) et créez un projet. Les projets sont la manière dont la console organise différentes intégrations ou applications clientes.
-1. Dans le projet, ajoutez une API, puis sélectionnez **&#x200B;**. Cette API figure dans la catégorie Experience Cloud . Toutes les API Workfront, notamment Planning, Workflow, ainsi que Review and Approvals, partagent cette API unique.
+1. Dans le projet, ajoutez une API, puis sélectionnez ****. Cette API figure dans la catégorie Experience Cloud . Toutes les API Workfront, notamment Planning, Workflow, ainsi que Review and Approvals, partagent cette API unique.
 1. Sélectionnez l’option d’authentification **serveur à serveur**, puis choisissez l’instance appropriée si votre organisation IMS comporte plusieurs instances Workfront.
 
    Pour plus d’informations sur le choix d’un type d’authentification, voir [Présentation des types d’authentification Adobe Developer Console](#understand-adobe-developer-console-authentication-types) dans cet article.
@@ -159,4 +159,4 @@ Non, l’authentification via Adobe Developer Console n’entraîne aucun coût 
 
 **Où puis-je obtenir de l’aide ?**
 
-Contactez votre équipe de compte Workfront ou ouvrez un dossier d’assistance si vous avez des questions sur votre intégration ou votre calendrier spécifique. Pour obtenir une présentation officielle et à jour de la configuration avec des captures d’écran, consultez [Accès](https://developer.adobe.com/workfront-apis/guides/gaining_access/) dans la documentation d’Adobe Developer Console.
+Contactez votre équipe de compte Workfront ou ouvrez un dossier d’assistance si vous avez des questions sur votre intégration ou votre calendrier spécifique. Pour obtenir une présentation officielle et à jour de la configuration avec des captures d’écran, consultez [Accès](https://developer.adobe.com/workfront-apis/guides/gaining-access/) dans la documentation d’Adobe Developer Console.
