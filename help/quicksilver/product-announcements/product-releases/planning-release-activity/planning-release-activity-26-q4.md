@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3151'
 ht-degree: 3%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
@@ -190,7 +190,7 @@ Le remplissage de formulaire AI peut désormais récupérer les données de cham
 
 Pour plus d’informations, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker disponible dans Workfront Planning
+## CX Enterprise Coworker disponible dans Workfront Planning
 
 >[!NOTE]
 >
@@ -198,9 +198,9 @@ Pour plus d’informations, consultez [Utilisation du remplissage de formulaire 
 >Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
 >Production pour tous : déploiement échelonné à partir du 15 octobre 2026
 
-CX Coworker est désormais disponible dans Workfront Planning. Vous pouvez désormais accéder à CX Coworker dans un panneau disponible dans tout Workfront Planning.
+CX Enterprise Coworker est désormais disponible dans Workfront Planning. Vous pouvez désormais accéder à CX Enterprise Coworker dans un panneau disponible dans tout Workfront Planning.
 
-Le CX Coworker Chat est une interface de conversation qui permet d’effectuer le travail. Décrivez un objectif en langage clair. Un collègue planifie le travail, l’exécute dans Workfront Planning et dans vos systèmes Adobe connectés, valide les résultats et vous renvoie le travail terminé pour approbation.
+Le CX Enterprise Coworker Chat est une interface de conversation qui permet d’effectuer le travail. Décrivez un objectif en langage clair. Un collègue planifie le travail, l’exécute dans Workfront Planning et dans vos systèmes Adobe connectés, valide les résultats et vous renvoie le travail terminé pour approbation.
 
 Coworker respecte les contrôles d’accès existants de votre entreprise, avec un accès en lecture seule par défaut, et les administrateurs système contrôlent quand les utilisateurs obtiennent un accès en écriture.
 
@@ -208,11 +208,11 @@ Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puis
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
+>CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Pour plus d&#39;informations, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Icône de l’assistant AI supprimée de la zone d’aperçu des Détails de l’enregistrement en vue du lancement de CX Coworker
+## Icône de l’assistant AI supprimée de la zone d’aperçu des Détails de l’enregistrement en vue du lancement de CX Enterprise Coworker
 
 >[!NOTE]
 >
@@ -221,15 +221,15 @@ Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilve
 >Production pour tous : déploiement échelonné à partir du 15 octobre 2026
 >[!BADGE Hors planning]{type=Neutral}
 
-Cette modification est disponible pour les clients qui disposent du CX Coworker dans Workfront.
+Cette modification est disponible pour les clients qui disposent du CX Enterprise Coworker dans Workfront.
 
-En vue du lancement du CX Coworker Adobe dans Workfront, nous avons supprimé l’icône de l’assistant AI de la page d’aperçu des détails. L’icône existe toujours sur la page Détails lorsqu’elle est ouverte en plein écran. Cliquez dessus pour ouvrir le CX Coworker.
+En vue du lancement d’Adobe CX Enterprise Coworker dans Workfront, nous avons supprimé l’icône de l’assistant AI de la page d’aperçu des détails. L’icône existe toujours sur la page Détails lorsqu’elle est ouverte en plein écran. Cliquez dessus pour ouvrir le CX Enterprise Coworker.
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
+>CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d’informations, voir [CX Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+Pour plus d’informations, voir [CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
 ## Amélioration de l’expérience lors de la duplication d’enregistrements ayant des champs connectés avec un type de connexion un-à-un ou un-à-plusieurs
 
@@ -354,7 +354,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 

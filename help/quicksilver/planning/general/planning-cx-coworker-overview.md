@@ -1,6 +1,6 @@
 ---
-title: Présentation d’Adobe Workfront Planning CX Coworker
-description: Vous pouvez utiliser CX Coworker dans Workfront Planning pour effectuer des actions similaires aux enregistrements et autres objets de Planning que vous effectueriez normalement dans l'interface. Les commandes de l’utilisateur et l’exécution par l’IA de ces commandes fonctionnent ensemble pour s’assurer que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
+title: Présentation d’Adobe Workfront Planning CX Enterprise Coworker
+description: Vous pouvez utiliser CX Enterprise Coworker dans Workfront Planning pour effectuer des actions similaires aux enregistrements et autres objets de Planning que vous effectueriez normalement dans l'interface. Les commandes de l’utilisateur et l’exécution par l’IA de ces commandes fonctionnent ensemble pour s’assurer que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
@@ -19,15 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1085'
 ht-degree: 7%
 ---
 
-# Présentation d’Adobe Workfront Planning CX Coworker
+# Présentation d’Adobe Workfront Planning CX Enterprise Coworker
 
-<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
+<!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-CX Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
+CX Enterprise Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
 
 Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience plein écran et le rail de droite de Workfront.
 
@@ -46,7 +46,7 @@ Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de 
 >
 >Les collaborateurs ne sont actuellement pas disponibles pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations.
 >
->Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 
 ## Conditions d’accès
@@ -107,9 +107,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Un collègue doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise.
 
-  Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Pour plus d’informations, consultez la présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’administrateur Workfront doit également activer Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -128,7 +128,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Fonctionnalité actuellement disponible pour Coworker
 
-Actuellement, Coworker est disponible dans la zone Planification de Workfront et utilise un ensemble de compétences pour accéder aux informations et les manipuler pour les objets Planification. Pour plus d’informations, voir [Compétences &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Actuellement, Coworker est disponible dans la zone Planification de Workfront et utilise un ensemble de compétences pour accéder aux informations et les manipuler pour les objets Planification. Pour plus d’informations, voir [Compétences ](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Vous pouvez utiliser un collègue pour effectuer les actions suivantes :
 
