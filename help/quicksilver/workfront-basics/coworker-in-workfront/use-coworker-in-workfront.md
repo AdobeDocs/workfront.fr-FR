@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '603'
 ht-degree: 7%
 ---
 # Utilisation de CX Coworker dans Workfront
@@ -30,7 +30,7 @@ Lorsque vous utilisez Coworker dans Workfront, il peut fonctionner avec des info
 * sont dans Workfront ou Workfront Planning ;
 * Vous disposez des autorisations pour.
 
-Dans la mesure où Coworker fait partie de l’écosystème Adobe CX Enterprise plus vaste, vous pouvez utiliser Coworker pour travailler avec des informations et des objets dans d’autres produits Adobe, soit dans le rail de droite de Workfront, soit en passant de Workfront à l’interface d’Adobe CX Coworker.
+Dans la mesure où Coworker fait partie de l’écosystème Adobe CX Enterprise plus vaste, vous pouvez utiliser Coworker pour travailler avec des informations et des objets dans d’autres produits Adobe, soit dans le rail de droite de Workfront, soit en passant de Workfront à l’interface d’Adobe Coworker.
 
 Pour plus d’informations sur Coworker et ses fonctionnalités en dehors de Workfront, consultez [Présentation du chat Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/overview).
 
@@ -60,15 +60,15 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
-* Vous devez disposer d’un accès et d’autorisations existants sur un objet Workfront avant de pouvoir interagir avec celui-ci dans CX Coworker. Par exemple, vous devez avoir au moins un accès en lecture seule à un projet pour afficher des informations à son sujet dans Coworker.
-* Votre administrateur Workfront doit activer l’option Écrire les outils MCP dans les Préférences système de votre entreprise avant de pouvoir apporter des modifications dans Workfront via CX Coworker. Par défaut, CX Coworker dispose de fonctionnalités en lecture seule.
+* Vous devez disposer d’un accès et d’autorisations existants sur un objet Workfront avant de pouvoir interagir avec celui-ci dans Coworker. Par exemple, vous devez avoir au moins un accès en lecture seule à un projet pour afficher des informations à son sujet dans Coworker.
+* Votre administrateur Workfront doit activer l’option Écrire les outils MCP dans les Préférences système de votre entreprise avant de pouvoir apporter des modifications dans Workfront par l’intermédiaire de Coworker. Par défaut, Coworker dispose de fonctionnalités en lecture seule.
 
   Pour obtenir des informations et des instructions, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 
-## Utilisation de CX Coworker dans Workfront
+## Utiliser un collègue dans Workfront
 
-1. En haut d’une page Workfront, cliquez sur l’icône CX Coworker ![icône AI](assets/ai-icon.png).
+1. En haut de n’importe quelle page Workfront, cliquez sur l’icône Collègue ![icône AI](assets/ai-icon.png).
 1. Saisissez votre question ou votre prompt dans le panneau situé à droite de l’écran.
 
 1. Si Coworker ne fournit pas la réponse dont vous avez besoin, affinez votre invite et réessayez.
@@ -84,12 +84,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Pour plus d’informations sur ces actions, voir [Zone d’entrée de conversation](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) dans la documentation d’Adobe CX Coworker.
 
-1. Pour afficher et gérer les conversations précédentes, cliquez sur l’icône Conversations ![icône Conversations](assets/ai-icon.png) dans le panneau CX Coworker.
+1. Pour afficher et gérer les conversations précédentes, cliquez sur l’icône Conversations ![icône Conversations](assets/ai-icon.png) dans le panneau Collègue.
 
    Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation d’Adobe CX Coworker.
 1. Pour afficher et gérer les artefacts de conversation, tels que les listes de sortie, cliquez sur l’icône Artefacts ![icône Artefacts](assets/artifacts-icon.png).
 
-   Pour plus d’informations sur les artefacts dans CX Coworker, consultez [Artefacts](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation d’Adobe CX Coworker.
+   Pour plus d’informations sur les artefacts dans Coworker, voir [Artefacts](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation d’Adobe CX Coworker.
 1. Pour gérer les paramètres de Coworker, cliquez sur l’icône Paramètres ![Paramètres](assets/coworker-settings-icon.png).
 1. Pour développer le panneau Collègue, cliquez sur l’icône Développer ![icône Développer](assets/coworker-expand-icon.png).
 1. Pour accéder à l’interface d’Adobe CX Coworker, cliquez sur l’icône Applications ![icône Applications](assets/apps-icon.png) dans le coin supérieur droit de la page, puis sélectionnez Collègue dans la liste des applications disponibles.

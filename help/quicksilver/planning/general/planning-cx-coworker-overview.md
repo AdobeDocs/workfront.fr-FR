@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1079'
 ht-degree: 7%
 ---
 
@@ -36,15 +36,15 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-Le CX Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
+CX Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
 
-Le CX Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience plein écran et dans le rail de droite de Workfront.
+Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience plein écran et le rail de droite de Workfront.
 
 Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de votre entreprise. Les utilisateurs ne peuvent donc effectuer que les actions qu’ils sont déjà autorisés à effectuer dans Workfront, avec un accès en lecture seule par défaut et un accès en écriture contrôlé par les administrateurs Workfront.
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations.
+>Les collaborateurs ne sont actuellement pas disponibles pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations.
 >
 >Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
@@ -79,10 +79,10 @@ Ou
 <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td>  
-   <p>Votre administrateur doit effectuer les opérations suivantes pour autoriser l’accès au CX Coworker dans Planning :</p>
+  <p>Votre administrateur doit effectuer les opérations suivantes pour autoriser l'accès à un collègue dans Planning :</p>
    <ul>
    <li><p>Ajoutez des types de licence Workflow et Planning à votre niveau d'accès lorsque vous disposez à la fois d'un package Workflow et Planning</p></li>
-   <li><p>Désélectionnez Désactiver le panneau CX Coworker dans le paramètre Workfront de votre niveau d’accès. Elle est sélectionnée par défaut.</p></li></ul>
+  <li><p>Désélectionnez Désactiver le panneau Collègue dans le paramètre Workfront dans votre niveau d’accès. Elle est sélectionnée par défaut.</p></li></ul>
 </td> 
   </tr> 
   <tr> 
@@ -103,38 +103,38 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++
 
-## Considérations relatives au CX Coworker
+## Considérations pour les collègues
 
-* Le CX Coworker doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre société.
+* Un collègue doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise.
 
   Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-* L’administrateur Workfront doit également activer le CX Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* L’administrateur Workfront doit également activer Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Le CX Coworker fonctionne avec des informations et des objets qui se trouvent dans Workfront ou Workfront Planning et auxquels vous avez l’autorisation d’accéder. Dans le rail de droite Planification, le panneau Collègue fonctionne dans le contexte de l’espace de travail, du type d’enregistrement ou de la page d’enregistrement que vous avez ouvert.
+* Un collègue travaille avec des informations et des objets qui se trouvent dans Workfront ou Workfront Planning et auxquels vous avez accès. Dans le rail de droite Planification, le panneau Collègue fonctionne dans le contexte de l’espace de travail, du type d’enregistrement ou de la page d’enregistrement que vous avez ouvert.
 
-* Les actions effectuées par CX Coworker dans la zone Planning s’inscrivent dans le cadre de vos autorisations Workfront Planning et de votre niveau d’accès Workfront. Pour plus d’informations, voir les articles suivants :
+* Les actions effectuées par Coworker dans la zone Planning s’inscrivent dans le cadre de vos autorisations Workfront Planning et de votre niveau d’accès Workfront. Pour plus d’informations, voir les articles suivants :
 
   * [Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Vue d’ensemble du type de licence lors de l’utilisation de la planification Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Les modifications apportées par CX Coworker pour le compte de l’utilisateur sont suivies dans le panneau Historique de l’enregistrement.
+* Les modifications apportées par un collègue au nom de l’utilisateur sont suivies dans le panneau Historique de l’enregistrement.
 
-* Les actions effectuées par le CX Coworker sont permanentes et peuvent être irréversibles. Par exemple, la suppression d’un champ est irréversible. Passez en revue toutes les actions proposées par le CX Coworker avant de les accepter.
+* Les actions effectuées par Coworker sont permanentes et peuvent être irréversibles. Par exemple, la suppression d’un champ est irréversible. Passez en revue toutes les actions proposées par votre collègue avant de les accepter.
 
-* Lors de la création, de la mise à jour ou de la suppression d’un objet par le biais du CX Coworker, le CX Coworker affiche les actions prévues et demande une confirmation. Vous pouvez ensuite confirmer ou annuler les actions.
+* Lors de la création, de la mise à jour ou de la suppression d&#39;un objet par l&#39;intermédiaire de Coworker, Coworker affiche les actions prévues et demande confirmation. Vous pouvez ensuite confirmer ou annuler les actions.
 
-## Fonctionnalité actuellement disponible pour le CX Coworker
+## Fonctionnalité actuellement disponible pour Coworker
 
-Actuellement, le CX Coworker est disponible dans la zone Planning de Workfront et utilise un ensemble de compétences pour accéder aux informations des objets Planning et les manipuler. Pour plus d’informations, voir [Compétences &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Actuellement, Coworker est disponible dans la zone Planification de Workfront et utilise un ensemble de compétences pour accéder aux informations et les manipuler pour les objets Planification. Pour plus d’informations, voir [Compétences &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
-Vous pouvez utiliser le CX Coworker pour effectuer les actions suivantes :
+Vous pouvez utiliser un collègue pour effectuer les actions suivantes :
 
 * Rechercher des enregistrements. Vous pouvez effectuer une recherche en fonction des informations contenues dans n’importe quel champ d’enregistrement.
 * Créer des enregistrements. Un identifiant avec un lien vers le nouvel enregistrement s’affiche une fois l’enregistrement créé. Vous pouvez spécifier les champs que vous souhaitez mettre à jour pendant le processus de création, tels que les dates ou la description.
-* Créez des enregistrements basés sur un document que vous téléchargez. Workfront prend en charge les formats de document suivants pour CX Coworker :
+* Créez des enregistrements basés sur un document que vous téléchargez. Workfront prend en charge les formats de document suivants pour le collaborateur :
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT et la plupart des formats d’image
 * Mettre à jour les champs des enregistrements affichés à l’écran
@@ -143,14 +143,14 @@ Vous pouvez utiliser le CX Coworker pour effectuer les actions suivantes :
 * Afficher l&#39;historique des modifications d&#39;un enregistrement
 
 
-## Localisation du CX Coworker dans Workfront Planning
+## Localiser un collègue dans Workfront Planning
 
-Le CX Coworker se trouve dans les zones suivantes de Workfront Planning :
+Vous pouvez localiser Coworker dans les zones suivantes de Workfront Planning :
 
 * La barre de navigation principale, dans le coin supérieur droit de l’écran.
 * Dans la zone des détails d’un enregistrement lorsque vous l’ouvrez dans un nouvel onglet.
 
-## Accès au CX Coworker dans la zone Planning
+## Accéder à un collègue dans la zone Planning
 
 1. Connectez-vous à Workfront, puis cliquez sur l’icône **Menu principal** ![Menu principal Lignes](assets/lines-main-menu.png) dans le coin supérieur gauche, puis cliquez sur **Planning**.
 
@@ -164,11 +164,11 @@ Le CX Coworker se trouve dans les zones suivantes de Workfront Planning :
 
 1. Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans un nouvel onglet](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Cliquez sur l’icône **&#x200B;**&#x200B;![icône Collègue](assets/coworker-icon.png) dans le coin supérieur droit de l’écran.
+1. Cliquez sur l’icône **Icône Collègue** ![Icône Collègue](assets/coworker-icon.png) dans le coin supérieur droit de l’écran.
 
-1. Dans l’espace prévu à cet effet, commencez à saisir des commandes pour le CX Coworker, puis cliquez sur Entrée lorsque vous avez terminé.
+1. Dans l’espace prévu à cet effet, commencez à saisir des commandes pour Coworker, puis cliquez sur Entrée lorsque vous avez terminé.
 
-   Panneau ![CX Coworker avec une zone de commande vide](assets/cx-coworker-right-rail.png)
+   ![Panneau Collègue avec boîte de commande vide](assets/cx-coworker-right-rail.png)
 
    Par exemple, vous pouvez saisir l’une des valeurs suivantes :
 
@@ -179,9 +179,9 @@ Le CX Coworker se trouve dans les zones suivantes de Workfront Planning :
 
    >[!TIP]
    >
-   >Assurez-vous que votre administrateur Workfront a activé les outils MCP en écriture seule dans vos préférences système avant de demander au CX Coworker d’effectuer des actions de modification sur les objets.
+   >Assurez-vous que votre administrateur Workfront a activé les outils MCP en écriture seule dans vos préférences système avant de demander à un collègue d’effectuer des actions de modification sur les objets.
 
-   Un indicateur visuel s’affiche pendant le traitement des commandes par CX Coworker, définissant les attentes en matière de temps de réponse.
+   Un indicateur visuel s’affiche pendant que Coworker traite les commandes, définissant les attentes en matière de temps de réponse.
 
    Après avoir reçu une réponse réussie, suivez les liens fournis ou notez les modifications sur la gauche.
 

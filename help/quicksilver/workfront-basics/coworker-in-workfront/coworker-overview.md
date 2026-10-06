@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 ---
 # Présentation de CX Coworker
@@ -31,10 +31,11 @@ Coworker respecte les contrôles d’accès au niveau des produits existants de 
 
 Coworker fait partie de l’écosystème Adobe et ne se limite pas à Workfront.
 
-Pour plus d’informations sur l’utilisation de CX Coworker dans Workfront, voir [&#x200B; Utilisation de CX Coworker dans Workfront &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+Pour plus d’informations sur l’utilisation de Coworker dans Workfront, voir [Utilisation de CX Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 Pour plus d’informations sur Coworker et ses fonctionnalités, consultez [Présentation du Chat &#x200B;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/chat/overview).
 
 Pour connaître les compétences disponibles dans Coworker in Workfront, consultez [Compétences CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Pour obtenir des exemples d’invites, consultez les invites de l’article [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+
