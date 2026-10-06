@@ -14,10 +14,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 7%
+source-wordcount: '608'
+ht-degree: 3%
 ---
 # Utilisation de documents Workfront dans les applications Creative Cloud
 
@@ -77,11 +77,45 @@ Pour accéder à un projet Workfront dans Photoshop, Illustrator ou InDesign :
 >
 >Pour modifier un type de fichier que Photoshop, Illustrator ou InDesign ne peut pas ouvrir, tel qu’un document Word ou Excel, utilisez plutôt Adobe Cloud Drive. Pour plus d’informations, consultez [Présentation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
+## Enregistrer un nouveau document dans Workfront à partir d’une application Creative Cloud
+
+1. Ouvrez Photoshop, Illustrator ou InDesign et créez un fichier .
+1. Dans le menu supérieur, sélectionnez **Fichier > Enregistrer sous**.
+1. Dans la boîte de dialogue **Enregistrer sous**, sélectionnez **Enregistrer dans les documents cloud**, puis choisissez le projet Workfront dont vous avez besoin.
+
+   >[!NOTE]
+   >
+   >Lors de l’enregistrement d’un document déjà dans le projet Workfront, la boîte de dialogue Enregistrer sous ne s’ouvre pas. Vous pouvez sélectionner un projet Workfront, l’enregistrer dans un autre dossier ou choisir un autre projet Workfront.
+
+
+   ![enregistrer le nouveau document dans workfront](assets/save-new-to-wf.png)
+
+1. Choisissez un dossier de documents, puis cliquez sur **Enregistrer**. Si vous ne choisissez pas de dossier, le document est enregistré dans le dossier racine du projet.
+
+   ![choisissez le dossier pour enregistrer le nouveau document dans workfront](assets/save-to-folder.png)
+
 ## Demander l&#39;approbation d&#39;un document
 
 Vous pouvez ajouter une approbation de document dans Workfront à tout document téléchargé à partir de Photoshop, Illustrator ou InDesign, ou à partir d’Adobe Cloud Drive, de la même manière que pour tout autre document. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-<!--
-need to verify
-Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
--->
+
+
+## Gestion des versions d’un document dans Workfront à partir d’une application Creative Cloud
+
+Lorsque vous enregistrez un document à partir de Photoshop, Illustrator ou InDesign vers Workfront, les modifications que vous enregistrez apparaissent dans le fichier actuel sur l’onglet Versions et sont marquées d’un badge « Nouvelles modifications ».
+
+Vous pouvez demander une approbation sur le fichier actuel plutôt que de charger une nouvelle version du document. Pour plus d&#39;informations, voir [Demander une approbation sur le fichier actuel](#request-approval-on-the-current-file).
+
+![fichier actuel avec le badge nouvelles modifications](assets/current-file.png)
+
+### Demander l&#39;approbation sur le fichier actuel
+
+Pour demander une approbation sur le fichier actuel d’un document dans Workfront :
+
+1. Accédez au projet dans Workfront contenant le document sur lequel vous souhaitez demander une approbation.
+1. Ouvrez le document et accédez à l’onglet **Versions**.
+1. Dans le fichier actuel, cliquez sur le menu **Plus**, puis sur **Demander l&#39;approbation**.
+1. Dans la boîte de dialogue **Demander l’approbation**, suivez les étapes de la section [Créer un workflow d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) pour créer l’approbation.
+
+   ![demande d&#39;approbation sur le fichier actuel](assets/request-update-on-current-file.png)
+

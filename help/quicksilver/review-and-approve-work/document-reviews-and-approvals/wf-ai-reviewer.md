@@ -33,7 +33,7 @@ role_v2:
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 3%
+ht-degree: 4%
 ---
 # Prise en main du réviseur de l’IA dédiée à Workfront
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur la signature du contrat, voir [Signature du contr
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Type de fichier non pris en charge"
->abstract="Cet outil de révision IA ne prend pas en charge le type de fichier sélectionné. Chargez un type de fichier pris en charge ou supprimez l’AI Reviewer pour envoyer la demande."
+>abstract="Cet outil de révision IA ne prend pas en charge le type de fichier sélectionné. Chargez un type de fichier pris en charge ou supprimez l’outil de révision IA pour envoyer la demande."
 
 Le réviseur de l’IA peut examiner les types de fichiers suivants :
 
