@@ -29,11 +29,11 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’assistant d’IA recherche des informations dans la documentation de Workfront, ce qui évite d’avoir à se rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
 
-Par exemple, si vous demandez à l’assistant AI « Comment créer une file d’attente des demandes ? », il renvoie les instructions de création de la demande, extraites de l’article [ Créer et gérer des files d’attente des demandes ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Par exemple, si vous demandez à l’assistant AI « Comment créer une file d’attente des demandes ? », il renvoie les instructions de création de la demande, extraites de l’article [&#x200B; Créer et gérer des files d’attente des demandes &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 
 ## Conditions d’accès

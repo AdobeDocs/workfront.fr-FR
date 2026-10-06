@@ -24,7 +24,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’IA peut vous aider à remplir automatiquement les champs de requête. Il peut suggérer des valeurs de champ en fonction de requêtes précédentes ou les analyser à partir de texte tel que des e-mails ou des documents chargés.
 
