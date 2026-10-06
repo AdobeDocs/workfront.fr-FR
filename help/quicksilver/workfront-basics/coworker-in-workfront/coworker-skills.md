@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 7%
 ---
 # Compétences CX Coworker
@@ -21,11 +21,11 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Cet article répertorie les compétences actuellement disponibles pour CX Coworker dans Workfront.
 
-Les capacités couvertes par ces compétences sont disponibles dans CX Coworker via l’interface conversationnelle, et vous n’avez pas besoin d’appeler directement ces compétences. Cependant, si vous souhaitez appeler les compétences directement, vous pouvez le faire dans le panneau Collègue en saisissant une barre oblique `/` en saisissant le nom de la compétence.
+Les capacités couvertes par ces compétences sont disponibles dans Coworker via l’interface de conversation, et vous n’avez pas besoin d’appeler directement ces compétences. Cependant, si vous souhaitez appeler les compétences directement, vous pouvez le faire dans le panneau Collègue en saisissant une barre oblique `/` en saisissant le nom de la compétence.
 
 Pour obtenir des exemples d’invites, consultez les invites de l’article [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
