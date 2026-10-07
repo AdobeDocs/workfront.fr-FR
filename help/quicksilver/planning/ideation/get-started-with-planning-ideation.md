@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1002'
 ht-degree: 2%
 ---
 
@@ -155,9 +155,9 @@ Voici quelques exemples de la manière dont vous pouvez tirer le meilleur parti 
   * **Vérifier avant de finaliser**. Les réponses générées par l’IA pouvant être inexactes, vérifiez toujours **Sources** sur une carte et confirmez-les par rapport aux sources liées avant de finaliser un enregistrement.
   * **Associez des cartes d’IA à des enregistrements réels**. Effectuez un glisser-déposer des enregistrements réels dans l’espace Idéation .
 
-## Espace d’idéation disponible dans Adobe CX Coworker
+## Espace idéation disponible dans Adobe CX Enterprise Coworker
 
-L’espace Idéation prend également en charge un mode conversationnel, de va et vient via Adobe CX Coworker.
+L’espace Idéation prend également en charge un mode conversationnel, de va et vient via Adobe CX Enterprise Coworker.
 
 Les utilisateurs et utilisatrices peuvent poser des questions de suivi et affiner un bref entretien au lieu d’obtenir un seul résultat ponctuel.
 

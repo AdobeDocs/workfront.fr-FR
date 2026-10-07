@@ -1,6 +1,6 @@
 ---
-title: Présentation d’Adobe Workfront Planning CX Coworker
-description: Vous pouvez utiliser CX Coworker dans Workfront Planning pour effectuer des actions similaires aux enregistrements et autres objets de Planning que vous effectueriez normalement dans l'interface. Les commandes de l’utilisateur et l’exécution par l’IA de ces commandes fonctionnent ensemble pour s’assurer que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
+title: Présentation d’Adobe Workfront Planning CX Enterprise Coworker
+description: Vous pouvez utiliser CX Enterprise Coworker dans Workfront Planning pour effectuer des actions similaires aux enregistrements et autres objets de Planning que vous effectueriez normalement dans l'interface. Les commandes de l’utilisateur et l’exécution par l’IA de ces commandes fonctionnent ensemble pour s’assurer que les modifications apportées par l’IA sont reflétées avec précision dans votre environnement.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
@@ -19,15 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1085'
 ht-degree: 7%
 ---
 
-# Présentation d’Adobe Workfront Planning CX Coworker
+# Présentation d’Adobe Workfront Planning CX Enterprise Coworker
 
-<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
+<!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-CX Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
+CX Enterprise Coworker est une interface conversationnelle qui vous permet de décrire un objectif en langage clair, puis de planifier, d’exécuter et de valider le travail sur l’ensemble de votre planification Workfront et d’autres systèmes Adobe connectés avant de le ramener pour approbation.
 
 Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience plein écran et le rail de droite de Workfront.
 

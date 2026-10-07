@@ -20,16 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 16%
+source-wordcount: '307'
+ht-degree: 15%
 ---
 # Obtenir de l’aide à partir de l’assistant IA
 
 >[!IMPORTANT]
 >
->À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’assistant d’IA recherche des informations dans la documentation de Workfront, ce qui évite d’avoir à se rendre sur Adobe Experience League pour obtenir l’aide dont vous avez besoin.
 

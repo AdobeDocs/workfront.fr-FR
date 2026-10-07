@@ -2,10 +2,10 @@
 product-area: documents
 navigation-topic: approvals
 title: Créer une validation groupée
-description: Vous pouvez regrouper plusieurs ressources dans un seul workflow d’approbation afin qu’elles passent par les mêmes étapes.
+description: Vous pouvez regrouper plusieurs documents dans un seul workflow d’approbation afin qu’ils passent par les mêmes étapes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f55042154ac3d93544c152b7b1ad26746a209772
+source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <span class="preview">Les informations de cette page ne sont pas disponibles dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible. Cette fonctionnalité sera disponible dans les environnements de production les 14 et 15 octobre 2026.</span>
 
-Une approbation groupée regroupe plusieurs ressources dans un seul workflow d’approbation. Vous pouvez utiliser le mode de base et avancé, plusieurs étapes et des chemins d’accès parallèles avec des approbations groupées, comme vous le pouvez avec des approbations de ressources uniques.
+Une approbation groupée regroupe plusieurs documents dans un seul workflow d’approbation. Vous pouvez utiliser le mode de base et avancé, plusieurs étapes et des chemins d’accès parallèles avec des approbations groupées, comme vous le pouvez avec des approbations de document unique.
 
 Les approbations groupées sont disponibles uniquement dans la zone Nouveaux documents, qui s’affiche lorsque votre organisation utilise l’espace de stockage dans le cloud d’Adobe. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -60,9 +60,9 @@ Pour créer une validation groupée en une seule étape :
 
 1. Accédez au projet, à la tâche ou à l’événement contenant les documents, puis sélectionnez **Documents** dans le panneau de gauche.
 
-1. Cliquez sur la première ressource à inclure, puis utilisez la combinaison Maj+clic sur les ressources supplémentaires pour en sélectionner plusieurs.
+1. Cliquez sur le premier document à inclure, puis sur les documents supplémentaires tout en maintenant la touche Maj enfoncée pour sélectionner plusieurs documents.
 
-1. Une fois les ressources sélectionnées, cliquez sur **Demander l’approbation** dans le menu inférieur. La boîte de dialogue **Demander la validation** s’ouvre en mode de base.
+1. Une fois les documents sélectionnés, cliquez sur **Demander l’approbation** dans le menu inférieur. La boîte de dialogue **Demander la validation** s’ouvre en mode de base.
 
    ![créer une validation groupée](assets/requeset-grouped-approval.png)
 
@@ -92,7 +92,7 @@ Pour créer une validation groupée en une seule étape :
    </tr>
    </table>
 
-1. (Facultatif) Cliquez sur l’onglet **Documents** pour passer en revue les ressources incluses dans cette approbation.
+1. (Facultatif) Cliquez sur l’onglet **Documents** pour passer en revue les documents inclus dans cette approbation.
 
 1. Cliquez sur **Demander l’approbation**.
 
@@ -112,9 +112,9 @@ Pour créer une approbation groupée avancée :
 
 1. Accédez au projet, à la tâche ou à l’événement contenant les documents, puis sélectionnez **Documents** dans le panneau de gauche.
 
-1. Cliquez sur la première ressource à inclure, puis utilisez la combinaison Maj+clic sur les ressources supplémentaires pour en sélectionner plusieurs.
+1. Cliquez sur le premier document à inclure, puis sur les documents supplémentaires tout en maintenant la touche Maj enfoncée pour sélectionner plusieurs documents.
 
-1. Une fois les ressources sélectionnées, cliquez sur **Demander l’approbation** dans le menu inférieur.
+1. Une fois les documents sélectionnés, cliquez sur **Demander l’approbation** dans le menu inférieur.
 
    ![créer une validation groupée](assets/requeset-grouped-approval.png)
 
@@ -167,7 +167,7 @@ Pour créer une approbation groupée avancée :
 
 1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** dans le coin supérieur droit.
 
-1. (Facultatif) Cliquez sur l’onglet **Documents** pour passer en revue les ressources incluses dans cette approbation.
+1. (Facultatif) Cliquez sur l’onglet **Documents** pour passer en revue les documents inclus dans cette approbation.
 
 1. Cliquez sur **Demander l’approbation**.
 
@@ -194,4 +194,4 @@ To add an additional document to a grouped approval:
 ## Limites connues
 
 * Actuellement, vous ne pouvez pas ajouter ou supprimer des documents d’un workflow d’approbation groupé une fois qu’il a été créé. Cette fonctionnalité est prévue pour une version ultérieure.
-* Les validations groupées sont temporairement limitées à 3 chemins d’accès et 25 ressources par groupe.
+* Les validations groupées sont temporairement limitées à 3 chemins et 25 documents par groupe.

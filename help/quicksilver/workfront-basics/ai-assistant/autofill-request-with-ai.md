@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 7%
 ---
 # Remplir automatiquement une requête à l’aide de l’IA
 
 >[!IMPORTANT]
 >
->À partir de septembre 2026, AI Assistant passera à CX Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’IA peut vous aider à remplir automatiquement les champs de requête. Il peut suggérer des valeurs de champ en fonction de requêtes précédentes ou les analyser à partir de texte tel que des e-mails ou des documents chargés.
 

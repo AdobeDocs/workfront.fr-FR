@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3475'
 ht-degree: 8%
 ---
 # Présentation de la version du quatrième trimestre 2026
@@ -277,8 +277,8 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker désormais disponible dans Workfront</a>
-                <p>CX Coworker est une nouvelle interface conversationnelle qui permet d’effectuer des tâches dans Workfront et dans les systèmes Adobe connectés, en remplaçant l’assistant AI actuel.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Enterprise Coworker désormais disponible dans Workfront</a>
+                <p>CX Enterprise Coworker est une nouvelle interface conversationnelle qui permet d’effectuer des tâches dans Workfront et dans les systèmes Adobe connectés, en remplaçant l’assistant AI actuel.</p>
             </td>
             <td><p>Le déploiement par phases commence le 3 septembre 2026</p></td>
             <td><p>Le déploiement par phases commence le 17 septembre 2026</p></td>
