@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 4%
 ---
 
@@ -79,7 +79,7 @@ Une fois configuré, tout type d’enregistrement qui fait référence aux deux 
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux objets GenStudio et aux marques</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -137,6 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Les niveaux de dépendance sont limités à 6 connexions. Cela signifie que jusqu’à 7 types d’enregistrements peuvent être connectés.
 
 * Pour que la chaîne de dépendance fonctionne, tous les champs dépendants doivent exister simultanément sur le même type d’enregistrement.
+
+* Les champs dépendants sont pris en charge pour toutes les zones où les champs d’enregistrements connectés s’affichent, y compris les zones Détails d’un enregistrement ou des formulaires de demande.
 
 ## Créer une connexion dépendante
 

@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 3%
 ---
 # Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements
@@ -168,11 +168,11 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
     * Lorsque vous envoyez un formulaire de demande à partir de la page d&#39;un type d&#39;enregistrement global secondaire, l&#39;enregistrement s&#39;affiche sur la page du type d&#39;enregistrement secondaire. Les utilisateurs verront également le nouvel enregistrement sur la page du type d’enregistrement principal, s’ils ont accès à l’espace de travail secondaire.
     * Lorsque vous soumettez un formulaire de demande à partir de la page type d&#39;enregistrement principal ou en utilisant toute autre méthode décrite dans cet article, les enregistrements s&#39;affichent dans la page type d&#39;enregistrement principal.
-    * Si le champ **&#x200B;**&#x200B;est disponible dans le formulaire de demande et que l’utilisateur choisit manuellement un espace de travail spécifique auquel ajouter l’enregistrement, l’enregistrement est enregistré dans cet espace, que le formulaire ait été sélectionné dans les pages de type d’enregistrement principal ou secondaire.
+    * Si le champ **** est disponible dans le formulaire de demande et que l’utilisateur choisit manuellement un espace de travail spécifique auquel ajouter l’enregistrement, l’enregistrement est enregistré dans cet espace, que le formulaire ait été sélectionné dans les pages de type d’enregistrement principal ou secondaire.
 
     </div>
 
-  Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <div class="preview">
 
@@ -220,6 +220,12 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >Le champ **Nom** est propre à votre organisation et peut afficher un libellé différent dans votre instance Workfront. Le champ est le champ principal de l’enregistrement.
 
 1. Mettez à jour les champs restants dans le formulaire de demande. Les champs avec un astérisque rouge sont obligatoires.
+
+   >[!TIP]
+   >
+   >Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
 1. (Conditionnel) Si votre entreprise autorise le **remplissage de formulaire** optimisé par l’IA, vous pouvez charger des documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire. Vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.
 
 
