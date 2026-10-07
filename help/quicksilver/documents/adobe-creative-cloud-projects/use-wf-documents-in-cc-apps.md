@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
+source-git-commit: 485b9a47cb2d5dee9dfbb77f3f6da76995df88ad
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '667'
 ht-degree: 3%
 ---
 # Utilisation de documents Workfront dans les applications Creative Cloud
@@ -84,9 +84,9 @@ Vous pouvez enregistrer un nouveau fichier dans Workfront ou une nouvelle copie 
 Pour enregistrer un nouveau document dans Workfront :
 
 1. Ouvrez Photoshop, Illustrator ou InDesign et créez un fichier .
-1. Si vous enregistrez un nouveau fichier, cliquez sur **Enregistrer** dans le menu supérieur.
-Ou
-Si vous enregistrez une nouvelle copie d’un fichier existant, cliquez sur **Enregistrer sous** dans le menu supérieur.
+1. Dans le menu supérieur, effectuez l’une des opérations suivantes :
+   * Pour enregistrer un nouveau fichier, cliquez sur **Enregistrer**.
+   * Pour enregistrer une nouvelle copie d’un fichier existant, cliquez sur **Enregistrer sous**.
 1. Dans la boîte de dialogue **Enregistrer sous**, sélectionnez **Enregistrer dans les documents cloud**, puis choisissez le projet Workfront dont vous avez besoin.
 
    >[!NOTE]
@@ -108,7 +108,7 @@ Vous pouvez ajouter une approbation de document dans Workfront à tout document 
 
 ## Gestion des versions d’un document dans Workfront à partir d’une application Creative Cloud
 
-Lorsque vous enregistrez un document à partir de Photoshop, Illustrator ou InDesign vers Workfront, les modifications que vous enregistrez apparaissent dans le fichier actuel sur l’onglet Versions et sont marquées d’un badge « Nouvelles modifications ».
+Lorsque vous enregistrez un document à partir de Photoshop, Illustrator ou InDesign vers Workfront, les modifications que vous enregistrez apparaissent dans le fichier actuel sur l’onglet Versions et sont marquées d’un badge « Nouvelles mises à jour ».
 
 Vous pouvez demander une approbation sur le fichier actuel plutôt que de charger une nouvelle version du document. Pour plus d&#39;informations, voir [Demander une approbation sur le fichier actuel](#request-approval-on-the-current-file).
 
