@@ -6,26 +6,31 @@ description: Vous pouvez budgétiser les ressources dans le planificateur de res
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
-ht-degree: 94%
-
+source-wordcount: '2121'
+ht-degree: 96%
 ---
-
 # Budgétiser des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle
 
 <!--
@@ -117,7 +122,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Cliquez sur le menu **Plus** du projet, puis sur **Définir les heures prévues des rôles comme budgété**.\
      Les heures budgétées de chaque rôle sont calculées à l’aide de la formule suivante :\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -130,9 +135,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Dans la colonne **BDG**, indiquez manuellement un nombre d’heures, l’équivalent temps complet ou les coûts prévus au budget pour le projet. Cette opération répartit le nombre d’heures budgétées du projet sur chaque rôle du projet. Les scénarios suivants sont possibles :
 
-      * Si le nombre d’heures budgétées du projet que vous indiquez est égal au nombre d’heures prévues du projet, le nombre d’heures prévues du projet correspond au nombre d’heures prévues du rôle.
-      * Si le nombre d’heures budgétées du projet que vous spécifiez n’est pas égal au nombre d’heures prévues du projet, le nombre d’heures prévues du projet est réparti en fonction du pourcentage de nombre d’heures prévues nécessaires pour chaque rôle.\
-        Par exemple, si le nombre d’heures prévues d’un projet est de 20 et que ces heures sont réparties entre deux fonctions (12 heures prévuees pour le consultant ou la consultante et 8 heures prévuees pour l’ingénieur ou l’ingénieure) et que vous budgétez 30 heures pour le projet, les heures sont réparties comme suit : le rôle de consultant ou conusltante reçoit 18 heures budgétées et le rôle d’ingénieur ou ingénieure reçoit 12 heures budgétées.
+     * Si le nombre d’heures budgétées du projet que vous indiquez est égal au nombre d’heures prévues du projet, le nombre d’heures prévues du projet correspond au nombre d’heures prévues du rôle.
+     * Si le nombre d’heures budgétées du projet que vous spécifiez n’est pas égal au nombre d’heures prévues du projet, le nombre d’heures prévues du projet est réparti en fonction du pourcentage de nombre d’heures prévues nécessaires pour chaque rôle.\
+       Par exemple, si le nombre d’heures prévues d’un projet est de 20 et que ces heures sont réparties entre deux fonctions (12 heures prévuees pour le consultant ou la consultante et 8 heures prévuees pour l’ingénieur ou l’ingénieure) et que vous budgétez 30 heures pour le projet, les heures sont réparties comme suit : le rôle de consultant ou conusltante reçoit 18 heures budgétées et le rôle d’ingénieur ou ingénieure reçoit 12 heures budgétées.
 
 1. Pour budgéter l’affectation du projet, effectuez l’une des opérations suivantes :
 
@@ -166,7 +171,7 @@ Vous devez disposer de l’accès Modifier à la gestion des ressources et aux d
 
 Pour plus d’informations sur l’accès nécessaire à l’établissement d’un budget pour des ressources, voir l’article [Accès nécessaire pour budgéter les ressources dans Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Pour budgéter les affectations dans le planificateur de ressources dans la&#x200B;**&#x200B;** vue Rôle, procédez comme suit :
+Pour budgéter les affectations dans le planificateur de ressources dans la**** vue Rôle, procédez comme suit :
 
 1. Cliquez sur l’icône **Menu principal** ![icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront.
 
@@ -187,8 +192,8 @@ Pour budgéter les affectations dans le planificateur de ressources dans la&#x20
    * Dans la colonne **BDG**, spécifiez manuellement un nombre d’heures, d’équivalent temps complet ou de coûts budgétés pour les fonctions.\
      Cette option répartit les heures budgétées du rôle sur les heures budgétées du projet pour les projets pour lesquels vous avez accès en gestion.
 
-   * Cliquez sur le menu **Plus** de la fonction, puis sur **Définir les heures prévues des projets comme budgétées.**&#x200B;Les heures budgétées du rôle sont calculées à l&#39;aide de la formule suivante :\
-     &#x200B;*
+   * Cliquez sur le menu **Plus** de la fonction, puis sur **Définir les heures prévues des projets comme budgétées.**Les heures budgétées du rôle sont calculées à l&#39;aide de la formule suivante :\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -224,8 +229,8 @@ Pour budgéter les affectations dans le planificateur de ressources dans la&#x20
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Cliquer sur **Enregistrer**.\
-   Une fois que vous avez budgété vos ressources dans le Planificateur de ressources, les heures budgétées pour vos ressources et tout coût associé à celles-ci sont répertoriés dans l&#39;Analyse de rentabilité de chaque projet.
-Pour plus d&#39;informations sur la compréhension de la zone de budgétisation des ressources de l&#39;Analyse de rentabilité, consultez l&#39;article [Budgétiser les ressources dans l&#39;Analyse de rentabilité](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Une fois que vous avez budgété vos ressources dans le planificateur de ressources, les heures budgétées de vos ressources et les coûts associés sont répertoriés dans le business case de chaque projet.
+   Pour plus d’informations sur la compréhension de la zone Établissement du budget de ressources du business case, voir l’article [Budgéter les ressources dans le business case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facultatif) Sélectionnez la vue **Afficher par utilisateur ou utilisatrice** pour remarquer toute suraffectation ou sous-utilisation des utilisateurs et utilisatrices entre les heures disponibles et prévues pour chaque personne. Les heures budgétées ne sont pas visibles dans la vue Afficher par utilisateur ou utilisatrice.
 

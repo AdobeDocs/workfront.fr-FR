@@ -7,27 +7,33 @@ description: Afficher les heures disponibles, prévues et effectives ou l'équiv
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 96%
-
 ---
-
 # Afficher les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources lors de l’utilisation de la vue utilisateur
 
 <!--
@@ -43,8 +49,8 @@ Tenez compte de ce qui suit lors de l’affichage des heures ou des informations
 * Vous pouvez afficher les heures disponibles et les heures prévues ou les informations de temps complet des personnes, des fonctions et des projets dans toutes les vues du planificateur de ressources.
 * Vous ne pouvez afficher les informations suivantes que dans la vue utilisateur :
 
-   * Différence entre le nombre d’heures prévue ou le temps complet et le nombre d’heures disponibles ou le temps complet. Vous pouvez ensuite budgéter l’affectation de vos personnes en fonction de cette différence dans les vues de projet et de rôle.
-   * Heures effectives ou temps complet.
+  * Différence entre le nombre d’heures prévue ou le temps complet et le nombre d’heures disponibles ou le temps complet. Vous pouvez ensuite budgéter l’affectation de vos personnes en fonction de cette différence dans les vues de projet et de rôle.
+  * Heures effectives ou temps complet.
 
 * Vous pouvez afficher la différence entre la personne disponible et le nombre d’heures prévues ou le temps complet sous la forme d’un nombre ou d’un pourcentage dans la vue utilisateur.
 * Vous ne pouvez pas afficher les informations dans la vue utilisateur par coût.
@@ -56,14 +62,14 @@ Tenez compte de ce qui suit lors de l’affichage des heures ou des informations
 * Workfront renseigne les heures effectives avec le temps effectif consigné dans les tâches et les problèmes par les personnes qui y sont affectées. Cela inclut le temps consigné sur un projet.
 * Dans la vue utilisateur, vous pouvez effectuer les opérations suivantes :
 
-   * Développer chaque personne de sorte à afficher la liste des projets auxquels elle est affectée.
+  * Développer chaque personne de sorte à afficher la liste des projets auxquels elle est affectée.
 
-     >[!NOTE]
-     >
-     >Seules les personnes associées aux projets inclus dans les filtres peuvent être développées.
+    >[!NOTE]
+    >
+    >Seules les personnes associées aux projets inclus dans les filtres peuvent être développées.
 
-   * Développer chaque projet pour afficher la liste des fonctions que la personne peut remplir sur ces projets.
-   * Développer chaque rôle de sorte à afficher la liste des tâches auxquelles la personne est affectée.
+  * Développer chaque projet pour afficher la liste des fonctions que la personne peut remplir sur ces projets.
+  * Développer chaque rôle de sorte à afficher la liste des tâches auxquelles la personne est affectée.
 
   Si aucune fonction n’est associée aux personnes, leurs heures disponibles, prévues et effectives ou leur temps complet sont répertoriés dans la section **Aucun rôle**.\
   Pour plus d’informations sur les champs et les éléments qui s’affichent lors de l’application de la vue utilisateur au planificateur de ressources, voir la section Projet/Rôle/Sélection de la vue utilisateur dans [Vue d’ensemble de la navigation dans le planificateur de ressources](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
@@ -152,17 +158,17 @@ Tenez compte des points suivants lors de l’affichage du nombre d’heures pré
 
 * Les catégories de tâches suivantes sont incluses dans le calcul du nombre d’heures prévues pour chaque ressource :
 
-   * Tâches affectées aux utilisateurs et utilisatrices dans les groupes de ressources, les fonctions ou les équipes du projet.
+  * Tâches affectées aux utilisateurs et utilisatrices dans les groupes de ressources, les fonctions ou les équipes du projet.
 
-     >[!TIP]
-     >
-     >Si des tâches sont affectées à des équipes, leur affectation apparaît sous les sections **Aucun rôle** et **Aucune personne**. Vous pouvez voir le nombre d’heures prévues associé aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni aucunpersonne n’a de tâches affectées.
+    >[!TIP]
+    >
+    >Si des tâches sont affectées à des équipes, leur affectation apparaît sous les sections **Aucun rôle** et **Aucune personne**. Vous pouvez voir le nombre d’heures prévues associé aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni aucunpersonne n’a de tâches affectées.
 
 * Le nombre d’heures prévues dans le planificateur de ressources n’inclut pas le nombre d’heures prévues associé aux éléments suivants :
 
-   * Tâches parent
-   * Tâches non affectées
-   * Problèmes, lorsque le paramètre **Inclure les heures des problèmes** est désactivé.
+  * Tâches parent
+  * Tâches non affectées
+  * Problèmes, lorsque le paramètre **Inclure les heures des problèmes** est désactivé.
 
 * Le nombre d’heure prévues ne s’affiche pas dans le planificateur de ressources si la durée de la tâche ou du problème est nulle.
 * Le nombre d’heures prévues associé aux utilisateurs et utilisatrices désactivés ne s’affiche pas.

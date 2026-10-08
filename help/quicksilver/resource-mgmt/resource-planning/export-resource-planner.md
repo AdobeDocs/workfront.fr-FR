@@ -6,25 +6,29 @@ description: Vous pouvez exporter des informations à partir de n’importe quel
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 85%
-
+source-wordcount: '599'
+ht-degree: 92%
 ---
-
 # Exporter des informations du planificateur de ressources
 
 Vous pouvez exporter des informations à partir de n’importe quelle vue du planificateur de ressources vers un fichier Excel (.xlsx) enregistré sur votre ordinateur.
@@ -94,26 +98,26 @@ Le **planificateur** s’affiche par défaut.
    * 36 mois
    * 12 trimestres
 
-   **Sélectionner pour exporter** : selon la vue sélectionnée, vous pouvez choisir d&#39;exporter les informations de disponibilité et de budgétisation pour tous les objets répertoriés à l&#39;écran ou pour des objets spécifiques.
-Vous pouvez choisir d’exporter les informations suivantes :
+   **Sélectionner pour exporter** : en fonction de la vue sélectionnée, vous pouvez choisir d’exporter les informations de disponibilité et de budgétisation pour tous les objets listés à l’écran ou pour certains d’entre eux seulement.
+   Vous pouvez choisir d’exporter les informations suivantes :
 
    * Dans la vue du projet, sélectionnez pour export :
 
-      * Projets
-      * Projets et rôles
-      * Tout (option par défaut)
+     * Projets
+     * Projets et rôles
+     * Tout (option par défaut)
 
    * Dans la vue de l’utilisateur ou l’utilisatrice, sélectionnez pour export :
 
-      * Utilisateurs et utilisatrices
-      * Utilisateurs et projets
-      * Tout (option par défaut)
+     * Utilisateurs et utilisatrices
+     * Utilisateurs et projets
+     * Tout (option par défaut)
 
    * Dans la vue Rôle, sélectionnez pour export :
 
-      * Rôles
-      * Rôles et projets
-      * Tout (option par défaut)
+     * Rôles
+     * Rôles et projets
+     * Tout (option par défaut)
 
    **Formatage des données** : selon la manière dont vous souhaitez afficher votre fichier Excel, sélectionnez les options suivantes :
 
@@ -125,7 +129,7 @@ Vous pouvez choisir d’exporter les informations suivantes :
 1. Cliquez sur **Export** pour exporter les informations du planificateur de ressources.\
    Seules les informations que vous avez enregistrées sont exportées.
 
-1. (Conditionnel) Si la vue Rôle ou Projet contient des heures budgétées non enregistrées, cliquez sur **Enregistrer et continuer.**
+1. (Le cas échéant) Si vous avez des heures budgétées non enregistrées dans les vues Rôle ou Projet, cliquez sur **Enregistrer et continuer.**
 Un fichier Excel (.xlsx) est téléchargé sur votre ordinateur.\
    L’export à partir du planificateur de ressources n’est pas disponible pendant que le fichier est préparé pour le téléchargement.\
    (Le cas échéant) Si vous exportez une grande quantité de données, vous recevez un e-mail contenant un lien qui vous permet de télécharger le fichier.\

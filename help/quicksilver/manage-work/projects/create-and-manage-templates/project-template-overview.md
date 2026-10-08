@@ -6,29 +6,37 @@ description: Vous pouvez utiliser des modèles de projet pour capturer la plupar
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 85%
-
 ---
-
 # Vue d’ensemble des modèles de projet
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ Voici quelques-uns des avantages de l’utilisation de modèles pour la créatio
 * C’est utile pour créer des rapports sur des projets. Par exemple, vous pouvez créer des rapports sur des projets qui partagent le même modèle, afin de comparer leur progression et de trouver des améliorations dans la manière dont ils pourraient être menés à bien.
 * En plus de définir les paramètres du futur projet, vous pouvez ajouter les informations suivantes pour le futur projet sur un modèle :
 
-   * Tâches
-   * Documents
-   * Approbations
-   * Détails de la file d&#39;attente
-   * Rubriques de file d&#39;attente
-   * Groupes de sujets
-   * Règles de routage
-   * Formulaires personnalisés
-   * Informations sur l’entreprise et le groupe
+  * Tâches
+  * Documents
+  * Approbations
+  * Détails de la file d&#39;attente
+  * Rubriques de file d&#39;attente
+  * Groupes de sujets
+  * Règles de routage
+  * Formulaires personnalisés
+  * Informations sur l’entreprise et le groupe
 
 ## Bonnes pratiques pour la création de modèles
 
@@ -71,8 +79,8 @@ Tenez compte des éléments suivants lors de la création de modèles :
 
   Pour plus d’informations sur la durée, voir les articles suivants :
 
-   * [Vue d’ensemble de la durée des tâches et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Vue d’ensemble de la durée du projet](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [Vue d’ensemble de la durée des tâches et du type de durée](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [Vue d’ensemble de la durée du projet](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   Pour plus d’informations sur le nombre d’heures prévues, voir [Vue d’ensemble des heures prévues](../../../manage-work/tasks/task-information/planned-hours.md).
 
@@ -89,8 +97,8 @@ Tenez compte des éléments suivants lors de la création de modèles :
 
 * Choisissez le stockage de documents à utiliser pour vos projets futurs. Certaines organisations ont accès aux types de stockage de documents suivants :
 
-   * Stockage Workfront hérité
-   * Espace de stockage Adobe
+  * Stockage Workfront hérité
+  * Espace de stockage Adobe
 
   L’ajout de documents varie en fonction du type de stockage choisi. Le type de stockage que vous choisissez pour vos modèles affecte le type de stockage dont hériteront les projets futurs.
 
@@ -98,8 +106,8 @@ Tenez compte des éléments suivants lors de la création de modèles :
 
   Pour plus d’informations, voir également :
 
-   * [Créer un modèle de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [Créer un modèle de projet](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Comment créer des modèles
 

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EXDQUUA9-OKoA8Yj3de1TnanFEgXfKPvP8ksBGChiSI
+TQID: 'https://experienceleague.adobe.com/EXDQUUA9-OKoA8Yj3de1TnanFEgXfKPvP8ksBGChiSI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,9 +19,9 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
-subfeature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
+subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
   - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
 source-wordcount: '1360'
 ht-degree: 62%
@@ -125,7 +125,7 @@ Bien que la planification Workfront fasse partie de Workfront, il s’accompagne
 
 Le cadre de la planification Workfront est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Pour plus d&#39;informations, voir Présentation de la terminologie de Workfront Planning[&#128279;](/help/quicksilver/planning/general/planning-terminology.md).
+Pour plus d&#39;informations, voir Présentation de la terminologie de Workfront Planning](/help/quicksilver/planning/general/planning-terminology.md).[
 
 <!--the content from this section was moved to the article linked above-->
 
@@ -186,7 +186,7 @@ Pour localiser la planification Workfront :
 
 <div class="preview">
 
-* [Présentation d’Adobe Workfront Planning CX Enterprise Coworker &#x200B;](/help/quicksilver/planning/general/planning-cx-coworker-overview.md) : interface de conversation dans laquelle vous décrivez un objectif en langage clair, puis planifiez, exécutez et validez le travail sur Workfront Planning et d’autres systèmes Adobe connectés avant de le ramener pour approbation. CX Enterprise Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience en plein écran et dans le rail de droite de Workfront.
+* [Présentation d’Adobe Workfront Planning CX Enterprise Coworker ](/help/quicksilver/planning/general/planning-cx-coworker-overview.md) : interface de conversation dans laquelle vous décrivez un objectif en langage clair, puis planifiez, exécutez et validez le travail sur Workfront Planning et d’autres systèmes Adobe connectés avant de le ramener pour approbation. CX Enterprise Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience en plein écran et dans le rail de droite de Workfront.
 
 </div>
 

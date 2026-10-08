@@ -6,26 +6,31 @@ description: Adobe Workfront peut générer une URL unique pour la vue Utilisat
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 90%
-
 ---
-
 # Partager la vue utilisateur ou utilisatrice du planificateur de ressources à l’aide d’un lien
 
 Adobe Workfront peut générer une URL unique pour la vue Utilisateur ou utilisatrice du planificateur de ressources que vous pouvez incorporer dans un tableau de bord en tant que page externe, ou ouvrir séparément dans un nouvel onglet du navigateur. Cela s’avère utile lors du partage des informations du planificateur de ressources avec les personnes qui ne disposent pas d’un accès direct à la zone Ressources.
@@ -72,9 +77,9 @@ Tenez compte de ce qui suit lors de la génération de l’URL unique pour la vu
   Elles doivent avoir accès à l’affichage d’autres personnes afin d’afficher les informations du planificateur de ressources à partir de l’URL que vous partagez avec elles.
 * Les informations suivantes sont enregistrées lorsque vous partagez l’URL avec d’autres personnes :
 
-   * Type de période (semaine, mois, trimestre).
-   * Filtres que vous appliquez.
-   * Type d’affichage (heures ou équivalent temps complet).
+  * Type de période (semaine, mois, trimestre).
+  * Filtres que vous appliquez.
+  * Type d’affichage (heures ou équivalent temps complet).
 
 Pour obtenir une URL unique dans la vue Utilisateur ou utilisatrice du planificateur de ressources et la partager avec d’autres personnes, procédez comme suit :
 
@@ -112,11 +117,11 @@ Pour obtenir une URL unique dans la vue Utilisateur ou utilisatrice du planifica
      </MadCap:conditionalText>   
      -->
 
-      1. Accédez à **Rapports** > **Tableaux de bord** > **Nouveau tableau de bord** > **Ajouter une page externe**.
+     1. Accédez à **Rapports** > **Tableaux de bord** > **Nouveau tableau de bord** > **Ajouter une page externe**.
 
-      1. Collez le lien que vous avez copié dans le presse-papiers dans le champ **URL**.
-      1. Cliquez sur **Enregistrer**, puis sur **Enregistrer et fermer**.\
-         L’URL est alors incorporée dans le tableau de bord. La vue Utilisateur ou utilisatrice du planificateur de ressources s’affiche dans un tableau de bord distinct.
+     1. Collez le lien que vous avez copié dans le presse-papiers dans le champ **URL**.
+     1. Cliquez sur **Enregistrer**, puis sur **Enregistrer et fermer**.\
+        L’URL est alors incorporée dans le tableau de bord. La vue Utilisateur ou utilisatrice du planificateur de ressources s’affiche dans un tableau de bord distinct.
 
 1. (Facultatif) Si vous avez incorporé l’URL dans un tableau de bord, pensez à l’ajouter à un modèle de mise en page ou à la partager avec d’autres utilisateurs et utilisatrices qui n’ont peut-être pas accès à la zone de gestion des ressources.\
    Pour plus d’informations sur l’ajout de tableaux de bord à un modèle de mise en page, consultez [Créer et gérer des modèles de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\

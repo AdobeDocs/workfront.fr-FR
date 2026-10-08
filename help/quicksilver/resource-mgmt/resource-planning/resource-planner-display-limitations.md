@@ -7,22 +7,24 @@ description: Pour améliorer les performances, Adobe Workfront limite la quanti
 author: Lisa
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
-TQID: https://experienceleague.adobe.com/5ztX-x5EsELkZ-BvYjQIhWEGIGt3QVMj4bSiuJTqSeE
+TQID: 'https://experienceleague.adobe.com/5ztX-x5EsELkZ-BvYjQIhWEGIGt3QVMj4bSiuJTqSeE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: '948'
 ht-degree: 99%
-
 ---
-
 # Limites d’affichage du planificateur de ressources
 
 Pour améliorer les performances, Adobe Workfront limite la quantité d’informations que vous pouvez afficher, ainsi que la quantité d’informations que vous pouvez exporter à partir du planificateur de ressources.
@@ -84,9 +86,9 @@ Tenez compte des points suivants lorsque vous appliquez la vue utilisateur au pl
 
 * Vous pouvez afficher l’ensemble des utilisateurs et utilisatrices répondant aux critères suivants :
 
-   * Vous disposez d’un accès en affichage.
-   * Ils sont actifs.
-   * Ils ont réalisé au moins une connexion.
+  * Vous disposez d’un accès en affichage.
+  * Ils sont actifs.
+  * Ils ont réalisé au moins une connexion.
 
 * Vous pouvez développer chaque utilisateur ou utilisatrice pour afficher les projets qui lui sont associés, et chaque projet pour afficher les rôles qui lui sont associés.\
   Les 50 premiers projets et rôles s’affichent par défaut. Vous pouvez utiliser l’option Charger plus pour afficher d’autres projets ou rôles.

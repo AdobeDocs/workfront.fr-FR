@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
-ht-degree: 89%
-
+source-wordcount: '2870'
+ht-degree: 88%
 ---
-
 # Gérer les affectations des utilisateurs et utilisatrices dans l’équilibreur de charge de travail
 
 <!-- Audited: 01/2024 -->
@@ -105,7 +109,7 @@ Tenez compte des points suivants lorsque vous localisez des affectations quotidi
 
   >[!INFO]
   >
-  > Par exemple, une tâche peut avoir une durée de 2 jours et 2 heures prévues et une heure de début prévue de 12 :00 le premier jour de la durée avec un utilisateur et un planning de projet qui se termine à 17 heures. La capacité de l’utilisateur ou de l’utilisatrice pour le premier jour est de 5 heures. La capacité de l’utilisateur ou de l’utilisatrice pour le deuxième jour est de 8 heures (si le planning commence à 9 h 00).
+  > Par exemple, une tâche peut avoir une durée de 2 jours et 2 heures planifiées et une heure de début planifiée à 12 h le premier jour de la durée avec un utilisateur et un planning de projet qui se termine à 17 h. La capacité de l’utilisateur ou de l’utilisatrice pour le premier jour est de 5 heures. La capacité de l’utilisateur ou de l’utilisatrice pour le deuxième jour est de 8 heures (si le planning commence à 9 h 00).
   >
   >Workfront calcule l’affectation des 2 heures sur les 2 jours de la durée à l’aide de la formule suivante :
   >
@@ -127,15 +131,15 @@ Tenez compte des points suivants lorsque vous localisez des affectations quotidi
   >
   >Si les congés ont été marqués après l’affectation de l’utilisateur ou de l’utilisatrice à un élément de travail, vous devez recalculer la chronologie du projet pour afficher l’affectation déplacée. Pour plus d’informations, voir [Recalculer la chronologie du projet](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Lorsque plusieurs utilisateurs sont affectés à une tâche et que la personne désignée principale a prévu des congés, la chronologie est décalée (si les dates ne sont pas fixes) et les heures prévues de toutes les personnes désignées sont redistribuées sur la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n’est pas modifiée en raison des congés et les heures sont réaffectées parmi les jours restants.
-   * Si les allocations sont effectuées manuellement, les heures planifiées ne sont pas réaffectées après les congés.
+  * Lorsque plusieurs utilisateurs sont affectés à une tâche et que la personne désignée principale a prévu des congés, la chronologie est décalée (si les dates ne sont pas fixes) et les heures prévues de toutes les personnes désignées sont redistribuées sur la nouvelle durée de la tâche. Si la tâche comporte des dates fixes, la chronologie n’est pas modifiée en raison des congés et les heures sont réaffectées parmi les jours restants.
+  * Si les allocations sont effectuées manuellement, les heures planifiées ne sont pas réaffectées après les congés.
 
 * Si plusieurs utilisateurs et utilisatrices sont affectés à la tâche, le nombre d’heures prévues est réparti uniformément d’abord entre chaque personne, puis uniformément sur chaque jour pour toute la durée de la tâche. Cette répartition devient l’affectation de chaque personne à la tâche.
 
   Par exemple, vous pouvez rencontrer les scénarios suivants :
 
-   * Pour une tâche d’une durée de 2 jours avec un nombre d’heures prévues de 10 heures affectée à un utilisateur ou utilisatrice, l’affectation quotidienne par défaut à l’utilisateur ou utilisatrice est de 5 heures pour chaque jour.
-   * Pour une tâche d’une durée de 2 jours avec un nombre d’heures prévues de 10 heures affectée à deux personnes, l’affectation quotidienne par défaut à chaque personne est de 2,5 heures pour chaque jour.
+  * Pour une tâche d’une durée de 2 jours avec un nombre d’heures prévues de 10 heures affectée à un utilisateur ou utilisatrice, l’affectation quotidienne par défaut à l’utilisateur ou utilisatrice est de 5 heures pour chaque jour.
+  * Pour une tâche d’une durée de 2 jours avec un nombre d’heures prévues de 10 heures affectée à deux personnes, l’affectation quotidienne par défaut à chaque personne est de 2,5 heures pour chaque jour.
 
 * Si une tâche ou un problème se termine avant la date d’achèvement prévue, le nombre d’heures affectées pour les jours restants est supprimé et ne compte pas dans l’affectation globale de l’utilisateur ou de l’utilisatrice. Cette option s’affiche uniquement lorsque l’icône Afficher les affectations et le paramètre Afficher les dates prévisionnelles sont activés. Pour plus d’informations sur l’activation des paramètres dans l’équilibreur de charge de travail, voir [Parcourir l’équilibreur de charge de travail](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -285,8 +289,8 @@ Cela est possible lorsque les conditions suivantes sont réunies :
 
 * Vous disposez des autorisations et de l’accès appropriés pour gérer le nombre d’heures prévues à partir de l’équilibreur de charge de travail. Notamment ce qui suit :
 
-   * Autorisations de gestion sur les tâches.
-   * Mettez à jour le nombre d’heures prévues dans l’accès de l’équilibreur de charge de travail dans la zone Gestion des ressources de votre niveau d’accès.
+  * Autorisations de gestion sur les tâches.
+  * Mettez à jour le nombre d’heures prévues dans l’accès de l’équilibreur de charge de travail dans la zone Gestion des ressources de votre niveau d’accès.
 
   Pour plus d’informations sur l’accès nécessaire à l’utilisation de l’équilibreur de charge de travail, voir la section [Conditions d’accès](#access-requirements) dans cet article.
 

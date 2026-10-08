@@ -6,25 +6,29 @@ description: Les projets sont répertoriés par ordre de priorité dans le plani
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-TQID: https://experienceleague.adobe.com/M7y0pio0qMZt2zlJ7IHQ-6MaEKFyEqlKvocNzASL5go
+TQID: 'https://experienceleague.adobe.com/M7y0pio0qMZt2zlJ7IHQ-6MaEKFyEqlKvocNzASL5go'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 93%
-
 ---
-
 # Définir la priorité des projets dans le planificateur de ressources
 
 Les projets sont répertoriés par ordre de priorité dans le planificateur de ressources ; le projet le plus important apparaît en premier.
@@ -120,7 +124,7 @@ Pour modifier la priorité de planification de projet :
 >
 >Votre société doit disposer d’un package Prime ou d’un package Workfront supérieur pour donner la priorité aux projets dans Portfolio Optimizer.
 >
->Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/fr/products/workfront/pricing.html).
+>Pour plus d’informations sur les packages Workfront, voir [Packages Adobe Workfront et tarification](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Pour plus d’informations sur la hiérarchisation des projets dans l’optimisateur de portfolio, voir [Hiérarchiser des projets dans l’optimisateur de portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
@@ -132,7 +136,7 @@ Pour modifier la priorité de planification de projet :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Priorité &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorité ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Les priorités de portfolio des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 
@@ -152,7 +156,7 @@ Pour modifier la priorité de planification de projet :
 
 La priorité de planification de projet affecte les heures disponibles pour les utilisateurs et utilisatrices. Les personnes associées au projet dont la priorité est la plus élevée affichent la disponibilité complète de la colonne Heures disponibles (AVL) pour ce projet, en fonction de leurs plannings.
 
-Les mêmes personnes associées au deuxième projet par ordre de priorité afficheront une valeur Heures disponibles, à savoir la différence entre le nombre total des heures disponibles et ce qui a déjà été budgété pour le premier projet de la colonne Heures budgétées, etc. Pour plus d’informations sur la budgétisation des ressources dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et Fonctions](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Les mêmes personnes associées au deuxième projet par ordre de priorité afficheront une valeur Heures disponibles, à savoir la différence entre le nombre total des heures disponibles et ce qui a déjà été budgété pour le premier projet de la colonne Heures budgétées, etc. Pour plus d’informations sur la budgétisation des ressources dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Si aucune heure n’a été budgétée pour le premier projet (par ordre de priorité) pour une personne, mais que des heures ont été budgétées pour le deuxième projet pour la même personne, la personne affichera la totalité des heures disponibles pour les deux projets.
 
