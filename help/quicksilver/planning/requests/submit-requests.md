@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 3%
 ---
 # Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements
@@ -220,6 +220,12 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >Le champ **Nom** est propre à votre organisation et peut afficher un libellé différent dans votre instance Workfront. Le champ est le champ principal de l’enregistrement.
 
 1. Mettez à jour les champs restants dans le formulaire de demande. Les champs avec un astérisque rouge sont obligatoires.
+
+   >[!TIP]
+   >
+   >Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
 1. (Conditionnel) Si votre entreprise autorise le **remplissage de formulaire** optimisé par l’IA, vous pouvez charger des documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire. Vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.
 
 
