@@ -136,7 +136,7 @@ Pour modifier la priorité de planification de projet :
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Priorité ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorité &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Les priorités de portfolio des projets s’affichent uniquement dans la vue Projet du planificateur de ressources.
 
@@ -156,7 +156,7 @@ Pour modifier la priorité de planification de projet :
 
 La priorité de planification de projet affecte les heures disponibles pour les utilisateurs et utilisatrices. Les personnes associées au projet dont la priorité est la plus élevée affichent la disponibilité complète de la colonne Heures disponibles (AVL) pour ce projet, en fonction de leurs plannings.
 
-Les mêmes personnes associées au deuxième projet par ordre de priorité afficheront une valeur Heures disponibles, à savoir la différence entre le nombre total des heures disponibles et ce qui a déjà été budgété pour le premier projet de la colonne Heures budgétées, etc. Pour plus d’informations sur la budgétisation des ressources dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Les mêmes personnes associées au deuxième projet par ordre de priorité afficheront une valeur Heures disponibles, à savoir la différence entre le nombre total des heures disponibles et ce qui a déjà été budgété pour le premier projet de la colonne Heures budgétées, etc. Pour plus d’informations sur la budgétisation des ressources dans le planificateur de ressources, voir [Ressources de budget dans le planificateur de ressources à l’aide des vues Projet et &#x200B;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Si aucune heure n’a été budgétée pour le premier projet (par ordre de priorité) pour une personne, mais que des heures ont été budgétées pour le deuxième projet pour la même personne, la personne affichera la totalité des heures disponibles pour les deux projets.
 
