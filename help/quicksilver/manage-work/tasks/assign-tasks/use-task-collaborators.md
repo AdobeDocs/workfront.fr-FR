@@ -1,7 +1,7 @@
 ---
 title: Utiliser des agents de travail
 content-type: reference
-description: Découvrez comment utiliser des agents de travail, des collaborateurs de l’IA qui peuvent être affectés à des tâches Workfront.
+description: Découvrez comment utiliser des agents de travail, des collaborateurs de l’IA qui peuvent être affectés à des tâches, des problèmes et des demandes Workfront.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 3%
 ---
 # Utiliser des agents de travail
 
 {{preview-fast-release-general}}
 
-Les agents de travail sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches et des événements Workfront. Comme les autres collaborateurs de l’IA, les agents de travail sont configurés dans la zone Configuration et affectés aux tâches comme un utilisateur.
+Les agents de travail sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches, des événements et des demandes Workfront. Comme les autres collaborateurs de l’IA, les agents de travail sont configurés dans la zone Configuration et affectés à des tâches comme un utilisateur.
 
 Les agents de travail se connectent aux agents que vous avez configurés dans Copilot Studio, Claude, Writer, <span class="preview">OpenAI ou IBM. </span>
 
@@ -33,7 +33,7 @@ Les agents de travail se connectent aux agents que vous avez configurés dans Co
 >
 >Writer rend obsolète l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront pas après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez la section [ Migration et obsolescence de la bibliothèque d’agents ](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 Pour plus d’informations et d’instructions sur la création d’un agent de travail dans Workfront, consultez [Configurer un agent de travail](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) dans l’article Configuration des collaborateurs de l’IA.
 
@@ -125,13 +125,13 @@ Les situations suivantes ne provoquent pas le début du travail de l’agent de 
 * Un agent de travail est affecté à une tâche à laquelle un agent de travail est déjà affecté. Dans ce cas, le premier agent de travail affecté aura déjà commencé le travail, et le second agent de travail ne fera rien.
 * Un agent de travail est affecté à une tâche qui n&#39;est pas prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci ne sont pas encore terminés.)
 
-## Affecter un agent de travail à une tâche <span class="preview">ou à un événement</span>
+## Affecter un agent de travail à une tâche, un problème ou une demande
 
-Les agents de travail sont affectés à des tâches <span class="preview">ou à des événements</span> de la même manière que les utilisateurs sont affectés.
+Les agents de travail sont affectés à des tâches, des événements ou des demandes de la même manière que les utilisateurs sont affectés.
 
 Lorsque vous recherchez un agent de travail dans la liste des cessionnaires disponibles, le nom de l&#39;agent de travail est un prénom uniquement.
 
-Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) et [Gérer les demandes de travail et d’équipe](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >
