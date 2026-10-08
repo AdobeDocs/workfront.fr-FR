@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 71%
+source-wordcount: '2755'
+ht-degree: 70%
 ---
 # Ajout de champs calculés à un formulaire
 
@@ -118,7 +118,7 @@ Pour réutiliser un champ personnalisé calculé existant :
 1. Dans la boîte de dialogue **Nouveau formulaire personnalisé**, sélectionnez les types d’objets auxquels vous souhaitez joindre le formulaire personnalisé, puis cliquez sur **Continuer**.
 1. Dans le coin supérieur gauche de l’écran, cliquez sur **Bibliothèque de champs**.
 
-   ![&#x200B; Bibliothèque de champs &#x200B;](assets/field-library.png)
+   ![ Bibliothèque de champs ](assets/field-library.png)
 
 1. Utilisez la zone de recherche ou développez la section **Calculé** pour localiser le champ calculé dont vous avez besoin, puis faites glisser le champ où vous souhaitez qu’il apparaisse dans le formulaire personnalisé.
 
@@ -356,7 +356,7 @@ Pour réutiliser un champ personnalisé calculé existant :
     <tbody> 
      <tr> 
       <td role="rowheader">Ajouter une logique</td> 
-      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche, en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Ajouter des règles de logique aux formulaires et champs personnalisés</a>. <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé sur le formulaire. </p> <p>Ignorer la logique et les autres types de logique ne sont pas disponibles pour les champs calculés personnalisés.</p> </td> 
+      <td>Vous pouvez ajouter la logique d’affichage pour déterminer si le champ calculé s’affiche, en fonction d’au moins un choix effectué par un utilisateur dans un champ à choix multiples précédent (liste déroulante, cases à cocher ou boutons radio) lors du remplissage du formulaire. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Ajouter des règles de logique aux formulaires et champs personnalisés</a>. <p>Cette option est disponible uniquement lorsqu’au moins une case à cocher, un bouton radio ou un champ déroulant précède le champ personnalisé calculé sur le formulaire. </p> <p>Ignorer la logique et les autres types de logique ne sont pas disponibles pour les champs calculés personnalisés.</p> <p><b>Remarque :</b> les champs personnalisés masqués par la logique d’affichage conservent leurs valeurs et sont toujours inclus dans des expressions telles que CONCAT.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mettre à jour des calculs précédents</td> 
