@@ -8,25 +8,30 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+TQID: 'https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 6542
-ht-degree: 93%
-
+source-wordcount: '7192'
+ht-degree: 96%
 ---
-
 # Afficher des informations sur l’utilisation des ressources {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
@@ -151,7 +156,7 @@ Les informations suivantes sont disponibles dans le rapport d’utilisation lors
    <td scope="col"><strong>Heures budgétées</strong> </td> 
    <td scope="col"> <p>Le nombre total d’heures budgétées sur les projets inclus. Vous pouvez afficher le total des heures budgétées pour la durée totale des projets inclus ou afficher le total des heures budgétées uniquement pour la période spécifiée (vous pouvez indiquer une semaine ou un mois spécifique). </p> <p>Les heures budgétées sont renseignées à partir des informations disponibles dans la zone Établissement du budget de ressources du business case ou du planificateur de ressources<em>.</em></p> <p>Les heures budgétées apparaissent dans le rapport d’utilisation dans l’une des lignes suivantes :</p> 
     <ul> 
-     <li> Les heures budgétées sont synthétisées par fonction et par utilisateur dans l'état Utilisation, comme suit : <br><strong>Utilisateur individuel :</strong> les heures budgétées sont synthétisées pour chaque utilisateur dans l'état Utilisation. Ces heures budgétées sont associées aux tâches et aux événements auxquels l'utilisateur est affecté dans les projets inclus. (Vous pouvez développer la ligne de la fonction correspondante pour afficher la liste des utilisateurs disposant de cette fonction.)<br><strong>Fonction : </strong> les heures budgétées sont résumées par fonction dans le rapport d’utilisation.<br>Les heures budgétées apparaissent dans une fonction particulière suite à l’un des scénarios suivants :
+     <li> Les heures budgétées sont résumées par fonction et par personne individuelle dans le rapport d’utilisation, comme suit : <br><strong>Personne individuelle :</strong> les heures budgétées sont résumées pour chaque personne dans le rapport d’utilisation. Ces heures budgétées sont associées aux tâches et problèmes auxquels la personne est affectée sur les projets inclus. (Vous pouvez développer la ligne de la fonction correspondante pour afficher la liste des utilisateurs disposant de cette fonction.)<br><strong>Fonction : </strong> les heures budgétées sont résumées par fonction dans le rapport d’utilisation.<br>Les heures budgétées apparaissent dans une fonction particulière en tant que résultat de l’un des scénarios suivants :
      <ul>
      <li>La fonction est définie comme la fonction principale de la personne affectée à la tâche ou au problème auquel les heures budgétées sont associées. </li> 
        <li>Lorsque vous affichez des informations d’utilisation pour un seul projet, la fonction de la personne à laquelle les heures sont affectées est utilisée, qu’il n’y ait aucune affectation sur la tâche ou le problème, qu’une autre personne soit affectée sans affectation de fonction, qu’une autre personne soit affectée avec une fonction différente ou qu’une autre équipe soit affectée.</li> 
@@ -167,7 +172,7 @@ Les informations suivantes sont disponibles dans le rapport d’utilisation lors
    <td scope="col"><strong>Nombre d’heures prévues</strong> </td> 
    <td scope="col">
 <p>
-Heures planifiées dans les projets inclus qui sont associées aux affectations pour chaque tâche et événement. Vous pouvez afficher le nombre total d'heures prévues de toutes les affectations du projet pour la durée de vie globale des projets inclus, ou vous pouvez afficher le nombre total d'heures prévues uniquement pour la période spécifiée (vous pouvez spécifier une semaine ou un mois spécifique).
+Nombre d’heures prévues sur les projets inclus associés aux affectations pour chaque tâche et chaque problème. Vous pouvez afficher le nombre total d’heures prévues de toutes les affectations sur le projet pour la durée totale des projets inclus ou afficher le nombre total d’heures prévues uniquement pour la période spécifiée (une semaine ou un mois spécifique).
 </p>
 <p>
 <strong>CONSEIL</strong>
@@ -196,7 +201,7 @@ Le nombre d’heures prévues est indiqué dans le rapport d’utilisation de l�
 
 <li><strong>Personne individuelle</strong> : le nombre d’heures prévues est résumé pour chaque personne dans le rapport d’utilisation. Ce nombre d’heures prévues est associé aux tâches et aux problèmes auxquels la personne est affectée sur les projets inclus. (Vous pouvez développer la ligne de la fonction correspondante pour afficher la liste des personnes ayant cette fonction.)
 
-<li><strong>Fonction</strong> : les heures planifiées sont résumées par fonction dans le rapport d’utilisation d’un projet unique.<br>Les heures planifiées apparaissent dans une fonction particulière en raison de l’un des scénarios suivants :  
+<li><strong>Fonction</strong> : le nombre d’heures prévues est résumé par fonction dans le rapport d’utilisation d’un seul projet.<br>Le nombre d’heures prévues apparaît dans une fonction particulière en tant que résultat de l’un des scénarios suivants :  
 <ul>
 
 <li>La fonction est définie comme la fonction principale de la personne affectée à la tâche ou au problème auquel le nombre d’heures prévues est associé.
@@ -220,7 +225,7 @@ Le nombre d’heures prévues est indiqué dans le rapport d’utilisation de l�
 </li>  
 </ul>
 
-<li><strong>Heures non allouées</strong> : les heures planifiées sont affichées dans le rapport d’utilisation dans la section Heures non allouées lorsque les heures planifiées sont associées à une tâche ou à un événement et qu’aucun utilisateur ou rôle n’est affecté à la tâche ou à l’événement. Cette section s'affiche uniquement lorsque des heures du projet correspondent à cette description et lors de l'affichage du rapport Utilisation pour un seul projet. <br>Pour plus d’informations sur les heures prévues, voir <a href="../../manage-work/tasks/task-information/planned-hours.md">Présentation des heures prévues</a>.
+<li><strong>Heures non allouées</strong> : le nombre d’heures prévues s’affiche dans le rapport d’utilisation de la section Heures non allouées lorsque le nombre d’heures prévues est associé à une tâche ou à un problème et qu’aucune personne ou aucun ou rôle n’est attribué à la tâche ou au problème. Cette section s’affiche uniquement lorsque des heures sur le projet correspondent à cette description et lors de l’affichage du rapport d’utilisation pour un seul projet. <br>Pour plus d’informations sur le nombre d’heures prévues, voir <a href="../../manage-work/tasks/task-information/planned-hours.md">Vue d’ensemble du nombre d’heures prévues</a>.
 </li> 
 </ul>
 </li> 
@@ -230,7 +235,7 @@ Le nombre d’heures prévues est indiqué dans le rapport d’utilisation de l�
    <td><strong>Heures effectives</strong> </td> 
    <td> <p> Nombre total d’heures consigné pour les tâches, les problèmes <span>et le projet</span> pour les projets inclus. Vous pouvez afficher le nombre total d’heures effectives pour la durée totale des projets inclus ou afficher le nombre total d’heures effectives uniquement pour la période spécifiée (une semaine ou un mois spécifique). </p> <p><strong>Avertissement :</strong> le rapport d’utilisation inclut les heures enregistrées dans le projet, les tâches enfants, les problèmes et les tâches parents qui ont au moins une affectation. Il n’inclut pas les heures consacrées aux tâches parents sans affectation. Nous vous recommandons de ne pas utiliser de tâches parents comme tâches de travail et d’affecter uniquement des tâches enfants à vos ressources. </p> <p>Les heures effectives sont indiquées dans le rapport d’utilisation de l’une des lignes suivantes :</p> 
     <ul> 
-     <li> Les heures réelles sont résumées par fonction et par utilisateur dans le rapport d’utilisation d’un projet, comme suit : <br><strong>Utilisateur individuel :</strong> les heures réelles sont affichées dans le rapport d’utilisation dans la ligne de l’utilisateur qui a enregistré les heures. (Vous pouvez développer la ligne de la fonction correspondante pour afficher la liste des utilisateurs disposant de cette fonction qui ont enregistré des heures.)<br><strong>Fonction :</strong> les heures réelles enregistrées par les utilisateurs associés à ces rôles sont résumées dans le rapport d’utilisation sur la ligne de la fonction correspondante.<br>Les heures réelles apparaissent dans une fonction particulière suite à l’un des scénarios suivants : 
+     <li> Les heures effectives sont résumées par fonction et par personne dans le rapport d’utilisation d’un projet, comme suit :<br><strong>Personne individuelle :</strong> les heures effectives s’affichent dans le rapport d’utilisation de la ligne de la personne qui a consigné les heures. (Vous pouvez développer la ligne de la fonction correspondante pour afficher la liste des utilisateurs disposant de cette fonction qui ont enregistré des heures.)<br><strong>Fonction : </strong> Les heures réelles enregistrées par les utilisateurs associés à ces rôles sont résumées dans le rapport d’utilisation sur la ligne de la fonction correspondante.<br>Les heures effectives apparaîssent dans une fonction particulière en tant que résultat de l’un des scénarios suivants : 
       <ul> 
        <li>La fonction est définie comme fonction principale de la personne qui a consigné les heures.</li> 
        <li>Il n’y a pas d’affectation de la tâche ou du problème.</li> 
@@ -334,7 +339,7 @@ Pour plus d’informations sur les champs spécifiques et sur la façon dont Wor
       <p>Si le projet comporte une tâche de 10 heures, affectée à une personne externe au taux horaire de 20 $ et que le projet a des revenus fixes de 100 $, le rapport d’utilisation affiche 200 $ pour les revenus prévus (les revenus prévus associés aux heures de la tâche). La section Détails du projet affiche 300 $ (les revenus prévus de la tâche et les revenus fixes du projet). </p> 
      </div> <p>Pour plus d’informations sur les revenus prévus pour les tâches et les projets en dehors du rapport d’utilisation, consultez la <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Vue d’ensemble de la facturation et des revenus</a>.</p> </p> <p>Dans le rapport d’utilisation, le mode de calcul et d’affichage des revenus prévus pour les projets inclus prend en compte le type de revenu défini sur la tâche. </p> <p>Selon le type de revenu de chaque tâche du projet, les scénarios suivants existent : </p> <p><strong>Revenus fixes :</strong> quelles que soient les affectations de la tâche, les revenus de celle-ci sont toujours calculés à l’aide du montant fixe spécifié pour la tâche.</p> <p><b>IMPORTANT</b>
 
-Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus prévus pour les tâches de revenus fixes en divisant les revenus fixes de manière égale par le nombre d’heures prévues de la tâche. </p> <p>Prenons l’exemple d’une tâche affichant des revenus de 200 $. Si la tâche comporte 4 heures prévues, chaque heure correspond à 50 $. Ce montant est réparti au niveau de la personne et de la fonction. Cette répartition est propre au rapport d’utilisation.</p> <p><b>NOTE</b>
+Contrairement à d’autres zones de Workfront, le rapport d’utilisation calcule les revenus prévus pour les tâches de revenus fixes en divisant les revenus fixes de manière égale par le nombre d’heures prévues de la tâche. </p> <p>Prenons l’exemple d’une tâche affichant des revenus de 200 $. Si la tâche comporte 4 heures prévues, chaque heure correspond à 50 $. Ce montant est réparti au niveau de la personne et d. Cette répartition est propre au rapport d’utilisation.</p> <p><b>NOTE</b>
 
 Si vous avez une tâche de revenus fixes et qu’il n’y a pas d’heures prévues pour la tâche, les revenus ne s’affichent pas dans le rapport d’utilisation, car il n’existe aucun moyen de les répartir en heures. Si la tâche comporte des heures prévues, des revenus fixes et aucune affectation, les revenus s’affichent sous la forme de revenus non affectés. </p> <p><strong>Rôle par heure :</strong> les revenus de la tâche sont calculés à l’aide du taux de facturation défini pour un rôle spécifique, multiplié par le nombre d’heures prévues pour ce rôle. Workfront utilise la formule suivante :</p> <p><code>Revenus prévus du rôle par heure = SOMME(heures prévues du rôle sur toutes les tâches) * taux de facturation du rôle</code></p><p><b>NOTE :</b> le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</p>   <p><strong>Personne, par heure :</strong> les revenus de la tâche sont calculés selon le taux de facturation défini pour une personne donnée, multiplié par le nombre d’heures prévues pour cette personne. Workfront utilise la formule suivante :</p> <p><code>Revenus prévus de la personne par heure = SOMME(heures prévues de la personne sur toutes les tâches) * taux de facturation de la personne</code> </p> <p><b>REMARQUE :</b> le taux de facturation horaire dans la formule prend en compte toute modification du taux en vigueur à la date.</p> <p><b>Rôle par heure ou Personne, par heure plus fixe</b> </p> <p><b>IMPORTANT</b>
 
@@ -459,37 +464,37 @@ Pour suivre la progression ou le coût d’un ou de plusieurs projets avec un ra
 
    * Pour afficher les informations d’utilisation d’un seul projet :
 
-      1. Accédez au projet pour lequel vous souhaitez afficher des informations d’utilisation, puis cliquez sur **Utilisation** dans le panneau de gauche.
-      1. Les informations d’utilisation s’affichent automatiquement lors de l’affichage d’un projet individuel, et l’application d’un filtre n’est pas obligatoire.\
-         Si vous souhaitez filtrer le rapport d’utilisation, vous pouvez appliquer un filtre, puis cliquer sur **Exécuter**.\
-         Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
-         Les informations d’utilisation s’affichent pour les utilisateurs et utilisatrices et les rôles individuels (les utilisateurs et utilisatrices sont regroupés dans le rôle qui leur est associé).
+     1. Accédez au projet pour lequel vous souhaitez afficher des informations d’utilisation, puis cliquez sur **Utilisation** dans le panneau de gauche.
+     1. Les informations d’utilisation s’affichent automatiquement lors de l’affichage d’un projet individuel, et l’application d’un filtre n’est pas obligatoire.\
+        Si vous souhaitez filtrer le rapport d’utilisation, vous pouvez appliquer un filtre, puis cliquer sur **Exécuter**.\
+        Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
+        Les informations d’utilisation s’affichent pour les utilisateurs et utilisatrices et les rôles individuels (les utilisateurs et utilisatrices sont regroupés dans le rôle qui leur est associé).
 
    * Pour afficher les informations d’utilisation de plusieurs projets :
 
      {{step1-to-utilization-report}}
 
-      1. Appliquez un filtre au rapport Utilisation, puis cliquez sur **Exécuter**.
-Vous devez spécifier un ou plusieurs projets dans le filtre avant d&#39;exécuter le rapport Utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, voir [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
-         Les informations d’utilisation s’affichent pour les rôles et les projets individuels (les rôles sont regroupés dans le projet qui leur est associé).
+     1. Appliquez un filtre au rapport d’utilisation, puis cliquez sur **Exécuter**.
+        Vous devez spécifier un ou plusieurs projets dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
+        Les informations d’utilisation s’affichent pour les rôles et les projets individuels (les rôles sont regroupés dans le projet qui leur est associé).
 
    * Pour afficher les informations d’utilisation d’un programme :
 
      {{step1-to-utilization-report}}
 
-      1. Cliquez sur **Afficher** > **Programmes**.
-      1. Appliquez un filtre au rapport d’utilisation, puis cliquez sur **Exécuter**.\
-         Vous devez spécifier un ou plusieurs programmes dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
-         Les informations d’utilisation s’affichent pour les projets et programmes individuels (les projets sont regroupés dans le programme qui leur est associé).
+     1. Cliquez sur **Afficher** > **Programmes**.
+     1. Appliquez un filtre au rapport d’utilisation, puis cliquez sur **Exécuter**.\
+        Vous devez spécifier un ou plusieurs programmes dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
+        Les informations d’utilisation s’affichent pour les projets et programmes individuels (les projets sont regroupés dans le programme qui leur est associé).
 
    * Pour afficher les informations d’utilisation d’un portfolio :
 
      {{step1-to-utilization-report}}
 
-      1. Cliquez sur **Afficher** > **Portefeuilles**.
-      1. Appliquez un filtre du rapport d’utilisation, puis cliquez sur **Exécuter**.\
-         Vous devez spécifier un ou plusieurs portfolios dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
-         Les informations d’utilisation s’affichent pour les projets, programmes et portfolios individuels (les projets sont regroupés dans le programme qui leur est associé et les programmes sont regroupés dans le portfolio qui leur est associé).
+     1. Cliquez sur **Afficher** > **Portefeuilles**.
+     1. Appliquez un filtre du rapport d’utilisation, puis cliquez sur **Exécuter**.\
+        Vous devez spécifier un ou plusieurs portfolios dans le filtre avant d’exécuter le rapport d’utilisation. Pour plus d’informations sur le filtrage du rapport d’utilisation, consultez [Filtrer les informations d’utilisation](#filter-utilization-information) dans cet article.\
+        Les informations d’utilisation s’affichent pour les projets, programmes et portfolios individuels (les projets sont regroupés dans le programme qui leur est associé et les programmes sont regroupés dans le portfolio qui leur est associé).
 
 1. Dans le coin supérieur droit du rapport d’utilisation, cliquez sur **Afficher**, puis sélectionnez l’une des options suivantes dans le menu :
 
@@ -552,8 +557,8 @@ Pour créer et modifier un filtre :
      Si vous avez déjà désigné des portfolios, programmes ou projets dans le filtre, le problème que vous spécifiez doit provenir de l’un des portfolios, programmes ou projets déjà inclus dans le filtre. Dans le cas contraire, les données du problème ne sont pas incluses dans le rapport d’utilisation.\
      Les informations sur les coûts des problèmes ne sont pas toujours incluses dans le rapport d’utilisation. Pour plus d’informations sur le moment où les informations sur les coût des problèmes sont incluses dans le rapport d’utilisation, voir [Suivre la progression, les coûts et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) dans cet article.
 
-   * **Rôles :** commencez à saisir le nom du rôle que vous souhaitez représenter dans le rapport d’utilisation, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante. Répétez ce processus pour inclure des rôles supplémentaires.
-Le rapport Utilisation contient des informations uniquement pour les rôles que vous spécifiez. Par exemple, une tâche contient 10 heures effectives. Six de ces heures sont consacrées à un rôle dans Designer et quatre à un rôle de développeur. Si vous filtrez le rapport d’utilisation par rôle pour Designer, les quatre heures provenant du rôle de développeur sont exclues du rapport.
+   * **Rôles :** commencez à saisir le nom du rôle que vous souhaitez représenter dans le rapport d’utilisation, puis cliquez sur le nom lorsqu’il apparaît dans la liste déroulante. Répétez cette procédure pour inclure des rôles supplémentaires.
+     Le rapport d’utilisation ne contient des informations que sur les rôles que vous spécifiez. Par exemple, une tâche contient 10 heures effectives. Six d’entre elles proviennent d’un rôle de conception et quatre d’un rôle de développement. Si vous filtrez le rapport d’utilisation par rôle pour la conception, les quatre heures qui proviennent du rôle de développement sont exclues du rapport.
 
    * **Ajouter une règle de filtre :** cliquez sur **Ajouter une règle de filtre**, cliquez dans le champ de texte, puis commencez à saisir le nom du champ sur lequel vous souhaitez filtrer les données. Si le champ est disponible, il est renseigné pour chaque objet auquel il peut être associé. Cliquez sur le nom du champ pour l’ajouter au filtre.
 
@@ -566,21 +571,21 @@ Le rapport Utilisation contient des informations uniquement pour les rôles que 
 
 1. Pour créer un filtre, cliquez sur **Enregistrer le filtre**.\
    Ou\
-   Pour modifier un filtre existant, cliquez sur la flèche en regard du bouton **Enregistrer le filtre**, puis cliquez sur **Enregistrer le nouveau filtre**.
-Dans le champ **Nom du filtre**, saisissez un nom pour le filtre, puis cliquez sur **Enregistrer**.
-La zone Utilisation est filtrée avec les informations que vous avez incluses dans le filtre.
+   Pour modifier un filtre existant, cliquez sur la flèche en regard du bouton **Enregistrer le filtre**, puis cliquez sur **Enregistrer un nouveau filtre**.
+   Dans le champ **Nom du filtre**, saisissez le nom du filtre, puis cliquez sur **Enregistrer**.
+   La zone Utilisation est filtrée avec les informations que vous avez incluses dans le filtre.
 
 ### Appliquer un filtre enregistré {#apply-a-saved-filter}
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur **Filtres enregistrés**, puis sélectionnez le filtre à appliquer dans la liste déroulante.
 
 ### Dupliquer un filtre {#duplicate-a-filter}
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur **Filtres enregistrés**, pointez sur le filtre à dupliquer, puis cliquez sur l’icône **Dupliquer**.
 
@@ -597,7 +602,7 @@ Lorsque vous renommez un filtre, tous les utilisateurs et utilisatrices de Workf
 Pour renommer un filtre :
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur **Filtres enregistrés**, pointez sur le filtre à renommer, puis cliquez sur l’icône **Renommer**.
 
@@ -614,7 +619,7 @@ Lorsque vous supprimez un filtre, celui-ci est supprimé pour tous les utilisate
 Pour supprimer un filtre :
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur **Filtres enregistrés**, pointez sur le filtre à supprimer, puis cliquez sur l’icône **Supprimer**.
 
@@ -627,7 +632,7 @@ Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rappo
 Vous pouvez régler la période pour laquelle les informations d’utilisation s’affichent. Vous pouvez sélectionner une date passée ou future. Les modifications que vous apportez ne sont visibles que par vous.
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur la période en regard du bouton **Exporter**.
 
@@ -650,21 +655,21 @@ Lorsqu’ils sont consultés dans Microsoft Excel, les nombres négatifs sont a
 Pour exporter des informations d’utilisation :
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Cliquez sur **Exporter** dans le coin supérieur gauche du rapport.
 
 1. Sélectionnez l’une des options suivantes :
 
    * **PDF :** exporte le rapport au format PDF. Ce format est recommandé si vous envisagez d’imprimer le rapport.\
-     Sélectionnez **Lettre - Portrait**, **Lettre - Paysage** ou **Autres tailles** (fournit des options d’exportation dans Legal (8,5 pouces x 14 pouces), Ledger (11 pouces x 17 pouces) et A4).
-Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre ordinateur.
+     Sélectionnez **Lettre - Portrait**, **Lettre - Paysage**, ou **Autres tailles** (propose des options pour l’export dans les formats Légal (8,5x14 pouces), Ledger (11x17 pouces) et A4).
+     Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre ordinateur.
 
-   * **Excel:** exporte le rapport au format XLSX. Il s’agit du format recommandé si vous prévoyez d’analyser plus en détail les données dans Excel.
-Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre ordinateur.
+   * **Excel :** exporte le rapport au format XLSX. Ce format est recommandé si vous envisagez d’analyser les données en profondeur dans Excel.
+     Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre ordinateur.
 
-   * **Délimité par des tabulations :** exporte le rapport au format TSV. Il s’agit du format recommandé si vous prévoyez d’importer les données dans un logiciel tiers pour une analyse plus approfondie.
-Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre ordinateur.
+   * **Délimité par des tabulations :** exporte le rapport au format TSV. Il s’agit du format recommandé si vous envisagez d’importer les données dans un logiciel tiers en vue d’une analyse plus approfondie.
+     Selon le système d’exploitation que vous utilisez, vous avez la possibilité d’ouvrir ou d’enregistrer le fichier. Ouvrez le fichier avec l’application associée ou enregistrez-le sur votre ordinateur.
 
 1. Lisez les informations de l’article [Exporter des données](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) pour comprendre comment utiliser le fichier exporté.
 
@@ -673,7 +678,7 @@ Selon le système d’exploitation que vous utilisez, vous avez la possibilité 
 Vous pouvez visualiser les données du rapport d’utilisation sous forme de graphique.
 
 1. Ouvrez le rapport Utilisation.
-Voir [Suivre l’avancement, les coûts et le chiffre d’affaires avec le rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report) pour ce faire.
+Pour plus d’informations, voir [Suivre la progression, le coût et les revenus à l’aide du rapport d’utilisation](#track-progress-cost-and-revenue-with-the-utilization-report).
 
 1. Dans le coin supérieur droit du rapport d’utilisation, cliquez sur l’icône **Graphique**.
 

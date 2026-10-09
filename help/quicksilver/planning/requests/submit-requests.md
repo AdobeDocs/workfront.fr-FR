@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
 source-wordcount: '3110'
 ht-degree: 3%
@@ -223,7 +223,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
 
    >[!TIP]
    >
-   >Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   ><span class="preview">Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d&#39;informations, voir [Gérer les connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 
 
 1. (Conditionnel) Si votre entreprise autorise le **remplissage de formulaire** optimisé par l’IA, vous pouvez charger des documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire. Vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.

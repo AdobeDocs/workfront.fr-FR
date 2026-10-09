@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Attribuer des problèmes
-description: Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la Vue d’ensemble de la modification des affectations de problèmes.
+description: Vous pouvez affecter des problèmes aux utilisateurs, aux rôles, aux équipes et aux agents de travail pour indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la Vue d’ensemble de la modification des affectations de problèmes.
 author: Lisa
 feature: Work Management
 role: User
@@ -12,23 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jJLBz6MVWaSCabnj-y8FKnqtQlT5PGRfZ9KZtrgOar8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 79%
-
+source-wordcount: '1380'
+ht-degree: 68%
 ---
-
 # Attribuer des problèmes
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -42,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Vous pouvez affecter des problèmes aux utilisateurs et utilisatrices, aux rôles et aux équipes afin d’indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Vous pouvez affecter des problèmes aux utilisateurs, aux rôles, aux équipes ou aux agents de travail pour indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs et utilisatrices, fonctions ou équipes. Vous pouvez affecter uniquement les utilisateurs et utilisatrices, fonctions et équipes actifs.
+>Vous pouvez affecter plusieurs utilisateurs, fonctions, équipes ou agents de travail. Vous ne pouvez affecter que des utilisateurs actifs, des fonctions, des équipes et des agents de travail.
 >
->Si une personne, une fonction ou une équipe a été affectée avant d’être désactivée, elle reste affectée à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+>Si un utilisateur, une fonction, une équipe ou un agent de travail a été affecté avant d’être désactivé, il reste affecté à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
 >* Réaffectez la tâche aux ressources actives.
 >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
@@ -109,9 +115,9 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
   Si une tâche ou un problème est assigné à une ou plusieurs fonctions, puis que vous affectez également un utilisateur ou une utilisatrice, Adobe Workfront décide quelle fonction associer à l’utilisateur ou à l’utilisatrice supplémentaire (le cas échéant) selon les règles suivantes :
 
-   * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
-   * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné(e) à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
-   * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois au ou aux rôles et à l’utilisateur ou l’utilisatrice.
+  * Si une seule fonction est attribuée et qu’elle correspond au rôle principal de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté(e) uniquement à l’utilisateur ou à l’utilisatrice qui remplit son rôle principal.
+  * Si plusieurs rôles sont affectés et qu’au moins un des rôles correspond aux rôles secondaires de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est alors assigné(e) à l’utilisateur ou à l’utilisatrice qui remplit l’un de ses autres rôles (que Workfront sélectionne au hasard s’il existe plusieurs correspondances) ainsi que les rôles supplémentaires affectés.
+  * Si une ou plusieurs fonctions sont affectées et qu’il n’y a aucune correspondance avec les rôles de l’utilisateur ou de l’utilisatrice, la tâche ou le problème est affecté à la fois au ou aux rôles et à l’utilisateur ou l’utilisatrice.
 
 * Si une tâche ou un problème est affecté à une équipe et que vous affectez également un utilisateur ou une utilisatrice, la tâche ou le problème reste affecté(e) à la fois à l’équipe et à l’utilisateur ou à l’utilisatrice.
 
@@ -143,7 +149,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Commencez à saisir le nom d’un utilisateur ou d’une utilisatrice, d’un rôle ou d’une équipe que vous souhaitez affecter, puis cliquez sur celui-ci lorsqu’il apparaît dans la liste.
+   * Commencez à saisir le nom d’un utilisateur, d’un rôle, d’une équipe ou d’un agent de travail à affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
 
      ![Recherche d’affectations](assets/smart-assignments-issue-header.png)
 
@@ -192,13 +198,13 @@ Pour affecter des problèmes dans une liste :
 
      ![Affecté au champ](assets/assigned-to-field-task-list-nwe.png)
 
-   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’une personne active, d’une fonction ou d’une équipe active que vous souhaitez affecter au problème, puis cliquez sur le nom lorsqu’il apparaît dans la liste.
+   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’un utilisateur actif, d’une fonction, d’une équipe ou d’un agent de travail que vous souhaitez affecter à l’événement, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
      ![Champ Affectations](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
-   >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, la fonction principale de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques.
+   >Lors de l’ajout d’une affectation d’utilisateur ou d’utilisatrice, notez l’avatar, l principal de la personne ou son adresse e-mail pour faire la distinction entre les personnes portant des noms identiques.
    >
    >Les utilisateurs et utilisatrices doivent être associés à au moins une fonction pour l’afficher à mesure que vous les ajoutez.
    >

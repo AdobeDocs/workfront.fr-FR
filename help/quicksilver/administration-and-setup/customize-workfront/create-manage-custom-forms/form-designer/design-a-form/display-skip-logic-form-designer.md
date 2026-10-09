@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
+source-wordcount: '3711'
 ht-degree: 27%
 ---
 # Ajout de règles logiques aux formulaires et champs personnalisés
@@ -120,6 +120,7 @@ Pour plus d’informations sur les champs personnalisés et les widgets dans les
   * les champs personnalisés non inclus dans une instruction de logique d’affichage s’affichent par défaut sur un formulaire personnalisé.
   * Vous pouvez créer des instructions de logique d’affichage à champs multiples.
   * Si la logique d’affichage est appliquée à tous les champs sous un saut de section et qu’ils sont tous masqués à la suite de cette logique, la section entière sera masquée dans le formulaire personnalisé.
+  * Les champs masqués par la logique d’affichage conservent leurs valeurs et sont toujours inclus dans des expressions telles que CONCAT.
 
 ## Ajouter une logique d’affichage à un formulaire personnalisé
 

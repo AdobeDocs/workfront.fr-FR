@@ -7,25 +7,29 @@ description: En utilisant le planificateur de ressources d’Adobe Workfront, v
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
-ht-degree: 51%
-
+source-wordcount: '2442'
+ht-degree: 50%
 ---
-
 # Vue d’ensemble de la navigation dans le planificateur de ressources
 
 <!-- Audited: 5/2025 -->
@@ -106,7 +110,7 @@ Pour afficher des informations précises dans le planificateur de ressources, vo
 Pour modifier l&#39;affichage dans le Planificateur de ressources, sélectionnez l&#39;un des affichages suivants dans le menu déroulant Afficher par :
 
 * [Par projet](#view-by-project)
-* [Par fonction](#view-by-role)
+* [Par](#view-by-role)
 * [Par utilisateur](#view-by-user)
 
 ### Par projet {#view-by-project}
@@ -131,15 +135,15 @@ Tenez compte des points suivants lorsque vous sélectionnez la vue Projet dans l
 
 * Vous pouvez afficher les informations suivantes sur les heures, l’équivalent temps complet ou les coûts dans la vue Projet :
 
-   * Disponible
-   * Prévu
-   * Budgété
-   * Variance
-   * Net
+  * Disponible
+  * Prévu
+  * Budgété
+  * Variance
+  * Net
 
-     Pour plus d’informations, consultez la section [Budgéter les ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Pour plus d’informations, consultez la section [Budgéter les ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-### Par fonction {#view-by-role}
+### Par {#view-by-role}
 
 Tenez compte des points suivants lorsque vous sélectionnez la vue Rôle dans le planificateur de ressources :
 
@@ -152,13 +156,13 @@ Tenez compte des points suivants lorsque vous sélectionnez la vue Rôle dans le
 * Lorsque cette vue est appliquée, les heures, l’équivalent temps complet ou les coûts du projet s’ajoutent aux heures, à l’équivalent temps complet ou aux coûts du rôle.
 * Vous pouvez afficher les informations suivantes sur les heures, l’équivalent temps complet ou les coûts dans la vue Rôle :
 
-   * Disponible
-   * Prévu
-   * Budgété
-   * Variance
-   * Net
+  * Disponible
+  * Prévu
+  * Budgété
+  * Variance
+  * Net
 
-     Pour plus d’informations, consultez la section [Budgéter les ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Pour plus d’informations, consultez la section [Budgéter les ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Par utilisateur {#view-by-user}
 
@@ -191,23 +195,23 @@ Tenez compte des points suivants lorsque vous sélectionnez la vue utilisateur d
 
   Les scénarios suivants sont possibles :
 
-   * Lorsque vous ne disposez pas des autorisations nécessaires pour afficher les projets et les tâches ou événements affectés aux utilisateurs dans le Planificateur de ressources, ces éléments sont répertoriés sous les sections Éléments inaccessibles . Dans ce cas, ces sections remplacent les sections Projet ou Tâche.
+  * Lorsque vous ne disposez pas des autorisations nécessaires pour afficher les projets et les tâches ou événements affectés aux utilisateurs dans le Planificateur de ressources, ces éléments sont répertoriés sous les sections Éléments inaccessibles . Dans ce cas, ces sections remplacent les sections Projet ou Tâche.
 
-   * Lorsque vous ne disposez pas des autorisations nécessaires pour afficher les projets, mais que vous avez accès à l’affichage des tâches ou des événements dans les projets, les projets, tâches et événements sont répertoriés sous les noms des utilisateurs qui leur sont affectés.
-   * Lorsque vous disposez des autorisations pour afficher les projets, mais pas les tâches ou les événements des projets, le nom du projet s’affiche et les tâches et événements sont répertoriés sous la section Éléments inaccessibles .
+  * Lorsque vous ne disposez pas des autorisations nécessaires pour afficher les projets, mais que vous avez accès à l’affichage des tâches ou des événements dans les projets, les projets, tâches et événements sont répertoriés sous les noms des utilisateurs qui leur sont affectés.
+  * Lorsque vous disposez des autorisations pour afficher les projets, mais pas les tâches ou les événements des projets, le nom du projet s’affiche et les tâches et événements sont répertoriés sous la section Éléments inaccessibles .
 
-     Pour plus d’informations, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Pour plus d’informations, voir [Vue d’ensemble des autorisations de partage sur les objets](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Vous pouvez afficher les informations suivantes sur les heures et le temps complet dans la vue utilisateur :
 
-   * Disponible
-   * Prévu
-   * Réel
-   * Différence entre les prévisions et les résultats réels
-   * Pourcentage d’affectation prévu
+  * Disponible
+  * Prévu
+  * Réel
+  * Différence entre les prévisions et les résultats réels
+  * Pourcentage d’affectation prévu
 
-     Pour plus d’informations, voir [Afficher les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources dans la vue utilisateur](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+    Pour plus d’informations, voir [Afficher les heures disponibles, prévues et effectives ou le temps complet dans le planificateur de ressources dans la vue utilisateur](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 ## Nom du projet
 
@@ -259,9 +263,9 @@ Dans les vues Projet et Rôle, les utilisateurs et utilisatrices peuvent présen
 * Leur fonction principale
 * Leur fonction secondaire, dans les scénarios suivants :
 
-   * Si la fonction secondaire comporte un nombre valide pour le pourcentage de disponibilité d’équivalent temps complet dans son profil utilisateur.
-   * Si l’utilisateur est affecté à des tâches ayant ces rôles.
-Pour plus d’informations sur le pourcentage de disponibilité d’équivalent temps complet pour une fonction, voir [Modifier le profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+  * Si la fonction secondaire comporte un nombre valide pour le pourcentage de disponibilité d’équivalent temps complet dans son profil utilisateur.
+  * Si l’utilisateur est affecté à des tâches ayant ces rôles.
+    Pour plus d’informations sur le pourcentage de disponibilité d’équivalent temps complet pour une fonction, voir [Modifier le profil d’un utilisateur](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Sections Aucun rôle et Aucun utilisateur
 
@@ -300,12 +304,12 @@ Dans la zone Paramètres , vous pouvez activer ou désactiver les options d’af
 
   Tenez compte des points suivants lorsque vous activez ce paramètre :
 
-   * Le nom de l’utilisateur affecté aux événements est affiché sous la fonction qui lui est associée dans l’événement. Vous pouvez spécifier les heures budgétées pour l’utilisateur et la fonction dans les vues Projet et Rôle.
-   * Les problèmes affectés aux utilisateurs et utilisatrices sont répertoriés sous les noms des fonctions dans la vue utilisateur.
+  * Le nom de l’utilisateur affecté aux événements est affiché sous la fonction qui lui est associée dans l’événement. Vous pouvez spécifier les heures budgétées pour l’utilisateur et la fonction dans les vues Projet et Rôle.
+  * Les problèmes affectés aux utilisateurs et utilisatrices sont répertoriés sous les noms des fonctions dans la vue utilisateur.
 
-     >[!IMPORTANT]
-     >
-     >Lorsque les dates de début et d&#39;achèvement prévues pour l&#39;événement ne sont pas comprises dans la chronologie du projet, les heures prévues pour l&#39;événement s&#39;affichent en fonction des dates de l&#39;événement. Par exemple, si la chronologie du projet se situe entre janvier et mars, mais que la chronologie des événements se situe en août, les heures planifiées pour les événements apparaissent dans la période d’août.
+    >[!IMPORTANT]
+    >
+    >Lorsque les dates de début et d&#39;achèvement prévues pour l&#39;événement ne sont pas comprises dans la chronologie du projet, les heures prévues pour l&#39;événement s&#39;affichent en fonction des dates de l&#39;événement. Par exemple, si la chronologie du projet se situe entre janvier et mars, mais que la chronologie des événements se situe en août, les heures planifiées pour les événements apparaissent dans la période d’août.
 
 
 * **Afficher les priorités du Portfolio** : affiche les priorités du projet en fonction du Portfolio qui leur est affecté.

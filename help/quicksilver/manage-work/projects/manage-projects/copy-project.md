@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 59%
-
 ---
-
 # Copier un projet
 
 <!--
@@ -162,76 +170,76 @@ Pour copier un projet :
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">Sélectionner tout</td> 
       <td> <p>Sélectionne toutes les options et efface tous les champs et objets répertoriés dans le nouveau projet. </p>
 
    <p> Désélectionner cette option désélectionne tous les éléments. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Affectations</td> 
-      <td>Supprime toutes les affectations de projet et de tâche.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Progression</td> 
-      <td>Supprime la progression de toutes les tâches en les affichant comme étant Nouvelle. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Données personnalisées</td> 
-      <td> <p>Supprime les informations du formulaire personnalisé sur le projet, ainsi que les informations sur les formulaires personnalisés associés aux éléments suivants :</p> 
-       <ul> 
-        <li>Tâches</li> 
-        <li>Frais</li> 
-        <li> Documents</li> 
-       </ul> 
-      <p>Les formulaires personnalisés restent joints aux tâches, dépenses, documents et projets, mais les informations contenues dans les champs personnalisés du formulaire ne sont pas copiées dans le nouveau projet. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td> <p>Supprime tous les éléments de l’onglet Documents, y compris les versions de documents, les documents liés et les dossiers.</p> <p>Par défaut, les épreuves et les approbations de document ne peuvent pas être copiées vers un autre projet. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Affectations</td> 
+        <td>Supprime toutes les affectations de projet et de tâche.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Progression</td> 
+        <td>Supprime la progression de toutes les tâches en les affichant comme étant Nouvelle. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Données personnalisées</td> 
+        <td> <p>Supprime les informations du formulaire personnalisé sur le projet, ainsi que les informations sur les formulaires personnalisés associés aux éléments suivants :</p> 
+        <ul> 
+          <li>Tâches</li> 
+          <li>Frais</li> 
+          <li> Documents</li> 
+        </ul> 
+        <p>Les formulaires personnalisés restent joints aux tâches, dépenses, documents et projets, mais les informations contenues dans les champs personnalisés du formulaire ne sont pas copiées dans le nouveau projet. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Documents</td> 
+        <td> <p>Supprime tous les éléments de l’onglet Documents, y compris les versions de documents, les documents liés et les dossiers.</p> <p>Par défaut, les épreuves et les approbations de document ne peuvent pas être copiées vers un autre projet. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">Toutes les tâches antérieures</td> 
       <td> <p>Supprime toutes les relations de tâche antérieure entre les tâches du projet. </p> <p>
 
    Les projets transversaux antérieurs ne sont jamais transférés vers le nouveau projet, que cela soit sélectionné ou non. </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">Heures budgétées</td> 
-      <td> <p>Supprime les heures budgétées dans la zone Planification des ressources du business case du projet copié.</p> 
-    <p>
-   Les heures budgétées à l’aide du planificateur de scénarios ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénarios. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgétiser des ressources dans le business case à l’aide du planificateur de scénarios</a>.</p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">Informations financières</td> 
-      <td> <p>Supprime les informations dans les zones suivantes : </p> 
-       <ul> 
-        <li>Sous-onglet Finances du projet</li> 
-        <li> Bénéfice prévu dans le business case</li> 
-        <li>Informations financières de toutes les tâches<br></li> 
-       </ul> <p>Pour plus d’informations sur le sous-onglet Finances du projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> Gérer les informations dans la zone Finances du projet </a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Processus d’approbation</td> 
-      <td>Supprime toutes les approbations associées aux tâches ou au projet. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Notifications de rappel</td> 
-      <td> Supprime les notifications de rappel associées aux tâches ou au projet. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Frais</td> 
-      <td>Supprime les dépenses associées aux tâches ou au projet. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Autorisations</td> 
-      <td> Supprime les autorisations pour toutes les personnes des tâches ou du projet.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">Heures budgétées</td> 
+        <td> <p>Supprime les heures budgétées dans la zone Planification des ressources du business case du projet copié.</p> 
+      <p>
+    Les heures budgétées à l’aide du planificateur de scénarios ne sont jamais copiées vers le nouveau projet, car ce dernier n’est pas lié à une initiative dans le planificateur de scénarios. Pour plus d’informations, voir <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgétiser des ressources dans le business case à l’aide du planificateur de scénarios</a>.</p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">Informations financières</td> 
+        <td> <p>Supprime les informations dans les zones suivantes : </p> 
+        <ul> 
+          <li>Sous-onglet Finances du projet</li> 
+          <li> Bénéfice prévu dans le business case</li> 
+          <li>Informations financières de toutes les tâches<br></li> 
+        </ul> <p>Pour plus d’informations sur le sous-onglet Finances du projet, voir <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref"> Gérer les informations dans la zone Finances du projet </a>.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Processus d’approbation</td> 
+        <td>Supprime toutes les approbations associées aux tâches ou au projet. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Notifications de rappel</td> 
+        <td> Supprime les notifications de rappel associées aux tâches ou au projet. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Frais</td> 
+        <td>Supprime les dépenses associées aux tâches ou au projet. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Autorisations</td> 
+        <td> Supprime les autorisations pour toutes les personnes des tâches ou du projet.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. Cliquez sur **Copier le projet**. Le projet copié est créé.

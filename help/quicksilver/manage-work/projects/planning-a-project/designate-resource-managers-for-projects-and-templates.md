@@ -8,27 +8,33 @@ feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI
+TQID: 'https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '732'
 ht-degree: 98%
-
 ---
-
 # Désigner des personnes gestionnaires de ressources pour un projet ou un modèle
 
 <!--
@@ -151,10 +157,10 @@ Old:
 * Vous pouvez désigner des personnes gestionnaires de ressources pour les projets ou les modèles de projet. Lorsque vous désignez des personnes gestionnaires de ressources sur un modèle de projet, toutes les personnes que vous désignez comme gestionnaires de ressources sur le modèle deviennent automatiquement gestionnaires de ressources sur tous les projets créés à l’aide de ce modèle.
 * Vous pouvez afficher le champ Personne gestionnaire de ressources dans les zones suivantes :
 
-   * Lors de la modification d’un projet, comme décrit dans cet article.
-   * Lors de la modification d’un modèle, comme décrit dans cet article.
-   * Lors de la création de rapports de projet ou de modèle. Pour plus d’informations sur la création de rapports, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * Lors de la création ou de la personnalisation d’une vue de projet ou de modèle pour une liste. Pour plus d’informations, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  * Lors de la modification d’un projet, comme décrit dans cet article.
+  * Lors de la modification d’un modèle, comme décrit dans cet article.
+  * Lors de la création de rapports de projet ou de modèle. Pour plus d’informations sur la création de rapports, voir [Créer un rapport personnalisé](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  * Lors de la création ou de la personnalisation d’une vue de projet ou de modèle pour une liste. Pour plus d’informations, voir [Vue d’ensemble des vues dans Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * Vous pouvez ajouter ou supprimer rapidement des personnes gestionnaires de ressources sur plusieurs projets ou modèles en ajoutant le champ Personne gestionnaire de ressources à une vue de liste ou de projet et en modifiant ce champ à l’aide de la modification intégrée.
 

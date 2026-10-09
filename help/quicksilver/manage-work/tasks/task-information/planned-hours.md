@@ -7,28 +7,35 @@ description: Le nombre d’heures prévues associées à une tâche, à un probl
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-TQID: https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow
+TQID: 'https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2815
+source-wordcount: '2815'
 ht-degree: 96%
-
 ---
-
 # Vue d’ensemble du nombre d’heures prévues
 
 <!-- Audited: 01/2024 -->
@@ -256,7 +263,7 @@ Il est possible de mettre à jour le nombre d’heures prévues pour les tâches
 
 Pour plus d’informations, consultez la section [Vue d’ensemble du type de durée : « Simple »](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
-Il est possible de modifier l’affectation globale des utilisateurs, utilisatrices et fonctions affectés à la tâche ou de modifier les affectations journalières de chaque utilisateur ou utilisatrice grâce à l’équilibreur de charge de travail.
+Il est possible de modifier l’affectation globale des utilisateurs, utilisatrices et  affectés à la tâche ou de modifier les affectations journalières de chaque utilisateur ou utilisatrice grâce à l’équilibreur de charge de travail.
 
 Pour plus d’informations sur la gestion de l’affectation globale des utilisateurs, utilisatrices et fonctions aux tâches, consultez la section [Gérer les heures d’affectation des utilisateurs, utilisatrices et fonctions aux tâches](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
@@ -264,7 +271,7 @@ Pour plus d’informations sur la gestion des affectations quotidiennes pour les
 
 Les scénarios suivants existent lors de la mise à jour manuelle des affectations des utilisateurs, utilisatrices et fonctions aux tâches :
 
-* Si vous n’avez pas mis à jour manuellement les affectations spécifiques des utilisateurs, utilisatrices et fonctions aux tâches pour ajuster le nombre d’heures prévues, ces heures prévues demeurent les mêmes lorsque vous ajoutez, retirez ou remplacez des affectations sur la tâche. Lors de l’ajout d’une nouvelle affectation à la tâche, les affectations individuelles sont réparties entre toutes les personnes cessionnaires.
+* Si vous n’avez pas mis à jour manuellement les affectations spécifiques des utilisateurs, utilisatrices et  aux tâches pour ajuster le nombre d’heures prévues, ces heures prévues demeurent les mêmes lorsque vous ajoutez, retirez ou remplacez des affectations sur la tâche. Lors de l’ajout d’une nouvelle affectation à la tâche, les affectations individuelles sont réparties entre toutes les personnes cessionnaires.
 * En mettant à jour manuellement les affectations pour ajuster le nombre d’heures prévues de la tâche, les heures prévues diminuent lorsque vous supprimez des affectations de la tâche. Elles restent inchangées lorsque vous remplacez une affectation.
 * En mettant à jour manuellement les affectations pour ajuster le nombre d’heures prévues de la tâche et en ajoutant une nouvelle affectation, celle-ci reçoit par défaut 0 heure. Vous devez mettre à jour manuellement leur affectation à la tâche, ce qui peut affecter le nombre d’heures prévues.
 * Si vous n’avez pas mis à jour manuellement les affectations pour déclencher une modification du nombre d’heures prévues de la tâche et que vous supprimez toutes les affectations, le nombre d’heures prévues demeure inchangé.

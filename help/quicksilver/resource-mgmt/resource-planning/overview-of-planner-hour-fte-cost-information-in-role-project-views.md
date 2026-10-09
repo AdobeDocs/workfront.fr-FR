@@ -7,27 +7,33 @@ description: Vue d’ensemble des heures, des équivalents temps complet et des 
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 94%
-
 ---
-
 # Vue d’ensemble des heures, des équivalents temps complet et des informations sur les coûts dans les vues Projet et Rôle du planificateur de ressources
 
 <!--
@@ -67,11 +73,11 @@ Tenez compte des éléments suivants lors de la budgétisation des ressources à
 
 * La budgétisation des allocations de vos ressources dans le planificateur de ressources s’effectue de la manière suivante :
 
-   * Manuellement
+  * Manuellement
 
-     Ou
+    Ou
 
-   * Automatiquement, en utilisant les options de projet et de rôle dans les vues **Vue par projet** et **Vue par rôle**.
+  * Automatiquement, en utilisant les options de projet et de rôle dans les vues **Vue par projet** et **Vue par rôle**.
 
   Pour plus d’informations, voir [Budgétiser des ressources dans le planificateur de ressources à l’aide des vues Projet et Rôle](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -190,16 +196,16 @@ Tenez compte des points suivants lors de l’affichage du nombre d’heures pré
   Les jours du week-end, les exceptions d’horaire et les jours de congé sont exclus de cette répartition.
 * Les catégories de tâches suivantes sont incluses dans le calcul du nombre d’heures prévues pour chaque ressource :
 
-   * les tâches affectées aux personnes dans les groupes de ressources, les fonctions ou les équipes du projet\
-     Si des tâches sont affectées à des équipes, leur affectation apparaîtra dans les sections **Aucun rôle** et **Aucun utilisateur ou aucune utilisatrice**. Vous pouvez voir le nombre d’heures prévues associé aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni aucunpersonne n’a de tâches affectées.
+  * les tâches affectées aux personnes dans les groupes de ressources, les fonctions ou les équipes du projet\
+    Si des tâches sont affectées à des équipes, leur affectation apparaîtra dans les sections **Aucun rôle** et **Aucun utilisateur ou aucune utilisatrice**. Vous pouvez voir le nombre d’heures prévues associé aux équipes, mais vous ne pouvez pas budgéter les heures, car aucun rôle ni aucunpersonne n’a de tâches affectées.
 
-   * Tâches non affectées
+  * Tâches non affectées
 
 * Le nombre d’heures prévues dans le planificateur de ressources n’inclut pas le nombre d’heures prévues associé aux éléments suivants :
 
-   * Tâches parent
-   * Tâches affectées à des utilisateurs et des utilisatrices sans groupes de ressources
-   * Problèmes, lorsque le paramètre **Inclure les heures des problèmes** est désactivé.
+  * Tâches parent
+  * Tâches affectées à des utilisateurs et des utilisatrices sans groupes de ressources
+  * Problèmes, lorsque le paramètre **Inclure les heures des problèmes** est désactivé.
 
 * Le nombre d’heures prévues ne s’affiche pas dans le planificateur de ressources si la durée de la tâche est nulle.
 * Le nombre d’heures prévues associé aux utilisateurs et utilisatrices désactivés ne s’affiche pas.

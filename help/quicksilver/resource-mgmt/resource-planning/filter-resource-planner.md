@@ -6,27 +6,33 @@ description: Les filtres permettent de modifier les informations qui s’affiche
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
-ht-degree: 97%
-
+source-wordcount: '2381'
+ht-degree: 96%
 ---
-
 # Filtrer les informations dans le planificateur de ressources
 
 <!--
@@ -84,9 +90,9 @@ Tenez compte des éléments suivants lorsque vous utilisez des filtres dans le p
 * L’application d’un filtre ne modifie pas les données d’affectation et de disponibilité dans le planificateur de ressources pour les projets, les rôles ou les utilisateurs et utilisatrices. Un filtre ne modifie que le nombre d’objets affichés dans le planificateur de ressources.
 * Le filtrage s’applique à tous les objets qui s’affichent simultanément dans le planificateur de ressources. Par exemple, si vous filtrez pour une personne spécifique, le planificateur de ressources n’affiche que les résultats suivants :
 
-   * Projets pour lesquels la personne fait partie du groupe de ressources (pour les vues Projet et Rôle) ou a une affectation sur le projet (pour la vue Utilisateur ou utilisatrice).
-   * Rôles associés à la personne dans ces projets.\
-     Les autres rôles ou personnes des projets auxquels la personne est associée ne s’affichent pas.
+  * Projets pour lesquels la personne fait partie du groupe de ressources (pour les vues Projet et Rôle) ou a une affectation sur le projet (pour la vue Utilisateur ou utilisatrice).
+  * Rôles associés à la personne dans ces projets.\
+    Les autres rôles ou personnes des projets auxquels la personne est associée ne s’affichent pas.
 
 ## Vue d’ensemble du filtre par défaut dans le planificateur de ressources {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ Lors de l’utilisation du filtre par défaut, tenez compte des éléments suiva
 
 * Le filtre par défaut récupère des informations uniquement dans les projets présentant les caractéristiques suivantes :
 
-   * Une date d’achèvement prévue qui se situe après le premier jour du mois en cours.
-   * Une date de début prévue qui se situe avant le dernier jour du quatrième mois à partir de la date du jour.
-   * Un statut qui est Actif ou Prévu.
+  * Une date d’achèvement prévue qui se situe après le premier jour du mois en cours.
+  * Une date de début prévue qui se situe avant le dernier jour du quatrième mois à partir de la date du jour.
+  * Un statut qui est Actuel ou Planification.
 
   >[!IMPORTANT]
   >
