@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 15%
+source-wordcount: '1048'
+ht-degree: 13%
 ---
 # Afficher les éléments de la [!UICONTROL liste de travail] dans la zone [!UICONTROL Accueil]
 
@@ -120,7 +120,8 @@ Vous pouvez filtrer les éléments dans la [!UICONTROL Liste de travail] d’un 
 
 >[!NOTE]
 >
->Les options de filtre sont stockées dans le navigateur. Si vous utilisez toujours le même navigateur sur le même ordinateur (et n’effacez pas les données du site), les filtres sélectionnés ne changent pas. Si vous changez de navigateur ou d’ordinateur, les filtres reviennent à l’option par défaut, qui consiste à désélectionner tous les filtres.
+>Les options de filtrage de la plupart des widgets sont stockées dans le navigateur. Si vous utilisez toujours le même navigateur sur le même ordinateur (et n’effacez pas les données du site), les filtres sélectionnés ne changent pas. Si vous changez de navigateur ou d’ordinateur, les filtres reviennent à l’option par défaut, qui consiste à désélectionner tous les filtres. <br>
+>Le widget Mes approbations ne stocke pas les options de filtre dans le navigateur. Le widget Mes approbations est toujours défini par défaut sur l’option de filtre Mes approbations , qui affiche les approbations qui vous sont affectées.
 
 Pour filtrer votre travail :
 

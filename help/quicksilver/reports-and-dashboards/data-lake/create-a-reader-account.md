@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 5%
+source-wordcount: '976'
+ht-degree: 4%
 ---
 # Créer un compte de lecteur ou une connexion pour Snowflake
 
@@ -73,6 +73,10 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 ## Créer un compte de lecteur
 
 Vous devez créer un compte de lecteur Snowflake pour votre organisation avant de pouvoir commencer à créer des connexions.
+
+Le compte de lecteur fournit un accès en lecture seule à vos données Data Connect, que vous pouvez interroger à partir de Snowflake ou d’un outil de visualisation ou de traitement de données tiers. Data Connect partage vos données uniquement par le biais des vues Snowflake. Les tables de base de données ne sont pas incluses.
+
+Pour plus d’informations, consultez [Création d’un compte de lecteur](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create) dans la documentation de Snowflake.
 
 >[!IMPORTANT]
 >
@@ -155,7 +159,7 @@ Boîte de dialogue de création du compte Reader ![](/help/quicksilver/reports-a
 
 Vous devez utiliser la clé RSA avec le nom d’utilisateur que vous avez choisi pour vous connecter à Snowflake. Veillez donc à conserver un enregistrement de cette clé ainsi que l’URL. Cochez la case indiquant que vous l’avez fait, puis cliquez sur **Fermer**.
 
-![&#x200B; Boîte de dialogue Clé RSA &#x200B;](assets/rsa-test.png)
+![ Boîte de dialogue Clé RSA ](assets/rsa-test.png)
 
 ## Révoquer un compte de lecteur
 
