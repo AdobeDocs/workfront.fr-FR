@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 1%
 ---
 # Améliorations apportées à l’administration pour le quatrième trimestre 2026
@@ -23,6 +23,22 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Afficher l’historique d’emploi d’un utilisateur
+
+>[!NOTE]
+>
+>Aperçu : 1er octobre 2026
+>Version rapide de production : 14 octobre 2026
+>Production pour tous : 15 octobre 2026
+
+Pour vous aider à suivre l’évolution de la fonction, de l’agence, du centre de coûts et des taux de facturation d’un utilisateur au fil du temps, nous avons ajouté Historique d’emploi.
+
+L’historique des tâches affiche une vue chronologique de ces détails pour un ou plusieurs utilisateurs. Chaque ligne représente un ensemble spécifique de valeurs et la période pendant laquelle elles ont été appliquées.
+
+Vous pouvez afficher l’historique des tâches de plusieurs utilisateurs ou l’historique complet d’un seul utilisateur. Dans les deux vues, vous pouvez filtrer les résultats, personnaliser l’affichage des colonnes et exporter les données au format CSV ou XLSX.
+
+Pour plus d’informations, voir [Afficher l’historique des tâches de l’utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
 
 ## Utiliser l’IA pour générer une localisation personnalisée
 
@@ -73,7 +89,7 @@ Plusieurs améliorations ont été apportées aux modèles de mise en page :
 * Vous pouvez désormais repositionner les applications personnalisées dans n’importe quel ordre avec les options de menu Workfront par défaut. Cela vous permet de positionner chaque application à l’endroit le plus pertinent. Auparavant, les applications personnalisées étaient toujours les derniers éléments des options du menu principal du modèle de mise en page et ne pouvaient pas être repositionnées.
 * Vous pouvez désormais masquer la page Détails d’un objet dans le panneau de navigation de gauche. Au moins un élément doit être affiché dans le panneau de gauche d’un objet. Si tous les autres éléments sont masqués, vous ne pouvez pas masquer le dernier élément restant.
 
-Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et[Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Amélioration de l’expérience de mise à jour des choix de champ dans le concepteur de formulaire personnalisé
 
