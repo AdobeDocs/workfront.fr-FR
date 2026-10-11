@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 11%
+source-wordcount: '755'
+ht-degree: 9%
 ---
 # Limiter l’accès aux données financières dans les champs personnalisés
 
@@ -33,7 +33,7 @@ Lorsque vous créez un champ personnalisé, vous pouvez définir des paramètres
 
 Pour plus d’informations sur la création d’un champ personnalisé, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Pour plus d&#39;informations sur les niveaux d&#39;accès, voir [Présentation des niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Pour plus d’informations sur le partage et les autorisations, voir [Présentation des autorisations de partage sur les objets](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Pour plus d&#39;informations sur la définition de l&#39;accès aux données financières par le biais de niveaux d&#39;accès et d&#39;autorisations, voir [Octroi de l&#39;accès aux données financières](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) et [Partage des autorisations financières sur un objet](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 ## Conditions d’accès
 
@@ -89,16 +89,27 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
    >
    >Pour les champs calculés, n’importe quel format est autorisé. Tous les autres types de champs doivent utiliser le format **Devise**, sinon le champ **Type d’autorisation Finance** ne sera pas disponible.
 
-1. (Facultatif) Pour les champs calculés uniquement, activez l’option **Autorisation automatique** pour permettre aux autorisations financières de provenir automatiquement des champs de la formule.
+1. (Facultatif) Pour les champs calculés uniquement, activez l’option **Autorisation automatique** pour permettre la création automatique des autorisations finances à partir des champs de la formule.
 
 1. Sélectionnez une option pour le **Type d’autorisation Finance**.
 
-   Les utilisateurs doivent disposer de ce type d&#39;autorisation finance avant de pouvoir afficher ou modifier ce champ personnalisé dans le formulaire.
+   Ce paramètre définit le type d’accès et d’autorisations que les utilisateurs doivent avoir avant de pouvoir afficher ou modifier ce champ personnalisé dans le formulaire.
 
-   * **Aucune autorisation requise :** tous les utilisateurs peuvent voir ce champ
-   * **Général :** les utilisateurs doivent disposer des autorisations de modification ou d’affichage de General Finance
-   * **Facturation :** les utilisateurs doivent disposer des autorisations nécessaires pour modifier ou afficher les taux de facturation
-   * **Coût :** les utilisateurs doivent disposer des autorisations pour modifier ou afficher les taux de coût
+   * **Aucune autorisation requise :** tous les utilisateurs peuvent voir le champ, quel que soit leur niveau d’accès et les autorisations d’objet.
+   * **Général :** les utilisateurs doivent disposer de l’un des éléments suivants pour afficher le champ :
+
+     * Leur niveau d’accès inclut l’accès en lecture ou en modification aux données financières, avec l’accès activé pour General Finance.
+     * Leurs autorisations sur l’objet auquel le formulaire personnalisé est joint incluent l’affichage ou la modification des finances générales.
+
+   * **Facturation :** les utilisateurs doivent disposer de l’un des éléments suivants pour afficher le champ :
+
+     * Leur niveau d’accès inclut l’accès en lecture ou en modification aux données financières, avec l’accès activé pour les taux de facturation.
+     * Leurs autorisations sur l’objet auquel le formulaire personnalisé est joint incluent l’affichage ou la modification des taux de facturation.
+
+   * **Coût :** les utilisateurs doivent disposer de l’un des éléments suivants pour afficher le champ :
+
+     * Leur niveau d&#39;accès inclut l&#39;accès en affichage ou en modification aux données financières, avec l&#39;accès activé pour les taux de coût.
+     * Leurs autorisations sur l&#39;objet auquel le formulaire personnalisé est joint incluent l&#39;affichage ou la modification des taux de coûts.
 
    Pour les champs calculés :
 

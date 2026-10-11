@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 84%
+source-wordcount: '831'
+ht-degree: 75%
 ---
 # Accorder l’accès aux données financières
 
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-Lorsque vous partagez un objet avec un autre utilisateur ou une autre utilisatrice, les droits des personnes destinataires sur cet objet sont déterminés par une combinaison de deux éléments :
+Lorsque vous partagez un objet avec un autre utilisateur, les droits du destinataire d&#39;afficher ou de modifier les données financières sur cet objet sont déterminés par une combinaison de deux choses :
 
-* Les autorisations que vous accordez à votre personne destinataire pour l’objet.
-* Les paramètres du niveau d’accès des personnes destinataires pour le type d’objet.
+* Autorisations que vous accordez à votre destinataire pour l’objet spécifique
+* Paramètres de niveau d’accès du destinataire pour le type d’objet et pour les données financières
+
+L’accès aux champs financiers personnalisés peut également être limité, en fonction des autorisations de l’utilisateur et des paramètres de niveau d’accès. Pour plus d’informations, voir [Limiter l’accès aux données financières dans les champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
 ## Accéder aux informations financières par type de licence
 
