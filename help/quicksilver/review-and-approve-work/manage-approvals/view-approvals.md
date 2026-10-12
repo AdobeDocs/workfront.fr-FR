@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 73%
+source-wordcount: '772'
+ht-degree: 71%
 ---
 # Afficher les approbations
 
@@ -97,7 +97,8 @@ Vous pouvez afficher ou gérer des approbations dans les zones suivantes :
 
   * Tous les projets, tâches, événements, feuilles de temps, documents, accès et <span class="preview">demandes Workfront Planning</span> en attente de votre approbation, sont affichés dans le widget Mes approbations de la zone Accueil.
   * Les approbations que vous avez envoyées vous-même s’affichent également dans le widget Mes approbations de la zone Accueil lorsque vous sélectionnez l’option de filtre Mes approbations envoyées . Pour plus d’informations, voir la section [Réviser le travail que vous soumettez pour approbation dans la zone Accueil](#review-work-you-submit-for-approval-in-the-home-area) dans cet article.
-  * Les approbations sont supprimées du widget Mes approbations de la zone d’Accueil lorsque le projet, la tâche ou l’événement associé est marqué comme Résolu, En attente, Fermé ou Annulé.
+  * Les approbations de travail sont supprimées du widget Mes approbations lorsque le projet, la tâche ou l’événement est marqué comme Résolu, En attente, Fermé ou Annulé.
+  * Les approbations de documents et d’épreuves unifiées sont supprimées du widget Mes approbations lorsque le workflow de document ou d’épreuve est terminé ou supprimé.
 
   Pour plus d’informations sur l’utilisation de la page d’accueil, voir [Commencer avec la page d’accueil](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
