@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 28%
+source-wordcount: '1077'
+ht-degree: 30%
 ---
 # Gérer les versions de documents
 
@@ -100,7 +100,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. En haut de la page **Détails du document**, cliquez sur le menu déroulant en regard du nom, puis cliquez sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![&#x200B; Liste déroulante Version de la page Détails du document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ Liste déroulante Version de la page Détails du document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 
@@ -241,10 +241,10 @@ Workfront numérote chaque version dans l’ordre dans lequel vous la chargez (p
 
 </div>
 
-### Afficher le fichier en cours lors d&#39;une validation
+<!--
 
-Si un document est un fichier Creative Cloud (par exemple, un document cloud Photoshop) et qu’une personne le modifie alors qu’une approbation est en cours, Workfront affiche une section **Fichier actuel** avec un badge indiquant que de nouvelles mises à jour existent sur le document actif, distinctes de la version en cours d’approbation.
+### View the current file during an approval
 
->[!IMPORTANT]
->
->**Question ouverte :** la section Fichier actuel reste-t-elle visible de manière permanente une fois qu’elle apparaît pour la première fois, ou uniquement lorsqu’il existe des mises à jour non révisées sur le document actif ? Confirmez avec le produit avant de le publier.
+If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
+
+-->
