@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 3%
 ---
 # Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements
@@ -225,8 +225,17 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >
    ><span class="preview">Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d&#39;informations, voir [Gérer les connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 
+1. (Facultatif et conditionnel) Cliquez sur **Remplir le formulaire** pour que l’IA remplisse le formulaire pour vous. Workfront remplit les champs du formulaire en fonction des informations provenant de demandes précédentes.
 
-1. (Conditionnel) Si votre entreprise autorise le **remplissage de formulaire** optimisé par l’IA, vous pouvez charger des documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire. Vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.
+   >[!TIP]
+   >
+   >Votre entreprise doit autoriser **AI Form Fill** dans la zone Préférences système, pour pouvoir utiliser la fonctionnalité de remplissage de formulaire.
+   >
+   >Pour obtenir des instructions, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
+
+1. (Conditionnel) Si votre entreprise autorise le **remplissage de formulaire AI**, vous pouvez charger les documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire. Vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.
 
 
    Pour obtenir des instructions, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -345,7 +354,15 @@ Vous pouvez soumettre une demande lorsque vous ajoutez de nouveaux enregistremen
    Le formulaire de demande s’ouvre.
 1. Commencer à renseigner toutes les informations dans tous les champs disponibles
 
-   Ou cliquez sur **Remplir le formulaire** pour que l’IA remplisse le formulaire pour vous.
+   Ou cliquez sur **Remplir le formulaire** pour que l’IA remplisse le formulaire pour vous. Workfront remplit les champs du formulaire en fonction des informations provenant de demandes précédentes.
+
+   >[!TIP]
+   >
+   >Si votre entreprise autorise le remplissage de formulaire **AI** dans les Préférences système, vous pouvez charger les documents sous forme d’invites. L’IA utilise ces documents pour remplir le formulaire. Vous pouvez accepter ou refuser les suggestions de l’IA avant d’envoyer la requête.
+   >
+   >Pour obtenir des instructions, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une requête à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Cliquez sur **Soumettre la demande**.
 
    La demande a été soumise.
