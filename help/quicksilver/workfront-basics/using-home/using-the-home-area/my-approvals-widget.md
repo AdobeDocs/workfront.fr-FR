@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 35%
+source-wordcount: '523'
+ht-degree: 33%
 ---
 # Gérer les approbations à l’aide du widget Mes approbations
 
@@ -162,3 +162,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    </table>
 
 Une fois la décision prise, l’approbation est supprimée du widget Mon approbation .
+
+>[!NOTE]
+>
+>Les approbations de travail peuvent également être supprimées du widget Mes approbations lorsque le projet, la tâche ou l&#39;événement est marqué comme Résolu, En attente, Fermé ou Annulé.

@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 40%
+source-wordcount: '376'
+ht-degree: 37%
 ---
 # Personnaliser le menu Plus à l’aide d’un modèle de mise en page
 
@@ -75,5 +75,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * Cliquez sur les icônes **Afficher** ![Afficher](assets/add-secondary-nav-item.png) ou **Masquer** ![Masquer](assets/delete-secondary-nav-item.png) pour afficher ou masquer des sections dans le panneau de gauche. Vous ne pouvez pas masquer les éléments qui ne comportent pas d’icône **Afficher** ou **Masquer**.
 
    * Faites glisser des éléments ![icône Déplacer](assets/move-icon---dots.png) pour modifier leur ordre dans le panneau de gauche.
+
+   >[!NOTE]
+   >
+   >Si vous masquez l’option **Partager** dans le menu Plus pour des projets, des tâches ou des événements, le bouton Partager est masqué dans l’en-tête de l’objet.
 
 1. Cliquez sur **Terminer**.

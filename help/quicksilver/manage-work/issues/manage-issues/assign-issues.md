@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 68%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Vous pouvez affecter des problèmes aux utilisateurs, aux rôles, aux équipes ou aux agents de travail pour indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Vous pouvez affecter des problèmes à des utilisateurs, des rôles, des équipes <span class="preview">ou des agents de travail</span> pour indiquer qui est responsable de la résolution des problèmes. Pour obtenir des informations générales sur l’affectation de problèmes, consultez la [Vue d’ensemble de la modification des affectations de problèmes](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Vous pouvez affecter plusieurs utilisateurs, fonctions, équipes ou agents de travail. Vous ne pouvez affecter que des utilisateurs actifs, des fonctions, des équipes et des agents de travail.
+>Vous pouvez affecter plusieurs utilisateurs, fonctions, équipes <span class="preview">ou agents de travail</span>. Vous ne pouvez affecter que des utilisateurs actifs, des fonctions, des équipes <span class="preview"> et des agents de travail</span>.
 >
->Si un utilisateur, une fonction, une équipe ou un agent de travail a été affecté avant d’être désactivé, il reste affecté à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
+>Si un utilisateur, une fonction, une équipe <span class="preview">ou un agent de travail</span> a été affecté avant d’être désactivé, il reste affecté à l’élément de travail. Dans ce cas, nous vous recommandons ce qui suit :
 >
 >* Réaffectez la tâche aux ressources actives.
 >* Associez les utilisateurs et utilisatrices d’une équipe désactivée à une équipe active et réaffectez l’élément de travail à l’équipe active.
@@ -149,7 +149,7 @@ Tenez compte des points suivants lorsque vous affectez plusieurs ressources à u
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Commencez à saisir le nom d’un utilisateur, d’un rôle, d’une équipe ou d’un agent de travail à affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
+   * Commencez à saisir le nom d’un utilisateur, d’un rôle, d’une équipe <span class="preview">ou d’un agent de travail</span> que vous souhaitez affecter, puis cliquez dessus lorsqu’il apparaît dans la liste.
 
      ![Recherche d’affectations](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ Pour affecter des problèmes dans une liste :
 
      ![Affecté au champ](assets/assigned-to-field-task-list-nwe.png)
 
-   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’un utilisateur actif, d’une fonction, d’une équipe ou d’un agent de travail que vous souhaitez affecter à l’événement, puis cliquez dessus lorsqu’il s’affiche dans la liste.
+   * Cliquez dans le champ **Affectations** et commencez à saisir le nom d’un utilisateur actif, d’une fonction, d’une équipe <span class="preview">ou d’un agent de travail</span> que vous souhaitez affecter à l’événement, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
      ![Champ Affectations](assets/assignments-field-0825.png)
 
