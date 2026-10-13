@@ -21,10 +21,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8a1564e510b2e32b0e5dda8bf2d0e0c7547e63e2
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 86%
+source-wordcount: '362'
+ht-degree: 76%
 ---
 # Configurer le TLS client pour l’abonnement à un événement
 
@@ -122,11 +122,21 @@ Pour plus d’informations, consultez les ressources suivantes :
 
 ## Télécharger des certificats
 
-Cliquez sur les liens suivants pour télécharger des certificats client.
+Téléchargez le fichier ZIP contenant les certificats clients actuels de l’abonnement aux événements Workfront. Ces certificats expirent le 25 avril 2027.
 
-* [Certificat client - Environnement de production](assets/prod-ES-client-cert-oct25.crt)
-* [Certificat client - Environnement de prévisualisation](assets/preview-ES-client-cert-oct25.crt)
-* [Certificat client - Environnement de sandbox](assets/sandbox-ES-client-cert-oct25.crt)
+[Télécharger les certificats clients](assets/event-subscription-certificates-nov02.zip)
+
+| Environnement | Fichier de certificat |
+| -- | -- |
+| Production | event-subs-prod-cert-nov02.crt |
+| Aperçu | event-subs-preview-cert-nov02.crt |
+| Sandbox | event-subs-sandbox-cert-nov02.crt |
+
+<!--
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
