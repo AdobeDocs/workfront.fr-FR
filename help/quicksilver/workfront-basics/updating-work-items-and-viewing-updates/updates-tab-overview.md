@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 71%
@@ -147,7 +147,19 @@ Depending on what objects you access the commenting experience for, you might fi
 
 La section Mises à jour affiche des informations dans les onglets suivants :
 
-* **Commentaires : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires**. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+* **Commentaires : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires**. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants.
+
+  <!--
+  <div class="preview">
+
+  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+
+    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+
+  </div>
+  -->
+
+  Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 * **Activité du système** : affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications du statut, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur ou administratrice Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d&#39;activité du système dans l&#39;expérience de commentaires héritée sont renseignées dans l&#39;onglet Activité du système en lecture seule. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Tous (lecture seule)** : affiche à la fois les commentaires d’un utilisateur ou d’une utilisatrice et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni taguer d’autres utilisateurs ou utilisatrices dans les commentaires existants dans l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 99%
+source-wordcount: '1635'
+ht-degree: 97%
 ---
 # Vue d’ensemble des statuts des projets du système
 
@@ -64,7 +64,7 @@ Workfront fournit les statuts de projet suivants avec votre instance Adobe Work
   <tr> 
    <td>Planification (statut obligatoire)</td> 
    <td> <p>La personne responsable du projet planifie la chronologie du projet, l’affectation des tâches et les approbations. Elle définit manuellement ce statut sur un projet.</p> <p><b>CONSEIL</p> <p> Nous vous recommandons de définir le statut par défaut pour les nouveaux projets dans Workfront sur Planification. En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier le statut par défaut de tous vos nouveaux projets dans la zone Projets des préférences du projet.</p> <p>Pour plus d’informations, voir la section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configurer des préférences de projet à l’échelle du système</a>.</p></td> 
-   <td> <p>Les personnes membres de l’équipe du projet peuvent voir le projet dans leurs listes de projets par défaut (sans filtre personnalisé), dans la zone Projets de Workfront. Les tâches et les problèmes qui leur sont affectés sur le projet ne figurent pas dans leur liste de travail. Seuls les approbations et les éléments de travail acceptés s’affichent dans la liste de travail de l’accueil.</p> <p>Aucune notification n’est envoyée lorsqu’un projet présente ce statut.</p> <p>Nous vous recommandons d’apporter toutes les modifications qui peuvent déclencher une mise à jour du journal du projet, ou toute modification des tâches et des affectations de problèmes lorsque le projet a le statut de planification. Cela réduit le nombre de notifications que les personnes reçoivent.</p> <p>Le journal du projet n’est pas calculé automatiquement par le système.</p> </td> 
+   <td> <p>Les personnes membres de l’équipe du projet peuvent voir le projet dans leurs listes de projets par défaut (sans filtre personnalisé), dans la zone Projets de Workfront. Les tâches et les problèmes qui leur sont affectés sur le projet ne figurent pas dans leur liste de travail. Seuls les approbations et les éléments de travail acceptés s’affichent dans la liste de travail de l’accueil.</p> <p>Lorsqu'un projet a le statut Planification , certaines notifications sur les affectations, les approbations et l'activité d'événement sont envoyées aux utilisateurs de l'équipe du projet, contrairement à de nombreuses notifications liées à la chronologie.</p> <p>Nous vous recommandons d’apporter toutes les modifications qui peuvent déclencher une mise à jour du journal du projet, ou toute modification des tâches et des affectations de problèmes lorsque le projet a le statut de planification. Cela réduit le nombre de notifications que les personnes reçoivent.</p> <p>Le journal du projet n’est pas calculé automatiquement par le système.</p> </td> 
   </tr> 
   <tr> 
    <td>Actuel (statut obligatoire)</td> 

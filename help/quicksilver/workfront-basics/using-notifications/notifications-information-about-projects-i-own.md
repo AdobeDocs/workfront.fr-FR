@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 100%
 ---
 # Notifications : informations sur les projets dont je suis propriétaire
@@ -49,7 +49,7 @@ Consultez également la section [Notifications d’événements](../../workfront
    <td><strong>Chaque jour</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Quand un projet passe d'un statut de progression positive (Dans les délais) à un statut de progression négative (En retard), envoyer un e-mail au propriétaire du projet</strong> </p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque le projet est en retard. Un projet est en retard lorsque le statut de la progression est « [!UICONTROL At Risk] », « [!UICONTROL Behind] » ou « [!UICONTROL Late] ».</p> <p>La bonne pratique consiste à maintenir cette notification active. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Project Progress Change] : &lt;Project Name&gt;</em></p> <p> L’objet de la notification de la synthèse quotidienne est : <em> [!UICONTROL Digest of Projects You Own] &lt;Date de la synthèse quotidienne&gt; </em></p> </td> 
+   <td> <p><strong>Quand un projet passe d'un statut de progression positive (Dans les délais) à un statut de progression négative (En retard), envoyer un e-mail au propriétaire du projet</strong> </p> <p>La personne propriétaire du projet reçoit une notification par e-mail lorsque le projet est en retard. Un projet est en retard lorsque le statut de la progression est « [!UICONTROL At Risk] », « [!UICONTROL Behind] » ou « [!UICONTROL Late] ». <p>Une notification est envoyée uniquement si le statut du projet est [!UICONTROL Current] ou [!UICONTROL Planning].</p> <p>La bonne pratique consiste à maintenir cette notification active. </p> <p>Les utilisateurs et utilisatrices disposant d’une licence [!UICONTROL Review] ne reçoivent pas de notification.</p> <p>L’objet de l’e-mail de notification instantanée est le suivant : <em>[!UICONTROL Project Progress Change] : &lt;Project Name&gt;</em></p> <p> L’objet de la notification de la synthèse quotidienne est : <em> [!UICONTROL Digest of Projects You Own] &lt;Date de la synthèse quotidienne&gt; </em></p> </td> 
    <td> <p>Nom du projet<br>Nom du portfolio<br>Numéro de référence du projet<br>Statut de la progression du projet<br>[!UICONTROL Planned Start Date] du projet<br>[!UICONTROL Planned Completion Date] du projet<br>[!UICONTROL Projected Start Date] du projet<br>[!UICONTROL Projected Completion Date] du projet<br>Pourcentage du projet terminé<br>Statut du projet<br>Personne propriétaire du projet<br>*Nom du projet<br>*Numéro de référence du projet<br>*Statut de la progression du projet<br>*Date de la synthèse quotidienne<br></p> </td> 
    <td><strong>Chaque jour</strong> </td> 
   </tr> 

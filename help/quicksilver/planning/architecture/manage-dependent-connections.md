@@ -17,10 +17,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 4%
+source-wordcount: '1406'
+ht-degree: 5%
 ---
 
 # Gestion des connexions dépendantes
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![Info-bulle de l’icône Dépendante dans l’en-tête de colonne](assets/dependent-icon-tooltip-in-column-header.png)
 1. (Facultatif) Cliquez sur **Règles de filtrage des enregistrements** et sélectionnez des champs à partir du type d’enregistrement auquel vous vous connectez pour limiter les options pour les valeurs de ce champ, puis cliquez sur **Terminé**.
 
-   Lorsque les deux champs sont présents sur un troisième type d’enregistrement, les options pour le type d’enregistrement de champ connecté sont limitées par le filtre que vous sélectionnez ici.
+   Pour plus d’informations, voir [Connecter les types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
 1. (Facultatif et recommandé) Accédez à un troisième type d’enregistrement et ajoutez les premier et deuxième types d’enregistrement en tant que champs d’enregistrement connectés.
 
    ![Indicateur de champ connecté dépendant sur un troisième type d’enregistrement](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

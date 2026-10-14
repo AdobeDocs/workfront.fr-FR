@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1090'
 ht-degree: 7%
 ---
 
@@ -107,7 +107,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Un collègue doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise.
 
-  Pour plus d’informations, consultez la présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Pour plus d’informations, voir [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -128,7 +128,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Fonctionnalité actuellement disponible pour Coworker
 
-Actuellement, Coworker est disponible dans la zone Planification de Workfront et utilise un ensemble de compétences pour accéder aux informations et les manipuler pour les objets Planification. Pour plus d’informations, voir [Compétences &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Actuellement, Coworker est disponible dans la zone Planification de Workfront et utilise un ensemble de compétences pour accéder aux informations et les manipuler pour les objets Planification. Pour plus d’informations, voir [Compétences Workfront dans CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Vous pouvez utiliser un collègue pour effectuer les actions suivantes :
 

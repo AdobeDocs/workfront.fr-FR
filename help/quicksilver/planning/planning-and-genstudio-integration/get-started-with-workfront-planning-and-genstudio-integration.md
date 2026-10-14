@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2565'
 ht-degree: 3%
 ---
 <!--
@@ -337,6 +337,58 @@ Les sections ci-dessous décrivent les éléments suivants :
 * Vous pouvez modifier les informations d’enregistrement de tous les enregistrements de l’espace de travail GenStudio à partir de Workfront Planning.
 
   Pour plus d’informations, voir [Modifier des enregistrements](/help/quicksilver/planning/records/edit-records.md).
+
+
+#### Présentation des activations GenStudio
+
+<!--
+Some commented out information here comes from glean
+-->
+
+Les activations sont des types d’enregistrements GenStudio disponibles dans l’espace de travail GenStudio de Workfront Planning. GenStudio utilise les activations pour suivre et gérer les activations d’annonces (qu’un ajout soit rédigé ou publié) dans le cadre de l’exécution de la campagne.
+
+Tenez compte des points suivants lorsque vous utilisez des activations :
+
+* Vous ne pouvez pas créer d’enregistrement d’activation à partir de Workfront Planning.
+
+
+* Un projet GenStudio mappe 1:1 à un espace de travail Workfront Planning ; les activations sont stockées dans cet espace de travail et y sont référencées.
+
+* La visibilité et les actions dépendent de votre accès à ce projet GenStudio et à cet espace de travail.
+
+* GenStudio ajoute une couche de protection supplémentaire afin que les enregistrements critiques (y compris les activations) ne puissent pas être modifiés ou supprimés en dehors des contrôles prévus, même par les administrateurs système.
+
+* Lorsque vous activez à partir de GenStudio, les détails d’activation sont enregistrés et suivis dans Workfront Planning. GenStudio et Planning conservent l’alignement des enregistrements partagés (campagnes, produits, rôles, activations, etc.).
+
+<!--
+
+<div class="preview">
+
+* Activations records include the following:
+
+    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
+    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
+
+</div>
+
+-->
+
+<!--
+They're stored in Planning even when a customer hasn't separately purchased Planning.
+-->
+
+<!-- 
+
+Activations are tied to the project you're working in; as projects/workspaces change, associated activation records follow that workspace assignment.  
+Permissions and roles
+
+Access to Campaigns, Products, and Personas requires any GenStudio user role; Activations access requires the GenStudio System Manager role.  
+Admin and setup references
+
+Get started with the Workfront Planning × GenStudio integration (setup, sync, and workspace context).  
+Manage the GenStudio workspace in Workfront Planning (roles and access specifics, including Activations).
+
+-->
 
 ### Champs de type d’enregistrement dans l’espace de travail GenStudio
 

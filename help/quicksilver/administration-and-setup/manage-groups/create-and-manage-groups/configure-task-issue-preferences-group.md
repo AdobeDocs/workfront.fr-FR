@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 84%
+source-wordcount: '2185'
+ht-degree: 82%
 ---
 # Configurer les préférences de tâches et de problèmes pour un groupe
 
@@ -165,7 +165,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
       <td> <p>Les paramètres de cette section déterminent ce qui se passe pendant le processus de conversion d’un problème en tâche :</p> 
        <ul> 
         <li><strong>Conserver le problème d’origine et lier sa résolution à la tâche</strong> : lorsque vous convertissez le problème, il reste visible en tant que problème jusqu’à ce que la tâche soit terminée. Le statut du problème passe automatiquement à Fermé lorsque la tâche est terminée.</li> 
-        <li><strong>Autoriser l’interlocuteur principal ou l’interlocutrice principale à accéder à la tâche</strong> : accorde à l’interlocuteur principal ou l’interlocutrice principale (le créateur ou la créatrice du problème) l’accès à la tâche pour l’examiner, effectuer des mises à jour et rester au courant de sa progression.</li> 
+        <li><strong>Autoriser le contact du Principal à accéder à la tâche</strong> : donne au contact principal (auteur du problème) un accès en affichage à la tâche pour examiner la tâche, rester informé de son avancement et faire des commentaires sur la section Mises à jour de la tâche.</li> 
         <li> <p><strong>Autoriser la modification de ces paramètres lors de la conversion</strong> : permet à l’utilisateur ou l’utilisatrice qui convertit le problème de modifier ces options lors de la conversion d’un problème en tâche.</p>
         <!--
           Screenshot when possible</p>

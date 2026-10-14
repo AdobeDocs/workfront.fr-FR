@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '775'
 ht-degree: 5%
 ---
 # Invites de l’assistant AI et bonnes pratiques
 
 >[!IMPORTANT]
 >
->À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d&#39;informations sur Coworker, voir Présentation de [&#128279;](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>À partir de septembre 2026, AI Assistant passera à CX Enterprise Coworker, une interface de conversation permettant d’effectuer le travail. Pour plus d’informations sur Coworker, voir [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 L’assistant d’IA Workfront est un outil puissant qui peut vous aider à accomplir votre travail plus efficacement en fournissant des informations utiles sur vos données de compte et des types d’objets spécifiques.
 
