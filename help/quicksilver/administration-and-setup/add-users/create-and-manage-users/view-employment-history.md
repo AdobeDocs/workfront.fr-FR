@@ -7,7 +7,7 @@ description: Vous pouvez afficher l’historique d’emploi d’un utilisateur, 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 4674a75b106a663b68320088c7bed22938dc2ab3
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,6 +66,7 @@ Vous pouvez afficher l’historique des tâches à partir de la liste des utilis
 1. Pour filtrer les résultats, cliquez sur **Filtrer** et saisissez le champ, l’opérateur et la valeur en fonction desquels vous souhaitez effectuer le filtrage. Les résultats sont automatiquement filtrés.
 1. Pour ajouter ou supprimer des colonnes, cliquez sur l’icône Ajouter ![icône Ajouter](assets/add-column.png) à droite du tableau, puis cliquez sur l’icône plus en regard de chaque colonne à ajouter, ou cliquez sur l’icône moins en regard de chaque colonne à supprimer de l’affichage.
 1. Pour exporter l’historique des emplois, cliquez sur **Exporter**. Vous pouvez exporter l’historique des tâches au format CSV ou XLSX.
+
 
 
 
