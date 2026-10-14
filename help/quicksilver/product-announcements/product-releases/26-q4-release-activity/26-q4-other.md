@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 # Autres améliorations au cours du quatrième trimestre de 2026
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 
 Les listes Workfront suivantes utilisent désormais le format de liste amélioré :
 
-* Configuration > E-mail > Notifications > Notifications d’événement et page Détails du groupe > Notifications d’événement
+* Configuration > E-mail > Notifications > Page des notifications d’événement et Page des détails du groupe > Notifications d’événement (cette mise à jour a été supprimée de l’environnement de Prévisualisation le 14 octobre et ne fera pas partie de la version trimestrielle. Ces listes seront mises à jour ultérieurement.)
 * Configuration > Documents > Experience Manager Assets
 * Projet ou modèle > Rubriques de file d&#39;attente
 * Projet ou modèle > Groupes de sujets
