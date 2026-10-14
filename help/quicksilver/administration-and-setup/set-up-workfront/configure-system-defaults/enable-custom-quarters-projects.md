@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Activer les trimestres personnalisés
-description: À des fins de création de rapports, vous pouvez créer des trimestres personnalisés si les trimestres de votre organisation sont basés sur des critères spécifiques autres que les dates du calendrier (tels que les jours ouvrables ou les jours d’achats).
+title: Activer les trimestres et semaines personnalisés
+description: À des fins de création de rapports, vous pouvez configurer des trimestres personnalisés si les trimestres de votre entreprise sont basés sur des critères spécifiques autres que des dates calendaires (par exemple, des jours ouvrés ou des jours ouvrables). Si votre entreprise achète des packages Workfront Planning, vous pouvez également configurer des semaines personnalisées.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 36%
+source-wordcount: '920'
+ht-degree: 31%
 ---
-# Activer les trimestres personnalisés
+# Activer les trimestres et semaines personnalisés
 
 <!--Audited: 03/2026-->
 

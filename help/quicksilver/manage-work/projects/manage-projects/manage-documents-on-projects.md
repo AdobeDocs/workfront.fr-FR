@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # Présentation de la gestion des documents pour les projets et les objets associés
@@ -129,7 +129,7 @@ Les clients peuvent avoir accès à l’une des fonctionnalités de stockage de 
 
 Les documents stockés sur des objets dans l’espace de stockage Workfront sont gérés différemment de ceux stockés dans l’espace de stockage cloud Adobe.
 
-Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Les sections suivantes décrivent le fonctionnement du stockage de documents pour les objets Workfront lorsque les options de stockage dans le cloud Workfront et Adobe existent dans le même environnement.
 
@@ -138,6 +138,7 @@ Les sections suivantes décrivent le fonctionnement du stockage de documents pou
 Tenez compte des points suivants lorsque vous utilisez des projets :
 
 * Lorsque vous créez un projet d’espace de stockage Adobe, Workfront crée un dossier dans la section Documents du projet où les documents sont enregistrés. Le nom du dossier est identique à celui du projet. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du projet pour qu’il corresponde au nouveau nom du projet.
+* Lorsque vous renommez un projet avec l’espace de stockage dans le cloud Adobe, le dossier de documents est automatiquement renommé. Cependant, en cas de problème et si le stockage ne peut pas être atteint à ce stade, le nouveau nom est rejeté pour le projet et le dossier, et les anciens noms restent inchangés. Vous pourrez réessayer de renommer après un certain temps. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Lorsque vous créez ou déplacez un projet de stockage dans le cloud Adobe vers un portfolio ou un programme de stockage Workfront hérité, le portfolio ou le programme est automatiquement converti en objet de stockage dans le cloud Adobe, si le portfolio ou le programme ne sont pas associés à des documents avant l’ajout du projet.
 * Vous ne pouvez pas créer de projet de stockage Workfront hérité pour un portfolio ou un programme de stockage dans le cloud Adobe.
 * Lorsque vous importez un projet à partir de MS Project, Workfront crée un projet de stockage Workfront hérité, même lorsque votre administrateur Workfront a défini l’espace de stockage Adobe dans le cloud par défaut pour votre système.
@@ -150,6 +151,7 @@ Pour plus d’informations, reportez-vous également à la section [Gestion des 
 Tenez compte des points suivants lorsque vous utilisez des portfolios :
 
 * Lorsque vous créez un portfolio de stockage dans le cloud Adobe, Workfront crée un dossier dans la section Documents du portfolio où les documents sont enregistrés. Le nom du dossier est identique à celui du portfolio. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du portfolio pour qu’il corresponde au nouveau nom du portfolio.
+* Lorsque vous renommez un portfolio avec l’espace de stockage dans le cloud Adobe, le dossier de documents est automatiquement renommé. Cependant, en cas de problème et si le stockage ne peut pas être atteint à ce stade, le nouveau nom est rejeté pour le portfolio et le dossier et les anciens noms restent inchangés. Vous pourrez réessayer de renommer après un certain temps. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -158,8 +160,8 @@ This is not possible anymore:
 -->
 * Vous ne pouvez pas ajouter un projet de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un projet de stockage hérité à un portefeuille de stockage Adobe.
 * Votre administrateur peut convertir un portefeuille de stockage hérité en stockage cloud Adobe dans les Préférences système de la Configuration. Tous les objets enfants (programmes, projets et documents) restent dans le stockage hérité. Les nouveaux projets utiliseront l’espace de stockage dans le cloud d’Adobe. Les nouveaux documents ajoutés au portfolio continueront à être stockés dans l’espace de stockage hérité.
-Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* &#x200B;<!-- this point also repeats for programs below-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
+Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* <!-- this point also repeats for programs below-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
 
   Vous ne pouvez plus ajouter de projets de stockage hérités existants à ce portefeuille.
 
@@ -172,13 +174,14 @@ Pour plus d’informations, voir [&#x200B; Configuration des préférences syst�
 Tenez compte des points suivants lorsque vous utilisez des programmes :
 
 * Lorsque vous créez un programme d’espace de stockage Adobe, Workfront crée un dossier dans la section Documents du programme dans lequel les documents sont enregistrés. Le nom du dossier est identique au nom du programme. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du programme, afin qu’il corresponde au nouveau nom du programme.
+* Lorsque vous renommez un programme avec l’espace de stockage dans le cloud Adobe, le dossier de documents est automatiquement renommé. Cependant, s’il y a un problème et que le stockage ne peut pas être atteint à ce moment-là, le nouveau nom est rejeté pour le programme et le dossier et les anciens noms restent inchangés. Vous pourrez réessayer de renommer après un certain temps. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * Vous ne pouvez pas ajouter un projet de stockage Workfront hérité à un programme de stockage dans le cloud Adobe.
 
 * Vous ne pouvez pas ajouter un programme de stockage dans le cloud Adobe à un portefeuille de stockage hérité ou un programme hérité à un portefeuille de stockage dans le cloud Adobe.
 * Vous ne pouvez pas créer de projet à partir d’un modèle de stockage dans le cloud Adobe dans un programme de stockage hérité.
 * Vous pouvez créer un projet à partir d’un modèle de stockage hérité dans un programme de stockage dans le cloud Adobe, mais les documents et dossiers du modèle ne sont pas ajoutés au nouveau projet. Le projet reçoit l’espace de stockage cloud Adobe.
-* &#x200B;<!-- this point also repeats for portfolios above-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
+* <!-- this point also repeats for portfolios above-->Si un portefeuille est converti d’un stockage hérité en stockage dans le cloud Adobe et que le programme dispose d’un stockage hérité, un projet du programme utilise également un stockage hérité.
 
   Vous ne pouvez plus ajouter de projets de stockage hérités existants à ce portefeuille.
 
@@ -191,7 +194,8 @@ Tenez compte des points suivants lorsque vous utilisez des tâches :
 
 * Les tâches héritent du type de stockage des projets.
 * Lorsque vous chargez un document vers une tâche d’un projet d’espace de stockage Adobe, Workfront crée automatiquement un dossier dans la section Documents de la tâche. Le nom du dossier est identique à celui de la tâche.
-* Vous pouvez renommer et supprimer le dossier de documents de la tâche d’espace de stockage Adobe dans le cloud, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à la tâche, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
+* Le fait de renommer la tâche ne renomme pas en dossier de documents.
+* Vous pouvez supprimer le dossier de documents de la tâche d’espace de stockage Adobe dans le cloud, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à la tâche, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les projets d’espace de stockage Adobe, le dossier de documents d’une tâche s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer une tâche d’un projet de stockage Workfront hérité vers un projet de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
 * Les scénarios suivants existent lors de la conversion d&#39;une tâche en projet : <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
 
 * Les événements héritent du type de stockage des projets.
 * Lorsque vous téléchargez un document vers un événement d’un projet d’espace de stockage Adobe, Workfront crée automatiquement un dossier dans la section Documents de l’événement. Le nom du dossier est identique à celui du problème.
-* Vous pouvez renommer et supprimer le dossier de documents du problème d’espace de stockage dans le cloud Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à l’événement, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
+* Renommer un événement ne renomme pas le dossier de document.
+* Vous pouvez supprimer le dossier de documents du problème d’espace de stockage dans le cloud Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à l’événement, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les projets d’espace de stockage Adobe, le dossier de documents relatif à un événement s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le projet.
 * Vous ne pouvez pas copier ni déplacer un problème d’un projet de stockage Workfront hérité vers un projet de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
 * Les scénarios suivants existent lors de la conversion d&#39;un événement en projet : <!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ Tenez compte des points suivants lorsque vous travaillez avec des problèmes :
 Tenez compte des points suivants lorsque vous utilisez des modèles :
 
 * Lorsque vous créez un modèle d’espace de stockage Adobe, Workfront crée un dossier dans la section Documents du modèle où les documents sont enregistrés. Le nom du dossier est identique à celui du programme. Vous ne pouvez pas supprimer ni renommer manuellement le dossier. Le dossier est renommé si vous modifiez le nom du modèle afin qu’il corresponde au nouveau nom du modèle.
+* Lorsque vous renommez un modèle avec l’espace de stockage dans le cloud Adobe, le dossier de documents est automatiquement renommé. Cependant, en cas de problème et si le stockage ne peut pas être atteint à ce stade, le nouveau nom est rejeté pour le modèle et le dossier et les anciens noms restent inchangés. Vous pourrez réessayer de renommer après un certain temps. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Vous pouvez utiliser un modèle de stockage Workfront hérité pour créer des projets de stockage Workfront hérités ; vous pouvez utiliser un modèle de stockage cloud Adobe pour créer un projet de stockage cloud Adobe.
 
 * Lors de la création de projets à l’aide de modèles provenant d’un portfolio ou d’un programme, les scénarios suivants existent :
@@ -244,7 +250,8 @@ Tenez compte des points suivants lorsque vous utilisez des tâches de modèles :
 
 * Les tâches de modèles héritent du type de stockage des modèles.
 * Lorsque vous téléchargez un document vers une tâche de modèle sur un modèle d’espace de stockage Adobe, Workfront crée automatiquement un dossier dans la section Documents de la tâche de modèle. Le nom du dossier est identique à celui de la tâche de modèle.
-* Vous pouvez renommer et supprimer le dossier de documents de la tâche de modèle d’espace de stockage dans le cloud Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à la tâche de modèle, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
+* Le fait de renommer la tâche de modèle ne renomme pas le dossier de document.
+* Vous pouvez supprimer le dossier de documents de la tâche de modèle d’espace de stockage dans le cloud Adobe, ce qui supprime également les documents du dossier. Après avoir ajouté de nouveaux documents à la tâche de modèle, le dossier est automatiquement recréé. Les documents supprimés ne sont pas replacés dans le dossier.
 * Pour les modèles d’espace de stockage Adobe, le dossier de documents d’une tâche de modèle s’affiche sous la forme d’un sous-dossier dans le dossier de documents automatiquement créé pour le modèle.
 * Vous ne pouvez pas copier ni déplacer une tâche de modèle d’un modèle de stockage Workfront hérité vers un modèle de stockage dans le cloud Adobe. L&#39;inverse n&#39;est pas non plus possible.
 

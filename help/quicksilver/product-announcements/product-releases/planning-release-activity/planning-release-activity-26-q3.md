@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3226'
+source-wordcount: '3286'
 ht-degree: 6%
 ---
 # Activité de mise à jour du troisième trimestre 2026 pour Adobe Workfront Planning
@@ -146,7 +146,7 @@ La zone de recherche globale de Planning mémorise désormais vos recherches les
 
 Les résultats récents respectent les autorisations actuelles et la liste des éléments les plus récents est visuellement distincte des résultats de recherche en direct. Comme auparavant, vous pouvez accéder à la recherche à partir de la page de destination Planning ou de n’importe quelle page à l’aide d’une combinaison de clavier.
 
-Pour plus d&#39;informations, voir Présentation de [&#128279;](/help/quicksilver/planning/architecture/workspaces-overview.md).
+Pour plus d&#39;informations, voir Présentation de [](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 
 ## Prise en charge des champs de planification monétaire dans les tableaux de bord de la zone de travail
@@ -251,7 +251,7 @@ Nous avons ajouté l’onglet Exemples d’espaces de travail à la zone de dest
 
 Nous vous recommandons d’afficher les exemples d’espaces de travail et d’utiliser le lot de modèles multi-espaces de travail pour créer, modifier et partager les espaces de travail résultant de l’utilisation de ce modèle.  Le lot du modèle contient les mêmes espaces de travail que l’onglet Exemples d’espaces de travail .
 
-Pour plus d’informations, voir [&#x200B; Présentation des espaces de travail &#x200B;](/help/quicksilver/planning/architecture/workspaces-overview.md).
+Pour plus d’informations, voir [ Présentation des espaces de travail ](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 >[!NOTE]
 >
@@ -339,7 +339,7 @@ Pour plus d’informations, voir [Ajouter des types d’enregistrements existant
 >Aperçu : 28 mai 2026
 >Version rapide de production : 11 juin 2026
 >Production pour tous : 16 juillet 2026
->[!BADGE Dans Beta &#x200B;]{type=Neutral}
+>[!BADGE Dans Beta ]{type=Neutral}
 
 Vous pouvez désormais utiliser Adobe Planning Designer optimisé par l’IA pour configurer facilement vos espaces de travail et vos structures de données. Planning Designer prend en charge de nombreux éléments, de la création et la configuration des espaces de travail à la définition de champs et de formules, la gestion des enregistrements, la révision de l&#39;historique des modifications et la création de vues personnalisées.
 
@@ -384,6 +384,17 @@ Grâce à cette version, les métadonnées clés sont cohérentes sur les deux p
 
 Pour plus d’informations, voir [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
+## Fonctionnalités de planification disponibles dans le serveur MCP Workfront
+
+>[!NOTE]
+>
+>* Aperçu : 28 mai 2026
+>* Version rapide de production : 11 juin 2026
+>* Production pour tous : 16 juillet 2026
+
+Les fonctionnalités de planification de Workfront sont désormais accessibles à partir du serveur MCP Workfront, de sorte que les équipes puissent référencer le contexte de planification et exécuter la configuration et les approbations avec les nouveaux outils de connecteur MCP.
+
+Pour plus d’informations, voir [Outils de serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
 ## Mises à jour de la vue Liste
 
@@ -521,7 +532,7 @@ Outre l&#39;ajout de deux vues de page de détails déjà créées, qui contienn
 
 Cette mise à jour supprime le paramètre **Afficher tous les champs** et le remplace par des vues détaillées personnalisées.
 
-Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
+Pour plus d’informations, voir [ Gérer la page d’enregistrement ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Ajouter des regroupements à une page d’enregistrement connecté Projets
 
@@ -533,5 +544,5 @@ Pour plus d’informations, voir [&#x200B; Gérer la page d’enregistrement &#x
 
 Vous pouvez désormais regrouper vos informations dans la page Enregistrements connectés à des projets d’un enregistrement dans Workfront Planning. Cette fonctionnalité n&#39;existait pas dans ce domaine avant cette amélioration.
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
