@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 16 octobre 2026
 
 Lorsqu’un modèle contient des données financières, ces valeurs de champ sont conservées lorsqu’un utilisateur crée un projet à partir du modèle. L’utilisateur doit disposer d’un accès en lecture seule aux données financières pour afficher les champs financiers dans les détails du projet.
 
