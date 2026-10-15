@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -305,5 +305,3 @@ Pour plus d’informations, voir [Configurer les champs à suivre dans l’histo
 Au niveau d&#39;accès standard, vous pouvez maintenant définir si les utilisateurs disposant de ce niveau doivent avoir accès à la liste Historique des modifications. L’option **Historique des modifications** est disponible dans la section **Autoriser l’accès administratif pour** au niveau de l’accès.
 
 Pour plus d&#39;informations, consultez [Octroi aux utilisateurs d&#39;un accès administratif à certaines zones](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) et [Affichage et gestion de l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
-
-
