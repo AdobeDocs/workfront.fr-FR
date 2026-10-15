@@ -5,9 +5,9 @@ title: Créer une validation groupée
 description: Vous pouvez regrouper plusieurs documents dans un seul workflow d’approbation afin qu’ils passent par les mêmes étapes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 3%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Une approbation groupée regroupe plusieurs documents dans un seul workflow d’approbation. Vous pouvez utiliser le mode de base et avancé, plusieurs étapes et des chemins d’accès parallèles avec des approbations groupées, comme vous le pouvez avec des approbations de document unique.
 
-Les approbations groupées sont disponibles uniquement dans la zone Nouveaux documents, qui s’affiche lorsque votre organisation utilise l’espace de stockage dans le cloud d’Adobe. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>[!IMPORTANT]
+>
+>Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Les validations groupées ne sont disponibles que dans la zone des nouveaux documents. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 
 ## Conditions d’accès
 
