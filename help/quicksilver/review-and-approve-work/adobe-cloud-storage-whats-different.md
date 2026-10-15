@@ -6,16 +6,16 @@ description: Découvrez les principales différences sur les objets d’espace d
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # Nouveautés du stockage dans le cloud Adobe
 
-Une fois votre contrat mis à jour afin d’inclure la nouvelle expérience de révision et d’approbation unifiée, votre environnement peut contenir deux types d’objets : des objets sur l’ancien stockage Workfront (les objets que vous possédez aujourd’hui) et des objets créés à l’aide de l’espace de stockage dans le cloud Adobe. La nouvelle zone Documents, la visionneuse Frame.io et les autres comportements décrits ici s’appliquent uniquement aux objets qui utilisent l’espace de stockage dans le cloud Adobe.
+Avec l’espace de stockage dans le cloud d’Adobe, votre environnement peut contenir deux types d’objets : des objets sur l’espace de stockage Workfront hérité (les objets dont vous disposez aujourd’hui) et des objets créés à l’aide de l’espace de stockage dans le cloud d’Adobe. La nouvelle zone Documents, la visionneuse Frame.io et les autres comportements décrits ici s’appliquent uniquement aux objets qui utilisent l’espace de stockage dans le cloud Adobe.
 
-Pour connaître l’orientation du déplacement et savoir quand l’activer, voir [Déplacer vers Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Pour obtenir une orientation sur le déplacement, voir [Déplacer vers Workfront sur l’espace de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Comprendre le stockage Workfront hérité et le stockage dans le cloud Adobe
 
