@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '3584'
 ht-degree: 8%
@@ -24,7 +24,7 @@ Cette page fournit des informations sur les fonctionnalités incluses dans la ve
 
 Les améliorations apportées à cette page sont disponibles dans l’environnement de Prévisualisation. Cette page sera mise à jour avec des améliorations supplémentaires à mesure que la version du quatrième trimestre 2026 approche de sa date de sortie en production.
 
-Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/fr/events?filters=Workfront) et définissez un filtre pour Workfront.
+Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils mettent en évidence les nouvelles fonctionnalités et fournissent des informations détaillées. Pour vous inscrire, rendez-vous sur la page [événements](https://experienceleague.adobe.com/en/events?filters=Workfront) et définissez un filtre pour Workfront.
 
 >[!IMPORTANT]
 >
@@ -386,8 +386,8 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Vous pouvez désormais regrouper plusieurs documents sous un seul workflow d’approbation, afin qu’ils passent par les mêmes étapes.</p>
             </td>
             <td><p>Cette fonctionnalité n’est pas disponible dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible.</p></td>
-            <td><p>22 Octobre 2026</p></td>
-            <td><p>22 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -395,8 +395,8 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
                 <p>Vous pouvez désormais ajouter un site web à Adobe Workfront sous la forme d’un lien web dans la zone des nouveaux Documents et demander l’approbation sur la page web active.</p>
             </td>
             <td><p>Cette fonctionnalité n’est pas disponible dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible.</p></td>
-            <td><p>22 Octobre 2026</p></td>
-            <td><p>22 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
+            <td><p>15 Octobre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -859,7 +859,7 @@ Des webinaires en direct sont organisés pour chaque version trimestrielle. Ils 
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de la version du quatrième trimestre 2026 de la planification &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+* [Activité de la version du quatrième trimestre 2026 de la planification ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
 ## Mises à jour de la visionneuse de relecture de bureau
 
@@ -914,7 +914,7 @@ Si vous êtes un administrateur Workfront avec des utilisateurs de lecteurs Data
 
 Cette modification a été annoncée pour la première fois dans les notes de mise à jour d’avril 2026 de Workfront. Il s’agit du dernier rappel avant l’échéance. Assurez-vous que tous les utilisateurs et utilisatrices de Reader affectés activent MFA avant le 8 août 2026 afin d’éviter toute perturbation de leur accès.
 
-Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/fr/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Pour plus d’informations, voir [Création d’un compte de lecteur ou d’une connexion pour Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Mise à jour des formations
 
