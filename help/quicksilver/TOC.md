@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: d6c8ce2904153bc2556e2026626993632d573bf0
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14674'
 ht-degree: 91%
 ---
 # Guide Workfront {#using}
@@ -486,7 +486,6 @@ ht-degree: 91%
       * [Nouveaux calculs de la chronologie du projet](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Activer les trimestres et semaines personnalisés](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Activer ou désactiver les versions rapides pour votre entreprise](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Activer le stockage dans le cloud Adobe pour votre organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Conversion de portefeuilles hérités en espace de stockage Adobe](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configurer la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1859,7 +1858,7 @@ ht-degree: 91%
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -1929,9 +1928,14 @@ ht-degree: 91%
   * [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)
   * [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Passer à Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Vue d’ensemble du statut de décision limitée des documents et des épreuves pour les utilisateurs et utilisatrices non payants](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[Configuration des réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Passer à Workfront sur l’espace de stockage dans le cloud Adobe {#move-to-adobe-cloud-storage}
+    * [Passer à Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Nouveautés du stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Planification du déploiement de l’espace de stockage Adobe](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Activer le stockage dans le cloud Adobe pour votre organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [Convertir des objets hérités en espace de stockage Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * Approbations du travail {#work-approvals}
     * [Approbations du travail](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Vue d’ensemble du processus d’approbation](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -2616,8 +2620,8 @@ ht-degree: 91%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
