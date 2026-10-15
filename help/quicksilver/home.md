@@ -46,7 +46,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 * [Activité de version Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Activité de publication d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
->Versions d’[!TAB  2027]
+>[!TAB Versions d’  2027]
 
 * [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Activité de version Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
@@ -151,7 +151,7 @@ La recherche documentaire peut être plus efficace avec quelques approches strat
 
 ### Explorer les sections d’apprentissage et de formation
 
-* **Supports de formation : accédez à la page Formation Workfront et découvrez une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront.**[](https://experienceleague.adobe.com/fr/browse/workfront) Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
+* **Supports de formation : accédez à la page Formation Workfront et découvrez une bibliothèque de vidéos et d’articles de formation conçus pour vous aider à mieux comprendre les fonctionnalités et les paramètres de Workfront.**&#x200B;[&#128279;](https://experienceleague.adobe.com/fr/browse/workfront) Vous pouvez également accéder à des supports de formation payants à l’adresse [learning.adobe.com](https://learning.adobe.com/).
 * **Cours** : recherchez des [cours d’apprentissage structuré](https://experienceleague.adobe.com/home?Solution=Workfront#courses) qui vous guident tout au long de l’utilisation de différentes fonctionnalités Workfront suivant une séquence logique.
 
 ### Trouver des réponses dans les forums de la Communauté
