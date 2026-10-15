@@ -48,7 +48,7 @@ Avant de déployer l’espace de stockage dans le cloud d’Adobe, assurez-vous 
 
 Parcourez ces articles dans l’ordre au fur et à mesure que vous préparez :
 
-* [En quoi consiste l’espace de stockage dans le cloud d’Adobe ](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md) : principales différences entre les objets de stockage dans le cloud d’Adobe, de la nouvelle zone Documents à la visionneuse Frame.io, en passant par les règles de nommage, le quota de stockage et Fusion.
+* [En quoi consiste l’espace de stockage dans le cloud d’Adobe &#x200B;](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md) : principales différences entre les objets de stockage dans le cloud d’Adobe, de la nouvelle zone Documents à la visionneuse Frame.io, en passant par les règles de nommage, le quota de stockage et Fusion.
 * [Planifiez le déploiement de votre espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md) : choisissez une configuration de déploiement, pilotez avec un seul groupe et ordonnancez le travail afin d’éviter les surprises pour vos utilisateurs.
 * [Activer l’espace de stockage Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) : étapes de définition de l’option de stockage par défaut pour l’ensemble de l’organisation ou pour des groupes spécifiques.
 * [Conversion d’objets hérités en espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md) : les trois cas où vous pouvez convertir un objet hérité en espace de stockage dans le cloud Adobe, et ce qui se déplace au cours de chaque conversion.
