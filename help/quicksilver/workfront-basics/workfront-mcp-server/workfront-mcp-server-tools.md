@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
-ht-degree: 6%
+source-wordcount: '3561'
+ht-degree: 5%
 ---
 
 # Outils de serveur MCP Adobe Workfront
@@ -353,13 +353,20 @@ Les outils de création de rapports vous permettent de créer et de gérer des t
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| Lire | `read` | Lit les données de rapports dans trois modes sélectionnés par les identifiants transmis : répertorie les tableaux de bord visibles, récupère la structure d’un seul tableau de bord ou récupère la configuration complète d’un widget. | Lire |
-| Créer un tableau de bord | `create_dashboard` | Crée un nouveau tableau de bord de rapports vide et le renvoie, avec un lien pour l’ouvrir. | Write |
-| Update Dashboard | `update_dashboard` | Met partiellement à jour les métadonnées, l’invite, le filtre et l’emplacement par widget d’un tableau de bord. Les champs omis restent inchangés. | Write |
-| Créer un widget | `create_widget` | Crée un widget et sa configuration de rapport sur un tableau de bord. Un seul outil gère les trois types de widgets : graphique, KPI et tableau. | Write |
-| Mettre à jour le widget | `update_widget` | Met partiellement à jour une configuration de widget existante. Le type de widget est déduit automatiquement. Vous n’envoyez donc que les champs à modifier. | Write |
-| Copier l’objet | `copy_object` | Copie l’intégralité d’un tableau de bord, y compris ses widgets, son invite et son filtre, dans un nouveau tableau de bord ou copie un seul widget dans ou entre plusieurs tableaux de bord. | Write |
-| Supprimer l&#39;objet | `delete_object` | Supprime de manière permanente un tableau de bord de création de rapports et tous ses widgets, ou un seul widget. Cette action ne peut pas être annulée. | Write |
+| Liste des tableaux de bord | `reporting_relist_dashboards` | Répertorie les tableaux de bord de création de rapports visibles. Prend en charge les valeurs `view` `"my"`, `"shared"`, `"all"` et `"favorites"`. Renvoie uniquement les métadonnées du tableau de bord, y compris une URL pour ouvrir chaque tableau de bord. | Lire |
+| Obtenir le tableau de bord | `reporting_get_dashboard` | Récupère un tableau de bord de la zone de travail par identifiant, y compris les métadonnées, la disposition, les invites, le filtre et les identifiants de widget. Les données du widget ne sont pas hydratées. | Lire |
+| Obtenir le widget | `reporting_get_widget` | Récupère un shell de widget et sa configuration de contenu aplati. Les références aux champs sont renvoyées sous forme de `{id, label, dataType}` afin qu’elles puissent être réutilisées directement dans les outils de `reporting_update_*_widget`. Les types de contenu pris en charge sont Tableau, KPI et MultiSeries. | Lire |
+| Créer un tableau de bord | `reporting_create_dashboard` | Crée un tableau de bord de création de rapports vide. Renvoie le tableau de bord créé complet, y compris son identifiant, son titre, sa description, sa devise, son identifiant de créateur, sa date de création et ses collections de widgets, d’invites et de filtres vides. | Write |
+| Update Dashboard | `reporting_update_dashboard` | Met partiellement à jour le titre, la description, la devise, l’invite, le filtre et les paramètres de mise en `ignoreDashboardFilters` et de disposition d’un tableau de bord par widget. Les champs omis restent inchangés et les invites et les filtres sont entièrement remplacés lorsqu&#39;ils sont fournis. | Write |
+| Créer un widget de tableau | `reporting_create_table_widget` | Crée un widget Tableau et sa configuration de rapport sur un tableau de bord. Renvoie le widget créé complet dans la forme `get_widget` aplatie. | Write |
+| Widget de mise à jour de tableau | `reporting_update_table_widget` | Met à jour un widget Tableau existant et sa configuration de rapport. Remplace la configuration du tableau stocké, y compris les colonnes, les intervalles, la limite des lignes, la légende, la description, la condition et les paramètres d&#39;exécution en tant qu&#39;utilisateur. | Write |
+| Créer un widget de KPI | `reporting_create_kpi_widget` | Crée un widget d’indicateur de performance clé et sa configuration de rapport sur un tableau de bord. Renvoie le widget créé complet dans la forme `get_widget` aplatie. | Write |
+| Mettre à jour le widget de KPI | `reporting_update_kpi_widget` | Met à jour un widget de KPI existant et sa configuration de rapport. `fieldId` et `aggregation` sont nécessaires, et le rapport sous-jacent est entièrement remplacé. | Write |
+| Créer un widget de graphique | `reporting_create_chart_widget` | Crée un widget de graphique et sa configuration de rapport. Les types de graphiques pris en charge sont les types BAR, COLUMN, LINE et PIE, y compris les variantes SIMPLE, MULTI_SERIES et STACKED là où elles sont prises en charge. | Write |
+| Mettre à jour le widget de graphique | `reporting_update_chart_widget` | Met à jour un widget de graphique existant et sa configuration de rapport. `aggregationFieldId`, `aggregationType`, `groupByFields` et `chartType` sont nécessaires et le rapport sous-jacent est entièrement remplacé. | Write |
+| Copier le widget | `reporting_copy_widget` | Copie un widget existant dans le même tableau de bord ou dans un autre tableau de bord, dupliquant le widget et sa configuration de rapport. | Write |
+| Copier le tableau de bord | `reporting_copy_dashboard` | Copie un tableau de bord dans un nouveau tableau de bord, y compris ses widgets et ses configurations de rapport. Vous pouvez éventuellement copier uniquement un sous-ensemble de widgets et choisir d’inclure ou non l’invite et le filtre. | Write |
+| Supprimer l&#39;objet | `reporting_delete_object` | Supprime de manière permanente un tableau de bord de création de rapports et tous ses widgets, ou un seul widget. Cette action ne peut pas être annulée. | Write |
 
 ## Mise à jour des outils
 
