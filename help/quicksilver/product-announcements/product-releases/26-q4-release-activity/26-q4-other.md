@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 16 octobre 2026
->Production pour tous : 16 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les modifications suivantes ont été apportées aux filtres de liste et aux regroupements améliorés :
 
@@ -49,8 +49,8 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 16 octobre 2026
->Production pour tous : 16 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les listes Workfront suivantes utilisent désormais le format de liste amélioré :
 
@@ -83,7 +83,7 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 16 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Dans toutes les listes améliorées, les mises à jour suivantes sont désormais disponibles :
 
@@ -98,7 +98,7 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 16 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les listes Workfront suivantes utilisent désormais le format de liste amélioré :
 
@@ -159,7 +159,7 @@ Pour plus d’informations, voir [Navigation de gauche dans Adobe Workfront](/he
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 16 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Plusieurs mises à jour ont été apportées aux listes améliorées :
 
@@ -174,7 +174,7 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 16 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Lorsque vous pointez sur le chemin de navigation d’un objet, vous pouvez désormais copier son nom et le lier ensemble en une seule action. Cela permet de partager plus rapidement des objets dans Slack, dans un e-mail ou dans d’autres outils, sans copier le nom et l’URL séparément.
 
