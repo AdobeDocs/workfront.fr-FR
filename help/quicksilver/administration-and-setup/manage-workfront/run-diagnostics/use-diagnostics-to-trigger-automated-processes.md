@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 100%
 ---
 # Utiliser les diagnostics pour déclencher des processus automatisés
 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Utiliser les diagnostics pour déclencher des processus automatisés
 
-1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Développer **Système**, puis cliquez sur **Diagnostics**.
 1. Sélectionnez l’une des options suivantes :

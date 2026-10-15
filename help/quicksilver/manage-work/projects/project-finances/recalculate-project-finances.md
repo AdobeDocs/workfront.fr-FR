@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 76%
-
+source-wordcount: '1753'
+ht-degree: 67%
 ---
-
 # Recalculer les finances d’un projet
 
 Les finances sont calculées sur un projet à mesure que des modifications se produisent dans les heures consignées pour le projet ou dans les taux utilisés pour calculer les coûts et les revenus.
@@ -125,7 +129,7 @@ Pour plus d&#39;informations sur la création d&#39;enregistrements de facturati
 
 #### Préserver les revenus du projet en utilisant plusieurs remplacements de taux de facturation {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
-Lorsque les taux de facturation changent pour les fonctions au niveau du projet, vous pouvez conserver les revenus existants, déjà calculés sur le projet, en utilisant plusieurs remplacements de taux de facturation qui sont verrouillés au cours d’une période spécifiée.
+Lorsque les taux de facturation changent pour les fonctions au niveau du projet, vous pouvez conserver les revenus existants qui ont déjà été calculés pour le projet en utilisant plusieurs remplacements de taux de facturation, qui sont verrouillés au cours d’une période spécifiée.
 
 Pour plus d’informations sur l’utilisation de remplacements de plusieurs taux de facturation, voir [Présentation du remplacement des taux de facturation et du calcul du revenu sur un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
@@ -146,7 +150,7 @@ Les taux de dépenses peuvent changer aux niveaux suivants :
 * Niveau du projet (pour les utilisateurs)
 Pour plus d&#39;informations sur le remplacement des taux de coûts utilisateur, voir [Remplacer les taux de coûts utilisateur au niveau du projet](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
-Lorsque les taux de facturation changent à n’importe quel niveau mentionné ci-dessus, vous pouvez conserver les coûts existants, déjà calculés sur le projet, en verrouillant la durée enregistrée sur le projet et calculée à l’aide de l’ancien taux dans un enregistrement de facturation ayant le statut Facturé. Pour plus d&#39;informations sur la création d&#39;enregistrements de facturation, voir [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
+Lorsque les taux de coûts changent à l&#39;un des niveaux mentionnés ci-dessus, vous pouvez conserver les coûts existants qui ont déjà été calculés sur le projet en verrouillant le temps enregistré sur le projet et calculé à l&#39;aide de l&#39;ancien taux dans un enregistrement de facturation avec le statut Facturé. Pour plus d&#39;informations sur la création d&#39;enregistrements de facturation, voir [Créer des enregistrements de facturation](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Vous pouvez également éviter d’utiliser l’option manuelle Recalculer le financement si vous ne souhaitez pas créer d’enregistrement de facturation, comme décrit dans la section [Recalculer manuellement le financement d’un projet](#manually-recalculate-finances-for-a-project) dans cet article.
 
@@ -182,8 +186,8 @@ Vous pouvez recalculer le financement lors de leur modification en masse. Pour p
 
    Tous les coûts et revenus prévus pour le projet sont recalculés avec d’éventuelles nouvelles informations.
 
-   Vous devriez recevoir une confirmation en haut du navigateur indiquant que les finances du projet ont bien été recalculées.
-Les valeurs de coûts existantes et certaines valeurs de revenus qui n’ont pas été verrouillées sont mises à jour pour refléter les nouveaux taux.
+   Une confirmation devrait s’afficher en haut du navigateur pour vous indiquer que le financement du projet a été recalculé.
+   Les valeurs des dépenses existantes et certaines valeurs de revenus qui n’ont pas été verrouillées sont mises à jour pour prendre en compte les nouveaux taux.
 
 ## Recalculer manuellement le financement en masse{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ Les actions suivantes déclenchent un nouveau calcul financier des projets dans 
 * Modifier le statut des tâches
 * Déplacer une tâche avec des heures vers un autre projet
 * Passer le statut d’un projet de Terminé à Actif
+* Ajouter une dépense facturable au niveau du projet ou de la tâche
 
 >[!NOTE]
 >
->Lorsque vous modifiez le statut d’un projet, seules les valeurs prévues sont recalculées.
+>Lorsque vous modifiez le statut du projet, seules les valeurs prévues sont recalculées.
 
 Vous pouvez également recalculer les finances manuellement sous le menu **Plus** ![Plus](assets/qs-more-menu.png) au niveau du projet, en cliquant sur **Recalculer les finances**.
+
+### Impact des dépenses sur le recalcul automatique des finances
+
+Ces scénarios existent lors de l&#39;ajout de dépenses à des projets et tâches :
+
+* L&#39;ajout d&#39;une dépense non facturable à un projet met à jour les coûts du projet, sans recalculer toutes les finances.
+* L&#39;ajout d&#39;une dépense non facturable à une tâche recalcule les coûts de cette tâche et les coûts du projet. Aucune autre tâche n&#39;est recalculée.
+* L&#39;ajout d&#39;une dépense facturable au niveau du projet ou de la tâche déclenche un recalcul financier sur le projet, y compris les coûts de main-d&#39;œuvre et les revenus.
+
+>[!NOTE]
+>
+>Lorsqu&#39;un montant prévu est enregistré sur la dépense, le coût prévu est mis à jour. Lorsqu&#39;un montant réel est enregistré sur la dépense, le coût réel est mis à jour.
+
+Pour plus d&#39;informations sur les dépenses, voir [Gérer les dépenses du projet](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
