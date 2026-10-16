@@ -11,10 +11,10 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
+source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 9%
+source-wordcount: '481'
+ht-degree: 8%
 ---
 # Ajouter un lien web en tant que document
 
@@ -56,13 +56,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Ajouter un lien web en tant que document
 
-Vous pouvez charger une page web HTML dans Workfront sous la forme d’un lien web. Après l’avoir ajouté, vous pouvez demander une approbation sur la page web active de la même manière que vous demandez une approbation sur un fichier chargé. Pour plus d&#39;informations sur la façon dont Frame.io gère les liens web, consultez [Frame.io Web Links](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
+Vous pouvez charger une page web HTML dans Workfront sous la forme d’un lien web. Après l’avoir ajouté, vous pouvez demander une approbation sur la page web active de la même manière que vous demandez une approbation sur un fichier chargé. Pour plus d’informations sur la façon dont Frame.io gère les liens web, consultez [HTML Review for Frame.io](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* Les URL sont prises en charge si le site autorise les incorporations iFrame.
+>* Les URL web privées sont prises en charge, mais certains flux d’authentification peuvent ne pas fonctionner selon la configuration du serveur.
+>* Les URL Youtube et Figma ne sont actuellement pas prises en charge.<br>
+>Pour plus d’informations, voir [Quels types d’URL sont pris en charge dans Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported).
+
 
 Pour ajouter un lien web :
 
