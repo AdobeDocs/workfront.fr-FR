@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 8%
+source-wordcount: '903'
+ht-degree: 6%
 ---
 # Vérifier et approuver avec la visionneuse Frame.io
 
@@ -84,6 +84,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 * L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 * Pour passer en revue un document de lien web, vous devez avoir installé l’extension [Frame.io Chrome](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen). S’il n’est pas installé, vous êtes invité à le télécharger la première fois que vous ouvrez la visionneuse Frame.io pour un document de lien web dans Workfront.
 
+
 ## Réviser un document
 
 En tant que réviseur/réviseuse, vous pouvez ajouter des commentaires aux ressources et les marquer. Une fois l’opération terminée, vous pouvez marquer la révision comme terminée dans Workfront. Il n’est pas nécessaire de marquer la révision comme terminée pour que la ressource progresse dans le processus d’approbation.
@@ -135,3 +136,28 @@ Accédez à la page d’accueil de Workfront, recherchez le widget Mes approbati
    Pour plus d’informations sur les décisions dans Workfront, voir [Présentation du statut de la décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Visionneuse et décision Frame](assets/make-decision-frame.png)
+
+## Vérifier un lien web
+
+Si le document est une URL web en direct, vous pouvez réviser la page dans la visionneuse Frame.io et laisser des commentaires directement sur la page.
+
+1. Accédez à l’e-mail de notification de révision, puis cliquez sur **Accéder à la révision**.
+ou
+Accédez à la page d’accueil de Workfront, recherchez le widget Mes approbations , puis cliquez sur **Ouvrir la révision**.
+
+   >[!NOTE]
+   > 
+   >Vous devrez peut-être ajouter le widget Mes approbations à votre page d’accueil. Pour plus d’informations, voir [Ajouter, modifier ou supprimer des widgets dans l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+1. Dans Frame.io, ouvrez le document de lien web. Si vous y êtes invité, installez l’extension [Frame.io Chrome](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen) afin de pouvoir afficher la page et capturer l’état actuel de l’URL.
+
+1. Utilisez la visionneuse pour ajouter des commentaires, des annotations et plus directement sur la page.
+
+1. Une fois la révision du document de lien web terminée, vous pouvez choisir l&#39;une des décisions suivantes dans la visionneuse Frame.io :
+
+   * **Approuver** : la ressource n’a pas besoin d’être modifiée et est prête à être utilisée.
+   * **À retravailler** : la ressource a besoin d’être modifiée et n’est pas prête à être utilisée. Une fois les modifications spécifiées effectuées, la ressource doit être chargée en tant que nouvelle version et passer par un autre cycle d’approbations. Pour plus d&#39;informations, voir [Charger une nouvelle version du document et demander une approbation](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). <!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   Une fois la décision prise, le propriétaire du document est averti par e-mail.
+
+Pour obtenir des instructions détaillées sur l’affichage et la révision des URL web en direct, y compris les URL prises en charge, les exigences d’extension de navigateur et les options de commentaires, consultez [Révision HTML pour Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).

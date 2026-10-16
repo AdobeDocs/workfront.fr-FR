@@ -11,9 +11,9 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 5e37582fe161e1a4689c35773cb1b3f6ead5a859
+source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 9%
 ---
 # Ajouter un lien web en tant que document
@@ -56,7 +56,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Ajouter un lien web en tant que document
 
-Vous pouvez charger une page web HTML dans Workfront sous la forme d’un lien web. Après l’avoir ajouté, vous pouvez demander une approbation sur la page web active de la même manière que vous demandez une approbation sur un fichier chargé. Pour plus d&#39;informations sur la façon dont Frame.io gère les liens web, consultez [Frame.io Web Links](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links).
+Vous pouvez charger une page web HTML dans Workfront sous la forme d’un lien web. Après l’avoir ajouté, vous pouvez demander une approbation sur la page web active de la même manière que vous demandez une approbation sur un fichier chargé. Pour plus d&#39;informations sur la façon dont Frame.io gère les liens web, consultez [Frame.io Web Links](https://help.frame.io/en/articles/12893213-html-review-for-frame-io).
 
 <!--
 >[!IMPORTANT]
