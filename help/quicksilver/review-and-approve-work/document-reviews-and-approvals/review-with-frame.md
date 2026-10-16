@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 9%
+source-wordcount: '668'
+ht-degree: 8%
 ---
 # Vérifier et approuver avec la visionneuse Frame.io
 
@@ -82,6 +82,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Conditions préalables
 
 * L’intégration Workfront et Frame.io doit être configurée dans votre instance Workfront. Pour plus d’informations, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+* Pour passer en revue un document de lien web, vous devez avoir installé l’extension [Frame.io Chrome](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen). S’il n’est pas installé, vous êtes invité à le télécharger la première fois que vous ouvrez la visionneuse Frame.io pour un document de lien web dans Workfront.
 
 ## Réviser un document
 
@@ -117,7 +118,6 @@ Accédez à la page d’accueil de Workfront, recherchez le widget Mes approbati
    > 
    >Vous devrez peut-être ajouter le widget Mes approbations à votre page d’accueil. Pour plus d’informations, voir [Ajouter, modifier ou supprimer des widgets dans l’Accueil](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-
 1. Dans Frame.io, utilisez les outils de commentaires pour laisser des commentaires ou poser des questions. Les commentaires et les balises de ressources ne sont visibles que dans la visionneuse Frame.io. Pour plus d&#39;informations sur l&#39;utilisation de la visionneuse Frame.io, voir [Commentaire sur vos médias](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
    >[!NOTE]
@@ -135,7 +135,3 @@ Accédez à la page d’accueil de Workfront, recherchez le widget Mes approbati
    Pour plus d’informations sur les décisions dans Workfront, voir [Présentation du statut de la décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
    ![Visionneuse et décision Frame](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->
