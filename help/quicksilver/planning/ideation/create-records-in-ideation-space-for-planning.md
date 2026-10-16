@@ -11,10 +11,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 4%
 ---
 
 # Créer ou modifier des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation
@@ -112,7 +112,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -158,50 +158,40 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    ![Nouvelle boîte d’enregistrement avec le bouton Ouvrir l’espace d’idéation](assets/new-record-creation-picker-with-ideation.png)
 
-   L’espace Idéation s’ouvre dans un nouvel onglet avec une invite vide.
+   L’espace Idéation s’ouvre dans un nouvel onglet.
 
-   L’enregistrement est immédiatement créé avec le texte d’espace réservé.
+   CX Coworker s’ouvre dans le panneau de droite.
 
-1. (Facultatif) Cliquez sur **Utiliser un brief existant** dans la zone d&#39;invite pour parcourir et ajouter un document existant que l&#39;espace Idéation utilisera pour créer le brief et l&#39;enregistrement futur. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   L’enregistrement est créé immédiatement avec un nom d’espace réservé.
 
-   ![Invite vide du résumé de l’idéation](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir les zones de travail précédentes** <!--accurate??--> ![Ouvrir les mémoires existantes](assets/open-existing-briefs-icon.png) dans le coin supérieur droit de la zone d’invite, pour ouvrir les mémoires existantes
-
-1. Dans le **Sur quoi travaillez-vous ?** , décrivez le type d’enregistrement que vous souhaitez créer.
+1. Ajoutez une invite dans la boîte de dialogue ****, puis appuyez sur Entrée.
 
    Plus vous partagez de détails, plus les informations fournies par l&#39;espace d&#39;idéation seront utiles. Par exemple, tapez une description de la campagne que vous prévoyez : « Campagne de rentrée des classes pour une agence marketing ».
 
-1. Cliquez sur **Commencer à idéaliser**.
+1. Continuez à créer la synthèse des idées comme décrit dans l’article [Créer des synthèses dans l’espace des idées](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   L’espace Idéation suit les étapes suivantes pendant la création de votre idée : <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. Comprendre votre objectif et le contexte
-   2. Examinez votre espace et les matériaux sélectionnés
-   3. Collecter des preuves à partir de documents, de sites web et de données
-   4. Synthétiser les résultats dans un résumé de la recherche
-   5. Créer et affiner des cartes avec des citations
-
-   Au cours de ce processus, vous verrez l&#39;espace d&#39;idéation rechercher activement des données Workfront Planning connectées ou des informations disponibles sur le web.
-
-   Par exemple, elle peut rechercher des programmes, des produits, des personnages ou des régions existants, ainsi que des concepts similaires disponibles en ligne. <!--check on this with Et-->
-
-   Une fois l’idéation terminée, les éléments suivants sont ajoutés à l’espace d’idéation :
-
-   * Un résumé des résultats de l’IA lié à plusieurs cartes avec des informations détaillées sur les éléments à prendre en compte. Les cartes de détails s’affichent dans une nouvelle section. Un connecteur indique quelle section de carte appartient à quel résumé.
-
-   * Fichier **Brief** dans le coin inférieur gauche de l&#39;espace d&#39;idéation. Le brief est un brouillon du futur enregistrement et s’affiche dans la page Détails d’un enregistrement.
-
-   ![Carte d’idéation avec branches](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. Continuez à ajouter des informations à l’espace d’idéation pour terminer la création de votre brief.
-
-1. (Conditionnel) Une fois le brief terminé, cliquez sur l’image d’aperçu dans le coin inférieur gauche, puis sur l’une des options suivantes :
-
-   * **Exporter dans un fichier** pour créer un fichier
-   * **Exporter vers Workfront Planning** pour créer un enregistrement Planning
-
-   Pour plus d&#39;informations sur l&#39;ajout d&#39;éléments au brief et son exportation, voir [Créer des brief dans l&#39;espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+1. (Conditionnel) Une fois le brief terminé, cliquez sur l&#39;image d&#39;aperçu dans le coin inférieur gauche, puis cliquez sur **Exporter vers Workfront Planning** pour créer un enregistrement Planning.
 
    Cela termine la création de l’enregistrement avec les informations supplémentaires et l’ajoute au type d’enregistrement que vous avez sélectionné à l’origine.
 
@@ -213,7 +203,7 @@ Vous ne pouvez pas modifier en masse les enregistrements dans l’espace Idéati
 
 1. Accédez à un enregistrement existant dans Workfront Planning et ouvrez sa page de détails.
 
-1. Cliquez sur **Ouvrir dans l’espace Idéation**. L’espace Idéation s’ouvre alors dans un nouvel onglet.
+1. Cliquez sur **Ouvrir dans l’espace d’idéation** ![](assets/open-in-ideation-space.png). L’espace Idéation s’ouvre alors dans un nouvel onglet.
 
    Si une idéation pour l’enregistrement existe déjà, cela ouvre cet espace.
 
@@ -221,19 +211,14 @@ Vous ne pouvez pas modifier en masse les enregistrements dans l’espace Idéati
 
    >[!TIP]
    >
-   >La modification en masse d’enregistrements à l’aide de l’espace de positionnement n’est pas disponible.
+   >Vous ne pouvez pas modifier les enregistrements en masse à l’aide de l’espace Idéation .
+1. Poursuivez la modification du brief comme décrit dans la section [Création d’enregistrements à l’aide de l’espace d’idéation](#create-records-using-the-ideation-space) de cet article.
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. Poursuivez la modification du brief comme décrit dans la section [Création d’enregistrements à l’aide de l’espace d’idéation](#create-records-using-the-ideation-space) de cet article.
-
-
-
-
 
 
 <!--

@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 10%
 ---
 # Exporter des détails d’un enregistrement
@@ -168,6 +168,8 @@ Old:
 
 * Le fichier exporté conserve la disposition de la page d’enregistrement, y compris les images de la miniature et de la couverture.
 
+* Vous ne pouvez pas exporter une page de détails personnalisée, où plusieurs champs sont masqués.
+
 ## Exporter des détails d’un enregistrement
 
 {{step1-to-planning}}
@@ -190,7 +192,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * **&#x200B;**
+   * ****
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 
