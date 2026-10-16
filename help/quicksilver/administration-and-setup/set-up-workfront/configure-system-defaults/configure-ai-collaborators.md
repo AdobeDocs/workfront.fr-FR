@@ -104,7 +104,7 @@ Vous devez configurer un agent dans Claude, Copilot Studio, OpenAI ou IBM avant 
 Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
-* **** : lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
+* **&#x200B;**&#x200B;: lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
 
 
 {{step-1-to-setup}}
@@ -214,7 +214,7 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [ Migration et obsolescence de la bibliothèque d’agents ](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 
 <!--
