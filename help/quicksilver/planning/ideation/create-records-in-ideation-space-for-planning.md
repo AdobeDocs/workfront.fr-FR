@@ -168,7 +168,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. Ajoutez une invite dans la boîte de dialogue ****, puis appuyez sur Entrée.
+1. Ajoutez une invite dans la boîte de dialogue **&#x200B;**, puis appuyez sur Entrée.
 
    Plus vous partagez de détails, plus les informations fournies par l&#39;espace d&#39;idéation seront utiles. Par exemple, tapez une description de la campagne que vous prévoyez : « Campagne de rentrée des classes pour une agence marketing ».
 
