@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3259'
 ht-degree: 3%
@@ -66,7 +66,7 @@ Pour plus d’informations, voir [Compétences Workfront dans CX Enterprise Cowo
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Les opérateurs de filtres à plusieurs valeurs dans toutes les vues Planning ont été mis à jour et sont passés de « N’importe lequel de » à « N’importe lequel de », puis « N’a aucun de ». Cela vous permet d’obtenir un libellé plus clair et plus cohérent dans les créateurs de filtres de Workfront.
@@ -96,7 +96,7 @@ Les modifications sont visibles dans les filtres de toutes les vues Planning. Po
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Nous avons introduit des agrégateurs pour d’autres types de champs dans la vue Tableau. Avant cette amélioration, seuls les champs numériques affichaient des agrégateurs au bas des colonnes.
@@ -118,7 +118,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Les créateurs Workspace sont actuellement affectés en tant que propriétaire par défaut. Avec cette mise à jour, les responsables d’espace de travail peuvent transférer la propriété à un autre utilisateur sous licence standard à partir de la boîte de dialogue de partage.
@@ -132,7 +132,7 @@ Pour plus d’informations, consultez la section [Partager des espaces de travai
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais trier les enregistrements et les regroupements dans la vue Chronologie. Avant cette amélioration, cette fonctionnalité n’était pas disponible.
@@ -144,7 +144,7 @@ Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Les responsables Workspace peuvent désormais contrôler l’accès à des champs individuels, ce qui permet à des utilisateurs et équipes spécifiques d’afficher, de modifier ou d’être complètement limités à des données sensibles au sein du même type d’enregistrement.
@@ -160,7 +160,7 @@ Pour plus d’informations, voir [Partager des champs de planification Workfront
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais partager une demande Planning avec d’autres personnes à partir de la zone des Demandes dans la nouvelle expérience de demande.
@@ -174,7 +174,7 @@ Pour plus d&#39;informations, voir [Partage des enregistrements Planning](/help/
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Les administrateurs Workspace peuvent désormais créer des processus d’approbation à une ou plusieurs étapes pour chaque formulaire de demande Planning, en affectant un ou plusieurs approbateurs ou équipes à chaque étape et en réutilisant les modèles d’approbation existants afin d’accélérer la configuration. Les demandes avancent automatiquement une fois que tous les approbateurs requis d’une étape l’ont approuvée, et chaque approbateur est averti lorsqu’une demande atteint son étape. Les demandeurs et les approbateurs peuvent suivre à quelle étape une demande en est et voir quelles approbations sont toujours en attente.
@@ -186,7 +186,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais créer une logique d’affichage avancée dans les formulaires de requête Planning en fonction des valeurs de champ de connexion, de sorte que les formulaires s’adaptent aux sélections des demandeurs. Tous les champs Planning, y compris les champs de connexion, sont pris en charge lors de la création de cette logique.
@@ -200,7 +200,7 @@ Pour plus d’informations, voir [Créer un formulaire de demande](/help/quicksi
 >[!NOTE]
 >
 >Aperçu : 25 septembre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Les administrateurs de Workfront et de l’espace de travail peuvent désormais indiquer le niveau d’autorisations qu’un demandeur reçoit sur ses demandes lorsqu’ils configurent le formulaire de demande.
@@ -266,7 +266,7 @@ Pour plus d’informations, voir [CX Enterprise Coworker dans Workfront](/help/q
 >[!NOTE]
 >
 >Aperçu : 17 septembre 2026
->Version rapide de production : 14 octobre 2026
+>Version rapide de production : 22 octobre 2026
 >Production pour tous : 22 octobre 2026
 
 Les enregistrements peuvent désormais être dupliqués même lorsqu’il existe des enregistrements connectés de type Un-à-un ou Un-à-plusieurs. Après la duplication, les utilisateurs peuvent choisir de conserver l’enregistrement connecté sur l’enregistrement d’origine ou de le connecter au nouvel enregistrement. Conserver sur l’original est le choix par défaut.
@@ -384,7 +384,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
