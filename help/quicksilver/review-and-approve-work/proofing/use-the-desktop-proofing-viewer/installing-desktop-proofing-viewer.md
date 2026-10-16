@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 95%
+source-wordcount: '574'
+ht-degree: 96%
 ---
 # Installer la visionneuse de relecture de bureau
 
@@ -79,7 +79,7 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 1. Pour télécharger l’application, procédez de l’une des manières suivantes :
 
    * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de la production Mac pour la visionneuse de relecture de bureau.](https://app.proofhq.com/desktopviewer/mac)
-   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de la prévisualisation Mac pour la visionneuse de relecture de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de la prévisualisation Mac pour la visionneuse de relecture de bureau.](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
 1. Dans la zone d’installation qui apparaît, cliquez sur **Continuer**, puis sur **Installer**.
