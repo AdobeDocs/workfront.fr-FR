@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 87%
+source-wordcount: '721'
+ht-degree: 78%
 ---
 # Préparer l’intégration de votre entreprise à l’Adobe Admin Console
 
@@ -70,11 +70,11 @@ Pour que votre organisation puisse migrer vers l’Adobe Admin Console, vous d
    >
    >Préparez-vous à discuter avec le support Workfront et votre équipe informatique des préférences d’authentification, telles que l’authentification unique (SSO) ou non SSO.
 
-   Pour obtenir des instructions, voir la section Identity Management du [Guide de déploiement pour Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/deployment-planning.html).
+   Pour obtenir des instructions, voir la section Identity Management du [Guide de déploiement pour Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Le cas échéant) Si vous utilisez l’authentification unique, connectez la nouvelle Adobe Admin Console à votre fournisseur d’authentification unique existant.
 
-   Pour plus d’informations et d’instructions, voir [Définir l’identité](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html).
+   Pour plus d’informations et d’instructions, voir [Définir l’identité](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
@@ -100,13 +100,15 @@ Pour que votre organisation puisse migrer vers l’Adobe Admin Console, vous d
    >
    >Ces actions relatives aux e-mails des utilisateurs et utilisatrices doivent être terminées avant que votre entreprise ne commence à migrer vers l’Adobe Admin Console.
 
-1. (Facultatif) Mettez à jour toutes les intégrations personnalisées pour utiliser OAuth2.
+1. (Facultatif) Mettez à jour toutes les intégrations personnalisées pour utiliser l’authentification Adobe Developer Console.
 
-   Pour obtenir des instructions sur la configuration des intégrations OAuth2, voir [Créer des applications OAuth2 pour les intégrations Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   Pour plus d’informations sur la migration des intégrations OAuth2 Workfront héritées, voir [ Migration de Workfront OAuth2 vers Adobe Developer Console ](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+
+   Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
    >[!NOTE]
    >
-   >Cette étape est facultative, mais fortement recommandée, car les autres formes d’authentification et d’autorisation API seront supprimées à l’avenir.
+   >Cette étape est facultative, mais vivement recommandée. Les applications OAuth2 personnalisées de Workfront ne pourront plus être créées après le 1er novembre 2026 et les applications OAuth2 personnalisées existantes cesseront de fonctionner le 1er février 2027.
 
 Une fois que votre Adobe Admin Console est configurée avec Workfront, vous pouvez l’utiliser pour créer vos administrateurs et administratrices de système Workfront.
 
