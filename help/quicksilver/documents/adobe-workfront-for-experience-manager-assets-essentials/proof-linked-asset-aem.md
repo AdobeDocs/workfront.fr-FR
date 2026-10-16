@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 70%
+source-wordcount: '513'
+ht-degree: 66%
 ---
 # Relire une ressource liée pour Experience Manager Assets ou Assets Essentials
 
@@ -101,7 +101,7 @@ Pour créer une épreuve :
 
    >[!NOTE]
    >
-   >Si vous avez activé l’option **Générer automatiquement des épreuves lors du chargement de documents** dans votre profil utilisateur, le système crée automatiquement une épreuve simple.
+   >Le paramètre **Générer automatiquement des épreuves lors du chargement de documents** ne s’applique pas aux documents situés dans des dossiers liés. Vous devez créer manuellement des épreuves pour ces documents.
 
 1. Sélectionnez l’une des options suivantes dans la liste déroulante :
 
