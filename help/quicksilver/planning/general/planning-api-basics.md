@@ -67,7 +67,7 @@ Nous prenons en charge les deux flux suivants en fonction de votre type d’int�
 
 Pour commencer, créez un projet dans Adobe Developer Console et ajoutez l’API Workfront Planning pour obtenir vos informations d’identification.
 
-Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ json
 
 Vous pouvez utiliser des modificateurs et des filtres avec des champs pour contrôler les données qui seront renvoyées dans les résultats.
 
-Pour obtenir des exemples, consultez la documentation du développeur de l’API Workfront Planning [](https://developer.adobe.com/wf-planning/).
+Pour obtenir des exemples, consultez la documentation du développeur de l’API Workfront Planning [&#128279;](https://developer.adobe.com/wf-planning/).
 
 ### Utilisation des modificateurs de recherche
 

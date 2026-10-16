@@ -58,7 +58,7 @@ Les avantages des intégrations intégrées peuvent inclure les points suivants�
 >
 >Avec l’[!DNL Workfront for Microsoft Teams integration], vous pouvez recevoir des notifications dans [!DNL Microsoft Teams] à propos de vos éléments de travail [!DNL Workfront]. Sans quitter [!DNL Microsoft Teams], vous pouvez effectuer des actions telles que l’approbation, l’ajout de commentaires ou la modification du statut des éléments de travail. Toute modification apportée à des éléments de travail à partir de [!DNL Microsoft Teams] est également reflétée dans [!DNL Workfront].
 
-Pour plus d’informations sur les intégrations intégrées, et notamment pour obtenir une liste des intégrations intégrées actuellement disponibles, voir la section Vue d’ensemble des intégrations intégrées [[!DNL Adobe Workfront] ](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
+Pour plus d’informations sur les intégrations intégrées, et notamment pour obtenir une liste des intégrations intégrées actuellement disponibles, voir la section Vue d’ensemble des intégrations intégrées [[!DNL Adobe Workfront] &#x200B;](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Personnaliser les applications OAuth2
 
@@ -85,7 +85,7 @@ Les applications OAuth2 personnalisées de Workfront sont en cours de suppressio
 
 Pour plus d’informations sur la migration, voir [Migration de Workfront OAuth2 vers Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-Pour obtenir des conseils sur l’authentification pour les nouvelles intégrations, consultez Présentation de l’authentification Adobe Developer Console [](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+Pour obtenir des conseils sur l’authentification pour les nouvelles intégrations, consultez Présentation de l’authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 ## API [!DNL Workfront]
 

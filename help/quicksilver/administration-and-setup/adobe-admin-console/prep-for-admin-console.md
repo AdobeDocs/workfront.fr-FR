@@ -102,9 +102,9 @@ Pour que votre organisation puisse migrer vers l’Adobe Admin Console, vous d
 
 1. (Facultatif) Mettez à jour toutes les intégrations personnalisées pour utiliser l’authentification Adobe Developer Console.
 
-   Pour plus d’informations sur la migration des intégrations OAuth2 Workfront héritées, voir [ Migration de Workfront OAuth2 vers Adobe Developer Console ](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+   Pour plus d’informations sur la migration des intégrations OAuth2 Workfront héritées, voir [&#x200B; Migration de Workfront OAuth2 vers Adobe Developer Console &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-   Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+   Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
    >[!NOTE]
    >
