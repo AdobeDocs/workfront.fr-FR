@@ -1,5 +1,5 @@
 ---
-title: Créer des enregistrements Planning à partir de résumés d'espace d'idéation
+title: Créer ou modifier des enregistrements Planning à partir de résumés d'espace d'idéation
 description: Grâce à l'Espace d'idéation, une nouvelle fonctionnalité d'Adobe Workfront Planning, vous pouvez transformer des résumés en enregistrements Planning. Les briefs exportés créent de nouveaux enregistrements ou mettent à jour des enregistrements existants. Cet article décrit comment créer ou modifier des enregistrements Planning existants à l'aide de l'espace Idéation.
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 3%
 ---
 
-# Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idées
+# Créer ou modifier des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Tout Workfront ou workflow avec un package Planning</p></li>
-Ou
-<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -108,7 +112,7 @@ Ou
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -120,13 +124,13 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 +++   
 
-## Considérations relatives à l’utilisation de l’Espace d’idéation pour créer des enregistrements
+## Considérations relatives à l&#39;utilisation de l&#39;espace Idéation pour créer ou modifier des enregistrements Planning
 
-* Vous pouvez uniquement lancer l’Espace d’idéation à partir de Workfront Planning ou du menu principal de Workfront, au fur et à mesure que vous créez ou modifiez des enregistrements. L’espace Idéation n’existe pas en dehors de Workfront.
-* Pour accéder à l’espace Idéation , vous devez disposer d’un espace de travail et d’un type d’enregistrement dans Workfront Planning.
+* Vous devez lancer l&#39;Espace d&#39;idéation à partir de Workfront Planning pour pouvoir créer ou modifier un enregistrement Planning. L&#39;accès à l&#39;espace d&#39;idéation à partir du menu principal de Workfront ne connecte pas un résumé d&#39;idéation à un enregistrement Planning.
+* Pour utiliser l&#39;espace Idéation afin de créer ou modifier des enregistrements, vous devez disposer d&#39;un espace de travail et d&#39;un type d&#39;enregistrement dans Workfront Planning.
 * Les nouveaux enregistrements commencent toujours par le contenu de l’espace réservé, quelle que soit la manière dont vous les créez.
-* Lorsque vous supprimez un enregistrement Planning lié à un brief d&#39;idéation, le brief reste dans l&#39;espace Idéation et la zone de travail associée dans l&#39;espace Idéation n&#39;est pas supprimée.
-* La synchronisation des informations se produit uniquement de l’espace Idéation vers Workfront Planning. Il n’existe aucune synchronisation inversée ou automatique d’un enregistrement Planning vers le résumé de l’espace d’idéation.
+* Lorsque vous supprimez un enregistrement Planning lié à un brief d’idéation, le brief reste dans l’espace Idéation et son espace associé n’est pas supprimé.
+* La synchronisation des informations se produit uniquement de l’espace Idéation vers Workfront Planning. Il n’existe aucune synchronisation inversée ou automatique d’un enregistrement Planning vers le résumé de l’espace d’idéation. <!--this might change?-->
 * Les scénarios suivants existent lorsque des champs sont créés, modifiés ou supprimés dans Workfront Planning :
 
   * De nouveaux champs créés sur les enregistrements liés aux résumés d&#39;idéation sont ajoutés quotidiennement au résumé. Les nouveaux champs apparaissent vides dans le brief de l’idéation.
@@ -134,7 +138,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
   * Les champs renommés mettent à jour leur nom dans le brief.
 * Vous pouvez ajouter des documents sous forme de cartes dans l’espace Idéation . Cela inclut également les images.
 
-  Les types de fichiers pris en charge sont les suivants : PDF, Excel, CSV, PNG (et autres formats d’image), Word, PowerPoint. Vidéos non prises en charge.
+  Vous pouvez ajouter les types de fichiers suivants : PDF, Excel, CSV, PNG (et autres formats d’image), Word, PowerPoint. Vidéos non prises en charge.
 
   Tous les documents chargés sont convertis en PDF sur le serveur principal pour traitement.
 * Vous pouvez glisser-déposer des enregistrements directement depuis Workfront Planning dans l&#39;espace et ils s&#39;affichent de la même manière que les fichiers chargés manuellement.
@@ -201,7 +205,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    Cela termine la création de l’enregistrement avec les informations supplémentaires et l’ajoute au type d’enregistrement que vous avez sélectionné à l’origine.
 
-## Modifier les enregistrements existants dans l’espace de destination
+## Modifier les enregistrements existants à l’aide de l’espace d’idées
 
 Vous pouvez ouvrir l’Espace d’idéation à partir d’enregistrements existants pour les mettre à jour.
 

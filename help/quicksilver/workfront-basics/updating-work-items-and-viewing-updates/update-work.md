@@ -30,21 +30,21 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 72%
+source-wordcount: '3436'
+ht-degree: 68%
 ---
 # Mettre à jour le travail
 
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -189,7 +189,7 @@ Old:
   * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
   * Dans la zone Accueil (pour les tâches et les problèmes)
 
-    Pour plus d’informations, voir [&#x200B; Gérer votre travail avec le widget Mes tâches &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+    Pour plus d’informations, voir [ Gérer votre travail avec le widget Mes tâches ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
   * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
     * Une liste des objets
@@ -297,7 +297,7 @@ You can add updates to the following objects:
 Cet article décrit comment mettre à jour des projets, des tâches ou des événements. La mise à jour de la plupart des autres objets est similaire.
 
 1. Recherchez l’objet auquel vous souhaitez ajouter un commentaire, puis cliquez sur son nom pour ouvrir la page de l’objet.
-1. Cliquez sur Mises à jour dans le panneau de gauche. **&#x200B;**
+1. Cliquez sur Mises à jour dans le panneau de gauche. ****
 L’onglet **Commentaires** est sélectionné par défaut.
 
 1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
@@ -345,7 +345,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
    >* Lorsque vous ajoutez un commentaire au nom d’une autre personne (lorsque vous vous connectez avec un autre identifiant en tant qu’administrateur ou administratrice Workfront ou de groupe), vous ne pouvez pas le modifier en cas de connexion en tant l’autre utilisateur ou utilisatrice. Vous ne pouvez modifier le commentaire que si vous vous déconnectez en tant que cet autre utilisateur ou cette autre utilisatrice et que vous vous reconnectez sous votre propre identifiant.
 
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [&#x200B; Répondre aux mises à jour &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [ Répondre aux mises à jour ](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Le cas échéant - Facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière bleue des nouveaux commentaires** en bas de l’écran pour les afficher.
 
@@ -353,7 +353,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
    D’autres commentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![&#x200B; j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![ j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![Icônes de membres développées](assets/members-icons-expanded-unshimmed.png)
@@ -363,7 +363,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >Les noms des deux premières entités mentionnées s’affichent en regard de leurs avatars. Si plus de deux entités sont mentionnées, seul le nom de la première et le nombre d’entités supplémentaires s’affichent.
 
 1. (Facultatif) Cliquez sur le nom d’un commentateur ou d’une commentatrice pour afficher son nom, son rôle et son adresse e-mail dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur ou de la commentatrice dans la zone d’informations pour ouvrir son profil utilisateur.
-1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **&#x200B;**&#x200B;Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
+1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **** Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
 
    Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -371,7 +371,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
 
-1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit **&#x200B;**. Il s’agit d’un onglet en lecture seule.
+1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit ****. Il s’agit d’un onglet en lecture seule.
 
    >[!TIP]
    >
@@ -384,7 +384,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 1. Accédez à la zone **Mises à jour** d’un objet Workfront, ouvrez l’onglet **Commentaires** et commencez à saisir un commentaire.
 1. (Facultatif) Pour ajouter du texte enrichi à votre commentaire, utilisez les attributs de la barre d’outils **Texte enrichi** au fur et à mesure que vous tapez.
 
-   ![&#x200B; Barre d’outils de texte enrichi &#x200B;](assets/rich-text-toolbar.png)
+   ![ Barre d’outils de texte enrichi ](assets/rich-text-toolbar.png)
 
    | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## Épingler les commentaires
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+Vous pouvez épingler des commentaires de niveau supérieur en haut de l’onglet Commentaires . Vous ne pouvez pas épingler de réponses qui font partie d’un thread.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. Accédez à un objet qui prend en charge l’épinglage de commentaires, cliquez sur Mises à jour dans le panneau de gauche, puis sur l’onglet **Commentaires**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Pour plus d’informations, voir [ Présentation de l’onglet Mises à jour ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Ajoutez un commentaire ou, à partir d’un commentaire existant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du commentaire, puis cliquez sur **Épingler le thread**. Le commentaire et les réponses existantes sont épinglés en haut de l’onglet Commentaires .
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   Une nouvelle section **Threads épinglés** est créée en haut de l’onglet **Commentaires**.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   Le nombre de threads épinglés est indiqué entre parenthèses à droite du nom de la section.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![Threads épinglés dans la section Commentaires](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Facultatif) Pour détacher un thread, cliquez sur l’icône **Désépingler** ![Icône Désépingler](assets/unpin-icon-comments.png) dans le coin supérieur droit du commentaire épinglé.
 
 </div>
 
--->
+
 
 ## Supprimer un commentaire ou une réponse
 
