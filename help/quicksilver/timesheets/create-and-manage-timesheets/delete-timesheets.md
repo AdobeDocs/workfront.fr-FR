@@ -9,23 +9,28 @@ exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 TQID: https://experienceleague.adobe.com/kgFaOSFwNQIjArobJBWf5kT19pS8k0an1O05IIYxg9E
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 742
-ht-degree: 79%
-
+source-wordcount: '724'
+ht-degree: 73%
 ---
-
 # Supprimer des feuilles de temps dans Adobe Workfront
 
 Les modifications que vous apportez à un profil de feuille de temps ne s’appliquent pas immédiatement aux feuilles de temps existantes, comme expliqué dans la section [Créer, modifier et affecter des profils de feuille de temps](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Pour rendre visibles les modifications sur les feuilles de temps existantes, supprimez les feuilles de temps générées et créez-en de nouvelles. Ceci ne s’applique qu’aux feuilles de temps qui ont été générées en associant des profils de feuilles de temps à des utilisateurs et des utilisatrices.
@@ -79,29 +84,27 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 {{step1-to-timesheets}}
 
-Le filtre **Tous** est appliqué par défaut et affiche toutes les feuilles de temps auxquelles vous avez accès.
+Toutes les feuilles de temps que vous êtes autorisé à consulter s&#39;affichent par défaut.
 
-![Liste des feuilles de temps avec une feuille de temps sélectionnée](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Liste des feuilles de temps](assets/list-of-all-timesheets.png)
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez.
+   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez,
 
      Ou
 
      Sélectionnez **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-     Cela applique à la liste des feuilles de temps les filtres « Mes approbations de feuille de temps » ou « Mes feuilles de temps ».
+     Cette action applique les filtres **Mes approbations de feuille de temps** ou **Ma feuille de temps** à la liste des feuilles de temps.
 
-     ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Cliquez sur l’icône Filtre ![icône Filtre](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-nwepng.png) pour appliquer un filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste des feuilles de temps ou dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé ces filtres des contrôles de liste dans la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer un nouveau.
+1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une vue ou un regroupement ou en créer un nouveau.
 
    Pour plus d’informations sur la création de filtres, de vues ou de regroupements, voir les articles suivants :
 
@@ -127,8 +130,8 @@ Le filtre **Tous** est appliqué par défaut et affiche toutes les feuilles de t
 
 {{step1-to-timesheets}}
 
-1. Cliquez sur la feuille de temps que vous souhaitez supprimer pour l’ouvrir.
-1. Cliquez sur l’icône [!UICONTROL **Plus**] ![Icône Plus](assets/more-icon.png) située à droite du nom de la feuille de temps, puis cliquez sur **Supprimer**.
+1. Cliquez sur le nom de la feuille de temps à supprimer.
+1. Sur la feuille de temps, cliquez sur le menu [!UICONTROL **Plus**] ![Plus](assets/more-icon.png) à droite du nom de la feuille de temps, puis cliquez sur **Supprimer**.
 
    ![Suppression d’une feuille de temps de la page des feuilles de temps](assets/delete-timesheet-from-timesheet-page.png)
 1. Cliquez sur [!UICONTROL **Supprimer**] pour confirmer.

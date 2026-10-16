@@ -9,23 +9,28 @@ exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 TQID: https://experienceleague.adobe.com/oh6bBQz6sfxCpodHahZXtlMMuYYT-4U7-5MP6TQeuIs
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 476
-ht-degree: 63%
-
+source-wordcount: '469'
+ht-degree: 56%
 ---
-
 # Afficher le nombre total d’heures sur la feuille de temps
 
 <!--Audited: 8/2024-->
@@ -76,29 +81,27 @@ Vous pouvez afficher le nombre total d’heures d’une feuille de temps dans l�
 
 {{step1-to-timesheets}}
 
-La zone **Feuilles de temps** s’ouvre.
+Toutes les feuilles de temps que vous êtes autorisé à consulter s&#39;affichent par défaut.
 
-![Liste des feuilles de temps avec une feuille de temps sélectionnée](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Liste des feuilles de temps](assets/list-of-all-timesheets.png)
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez.
+   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez,
 
      Ou
 
      Sélectionnez **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-     Cela applique les filtres Mes approbations de feuille de temps ou Mes feuilles de temps à la liste des feuilles de temps.
+     Cette action applique les filtres **Mes approbations de feuille de temps** ou **Ma feuille de temps** à la liste des feuilles de temps.
 
-     ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Cliquez sur l’icône Filtre ![icône Filtre](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-nwepng.png) pour appliquer un filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
    >Les options Mes approbations de feuille de temps et Mes feuilles de temps ne s’affichent pas en haut de la liste des feuilles de temps ou dans la liste des filtres si votre administrateur Workfront ou un administrateur de groupe a supprimé ces filtres des contrôles de liste dans la zone Configuration ou de votre modèle de mise en page. Pour plus d’informations, consultez la section [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une autre vue ou un autre regroupement ou en créer un nouveau.
+1. (Facultatif) Cliquez sur les icônes **Affichage** ![Icône Affichage](assets/view-icon.png) ou **Regroupement** ![Icône Regroupement](assets/grouping.png) pour appliquer une vue ou un regroupement ou en créer un nouveau.
 
    Pour plus d’informations sur la création de filtres, de vues ou de regroupements, voir les articles suivants :
 
@@ -108,7 +111,7 @@ La zone **Feuilles de temps** s’ouvre.
 
 1. Le nombre total d’heures pour chaque feuille de temps s’affiche dans la colonne **Nombre total d’heures**.
 
-   ![Colonne Total des heures](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
+   ![Colonne Total des heures](assets/total-hours-column.png)
 
    >[!TIP]
    >

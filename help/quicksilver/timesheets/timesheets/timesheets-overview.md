@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '519'
+ht-degree: 96%
 ---
 # Vue d’ensemble des feuilles de temps
 
@@ -71,19 +71,19 @@ Pour accéder à une feuille de temps :
 
 {{step1-to-timesheets}}
 
-Toutes vos feuilles de temps ainsi que les feuilles de temps auxquelles vous avez accès s’affichent par défaut. Pour plus d’informations sur la disposition des feuilles de temps dans Adobe Workfront, consultez la section [Vue d’ensemble de la disposition des feuilles de temps](../../timesheets/timesheets/timesheet-layout.md).
+Toutes vos feuilles de temps, ainsi que celles auxquelles vous avez accès, s’affichent par défaut. Pour plus d’informations sur la disposition des feuilles de temps dans Adobe Workfront, consultez la section [Vue d’ensemble de la disposition des feuilles de temps](../../timesheets/timesheets/timesheet-layout.md).
 
-![Liste de toutes les feuilles de temps](assets/all-timesheets-list-nwe-350x68.png)
+![Liste de toutes les feuilles de temps](assets/list-of-all-timesheets.png)
 
 1. Cliquez sur l’une des options suivantes dans le coin supérieur droit pour afficher vos feuilles de temps :
 
    * **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-   ![Ma liste de feuilles de temps](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **Mes approbations de feuilles de temps** pour afficher uniquement les feuilles de temps que vous approuvez.
 
-     ![Liste Mes approbations de feuilles de temps](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. (Facultatif) Mettez à jour l’affichage, le filtre et le regroupement en haut de la liste des feuilles de temps. Pour plus d’informations, consultez la section [Éléments de rapport : filtres, affichage et regroupements](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
