@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 2%
@@ -29,8 +29,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Plusieurs mises à jour ont été apportées à la fonctionnalité de taux de facturation d’un modèle de projet.
 
@@ -52,7 +52,7 @@ Pour plus d’informations, voir [Modifier les modèles de projet](/help/quicksi
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Plusieurs mises à jour ont été apportées à la fonctionnalité des taux de facturation de l’entreprise.
 
@@ -76,7 +76,7 @@ Pour plus d’informations, voir [Remplacer les taux de facturation des fonction
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 >Cette fonctionnalité n’est disponible que pour les organisations qui utilisent le package Workflow Ultimate.
 
 Lors de l’utilisation d’attributs de taux en tant que filtres dans différentes zones de Workfront, telles que les affectations avancées, une validation supplémentaire est désormais appliquée au filtrage parent-enfant.

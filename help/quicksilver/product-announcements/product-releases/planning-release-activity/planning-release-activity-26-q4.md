@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3259'
 ht-degree: 3%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
@@ -31,13 +31,43 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 <!--
 
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## Créer et gérer des règles de gestion avec Coworker et le serveur MCP Workfront pour Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 12 octobre 2026
+>Production pour tous : 22 octobre 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+Nous avons ajouté des compétences à Coworker et au serveur Workfront MCP pour gérer les règles métier de Planning.
+
+Vous pouvez désormais créer, répertorier, afficher, mettre à jour et supprimer des règles métier pour les types d’enregistrements à l’aide de Coworker ou du MCP Workfront. Les nouvelles compétences vous aident également à générer des formules de règle métier que le moteur de formule accepte, ce qui réduit le nombre de formules non valides.
+
+Pour plus d’informations, voir [Compétences Workfront dans CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md) ou [Utiliser le serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
+<!--
+
 ## See the total record count in table views
 
 >[!NOTE]
 >
 >Preview: October 1, 2026
 >Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
 
@@ -53,7 +83,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >Aperçu : 1er octobre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les opérateurs de filtres à plusieurs valeurs dans toutes les vues Planning ont été mis à jour et sont passés de « N’importe lequel de » à « N’importe lequel de », puis « N’a aucun de ». Cela vous permet d’obtenir un libellé plus clair et plus cohérent dans les créateurs de filtres de Workfront.
 
@@ -67,7 +97,7 @@ Les modifications sont visibles dans les filtres de toutes les vues Planning. Po
 >
 >Aperçu : 1er octobre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Nous avons introduit des agrégateurs pour d’autres types de champs dans la vue Tableau. Avant cette amélioration, seuls les champs numériques affichaient des agrégateurs au bas des colonnes.
 
@@ -89,7 +119,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >Aperçu : 1er octobre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les créateurs Workspace sont actuellement affectés en tant que propriétaire par défaut. Avec cette mise à jour, les responsables d’espace de travail peuvent transférer la propriété à un autre utilisateur sous licence standard à partir de la boîte de dialogue de partage.
 
@@ -103,7 +133,7 @@ Pour plus d’informations, consultez la section [Partager des espaces de travai
 >
 >Aperçu : 1er octobre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais trier les enregistrements et les regroupements dans la vue Chronologie. Avant cette amélioration, cette fonctionnalité n’était pas disponible.
 
@@ -115,7 +145,7 @@ Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver
 >
 >Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les responsables Workspace peuvent désormais contrôler l’accès à des champs individuels, ce qui permet à des utilisateurs et équipes spécifiques d’afficher, de modifier ou d’être complètement limités à des données sensibles au sein du même type d’enregistrement.
 
@@ -131,7 +161,7 @@ Pour plus d’informations, voir [Partager des champs de planification Workfront
 >
 >Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais partager une demande Planning avec d’autres personnes à partir de la zone des Demandes dans la nouvelle expérience de demande.
 
@@ -145,7 +175,7 @@ Pour plus d&#39;informations, voir [Partage des enregistrements Planning](/help/
 >
 >Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les administrateurs Workspace peuvent désormais créer des processus d’approbation à une ou plusieurs étapes pour chaque formulaire de demande Planning, en affectant un ou plusieurs approbateurs ou équipes à chaque étape et en réutilisant les modèles d’approbation existants afin d’accélérer la configuration. Les demandes avancent automatiquement une fois que tous les approbateurs requis d’une étape l’ont approuvée, et chaque approbateur est averti lorsqu’une demande atteint son étape. Les demandeurs et les approbateurs peuvent suivre à quelle étape une demande en est et voir quelles approbations sont toujours en attente.
 
@@ -157,7 +187,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 >
 >Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais créer une logique d’affichage avancée dans les formulaires de requête Planning en fonction des valeurs de champ de connexion, de sorte que les formulaires s’adaptent aux sélections des demandeurs. Tous les champs Planning, y compris les champs de connexion, sont pris en charge lors de la création de cette logique.
 
@@ -171,7 +201,7 @@ Pour plus d’informations, voir [Créer un formulaire de demande](/help/quicksi
 >
 >Aperçu : 25 septembre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les administrateurs de Workfront et de l’espace de travail peuvent désormais indiquer le niveau d’autorisations qu’un demandeur reçoit sur ses demandes lorsqu’ils configurent le formulaire de demande.
 
@@ -196,7 +226,7 @@ Pour plus d’informations, consultez [Utilisation du remplissage de formulaire 
 >
 >Aperçu : le déploiement par phases commence le 3 septembre 2026
 >Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
->Production pour tous : déploiement échelonné à partir du 15 octobre 2026
+>Production pour tous : déploiement échelonné à partir du 22 octobre 2026
 
 CX Enterprise Coworker est désormais disponible dans Workfront Planning. Vous pouvez désormais accéder à CX Enterprise Coworker dans un panneau disponible dans tout Workfront Planning.
 
@@ -218,7 +248,7 @@ Pour plus d’informations, voir [Présentation de CX Enterprise Coworker dans W
 >
 >Aperçu : le déploiement par phases commence le 16 septembre 2026
 >Mise à jour rapide de la production : déploiement échelonné à partir du 17 septembre 2026
->Production pour tous : déploiement échelonné à partir du 15 octobre 2026
+>Production pour tous : déploiement échelonné à partir du 22 octobre 2026
 >[!BADGE Hors planning]{type=Neutral}
 
 Cette modification est disponible pour les clients qui disposent du CX Enterprise Coworker dans Workfront.
@@ -237,7 +267,7 @@ Pour plus d’informations, voir [CX Enterprise Coworker dans Workfront](/help/q
 >
 >Aperçu : 17 septembre 2026
 >Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les enregistrements peuvent désormais être dupliqués même lorsqu’il existe des enregistrements connectés de type Un-à-un ou Un-à-plusieurs. Après la duplication, les utilisateurs peuvent choisir de conserver l’enregistrement connecté sur l’enregistrement d’origine ou de le connecter au nouvel enregistrement. Conserver sur l’original est le choix par défaut.
 
@@ -251,7 +281,7 @@ Pour plus d’informations, voir [Dupliquer des enregistrements](/help/quicksilv
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais gérer la visibilité des miniatures et des couleurs des enregistrements lors de la modification de la colonne du champ principal en mode Tableau.
 
@@ -265,7 +295,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 En tant que gestionnaire d’espace de travail, vous pouvez désormais définir des règles métier pour les types d’enregistrements qui se répercuteront ultérieurement sur la manière dont les enregistrements de ce type sont gérés. Vous pouvez définir des règles qui permettent aux utilisateurs de modifier ou de supprimer des enregistrements uniquement lorsque certaines conditions sont remplies ou que certains champs sont renseignés.
 
@@ -292,7 +322,7 @@ Pour plus d’informations, voir [Configurer des règles métier de type enregis
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 En tant qu’administrateur Workfront, vous pouvez désormais configurer des semaines personnalisées, en plus des trimestres personnalisés. Les semaines et les trimestres personnalisés sont visibles à partir de la vue chronologique de Workfront Planning. Workfront génère des semaines séquentielles à partir de la semaine 1 au début du trimestre personnalisé 1.
 
@@ -308,7 +338,7 @@ Pour plus d’informations, voir [Activer les trimestres et les semaines personn
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais filtrer certains types d&#39;enregistrements qui répondent à un critère de filtre lorsque vous ajoutez des connexions dans Planning.
 
@@ -324,7 +354,7 @@ Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/qui
 >
 >Aperçu : 27 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les vues de chronologie incluent désormais les options Réduire tout et Développer tout pour les chronologies regroupées. Il est ainsi plus facile de parcourir les vues de feuille de route volumineuses : vous pouvez rapidement réduire la vue en en-têtes de regroupement, puis développer uniquement les sections que vous souhaitez examiner.
 
@@ -336,7 +366,7 @@ Pour plus d’informations, voir [Gérer la vue chronologique](/help/quicksilver
 >
 >Aperçu : 27 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Dans la vue chronologique, le survol d’un libellé de groupe tronqué avec la souris affiche désormais le texte complet dans une info-bulle, à la fois dans le plan directeur et dans les regroupements empilés. Les libellés non tronqués n’affichent pas d’info-bulle.
 
@@ -350,7 +380,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 >
 >Aperçu : 27 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
@@ -362,7 +392,7 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/h
 >
 >Aperçu : 20 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Nous avons apporté des améliorations visuelles aux en-têtes de colonne pour un champ d’enregistrement connecté dépendant dans la vue Tableau.
 
@@ -374,7 +404,7 @@ Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/qui
 >
 >Aperçu : 13 août 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 >[!BADGE Hors planning]{type=Neutral}
 
 De nouveaux indicateurs visuels s’affichent lorsque vous faites glisser et déposez plusieurs lignes dans la vue Tableau. Un signe plus important et un indicateur numérique indiquent désormais le nombre de lignes sélectionnées pour l’action de glisser-déposer.
@@ -387,7 +417,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >Aperçu : 13 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les enregistrements créés pour les types d&#39;enregistrements globaux en soumettant un formulaire de demande sont désormais automatiquement acheminés vers l&#39;espace de travail à partir duquel ils ont été soumis.
 
@@ -421,7 +451,7 @@ Pour plus d’informations, voir [Compétences disponibles pour une installation
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 L’expérience de glisser-déposer de lignes uniques en mode tableau a été améliorée visuellement.
 
@@ -434,7 +464,7 @@ Pour plus d’informations, consultez la section [Gérer la vue en tableau](/hel
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les gestionnaires de Workspace peuvent désormais définir des dépendances entre les types d’enregistrements connectés. Par exemple, s’assurer qu’un champ Région affiche uniquement les valeurs liées à la zone géographique sélectionnée. Cette configuration s’effectue directement dans la configuration du champ de connexion : lors de l’ajout d’une connexion d’un type d’enregistrement Géographique à un type d’enregistrement dépendant (comme Région), un nouveau paramètre permet aux gestionnaires de l’espace de travail de la marquer comme dépendante du type d’enregistrement Géographique, en utilisant les relations déjà établies entre ces types d’enregistrement.
 
@@ -455,7 +485,7 @@ Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/qui
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Nous avons ajouté un nouvel indicateur qui s’affiche lorsqu’un enregistrement contient des commentaires non lus. L&#39;indicateur s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement en mode Tableau.
 
@@ -467,7 +497,7 @@ Pour plus d’informations, consultez la section [Gérer les commentaires d’en
 > 
 >Aperçu : 23 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les enregistrements prennent désormais en charge les palettes de couleurs personnalisables qui vous permettent de mettre à jour les couleurs automatiquement attribuées aux nouveaux enregistrements vers des couleurs standard ou personnalisées.
 

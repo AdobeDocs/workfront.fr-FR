@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 7%
@@ -29,8 +29,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : 24 septembre 2026
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais accéder aux demandes relatives aux problèmes Workfront envoyées jusqu’à 3 ans avant juillet 2025 à partir de la nouvelle expérience de demande. Auparavant, vous n’aviez accès qu’aux demandes envoyées après juillet 2025.
 

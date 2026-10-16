@@ -2,26 +2,28 @@
 product-area: documents
 navigation-topic: approvals
 title: Vérifier une approbation groupée
-description: Vous pouvez vérifier toutes les ressources et prendre des décisions à leur sujet dans une approbation groupée à partir du widget Mes approbations de l’Accueil ou de la visionneuse Frame.io.
+description: Vous pouvez examiner tous les documents et prendre des décisions à leur sujet dans une approbation groupée à l’aide du widget Mes approbations de l’Accueil ou de la visionneuse Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '630'
+ht-degree: 11%
 ---
 
 # Vérifier une approbation groupée
 
 {{highlighted-preview-article-level}}
 
-Lorsque vous êtes affecté à une approbation groupée, toutes les ressources du groupe s’affichent ensemble afin que vous puissiez prendre une décision pour chacune d’elles. Vous pouvez approuver ou demander des modifications pour chaque ressource à la fois, ou prendre une décision pour chaque ressource individuellement.
+Lorsque vous êtes affecté à une approbation groupée, tous les documents du groupe s&#39;affichent ensemble afin que vous puissiez prendre une décision pour chacun d&#39;eux. Vous pouvez approuver ou demander des modifications pour chaque document en une seule fois, ou prendre une décision pour chaque document individuellement.
 
-Cet article couvre les spécificités de la révision d’un groupe de ressources. Pour connaître la procédure à suivre pour prendre une décision unique, ajouter des balises et les autres emplacements à partir desquels vous pouvez approuver, voir [Approuver un document dans Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md), [Examiner un document dans Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md) et [Examiner et approuver avec la visionneuse Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
+Si un ou plusieurs documents sont marqués **A besoin d&#39;être retravaillé** dans une approbation groupée à plusieurs étapes, le groupe ne peut pas passer à l&#39;étape suivante tant que tous les documents du groupe n&#39;ont pas reçu une décision approuvée. Pour plus d’informations, voir [Résoudre une décision « Un travail nécessaire » sur un seul document dans une approbation groupée à plusieurs étapes](#resolve-a-needs-work-decision-on-a-single-document-in-a-multi-stage-grouped-approval).
+
+
 
 >[!IMPORTANT]
 >
->Le contenu de cet article fait référence à la fonctionnalité d’approbation de document mise à jour, disponible uniquement pour des comptes spécifiques. Pour plus d’informations sur les processus d’approbation standard, reportez-vous aux articles répertoriés dans la section [Approbations de travail](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Les validations groupées ne sont disponibles que dans la zone des nouveaux documents. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Conditions d’accès
 
@@ -59,7 +61,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Examinez une approbation groupée à partir du widget Mes approbations dans l’Accueil
 
-Le widget Mes approbations de l’Accueil regroupe les ressources sous une seule approbation afin que vous puissiez agir sur toutes les ressources ensemble.
+Le widget Mes approbations de l’Accueil regroupe les documents sous une seule approbation afin que vous puissiez agir sur tous les documents ensemble.
 
 >[!NOTE]
 >
@@ -67,30 +69,43 @@ Le widget Mes approbations de l’Accueil regroupe les ressources sous une seule
 
 1. Cliquez sur l’icône **Accueil** dans le coin supérieur gauche d’Adobe Workfront, puis recherchez le widget **Mes approbations**.
 
-1. Ouvrez la validation groupée. Toutes les ressources du groupe sont répertoriées ensemble, avec le nombre d’éléments du groupe en haut.
+1. Ouvrez la validation groupée. Tous les documents du groupe sont répertoriés ensemble, avec le nombre d’éléments du groupe en haut.
 
 1. Prenez une décision à l’aide de l’une des méthodes suivantes :
 
-   * **Tout marquer comme approuvé** — enregistre une décision approuvée sur chaque actif du groupe en même temps.
-   * **Tout marquer comme ayant besoin d’être retravaillé** — enregistre en une fois une décision de besoin de retravailler sur chaque élément du groupe.
-   * **Prendre une décision** : prenez une décision individuelle sur une seule ressource. Répétez l’opération pour chaque ressource que vous souhaitez sélectionner séparément.
+   * **Tout marquer comme approuvé** : enregistre simultanément une décision approuvée sur chaque document du groupe.
+   * **Tout marquer comme ayant besoin d’être retravaillé** : enregistre en une seule fois une décision ayant besoin d’être retravaillé sur chaque document du groupe.
+   * **Prendre une décision** : prenez une décision individuelle sur un seul document. Répétez l’opération pour chaque document que vous souhaitez traiter séparément.
+
+
+   ![approbation groupée du widget mes approbations](assets/my-approvals-group.png)
 
 ## Vérifier une approbation groupée dans la visionneuse Frame.io
 
-Dans la visionneuse Frame.io, toutes les ressources du groupe s’affichent ensemble afin que vous puissiez prendre une décision rapide sur chacune d’elles ou ouvrir une ressource pour la consulter en détail.
+Dans la visionneuse Frame.io, tous les documents du groupe s&#39;affichent ensemble afin que vous puissiez prendre une décision rapide sur chacun d&#39;eux ou ouvrir un document pour le réviser en détail.
 
 1. Accédez à la notification électronique de révision et cliquez sur **Accéder à la révision**, ou ouvrez l’approbation groupée à partir du widget **Mes approbations** de l’Accueil.
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Prenez une décision rapide sur chaque ressource directement à partir de la page du groupe, sans l’ouvrir.
-   * Cliquez sur une ressource pour l’ouvrir, ajoutez des commentaires ou des balises, puis utilisez la flèche pour passer à la ressource suivante du groupe. Le compteur de ressources (par exemple, **1 sur 2**) indique votre place dans le groupe.
+   * Prenez une décision rapide sur chaque document directement à partir de la page du groupe, sans l’ouvrir.
+   * Cliquez sur un document pour l’ouvrir, ajoutez des commentaires ou des balises, puis utilisez la flèche pour passer au document suivant dans le groupe. Le compteur de documents (par exemple, **1 sur 2**) indique votre place dans le groupe.
 
    Pour plus d&#39;informations sur les commentaires et les balises dans la visionneuse Frame.io, voir [Vérifier et approuver avec la visionneuse Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
-1. Choisissez une décision pour chaque ressource :
+1. Choisissez une décision pour chaque document :
 
-   * **Approuvé** — La ressource n&#39;a pas besoin de modifications et est prête à être utilisée.
-   * **À retravailler** — la ressource doit être modifiée et n&#39;est pas prête à être utilisée.
+   * **Approuvé** : le document n’a pas besoin d’être modifié et est prêt à être utilisé.
+   * **Travail nécessaire** : le document doit être modifié et n’est pas prêt à être utilisé.
 
    Pour plus d’informations sur les décisions, voir [Présentation du statut de la décision du document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+
+   ![approbation groupée de la visionneuse frame.io](assets/frame-group-approval.png)
+
+## Ressources supplémentaires
+
+Cet article contient des informations sur la révision d’un groupe de documents. Pour plus d’informations sur la prise de décision sur un seul document, l’ajout de balises, etc., voir
+
+* [Approuver un document dans Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+* [Réviser un document dans Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+* [Vérifier et approuver avec la visionneuse Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)

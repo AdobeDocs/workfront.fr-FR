@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 5%
@@ -29,8 +29,8 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Aperçu : S.O.
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les instances Workfront sur Google Cloud Platform (GCP) et Azure peuvent désormais activer la version Beta ouverte des tableaux de bord de la zone de travail. Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de la zone de travail &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
@@ -39,8 +39,8 @@ Les instances Workfront sur Google Cloud Platform (GCP) et Azure peuvent désorm
 >[!NOTE]
 >
 >Aperçu : S.O.
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais partager vos données Workfront Data Connect directement avec le compte Snowflake de votre organisation en enregistrant une liste privée. Cette méthode de connexion utilise la fonctionnalité de liste privée de Snowflake pour partager des données en toute sécurité entre les organisations sans les exposer publiquement. Elle fonctionne également entre les régions et les plateformes d’hébergement.
 
@@ -53,8 +53,8 @@ Pour plus d’informations, voir [Enregistrement d’une liste privée pour Work
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Pour faciliter l’utilisation des tableaux de bord de la zone de travail, nous avons ajouté des outils au MCP Workfront. Vous pouvez désormais créer et gérer des tableaux de bord de zone de travail par le biais du chat. En outre, le tableau de bord et les widgets sont créés pour vous à l’aide de vos données Workfront. Cela fonctionne à partir de clients MCP comme Claude et Cursor.
 
@@ -97,8 +97,8 @@ Pour plus d’informations, voir [&#x200B; Utilisation des tableaux de bord de l
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais copier un widget dans le même tableau de bord, dans un autre tableau de bord auquel vous avez un accès en modification ou dans un nouveau tableau de bord. Vous pouvez également déplacer un widget vers un autre tableau de bord auquel vous avez un accès en modification ou vers un nouveau tableau de bord.
 
@@ -109,8 +109,8 @@ Lorsque vous copiez un widget, une boîte de dialogue s’ouvre désormais dans 
 >[!NOTE]
 >
 >Aperçu : 1er octobre 2026
->Version rapide de production : 14 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Lorsque vous créez un filtre dans un tableau de bord Zone de travail, vous pouvez désormais filtrer les relations de collection, qui sont des champs liés à un groupe d’enregistrements associés plutôt qu’à un seul enregistrement. Par exemple, vous pouvez filtrer par statut des tâches appartenant à un projet pour afficher la liste des projets dont le statut des tâches est défini sur « Nouveau ».
 
@@ -124,7 +124,7 @@ Pour plus d’informations, voir [Référence de filtre de rapport pour les tabl
 >
 >Aperçu : 3 septembre 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais copier un tableau de bord de zone de travail à l’aide de la nouvelle action **Copier le tableau de bord**. Cette action est disponible pour tout utilisateur dont le niveau d’accès accorde des droits de modification ou de création sur les tableaux de bord, même s’il ne dispose que d’un accès en lecture seule au tableau de bord spécifique en cours de copie. Les utilisateurs ne disposant pas de droits de modification ou de création sur les tableaux de bord ne voient pas cette action.
 
@@ -170,7 +170,7 @@ Cette modification n’a aucune incidence sur le fonctionnement des rapports act
 >
 >Aperçu : 27 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Le nouveau type de rapport de tableau croisé dynamique des tableaux de bord de la zone de travail agrège les données avec des déploiements complets et précis. Vous pouvez créer des mesures telles que les nombres, les sommes et les moyennes directement sur votre tableau de bord, puis accéder aux enregistrements sous-jacents derrière un total.
 
@@ -182,7 +182,7 @@ Pour plus d&#39;informations, voir [Créer un rapport de tableau croisé dynamiq
 >
 >Aperçu : 13 août 2026
 >Mise à jour rapide de la production : 17 septembre 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les rapports planifiés requièrent désormais une date de fin pour empêcher une diffusion indéfinie. Les plannings dont la date de fin est dépassée sont automatiquement désactivés.
 
@@ -196,7 +196,7 @@ Pour plus d’informations, voir [Planification de la diffusion automatique des 
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais ajouter des champs de référence natifs aux listes et aux rapports dans Workfront.
 
@@ -211,7 +211,7 @@ Pour plus d’informations sur l’ajout de champs aux rapports, voir [Créer un
 >
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
->Production pour tous : 15 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Les options sélectionnées pour les champs personnalisés à sélection multiple s’affichent désormais dans un ordre cohérent et prévisible sur les listes et rapports hérités. L’ordre des champs est déterminé par la manière dont les champs sont organisés dans le formulaire personnalisé.
 

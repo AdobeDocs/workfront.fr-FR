@@ -2,35 +2,33 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Activation du stockage dans le cloud Adobe pour votre organisation
+title: Activer le stockage dans le cloud Adobe pour votre organisation
 description: Vous pouvez activer le stockage dans le cloud Adobe pour que votre entreprise puisse utiliser une solution de stockage unifié pour tous les produits Adobe.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 8%
+source-wordcount: '636'
+ht-degree: 6%
+
 ---
 # Activer le stockage dans le cloud Adobe pour votre organisation
 
-Le stockage dans le cloud d’Adobe est une solution de stockage unifié pour tous les produits Adobe. Il s’agit d’une solution de stockage dans le cloud qui sert de référentiel central pour les ressources des produits d’entreprise Adobe.
+le stockage dans le cloud d’Adobe est une solution de stockage unifiée dans le cloud qui sert de référentiel central pour les ressources des produits d’entreprise Adobe. Cet article décrit comment activer l’espace de stockage Adobe en tant qu’option de stockage par défaut pour l’ensemble de votre organisation ou pour des groupes spécifiques.
 
-Le stockage dans le cloud d’Adobe est activé par défaut pour les nouveaux clients et peut être activé pour les clients existants lors du renouvellement du contrat.
+Il s’agit de l’action unique qui active la nouvelle expérience : une fois que vous l’activez, les nouveaux projets utilisent l’espace de stockage dans le cloud Adobe, qui inclut la visionneuse Frame.io et les approbations unifiées. Rien ne change jusqu’à ce que vous choisissiez d’activer l’espace de stockage Adobe dans le cloud.
 
-Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Étant donné que vous contrôlez le minutage, vous pouvez tester l’expérience, mettre à jour vos scénarios Workfront Fusion et planifier les modifications des rapports avant que quiconque n’y travaille. Pour plus d’informations sur les différences et la planification de votre déploiement, consultez [Déplacer vers Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+
+## Fonctionnement des validations avec l’espace de stockage dans le cloud d’Adobe
+
+L’espace de stockage dans le cloud Adobe détermine le service d’approbation utilisé par un projet. Le passage à une version de Workfront prenant en charge l’espace de stockage Adobe dans le cloud ne fait pas automatiquement basculer l’ensemble de votre organisation vers les approbations unifiées. Au lieu de cela, le service de validation dépend du modèle de stockage de chaque projet :
+
+* **Les projets de stockage dans le cloud** utilisent par défaut les approbations unifiées, avec révision et approbation dans la visionneuse Frame.io.
+* **Projets de stockage Workfront hérités** conservez le service d’approbation qu’ils utilisent déjà. Selon votre organisation, il peut s’agir d’approbations unifiées ou d’approbations de documents hérités.
+
+Pour plus d’informations sur l’expérience de révision et d’approbation sur l’espace de stockage cloud d’Adobe, voir [Déplacer vers Workfront sur l’espace de stockage cloud d’Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Conditions d’accès
 
@@ -78,10 +76,10 @@ Pour activer le stockage dans le cloud Adobe pour votre organisation :
 
 1. Dans le menu déroulant S’applique à , choisissez l’une des options suivantes :
 
-   - **Organisation entière** : cette option applique le fournisseur de stockage par défaut à l’ensemble de votre environnement Workfront. Chaque fois qu’un utilisateur crée un projet, le fournisseur de stockage par défaut est utilisé.
-   - **Groupes spécifiques** : cette option applique le fournisseur de stockage par défaut uniquement à des groupes spécifiques de votre organisation. Chaque fois qu’un utilisateur des groupes spécifiés crée un projet, le fournisseur de stockage par défaut est utilisé
+   * **Organisation entière** : cette option applique le fournisseur de stockage par défaut à l’ensemble de votre environnement Workfront. Chaque fois qu’un utilisateur crée un projet, le fournisseur de stockage par défaut est utilisé.
+   * **Groupes spécifiques** : cette option applique le fournisseur de stockage par défaut uniquement à des groupes spécifiques de votre organisation. Chaque fois qu’un utilisateur des groupes spécifiés crée un projet, le fournisseur de stockage par défaut est utilisé.
 
-   ![groupes de préférences de stockage](assets/configure-storage-preference.png)
+     ![groupes de préférences de stockage](assets/configure-storage-preference.png)
 
 1. Cliquer sur **Enregistrer**.
 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14687'
 ht-degree: 91%
 ---
 # Guide Workfront {#using}
@@ -17,6 +17,9 @@ ht-degree: 91%
     * [Vue d’ensemble des versions de produit](product-announcements/product-releases/product-releases.md)
     * [Calendrier des versions d’Adobe Workfront et processus](product-announcements/product-releases/workfront-release-schedule.md)
     * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+    * Version Du T1 2027 {#release-27-q1}
+      * [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Améliorations du projet du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * Version Du T4 2026 {#release-26-q4}
       * [Présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [Améliorations apportées à l’administration pour le quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
@@ -486,7 +489,6 @@ ht-degree: 91%
       * [Nouveaux calculs de la chronologie du projet](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Activer les trimestres et semaines personnalisés](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Activer ou désactiver les versions rapides pour votre entreprise](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [Activer le stockage dans le cloud Adobe pour votre organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Conversion de portefeuilles hérités en espace de stockage Adobe](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configurer la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1931,14 @@ ht-degree: 91%
   * [Réviser et approuver le travail](review-and-approve-work/review-and-approve-work.md)
   * [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [Passer à Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [Vue d’ensemble du statut de décision limitée des documents et des épreuves pour les utilisateurs et utilisatrices non payants](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[Configuration des réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * Passer à Workfront sur l’espace de stockage dans le cloud Adobe {#move-to-adobe-cloud-storage}
+    * [Passer à Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Nouveautés du stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [Planification du déploiement de l’espace de stockage Adobe](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [Activer le stockage dans le cloud Adobe pour votre organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [Convertir des objets hérités en espace de stockage Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * Approbations du travail {#work-approvals}
     * [Approbations du travail](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Vue d’ensemble du processus d’approbation](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -1957,8 +1964,8 @@ ht-degree: 91%
       * [Créer et gérer des marques pour l’IA Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Créer une demande de révision ou d’approbation de document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Créer une validation groupée](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-      * {hide-from-toc}[Vérifier une approbation groupée](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-      * {hide-from-toc}[Gérer les validations groupées](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+      * [Vérifier une approbation groupée](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * [Gérer les validations groupées](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [Ajouter des réviseurs et réviseuses ou des approbateurs et approbatrices supplémentaires à une ressource ou un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Supprimer des réviseurs et réviseuses ou des approbateurs et approbatrices d’une ressource ou d’un document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Créer un modèle d’approbation pour les ressources et les documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
