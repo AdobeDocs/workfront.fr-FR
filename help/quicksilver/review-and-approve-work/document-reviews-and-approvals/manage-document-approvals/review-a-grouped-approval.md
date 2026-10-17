@@ -5,15 +5,15 @@ title: Vérifier une approbation groupée
 description: Vous pouvez examiner tous les documents et prendre des décisions à leur sujet dans une approbation groupée à l’aide du widget Mes approbations de l’Accueil ou de la visionneuse Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 11%
+source-wordcount: '662'
+ht-degree: 10%
 ---
 
 # Vérifier une approbation groupée
 
-{{highlighted-preview-article-level}}
+<span class="preview">Les informations de cette page ne sont pas disponibles dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible. Cette fonctionnalité sera disponible dans les environnements de production le 22 octobre 2026.</span>
 
 Lorsque vous êtes affecté à une approbation groupée, tous les documents du groupe s&#39;affichent ensemble afin que vous puissiez prendre une décision pour chacun d&#39;eux. Vous pouvez approuver ou demander des modifications pour chaque document en une seule fois, ou prendre une décision pour chaque document individuellement.
 

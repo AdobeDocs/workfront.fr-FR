@@ -30,13 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 13%
 ---
 # Charger une nouvelle version du document et demander une approbation
 
+{{highlighted-preview}}
 
 Si un document est marqué « A besoin d’être retravaillé » lors d’une révision précédente, vous pouvez charger une nouvelle version dans le document d’origine et commencer une nouvelle série d’approbations. Une fois que vous avez chargé une nouvelle version du document, les versions précédentes sont verrouillées.
 

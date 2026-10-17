@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 2%
 ---
 # Utiliser des agents de travail
 
@@ -74,7 +74,7 @@ Les agents de travail permettent d’affecter des agents à des tâches spécifi
 
 Voici quelques exemples de workflows :
 
-* Détecter les images chargées dans une tâche, générer les variations en fonction des critères donnés à l’agent et charger les nouvelles images dans la tâche.
+* Générer une copie à partir des détails de la tâche et des documents texte associés, puis publier la sortie dans le flux de mise à jour ou la charger en tant que document texte.
 * Générer une copie à partir d’une description de tâche, vérifier la copie par rapport aux directives configurées dans l’agent et publier la copie dans le flux de mise à jour.
 * Lecture des détails d’un événement, identification des détails manquants et publication de questions sur les détails manquants dans le flux de mise à jour.
 
@@ -94,7 +94,8 @@ Lorsqu’un agent de travail commence à travailler sur une tâche, il lit autom
 * Description de la tâche
 * Commentaires dans le flux de mise à jour de la tâche
 * Informations dans tout formulaire personnalisé joint à la tâche
-* <span class="preview"> Documents joints </span>
+* <span class="preview">Documents texte associés, tels que des fichiers DOC et PDF</span>
+* <span class="preview">Champs du projet, s’ils sont configurés dans la configuration de l’agent de travail</span>
 
 Ces informations sont toujours lues et ne peuvent pas être configurées en tant que paramètre Workfront.
 
@@ -104,6 +105,14 @@ Ces informations sont toujours lues et ne peuvent pas être configurées en tant
 >
 >* Incluez toutes les informations d’arrière-plan que l’agent doit utiliser directement dans la description de la tâche ou dans un champ de formulaire personnalisé approprié.
 >* Assurez-vous que la tâche correspond à ce que votre agent a reçu pour instruction de faire. Par exemple, si votre agent a pour instruction de traduire du texte de l’anglais vers le français, incluez le texte que vous souhaitez traduire dans la description de la tâche.
+
+## Actions qu’un agent de travail peut entreprendre
+
+Selon la configuration de l’agent de travail dans Workfront, il peut effectuer les actions suivantes une fois son travail terminé :
+
+* Écrire les champs de tâche, s’ils sont configurés
+* Chargement de documents texte
+* Marquer la tâche comme terminée
 
 ## Déclencheurs de démarrage de l’agent de travail
 

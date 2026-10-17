@@ -30,21 +30,21 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 72%
+source-wordcount: '3436'
+ht-degree: 68%
 ---
 # Mettre à jour le travail
 
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## Épingler les commentaires
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+Vous pouvez épingler des commentaires de niveau supérieur en haut de l’onglet Commentaires . Vous ne pouvez pas épingler de réponses qui font partie d’un thread.
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. Accédez à un objet qui prend en charge l’épinglage de commentaires, cliquez sur Mises à jour dans le panneau de gauche, puis sur l’onglet **Commentaires**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Pour plus d’informations, voir [&#x200B; Présentation de l’onglet Mises à jour &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. Ajoutez un commentaire ou, à partir d’un commentaire existant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du commentaire, puis cliquez sur **Épingler le thread**. Le commentaire et les réponses existantes sont épinglés en haut de l’onglet Commentaires .
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   Une nouvelle section **Threads épinglés** est créée en haut de l’onglet **Commentaires**.
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   Le nombre de threads épinglés est indiqué entre parenthèses à droite du nom de la section.
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![Threads épinglés dans la section Commentaires](assets/pin-thread-comments-areas-and-link.png)
+
+1. (Facultatif) Pour détacher un thread, cliquez sur l’icône **Désépingler** ![Icône Désépingler](assets/unpin-icon-comments.png) dans le coin supérieur droit du commentaire épinglé.
 
 </div>
 
--->
+
 
 ## Supprimer un commentaire ou une réponse
 

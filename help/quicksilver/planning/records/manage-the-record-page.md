@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1791'
 ht-degree: 6%
 ---
 # Gérer la mise en page de la page d’enregistrement
@@ -273,6 +273,11 @@ Toutes les sections sont développées par défaut.
    Toutes les modifications apportées aux sections et à l’ordre des champs sont enregistrées automatiquement.
 
 1. (Facultatif) Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l’enregistrement](assets/export-icon-in-record-details-page.png) pour exporter l’onglet Détails vers un fichier Word ou PDF. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+
+   >[!TIP]
+   >
+   >L’exportation n’est pas disponible pour les pages de détails personnalisés où les champs sont masqués.
+
 
 1. (Facultatif) Cliquez sur l’onglet **Connexions** en regard de l’onglet **Détails**. Vous devrez peut-être cliquer sur **Plus** avant de cliquer sur l’onglet **Connexions**.
 

@@ -9,24 +9,30 @@ exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 70%
-
+source-wordcount: '821'
+ht-degree: 65%
 ---
-
 # Soumettre une feuille de temps pour approbation
 
 <!--Audited: 8/2024-->
@@ -80,7 +86,7 @@ Pour soumettre une feuille de temps à l’approbation :
 1. Consignez les heures, tel que décrit dans [Consigner des heures](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Cliquez sur **Soumettre à approbation** pour lancer le processus d’approbation de la feuille de temps.
 
-   ![Bouton Envoyer pour approbation](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Bouton Envoyer pour approbation](assets/submit-for-approval-button-on-timesheet.png)
 
    Le bouton **Envoyer pour approbation** est remplacé par les boutons **Approuver**, **Rejeter** et **Rappeler**. Le statut de la feuille de temps devient **Soumis**.
 
@@ -103,23 +109,21 @@ Pour consulter le statut d’une feuille de temps :
 
 {{step1-to-timesheets}}
 
-Le filtre **Tous** est sélectionné par défaut.
+Toutes les feuilles de temps que vous êtes autorisé à consulter s&#39;affichent par défaut.
 
-![Liste des feuilles de temps avec une feuille de temps sélectionnée](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Liste des feuilles de temps](assets/list-of-all-timesheets.png)
 
 1. (Facultatif) Pour mettre à jour le filtre dans la liste des feuilles de temps, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez.
+   * Sélectionnez **Mes approbations de feuille de temps** dans le coin supérieur droit de la page pour afficher uniquement les feuilles de temps que vous approuvez,
 
      Ou
 
      Sélectionnez **Mes feuilles de temps** pour afficher uniquement vos feuilles de temps.
 
-     Cela applique les filtres Mes approbations de feuille de temps ou Mes feuilles de temps à la liste des feuilles de temps.
+     Cette action applique les filtres **Mes approbations de feuille de temps** ou **Ma feuille de temps** à la liste des feuilles de temps.
 
-     ![Boutons de filtrage Mes feuilles de temps dans la page Liste des feuilles de temps](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * Cliquez sur l’icône Filtre ![icône Filtre](assets/filter-nwepng.png) pour appliquer un autre filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-nwepng.png) pour appliquer un filtre ou en créer un nouveau. Pour plus d’informations sur la création ou la mise à jour de filtres, voir [Créer ou modifier des filtres dans Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -127,34 +131,14 @@ Le filtre **Tous** est sélectionné par défaut.
 
 1. (Conditionnel) Si vous avez sélectionné **Mes feuilles de temps**, assurez-vous que la vue **Standard** est appliquée et notez la colonne **Statut**.
 
-   Les feuilles de temps peuvent avoir les statuts suivants :
+   Les feuilles de temps peuvent avoir les statuts suivants :
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Ouvertes</td> 
-      <td> <p>Votre feuille de temps est actuellement ouverte et vous pouvez consigner le temps. </p> <p>Une feuille de temps rappelée s’affiche avec le statut Ouvert. Pour plus d’informations, consultez la section <a href="#recall-a-timesheet" class="MCXref xref">Rappeler une feuille de temps</a> de cet article. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Soumis</td> 
-      <td>Vous avez soumis votre feuille de temps pour approbation mais elle n’a pas encore été approuvée. Vous pouvez rappeler une feuille de temps soumise pour continuer à la modifier. Pour plus d’informations, consultez la section <a href="#recall-a-timesheet" class="MCXref xref">Rappeler une feuille de temps</a> de cet article. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Fermé</td> 
-      <td> <p>Les scénarios suivants sont possibles :</p> 
-       <ul> 
-        <li> <p>Si la feuille de temps n’a pas de personne approbatrice, vous avez consigné vos heures et l’avez fermée.</p> </li> 
-        <li> <p>Si la feuille de temps a une personne approbatrice, vous l’avez soumise pour approbation et elle a été approuvée.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rejeté</td> 
-      <td>Vous avez soumis la feuille de temps pour approbation et la personne approbatrice l’a rejetée.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   | Statut | Description |
+   | --------- | ---------- |
+   | Ouvertes | <p>Votre feuille de temps est actuellement ouverte et vous pouvez consigner le temps.</p><p>Une feuille de temps rappelée s’affiche avec le statut Ouvert. Pour plus d’informations, consultez la section [Rappeler une feuille de temps](#recall-a-timesheet) de cet article.</p> |
+   | Soumis | Vous avez soumis votre feuille de temps pour approbation mais elle n’a pas encore été approuvée. Vous pouvez rappeler une feuille de temps soumise pour continuer à la modifier. Pour plus d’informations, consultez la section [Rappeler une feuille de temps](#recall-a-timesheet) de cet article. |
+   | Fermé | <p>Les scénarios suivants sont possibles :</p><ul><li>Si la feuille de temps n’a pas de personne approbatrice, vous avez consigné vos heures et l’avez fermée.</li><li>Si la feuille de temps a une personne approbatrice, vous l’avez soumise pour approbation et elle a été approuvée.</li></ul> |
+   | Rejeté | Vous avez soumis la feuille de temps pour approbation et la personne approbatrice l’a rejetée. |
 
 ## Rappeler une feuille de temps {#recall-a-timesheet}
 
@@ -164,7 +148,7 @@ Pour rappeler une feuille de temps, procédez comme suit :
 
 {{step1-to-timesheets}}
 
-1. Cliquez sur **Mes feuilles de temps** dans le coin supérieur droit de l’écran ou sélectionnez **Mes feuilles de temps** dans le menu déroulant **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png).
+1. Cliquez sur **Mes feuilles de temps** dans le coin supérieur droit de l’écran, ou sélectionnez **Mes feuilles de temps** dans le menu déroulant **Filtrer** ![Icône Filtrer](assets/filter-nwepng.png).
 1. Cliquez sur la période d’une feuille de temps dont le statut est **Soumis**.
 1. Cliquez sur **Rappeler**.
 

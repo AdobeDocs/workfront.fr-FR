@@ -29,23 +29,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2621'
 ht-degree: 3%
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -351,7 +339,6 @@ Tenez compte des points suivants lorsque vous utilisez des activations :
 
 * Vous ne pouvez pas créer d’enregistrement d’activation à partir de Workfront Planning.
 
-
 * Un projet GenStudio mappe 1:1 à un espace de travail Workfront Planning ; les activations sont stockées dans cet espace de travail et y sont référencées.
 
 * La visibilité et les actions dépendent de votre accès à ce projet GenStudio et à cet espace de travail.
@@ -360,18 +347,11 @@ Tenez compte des points suivants lorsque vous utilisez des activations :
 
 * Lorsque vous activez à partir de GenStudio, les détails d’activation sont enregistrés et suivis dans Workfront Planning. GenStudio et Planning conservent l’alignement des enregistrements partagés (campagnes, produits, rôles, activations, etc.).
 
-<!--
+* Les enregistrements d’activation sont les suivants :
 
-<div class="preview">
+  * Un champ Identifiant de suivi qui stocke la valeur résolue pour chaque segment d’une formule d’identifiant de suivi, ainsi que les erreurs éventuelles.
+  * Un choix de statut « Génération » qui indique que la génération de l’identifiant de tracking est en cours. Le statut d’activation revient à « Brouillon » lorsque la génération se termine ou échoue. Les activations existantes ne sont pas affectées.
 
-* Activations records include the following:
-
-    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
-    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
-
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

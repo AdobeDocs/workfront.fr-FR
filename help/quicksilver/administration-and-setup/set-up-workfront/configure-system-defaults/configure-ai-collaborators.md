@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
@@ -160,7 +160,7 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
 1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer/désactiver les actions que vous souhaitez que le collaborateur effectue.
 
    * <span class="preview">Envoyer une notification : l’agent ajoute un commentaire dans le flux de mise à jour, en identifiant l’utilisateur qui a demandé le travail, qui a affecté l’agent ou qui détient le projet. </span>
-   * <span class="preview">Charger un document</span>
+   * <span class="preview">Charger des documents texte</span>
    * <span class="preview">Marquer la tâche comme terminée </span>
    * Écrire des champs de tâche : sélectionnez les formulaires et les champs sur lesquels l’agent peut écrire.
 

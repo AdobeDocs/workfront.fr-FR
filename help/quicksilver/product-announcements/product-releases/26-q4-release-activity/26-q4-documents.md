@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 419333f9f33ff06ed2ef4a8450f058ab74198587
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 3%
@@ -72,8 +72,8 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >Aperçu : cette fonctionnalité n’est pas disponible dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible.
->Version rapide de production : 15 octobre 2026
->Production pour tous : 15 octobre 2026
+>Version rapide de production : 22 octobre 2026
+>Production pour tous : 22 octobre 2026
 
 Vous pouvez désormais regrouper plusieurs documents sous un seul workflow d’approbation, afin qu’ils passent par les mêmes étapes.
 

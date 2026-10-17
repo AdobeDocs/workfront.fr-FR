@@ -1,6 +1,6 @@
 ---
 title: Partager un espace d'idées avec d'autres personnes
-description: Adobe Workfront Planning offre désormais une fonctionnalité supplémentaire pour identifier avant de lancer vos campagnes. Tirez parti de la puissance de l’IA pour créer des idées et collaborer avec d’autres personnes avant qu’elles ne deviennent des enregistrements de planification.
+description: Adobe Workfront Planning offre désormais une fonctionnalité supplémentaire pour identifier avant de lancer vos campagnes. Vous pouvez partager l'espace d'idéation et son brief respectif avec d'autres utilisateurs pour une meilleure collaboration.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '591'
 ht-degree: 7%
 ---
 
@@ -39,15 +39,19 @@ ht-degree: 7%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Les autorisations d’enregistrement de Workfront Planning sont transférées vers l’espace d’idéation d’un enregistrement.
+Vous pouvez utiliser l’Espace d’idéation d’Adobe Workfront pour créer des résumés pour vos campagnes et d’autres types d’enregistrements avant de les lancer. Cela invite les autres à réfléchir et à recueillir des informations pour créer le résumé en collaboration avant de lancer votre travail.
 
-En outre, vous pouvez accorder à d’autres utilisateurs les autorisations nécessaires pour utiliser l’espace d’idéation et y ajouter des idées.
+Vous pouvez partager l&#39;espace d&#39;idéation et son brief respectif avec d&#39;autres utilisateurs pour une meilleure collaboration.
 
 Tenez compte des points suivants :
 
+* Les autorisations d’enregistrement de Workfront Planning sont transférées vers l’espace d’idéation d’un enregistrement.
+
+* En outre, vous pouvez accorder à d’autres utilisateurs les autorisations nécessaires pour utiliser l’espace d’idéation et y ajouter des idées.
+
 * Les créateurs d’idées disposent toujours des autorisations d’éditeur sur leurs propres idées.
 
-* Vous devez disposer des autorisations d’éditeur sur un espace d’idéation pour créer des résumés et les exporter vers d’autres applications.
+* Vous devez disposer des autorisations d’éditeur sur un espace d’idéation pour créer des résumés ou y contribuer, et les exporter vers d’autres applications.
 
 ## Conditions d’accès
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>Tout Workfront ou workflow avec un package Planning</p></li>
-Ou
-<li><p>Tout package Planning lorsqu’il est acheté en tant que produit autonome</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ Ou
    <td> <p>Autorisations de niveau Contributeur ou supérieur à l’espace de travail et au type d’enregistrement dans lesquels vous souhaitez ajouter des enregistrements </p>
       <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
       <p>Afficher les autorisations d’accès aux objets Workfront pour les ajouter aux résumés <!--not sure if this is available--></p>
-      <p>Autorisations d’éditeur dans l’espace Idéation pour créer des résumés</p>
+      <p>Autorisations de l’éditeur dans l’espace Idéation d’un brief pour créer des brief</p>
    </td> 
   </tr>  
   <!--
@@ -129,15 +137,12 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 ## Partage d’un espace d’idées
 
-1. Accédez à l’espace Idéation d’un enregistrement Planning.
+1. Accédez à l’espace Idéation .
 
-   Pour plus d’informations, consultez l’un des articles suivants :
+   Pour plus d’informations, voir [Création de résumés dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-   * [Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idées](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [Créer des briefs dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. Cliquez sur **Partager** dans le coin supérieur droit, puis cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/setting-icon.png) dans le coin supérieur droit de la zone **Partager le document**.
-1. Dans la liste Qui a accès , choisissez l’une des options suivantes :
+1. Cliquez sur **Partager** dans le coin supérieur droit, puis cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/setting-icon.png) dans le coin supérieur droit de la zone **Partager le document**. <!--should this say "document"?-->
+1. Dans la liste **Qui a accès**, choisissez l’une des options suivantes :
 
    * **Seules les personnes invitées peuvent y accéder**
 

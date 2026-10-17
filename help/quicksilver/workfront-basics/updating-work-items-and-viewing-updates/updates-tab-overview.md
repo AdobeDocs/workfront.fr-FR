@@ -27,23 +27,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 71%
+source-wordcount: '1313'
+ht-degree: 67%
 ---
 # Vue d’ensemble de la section Mises à jour
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 La section Mises à jour d’un objet affiche les commentaires que les utilisateurs et utilisatrices font sur les mises à jour de l’objet ou du système qui effectuent le suivi des modifications apportées à l’objet.
 
@@ -149,17 +144,16 @@ La section Mises à jour affiche des informations dans les onglets suivants :
 
 * **Commentaires : affiche les commentaires effectués par les utilisateurs et utilisatrices et les réponses à ces commentaires**. Utilisez l’onglet Commentaires pour ajouter de nouveaux commentaires ou répondre à des commentaires existants.
 
-  <!--
   <div class="preview">
 
-  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+  * **Threads épinglés** : les commentaires de niveau supérieur qui sont épinglés s’affichent sous la section Threads épinglés de l’onglet Commentaires .
 
-    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+    Vous ne pouvez épingler des threads que dans l’onglet Commentaires des objets qui comportent une section Mises à jour. Vous ne pouvez pas épingler de threads dans d’autres zones de Workfront, comme les tableaux ou l’accueil.
 
   </div>
-  -->
 
   Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
+
 * **Activité du système** : affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications du statut, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur ou administratrice Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d&#39;activité du système dans l&#39;expérience de commentaires héritée sont renseignées dans l&#39;onglet Activité du système en lecture seule. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Tous (lecture seule)** : affiche à la fois les commentaires d’un utilisateur ou d’une utilisatrice et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni taguer d’autres utilisateurs ou utilisatrices dans les commentaires existants dans l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 

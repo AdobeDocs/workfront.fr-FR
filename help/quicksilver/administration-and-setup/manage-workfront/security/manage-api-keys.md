@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 95%
+source-wordcount: '762'
+ht-degree: 82%
 ---
 # Gérer les clés API
 
@@ -46,16 +46,18 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->Workfront ne recommande plus l’utilisation du point d’entrée `/login` ou des clés API. Utilisez plutôt l’une des méthodes d’authentification suivantes :
+>Workfront ne recommande plus d’utiliser les clés API pour les nouvelles intégrations. Utilisez plutôt l’une des méthodes d’authentification suivantes via Adobe Developer Console :
 >
->* Authentification du serveur avec JWT
->* Authentification des utilisateurs et utilisatrices avec OAuth2
+>* Authentification serveur à serveur
+>* Authentification de l’utilisateur
 >
->Pour obtenir des instructions sur la configuration de ces méthodes d’authentification, voir [Créer des applications OAuth2 pour les intégrations Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+>Les clés API continuent à fonctionner pour le moment, mais Adobe recommande de planifier de nouvelles intégrations autour de l’authentification Adobe Developer Console.
 >
->Pour obtenir des instructions sur l’utilisation de l’authentification du serveur dans Workfront, voir [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md).
+>Le service OAuth2 personnalisé hérité de Workfront est également mis hors service. Les nouvelles applications OAuth2 personnalisées ne pourront plus être créées après le 1er novembre 2026 et les applications OAuth2 personnalisées existantes cesseront de fonctionner le 1er février 2027.
 >
->Pour obtenir des instructions sur l’utilisation de l’authentification des utilisateurs et utilisatrices dans Workfront, voir [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux de code d’autorisation](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md).
+>Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>
+>Pour plus d’informations sur la migration, voir [Migration de Workfront OAuth2 vers Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
 Afin de minimiser les vulnérabilités en matière de sécurité des API, les administrateurs et administratrices Adobe Workfront peuvent gérer les clés API utilisées afin de permettre aux applications d’accéder à Workfront pour le compte d’un utilisateur ou d’une utilisatrice.
 

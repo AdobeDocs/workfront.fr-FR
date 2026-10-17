@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 4%
+source-wordcount: '2881'
+ht-degree: 3%
 ---
 # Créer un workflow d’approbation de document
 
 {{highlighted-preview}}
 
-Vous pouvez demander à d’autres personnes ou équipes d’approuver un document dans Adobe Workfront, ou leur demander de réviser un document sans avoir à l’approuver.
+Vous pouvez demander l’approbation d’autres utilisateurs ou équipes pour un document ou un site web actif dans Adobe Workfront, ou leur demander de le réviser sans avoir à l’approuver.
 
 Par défaut, un modèle d’approbation n’est visible que par son créateur ou sa créatrice. Dans cet article, vous ne pouvez sélectionner que les modèles que vous avez créés ou qui ont été partagés avec vous. Pour plus d’informations, voir [Partager un modèle](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) dans Gérer les modèles d’approbation.
 
@@ -359,6 +359,7 @@ preview screen
 1. (Facultatif) Pour effacer tous les chemins et toutes les étapes et recommencer, cliquez sur **Réinitialiser** en haut à droite.
 
 1. Cliquez sur **Demander l’approbation**.
+
 
 <div class="preview">
 

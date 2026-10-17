@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '174'
 ht-degree: 6%
 ---
 
@@ -38,6 +38,6 @@ Adobe Workfront Planning offre désormais une fonctionnalité supplémentaire po
 * [Prise en main de l’Espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 * [Accès nécessaire pour utiliser l’espace Idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * [Créer des briefs dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [Créer ou modifier des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
 * [Partager un espace d&#39;idées avec d&#39;autres personnes](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 4%
 ---
 # Principes de base des API Adobe Workfront Planning
@@ -67,9 +67,7 @@ Nous prenons en charge les deux flux suivants en fonction de votre type d’int�
 
 Pour commencer, créez un projet dans Adobe Developer Console et ajoutez l’API Workfront Planning pour obtenir vos informations d’identification.
 
-Pour configurer les informations d’identification, créez une application OAuth2 dans Workfront.
-
-Pour plus d’informations, voir [Création d’applications OAuth2 pour les intégrations Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
 >[!NOTE]
 >
@@ -458,7 +456,7 @@ Pour plus d’informations sur les API, consultez également les articles suivan
 * [API Workfront Planning](https://developer.adobe.com/wf-planning) documentation et référence pour les développeurs
 * [Commencer à utiliser Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Vue d’ensemble de l’accès à Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
-* [Créer des applications OAuth2 pour les intégrations Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Présentation de l’authentification Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 

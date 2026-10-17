@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 7%
+source-wordcount: '270'
+ht-degree: 6%
 ---
 # Compétences Workfront dans CX Enterprise Coworker
 
@@ -59,6 +59,9 @@ Cette compétence interroge et gère les objets Workfront Planning tels que :
 * Champs
 * Vues
 * Enregistrements
+<!--
+* Business rules
+-->
 
 ### Gestion des objets Workfront
 
@@ -75,13 +78,12 @@ Cette compétence permet de créer et de mettre à jour des projets, tâches, é
 
 Nom : `query-workfront-data`
 
-Cette compétence recherche, répertorie et génère des rapports sur les objets Workfront tels que :
+Cette compétence recherche des objets Workfront, les répertorie et génère des rapports à leur sujet. Voici quelques exemples de ces objets Workfront, mais la liste n’est pas complète :
 
 * Projets
 * Tâches
 * Problèmes
 * Utilisateurs et utilisatrices
 * Portefeuilles
-* et plus...
 
 

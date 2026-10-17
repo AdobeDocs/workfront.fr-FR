@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 10%
 ---
 # Exporter des détails d’un enregistrement
@@ -167,6 +167,8 @@ Old:
 * Vous ne pouvez exporter que l&#39;onglet Détails de la page ou de la zone d&#39;aperçu d&#39;un enregistrement.
 
 * Le fichier exporté conserve la disposition de la page d’enregistrement, y compris les images de la miniature et de la couverture.
+
+* Vous ne pouvez pas exporter une page de détails personnalisée, où plusieurs champs sont masqués.
 
 ## Exporter des détails d’un enregistrement
 
