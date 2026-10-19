@@ -68,7 +68,7 @@ Les éléments suivants n’ont pas été modifiés à ce stade de la publicatio
 
 ### Mises à jour de maintenance pour Workfront
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2027, voir [Mises à jour de maintenance de ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2027, voir [Mises à jour de maintenance de &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Mise à jour des formations
 
