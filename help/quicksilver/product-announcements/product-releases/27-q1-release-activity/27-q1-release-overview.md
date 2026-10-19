@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
+source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 52%
+source-wordcount: '516'
+ht-degree: 30%
 ---
 
 # Présentation de la version du premier trimestre 2027
@@ -66,9 +66,41 @@ Les éléments suivants n’ont pas été modifiés à ce stade de la publicatio
 * Épreuve
 * Objectifs
 
-### Mises à jour de maintenance pour Workfront
+## Annonces
 
-Pour plus d’informations sur les mises à jour de maintenance effectuées lors de la version du premier trimestre 2027, voir [Mises à jour de maintenance de &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+### Obsolescence des champs de taux de facturation et de coût hérités dans les vues de liste de fonctions
+
+Au fil du temps, nous avons mis en place des fonctionnalités améliorées de gestion des taux et des expériences dédiées aux fonctions qui offrent une approche plus complète et évolutive de la gestion des informations sur les taux. Par conséquent, l’administration des taux se dirige vers ces expériences dédiées plutôt que vers des workflows de gestion basés sur des listes.
+
+Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ou dans les vues de liste des fonctions, y compris les configurations de filtrage/affichage/regroupement (références directes et colonnes calculées du mode texte).
+
+En remplacement dans les rapports , vous pouvez utiliser le code de mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
+
+    «
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates).lists
+    type=iterate
+    valueexpression=CONCAT({startDate}, » -  »,{endDate}, »:  »,{value})
+    valueformat=HTML
+    « 
+
+Pour gérer et examiner les taux de fonctions, utilisez les expériences de gestion des taux dédiées :
+
+* Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
+* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
+
+Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows pour utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
+
+Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+
+-->
 
 ### Mise à jour des formations
 
