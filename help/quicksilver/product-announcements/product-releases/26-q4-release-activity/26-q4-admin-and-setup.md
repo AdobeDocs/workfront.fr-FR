@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Pour faciliter la création et la gestion des abonnements aux événements de vo
 * Créez des abonnements aux événements, y compris le filtrage par critères que vous spécifiez :
 * Supprimez les abonnements aux événements.
 
-Pour plus d’informations, voir [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+Pour plus d’informations, voir [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
 
 
 ## Ajout d’URL de redirection autorisées pour les intégrations MCP
