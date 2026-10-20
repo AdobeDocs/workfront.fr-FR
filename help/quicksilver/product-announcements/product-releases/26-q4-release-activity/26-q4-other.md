@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1288'
 ht-degree: 2%
 ---
 # Autres améliorations au cours du quatrième trimestre de 2026
@@ -23,6 +23,22 @@ ht-degree: 2%
 Cette page décrit les améliorations apportées à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Les non-administrateurs peuvent désormais créer des abonnements aux événements
+
+>[!NOTE]
+>
+>Aperçu et production pour tous : 16 octobre 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+
+Pour faciliter la réaction aux modifications importantes d’objets Workfront sans accès administrateur système, nous avons ajouté des abonnements aux événements utilisateur. Vous pouvez désormais recevoir des notifications webhook pour les objets Workfront pris en charge à l’aide d’un jeton d’accès utilisateur IMS et d’un abonnement ciblé pour chaque combinaison d’objet et d’événement.
+
+Les abonnements aux événements utilisateur prennent en charge les objets Tâche, Projet, Note ou Commentaire, ainsi que les objets Affectation, avec les événements CREATE, UPDATE et DELETE. Vous pouvez créer des abonnements distincts pour chaque combinaison d’objet et d’événement dont vous avez besoin et vous pouvez utiliser des identifiants d’objet ou des filtres pour limiter la diffusion aux enregistrements exacts que vous souhaitez.
+
+Cette version est particulièrement utile pour les équipes qui ont besoin d’intégrations légères basées sur des événements sans accorder d’autorisations d’administration étendues, comme lors de l’utilisation de Workfront Fusion.
+
+Pour plus d’informations, voir [Gérer les abonnements aux événements en tant qu’utilisateur non administrateur](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Mises à jour des listes améliorées
 
