@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 5%
 ---
 
@@ -235,11 +235,11 @@ Les outils de workflow sont les actions d’usage général que la plateforme ag
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| Rechercher des objets | `workflow_search_any_object` | Recherche des objets Workfront avec des paramètres de filtre flexibles, l’ordre et la pagination. | Lire |
+| Rechercher des objets | `workflow_search_any_object` | Cet outil est obsolète. | Lire |
 | Créer un objet | `workflow_create_any_object` | Crée un objet Workfront tel qu’un projet, une tâche, un événement, une heure, une affectation, un programme ou un portfolio. | Write |
 | Mettre à jour l’objet | `workflow_update_any_object` | Met à jour les champs d’un objet existant. Prend également en charge le déplacement d’une tâche ou d’un événement vers un autre projet, la conversion d’une tâche ou d’un événement en un nouveau projet (ou d’un événement en une tâche) et la définition de tâches antérieures (dépendances). | Write |
 | Supprimer l’objet | `workflow_delete_any_object` | Supprime un objet Workfront par ID. Nécessite une confirmation explicite de l’utilisateur avant l’exécution de l’action. | Write |
-| Résoudre les noms de champ | `workflow_resolve_field_names_any_object` | Convertit les noms ou les libellés des champs fournis par l’utilisateur aux noms des champs de l’API Workfront sous-jacents afin que la plateforme agentique d’IA puisse créer des requêtes précises. | Lire |
+| Résoudre les noms de champ | `workflow_resolve_field_names_any_object` | Cet outil est obsolète. | Lire |
 | Lire la documentation des workflows | `workflow_read_workflow_docs` | Charge la documentation du workflow Workfront, y compris les guides d’utilisation des outils et les playbooks d’opérations spécifiques aux objets. Il s’agit de la première étape obligatoire avant d’effectuer des actions de workflow. | Lire |
 
 ### Mise à jour des fonctionnalités de l’outil d’objet
