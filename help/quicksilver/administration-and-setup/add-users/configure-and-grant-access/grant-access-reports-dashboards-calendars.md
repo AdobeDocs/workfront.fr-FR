@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 98%
+source-wordcount: '587'
+ht-degree: 97%
 ---
 # Accorder l’accès aux rapports, aux tableaux de bord et aux calendriers
 
@@ -80,12 +80,15 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    * **Créer**
    * **Supprimer**
-   * **Afficher les rapports intégrés** : cette option doit être sélectionnée pour afficher les rapports créés par Workfront.
    * **Partager**
+
+   Les options non activées par défaut sont les suivantes :
+
+   * **Afficher les rapports intégrés** : cette option doit être sélectionnée pour afficher les rapports créés par Workfront.
    * **Partager les rapports publiquement** : les rapports peuvent être partagés publiquement, en partageant un lien public vers le rapport avec toute personne n’ayant pas de compte Workfront. Cette option doit être sélectionnée pour permettre ce niveau de partage.
    * **Partager sur le système** : les rapports peuvent être partagés avec toutes les personnes du système qui possèdent une licence Workfront. Cette option doit être sélectionnée pour permettre ce niveau de partage.
 
-     Pour plus d’informations sur le partage de rapports, de tableaux de bord et de calendriers, voir [Partager des rapports, des tableaux de bord et des calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Pour plus d’informations sur le partage de rapports, de tableaux de bord et de calendriers, voir [Partager des rapports, des tableaux de bord et des calendriers](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Facultatif) Pour configurer les paramètres d’accès pour d’autres objets et zones dans le niveau d’accès sur lequel vous travaillez, continuez avec l’un des articles énumérés dans [Configurer l’accès à Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), tels que [Accorder l’accès aux tâches](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) et [Accorder l’accès aux données financières](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Lorsque vous avez terminé, cliquez sur **Enregistrer**.
