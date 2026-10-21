@@ -4,14 +4,14 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Configuration des abonnements aux événements dans Workfront
-description: En tant qu’administrateur Adobe Workfront, vous pouvez créer, afficher et supprimer des abonnements aux événements dans la zone Configuration pour envoyer des événements Workfront à un point d’entrée externe.
+description: Les administrateurs et administratrices de Workfront peuvent créer, afficher et supprimer des abonnements à des événements de la Configuration. Les utilisateurs et utilisatrices disposant de l’accès requis peuvent également gérer les abonnements aux événements dans la portée autorisée par leurs autorisations et la configuration du système.
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 11%
+source-wordcount: '452'
+ht-degree: 8%
 ---
 
 # Configuration des abonnements aux événements dans Workfront
@@ -21,6 +21,8 @@ ht-degree: 11%
 En tant qu’administrateur Adobe Workfront, vous pouvez créer, afficher et supprimer des abonnements à des événements dans la zone Configuration . Les abonnements aux événements envoient les informations d’événement Workfront à un point d’entrée externe lorsque des événements spécifiés se produisent.
 
 Vous pouvez créer et supprimer des abonnements à des événements dans Workfront, mais vous ne pouvez pas modifier un abonnement existant. Si vous devez modifier un abonnement, supprimez-le et créez-en un nouveau.
+
+Les utilisateurs et utilisatrices disposant de l’accès requis peuvent également gérer les abonnements aux événements dans Workfront, mais uniquement dans la limite autorisée par leurs autorisations et la configuration du système. Pour plus d’informations, voir [Gérer les abonnements aux événements en tant qu’utilisateur non administrateur](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Pour plus d’informations sur les abonnements aux événements, consultez les articles sous [Abonnements aux événements](/help/quicksilver/wf-api/api/event-subscriptions.md).
 
@@ -45,7 +47,10 @@ Pour plus d’informations sur les abonnements aux événements, consultez les a
   </tr>
   <tr>
    <td role="rowheader">Configurations des niveaux d’accès</td>
-   <td>Vous devez être un administrateur ou une administratrice Workfront.</td>
+   <td>
+    <p>Vous devez disposer des droits d'accès appropriés pour gérer les abonnements aux événements.</p>
+    <p>Les utilisateurs non administrateurs ne peuvent accéder à que dans la portée autorisée par leurs autorisations et la configuration du système.</p>
+   </td>
   </tr>
  </tbody>
 </table>

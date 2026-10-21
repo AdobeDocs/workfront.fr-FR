@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 88%
+source-wordcount: '3623'
+ht-degree: 85%
 ---
 # API d’abonnement aux événements
 
@@ -45,7 +45,7 @@ Comme les abonnements aux événements envoient des données à un autre service
 
 >[!NOTE]
 >
->Pour utiliser les abonnements aux événements dans l’application Workfront, consultez [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
+>Pour utiliser les abonnements aux événements dans l’application Workfront, consultez [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) et [Gestion des abonnements aux événements en tant qu’utilisateur non administrateur](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 Pour recevoir les payloads d’abonnement aux événements par le biais de votre pare-feu, vous devez ajouter les adresses IP suivantes à votre liste autorisée :
 
@@ -118,12 +118,14 @@ Les objets Workfront suivants sont pris en charge par les abonnements aux évén
 
 ## Authentification des abonnements aux événements
 
-Pour créer, interroger ou supprimer un abonnement à un événement, l’utilisateur ou l’utilisatrice Workfront doit disposer des éléments suivants :
+Pour créer, interroger ou supprimer un abonnement à un événement, l’utilisateur de Workfront doit disposer de l’accès requis à la fonction Abonnements à un événement et des autorisations appropriées pour l’action en cours.
 
-* Un niveau d’accès « Administrateur ou administratrice système » est requis pour utiliser les abonnements aux événements.
-* Un en-tête `sessionID` est requis pour utiliser l’API d’abonnement aux événements.
+* Un utilisateur disposant de l’accès requis peut gérer les abonnements aux événements dans Workfront, mais uniquement dans la limite autorisée par ses autorisations et la configuration du système.
+* Un en-tête `sessionID` est requis pour utiliser l’API d’abonnements aux événements.
 
   Pour plus d’informations, consultez la section [Authentification](api-basics.md#authentication) dans [Concepts de base de l’API](api-basics.md).
+
+Pour plus d’informations sur la gestion des abonnements aux événements dans l’application Workfront lorsque vous n’êtes pas administrateur Workfront, voir [Gérer les abonnements aux événements en tant qu’utilisateur non administrateur](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
 
 ## Éviter de surcharger les abonnements aux événements
 
