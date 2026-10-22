@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '3098'
 ht-degree: 5%
@@ -59,7 +59,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -138,7 +138,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
 * Vous ne pouvez pas ajouter de formulaires de demande aux types d’enregistrements globaux dans leur espace de travail secondaire.
 
-  Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Création d’un formulaire de demande
 
@@ -282,7 +282,7 @@ Par exemple, si un formulaire de demande comporte le champ « Type de campagne �
 
 <span class="preview">Plusieurs étapes sont prises en charge dans le processus de validation. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante commence et les approbateurs de la nouvelle étape reçoivent une notification par e-mail.</span>
 
-Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Les options d&#39;achèvement vous permettent de définir si une demande est marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet créé est terminé. Vous définissez le moment où l’objet est terminé en fonction d’une condition spécifiée.
 
@@ -299,7 +299,7 @@ Pour configurer les paramètres de formulaire :
 
    Vous pouvez créer des règles d’approbation <span class="preview"> ou en plusieurs étapes </span> et affecter des utilisateurs ou des équipes à une approbation.
 
-   Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. Cliquez sur **Options de demande d’achèvement** dans le panneau de gauche.
 1. Sélectionnez l’une des options suivantes :
@@ -335,10 +335,30 @@ Pour configurer les paramètres de formulaire :
    >
    ><span class="preview">L’autorisation granulaire que vous désélectionnez ici est grisée lors du partage de la requête avec ces utilisateurs à partir de la page de requête. </span>
 
-1. <span class="preview">Cliquez sur **Enregistrer**.</span>
+1. Passez à [ Publier le formulaire ](#publish-form).
+
+1. Cliquer sur **Enregistrer**.
 
 
-1. Passez à [&#x200B; Publier le formulaire &#x200B;](#publish-form).
+
+<!--
+
+Add these before Continue to Publish form above:
+
+1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
+
+      >[!TIP]
+      >
+      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
+
+1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
+
+   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
+
+   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
+
+   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
+-->
 
 ### Publier le formulaire
 
@@ -435,7 +455,7 @@ Pour configurer les paramètres de formulaire :
    * Regroupement
    * Hauteur de ligne
 
-   Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
+   Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Facultatif) Pointez sur le nom d’un formulaire de demande dans la vue Liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire, puis cliquez sur l’une des options suivantes :
 

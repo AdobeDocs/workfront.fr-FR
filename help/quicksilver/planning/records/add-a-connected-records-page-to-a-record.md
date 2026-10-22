@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 5%
 ---
 # Ajouter une page Enregistrements connectés à un enregistrement
+
+{{planning-important-intro}}
 
 <!--
 
@@ -103,7 +105,7 @@ Ou
    <ul><li><p>Une licence Adobe Experience Manager et une intégration entre Adobe Experience Manager et Workfront pour connecter des objets AEM à des types d'enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
 
 <p><b>NOTE</b></p>
    Si vous avez acheté un package Planning en tant que produit autonome, vous devez également acheter un package Workflow pour connecter les types d'enregistrements Planning aux types d'objets Workfront</p>
@@ -308,7 +310,7 @@ Les enregistrements liés à l&#39;enregistrement que vous avez sélectionné s&
       * Journal
         Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Calendrier
-        Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+        Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Pour plus d’informations, consultez la section [Gérer plusieurs vues à partir de la page des enregistrements connectés](#manage-multiple-views-from-the-connected-records-page) dans cet article.
 

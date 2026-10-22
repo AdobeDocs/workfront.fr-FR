@@ -25,7 +25,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 7%
@@ -47,6 +47,8 @@ recommendations: noDisplay, noCatalog
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
 # Gérer l’espace de travail GenStudio dans Adobe Workfront Planning
+
+{{planning-important-intro}}
 
 
 <span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
@@ -178,7 +180,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -234,7 +236,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -317,7 +319,7 @@ La page principale de Workfront Planning s’ouvre.
 
 1. Cliquez sur **Autres espaces de travail** et recherchez un espace de travail qui comporte une indication créée par le **Système** et la balise **GenStudio** sur sa carte.
 
-   ![Carte d’espace de travail GenStudio avec balise &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![Carte d’espace de travail GenStudio avec balise ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Cliquez sur la carte **Espace de travail** pour ouvrir l’espace de travail GenStudio dans Workfront Planning.
 1. Par défaut, les types d’enregistrements GenStudio suivants sont créés et visibles à partir de Workfront Planning :
