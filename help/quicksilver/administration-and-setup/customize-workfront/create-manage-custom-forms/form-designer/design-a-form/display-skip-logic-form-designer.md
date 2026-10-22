@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 039e2feb5b235023f23405bc17f098cf0872e294
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 27%
+source-wordcount: '3574'
+ht-degree: 28%
 ---
 # Ajout de règles logiques aux formulaires et champs personnalisés
-
-{{preview-fast-release-general}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -90,7 +88,7 @@ Cliquez sur **Afficher la logique** dans l’en-tête du concepteur de formulair
 | ![Logique de validation du champ de référence](assets/validation-logic-reference-field.png) | Le champ est le champ de référence de la logique de validation. Une sélection ou une valeur spécifique sur ce champ détermine si la validation échoue sur le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de validation. |
 | ![Logique de valeur par défaut pour le champ cible](assets/default-value-logic-icon.png) | Le champ est le champ cible dans lequel la logique de valeur par défaut est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la valeur par défaut. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
 | ![Logique de valeur par défaut pour le champ de référence](assets/default-value-logic-reference-field.png) | Le champ est le champ de référence de la logique de valeur par défaut. Une sélection ou une valeur spécifique dans ce champ détermine la valeur par défaut dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de valeur par défaut. |
-| ![Logique de formatage du champ cible &#x200B;](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
+| ![Logique de formatage du champ cible ](assets/formatting-logic-icon.png) | Le champ est le champ cible dans lequel la logique de formatage est appliquée. Une sélection ou une valeur spécifique dans le champ de référence détermine la mise en forme. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de formatage du champ de référence](assets/formatting-logic-reference-field.png) | Le champ est le champ de référence pour la logique de formatage. Une sélection ou une valeur spécifique dans ce champ détermine la mise en forme dans le champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de formatage. |
 | ![Logique de modifiabilité du champ cible](assets/editability-logic-icon.png) | Le champ est le champ cible dans lequel la logique d&#39;édition est appliquée. Le champ peut être modifiable ou en lecture seule lorsque les conditions définies sont remplies. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
 | ![Logique de modifiabilité du champ de référence](assets/editability-logic-reference-field.png) | Le champ est le champ de référence de la logique d’édition. Lorsque les conditions définies sont remplies sur ce champ, la logique est appliquée au champ cible. Le champ cible et le champ de référence peuvent être identiques pour la logique de modifiabilité. |
@@ -209,12 +207,6 @@ Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
 
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique d’affichage avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 ## Ajouter une logique de saut à un formulaire personnalisé
 
 La logique de saut définit des champs de formulaire personnalisés qui sont ignorés lorsque l’utilisateur ou l’utilisatrice sélectionne une valeur spécifique dans un champ à choix multiple. Les champs ignorés sont masqués dans le formulaire. La logique est appliquée au champ de définition dans lequel s’effectue la sélection, et non aux champs qui sont ignorés.
@@ -289,12 +281,6 @@ Lorsque le formulaire personnalisé est joint à un projet et que le statut du p
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
 
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique de valeur par défaut n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 ## Ajouter une logique de validation à un formulaire personnalisé
 
 La logique de validation est créée à l’aide de formules et vous pouvez la rendre aussi simple ou complexe que nécessaire. La validation peut être basée sur les valeurs d’autres champs ou l’état d’objets, et vous pouvez fournir un message d’erreur pour lorsque la validation échoue.
@@ -339,12 +325,6 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
 1. Cliquez sur **Appliquer**.
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
-
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique de validation n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 
 ## Ajouter une logique de mise en forme à un formulaire personnalisé
 
@@ -405,12 +385,6 @@ IF(
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
 
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique de formatage n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 ## Ajouter une logique d’édition à un formulaire personnalisé
 
 La logique de modifiabilité détermine si un champ de formulaire personnalisé peut être modifié ou s’il est en lecture seule. Cette logique est générée à l’aide de formules. Lorsque le champ remplit les conditions définies, il peut être défini comme modifiable ou en lecture seule.
@@ -456,10 +430,4 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 1. Cliquez sur **Appliquer**.
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
-
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique d’édition n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 

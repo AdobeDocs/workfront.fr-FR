@@ -34,14 +34,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '8284'
+source-wordcount: '8130'
 ht-degree: 75%
 ---
 # Créer un formulaire personnalisé
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -487,33 +485,8 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     </ul></td>
     </tr>
     <tr>
-    <td role="rowheader">Choix </td> 
-    <td> 
-    <p>Sélectionnez l’une des options suivantes :</p> 
-    <ul> 
-    <li><strong>Afficher les valeurs</strong> : affiche les valeurs de chaque choix dans le champ. Le libellé de chaque choix s’affiche par défaut.</li>
-   <li><strong>Trier les choix dans l’ordre alphabétique</strong> : trie par ordre alphabétique les choix que vous ajoutez dans le champ.</li>
-    </ul>
-     <p>Pour chaque choix que vous ajoutez à l’utilisateur ou à l’utilisatrice, cliquez sur l’icône d’engrenage <img src="assets/gear-icon-settings.png">, puis sélectionnez l’une des options suivantes :</p> 
-    <ul> 
-    <li><strong>Sélectioner par défaut</strong> : sélectionnez le choix par défaut dans le champ.</li> 
-    <li> <p><strong>Masquer le choix</strong> : masquez le choix dans le champ. Les choix masqués restent accessibles dans les rapports.</p> </li> 
-    <li> <p><strong>Supprimer le choix</strong> : supprimez le choix du champ.</p> <p><b>Avertissement</b> : si ce choix est utilisé par des objets actuels, ne le supprimez pas du champ. Sa suppression entraînera la perte de données historiques. Sélectionnez plutôt l’option pour le masquer, ce qui empêchera les utilisateurs et utilisatrices de le sélectionner à l’avenir.</p> </li> 
-    </ul>   
-    <p><b>Note :</b> il n’existe aucune limite au nombre de choix que vous pouvez sélectionner. </p>    
-    </td> 
-    <td><ul>
-    <li>Boutons radio</li>
-    <li>Groupe de cases à cocher</li>
-    <li>Liste déroulante à sélection unique</li>
-    <li>Liste déroulante à sélection multiple</li>
-    </ul>
-    </td>
-     </tr>
-    <tr>
-    <td role="rowheader"><span class="preview">Choix</span></td> 
+    <td role="rowheader">Choix</td> 
     <td>
-    <div class="preview">
     <p>Cliquez sur <strong>Modifier les choix</strong> pour ajouter ou modifier des choix pour le champ.</p>
     <p>Pour ajouter un nouveau choix dans la boîte de dialogue Modifier les choix :</p>
     <ol>
@@ -530,13 +503,12 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <li>Cliquez sur <strong>Trier les choix A à Z</strong> pour trier les choix par ordre alphabétique dans le champ.</li>
     </ul>
     <p>Cliquez sur <strong>Enregistrer</strong> lorsque vous avez terminé de modifier les choix.</p>
-    </div>
     </td> 
     <td><ul>
-    <li><span class="preview">Boutons radio</span></li>
-    <li><span class="preview">Groupe de cases à cocher</span></li>
-    <li><span class="preview">Liste déroulante à sélection unique</span></li>
-    <li><span class="preview">Liste déroulante à sélection multiple</span></li>
+    <li>Boutons radio</span></li>
+    <li>Groupe de cases à cocher</span></li>
+    <li>Liste déroulante à sélection unique</span></li>
+    <li>Liste déroulante à sélection multiple</span></li>
     </ul>
     </td>
     </tr> 
@@ -576,6 +548,37 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
    Ou
 
    Cliquez sur **Enregistrer et fermer**.
+
+
+<!--
+
+    <tr>
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+    </tr>
+
+-->
+
 
 <!--
 
@@ -848,12 +851,12 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td role="rowheader">Chemin JSON</td>
       <td><p>Saisissez ou collez le chemin JSON pour l’API.</p> <p>Cette option permet d’extraire des données du JSON renvoyé par l’URL de l’API. Elle permet de sélectionner les valeurs qui, à l’intérieur du JSON, apparaîtront dans les options de liste déroulante.</p><p>Par exemple, si l’URL de votre API renvoie le format JSON suivant, vous pouvez utiliser « $.data[*].name » pour sélectionner les États-Unis et le Canada comme options de liste déroulante :</br>
       <pre>
-      &lbrace;
-       data : &lbrace;
+      {
+       data : {
          { name : « USA »},
          { name : « Canada »}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Pour plus d’informations sur le chemin JSON et pour vous assurer que vous écrivez le bon chemin JSON, consultez <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1136,7 +1139,7 @@ Cette liste affiche les champs natifs disponibles pour les formulaires personnal
 * **Durée prévue** : projet, modèle
 * **Heures planifiées** : projet, tâche, événement, modèle de tâche
 * **Date De Début Prévue** : Projet, Tâche, Événement
-* **&#x200B;**&#x200B;: Projet, Modèle, Programme
+* **** : Projet, Modèle, Programme
 * **Priorité** : Projet, Tâche, Événement, Modèle, Tâche De Modèle
 * **Programme** : Projet, Modèle
 * **Date d&#39;achèvement prévisionnelle** : projet, tâche
