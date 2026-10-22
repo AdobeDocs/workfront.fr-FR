@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 87%
 ---
 # Accorder un accès administratif à certaines zones aux utilisateurs et utilisatrices
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td><p>Créez et gérez des processus d’approbation à utiliser dans l’ensemble du système et pour des groupes spécifiques.</p><p>Sans cet accès, les utilisateurs et utilisatrices peuvent uniquement créer des processus d’approbation ad hoc sur les éléments auxquels ils ont accès pour la gestion.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">Modifier l’historique</span></td> 
-      <td><p><span class="preview">Affichez les journaux de l’historique des modifications de Workfront dans Configuration &gt; Suivi des modifications &gt; Liste Historique des modifications .</span></p>
-      <p><span class="preview">Sans cet accès, les utilisateurs n’ont pas cette option dans la zone Configuration .</span></p></td> 
+      <td role="rowheader">Modifier l’historique</td> 
+      <td><p>Affichez les journaux de l’historique des modifications de Workfront dans Configuration &gt; Suivi des modifications &gt; Liste Historique des modifications .</p>
+      <p>Sans cet accès, les utilisateurs n’ont pas cette option dans la zone Configuration .</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Entreprises</td> 

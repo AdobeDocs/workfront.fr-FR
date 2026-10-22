@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 19%
 ---
 # Configurer les champs à suivre dans l’historique des modifications
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront génère des mises à jour système automatiques pour enregistrer les événements suivants :
 
@@ -71,7 +69,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 Les limites du nombre de champs que vous pouvez suivre sont définies par votre package Workfront.
 
 | Package Workfront | Nombre maximum de champs trackés |
-|---------|----------|
+| --------- | ---------- |
 | Sélectionner | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |

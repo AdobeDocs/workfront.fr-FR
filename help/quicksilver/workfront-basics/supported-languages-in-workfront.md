@@ -18,14 +18,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 97%
+ht-degree: 79%
 ---
 # Langues prises en charge dans Adobe Workfront
 
-Vous pouvez modifier la langue d’affichage d’Adobe Workfront et des e-mails provenant de Workfront en ajustant les préférences linguistiques de votre navigateur (si votre organisation n’a pas été migrée vers Adobe Admin Console) ou vos préférences linguistiques de profil Adobe Experience Cloud (si sur Adobe Admin Console) et vos paramètres régionaux d’e-mail par défaut dans Workfront.
+Vous pouvez modifier la langue d’affichage d’Adobe Workfront et des e-mails provenant de Workfront en ajustant les préférences linguistiques de votre navigateur (si votre organisation n’a pas été migrée vers Adobe Admin Console) ou vos préférences linguistiques de profil Adobe CX Enterprise (si sur Adobe Admin Console) et vos paramètres régionaux d’e-mail par défaut dans Workfront.
 
 Pour modifier la langue d’affichage de Workfront, consultez [Modifier la langue](#change-the-language) dans cet article.
 
@@ -44,7 +44,7 @@ Workfront prend en charge les langues suivantes :
 * Chinois - simplifié (zh-CN)
 * Chinois - traditionnel (zh-TW)
 
-La langue utilisée pour afficher Workfront dans votre navigateur est contrôlée par les paramètres de langue de votre navigateur si votre organisation ne se trouve pas sur Adobe Admin Console, ou par la langue de profil de votre Adobe Experience Cloud si votre organisation se trouve sur Adobe Admin Console. Dans les deux cas, veillez à sélectionner une langue répertoriée dans la liste des langues prises en charge.
+La langue utilisée pour afficher Workfront dans votre navigateur est contrôlée par les paramètres de langue de votre navigateur si votre organisation ne se trouve pas sur le Adobe Admin Console, ou par la langue de profil de votre Adobe CX Enterprise si votre organisation se trouve sur le Adobe Admin Console. Dans les deux cas, veillez à sélectionner une langue répertoriée dans la liste des langues prises en charge.
 
 Pour afficher les e-mails sortants dans l’une des langues prises en charge, modifiez vos paramètres régionaux d’e-mails utilisateur ou vos paramètres d’informations client dans Workfront.\
 Pour modifier les paramètres d’informations client, vous devez être un administrateur ou une administratrice Workfront.\
@@ -119,10 +119,10 @@ Pour déterminer si votre organisation a été migrée vers Adobe Admin Consol
 | URL | Adobe Experience | Contrôle de la langue |
 |---|---|---|
 | (Nom de l’entreprise).my.workfront.com | Non migré vers Adobe Admin Console | [Modifier la langue du navigateur](#change-the-browser-language) |
-| experience.adobe.com | Migré vers Adobe Admin Console | [Modifier la langue d’Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) |
+| experience.adobe.com | Migré vers Adobe Admin Console | [Modifier la langue du Adobe CX Enterprise](#change-the-adobe-cx-enterprise-language) |
 
 * [Modifier la langue du navigateur](#change-the-browser-language)
-* [Modifier la langue d’Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
+* [Modification de la langue du Adobe CX Enterprise](#change-the-adobe-cx-enterprise-language)
 * [Modifier les paramètres régionaux de Workfront et des e-mails utilisateur](#change-the-workfront-and-user-locales)
 
 <!--DELETE THIS SECTION MARCH 2026-->
@@ -139,11 +139,11 @@ The browser language must be changed on an individual user basis.
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 -->
 
-### Modifier la langue d’Adobe Experience Cloud
+### Modification de la langue du Adobe CX Enterprise
 
-Si votre organisation a été migrée vers Adobe Admin Console, la langue de profil d’Adobe Experience Cloud détermine la langue affichée dans Workfront.
+Si votre organisation a été migrée vers Adobe Admin Console, la langue de profil de Adobe CX Enterprise détermine la langue affichée dans Workfront.
 
-1. Cliquez sur l’image de votre profil à l’extrémité droite de la barre d’outils d’Adobe Experience Cloud, puis sur **Préférences**. La barre d’outils d’Adobe Experience Cloud se trouve directement au-dessus de la barre d’outils Workfront principale.
+1. Cliquez sur l’image de votre profil à l’extrémité droite de la barre d’outils Adobe CX Enterprise, puis sur **Préférences**. La barre d’outils Adobe CX Enterprise se trouve directement au-dessus de la barre d’outils Workfront principale.
 
 1. Dans **Profil** sous votre nom et votre adresse e-mail, cliquez sur le nom de la langue actuellement sélectionnée.
 
@@ -178,7 +178,7 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 >[!NOTE]
 >
->Les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Voir [Modifier la langue d’Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) dans cet article.
+>Les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Voir [Modifier la langue du Adobe CX Enterprise](#change-the-adobe-cx-enterprise-language) dans cet article.
 
 <!--
 To change your User Email Locale:

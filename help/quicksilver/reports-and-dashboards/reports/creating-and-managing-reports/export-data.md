@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2171'
 ht-degree: 82%
 ---
 # Exporter des données
@@ -341,16 +341,22 @@ Les liens peuvent pointer vers n’importe quel objet de Workfront prenant en ch
 
 Lorsque vous effectuez un export vers un format Excel, seuls les liens pointant vers des objets Workfront sont inclus dans le fichier exporté et ils ne sont pris en charge que dans les emplacements où vous pouvez sélectionner des liens dans les documents Excel exportés, tels que les remises de rapports.
 
+<!--
+
 ## Branding {#branding}
 
 >[!IMPORTANT]
 >
->Le branding s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Experience Cloud.
+>Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
 >
->Si votre organisation est intégrée à Adobe Experience Cloud, le branding n’est pas disponible.
+>If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
 
-Si votre administrateur Workfront a ajouté une valorisation de marque personnalisée à votre instance Workfront pour la barre de navigation globale, les fichiers PDF exportés incluent également votre logo personnalisé.
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported PDF files also include your personalized logo.
 
-Les données exportées dans d’autres formats ne peuvent pas être personnalisées avec votre logo.
+Data that is exported in any other formats cannot be personalized with your logo.
 
-Pour plus d’informations sur le branding de votre instance Workfront et de la barre de navigation globale, voir [Branding de votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

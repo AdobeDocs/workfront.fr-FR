@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 53%
+source-wordcount: '638'
+ht-degree: 43%
 ---
 # Remplacer les taux de facturation des fonctions à l’échelle de l’entreprise
-
-{{preview-fast-release-general}}
 
 Lorsqu’une fonction est créée, vous avez la possibilité de sélectionner un taux de facturation horaire pour cette fonction. Vous pouvez créer plusieurs taux de facturation horaires spécifiques à une société. Chaque taux de facturation est effectif pour une période spécifique.
 
@@ -74,38 +72,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Localisez l’entreprise à laquelle la fonction est affectée.
 1. Cliquez sur le nom de l’entreprise dans la liste.
 1. Cliquez sur **[!UICONTROL Taux de facturation]** dans le panneau de gauche.
-1. Cliquez sur **[!UICONTROL Ajouter un taux de facturation] > [!UICONTROL Nouveau taux de facturation]** ou <span class="preview">**Ajouter un taux de facturation**</span>.
+1. Cliquez sur **[!UICONTROL Ajouter un taux de facturation]**.
 1. Dans la boîte de dialogue [!UICONTROL Nouveau taux de facturation], sélectionnez une [!UICONTROL **fonction**] pour définir son taux de facturation.
-
-### Dans l’environnement de production :
-
-Le [!UICONTROL **Taux de facturation par défaut**] affiche le taux au niveau du système pour cette fonction.
-
-![Boîte de dialogue du nouveau taux de facturation](assets/date-effective-billing-rates-for-company.png)
-
-1. Dans le champ [!DNL **Taux de facturation 1**], saisissez le taux de facturation. Cliquez ensuite sur [!UICONTROL **Enregistrer**] pour remplacer une fois le taux de facturation.
-
-   Ou
-
-   Cliquez sur [!UICONTROL **Ajouter un taux**] pour ajouter d’autres taux de facturation avec des dates de validité.
-
-1. (Le cas échéant) Si vous ajoutez plusieurs taux de facturation, saisissez les informations suivantes :
-
-   * **[!UICONTROL Taux de facturation 1], 2, etc.** : valeur du taux de facturation pour la période.
-   * **[!UICONTROL Date de début]** : date de début de validité du taux.
-   * **[!UICONTROL Date de fin]** : date de fin de validité du taux.
-
-     Le taux de facturation 1 ne comporte pas de date de début de validité et le dernier taux de facturation n’a pas de date de fin de validité. Certaines dates sont ajoutées automatiquement. Par exemple, si le taux de facturation 1 ne comporte pas de date de fin de validité et que vous ajoutez le taux de facturation 2 avec une date de début de validité le 1er mai 2023, une date de fin de validité au 30 avril 2023 est ajoutée au taux de facturation 1 afin qu’il n’y ait pas d’écart.
-
-1. Cliquer sur [!UICONTROL **Enregistrer**].
-
-   >[!NOTE]
-   >
-   >Les taux modifiés des fonctions sur le projet n’auront d’incidence que sur ce projet. Les taux modifiés au niveau de l’entreprise auront une incidence sur tous les projets. Pour plus d’informations, voir [Présentation du remplacement des taux de facturation et du calcul du revenu d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
-
-<div class="preview">
-
-### Dans l’environnement de Prévisualisation :
 
 1. Sélectionnez des attributs pour le taux, tels que l&#39;agence, le lieu ou le centre de coûts.
 
@@ -145,5 +113,35 @@ Le [!UICONTROL **Taux de facturation par défaut**] affiche le taux au niveau du
    >
    >Les taux modifiés des fonctions sur le projet n’auront d’incidence que sur ce projet. Les taux modifiés au niveau de l’entreprise auront un impact sur tous les projets auxquels l’entreprise est affectée. Pour plus d’informations, voir [Présentation du remplacement des taux de facturation et du calcul du revenu d’un projet](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 
