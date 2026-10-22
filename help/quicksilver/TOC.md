@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
 workflow-type: tm+mt
-source-wordcount: '14770'
+source-wordcount: '14725'
 ht-degree: 91%
 ---
 # Guide Workfront {#using}
@@ -19,6 +19,7 @@ ht-degree: 91%
     * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
     * Version Du T1 2027 {#release-27-q1}
       * [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Améliorations de l’IA pour le premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [Améliorations du projet du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * Version Du T4 2026 {#release-26-q4}
       * [Présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
@@ -258,6 +259,7 @@ ht-degree: 91%
       * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Activité des versions de la planification Adobe Workfront{#planning-release-activity}
       * [Activité des versions de la planification Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
       * [Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Activité de mise à jour du troisième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Activité de mise à jour du deuxième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
@@ -1864,7 +1866,7 @@ ht-degree: 91%
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2626,8 +2628,8 @@ ht-degree: 91%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
