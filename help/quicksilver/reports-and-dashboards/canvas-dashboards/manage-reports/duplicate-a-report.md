@@ -25,14 +25,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 15%
+source-wordcount: '568'
+ht-degree: 16%
 ---
 # Copier et déplacer des rapports dans les tableaux de bord de la zone de travail
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -93,28 +91,8 @@ Vous devez ajouter un rapport à un tableau de bord avant de pouvoir le duplique
 
 Pour plus d’informations, voir [Créer un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-## Duplication d’un rapport en production
 
-{{step1-to-dashboards}}
-
-1. Dans le panneau de gauche, cliquez sur **Tableaux de bord des zones de travail**.
-1. Sur la page **Tableaux de bord de la zone de travail**, cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png) dans le coin supérieur droit du rapport à dupliquer, puis sélectionnez **Dupliquer**.
-
-   ![bouton Dupliquer](assets/duplicate-button.png)
-
-1. (Facultatif) Dans la zone **Configurer** qui s’affiche, saisissez un nouveau rapport **Nom** dans l’onglet **Détails**.
-
-1. (Facultatif) Apportez les ajustements nécessaires aux configurations à l’aide des onglets sur le côté gauche.
-
-   >[!NOTE]
-   >
-   >Ces onglets varient selon que vous avez dupliqué un rapport d’indicateur de performance clé, de tableau ou de graphique.  Pour plus d’informations, consultez les sections [Créer un rapport d’indicateurs de performance clés dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Créer un rapport de graphique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) et [Créer un rapport de tableau dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-1. Cliquer sur **Enregistrer**. Le rapport dupliqué s’affiche sur le tableau de bord.
-
-<div class="preview">
-
-## Copier ou déplacer un rapport dans l&#39;aperçu
+## Copier ou déplacer un rapport
 
 Vous pouvez copier un rapport dans le tableau de bord actuel, le copier dans un autre tableau de bord ou le déplacer vers un autre tableau de bord. La copie crée un doublon du rapport à la destination ; le déplacement le déplace de son tableau de bord actuel.
 
@@ -160,4 +138,3 @@ Pour copier ou déplacer un rapport :
 
    ![copier et déplacer](assets/copy-and-move.png)
 
-</div>

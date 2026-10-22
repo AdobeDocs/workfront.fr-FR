@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4445'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # Aperçu de la révision et de l’approbation unifiées
-
-{{highlighted-preview}}
 
 La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
 Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
@@ -59,9 +57,9 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité complète des ressources sur les applications Workfront, Frame.io et Creative Cloud
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [&#128279;](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
+Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -110,9 +108,9 @@ La fonctionnalité de relecture de Workfront n&#39;est pas disponible avec cette
 
 ## Journal d’audit complet
 
-<span class="preview">L’examen et l’approbation unifiés comprennent une journalisation d’audit complète qui crée un journal de gouvernance complet sur Workfront et Frame.io. Les logs de tracking des modifications capturent les décisions d’approbation prises dans la visionneuse Frame.io et le cycle de vie des documents. Chaque entrée de journal inclut l’attribution du système source (Workfront ou Frame.io) avec les champs d’audit Workfront standard : date et heure, type de journal, nom d’utilisateur, action et nom d’objet. Les commentaires de la visionneuse Frame.io ne sont pas inclus dans les journaux d’audit.</span>
+La révision et l’approbation unifiées incluent une journalisation d’audit complète qui crée un journal de gouvernance complet sur Workfront et Frame.io. Les logs de tracking des modifications capturent les décisions d’approbation prises dans la visionneuse Frame.io et le cycle de vie des documents. Chaque entrée de journal inclut l’attribution du système source (Workfront ou Frame.io) avec les champs d’audit Workfront standard : date et heure, type de journal, nom d’utilisateur, action et nom d’objet. Les commentaires de la visionneuse Frame.io ne sont pas inclus dans les journaux d’audit.
 
-<span class="preview">Les logs de tracking des modifications apparaissent dans la zone Configuration de Workfront et peuvent être exportés. Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).</span>
+Les logs de tracking des modifications apparaissent dans la zone Configuration de Workfront et peuvent être exportés. Pour plus d&#39;informations, voir [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Gestion de projet puissante dans Workfront
 
@@ -360,17 +358,11 @@ La visionneuse Frame.io comprend un ensemble complet d&#39;outils de balisage vi
 
 Les commentaires et les annotations restent dans la visionneuse Frame.io afin de conserver leur contexte complet, y compris les horodatages et les balises visuelles. Cela peut évoluer dans les prochaines versions.
 
-<span class="preview">
-
-Dans la prévisualisation, le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.</span>
-
-<div class="preview">
+Le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.
 
 **Qui peut voir l’indicateur de commentaire Frame.io dans Workfront ?**
 
 Seuls les utilisateurs qui pouvaient déjà voir ces commentaires dans Frame.io peuvent voir l’indicateur. Si vous possédez une licence Enterprise Frame.io, vous la voyez pour tout commentaire sur le document. Si vous ne disposez pas d&#39;une licence Entreprise Frame.io, vous ne la verrez qu&#39;une fois qu&#39;une approbation existe pour le document. Les approbations vous permettent également de voir tous les commentaires précédents du document.
-
-</div>
 
 **Est-il possible d’ajouter des commentaires sur une version téléchargée d’une ressource (par exemple, un PDF) ?**
 

@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 30%
+source-wordcount: '1130'
+ht-degree: 29%
 ---
 # Gérer les versions de documents
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 Vous pouvez gérer plusieurs versions d’un document dans Workfront.
 
@@ -100,7 +98,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. En haut de la page **Détails du document**, cliquez sur le menu déroulant en regard du nom, puis cliquez sur le nom de la version que vous souhaitez afficher et gérer.
 
-   ![&#x200B; Liste déroulante Version de la page Détails du document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ Liste déroulante Version de la page Détails du document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    En plus d’afficher les détails de la version, vous pouvez y apporter des modifications, comme son nom, ses métadonnées et ses paramètres de relecture (s’il s’agit d’une épreuve de document).
 
@@ -162,9 +160,7 @@ Pour supprimer une version du document, procédez comme suit :
 
    ![Supprimer la version du document](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## Gérer les versions de documents dans la nouvelle zone Documents de l&#39;aperçu
+## Gestion des versions de document dans la zone des nouveaux documents
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -239,12 +235,6 @@ Workfront numérote chaque version dans l’ordre dans lequel vous la chargez (p
    >
    >La suppression d’une version ne modifie pas les numéros des autres versions. Par exemple, si vous supprimez la version V3 d&#39;un document contenant les versions V1 à V5, les versions restantes conservent leurs numéros d&#39;origine et il n&#39;y a pas de version V3 par la suite. La version suivante que vous chargez devient V6.
 
-</div>
+### Afficher le fichier en cours lors d&#39;une validation
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+Si un document est un fichier Creative Cloud (par exemple, un document cloud Photoshop) et qu’une personne le modifie alors qu’une approbation est en cours, Workfront affiche une section **Fichier actuel** avec un badge indiquant que de nouvelles mises à jour existent sur le document actif, distinctes de la version en cours d’approbation.

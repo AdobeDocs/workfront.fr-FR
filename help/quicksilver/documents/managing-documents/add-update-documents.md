@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 56%
 ---
 # Ajouter une mise à jour à un document
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouve
    ![Panneau Commentaires du nouveau document](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### Indicateur de commentaire Frame.io dans l’aperçu
+### Indicateur de commentaire Frame.io
 
 Lorsqu’un processus d’approbation est créé pour un document, les utilisateurs peuvent laisser des commentaires et ajouter des annotations dans la visionneuse Frame.io. Ces commentaires ne s&#39;affichent pas dans le panneau Commentaires de Workfront, mais vous pouvez les afficher dans la visionneuse Frame.io.
 
@@ -125,5 +121,3 @@ Le panneau Commentaires de Workfront affiche un message vous informant lorsque d
 >[!NOTE]
 >
 >* Si vous disposez d’une licence d’entreprise Frame.io, vous pouvez afficher des commentaires dans la visionneuse Frame.io sans processus d’approbation.
-
-</div>

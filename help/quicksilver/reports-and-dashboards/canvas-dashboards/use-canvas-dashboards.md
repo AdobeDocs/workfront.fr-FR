@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 8%
 ---
 # Utiliser les tableaux de bord de la zone de travail
@@ -110,9 +110,9 @@ Vous pouvez personnaliser temporairement les rapports de tableau de bord. Ces mo
    >
    >Ces modifications s’appliquent uniquement à la session en cours et n’affectent pas la configuration de rapport d’origine. Pour rendre ces modifications permanentes, vous devez modifier le rapport.
 
-<div class="preview">
 
-### Accéder aux données du tableau croisé dynamique dans l&#39;aperçu
+
+### Accéder aux données du tableau croisé dynamique
 
 Vous pouvez cliquer sur une valeur dans un rapport de tableau croisé dynamique pour analyser en profondeur et afficher les enregistrements individuels qui constituent cette valeur agrégée.
 
@@ -126,7 +126,7 @@ Vous pouvez cliquer sur une valeur dans un rapport de tableau croisé dynamique 
 
    Le tableau d’exploration vers le bas affiche les colonnes que le créateur du rapport a configurées dans les paramètres de colonne d’exploration vers le bas. Pour plus d&#39;informations, voir [Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--
