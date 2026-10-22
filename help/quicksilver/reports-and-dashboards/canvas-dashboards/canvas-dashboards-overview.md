@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 26%
 ---
 # Vue d’ensemble des tableaux de bord de zone de travail
@@ -43,11 +43,7 @@ ht-degree: 26%
 >
 >Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
->Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
->
->* Apporter votre propre clé pour Amazon Web Services
->* Azure
->* Google Cloud Platform
+
 
 Les tableaux de bord de la zone de travail vous permettent de visualiser facilement les données Adobe Workfront en ajoutant des types de rapports à une zone de travail qui offre de nombreuses options de disposition flexibles, notamment le redimensionnement, le glisser-déposer, etc.
 

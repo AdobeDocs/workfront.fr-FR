@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '647'
 ht-degree: 8%
 ---
 # Utiliser les tableaux de bord de la zone de travail
@@ -34,12 +34,7 @@ ht-degree: 8%
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.
 >
 >Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
->
->* Apporter votre propre clé pour Amazon Web Services
->* Azure
->* Google Cloud Platform
+
 
 Les tableaux de bord de la zone de travail vous permettent de visualiser vos données Adobe Workfront en ajoutant différents types de rapports à une disposition de zone de travail flexible. Cet article présente un aperçu de l’utilisation efficace des tableaux de bord de zone de travail.
 

@@ -25,22 +25,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 16%
+source-wordcount: '539'
+ht-degree: 13%
 ---
 # Copier et déplacer des rapports dans les tableaux de bord de la zone de travail
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
->
->* Apporter votre propre clé pour Amazon Web Services
->* Azure
->* Google Cloud Platform
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Vous pouvez dupliquer un indicateur de performance clé, un tableau ou un rapport de graphique dans un tableau de bord de la zone de travail après sa création. Une fois dupliqué, vous pouvez modifier le rapport selon vos besoins avant de l’enregistrer.
 
