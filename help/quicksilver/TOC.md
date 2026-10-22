@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 95ff5491c4fccc69a672d395ebd7573c0b905c9e
 workflow-type: tm+mt
-source-wordcount: '14770'
+source-wordcount: '14725'
 ht-degree: 91%
 ---
 # Guide Workfront {#using}
@@ -19,6 +19,7 @@ ht-degree: 91%
     * [Préparation pour une version trimestrielle d’Adobe Workfront](product-announcements/product-releases/release-readiness.md)
     * Version Du T1 2027 {#release-27-q1}
       * [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [Améliorations de l’IA pour le premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [Améliorations du projet du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * Version Du T4 2026 {#release-26-q4}
       * [Présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
@@ -258,6 +259,7 @@ ht-degree: 91%
       * [21.1 Autres améliorations](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Activité des versions de la planification Adobe Workfront{#planning-release-activity}
       * [Activité des versions de la planification Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
       * [Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Activité de mise à jour du troisième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Activité de mise à jour du deuxième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)

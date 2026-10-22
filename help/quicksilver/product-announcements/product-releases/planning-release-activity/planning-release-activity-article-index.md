@@ -20,10 +20,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 436e14a6c85b5b7e0dab847f7ac674abf7fb4644
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 46%
+source-wordcount: '179'
+ht-degree: 44%
 ---
 # Activité de publication d’Adobe Workfront Planning : index des articles
 
@@ -33,7 +33,7 @@ Cet article contient une liste d’articles relatifs aux activités de publicati
 
 Pour plus d’informations sur l’activité de version actuelle de Workfront Planning, reportez-vous à l’article suivant :
 
-* [Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
+* [Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-27-q1.md)
 
 
 
@@ -41,9 +41,10 @@ Pour plus d’informations sur l’activité de version actuelle de Workfront Pl
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-Pour plus d’informations sur les fonctionnalités publiées avant la version de production du 16 juillet 2026, consultez les articles suivants :
+Pour plus d’informations sur les fonctionnalités publiées avant la version de production du 22 octobre 2026, consultez les articles suivants :
 
 * 2026
+  * [Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
   * [Activité de mise à jour du troisième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
   * [Activité de mise à jour du deuxième trimestre 2026 pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
   * [Activité de publication du premier trimestre 2026  pour Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)

@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Utiliser un collègue dans Workfront
 
-1. En haut de n’importe quelle page Workfront, cliquez sur l’icône Collègue ![icône AI](assets/ai-icon.png).
+1. En haut de n’importe quelle page Workfront, cliquez sur l’icône Coworker ![icône Coworker](assets/coworker-icon.png).
 1. Saisissez votre question ou votre prompt dans le panneau situé à droite de l’écran.
 
 1. Si Coworker ne fournit pas la réponse dont vous avez besoin, affinez votre invite et réessayez.
