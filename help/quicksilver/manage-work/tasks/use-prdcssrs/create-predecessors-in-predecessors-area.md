@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 41%
+source-wordcount: '428'
+ht-degree: 43%
 ---
 # Créer une relation d’antériorité à l’aide de la zone Tâches antérieures
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -112,7 +110,7 @@ Pour créer une tâche antérieure pour une tâche de projet :
 
 1. Saisissez un montant **Décalage**.
 
-   &#x200B; Pour plus d’informations, voir Présentation [&#x200B; types décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   &#x200B; Pour plus d’informations, voir Présentation [ types décalage](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
    ![Boîte de dialogue Ajouter le prédécesseur](assets/add-predecessor-dialog-box.png)
 
@@ -122,7 +120,6 @@ Pour créer une tâche antérieure pour une tâche de projet :
 
 1. Cliquer sur **Enregistrer**.
 
-1. (Facultatif) Pour supprimer un prédécesseur, sélectionnez-le dans la liste des prédécesseurs, puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/remove-or-delete-icon.png).
-   <span class="preview">Pour supprimer un prédécesseur, sélectionnez-le dans la liste des prédécesseurs et cliquez sur **Supprimer** dans la barre d’actions située en bas de l’écran.</span>
+1. (Facultatif) Pour supprimer un prédécesseur, sélectionnez-le dans la liste des prédécesseurs et cliquez sur **Supprimer** dans la barre d’actions située en bas de l’écran.
 
    La tâche antérieure est supprimée de la liste. La tâche antérieure n’est pas supprimée de son projet.

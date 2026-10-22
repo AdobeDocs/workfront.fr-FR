@@ -35,14 +35,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 71%
+source-wordcount: '991'
+ht-degree: 72%
 ---
 # Créer des rubriques de file d’attente
-
-{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -206,8 +204,7 @@ Pour modifier une rubrique de file d&#39;attente existante :
 
 1. Accédez au projet ou au modèle contenant la rubrique de file d&#39;attente à modifier.
 1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
-1. Cliquez sur la rubrique de file d’attente que vous souhaitez modifier.
-   <span class="preview">Cochez la case en regard de la rubrique de file d’attente à modifier, puis cliquez sur **Modifier** dans la barre d’actions bleue située en bas de l’écran.</span>
+1. Cochez la case en regard de la rubrique de file d’attente à modifier, puis cliquez sur **Modifier** dans la barre d’actions bleue située en bas de l’écran.
 
 Pour plus d’informations sur les options de modification disponibles, voir [Création d’une rubrique de file d’attente](#create-a-queue-topic) dans cet article.
 
@@ -218,6 +215,5 @@ Vous pouvez supprimer une ou plusieurs rubriques de file d&#39;attente en même 
 1. Accédez au projet ou au modèle contenant la rubrique de file d&#39;attente à supprimer.
 1. Cliquez sur **Rubriques de file d’attente** dans le panneau de gauche.
 1. Cliquez sur la case en regard du nom de chaque rubrique de file d&#39;attente à supprimer. Une coche apparaît dans la case.
-1. Cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete-icon.png) en haut de la page.
-   <span class="preview">Cliquez sur **Supprimer** dans la barre d’actions située en bas de l’écran.</span>
+1. Cliquez sur **Supprimer** dans la barre d’actions située en bas de l’écran.
 
