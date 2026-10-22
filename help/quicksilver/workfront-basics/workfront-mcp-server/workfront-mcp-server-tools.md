@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 5%
@@ -41,10 +41,6 @@ Les outils qui apparaissent dans votre plateforme d’IA agentic dépendent des 
 Si votre organisation n’est pas autorisée à accéder à une zone de produit, les outils associés n’apparaissent pas dans la liste d’outils pour cette connexion. Si une plateforme d’IA agentic tente d’appeler un outil qui n’est pas disponible pour vos droits, la requête est bloquée.
 
 Les tableaux suivants identifient la zone produit à laquelle chaque outil appartient.
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Jeux d’outils dans le serveur MCP Workfront
 
@@ -86,7 +82,6 @@ Les ensembles d’outils ne modifient pas les autorisations. Votre niveau d’ac
 
 Si vous souhaitez que le client d’IA accède à un autre domaine, mettez à jour la configuration de connexion pour sélectionner l’ensemble d’outils approprié.
 
-</div>
 
 ## Actions de lecture et d’écriture
 
