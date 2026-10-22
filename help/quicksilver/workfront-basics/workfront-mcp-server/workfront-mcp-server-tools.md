@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '3537'
+source-wordcount: '3774'
 ht-degree: 5%
 ---
 
@@ -42,6 +42,51 @@ Si votre organisation n’est pas autorisée à accéder à une zone de produit,
 
 Les tableaux suivants identifient la zone produit à laquelle chaque outil appartient.
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Jeux d’outils dans le serveur MCP Workfront
+
+>[!IMPORTANT]
+>
+>Les ensembles d’outils sont sélectionnés lorsque vous configurez votre connexion au serveur MCP Workfront.
+>Pour obtenir des informations et des instructions, voir [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+Les ensembles d’outils vous permettent de sélectionner les fonctionnalités Workfront dont votre client d’IA a besoin au lieu d’exposer l’ensemble du catalogue MCP. Cela s’avère utile pour les clients qui chargent d’emblée toutes les définitions d’outils, qui doivent respecter les limites du nombre d’outils ou qui bénéficient d’une liste d’outils plus ciblée.
+
+Vous pouvez spécifier des ensembles d’outils en ajoutant le paramètre de requête `toolsets` à l’URL du serveur MCP Workfront.
+
+>[!BEGINSHADEBOX]
+
+Exemple :
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+Cet exemple illustre les fonctionnalités `core` et `comment-stream`. Le groupe de `core` est automatiquement inclus lorsqu’un sous-ensemble est sélectionné.
+
+>[!ENDSHADEBOX]
+
+Les outils disponibles sont les suivants :
+
+* `core` : ensemble d&#39;outils Workfront de base inclus automatiquement lorsque vous sélectionnez un sous-ensemble d&#39;ensembles d&#39;outils.
+* `comment-stream` : outils pour les workflows de commentaires et de discussions.
+* `planning` : outils pour les fonctionnalités de planification de Workfront.
+* `approvals` : outils pour les workflows de validation.
+
+Pour afficher le catalogue autorisé complet, omettez le paramètre ou utilisez `toolsets=all`.
+
+Vous pouvez combiner des groupes facultatifs avec des virgules, comme `toolsets=core,planning,approvals`.
+
+La sélection s’applique aux outils, aux ressources et aux modèles de ressources, aux invites et aux applications MCP qui affichent les outils Workfront dans leur interface utilisateur. Les instructions de serveur spécifiques au serveur principal suivent également la configuration de l’ensemble d’outils sélectionné.
+
+Les ensembles d’outils ne modifient pas les autorisations. Votre niveau d’accès Workfront et vos autorisations d’objet continuent d’être appliqués.
+
+Si vous souhaitez que le client d’IA accède à un autre domaine, mettez à jour la configuration de connexion pour sélectionner l’ensemble d’outils approprié.
+
+</div>
 
 ## Actions de lecture et d’écriture
 
