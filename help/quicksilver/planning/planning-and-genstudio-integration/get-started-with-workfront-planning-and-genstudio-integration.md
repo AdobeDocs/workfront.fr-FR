@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 3%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 3%
 
 
 # Commencer avec l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Tenez compte des points suivants lorsque vous utilisez des activations :
 * Les enregistrements d’activation sont les suivants :
 
   * Un champ Identifiant de suivi qui stocke la valeur résolue pour chaque segment d’une formule d’identifiant de suivi, ainsi que les erreurs éventuelles.
+  * Une image de contenu créatif dynamique et un type d’activation de vidéo de contenu créatif dynamique pour stocker les informations des objets Meta Dynamic Creative.
   * Un choix de statut « Génération » qui indique que la génération de l’identifiant de tracking est en cours. Le statut d’activation revient à « Brouillon » lorsque la génération se termine ou échoue. Les activations existantes ne sont pas affectées.
 
 

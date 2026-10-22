@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '14700'
+source-wordcount: '14770'
 ht-degree: 91%
 ---
 # Guide Workfront {#using}
@@ -2325,8 +2325,8 @@ ht-degree: 91%
   * Intégration de la planification Adobe Workfront et de GenStudio for Performance Marketing {#planning-and-genstudio-integration}
     * [Intégration de la planification Adobe Workfront et d’Adobe GenStudio for Performance Marketing : index des articles](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
     * [Commencer avec l’intégration de la planification Adobe Workfront et d’Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-    * [Gérer l’espace de travail GenStudio dans Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
-    * {hide-from-toc}[Promouvoir un espace de travail Workfront Planning vers GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+    * [Gérer l’espace de travail GenStudio dans la planification Adobe Workfront](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+    * [Activer un espace de travail Workfront Planning vers GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)
   * Adobe Workfront Planning en tant que produit autonome {#planning-standalone}
     * [Adobe Workfront Planning en tant que produit autonome : index des articles](planning/planning-sta/planning-sta-article-index.md)
     * [Prise en main d’Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/planning-sta-overview.md)
@@ -2715,6 +2715,7 @@ ht-degree: 91%
   * Abonnements aux événements {#event-subscriptions}
     * [Abonnements aux événements](wf-api/api/event-subscriptions.md)
     * [API d’abonnement aux événements](wf-api/general/event-subs-api.md)
+    * [Gérer les abonnements aux événements en tant qu’utilisateur non administrateur](wf-api/general/event-subs-non-admin.md)
     * [Bonnes pratiques en matière d’abonnement aux événements](wf-api/general/event-sub-best-practice.md)
     * [Exigences de diffusion de l’abonnement à un événement](wf-api/general/setup-event-sub-endpoint.md)
     * [Reprises pour les abonnements aux événements](wf-api/api/event-sub-retries.md)
