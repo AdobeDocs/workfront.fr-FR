@@ -128,7 +128,7 @@ Bien que la planification Workfront fasse partie de Workfront, il s’accompagne
 
 Le cadre de la planification Workfront est entièrement personnalisable. Vous pouvez créer tous les types d’enregistrements, leurs attributs et tous les champs qui leur sont associés en fonction des besoins exacts de votre organisation.
 
-Pour plus d&#39;informations, voir Présentation de la terminologie de Workfront Planning](/help/quicksilver/planning/general/planning-terminology.md).[
+Pour plus d&#39;informations, voir Présentation de la terminologie de Workfront Planning[&#128279;](/help/quicksilver/planning/general/planning-terminology.md).
 
 <!--the content from this section was moved to the article linked above-->
 
@@ -187,7 +187,7 @@ Pour localiser la planification Workfront :
 * [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md) : informations générales sur Workfront Planning lors de l’achat en tant que produit autonome.
 * [Vue d’ensemble de l’assistant IA de la planification Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) : avec l’assistant IA de Workfront pour la planification, vous pouvez rechercher des enregistrements ou créer, mettre à jour et supprimer des enregistrements à l’aide de commandes et laisser l’assistant faire le travail à votre place.
 
-* [Présentation d’Adobe Workfront Planning CX Enterprise Coworker ](/help/quicksilver/planning/general/planning-cx-coworker-overview.md) : interface de conversation dans laquelle vous décrivez un objectif en langage clair, puis planifiez, exécutez et validez le travail sur Workfront Planning et d’autres systèmes Adobe connectés avant de le ramener pour approbation. CX Enterprise Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience en plein écran et dans le rail de droite de Workfront.
+* [Présentation d’Adobe Workfront Planning CX Enterprise Coworker &#x200B;](/help/quicksilver/planning/general/planning-cx-coworker-overview.md) : interface de conversation dans laquelle vous décrivez un objectif en langage clair, puis planifiez, exécutez et validez le travail sur Workfront Planning et d’autres systèmes Adobe connectés avant de le ramener pour approbation. CX Enterprise Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant des fonctionnalités de bout en bout plus puissantes dans une nouvelle expérience en plein écran et dans le rail de droite de Workfront.
 
 * [Modules de planification Adobe Workfront pour Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) : grâce aux modules de planification Adobe Workfront, vous pouvez déclencher un scénario lorsque des événements se produisent dans la planification Workfront. Vous pouvez également créer, lire, mettre à jour et supprimer des enregistrements, ou effectuer un appel API personnalisé vers votre compte de planification Adobe Workfront. Vous devez acheter une licence supplémentaire pour pouvoir accéder à Workfront Fusion.
 
