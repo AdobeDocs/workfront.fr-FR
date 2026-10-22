@@ -7,9 +7,9 @@ description: Vous pouvez activer le stockage dans le cloud Adobe pour que votre 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 
 le stockage dans le cloud d’Adobe est une solution de stockage unifiée dans le cloud qui sert de référentiel central pour les ressources des produits d’entreprise Adobe. Cet article décrit comment activer l’espace de stockage Adobe en tant qu’option de stockage par défaut pour l’ensemble de votre organisation ou pour des groupes spécifiques.
 
-Il s’agit de l’action unique qui active la nouvelle expérience : une fois que vous l’activez, les nouveaux projets utilisent l’espace de stockage dans le cloud Adobe, qui inclut la visionneuse Frame.io et les approbations unifiées. Rien ne change jusqu’à ce que vous choisissiez d’activer l’espace de stockage Adobe dans le cloud.
+>[!IMPORTANT]
+>
+>Rien ne change dans votre environnement tant que vous n’avez pas activé l’espace de stockage cloud Adobe dans la zone Configuration de Workfront.<br>
+>Une fois que vous avez activé l’espace de stockage dans le cloud d’Adobe, seuls les nouveaux projets utilisent l’espace de stockage dans le cloud d’Adobe, qui inclut la visionneuse Frame.io et les approbations unifiées. Vos projets existants continuent d’utiliser leur stockage actuel et restent intacts.
 
 Étant donné que vous contrôlez le minutage, vous pouvez tester l’expérience, mettre à jour vos scénarios Workfront Fusion et planifier les modifications des rapports avant que quiconque n’y travaille. Pour plus d’informations sur les différences et la planification de votre déploiement, consultez [Déplacer vers Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
