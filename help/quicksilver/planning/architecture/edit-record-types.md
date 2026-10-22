@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 22%
+source-wordcount: '711'
+ht-degree: 23%
 ---
 # Modifier des types d’enregistrements
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -185,7 +185,7 @@ Old:
 
 1. Dans la zone **Modifier le type d’enregistrement**, l’onglet **Apparence** s’ouvre par défaut.
 
-   ![Onglet Apparence de la zone Modifier le type d’enregistrement &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Onglet Apparence de la zone Modifier le type d’enregistrement ](assets/edit-record-type-box-appearance-tab.png)
 
    Mettez à jour les informations suivantes dans l’onglet **Apparence** :
 
@@ -222,8 +222,7 @@ Old:
    >
    >![Zone de recherche globale](assets/global-search-box.png)
 
-1. <span class="preview">(Facultatif) Pour ajouter, modifier, désactiver ou supprimer des règles métier de type enregistrement, accédez à la page Type d&#39;enregistrement et cliquez sur le menu **Plus** à droite du nom du type d&#39;enregistrement, puis cliquez sur **Règles métier**. </span>
+1. (Facultatif) Pour ajouter, modifier, désactiver ou supprimer des règles métier de type enregistrement, accédez à la page Type d’enregistrement et cliquez sur le menu **Plus** à droite du nom du type d’enregistrement, puis cliquez sur **Règles métier**.
+Les règles métier sont des conditions définies sur le type d&#39;enregistrement qui définissent à quel moment les enregistrements de ce type peuvent être modifiés ou supprimés.
 
-   <span class="preview">Les règles métier sont des conditions définies sur le type d&#39;enregistrement qui définissent à quel moment les enregistrements de ce type peuvent être modifiés ou supprimés. </span>
-
-   <span class="preview"> Pour plus d’informations, voir [Création de types d’enregistrements dans les règles métier](/help/quicksilver/planning/architecture/configure-business-rules.md).</span>
+   Pour plus d’informations, voir [Création de types d’enregistrements dans les règles métier](/help/quicksilver/planning/architecture/configure-business-rules.md).

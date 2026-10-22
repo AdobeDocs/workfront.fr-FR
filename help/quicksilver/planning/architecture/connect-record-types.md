@@ -34,20 +34,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3172'
 ht-degree: 23%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # Connecter des types d’enregistrements
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -75,7 +75,7 @@ Cet article décrit comment connecter deux types d&#39;enregistrements Workfront
 
 Après avoir établi la connexion entre les enregistrements ou les types d&#39;objet, un champ de connexion est ajouté à un type d&#39;enregistrement Planning. Dans le champ de connexion, vous pouvez connecter des enregistrements individuels les uns aux autres et afficher les champs des types d&#39;enregistrements ou d&#39;objets liés sur un enregistrement Workfront Planning.
 
-Pour obtenir des informations générales sur les types de connexion, voir [&#x200B; Présentation des types d’enregistrements connectés &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Pour obtenir des informations générales sur les types de connexion, voir [ Présentation des types d’enregistrements connectés ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 Pour plus d&#39;informations sur la connexion d&#39;enregistrements ou d&#39;enregistrements avec des objets provenant d&#39;autres applications, voir [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 
@@ -125,7 +125,7 @@ Pour un exemple de connexion des types d&#39;enregistrements et des enregistreme
    <ul><li><p>Une licence Adobe Experience Manager Assets et une intégration entre AEM Assets et Workfront pour connecter les ressources AEM aux types d’enregistrements Planning.</p>
    <p>Pour plus d’informations, voir <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront pour Experience Manager Assets et Assets Essentials : index d’article</a>. </p></li>
    <li><p> Une licence Adobe GenStudio for Performance Marketing permettant de connecter des types d’enregistrements aux marques GenStudio</p>
-   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Prise en main d’Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -267,14 +267,18 @@ Old:
 
      Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     >[!TIP]
-     >
-     >Vous pouvez utiliser la combinaison de clavier suivante pour ouvrir la zone de recherche globale à partir de n’importe quelle page Workfront Planning et rechercher des types d’enregistrements :
-     >
-     >* CTRL+K pour Windows
-     >* ⌘+K pour Mac
-     >
-     >![Zone de recherche globale](assets/global-search-box.png)
+
+     <!--
+        not needed here??
+        >[!TIP]
+        >
+        >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for record types:
+        >
+        >* CTRL+K for Windows
+        >* ⌘+K for Mac
+        >
+        >![Global search box](assets/global-search-box.png)
+        -->
 
    * Un **projet, un portfolio, un programme, une entreprise** ou un **groupe** depuis la section **Types d’objets Workfront**.
 
@@ -297,15 +301,15 @@ Old:
      ![Sélection de la connexion à la demande d’origine](assets/original-request-connection-selection.png)
 
 
-   * **&#x200B;**&#x200B;à partir de la section **Applications Adobe**, pour vous connecter à AEM Assets ou à des fragments de contenu.
+   * **** à partir de la section **Applications Adobe**, pour vous connecter à AEM Assets ou à des fragments de contenu.
 
-     ![Sélection de la connexion &#x200B;](assets/aem-assets-connection-selection-041326.png)
+     ![Sélection de la connexion ](assets/aem-assets-connection-selection-041326.png)
 
      Un nouvel onglet de connexion s’ouvre pour l’enregistrement ou le type d’objet sélectionné.
 
    * **Marques** d’Adobe GenStudio for Performance Marketing dans la section **Applications Adobe**
 
-     ![Sélection de la connexion à la marque &#x200B;](assets/brand-genstudio-connection-selection.png)
+     ![Sélection de la connexion à la marque ](assets/brand-genstudio-connection-selection.png)
 
 1. Mettez à jour le champ **Name** avec le nom du nouveau champ connecté, tel qu&#39;il apparaîtra dans la vue table ou la page d&#39;enregistrement du type d&#39;enregistrement d&#39;origine. Cela crée la colonne (ou le champ) d’enregistrement connecté dans la vue Tableau du type d’enregistrement d’origine. Par défaut, le nom du champ est le nom de l’enregistrement ou de l’objet auquel vous vous connectez.
 
@@ -318,15 +322,15 @@ Old:
     1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
         ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     -->
-1. <span class="preview">(Facultatif) Sélectionnez l’option **Rendre cette connexion dépendante** pour ajouter des dépendances entre ce champ de connexion et le champ créé sur le type d’enregistrement connecté. </span>
+1. (Facultatif) Sélectionnez l’option **Rendre cette connexion dépendante** pour ajouter des dépendances entre ce champ de connexion et le champ créé sur le type d’enregistrement connecté.
 
-   <span class="preview">Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>
+   Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-1. <span class="preview">(Facultatif) Sélectionnez l’option **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Paramètres de connexion**.</span>
+1. (Facultatif) Sélectionnez l’option **Créer le champ correspondant sur le type d’enregistrement lié**.
 
    >[!TIP]
    >
-   ><span class="preview">La section **Type de connexion** a été remplacée par la section **Paramètres de connexion** lors de la connexion aux types d&#39;enregistrements Planning. </span>
+   >La section **Type de connexion** a été remplacée par la section **Paramètres de connexion** lors de la connexion aux types d&#39;enregistrements Planning.
 
    Lorsque cette option est sélectionnée, un champ de connexion est créé sur le type d’enregistrement auquel vous vous connectez, en plus du champ de connexion ajouté au type d’enregistrement actuel. Cette option est désactivée par défaut.
 
@@ -339,25 +343,17 @@ Old:
    >* Un champ d’enregistrement lié n’est pas créé pour les objets d’une autre application dans leurs applications respectives. Par exemple :
    >   * Aucun champ n&#39;est créé pour les objets Workfront connectés aux enregistrements Planning.
    >   * Aucun champ n’est créé pour un type d’enregistrement Planning lorsqu’il est connecté à un type d’enregistrement à partir de l’espace de travail GenStudio.
-1. Sélectionnez l’une des options suivantes :
-
-   <div class="preview">
+1. (Conditionnel) Si vous n’avez pas activé le paramètre **Créer le champ correspondant sur le type d’enregistrement lié**, sélectionnez l’une des options suivantes :
 
    * **Sélection multiple** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à plusieurs enregistrements du type d’enregistrement de connexion.
    * **Sélection unique** : sélectionnez cette option pour permettre à un enregistrement du type d’enregistrement actuel de se connecter à un enregistrement du type d’enregistrement de connexion.
 
-   </div>
-
-1. <span class="preview">(Conditionnel) Si vous avez activé **Créer le champ correspondant sur le type d’enregistrement lié** dans la section **Type de connexion**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et depuis :</span>
-
-   <div class="preview">
+1. (Conditionnel) Si vous avez activé le paramètre **Créer le champ correspondant sur le type d’enregistrement lié**, choisissez l’une des options suivantes pour indiquer le nombre d’enregistrements auxquels les utilisateurs peuvent se connecter et à partir desquels :
 
    * Multiple-à-multiple
    * Un à plusieurs
    * Multiple-à-un
    * Un à un
-
-   </div>
 
    Pour plus d’informations sur les types de connexion, voir [Présentation des types d’enregistrements connectés](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -365,28 +361,24 @@ Old:
    >
    >Si vous sélectionnez Un à plusieurs ou Un à un pour le type Connexion et que vous souhaitez par la suite connecter un enregistrement ou un objet déjà connecté ailleurs, vous recevrez un avertissement indiquant que le connecter à nouveau supprimera la connexion d&#39;origine. Vous pouvez autoriser la suppression ou sélectionner un autre enregistrement.
 
-1. (Conditionnel et facultatif) Lorsque vous choisissez de connecter un objet Workfront, choisissez un **Formulaire personnalisé** dans la section **Lier uniquement les objets correspondant à ces critères**. Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
+1. (Conditionnel et facultatif) Lorsque vous choisissez de connecter un objet Workfront autre que **Requête d’origine**, choisissez un **Formulaire personnalisé** dans la section **Connecter uniquement les objets correspondant à ces critères**. Seuls les objets auxquels sont attachés les formulaires personnalisés sélectionnés peuvent être liés au type d’enregistrement sélectionné. Vous pouvez sélectionner plusieurs formulaires.
 
    >[!NOTE]
    >
    > Vous devez créer des formulaires personnalisés dans Workfront pour les objets sélectionnés avant qu’ils ne s’affichent dans cette liste.
 
-1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager, choisissez un référentiel dans le menu déroulant **Référentiel Experience Manager** de la section **Lier des ressources à partir du référentiel**. Champ obligatoire. Seuls les référentiels auxquels vous avez accès dans Experience Manager s’affichent dans ce champ.
+1. (Conditionnel) Lorsque vous choisissez de vous connecter à Experience Manager, choisissez un référentiel dans le menu déroulant **Référentiel Experience Manager** de la section **Connecter des ressources à partir du référentiel**. Champ obligatoire. Seuls les référentiels auxquels vous avez accès dans Experience Manager s’affichent dans ce champ.
 
    >[!NOTE]
    >
-   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Votre administrateur Workfront peut mapper les champs Workfront Planning aux champs Experience Manager Assets à l’aide du mappage de métadonnées dans Workfront. Pour plus d’informations, consultez [Configuration du mappage des métadonnées de ressource entre Adobe Workfront et Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-1. (Facultatif) Sélectionnez l’une des options suivantes dans la zone **Apparence de l’enregistrement** :
+1. (Facultatif et conditionnel) Si elle est disponible, sélectionnez l’une des options suivantes dans la zone **Apparence de l’enregistrement** :
 
    * **Nom et image** : le nom et la miniature ou l’icône des enregistrements connectés s’affichent dans le champ d’enregistrement connecté. Il s’agit de l’option par défaut.
    * **Nom** : seul le nom des enregistrements connectés s&#39;affichera dans le champ d&#39;enregistrement connecté.
    * **Image** : seule la miniature ou l’icône des enregistrements connectés s’affiche dans le champ d’enregistrement connecté.
-   <div class="preview">
-
    * **Couleur et nom** : lorsque vous connectez des enregistrements Planning, la couleur de chaque enregistrement connecté s&#39;affiche sous la forme d&#39;un cercle à gauche du nom de l&#39;enregistrement. Cette option n&#39;est pas disponible lorsque vous connectez des types d&#39;enregistrement à des types d&#39;objet provenant d&#39;autres applications.
-
-   </div>
 
    Les enregistrements sans image miniature affichent à la place l’icône de type d’enregistrement.
 
@@ -394,13 +386,13 @@ Old:
    >
    >* Lorsque vous autorisez la liaison de plusieurs enregistrements, l’affichage de la miniature seule peut permettre de gagner de l’espace dans des zones plus petites, comme les vues d’enregistrement.
    >
-   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Le nom d’un enregistrement est le champ principal de l’enregistrement. Pour plus d&#39;informations, consultez Présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >* La sélection d’un aspect d’enregistrement n’est pas disponible lors de la sélection de types d’objet dans Workfront.
    >
    >* Ce que vous sélectionnez dans la zone **Apparence des enregistrements** détermine l’affichage des enregistrements dans les connexions, partout dans le système, y compris dans toutes les pages de vues et de détails.
-1. <span class="preview">(Facultatif et conditionnel) Si disponible, cliquez sur **Règles de filtrage des enregistrements** pour créer un filtre afin de limiter les sélections des champs connectés en fonction des valeurs définies. </span>
-1. Sélectionnez l’option **Sélectionner les champs de recherche** ou <span class="preview">cliquez sur le menu **Champs de recherche**</span> pour ouvrir la zone Ajouter des champs de recherche et sélectionner et ajouter des champs à partir du type d’enregistrement auquel vous vous connectez.
+1. (Facultatif et conditionnel) Le cas échéant, cliquez sur **Règles de filtrage des enregistrements** pour créer un filtre afin de limiter les sélections des champs connectés en fonction des valeurs définies. <!--this is available only for record types, not Workfront objects, etc, but we don't say this because the others will be released soon - 2026-2027-->
+1. Cliquez sur le menu **Champs de recherche** pour ouvrir la zone Ajouter des champs de recherche et sélectionnez les champs à ajouter à partir du type d’enregistrement auquel vous vous connectez.
 
    Les champs de recherche sont des champs associés au type d’enregistrement ou d’objet auquel vous vous connectez. Les lier affiche les informations de l&#39;enregistrement ou de l&#39;objet à partir duquel vous établissez la liaison.
 
@@ -419,14 +411,13 @@ Old:
    >
    >   Par exemple, si la date de début prévue d’un projet s’affiche à 15 h dans Workfront, elle s’affiche à 15 h dans Workfront Planning dans un champ de recherche importé.
 
-1. <span class="preview">(Facultatif) Cliquez sur **Accès au champ** pour modifier les autorisations pour le champ connecté. Choisissez l’une des options suivantes : </span>
-
-   <div class="preview">
+1. (Facultatif) Cliquez sur **Accès au champ** pour modifier les autorisations pour le champ connecté. Choisissez l’une des options suivantes :
 
    * **Toute personne ayant accès au type d’enregistrement peut afficher le champ** : seules les personnes ayant accès au type d’enregistrement peuvent afficher le champ. Il s’agit du paramètre par défaut.
    * **Seules les personnes sélectionnées peuvent accéder au champ** : ajoutez des utilisateurs, des équipes, des groupes, des entreprises ou des rôles avec lesquels vous souhaitez partager le champ.
 
-   </div>
+     Pour plus d’informations, voir [Partage de champs](/help/quicksilver/planning/access/share-fields.md).
+
 1. Cliquez sur **Créer**.
 
 1. (Conditionnel) Si vous avez cliqué sur **Champs de recherche**, la boîte de dialogue **Ajouter des champs de recherche** s’ouvre.
@@ -445,7 +436,7 @@ Old:
    >
    >    Toute personne disposant d’autorisations Afficher ou d’autorisations supérieures dans l’espace de travail peut consulter les informations contenues dans les champs liés, quels que soient ses autorisations ou son niveau d’accès dans l’application des types d’objets liés.
 
-1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le nom ou le champ de Principal de l&#39;enregistrement lié est le seul champ visible dans la vue Tableau du type d&#39;enregistrement auquel vous vous connectez. <!--take this step out at production-->
+   &lt;!--1. (Facultatif) Cliquez sur **Ignorer** pour ignorer l’ajout de champs à partir de l’enregistrement ou du type d’objet lié. Le nom ou le champ de Principal de l&#39;enregistrement lié est le seul champ visible dans la vue table du type d&#39;enregistrement auquel vous vous connectez.—Effectuez cette étape en production—>
 
 1. Choisissez un agrégateur pour les champs de recherche que vous ajoutez.
 
@@ -455,6 +446,8 @@ Old:
    >
    >    * Paragraphe
    >    * Case à cocher
+   >    * Personnes
+   >    * ID de l’enregistrement
 
    Les valeurs des champs liés s’affichent soit séparées par des virgules, soit sous la forme d’une valeur résumée selon l’agrégateur que vous choisissez, lorsque les utilisateurs sélectionnent plusieurs enregistrements liés dans le champ d’enregistrement lié.
 
@@ -495,7 +488,7 @@ Old:
    >Par exemple, vous pouvez lier l’enregistrement du produit (enregistrement lié) à l’enregistrement de la campagne (enregistrement d’origine) et le nommer « champ de produit ». Vous pouvez également choisir de lier le champ Budget de l’enregistrement de produit à partir de l’enregistrement de campagne et de l’appeler « Budget de produit ». Si vous avez autorisé la sélection de plusieurs enregistrements dans le « champ Produit », vous pouvez sélectionner le Produit 1 avec un budget de 100 000 $ et le Produit 2 avec un budget de 110 000 $, et le Produit 3 avec un budget de 100 000 $. Selon l’agrégateur que vous avez choisi, vous pouvez consulter les informations suivantes sur le budget dans le champ lié de l’enregistrement original :
    >
    >* **Aucun** : 100 000 $, 110 000 $, 100 000 $
-   >* **&#x200B;**: 110 000 $
+   >* ****: 110 000 $
    >* **MIN** : 100 000 $
    >* **SOMME** : 310 000 $
    >* **MOYENNE** : 103 000,33 $

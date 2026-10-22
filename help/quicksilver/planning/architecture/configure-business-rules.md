@@ -19,19 +19,21 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fac1ea173c1dced72e4273dc2a30b2b25c3c4071
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 4%
+source-wordcount: '1137'
+ht-degree: 3%
 ---
 
 # Configurer des règles métier de type enregistrement
 
 {{planning-important-intro}}
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning afin d’indiquer que certains champs sont requis avant qu’une action sur un enregistrement de ce type soit autorisée ou empêchée.
 

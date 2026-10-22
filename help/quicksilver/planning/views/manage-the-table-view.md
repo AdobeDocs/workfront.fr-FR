@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
+source-wordcount: '4138'
 ht-degree: 37%
 ---
 # Gérer la vue de tableau
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -53,7 +55,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -207,7 +209,7 @@ Pour gérer une vue tableau :
 
 1. Créez une vue tableau, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Exemple de vue Tableau](assets/table-view-example-g-list.png)
+   ![Exemple de vue Tableau](assets/table-view-example.png)
 
 1. (Facultatif) Cliquez sur **Hauteur de ligne**, puis sélectionnez l’une des options suivantes pour modifier la hauteur des lignes du tableau :
    * Court
@@ -274,7 +276,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
    >[!TIP]
    >
@@ -331,11 +333,9 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
      * **SUM** : affiche le total de toutes les cellules de la colonne.
      * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
-     * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
+     * **** : affiche la valeur la plus élevée de toutes les cellules de la colonne.
      * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
-     * <span class="preview">**NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.</span>
-
-   <div class="preview">
+     * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
 
    * Pour les champs de date, développez le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
 
@@ -343,7 +343,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
      * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
      * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
      * **MIN** : affiche la date la plus proche.
-     * **&#x200B;**&#x200B;: affiche la date la plus récente.
+     * **** : affiche la date la plus récente.
 
    * Pour le texte, sélectionnez, booléen, les champs Personnes développent le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
 
@@ -351,17 +351,12 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
      * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
      * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
 
-   </div>
-
    Tenez compte des points suivants lorsque vous utilisez des agrégateurs :
 
    * La ligne d’agrégateur de la colonne est figée lorsqu’elle affiche des valeurs et fait partie des paramètres d’affichage.
    * En tant que gestionnaire de vues, vous pouvez choisir l&#39;agrégateur, qui sera partagé avec la vue lorsque vous partagerez la vue avec d&#39;autres utilisateurs.
    * En tant que visionneuse, vous pouvez modifier l’agrégateur, mais il n’est pas enregistré avec la vue.
    * Les vues partagées publiques sont partagées avec les agrégateurs enregistrés et ne peuvent pas être modifiées.
-
-   <div class="preview">
-
    * Les types de champs suivants n’ont pas d’agrégateur :
 
      * Créé par
@@ -369,7 +364,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
      * ID de l’enregistrement
    * Les champs de formule et les champs de recherche ont des agrégateurs qui correspondent à leur format de champ.
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
 
    Les enregistrements que vous ajoutez dans la vue de tableau sont enregistrés immédiatement et sont visibles par tous les utilisateurs et utilisatrices qui disposent d’une autorisation d’affichage ou de niveau supérieure sur l’espace de travail.
 
-   Une image miniature par défaut <span class="preview">et couleur</span> sont également ajoutées au nouvel enregistrement.
+   Une image miniature et une couleur par défaut sont également ajoutées au nouvel enregistrement.
 
    >[!TIP]
    >
-   ><span class="preview">Lorsqu&#39;un enregistrement contient des commentaires non lus, un indicateur **Nouveau commentaire** s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement.</span>
+   >Lorsqu&#39;un enregistrement contient des commentaires non lus, un indicateur **Nouveau commentaire** s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement.
    >
    >![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    >
    >Les modifications apportées à l’ordre des lignes sont visibles par tous les utilisateurs et utilisatrices qui accèdent au type d’enregistrement dans la même vue.
    >
-   ><span class="preview">Dans la ligne de glisser-déposer, un indicateur numérique affiche le nombre d’enregistrements sélectionnés, le cas échéant, plusieurs. </span>
+   >Dans la ligne de glisser-déposer, un indicateur numérique affiche le nombre d’enregistrements sélectionnés, le cas échéant.
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
-1. Cliquez sur **Champs** en haut du tableau dans l’environnement de production.
-
-   Ou
-
-   <span class="preview">Pointez sur l’en-tête du champ principal</span>, puis sélectionnez le bouton bascule du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
+1. Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">Cliquez sur **Champs** en haut du tableau</span>
+1. Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Couleur** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
-   Ou
-   <span class="preview">Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Couleur** pour l’afficher à gauche du champ principal. Elle est désélectionnée par défaut. </span>
-
-1. <span class="preview"> (facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l&#39;enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.</span>
-
-<div class="preview">
+1. (Facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l&#39;enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.
 
 ![Zone du sélecteur de couleurs pour le codage des couleurs d’enregistrement](assets/color-picker-for-record-color-coding.png)
 
 Pour plus d’informations, voir la section [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
 
 ### Ajouter des filtres {#add-filters-1}
 
@@ -514,10 +497,10 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p> ou <span class="preview"><p>Est l’un des</p></span>
+            <td><p>Est l’un des</p>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p> ou <span class="preview"><p>N’est aucun de</p></span>
+            <p>N’est aucun de</p>
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>
@@ -663,7 +646,7 @@ Tenez compte des points suivants :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant ******************—>
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.

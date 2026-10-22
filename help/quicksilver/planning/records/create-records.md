@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 14%
 ---
 # Créer des enregistrements
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ Vous pouvez créer des enregistrements en effectuant l’une des opérations sui
 * [Les connecter à partir d&#39;autres enregistrements](#create-records-as-you-connect-them)
 * [Envoyer un formulaire de demande à un type d’enregistrement](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Importer des informations depuis un fichier CSV ou Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Création d’enregistrements avec CX Enterprise Coworker](#create-records-using-cx-enterprise-coworker)
 * [Utiliser les automatisations](#create-records-by-using-automations)
 
 Pour plus d’informations sur la gestion des enregistrements dans les vues « Tableau » ou « Chronologie », consultez les articles suivants :
@@ -185,7 +187,7 @@ Old:
 
   * Les enregistrements ajoutés à l’espace de travail d’origine d’un type d’enregistrement global sont visibles à partir de l’espace de travail d’origine.
   * Les enregistrements ajoutés à un espace de travail secondaire d&#39;un type d&#39;enregistrement global ne sont visibles qu&#39;à partir de l&#39;espace de travail dans lequel ils ont été créés et de l&#39;espace de travail d&#39;origine du type d&#39;enregistrement global.
-    Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+    Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * En fonction de leurs autorisations sur l’espace de travail et des types d’enregistrements, les utilisateurs peuvent créer des enregistrements des manières suivantes :
 
@@ -196,14 +198,9 @@ Old:
   >
   >Un gestionnaire d’espace de travail doit créer un formulaire de demande pour le type d’enregistrement afin que les utilisateurs disposant des autorisations d’affichage puissent ajouter des enregistrements à l’aide d’un formulaire de demande. Dans le cas contraire, les utilisateurs disposant d’une autorisation d’affichage ne peuvent pas créer d’enregistrements.
 
-<div class="preview">
-
 * Tous les enregistrements sont automatiquement codés par couleur lors de leur création, quelle que soit la méthode que vous utilisez pour les créer.
 
   Pour plus d’informations, consultez la section [Enregistrements de codage par couleur](#color-coding-records) dans cet article.
-
-</div>
-
 
 ## Créez des enregistrements à l’aide du bouton Nouvel enregistrement ou Demander un enregistrement depuis n’importe quelle vue de type d’enregistrement
 
@@ -243,9 +240,9 @@ Old:
         >
         >Certains types d’enregistrements peuvent avoir plusieurs formulaires. Cliquez dessus pour l’ouvrir.
 
-        Ajoutez l’enregistrement, comme décrit dans l’article [&#x200B; Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements &#x200B;](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
+        Ajoutez l’enregistrement, comme décrit dans l’article [ Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements ](/help/quicksilver/planning/requests/submit-requests.md), en commençant par l’étape 6. <!--ensure this stays accurate-->
 
-      ![Trois manières de créer le choix d’enregistrements modal &#x200B;](assets/three-ways-to-create-records-choice-modal.png)
+      ![Trois manières de créer le choix d’enregistrements modal ](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditionnel) Si vous avez cliqué sur **Demander un enregistrement**, procédez comme suit :
 
@@ -329,7 +326,7 @@ Pour plus d’informations sur la modification des informations relatives aux en
 
    >[!NOTE]
    >
-   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Il n’y a pas de champs obligatoires pour les enregistrements. Toutefois, nous vous recommandons d&#39;ajouter des informations pour le champ principal d&#39;un enregistrement, car il est utile d&#39;identifier les enregistrements lors de la liaison d&#39;enregistrements entre eux. Pour plus d’informations sur les champs principaux, consultez [Gérer la vue du tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Les champs qui renvoient à d’autres types d’enregistrements ou à des champs calculés sont en lecture seule.
 
@@ -602,6 +599,16 @@ Vous pouvez importer des enregistrements pour les types d&#39;enregistrements ex
 
 Pour plus d’informations, voir [Créer des enregistrements en important des informations à partir d’un fichier CSV ou Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
+## Création d’enregistrements à l’aide de CX Enterprise Coworker
+
+Vous pouvez utiliser le CX Enterprise Coworker pour créer des enregistrements en invitant l’IA à les créer pour vous.
+
+Vous pouvez également utiliser la fonctionnalité **Joindre un fichier** du CX Enterprise Coworker Workfront pour charger un grand nombre d’enregistrements à la fois. Vous pouvez importer 10 000 enregistrements ou plus à l’aide de cette méthode.
+
+CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations.
+
+Pour plus d’informations, voir [Utilisation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+
 ## Création d’enregistrements à l’aide d’automatisations
 
 Vous pouvez configurer des automatisations dans Workfront Planning qui, une fois activées, créent des enregistrements lorsqu&#39;elles sont déclenchées à partir d&#39;un enregistrement Planning. Les enregistrements créés sont automatiquement connectés aux enregistrements à partir desquels vous déclenchez l’automatisation.
@@ -613,8 +620,6 @@ Pour plus d’informations, voir [Création d’objets à l’aide des automatis
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## Enregistrements de codage par couleur
 
@@ -644,7 +649,7 @@ Tous les enregistrements sont automatiquement associés à une couleur lors de l
 
      ![Barre de couleurs d’enregistrement de l’affichage Calendrier](assets/calendar-record-color-bar.png)
 
-     Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+     Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
    Le paramètre Couleur est désactivé par défaut.
 
@@ -657,4 +662,3 @@ Tous les enregistrements sont automatiquement associés à une couleur lors de l
 
       Une fois sélectionnée, la nouvelle couleur est appliquée immédiatement.
 
-</div>

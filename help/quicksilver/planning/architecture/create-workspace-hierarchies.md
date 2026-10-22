@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 5%
@@ -41,6 +41,8 @@ ht-degree: 5%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+{{planning-important-intro}}
+
 En tant que gestionnaire d&#39;espace de travail, vous pouvez créer plusieurs hiérarchies d&#39;espaces de travail entre les types d&#39;enregistrements dans Adobe Workfront Planning.
 
 Une fois les types d’enregistrements connectés dans un espace de travail, vous pouvez créer une hiérarchie qui organise ces connexions.
@@ -51,7 +53,7 @@ S’il n’existe pas encore de connexion entre deux types d’enregistrements, 
 
 Les hiérarchies génèrent des chemins de navigation pour leurs enregistrements respectifs qui s’affichent dans leurs en-têtes. Ainsi, les utilisateurs savent où ils se trouvent dans la hiérarchie à n’importe quelle étape de leur workflow.
 
-Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [&#x200B; Présentation des hiérarchies et des chemins de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Pour obtenir des informations générales sur les hiérarchies et les chemins de navigation, voir [ Présentation des hiérarchies et des chemins de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Conditions d’accès
 
@@ -178,7 +180,7 @@ Chaque type d&#39;objet supplémentaire devient l&#39;enfant des types d&#39;obj
    >
    >Vous pouvez connecter un enregistrement d&#39;un type d&#39;enregistrement enfant à un maximum de 10 enregistrements d&#39;un type d&#39;enregistrement parent.
    >
-   >Pour plus d’informations, voir [&#x200B; Présentation de la hiérarchie et du chemin de navigation &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+   >Pour plus d’informations, voir [ Présentation de la hiérarchie et du chemin de navigation ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 1. (Facultatif) Passez la souris sur une hiérarchie, puis cliquez sur le menu **Plus**.
 

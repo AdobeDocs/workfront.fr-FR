@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 23%
+source-wordcount: '1898'
+ht-degree: 24%
 ---
 # Gérer la vue de calendrier
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Pour gérer une vue Calendrier :
        * Les enregistrements qui s&#39;étendent sur plusieurs jours s&#39;affichent en haut du calendrier.
        * Les enregistrements d&#39;une durée inférieure ou égale à un jour s&#39;affichent dans la moitié inférieure de la vue Calendrier. Si vous avez choisi d&#39;afficher l&#39;heure des dates de début et de fin, l&#39;enregistrement s&#39;affiche à l&#39;heure appropriée dans la journée où il se produit.
 
-         <span class="preview">Le calendrier affiche jusqu’à 1 000 enregistrements au cours des semaines précédente, actuelle et suivante pour les deux zones de la vue hebdomadaire.</span>
+         Le calendrier affiche jusqu’à 1 000 enregistrements au cours des semaines précédente, actuelle et suivante pour les deux zones de la vue hebdomadaire.
 
-1. <span class="preview">(Facultatif et conditionnel) Cliquez sur **Charger plus** au bas du calendrier, s’il existe plus de 1 000 enregistrements et que certains d’entre eux ne s’affichent pas par défaut, lors de l’affichage du calendrier par semaine.</span>
+1. (Facultatif et conditionnel) Cliquez sur **Charger plus** au bas du calendrier, s’il existe plus de 1 000 enregistrements et que certains d’entre eux ne s’affichent pas par défaut, lors de l’affichage du calendrier par semaine.
 
 1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
@@ -287,10 +289,10 @@ Pour ajouter un filtre à une vue Calendrier :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p> ou <span class="preview"><p>Est l’un des</p></span>
+            <td><p>Est l’un des</p>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p> ou <span class="preview"><p>Est l’un des</p></span>
+            <p>Est l’un des</p>
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>
@@ -459,7 +461,11 @@ Mettez à jour les paramètres de la vue Calendrier pour indiquer les informatio
 
    * **Type d’enregistrement** : la couleur des barres d’enregistrement du calendrier correspond à la couleur du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
    * **Valeurs des champs** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez.
-   * **Aucune** : les enregistrements s’affichent dans une barre blanche. <span class="preview">L’option **Aucune** a été supprimée de l’environnement de prévisualisation.</span>
+   * **Enregistrement** : la couleur correspond aux couleurs des enregistrements.
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Mettez à jour les paramètres de la vue Calendrier pour indiquer les informatio
    >[!NOTE]
    >
    >* Vous ne pouvez faire correspondre la couleur qu’aux champs avec des options codées par couleur. Par exemple, vous pouvez associer la couleur aux champs État ou aux champs avec des options associées aux couleurs.
-   >    
-   >* Dans l’environnement de production, vous ne pouvez pas faire correspondre la couleur aux enregistrements connectés ou à leurs champs de recherche. <span class="preview">Dans l’environnement de Prévisualisation, vous pouvez faire correspondre la couleur aux enregistrements connectés, mais pas à leurs champs de recherche. </span>
-
+   >            
 
 1. Cliquer sur **Enregistrer**.
 

@@ -23,22 +23,22 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 18%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
-# Vue d’ensemble du partage d’autorisations dans Adobe Workfront Planning
+# Vue d’ensemble du partage d’autorisations dans la planification Adobe Workfront
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Voici les niveaux d’autorisation des espaces de travail :
 | Afficher | ✓ | ✓ | ✓ |
 
 
-<span class="preview">Outre les autorisations décrites dans le tableau ci-dessus, vous pouvez également changer le propriétaire d’un espace de travail lors de son partage. Pour plus d’informations, voir [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md).</span>
+Outre les autorisations décrites dans le tableau ci-dessus, vous pouvez également modifier le propriétaire d’un espace de travail lors de son partage. Pour plus d’informations, consultez la section [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md).
 
 
 ### Autorisations relatives aux types d’enregistrements
@@ -263,25 +263,22 @@ Les scénarios suivants sont possibles :
 
 ### Autorisations pour les champs d’enregistrement
 
+<!--
 
-#### Autorisations d’enregistrement des champs dans l’environnement de production
+#### Permissions to record fields in the Production environment
 
 
-Les autorisations de modification des paramètres de champ sont héritées du type d’enregistrement, lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-Les autorisations suivantes se rapportent aux paramètres des champs et non aux valeurs associées à chaque champ. Pour modifier les valeurs des champs, vous devez avoir les autorisations de modifier les enregistrements.
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | Gérer | Contribuer | Afficher |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Créer | ✓ |            |       |
-| Supprimer | ✓ |            |       |
-| Modifier | ✓ |            |       |
-| Afficher | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### Autorisations d’enregistrement des champs dans l’environnement de prévisualisation
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 Les autorisations relatives aux paramètres des champs sont héritées du type d’enregistrement, lorsque vous accordez des autorisations à l’espace de travail et au type d’enregistrement.
 
@@ -308,8 +305,6 @@ Vous pouvez accorder les autorisations suivantes aux valeurs de champ en partage
 | Afficher | ✓ | ✓ |
 
 Les utilisateurs doivent au moins disposer d’autorisations en lecture seule sur le type d’enregistrement pour accéder aux champs.
-
-</div>
 
 ### Autorisations d’affichage
 

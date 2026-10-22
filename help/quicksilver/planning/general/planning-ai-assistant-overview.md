@@ -32,19 +32,17 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '928'
 ht-degree: 9%
 ---
 # Vue d’ensemble de l’assistant IA Adobe Workfront Planning
 
 <!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 -->
 
 {{planning-important-intro}}
@@ -117,9 +115,9 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * L’assistant AI doit être activé pour votre organisation avant d’être disponible pour les utilisateurs de votre entreprise.
 
-  Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre organisation, il est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* Une fois que Workfront a activé l’agent pour votre organisation, il est disponible pour l’administrateur Workfront principal. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’administrateur Workfront doit activer l’assistant AI pour tous les autres utilisateurs. Pour plus d’informations, voir [Activer ou désactiver l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 

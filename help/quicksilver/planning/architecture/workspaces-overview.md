@@ -21,7 +21,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 18%
@@ -38,7 +38,7 @@ ht-degree: 18%
 
 Un espace de travail est un ensemble de types d’enregistrements utilisés par une entité organisationnelle et représente le cycle de vie et les processus de travail de l’entité. Vous pouvez entièrement personnaliser les espaces de travail de la planification Adobe Workfront.
 
-<!--update screenshot with production, it was broken at Preview-->
+<!--update screenshot with production whe we can search for records, it was broken at Preview-->
 
 ![Compte administrateur de la page de destination des espaces de travail](assets/workspaces-landing-page-admin-account.png)
 
@@ -98,7 +98,7 @@ No longer the case - they match now:
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+* Il existe des limites au nombre d&#39;objets d&#39;espace de travail que vous pouvez créer dans votre instance de Workfront Planning. Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Présentation de la recherche globale
 

@@ -3,6 +3,7 @@ title: Gestion de votre instance d’Adobe Workfront Planning en tant que produi
 description: Cet article décrit comment gérer les préférences et les informations de votre client pour Adobe Workfront Planning lorsque votre entreprise a acheté est en tant que produit autonome.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
@@ -18,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 7%
@@ -120,5 +121,5 @@ Nous vous recommandons de configurer vos préférences système au cours de la p
 
 La configuration des préférences système de Workfront Planning est similaire à leur configuration dans Workfront.
 
-Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 

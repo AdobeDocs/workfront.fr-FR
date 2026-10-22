@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 10%
+source-wordcount: '449'
+ht-degree: 9%
 ---
 # Exporter des détails d’un enregistrement
 
@@ -39,9 +39,12 @@ ht-degree: 10%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
 -->
+
+{{planning-important-intro}}
+
+Pour collaborer plus efficacement avec d’autres utilisateurs qui ne disposent pas nécessairement d’un compte Workfront, vous pouvez exporter la page de détails d’un enregistrement dans un fichier Microsoft Word et la partager avec eux.
+
 
 ## Conditions d’accès
 
@@ -192,7 +195,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * **&#x200B;**
+   * ****
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 

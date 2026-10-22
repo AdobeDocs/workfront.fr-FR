@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 20%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -51,7 +51,7 @@ Vous pouvez supprimer des types d’enregistrement lorsqu’ils ne sont plus per
 
 Cependant, la suppression des types d’enregistrement supprime également toutes les informations associées aux types d’enregistrement. Pour plus d’informations, consultez la section [Remarques concernant la suppression de types d’enregistrement](#considerations-when-deleting-record-types) de cet article.
 
-Pour plus d’informations sur les types d’enregistrements, voir [&#x200B; Présentation des types d’enregistrements &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Pour plus d’informations sur les types d’enregistrements, voir [ Présentation des types d’enregistrements ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -287,6 +287,8 @@ Pour supprimer un type d’enregistrement global d’un espace de travail second
    * Le type d’enregistrement créé à partir d’un type d’enregistrement global est supprimé de l’espace de travail secondaire sélectionné.
    * Le type d’enregistrement d’origine et ses champs restent dans leur espace de travail d’origine.
    * Le type d’enregistrement reste dans tous les autres espaces de travail où il a été ajouté.
-   * Les enregistrements <!--and fields--> ajoutés au type d’enregistrement de l’espace de travail secondaire sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement global a été ajouté sont conservés dans leurs espaces de travail respectifs et dans l’espace de travail d’origine. &lt;!—!—Les champs sont conservés dans les espaces de travail où ils ont été ajoutés.
+   * Les enregistrements <!--and fields--> ajoutés au type d’enregistrement de l’espace de travail secondaire sont supprimés. Tous les autres enregistrements ajoutés à partir d’espaces de travail supplémentaires où le type d’enregistrement global a été ajouté sont conservés dans leurs espaces de travail respectifs et dans l’espace de travail d’origine.
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 63%
+source-wordcount: '2129'
+ht-degree: 65%
 ---
 # Exemple de connexion de types d’enregistrements et d’enregistrements
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ Pour ce faire :
    * **Nom** : donnez un nom au nouveau champ. Par exemple, « Informations sur le produit ». Il s’agit du nom du champ d’enregistrement lié.
    * **Description** : ajoutez une description pour le nouveau champ. Par exemple, « Il s’agit des produits auxquels mes campagnes doivent être associées. » La description du champ s’affiche lorsque vous pointez sur le champ dans l’en-tête de colonne.
 
-   <div class="preview">
-
    * **Rendre cette connexion dépendante** : lorsque cette option est activée et que les deux enregistrements connectés s’affichent sur un troisième enregistrement en même temps, les choix d’un type d’enregistrement dépendent des choix de l’autre.
 
      Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    * **Créer le champ correspondant sur le type d’enregistrement lié** : lorsqu’il est activé, un champ de connexion est également créé sur le type d’enregistrement auquel vous êtes connecté (Produit).
-
-   </div>
 
    * **Type de connexion** : choisissez l&#39;une des options suivantes :
      * **Plusieurs à plusieurs** : les utilisateurs peuvent connecter une campagne à plusieurs produits et un produit à plusieurs campagnes.
@@ -87,13 +85,11 @@ Pour ce faire :
      * **Nom** : affiche uniquement le nom des enregistrements connectés.
      * **Image** : affiche uniquement la miniature ou l’icône des enregistrements connectés.
 
-     <div class="preview">
+     * **Couleur et nom** : affiche uniquement la couleur et le nom des enregistrements connectés.
 
-     * **Couleur et nom** : affiche uniquement la couleur et le nom des enregistrements connectés
+   * **Champs de recherche** : développez cette option pour connecter également les champs de recherche aux enregistrements connectés.
 
-     </div>
-
-   * <span class="preview">**Champs de recherche** : développez cette option pour connecter également les champs de recherche aux enregistrements connectés. </span>La boîte de dialogue **Ajouter des champs Liste de choix** s’ouvre ensuite pour vous permettre de lier les champs Produit au type d’enregistrement Campagne . Vous pouvez cliquer sur **Ignorer** pour sauter cette étape et ajouter les champs Produits ultérieurement.
+     La boîte de dialogue **Ajouter des champs Liste de choix** s’ouvre ensuite pour vous permettre de lier les champs Produit au type d’enregistrement Campagne . Vous pouvez cliquer sur **Ignorer** pour sauter cette étape et ajouter les champs Produits ultérieurement.
 
      ![Nouvelle connexion avec le type d’enregistrement du produit](assets/new-connection-with-product-record-type.png)
 

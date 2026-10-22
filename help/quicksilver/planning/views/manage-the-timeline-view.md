@@ -28,23 +28,24 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 29%
 ---
 # Gérer la vue chronologique
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning.
+Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page du type d’enregistrement dans la planification Adobe Workfront.
 
 Pour plus d’informations sur les vues d’enregistrement, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -245,14 +246,10 @@ Pour gérer une vue chronologique :
      * **Trimestre** : affiche les mois et les semaines avec l’indication du trimestre.
      * **Mois** : affiche les semaines et les jours.
 
-     >[!TIP]
-     >
-     >Selon l’environnement que vous utilisez pour accéder à la vue chronologique, les scénarios suivants existent :
-     >
-     >* Dans l’environnement de production, la vue Chronologie affiche uniquement les semaines personnalisées selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés dans la zone Configuration , les informations de la semaine ne s’affichent pas dans la vue chronologique.
-     >
-     >* <span class="preview">Dans l’environnement Aperçu , la vue chronologique affiche par défaut les semaines personnalisées selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés et Semaines personnalisées dans la zone Configuration , la vue chronologique affiche les trimestres personnalisés et les semaines dans les affichages Trimestre et Mois . </span>
-     >
+     La vue chronologique affiche par défaut les semaines personnalisées selon les trimestres classiques. Si votre administrateur Workfront active Trimestres personnalisés et Semaines personnalisées dans la zone Configuration , la vue chronologique affiche les trimestres et semaines personnalisés en modes Trimestre et Mois .
+
+     Pour plus d’informations, voir [Activer les trimestres et les semaines personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
 
 
 1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Pour ajouter un filtre à une vue chronologique :
         </tr>
         <tr>
             <td>Multi-sélection, personnes</td>
-            <td><p>A l’un des</p> ou <span class="preview"><p>Est l’un des</p></span>
+            <td><p>Est l’un des</p>
             <p>Dispose de tous les</p>
             <p>Est exactement</p>
-            <p>N’a aucun(e) des</p> ou <span class="preview"><p>N’est aucun de</p></span>
+            <p><p>N’est aucun de</p>
             <p>Est vide</p>
             <p>N’est pas vide</p></td>
         </tr>
@@ -509,9 +506,9 @@ Pour ajouter un regroupement dans la vue chronologique :
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview">(Facultatif) Cliquez sur l’icône **Regroupement** ![Icône de regroupement](assets/grouping-icon.png) de la barre d’outils pour ouvrir la zone **Regrouper les enregistrements par**, puis cliquez sur **Développer tout** pour développer tous les regroupements ou **Réduire tout** pour réduire tous les regroupements et réduire manuellement uniquement ceux dont vous avez besoin. </span>
-1. <span class="preview">(Facultatif et conditionnel) Dans l’affichage du couloir, faites glisser et déposez le séparateur du panneau de gauche pour ajuster sa largeur. La largeur de panneau de chaque utilisateur est enregistrée entre les sessions, avec une largeur par défaut pour les nouveaux utilisateurs.</span>
-1. <span class="preview">(Facultatif) Pour les noms de regroupement longs, passez la souris sur la ligne d’un regroupement pour afficher le nom complet du regroupement dans une info-bulle.</span>
+1. (Facultatif) Cliquez sur l’icône **Regroupement** ![icône de regroupement](assets/grouping-icon.png) de la barre d’outils pour ouvrir la boîte de dialogue **Regrouper les enregistrements par**, puis cliquez sur **Tout développer** pour développer tous les regroupements ou **Tout réduire** pour réduire tous les regroupements et réduire manuellement uniquement ceux dont vous avez besoin.
+1. (Facultatif et conditionnel) Dans l’affichage couloir, faites glisser et déposez le séparateur de panneau de gauche pour ajuster sa largeur. La largeur de panneau de chaque utilisateur est enregistrée entre les sessions, avec une largeur par défaut pour les nouveaux utilisateurs.
+1. (Facultatif) Pour les noms de regroupement longs, passez la souris sur la ligne d’un regroupement pour afficher le nom complet du regroupement dans une info-bulle.
 
 1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement pour le supprimer.
 
@@ -527,7 +524,6 @@ Pour ajouter un regroupement dans la vue chronologique :
    >Lorsque vous faites glisser des enregistrements d&#39;un regroupement à un autre, les champs sélectionnés dans le regroupement mettent automatiquement à jour les valeurs des enregistrements déplacés.
 1. (Facultatif) Cliquez sur **Paramètres**, puis sur **Couleur** pour attribuer des couleurs aux regroupements. Pour plus d’informations, consultez la section [Modifier les paramètres de la vue chronologique](#edit-the-timeline-view-settings) dans cet article.
 
-<div class="preview">
 
 ### Ajouter un tri
 
@@ -568,12 +564,6 @@ Pour ajouter un tri en mode Chronologie :
 
    Le tri est appliqué immédiatement.
 1. Cliquez n’importe où sur la page pour fermer la zone de tri.
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### Modifier les paramètres de la vue chronologique {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
    >
    >* Vous ne pouvez faire correspondre la couleur qu’aux champs avec des options codées par couleur. Par exemple, vous pouvez associer la couleur aux champs État ou aux champs avec des options associées aux couleurs.
    >    
-   >* Dans l’environnement de production, vous ne pouvez pas faire correspondre la couleur aux enregistrements connectés ou à leurs champs de recherche. <span class="preview">Dans l’environnement de Prévisualisation, vous pouvez faire correspondre la couleur aux enregistrements connectés, mais pas à leurs champs de recherche. </span>
+   >* Vous pouvez faire correspondre la couleur aux enregistrements connectés, mais pas à leurs champs de recherche.
 
-
-   Par exemple, les champs à sélection multiple ou unique peuvent avoir des options codées par couleur.
 
    Si vous effectuez un regroupement par champs sans les options de codage par couleur, la couleur du regroupement reste grise.
 
@@ -667,8 +655,8 @@ Mettez à jour les paramètres de la vue chronologique pour indiquer le type d�
 
    * **Type d’enregistrement** : la couleur des enregistrements correspond à la couleur du type d’enregistrement que vous avez sélectionné. Il s’agit de l’option par défaut.
    * **Valeurs des champs** : la couleur des enregistrements correspond à la couleur d’un champ que vous spécifiez. Passez à l’étape 10. <!--ensure this stays accurate-->
+   * **Enregistrement** : la couleur correspond aux couleurs des enregistrements.
    * **Regroupement** : la couleur des enregistrements correspond à la couleur que vous avez indiquée pour les regroupements. Cette option est grisée lorsqu’aucun regroupement n’est appliqué à la vue chronologique.
-   * **Aucune** : les enregistrements s’affichent dans une barre blanche. <span class="preview">L’option Aucun a été supprimée de l’environnement de prévisualisation.</span>
 
 1. (Le cas échéant) Si vous avez sélectionné **Valeurs de champ** pour les couleurs des enregistrements, sélectionnez un champ dans le menu déroulant **Faire correspondre la couleur de l’enregistrement à**.
 

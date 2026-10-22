@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 26%
+source-wordcount: '782'
+ht-degree: 25%
 ---
 # Vue d’ensemble des champs de formule
 
@@ -203,13 +203,7 @@ Les champs de formule Adobe Workfront Planning prennent en charge la plupart des
 >
 >Les expressions Workfront ci-dessous ne sont pas prises en charge pour les champs de formule Workfront Planning :
 >
-><!--* SORTASCARRAY-->
-><!--* SORTDESCARRAY-->
->* ADDHOUR
->* SWITCH
 >* FORMAT
-
-<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 Pour obtenir une liste complète des expressions Workfront, voir [Présentation des expressions de données calculées](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 

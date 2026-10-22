@@ -34,32 +34,32 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 5%
+source-wordcount: '1141'
+ht-degree: 4%
 ---
 # Ajouter une approbation à un formulaire de demande dans Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Vous pouvez ajouter un processus d’approbation à un formulaire de demande Adobe Workfront Planning, afin de lancer une approbation pour chaque demande soumise, avant la création d’un enregistrement.
 
-<!--<span class="preview">Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+Plusieurs étapes sont prises en charge dans le processus de validation. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante commence et les approbateurs de la nouvelle étape reçoivent une notification par e-mail.
 
 Cet article décrit comment un responsable d’espace de travail peut ajouter une approbation à un formulaire de demande associé à un type d’enregistrement.
 
 Pour plus d’informations sur la création d’un formulaire de demande dans Workfront Planning, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -116,7 +116,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Lorsque plusieurs approbateurs sont requis, ils doivent tous prendre une décision avant que la demande ne soit approuvée ou rejetée, sauf si l’option Une seule décision est requise est activée.
 * Si une équipe est définie comme approbateur, une seule décision est nécessaire de la part d&#39;un membre de cette équipe.
 * Les approbations sont facultatives : si aucune approbation n&#39;est jointe à un formulaire de demande, Workfront Planning crée l&#39;enregistrement immédiatement après l&#39;envoi.
-* <span class="preview">Vous pouvez ajouter une ou plusieurs étapes aux approbations.</span>
+* Vous pouvez ajouter une ou plusieurs étapes aux validations.
 
 ## Ajouter des règles d’approbation à un formulaire de demande
 
@@ -156,29 +156,29 @@ Pour définir des règles d&#39;approbation pour un formulaire de demande :
    >   * Si une règle personnalisée est respectée, la valeur par défaut n’est pas appliquée au workflow d’approbation de la demande. Seules les règles personnalisées correspondantes s’appliquent pour les approbations et la règle par défaut est ignorée.
    >   * Si plusieurs règles personnalisées sont respectées, la première de l’ordre s’applique. Dans ce cas, l’approbation par défaut ne s’applique pas, le cas échéant.
 
-1. <span class="preview">(Facultatif) Cliquez sur **Ajouter une étape** pour ajouter une autre étape à l’approbation.</span>
+1. (Facultatif) Cliquez sur **Ajouter une étape** pour ajouter une autre étape à l’approbation.
 
 1. Cliquez sur **Enregistrer** pour enregistrer les règles d’approbation.
 
-1. <span class="preview">(Facultatif) Pour ajouter d’autres étapes à l’approbation, procédez comme suit :</span>
+1. (Facultatif) Pour ajouter d’autres étapes à l’approbation, procédez comme suit :
 
-   1. <span class="preview">Cliquez sur **Ajouter une étape**.</span>
+   1. Cliquez sur **Ajouter une étape**.
 
-      <span class="preview">La zone **Validation en plusieurs étapes** s’affiche. Si vous avez déjà créé une action d’approbation par défaut, ces approbateurs sont automatiquement ajoutés à l’étape 1.</span>
+      La zone **Validation en plusieurs étapes** s’affiche. Si vous avez déjà créé une action d’approbation par défaut, ces approbateurs sont automatiquement ajoutés à l’étape 1.
 
-   1. <span class="preview">Dans le champ **Ajouter des personnes ou des équipes**, ajoutez au moins un utilisateur ou une équipe à définir comme approbateur pour l’étape.</span>
-   1. <span class="preview">(Conditionnel et facultatif) Si vous souhaitez que l&#39;enregistrement passe à l&#39;étape suivante après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**. Dans le cas contraire, tous les approbateurs doivent décider de l’approbation avant que la demande ne passe à l’étape suivante.</span>
-   1. <span class="preview">Cliquez sur **Ajouter une étape** et répétez l’étape B pour ajouter d’autres étapes à l’approbation.</span>
+   1. Dans le champ **Ajouter des personnes ou des équipes**, ajoutez au moins un utilisateur ou une équipe à définir comme approbateur pour l’étape.
+   1. (Conditionnel et facultatif) Si vous souhaitez que l&#39;enregistrement passe à l&#39;étape suivante après son approbation par l&#39;un des approbateurs, cochez la case **Une seule décision est requise**. Dans le cas contraire, tous les approbateurs doivent décider de l’approbation avant que la demande ne passe à l’étape suivante.
+   1. Cliquez sur **Ajouter une étape** et répétez l’étape B pour ajouter d’autres étapes à l’approbation.
 
-      <span class="preview">Lorsqu’il existe plusieurs étapes, vous pouvez cliquer sur l’icône **Glisser** ![Icône Glisser](assets/drag-icon.png) pour les faire glisser et les déposer dans l’ordre.</span>
+      Lorsqu’il existe plusieurs étapes, vous pouvez cliquer sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) pour les faire glisser et les déposer dans l’ordre.
 
-      <span class="preview">Cliquez sur **Supprimer cette étape** pour supprimer une étape de l’approbation, ou cliquez sur l’icône **Supprimer** ![icône Supprimer](assets/delete.png) à côté d’un approbateur ou d’une approbatrice pour supprimer l’utilisateur ou l’équipe de la liste des approbateurs dans une étape.</span>
+      Cliquez sur **Supprimer cette étape** pour supprimer une étape de l’approbation, ou cliquez sur l’icône **Supprimer** ![icône Supprimer](assets/delete.png) à côté d’un approbateur ou d’une approbatrice pour supprimer l’utilisateur ou l’équipe de la liste des approbateurs dans une étape.
 
       ![Zone de validation en plusieurs étapes](assets/planning-request-multi-stage-approval-box.png)
 
-   1. <span class="preview">Lorsque vous avez terminé de créer le workflow d’approbation, cliquez sur **Enregistrer**.</span>
+   1. Une fois le workflow d’approbation créé, cliquez sur **Enregistrer**.
 
-      <span class="preview">Vous pouvez modifier ou supprimer l’approbation multi-étape à partir de la page Approbations </span>.
+      Vous pouvez modifier ou supprimer l’approbation multi-étape à partir de la page Approbations .
 
 1. (Facultatif) Cliquez sur **Publier** si vous n’avez jamais partagé le formulaire de demande auparavant.
 
