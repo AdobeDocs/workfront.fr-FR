@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
+source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
 workflow-type: tm+mt
 source-wordcount: '3425'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Vous pouvez désormais activer un espace de travail Workfront Planning existant 
 
 À l’aide des projets de stockage GenStudio Adobe, vous pouvez mapper vos types d’enregistrements et champs Planning aux types d’enregistrements et champs de l’espace de travail GenStudio, puis accéder aux informations de l’espace de travail Planning dans GenStudio à partir du sélecteur de projets.
 
-Pour plus d’informations, voir [Promouvoir un espace de travail Adobe Workfront Planning vers GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md).
+Pour plus d’informations, voir [Activer un espace de travail Adobe Workfront Planning vers GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
 
 ## types d’activation de contenu créatif dynamique Meta
 
@@ -410,7 +410,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
