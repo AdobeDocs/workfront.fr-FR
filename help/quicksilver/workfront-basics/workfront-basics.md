@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 97%
+source-wordcount: '217'
+ht-degree: 96%
 ---
 # Concepts de base d’Adobe Workfront : index des articles
 
@@ -58,5 +58,5 @@ Cette section contient les sous-sections suivantes :
 * [Applications mobiles](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Assistant IA dans Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Serveur MCP Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-* [Collègue dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+* [CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
 * [Conseils, astuces et dépannage pour les concepts de base d’Adobe Workfront](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

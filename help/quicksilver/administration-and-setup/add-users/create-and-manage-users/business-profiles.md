@@ -20,14 +20,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 1%
 ---
 # Présentation des profils professionnels
-
-{{highlighted-preview}}
 
 Les profils métier constituent un modèle d’autorisation amélioré qui permet aux clients, tels que les agences, de gérer efficacement l’accès des utilisateurs et d’assurer un contrôle précis des autorisations au niveau du groupe. Dans un profil d’entreprise, les utilisateurs disposent d’autorisations distinctes pour les objets spécifiques à un groupe. D’autres objets peuvent également être partagés directement avec le profil d’entreprise.
 
@@ -40,7 +38,7 @@ L’administrateur système de Workfront :
 * Définit des dates d’entrée en vigueur pour le profil professionnel, le cas échéant
 * Attribue des modèles de mise en page aux niveaux d’accès
 
-<span class="preview">Les administrateurs de groupe peuvent également créer, modifier et supprimer des profils professionnels, mais uniquement pour les groupes qu’ils administrent.</span>
+Les administrateurs de groupe peuvent également créer, modifier et supprimer des profils professionnels, mais uniquement pour les groupes qu’ils administrent.
 
 Tout utilisateur disposant de l’accès nécessaire pour partager des objets peut les partager avec le profil d’entreprise et tous les utilisateurs disposant du profil verront l’objet .
 

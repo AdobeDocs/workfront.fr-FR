@@ -19,19 +19,23 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 7%
+source-wordcount: '1031'
+ht-degree: 6%
 ---
 
 # Présentation d’Adobe Workfront Planning CX Enterprise Coworker
 
 <!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 
 {{planning-important-intro}}
@@ -46,7 +50,7 @@ Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de 
 >
 >Les collaborateurs ne sont actuellement pas disponibles pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations.
 >
->Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 
 ## Conditions d’accès
@@ -109,7 +113,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
   Pour plus d’informations, voir [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’administrateur Workfront doit également activer Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

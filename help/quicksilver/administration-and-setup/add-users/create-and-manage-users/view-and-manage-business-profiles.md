@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 19%
 ---
 # Affichage et gestion des profils professionnels
 
-{{highlighted-preview}}
-
 Pour affecter un profil professionnel à un utilisateur, vous devez affecter un groupe et un niveau d’accès associé.
 
-En tant qu’administrateur ou administratrice Workfront, vous pouvez définir le profil professionnel d’un utilisateur ou d’une utilisatrice en affectant des combinaisons de niveaux d’accès et de groupes. La gestion s’effectue à partir de la page Utilisateur de l’utilisateur dans Workfront. <span class="preview">Les administrateurs de groupe peuvent également créer, modifier et supprimer des profils professionnels, mais uniquement pour les groupes qu’ils administrent.</span>
+En tant qu’administrateur ou administratrice Workfront, vous pouvez définir le profil professionnel d’un utilisateur ou d’une utilisatrice en affectant des combinaisons de niveaux d’accès et de groupes. La gestion s’effectue à partir de la page Utilisateur de l’utilisateur dans Workfront. Les administrateurs de groupe peuvent également créer, modifier et supprimer des profils professionnels, mais uniquement pour les groupes qu’ils administrent.
 
 Pour plus d’informations sur les profils métier, voir [Présentation des profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -56,7 +54,7 @@ Pour plus d’informations sur les profils métier, voir [Présentation des prof
   </tr> 
   <tr> 
    <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td><p>Administrateur ou administratrice système</p><p><span class="preview">Administrateur de groupes (pour les groupes qu’ils administrent)</span></p></td>
+   <td><p>Administrateur ou administratrice système</p><p>Administrateur de groupes (pour les groupes qu’ils administrent)</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Modification d’un profil d’entreprise
 
-<div class="preview">
-
 La modification d’un profil d’entreprise ouvre la même fenêtre que celle utilisée pour en créer un.
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ La modification d’un profil d’entreprise ouvre la même fenêtre que celle u
 >
 >Les administrateurs de groupe ne peuvent modifier que les profils professionnels des groupes qu’ils administrent.
 
-</div>
-
 ## Supprimer un profil d’entreprise
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ La modification d’un profil d’entreprise ouvre la même fenêtre que celle u
 >[!NOTE]
 >
 >Les administrateurs de groupe peuvent uniquement supprimer les profils professionnels des groupes qu’ils administrent.
-
-</div>

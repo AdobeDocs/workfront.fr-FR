@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1362'
 ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
-
-{{preview-fast-release-general}}
 
 Les collaborateurs en IA permettent d’intégrer des agents en IA à vos projets, tâches et problèmes. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
 
@@ -65,7 +63,7 @@ Les types de collaborateurs IA disponibles sont les suivants :
   </tr> 
   <tr> 
    <td>Configurations des niveaux d’accès</td> 
-   <td>[!UICONTROL System Administrator] <span class="preview">ou Administrateur de groupe</span></td> 
+   <td>[!UICONTROL System Administrator] ou Administrateur de groupe</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -104,7 +102,7 @@ Vous devez configurer un agent dans Claude, Copilot Studio, OpenAI ou IBM avant 
 Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
-* **&#x200B;**&#x200B;: lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
+* **** : lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
 
 
 {{step-1-to-setup}}
@@ -144,7 +142,7 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
 
    >[!NOTE]
    >
-   ><span class="preview">Si vous êtes un administrateur de groupes, ce champ affiche uniquement les groupes pour lesquels vous êtes un administrateur. Les administrateurs et administratrices de groupe doivent sélectionner au moins un groupe.</span>
+   >Si vous êtes un administrateur de groupes, ce champ affiche uniquement les groupes pour lesquels vous êtes un administrateur. Les administrateurs et administratrices de groupe doivent sélectionner au moins un groupe.
 
 1. Dans la zone **Choisir l’origine de l’agent**, indiquez si vous souhaitez connecter un agent créé sur une plateforme commune telle que Copilot ou utiliser un agent personnalisé.
 1. (Conditionnel) Si vous utilisez un agent provenant d’une plateforme commune, saisissez les détails d’authentification de la plateforme de l’agent :
@@ -153,16 +151,17 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
    |---|---|
    | Copilot Studio | Secret de canal web |
    | Claude Managed Agents | Clé API anthropique<br>ID d’agent<br>ID d’environnement |
-   | <span class="preview">Agents OpenAI</span> | <span class="preview">Clé API <br>ID de l’agent</span> |
-   | <span class="preview">IBM watsonx Orchestration</span> | <span class="preview">URL du service<br>clé API<br> ID de l’agent</span> |
+   | Agents OpenAI | Clé API <br>ID de l’agent |
+   | IBM watsonx Orchestrate | URL du service<br>clé API<br> ID de l’agent |
 
 1. Cliquez sur **Tester la connexion**. Vous pouvez ainsi savoir si la connexion a été correctement configurée.
 1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer/désactiver les actions que vous souhaitez que le collaborateur effectue.
 
-   * <span class="preview">Envoyer une notification : l’agent ajoute un commentaire dans le flux de mise à jour, en identifiant l’utilisateur qui a demandé le travail, qui a affecté l’agent ou qui détient le projet. </span>
-   * <span class="preview">Charger des documents texte</span>
-   * <span class="preview">Marquer la tâche comme terminée </span>
+   * Envoyer une notification : l’agent ajoute un commentaire dans le flux de mise à jour, en identifiant l’utilisateur qui a demandé le travail, qui a affecté l’agent ou qui détient le projet.
+   * Chargement de documents texte
+   * Marquer la tâche comme terminée
    * Écrire des champs de tâche : sélectionnez les formulaires et les champs sur lesquels l’agent peut écrire.
+   * Écrire des champs de projet : sélectionnez les formulaires et les champs sur lesquels l’agent peut écrire.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -214,7 +213,7 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez la section [ Migration et obsolescence de la bibliothèque d’agents ](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 
 <!--
@@ -282,7 +281,7 @@ Vous pouvez modifier, copier et supprimer des collaborateurs IA existants.
 
 >[!NOTE]
 >
-><span class="preview">Les administrateurs de groupe ne peuvent afficher et interagir qu’avec les collaborateurs de l’IA associés aux groupes pour lesquels ils sont administrateurs. Si d’autres groupes sont également associés à un collaborateur ou une collaboratrice de l’IA donné(e), un administrateur ou une administratrice de groupe peut les afficher, mais pas les modifier.</span>
+>Les administrateurs de groupe ne peuvent afficher et interagir qu’avec les collaborateurs de l’IA associés aux groupes pour lesquels ils sont administrateurs. Si d’autres groupes sont également associés à un collaborateur ou une collaboratrice de l’IA donné(e), un administrateur ou une administratrice de groupe peut les afficher, mais pas les modifier.
 
 {{step-1-to-setup}}
 

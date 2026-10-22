@@ -7,16 +7,14 @@ title: Configuration des abonnements aux événements dans Workfront
 description: Les administrateurs et administratrices de Workfront peuvent créer, afficher et supprimer des abonnements à des événements de la Configuration. Les utilisateurs et utilisatrices disposant de l’accès requis peuvent également gérer les abonnements aux événements dans la portée autorisée par leurs autorisations et la configuration du système.
 feature: System Setup and Administration
 role: Admin
-author: Courtney
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+author: Becky
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 8%
 ---
 
 # Configuration des abonnements aux événements dans Workfront
-
-{{highlighted-preview-article-level}}
 
 En tant qu’administrateur Adobe Workfront, vous pouvez créer, afficher et supprimer des abonnements à des événements dans la zone Configuration . Les abonnements aux événements envoient les informations d’événement Workfront à un point d’entrée externe lorsque des événements spécifiés se produisent.
 
