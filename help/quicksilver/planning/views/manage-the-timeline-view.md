@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 29%
 ---
 # Gérer la vue chronologique
@@ -484,7 +484,6 @@ Pour ajouter un regroupement dans la vue chronologique :
 
 1. Dans la zone **Regrouper les enregistrements par**, effectuez un glisser-déposer des regroupements dans l’ordre approprié.
 
-
 1. Dans la zone **Disposition** de la zone **Regrouper les enregistrements par**, sélectionnez l’une des options suivantes :
 
    * **Empilés** : les regroupements s’affichent sans colonne de gauche figée et s’adaptent à la largeur des chronologies de leurs éléments.
@@ -524,6 +523,11 @@ Pour ajouter un regroupement dans la vue chronologique :
    >Lorsque vous faites glisser des enregistrements d&#39;un regroupement à un autre, les champs sélectionnés dans le regroupement mettent automatiquement à jour les valeurs des enregistrements déplacés.
 1. (Facultatif) Cliquez sur **Paramètres**, puis sur **Couleur** pour attribuer des couleurs aux regroupements. Pour plus d’informations, consultez la section [Modifier les paramètres de la vue chronologique](#edit-the-timeline-view-settings) dans cet article.
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### Ajouter un tri
 
@@ -549,7 +553,17 @@ Pour ajouter un tri en mode Chronologie :
 
    ![Tri dans la chronologie avec tri par regroupement](assets/sort-in-timeline.png)
 1. Dans le menu déroulant, sélectionnez **Trier les enregistrements**, puis cliquez sur un champ répertorié dans la liste **Commencer par un champ suggéré** ou cliquez sur **Choisir un autre champ**, puis recherchez un champ et cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
-1. Sélectionnez le sens dans lequel le tri des enregistrements doit être appliqué (alphabétique, descendant inverse, etc.). Le sens d’application d’un tri dépend du format du champ que vous avez sélectionné.
+1. Sélectionnez le sens dans lequel le tri des enregistrements doit être appliqué (alphabétique, descendant inverse, etc.).
+
+   Par exemple, le tri d’un champ de texte peut être A -> Z ou Z -> A.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   Le sens d’application d’un tri dépend du format du champ que vous avez sélectionné.
 1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 10 conditions.
 1. (Facultatif) Cliquez sur **Effacer tout** pour supprimer toutes les conditions.
 1. Dans le menu déroulant situé dans le coin supérieur gauche de la zone de tri, sélectionnez **Trier les regroupements**.

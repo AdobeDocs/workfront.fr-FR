@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!-- add to TOC and mini TOC-->
+<!-- THIS IS HIDDEN FROM TOC-->
 
 <!--
 Better metadata, at publishing:
@@ -45,7 +45,7 @@ Tenez compte des points suivants :
 * Vous devez avoir accès à Workfront Planning et à GenStudio for Performance Marketing.
 * Vous devez disposer d’un projet d’espace de stockage Adobe pour effectuer la liaison à l’espace de travail. Un administrateur d’organisation peut en créer un dans le Adobe Admin Console.
 
-  Pour plus d’informations, voir [Gérer le stockage Adobe](https://helpx.adobe.com/fr/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
+  Pour plus d’informations, voir [Gérer le stockage Adobe](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html). <!--ensure this site still works-->
 
 
 ## Activer un espace de travail Workfront Planning vers GenStudio
@@ -76,7 +76,7 @@ Tenez compte des points suivants :
 
       Répétez la configuration des champs pour tous les types d’enregistrements.
 
-      ![Activation de Workspace GenStudio - Étape Champs &#x200B;](assets/make-workspace-genstudio-enabled-box-fields-step.png)
+      ![Activation de Workspace GenStudio - Étape Champs ](assets/make-workspace-genstudio-enabled-box-fields-step.png)
 
    1. Examinez et traitez tous les avertissements.
 

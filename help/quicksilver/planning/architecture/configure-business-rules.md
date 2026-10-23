@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 3%
@@ -101,7 +101,19 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Les règles ne bloquent pas la création d’enregistrements. Les utilisateurs peuvent toujours créer des enregistrements, mais ils doivent s’assurer que les champs obligatoires ne sont pas vides ou ne contiennent pas la valeur spécifiée.
 * Les règles ne modifient ou ne suppriment pas automatiquement les enregistrements. La modification doit être délibérée et déclenchée par un utilisateur.
 * Les règles ne sont pas appliquées rétroactivement : les anciens enregistrements ne sont pas affectés. La vérification des règles ne s’exécute que la prochaine fois qu’une personne tente de modifier ou de supprimer un enregistrement.
-* Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
+* <!--In the Production environment,--> Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * Vous pouvez créer une condition pour votre règle métier qui fait référence à tous les types de champ, à l’exception des suivants :
   * Champs de formule
   * Champs de recherche

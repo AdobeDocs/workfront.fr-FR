@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 1%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-Vous pouvez afficher les objets dans la vue Liste dans les zones suivantes de Workfront Planning :
+Vous pouvez afficher les objets dans la vue Liste dans Adobe Workfront Planning dans les zones suivantes :
 
 * Une page d&#39;enregistrements connectée pour les projets dans la zone des détails d&#39;un enregistrement
 
@@ -53,6 +53,8 @@ Vous pouvez afficher les objets dans la vue Liste dans les zones suivantes de Wo
   ![Formulaires de demande dans la vue Liste](assets/request-forms-in-list-view.png)
 
 Cet article décrit comment naviguer dans une vue de liste, la créer ou la modifier dans Workfront Planning.
+
+Pour plus d’informations sur les autres vues disponibles dans Workfront Planning, voir [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Conditions d’accès
 
