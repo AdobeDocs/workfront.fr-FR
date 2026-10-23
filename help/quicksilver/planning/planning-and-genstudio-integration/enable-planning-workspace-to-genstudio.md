@@ -76,7 +76,7 @@ Tenez compte des points suivants :
 
       Répétez la configuration des champs pour tous les types d’enregistrements.
 
-      ![Activation de Workspace GenStudio - Étape Champs ](assets/make-workspace-genstudio-enabled-box-fields-step.png)
+      ![Activation de Workspace GenStudio - Étape Champs &#x200B;](assets/make-workspace-genstudio-enabled-box-fields-step.png)
 
    1. Examinez et traitez tous les avertissements.
 

@@ -59,7 +59,7 @@ Vous pouvez créer un formulaire de demande et l&#39;associer à un type d&#39;e
 
 Cet article décrit comment un gestionnaire d’espace de travail peut créer un formulaire de demande associé à un type d’enregistrement.
 
-Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [ Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
+Pour plus d’informations sur la soumission d’une demande à un type d’enregistrement pour créer un enregistrement, voir [&#x200B; Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Conditions d’accès
 
@@ -138,7 +138,7 @@ Pour plus d’informations sur l’envoi de demandes Workfront Planning, voir [S
 
 * Vous ne pouvez pas ajouter de formulaires de demande aux types d’enregistrements globaux dans leur espace de travail secondaire.
 
-  Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Création d’un formulaire de demande
 
@@ -269,7 +269,7 @@ Par exemple, si un formulaire de demande comporte le champ « Type de campagne �
 
 Plusieurs étapes sont prises en charge dans le processus de validation. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante commence et les approbateurs de la nouvelle étape reçoivent une notification par e-mail.
 
-Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Les options d&#39;achèvement vous permettent de définir si une demande est marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet créé est terminé. Vous définissez le moment où l’objet est terminé en fonction d’une condition spécifiée.
 
@@ -286,7 +286,7 @@ Pour configurer les paramètres de formulaire :
 
    Vous pouvez créer des règles d’approbation en une ou plusieurs étapes et affecter des utilisateurs ou des équipes à une approbation.
 
-   Pour plus d’informations sur l’ajout d’approbations, voir [ Ajouter une approbation à un formulaire de demande ](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. Cliquez sur **Options de demande d’achèvement** dans le panneau de gauche.
 1. Sélectionnez l’une des options suivantes :
@@ -297,7 +297,7 @@ Pour configurer les paramètres de formulaire :
 1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
 
 1. Cliquez sur **Autorisations** dans le panneau de gauche pour configurer les autorisations dont disposeront les utilisateurs et utilisatrices sur les demandes envoyées à l’aide de ce formulaire par défaut. Les autorisations que vous accordez ici prennent effet immédiatement pour les demandes futures et n’affectent pas les demandes existantes.
-1. <!--<span class="preview">In the **Requestor access** section,</span>--> Sélectionnez le niveau d&#39;autorisation des demandes soumises à ce formulaire pour les utilisateurs qui soumettent des demandes à l&#39;aide de ce formulaire :
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Sélectionnez le niveau d&#39;autorisation des demandes soumises à ce formulaire pour les utilisateurs qui soumettent des demandes à l&#39;aide de ce formulaire :
 
    * **Afficher** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire et le partager.
    * **Contribuer** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire, le partager et le modifier.
@@ -350,7 +350,7 @@ Pour configurer les paramètres de formulaire :
 
    Exemple d’invite par défaut de remplissage de formulaire ![AI](assets/ai-form-fill-with-default-prompt-example.png)
 
-1. Passez à [ Publier le formulaire ](#publish-form).
+1. Passez à [&#x200B; Publier le formulaire &#x200B;](#publish-form).
 
 1. Cliquer sur **Enregistrer**.
 
@@ -449,7 +449,7 @@ Pour configurer les paramètres de formulaire :
    * Regroupement
    * Hauteur de ligne
 
-   Pour plus d’informations, voir [ Gérer la vue Liste ](/help/quicksilver/planning/views/manage-the-list-view.md).
+   Pour plus d’informations, voir [&#x200B; Gérer la vue Liste &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Facultatif) Pointez sur le nom d’un formulaire de demande dans la vue Liste, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du formulaire, puis cliquez sur l’une des options suivantes :
 

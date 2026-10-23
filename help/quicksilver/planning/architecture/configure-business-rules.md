@@ -101,7 +101,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Les règles ne bloquent pas la création d’enregistrements. Les utilisateurs peuvent toujours créer des enregistrements, mais ils doivent s’assurer que les champs obligatoires ne sont pas vides ou ne contiennent pas la valeur spécifiée.
 * Les règles ne modifient ou ne suppriment pas automatiquement les enregistrements. La modification doit être délibérée et déclenchée par un utilisateur.
 * Les règles ne sont pas appliquées rétroactivement : les anciens enregistrements ne sont pas affectés. La vérification des règles ne s’exécute que la prochaine fois qu’une personne tente de modifier ou de supprimer un enregistrement.
-* <!--In the Production environment,--> Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
+* &#x200B;<!--In the Production environment,--> Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
 
 <!--
 <div class="preview">
