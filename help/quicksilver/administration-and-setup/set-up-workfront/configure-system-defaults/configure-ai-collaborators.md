@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
@@ -37,6 +37,8 @@ Les types de collaborateurs IA disponibles sont les suivants :
 * Agent de travail : créez un collaborateur à l’aide d’une plateforme d’IA standard telle que Claude, OpenAI ou Copilote, puis affectez le collaborateur à une tâche ou à un événement pour terminer des éléments de travail.
 
   Pour plus d’informations, voir [Utilisation des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Les licences utilisées par les collaborateurs d’IA ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un collaborateur IA, 201 licences sont alors utilisées, mais seules 200 sont facturées.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -102,7 +104,7 @@ Vous devez configurer un agent dans Claude, Copilot Studio, OpenAI ou IBM avant 
 Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
-* **&#x200B;**&#x200B;: lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
+* **** : lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
 
 
 {{step-1-to-setup}}
@@ -214,7 +216,7 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez la section [ Migration et obsolescence de la bibliothèque d’agents ](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 
 <!--
