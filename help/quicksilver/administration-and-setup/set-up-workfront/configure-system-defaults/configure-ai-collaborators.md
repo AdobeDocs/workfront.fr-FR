@@ -17,7 +17,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1a1e8fab8f8ef5c0c9dae032ed0eb5b24c3f364d
+source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 3%
@@ -102,7 +102,7 @@ Vous devez configurer un agent dans Claude, Copilot Studio, OpenAI ou IBM avant 
 Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
-* **&#x200B;**&#x200B;: lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
+* **** : lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
 
 
 {{step-1-to-setup}}
@@ -123,16 +123,14 @@ Les agents de travail étant des agents, leurs actions et capacités sont config
 
 Les agents de travail peuvent être affectés à des tâches ou à des événements.
 
+Les licences utilisées par les agents de travail ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un agent de travail, 201 licences sont alors utilisées, mais seules 200 sont facturées.
+
 Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’un agent pour travailler en tant qu’agent de travail, voir [Bonnes pratiques pour créer un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configuration d’un agent de travail dans Workfront](#configure-a-work-agent-in-workfront)
 * [Bonnes pratiques relatives à la création d’un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent)
 
 ### Configuration d’un agent de travail dans Workfront
-
->[!NOTE]
->
->Les licences utilisées par les agents de travail ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un agent de travail, 201 licences sont alors utilisées, mais seules 200 sont facturées.
 
 {{step-1-to-setup}}
 
@@ -206,7 +204,6 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 +++ Copilot Studio
 
 
-
 +++
 -->
 +++ Rédacteur
@@ -217,7 +214,7 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez la section [ Migration et obsolescence de la bibliothèque d’agents ](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 
 <!--
