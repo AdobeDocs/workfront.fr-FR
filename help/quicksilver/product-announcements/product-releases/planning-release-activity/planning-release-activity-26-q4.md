@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3512'
+source-wordcount: '3413'
 ht-degree: 2%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
@@ -43,19 +43,23 @@ Vous pouvez utiliser la fonctionnalité existante pour joindre des fichiers dans
 
 Pour plus d’informations, voir [Utilisation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
-## Activer les espaces de travail Planning dans GenStudio for Performance Marketing
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->Prévisualisation et production : 21 octobre 2026
->[!BADGE Hors programme]{type=Neutral}
->Disponible uniquement pour les clients qui disposent d’une licence Adobe GenStudio for Performance Marketing
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-Vous pouvez désormais activer un espace de travail Workfront Planning existant à utiliser dans un plan GenStudio for Performance Marketing, afin de pouvoir réutiliser vos campagnes, produits, rôles et autres enregistrements sans les recréer.
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-À l’aide des projets de stockage GenStudio Adobe, vous pouvez mapper vos types d’enregistrements et champs Planning aux types d’enregistrements et champs de l’espace de travail GenStudio, puis accéder aux informations de l’espace de travail Planning dans GenStudio à partir du sélecteur de projets.
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-Pour plus d’informations, voir [Activer un espace de travail Adobe Workfront Planning vers GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## types d’activation de contenu créatif dynamique Meta
 
@@ -424,7 +428,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d’informations, voir [ Gérer la vue Calendrier ](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
