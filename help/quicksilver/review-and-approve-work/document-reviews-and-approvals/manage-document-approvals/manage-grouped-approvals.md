@@ -5,15 +5,13 @@ title: Gérer les validations groupées
 description: Vous pouvez ajouter ou supprimer des participants et des documents dans une approbation groupée sans interrompre le processus pour le reste du groupe.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 5%
 ---
 
 # Gérer les validations groupées
-
-<span class="preview">Les informations de cette page ne sont pas disponibles dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible. Cette fonctionnalité sera disponible dans les environnements de production le 22 octobre 2026.</span>
 
 Une approbation groupée regroupe plusieurs documents sous un seul workflow d’approbation, de sorte que tous les documents passent par les mêmes étapes au lieu d’exiger une approbation distincte par document. Vous pouvez ajouter ou supprimer des participants et des documents dans une approbation groupée active sans recréer le workflow.
 

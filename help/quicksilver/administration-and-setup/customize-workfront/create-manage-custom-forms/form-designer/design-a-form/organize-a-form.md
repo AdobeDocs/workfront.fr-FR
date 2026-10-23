@@ -32,14 +32,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 83%
+source-wordcount: '1345'
+ht-degree: 85%
 ---
 # Organisation et prévisualisation d’un formulaire
-
-{{preview-fast-release-general}}
 
 Vous pouvez organiser un formulaire personnalisé avec le concepteur de formulaires et le prévisualiser pour vérifier qu’il est correctement configuré.
 
@@ -197,11 +195,4 @@ Dans un formulaire personnalisé avec un saut de section configuré et l’autor
 1. Commencez à créer ou modifier un formulaire personnalisé et à ajouter des champs, comme décrit dans la section [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Cliquez sur **Prévisualiser** dans le coin supérieur droit pour avoir un aperçu du formulaire lors de son utilisation, puis cliquez sur **Fermer la prévisualisation** pour revenir à la modification du formulaire.
-
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 

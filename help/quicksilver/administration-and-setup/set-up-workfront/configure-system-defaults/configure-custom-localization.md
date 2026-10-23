@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 18%
 ---
 # Configurer la localisation personnalisée
 
-{{highlighted-preview}}
-
-La localisation personnalisée vous permet d’utiliser <span class="preview"> l’IA</span> pour définir des termes et des expressions personnalisés dans différentes langues. Workfront affiche ensuite ces termes dans la langue définie dans les paramètres Adobe Identity Management (IMS) de l’utilisateur.
+La localisation personnalisée vous permet d’utiliser l’IA pour définir des termes et des expressions personnalisés dans différentes langues. Workfront affiche ensuite ces termes dans la langue définie dans les paramètres Adobe Identity Management (IMS) de l’utilisateur.
 
 Par exemple, le libellé « Public cible » peut être localisé sur le mot allemand « Zielgruppe ». Tout utilisateur dont la langue principale du navigateur est l’allemand voit le mot « Zielgruppe » comme libellé pour tout champ intitulé « Public cible » en anglais.
 
@@ -92,8 +90,6 @@ Les traductions sont configurées dans la zone Configuration.
 1. (Facultatif) Pour réorganiser les colonnes de langue, cliquez sur l’en-tête d’une colonne à déplacer et faites-la glisser à l’emplacement souhaité.
 1. (Facultatif) Pour supprimer des traductions d’un terme, cochez la case en regard du terme, puis cliquez sur **Supprimer** dans la barre bleue en bas de la page.
 
-<div class="preview">
-
 ## Localiser du texte personnalisé non traduit à l’aide de traductions IA
 
 Vous pouvez utiliser l’IA pour localiser du texte personnalisé. Vous sélectionnez le terme et les langues, et pouvez approuver les traductions avant leur application.
@@ -149,5 +145,3 @@ Vous pouvez traduire un terme précédemment localisé dans de nouvelles langues
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Pour supprimer toutes les traductions d’un terme, cochez la case en regard du terme, puis cliquez sur **Supprimer** dans la barre bleue en bas de la page.
 
-
-</div>

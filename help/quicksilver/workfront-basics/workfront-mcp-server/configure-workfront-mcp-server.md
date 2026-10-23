@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2357'
 ht-degree: 1%
 ---
 
@@ -38,6 +38,16 @@ Si vous utilisez une autre plateforme d’IA agentic compatible avec les MCP (pa
 https://mcp.workfront.adobe.com/mcp/v1/workfront
 ```
 
+>[!NOTE]
+>
+>Pour réduire la taille du catalogue MCP pour les clients qui chargent tous les outils au préalable, vous pouvez ajouter le paramètre de requête `toolsets` à l’URL du serveur MCP Workfront. Par exemple :
+>
+>```
+>https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
+>```
+>
+>Pour plus d’informations sur les jeux d’outils, consultez la section [jeux d’outils dans le serveur MCP Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server) dans l’article Outils du serveur MCP Adobe Workfront.
+
 ## Conditions préalables
 
 Avant de pouvoir connecter Workfront à une plateforme agentique d’IA, vous devez :
@@ -58,7 +68,7 @@ L’accès au serveur MCP est contrôlé par deux administrateurs distincts.
 
 * Si vous utilisez une version d’entreprise d’une plateforme AI agentic, l’administrateur de cette plateforme doit activer le connecteur [!DNL Adobe Workfront] pour votre organisation ou vous donner un accès URL personnalisé pour vous connecter au serveur MCP Workfront.
 
-* <span class="preview">Si vous connectez une application personnalisée ou une plateforme agentic à l’aide d’une URL de rappel OAuth unique par client, votre administrateur Workfront doit ajouter cette URL à la liste **URL de redirection autorisées** dans **Préférences système > Préférences MCP**. Sans cela, l’authentification est refusée. Pour plus d’informations, voir [Connexion à OAuth](#connect-with-oauth) dans cet article.</span>
+* Si vous connectez une application personnalisée ou une plateforme d’agence à l’aide d’une URL de rappel OAuth unique par client, votre administrateur Workfront doit ajouter cette URL à la liste **URL de redirection autorisées** dans **Préférences système > Préférences MCP**. Sans cela, l’authentification est refusée. Pour plus d’informations, voir [Connexion à OAuth](#connect-with-oauth) dans cet article.
 
 
 ## Connecter Workfront à Claude
@@ -244,8 +254,6 @@ Il existe deux façons de se connecter :
 
 ### Se connecter avec OAuth
 
-<div class="preview">
-
 Si la plateforme d’agence IA ou l’application personnalisée à laquelle vous vous connectez dispose d’une URL de rappel OAuth (de redirection) unique par client, telle qu’une URL contenant un identifiant de connexion ou de client, votre administrateur Workfront doit ajouter cette URL à la liste des URL de redirection autorisées de votre organisation avant de pouvoir vous authentifier.
 
 >[!NOTE]
@@ -270,7 +278,6 @@ Lors de la connexion, il vous sera demandé de vous authentifier à l’aide de 
 
 Si votre URL de rappel ne figure pas dans la liste, la demande d’authentification est rejetée. Demandez à votre administrateur Workfront de confirmer que l’URL est saisie exactement comme votre intégration le fournit.
 
-</div>
 
 ## Vérifier votre connexion
 

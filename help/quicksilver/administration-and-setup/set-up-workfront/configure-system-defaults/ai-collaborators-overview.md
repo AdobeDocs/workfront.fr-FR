@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-upperic: configure-locations
-title: Collaborateurs ou collaboratrices IA
+title: Collaborateurs IA
 description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer des collaborateurs IA et les affecter à des projets et à des tâches.
 author: Becky
 feature: System Setup and Administration
@@ -16,14 +16,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%
 ---
-# Collaborateurs ou collaboratrices IA
-
-{{preview-fast-release-general}}
+# Collaborateurs IA
 
 Les collaborateurs de l’IA sont des agents d’IA que vous pouvez affecter à des tâches de la même manière que vous affectez une personne. Vous pouvez intégrer des collaborateurs d’IA à vos workflows existants, ce qui permet à votre équipe de se concentrer sur ce qui compte le plus.
 

@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: f97a3cd0ce05aa14b71eb252ddbb8c2cde94146a
+source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 7%
 ---
 # Utilisation de CX Enterprise Coworker dans Workfront
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -76,7 +74,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    Pour obtenir des exemples d’invites, consultez les invites de l’article [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 1. Utilisez l’une des actions de la zone de saisie de conversation :
 
-   * **+ (Joindre)** : ouvrez le menu Joindre pour ajouter un fichier ou un objet de données au message.
+   * **+ (Joindre)** : ouvrez le menu Joindre pour les fonctionnalités suivantes :
+     * Commands
+     * Joindre un fichier
+     * Référencer un objet
    * **Mode Plan** : demandez à la discussion avec vos collègues de proposer un plan détaillé et de suspendre l’approbation avant qu’il n’agisse. Désactivez-le pour permettre à Coworker Chat d&#39;agir directement.
    * **Vue Transcription** : contrôlez l’ampleur de l’activité interne du Chat des collègues affichée : normale, mise au point ou détaillée.
    * **Microphone** : dictez votre message à l’aide de la voix. Sélectionnez à nouveau pour arrêter l’enregistrement.

@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 039e2feb5b235023f23405bc17f098cf0872e294
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 27%
+source-wordcount: '3574'
+ht-degree: 28%
 ---
 # Ajout de règles logiques aux formulaires et champs personnalisés
-
-{{preview-fast-release-general}}
 
 Les règles logiques vous permettent de personnaliser davantage les champs de votre formulaire.
 
@@ -209,12 +207,6 @@ Si vous utilisez la condition suivante, le champ KPI Vendu n’est visible qu’
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
 
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique d’affichage avancée n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 ## Ajouter une logique de saut à un formulaire personnalisé
 
 La logique de saut définit des champs de formulaire personnalisés qui sont ignorés lorsque l’utilisateur ou l’utilisatrice sélectionne une valeur spécifique dans un champ à choix multiple. Les champs ignorés sont masqués dans le formulaire. La logique est appliquée au champ de définition dans lequel s’effectue la sélection, et non aux champs qui sont ignorés.
@@ -289,12 +281,6 @@ Lorsque le formulaire personnalisé est joint à un projet et que le statut du p
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
 
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique de valeur par défaut n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 ## Ajouter une logique de validation à un formulaire personnalisé
 
 La logique de validation est créée à l’aide de formules et vous pouvez la rendre aussi simple ou complexe que nécessaire. La validation peut être basée sur les valeurs d’autres champs ou l’état d’objets, et vous pouvez fournir un message d’erreur pour lorsque la validation échoue.
@@ -339,12 +325,6 @@ Pour obtenir d’autres exemples de logique de validation, voir [Exemples de log
 1. Cliquez sur **Appliquer**.
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
-
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique de validation n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 
 ## Ajouter une logique de mise en forme à un formulaire personnalisé
 
@@ -405,12 +385,6 @@ IF(
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
 
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique de formatage n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
-
 ## Ajouter une logique d’édition à un formulaire personnalisé
 
 La logique de modifiabilité détermine si un champ de formulaire personnalisé peut être modifié ou s’il est en lecture seule. Cette logique est générée à l’aide de formules. Lorsque le champ remplit les conditions définies, il peut être défini comme modifiable ou en lecture seule.
@@ -456,10 +430,4 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 1. Cliquez sur **Appliquer**.
 
    La logique est appliquée et les icônes de logique sont ajoutées au champ cible et au champ de référence dans le concepteur de formulaire.
-
-   >[!NOTE]
-   >
-   >Dans l’environnement de production, la logique d’édition n’est pas prise en charge dans le mode d’aperçu du créateur de formulaire.
-   >
-   ><span class="preview">Dans l’environnement de prévisualisation, tous les types logiques sont disponibles en mode Prévisualisation.</span>
 

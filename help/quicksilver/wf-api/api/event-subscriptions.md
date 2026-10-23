@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 61%
+source-wordcount: '74'
+ht-degree: 68%
 ---
 # Abonnements aux événements
 
@@ -28,10 +28,10 @@ Vous trouverez ci-dessous différentes ressources sur les abonnements aux évén
 
 >[!NOTE]
 >
->Pour utiliser les abonnements aux événements dans l’application Workfront, consultez [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md) et [Gestion des abonnements aux événements en tant qu’utilisateur non administrateur](/help/quicksilver/wf-api/general/event-subs-non-admin.md).
+>Pour utiliser les abonnements aux événements dans l’application Workfront, consultez [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
 
 * [API des abonnements aux événements](../../wf-api/general/event-subs-api.md)
-* [Gérer les abonnements aux événements en tant qu’utilisateur non administrateur](../../wf-api/general/event-subs-non-admin.md)
+* [Gérer les abonnements aux événements en tant qu’utilisateur non administrateur](/help/quicksilver/wf-api/general/event-subs-non-admin.md)
 * [Bonnes pratiques des abonnements aux événements](../../wf-api/general/event-sub-best-practice.md)
 * [Exigences de diffusion des abonnements aux événements](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Champs de ressources des abonnements aux événements](../../wf-api/api/event-sub-resource-fields.md)

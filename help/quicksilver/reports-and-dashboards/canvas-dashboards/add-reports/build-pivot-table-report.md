@@ -5,24 +5,18 @@ title: Créer un rapport de tableau croisé dynamique dans un tableau de bord Zo
 description: Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données sous la forme d'un tableau.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 9%
+source-wordcount: '1481'
+ht-degree: 8%
 ---
 # Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.<br>
->Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
->
->* Apporter votre propre clé pour Amazon Web Services
->* Azure
->* Google Cloud Platform
+>Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, voir [Contacter le service clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+
 
 Vous pouvez ajouter un rapport de tableau croisé dynamique à un tableau de bord Zone de travail pour afficher les totaux agrégés de vos données, tels que les sommes, les nombres et les moyennes, sous la forme d&#39;un tableau. Les tableaux croisés dynamiques sont utiles lors de la comparaison de plusieurs valeurs agrégées ou de décomptes par rapport à plusieurs dimensions.
 

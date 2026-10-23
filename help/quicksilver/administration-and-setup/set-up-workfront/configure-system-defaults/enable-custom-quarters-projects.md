@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 31%
+source-wordcount: '615'
+ht-degree: 26%
 ---
 # Activer les trimestres et semaines personnalisés
 
@@ -38,10 +38,12 @@ ht-degree: 31%
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après les versions mensuelles en production, les mêmes fonctionnalités sont également disponibles dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 À des fins de création de rapports, vous pouvez créer des trimestres personnalisés si les trimestres de votre organisation sont basés sur des critères spécifiques autres que les dates du calendrier (tels que les jours ouvrables ou les jours d’achats).
 
@@ -50,11 +52,7 @@ Selon les produits achetés par votre société, vous pouvez configurer le nombr
 * Les clients qui ont acheté [!DNL Workfront] uniquement peuvent configurer jusqu’à huit trimestres personnalisés pour leur système [!DNL Adobe Workfront].
 * Les clients qui ont acheté [!DNL Workfront] et [!DNL Workfront Planning] peuvent configurer jusqu’à 100 trimestres pour leur système [!DNL Workfront], également disponible dans [!DNL Planning].
 
-<div class="preview">
-
 * Les clients qui ont acheté des [!DNL Workfront] et des [!DNL Workfront Planning] peuvent configurer des semaines personnalisées pour chaque trimestre personnalisé. Les semaines personnalisées sont visibles dans les vues chronologiques [!DNL Planning].
-
-</div>
 
 ## Conditions d’accès
 
@@ -134,46 +132,49 @@ When we release fiscal weeks, replace the table above with this:
 
 ## Configurer des trimestres personnalisés pour votre système [!DNL Workfront]
 
-La configuration des trimestres personnalisés diffère selon l’environnement utilisé.
+<!--
+Setting up custom quarters differs depending on which environment you use. 
 
-### Configuration de trimestres personnalisés pour votre système [!DNL Workfront] dans l’environnement de production
+### Set up custom quarters for your [!DNL Workfront] system in the Production environment
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **[!UICONTROL Trimestres personnalisés]**.
+1. Click **[!UICONTROL Custom Quarters]**.
 
-1. Sélectionnez **[!UICONTROL Activer les trimestres personnalisés]**.
+1. Select **[!UICONTROL Enable Custom Quarters]**.
 
-1. Saisissez un nom pour le trimestre personnalisé, par exemple « T1 exercice 2021 ».
-1. Sélectionnez les dates de début et de fin du trimestre personnalisé.
+1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
+1. Select start and end dates for the custom quarter.
 
-   ![Trimestres personnalisés](assets/custom-quarters-nwe.png)
+   ![Custom quarters](assets/custom-quarters-nwe.png)
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter un trimestre personnalisé]** pour ajouter d’autres trimestres personnalisés au système.
+1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
 
-   >[!IMPORTANT]
-   >
-   > Si votre société a acheté des [!DNL Workfront Planning], vous ne pouvez pas enregistrer vos trimestres personnalisés en cas d’écart ou de chevauchement entre les trimestres.
-   >![Trimestres personnalisés avec avertissement de chevauchement](assets/custom-quarters-with-overlap-warning.png)
-   >Les écarts et les chevauchements entre les trimestres ne sont autorisés que pour les clients [!DNL Workfront].
+      >[!IMPORTANT]
+      >
+      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
+      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning.png)
+      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
 
-1. (Facultatif et conditionnel) Si votre société a acheté uniquement des [!DNL Workfront], sans [!DNL Workfront Planning], créez un élément de reporting qui fait référence aux trimestres fiscaux.
+1. (Optional and conditional) If your company purchased only [!DNL Workfront], without [!DNL Workfront Planning], create a reporting element that refers to the fiscal quarters.
 
-   **Exemple :** créez un filtre pour une liste de [!UICONTROL projets] et incluez la date d’achèvement prévue d’un projet faisant référence aux trimestres personnalisés.
+   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
 
-   ![Filtre de projet avec trimestres personnalisés](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
 
-   Les références à « Ce trimestre », « Trimestre prochain » et « Trimestre dernier » sont remplacées par de nouvelles références aux trimestres personnalisés.
+   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
 
-   Pour plus d’informations sur les éléments de création de rapports, voir [Éléments de création de rapports : filtres, vues et regroupements](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   Pour plus d’informations sur la création de filtres, voir [Créer ou modifier des filtres dans  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Facultatif et conditionnel) Si votre société a acheté Workfront Planning et que vous avez accès à [!DNL Workfront Planning], accédez à une page de type d’enregistrement et affichez une vue chronologique. La vue affiche les nouveaux trimestres personnalisés.
-Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Optional and conditional) If your company purchased Workfront Planning and you have access to [!DNL Workfront Planning], go to a record type page and open a timeline view. The view displays the new custom quarters. 
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 <div class="preview">
 
-### Configurer des trimestres personnalisés pour votre système [!DNL Workfront] dans l’environnement de prévisualisation
+### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+
+-->
 
 >[!NOTE]
 >
@@ -233,6 +234,6 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
    Pour plus d’informations sur la création de filtres, voir [Créer ou modifier des filtres dans  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 1. (Facultatif et conditionnel) Pour afficher les trimestres et les semaines personnalisés dans Workfront Planning, accédez à une page de type d’enregistrement et ouvrez une vue chronologique. La vue affiche les nouveaux trimestres et semaines personnalisés.
 
-Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-</div>
+

@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 26%
+source-wordcount: '318'
+ht-degree: 33%
 ---
 # Configurer les emplacements
-
-{{preview-fast-release-general}}
 
 Vous pouvez configurer les emplacements par défaut disponibles pour les affecter en tant qu’attributs aux fonctions dans des cartes tarifaires. Cela vous permet de vous assurer que les cartes tarifaires reflètent fidèlement les tarifs du marché dans chaque emplacement.
 
@@ -62,13 +60,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Emplacements**].
-1. Dans l’environnement de production, cliquez sur [!UICONTROL **Ajouter d’autres emplacements**] au bas de la liste.
-   <span class="preview">Dans l’environnement Aperçu, cliquez sur [!UICONTROL **Nouvelle ligne**] au bas de la liste.</span>
-
+1. Cliquez sur [!UICONTROL **Nouvelle ligne**] au bas de la liste.
 1. Saisissez le nom et la description de l’emplacement.
 1. Cliquez en dehors de la ligne pour enregistrer l’emplacement.
-1. Pour supprimer un emplacement dans l’environnement de production, sélectionnez-le dans la liste et cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png).
-   <span class="preview">Pour supprimer un emplacement dans l&#39;environnement Aperçu, sélectionnez-le dans la liste et cliquez sur [!UICONTROL **Supprimer**] dans la barre d&#39;actions située en bas de l&#39;écran.</span>
+1. Pour supprimer un emplacement, sélectionnez-le dans la liste et cliquez sur [!UICONTROL **Supprimer**] dans la barre d’actions située en bas de l’écran.
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ Chaque sous-emplacement peut être ajouté en tant qu’attribut sur une carte t
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur [!UICONTROL **Emplacements**].
-1. Dans l’environnement de production , sélectionnez un emplacement existant dans la liste, puis cliquez sur [!UICONTROL **Ajouter un sous-emplacement**].
-   <span class="preview">Dans l’environnement Aperçu , sélectionnez un emplacement existant dans la liste, puis cliquez sur [!UICONTROL **Ajouter un sous-emplacement**] dans la barre d’actions située en bas de l’écran.</span>
-
+1. Sélectionnez un emplacement existant dans la liste et cliquez sur [!UICONTROL **Ajouter un sous-emplacement**] dans la barre d’actions située en bas de l’écran.
 1. Saisissez le nom et la description de l’emplacement.
 1. Cliquez en dehors de la zone de saisie pour enregistrer l’emplacement.
 
    Le sous-emplacement est mis en retrait sous l’emplacement de niveau supérieur.
 
-   Exemple d’image dans l’environnement de production :
-   ![&#x200B; Emplacements et sous-emplacements &#x200B;](assets/locations-sublocations.png)
-
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![&#x200B; Emplacements et sous-emplacements &#x200B;](assets/locations-sublocations-082526.png)
 
 

@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '3379'
 ht-degree: 89%
@@ -370,7 +370,7 @@ Vous pouvez modifier les éléments suivants de cette sous-section :
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Indiquez ici votre langue préférée. Cela contrôle le format de la langue, de la date et des chiffres utilisé dans les e-mails sortants.</p>
-   <p><strong>REMARQUE :</strong> lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations, consultez <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modification de la langue d’Adobe Experience Cloud</a> dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
+   <p><strong>REMARQUE :</strong> lorsque votre organisation se trouve sur l’expérience unifiée Adobe, les préférences linguistiques sont stockées dans votre profil Adobe et les paramètres régionaux de l’e-mail ne sont pas utilisés. Pour plus d’informations, consultez la section <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">Modification de la langue Adobe CX Enterprise</a> dans l’article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Langues prises en charge dans Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Définit automatiquement le statut de la tâche sur En cours lorsque les tâches sont auto-affectées]</strong> </td>
   <td>Sélectionnez cette option si vous souhaitez que le statut du travail que vous vous affectez soit automatiquement défini sur En cours au lieu de Nouveau.</td>

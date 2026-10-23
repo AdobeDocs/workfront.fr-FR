@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 21%
+source-wordcount: '500'
+ht-degree: 20%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
@@ -67,6 +67,7 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Taille du fichier CSV Excel que vous pouvez importer pour créer des types d’enregistrements | 5 Mo |
 | Nombre de lignes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrements | 25 000 |
 | Nombre de colonnes que vous pouvez importer dans un fichier CSV ou Excel pour créer des types d’enregistrements | 500 |
+| Nombre de lignes que vous pouvez importer dans un fichier CSV ou Excel à l’aide de CX Enterprise Coworker pour créer des enregistrements | plus de 10 000 |
 | Nombre de champs de formule pour un type d&#39;enregistrement | 20 |
 | Nombre de champs de connexion pour un type d’enregistrement | 30 |
 | Nombre de caractères dans une expression de champ de formule | 50 000 |

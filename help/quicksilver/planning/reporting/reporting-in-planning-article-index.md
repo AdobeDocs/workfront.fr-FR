@@ -19,12 +19,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%
 ---
 # Rapports Adobe Workfront Planning : index des articles
+
+{{planning-important-intro}}
 
 Vous pouvez créer des rapports à partir d’Adobe Workfront Planning à l’aide du tableau de bord Zone de travail Workfront ou de Workfront Data Connect qui utilise la technologie Snowflake.
 

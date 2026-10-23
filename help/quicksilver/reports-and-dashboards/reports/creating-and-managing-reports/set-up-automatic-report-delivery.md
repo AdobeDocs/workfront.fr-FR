@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1355'
 ht-degree: 59%
 ---
 # Planifier la remise automatique d’un rapport
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -152,7 +150,7 @@ Pour planifier la diffusion automatique d&#39;un rapport, procédez comme suit &
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se répète</p> </td> 
-      <td> <p>Indiquez la fréquence de remise du rapport : quotidienne, hebdomadaire, mensuelle ou annuelle. <span class="preview">Dans la Prévisualisation, indiquez si le rapport doit être diffusé tous les jours, toutes les semaines ou tous les mois.</span></p> </td> 
+      <td> <p>Indiquez si le rapport doit être diffusé tous les jours, toutes les semaines ou tous les mois.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se répète tous les</p> </td> 
@@ -176,15 +174,11 @@ Pour planifier la diffusion automatique d&#39;un rapport, procédez comme suit &
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Se termine le</p> </td> 
-      <td><p>Sélectionnez la date de fin de la remise planifiée.</p> <p class="preview">Dans la Prévisualisation, sélectionnez une date de fin de la diffusion planifiée.</p> <p class="preview">Note : La date de fin ne peut pas être supérieure à 13 mois à compter du jour où vous créez ou mettez à jour la règle de diffusion.</p></td> 
+      <td><p>Sélectionnez la date de fin de la remise planifiée.</p> <p>Note : La date de fin ne peut pas être supérieure à 13 mois à compter du jour où vous créez ou mettez à jour la règle de diffusion.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Jamais</p> </td> 
-      <td><p>Sélectionnez <strong>Jamais</strong> si vous souhaitez que la remise planifiée dure indéfiniment.</p> <p class="preview">Cette option n’est plus disponible dans les environnements de prévisualisation ou de version rapide.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><div class="preview"><p>Actif</p></div></td> 
-      <td><div class="preview"><p>Activez ce bouton pour que cette diffusion reste active. Les nouvelles diffusions sont Actives par défaut.</p> <p>Lorsque la date de <strong>Fin le</strong> est passée, Workfront désactive automatiquement ce bouton (bascule) et le désactive. Pour reprendre la diffusion, mettez à jour la date <strong>Se termine le</strong> sur une date ultérieure, puis réactivez le bouton (bascule).</p></div></td> 
+      <td role="rowheader"><p>Actif</p></td> 
+      <td><p>Activez ce bouton pour que cette diffusion reste active. Les nouvelles diffusions sont Actives par défaut.</p> <p>Lorsque la date de <strong>Fin le</strong> est passée, Workfront désactive automatiquement ce bouton (bascule) et le désactive. Pour reprendre la diffusion, mettez à jour la date <strong>Se termine le</strong> sur une date ultérieure, puis réactivez le bouton (bascule).</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 5%
 ---
 # Créer et gérer ’un formulaire de demande dans Adobe Workfront Planning
@@ -160,7 +160,7 @@ Pour créer un formulaire de demande, vous devez effectuer les opérations suiva
 
    La page du type d’enregistrement s’ouvre dans la dernière vue à laquelle vous avez accédé. Par défaut, une page de type d’enregistrement s’ouvre dans la vue Liste.
 
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** si vous créez le formulaire pour la première fois. Cliquez sur **Gérer les formulaires de demande** ou <span class="preview">**Formulaires de demande**.</span>, si vous disposez déjà d’un formulaire et que vous souhaitez en créer d’autres.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Créer un formulaire de demande** si vous créez le formulaire pour la première fois. Cliquez sur **Formulaires de demande**.
 
    La page **Formulaires de demande** s’ouvre et les demandes s’affichent dans la vue Liste.
 
@@ -212,49 +212,35 @@ Pour créer un formulaire de demande, vous devez effectuer les opérations suiva
    * **Libellé** : il s&#39;agit du nom du champ tel qu&#39;il apparaîtra sur le formulaire de demande. Le nom du champ d’enregistrement n’est pas modifié.
    * **Instructions** : ajoutez plus d’informations sur le champ .
 
-   <div class="preview">
-
    * **Choix** : cette option n’est disponible que pour certains champs. Utilisez l’une des méthodes suivantes :
 
      * Cliquez sur **Trier les choix A à Z** pour les classer automatiquement.
      * Effectuez un glisser-déposer des choix ou ordonnez-les manuellement.
      * Cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/settings-icon.png), puis **Sélectionner par défaut** pour indiquer quel choix est l’option par défaut ou **Masquer le choix** pour le masquer.
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">Vous ne pouvez pas renommer ni supprimer des choix dans un formulaire de demande Planning. Vous devez modifier les choix de champs dans la vue Tableau du type d’enregistrement.</span>
-
+   >Vous ne pouvez pas renommer ni supprimer des choix dans un formulaire de demande Planning. Vous devez modifier les choix de champs dans la vue Tableau du type d’enregistrement.
 
 1. Dans la zone **Paramètres avancés**, sélectionnez l’une des options répertoriées ci-dessous. Toutes les options ne sont pas disponibles pour tous les types de champ.
 
    * **Rendre un champ obligatoire** : lorsqu’il est sélectionné, le champ doit avoir une valeur. Dans le cas contraire, le formulaire ne peut pas être envoyé.
-   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué. L’option Ajouter une logique est disponible uniquement lorsque les champs sont des champs à sélection unique et multiple, ou sont précédés de tels champs. <span class="preview">Les règles de validation et de valeur par défaut ne sont pas disponibles pour tous les types de champ.</span>
+   * **Ajouter une logique** : définissez les conditions qui doivent être remplies pour que le champ s’affiche ou soit masqué. L’option Ajouter une logique est disponible uniquement lorsque les champs sont des champs à sélection unique et multiple, ou sont précédés de tels champs. Les règles de validation et de valeur par défaut ne sont pas disponibles pour tous les types de champ.
 
-     Dans l’environnement de production, sélectionnez l’une des options suivantes :
+   Sélectionnez l’une des options suivantes :
 
-     * **Logique d’affichage** : le champ que vous avez sélectionné doit être précédé d’un champ à sélection multiple ou à sélection unique.
-     * **Ignorer la logique** : ajoutez des règles d’omission pour le moment où les utilisateurs doivent ignorer le champ et le laisser vide.
+   * **Affichage**
+   * **Passer**
+   * **Valeur par défaut**
+   * **Validation**
+   * **Formatage**
+   * **Modifiabilité**
 
-     <div class="preview">
+   Pour plus d’informations, voir [Ajouter des règles de logique aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
-     Dans l’environnement de Prévisualisation, sélectionnez l’une des options suivantes :
-
-     * **Affichage**
-     * **Passer**
-     * **Valeur par défaut**
-     * **Validation**
-     * **Formatage**
-     * **Modifiabilité**
-
-     </div>
-
-     Pour plus d’informations, voir [Ajouter des règles de logique aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-
-     >[!TIP]
-     >
-     ><span class="preview">Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.</span>
+   >[!TIP]
+   >
+   >Le type de champ de chaque champ s’affiche dans la partie supérieure du panneau de droite, une fois que vous avez sélectionné le champ dans le formulaire.
 
 1. (Facultatif) Cliquez de manière prolongée sur un champ, faites-le glisser et déposez-le à un autre emplacement du formulaire.
 1. (Facultatif) Cliquez sur l’onglet **Éléments de contenu** sur le côté gauche du formulaire, puis ajoutez l’un des éléments suivants :
@@ -269,24 +255,25 @@ Pour créer un formulaire de demande, vous devez effectuer les opérations suiva
 1. (Facultatif) Cliquez sur **Aperçu** pour voir comment le formulaire s’affichera pour les autres utilisateurs lorsqu’ils l’utiliseront pour soumettre une demande.
 1. Passez à l’un des éléments suivants :
 
-   * [Configurer les paramètres de formulaire](#configure-form-settings) si vous souhaitez configurer plus de détails pour le formulaire dans l’environnement d’Exploitation
-   * [Publier le formulaire](#publish-form) si vous ne souhaitez pas configurer d’autres paramètres.
+   * [Configurer les paramètres du formulaire](#configure-form-settings) si vous souhaitez configurer plus de détails pour le formulaire
+   * [Publier le formulaire](#publish-form) pour publier le formulaire afin que les utilisateurs puissent lui envoyer des requêtes
+   * [Partager un formulaire de demande](#share-a-request-form) pour partager le formulaire avec d’autres personnes ou publiquement
 
 ### Configurer les paramètres de formulaire
 
-Dans l’onglet Paramètres , vous pouvez définir des règles d’approbation, configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée et <span class="preview">attribuer des autorisations par défaut aux utilisateurs interagissant avec de futures demandes envoyées à l’aide du formulaire.</span>
+Dans l’onglet Paramètres , vous pouvez définir des règles d’approbation, configurer le moment où une demande créée à partir de ce formulaire sera marquée comme Terminée et attribuer des autorisations par défaut aux utilisateurs interagissant avec de futures demandes envoyées à l’aide du formulaire.
 
 Les règles d’approbation définissent le processus d’approbation en fonction des valeurs de champ dans les demandes envoyées.
 
 Par exemple, si un formulaire de demande comporte le champ « Type de campagne », il est possible de créer une règle qui envoie la demande à une personne lorsque le champ comporte la valeur « Numérique » et à une autre personne lorsqu’il comporte la valeur « Imprimer ».
 
-<span class="preview">Plusieurs étapes sont prises en charge dans le processus de validation. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante commence et les approbateurs de la nouvelle étape reçoivent une notification par e-mail.</span>
+Plusieurs étapes sont prises en charge dans le processus de validation. Lorsque toutes les décisions requises d’une étape sont prises, l’étape suivante commence et les approbateurs de la nouvelle étape reçoivent une notification par e-mail.
 
 Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Les options d&#39;achèvement vous permettent de définir si une demande est marquée comme terminée lorsque l&#39;objet demandé est créé ou lorsque l&#39;objet créé est terminé. Vous définissez le moment où l’objet est terminé en fonction d’une condition spécifiée.
 
-<span class="preview">Utilisez la section Autorisations de la zone Paramètres d’un formulaire de demande pour définir les autorisations par défaut des demandeurs <!--and non-requestors--> aux demandes créées à l’aide du formulaire.</span>
+Utilisez la section Autorisations de la zone Paramètres d’un formulaire de demande pour définir les autorisations par défaut des demandeurs <!--and non-requestors--> aux demandes créées à l’aide du formulaire.
 
 Pour configurer les paramètres de formulaire :
 
@@ -297,7 +284,7 @@ Pour configurer les paramètres de formulaire :
 
 1. Pour commencer à configurer les règles d’approbation, cliquez sur **Approbations** ![Icône Validations](assets/approvals-icon-on-form.png) dans le volet de navigation de gauche.
 
-   Vous pouvez créer des règles d’approbation <span class="preview"> ou en plusieurs étapes </span> et affecter des utilisateurs ou des équipes à une approbation.
+   Vous pouvez créer des règles d’approbation en une ou plusieurs étapes et affecter des utilisateurs ou des équipes à une approbation.
 
    Pour plus d’informations sur l’ajout d’approbations, voir [&#x200B; Ajouter une approbation à un formulaire de demande &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -309,56 +296,41 @@ Pour configurer les paramètres de formulaire :
 
 1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
 
-1. <span class="preview">Cliquez sur **Autorisations** dans le panneau de gauche.</span>
-1. <span class="preview">Sélectionnez le niveau d’autorisation des utilisateurs et utilisatrices qui envoient des demandes via ce formulaire :</span>
-
-   <div class="preview">
+1. Cliquez sur **Autorisations** dans le panneau de gauche.
+1. Sélectionnez le niveau d’autorisation des utilisateurs et utilisatrices qui envoient des demandes via ce formulaire :
 
    * **Afficher** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire et le partager.
    * **Contribuer** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire, le partager et le modifier.
    * **Gérer** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire, le partager, le modifier et le supprimer.
 
-   </div>
-
-1. <span class="preview"> (Facultatif) Désélectionnez l’une des autorisations granulaires pour chaque niveau d’autorisation afin d’empêcher les demandeurs d’effectuer les actions suivantes :</span>
-
-   <div class="preview">
+1. (Facultatif) Désélectionnez l’une des autorisations granulaires pour chaque niveau d’autorisation afin d’empêcher les demandeurs d’effectuer les actions suivantes :
 
    * Commentaire
    * Partager
    * Modifier. Non disponible pour la vue.
    * Supprimer. Non disponible pour Contribute et View.
 
-   </div>
+   >[!TIP]
+   >
+   >L’autorisation granulaire que vous désélectionnez ici est grisée lors du partage de la demande avec ces utilisateurs à partir de la page de demande.
+
+1. <span class="preview">Cliquez sur **Remplissage de formulaire AI** pour configurer une invite personnalisée lors de l’utilisation de la fonctionnalité **Remplir le formulaire** lors de l’envoi de requêtes. </span>
 
    >[!TIP]
    >
-   ><span class="preview">L’autorisation granulaire que vous désélectionnez ici est grisée lors du partage de la requête avec ces utilisateurs à partir de la page de requête. </span>
+   ><span class="preview">Vous devez joindre un fichier lors de l’utilisation de l’IA pour remplir le formulaire de demande pour que l’invite prenne effet. </span>
+
+1. <span class="preview">Activez le paramètre **Activer l’invite par défaut**, puis ajoutez une invite par défaut. </span>
+
+   <span class="preview">Rendez l’invite aussi détaillée que possible. Par exemple, si vous utilisez toujours des fichiers avec des dates dans le formulaire Remplir, vous pouvez ajouter « Toujours stocker les dates au format européen » à l’invite. </span>
+
+   <span class="preview">Lorsque vous utilisez la fonctionnalité **Remplir le formulaire** et joignez un fichier lors de l’envoi d’une demande à l’aide de ce formulaire, AI effectue les modifications que vous prescrivez dans cette invite par défaut sur la nouvelle demande. Vous aurez une modification à examiner avant de l’envoyer. </span>
+
+   Exemple d’invite par défaut de remplissage de formulaire ![AI](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. Passez à [&#x200B; Publier le formulaire &#x200B;](#publish-form).
 
 1. Cliquer sur **Enregistrer**.
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### Publier le formulaire
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. Cliquez sur la vignette d’un type d’enregistrement pour plus de détails. Pour plus d’informations sur la création d’un type d’enregistrement, consultez la section [Créer des types d’enregistrement](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Gérer les formulaires de demande** ou <span class="preview">**Formulaires de demande**</span>.
+1. Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom du type d’enregistrement dans l’en-tête de la page, puis cliquez sur **Formulaires de requête**.
 
    La page **Formulaires de demande** s’ouvre et tous les formulaires de demande associés au type d’enregistrement s’affichent dans une vue Liste.
 1. (Facultatif) Mettez à jour les éléments d’affichage suivants dans la page **Formulaires de demande** pour modifier la façon dont les informations s’affichent dans le tableau :

@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
-
-{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -84,20 +82,20 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | <span class="preview">Liste des cartes de performance</span> | <span class="preview">Configuration > Cartes de performance</span> |
 | <span class="preview">Liste des types de risques</span> | <span class="preview">Configuration > Types de risques</span> |
 | Liste des fonctions et taux sur une carte tarifaire | Configuration > Cartes tarifaires > sélectionner une carte tarifaire > Fonctions et taux |
-| <span class="preview">Liste des emplacements</span> | <span class="preview">Configuration > Emplacements</span> |
+| Liste des emplacements | Configuration > Emplacements |
 | Liste des traductions | Configuration > Localisation |
-| <span class="preview">Listes des intégrations </span> | <ul><li><span class="preview">Configuration > Documents > Intégration SharePoint</span></li><li><span class="preview">Configuration > Documents > Intégration personnalisée</span></li><li><span class="preview">Configuration > Documents > Experience Manager Assets</span></li></ul> |
+| Listes des intégrations | <ul><li>Configuration > Documents > Intégration SharePoint</li><li>Configuration > Documents > Intégration personnalisée</li><li>Configuration > Documents > Experience Manager Assets</li></ul> |
 | Liste des rapports | Menu principal > Rapports (l’option **Utiliser des dossiers partageables** doit être activée) |
-| <span class="preview">Listes de rubriques de file d’attente, de groupes de rubriques et de règles de routage</span> | <ul><li><span class="preview">Projet ou modèle > Rubriques de file d&#39;attente</span></li><li><span class="preview">Projet ou modèle > Groupes de sujets</span></li><li><span class="preview">Projet ou modèle > Règles de transmission</span></li></ul> |
+| Listes de rubriques de file d’attente, de groupes de rubriques et de règles de routage | <ul><li>Projet ou modèle > Rubriques de file d&#39;attente</li><li>Projet ou modèle > Groupes de sujets</li><li>Projet ou modèle > Règles de transmission</li></ul> |
 | Liste des instantanés | Projet > Instantanés |
 | Liste des ressources pour la facturation | Projet > Ressource pour la facturation |
-| <span class="preview">Liste des tâches antérieures</span> | <span class="preview">Configuration > Tâche ou tâche de modèle > Tâches antérieures</span> |
+| Liste des prédécesseurs | Configuration > Tâche ou tâche de modèle > Tâches antérieures |
 | Nouvelles affectations avancées pour une tâche | Tâche > Affectations > Avancé |
-| <span class="preview">Vue Toutes les versions d’un document</span> | <span class="preview">Projet > Documents > Détails du document > Toutes les versions</span> |
+| Vue Toutes les versions d’un document | Projet > Documents > Détails du document > Toutes les versions |
 | Vue Administration des forums | Panoramas > Vue Administration |
 | Documents sur l’espace de stockage dans le cloud d’Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
-| <span class="preview">Listes des plans et initiatives de scénario</span> | <span class="preview">Menu principal > Scénarios</span> |
-| <span class="preview">Liste des objectifs et des indicateurs de progression</span> | <ul><li><span class="preview">Menu principal > Objectifs</span></li><li><span class="preview">Menu principal > Objectifs > Indicateurs de progression</span></li></ul> |
+| Listes de plans et d’initiatives de scénario | Menu principal > Scénarios |
+| Listes d’objectifs et d’indicateurs de progression | <ul><li>Menu principal > Objectifs</li><li>Menu principal > Objectifs > Indicateurs de progression</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ Selon les objets que vous consultez dans une liste améliorée, vous pouvez masq
 
 1. Cliquez sur **Colonnes** au-dessus de la liste.
 
-   Exemple d’image dans l’environnement de production :
-   ![Exemple d’affichage des colonnes](assets/glist-display-move-columns.png)
-
-   <span class="preview">Exemple d’image dans l’environnement de prévisualisation :</span>
    ![Exemple d’affichage des colonnes](assets/display-columns-090126.png)
 
 1. Utilisez les boutons pour afficher ou masquer des colonnes dans la liste.
 
-   <span class="preview">Vous pouvez rechercher une colonne dans la zone de recherche.</span>
+   Vous pouvez rechercher une colonne dans la zone de recherche.
 
 1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
 
@@ -242,7 +236,7 @@ Pour ajouter et supprimer des colonnes :
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">(Facultatif) Pour réorganiser les colonnes, passez le curseur sur le nom d’une colonne dans la section **Sélectionné** et cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png). Déplacez les colonnes verticalement pour les placer dans l’ordre.</span>
+1. (Facultatif) Pour réorganiser les colonnes, passez le curseur sur le nom d’une colonne dans la section **Sélectionné** et cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png). Déplacez les colonnes verticalement pour les placer dans l’ordre.
 1. Cliquer sur **Enregistrer**.
 
    ![Gestionnaire de colonnes](assets/glist-column-manager.png)

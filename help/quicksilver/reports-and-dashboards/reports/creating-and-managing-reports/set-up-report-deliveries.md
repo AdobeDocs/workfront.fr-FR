@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 93%
 ---
 # Vue d’ensemble de la diffusion des rapports
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ Lorsque vous envoyez un rapport à partir de Workfront au format PDF ou Excel, t
 
 Le nom du rapport dans l’e-mail est également un lien.
 
-<div class="preview">
-
 ### Avis d’expiration de rapport {#report-expiration-notices}
 
-Dans la Prévisualisation, les e-mails de rapport diffusés incluent la date d’expiration du rapport.
+Les e-mails de rapport diffusés incluent la date d’expiration du rapport.
 
 Si la diffusion se répète tous les jours, l’e-mail inclut un avertissement d’expiration sur chaque diffusion une fois que la date d’expiration est dans les 45 jours.
 
 Si la diffusion se répète une fois par semaine ou un mois, l’e-mail inclut un avertissement d’expiration au cours des quatre dernières diffusions planifiées avant la date d’expiration.
-
-</div>
 
 ## Générer des rapports sur les rapports planifiés
 

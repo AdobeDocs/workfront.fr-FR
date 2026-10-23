@@ -19,20 +19,21 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 7%
+source-wordcount: '1043'
+ht-degree: 6%
 ---
 
 # Présentation d’Adobe Workfront Planning CX Enterprise Coworker
 
 <!--replaced information from the AI Assistant for Planning article with CX Enterprise Coworker-->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -141,7 +142,7 @@ Vous pouvez utiliser un collègue pour effectuer les actions suivantes :
 * Supprimer, dupliquer ou restaurer des enregistrements
 * Lier des enregistrements à d&#39;autres enregistrements
 * Afficher l&#39;historique des modifications d&#39;un enregistrement
-
+* Importez 10 000 enregistrements ou plus en joignant un fichier Excel à Coworker.
 
 ## Localiser un collègue dans Workfront Planning
 

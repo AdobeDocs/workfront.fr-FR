@@ -3,6 +3,7 @@ title: Prise en main de la version d’essai gratuite d’Adobe Workfront Planni
 description: Adobe Workfront offre une version d’essai gratuite d’Adobe Workfront Planning pendant 60 jours. Cet essai vous donne l'occasion de voir comment Planning relie la stratégie globale au travail quotidien qui permet sa réalisation. La planification offre une visibilité centralisée sur votre cycle de vie marketing, ce qui permet une meilleure collaboration entre les équipes, un suivi en temps réel des campagnes et des workflows automatisés. Vous pouvez créer des espaces de travail personnalisés et visualiser le travail à l’aide de calendriers et de chronologies interactifs. Grâce à cette version d'essai, vous constaterez directement comment Planning permet d'aligner le travail quotidien sur les objectifs stratégiques, de rationaliser l'exécution et de générer des résultats mesurables pour votre organisation.
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50.000Z
@@ -29,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 4%

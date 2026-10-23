@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 78%
+ht-degree: 74%
 ---
 # Contacter l’assistance clientèle
 
@@ -142,7 +142,7 @@ Si vous avez des questions ou des problèmes lors de l’envoi d’une demande, 
 
 1. Accédez à la page **[!UICONTROL Mes dossiers]**. Cette page s&#39;ouvre lorsque vous soumettez un dossier. Vous pouvez également l&#39;ouvrir en cliquant sur **[!UICONTROL Mes dossiers]** dans le volet de navigation de gauche.
 
-1. (Facultatif) Utilisez les options situées en haut de la page pour filtrer par **Produit (solution [!DNL Experience Cloud])** ou **[!UICONTROL Status]** du cas ([!UICONTROL Ouvert] ou Fermé). Vous pouvez également utiliser la zone de [!UICONTROL recherche] pour rechercher des mots-clés relatifs à vos cas d’assistance.
+1. (Facultatif) Utilisez les options en haut de la page pour filtrer par **Produit (solution [!DNL CX Enterprise])** ou par cas **[!UICONTROL Statut]** ([!UICONTROL Ouvert] ou [!UICONTROL Fermé]). Vous pouvez également utiliser la zone de [!UICONTROL recherche] pour rechercher des mots-clés relatifs à vos cas d’assistance.
 
 1. (Facultatif) Pour afficher plus de détails sur un cas, cliquez sur le **numéro du cas** pour y accéder.
 

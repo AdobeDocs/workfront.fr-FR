@@ -32,10 +32,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
-ht-degree: 37%
+source-wordcount: '5576'
+ht-degree: 38%
 ---
 <!--
 Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=fr ??
@@ -51,14 +51,15 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # Créer des champs
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Dans la planification Adobe Workfront, vous pouvez créer des champs personnalisés pour des types d’enregistrements. Vous pouvez ensuite associer les champs à des enregistrements de la planification Workfront afin d’améliorer les informations d’enregistrement.
+Dans Adobe Workfront Planning, vous pouvez créer des champs personnalisés pour des types d’enregistrements. Vous pouvez ensuite associer les champs à des enregistrements de la planification Workfront afin d’améliorer les informations d’enregistrement.
 
 Vous devez créer des types d’enregistrements avant de pouvoir créer des champs à associer à ceux-ci. Pour plus d’informations, consultez [Créer des types d’enregistrements](/help/quicksilver/planning/architecture/create-record-types.md).
 
@@ -307,15 +308,10 @@ Pour plus d’informations, voir [Importer des champs depuis Workfront](/help/qu
 1. (Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne de la vue Tableau et cliquez sur le menu déroulant **Plus**, puis **Supprimer** pour supprimer le champ.
 
    Pour plus d’informations, voir [Supprimer des champs](/help/quicksilver/planning/fields/delete-fields.md).
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. (Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne du mode Tableau et cliquez sur le menu déroulant **Plus**, puis **Partager le champ** pour partager le champ.
 
-1. <span class="preview">(Facultatif et conditionnel) Après avoir ajouté un champ, passez la souris sur le nom du champ dans l’en-tête de colonne de la vue Tableau et cliquez sur le menu déroulant **Plus**, puis **Partager le champ** pour partager le champ. </span>
-
-   </span>Pour plus d’informations, voir [Partage de champs](/help/quicksilver/planning/access/share-fields.md). </span>
+   Pour plus d’informations, voir [Partager les champs](/help/quicksilver/planning/access/share-fields.md).
 
 ### Texte à une ligne {#single-line-text}
 

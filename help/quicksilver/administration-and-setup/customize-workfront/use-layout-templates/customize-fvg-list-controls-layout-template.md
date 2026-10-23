@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
+source-git-commit: beb4990355a7445994309d242bdc195d6d3a847c
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 76%
+source-wordcount: '841'
+ht-degree: 75%
 ---
 # Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier les contrôles de listes qui s’affichent dans les menus déroulants Filtre, Vue et Regroupement. Ces menus apparaissent au-dessus des listes dans Workfront, telles que la liste des tâches d’un projet :
 
@@ -103,7 +101,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >   
    >  ![Bouton Désactiver les filtres](assets/disable-filter-pills.png)
 
-   <span class="preview">Certaines listes améliorées sont disponibles. Ces listes ont un libellé « Nouvelle expérience » en regard des contrôles de liste. Pour plus d&#39;informations sur les listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
+   Certaines listes améliorées sont disponibles. Ces listes ont un libellé « Nouvelle expérience » en regard des contrôles de liste. Pour plus d&#39;informations sur les listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. (Facultatif) Si vous souhaitez modifier le filtre, la vue ou le regroupement par défaut du modèle de mise en page, pointez sur le filtre, la vue ou le regroupement, puis cliquez sur **Définir comme valeur par défaut**.
 

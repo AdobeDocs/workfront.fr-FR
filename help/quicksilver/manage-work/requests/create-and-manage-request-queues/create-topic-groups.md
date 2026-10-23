@@ -30,14 +30,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 81%
+source-wordcount: '483'
+ht-degree: 80%
 ---
 # Créer des groupes de sujets
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -114,4 +112,4 @@ Pour créer un groupe de sujets :
    Un nouveau groupe de sujets est ainsi créé dans la file d’attente des demandes. Vous pouvez désormais sélectionner des catégories supplémentaires dans le premier menu déroulant sous une file d’attente des demandes.\
    Pour plus d’informations sur l’envoi de requêtes, consultez la section [Créer et envoyer des requêtes Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Pour modifier un groupe de rubriques existant, sélectionnez-le dans la liste Groupes de rubriques, <span class="preview">cliquez sur **Modifier** dans la barre d&#39;actions située en bas de l&#39;écran</span> puis modifiez les détails dans la fenêtre qui s&#39;ouvre. Cliquez sur **Enregistrer** pour enregistrer les modifications.
+1. Pour modifier un groupe de sujets existant, activez la case à cocher en regard du groupe de sujets dans la liste Groupes de sujets, cliquez sur **Modifier** dans la barre d&#39;actions située en bas de l&#39;écran, puis modifiez les détails dans la fenêtre qui s&#39;ouvre. Cliquez sur **Enregistrer** pour enregistrer les modifications.

@@ -32,21 +32,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aebe95e634167571a64ed1ada94aded72a231136
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 70%
+ht-degree: 71%
 ---
 # Personnaliser la page de destination à l’aide d’un modèle de mise en page
-
-{{preview-fast-release-general}}
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez utiliser un modèle de mise en page pour spécifier la zone que les utilisateurs et utilisatrices doivent voir chaque fois qu’ils se connectent à Workfront.
 
 Les utilisateurs peuvent ouvrir l’un des éléments suivants :
 
 * Une zone Workfront désignée
-* Tableau de bord personnalisé.
+* Tableau de bord personnalisé
 
 Pour plus d’informations sur la création de modèles de mise en page, voir [Créer et gérer des modèles de mise en page](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -114,11 +112,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * Utilisateurs et utilisatrices
    * Plans directeurs
    * Planification
-   * <span class="preview">Application personnalisée</span>
+   * Application personnalisée
 
      >[!NOTE]
      >
-     ><span class="preview">Les applications personnalisées qui ont déjà été ajoutées au menu principal peuvent être utilisées comme page de destination. Ils doivent être créés séparément avant d&#39;être disponibles en tant qu&#39;options de menu principal ou de page de destination. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
+     >Les applications personnalisées qui ont déjà été ajoutées au menu principal peuvent être utilisées comme page de destination. Ils doivent être créés séparément avant d&#39;être disponibles en tant qu&#39;options de menu principal ou de page de destination. Pour plus d’informations, voir [Création d’une application personnalisée pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
    >[!IMPORTANT]
    >

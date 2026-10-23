@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 7%
+source-wordcount: '1956'
+ht-degree: 6%
 ---
 <!--
 
@@ -50,11 +50,11 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 L’espace de travail Adobe GenStudio for Performance Marketing est disponible dans Adobe Workfront Planning lorsque votre société a acheté les deux produits et que votre instance de Workfront est intégrée à l’instance de GenStudio de votre société.
 
@@ -377,23 +377,20 @@ La page principale de Workfront Planning s’ouvre.
    * **Modifier**
 
      Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Gérer les automatisations** ou <span preview="preview">**Automatisations**</span>
+   * **Automatisations**
 
      Pour plus d’informations, voir [Configuration des automatisations d’Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Gérer les formulaires de demande** ou <span class="preview">**Formulaires de demande**</span>
+   * **Formulaires de demande**
 
      Vous pouvez créer plusieurs formulaires de demande. Les formulaires de demande seront disponibles dans la zone des Demandes de Workfront et vous pouvez également les partager publiquement ou avec un lien.
 
      Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
-   <div class="preview">
 
    * **Règles métier**
 
      Vous pouvez configurer des règles métier de type enregistrement pour définir les conditions qui doivent être remplies avant que les utilisateurs ne soient autorisés à modifier ou supprimer des enregistrements de ce type.
 
      Pour plus d’informations, voir [Configurer des règles métier de type enregistrement](/help/quicksilver/planning/architecture/configure-business-rules.md).
-   </div>
 
 1. Pour partager une vue pour le type d’enregistrement, procédez comme suit :
 

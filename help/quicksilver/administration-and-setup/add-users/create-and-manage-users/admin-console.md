@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 88%
 ---
 # Gérer les utilisateurs et utilisatrices dans Adobe Admin Console
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ Vous devez ajouter un utilisateur ou une utilisatrice à votre instance de produ
 
    La personne est créée dans Workfront avec le niveau d’accès Demandeur ou Contributeur, selon le package Workfront de votre entreprise.
 
-   <span class="preview">Si votre administrateur Workfront a défini un niveau d’accès par défaut pour les utilisateurs créés dans Admin Console, l’utilisateur est créé avec ce niveau d’accès à la place. Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>
+   Si votre administrateur Workfront a défini un niveau d’accès par défaut pour les utilisateurs créés dans Admin Console, l’utilisateur est créé avec ce niveau d’accès à la place. Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
    >[!IMPORTANT]
    >

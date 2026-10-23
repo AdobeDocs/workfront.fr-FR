@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 6%
+source-wordcount: '2479'
+ht-degree: 5%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Types d’enregistrements connectés - Aperçu
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -210,18 +211,12 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
     * Vous pouvez connecter les marques GenStudio à partir des types d’enregistrements GenStudio et Planning.
     * Vous ne pouvez pas inclure les marques GenStudio dans une hiérarchie.
 
-  <div class="preview">
-
   * Vous pouvez rendre un champ de connexion dépendant du champ connecté correspondant à partir du type d’enregistrement connecté. Lorsque les deux champs s’affichent sur un troisième type d’enregistrement, les sélections disponibles pour un champ dépendent des sélections effectuées sur l’autre champ.
 
     Pour plus d’informations et d’autres considérations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
-  </div>
 
-* Les scénarios suivants existent lors de la duplication d&#39;enregistrements avec un enregistrement connecté dans un type de connexion Un à un ou Un à plusieurs :
-
-  * Dans l’environnement de production, l’enregistrement connecté se déplace vers l’enregistrement dupliqué ou vous devez le supprimer manuellement de l’enregistrement d’origine avant de dupliquer l’enregistrement, puis le rajouter.
-  * <span class="preview">Dans l’environnement Aperçu, vous pouvez choisir si l’enregistrement connecté reste sur l’enregistrement d’origine ou passe à l’enregistrement dupliqué.</span>
+* Lors de la duplication d&#39;enregistrements avec un enregistrement connecté dans un type de connexion Un à un ou Un à plusieurs, vous pouvez choisir si l&#39;enregistrement connecté reste sur l&#39;enregistrement d&#39;origine ou s&#39;il est déplacé vers l&#39;enregistrement dupliqué.
 
   Pour plus d’informations, voir [Dupliquer des enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 

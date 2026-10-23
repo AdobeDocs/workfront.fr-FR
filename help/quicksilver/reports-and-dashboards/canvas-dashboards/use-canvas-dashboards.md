@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '647'
 ht-degree: 8%
 ---
 # Utiliser les tableaux de bord de la zone de travail
@@ -34,12 +34,7 @@ ht-degree: 8%
 >La fonctionnalité Tableaux de bord de la zone de travail est actuellement disponible uniquement pour les utilisateurs participant à l’étape bêta. Il se peut que certaines parties de la fonction ne soient pas terminées ou ne fonctionnent pas comme prévu à cette étape. Veuillez soumettre tout commentaire concernant votre expérience en suivant les instructions de la section [Fournir un commentaire](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) de l’article de présentation de la version Beta des tableaux de bord de la zone de travail.
 >
 >Si vous avez des commentaires concernant un bug ou un problème technique éventuel, envoyez un ticket à l’assistance Workfront. Pour plus d’informations, consultez la section [Contacter l’assistance clientèle](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
->
->Notez que cette version bêta n’est pas disponible sur les fournisseurs de cloud suivants :
->
->* Apporter votre propre clé pour Amazon Web Services
->* Azure
->* Google Cloud Platform
+
 
 Les tableaux de bord de la zone de travail vous permettent de visualiser vos données Adobe Workfront en ajoutant différents types de rapports à une disposition de zone de travail flexible. Cet article présente un aperçu de l’utilisation efficace des tableaux de bord de zone de travail.
 
@@ -110,9 +105,9 @@ Vous pouvez personnaliser temporairement les rapports de tableau de bord. Ces mo
    >
    >Ces modifications s’appliquent uniquement à la session en cours et n’affectent pas la configuration de rapport d’origine. Pour rendre ces modifications permanentes, vous devez modifier le rapport.
 
-<div class="preview">
 
-### Accéder aux données du tableau croisé dynamique dans l&#39;aperçu
+
+### Accéder aux données du tableau croisé dynamique
 
 Vous pouvez cliquer sur une valeur dans un rapport de tableau croisé dynamique pour analyser en profondeur et afficher les enregistrements individuels qui constituent cette valeur agrégée.
 
@@ -126,7 +121,7 @@ Vous pouvez cliquer sur une valeur dans un rapport de tableau croisé dynamique 
 
    Le tableau d’exploration vers le bas affiche les colonnes que le créateur du rapport a configurées dans les paramètres de colonne d’exploration vers le bas. Pour plus d&#39;informations, voir [Créer un rapport de tableau croisé dynamique dans un tableau de bord Zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
-</div>
+
 
 
 <!--

@@ -30,16 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 3%
+source-wordcount: '2673'
+ht-degree: 4%
 ---
 # Créer un workflow d’approbation de document
 
-{{highlighted-preview}}
-
-Vous pouvez demander l’approbation d’autres utilisateurs ou équipes pour un document ou un site web actif dans Adobe Workfront, ou leur demander de le réviser sans avoir à l’approuver.
+Vous pouvez demander à d’autres personnes ou équipes d’approuver un document dans Adobe Workfront, ou leur demander de réviser un document sans avoir à l’approuver.
 
 Par défaut, un modèle d’approbation n’est visible que par son créateur ou sa créatrice. Dans cet article, vous ne pouvez sélectionner que les modèles que vous avez créés ou qui ont été partagés avec vous. Pour plus d’informations, voir [Partager un modèle](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) dans Gérer les modèles d’approbation.
 
@@ -178,13 +176,9 @@ Pour créer un workflow de validation avancée :
    <td>Les étapes sont nommées <em>Étape 1</em>, <em>Étape 2</em>, etc. par défaut. Renommez l’étape en quelque chose de plus explicite, comme <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir le nom d’un utilisateur ou d’une équipe à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
-   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel.</span></p>
-   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</span></p></td>
+   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
+   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse électronique. Par défaut, l’équipe est ajoutée en tant qu’approbateur unique ou révision, mais vous pouvez choisir d’ajouter chaque membre de l’équipe en tant que participant individuel.</p>
+   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
@@ -244,13 +238,9 @@ Pour créer un workflow d’approbation en une seule étape :
    <td>Le champ Modèles est réduit par défaut. Cliquez sur le champ pour le développer, puis sélectionnez un modèle dans le menu déroulant. Le menu répertorie uniquement les modèles que vous avez créés ou qui ont été partagés avec vous, soit avec vous en particulier, soit avec tous les membres de votre organisation. Les administrateurs système voient ici chaque modèle du compte, quelle que soit la personne qui l’a créé ou partagé. Si le modèle comporte un chemin d’accès et une étape, il s’applique en mode de base. Si le modèle comporte plusieurs étapes ou plusieurs chemins d’accès, la boîte de dialogue passe automatiquement en mode avancé et toute entrée que vous avez saisie en mode de base est remplacée par le contenu du modèle.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir un nom d’utilisateur ou un e-mail à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
-   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</span></p>
-   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</span></p></td>
+   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
+   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</p>
+   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois.</p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
@@ -320,13 +310,9 @@ Pour créer un workflow de validation avancée :
    <td>Les étapes sont nommées <em>Étape 1</em>, <em>Étape 2</em>, etc. par défaut. Renommez l’étape en quelque chose de plus explicite, comme <em> Révision initiale </em> ou <em> Approbation finale </em>.</td>
    </tr>
    <tr>
-   <td><strong>Ajouter des noms ou des adresses e-mail</strong></td>
-   <td>Commencez à saisir un nom d’utilisateur ou un e-mail à ajouter en tant qu’approbateur ou réviseur. Si vous avez uniquement des réviseurs, ils seront avertis et auront la possibilité de terminer la révision, mais aucune décision ne sera requise ou prise.<p>Remarque : un réviseur ou un approbateur ne peut être affecté qu’à une seule étape ouverte à la fois sur la même ressource. Si plusieurs étapes parallèles sont ouvertes simultanément, la même personne ne peut pas être ajoutée à plusieurs d’entre elles.</p></td>
-   </tr>
-   <tr>&gt;
-   <td><strong><span class="preview">Ajouter des personnes ou des équipes dans l’aperçu</span></strong></td>
-   <td><p><span class="preview">Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</span></p>
-   <p><span class="preview">Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</span></p></td>
+   <td><strong>Ajouter des personnes ou des équipes dans l’aperçu</strong></td>
+   <td><p>Commencez à saisir un nom d’utilisateur, une équipe ou une adresse e-mail, puis choisissez s’il s’agit d’un <strong>approbateur</strong> ou d’un <strong>réviseur</strong>. Workfront ajoute individuellement chaque membre actif d’une équipe.</p>
+   <p>Remarque : si un utilisateur ou une utilisatrice est déjà ajouté(e) ou appartient à plusieurs équipes que vous ajoutez, il ou elle est inclus(e) une fois. En outre, les participants ne peuvent être affectés qu’à une seule étape ouverte à la fois sur la même ressource.</p></td>
    </tr>
    <tr>
    <td><strong>Une seule décision requise (facultatif)</strong></td>
@@ -360,10 +346,7 @@ preview screen
 
 1. Cliquez sur **Demander l’approbation**.
 
-
-<div class="preview">
-
-## Affichez les workflows d’approbation des versions précédentes dans la zone des nouveaux documents de l’aperçu.
+## Affichez les workflows d’approbation des versions précédentes dans la zone des nouveaux documents
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -383,7 +366,6 @@ Pour afficher les workflows d&#39;approbation des versions précédentes :
    >
    >Si le workflow d’approbation d’une version a été retiré parce qu’une approbation d’une version plus récente a été demandée, il reste dans la liste, réduit, de sorte que vous pouvez toujours vérifier ses décisions antérieures.
 
-</div>
 
 <!--
 ## Resubmit an approval on a new version
