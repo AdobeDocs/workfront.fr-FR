@@ -5,15 +5,13 @@ title: Créer une validation groupée
 description: Vous pouvez regrouper plusieurs documents dans un seul workflow d’approbation afin qu’ils passent par les mêmes étapes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1154'
 ht-degree: 3%
 ---
 
 # Créer une validation groupée
-
-<span class="preview">Les informations de cette page ne sont pas disponibles dans l’environnement de sandbox de prévisualisation, car l’intégration Frame.io n’y est pas disponible. Cette fonctionnalité sera disponible dans les environnements de production le 22 octobre 2026.</span>
 
 Une approbation groupée regroupe plusieurs documents dans un seul workflow d’approbation. Vous pouvez utiliser le mode de base et avancé, plusieurs étapes et des chemins d’accès parallèles avec des approbations groupées, comme vous le pouvez avec des approbations de document unique.
 
