@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 5%
 ---
 # Créer et gérer ’un formulaire de demande dans Adobe Workfront Planning
@@ -296,14 +296,14 @@ Pour configurer les paramètres de formulaire :
 
 1. (Conditionnel) Si vous avez sélectionné pour que la demande soit marquée comme terminée une fois l’objet demandé terminé, sélectionnez le champ et la valeur qui indiquent quand l’objet est terminé. Par exemple, vous pouvez sélectionner le champ Statut et la valeur Terminé pour terminer la demande lorsque le statut de l&#39;objet créé est défini sur Terminé.
 
-1. Cliquez sur **Autorisations** dans le panneau de gauche.
-1. Sélectionnez le niveau d’autorisation des utilisateurs et utilisatrices qui envoient des demandes via ce formulaire :
+1. Cliquez sur **Autorisations** dans le panneau de gauche pour configurer les autorisations dont disposeront les utilisateurs et utilisatrices sur les demandes envoyées à l’aide de ce formulaire par défaut. Les autorisations que vous accordez ici prennent effet immédiatement pour les demandes futures et n’affectent pas les demandes existantes.
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> Sélectionnez le niveau d&#39;autorisation des demandes soumises à ce formulaire pour les utilisateurs qui soumettent des demandes à l&#39;aide de ce formulaire :
 
    * **Afficher** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire et le partager.
    * **Contribuer** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire, le partager et le modifier.
-   * **Gérer** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire, le partager, le modifier et le supprimer.
+   * **Gérer** : tous les demandeurs peuvent ajouter des commentaires sur le formulaire, le partager, le modifier et le supprimer. Il s’agit de l’autorisation par défaut.
 
-1. (Facultatif) Désélectionnez l’une des autorisations granulaires pour chaque niveau d’autorisation afin d’empêcher les demandeurs d’effectuer les actions suivantes :
+1. (Facultatif) <!--<span class="preview">In the **Requestor access** section,</span>--> Désélectionnez l’une des autorisations granulaires pour chaque niveau d’autorisation afin d’empêcher les demandeurs d’effectuer les actions suivantes :
 
    * Commentaire
    * Partager
@@ -313,6 +313,28 @@ Pour configurer les paramètres de formulaire :
    >[!TIP]
    >
    >L’autorisation granulaire que vous désélectionnez ici est grisée lors du partage de la demande avec ces utilisateurs à partir de la page de demande.
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">Cliquez sur **Remplissage de formulaire AI** pour configurer une invite personnalisée lors de l’utilisation de la fonctionnalité **Remplir le formulaire** lors de l’envoi de requêtes. </span>
 

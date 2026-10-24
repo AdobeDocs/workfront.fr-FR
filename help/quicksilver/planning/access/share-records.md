@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 7%
 ---
 <!--update metadata with real information at release-->
@@ -234,7 +234,15 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
    >
    >Vous ne pouvez pas partager des autorisations sur des enregistrements ajoutés dans différents espaces de travail. Lorsque vous partagez des enregistrements en bloc, les enregistrements doivent tous être créés dans le même espace de travail.
 
-1. (Facultatif) Dans la zone **Qui a accès**, l’option **Tout le monde dans l’espace de travail peut afficher** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement.
+1. (Facultatif) L’option **Tout le monde peut afficher dans l’espace de travail** est sélectionnée par défaut.  Tous les utilisateurs disposant d’autorisations **Vue** ou supérieures sur l’espace de travail et le type d’enregistrement disposent des mêmes autorisations sur l’enregistrement. Vous ne pouvez pas restreindre les autorisations de tous les utilisateurs ayant accès à l’espace de travail.
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. (Facultatif) Cliquez sur les avatars d’utilisateurs sous l’option **Autorisations héritées de** pour afficher les utilisateurs, les équipes, les groupes, les sociétés ou les fonctions qui héritent des autorisations de l’espace de travail. <!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ En tant que gestionnaire d’espace de travail, vous pouvez ajuster les autorisa
       >* Vous ne pouvez pas accorder aux utilisateurs une autorisation inférieure à l&#39;enregistrement s&#39;ils disposent d&#39;une autorisation Contribute ou supérieure au type d&#39;enregistrement.
       >Pour plus d’informations, consultez la section [Vue d’ensemble des autorisations de partage dans la planification Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
       >* Vous ne pouvez pas accorder d’autorisations aux utilisateurs qui ne se trouvent pas dans l’espace de travail. Les utilisateurs qui ne disposent pas d’autorisations sur l’espace de travail et le type d’enregistrement ne peuvent accéder à aucun des enregistrements.
+      >* Vous devez disposer d’autorisations de niveau Gérer pour un enregistrement afin de le partager avec d’autres utilisateurs.
 
    <!--   
    Not possible:

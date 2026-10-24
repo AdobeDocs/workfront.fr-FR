@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1424'
 ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
@@ -37,6 +37,8 @@ Les types de collaborateurs IA disponibles sont les suivants :
 * Agent de travail : créez un collaborateur à l’aide d’une plateforme d’IA standard telle que Claude, OpenAI ou Copilote, puis affectez le collaborateur à une tâche ou à un événement pour terminer des éléments de travail.
 
   Pour plus d’informations, voir [Utilisation des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+
+Les licences utilisées par les collaborateurs d’IA ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un collaborateur IA, 201 licences sont alors utilisées, mais seules 200 sont facturées.
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -123,6 +125,8 @@ Les agents de travail étant des agents, leurs actions et capacités sont config
 
 Les agents de travail peuvent être affectés à des tâches ou à des événements.
 
+Les licences utilisées par les agents de travail ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un agent de travail, 201 licences sont alors utilisées, mais seules 200 sont facturées.
+
 Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’un agent pour travailler en tant qu’agent de travail, voir [Bonnes pratiques pour créer un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configuration d’un agent de travail dans Workfront](#configure-a-work-agent-in-workfront)
@@ -200,7 +204,6 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++
