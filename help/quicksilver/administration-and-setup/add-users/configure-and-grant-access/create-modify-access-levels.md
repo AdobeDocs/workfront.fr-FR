@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1584'
 ht-degree: 77%
 ---
 # Créer et modifier des niveaux d’accès personnalisés
@@ -265,7 +265,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour plus d’informations, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Pour plus d’informations sur la manière dont un administrateur Adobe attribue un niveau d’accès d’administrateur système à un utilisateur, consultez la section [Création d’administrateurs système dans Workfront avec Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). dans l’article Gestion des utilisateurs dans le Adobe Admin Console.
+   Pour plus d’informations sur la manière dont un administrateur Adobe attribue un niveau d’accès d’administrateur système à un utilisateur, consultez la section [Créer des administrateurs système dans Workfront avec Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). dans l’article Gestion des utilisateurs dans le Adobe Admin Console.
 
 
 <!--
