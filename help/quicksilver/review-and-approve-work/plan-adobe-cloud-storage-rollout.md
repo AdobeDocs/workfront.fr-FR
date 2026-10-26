@@ -64,11 +64,11 @@ La plus grande modification visible pour les réviseurs, les approbateurs et les
 
 ### Vérifier vos autorisations et votre gouvernance
 
-Dans les projets de stockage dans le cloud Adobe, les options Gérer et Contribuer mappent toutes deux à Modifier et partager dans Frame.io, ce qui inclut le partage externe. Examinez vos modèles de partage et décidez s’ils correspondent à votre modèle de gouvernance avant d’intégrer des équipes dans l’espace de stockage cloud Adobe. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe ](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-permissions-mapping).
+Dans les projets de stockage dans le cloud Adobe, les options Gérer et Contribuer mappent toutes deux à Modifier et partager dans Frame.io, ce qui inclut le partage externe. Examinez vos modèles de partage et décidez s’ils correspondent à votre modèle de gouvernance avant d’intégrer des équipes dans l’espace de stockage cloud Adobe. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe &#x200B;](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-permissions-mapping).
 
 ### Modèles d’audit et dénomination
 
-L’espace de stockage dans le cloud d’Adobe applique des règles de nommage strictes et Workfront renomme automatiquement les objets qui entrent en conflit avec elles. Si vous créez des projets à partir de modèles, passez en revue ces modèles afin que les noms et la structure qu’ils génèrent soient conformes aux règles. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe ](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-naming-rules).
+L’espace de stockage dans le cloud d’Adobe applique des règles de nommage strictes et Workfront renomme automatiquement les objets qui entrent en conflit avec elles. Si vous créez des projets à partir de modèles, passez en revue ces modèles afin que les noms et la structure qu’ils génèrent soient conformes aux règles. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe &#x200B;](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-naming-rules).
 
 ### Planifier autour de Workfront Fusion
 
