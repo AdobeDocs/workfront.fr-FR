@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 30%
+source-wordcount: '641'
+ht-degree: 25%
 ---
 
 # Présentation de la version du premier trimestre 2027
@@ -67,6 +67,23 @@ Les éléments suivants n’ont pas été modifiés à ce stade de la publicatio
 * Épreuve
 * Objectifs
 
+## Mises à jour de la visionneuse de relecture de bureau
+
+### Version 2.3.0
+
+>[!NOTE]
+>
+>Aperçu : 27 octobre 2026
+>Version de production pour tous les clients : 28 octobre 2026
+
+Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.0. Cette mise à jour comprend les modifications suivantes :
+
+* Correction d’un problème lié aux épreuves interactives en raison duquel le fait de cliquer sur le lien sous la capture d’écran tout en se déplaçant dans plusieurs versions ouvrait la page dans plusieurs onglets. Le lien ouvre désormais la page dans un seul onglet.
+
+* Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
+
+Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+
 ## Annonces
 
 ### Obsolescence des champs de taux de facturation et de coût hérités dans les vues de liste de fonctions
@@ -99,7 +116,7 @@ Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
