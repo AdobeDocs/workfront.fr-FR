@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e1ed15278689476313ad690a00803022d413418b
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2423'
 ht-degree: 1%
 ---
 
@@ -108,7 +108,7 @@ Pour connecter Workfront à [!DNL Claude] :
 >
 >Pour effectuer cette procédure, vous devez être propriétaire dans un environnement Claude d’entreprise.
 >
->Pour l’instruction de Claude sur l’exigence du propriétaire, voir [&#x200B; Ajouter un connecteur personnalisé &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
+>Pour l’instruction de Claude sur l’exigence du propriétaire, voir [ Ajouter un connecteur personnalisé ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
 
 Pour connecter Workfront à [!DNL Claude] avec une URL :
 
@@ -197,12 +197,13 @@ Pour en savoir plus sur les TPG personnalisés, consultez la documentation utili
 
 ## Connexion de Workfront au copilote
 
-+++ Développez pour afficher les instructions étape par étape pour connecter Workfront à Copilot.
 
 * [Connexion de Workfront à Copilot avec Copilot Studio](#connect-workfront-to-copilot-with-copilot-studio)
 * [Connexion de Workfront au copilote GitHub](#connect-workfront-to-github-copilot)
 
 ### Connexion de Workfront à Copilot avec Copilot Studio
+
++++ Développez pour afficher les instructions détaillées pour connecter Workfront à Copilot avec Copilot Studio.
 
 Pour créer un agent Copilot personnalisé auquel le MCP Workfront peut se connecter, utilisez Copilot Studio.
 
@@ -235,7 +236,13 @@ La fenêtre de l&#39;agent s&#39;ouvre.
 
    Vous ne disposez peut-être pas des autorisations de publication. Si tel est le cas, contactez votre administrateur Copilot.
 
++++
+
+
 ### Connexion de Workfront au copilote GitHub
+
++++ Développez pour afficher les instructions détaillées relatives à la connexion de Workfront au copilote GitHub.
+
 
 1. Dans le Copilote GitHub, accédez à **Personnaliser**.
 1. Cliquez sur **Ajouter** > **Serveur MCP**.
@@ -379,7 +386,7 @@ What happens next
 | Vous ne pouvez pas vous connecter à Workfront, ou un message indiquant que l’accès au serveur MCP est désactivé s’affiche. | Votre administrateur Workfront a désactivé l’accès au serveur MCP pour votre instance. | Contactez votre administrateur Workfront et demandez-lui d’activer l’accès au serveur MCP dans les Préférences système. |
 | La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
-Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [ Utiliser le serveur Adobe Workfront MCP ](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 
 +++
