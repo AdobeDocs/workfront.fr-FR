@@ -45,7 +45,7 @@ ht-degree: 58%
 >
 >Comme toutes les organisations ont désormais intégré Adobe Admin Console, cette fonctionnalité a été abandonnée.
 >
->Pour obtenir des instructions sur le renouvellement du certificat SAML sur le Adobe Admin Console, consultez la section « La signature numérique dans la réponse SAML n’a pas été validée... » dans [Dépannage de Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
+>Pour obtenir des instructions sur le renouvellement du certificat SAML sur le Adobe Admin Console, consultez la section « La signature numérique dans la réponse SAML n’a pas été validée... » dans [Dépannage de Federated ID](https://helpx.adobe.com/fr/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
