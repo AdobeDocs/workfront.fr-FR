@@ -9,7 +9,7 @@ feature: System Setup and Administration, Work Management, Digital Content and D
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b4413742-c250-4110-9097-6d38842355a4
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -48,6 +48,12 @@ Chaque environnement Workfront est différent. Avant de définir l’espace de s
 
 Un déploiement à l’échelle d’un groupe vous permet de placer l’espace de stockage cloud d’Adobe devant une équipe plus petite, de recueillir des commentaires et de procéder à des ajustements avant un déploiement plus large. Sélectionnez un groupe dont les modèles de travail sont suffisamment représentatifs pour faire apparaître rapidement les problèmes que vous souhaitez connaître.
 
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
+
 ### Test avant la mise en ligne
 
 L’espace de stockage dans le cloud d’Adobe est disponible dans les environnements sandbox de Workfront. Vous pouvez ainsi valider une grande partie de l’expérience avant la production. La visionneuse Frame.io n’étant pas disponible dans Sandbox, vous validez l’expérience complète de révision et d’approbation en production avec votre groupe pilote. Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
@@ -58,11 +64,11 @@ La plus grande modification visible pour les réviseurs, les approbateurs et les
 
 ### Vérifier vos autorisations et votre gouvernance
 
-Dans les projets de stockage dans le cloud Adobe, les options Gérer et Contribuer mappent toutes deux à Modifier et partager dans Frame.io, ce qui inclut le partage externe. Examinez vos modèles de partage et décidez s’ils correspondent à votre modèle de gouvernance avant d’intégrer des équipes dans l’espace de stockage cloud Adobe. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe &#x200B;](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-permissions-mapping).
+Dans les projets de stockage dans le cloud Adobe, les options Gérer et Contribuer mappent toutes deux à Modifier et partager dans Frame.io, ce qui inclut le partage externe. Examinez vos modèles de partage et décidez s’ils correspondent à votre modèle de gouvernance avant d’intégrer des équipes dans l’espace de stockage cloud Adobe. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe ](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-permissions-mapping).
 
 ### Modèles d’audit et dénomination
 
-L’espace de stockage dans le cloud d’Adobe applique des règles de nommage strictes et Workfront renomme automatiquement les objets qui entrent en conflit avec elles. Si vous créez des projets à partir de modèles, passez en revue ces modèles afin que les noms et la structure qu’ils génèrent soient conformes aux règles. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe &#x200B;](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-naming-rules).
+L’espace de stockage dans le cloud d’Adobe applique des règles de nommage strictes et Workfront renomme automatiquement les objets qui entrent en conflit avec elles. Si vous créez des projets à partir de modèles, passez en revue ces modèles afin que les noms et la structure qu’ils génèrent soient conformes aux règles. Pour plus d’informations, voir [En quoi consiste l’espace de stockage dans le cloud d’Adobe ](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md#object-naming-rules).
 
 ### Planifier autour de Workfront Fusion
 
