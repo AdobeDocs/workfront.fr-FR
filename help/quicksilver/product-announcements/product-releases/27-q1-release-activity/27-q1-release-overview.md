@@ -82,7 +82,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -116,7 +116,7 @@ Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
 
 -->
 
