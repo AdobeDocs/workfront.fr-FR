@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 60%
+source-wordcount: '936'
+ht-degree: 58%
 ---
 # Accorder l’accès aux utilisateurs et utilisatrices
 
@@ -63,7 +63,7 @@ Vous pouvez gérer les informations que les utilisateurs et utilisatrices peuven
 
 * Administrateur ou administratrice Workfront.
 
-  Pour plus d’informations, voir [Accorder un accès administratif complet à un utilisateur ou une utilisatrice](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Les administrateurs et administratrices Workfront sont configurés dans Adobe Admin Console. Pour plus d’informations, consultez la section [Créer des administrateurs système dans Workfront avec Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). dans l’article Gestion des utilisateurs dans le Adobe Admin Console.
 
 * Un utilisateur disposant d’une licence Standard ou Plan par défaut qui a également accès aux utilisateurs, comme expliqué dans cet article.
 

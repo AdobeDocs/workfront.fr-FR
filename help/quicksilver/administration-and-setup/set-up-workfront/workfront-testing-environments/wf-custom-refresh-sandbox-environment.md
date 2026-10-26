@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 78%
@@ -46,7 +46,7 @@ Le sandbox à actualisation personnalisée est un environnement dans lequel vous
 >
 >  De plus, l’obtention du sandbox à actualisation personnalisée nécessite un coût supplémentaire, qui n’est pas nécessaire pour le sandbox de prévisualisation.
 >
->  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Conditions d’accès
 
@@ -220,7 +220,7 @@ Pour planifier une actualisation de votre sandbox à actualisation personnalisé
 
 <!--
 
-Remove me October 2026
+Remove me January 2026
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox
 

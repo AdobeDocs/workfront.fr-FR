@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 4%
 ---
 # Vue d’ensemble de l’intégrité du projet
@@ -93,9 +93,6 @@ L’assistant AI doit être activé pour que votre entreprise puisse utiliser l�
 
 Pour activer l’assistant AI et l’intégrité du projet pour votre organisation, toutes les conditions suivantes doivent s’appliquer :
 
-<!--Remove me October 2026-->
-
-* Votre organisation doit avoir migré vers le système Adobe Identity Management (IMS).
 * Votre organisation doit disposer d’un package Workfront ou Workflow Select, Prime ou Ultimate.
 * L’expérience unifiée Adobe doit être activée.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé dans ce fichier.
@@ -155,7 +152,7 @@ Les conditions d’un projet donnent un aperçu de base des performances actuell
 Pour plus d’informations sur les conditions du projet, consultez les articles suivants :
 
 * [Mettre à jour la condition d’un projet](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-* [&#x200B; Conditions personnalisées &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+* [ Conditions personnalisées ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 ## Liste des états d’intégrité des projets et programmes
 

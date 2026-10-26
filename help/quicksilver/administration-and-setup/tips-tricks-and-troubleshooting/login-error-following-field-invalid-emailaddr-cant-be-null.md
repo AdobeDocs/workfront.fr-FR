@@ -26,23 +26,31 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 76%
+source-wordcount: '77'
+ht-degree: 28%
 ---
 # Erreur de connexion : les champs suivants ne sont pas valides : emailAddr ne peut pas être nul.
 
-## Problème
+>[!IMPORTANT]
+>
+>L’authentification étant désormais gérée via Adobe IMS (système Identity Management), les informations de cet article ont été supprimées.
 
-Lorsque je tente de me connecter à [!DNL Adobe Workfront] avec mon URL (https://customerdomain.my.workfront.com), je fais l’objet d’une redirection vers le portail de connexion SAML, puis vers [!DNL Workfront] avec l’erreur suivante :
+<!--
 
-« Réessayons. Les champs suivants ne sont pas valides : emailAddr ne peut pas être nul. »
+## Problem
+
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
+
+"Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
 ## Cause
 
-Cette erreur est due à un élément incorrect dans la zone Mapper les attributs de l’utilisateur ou de l’utilisatrice de la configuration SAML 2.0. Pour plus d’informations sur le mappage des attributs de l’utilisateur ou de l’utilisatrice pour SAML 2.0, voir [Configurer Adobe Workfront avec SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+This error is caused by an incorrect item in the Map User Attributes area of the SAML 2.0 configuration. For more information about mapping user attributes for SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
 ## Solution
 
-Mettez à jour le mappage d’attributs pour l’adresse e-mail, puis cliquez sur **[!UICONTROL Enregistrer]**.
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

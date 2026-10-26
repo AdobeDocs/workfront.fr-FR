@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1764'
 ht-degree: 8%
@@ -84,11 +84,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Pour utiliser le remplissage de formulaire optimisé par l’IA afin de remplir une requête à l’aide d’une invite ou d’un document, **toutes** les conditions suivantes doivent s’appliquer :
 
-<!--
-Remove me October 2026
-* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled
--->
 * Votre organisation doit disposer d’un package de workflow ou Workfront Select, Prime ou Ultimate
 * Adobe doit disposer d’un contrat Adobe Gen AI signé.
 
@@ -116,7 +111,7 @@ Tenez compte des points suivants lors de l’utilisation du remplissage de formu
 >
 >Le remplissage de formulaire optimisé par l’IA est activé au niveau de l’organisation et ne peut pas être activé ou désactivé pour des utilisateurs ou des niveaux d’accès spécifiques.
 
-Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 <!--
 

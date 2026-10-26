@@ -3,10 +3,10 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
-ht-degree: 91%
+ht-degree: 90%
 ---
 # Guide Workfront {#using}
 
@@ -599,14 +599,14 @@ ht-degree: 91%
       * [Accorder l’accès aux Objectifs Workfront](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [Octroi de l’accès aux autorisations de marque](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Authentification unique dans Workfront {#sso}
-      * [Authentification unique : index des articles](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [Vue d’ensemble de l’authentification unique](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [Mettre à jour les utilisateurs et utilisatrices pour l’authentification unique](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Configurer Workfront avec SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [Mettre à jour des métadonnées SAML 2.0 dans le fournisseur d’identité](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [Configurer Adobe Workfront avec SAML 2.0 à l’aide d’ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Activer Outlook pour Workfront et SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [Désactiver l’authentification unique](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[Authentification unique : index des articles](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[Présentation de l’authentification unique](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[Mettre à jour les utilisateurs et utilisatrices pour l’authentification unique](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[Configuration de Workfront avec SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[Mise à jour des métadonnées SAML 2.0 dans le fournisseur d’identité](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[Configurer Adobe Workfront avec SAML 2.0 à l’aide d’ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[Activer Outlook pour Workfront et SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[Désactiver l’authentification unique](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * Créer et gérer des équipes {#create-manage-teams}
       * [Gérer les équipes](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Créer une équipe](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -859,9 +859,9 @@ ht-degree: 91%
     * [Actions à entreprendre après l’installation d’un plan directeur](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [Liste des plans directeurs disponibles](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Administration dans Adobe Admin Console {#admin-in-admin-console}
-    * [Administration Workfront dans Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [Se préparer pour Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [Comprendre la migration de Workfront vers Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * {hide-from-toc}[Administration de Workfront dans Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[Se préparer pour Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[Comprendre la migration de Workfront vers Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * Conseils, astuces et résolution des problèmes pour l’administration et la configuration {#admin-setup-tips}
     * [Conseils, astuces et dépannage](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Les administrateurs et administratrices de groupe doivent avoir un accès plus élevé que ceux qu’ils gèrent.](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1866,7 +1866,7 @@ ht-degree: 91%
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2628,8 +2628,8 @@ ht-degree: 91%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 82%
@@ -55,7 +55,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 >
 >Le service OAuth2 personnalisé hérité de Workfront est également mis hors service. Les nouvelles applications OAuth2 personnalisées ne pourront plus être créées après le 1er novembre 2026 et les applications OAuth2 personnalisées existantes cesseront de fonctionner le 1er février 2027.
 >
->Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+>Pour obtenir des conseils sur l&#39;authentification, consultez Présentation de l&#39;authentification Adobe Developer Console [](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 >
 >Pour plus d’informations sur la migration, voir [Migration de Workfront OAuth2 vers Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
@@ -129,7 +129,7 @@ Vous pouvez générer, réinitialiser ou supprimer la clé API pour votre compt
 
 <!--
 
-   Remove me October 2026
+   Remove me January 2027
 
 ## Generate an API Key for Non-Admin Users
 
@@ -204,7 +204,7 @@ Si une faille de sécurité particulière vous préoccupe concernant votre syst�
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 ## Restricting API logins with an X.509 certificate
 

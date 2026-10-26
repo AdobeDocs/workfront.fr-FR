@@ -23,50 +23,58 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 94%
+source-wordcount: '42'
+ht-degree: 35%
 ---
 # Désactiver l’authentification unique dans Adobe Workfront
 
+>[!IMPORTANT]
+>
+>L’authentification étant désormais gérée via Adobe IMS (système Identity Management), les informations de cet article ont été supprimées.
+
+<!--
+
 {{important-admin-console-onboard}}
 
-Après avoir désactivé l’authentification unique (SSO) dans Adobe Workfront, les personnes doivent se connecter à l’aide de leurs informations d’identification Workfront. Il s’agit des informations d’identification que la personne a initialement configurées. (Si vous devez modifier les informations d’identification de la personne, consultez [Modifier le profil d’un utilisateur ou d’une utilisatrice](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
+After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 
-## Conditions d’accès
+## Access requirements
 
-+++ Développez pour afficher les exigences d’accès aux fonctionnalités de cet article.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Package Adobe Workfront</td> 
-   <td><p>Tous</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licence Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurations des niveaux d’accès</td> 
-   <td> <p>Vous devez être un administrateur ou une administratrice Workfront.</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour plus d’informations, voir [Conditions d’accès requises dans la documentation Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Désactiver l’authentification unique
+## Deactivate SSO
 
 {{step-1-to-setup}}
 
-1. Cliquez sur **Système** > **Authentification unique (SSO)**.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. Faites défiler jusqu’au bas de la page et désactivez l’option **Activer**.
-1. Cliquer sur **Enregistrer**.
+1. Scroll to the bottom of the page and disable the **Enable** option.
+1. Click **Save**.
+
+-->

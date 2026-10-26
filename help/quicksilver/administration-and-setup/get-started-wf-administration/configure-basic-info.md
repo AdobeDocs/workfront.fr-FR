@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 90%
@@ -87,7 +87,7 @@ Pour accéder à la page Infos client :
    Les sections disponibles dans la zone Infos client sont les suivantes :
 
    | Section | Plus d’informations |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **Informations de base** | Pour plus d’informations sur la configuration des informations de base dans Workfront, voir [Configurer les informations de base](#configure-basic-info). |
    | **Présentation du stockage** | Pour plus d’informations sur la vérification de l’utilisation et du quota de stockage de documents, voir [Vérifier les limites de stockage de documents](../../documents/managing-documents/check-document-storage.md). |
    | **Paramètres de la clé API** | Pour plus d’informations sur les paramètres de la clé API, voir [Gérer les clés API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
