@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 89%
+source-wordcount: '1690'
+ht-degree: 87%
 ---
 # Niveaux d’accès intégrés (hérités)
 
@@ -104,7 +104,7 @@ Les personnes disposant du niveau d’accès Administrateur ou administratrice s
 
 Elles disposent également d’un accès complet à la zone Configuration, où elles peuvent modifier n’importe quel paramètre au niveau du système. Et ils peuvent accéder à toutes les zones du Menu principal ![icône du menu principal](assets/main-menu-icon.png) ou du Menu principal ![icône du menu principal](assets/main-menu-icon.png), le cas échéant.
 
-Pour plus d’informations, voir [Octroyer un accès administratif intégral pour les utilisateurs et utilisatrices](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+L’octroi d’un accès administrateur à un utilisateur s’effectue via Adobe Admin Console. Pour plus d’informations, consultez la section [Créer des administrateurs système dans Workfront avec Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). dans l’article Gestion des utilisateurs dans le Adobe Admin Console..
 
 ## Niveau d’accès Planificateur ou planificatrice
 

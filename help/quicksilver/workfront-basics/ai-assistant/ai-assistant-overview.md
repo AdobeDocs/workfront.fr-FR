@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '872'
 ht-degree: 93%
 ---
 # Assistant IA dans Workfront
@@ -69,10 +69,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Pour activer l’assistant IA pour votre organisation, **toutes** les conditions suivantes doivent être remplies :
 
-<!--Remove me October 2026-->
-
-* Votre organisation doit avoir migré vers Adobe IMS (système de gestion des identités).
-* L’expérience unifiée Adobe doit être activée.
 * Votre organisation doit disposer d’un plan Workfront Select, Prime ou Ultimate.
 * Adobe doit disposer d’un contrat Adobe Gen AI signé.
 

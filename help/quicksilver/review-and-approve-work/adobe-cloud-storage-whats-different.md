@@ -6,7 +6,7 @@ description: Découvrez les principales différences sur les objets d’espace d
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Si un nom entre en conflit avec ces règles, Workfront renomme automatiquement l
 ## Portabilité des objets
 
 Dans la plupart des scénarios, vous ne pouvez déplacer, copier et convertir des objets Workfront qu’entre des modèles de stockage similaires. Par exemple, vous pouvez déplacer une tâche d’un projet d’espace de stockage dans le cloud Adobe vers un autre projet d’espace de stockage dans le cloud Adobe. Dans trois cas spécifiques, vous pouvez convertir un objet de stockage Workfront hérité en espace de stockage dans le cloud Adobe.
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 Pour plus d’informations, voir [Conversion d’objets hérités en espace de stockage Adobe](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md).
 
