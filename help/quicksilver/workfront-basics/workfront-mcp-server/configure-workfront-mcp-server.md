@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 96a3eac63c25b2a6cf7d4a10f0db05aab84c68e8
+source-git-commit: 20cb536b40af2dc7d3c5ddd1e3c08d6fbccb8466
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2484'
 ht-degree: 1%
 ---
 
@@ -108,7 +108,7 @@ Pour connecter Workfront à [!DNL Claude] :
 >
 >Pour effectuer cette procédure, vous devez être propriétaire dans un environnement Claude d’entreprise.
 >
->Pour l’instruction de Claude sur l’exigence du propriétaire, voir [&#x200B; Ajouter un connecteur personnalisé &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
+>Pour l’instruction de Claude sur l’exigence du propriétaire, voir [ Ajouter un connecteur personnalisé ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) dans la documentation Claude.
 
 Pour connecter Workfront à [!DNL Claude] avec une URL :
 
@@ -243,6 +243,30 @@ La fenêtre de l&#39;agent s&#39;ouvre.
 
 +++ Développez pour afficher les instructions détaillées relatives à la connexion de Workfront au copilote GitHub.
 
+>[!NOTE]
+>
+>Si le Copilote GitHub indique que l’enregistrement client dynamique n’est pas pris en charge ou demande un ID client OAuth, utilisez la solution ci-dessous au lieu de la configuration HTTP standard. Certains clients GitHub Copilot MCP ne prennent pas en charge le flux de découverte dynamique utilisé dans la configuration par défaut.
+>
+>Pour contourner ce problème, configurez le copilote GitHub pour lancer le serveur MCP Workfront via `mcp-remote` et définissez les `NODE_OPTIONS=--use-system-ca` suivantes :
+>
+>```json
+>{
+>   "servers": {
+>       "wf-mcp": {
+>           "command": "npx.cmd",
+>           "args": [
+>               "-y",
+>               "mcp-remote",
+>               "https://mcp.workfront.adobe.com/mcp/v1/workfront"
+>           ],
+>           "env": {
+>               "NODE_OPTIONS": "--use-system-ca"
+>           }
+>       }
+>   }
+>}
+>```
+>
 
 1. Dans le Copilote GitHub, accédez à **Personnaliser**.
 1. Cliquez sur **Ajouter** > **Serveur MCP**.
@@ -386,7 +410,7 @@ What happens next
 | Vous ne pouvez pas vous connecter à Workfront, ou un message indiquant que l’accès au serveur MCP est désactivé s’affiche. | Votre administrateur Workfront a désactivé l’accès au serveur MCP pour votre instance. | Contactez votre administrateur Workfront et demandez-lui d’activer l’accès au serveur MCP dans les Préférences système. |
 | La plateforme agentic d’IA peut rechercher vos éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer. | Votre administrateur Workfront a désactivé les actions d’écriture pour le serveur MCP Workfront. | Contactez votre administrateur Workfront et demandez-lui d’activer les actions d’écriture dans les Préférences système. |
 
-Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [&#x200B; Utiliser le serveur Adobe Workfront MCP &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour une résolution des problèmes au jour le jour après votre connexion (par exemple, résultats obsolètes ou comportement inattendu), reportez-vous à la section [ Utiliser le serveur Adobe Workfront MCP ](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 
 +++
