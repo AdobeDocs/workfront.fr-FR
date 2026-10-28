@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # Aperçu de la révision et de l’approbation unifiées
@@ -57,9 +57,9 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité complète des ressources sur les applications Workfront, Frame.io et Creative Cloud
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [&#128279;](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
+Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -82,7 +82,7 @@ Utilisez la visionneuse Frame.io pour réviser et approuver des ressources. La v
 * Outils de balisage et de commentaires
 * Historique et comparaison des versions
 * Commentaires horodatés pour les révisions vidéo
-* Accès mobile pour les révisions et les approbations en cours de route
+* Accès mobile pour la révision et l&#39;approbation en déplacement avec l&#39;application [Frame.io iOS](https://help.frame.io/en/collections/9679120-ios-app)
 
 Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
