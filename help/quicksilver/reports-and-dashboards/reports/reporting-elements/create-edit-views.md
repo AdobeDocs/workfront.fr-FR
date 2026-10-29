@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 64%
+source-wordcount: '908'
+ht-degree: 63%
 ---
 # Créer ou modifier des vues dans Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -94,6 +96,11 @@ La boîte de dialogue **Personnaliser la vue** s’affiche.
 
    * Modifiez la valeur de n’importe quelle colonne en cliquant sur le titre de la colonne et en sélectionnant un nouveau champ.
    * Ajoutez une colonne en cliquant sur **Ajouter une colonne**, commencez à saisir le nom de la colonne que vous souhaitez ajouter, puis cliquez dessus lorsqu’elle apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   ><span class="preview">Les champs personnalisés marqués comme favoris apparaissent dans la section **Suggested** en haut des résultats de recherche.</span>
+
    * Ajustez l’ordre d’apparition des colonnes en faisant glisser le titre de la colonne vers un nouvel emplacement.
 
    * Dans la zone **Paramètres de colonne**, cliquez sur **Résumer cette colonne par** et choisissez comment vous souhaitez que les données s’affichent dans la colonne. Cette option est disponible pour les types de colonnes suivants :

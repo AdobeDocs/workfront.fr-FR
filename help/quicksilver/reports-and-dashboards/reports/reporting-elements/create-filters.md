@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 96%
+source-wordcount: '2420'
+ht-degree: 95%
 ---
 # Créer ou modifier des filtres dans Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ Créez un filtre à l’aide de l’interface du créateur standard :
 
 1. Cliquez sur le menu déroulant des champs pour afficher la liste des champs récemment utilisés et les champs proposés pour les filtrer. Les champs proposés sont actuellement affichés dans la liste que vous filtrez.
 
+   >[!TIP]
+   >
+   ><span class="preview">Les champs personnalisés marqués comme favoris apparaissent dans la section **Suggested** en haut des résultats de recherche.</span>
+
    Vous pouvez également sélectionner **Parcourir les champs** pour afficher la liste de tous les champs par lesquels vous pouvez filtrer. Les champs de la recherche avancée sont regroupés par catégorie d’objet.
 
    ![Localiser un champ par lequel filtrer](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ Quelle que soit la méthode utilisée pour créer des filtres, la création d’
    * Ajoutez une règle de filtrage en cliquant sur **Ajouter une autre règle de filtrage**, commencez à saisir le nom de l’option pour laquelle vous souhaitez ajouter une règle dans la zone **Saisissez le nom du champ** puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
 
      Les champs associés à l’objet de votre filtre sont répertoriés dans la zone **Saisissez le nom du champ**.
+
+     >[!TIP]
+     >
+     ><span class="preview">Les champs personnalisés marqués comme favoris apparaissent dans la section **Suggested** en haut des résultats de recherche.</span>
 
    * Cliquez sur **AND** ou **OR** lors de l’ajout d’une règle de filtrage.\
      Lors de l’ajout de règles de filtrage, utilisez les modificateurs de filtre pour définir la condition de votre filtre. Pour plus d’informations sur les modificateurs de filtre, consultez la section [Modificateurs de filtre et de condition](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
