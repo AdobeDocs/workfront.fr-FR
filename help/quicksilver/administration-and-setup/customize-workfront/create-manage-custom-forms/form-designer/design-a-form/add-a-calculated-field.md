@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2755'
-ht-degree: 70%
+source-wordcount: '2792'
+ht-degree: 69%
 ---
 # Ajout de champs calculés à un formulaire
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -184,7 +186,11 @@ Pour réutiliser un champ personnalisé calculé existant :
       <td> <p>Le format dans lequel vous souhaitez que les résultats du champ soient stockés et affichés.</p> <p>Si le champ sera utilisé dans les calculs mathématiques, utilisez toujours un format <strong>Nombre</strong> ou <strong>Devise</strong>. Lorsque vous sélectionnez <strong>Nombre</strong> ou <strong>Devise</strong>, le système tronque automatiquement les nombres qui commencent par 0.</p> 
       <p><b>IMPORTANT</b> : avant de choisir un format, tenez compte du format correct pour le nouveau champ. Le champ de format ne peut pas être modifié une fois le formulaire personnalisé enregistré. Sélectionner le mauvais format peut avoir une incidence sur les calculs futurs et les valeurs agrégées dans les regroupements de rapports et de listes.</p>
       <p><strong>REMARQUE </strong> : les champs calculés au format <strong>Devise</strong> ne doivent pas contenir de guillemets. (Par exemple, utilisez 800 000 au lieu de « 800,00 ».) L’utilisation de guillemets peut entraîner des conséquences inattendues en raison de nuances liées au formatage de la langue pour les types de devise.</p></td>
-     </tr> 
+     </tr>
+     <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     </tr>
      <tr>
       <td>Actif</td>
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>

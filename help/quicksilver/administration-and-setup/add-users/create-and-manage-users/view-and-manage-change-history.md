@@ -15,10 +15,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 6%
+source-wordcount: '545'
+ht-degree: 5%
 ---
 # Affichage et gestion de l’historique des modifications
 
@@ -30,6 +30,7 @@ L’historique des modifications peut effectuer le suivi des types de données d
 * Mises à jour au niveau du champ, telles que la modification d’une description de projet ou du modèle de mise en page d’un utilisateur
 * Mises à jour des objets, telles que la mise à jour du statut d’un projet ou l’association d’un formulaire personnalisé à une tâche
 * Activité de workflow de révision et d’approbation unifiée, y compris les participants et les décisions
+* Activité Tableaux de bord de la zone de travail : qui a créé, mis à jour ou supprimé un tableau de bord ou un rapport, quand les mises à jour ont été effectuées et quelles modifications ont été apportées
 
 Pour plus d&#39;informations sur la définition des objets et des champs suivis, voir [Configurer les champs à suivre dans l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 

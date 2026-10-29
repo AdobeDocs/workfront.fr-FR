@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 47%
+source-wordcount: '987'
+ht-degree: 46%
 ---
 # Partager un formulaire personnalisé
+
+{{preview-fast-release-general}}
 
 Vous pouvez configurer l’accès à un formulaire personnalisé afin de contrôler qui (personne, rôle, groupe, équipe, entreprise, profil d’entreprise) peut l’afficher, le partager et le modifier.
 
@@ -108,7 +110,8 @@ Plutôt que de laisser un formulaire personnalisé à l’état de partage par d
       <td> <p>Cette option est disponible uniquement pour les utilisateurs disposant d’une licence Standard ou Plan. </p> <p>En plus de pouvoir ajouter le formulaire aux objets auxquels ils ont un accès en modification, les utilisateurs et utilisatrices peuvent également modifier entièrement le formulaire personnalisé, notamment ajouter, modifier et supprimer des champs.</p> <p>Cliquez sur <strong>Paramètres avancés</strong> pour indiquer si vous souhaitez autoriser les éléments suivants :</p> 
        <ul> 
         <li> <p><strong>Joindre aux données personnalisées</strong> : possibilité de joindre un formulaire personnalisé aux projets, tâches et problèmes pour lesquels ils disposent d’un accès Gérer.</p> </li> 
-        <li><strong>Supprimer</strong> : supprimer le formulaire personnalisé du système</li> 
+        <li><strong>Supprimer</strong> : supprimer le formulaire personnalisé du système</li>
+        <li> <p><span class="preview"><strong>Supprimer les données personnalisées</strong> : possibilité de supprimer le formulaire personnalisé des projets, tâches et événements auxquels ils ont accès en gestion</span></p> </li> 
         <li><strong>Partager</strong> : partager un formulaire personnalisé avec d’autres personnes du système</li> 
        </ul> </td> 
      </tr> 

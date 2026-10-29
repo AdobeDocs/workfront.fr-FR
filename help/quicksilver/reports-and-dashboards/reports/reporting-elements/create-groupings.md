@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 91%
+source-wordcount: '464'
+ht-degree: 88%
 ---
 # Créer des regroupements dans Adobe Workfront
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ Le créateur d’interface pour la création du regroupement s’ouvre.
 1. Dans la zone **Aperçu du regroupement**, cliquez sur **Ajouter un regroupement** pour définir l&#39;organisation des informations du rapport. Vous trouverez ci-dessous un aperçu de ce à quoi ressemble un regroupement dans le rapport.
 
 1. Commencez à saisir le nom du champ qui représente la manière dont vous souhaitez organiser les informations dans le rapport, puis cliquez dessus lorsqu’il apparaît dans la liste déroulante.
+
+   >[!TIP]
+   >
+   ><span class="preview">Les champs personnalisés marqués comme favoris apparaissent dans la section **Suggested** en haut des résultats de recherche.</span>
+
 1. (Facultatif et le cas échéant) Lors de la création d’un regroupement dans une liste mise à jour, sélectionnez **Réduire ce regroupement par défaut** si vous souhaitez que les résultats du regroupement s’affichent de manière réduite plutôt que développée. Ce paramètre est désactivé par défaut et les résultats du regroupement s’affichent toujours dans la liste étendue.
 
    Pour plus d’informations sur les listes mises à jour et héritées, consultez la section [Différence entre les listes mises à jour et héritées](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) dans l’article [Commencer avec les listes dans Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).

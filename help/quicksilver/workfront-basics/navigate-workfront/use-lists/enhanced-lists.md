@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
+
+{{preview-fast-release-general}}
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
@@ -77,14 +79,16 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | --- | --- |
 | Priorités | <ul><li>Accueil > sélectionnez l’icône Priorités dans le menu de gauche</li><li>Menu principal > Priorités</li></ul> |
 | Liste des requêtes | <ul><li>Menu principal > Demandes (nouvelle expérience uniquement)</li><li>Widget Mes demandes sur l’Accueil</li></ul> |
-| Listes de statuts, priorités, gravités, <span class="preview">conditions</span> et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li><span class="preview">Configuration > Préférences du projet > Conditions</span></li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
-| <span class="preview">Listes d’actions et champs suivis dans les flux de mise à jour</span> | <ul><li><span class="preview">Onglet Configuration > Interface > Mettre à jour les flux > Champs suivis</span></li> <li><span class="preview">Onglet Configuration > Interface > Mettre à jour les flux > Actions</span></li></ul> |
-| <span class="preview">Liste des cartes de performance</span> | <span class="preview">Configuration > Cartes de performance</span> |
-| <span class="preview">Liste des types de risques</span> | <span class="preview">Configuration > Types de risques</span> |
+| Listes de statuts, priorités, gravités, conditions et taux de change dans la configuration | <ul><li>Configuration > Préférences du projet > Statuts</li><li>Configuration > Préférences du projet > Priorités</li><li>Configuration > Préférences du projet > Gravités</li><li>Configuration > Préférences du projet > Conditions</li><li>Configuration > Préférences du projet > Taux de change</li></ul> |
+| Listes d’actions et de champs suivis dans les Flux de mise à jour | <ul><li>Onglet Configuration > Interface > Mettre à jour les flux > Champs suivis</li> <li>Onglet Configuration > Interface > Mettre à jour les flux > Actions</li></ul> |
+| Liste des cartes de performance | Configuration > Cartes de performance |
+| Liste des types de risques | Configuration > Types de risques |
 | Liste des fonctions et taux sur une carte tarifaire | Configuration > Cartes tarifaires > sélectionner une carte tarifaire > Fonctions et taux |
 | Liste des emplacements | Configuration > Emplacements |
 | Liste des traductions | Configuration > Localisation |
 | Listes des intégrations | <ul><li>Configuration > Documents > Intégration SharePoint</li><li>Configuration > Documents > Intégration personnalisée</li><li>Configuration > Documents > Experience Manager Assets</li></ul> |
+| <span class="preview">Liste des modèles de disposition</span> | <span class="preview">Configuration > Interface > Modèles De Mise En Page</span> |
+| <span class="preview">Liste des notifications d’événement</span> | <ul><li><span class="preview">Configuration > E-mail > Notifications > Notifications d’événement</span></li><li><span class="preview">Page Détails du groupe > Notifications d’événement</span></li></ul> |
 | Liste des rapports | Menu principal > Rapports (l’option **Utiliser des dossiers partageables** doit être activée) |
 | Listes de rubriques de file d’attente, de groupes de rubriques et de règles de routage | <ul><li>Projet ou modèle > Rubriques de file d&#39;attente</li><li>Projet ou modèle > Groupes de sujets</li><li>Projet ou modèle > Règles de transmission</li></ul> |
 | Liste des instantanés | Projet > Instantanés |
@@ -99,10 +103,7 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfront fournit un nombre limité de regroupements prédéfinis que vous ne po
 
    ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
 
-1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.
+1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.<!--Delete this line at January release-->
 1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regroupement pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
 
-   ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)
+   ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    Un indicateur apparaît sur le bouton **Regroupement** lorsqu&#39;un regroupement est appliqué à la liste.
 
    ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">Pour réduire ou développer tous les regroupements de la liste, cliquez sur la flèche en regard du premier en-tête de colonne.</span>
+
+   <span class="preview">![Réduire tous les regroupements](assets/collapse-expand-all-groupings.png)</span>
 
 ### Tri dans une liste améliorée
 

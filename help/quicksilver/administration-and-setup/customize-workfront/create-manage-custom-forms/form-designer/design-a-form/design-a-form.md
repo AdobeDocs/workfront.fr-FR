@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 75%
+source-wordcount: '8508'
+ht-degree: 72%
 ---
 # Créer un formulaire personnalisé
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ Les formulaires personnalisés sont limités à 500 champs. Un compteur en bas 
 ### Réutiliser un champ ou un widget existant déjà utilisé dans un autre formulaire personnalisé
 
 1. En haut à gauche de l’écran, cliquez sur **Bibliothèque de champs**.
+1. Recherchez le champ que vous souhaitez ajouter au formulaire.
+
+   >[!TIP]
+   >
+   ><span class="preview">Les champs marqués comme favoris apparaissent dans la section **Suggestions** en haut de la bibliothèque de champs.</span>
 
 1. Faites glisser et déposez le champ ou le widget de votre choix sur la zone de travail. Répétez l’étape précédente pour ajouter d’autres champs ou widgets.
 
@@ -332,6 +339,15 @@ Pour ajouter un champ de texte, procédez comme suit :
     <td><ul><li>Texte descriptif</li></ul></td>
     </tr>
     <tr>
+     <td>Marquer comme favori</td>
+     <td><p><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     <td><ul>
+     <li>Texte sur une seule ligne</li>
+     <li>Paragraphe</li>
+     <li>Texte enrichi</li>
+     <li>Texte descriptif</li></ul></td>
+    </tr>
+    <tr>
      <td>Actif</td>
      <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ Pour ajouter des boutons radio, des groupes de cases à cocher et des listes dé
     <li>Liste déroulante à sélection multiple</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>Marquer comme favori</td>
+     <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     <td><ul>
+     <li>Boutons radio</li>
+     <li>Groupe de cases à cocher</li>
+     <li>Liste déroulante à sélection unique</li>
+     <li>Liste déroulante à sélection multiple</li></ul></td>
     </tr> 
     <tr>
      <td>Actif</td>
@@ -754,6 +779,10 @@ Pour ajouter des champs de date :
       <td><p>Sélectionnez cette option si vous souhaitez afficher l’heure et la date du jour dans le champ.</p></td>
      </tr> 
      <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     </tr>
+     <tr>
       <td>Actif</td>
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
@@ -870,6 +899,10 @@ Pour ajouter une recherche externe, procédez comme suit :
       <td><p>Choisissez cette option pour permettre à l’utilisateur ou l’utilisatrice de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
      </tr>
      <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     </tr>
+     <tr>
       <td>Actif</td>
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
@@ -971,6 +1004,10 @@ Pour ajouter une recherche interne :
       <td><p>Choisissez cette option pour permettre à l’utilisateur ou l’utilisatrice de sélectionner plusieurs valeurs dans la liste déroulante.</p></td>
      </tr>
      <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     </tr>
+     <tr>
       <td>Actif</td>
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ Pour ajouter des images, des PDF ou des vidéos, procédez comme suit :
      <tr> 
       <td role="rowheader">Instructions</td> 
       <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     </tr>
      <tr>
       <td>Actif</td>
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
+     </tr>
+     <tr>
       <td>Actif</td>
       <td><p>Cette option est activée par défaut.<p><p>Lorsque vous définissez un champ comme Inactif, il est exclu des rapports, filtres et affichages et n’est plus disponible dans la bibliothèque de champs de formulaires personnalisés.</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ Pour ajouter un fichier Adobe XD :
       <td role="rowheader">Instructions</td> 
       <td> <p>Saisissez des informations supplémentaires sur le widget. Lorsque les utilisateurs et utilisatrices remplissent le formulaire personnalisé, ils peuvent pointer sur l’icône de point d’interrogation pour afficher une infobulle contenant les informations saisies ici.
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
      </tr>
      <tr>
       <td>Actif</td>
@@ -1369,6 +1418,10 @@ Pour ajouter un champ de connexion à la planification :
       <td role="rowheader">Champs des types d’enregistrements</td> 
       <td><p>(Facultatif) Sélectionnez jusqu’à 7 champs de recherche du type d’enregistrement connecté à afficher dans le formulaire personnalisé. Le champ principal est sélectionné par défaut et ne peut pas être modifié. </p> <p> Les champs de l’enregistrement connecté que vous sélectionnez s’affichent dans une vue de tableau sur le formulaire personnalisé. Lorsque le formulaire est joint à un objet Workfront, la vue de tableau est en lecture seule. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>Marquer comme favori</td>
+      <td><span class="preview">Sélectionnez cette option pour que le champ s’affiche en tant que Champ suggéré lors de la création de filtres, de vues et de regroupements dans des listes et des rapports, et en haut de la bibliothèque de champs dans le concepteur de formulaire.</span></td>
      </tr>
      <tr>
       <td>Actif</td>

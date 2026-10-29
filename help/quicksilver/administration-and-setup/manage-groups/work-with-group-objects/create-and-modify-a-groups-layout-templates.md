@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 72%
+source-wordcount: '377'
+ht-degree: 68%
 ---
 # Créer et modifier des modèles de mise en page d’un groupe
 
@@ -88,9 +88,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
      Pour plus d’informations sur la copie d’un modèle de mise en page pour en créer un nouveau, voir [Copier un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
+     Pour plus d’informations sur la barre d’actions et les autres fonctionnalités des listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    * Pour modifier un modèle de mise en page de groupe existant, sélectionnez-le, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
 
      Pour plus d’informations sur la modification d’un modèle de mise en page, voir [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
    * Pour supprimer un ou plusieurs modèles de mise en page, sélectionnez-les puis cliquez sur l’icône **Supprimer** ![Icône Supprimer](assets/delete.png).
    * Pour exporter la liste des modèles de mise en page, cliquez sur l’icône **Exporter** ![Icône Exporter](assets/export-icon.png).
+
