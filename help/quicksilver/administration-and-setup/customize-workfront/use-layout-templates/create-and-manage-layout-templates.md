@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '559'
+ht-degree: 74%
 ---
 # Créer et gérer des modèles de mise en page
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ Pour plus d’informations sur les modèles de mise en page, voir [Modèles de m
 
 1. Cliquez sur **Nouveau modèle de mise en page**.
 
-   Ou
+   Pour modifier un modèle de mise en page :
 
-   Cliquez sur le nom du modèle de mise en page que vous souhaitez modifier.
+   * Cliquez sur le nom du modèle de mise en page à modifier, ou
+   * <span class="preview">Cochez la case en regard du modèle de mise en page dans la liste, puis cliquez sur **Modifier** dans la barre d’actions située en bas de l’écran.</span>
+
+     Pour plus d’informations sur la barre d’actions et les autres fonctionnalités des listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Si vous créez un nouveau modèle de mise en page, saisissez le **nom du modèle de mise en page** et (facultatif) sa **description**.
 

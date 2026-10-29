@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 94%
+source-wordcount: '337'
+ht-degree: 77%
 ---
 # Copier un modèle de mise en page
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,12 +76,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Dans le panneau de gauche, cliquez sur **Interface** > **Modèles de mise en page**.
 
-1. Cliquez sur le nom du modèle de mise en page que vous souhaitez modifier.
-1. Cliquez sur l’icône **Copier** ![Copier](assets/copy-icon.png).
+1. Cochez la case en regard du modèle de mise en page à modifier.
+1. Cliquez sur l’icône **Copier** ![Icône Copier](assets/copy-icon.png) ou <span class="preview">ou cliquez sur **Copier** dans la barre d’actions située en bas de l’écran.</span>
 
    Tous les paramètres, à l’exception du nom, de la description et des affectations d’utilisateurs et utilisatrices du modèle de mise en page existant, sont copiés dans le nouveau modèle.
 
-1. Dans l’écran qui s’affiche, saisissez un nouveau **Nom de modèle de mise en page** et (facultatif) une **Description**.
+   Pour plus d’informations sur la barre d’actions et les autres fonctionnalités des listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+1. Sur l’écran qui s’affiche, saisissez un nouveau **nom du modèle de mise en page** ainsi qu’une **description** (facultatif).
 
 1. Affectez le modèle aux personnes qui en ont besoin, comme décrit dans la section [Affecter des utilisateurs et des utilisatrices à un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 1. (Facultatif) Personnalisez le modèle, comme décrit dans les articles suivants :
@@ -92,3 +96,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    * [Personnaliser la page de destination à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Personnaliser les filtres, les vues et les regroupements à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Personnaliser la terminologie de l’interface d’utilisation à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. Cliquez sur **Créer**.
+
