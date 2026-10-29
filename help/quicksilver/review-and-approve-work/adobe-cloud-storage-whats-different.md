@@ -6,9 +6,9 @@ description: Découvrez les principales différences sur les objets d’espace d
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Nouveautés du stockage dans le cloud Adobe
@@ -94,7 +94,7 @@ La visionneuse Frame.io fournit les éléments suivants :
 * Outils de balisage et de commentaires, notamment le dessin à main levée et les formes standard telles que les cercles, les flèches et les carrés
 * Commentaires horodatés avec précision d’image pour les révisions vidéo
 * Historique des versions et comparaison des versions
-* Accès mobile pour les révisions et les approbations en cours de route
+* Accès mobile pour la révision et l&#39;approbation en déplacement avec l&#39;application [Frame.io iOS](https://help.frame.io/en/collections/9679120-ios-app)
 * Prise en charge de plus de 40 formats de fichiers, y compris tous les types courants de fichiers vidéo, image, audio, PDF et Microsoft Office, avec lecture native pour les formats vidéo professionnels tels que ProRes, H.265 et DNxHD, et prise en charge de fichiers jusqu’à 500 Go
 
 ## Règles de dénomination des objets
