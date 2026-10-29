@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
+source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 25%
+source-wordcount: '1093'
+ht-degree: 17%
 ---
 
 # Présentation de la version du premier trimestre 2027
@@ -30,8 +30,147 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
 
 ## Améliorations apportées à Adobe Workfront
 
+* [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations de l’IA](#ai-enhancements)
+* [Améliorations des documents](#documents-enhancements)
+<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Améliorations apportées aux projets](#project-enhancements)
+* [Autres améliorations](#other-enhancements)
 
+### Améliorations apportées aux administrateurs et administratrices
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Autorisations pour supprimer un formulaire personnalisé joint</a></p>
+                <p>Lors du partage d’un formulaire personnalisé, vous pouvez désormais définir des autorisations pour les utilisateurs disposant d’un accès de niveau Gérer afin de supprimer le formulaire des objets auxquels il est joint.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Marquer un champ personnalisé comme favori</a></p>
+                <p>Vous pouvez désormais marquer un champ personnalisé en tant que favori afin qu’il apparaisse en haut des champs disponibles lorsque vous créez des filtres, des vues et des regroupements, ainsi que dans la bibliothèque de champs du concepteur de formulaires.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">L’historique des modifications effectue désormais le suivi des objets du tableau de bord Zone de travail</a></p>
+                <p>L’Historique des modifications enregistre désormais les personnes qui ont créé, mis à jour ou supprimé un tableau de bord ou un rapport de zone de travail, ainsi que la date et le contenu des modifications.</p>
+                <p>[!BADGE Hors planning]{type=Neutral}</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>29 Octobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Améliorations de l’IA
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agents de travail : prise en charge native d’Adobe</a></p>
+                <p>Vous pouvez désormais créer un agent de travail qui utilise Adobe CX Coworker sans configurer de plateforme externe ni saisir d’informations d’identification externes.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Certaines icônes supprimées d’Adobe CX Enterprise Coworker dans Workfront</a></p>
+                <p>Les icônes Paramètres et Artefacts ont été supprimées pour simplifier Adobe CX Enterprise Coworker dans Workfront.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Améliorations des documents
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configuration des notifications électroniques de révision et d’approbation unifiées</a></p>
+                <p>Vous pouvez désormais configurer les 18 notifications électroniques de révision et d’approbation unifiées. Leurs objets changent légèrement.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md">Deactivate exchange rates</a></p>
+                <p>System administrators can now deactivate currencies from the list of exchange rates and activate them again later.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
 
 ### Améliorations apportées aux projets
 
@@ -50,6 +189,76 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
                 <p>Vous pouvez désormais épingler les threads les plus importants en haut de la zone des Mises à jour sur un projet, une tâche, un problème ou une demande afin que les informations clés restent visibles pour votre équipe.</p>
             </td>
             <td><p>15 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Autres améliorations
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Afficher le nombre total d’enregistrements dans les listes améliorées</a></p>
+                <p>La vue améliorée affiche désormais le nombre total d’éléments et le nombre est mis à jour au fur et à mesure que vous filtrez, recherchez ou modifiez la vue.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Meilleure visibilité des résultats de recherche rapide dans les listes améliorées</a></p>
+                <p>La recherche rapide dans une liste améliorée affiche désormais uniquement les éléments qui correspondent au lieu de mettre en surbrillance les correspondances parmi tous les éléments.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
+                <p>You can now create sections in the View dropdown menu of an enhanced list to organize related views.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Mises à jour des listes améliorées</a></p>
+                <p>Vous pouvez désormais développer ou réduire tous les regroupements dans une liste améliorée, et vous n'avez plus à sélectionner un type de vue lorsqu'un seul type est disponible.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Plusieurs écrans mis à jour vers des listes améliorées</a></p>
+                <p>Les modèles de mise en page et les listes de notifications d’événement utilisent désormais le format de liste amélioré.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Afficher ou masquer des heures dans la vue Semaine du rapport de calendrier</a></p>
+                <p>Vous pouvez désormais afficher ou masquer les heures de la journée dans la vue Semaine d’un rapport de calendrier.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
             <td><p>12 Novembre 2026</p></td>
             <td><p>21 janvier 2027</p></td>
         </tr>
@@ -82,7 +291,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -116,7 +325,7 @@ Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
