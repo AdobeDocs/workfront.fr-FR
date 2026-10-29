@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 84%
+source-wordcount: '669'
+ht-degree: 70%
 ---
 # Afficher et configurer des notifications d’événement pour un groupe
 
@@ -73,7 +73,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Afficher et configurer les notifications d’événement d’un groupe
+## Affichage et configuration des notifications d’événement d’un groupe dans la production
 
 >[!TIP]
 >
@@ -108,3 +108,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## Affichage et configuration des notifications d’événement d’un groupe dans la Prévisualisation
+
+>[!TIP]
+>
+>Si vous êtes un administrateur Workfront et que vous êtes déjà sur la page Notifications par e-mail (Configuration > E-mail > Notifications), vous pouvez effectuer les opérations suivantes, puis passer à l’étape 6 : Supprimer **Notifications d’événement système** dans la zone située au-dessus de la liste, commencez à saisir le nom du groupe dans la zone, puis cliquez dessus lorsqu’il apparaît.
+
+{{step-1-to-setup}}
+
+1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
+
+1. Cliquez sur le nom du groupe de niveau supérieur.
+1. Dans le menu de gauche, cliquez sur **Notifications d’événement**.
+1. Cliquez dans la colonne **Actif** de l’événement et sélectionnez **Actif** pour l’activer ou **Inactif** pour le désactiver.
+
+   >[!IMPORTANT]
+   >
+   >Les éléments dotés d’une icône de verrou ne peuvent pas être modifiés ni configurés pour les groupes.
+
+   ![Zone des notifications sous les e-mails de configuration](assets/group-event-notifications-g.png)
+
+   Pour connaître le statut de notification par défaut d’un événement, voir [Notifications d’événements](../../../workfront-basics/using-notifications/event-notifications.md).
+
+</div>

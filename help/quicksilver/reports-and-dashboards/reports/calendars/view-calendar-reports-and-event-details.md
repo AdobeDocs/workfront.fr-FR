@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f6d452008162409f36883dc93345c5ae0ce69f03
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 72%
+source-wordcount: '648'
+ht-degree: 62%
 ---
 # Afficher des rapports de calendrier et des détails de l’événement
 
@@ -108,20 +108,26 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 1. (Facultatif) Si vous affichez le calendrier dans les vues **Mois** ou **Semaine**, vous pouvez modifier la vue du calendrier à l’aide des options suivantes :
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * Pour modifier rapidement les dates affichées, procédez comme suit :
-
-     1. Dans la barre d’outils **[!UICONTROL Calendrier]**, cliquez sur la flèche gauche de l’indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.
-
-        ![Clic sur la flèche pour modifier la date](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        Les dates affichées sont ajustées selon un intervalle en fonction de votre vue Calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue **Semaine**, le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.
-
-     1. (Facultatif) Pour revenir au jour en cours, cliquez sur [!UICONTROL **Aujourd’hui**].
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Exclure les week-ends lors de l’affichage du calendrier dans la vue Mois</td> 
+      <td>Dans le coin supérieur droit du calendrier, activez ou désactivez l’option <b>Afficher les week-ends</b>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Afficher ou masquer les heures de la journée lors de l'affichage du calendrier dans la vue <b>[!UICONTROL Week]</b></span></td> 
+      <td><span class="preview">Dans le coin supérieur droit du calendrier, activez ou désactivez l’option <b>Afficher les heures</b>.</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Pour modifier rapidement les dates affichées</td> 
+      <td> <p>Sur la barre d'outils <b>[!UICONTROL Calendar]</b>, cliquez sur la flèche gauche de l'indicateur de date pour revenir en arrière dans le calendrier ou sur la flèche droite pour avancer.</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="Cliquer sur la flèche pour modifier la date"></p> <p>Les dates affichées sont ajustées par intervalles en fonction de votre vue de calendrier actuelle. Par exemple, si vous affichez le calendrier dans la vue <b>Semaine</b>, le calendrier affiche une semaine en avant ou une semaine en arrière, selon la flèche que vous sélectionnez.</p> <p>(Facultatif) Pour revenir au jour en cours, cliquez sur <b>[!UICONTROL Today]</b>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. (Facultatif) Pour masquer les événements d’un regroupement de projets ou de calendriers lié au calendrier, désélectionnez-le regroupement dans la liste des projets.
    ![Masquer les événements](assets/hide-events-for-project-or-cal-grouping.png)

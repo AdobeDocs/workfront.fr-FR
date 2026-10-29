@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '811'
+ht-degree: 85%
 ---
 # Déverrouiller ou verrouiller la configuration des notifications d’événements pour tous les groupes
 
@@ -71,7 +71,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 +++
 
-## Déverrouiller ou reverrouiller la possibilité de configurer une notification d’événement
+## Déverrouiller ou reverrouiller la possibilité de configurer une notification d’événement en production
 
 >[!IMPORTANT]
 >
@@ -93,3 +93,32 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    * Supprimez les **Notifications d’événement système** dans la zone de recherche située au-dessus de la liste des notifications, recherchez et sélectionnez le nom du groupe de niveau supérieur pour répertorier ses notifications, puis activez ou désactivez les notifications déverrouillées dans la liste qui s’affiche.
    * Cliquez sur **Groupes** dans le menu de gauche, cliquez sur le nom du groupe de niveau supérieur. Cliquez sur **Notifications d’événement** dans le panneau de gauche, puis configurez la notification d’événement déverrouillée, comme expliqué à la section [Afficher et configurer des notifications d’événement pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+
+<div class="preview">
+
+## Déverrouiller ou reverrouiller la possibilité de configurer une notification d’événement en production
+
+>[!IMPORTANT]
+>
+>Lorsque vous reverrouillez une notification, tous les groupes du système héritent de la notification exactement comme vous la définissez. Cela remplace toute modification que les administrateurs et administratrices de groupe peuvent avoir apportée à leurs groupes. Il est donc préférable de les consulter d’abord.
+
+{{step-1-to-setup}}
+
+1. Cliquez sur **E-mail** > **Notifications**.
+
+1. Assurez-vous que l’onglet **Notifications d’événement** est ouvert.
+
+
+1. Pour déverrouiller une notification pour un groupe, cliquez sur l’icône de verrouillage ![icône de verrouillage](assets/lock-icon-100626.png) à droite de la notification et sélectionnez **Déverrouiller l’accès au groupe**. L’icône de verrouillage ne s’affiche plus lorsque la notification est déverrouillée.
+
+1. Pour verrouiller une notification pour un groupe, sélectionnez le menu Plus ![menu Plus](assets/more-icon.png) à droite de la notification et cliquez sur **Verrouiller l’accès au groupe** dans la barre d’actions située en bas de l’écran. L’icône de cadenas ![icône cadenas](assets/lock-icon-100626.png) s’affiche lorsque la notification est verrouillée.
+
+
+
+1. (Facultatif) Si vous souhaitez configurer la notification d’événement pour un groupe de niveau supérieur au lieu de laisser cette tâche à l’administrateur ou l’administratrice du groupe, vous pouvez effectuer l’une des opérations suivantes :
+
+   * Supprimez les **Notifications d’événement système** dans la zone de recherche située au-dessus de la liste des notifications, recherchez et sélectionnez le nom du groupe de niveau supérieur pour répertorier ses notifications, puis activez ou désactivez les notifications déverrouillées dans la liste qui s’affiche.
+   * Cliquez sur **Groupes** dans le menu de gauche, cliquez sur le nom du groupe de niveau supérieur. Cliquez sur **Notifications d’événement** dans le panneau de gauche, puis configurez la notification d’événement déverrouillée, comme expliqué à la section [Afficher et configurer des notifications d’événement pour un groupe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+
+   </div>
