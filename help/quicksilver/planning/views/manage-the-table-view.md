@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 36%
 ---
 # Gérer la vue de tableau
@@ -54,7 +54,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [ Exporter des enregistrements de la vue Tableau ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -277,7 +277,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [](/help/quicksilver/planning/fields/primary-field-overview.md).
 
    >[!TIP]
    >
@@ -332,7 +332,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
      * **SUM** : affiche le total de toutes les cellules de la colonne.
      * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
-     * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
+     * **** : affiche la valeur la plus élevée de toutes les cellules de la colonne.
      * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
      * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
 
@@ -342,7 +342,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
      * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
      * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
      * **MIN** : affiche la date la plus proche.
-     * **&#x200B;**&#x200B;: affiche la date la plus récente.
+     * **** : affiche la date la plus récente.
 
    * Pour le texte, sélectionnez, booléen, les champs Personnes développent le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
 
@@ -396,6 +396,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 Les lignes d’une vue de tableau affichent des enregistrements individuels du type d’enregistrement sélectionné. L’ajout de lignes est identique à la création d’enregistrements.
 
 Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement. <span class="preview">Seules 500 lignes s’affichent par défaut. Charge plus importante en faisant défiler la page.</span>
+<span class="preview">Le nombre total d’enregistrements s’affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau.</span>
 
 1. Accédez à une page de type d’enregistrement et sélectionnez une vue de tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
@@ -411,7 +412,6 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    >
    >![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">Le nombre total d’enregistrements s’affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau.</span>
 
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 
@@ -647,7 +647,7 @@ Tenez compte des points suivants :
 
 * Vous pouvez utiliser des regroupements à la fois dans la vue tableau et dans la vue chronologique. Les regroupements de la vue de tableau sont indépendants de ceux de la vue chronologique du même type d’enregistrement.
 * Vous pouvez appliquer 3 niveaux de regroupement dans une vue. Les enregistrements sont regroupés dans l’ordre des regroupements que vous sélectionnez.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Vous pouvez appliquer jusqu’à 4 niveaux de regroupement lors de l’utilisation de l’API. —vérification de celui-ci pour l&#39;instant ******************—>
 * Les regroupements sont propres à la vue que vous sélectionnez. Vous pouvez appliquer des regroupements différents à deux vues de tableau du même type d’enregistrement. Deux utilisateurs ou utilisatrices qui consultent la même vue de tableau voient le regroupement qui est actuellement appliqué.
 * Vous ne pouvez pas nommer les regroupements que vous créez pour une vue de tableau.
 * En supprimant les regroupements, vous les supprimez pour toutes les personnes qui accèdent au même type d’enregistrement que vous et qui consultent la même vue que vous.
