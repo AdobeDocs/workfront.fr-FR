@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a62afa30eb4727619e64ea2a98e639891a29af
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 78%
+source-wordcount: '1117'
+ht-degree: 60%
 ---
 # Affecter des utilisateurs et utilisatrices à un modèle de mise en page
 
@@ -104,17 +104,28 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Priorité d’affectation du modèle de mise en page {#layout-template-assignment-priority}
 
-Vous et d’autres administrateurs et administratrices Workfront pouvez affecter plusieurs modèles de mise en page différents à une même personne de quatre manières différentes :
+Vous et d’autres administrateurs et administratrices Workfront pouvez affecter plusieurs modèles de mise en page différents au même utilisateur ou à la même utilisatrice des manières suivantes :
 
 * À l’utilisateur ou utilisatrice individuel
 * À une fonction particulière que l’utilisateur ou utilisatrice occupe
 * À une certaine équipe dont fait partie l’utilisateur ou utilisatrice
 * À un certain groupe dans lequel se trouve l’utilisateur ou utilisatrice
 * À un certain niveau d’accès, l’utilisateur est affecté à
+* À un profil d’entreprise affecté à l’utilisateur
 
 Cependant, un seul modèle de mise en page est visible à tout moment par la personne. Le modèle visible est déterminé par la hiérarchie de priorité suivante :
 
-* **Utilisateur ou utilisatrice individuel** : le modèle de mise en page affecté à la personne en tant qu’utilisateur ou utilisatrice individuel remplace tous les autres. Vous pouvez remplacer une affectation précédente effectuée pour un utilisateur ou une utilisatrice individuel en effectuant une nouvelle affectation ; la plus récente est prioritaire.
+* **Profil professionnel** : les profils professionnels représentent le niveau de priorité le plus élevé pour un modèle de mise en page. Si l’utilisateur possède un profil professionnel avec des modèles de mise en page affectés aux niveaux d’accès et qu’il se trouve sur une page spécifique à un groupe (par exemple, un projet associé à un groupe), tous les modèles de mise en page de profil professionnel pour ce groupe sont combinés avec le modèle de mise en page affecté à l’utilisateur. Lorsque l’utilisateur ne se trouve pas sur une page spécifique à un groupe, tous les modèles de mise en page de profil professionnel sont combinés avec le modèle de mise en page affecté à l’utilisateur.
+
+  Lorsque des modèles de mise en page pour plusieurs profils professionnels et niveaux d’accès sont combinés, tous les éléments de mise en page disponibles s’affichent. Si un élément de menu est affiché dans un modèle, mais masqué dans un autre, il s’affiche. Seuls les éléments masqués dans tous les modèles du profil professionnel sont masqués.
+
+  >[!NOTE]
+  >
+  >Les profils métier sont disponibles uniquement pour les organisations qui disposent d’un package Workflow Ultimate.
+
+  Pour plus d’informations, voir [ Présentation des profils métier ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+
+* **Utilisateur individuel** : le modèle de mise en page affecté à la personne en tant qu’utilisateur individuel remplace tous les autres, à l’exception des modèles de mise en page provenant d’un profil d’entreprise. Vous pouvez remplacer une affectation précédente affectée à un utilisateur individuel en effectuant une nouvelle affectation ; la plus récente est prioritaire.
 * **Fonction principale** : si aucun modèle de mise en page n’est affecté à la personne en tant qu’utilisateur ou utilisatrice unique, elle voit le modèle affecté à leur fonction principale.
 
   Seul le modèle de mise en page affecté à la fonction principale d’une personne est visible par la personne. Les modèles affectés à des fonctions secondaires occupées par la personne ne sont pas visibles.
@@ -127,7 +138,7 @@ Cependant, un seul modèle de mise en page est visible à tout moment par la per
 
   Seul le modèle affecté au groupe principal d’un utilisateur ou d’une utilisatrice est visible par l’utilisateur ou l’utilisatrice. Les modèles affectés à ses autres groupes ne sont pas visibles.
 
-* Niveau d’accès : si la personne n’est pas affectée à un modèle de mise en page en tant qu’utilisateur individuel, ni en tant qu’utilisateur disposant d’une fonction principale, ni en tant que membre d’une équipe interne, ni en tant que membre d’un groupe interne, le modèle lui est affecté.
+* **Niveau d’accès** : si la personne ne se voit pas attribuer un modèle de mise en page en tant qu’utilisateur individuel, ni en tant qu’utilisateur disposant d’une fonction principale, ni en tant que membre d’une équipe interne, ni en tant que membre d’un groupe interne, le modèle lui est attribué au niveau d’accès qui lui est attribué.
 
 ## Si un grand nombre de personnes sont affectées à un modèle de mise en page
 
