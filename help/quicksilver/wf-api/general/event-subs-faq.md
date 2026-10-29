@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 92%
+source-wordcount: '1101'
+ht-degree: 82%
 ---
 # Questions fréquentes - Abonnements aux événements
 
@@ -96,6 +96,16 @@ Vous pouvez utiliser n’importe quelle authentification utilisant un jeton port
 ## Combien de temps doit s’écouler avant que je ne reçoive ma payload d’événement des abonnements aux événements Workfront ?
 
 En règle générale, vous pouvez vous attendre à recevoir les demandes de diffusion d’événement d’abonnement aux événements en moins de 5 secondes à partir de la modification des données consignée. En moyenne, les notifications de webhook sont reçues en moins d’une seconde à partir du moment où la modification des données est effectuée. Cependant, le service peut recevoir des messages en si grande quantité qu’il peut également prendre plus de temps.
+
+## Puis-je recevoir le même événement plusieurs fois ?
+
+Oui. Workfront utilise la déduplication pour réduire les diffusions d’événements en double, mais il ne garantit pas une diffusion exactement unique.
+
+Une fois qu’un point d’entrée renvoie une réponse HTTP réussie (2xx), Workfront enregistre temporairement cette diffusion et utilise cet enregistrement pour supprimer les diffusions suivantes du même événement pour le même abonnement. Les diffusions pour des abonnements distincts sont suivies indépendamment.
+
+Des doublons peuvent toujours se produire. Par exemple, lorsque les tentatives de diffusion se chevauchent, un point d’entrée traite un événement mais sa réponse n’atteint pas Workfront, ou l’enregistrement de diffusion expire ou n’est pas disponible.
+
+Concevez votre point d’entrée pour traiter les diffusions répétées en toute sécurité (idempotent). Utilisez l’en-tête de requête `X-Event-ID` ainsi que la `subscriptionId` de la payload pour identifier les diffusions répétées pour un abonnement.
 
 ## Ressources supplémentaires
 
