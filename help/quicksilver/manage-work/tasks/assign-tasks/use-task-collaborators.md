@@ -16,22 +16,26 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: '1230'
+ht-degree: 3%
 ---
 # Utiliser des agents de travail
 
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de prévisualisation pour tous les clients et clientes.</span>
+
 Les agents de travail sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches, des événements et des demandes Workfront. Comme les autres collaborateurs de l’IA, les agents de travail sont configurés dans la zone Configuration et affectés à des tâches comme un utilisateur.
 
-Les agents de travail se connectent aux agents que vous avez configurés dans Copilot Studio, Claude, OpenAI ou IBM.
+<span class="preview">Vous pouvez utiliser un agent de travail natif Adobe prêt à l’emploi et optimisé par Adobe CX Coworker</span> ou un agent de travail connecté à une plateforme externe. Les fonctionnalités disponibles et les exigences de configuration dépendent de l’origine de l’agent.
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez la section [ Migration et obsolescence de la bibliothèque d’agents ](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 Pour plus d’informations et d’instructions sur la création d’un agent de travail dans Workfront, consultez [Configurer un agent de travail](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) dans l’article Configuration des collaborateurs de l’IA.
 
@@ -64,7 +68,9 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Conditions préalables
 
-* Vous devez configurer un agent dans Copilot, Claude, OpenAI ou IBM avant de pouvoir l’utiliser comme agent de travail dans Workfront.
+* Un administrateur doit configurer l’agent de travail dans Workfront avant de pouvoir l’utiliser.
+* <span class="preview">Pour un agent de travail natif Adobe, Adobe CX Coworker doit être activé pour votre organisation.</span>
+* Pour un agent de travail connecté à une plateforme externe, l’agent doit également être configuré sur cette plateforme.
 
 ## Présentation de l’agent de travail
 
@@ -116,21 +122,22 @@ Selon la configuration de l’agent de travail dans Workfront, il peut effectuer
 
 Lorsqu’un agent de travail est affecté à une tâche ou à un événement, il commence à travailler lorsque l’une des situations suivantes est remplie :
 
-<!--update wording to include issues when this goes to production-->
-
 * L&#39;agent de travail est affecté à une tâche prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
 * L’agent de travail et un utilisateur sont affectés à une tâche, et l’agent de travail est affecté en premier.
 * Une tâche à laquelle un agent de travail est déjà affecté devient prête à démarrer et l&#39;agent de travail est la seule personne désignée ou la personne désignée principale. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
 * Une tâche à laquelle un agent de travail et un utilisateur sont déjà affectés devient prête à démarrer et l’agent de travail a été affecté en premier ou est le cessionnaire principal. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci sont terminés.)
 * Un utilisateur et un agent de travail sont affectés à une tâche et l&#39;utilisateur est supprimé.
 * Un utilisateur et un agent de travail sont affectés à une tâche, et l’agent de travail est défini comme cessionnaire par Principal pour la tâche.
+* <span class="preview">Un agent de travail natif Workfront est @mentioned dans une tâche.
 
 Les situations suivantes ne provoquent pas le début du travail de l’agent de travail sur la tâche :
 
 * Un agent de travail est affecté à une tâche à laquelle un utilisateur est déjà affecté.
-* Un agent de travail @mentioned une tâche.
+* <span class="preview">Un agent de travail est @mentioned dans une tâche pour un fournisseur qui ne prend pas en charge les déclencheurs de démarrage.</span>
 * Un agent de travail est affecté à une tâche à laquelle un agent de travail est déjà affecté. Dans ce cas, le premier agent de travail affecté aura déjà commencé le travail, et le second agent de travail ne fera rien.
 * Un agent de travail est affecté à une tâche qui n&#39;est pas prête à démarrer. (Par exemple, si la tâche comporte des prédécesseurs, ceux-ci ne sont pas encore terminés.)
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## Affecter un agent de travail à une tâche, un problème ou une demande
 
