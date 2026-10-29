@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 78%
 ---
 # Environnement de sandbox à actualisation personnalisée [!DNL Adobe Workfront]
 
 Le sandbox à actualisation personnalisée est un environnement dans lequel vous pouvez effectuer des tests et travailler en utilisant les données de votre environnement de production. Il est également idéal pour réaliser des formations et déterminer le fonctionnement d’une configuration.
+
+
 
 >[!NOTE]
 >
@@ -46,7 +48,7 @@ Le sandbox à actualisation personnalisée est un environnement dans lequel vous
 >
 >  De plus, l’obtention du sandbox à actualisation personnalisée nécessite un coût supplémentaire, qui n’est pas nécessaire pour le sandbox de prévisualisation.
 >
->  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Pour plus d’informations sur le sandbox de prévisualisation, voir [Environnement du sandbox de prévisualisation  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Conditions d’accès
 
@@ -132,6 +134,10 @@ Pour accéder à votre sandbox à actualisation personnalisée :
    Vos identifiants de sandbox à actualisation personnalisée sont les mêmes que ceux de production, à moins que vous n’ayez modifié vos identifiants de production depuis la dernière actualisation de votre sandbox à actualisation personnalisée. Les connexions ne sont synchronisées que lorsqu’une actualisation a lieu. Elles ne se synchronisent pas automatiquement.
 
    Le sandbox à actualisation personnalisée affiche la version ainsi que la date de la dernière actualisation dans la bannière en haut de l’écran. Toutes les informations issues de la production sont disponibles et prêtes à l’emploi après une actualisation.
+
+>[!IMPORTANT]
+>
+>Les données Planning dans les tableaux de bord de la zone de travail ne sont visibles que par les administrateurs [!DNL Workfront] dans les environnements Sandbox.
 
 ## Accéder au sandbox à actualisation personnalisée à l’aide d’une URL {#access-the-custom-refresh-sandbox-using-a-url}
 

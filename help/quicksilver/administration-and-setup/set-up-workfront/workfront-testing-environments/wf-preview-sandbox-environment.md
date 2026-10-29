@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 87%
+source-wordcount: '1379'
+ht-degree: 86%
 ---
 # Environnement de prévisualisation de sandbox [!DNL Adobe Workfront]
 
@@ -45,7 +45,7 @@ Il existe deux environnements de test pour [!DNL Workfront] qui sont des répliq
 
 * Environnement de sandbox à actualisation personnalisée
 
-  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  L’environnement de sandbox à actualisation personnalisée est un environnement de test distinct qui est actualisé manuellement par vos soins. L’obtention du sandbox à actualisation personnalisée entraîne des frais supplémentaires. Pour plus d’informations sur cet environnement, consultez la section [Environnement de sandbox à actualisation personnalisée  [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,6 +83,10 @@ Les données circulent de manière unidirectionnelle, de la production à la pr�
 L’environnement de prévisualisation de sandbox permet également à [!DNL Workfront] de déployer de nouvelles fonctionnalités dans un environnement sûr, avant qu’elles ne soient prêtes à être déployées en production. Vous pouvez tester les nouvelles fonctionnalités et laisser des commentaires sur leur fonctionnement à [!DNL Workfront] en accédant à l’environnement de prévisualisation de sandbox. Ainsi, le code de l’environnement de prévisualisation de sandbox est toujours en avance sur celui de production, même si vos données sont actualisées chaque semaine.
 
 L’environnement de prévisualisation est idéal pour organiser des formations, tester de nouvelles fonctionnalités et déterminer les fonctions de configuration.
+
+>[!IMPORTANT]
+>
+>Les données Planning dans les tableaux de bord de la zone de travail ne sont visibles que par les administrateurs [!DNL Workfront] dans les environnements Sandbox.
 
 >[!NOTE]
 >
@@ -209,4 +213,4 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
 
-* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud ](/help/quicksilver/review-and-approve-work/esm-overview.md).
