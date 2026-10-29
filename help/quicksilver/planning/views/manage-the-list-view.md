@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '2017'
 ht-degree: 1%
 ---
 
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * Une page d&#39;enregistrements connectée pour les projets dans la zone des détails d&#39;un enregistrement
    * Page Formulaires de demande d’un type d’enregistrement
 
+   >[!TIP]
+   >
+   ><span class="preview">Le nombre d’éléments dans la liste s’affiche à gauche de la zone de recherche rapide dans le coin supérieur droit de la liste. Le nombre reflète le nombre d’éléments affichés avec des filtres appliqués à la liste. Les éléments que vous n’êtes pas autorisé à consulter ne sont pas comptabilisés. </span>
+
+
 1. (Conditionnel) Si disponible, effectuez l’une des opérations suivantes pour modifier la vue Liste :
 
    1. Développez le menu des vues déroulantes dans le coin supérieur gauche de la liste pour sélectionner une autre vue, ou cliquez sur **Nouvelle vue** et créez-en une autre.
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. (Facultatif) Ajoutez un mot-clé dans la zone de recherche située dans le coin supérieur droit de la liste pour rechercher un élément.
 
    Les éléments qui correspondent à votre terme de recherche sont mis en surbrillance dans la liste.
+
+   <span class="preview">La liste est filtrée afin d’afficher uniquement les éléments qui correspondent à la recherche. </span>
 
 1. (Facultatif et conditionnel) Pour ajouter d’autres éléments à la liste et les connecter automatiquement à l’enregistrement sélectionné, effectuez l’une des opérations suivantes dans la page <!--change projects to items here when more items will display in the Glist--> connectée des projets :
 

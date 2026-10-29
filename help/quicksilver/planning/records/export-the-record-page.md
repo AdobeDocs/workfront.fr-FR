@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 9%
+source-wordcount: '518'
+ht-degree: 17%
 ---
 # Exporter des détails d’un enregistrement
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Elles ne sont disponibles que dans l’environnement de prévisualisation pour toute la clientèle ou dans l’environnement de production pour les clientes et les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * Le fichier exporté conserve la disposition de la page d’enregistrement, y compris les images de la miniature et de la couverture.
 
-* Vous ne pouvez pas exporter une page de détails personnalisée, où plusieurs champs sont masqués.
+* Dans l’environnement de production, vous ne pouvez pas exporter une page de détails personnalisée, où plusieurs champs sont masqués.
+
+<div class="preview">
+
+* Dans l’environnement Aperçu , vous pouvez exporter une page de Détails personnalisée, où plusieurs champs sont masqués.
+
+</div>
 
 ## Exporter des détails d’un enregistrement
 
@@ -195,7 +199,7 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
 1. Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) dans l&#39;aperçu ou dans la page de l&#39;enregistrement, puis cliquez sur l&#39;une des options suivantes :
 
    * **Microsoft Word**
-   * **&#x200B;**
+   * ****
 
    Un fichier Word (.docx) ou PDF est téléchargé et enregistré sur votre ordinateur.
 
@@ -206,7 +210,6 @@ La page de type d’enregistrement s’ouvre et tous les enregistrements de ce t
    >[!NOTE]
    >
    >    Les informations supplémentaires qui ne s’affichent pas sur la page et qui ne sont visibles qu’après avoir cliqué sur Afficher plus dans la zone des détails de l’enregistrement ne s’affichent pas dans le fichier PDF exporté. Seules les informations visibles sur la page s’affichent dans le fichier exporté.
-
 
 1. (Facultatif) Accédez au fichier téléchargé, ouvrez-le et modifiez-le (s’il s’agit d’un fichier Word) ou partagez-le avec d’autres personnes.
 

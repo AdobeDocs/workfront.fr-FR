@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
@@ -148,7 +148,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Notez que toutes les listes ne prennent pas en charge tous les types de champ.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![ Exemple de liste améliorée ](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
@@ -173,7 +173,7 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ Exemple de barre d’actions ](assets/glist-action-bar-statuses.png)
 
 1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
@@ -250,6 +250,25 @@ Pour ajouter et supprimer des colonnes :
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
+Pour afficher le nombre total d’éléments dans une liste, effectuez l’une des opérations suivantes :
+
+* Dans l’environnement de production :
+
+  1. Ouvrez une liste améliorée.
+  1. Faites défiler jusqu’au bas de la liste.
+
+     Le nombre total d’éléments, en prenant en compte les filtres appliqués, s’affiche dans le coin inférieur droit de la liste.
+
+<div class="preview">
+
+* Dans l’environnement de Prévisualisation :
+
+  1. Ouvrez une liste améliorée.
+  1. Le cas échéant, affichez le nombre total d’éléments à gauche de la zone de recherche rapide, dans le coin supérieur droit de la liste.
+  1. (Conditionnel) Si certains éléments ne s’affichent pas à l’écran par défaut, faites défiler la page pour en afficher plus.
+
+</div>
+
 Pour modifier la hauteur de ligne dans une vue :
 
 1. Cliquez sur l’icône **Hauteur de ligne** ![Icône de hauteur de ligne](assets/row-height-icon.png) dans une liste améliorée.
@@ -293,8 +312,8 @@ Pour appliquer ou créer une vue :
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [ Personnaliser les colonnes d’une liste améliorée ](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [ Filtrer les éléments dans une liste améliorée ](#filter-items-in-an-enhanced-list).
 1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
@@ -516,7 +535,11 @@ Pour trier des colonnes individuelles :
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-1. Saisissez un mot-clé à utiliser pour la recherche dans la zone Rechercher située dans le coin supérieur droit de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+1. Saisissez un mot-clé à utiliser pour la recherche dans la zone **Rechercher** située dans le coin supérieur droit de la liste.
+
+   Dans l’environnement de production, les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous tapez.
+
+   <span class="preview">Dans l’environnement Aperçu , la liste est filtrée afin d’afficher uniquement les éléments qui correspondent aux critères de recherche. Le nombre total d’enregistrements à gauche de la zone de recherche rapide est remplacé par le nombre d’éléments trouvés.</span>
 
    ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
 

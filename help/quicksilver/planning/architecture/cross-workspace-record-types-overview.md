@@ -26,19 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 2%
+source-wordcount: '1948'
+ht-degree: 3%
 ---
 # Présentation du type d’enregistrement de l’espace de travail croisé
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+
+<span class="preview">Pour plus d’informations sur les versions rapides, consultez la section [Activer ou désactiver les versions rapides pour votre entreprise](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
 
 {{planning-important-intro}}
 
@@ -228,7 +228,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### Accès aux connexions d’un type d’enregistrement global
 
-Les types d’enregistrement connectés au type d’enregistrement global dans l’espace de travail d’origine deviennent visibles à partir d’autres espaces de travail où le type d’enregistrement global est ajouté et ils sont disponibles pour les connexions à partir des espaces de travail secondaires où le type d’enregistrement global est ajouté.
+* Les types d’enregistrement connectés au type d’enregistrement global dans l’espace de travail d’origine deviennent visibles à partir d’autres espaces de travail où le type d’enregistrement global est ajouté et ils sont disponibles pour les connexions à partir des espaces de travail secondaires où le type d’enregistrement global est ajouté.
+
+<div class="preview">
+
+* Lorsque deux types d’enregistrements globaux connectés sont ajoutés à un espace de travail secondaire, vous pouvez désactiver la connectivité entre espaces de travail et toujours lier les enregistrements localement.
+
+  Chaque type d’enregistrement secondaire affiche uniquement ses propres enregistrements pour les deux types d’enregistrement et peut les connecter les uns aux autres. Les enregistrements de l’espace de travail global et d’autres espaces de travail secondaires ne s’affichent plus.
+
+</div>
 
 ### Accès API d’un type d’enregistrement global
 

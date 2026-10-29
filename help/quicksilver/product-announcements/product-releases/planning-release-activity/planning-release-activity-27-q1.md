@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 3%
 ---
 # Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >Version rapide de production : 12 novembre 2026
 >Production pour tous : 21 janvier 2027
 
-Lorsque deux types d’enregistrements globaux connectés sont ajoutés à un espace de travail secondaire, vous pouvez désormais désactiver la connectivité entre espaces de travail et toujours lier les enregistrements localement. Chaque espace de travail secondaire ne voit que ses propres enregistrements pour les deux types d’enregistrements et peut les connecter les uns aux autres. Les enregistrements de l’espace de travail global et d’autres espaces de travail secondaires ne s’affichent plus.
+Lorsque deux types d’enregistrements globaux connectés sont ajoutés à un espace de travail secondaire, vous pouvez désactiver la connectivité entre espaces de travail et toujours lier les enregistrements localement.
+
+Chaque type d’enregistrement secondaire affiche uniquement ses propres enregistrements pour les deux types d’enregistrement et peut les connecter les uns aux autres. Les enregistrements de l’espace de travail global et d’autres espaces de travail secondaires ne s’affichent plus.
 
 Avant cette amélioration, si la connectivité entre espaces de travail était désactivée pour les types d’enregistrements globaux connectés, les espaces de travail secondaires ne pouvaient pas lier leurs propres enregistrements les uns aux autres. Si elle était activée, les utilisateurs pouvaient afficher et lier des enregistrements de l’espace de travail global et de tous les autres espaces de travail secondaires.
 
-Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-## Afficher le nombre total d’enregistrements dans les vues Tableau
+## Afficher le nombre total d’enregistrements dans les vues Tableau, Chronologie et Liste
 
 >[!NOTE]
 >
@@ -79,9 +81,11 @@ Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrem
 >Version rapide de production : 12 novembre 2026
 >Production pour tous : 21 janvier 2027
 
-La vue Tableau affiche désormais le nombre total d’enregistrements et le nombre est automatiquement mis à jour lorsque vous appliquez des filtres, recherchez ou modifiez la vue. Le nombre d’enregistrements reflète toujours l’intégralité des résultats filtrés et respecte vos autorisations.
+Les vues Tableau, Chronologie et Liste affichent désormais le nombre total d’enregistrements et le nombre est automatiquement mis à jour lorsque vous appliquez des filtres, recherchez ou modifiez la vue. Le nombre d’enregistrements reflète toujours l’intégralité des résultats filtrés et respecte vos autorisations.
 
-Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
+Le nombre d’enregistrements s’affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau, de la chronologie ou de la vue Liste.
+
+Pour plus d’informations, voir [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 <!--
 
@@ -147,7 +151,7 @@ Nous introduisons des limites sur le nombre de champs de recherche que vous pouv
 
 Vous recevez une erreur lorsque vous essayez de créer ou de modifier un champ de recherche au-delà des deux premières limites. Les types d’enregistrements qui dépassent déjà ces limites ne sont pas affectés par cette modification. Vous pouvez les modifier, mais vous ne pouvez pas ajouter d’autres champs ou valeurs de recherche tant que vous n’êtes pas sous la limite.
 
-Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Les nouveaux champs n’apparaissent désormais que dans l’affichage où vous les créez
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## Amélioration des performances avec le chargement incrémentiel des données dans les vues Tableau et Chronologie
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >Aperçu : 29 octobre 2026
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 Pour améliorer les performances sur un grand nombre d’enregistrements, nous avons apporté les améliorations suivantes aux vues Tableau et Chronologie :
 
-* La vue charge désormais initialement les 500 premiers enregistrements, avec des enregistrements supplémentaires chargés automatiquement lorsque vous faites défiler les lots de 500.
-* La recherche et le regroupement rapides n’affectent que les enregistrements actuellement chargés dans la vue.
+* La vue Tableau charge désormais initialement les 500 premiers enregistrements, avec des enregistrements supplémentaires chargés automatiquement lorsque vous faites défiler les lots de 500.
+* La vue chronologique présente un comportement similaire, mais charge 1 000 enregistrements à la fois, les 1 000 suivants étant chargés lors du défilement.
+* La recherche rapide s’applique à tous les enregistrements et pas seulement à ceux qui s’affichent dans la vue actuelle. D’autres enregistrements se chargent à mesure que vous faites défiler la chronologie et le tableau.
+* Lors de l’application d’une recherche rapide dans la vue chronologique et si plus de 1 000 éléments ont été trouvés, vous pouvez cliquer sur Charger plus en bas de la chronologie pour afficher davantage d’enregistrements correspondant à la recherche.
 
 Pour plus d’informations, consultez la section [Gérer la vue de tableau](/help/quicksilver/planning/views/manage-the-table-view.md) et [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
