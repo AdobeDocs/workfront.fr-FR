@@ -69,7 +69,7 @@ Lorsque deux types d’enregistrements globaux connectés sont ajoutés à un es
 
 Avant cette amélioration, si la connectivité entre espaces de travail était désactivée pour les types d’enregistrements globaux connectés, les espaces de travail secondaires ne pouvaient pas lier leurs propres enregistrements les uns aux autres. Si elle était activée, les utilisateurs pouvaient afficher et lier des enregistrements de l’espace de travail global et de tous les autres espaces de travail secondaires.
 
-Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Afficher le nombre total d’enregistrements dans les vues Tableau
 
@@ -147,7 +147,7 @@ Nous introduisons des limites sur le nombre de champs de recherche que vous pouv
 
 Vous recevez une erreur lorsque vous essayez de créer ou de modifier un champ de recherche au-delà des deux premières limites. Les types d’enregistrements qui dépassent déjà ces limites ne sont pas affectés par cette modification. Vous pouvez les modifier, mais vous ne pouvez pas ajouter d’autres champs ou valeurs de recherche tant que vous n’êtes pas sous la limite.
 
-Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [](/help/quicksilver/planning/general/limitations-overview.md).
+Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Les nouveaux champs n’apparaissent désormais que dans l’affichage où vous les créez
 
