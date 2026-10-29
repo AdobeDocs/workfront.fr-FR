@@ -123,7 +123,7 @@ Cependant, un seul modèle de mise en page est visible à tout moment par la per
   >
   >Les profils métier sont disponibles uniquement pour les organisations qui disposent d’un package Workflow Ultimate.
 
-  Pour plus d’informations, voir [ Présentation des profils métier ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+  Pour plus d’informations, voir [&#x200B; Présentation des profils métier &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
 
 * **Utilisateur individuel** : le modèle de mise en page affecté à la personne en tant qu’utilisateur individuel remplace tous les autres, à l’exception des modèles de mise en page provenant d’un profil d’entreprise. Vous pouvez remplacer une affectation précédente affectée à un utilisateur individuel en effectuant une nouvelle affectation ; la plus récente est prioritaire.
 * **Fonction principale** : si aucun modèle de mise en page n’est affecté à la personne en tant qu’utilisateur ou utilisatrice unique, elle voit le modèle affecté à leur fonction principale.
