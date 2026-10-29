@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1099'
 ht-degree: 17%
 ---
 
@@ -138,7 +138,7 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Configuration des notifications électroniques de révision et d’approbation unifiées</a></p>
                 <p>Vous pouvez désormais configurer les 18 notifications électroniques de révision et d’approbation unifiées. Leurs objets changent légèrement.</p>
             </td>
-            <td><p>29 Octobre 2026</p></td>
+            <td> <p>Cette fonctionnalité est temporairement indisponible dans l’environnement de Prévisualisation.</p></td>
             <td><p>12 Novembre 2026</p></td>
             <td><p>21 janvier 2027</p></td>
         </tr>
@@ -291,7 +291,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -325,7 +325,7 @@ Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

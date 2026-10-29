@@ -4,9 +4,9 @@ description: Améliorations des documents du premier trimestre 2027
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 11%
 ---
 
@@ -36,11 +36,19 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 ## Configuration des notifications électroniques de révision et d’approbation unifiées
 
+>[!IMPORTANT]
+>
+>Cette fonctionnalité est temporairement indisponible dans l’environnement de Prévisualisation.
+
+
+<!--
 >[!NOTE]
 >
->Aperçu : 29 octobre 2026
->Version rapide de production : 12 novembre 2026
->Production pour tous : 21 janvier 2027
+>Preview: October 29, 2026
+>Production fast release: November 12, 2026
+>Production for everyone: January 21, 2027
+
+-->
 
 Vous pouvez désormais configurer des notifications électroniques de révision et d’approbation unifiées. Workfront a toujours envoyé ces e-mails, mais vous ne pouviez pas les configurer jusqu’à présent. Il existe désormais 18 notifications regroupées en tant qu’Approbations unifiées et actives par défaut. Les administrateurs Workfront peuvent les activer ou les désactiver pour tous les utilisateurs dans la configuration et les utilisateurs peuvent les gérer dans leurs profils.
 
