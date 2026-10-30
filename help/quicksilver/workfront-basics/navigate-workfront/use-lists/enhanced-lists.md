@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
@@ -249,6 +249,25 @@ Pour ajouter et supprimer des colonnes :
 >[!NOTE]
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
+
+Pour afficher le nombre total d’éléments dans une liste, effectuez l’une des opérations suivantes :
+
+* Dans l’environnement de production :
+
+  1. Ouvrez une liste améliorée.
+  1. Faites défiler jusqu’au bas de la liste.
+
+     Le nombre total d’éléments, en prenant en compte les filtres appliqués, s’affiche dans le coin inférieur droit de la liste.
+
+<div class="preview">
+
+* Dans l’environnement de Prévisualisation :
+
+  1. Ouvrez une liste améliorée.
+  1. Le cas échéant, affichez le nombre total d’éléments à gauche de la zone de recherche rapide, dans le coin supérieur droit de la liste.
+  1. (Conditionnel) Si certains éléments ne s’affichent pas à l’écran par défaut, faites défiler la page pour en afficher plus.
+
+</div>
 
 Pour modifier la hauteur de ligne dans une vue :
 
@@ -516,7 +535,11 @@ Pour trier des colonnes individuelles :
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-1. Saisissez un mot-clé à utiliser pour la recherche dans la zone Rechercher située dans le coin supérieur droit de la liste. Les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous saisissez.
+1. Saisissez un mot-clé à utiliser pour la recherche dans la zone **Rechercher** située dans le coin supérieur droit de la liste.
+
+   Dans l’environnement de production, les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous tapez.
+
+   <span class="preview">Dans l’environnement Aperçu , la liste est filtrée afin d’afficher uniquement les éléments qui correspondent aux critères de recherche. Le nombre total d’enregistrements à gauche de la zone de recherche rapide est remplacé par le nombre d’éléments trouvés.</span>
 
    ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
 

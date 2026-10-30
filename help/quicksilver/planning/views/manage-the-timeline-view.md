@@ -28,24 +28,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
-ht-degree: 29%
+source-wordcount: '5111'
+ht-degree: 28%
 ---
 # Gérer la vue chronologique
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page du type d’enregistrement dans la planification Adobe Workfront.
+Vous pouvez afficher les enregistrements dans une vue chronologique lors de l’accès à la page du type d’enregistrement dans Adobe Workfront Planning.
 
 Pour plus d’informations sur les vues d’enregistrement, consultez la section [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -195,9 +193,10 @@ Pour gérer une vue chronologique :
 
    Les enregistrements associés au type d’enregistrement que vous avez sélectionné s’affichent sous forme de barres dans un journal et sont automatiquement triés par ordre chronologique de leur date de début, par défaut.
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">Les 1 000 premiers enregistrements s’affichent par défaut. Des enregistrements supplémentaires continuent de s’afficher lorsque vous faites défiler la page, par lots de 1 000,</span>
+
+   <span class="preview">Le nombre total d’enregistrements s’affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau.</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Pour gérer une vue chronologique :
 1. (Facultatif) Cliquez sur **Basculer vers la vue compacte** pour afficher les enregistrements dont les dates ne se coupent pas sur la même ligne. <!--check to see if they updated the name of the setting here-->
 1. (Conditionnel) Si vous avez modifié votre mode en **Compact**, cliquez sur **Passer à la vue Standard** pour afficher les enregistrements sur des lignes distinctes. L’option **Standard** est la valeur par défaut.  <!--check to see if they updated the name of the setting here-->
 
-
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de la recherche et l’enregistrement correspondant est surligné.
+   1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) et commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran.
+
+      Le nombre de correspondances correctes s’affiche à côté de l’élément de la recherche et l’enregistrement correspondant est surligné.
+
+      <span class="preview"> Le nombre total d’enregistrements affichés à gauche de la zone de recherche est remplacé par le nombre d’enregistrements trouvés dans la recherche. </span>
 
       ![Zone de recherche et vue chronologique des résultats](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Pour gérer une vue chronologique :
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs qui ne s’affichent pas dans la vue chronologique.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">La recherche rapide fonctionne pour tous les enregistrements, et pas seulement pour ceux qui s’affichent actuellement sur la page. 1 000 enregistrements s’affichent par défaut. Cliquez sur **Charger plus** pour afficher davantage d’enregistrements trouvés dans la recherche rapide. </span>
 
    1. Appuyez sur la touche Entrée de votre clavier pour passer au champ suivant.
    1. (Facultatif) S’il y a plus d’une correspondance, cliquez sur les flèches haut et bas situées à droite du mot-clé de recherche pour accéder à l’ensemble des correspondances dans le tableau.
    1. Cliquez sur l’icône **x** dans le champ de recherche pour effacer le mot-clé de recherche.
 
-   1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
 
 1. (Facultatif) Cliquez sur **Répartition** pour afficher les enregistrements connectés sur le journal.
 
@@ -523,11 +521,9 @@ Pour ajouter un regroupement dans la vue chronologique :
    >Lorsque vous faites glisser des enregistrements d&#39;un regroupement à un autre, les champs sélectionnés dans le regroupement mettent automatiquement à jour les valeurs des enregistrements déplacés.
 1. (Facultatif) Cliquez sur **Paramètres**, puis sur **Couleur** pour attribuer des couleurs aux regroupements. Pour plus d’informations, consultez la section [Modifier les paramètres de la vue chronologique](#edit-the-timeline-view-settings) dans cet article.
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview">(Facultatif) Dans la disposition **Couloir** ou **Empilé**, saisissez un regroupement dans la vue chronologique et déposez-le dans une autre position.</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">Cela modifie l’ordre de regroupement et le tri du regroupement en **Personnalisé**. Pour plus d’informations, voir la section [Ajouter un tri](#add-sort) dans cet article.</span>
 
 ### Ajouter un tri
 
@@ -557,11 +553,9 @@ Pour ajouter un tri en mode Chronologie :
 
    Par exemple, le tri d’un champ de texte peut être A -> Z ou Z -> A.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Si la vue chronologique comporte des regroupements et que vous avez réorganisé manuellement l’ordre des regroupements, le sens du tri s’affiche comme **Personnalisé**. </span>
 
    Le sens d’application d’un tri dépend du format du champ que vous avez sélectionné.
 1. (Facultatif) Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 10 conditions.

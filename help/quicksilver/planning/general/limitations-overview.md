@@ -26,20 +26,18 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 20%
+source-wordcount: '598'
+ht-degree: 19%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Vue d’ensemble des limites d’objets d’Adobe Workfront Planning
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Après la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -77,6 +75,9 @@ Le tableau suivant indique les limites du nombre d’objets que vous pouvez cré
 | Nombre de hiérarchies dans un espace de travail | 5 |
 | Nombre d&#39;enregistrements d&#39;un type d&#39;enregistrement parent connecté à un enregistrement d&#39;un type d&#39;enregistrement enfant, dans une hiérarchie | 10 |
 | Nombre d’enregistrements connectés à un enregistrement dans un type de connexion à sélection multiple, sans hiérarchie configurée entre les enregistrements | 500 |
+| <span class="preview">Nombre de champs de recherche par type d&#39;enregistrement</span> | 40 |
+| <span class="preview">Nombre de champs de recherche de texte long par type d’enregistrement</span> | 5 |
+| <span class="preview">Nombre de caractères dans la valeur d’une seule cellule de champ de recherche de texte long (en mode tableau)</span> | 50 000 caractères |
 
 *Nous vous recommandons de ne pas avoir trop d’espaces de travail, car ils pourraient devenir difficiles à gérer et vos workflows pourraient être trop fragmentés.
 

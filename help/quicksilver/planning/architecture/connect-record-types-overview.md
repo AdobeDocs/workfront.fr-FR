@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2583'
 ht-degree: 5%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
@@ -201,6 +201,22 @@ Pour plus d’informations sur la connexion des types d’enregistrements, voir 
       >Les informations du champ de date des objets Workfront s’affichent au format 24 heures dans Workfront Planning, quelle que soit la manière dont elles s’affichent dans Workfront.
       >
       >Par exemple, si la date de début prévue d’un projet s’affiche à 15 h dans Workfront, elle s’affiche à 15 h dans Workfront Planning dans un champ de recherche importé.
+
+  <div class="preview">
+
+  * Les restrictions suivantes s’appliquent lors de l’ajout de champs de recherche :
+
+    * Vous pouvez avoir jusqu’à 40 champs de recherche par type d’enregistrement.
+
+    * Vous pouvez avoir jusqu’à 5 champs de recherche de texte long par type d’enregistrement. Les champs de recherche connectés sont comptabilisés par rapport à la limite de leur champ d’origine.
+
+    * La valeur d’une seule cellule de recherche de texte long peut contenir jusqu’à 50 000 caractères.
+
+      Si le contenu combiné des valeurs de recherche dépasse ce seuil, les valeurs sont affichées dans l’ordre de la connexion jusqu’à ce que la limite soit atteinte.
+
+      La première valeur qui la dépasse et toutes les valeurs qui la suivent sont omises. Le champ de l’objet connecté d’origine n’est jamais modifié.
+
+  </div>
 
   * Vous devez connecter les types d&#39;enregistrements pour pouvoir créer des hiérarchies dans Workfront Planning. Lorsque les connexions de type enregistrement n’existent pas, elles sont automatiquement créées lorsque vous créez une hiérarchie. Pour plus d’informations, voir [Création de hiérarchies d’espaces de travail](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 

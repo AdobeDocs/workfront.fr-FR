@@ -19,21 +19,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 3%
+source-wordcount: '1300'
+ht-degree: 4%
 ---
 
 # Configurer des règles métier de type enregistrement
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning afin d’indiquer que certains champs sont requis avant qu’une action sur un enregistrement de ce type soit autorisée ou empêchée.
 
@@ -101,18 +100,18 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Les règles ne bloquent pas la création d’enregistrements. Les utilisateurs peuvent toujours créer des enregistrements, mais ils doivent s’assurer que les champs obligatoires ne sont pas vides ou ne contiennent pas la valeur spécifiée.
 * Les règles ne modifient ou ne suppriment pas automatiquement les enregistrements. La modification doit être délibérée et déclenchée par un utilisateur.
 * Les règles ne sont pas appliquées rétroactivement : les anciens enregistrements ne sont pas affectés. La vérification des règles ne s’exécute que la prochaine fois qu’une personne tente de modifier ou de supprimer un enregistrement.
-* &#x200B;<!--In the Production environment,--> Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
+* Dans l’environnement de production, vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux dans leurs espaces de travail principaux ou secondaires.
 
-<!--
 <div class="preview">
-* In the Preview environment, you can add business rules to the following: 
 
-   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
-   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+* Dans l’environnement de prévisualisation, vous pouvez ajouter des règles métier aux éléments suivants :
 
-* Business rules in read-only mode can be edited only from their original workspaces. 
+  * Types d’enregistrements globaux dans leur espace de travail principal. Les règles créées pour les types d’enregistrements globaux sont visibles en lecture seule dans les espaces de travail secondaires et s’appliquent à tous les enregistrements du même type dans tous les espaces de travail.
+  * Types d’enregistrements Secondaire, importés d’autres espaces de travail. Les règles créées pour les types d’enregistrements secondaires sont visibles en lecture seule à partir du type d’enregistrement global et s’appliquent à tous les enregistrements du même type dans tous les espaces de travail.
+
+* Les règles métier en mode lecture seule ne peuvent être modifiées qu’à partir de leurs espaces de travail d’origine.
+
 </div>
--->
 
 * Vous pouvez créer une condition pour votre règle métier qui fait référence à tous les types de champ, à l’exception des suivants :
   * Champs de formule

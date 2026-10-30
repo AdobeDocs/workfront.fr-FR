@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4138'
-ht-degree: 37%
+source-wordcount: '4357'
+ht-degree: 36%
 ---
 # Gérer la vue de tableau
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ Dans une vue Tableau, tous les enregistrements du type d’enregistrement sélec
 
 Les éléments suivants s’affichent par défaut dans une vue de tableau :
 
-* Tous les champs et tous les enregistrements pour le type d&#39;enregistrement sélectionné.
+* Dans l’environnement de production, tous les champs et tous les enregistrements pour le type d’enregistrement sélectionné.
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* Dans l’environnement de Prévisualisation, 500 enregistrements s’affichent par défaut. Des enregistrements supplémentaires s’affichent lorsque vous faites défiler la page.
 
 </div>
--->
 
 Pour gérer une vue tableau :
 
@@ -244,6 +241,10 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 1. Commencez à ajouter des champs (ou des colonnes), comme décrit dans l’article [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 
    Les colonnes que vous ajoutez sont visibles par toutes les personnes qui accèdent au type d’enregistrement et sont ajoutées en tant que nouveaux champs sur la page de l’enregistrement.
+
+   Dans l’environnement de production , les nouveaux champs ajoutés sont visibles depuis toutes les vues.
+
+   <span class="preview">Dans l’environnement de Prévisualisation, les nouveaux champs ajoutés sont ajoutés en tant que champs masqués dans tous les modes, à l’exception de l’affichage dans lequel vous les ajoutez. </span>
 
 1. (Facultatif) Cliquez sur l’icône **Champs** ![icône Champs](assets/fields-icon.png) dans la barre d’outils, recherchez un champ, puis désélectionnez le bouton (bascule) situé à droite du nom du champ pour le masquer.
 
@@ -301,11 +302,11 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
    >Par défaut, les champs masqués ne s’affichent pas dans la zone d’aperçu **Détails** de l’enregistrement. Tous les champs s’affichent dans la page Détails de l’enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
-1. Cliquez sur l’icône **Champs** et sélectionnez le bouton (bascule) associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
+1. Cliquez sur l’icône **Champs** et activez le bouton (bascule) associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Dans la zone **Rechercher** ![icône Rechercher](assets/search-icon.png) commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance.
+   1. Dans la zone **Rechercher** ![icône Rechercher](assets/search-icon.png) commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance. <span class="preview"> Le nombre total d’enregistrements affichés à gauche de la zone de recherche est remplacé par le nombre d’enregistrements trouvés dans la recherche. Le tableau est filtré pour n’afficher que les éléments correspondant à la recherche. </span>
 
       ![Zone de recherche avec le contour bleu des résultats en mode Tableau](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
       Vous ne pouvez pas utiliser de mots-clés associés à des champs masqués dans la vue de tableau.
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">La recherche rapide fonctionne pour tous les enregistrements, et pas seulement pour ceux qui s’affichent dans la vue actuelle. D’autres enregistrements se chargent au fur et à mesure que vous faites défiler l’écran. </span>
+
 
    1. Appuyez sur la touche **Entrée** de votre clavier pour passer au champ suivant.
 
@@ -396,7 +395,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 Les lignes d’une vue de tableau affichent des enregistrements individuels du type d’enregistrement sélectionné. L’ajout de lignes est identique à la création d’enregistrements.
 
-Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement.
+Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement. <span class="preview">Seules 500 lignes s’affichent par défaut. Charge plus importante en faisant défiler la page.</span>
+<span class="preview">Le nombre total d’enregistrements s’affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau.</span>
 
 1. Accédez à une page de type d’enregistrement et sélectionnez une vue de tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
@@ -411,6 +411,7 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    >Lorsqu&#39;un enregistrement contient des commentaires non lus, un indicateur **Nouveau commentaire** s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement.
    >
    >![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
+
 
 1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 
