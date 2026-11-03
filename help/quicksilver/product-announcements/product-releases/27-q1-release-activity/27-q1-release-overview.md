@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 17%
 ---
 
@@ -61,6 +61,15 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Marquer un champ personnalisé comme favori</a></p>
                 <p>Vous pouvez désormais marquer un champ personnalisé en tant que favori afin qu’il apparaisse en haut des champs disponibles lorsque vous créez des filtres, des vues et des regroupements, ainsi que dans la bibliothèque de champs du concepteur de formulaires.</p>
+            </td>
+            <td><p>29 Octobre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Valeurs vérifiées sur les champs personnalisés lors de la modification du format</a></p>
+                <p>Le système recherche désormais les valeurs incompatibles lorsque vous modifiez le format d’un champ personnalisé Texte existant en Nombre ou Devise.</p>
             </td>
             <td><p>29 Octobre 2026</p></td>
             <td><p>12 Novembre 2026</p></td>

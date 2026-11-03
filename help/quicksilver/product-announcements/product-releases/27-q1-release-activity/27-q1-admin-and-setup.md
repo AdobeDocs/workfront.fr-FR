@@ -4,10 +4,10 @@ description: Améliorations apportées à l’administrateur du premier trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 7%
+source-wordcount: '413'
+ht-degree: 5%
 ---
 
 # Améliorations apportées à l’administrateur du premier trimestre 2027
@@ -39,6 +39,20 @@ Pour plus d’informations, voir [Partager un formulaire personnalisé](/help/qu
 Vous pouvez désormais marquer un champ personnalisé comme favori, soit dans la liste de champs, soit dans le concepteur de formulaires personnalisés. Lorsque vous travaillez dans certaines listes et certains rapports (listes de projets, de tâches et de problèmes, par exemple) et que vous créez des filtres, des vues et des regroupements, les champs favoris apparaissent en haut de la liste des champs disponibles dans la section Suggestions .
 
 Les champs marqués comme favoris apparaissent également en haut de la bibliothèque de champs dans le concepteur de formulaire.
+
+Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Valeurs vérifiées sur les champs personnalisés lors de la modification du format
+
+>[!NOTE]
+>
+>Aperçu : 29 octobre 2026
+>Version rapide de production : 12 novembre 2026
+>Production pour tous : 21 janvier 2027
+
+Le système recherche désormais les valeurs incompatibles lorsque vous modifiez le format d’un champ personnalisé Texte existant en Nombre ou Devise.
+
+Si les valeurs existantes du champ sont toutes numériques, le système met simplement à jour le format du champ. Cependant, si l’une des valeurs existantes n’est pas numérique, le système affiche un message d’avertissement indiquant que les valeurs incompatibles seront effacées lorsque vous enregistrerez le champ.
 
 Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
