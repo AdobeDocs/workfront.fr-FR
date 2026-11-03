@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: 7995
-ht-degree: 86%
-
+source-wordcount: '8209'
+ht-degree: 87%
 ---
-
 # Modifier les projets
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Tenez compte des points suivants lors de la modification de projets :
 * Vous ne pouvez joindre des documents ou des modèles à un projet dont le statut est Terminé, Immobilisé ou En attente d’approbation que si votre administrateur ou administratrice de Workfront ou de groupes a activé cette fonctionnalité dans la zone Préférences du projet. Pour plus d’informations sur la définition des préférences de projet, voir [Configurer des préférences de projet à l’échelle du système](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Vous ne pouvez modifier que les informations suivantes pour un projet dont le statut est Immobilisé ou Terminé :
 
-   * Modifier les dépenses existantes
-   * Ajoutez, supprimez ou modifiez des formulaires personnalisés.
+  * Modifier les dépenses existantes
+  * Ajoutez, supprimez ou modifiez des formulaires personnalisés.
 
 ## Modifier un projet
 
@@ -310,7 +308,7 @@ Pour plus d’informations sur la création d’un projet à partir d’un modè
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un Portfolio avant qu’il n’apparaisse dans la liste déroulante. Seuls les portefeuilles actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portefeuilles, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Création d’un portefeuille </a>.
+      <td>Indiquez un Portfolio auquel le projet appartient. Vous devez d’abord créer un portfolio avant qu’il n’apparaisse dans la liste déroulante. Seuls les portfolios actifs peuvent être associés à un projet. Pour plus d’informations sur la création de portfolios, voir <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Créer un portfolio</a>.
       <p><b>NOTES</b></p>
       <ul>
       <li>Vous devez disposer des autorisations de niveau Gérer pour le portfolio afin de pouvoir l’ajouter ou le supprimer du projet.</li>
@@ -456,7 +454,10 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
     <tbody> 
      <tr>
       <td><strong>Utiliser les taux de change en vigueur à la date du système</strong></td>
-      <td><p>Lorsque cette option est sélectionnée, les taux de change effectifs à la date au niveau du système sont toujours utilisés et les remplacements de taux de change ne sont pas autorisés pour le projet.</p> <p>Vous devez également sélectionner la <strong>Date du taux de change</strong> à partir de laquelle, lorsque l’option est sélectionnée.</p></td> 
+      <td><p>Lorsque cette option est sélectionnée, les taux de change effectifs à la date au niveau du système sont toujours utilisés et les remplacements de taux de change ne sont pas autorisés pour le projet.</p><p>Pour plus d'informations sur les taux de change, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer des taux de change</a>. </p></td> 
+     </tr>
+     <tr><td><strong>Date du taux de change</strong></td>
+     <td><p>Lorsque vous choisissez d'utiliser les taux de change effectifs par date dans le système, vous devez sélectionner une date. Cette date est utilisée pour définir les taux de change pour les coûts et revenus prévus.</p><p>Pour les coûts et les revenus réels, le taux de change de la date à laquelle les heures sont consignées est utilisé.</p></td>
      </tr>
      <tr>
       <td><strong>Conserver les informations sur les taux de facturation du projet</strong></td>
@@ -526,7 +527,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Mode d’achèvement</strong> </td> 
-      <td> <p>Contrôle la manière dont le projet est marqué comme Terminé. Faites votre choix parmi les options suivantes : 
+      <td> <p>Contrôle la manière dont le projet est marqué comme terminé. Sélectionnez l’une des options suivantes : 
        <ul> 
        <li><p><strong>Automatique</strong> : le projet est marqué comme terminé lorsque toutes les tâches et tous les problèmes sont terminés.</p><p>Le statut du projet passe automatiquement à Terminé uniquement lorsque le statut du projet est Actif et lorsque les tâches sont terminées. </p></li> 
        <li><strong>Manuel</strong> : lorsque toutes les tâches et tous les problèmes sont terminés, vous devez sélectionner manuellement le statut Terminé pour le projet.</li> 
@@ -534,7 +535,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Mode d'achèvement du sommaire</strong></td> 
-       <td> <p>Contrôle la manière dont les tâches parents sont marquées comme Terminées. Faites votre choix parmi les options suivantes : 
+       <td> <p>Contrôle la manière dont les tâches parent sont marquées comme étant terminées. Sélectionnez l’une des options suivantes : 
        <ul> 
        <li><strong>Automatique</strong> : les tâches parent sont marquées comme Terminé et elles mettent à jour leur pourcentage terminé automatiquement, à mesure que les tâches enfant sont terminées et que le pourcentage terminé des enfants est mis à jour. </li> 
        <li><strong>Manuel</strong> : la mise à jour du pourcentage d’achèvement et du statut des tâches parent doit être effectuée manuellement et ne dépend pas des changements réalisés sur les tâches enfant. Cela vous permet de marquer une tâche parent comme étant terminée même si les sous-tâches sont incomplètes. </li> 
@@ -542,7 +543,7 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Type de mise à jour</strong></td> 
-       <td> <p>Contrôle à quel moment les modifications que vous apportez à la chronologie du projet sont enregistrées dans le projet ou les tâches parents. Par exemple, les modifications suivantes apportées au projet déclenchent une mise à jour de la chronologie du projet : 
+       <td> <p>Contrôle le moment où les modifications que vous apportez à la chronologie du projet sont enregistrées dans le projet ou les tâches parent. Par exemple, les modifications suivantes apportées au projet déclenchent une mise à jour de la chronologie du projet : 
        <ul> 
        <li>Mise à jour des dates des tâches</li> 
        <li>Modification des relations d’antériorité des tâches</li> 
@@ -813,17 +814,17 @@ Tenez compte des points suivants lorsque vous modifiez des projets en bloc :
 
 * Outre l’indicateur « Plusieurs valeurs », lorsque les options choisies sont différentes sur au moins un des projets sélectionnés, les champs qui ont des options multiples s’affichent de l’une des manières suivantes :
 
-   * Les champs de type case à cocher comportent une ligne au lieu d’une case à cocher pour l’option qui est cochée pour certains projets, mais pas pour tous les projets sélectionnés.
+  * Les champs de type case à cocher comportent une ligne au lieu d’une case à cocher pour l’option qui est cochée pour certains projets, mais pas pour tous les projets sélectionnés.
 
-     ![Plusieurs cases à cocher d’indicateur de valeur dans la zone de modification en bloc des projets](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![Plusieurs cases à cocher d’indicateur de valeur dans la zone de modification en bloc des projets](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * Les champs de type bouton (bascule) sont grisés. Le bouton (bascule) est positionné au centre pour l’option qui est activée dans certains projets, mais pas dans tous les projets sélectionnés.
+  * Les champs de type bouton (bascule) sont grisés. Le bouton (bascule) est positionné au centre pour l’option qui est activée dans certains projets, mais pas dans tous les projets sélectionnés.
 
   ![Plusieurs valeurs mises en surbrillance dans les projets de modification en bloc](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * Les champs de type case d’option dont certaines options sont sélectionnées, mais pas toutes, affichent toutes les cases d’option comme étant vides.
+  * Les champs de type case d’option dont certaines options sont sélectionnées, mais pas toutes, affichent toutes les cases d’option comme étant vides.
 
-     ![Zone Modifier le projet en bloc avec des boutons radio d’indicateur à valeurs multiples](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![Zone Modifier le projet en bloc avec des boutons radio d’indicateur à valeurs multiples](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Lorsque vous mettez à jour une option dans un champ à options multiples (tel qu’un champ qui s’affiche sous la forme d’un ensemble de boutons bascules ou de cases à cocher), toutes les autres options doivent correspondre entre les projets sélectionnés.
 
@@ -843,7 +844,7 @@ Pour modifier des projets en bloc, procédez comme suit :
 
 1. Sélectionnez plusieurs projets dans la liste.
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
-La boîte de dialogue **Modifier les projets** s’ouvre.
+La boîte de dialogue **Modifier les projets** s’affiche.
 
    ![Modification de projets dans la fenêtre modale en bloc](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
@@ -887,15 +888,15 @@ Selon la façon dont l’administrateur ou l’administratrice Workfront ou de 
    Pour plus d’informations sur la modification des formulaires personnalisés, voir la section [Formulaires personnalisés](#custom-forms) de cet article.
 
 1. Cliquez sur **Finances** pour modifier les informations financières de tous les projets sélectionnés.
-Pour plus d&#39;informations sur la modification de la zone Finance, consultez la section [Finance](#finance) de cet article.
+Pour plus d’informations sur la modification de la zone Finances, voir la section [Finances](#finance) de cet article.
 1. Cliquez sur **Paramètres du projet** pour modifier les paramètres de tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Paramètres du projet, consultez la section [Paramètres du projet](#project-settings) dans cet article.
+Pour plus d’informations sur la modification de la zone Paramètres du projet, voir la section [Paramètres du projet](#project-settings) de cet article.
 1. Cliquez sur **Paramètres de la tâche** pour modifier les paramètres de la tâche pour tous les projets sélectionnés.
-Pour plus d’informations sur la modification de la zone Paramètres de la tâche, consultez la section [Paramètres de la tâche](#task-settings) dans cet article.
-1. Cliquez sur **Paramètres de l’événement** pour modifier les paramètres de l’événement pour tous les projets sélectionnés.
-Pour plus d&#39;informations sur la modification de la zone Paramètres de l&#39;événement, consultez la section [Paramètres de l&#39;événement](#issue-settings) dans cet article.
-1. Cliquez sur **Accès** pour modifier les paramètres d&#39;accès pour tous les projets sélectionnés.
-Pour plus d&#39;informations sur la modification de la zone Accès, consultez la section [Accès](#access) de cet article.
+Pour plus d’informations sur la modification de la zone Paramètres de la tâche, voir la section [Paramètres de la tâche](#task-settings) de cet article.
+1. Cliquez sur **Paramètres du problème** pour modifier les paramètres du problème pour tous les projets sélectionnés.
+Pour plus d’informations sur la modification de la zone Paramètres du problème, voir la section [Paramètres du problème](#issue-settings) de cet article.
+1. Cliquez sur **Accès** pour modifier les paramètres d’accès de tous les projets sélectionnés.
+Pour plus d’informations sur la modification de la zone Accès, voir la section [Accès](#access) de cet article.
 1. Cliquez sur **Commentaire**, puis ajoutez un commentaire dans l&#39;espace prévu à cet effet. Workfront ajoute un commentaire dans la zone **Mises à jour** de chaque projet. Pour plus d&#39;informations sur la mise à jour de travail, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatif) Pour supprimer les informations que vous avez ajoutées dans la zone Modifier les projets, pointez sur un champ modifié, puis cliquez sur l’icône **x** (ignorer) en haut à droite du champ.
 

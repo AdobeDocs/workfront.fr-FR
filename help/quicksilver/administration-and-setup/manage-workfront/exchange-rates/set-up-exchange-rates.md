@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 41%
+source-wordcount: '938'
+ht-degree: 37%
 ---
 # Configurer les taux de change
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 En tant qu’administrateur ou administratrice Adobe Workfront, vous pouvez configurer des taux de change de devise dans Workfront. Cela inclut les éléments suivants :
 
@@ -109,6 +110,14 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Définir des dates effectives sur les taux de change d&#39;une devise
 
 Les dates de validité des taux de change d&#39;une devise sont configurées de sorte qu&#39;une valeur de taux se termine à une date spécifique et qu&#39;un autre taux commence. Le taux de change de la date correcte est ensuite utilisé dans les calculs financiers.
+
+>[!NOTE]
+>
+>La configuration des taux de change effectifs par date définit le taux de change système qui s&#39;applique pour une date donnée. Cela ne signifie pas que tous les calculs financiers des projets utilisent un taux de change différent pour chaque jour.
+>
+>Lorsque le paramètre **Utiliser les taux de change effectifs à la date du système** est activé pour un projet, le coût et le produit prévus utilisent le taux de change système en vigueur à la **Date du taux de change** du projet. Ils n&#39;utilisent pas automatiquement le taux effectif pour chaque jour de travail prévu.
+>
+>Pour plus d’informations sur la définition d’un projet pour utiliser les taux de change effectifs à la date au niveau du système, voir [Modifier des projets](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance).
 
 {{step-1-to-setup}}
 
