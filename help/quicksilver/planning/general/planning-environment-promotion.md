@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 4%
@@ -26,13 +26,13 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 Vous pouvez copier des espaces de travail Workfront Planning, des types d’enregistrements, des champs et des vues d’un environnement Workfront à un autre à l’aide des fonctionnalités de promotion d’environnement.
 
 Au lieu de tout reconstruire manuellement, vous assemblez la configuration dans un package au sein de l’environnement source et vous l’installez dans l’environnement cible.
 
-L’utilisation de la promotion de l’environnement avec Planning est similaire à son utilisation pour Workfront. Pour plus d’informations, consultez la section « Promotion de l’environnement » de l’article [Environnements de test &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
+L’utilisation de la promotion de l’environnement avec Planning est similaire à son utilisation pour Workfront. Pour plus d’informations, consultez la section « Promotion de l’environnement » de l’article [Environnements de test ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
 
 ## Remarques concernant l&#39;utilisation de la promotion de l&#39;environnement avec Planning
 
@@ -46,7 +46,7 @@ L’utilisation de la promotion de l’environnement avec Planning est similaire
   * Vues
   * Hiérarchies
   * Partage des paramètres pour tous les objets
-  * Automatisations
+  * <!--this might not be part of it; Lilit is checking--> des automatisations
   * Formulaires de demande
   * Règles métier
   * Objets connectés

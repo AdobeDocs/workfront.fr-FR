@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 98%
-
 ---
-
 # Mettre à jour le statut du problème
 
 <!--Audited: 01/2024-->
@@ -126,6 +124,18 @@ Pour plus d’informations sur les statuts personnalisés et les types de probl�
 * [Créer ou modifier un statut](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [Créer des problèmes](../../../manage-work/issues/manage-issues/create-issues.md)
 
+<!--
+
+>[!NOTE]
+>
+>If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
+
 Vous pouvez mettre à jour les statuts des problèmes manuellement ou laisser Workfront les mettre à jour automatiquement lorsque certaines actions ont lieu.
 
 ## Mettre à jour manuellement le statut du problème
@@ -164,7 +174,11 @@ Pour mettre à jour manuellement le statut du problème dans l’en-tête du pro
    >
    >  Seules les personnes à qui des problèmes sont affectés peuvent mettre à jour la date d’engagement.
 
+<!--
+1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
 
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 Old instructions, in old commenting: 

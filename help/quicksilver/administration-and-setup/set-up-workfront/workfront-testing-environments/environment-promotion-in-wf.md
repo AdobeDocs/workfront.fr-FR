@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 42%
@@ -140,6 +140,10 @@ La fonctionnalité de promotion d’environnement est destinée à fournir la po
 -->
 
 <!--
+
+**** Automations might not be part of this
+**** Planning STA might not be supported - Lilit is checking on this
+
 ## Workfront Planning objects
 
 >[!IMPORTANT]
@@ -191,7 +195,7 @@ Ces statuts sont les suivants :
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
+   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
   </tr> 
   </tbody> 
 </table>
@@ -199,6 +203,6 @@ Ces statuts sont les suivants :
 ## Ressources
 
 * Pour les questions fréquentes concernant la promotion de l’environnement, voir [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-* Pour obtenir des recommandations de dépannage, voir [&#x200B; Dépannage de la promotion de l’environnement &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* Pour obtenir des recommandations de dépannage, voir [ Dépannage de la promotion de l’environnement ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
 

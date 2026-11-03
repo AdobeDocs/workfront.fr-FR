@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 68%
-
 ---
-
 # Mettre à jour le statut des tâches
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * Lorsque vous marquez une tâche comme Terminée, le pourcentage terminé de la tâche passe à 100 %.
 * Les scénarios suivants existent pour les tâches parent :
-   * Vous ne pouvez pas mettre à jour le statut d&#39;une tâche parent sur Terminé lorsque le mode d&#39;achèvement du sommaire du projet est défini sur Automatique et que les sous-tâches ne sont pas terminées.
-   * Vous pouvez mettre à jour le statut d’une tâche parent sur Terminée lorsque le mode d’achèvement du résumé du projet est défini sur Manuel et que les sous-tâches sont terminées ou non.
+  * Vous ne pouvez pas mettre à jour le statut d&#39;une tâche parent sur Terminé lorsque le mode d&#39;achèvement du sommaire du projet est défini sur Automatique et que les sous-tâches ne sont pas terminées.
+  * Vous pouvez mettre à jour le statut d’une tâche parent sur Terminée lorsque le mode d’achèvement du résumé du projet est défini sur Manuel et que les sous-tâches sont terminées ou non.
 
   Pour plus d’informations, consultez [Modifier des projets](../manage-projects/edit-projects.md).
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## Mettre à jour manuellement le statut de la tâche
 
@@ -152,6 +159,12 @@ Pour mettre à jour manuellement le statut de la tâche dans l’en-tête de la 
    >[!IMPORTANT]
    >
    >  Seules les personnes à qui des tâches sont affectées peuvent mettre à jour la date d’engagement.
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 

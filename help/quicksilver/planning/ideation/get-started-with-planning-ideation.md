@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 1%
 ---
 
@@ -52,8 +52,8 @@ Les espaces de création exploitent Enterprise CX Coworker pour générer des r�
 Le calendrier de publication prévu de l’espace d’idéation, qui peut être modifié, comprend les jalons suivants :
 
 * Beta fermée :**lancée en juillet 2026, pour un petit nombre de clients.**
-* **Open Beta :** prévu pour novembre 2026. Il s’agira d’une offre d’opt-in, pour laquelle les clients doivent activer et configurer l’option, au lieu de s’y exclure activement.
-* **Disponibilité générale :** Objectif pour 2027.
+* **Open Beta :** ciblé pour le 12 novembre 2026. Il s’agit d’une offre de type opt-in, pour laquelle vous devez activer l’option au lieu de la désactiver activement.
+* **Disponibilité générale :** ciblée pour le 1er février 2027.
 
 ## Exigences du produit
 
@@ -237,10 +237,10 @@ Worth noting
 
 ## Ressources supplémentaires
 
-* [Planification d&#39;Adobe Workfront Campaign](https://business.adobe.com/fr/products/workfront/campaign-planning.html)
+* [Planification d&#39;Adobe Workfront Campaign](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Documentation sur Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
-* [Présentation d’Adobe GenStudio](https://business.adobe.com/fr/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/fr/products/adobe-analytics/customer-journey-analytics.html)
+* [Présentation d’Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
