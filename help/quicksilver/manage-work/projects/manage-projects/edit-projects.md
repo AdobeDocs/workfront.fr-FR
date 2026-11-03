@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
-ht-degree: 87%
+source-wordcount: '8244'
+ht-degree: 86%
 ---
 # Modifier les projets
 
@@ -454,10 +454,10 @@ Pour modifier les champs de la zone Finances, procédez comme suit :
     <tbody> 
      <tr>
       <td><strong>Utiliser les taux de change en vigueur à la date du système</strong></td>
-      <td><p>Lorsque cette option est sélectionnée, les taux de change effectifs à la date au niveau du système sont toujours utilisés et les remplacements de taux de change ne sont pas autorisés pour le projet.</p><p>Pour plus d'informations sur les taux de change, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer des taux de change</a>. </p></td> 
+      <td><p>Sélectionnez cette option pour toujours utiliser les taux de change effectifs à la date au niveau du système et empêcher les remplacements de taux de change sur le projet.</p><p>Pour plus d'informations sur les taux de change, voir <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurer des taux de change</a>. </p></td> 
      </tr>
      <tr><td><strong>Date du taux de change</strong></td>
-     <td><p>Lorsque vous choisissez d'utiliser les taux de change effectifs par date dans le système, vous devez sélectionner une date. Cette date est utilisée pour définir les taux de change pour les coûts et revenus prévus.</p><p>Pour les coûts et les revenus réels, le taux de change de la date à laquelle les heures sont consignées est utilisé.</p></td>
+     <td><p>Lorsque vous sélectionnez l'option permettant d'utiliser les taux de change effectifs par date dans le système, vous devez également sélectionner une date. Cette date est utilisée pour définir les taux de change pour les coûts et revenus prévus.</p><p>Par exemple, si la date du taux de change est le 12 février, Workfront utilise le taux de change au niveau du système du 12 février pour les conversions de devises de coût et de produit prévues, même si le travail prévu a lieu à d'autres dates.</p><p>Pour les coûts et les revenus réels, le taux de change de la date à laquelle les heures sont consignées est utilisé.</p></td>
      </tr>
      <tr>
       <td><strong>Conserver les informations sur les taux de facturation du projet</strong></td>
