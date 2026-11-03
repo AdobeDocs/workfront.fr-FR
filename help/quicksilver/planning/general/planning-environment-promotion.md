@@ -32,7 +32,7 @@ Vous pouvez copier des espaces de travail Workfront Planning, des types d’enre
 
 Au lieu de tout reconstruire manuellement, vous assemblez la configuration dans un package au sein de l’environnement source et vous l’installez dans l’environnement cible.
 
-L’utilisation de la promotion de l’environnement avec Planning est similaire à son utilisation pour Workfront. Pour plus d’informations, consultez la section « Promotion de l’environnement » de l’article [Environnements de test ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
+L’utilisation de la promotion de l’environnement avec Planning est similaire à son utilisation pour Workfront. Pour plus d’informations, consultez la section « Promotion de l’environnement » de l’article [Environnements de test &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
 
 ## Remarques concernant l&#39;utilisation de la promotion de l&#39;environnement avec Planning
 
@@ -46,7 +46,7 @@ L’utilisation de la promotion de l’environnement avec Planning est similaire
   * Vues
   * Hiérarchies
   * Partage des paramètres pour tous les objets
-  * <!--this might not be part of it; Lilit is checking--> des automatisations
+  * &#x200B;<!--this might not be part of it; Lilit is checking--> des automatisations
   * Formulaires de demande
   * Règles métier
   * Objets connectés
