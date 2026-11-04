@@ -18,10 +18,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 3%
+source-wordcount: '1776'
+ht-degree: 2%
 ---
 
 # Créer des briefs dans l’espace Idéation
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 Vous pouvez créer des résumés pour créer ou modifier des enregistrements Planning ou pour créer des fichiers que vous pouvez exporter vers d&#39;autres applications.
 
-1. Connectez-vous à Workfront avec Planning dans lequel Coworker a été activé et effectuez l’une des opérations suivantes :
+1. Connectez-vous à Workfront avec Planning dans lequel Coworker a été activé, puis effectuez l’une des opérations suivantes pour ouvrir l’espace Idéation pour la première fois afin de créer des notes :
 
-   * Accédez à **Menu principal** > **Espace idéation**
-   * Accédez à **Menu principal** > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > **Nouvel enregistrement** > **Espace de création d’idées**
-
-     Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide de l&#39;espace Idéation, voir [Créer des enregistrements Planning à partir de résumés d&#39;espace Idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
-   * Accédez à **Menu principal** > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur un enregistrement existant > **Ouvrir dans l’espace d’idéation**
+   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espace d&#39;idéation**
+   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > **Nouvel enregistrement** > **Démarrer l’espace d’idéation**
 
    L’espace Idéation s’ouvre et une nouvelle idéation est intitulée par défaut en suivant le format suivant :
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Si vous ouvrez une idéation à partir d&#39;un enregistrement existant, le nom de l&#39;idéation correspond au nom de l&#39;enregistrement.
+   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide de l&#39;espace Idéation, voir [Créer des enregistrements Planning à partir de résumés d&#39;espace Idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
-1. (Recommandé) Cliquez sur le nom de l’idéation pour le modifier.
+1. (Conditionnel) Pour ouvrir un brief existant dans l’espace Idéation , connectez-vous à Workfront avec Planning dans lequel Coworker a été activé, puis effectuez l’une des opérations suivantes :
+
+   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur un enregistrement existant > **Ouvrir dans l’espace d’idéation**
+
+     Le nom de l’idéation correspond au nom de l’enregistrement.
+
+1. (Recommandé) Cliquez sur le nom de l’idéation pour le modifier, si vous l’avez ouverte pour la première fois.
 
 1. (Conditionnel et facultatif) Pour ouvrir un autre espace d&#39;idéation existant, cliquez sur le menu déroulant à droite du nom de l&#39;idéation, recherchez-le par nom, puis cliquez sur l&#39;idéation lorsqu&#39;elle s&#39;affiche dans la liste.
 
-1. Lorsque l’**Espace d’idéation** s’ouvre, le CX Coworker s’ouvre à droite. Utilisez l’invite du collègue pour décrire le type de brief que vous souhaitez créer.
+   L’espace **Idéation** s’ouvre et le CX Coworker s’ouvre sur la droite.
+1. Utilisez l’invite du collègue pour décrire le type de brief que vous souhaitez créer.
 
    Par exemple, tapez « Créer une campagne de rentrée pour les élèves de la maternelle à la 12e année pour le mois d’août, pour les parents et les enseignants aux États-Unis ».  Pour que le résumé soit aussi complet que possible, indiquez autant d’informations que vous disposez sur le type de campagne, le calendrier, les parties prenantes, les points de contrôle des approbations et d’autres détails.
+1. (Facultatif) Cliquez sur l’icône **+** dans la zone d’invite du collaborateur et joignez les informations comme suit :
+
+   * **Commandes** : utilisez une commande de la liste pour demander du contenu à Coworker.
+   * **Joindre un fichier** : joignez un fichier à la zone d’invite pour l’ajouter ou ajouter ses informations à l’espace d’idéation. Vous devez demander à votre collègue de créer des cartes basées sur le fichier pour envoyer ultérieurement les cartes au brief.
+   * **Référencer un objet** : sélectionnez un objet dans la liste pour le référencer dans votre idéation. L’objet doit exister dans Workfront.
 
 1. Cliquez sur Entrée.
 
@@ -171,6 +180,11 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 1. (Conditionnel) Lorsque Collègue propose de créer des cartes pour l&#39;idéation, répondez **Oui**.
 
    Des cartes sont ajoutées à l&#39;espace d&#39;idéation et vous pouvez voir les sources de chaque carte et décider laquelle ajouter à votre brief.
+
+   >[!TIP]
+   >
+   >Vous ne pouvez pas ajouter de fichiers directement au brief. Vous devez d&#39;abord transférer les informations du fichier aux cartes que vous pouvez envoyer au brief.
+
 
 1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) pour rechercher des éléments dans l’espace d’idéation, puis cliquez sur lorsqu’il s’affiche dans la liste pour y accéder.
 
