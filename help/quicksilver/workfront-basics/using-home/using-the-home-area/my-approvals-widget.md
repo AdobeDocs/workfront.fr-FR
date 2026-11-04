@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 33%
+source-wordcount: '757'
+ht-degree: 23%
 ---
 # Gérer les approbations à l’aide du widget Mes approbations
 
@@ -44,6 +44,10 @@ Le widget Mes approbations prend en charge les approbations des objets Workfront
 * Épreuves
 * Requêtes d’enregistrement de planification
 * Feuilles de temps
+
+>[!NOTE]
+>
+>Si votre entreprise utilise l’espace de stockage Adobe Cloud, une approbation de document s’affiche dans le widget uniquement lorsque le projet contenant le document est partagé avec vous.
 
 ## Conditions d’accès
 
@@ -79,6 +83,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 +++
 
 ## Approuver le travail à partir du widget Mes approbations
+
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mes approbations**.
@@ -161,8 +166,25 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    </tr>
    </table>
 
-Une fois la décision prise, l’approbation est supprimée du widget Mon approbation .
+## Lorsque les approbations sont supprimées du widget
 
->[!NOTE]
->
->Les approbations de travail peuvent également être supprimées du widget Mes approbations lorsque le projet, la tâche ou l&#39;événement est marqué comme Résolu, En attente, Fermé ou Annulé.
+Une approbation est supprimée du widget Mes approbations une fois que vous avez pris une décision à son sujet. Les validations sont également supprimées dans les cas suivants :
+
+* **Approbations de travail** : les approbations de projets, de tâches et d’événements sont supprimées du widget lorsque le projet possède l’un des statuts suivants :
+  * Terminé
+  * Immobilisé
+  * Suspendu
+
+  >[!NOTE]
+  >
+  >Si un projet est en attente d&#39;approbation, sa propre approbation peut toujours s&#39;afficher pour ses approbateurs actuels, mais aucune approbation relative à ses tâches et événements ne s&#39;affiche.
+
+
+* **Approbations de documents hérités** : les approbations de documents hérités sont supprimées du widget en fonction du statut de l’objet auquel le document est directement associé, et non d’un objet parent. L’approbation est supprimée lorsque cet objet possède l’un des statuts suivants :
+  * Projet : terminé ou immobilisé
+  * Tâche : terminée
+  * Événement : Fermé ou statut équivalent à Fermé. Cela inclut les éléments Résolu, Impossible de résoudre, Impossible de dupliquer et Vérifié terminé.
+
+* **Approbations unifiées** : les approbations unifiées restent dans le widget, quel que soit le statut du projet, de la tâche ou de l’événement. Leur visibilité est contrôlée par le workflow d’approbation et vos responsabilités d’approbation en attente. Une approbation peut donc être supprimée du widget avant la fin de l’ensemble du workflow.
+
+Les statuts personnalisés suivent leur mappage Est égal à , de sorte qu’un statut égal à l’un des statuts ci-dessus produit le même résultat. L’approbation peut rester en attente sur l’objet même s’il est supprimé du widget. Pour plus d’informations sur les statuts personnalisés, voir [Créer ou modifier un statut](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
