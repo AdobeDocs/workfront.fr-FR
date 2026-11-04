@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 3%
@@ -132,7 +132,7 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
 ## Considérations relatives à l’envoi de requêtes à Workfront Planning
 
-* vous ne pouvez modifier une demande envoyée qu’avant la création d’un enregistrement à partir de celle-ci. Une fois l’enregistrement créé, vous ne pouvez plus modifier la demande envoyée.
+* Vous ne pouvez modifier une demande envoyée qu’avant la création d’un enregistrement à partir de celle-ci. Une fois l’enregistrement créé, vous ne pouvez plus modifier la demande envoyée.
 * Chaque demande envoyée crée un enregistrement pour le type d’enregistrement associé au formulaire que vous utilisez, si le formulaire n’est pas associé à une approbation ou si l’approbation a été accordée par tous les approbateurs.
 * Les enregistrements créés par l&#39;envoi de formulaires de demande sont identiques aux enregistrements ajoutés par le biais de toute autre méthode dans Workfront Planning.
 
@@ -218,6 +218,8 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >[!TIP]
    >
    >Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+   >
+   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
 
 1. (Facultatif et conditionnel) Cliquez sur **Remplir le formulaire** pour joindre un fichier et laisser AI remplir le formulaire pour vous avec des informations à l’intérieur du fichier. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -292,6 +294,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >* La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
    >* Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
    >* Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
+   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
 
 1. (Facultatif) Après modification de la requête, cliquez sur **Envoyer les modifications**.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.

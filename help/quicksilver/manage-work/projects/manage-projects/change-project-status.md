@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 358
+source-wordcount: '358'
 ht-degree: 85%
-
 ---
-
 # Modifier le statut d’un projet
 
 <!--Audited: 02/2024-->
@@ -114,6 +112,15 @@ Old:
 * **Lors de la mise à jour d’un projet à terminer :** assurez-vous que toutes les tâches et tous les problèmes sont terminés sur le projet. Vous ne pouvez pas sélectionner le statut Terminé d’un projet, ni aucun autre statut correspondant à Terminé lorsqu’il existe des tâches ou des problèmes qui n’ont pas été terminés sur le projet. Cela inclut l’approbation de toute tâche ou problème qui a un statut Terminé en attente d’approbation.
 * **Lors de la mise à jour d’un projet de Terminé à En cours :** si toutes les tâches et tous les problèmes du projet sont terminés, assurez-vous que le mode d’achèvement du projet est défini sur Manuel. Si le mode d&#39;achèvement du projet est Automatique, le statut du projet reste Terminé.
 
+<!--
+* If a project status is deleted or becomes unavailable, the Status of the project displays as Not applicable.  As a user with Manage permissions to the project, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
 ## Modifier le statut du projet
 
 1. Accédez au projet dont vous souhaitez mettre à jour le statut.
@@ -126,3 +133,9 @@ Old:
    Cliquez sur le menu **Plus** ![Plus](assets/qs-more-menu.png) en regard du nom du projet et cliquez sur **Modifier** et sélectionnez un nouveau statut dans le champ **Statut**, puis cliquez sur **Enregistrer**.
 
    Le statut du projet est mis à jour par rapport au statut que vous avez sélectionné.
+
+<!--
+1. (Conditional) When the status of the project is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
