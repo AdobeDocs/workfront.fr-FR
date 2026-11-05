@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 3%
 ---
 # Envoyer des demandes Adobe Workfront Planning pour créer des enregistrements
@@ -163,14 +163,14 @@ Les éléments suivants doivent être en place avant de pouvoir soumettre une de
 
   * Lorsque vous envoyez un formulaire de demande à partir de la page d&#39;un type d&#39;enregistrement global secondaire, l&#39;enregistrement s&#39;affiche sur la page du type d&#39;enregistrement secondaire. Les utilisateurs verront également le nouvel enregistrement sur la page du type d’enregistrement principal, s’ils ont accès à l’espace de travail secondaire.
   * Lorsque vous soumettez un formulaire de demande à partir de la page type d&#39;enregistrement principal ou en utilisant toute autre méthode décrite dans cet article, les enregistrements s&#39;affichent dans la page type d&#39;enregistrement principal.
-  * Si le champ **&#x200B;**&#x200B;est disponible dans le formulaire de demande et que l’utilisateur choisit manuellement un espace de travail spécifique auquel ajouter l’enregistrement, l’enregistrement est enregistré dans cet espace, que le formulaire ait été sélectionné dans les pages de type d’enregistrement principal ou secondaire.
+  * Si le champ **** est disponible dans le formulaire de demande et que l’utilisateur choisit manuellement un espace de travail spécifique auquel ajouter l’enregistrement, l’enregistrement est enregistré dans cet espace, que le formulaire ait été sélectionné dans les pages de type d’enregistrement principal ou secondaire.
 
   <!--
    * In the Production environment:
         * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
    -->
 
-  Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  Pour plus d’informations, voir [ Présentation du type d’enregistrement de l’espace de travail croisé ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * Vous pouvez partager une demande avec d’autres personnes après qu’elle a été soumise.
 
@@ -219,7 +219,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >
    >Les valeurs des champs d’enregistrement connectés dépendants sont limitées par les règles de dépendance entre les enregistrements. Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">En cas de conflit dans les valeurs sélectionnées d’un champ dépendant du formulaire de demande, vous devez résoudre le conflit avant de pouvoir enregistrer le formulaire.</span>
 
 1. (Facultatif et conditionnel) Cliquez sur **Remplir le formulaire** pour joindre un fichier et laisser AI remplir le formulaire pour vous avec des informations à l’intérieur du fichier. <!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ L’activation de ce paramètre rend les formulaires de demande Workfront Planni
    >* La modification d’une demande n’est possible que lorsqu’un enregistrement n’a pas encore été créé et que la demande est en attente d’approbation.
    >* Certains champs sont en lecture seule et vous ne pouvez pas les modifier.
    >* Vous ne pouvez plus modifier une demande après la création d’un enregistrement à partir de celle-ci.
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">En cas de conflit dans les valeurs sélectionnées d’un champ dépendant de la requête, vous devez résoudre le conflit avant de pouvoir enregistrer la requête.</span>
 
 1. (Facultatif) Après modification de la requête, cliquez sur **Envoyer les modifications**.
 1. (Conditionnel) Si le formulaire de demande n&#39;est pas associé à une approbation, ou si la demande a été approuvée, cliquez sur le nom de la demande, puis cliquez sur le nom de l&#39;enregistrement dans le champ **Objet créé**.
