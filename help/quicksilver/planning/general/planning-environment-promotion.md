@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1277'
 ht-degree: 4%
 ---
 
@@ -24,15 +24,36 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Les informations de cet article se rapportent à Adobe Workfront Planning. Votre société doit acheter un package Planning supplémentaire pour accéder à Workfront Planning.
+>
+>La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
+>
+>Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>
 
-<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Vous pouvez copier des espaces de travail Workfront Planning, des types d’enregistrements, des champs et des vues d’un environnement Workfront à un autre à l’aide des fonctionnalités de promotion d’environnement.
 
 Au lieu de tout reconstruire manuellement, vous assemblez la configuration dans un package au sein de l’environnement source et vous l’installez dans l’environnement cible.
 
-L’utilisation de la promotion de l’environnement avec Planning est similaire à son utilisation pour Workfront. Pour plus d’informations, consultez la section « Promotion de l’environnement » de l’article [Environnements de test &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
+L’utilisation de la promotion de l’environnement avec Planning est similaire à son utilisation pour Workfront. Pour plus d’informations, consultez la section « Promotion de l’environnement » de l’article [Environnements de test ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
 
 ## Remarques concernant l&#39;utilisation de la promotion de l&#39;environnement avec Planning
 
@@ -46,7 +67,7 @@ L’utilisation de la promotion de l’environnement avec Planning est similaire
   * Vues
   * Hiérarchies
   * Partage des paramètres pour tous les objets
-  * &#x200B;<!--this might not be part of it; Lilit is checking--> des automatisations
+  * <!--this might not be part of it; Lilit is checking--> des automatisations
   * Formulaires de demande
   * Règles métier
   * Objets connectés
@@ -77,7 +98,7 @@ L’utilisation de la promotion de l’environnement avec Planning est similaire
    <td role="rowheader"><p>Packages Adobe Workfront</p></td> 
    <td> 
 <p>Package de workflow Prime ou Ultimate avec un package Prime ou Ultimate Planning</p>
-<p>Package Prime ou Ultimate Planning lors de l’achat en tant que produit autonome</p>
+<!--This might come later: <p>Prime or Ultimate Planning package when purchased as a standalone product</p>-->
    </td> 
    </tr>
   <tr> 

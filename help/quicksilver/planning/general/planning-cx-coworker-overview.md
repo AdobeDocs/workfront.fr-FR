@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 6%
+source-wordcount: '1088'
+ht-degree: 7%
 ---
 
 # Présentation d’Adobe Workfront Planning CX Enterprise Coworker
@@ -43,11 +43,13 @@ Coworker préserve tout ce que fait AI Assistant aujourd’hui tout en ajoutant 
 
 Il fonctionne dans le cadre des contrôles d’accès au niveau des produits de votre entreprise. Les utilisateurs ne peuvent donc effectuer que les actions qu’ils sont déjà autorisés à effectuer dans Workfront, avec un accès en lecture seule par défaut et un accès en écriture contrôlé par les administrateurs Workfront.
 
+Coworker utilise les fonctionnalités du serveur Workfront MCP pour effectuer des actions en votre nom. Pour plus d’informations, voir [Compétences Workfront dans CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+
 >[!IMPORTANT]
 >
 >Les collaborateurs ne sont actuellement pas disponibles pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs disposant de données sensibles. AI Assistant est disponible pour ces organisations.
 >
->Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 
 ## Conditions d’accès
@@ -110,7 +112,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
   Pour plus d’informations, voir [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [&#x200B; Configuration des préférences système &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+* Une fois que Workfront a activé l’agent pour votre instance Workfront, il est disponible pour l’administrateur Workfront principal qui peut l’activer pour votre organisation. Pour plus d’informations, voir [ Configuration des préférences système ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * L’administrateur Workfront doit également activer Coworker pour vous, dans votre niveau d’accès. Pour plus d’informations, voir [Créer et modifier des niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -159,11 +161,11 @@ Vous pouvez localiser Coworker dans les zones suivantes de Workfront Planning :
 
    Recherchez l’icône **Collègue** ![icône de collègue](assets/coworker-icon.png) dans le coin supérieur droit de la page ou passez aux étapes ci-dessous.
 
-1. Cliquez sur une carte **espace de travail**.
+1. Effectuez l’une des opérations suivantes :
 
-1. Cliquez sur une carte **type d’enregistrement**.
-
-1. Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans un nouvel onglet](assets/open-workspace-on-new-tab-icon.png) .
+* Cliquez sur une carte **espace de travail**.
+* Cliquez sur une carte **type d’enregistrement**.
+* Cliquez sur un **enregistrement** pour ouvrir la page **Détails** de l’enregistrement, puis cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir dans un nouvel onglet](assets/open-workspace-on-new-tab-icon.png) .
 
 1. Cliquez sur l’icône **Icône Collègue** ![Icône Collègue](assets/coworker-icon.png) dans le coin supérieur droit de l’écran.
 
@@ -173,7 +175,9 @@ Vous pouvez localiser Coworker dans les zones suivantes de Workfront Planning :
 
    Par exemple, vous pouvez saisir l’une des valeurs suivantes :
 
-   * Créez un nouvel enregistrement de campagne appelé Vente d’été 2026.
+   * Créez un espace de travail et nommez-le « Équipe marketing ».
+   * Créez une campagne et un type d’enregistrement Personas dans cet espace de travail.
+   * Créez un enregistrement de campagne appelé Summer Sale 2026
    * Mettez à jour le champ Budget dans l’enregistrement Campagne d’été sur 75 000 $
    * Supprimez l’enregistrement de la campagne nommé Ancienne promotion
    * Restaurer la campagne que j’ai supprimée accidentellement
