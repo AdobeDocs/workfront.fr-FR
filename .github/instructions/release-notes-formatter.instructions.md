@@ -9,7 +9,7 @@ ht-degree: 0%
 
 # Formateur de notes de mise à jour
 
-Ces fichiers sont des **notes de mise à jour** et non des articles pratiques. N’appliquez **** le
+Ces fichiers sont des **notes de mise à jour** et non des articles pratiques. N’appliquez **&#x200B;**&#x200B;le
 normes générales de qualité d&#39;écriture ici. Avant de procéder à la modification, lisez la source complète de
 la vérité, qui inclut les modèles et le calendrier des versions :
 
@@ -18,7 +18,7 @@ la vérité, qui inclut les modèles et le calendrier des versions :
 
 ## Règle critique — déterminez d&#39;abord le trimestre doc
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > N’affectez jamais une fonctionnalité à un document-trimestre à l’aide des mathématiques de trimestre calendaire sur son
 > Date d’aperçu ou de production. Doc-quarter est basé sur la version **mensuelle)**
 > la fonctionnalité est livrée, par regroupement interne calendrier de publication de Workfront, ce qui
