@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 99%
+source-wordcount: '5600'
+ht-degree: 94%
 ---
 # Types de notification d’événement
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 Les notifications d’événement sont des e-mails déclenchés par divers types d’événements sur des objets tels que des projets, des tâches et des problèmes, comme expliqué dans la section [Notifications d’événements](../../../workfront-basics/using-notifications/event-notifications.md).
+
 
 Ces notifications peuvent être configurées au niveau du système et du groupe :
 
@@ -957,3 +960,156 @@ Voir aussi [Notifications : délégation](../../../workfront-basics/using-notif
 | Tâches et événements | Arrêter la délégation de tâches et de problèmes | Cessionnaire | J’arrête de déléguer mes tâches et problèmes (confirmation). | Actif (instantané uniquement) |
 | Tâches et événements | Délégation de tâches et de problèmes | Déléguer | Quelqu’un me délègue ses tâches et problèmes. | Actif (instantané uniquement) |
 | Tâches et événements | Arrêter la délégation de tâches et de problèmes | Déléguer | Quelqu’un cesse de me déléguer ses tâches et problèmes. | Actif (instantané uniquement) |
+
+<div class="preview">
+
+## Approbations unifiées
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Type d’objet</th> 
+   <th>Événement</th> 
+   <th>Destinataire</th> 
+   <th>Description</th> 
+   <th>État par défaut</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Ajouté en tant que personne approbatrice ou réviseuse</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>Vous êtes ajouté en tant qu'approbateur ou réviseur à une approbation de document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Suppression en tant que personne approbatrice ou réviseuse</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>Vous êtes supprimé(e) en tant qu'approbateur ou réviseur d'une approbation de document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Rôle modifié</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>Votre rôle d’approbateur ou de réviseur change lors de l’approbation d’un document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Décision prise - Approuvée</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Un approbateur prend une décision Approuvé pour l’approbation d’un document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Décision prise - Approuvée avec des modifications</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Un approbateur prend une décision Approuvée avec des modifications pour l’approbation d’un document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Décision prise - Travail nécessaire</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Un approbateur ou une approbatrice prend une décision indiquant que l’approbation d’un document nécessite un travail.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Approbation terminée - Approuvée</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Une approbation de document se termine par une décision finale d’Approuvé.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Approbation terminée - Approuvé avec des modifications</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Une approbation de document se termine par une décision finale d’Approuvé avec des modifications.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Approbation terminée - Travail nécessaire</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>L’approbation du document se termine par une décision finale indiquant que le travail doit être effectué.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Révision terminée</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Un réviseur termine sa révision lors de l’approbation d’un document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Toutes les révisions terminées</p> </td> 
+   <td> <p>Propriétaire du document</p> </td> 
+   <td> <p>Chaque réviseur termine sa révision lors de l’approbation d’un document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Date limite proche</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>L’échéance d’une approbation de document à laquelle vous participez approche.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Date limite passée</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>L’approbation d’un document à laquelle vous participez dépasse son délai sans décision finale.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Rappel - 24 heures</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>Il vous reste 24 heures pour examiner et approuver le document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Rappel - 72 heures</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>Il vous reste 72 heures pour examiner et approuver le document.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Document</p> </td> 
+   <td> <p>Documents ajoutés ou supprimés d’une approbation groupée</p> </td> 
+   <td> <p>Approbateur ou réviseur</p> </td> 
+   <td> <p>Les documents sont ajoutés ou supprimés d’une approbation de document groupée dont vous faites partie.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Vidéo</p> </td> 
+   <td> <p>Limite d’approbation vidéo proche (80 %)</p> </td> 
+   <td> <p>Administrateur système/de groupe</p> </td> 
+   <td> <p>Une approbation vidéo atteint 80 % de la limite d’approbation vidéo de son plan.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Vidéo</p> </td> 
+   <td> <p>Limite d’approbation vidéo atteinte</p> </td> 
+   <td> <p>Administrateur système/de groupe</p> </td> 
+   <td> <p>Une approbation vidéo atteint la limite d’approbation vidéo de son plan.</p> </td> 
+   <td> <p>Actif</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>

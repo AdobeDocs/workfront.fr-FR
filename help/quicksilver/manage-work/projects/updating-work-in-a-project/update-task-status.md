@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 68%
+source-wordcount: '728'
+ht-degree: 59%
 ---
 # Mettre à jour le statut des tâches
 
@@ -115,14 +115,7 @@ Old:
 
   Pour plus d’informations, consultez [Modifier des projets](../manage-projects/edit-projects.md).
 
-<!--
-* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* Si le statut d’une tâche est supprimé ou devient indisponible, le statut de la tâche indique Non disponible.  En tant qu’utilisateur disposant d’autorisations de niveau Gérer pour la tâche, vous pouvez mettre à jour le statut vers un autre statut, ou demander à un administrateur Workfront de recréer le statut ou d’en ajouter un nouveau.
 
 ## Mettre à jour manuellement le statut de la tâche
 
@@ -160,11 +153,10 @@ Pour mettre à jour manuellement le statut de la tâche dans l’en-tête de la 
    >
    >  Seules les personnes à qui des tâches sont affectées peuvent mettre à jour la date d’engagement.
 
-<!--
-1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. (Conditionnel) Lorsque le statut de la tâche est **_Non disponible_**, cliquez sur le signe d&#39;avertissement en regard du champ **Statut**, sélectionnez un nouveau statut dans la liste, puis cliquez sur **Enregistrer**.
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+Si vous ne voyez pas de statut acceptable, demandez à votre administrateur d’en créer un.
+
 
 <!--
 old functionality in old commenting: 

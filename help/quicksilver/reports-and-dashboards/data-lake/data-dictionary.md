@@ -16,7 +16,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
@@ -27,11 +27,11 @@ Cette page contient des informations sur la structure et le contenu des données
 
 >[!NOTE]
 >
->Les données de Data Connect sont actualisées toutes les 4 heures, de sorte que les modifications récentes peuvent ne pas être immédiatement répercutées.
+>Les données dans Data Connect sont actualisées toutes les 4 heures, de sorte que les modifications récentes peuvent ne pas être immédiatement répercutées.
 
 ## Types de vue
 
-Il existe plusieurs types de vues que vous pouvez utiliser dans Data Connect pour afficher vos données Workfront de manière à fournir le plus d’insight.
+Il existe plusieurs types de vues que vous pouvez utiliser dans Data Connect pour afficher vos données Workfront de manière à fournir le plus d’insight possible.
 
 * **Vue actuelle**
 
@@ -116,7 +116,7 @@ Le tableau suivant met en corrélation les noms d’objet dans Workfront (ainsi 
 
 >[!NOTE]
 >
->De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous mettons en garde contre l’utilisation de requêtes « SELECT » lorsque le destinataire de données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
+>De nouveaux champs peuvent être ajoutés aux vues d’objet sans préavis pour prendre en charge l’évolution des besoins en données de l’application Workfront. Nous vous déconseillons d’utiliser des requêtes « SELECT * » lorsque le destinataire des données en aval n’est pas prêt à gérer des colonnes supplémentaires au fur et à mesure de leur ajout.<br>
 >Si le changement de nom ou la suppression d’une colonne est nécessaire, nous vous avertirons à l’avance de ces modifications.
 
 ### Niveau d’accès
@@ -4428,7 +4428,7 @@ Self</td>
       </thead>
       <tbody>
         <tr>
-            <td>Section du portail</td>
+            <td>Section de portail</td>
             <td>Rapport</td>
             <td>PTLSEC</td>
             <td>Rapport</td>
@@ -8861,7 +8861,7 @@ Disponibilité limitée des clients
 
 ## Descriptions des vues Planning et relations
 
-Les tableaux suivants décrivent les vues de données disponibles dans le schéma Planning de Data Connect. Contrairement aux vues de données de workflow, les vues de données Planning incluent une description complète colonne par colonne pour chaque vue.
+Les tableaux ci-dessous décrivent les vues de données disponibles dans le schéma Planning de Data Connect. Contrairement aux vues de données de workflow, les vues de données Planning incluent une description complète colonne par colonne pour chaque vue.
 
 Les données Planning sont disponibles dans les vues suivantes :
 

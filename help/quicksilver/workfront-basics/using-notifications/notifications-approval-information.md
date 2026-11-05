@@ -5,10 +5,6 @@ title: 'Notifications : informations d’approbation'
 description: Les notifications suivantes vous alertent sur les activités d’approbation qui se produisent sur un élément de travail auquel vous participez. Pour plus d’informations sur la configuration des notifications que vous recevez, voir Modifier vos propres notifications par e-mail.
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 93%
 ---
 # Notifications : informations d’approbation
@@ -29,8 +25,7 @@ Les notifications suivantes vous alertent sur les activités d’approbation qui
 
 >[!NOTE]
 >
->Ces notifications s’appliquent uniquement aux approbations de documents hérités. Les contrôles de notification pour les approbations de documents unifiés ne sont actuellement pas disponibles.
-
+>Ces notifications s’appliquent uniquement aux approbations de documents hérités. Pour les notifications de validation unifiées, voir [Notifications : Validations unifiées](notifications-unified-approvals.md).
 
 Consultez également la section [Notifications d’événements](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -78,3 +73,4 @@ Consultez également la section [Notifications d’événements](../../workfront
   </tr> 
  </tbody> 
 </table>
+

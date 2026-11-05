@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 3%
 ---
 # Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning
@@ -28,6 +28,18 @@ ht-degree: 3%
 Cet article décrit les fonctionnalités publiées pour Workfront Planning dans la version du premier trimestre 2027.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Amélioration de la détection des conflits dans les champs dépendants lors de l’envoi de requêtes
+
+>[!NOTE]
+>
+>Aperçu : 5 novembre 2026
+>Version rapide de production : 17 décembre 2026
+>Production pour tous : 21 janvier 2027
+
+Lorsque vous soumettez une demande pour laquelle un champ connecté dépendant présente un conflit de dépendance, le système affiche une erreur et vous empêche de soumettre la demande jusqu&#39;à ce que le conflit soit résolu. Les demandes qui n’ont pas encore été approuvées présentent également des conflits provoqués par des modifications ultérieures apportées aux champs dépendants dans la configuration des règles, à la fois lorsque vous affichez et modifiez une demande.
+
+Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Meilleure visibilité des résultats de recherche rapide dans la vue Tableau
 

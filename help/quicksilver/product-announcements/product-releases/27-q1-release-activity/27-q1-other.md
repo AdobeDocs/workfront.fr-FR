@@ -4,9 +4,9 @@ description: Autres améliorations apportées au cours de la période de publica
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '628'
 ht-degree: 1%
 ---
 
@@ -15,6 +15,22 @@ ht-degree: 1%
 Cette page décrit les améliorations apportées à l’environnement Aperçu de la version du premier trimestre 2027. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
 Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2027, voir [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+<!--
+
+## Enhanced list button and icon improvements
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+Button text and icons in all enhanced lists have been adjusted to match, to achieve a more consistent user interface across Workfront.
+
+For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+-->
 
 ## Afficher le nombre total d’enregistrements dans les listes améliorées
 
