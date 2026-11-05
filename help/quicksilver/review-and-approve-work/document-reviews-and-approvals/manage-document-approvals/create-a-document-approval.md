@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 5%
 ---
 # Créer un workflow d’approbation de document
@@ -206,6 +206,10 @@ Pour créer un workflow de validation avancée :
 ## Créer un workflow d’approbation dans la zone Nouveaux documents
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cloud, la nouvelle zone Documents s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Le projet contenant le document doit être partagé avec l’approbateur ou le réviseur, ou l’approbation n’apparaîtra pas dans son widget Mes approbations .
 
 La boîte de dialogue **Demander la validation** s’ouvre par défaut en mode **De base**. Le mode de base est une étape unique avec un ensemble d’approbateurs ou de réviseurs. Passez en mode **Avancé** pour configurer les validations à plusieurs étapes ou les chemins d’accès parallèles.
 
