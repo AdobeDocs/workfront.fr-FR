@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: '570'
+ht-degree: 86%
 ---
 # Installer la visionneuse de relecture de bureau
 
@@ -78,8 +78,8 @@ Si ce n’est pas le cas, vous pouvez suivre les étapes ci-dessous.
 
 1. Pour télécharger l’application, procédez de l’une des manières suivantes :
 
-   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de la production Mac pour la visionneuse de relecture de bureau.](https://app.proofhq.com/desktopviewer/mac)
-   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Téléchargement de la prévisualisation Mac pour la visionneuse de relecture de bureau.](https://app.preview.proofhq.com/desktopviewer/mac)
+   * Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production pour le lecteur de vérification pour bureau.](https://us.my.workfront.com/proof/desktopviewer)
+   * Si vous utilisez l’environnement de prévisualisation, cliquez sur [Aperçu du téléchargement pour le lecteur de vérification pour bureau](https://us.preview.workfront.com/proof/desktopviewer).
 
 1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
 1. Dans la zone d’installation qui apparaît, cliquez sur **Continuer**, puis sur **Installer**.
@@ -102,8 +102,8 @@ Si votre administrateur ou votre administratrice Workfront ou Workfront Proof a 
 
 1. Pour télécharger l’application, procédez de l’une des manières suivantes :
 
-   * Dans l’environnement de production, cliquez sur [téléchargement de production Windows pour la visionneuse de relecture de bureau.](https://app.proofhq.com/desktopviewer/windows)
-   * Dans l’environnement de prévisualisation, cliquez sur [Téléchargement de prévisualisation Windows pour la visionneuse de relecture de bureau.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+* Si vous utilisez l’environnement de production, cliquez sur [Téléchargement de production pour le lecteur de vérification pour bureau.](https://us.my.workfront.com/proof/desktopviewer)
+* Si vous utilisez l’environnement de prévisualisation, cliquez sur [Aperçu du téléchargement pour le lecteur de vérification pour bureau](https://us.preview.workfront.com/proof/desktopviewer).
 
 1. Ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
 1. Dans la zone d’installation qui apparaît, ouvrez le fichier que vous venez de télécharger pour démarrer l’installation.
