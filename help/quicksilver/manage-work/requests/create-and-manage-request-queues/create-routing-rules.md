@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4784329bf6d1e8e1ba0c1061809bfcec3ab3873f
+source-git-commit: cda89e85b94d1669e33aa572dfd21cd9e594def9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 86%
+source-wordcount: '553'
+ht-degree: 76%
 ---
 # Créer des règles de routage
 
@@ -111,7 +111,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    <p><b>NOTE</b></p>
 
-   Une fois le problème soumis, vous pouvez modifier ses affectations et affecter d’autres personnes,  ou équipes. Pour plus d’informations, voir <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Attribuer des problèmes</a>.
+   Une fois le problème soumis, vous pouvez modifier ses affectations et affecter d’autres personnes, rôles ou équipes. Pour plus d’informations, voir <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Attribuer des problèmes</a>.
 
    </td> 
      </tr> 
@@ -132,6 +132,10 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Ce processus ne définit que la règle de routage. Pour garantir que le problème est acheminé lorsqu’il est soumise à la file d’attente, vous devez sélectionner la règle de transmission dans l’onglet **Détails de la file d’attente** sous **Route par défaut**.
 
+   Pour modifier une règle de routage existante, cliquez dans n&#39;importe quelle cellule pour ajouter ou modifier des informations. La règle de transmission est mise à jour automatiquement.
+   La liste des règles de routage est une liste améliorée qui peut avoir des fonctionnalités différentes des autres listes de Workfront. Pour plus d’informations sur les listes améliorées, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
    Pour plus d’informations sur l’ajout d’une route par défaut à une file d’attente, voir [Créer une file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Si vous souhaitez associer plusieurs règles de transmission à la file d’attente, vous devez créer plusieurs rubriques de file d’attente et associer chacune d’elles à une règle de transmission distincte. Pour plus d’informations sur la création d’une rubrique de file d’attente, voir [Créer des rubriques de file d’attente](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
