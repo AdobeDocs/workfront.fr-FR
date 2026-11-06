@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
@@ -149,6 +149,19 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >Notez que toutes les listes ne prennent pas en charge tous les types de champ.
 
 ![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+
+## Modifier les éléments intégrés
+
+Certaines listes améliorées vous permettent de modifier des objets en ligne. Lorsque vous modifiez les informations sur les objets affichés dans une liste, l&#39;objet est immédiatement mis à jour.
+
+Dans la liste :
+
+1. Recherchez l’élément à modifier, puis cliquez dans n’importe quel champ de la liste.
+1. Modifiez les informations dans cette cellule, puis appuyez sur Entrée.
+1. Appuyez sur la touche de tabulation pour accéder à la cellule modifiable suivante.
+1. Une fois toutes les cellules modifiées, appuyez sur Entrée pour enregistrer les modifications.
+
+![Modifier la liste améliorée en ligne](assets/edit-enhanced-list-inline.png)
 
 ## Modifier les éléments à l’aide de la barre d’actions
 
