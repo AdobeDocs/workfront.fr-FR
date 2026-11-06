@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 68%
@@ -129,5 +129,5 @@ Old:
 
 1. (Conditionnel) Lorsque le statut du projet est **_Non disponible_**, cliquez sur le signe d&#39;avertissement du champ **Statut**, sélectionnez un nouveau statut dans la liste, puis cliquez sur **Enregistrer**.
 
-Si vous ne voyez pas de statut acceptable, demandez à votre administrateur d’en créer un.
+   Si vous ne voyez pas de statut acceptable, demandez à votre administrateur d’en créer un.
 
