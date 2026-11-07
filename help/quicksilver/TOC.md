@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14762'
 ht-degree: 90%
 ---
 # Guide Workfront {#using}
@@ -457,6 +457,7 @@ ht-degree: 90%
       * [Supprimer le serveur SMTP personnalisé en tant qu’option d’e-mail sortant](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Programmes bêta {#beta}
     * [Programmes bêta](product-announcements/betas/betas.md)
+    * {hide-from-toc}[Programme bêta de la fonctionnalité Organisations connectées](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * Version bêta des tableaux de bord de la zone de travail {#canvas-dashboards-beta}
       * [Informations sur la version Beta des tableaux de bord Zone de travail](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc}[Présentation de la version Beta de la zone de travail de création de rapports](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)

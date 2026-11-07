@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 4ce90527f9255cab318f64d6a489d0e81822bf4b
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 7%
+source-wordcount: '552'
+ht-degree: 8%
 ---
 # Utilisation de CX Enterprise Coworker dans Workfront
 
@@ -88,9 +88,6 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Pour afficher et gérer les conversations précédentes, cliquez sur l’icône Conversations ![icône Conversations](assets/ai-icon.png) dans le panneau Collègue.
 
    Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation d’Adobe CX Enterprise Coworker.
-1. Pour afficher et gérer les artefacts de conversation, tels que les listes de sortie, cliquez sur l’icône Artefacts ![icône Artefacts](assets/artifacts-icon.png).
-
-   Pour plus d’informations sur les artefacts dans Coworker, voir [Artefacts](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) dans la documentation d’Adobe CX Enterprise Coworker.
-1. Pour gérer les paramètres de Coworker, cliquez sur l’icône Paramètres ![Paramètres](assets/coworker-settings-icon.png).
 1. Pour développer le panneau Collègue, cliquez sur l’icône Développer ![icône Développer](assets/coworker-expand-icon.png).
 1. Pour accéder à l’interface d’Adobe CX Enterprise Coworker, cliquez sur l’icône Applications ![icône Applications](assets/apps-icon.png) dans le coin supérieur droit de la page, puis sélectionnez Collègue dans la liste des applications disponibles.
+
