@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 3%
 ---
 
@@ -148,7 +148,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -185,7 +185,7 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
 1. (Conditionnel et facultatif) Pour ouvrir un autre espace d&#39;idéation existant, cliquez sur le menu déroulant à droite du nom de l&#39;idéation, recherchez-le par nom, puis cliquez sur l&#39;idéation lorsqu&#39;elle s&#39;affiche dans la liste.
 
-   L’espace **Idéation** s’ouvre et le CX Coworker s’ouvre sur la droite.
+   L’espace **Idéation** s’ouvre et Coworker s’ouvre sur la droite.
 1. Utilisez l’invite du collègue pour décrire le type de brief que vous souhaitez créer.
 
    Par exemple, tapez « Créer une campagne de rentrée pour les élèves de la maternelle à la 12e année pour le mois d’août, pour les parents et les enseignants aux États-Unis ».  Pour que le résumé soit aussi complet que possible, indiquez autant d’informations que vous disposez sur le type de campagne, le calendrier, les parties prenantes, les points de contrôle des approbations et d’autres détails.
