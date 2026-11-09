@@ -17,16 +17,22 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 33%
+source-wordcount: '855'
+ht-degree: 30%
 ---
 # Champs de texte enrichi dans l’API Adobe Workfront
 
 <!-- Audited: 5/2025 -->
 
 Certains objets d’Adobe Workfront permettent d’enregistrer du texte avec un formatage en texte enrichi. Dans l’API Workfront, le texte enrichi est stocké au format JSON à l’aide du framework open source Draft.js.
+
+>[!NOTE]
+>
+>Les champs de texte enrichi décrits dans cet article sont les champs « texte avec mise en forme ». Ce type de champ n’est plus disponible pour être ajouté aux nouveaux champs. Les champs existants doivent être convertis en type de champ « texte enrichi ».
+> 
+>Notez que les nouveaux champs de texte enrichi stockent le contenu sous la forme d’HTML, mais ils ne stockent aucun style appliqué dans l’éditeur de champs. La suppression des informations de style du stockage peut contribuer à éviter des problèmes inattendus de l’interface utilisateur et des vulnérabilités de sécurité.
 
 ## Exemple de vue d’ensemble
 

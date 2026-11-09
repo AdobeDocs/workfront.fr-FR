@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 95%
+source-wordcount: '252'
+ht-degree: 66%
 ---
 # Stockage de champs de texte enrichi dans l’API
+
+>[!NOTE]
+>
+>Les champs de texte enrichi décrits dans cet article sont les champs « texte avec mise en forme ». Ce type de champ n’est plus disponible pour être ajouté aux nouveaux champs. Les champs existants doivent être convertis en type de champ « texte enrichi ».
+> 
+>Notez que les nouveaux champs de texte enrichi stockent le contenu sous la forme d’HTML, mais ils ne stockent aucun style appliqué dans l’éditeur de champs. La suppression des informations de style du stockage peut contribuer à éviter des problèmes inattendus de l’interface utilisateur et des vulnérabilités de sécurité.
 
 Si un objet tel qu’un projet, un problème ou une tâche contient du texte enrichi, il est stocké et accessible en tant que valeur de paramètre via l’API Workfront.
 
