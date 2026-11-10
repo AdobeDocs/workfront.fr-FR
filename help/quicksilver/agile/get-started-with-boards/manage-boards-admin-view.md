@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 10%
 ---
 # Gérer la vue d’administration des panoramas
+
+{{boards-maintenance-mode}}
 
 La vue Administrateur des forums contient une liste de chaque forum de votre compte que les administrateurs système peuvent utiliser pour obtenir un instantané rapide des détails globaux des forums, y compris la date de leur dernière mise à jour, le nombre de cartes dont chacun dispose, etc.
 
@@ -82,20 +84,20 @@ Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksil
 
 {{step1-to-boards}}
 
-1. Sur la page **Tableaux**, sélectionnez l’onglet **Vue Administration**.
+1. Sur la page **Panoramas**, sélectionnez l’onglet **Vue d’administration**.
 
 1. Sélectionnez **Filtrer**. Le panneau **Filtres** s’ouvre.
 
 1. Pour configurer le filtre, procédez comme suit :
 
-   1. (Facultatif) Cliquez sur l’icône **Calendrier** ![Icône Calendrier](assets/calendar-icon.png), puis sélectionnez une période pour filtrer selon les tableaux qui ont été modifiés pour la dernière fois au cours de cette période.
+   1. (Facultatif) Cliquez sur l’icône **Calendrier** ![Icône de calendrier](assets/calendar-icon.png), puis sélectionnez une période pour filtrer selon les tableaux qui ont été modifiés pour la dernière fois au cours de cette période.
 
-   1. (Facultatif) Dans la section **Modèle**, sélectionnez le type de modèle de panorama par lequel la liste sera filtrée. Vous pouvez sélectionner plusieurs types de modèle.
+   1. (Facultatif) Dans la section **Modèle**, sélectionnez le type de modèle de panorama par lequel la liste filtrera. Vous pouvez sélectionner plusieurs types de modèle.
       Pour plus d’informations sur les types de modèles de panorama, voir [Créer ou modifier un panorama](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-   1. (Facultatif) Dans la section **Est archivé**, indiquez si les tableaux archivés ou non s’affichent. Vous pouvez sélectionner plusieurs options.
+   1. (Facultatif) Dans la section **Est archivé**, choisissez si les tableaux archivés ou non archivés s’afficheront. Vous pouvez sélectionner plusieurs options.
 
-      ![Section archivée &#x200B;](assets/is-archived-section.png)
+      ![Est une section archivée](assets/is-archived-section.png)
 
 1. Cliquez en dehors du panneau **Filtres** pour le fermer. Vos sélections de filtres resteront appliquées à la liste des tableaux jusqu’à ce qu’elle soit de nouveau dans la vue par défaut.
 
@@ -107,9 +109,9 @@ Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksil
 
 {{step1-to-boards}}
 
-1. Sur la page **Tableaux**, sélectionnez l’onglet **Vue Administration**.
+1. Sur la page **Panoramas**, sélectionnez l’onglet **Vue d’administration**.
 
-1. Sélectionnez **Colonnes**. Le panneau **Visibilité et ordre des champs** s’ouvre.
+1. Sélectionnez **Colonnes**. Le panneau Visibilité et ordre des **champs** s’ouvre.
 
 1. Configurez les colonnes qui apparaissent dans la liste Tableaux en sélectionnant ou en désélectionnant le bouton (bascule) en ligne avec chaque colonne :
 
@@ -120,21 +122,21 @@ Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksil
    * **Modèle**
    * **Nombre de cartes**
 
-1. (Facultatif) Pour ajuster l’ordre dans lequel les champs s’affichent, cliquez sur l’icône **Faire glisser** et maintenez-la à gauche d’un champ, puis faites-la glisser vers un nouvel emplacement.
+1. (Facultatif) Pour ajuster l’ordre dans lequel les champs s’affichent, cliquez sur l’icône **Faire glisser** vers la gauche d’un champ, puis faites-la glisser vers un nouvel emplacement.
 
-   ![Cliquez et faites glisser](assets/click-and-drag.png)
+   ![Cliquer et faire glisser](assets/click-and-drag.png)
 
-1. Cliquez en dehors du panneau **Visibilité et ordre des champs** pour le fermer. Les configurations de vos colonnes resteront appliquées à la liste des tableaux jusqu’à ce qu’elles soient modifiées.
+1. Cliquez en dehors du panneau **Visibilité des champs et commande** pour le fermer. Les configurations de vos colonnes resteront appliquées à la liste des tableaux jusqu’à ce qu’elles soient modifiées.
 
    >[!NOTE]
    >
-   > Lorsque l’affichage des colonnes de la liste Tableaux est modifié, un point bleu s’affiche au-dessus de l’icône **Colonnes** pour indiquer que la vue actuelle a été modifiée par défaut.
+   > Lorsque l’affichage des colonnes de la liste Panoramas est modifié, un point bleu s’affiche au-dessus de l’icône **Colonnes** pour indiquer que la vue actuelle a été modifiée à partir de la valeur par défaut.
 
 ## Regrouper la liste des tableaux par un champ spécifique
 
 {{step1-to-boards}}
 
-1. Sur la page **Tableaux**, sélectionnez l’onglet **Vue Administration**.
+1. Sur la page **Panoramas**, sélectionnez l’onglet **Vue d’administration**.
 
 1. Sélectionnez **Groupe**. Le panneau **Regrouper par** s’ouvre.
 
@@ -144,11 +146,11 @@ Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksil
    * **Personne propriétaire**
    * **Modèle**
 
-1. (Facultatif) Pour développer ou réduire le regroupement à partir du panneau **Regrouper par**, cliquez sur **Tout réduire** ou **Tout développer**.
+1. (Facultatif) Pour développer ou réduire le regroupement à partir du panneau **Regrouper par**, cliquez sur **Réduire tout** ou **Développer tout**.
 
-   ![Tout réduire](assets/collapse-all.png)
+   ![Réduire tout](assets/collapse-all.png)
 
-1. (Facultatif) Pour modifier l’ordre d’affichage du regroupement de A à Z à A, sélectionnez le champ par lequel la liste est actuellement regroupée, puis sélectionnez **Z à A** dans la liste déroulante.
+1. (Facultatif) Pour modifier l&#39;ordre d&#39;affichage du regroupement de A à Z à A, sélectionnez le champ par lequel la liste est actuellement regroupée, puis sélectionnez **Z à A** dans la liste déroulante.
 
    ![Afficher par ordre](assets/display-by-order.png)
 
@@ -158,5 +160,5 @@ Pour plus d’informations, voir [Créer ou modifier un panorama](/help/quicksil
 
    >[!NOTE]
    >   
-   >Lorsque l’affichage du regroupement Liste Tableaux est modifié, un point bleu s’affiche au-dessus de l’icône **Groupe** pour indiquer que la vue actuelle est différente de la vue par défaut. <br>
-   >Pour supprimer un regroupement, ouvrez le panneau **Regrouper par** et sélectionnez **Effacer tout** dans le coin supérieur droit.
+   >Lorsque l&#39;affichage du regroupement de la liste Panoramas est modifié, un point bleu s&#39;affiche au-dessus de l&#39;icône **Groupe** pour indiquer que la vue actuelle est différente de la vue par défaut. <br>
+   >Si vous souhaitez supprimer un regroupement, ouvrez le panneau **Regrouper par** et sélectionnez **Effacer tout** dans le coin supérieur droit.

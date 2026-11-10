@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 69%
@@ -39,6 +39,8 @@ ht-degree: 69%
 # Ajouter une colonne d’entrée à un panorama
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 Vous pouvez éventuellement ajouter une colonne d’entrée à votre panorama qui extrait automatiquement les tâches et les événements en tant que cartes connectées lorsqu’ils sont ajoutés dans [!DNL Workfront] en fonction des filtres que vous définissez. La colonne de saisie peut servir de colonne de liste d’attente pour une équipe Kanban, d’emplacement de saisie pour une équipe d’assistance afin de voir les problèmes au fur et à mesure qu’ils sont ajoutés à une file d’attente des demandes, ou pour toute autre raison dont vous avez besoin.
 
@@ -66,7 +68,7 @@ Problèmes :
 >
 >Il est recommandé d’actualiser fréquemment le panorama si plusieurs personnes y travaillent simultanément. L’actualisation de la page permet de maintenir les modifications visuelles sur le panorama à jour et d’éviter des problèmes tels que les cartes en double qui sont déplacées sur le panorama à partir de la colonne de saisie.
 >
->Pour vous synchroniser avec Workfront et importer de nouvelles tâches et de nouveaux événements sur le panorama ou la colonne d’entrée, cliquez sur le menu Plus ![[!UICONTROL menu Plus]](assets/more-menu.png) à côté du nom du panorama et sélectionnez Synchroniser les éléments connectés.
+>Pour vous synchroniser avec Workfront et importer de nouvelles tâches et de nouveaux événements sur le panorama ou la colonne d’entrée, cliquez sur le menu Plus ![[!UICONTROL Menu Plus]](assets/more-menu.png) à côté du nom du panorama et sélectionnez Synchroniser les éléments connectés.
 
 Pour plus d’informations sur les colonnes, voir [Gérer des colonnes de panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Pour plus d’informations sur les cartes connectées, consultez [Utiliser des cartes connectées sur des panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -103,7 +105,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Sélectionnez un panorama dans le tableau de bord.
 1. Cliquez sur **Configurer** à droite du panorama pour ouvrir le panneau **Configurer**.
 1. Sélectionnez la section **Panorama**. De nouveaux champs s’affichent.
-1. Activez **Ajout dynamique d’éléments au panorama**. La colonne d’entrée vide s’affiche sur le côté gauche du panorama.
+1. Activer **Ajout dynamique d’éléments au panorama**. La colonne d’entrée vide s’affiche sur le côté gauche du panorama.
 
    ![Options de filtrage simple des colonnes d’entrée](assets/board-section.png)
 
@@ -120,7 +122,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Sélectionnez un panorama dans le tableau de bord.
 1. Cliquez sur **Configurer** à droite du panorama pour ouvrir le panneau **Configurer**.
 1. Sélectionnez la section **Panorama**. De nouveaux champs s’affichent.
-1. Activez **Ajout dynamique d’éléments au panorama**. La colonne d’entrée vide s’affiche sur le côté gauche du panorama.
+1. Activer **Ajout dynamique d’éléments au panorama**. La colonne d’entrée vide s’affiche sur le côté gauche du panorama.
 
 1. Cliquez sur [!UICONTROL **Utiliser des filtres avancés**].
 
@@ -136,11 +138,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Dans le panneau de filtrage, cliquez sur **[!UICONTROL Nouveau filtre]**.
 
-1. Créez votre filtre, puis cliquez sur **[!UICONTROL Enregistrer en tant que nouveau]**.
+1. Créez votre filtre, puis cliquez sur **[!UICONTROL Enregistrer comme nouveau]**.
 
    ![Créateur de filtres](assets/intake-filter-dialog6.png)
 
-   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL &#x200B; Nouveau &#x200B;] ou [!UICONTROL &#x200B; En cours &#x200B;].
+   L’exemple ci-dessus montre un filtre pour les tâches d’un projet spécifique dont le statut est [!UICONTROL Nouveau] ou [!UICONTROL En cours].
 
    >[!NOTE]
    >
@@ -150,11 +152,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Nommez le filtre, puis cliquez sur **[!UICONTROL Enregistrer]**. Le filtre apparaît dans la liste des filtres enregistrés et est automatiquement appliqué à la colonne d’entrée.
 
-   ![Saisir un nouveau nom de filtre](assets/save-as-modal.png)
+   ![Saisie d&#39;un nouveau nom de filtre](assets/save-as-modal.png)
 
 1. Cliquez sur le X en haut du panneau de filtre pour le fermer.
 
-1. (Facultatif) Pour partager le filtre avec d’autres personnes, pointez sur le filtre enregistré, cliquez sur le menu **[!UICONTROL Plus]** ![Icône de menu Plus](assets/more-menu.png), puis sélectionnez **[!UICONTROL Partager]**. Sélectionnez les utilisateurs ou les équipes avec lesquels effectuer le partage dans la zone **Filtrer le partage**. Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Facultatif) Pour partager le filtre avec d’autres personnes, pointez sur le filtre enregistré, cliquez sur le menu **[!UICONTROL Plus]** ![Icône de menu Plus](assets/more-menu.png), puis sélectionnez **[!UICONTROL Partager]**. Sélectionnez les utilisateurs ou les équipes avec lesquels effectuer le partage dans la zone **Partage de filtres**. Pour plus d’informations, voir [Partager un filtre, une vue ou un regroupement](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Facultatif) Pour inclure les tâches et les problèmes dans la colonne d’entrée, cliquez sur **[!UICONTROL Sources de filtre]** et sélectionnez l’autre objet pour créer un autre filtre.
 1. Lorsque vous avez terminé d’ajouter des filtres, passez en revue la colonne d’entrée pour vérifier que les tâches et problèmes corrects apparaissent.
 
@@ -175,6 +177,6 @@ Les icônes situées en haut à droite de la colonne d’entrée indiquent le no
 
    Ou
 
-   Cliquez sur le menu **[!UICONTROL Plus]** ![icône de menu Plus](assets/more-menu.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **Déplacer[ÉLÉMENT]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
+   Cliquez sur le menu **[!UICONTROL Plus]** ![icône de menu Plus](assets/more-menu.png) sur la carte, puis sélectionnez **[!UICONTROL Déplacer]**. Ensuite, dans la zone **Déplacer [ÉLÉMENT]**, choisissez une autre colonne et sélectionnez **[!UICONTROL Déplacer]**.
 
 1. (Facultatif) Pour supprimer la colonne d’entrée, cliquez sur le menu **[!UICONTROL Plus]** ![Icône de menu Plus](assets/more-menu.png), puis sélectionnez **[!UICONTROL Supprimer]**.

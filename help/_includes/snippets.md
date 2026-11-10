@@ -1,8 +1,8 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 61%
+source-wordcount: '2437'
+ht-degree: 58%
 ---
 # Extraits de code
 
@@ -24,7 +24,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver les versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Version préliminaire et version rapide du 4e trimestre 2024 {#preview-and-fast-release-Q424}
 
@@ -98,7 +98,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## Étape 1 - Accéder à Configuration {#step-1-to-setup}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Configuration]** ![Icône Configuration](/help/_includes/assets/gear-icon-setup-2026.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur l’icône **[!UICONTROL Configuration]** ![Configuration](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Concepteur de formulaire vers GA {#form-designer-default}
 
@@ -106,7 +106,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >Le créateur de formulaires hérité n’est plus disponible à compter de la version 24.7 du 18 juillet 2024. Le concepteur de formulaire est désormais l’expérience par défaut pour la création et la modification de formulaires personnalisés dans Adobe Workfront.
 >
->Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>Pour plus d&#39;informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Associer le groupe de droite à l’équipe {#right-group-team}
 
@@ -119,11 +119,11 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
 >
->Si votre organisation a été intégrée à Adobe Admin Console, voir [&#x200B; Différences d’administration entre Adobe Workfront et Adobe Business Platform &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre organisation a intégré Adobe Admin Console, consultez [Différences d’administration entre Adobe Workfront et Adobe Business Platform](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Étape 1 - Accéder à Utilisateurs et utilisatrices {#step-1-to-users}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Utilisateurs]** ![Icône Utilisateurs](/help/_includes/assets/users-icon-in-main-menu-2026.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur l’icône **[!UICONTROL Utilisateurs]** ![Utilisateurs](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
@@ -131,6 +131,24 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 ## Étape 1 - Accéder à Panoramas - {#step1-to-boards}
 
 1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Panoramas]**.
+
+## Panoramas - mode de maintenance {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Les tableaux Workfront ne font actuellement l’objet d’aucun nouveau développement.
+
+## Panoramas - flux de travail non disponibles {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Les tableaux Workfront ne font actuellement l’objet d’aucun nouveau développement.
+> 
+>La fonctionnalité Flux de travail dans les tableaux était obsolète, mais elle reste disponible pour les clients qui l’utilisaient déjà.
+>
+>* Il est recommandé de ne plus utiliser les flux de travail, car ils ne sont plus pris en charge.
+>* Si le tableau de bord des tableaux de bord ne comporte pas d’onglet Flux de travail, vous ne pouvez pas ajouter de flux de travail.
+>* Si vous avez accès aux flux de travail, vous pouvez ajouter de nouveaux flux de travail et gérer les flux de travail existants. Si vous archivez ou supprimez un flux de travail, vous ne pouvez pas le récupérer. S’il reste un flux de travail que vous archivez ou supprimez, il sera complètement obsolète pour votre instance Workfront et vous ne pourrez pas en ajouter de nouveaux.
 
 <!-- Blueprints -->
 
@@ -142,13 +160,13 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 
 ## Étape 1 - Accéder à Calendriers - {#step1-to-calendars}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Calendriers]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Calendriers]**.
 
 <!-- Documents -->
 
 ## Étape 1 - Accéder à Documents - {#step1-to-documents}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Documents]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Documents]**.
 
 ## Configurer les dossiers liés {#setup-linked-folder}
 
@@ -286,7 +304,7 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 
 ## Étape 1 - Accès à Maestro - {#step1-to-planning}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Planning]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Planification]**.
 
    La page de destination de la planification Workfront s’ouvre.
 
@@ -298,9 +316,9 @@ Vous devez installer le plug-in approprié pour l’application Adobe Creative�
 >
 >Toutes les fonctionnalités incluses dans le package Planning ne sont pas disponibles pour Workfront Planning lorsqu’il est acheté en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
->Pour plus d’informations sur Workfront Planning en tant que produit autonome, voir [Prise en main d’Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
+>Pour plus d&#39;informations sur Workfront Planning en tant que produit autonome, consultez la section [Prise en main d&#39;Adobe Workfront Planning en tant que produit autonome](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 >
 
 <!--
@@ -383,7 +401,7 @@ OLD:
 
 ## Étape 1 - Accéder à Relecture - {#step1-to-proofing}
 
-1. Dans Workfront, cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Vérification]** pour accéder à Workfront Proof.
+1. Dans Workfront, cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche, puis cliquez sur **[!UICONTROL Relecture]** pour accéder à Workfront Proof.
 
 ## Dernière version DPV {#latest-version}
 
@@ -398,7 +416,7 @@ OLD:
 
 ## Étape 1 - Accéder à Rapports - {#step1-to-reports}
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d&#39;Adobe Workfront, puis cliquez sur **[!UICONTROL Rapports]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Rapports]**.
 
 ## Étape 1 - Accéder à Tableaux de bord - {#step1-to-dashboards}
 
@@ -412,11 +430,11 @@ OLD:
 
 ## Étape 1 - Accéder à Ressources - {#step1-to-resourcing}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Ressources]**.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Ressource]**.
 
 ## Étape 1 - Accéder à Rapport d’utilisation - {#step1-to-utilization-report}
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Ressources]**, puis [!UICONTROL **Utilisation**] dans le panneau de gauche.
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche d’Adobe Workfront, puis cliquez sur **[!UICONTROL Ressource]**, puis sur [!UICONTROL **Utilisation**] dans le panneau de gauche.
 
 <!-- Review and approve work -->
 

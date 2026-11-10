@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 99%
 ---
 # Gérer les flux de travail
 
->[!IMPORTANT]
->
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
+{{boards-workstreams}}
 
 Un flux de travail est un groupe configurable de panoramas et de cartes permettant de collaborer. Les flux de travail peuvent inclure différents types de panoramas créés à partir de modèles et une liste de cartes d’éléments de travail. Dans un flux de travail, vous pouvez effectuer le suivi du travail dans des itérations ou des sprints.
 

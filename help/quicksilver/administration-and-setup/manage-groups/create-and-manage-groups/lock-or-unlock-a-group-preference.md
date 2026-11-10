@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 87%
+source-wordcount: '570'
+ht-degree: 86%
 ---
 # Verrouiller ou déverrouiller une préférence de projet, de tâche ou de problème pour les sous-groupes
 
@@ -91,12 +91,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Cliquez sur le nom du groupe dans lequel vous souhaitez verrouiller ou déverrouiller une préférence de projet.
-1. Dans le panneau de gauche, cliquez sur **Préférences de projet** ou **Préférences de tâches et de problèmes**.
+1. Sur la gauche, cliquez sur **Préférences du projet** ou **Préférences des tâches et événements**.
 
 1. Sur la page qui s’affiche, effectuez l’une des opérations suivantes pour une préférence déverrouillée au niveau du système ou pour un groupe supérieur au vôtre :
 
-   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![bouton Déverrouiller](assets/unlock-toggle-button.png).
-   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée ![bouton Verrouiller](assets/lock-toggle-button.png).
+   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![Déverrouiller le bouton (bascule)](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu&#39;elle est verrouillée ![Verrouiller le bouton bascule](assets/lock-toggle-button.png).
 
      >[!IMPORTANT]
      >

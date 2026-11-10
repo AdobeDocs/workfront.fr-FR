@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 97%
 ---
 # Configurer les préférences de feuilles de temps et d’heures pour un groupe
@@ -107,7 +107,7 @@ Tenez compte des informations suivantes concernant la configuration d’une pré
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png).
 
 1. Cliquez sur le nom du groupe pour lequel vous souhaitez configurer les préférences de feuilles de temps ou d’heures.
-1. Dans le panneau de gauche, cliquez sur **Feuilles de temps et heures**.
+1. Sur la page qui s’affiche, sur la gauche, cliquez sur **Feuilles de temps et heures**.
 
 1. Sur la page qui s’affiche, dans la section **Préférences générales**, configurez l’une des options suivantes :
 

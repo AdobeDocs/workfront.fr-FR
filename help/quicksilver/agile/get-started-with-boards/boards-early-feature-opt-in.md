@@ -2,8 +2,8 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Souscription anticipée aux fonctionnalités pour les tableaux d’[!DNL Workfront]
-description: Lisez cet article pour en savoir plus sur l’opt-in anticipé aux fonctionnalités [!DNL Workfront Boards].
+title: Souscription anticipée aux fonctionnalités pour [!DNL Workfront] tableaux
+description: Lisez cet article pour en savoir plus sur l’opt-in anticipé à la fonctionnalité [!DNL Workfront Boards].
 author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 97%
 ---
 # Opt-in anticipé des fonctionnalités pour les [!UICONTROL panoramas] [!DNL Workfront]
+
+{{boards-maintenance-mode}}
 
 L’opt-in anticipé des fonctionnalités pour les [!UICONTROL panoramas] [!DNL Adobe Workfront] a été lancé en juillet 2022.
 

@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 99%
 ---
 # Utiliser le tableau de bord des panoramas
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
+{{boards-workstreams}}
 
 Le tableau de bord des panoramas affiche la liste des panoramas et des flux de travail auxquels vous avez accès, y compris les panoramas que vous avez créés et ceux pour lesquels vous avez fait l’objet d’un ajout. Les panoramas individuels auxquels vous avez accès et qui ne font pas partie d’un flux de travail s’affichent en premier.
 

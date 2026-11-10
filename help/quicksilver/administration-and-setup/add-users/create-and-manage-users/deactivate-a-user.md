@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1093'
 ht-degree: 56%
 ---
 # Désactiver ou réactiver un utilisateur ou une utilisatrice {#deactivate-or-reactivate-a-user}
@@ -54,7 +54,7 @@ Vous pouvez réactiver une personne à tout moment.
 >
 >* La désactivation d’une personne dans Workfront supprime ses licences sur Workfront et la relecture numérique. En outre, cette personne ne peut plus se voir affecter de travail. Lorsqu’une personne est désactivée, sa licence Workfront et sa licence de relecture deviennent disponibles pour un autre utilisateur ou une autre utilisatrice. Toutes les autres informations du profil de la personne désactivée restent inchangées.
 >
->* La désactivation d’un utilisateur dans Workfront ne le supprime pas du profil de produit Workfront dans Adobe Admin Console. Pour plus d’informations, voir [Supprimer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>* La désactivation d’un utilisateur dans Workfront ne le supprime pas du profil de produit Workfront dans Adobe Admin Console. Pour plus d&#39;informations, voir [Supprimer des utilisateurs](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 >
 >* Si un utilisateur fait partie d’un ou de plusieurs groupes d’utilisateurs Admin Console et que le profil de produit a été ajouté à un ou plusieurs de ces groupes d’utilisateurs, la désactivation de l’utilisateur de Workfront ne le supprimera pas du produit. L’utilisateur doit être supprimé du ou des groupes d’utilisateurs dans Admin Console.
 
@@ -80,7 +80,7 @@ Vous pouvez réactiver une personne à tout moment.
    <td> <p>Vous devez disposer de l’une des autorisations suivantes :</p> 
     <ul> 
      <li> <p>Niveau d’accès Administrateur ou administratrice système. </li> 
-     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si l’option <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activée, vous devez être un administrateur de groupe d’un groupe dont l’utilisateur est membre.</p> </li> 
+     <li> <p>Le paramètre <b>Utilisateurs et utilisatrices</b> de votre niveau d’accès doit être configuré sur l’accès <b>Modifier</b>, avec l’option <b>Créer</b> et au moins l’une des deux options d’<b>Administration des utilisateurs et utilisatrices</b> activées dans <b>Ajuster vos paramètres</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>De ces deux options, si <b>Administration des utilisateurs (utilisateurs du groupe)</b> est activé, vous devez être un administrateur de groupe d'un groupe dont l'utilisateur est membre.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +94,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Avant de désactiver un administrateur ou une administratrice Workfront, ou un utilisateur ou une utilisatrice de licence Standard ou Plan, vous devez associer ses objets et activités à une autre personne.
 
-Pour plus d’informations, voir [À propos de la désactivation des administrateurs Workfront et des utilisateurs de licences Standard ou Plan](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
+Pour plus d’informations, consultez [À propos de la désactivation des administrateurs Workfront et des utilisateurs de licences Standard ou Standard](#about-deactivating-workfront-administrators-and-plan-license-users) dans cet article.
 
 ## Désactiver un utilisateur ou une utilisatrice
 
@@ -113,9 +113,9 @@ Pour désactiver un utilisateur ou une utilisatrice :
 {{step-1-to-users}}
 
 1. Sélectionnez un utilisateur dans la liste des utilisateurs.
-1. Cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Désactiver**.
+1. Cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png), puis sur **Désactiver**.
 
-1. Dans la boîte de dialogue **Désactiver l’utilisateur**, cliquez sur **Désactiver**.
+1. Dans la boîte de dialogue **Désactiver l&#39;utilisateur**, cliquez sur **Désactiver**.
 
 ## Planifier la désactivation d’utilisateurs ou d’utilisatrices
 
@@ -134,10 +134,10 @@ Pour planifier la désactivation d’une personne :
    (Facultatif) Sélectionnez plusieurs utilisateurs ou utilisatrices pour planifier leur désactivation en bloc.
 
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png).
-1. Dans le panneau de gauche de la zone **Modifier l’utilisateur**, cliquez sur **Planification des ressources**.
+1. Dans le panneau de gauche de la zone **Modifier l&#39;utilisateur**, cliquez sur **Planification des ressources**.
 1. Cliquez sur **Définir la date de désactivation**.
 
-1. Sélectionnez la date de **Date de désactivation**.
+1. Sélectionnez la date de la **Date de désactivation**.
 
    >[!NOTE]
    >
@@ -153,9 +153,9 @@ Nous vous recommandons de créer un rapport pour les utilisateurs dont la désac
 
 {{step-1-to-users}}
 
-1. Sélectionnez un utilisateur, cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis sur **Activer**.
+1. Sélectionnez un utilisateur, cliquez sur l’icône **Plus** ![Icône Plus](assets/more-icon.png), puis cliquez sur **Activer**.
 
-1. Dans la boîte de dialogue **Réactiver l&#39;utilisateur**, sélectionnez un nouveau **Niveau d&#39;accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
+1. Dans la boîte de dialogue **Réactiver l&#39;utilisateur**, sélectionnez un nouveau **niveau d&#39;accès** dans le menu déroulant, puis cliquez sur **Réactiver**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 

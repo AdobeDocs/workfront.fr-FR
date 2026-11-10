@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e19eca57bfc65b561d08331c368aed92f19c05d2
+source-git-commit: 260299ae364ca925a9b3e95e93dd64ff2a2dc2d1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 95%
@@ -46,7 +46,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 * [Activité de version Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Activité de publication d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
->[!TAB Versions d’  2027]
+>[!TAB Versions 2027]
 
 * [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Activité de version Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
@@ -157,3 +157,5 @@ La recherche documentaire peut être plus efficace avec quelques approches strat
 ### Trouver des réponses dans les forums de la Communauté
 
 * **Poser des questions** : si la documentation ne répond pas à votre question, essayez de la publier dans les [forums de la Communauté Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=fr) où d’autres utilisateurs, utilisatrices, expertes et experts peuvent apporter leur aide.
+
+

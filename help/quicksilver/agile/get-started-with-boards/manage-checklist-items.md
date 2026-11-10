@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 98%
 ---
 # Gérer les éléments de la liste de contrôle sur des cartes
+
+{{boards-maintenance-mode}}
 
 L’utilisation d’une liste de contrôle sur une carte vous permet de ventiler le travail par groupes plus petits ou d’ajouter des notes à la carte. Les éléments de la liste de contrôle sont disponibles à la fois sur les cartes ad hoc et sur les cartes connectées.
 

@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 97%
 ---
 # Réorganiser les statuts à l’échelle du système et du groupe
 
@@ -34,7 +34,7 @@ En tant qu’administrateur ou administratrice Workfront, vous pouvez modifier l
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![États](assets/statuses.png)
+![Statuts](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ Par défaut, les statuts s’affichent dans l’ordre suivant :
 1. Dans le panneau de gauche, cliquez sur **Préférences du projet > Statuts**.
 1. (Le cas échéant) Si vous réorganisez les statuts d’un groupe, commencez à saisir le nom du groupe dans la zone située dans le coin supérieur droit, puis cliquez sur le nom lorsqu’il s’affiche.
 
-   ![États du système](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Statuts du système](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Au-dessus de la liste de statuts qui s’affiche, cliquez sur l’onglet **Projets** ou **Tâches**.
 
@@ -145,12 +145,12 @@ Par défaut, les statuts s’affichent dans l’ordre suivant :
 
 ## Réorganiser les statuts pour les problèmes
 
-1. Cliquez sur l’icône **Menu principal** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, puis cliquez sur **Configuration** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. Cliquez sur **Préférences du projet > Statuts.**
 1. (Le cas échéant) Si vous réorganisez les statuts d’un groupe, commencez à saisir le nom du groupe dans la zone située dans le coin supérieur droit, puis cliquez sur le nom lorsqu’il s’affiche.
 
-   ![Statut des événements pour le groupe](assets/issue-statuses-group-name.png)
+   ![Statut de l&#39;événement pour le groupe](assets/issue-statuses-group-name.png)
 
 1. Cliquez sur l’onglet **Problèmes**.
 1. (Facultatif) Sélectionnez un type de problème (**Rapport de bogues**, **Ordre de modification**, **Problème**, ou **Demande**).

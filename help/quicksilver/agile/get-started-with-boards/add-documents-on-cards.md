@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 98%
 ---
 # Ajouter des documents sur les cartes
+
+{{boards-maintenance-mode}}
 
 Vous pouvez ajouter des documents aux cartes connectées sur les panoramas Adobe Workfront. Tous les documents que vous ajoutez sur la carte sont disponibles dans l’onglet Documents de la tâche connectée ou du problème connecté, et les documents ajoutés à la tâche ou au problème sont visibles sur la carte. Les mêmes types de fichiers sont pris en charge dans les deux zones. Pour plus d’informations sur les documents dans Workfront, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

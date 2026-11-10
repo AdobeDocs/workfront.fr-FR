@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 31%
@@ -79,12 +79,12 @@ Vous pouvez charger un document vers un élément de travail à partir de la lis
 
 {{step1-to-priorities}}
 
-1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
+1. Dans la liste de tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![ouvrir l’icône de résumé](assets/summary-icon.png).
 1. Vérifiez que vous êtes sur l’onglet **Tâche** ou **Événements** dans le panneau de résumé.
-1. Cliquez sur l’icône **Télécharger le fichier** ![Télécharger le fichier](assets/upload-file-icon.png).
+1. Cliquez sur l’icône **Télécharger le fichier** ![Icône de chargement de fichier](assets/upload-file-icon.png).
 1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 ou
-Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d&#39;un fournisseur Document Cloud.
    ![Ajouter des fichiers](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
@@ -99,11 +99,11 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, cliquez sur le nom de l’élément de travail.
-1. Cliquez sur l’onglet **Documents** en haut de l’écran.
+1. Cliquez sur l&#39;onglet **Documents** en haut de l&#39;écran.
 1. Cliquez sur **Charger le document** dans le coin supérieur droit, puis sélectionnez **Document**.
 1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 ou
-Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d&#39;un fournisseur Document Cloud.
    ![Ajouter des fichiers](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
@@ -112,7 +112,6 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
-
 
 ## Création d’une épreuve simple ou avancée
 
@@ -123,10 +122,10 @@ Vous pouvez créer un BAT à partir d’un document de la liste de travail ou de
 
 {{step1-to-priorities}}
 
-1. Dans la liste des tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![icône Ouvrir le résumé](assets/summary-icon.png).
+1. Dans la liste de tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![ouvrir l’icône de résumé](assets/summary-icon.png).
 1. Vérifiez que vous êtes sur l’onglet **Tâche** ou **Événements** dans le panneau de résumé.
-1. Cliquez sur l’icône **Documents** ![icône Documents](assets/show-document-icon.png) dans le rail latéral droit.
-1. Cliquez sur l’icône **Télécharger le fichier** ![Télécharger le fichier](assets/upload-file-icon.png), puis sélectionnez le fichier.
+1. Cliquez sur l’icône **Documents** ![Icône Documents](assets/show-document-icon.png) dans le rail latéral droit.
+1. Cliquez sur l’icône **Télécharger le fichier** ![Icône de téléchargement de fichier](assets/upload-file-icon.png), puis choisissez le fichier.
 
    >[!NOTE]
    >
@@ -162,10 +161,10 @@ Vous pouvez créer un BAT à partir d’un document de la liste de travail ou de
 {{step1-to-priorities}}
 
 1. Dans la liste des tâches, cliquez sur le nom de l’élément de travail.
-1. Cliquez sur l’onglet **Documents** en haut de l’écran.
+1. Cliquez sur l&#39;onglet **Documents** en haut de l&#39;écran.
 1. Cliquez sur **Charger le document** dans le coin supérieur droit, puis sélectionnez **Épreuve**.
 1. Créez un BAT, comme décrit dans la section
-   [Création d’une épreuve avancée avec un workflow De base](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [Créer une épreuve avancée avec un workflow de base](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Créer une épreuve avancée avec un workflow automatisé](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--
