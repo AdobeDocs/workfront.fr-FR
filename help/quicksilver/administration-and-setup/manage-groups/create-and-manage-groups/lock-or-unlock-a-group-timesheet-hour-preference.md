@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 88%
+source-wordcount: '599'
+ht-degree: 86%
 ---
 # Verrouiller ou déverrouiller les préférences en matière de feuilles de temps et d’heures pour les groupes
 
@@ -100,12 +100,12 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Dans le panneau de gauche, cliquez sur **Groupes**.
 1. Cliquez sur le nom du groupe dans lequel vous souhaitez verrouiller ou déverrouiller une préférence en matière de feuilles de temps et d’heures.
-1. Dans le panneau de gauche, cliquez sur **Préférences en matière de feuilles de temps et d’heures**.
+1. Sur la gauche, cliquez sur **Feuilles de temps et préférences d&#39;heures**.
 
 1. Sur la page qui s’affiche, effectuez l’une des opérations suivantes :
 
-   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![bouton Déverrouiller](assets/unlock-toggle-button.png).
-   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu’elle est verrouillée ![bascule Verrouiller](assets/lock-toggle-button.png) (il s’agit de la valeur par défaut).
+   * Si vous souhaitez que les administrateurs des groupes situés sous votre groupe puissent configurer une préférence pour leurs groupes, déverrouillez-la ![Déverrouiller le bouton (bascule)](assets/unlock-toggle-button.png).
+   * Si vous souhaitez que tous les groupes situés sous le vôtre utilisent votre configuration pour une préférence, assurez-vous qu&#39;elle est verrouillée ![Verrouiller le bouton bascule](assets/lock-toggle-button.png) (c&#39;est la valeur par défaut).
 
      >[!IMPORTANT]
      >
