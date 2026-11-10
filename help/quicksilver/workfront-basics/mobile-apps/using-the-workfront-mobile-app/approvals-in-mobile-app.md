@@ -51,7 +51,7 @@ Vous pouvez gérer les approbations qui vous sont affectées ou déléguées à 
  </tbody> 
 </table>
 
-Les épreuves font l’objet d’un processus d’approbation distinct. Vous ne pouvez pas approuver une épreuve à partir d’un élément de travail ou d’un document. Pour plus d’informations sur l’examen et l’approbation des épreuves, voir [Examiner les épreuves et prendre des décisions à leur sujet dans l’application mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Les épreuves font l’objet d’un processus d’approbation distinct. Vous ne pouvez pas approuver une épreuve à partir d’un élément de travail ou d’un document. Pour plus d’informations sur l’examen et l’approbation des épreuves, voir [Examiner les épreuves et prendre des décisions à leur sujet dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Examiner une approbation
 
