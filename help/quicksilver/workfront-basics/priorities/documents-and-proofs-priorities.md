@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 28%
+source-wordcount: '592'
+ht-degree: 31%
 ---
 # Charger des documents et créer des épreuves dans Priorités
 
@@ -112,29 +112,6 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
    >
    >Les fichiers supplémentaires sont chargés en tant que documents distincts.
 1. Cliquez sur **Charger**.
-
-## Chargement d’un document dans un projet de stockage dans le cloud Adobe
-
-Vous ne pouvez pas charger de documents directement vers une tâche ou un événement dans un projet d’espace de stockage Adobe. Chargez plutôt le document dans le projet à partir de l’onglet **Projet**.
-
-{{step1-to-priorities}}
-
-1. Dans la liste de tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![ouvrir l’icône de résumé](assets/summary-icon.png).
-1. Dans le panneau de résumé, cliquez sur l&#39;onglet **Projet**.
-1. Cliquez sur l’icône **Télécharger le fichier** ![Icône de téléchargement de fichier](assets/upload-file-icon.png).
-1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
-
-   ou
-
-   Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d&#39;un fournisseur Document Cloud.
-1. (Facultatif) Ajoutez un commentaire.
-1. (Facultatif) Ajoutez d’autres fichiers.
-
-   >[!NOTE]
-   >
-   >Les fichiers supplémentaires sont chargés en tant que documents distincts.
-1. Cliquez sur **Charger**.
-
 
 ## Création d’une épreuve simple ou avancée
 
