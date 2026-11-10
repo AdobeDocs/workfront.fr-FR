@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 94%
 ---
 # Devenir Beta-testeur ou Beta-testeuse [!UICONTROL iOS]
+
+{{mobile-maintenance-mode}}
 
 ## Télécharger l’application Beta
 
@@ -66,7 +68,7 @@ Vous devez disposer des applications [!DNL Workfront] et [!DNL TestFlight] sur v
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version Beta et télécharger l’application :
 
-![Code QR &#x200B;](assets/ios-qr-code-350x397.png)
+![Code QR ](assets/ios-qr-code-350x397.png)
 
 ## Nous faire part de votre retour d’expérience
 

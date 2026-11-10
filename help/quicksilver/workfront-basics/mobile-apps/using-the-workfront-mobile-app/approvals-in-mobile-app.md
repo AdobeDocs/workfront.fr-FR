@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 91%
 ---
 # Approbations dans l’application mobile [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>L’application mobile Workfront est en mode de maintenance et n’est plus en cours de développement.
+> 
+>Les validations unifiées ne sont pas prises en charge dans l’application mobile Workfront.
 
 Vous pouvez gérer les approbations qui vous sont affectées ou déléguées à partir de la zone [!UICONTROL Approbations] de l’application mobile [!DNL Adobe Workfront]. Dans la zone [!UICONTROL Approbations], vous pouvez approuver les éléments suivants :
 

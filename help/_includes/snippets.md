@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 61%
 ---
 # Extraits de code
@@ -119,7 +119,7 @@ Vous pouvez vous assurer que vous associez le groupe approprié à l’équipe e
 >
 >La procédure décrite sur cette page s’applique uniquement aux organisations qui ne sont pas encore intégrées à Adobe Admin Console.
 >
->Si votre organisation a été intégrée à Adobe Admin Console, voir [&#x200B; Différences d’administration entre Adobe Workfront et Adobe Business Platform &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Si votre organisation a été intégrée à Adobe Admin Console, voir [ Différences d’administration entre Adobe Workfront et Adobe Business Platform ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Étape 1 - Accéder à Utilisateurs et utilisatrices {#step-1-to-users}
 
@@ -362,6 +362,12 @@ OLD:
 ## Épreuve mobile - Menu Plus {#mobile-proof-more-menu}
 
 1. Ouvrez l’épreuve du document et sélectionnez le menu **[!UICONTROL Plus]** ![Menu Plus](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) en haut à droite du document. Sélectionnez ensuite **[!UICONTROL Plus]**.
+
+## Mobile : aucun nouveau développement {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>L’application mobile Workfront est en mode de maintenance et n’est plus en cours de développement.
 
 <!-- My Updates -->
 

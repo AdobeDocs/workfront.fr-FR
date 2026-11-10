@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 98%
 ---
 # Section [!UICONTROL Mon travail] dans l’application mobile
+
+{{mobile-maintenance-mode}}
 
 La section [!UICONTROL Mon travail] de la zone [!UICONTROL Accueil] affiche vos tâches, problèmes, projets, approbations, demandes et feuilles de temps.
 
@@ -44,4 +46,4 @@ Vous pouvez choisir les éléments de menu à afficher dans [!UICONTROL Mon trav
    >
    >L’élément de menu [!UICONTROL Tâches et problèmes] est toujours affiché et vous ne pouvez pas le masquer.
 
-   ![&#x200B; Paramètres mobiles &#x200B;](assets/mobile-settings-338x366.png)
+   ![ Paramètres mobiles ](assets/mobile-settings-338x366.png)

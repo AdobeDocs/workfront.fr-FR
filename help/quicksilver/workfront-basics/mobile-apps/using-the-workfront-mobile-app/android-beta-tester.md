@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 94%
 ---
 # Devenir Beta-testeur ou Beta-testeuse [!DNL Android]
+
+{{mobile-maintenance-mode}}
 
 ## Télécharger l’application Beta
 
@@ -42,13 +44,13 @@ Vous devez installer l’application [!DNL Workfront] avant de rejoindre le prog
 
 1. Une fois la progression terminée, vous recevez la confirmation que vous êtes désormais un utilisateur ou une utilisatrice Beta.\
    Le mot « [!UICONTROL Beta] » apparaît après le nom de votre application dans le [!DNL Play Store] indiquant que vous utilisez la version Beta de l’application.\
-   ![testeur bêta &#x200B;](assets/android-beta-tester-adobe-350x468.png)
+   ![testeur bêta ](assets/android-beta-tester-adobe-350x468.png)
 
 ### Code QR
 
 Vous pouvez également scanner le code QR ci-dessous pour vous inscrire à la version Beta et télécharger l’application :
 
-![Code QR &#x200B;](assets/android-qr-code-350x409.png)
+![Code QR ](assets/android-qr-code-350x409.png)
 
 ## Nous faire part de votre retour d’expérience
 

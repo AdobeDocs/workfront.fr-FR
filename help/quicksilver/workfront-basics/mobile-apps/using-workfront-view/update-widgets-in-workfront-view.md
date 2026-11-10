@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 99%
 ---
 # Mettre à jour des widgets dans la vue [!UICONTROL Détails du projet]
+
+{{mobile-maintenance-mode}}
 
 Vous pouvez afficher des informations supplémentaires sur le [!UICONTROL projet] une fois que vous y avez accédé depuis la liste des projets en ajoutant des widgets à votre écran [!UICONTROL Détails du projet]. Chaque personne peut personnaliser ses propres widgets.
 
@@ -63,7 +65,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Appuyez sur l’onglet en bas au milieu de l’écran.\
    La zone [!UICONTROL Widget] s’affiche.\
    Faites défiler les widgets en glissant de gauche à droite.\
-   ![&#x200B; Widgets &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Faites glisser et déposez un widget pour personnaliser la disposition de votre page de projet.\
    Vous pouvez afficher jusqu’à quatre widgets simultanément.\
