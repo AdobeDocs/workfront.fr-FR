@@ -56,7 +56,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 >[!NOTE]
 >
 >* Cet article décrit les fonctionnalités disponibles pour l’accès aux niveaux dans le nouveau modèle de package Workfront. Pour connaître les fonctionnalités disponibles dans le modèle de package actuel, consultez [Fonctionnalité disponible pour chaque type d&#39;objet pour différents niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, consultez [Tarifs et package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, consultez [Tarifs et package Adobe Workfront](https://business.adobe.com/fr/products/workfront/pricing.html).
 
 ## Projets
 
