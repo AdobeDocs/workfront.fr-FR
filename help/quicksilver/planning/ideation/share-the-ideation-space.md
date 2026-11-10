@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 8%
+source-wordcount: '667'
+ht-degree: 6%
 ---
 
 # Partager un espace d&#39;idées avec d&#39;autres personnes
@@ -33,12 +33,10 @@ ht-degree: 8%
 
 <span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Workfront Planning. Votre société doit acheter un package Planning supplémentaire pour accéder à Workfront Planning.
+>Les informations de cet article se rapportent à des fonctionnalités disponibles uniquement pour les clients Workfront qui disposent également d’Adobe Workfront Planning. Votre entreprise doit acheter un package Planning supplémentaire.
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
@@ -95,29 +93,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Exigences des fournisseurs de cloud</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTE :</b></p>
+   <p>Aucun autre fournisseur de cloud n’est pris en charge</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+<li><p>Tout workflow avec un package Planning</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>Configuration requise</p></td> 
+   <td><p>Les paramètres Préférences de Collègue et MCP dans les Préférences système de la zone Configuration doivent être activés</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licence de workflow Adobe</p></td> 
    <td><p>Standard</p>
@@ -127,29 +137,33 @@ Or
    <td role="rowheader"><p>Licence Adobe Planning</p></td> 
    <td><p>Standard</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td> 
    <ul>
-   <li><p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   </li>
+   <li><p>Vous devez ajouter un type de licence Workflow et Planning au niveau d'accès <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>Le paramètre Désactiver l’espace d’idéation de votre niveau d’accès doit être désélectionné</p></li>
+   <li><p>Le paramètre Désactiver le panneau CX Coworker dans Workfront dans votre niveau d’accès doit être désélectionné</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Autorisations de niveau Contributeur ou supérieur à l’espace de travail et au type d’enregistrement dans lesquels vous souhaitez ajouter des enregistrements </p>
       <p>L’administration système a accès à tous les espaces de travail, y compris ceux qu’elle n’a pas créés.</p>
-      <p>Afficher les autorisations d’accès aux objets Workfront pour les ajouter aux résumés <!--not sure if this is available--></p>
-      <p>Autorisations de l’éditeur dans l’espace Idéation d’un brief pour créer des brief</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>Autorisations d’éditeur dans l’espace Idéation pour créer des résumés</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 

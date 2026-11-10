@@ -10,16 +10,16 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 7ddca116d08e6c0a5bbfaaf35434aa167c1d2683
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 6%
 ---
 # Compétences Workfront dans CX Enterprise Coworker
 
 >[!IMPORTANT]
 >
->CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [ Présentation de l’assistant AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Cet article répertorie les compétences actuellement disponibles pour CX Enterprise Coworker dans Workfront.
 
@@ -57,9 +57,7 @@ Cette compétence interroge et gère les objets Workfront Planning tels que :
 * Champs
 * Vues
 * Enregistrements
-<!--
-* Business rules
--->
+* Règles métier
 
 <!--
 
@@ -71,7 +69,7 @@ Coworker has a variety of skills to work with Workfront Planning Ideation space.
 * Thing 2
 * Other thing
 
-For more information about Ideation Space, see []().
+For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 -->
 

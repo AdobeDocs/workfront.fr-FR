@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 10%
+source-wordcount: '169'
+ht-degree: 11%
 ---
 # Programmes Beta
 
@@ -40,7 +40,7 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
 * Intégrité du projet
 
-  Pour plus d’informations, voir [&#x200B; Présentation de l’intégrité du projet &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Pour plus d’informations, voir [ Présentation de l’intégrité du projet ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * Le réviseur de contenu Workfront
 
@@ -49,13 +49,13 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
   Pour plus d’informations, voir [Prise en main du réviseur de contenu Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Adobe Workfront Planning Designer est disponible en version bêta pour tous les clients.
+* Designer de planification d’Adobe Workfront
 
   Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 <!--
 
-* Ideation space for Adobe Workfront Planning is available in Open beta.
+* Ideation space for Adobe Workfront Planning 
 
     For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
 -->
