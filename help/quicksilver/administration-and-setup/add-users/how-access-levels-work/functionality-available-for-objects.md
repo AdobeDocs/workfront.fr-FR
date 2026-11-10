@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 90%
@@ -55,13 +55,13 @@ Ils indiquent également les actions que les administrateurs et administratrices
 
 >[!NOTE]
 >
->* Cet article décrit les fonctionnalités disponibles pour l’accès aux niveaux dans le nouveau modèle de package Workfront. Pour consulter les fonctionnalités disponibles dans le modèle de package actuel, consultez [Fonctionnalité disponible pour chaque type d’objet pour différents niveaux d’accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, voir [Tarifs et package &#x200B;](https://business.adobe.com/fr/products/workfront/pricing.html).
+>* Cet article décrit les fonctionnalités disponibles pour l’accès aux niveaux dans le nouveau modèle de package Workfront. Pour connaître les fonctionnalités disponibles dans le modèle de package actuel, consultez [Fonctionnalité disponible pour chaque type d&#39;objet pour différents niveaux d&#39;accès](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Pour obtenir la liste des fonctionnalités disponibles pour les différents packages dans le dernier modèle, consultez [Tarifs et package Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projets
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; |   |   |   |
 | Copier | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
@@ -100,7 +100,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 ## Tâches
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
@@ -132,7 +132,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 ## Problèmes
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|-------------------------------|----------|--------|-------------|---------------|
+| ------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifier | ✓ | ✓ | ✓ |   |
 | Supprimer | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -162,7 +162,7 @@ Ils indiquent également les actions que les administrateurs et administratrices
 Seules les personnes disposant d’une licence standard peuvent avoir un accès complet aux portfolios.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|--------------------------|----------|--------|-------------|---------------|
+| -------------------------- | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
@@ -186,7 +186,7 @@ Seules les personnes disposant d’une licence standard peuvent avoir un accès 
 Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet aux programmes.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|------------------------------|----------|--------|-------------|---------------|
+| ------------------------------ | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
@@ -210,7 +210,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet aux rapports. Tous les autres niveaux d’accès disposent d’un accès en affichage aux rapports.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|--------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Afficher les rapports intégrés | ✓&#42; |   |   |   |
@@ -232,7 +232,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 ## Filtres, vues et regroupements
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Créer | ✓* | ✓* | ✓* |   |
 | Supprimer | ✓* | ✓* | ✓* |   |
 | Partager | ✓* | ✓* | ✓* |   |
@@ -247,7 +247,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 ## Documents
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|--------------------------------|----------|--------|-------------|---------------|
+| -------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Supprimer (documents et dossiers) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Partager | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -284,7 +284,7 @@ Les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avo
 Ces options sont disponibles dans l’environnement de Prévisualisation :
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------- |
 | Créer | ✓* |   |   |   |
 | Supprimer | ✓* |   |   |   |
 | Modifier les taux de facturation | ✓* |   |   |   |
@@ -308,7 +308,7 @@ Ces options sont disponibles dans l’environnement de Prévisualisation :
 ## Fonctions
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Afficher | ✓ | ✓ | ✓ |   |
 | Modifier | ✓ |   |   |   |
 | Créer | ✓* |   |   |   |
@@ -328,18 +328,18 @@ Ces options sont disponibles dans l’environnement de Prévisualisation :
 
 ## Companies
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| View | ✓ | ✓ | ✓ | &nbsp; |
+| Edit | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| Create | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Delete | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Billing Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit Cost Rates | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| Edit General Finance | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View Billing Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View Cost Rates | ✓ | &nbsp; | &nbsp; | &nbsp; |
+| View General Finance | ✓ | &nbsp; | &nbsp; | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -347,10 +347,10 @@ Ces options sont disponibles dans l’environnement de Prévisualisation :
 
 ## Groups
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
-|-------------------|------------|---------|---------------|---------------|
-| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Action | Standard | Light | Contributor | External user |
+|------------------- | ------------ | --------- | --------------- | ---------------|
+| Share | ✓* | &nbsp; | &nbsp; | &nbsp; |
+| View | ✓ | ✓ | ✓ | &nbsp; |
 
 {style="table-layout:auto"}
 
@@ -361,7 +361,7 @@ Ces options sont disponibles dans l’environnement de Prévisualisation :
 ## Équipes
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe* |
-|-----------------------------------------|-----------|------------|-------------|------------------|
+| ----------------------------------------- | ----------- | ------------ | ------------- | ------------------ |
 | Créer | ✓* |   |   |   |
 | Supprimer | ✓* |   |   |   |
 | Modifier les équipes auxquelles la personne appartient. | ✓* |   |   |   |
@@ -376,7 +376,7 @@ Ces options sont disponibles dans l’environnement de Prévisualisation :
 ## Modèles
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|-----------------------|----------|--------|-------------|---------------|
+| ----------------------- | ---------- | -------- | ------------- | --------------- |
 | Créer | ✓&#42; |   |   |   |
 | Supprimer | ✓&#42; |   |   |   |
 | Partager | ✓&#42; |   |   |   |
@@ -394,7 +394,7 @@ Ces options sont disponibles dans l’environnement de Prévisualisation :
 Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet aux données financières.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| -------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Modifier les taux de facturation | ✓&#42; |   |   |   |
 | Modifier les taux de dépenses | ✓&#42; |   |   |   |
 | Modifier les finances générales | ✓&#42; |   |   |   |
@@ -418,10 +418,10 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuvent avoir un accès complet à la gestion des ressources. D’autres types de licence peuvent avoir un accès limité ou non à la gestion des ressources dans Workfront.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|----------------------------------------------------------------|----------|--------|-------------|---------------|
+| ---------------------------------------------------------------- | ---------- | -------- | ------------- | --------------- |
 | Modifier les priorités et les heures budgétées dans le Planificateur | ✓&#42; |   |   |   |
 | Créer, modifier et supprimer des groupes de ressources&#42;&#42; | ✓&#42; |   |   |   |
-| Mettez à jour les heures prévues dans l’équilibreur de charge de travail&#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Mettre à jour les heures prévues dans l&#39;équilibreur de charge de travail&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Afficher les priorités du projet dans le planificateur de ressources | ✓&#42; |   |   |   |
 | Afficher l’allocation des ressources dans les outils de planification des ressources | ✓&#42; | ✓&#42; |   |   |
 | Afficher les groupes de ressources | ✓&#42; | ✓&#42; |   |   |
@@ -439,7 +439,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 ## Zone Planificateur de scénarios
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|-----------------------------------------------------------------------|----------|-------|-------------|---------------|
+| ----------------------------------------------------------------------- | ---------- | ------- | ------------- | --------------- |
 | Créer/modifier des plans et initiatives existants | ✓ | ✓ |   |   |
 | Ajouter ou modifier des informations sur les fonctions dans les plans et les initiatives&#42; | ✓ | ✓ |   |   |
 | Ajouter ou modifier des informations sur les coûts des plans et des initiatives&#42; | ✓ | ✓ |   |   |
@@ -460,7 +460,7 @@ Seuls les utilisateurs et utilisatrices disposant d’une licence Standard peuve
 Seuls les utilisateurs disposant d&#39;une licence Standard peuvent bénéficier d&#39;un accès complet aux cartes tarifaires.
 
 | Action | Standard | Léger | Contributeur | Utilisateur ou utilisatrice externe |
-|-------------------|------------|---------|---------------|---------------|
+| ------------------- | ------------ | --------- | --------------- | --------------- |
 | Afficher | ✓ | ✓ |   |   |
 | Modifier | ✓ |   |   |   |
 | Créer | ✓* |   |   |   |
@@ -476,7 +476,7 @@ Seuls les utilisateurs disposant d&#39;une licence Standard peuvent bénéficier
 <!-- ask Alina about this section -->
 
 | Actions | Afficher | Modifier |
-|---|---|---|
+| --- | --- | --- |
 | Créer |   | ✓ |
 | Modifier/supprimer tous les objectifs |   | ✓ |
 | Afficher Objectifs dans le menu principal | ✓ | ✓ |

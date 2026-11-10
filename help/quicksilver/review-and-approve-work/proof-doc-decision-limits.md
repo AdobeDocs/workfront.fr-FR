@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 83%
@@ -46,7 +46,7 @@ Les types de décision suivants sont pris en compte dans la limite mensuelle :
    </td>
    <td><strong>Validations unifiées</strong> 
    </td>
-   <td><strong>Validations d'épreuve</strong> 
+   <td><strong>Validations de BAT</strong> 
    </td>
   </tr>
   <tr>
@@ -70,7 +70,7 @@ Les types de décision suivants sont pris en compte dans la limite mensuelle :
     <li>Approuver avec des modifications</li>
      <li>Modifications requises</li>
    </ul>
-   <p><strong>Remarque </strong> : les validations d’épreuve peuvent avoir des libellés de décision personnalisés</p>
+   <p><strong>Remarque</strong> : les validations d’épreuve peuvent avoir des libellés de décision personnalisés</p>
   </tr>
   </tr>
 </table>
