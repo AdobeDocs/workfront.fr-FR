@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 61%
 ---
 # Extraits de code
@@ -362,6 +362,12 @@ OLD:
 ## Épreuve mobile - Menu Plus {#mobile-proof-more-menu}
 
 1. Ouvrez l’épreuve du document et sélectionnez le menu **[!UICONTROL Plus]** ![Menu Plus](/help/_includes/assets/mobile-verticalmoremenu-20x33.png) en haut à droite du document. Sélectionnez ensuite **[!UICONTROL Plus]**.
+
+## Mobile : aucun nouveau développement {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>L’application mobile Workfront est en mode de maintenance et n’est plus en cours de développement.
 
 <!-- My Updates -->
 

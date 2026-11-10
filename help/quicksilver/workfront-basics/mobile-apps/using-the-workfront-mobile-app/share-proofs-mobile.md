@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 95%
 ---
 # Partager et télécharger des épreuves dans l’application mobile [!DNL Adobe Workfront]
+
+{{mobile-maintenance-mode}}
 
 Vous pouvez partager un document d’épreuve avec des destinataires internes et externes directement à partir de l’application mobile. Vous pouvez également télécharger un document d’épreuve sur votre appareil mobile.
 

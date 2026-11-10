@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 99%
 ---
 # Mettre à jour des widgets dans la vue [!UICONTROL Détails du projet]
+
+{{mobile-maintenance-mode}}
 
 Vous pouvez afficher des informations supplémentaires sur le [!UICONTROL projet] une fois que vous y avez accédé depuis la liste des projets en ajoutant des widgets à votre écran [!UICONTROL Détails du projet]. Chaque personne peut personnaliser ses propres widgets.
 

@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1899'
 ht-degree: 3%
 ---
 
@@ -32,12 +32,10 @@ ht-degree: 3%
 
 <span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>\
-</span>
 
 >[!IMPORTANT]
 >
->Les informations de cet article se rapportent à Adobe Workfront Planning. Votre société doit acheter un package Planning supplémentaire pour accéder à Workfront Planning.
+>Les informations de cet article se rapportent à des fonctionnalités disponibles uniquement pour les clients Workfront qui disposent également d’Adobe Workfront Planning. Votre entreprise doit acheter un package Planning supplémentaire.
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Exigences des fournisseurs de cloud</p></td> 
+   <td><p>AWS</p>
+   <p><b>NOTE :</b></p>
+   <p>Aucun autre fournisseur de cloud n’est pris en charge</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Package Adobe Workfront</p></td> 
    <td> 
 <ul> 
-<li><p>Tout Workfront ou workflow avec un package Planning</p></li>
+<li><p>Tout workflow avec un package Planning</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>Configuration requise</p></td> 
+   <td><p>Les paramètres Préférences de Collègue et MCP dans les Préférences système de la zone Configuration doivent être activés</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licence de workflow Adobe</p></td> 
    <td><p>Standard</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>Configuration du niveau d’accès</p></td> 
    <td> 
    <ul>
-   <li><p>Vous devez ajouter un workflow et un type de licence Planning au niveau d'accès lorsque vous disposez à la fois d'un workflow et d'un package Planning</p>   </li>
+   <li><p>Vous devez ajouter un type de licence Workflow et Planning au niveau d'accès <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>Le paramètre Désactiver l’espace d’idéation de votre niveau d’accès doit être désélectionné</p></li>
+   <li><p>Le paramètre Désactiver le panneau CX Coworker dans Workfront dans votre niveau d’accès doit être désélectionné</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Il existe des commandes pour l’espace Idéation qui configurent ce que vous vo
     -->
 1. Cliquer sur **Enregistrer**.
 
-1. Cliquez sur l’icône déroulante **niveau de zoom** à gauche de l’icône **Aide** ou de l’icône **Aide** ![Icône d’aide](assets/more-information-icon.png) pour sélectionner une option ou passer en revue les raccourcis clavier que vous pouvez utiliser pour naviguer dans l’espace d’idéation ou sélectionner une autre valeur de zoom.
+1. Cliquez sur le menu déroulant **niveau de zoom** à gauche de l’icône **Aide** ![icône d’aide](assets/more-information-icon.png) pour sélectionner une option.
 
-   Effectuez un choix parmi les niveaux de zoom suivants :
+   Choisissez l’une des options suivantes :
 
-   * Zoom à 100 %
-   * Zoom à 200 %
-   * Zoom pour ajuster
+   * **Zoom pour ajuster**
+   * **Zoom avant**
+   * **Zoom arrière**
+   * Zoom sur **50**, **100**, **150** ou **200 %**
+   * **Afficher la grille à points** : activez la sélection pour afficher la grille à points.
+   * **Visite guidée du produit** : désactivez la sélection pour exclure les conseils lors de l’utilisation de l’espace Idéation .
 
-   Vous pouvez également utiliser l’un des raccourcis suivants pour naviguer sur la page :
+1. Cliquez sur l’icône **Aide** ![Icône Aide](assets/more-information-icon.png) pour consulter les raccourcis clavier que vous pouvez utiliser pour parcourir l’espace d’orientation ou sélectionner une autre valeur de zoom :
 
-   | Action | Raccourci |
-   | --- | --- |
-   | Zoom avant/arrière | Ctrl/⌘ + / − |
-   | Zoom pour ajuster/ajuster la sélection | — |
-   | Zoom sur le curseur | Ctrl/⌘ + défilement |
-   | Panoramique de la zone de travail | Maintenir la touche Espace + glisser |
-   | Afficher/masquer la grille de points | Go |
-
-
+| Action | Raccourci |
+| --- | --- |
+| Zoom avant/arrière | Ctrl/⌘ + / − |
+| Zoom à 100 % / | Ctrl/⌘ 1 / 1 |
+| Zoom à 200 % / | Ctrl/⌘ 2 / 2 |
+| Zoom pour ajuster | Ctrl/⌘ 0 / 0 |
+| Zoom pour ajuster la sélection | Alt Ctrl 0 |
+| Zoom sur le curseur | Ctrl/⌘ défilement |
+| Panoramique | Glisser l’espace de maintien |
+| Afficher/masquer la grille de points | Go |
 
 <!--
 

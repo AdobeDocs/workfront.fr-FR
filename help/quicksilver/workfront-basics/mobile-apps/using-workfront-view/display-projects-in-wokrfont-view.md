@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 91%
 ---
 # Afficher les projets dans [!UICONTROL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 Par défaut, la liste des projets affichée dans [!DNL Adobe Workfront View] affiche les 100 projets actifs les plus récents. La liste des projets n’est classée selon aucun critère.
 

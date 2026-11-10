@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 ---
 # [!UICONTROL Panoramas [!DNL Adobe Workfront]] pour appareil mobile
+
+{{mobile-maintenance-mode}}
 
 [!UICONTROL Les panoramas [!DNL Adobe Workfront]] sont des outils flexibles qui permettent la collaboration en équipe en donnant accès à un panorama partagé qui contient des colonnes et des cartes. Pour plus d’informations sur les panoramas, voir [Vue d’ensemble des panoramas](/help/quicksilver/agile/boards-overview.md).
 

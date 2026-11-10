@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 7%
 ---
 
@@ -129,7 +129,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 * Lors de la création, de la mise à jour ou de la suppression d&#39;un objet par l&#39;intermédiaire de Coworker, Coworker affiche les actions prévues et demande confirmation. Vous pouvez ensuite confirmer ou annuler les actions.
 
-## Fonctionnalité actuellement disponible pour Coworker
+## Fonctionnalité actuellement disponible pour un collègue dans Workfront Planning
 
 Actuellement, Coworker est disponible dans la zone Planification de Workfront et utilise un ensemble de compétences pour accéder aux informations et les manipuler pour les objets Planification. Pour plus d’informations, voir [Compétences Workfront dans CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
@@ -137,14 +137,16 @@ Vous pouvez utiliser un collègue pour effectuer les actions suivantes :
 
 * Rechercher des enregistrements. Vous pouvez effectuer une recherche en fonction des informations contenues dans n’importe quel champ d’enregistrement.
 * Créer des enregistrements. Un identifiant avec un lien vers le nouvel enregistrement s’affiche une fois l’enregistrement créé. Vous pouvez spécifier les champs que vous souhaitez mettre à jour pendant le processus de création, tels que les dates ou la description.
-* Créez des enregistrements basés sur un document que vous téléchargez. Workfront prend en charge les formats de document suivants pour le collaborateur :
+* Créez des enregistrements basés sur un document que vous téléchargez. Workfront prend en charge les formats de document suivants à joindre à Coworker :
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT et la plupart des formats d’image
 * Mettre à jour les champs des enregistrements affichés à l’écran
 * Supprimer, dupliquer ou restaurer des enregistrements
 * Lier des enregistrements à d&#39;autres enregistrements
 * Afficher l&#39;historique des modifications d&#39;un enregistrement
-* Importez 10 000 enregistrements ou plus en joignant un fichier Excel à Coworker.
+* Importer 10 000 enregistrements ou plus en joignant un fichier Excel à Coworker
+* Créer et gérer les règles métier
+
 
 ## Localiser un collègue dans Workfront Planning
 
