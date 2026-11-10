@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 38%
+source-wordcount: '451'
+ht-degree: 31%
 ---
 # Charger des fichiers dans Priorités
 
@@ -69,11 +69,11 @@ Pour plus d’informations, voir [Conditions d’accès dans la documentation Wo
 
 1. Pointez sur le nom, puis cliquez sur l’icône **Plus** ![Plus](assets/more-icon.png).
 1. Cliquez sur **Charger**.
-   ![Mise à jour, consignation de l’heure et chargement](assets/update-log-upload.png)
+   ![Mettre à jour, consigner l&#39;heure et charger](assets/update-log-upload.png)
 1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
 1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 ou
-Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d&#39;un fournisseur Document Cloud.
    ![Ajouter des fichiers](assets/add-files.png)
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
@@ -88,15 +88,40 @@ Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des
 {{step1-to-priorities}}
 
 1. Cliquez sur le nom d’un élément de travail pour ouvrir la page **Aperçu**.
-1. Dans la section **Actions rapides**, cliquez sur **Charger** puis sélectionnez **Document**.
+1. Dans la section **Actions rapides**, cliquez sur **Charger**, puis sélectionnez **Document**.
 1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
 1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
 
    ou
 
-   Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d’un fournisseur Document Cloud.
+   Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d&#39;un fournisseur Document Cloud.
 
    ![Ajouter des fichiers](assets/add-files.png)
+
+1. (Facultatif) Ajoutez un commentaire.
+1. (Facultatif) Ajoutez d’autres fichiers.
+
+   >[!NOTE]
+   >
+   >Les fichiers supplémentaires sont chargés en tant que documents distincts.
+
+1. Cliquez sur **Charger**.
+
+## Chargement d’un fichier dans un projet de stockage dans le cloud Adobe
+
+Vous ne pouvez pas charger de fichiers directement vers une tâche ou un événement dans un projet d’espace de stockage Adobe. Chargez plutôt le fichier dans le projet à partir de l’onglet **Projet** dans le panneau Résumé .
+
+{{step1-to-priorities}}
+
+1. Dans la liste de tâches, passez la souris sur le nom de la tâche, puis cliquez sur l’icône **Résumé** ![ouvrir l’icône de résumé](assets/summary-icon.png).
+1. Dans le panneau de résumé, cliquez sur l&#39;onglet **Projet**.
+1. Cliquez sur l’icône **Télécharger le fichier** ![Icône de téléchargement de fichier](assets/upload-file-icon.png).
+1. (Facultatif) Dans la zone **Télécharger des fichiers**, sélectionnez un dossier.
+1. Glissez et déposez votre fichier ou collez-le à partir du presse-papiers en utilisant les touches Cmd/Ctrl + V.
+
+   ou
+
+   Cliquez sur **Ajouter des fichiers** pour parcourir les fichiers ou importer des fichiers d&#39;un fournisseur Document Cloud.
 
 1. (Facultatif) Ajoutez un commentaire.
 1. (Facultatif) Ajoutez d’autres fichiers.
