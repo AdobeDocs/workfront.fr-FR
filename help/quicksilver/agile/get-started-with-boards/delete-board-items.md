@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 96%
 ---
 # Supprimer ou archiver une carte d’un panorama
+
+{{boards-maintenance-mode}}
 
 Lorsque vous supprimez une carte ad hoc d’un panorama, elle est supprimée définitivement et ne peut pas être restaurée. Une fois supprimées, les cartes connectées peuvent être réajoutées manuellement à un panorama.
 
@@ -84,7 +86,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Les cartes archivées sont cachées dans le panorama à moins que vous n’appliquiez un filtre pour les afficher. Pour plus d’informations, consultez dans cet article la section [Filtrer une carte pour afficher les cartes archivées](#filter-a-board-to-show-archived-cards).
 
-   Une icône [!UICONTROL Archiver] ![&#x200B; Archiver](assets/archive-icon-spectrum-25x20.png) apparaît sur les cartes archivées. Vous ne pouvez pas modifier une carte archivée, mais vous pouvez la supprimer ou la déplacer vers une autre colonne.
+   Une icône [!UICONTROL Archiver] ![ Archiver](assets/archive-icon-spectrum-25x20.png) apparaît sur les cartes archivées. Vous ne pouvez pas modifier une carte archivée, mais vous pouvez la supprimer ou la déplacer vers une autre colonne.
 
 1. Pour restaurer une carte archivée, cliquez sur le menu **[!UICONTROL Plus]** ![Menu Plus](assets/more-icon-spectrum.png) sur la carte et sélectionnez **[!UICONTROL Restaurer]**.
 

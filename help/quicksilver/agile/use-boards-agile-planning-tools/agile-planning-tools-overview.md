@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 64%
+source-wordcount: '179'
+ht-degree: 62%
 ---
 # Vue d’ensemble des outils de planification Agile : index des articles
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 Lorsque vous créez un panorama à l’aide de cartes ad hoc et connectées, vous pouvez tirer parti d’outils de planification Agile supplémentaires.
 
@@ -44,10 +46,6 @@ Les outils utiles pour Scrum sont les suivants :
 * Flux de travail et panoramas d’itération
 * Liste des cartes ou liste d’attente
 * Mesures d’itération
-
->[!IMPORTANT]
->
->Les flux de travail et leurs outils associés ne sont disponibles que pour un groupe spécifique de clientes et clients.
 
 Vous pouvez utiliser l’un de ces outils ou l’ensemble de ceux-ci d’une manière qui fonctionne pour vous et votre équipe, sans vous engager à suivre une méthodologie Agile spécifique.
 

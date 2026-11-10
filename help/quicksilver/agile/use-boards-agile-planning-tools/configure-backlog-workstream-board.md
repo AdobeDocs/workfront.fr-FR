@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '470'
 ht-degree: 98%
 ---
 # Configurer la liste d’attente sur un panorama de flux de travail
 
->[!IMPORTANT]
->
->Les flux de travail ne sont disponibles que pour un groupe spécifique de clientes et de clients.
+{{boards-workstreams}}
 
 Vous pouvez choisir d’afficher une colonne de liste d’attente sur un panorama dans un flux de travail et définir une requête pour les cartes qui sont ajoutées à la liste d’attente du panorama depuis la liste des cartes du flux de travail.
 

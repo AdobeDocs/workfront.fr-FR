@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 92%
@@ -34,6 +34,8 @@ ht-degree: 92%
 # Créer ou modifier un panorama
 
 <!-- Audited: 12/2023 -->
+
+{{boards-maintenance-mode}}
 
 À partir du tableau de bord des [!UICONTROL Panoramas], vous pouvez créer un nouveau panorama ou modifier un panorama existant.
 
@@ -74,7 +76,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    | Modèle | Description |
    |---------|----------|
    | Panorama de base | Trois colonnes par défaut sont fournies sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Trois colonnes par défaut sont fournies sur le panorama. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. |
-   | Panorama Kanban | Les colonnes suivantes sont affichées sur le panorama : Liste d’attente, Nouveau, En cours, Terminé et Suspendu. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser la liste d’attente, vous devez définir des filtres pour la colonne de saisie. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour revoir les politiques par défaut de chaque colonne, cliquez sur le menu [!UICONTROL **Plus** &#x200B;] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une ou l’autre de ces politiques prédéfinies. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Panorama Kanban | Les colonnes suivantes sont affichées sur le panorama : Liste d’attente, Nouveau, En cours, Terminé et Suspendu. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut.<p>Pour utiliser la liste d’attente, vous devez définir des filtres pour la colonne de saisie. Pour plus d’informations, voir [Ajouter une colonne de saisie à un panorama](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Pour revoir les politiques par défaut de chaque colonne, cliquez sur le menu [!UICONTROL **Plus** ] sur une colonne et sélectionnez [!UICONTROL **Modifier**]. Vous pouvez modifier l’une ou l’autre de ces politiques prédéfinies. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Panorama rétrospectif | Les colonnes suivantes sont fournies dans le panorama : Points forts Améliorations possibles Qui devons-nous célébrer Que pouvons-nous faire pour aller plus vite Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. <p>Aucune politique de colonne n’est appliquée. |
    | Panorama dynamique | Les colonnes suivantes sont fournies dans le panorama : Non sélectionné, Nouveau, En cours, Suspendu et Terminé. Vous pouvez ajouter de nouvelles colonnes et renommer ou supprimer les colonnes par défaut. (La colonne Non sélectionné(e) peut être renommée mais pas supprimée. Cette colonne contient toutes les cartes dont le statut ne correspond à aucun des statuts des autres colonnes.) <p>Les politiques de colonne par défaut attribuent des cartes aux colonnes en fonction de leur statut. Pour plus d’informations, voir [Gérer les colonnes du panorama](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
@@ -124,7 +126,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 1. Dans le tableau de bord, sélectionnez le panorama à ouvrir.
 1. Modifier le panorama si nécessaire. Vous pouvez cliquer sur le nom du panorama pour le renommer.
 
-   Pour synchroniser les cartes connectées avec Workfront et importer de nouvelles tâches et de nouveaux événements sur le panorama ou la colonne d’entrée, cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Menu Plus]](assets/more-icon-spectrum.png) à côté du nom du panorama et sélectionnez **[!UICONTROL Synchroniser les éléments connectés]**.
+   Pour synchroniser les cartes connectées avec Workfront et importer de nouvelles tâches et problèmes sur le panorama ou la colonne d’entrée, cliquez sur le menu **[!UICONTROL Plus]** ![[!UICONTROL Menu supplémentaire]](assets/more-icon-spectrum.png) à côté du nom du panorama et sélectionnez **[!UICONTROL Synchroniser les éléments connectés]**.
 
    Pour plus d’informations, voir [Ajouter ou supprimer des personnes membres d’un panorama](../../agile/get-started-with-boards/add-members-to-board.md), [Gérer les colonnes d’un panorama](../../agile/get-started-with-boards/manage-board-columns.md) et [Ajouter une carte à un panorama](../../agile/get-started-with-boards/add-card-to-board.md).
 

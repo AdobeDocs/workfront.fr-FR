@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 98%
 ---
 # Personnaliser les champs affichés sur une carte
+
+{{boards-maintenance-mode}}
 
 Par défaut, tous les champs disponibles sont affichés sur une carte, à la fois dans l’affichage complet lorsque la carte est ouverte et dans l’affichage condensé de la carte sur le panorama. Vous pouvez personnaliser les champs affichés des manières suivantes :
 
