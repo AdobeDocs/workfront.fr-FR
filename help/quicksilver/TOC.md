@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
 workflow-type: tm+mt
-source-wordcount: '14762'
+source-wordcount: '14769'
 ht-degree: 90%
 ---
 # Guide Workfront {#using}
@@ -1872,7 +1872,7 @@ ht-degree: 90%
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[ test du dictionnaire de données ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2345,6 +2345,7 @@ ht-degree: 90%
   * {hide-from-toc}Espace d’idéation dans Workfront Planning {#ideation}
     * {hide-from-toc}[Espace d’idéation pour Adobe Workfront Planning : index des articles](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[Prise en main de l’espace d’idéation pour Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[Accès nécessaire pour utiliser l&#39;espace Idéation](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[Créer des briefs dans l&#39;espace Idéation](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation](planning/ideation/create-records-in-ideation-space-for-planning.md)
     * {hide-from-toc}[Partager un espace d&#39;idées avec d&#39;autres personnes](planning/ideation/share-the-ideation-space.md)
@@ -2634,8 +2635,8 @@ ht-degree: 90%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[applications mobiles ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
