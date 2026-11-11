@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
+source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
 workflow-type: tm+mt
 source-wordcount: '2437'
 ht-degree: 58%
@@ -407,8 +407,8 @@ OLD:
 
 **Dernière version** :
 
-* Mac : version 2.3.0 à compter du 10/28/2026
-* Windows : 2.3.0 à compter du 10/28/2026
+* Mac : version 2.4.0 à compter du 11/11/2026
+* Windows : 2.4.0 à compter du 11/11/2026
 
 <!-- Release -->
 
