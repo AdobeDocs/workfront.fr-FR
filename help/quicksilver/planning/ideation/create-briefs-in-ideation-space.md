@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '2011'
 ht-degree: 3%
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 3%
 
 <!--add to TOC and miniTOC-->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Beta Espace d’idéation**. </span>
 
-<span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
+<span class="preview">Pour plus d&#39;informations, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 
 >[!IMPORTANT]
@@ -39,7 +39,7 @@ ht-degree: 3%
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >
 
@@ -92,9 +92,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Exigences des fournisseurs de cloud</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTE :</b></p>
-   <p>Aucun autre fournisseur de cloud n’est pris en charge</p>
+   <p>Nous ne prenons en charge aucun autre fournisseur de cloud.</p>
    </td> 
   </tr>
 <tr> 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,7 +167,7 @@ Or
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -177,14 +177,16 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
 1. Connectez-vous à Workfront avec Planning dans lequel Coworker a été activé, puis effectuez l’une des opérations suivantes pour ouvrir l’espace Idéation pour la première fois afin de créer des notes :
 
-   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espace d&#39;idéation**
-   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > **Nouvel enregistrement** > **Démarrer l’espace d’idéation**
+   * Accédez au **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espace d’idéation**
+   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > **Nouvel enregistrement** > **Espace d’idéation de début**
 
-   L’espace Idéation s’ouvre et une nouvelle idéation est intitulée par défaut en suivant le format suivant :
+1. Lisez le contrat bêta et cliquez sur **Accepter**. Vous devez signer le contrat pour utiliser l&#39;espace d&#39;idéation.
+
+   La zone de travail Idée s’ouvre et une nouvelle idéation est intitulée par défaut selon le format suivant :
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide de l&#39;espace Idéation, voir [Créer des enregistrements Planning à partir de résumés d&#39;espace Idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide de l&#39;Espace d&#39;idée, consultez [Créer des enregistrements Planning à partir de résumés d&#39;Espace d&#39;idée](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
 1. (Conditionnel) Pour ouvrir un brief existant dans l’espace Idéation , connectez-vous à Workfront avec Planning dans lequel Coworker a été activé, puis effectuez l’une des opérations suivantes :
 
@@ -196,14 +198,14 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
 1. (Conditionnel et facultatif) Pour ouvrir un autre espace d&#39;idéation existant, cliquez sur le menu déroulant à droite du nom de l&#39;idéation, recherchez-le par nom, puis cliquez sur l&#39;idéation lorsqu&#39;elle s&#39;affiche dans la liste.
 
-   L’espace **Idéation** s’ouvre et Coworker s’ouvre sur la droite.
+   L’**Espace d’idéation** s’ouvre et Coworker s’ouvre à droite.
 1. Utilisez l’invite du collègue pour décrire le type de brief que vous souhaitez créer.
 
    Par exemple, tapez « Créer une campagne de rentrée pour les élèves de la maternelle à la 12e année pour le mois d’août, pour les parents et les enseignants aux États-Unis ».  Pour que le résumé soit aussi complet que possible, indiquez autant d’informations que vous disposez sur le type de campagne, le calendrier, les parties prenantes, les points de contrôle des approbations et d’autres détails.
 1. (Facultatif) Cliquez sur l’icône **+** dans la zone d’invite du collaborateur et joignez les informations comme suit :
 
    * **Commandes** : utilisez une commande de la liste pour demander du contenu à Coworker.
-   * **Joindre un fichier** : joignez un fichier à la zone d’invite pour l’ajouter ou ajouter ses informations à l’espace d’idéation. Vous devez demander à votre collègue de créer des cartes basées sur le fichier pour envoyer ultérieurement les cartes au brief.
+   * **Joindre le fichier** : joignez un fichier à la zone d&#39;invite pour l&#39;ajouter ou ses informations à la zone de travail d&#39;idéation. Vous devez demander à votre collègue de créer des cartes basées sur le fichier pour envoyer ultérieurement les cartes au brief.
    * **Référencer un objet** : sélectionnez un objet dans la liste pour le référencer dans votre idéation. L’objet doit exister dans Workfront.
 
 1. Cliquez sur Entrée.
@@ -214,32 +216,32 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
    Cliquez sur **Ignorer le questionnaire** pour ignorer les questions supplémentaires.
 
-1. (Conditionnel) Lorsque Collègue propose de créer des cartes pour l&#39;idéation, répondez **Oui**.
+1. (Conditionnel) Lorsque Coworker propose de créer des cartes pour l&#39;idéation, répondez **Oui**.
 
-   Des cartes sont ajoutées à l&#39;espace d&#39;idéation et vous pouvez voir les sources de chaque carte et décider laquelle ajouter à votre brief.
+   Des cartes sont ajoutées à la zone de travail d’idéation. Vous pouvez voir les sources de chaque carte et décider laquelle ajouter à votre brief.
 
    >[!TIP]
    >
    >Vous ne pouvez pas ajouter de fichiers directement au brief. Vous devez d&#39;abord transférer les informations du fichier aux cartes que vous pouvez envoyer au brief.
 
 
-1. Cliquez sur l’icône **Rechercher** ![Icône Rechercher](assets/search-icon.png) pour rechercher des éléments dans l’espace d’idéation, puis cliquez sur lorsqu’il s’affiche dans la liste pour y accéder.
+1. Cliquez sur l’icône **Rechercher** ![Icône de recherche](assets/search-icon.png) pour rechercher des éléments dans la zone de travail d’idéation, puis cliquez sur lorsqu’elle s’affiche dans la liste pour y accéder.
 
 1. (Facultatif) Cliquez sur **Sources** au bas de chaque carte pour comprendre d’où proviennent les informations.
 
    Les informations peuvent être importées depuis Workfront Planning ou le Web.
 
    Vous pouvez également cliquer sur l’icône **Sources** ![Icône Sources](assets/sources-icon.png) dans le coin supérieur droit de l’espace pour afficher une liste de sources pour toutes les cartes de cet espace.
-1. (Facultatif) Cliquez sur **Commentaires** ![Icône Commentaire](assets/comments-icon.png) dans le coin supérieur droit de l’espace, puis sur **@** pour baliser les autres utilisateurs et lancer un brainstorming à l’intérieur de l’espace.
+1. (Facultatif) Cliquez sur **Commentaires** ![Icône de commentaire](assets/comments-icon.png) dans le coin supérieur droit de l’espace, et **@** marquez les autres pour commencer un brainstorming dans l’espace.
 
    Les utilisateurs recevront une notification par e-mail concernant la balise .
-1. (Facultatif) Cliquez sur l’icône **Filtrer** ![](assets/filter-comments-icon.png) à l’intérieur de la carte de commentaire pour filtrer les commentaires selon les critères suivants :
+1. (Facultatif) Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-comments-icon.png) dans la carte de commentaire pour filtrer les commentaires selon les critères suivants :
 
    * Réviseurs
    * Heure à laquelle le commentaire a été ajouté
    * Statut (le commentaire a été résolu ou est en attente)
    * Non lu (affiche uniquement les commentaires non lus)
-1. (Facultatif) Utilisez les icônes **Pouces vers le haut** ou **Pouces vers le bas** sur une carte ![Pouces vers le haut ou vers le bas](assets/thumbs-up-and-down-icons.png) pour donner votre avis sur l’exactitude des informations figurant sur la carte.
+1. (Facultatif) Utilisez les icônes **Pouces vers le haut** ou **Pouces vers le bas** sur une carte ![Pouces vers le haut ou vers le bas](assets/thumbs-up-and-down-icons.png) pour donner votre avis sur l’exactitude des informations sur la carte.
 1. Cliquez sur une carte ou sur le cadre contenant toutes les cartes, puis cliquez sur **Ajouter au brief** pour ajouter leurs informations au brief.
 
    Workfront associe chaque information au champ qu’il trouve le plus susceptible de la stocker.
@@ -247,38 +249,42 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
    Par exemple, les chronologies sont ajoutées aux champs de type date et les descriptions aux champs de type paragraphe.
 
 1. (Conditionnel) Cliquez sur une carte, puis sur **Demander à l’IA de ...** pour obtenir des idées sur l’étape suivante, avant d’ajouter les informations au brief. Les réponses se situent dans le contexte des informations de chaque carte.
-1. Cliquez sur l’icône **Ajouter des documents** ![Icône Ajouter des documents](assets/add-documents-in-ideation-space.png) dans le coin supérieur gauche de l’espace Idéation pour charger des documents dans l’espace. Vous pouvez ajouter de nouveaux documents ou des documents que vous avez déjà ajoutés à l&#39;espace.
+1. Cliquez sur l’icône **Ajouter des documents** ![Icône Ajouter des documents](assets/add-documents-in-ideation-space.png) dans le coin supérieur gauche de la zone de travail Idéation pour charger des documents dans l’espace. Vous pouvez ajouter de nouveaux documents ou des documents que vous avez déjà ajoutés à l&#39;espace.
 
    >[!TIP]
    >
    >Le paramètre Documents doit être activé pour pouvoir accéder aux documents et les charger dans l’espace.
-   >Pour plus d’informations, consultez la section [Configurer l’espace d’idéation](#configure-the-ideation-space) dans cet article.
+   >Pour plus d’informations, consultez la section [Configurer la zone de travail de l’espace d’idéation](#configure-the-ideation-space-canvas) dans cet article.
    > 
-1. Cliquez sur l&#39;icône **Ajouter une carte Taxonomie WF** ![Ajouter à partir de Workfront Planning](assets/add-from-wf-planning-on-ideations-space.png) <!--asked to change this tooltip--> et sélectionnez un type d&#39;enregistrement connecté, puis un enregistrement de chaque type pour ajouter les informations de cet enregistrement au type d&#39;enregistrement que vous avez sélectionné.
+1. Cliquez sur l&#39;icône **Ajouter des enregistrements Workfront Connected Planning** ![Ajouter des enregistrements Workfront Connected Planning](assets/add-from-wf-planning-on-ideations-space.png) et sélectionnez un type d&#39;enregistrement connecté, puis un enregistrement de chaque type pour ajouter les informations de cet enregistrement au type d&#39;enregistrement que vous avez sélectionné.
 
    Une carte est créée pour l’enregistrement que vous avez sélectionné pour l’ajouter à l’espace. Le type d’enregistrement s’affiche dans le coin supérieur gauche de la carte de l’enregistrement.
 
    >[!TIP]
    >
-   >L&#39;icône **Ajouter une taxonomie WF** <!--check UI name--> n&#39;est pas disponible lorsque vous accédez à l&#39;espace Idéation à partir du menu Principal et le brief n&#39;est pas connecté à un enregistrement Planning.
+   >* L&#39;icône **Ajouter des enregistrements Planning connectés Workfront** n&#39;est pas disponible lorsque vous accédez à l&#39;espace Idéation à partir du menu Principal et le brief n&#39;est pas associé à un enregistrement Planning.
+   >
+   >* Seuls les enregistrements de planification connectés seront disponibles pour être ajoutés à la zone de travail de l&#39;espace d&#39;idéation comme contexte de votre idéation. Chaque carte d’enregistrement connectée ajoutée à la zone de travail influence le type de contenu créé et utilise ce contexte, le cas échéant, lors de votre idéation.
+   >
+   >   Par exemple, si vous souhaitez créer une campagne qui doit utiliser les types d’enregistrements existants, ajoutez ces enregistrements à la zone de travail.
 
-1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) sur la carte d’enregistrement connectée, puis cliquez sur **Afficher dans Workfront**.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) sur la carte d’enregistrement connectée et cliquez sur **Afficher dans Workfront**.
 
    La page de détails de l’enregistrement s’ouvre dans un autre onglet du navigateur dans Workfront Planning.
-1. (Facultatif) Sélectionnez le cadre d’idéation ou une carte, cliquez sur l’icône **Supprimer**, puis sur **Supprimer** pour confirmer. La carte est retirée de l’espace Idéation .
+1. (Facultatif) Sélectionnez le cadre d’idéation ou une carte, cliquez sur l’icône **Supprimer**, puis sur **Supprimer** pour confirmer. La carte est supprimée de la zone de travail de l’Espace d’idéation .
 
-   Lorsque vous supprimez des cartes correspondant à un document stocké ou à un enregistrement, les éléments sont supprimés de l’espace Idéation , mais ils restent dans leurs applications respectives.
+   Lorsque vous supprimez des cartes correspondant à un document stocké ou à un enregistrement, les éléments sont supprimés de la zone de travail, mais ils restent dans leurs applications respectives.
 
-1. (Facultatif) Utilisez à tout moment la zone **Demandez à un collègue** dans le coin inférieur droit pour affiner votre idée.
+1. (Facultatif) Utilisez à tout moment la case **Demander à un collègue** dans le coin inférieur droit pour affiner votre idée.
 
    Par exemple, saisissez `regenerate` pour une carte spécifique afin que l’IA rétablisse cette carte à l’aide du contexte mis à jour. L&#39;espace idéation reprend ses étapes de raisonnement (recherche, synthèse, citation) et met à jour les cartes concernées.
 
 1. (Facultatif) Cliquez sur l&#39;un des connecteurs violets de n&#39;importe quel jeu de cartes d&#39;idéation, puis cliquez sur l&#39;icône **Copier l&#39;invite complète** pour copier l&#39;invite qui a généré la carte dans le presse-papiers, puis collez-la dans la zone d&#39;invite de Coworker.
 
-   ![Icône Copier dans la barre d’invite](assets/copy-to-prompt-bar-icon-highlighted.png)
+   ![Copier sur l&#39;icône de la barre d&#39;invite](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. (Facultatif) Cliquez sur les icônes **Annuler** ou **Rétablir** ![Annuler et rétablir](assets/undo-redo-icons.png) en haut de l’espace d’idéation pour annuler ou inverser une action.
-1. Effectuez un zoom arrière pour obtenir une vue d’ensemble : l’objectif de votre campagne d’origine, toutes les cartes conceptuelles générées par l’IA avec des citations, des documents supplémentaires, les enregistrements Workfront Planning réels que vous avez extraits (produits, personnes, etc.). La carte de résumé **Brief** dans le coin inférieur gauche regroupe l’ensemble.
+1. (Facultatif) Cliquez sur les icônes **Annuler** ou **Rétablir** ![Annuler et rétablir](assets/undo-redo-icons.png) en haut de la zone de travail pour annuler ou inverser une action.
+1. Effectuez un zoom arrière pour obtenir une vue d’ensemble : l’objectif de votre campagne d’origine, toutes les cartes conceptuelles générées par l’IA avec des citations, des documents supplémentaires, les enregistrements Workfront Planning réels que vous avez extraits (produits, personnes, etc.). La vignette de résumé **Brief** dans le coin inférieur gauche regroupe tout.
 
 1. Cliquez sur l’image d’aperçu du résumé dans le coin inférieur gauche et passez en revue le résumé, puis cliquez sur l’une des options suivantes :
 
@@ -291,27 +297,29 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
    >[!TIP]
    >
-   >L&#39;option **Exporter vers Workfront Planning** est grisée lorsque vous accédez à l&#39;espace Idéation à partir du menu Principal et le brief n&#39;est pas associé à un enregistrement Planning.
+   >**L&#39;option Exporter vers Workfront Planning** est grisée lorsque vous accédez à l&#39;espace Idéation à partir du menu Principal et le brief n&#39;est pas associé à un enregistrement Planning.
 
    Cela met fin à la création de l’enregistrement ou du fichier avec les informations supplémentaires. Si vous avez démarré à partir d’un enregistrement existant, les informations du brief sont ajoutées à l’enregistrement. Si vous avez commencé avec un nouvel enregistrement, celui-ci est créé avec les informations contenues dans le mémoire.
 
-   Pour plus d&#39;informations sur la mise à jour des enregistrements Planning à l&#39;aide de résumés, consultez la section « Considérations relatives à l&#39;utilisation de l&#39;espace Idéation pour créer des enregistrements » de l&#39;article [Créer des enregistrements Planning à partir de résumés d&#39;espace Idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+   Pour plus d&#39;informations sur la mise à jour des enregistrements Planning à l&#39;aide de résumés, reportez-vous à la section « Considérations relatives à l&#39;utilisation de l&#39;espace Idéation pour créer des enregistrements » de l&#39;article [Créer des enregistrements Planning à partir de résumés d&#39;espace Idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+1. (Facultatif) Cliquez sur **Partager** pour partager la zone de travail d&#39;idéation avec d&#39;autres personnes.
 
+   Pour plus d&#39;informations, voir [Partager un espace d&#39;idéation avec d&#39;autres](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
-## Configuration de l’espace d’idéation
+## Configuration de la zone de travail de l’espace d’idéation
 
-Il existe des commandes pour l’espace Idéation qui configurent ce que vous voyez à l’écran et vous aident à naviguer dans l’espace.
+Il existe des commandes pour l’espace Idéation qui configurent ce que vous voyez à l’écran et vous aident à naviguer dans la zone de travail.
 
-1. Cliquez sur l’icône **Paramètres** ![Paramètres](assets/setting-icon.png) pour contrôler où l’IA extrait les informations, puis choisissez l’un des **types de Source suivants** :
+1. Cliquez sur l’icône **Paramètres** ![Paramètres](assets/setting-icon.png) pour contrôler où l’IA extrait les informations, puis choisissez l’un des **types de Source** suivants :
 
-   * **Documents** — documents téléchargés dans l&#39;espace sélectionné
-   * **Recherche Web** — recherche Web externe
+   * **Documents** — documents chargés dans l&#39;espace sélectionné
+   * **Recherche Web** — Recherche Web externe
    <!--
      **CJA** — Adobe Customer Journey Analytics
     -->
 1. Cliquer sur **Enregistrer**.
 
-1. Cliquez sur le menu déroulant **niveau de zoom** à gauche de l’icône **Aide** ![icône d’aide](assets/more-information-icon.png) pour sélectionner une option.
+1. Cliquez sur le menu déroulant **niveau de zoom** à gauche de l&#39;icône **Aide** ![Icône Aide](assets/more-information-icon.png) pour sélectionner une option.
 
    Choisissez l’une des options suivantes :
 
@@ -320,9 +328,9 @@ Il existe des commandes pour l’espace Idéation qui configurent ce que vous vo
    * **Zoom arrière**
    * Zoom sur **50**, **100**, **150** ou **200 %**
    * **Afficher la grille à points** : activez la sélection pour afficher la grille à points.
-   * **Visite guidée du produit** : désactivez la sélection pour exclure les conseils lors de l’utilisation de l’espace Idéation .
+   * **Visite guidée du produit** : désactivez la sélection pour exclure les indications de guidage lors de l’utilisation de l’espace Idéation.
 
-1. Cliquez sur l’icône **Aide** ![Icône Aide](assets/more-information-icon.png) pour consulter les raccourcis clavier que vous pouvez utiliser pour parcourir l’espace d’orientation ou sélectionner une autre valeur de zoom :
+1. Cliquez sur l’icône **Aide** ![Icône d’aide](assets/more-information-icon.png) pour consulter les raccourcis clavier que vous pouvez utiliser pour parcourir la zone de travail ou sélectionner une autre valeur de zoom :
 
 | Action | Raccourci |
 | --- | --- |

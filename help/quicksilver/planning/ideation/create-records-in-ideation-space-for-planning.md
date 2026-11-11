@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 4%
 ---
 
@@ -32,9 +32,9 @@ I started with this under Records first but what if Ideation will be added to ot
 THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT DIFFERENT TIMES - WHICH ONE WOULD YOU KEEP OR MERGE THEM INTO ONE ARTICLE
 -->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Beta Espace d’idéation**. </span>
 
-<span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
+<span class="preview">Pour plus d&#39;informations, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 
 >[!IMPORTANT]
@@ -43,7 +43,7 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Exigences des fournisseurs de cloud</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTE :</b></p>
-   <p>Aucun autre fournisseur de cloud n’est pris en charge</p>
+   <p>Nous ne prenons en charge aucun autre fournisseur de cloud.</p>
    </td> 
   </tr>
 <tr> 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -160,7 +160,7 @@ Or
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -170,7 +170,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 * Pour utiliser l&#39;espace Idéation afin de créer ou modifier des enregistrements, vous devez disposer d&#39;un espace de travail et d&#39;un type d&#39;enregistrement dans Workfront Planning.
 * Les nouveaux enregistrements commencent toujours par le contenu de l’espace réservé, quelle que soit la manière dont vous les créez.
 * Lorsque vous supprimez un enregistrement Planning lié à un brief d’idéation, le brief reste dans l’espace Idéation et son espace associé n’est pas supprimé.
-* La synchronisation des informations se produit uniquement de l’espace Idéation vers Workfront Planning. Il n’existe aucune synchronisation inversée ou automatique d’un enregistrement Planning vers le résumé de l’espace d’idéation. <!--this might change?-->
+* La synchronisation des informations se produit uniquement de l’espace Idéation vers Workfront Planning. Il n’existe aucune synchronisation inversée ou automatique d’un enregistrement Planning vers le résumé de l’espace d’idéation. <!--this might change after beta?-->
 * Les scénarios suivants existent lorsque des champs sont créés, modifiés ou supprimés dans Workfront Planning :
 
   * De nouveaux champs créés sur les enregistrements liés aux résumés d&#39;idéation sont ajoutés quotidiennement au résumé. Les nouveaux champs apparaissent vides dans le brief de l’idéation.
@@ -189,20 +189,24 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 1. Cliquez sur la carte d’un type d’enregistrement auquel vous pouvez ajouter des enregistrements.
 1. Effectuez l’une des opérations suivantes pour créer un enregistrement :
 
-   * Dans n’importe quel affichage de la page de type d’enregistrement, cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de la page et dans la zone **Choisir une manière d’ajouter vos enregistrements**, cliquez sur **Ouvrir l’espace d’idéation**, puis cliquez sur **Continuer**.
-   * Faites défiler jusqu’au bas du tableau des enregistrements et cliquez sur **Nouvelle ligne**, puis sur **Ouvrir l’espace d’idéation**.
+   * Dans n&#39;importe quel affichage de la page de type d&#39;enregistrement, cliquez sur **Nouvel enregistrement** dans le coin supérieur droit de la page et dans la zone **Choisissez un moyen d&#39;ajouter vos enregistrements**, cliquez sur **Espace d&#39;idéation de début**, puis cliquez sur **Continuer**.
+   * Faites défiler la page jusqu&#39;au bas du tableau des enregistrements, cliquez sur **Nouvelle ligne**, puis sur **Espace d&#39;idéation de début**.
 
      >[!TIP]
      >
-     >Sélectionner **Ne pas afficher** ferme définitivement la future invite. Cliquez sur l’icône Fermer **X** pour fermer cette zone, mais elle réapparaîtra la prochaine fois que vous ajouterez un enregistrement intégré.
+     >Sélectionner **Ne pas afficher** ferme définitivement l&#39;invite future. Cliquer sur l’icône Fermer **X** ferme cette zone, mais elle réapparaîtra la prochaine fois que vous ajouterez un enregistrement intégré.
 
-   ![Nouvelle boîte d’enregistrement avec le bouton Ouvrir l’espace d’idéation](assets/new-record-creation-picker-with-ideation.png)
+   ![Nouvelle boîte d&#39;enregistrement avec le bouton Ouvrir l&#39;espace d&#39;idéation](assets/new-record-creation-picker-with-ideation.png)
 
-   L’espace Idéation s’ouvre dans un nouvel onglet.
+1. Lisez le contrat bêta et cliquez sur **Accepter**. Vous devez signer le contrat pour utiliser l&#39;espace d&#39;idéation.
 
-   Le collègue s’ouvre dans le panneau de droite.
+   Les événements suivants se produisent :
 
-   L’enregistrement est créé immédiatement avec un nom d’espace réservé.
+   * La zone de travail Espace d’idéation s’ouvre dans un nouvel onglet.
+
+   * Le collègue s’ouvre dans le panneau de droite.
+
+   * L’enregistrement est créé immédiatement avec un nom d’espace réservé.
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -212,7 +216,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    Plus vous partagez de détails, plus les informations fournies par l&#39;espace d&#39;idéation seront utiles. Par exemple, tapez une description de la campagne que vous prévoyez : « Campagne de rentrée des classes pour une agence marketing ».
 
-1. Continuez à créer la synthèse des idées comme décrit dans l’article [Créer des synthèses dans l’espace des idées](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+1. Continuez à créer la synthèse des idées comme décrit dans l&#39;article [Créez des résumés dans l&#39;espace des idées](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
    <!--
     1. Click **Start ideating**.
@@ -243,7 +247,7 @@ Vous ne pouvez pas modifier en masse les enregistrements dans l’espace Idéati
 
 1. Accédez à un enregistrement existant dans Workfront Planning et ouvrez sa page de détails.
 
-1. Cliquez sur **Ouvrir dans l’espace d’idéation** ![](assets/open-in-ideation-space.png). L’espace Idéation s’ouvre alors dans un nouvel onglet.
+1. Cliquez sur **Ouvrir dans l&#39;Espace d&#39;idéation** dans le coin supérieur droit de la page de détails. L’espace Idéation s’ouvre alors dans un nouvel onglet.
 
    Si une idéation pour l’enregistrement existe déjà, cela ouvre cet espace.
 

@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3bc7dd1ed87bb99e08183a82dcd38ff65a14b73b
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '14769'
+source-wordcount: '14776'
 ht-degree: 90%
 ---
 # Guide Workfront {#using}
@@ -22,7 +22,7 @@ ht-degree: 90%
       * [Améliorations apportées à l’administrateur du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
       * [Améliorations de l’IA pour le premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [Améliorations des documents du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
-      * {hide-from-toc}[Améliorations de la gestion financière pour le premier trimestre de 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
+      * {hide-from-toc}[Améliorations de la gestion financière pour le premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
       * [Améliorations du projet du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
       * [Autres améliorations du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md)
     * Version Du T4 2026 {#release-26-q4}
@@ -274,7 +274,7 @@ ht-degree: 90%
       * [Activité des versions du premier trimestre 2025 pour la planification Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Activité des versions pour la planification Adobe Workfront du quatrième trimestre 2024](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Activité de publication de la disponibilité limitée Adobe Workfront{#limited-availability-release-activity}
-      * {hide-from-toc}[Activité de mise à jour des fonctionnalités de disponibilité limitée d’](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
+      * {hide-from-toc}[Activité de mise à jour des fonctionnalités de disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Activité de la version du premier trimestre 2027 pour les fonctionnalités à disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-27-q1.md)
       * {hide-from-toc}[Activité de la version du quatrième trimestre 2026 pour les fonctionnalités à disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
       * {hide-from-toc}[Activité de la version du deuxième trimestre 2026 pour les fonctionnalités à disponibilité limitée d’Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
@@ -464,9 +464,9 @@ ht-degree: 90%
       * {hide-from-toc}[Version Beta des tableaux de bord de la zone de travail : activité de publication](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
     * Nouvelle version bêta de l’expérience de commentaires {#new-commenting-experience-beta}
       * {hide-from-toc}[Nouvelles informations sur l’expérience bêta de commentaires](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
-      * {hide-from-toc}[Nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
-      * {hide-from-toc}[Nouvelle activité de mise à jour d’expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-      * {hide-from-toc}[Nouvelles questions fréquentes sur l’expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+      * {hide-from-toc}[Nouvelle expérience de commentaires](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+      * {hide-from-toc}[Nouvelle activité de mise à jour de l’expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+      * {hide-from-toc}[FAQ sur la nouvelle expérience de commentaire](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Administration et configuration {#administration-and-setup}
   * [Administration et configuration : index des articles](administration-and-setup/administration-and-setup.md)
   * Commencer avec l’administration {#get-started-administration}
@@ -605,10 +605,10 @@ ht-degree: 90%
       * [Accorder l’accès aux Objectifs Workfront](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [Octroi de l’accès aux autorisations de marque](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Authentification unique dans Workfront {#sso}
-      * {hide-from-toc}[Authentification unique : index des articles](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * {hide-from-toc}[Présentation de l’authentification unique](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[Authentification unique : index d&#39;article](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[Aperçu de l&#39;authentification unique](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
       * {hide-from-toc}[Mettre à jour les utilisateurs et utilisatrices pour l’authentification unique](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * {hide-from-toc}[Configuration de Workfront avec SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[Configurer Workfront avec SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
       * {hide-from-toc}[Mise à jour des métadonnées SAML 2.0 dans le fournisseur d’identité](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
       * {hide-from-toc}[Configurer Adobe Workfront avec SAML 2.0 à l’aide d’ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
       * {hide-from-toc}[Activer Outlook pour Workfront et SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
@@ -749,7 +749,7 @@ ht-degree: 90%
       * [Gérer les clés API](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [Politique de confidentialité](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[Présentation de l’authentification améliorée](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[Mise à jour des métadonnées SAML 2.0 dans votre fournisseur d’identité lors de l’utilisation de l’authentification améliorée](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * {hide-from-toc}[Mettez à jour les métadonnées SAML 2.0 dans votre fournisseur d’identité lors de l’utilisation de l’authentification améliorée](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * Taux de change {#exchange-rates}
       * [Taux de change](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Configurer les taux de change](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -949,7 +949,7 @@ ht-degree: 90%
     * [Gérer le travail dans le calendrier Priorités](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
   * Page d’accueil {#home}
     * [Page d’accueil](workfront-basics/using-home/home.md)
-    * {hide-from-toc}[Passer de la maison héritée à la nouvelle maison](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+    * {hide-from-toc}[Déplacer de l’ancienne page d’accueil vers la nouvelle](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
     * Utiliser la zone d’accueil {#use-home-area}
       * [Utiliser la zone d’accueil : index des articles](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Commencer avec la page d’accueil](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -1009,7 +1009,7 @@ ht-degree: 90%
     * [Gérer les formulaires personnalisés associés à des objets](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
   * Utiliser les notifications {#use-notifications}
     * [Utiliser les notifications : index des articles](workfront-basics/using-notifications/use-notifications.md)
-    * {hide-from-toc}[Présentation des notifications Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+    * {hide-from-toc}[Présentation Des Notifications Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
     * [Vue d’ensemble des notifications](workfront-basics/using-notifications/wf-notifications.md)
     * [Modifier vos propres notifications électroniques](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
     * [S’abonner aux éléments dans Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1058,7 +1058,7 @@ ht-degree: 90%
       * [Gérer votre compte Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Se connecter à Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
       * [Se déconnecter d’Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-      * {hide-from-toc}[Réinitialiser le mot de passe d’un utilisateur avec l’authentification améliorée](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+      * {hide-from-toc}[Réinitialiser le mot de passe d&#39;un utilisateur avec l&#39;authentification améliorée](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
       * [Recevoir des invitations par e-mail et créer un mot de passe pour Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
       * [Créer un compte dans [!DNL Adobe Workfront] en tant qu’utilisateur ou utilisatrice externe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
       * [Réinitialiser votre mot de passe](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
@@ -1640,7 +1640,7 @@ ht-degree: 90%
 * Rapports {#reporting}
   * [Rapports et tableaux de bord : index des articles](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Tableaux de bord de la zone de travail {#canvas-dashboards}
-    * {hide-from-toc}[Présentation des tableaux de bord Zone de travail](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+    * {hide-from-toc}[Présentation des tableaux de bord de la zone de travail](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
     * [Utiliser les tableaux de bord de la zone de travail](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
     * Créer des tableaux de bord {#create-dashboards}
       * [Créer des tableaux de bord de la zone de travail : index des articles](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
@@ -1865,14 +1865,14 @@ ht-degree: 90%
       * [Imprimer un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
       * [Partager un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Supprimer une page externe d’un tableau de bord](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-      * {hide-from-toc}[Présentation des tableaux de bord Zone de travail](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+      * {hide-from-toc}[Présentation des tableaux de bord de la zone de travail](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
   * Workfront Data Connect {#data-lake}
     * [Vue d’ensemble de Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Créer un compte de lecteur ou une connexion pour Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Établir une connexion à Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Dictionnaire de données Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[Enregistrer une liste privée pour Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
-    * {hide-from-toc}[&#x200B; test du dictionnaire de données &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+    * {hide-from-toc}[test du dictionnaire de données](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Exemples de requête Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Afficher les mesures d’utilisation de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Utiliser la vue de données Historique des tâches dans Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -1943,7 +1943,7 @@ ht-degree: 90%
   * [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
   * [Vue d’ensemble du statut de décision limitée des documents et des épreuves pour les utilisateurs et utilisatrices non payants](review-and-approve-work/proof-doc-decision-limits.md)
-  * {hide-from-toc}[Configuration des réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * {hide-from-toc}[Configurer des réviseurs d’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
   * Passer à Workfront sur l’espace de stockage dans le cloud Adobe {#move-to-adobe-cloud-storage}
     * [Passer à Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md)
     * [Nouveautés du stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
@@ -2108,7 +2108,7 @@ ht-degree: 90%
       * [La décision de l&#39;approbateur affiche un tiret dans le rapport Approbation de l&#39;épreuve](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
   * Intégrations natives {#native-integrations}
     * [Réviser et approuver les intégrations natives : index des articles](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-    * {hide-from-toc}[Prise en main de l’intégration de GenStudio for Performance Marketing et Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
+    * {hide-from-toc}[Prise en main de l&#39;intégration de GenStudio for Performance Marketing et Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Commencer à utiliser la relecture et Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Commencer à utiliser la relecture et l’intégration GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Utilisation de Adobe Experience Manager avec Workfront et le stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
@@ -2225,6 +2225,7 @@ ht-degree: 90%
     * [Principes de base des API Adobe Workfront Planning](planning/general/planning-api-basics.md)
     * [Vue d’ensemble de l’assistant IA de la planification Adobe Workfront](planning/general/planning-ai-assistant-overview.md)
     * [Présentation d’Adobe Workfront Planning CX Enterprise Coworker](planning/general/planning-cx-coworker-overview.md)
+    * {hide-from-toc}[Utiliser la promotion d’environnement pour Adobe Workfront Planning](planning/general/planning-environment-promotion.md)
     * [Prise en main d’Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
     * [Activité de publication Adobe Workfront Planning pour 2024](planning/general/release-activity.md)
     * [Activité des versions de la planification Adobe Workfront pour 2023](planning/general/release-activity-archives-2023.md)
@@ -2237,7 +2238,7 @@ ht-degree: 90%
   * Bonnes pratiques relatives à Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
     * [bonnes pratiques Adobe Workfront : index des articles](planning/best-practices.md/best-practices-article-index.md)
     * [Déployez votre maison stratégique : une rampe de lancement de 30 jours](planning/best-practices.md/30-day-launchpad.md)
-    * [Concevoir la réussite : modéliser la hiérarchie de vos campagnes](planning/best-practices.md/model-campaign-hierarchy.md)
+    * [Concevoir votre succès : modéliser la hiérarchie de votre campagne](planning/best-practices.md/model-campaign-hierarchy.md)
     * [Créez votre calendrier marketing : pas de présentation, juste de la clarté](planning/best-practices.md/marketing-calendar.md)
     * [Transformez votre première victoire en un élan durable : un playbook pour une mise à l&#39;échelle gérée](planning/best-practices.md/playbook-how-to-scale.md)
     * [Construire le pont : relier l’intention stratégique aux projets](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
@@ -2342,13 +2343,13 @@ ht-degree: 90%
     * [Gérer votre instance d’Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/manage-planning-sta-instance.md)
     * [Gestion des utilisateurs dans Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/manage-users-in-planning-sta.md)
     * [Gestion des équipes dans Adobe Workfront Planning en tant que produit autonome](planning/planning-sta/manage-teams-in-planning-sta.md)
-  * {hide-from-toc}Espace d’idéation dans Workfront Planning {#ideation}
-    * {hide-from-toc}[Espace d’idéation pour Adobe Workfront Planning : index des articles](planning/ideation/planning-ideation-article-index.md)
+  * {hide-from-toc}L&#39;espace d&#39;idéation dans Workfront Planning {#ideation}
+    * {hide-from-toc}[Espace d’idéation pour Adobe Workfront Planning : index d’article](planning/ideation/planning-ideation-article-index.md)
     * {hide-from-toc}[Prise en main de l’espace d’idéation pour Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
-    * {hide-from-toc}[Accès nécessaire pour utiliser l&#39;espace Idéation](planning/ideation/access-needed-to-use-ideation-space.md)
+    * {hide-from-toc}[Accès nécessaire pour utiliser l&#39;espace d&#39;idéation](planning/ideation/access-needed-to-use-ideation-space.md)
     * {hide-from-toc}[Créer des briefs dans l&#39;espace Idéation](planning/ideation/create-briefs-in-ideation-space.md)
     * {hide-from-toc}[Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation](planning/ideation/create-records-in-ideation-space-for-planning.md)
-    * {hide-from-toc}[Partager un espace d&#39;idées avec d&#39;autres personnes](planning/ideation/share-the-ideation-space.md)
+    * {hide-from-toc}[Partager un espace d&#39;idées avec d&#39;autres](planning/ideation/share-the-ideation-space.md)
 
 * Intégrations Adobe Workfront {#adobe-workfront-integrations}
   * [Intégrations Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
@@ -2370,7 +2371,7 @@ ht-degree: 90%
       * [Consigner le temps à l’aide du plugin Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
       * [Gérer les notifications  [!DNL Adobe Workfront]  à partir d’Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
     * Charger des documents et des épreuves avec le plug-in Adobe Workfront pour les applications Creative Cloud {#upload-docs-proofs-wf-cc}
-      * {hide-from-toc}[Chargez des documents et des épreuves à partir du  [!DNL Adobe Workfront plugin]  vers le  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+      * {hide-from-toc}[Chargez des documents et des épreuves de  [!DNL Adobe Workfront plugin]  vers [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
       * [Charger des documents et des épreuves avec le plug-in Adobe Workfront pour les applications Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
       * [Charger des épreuves à partir de Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
       * [Charger des documents à partir de Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2635,12 +2636,12 @@ ht-degree: 90%
   * Workfront Proof mobile {#wf-proof-mobile}
     * {hide-from-toc}[Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
     * Applications mobiles Workfront Proof {#wf-proof-mobile-apps}
-      * {hide-from-toc}[applications mobiles &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-      * {hide-from-toc}[Application mobile &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+      * {hide-from-toc}[Applications mobiles Workfront Proof](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+      * {hide-from-toc}[Application mobile Workfront Proof](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * {hide-from-toc}[Application mobile Workfront Proof pour tablettes](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
     * Conseils, astuces et résolution des problèmes pour l’application mobile de Workfront Proof {#ttt-wf-proof-mobile-apps}
       * {hide-from-toc}[Conseils, astuces et dépannage pour l’application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
-      * {hide-from-toc}[Connexion à l’application mobile Workfront Proof impossible](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+      * {hide-from-toc}[Impossible de se connecter à l&#39;application mobile Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
   * Coin technique de Workfront Proof {#wf-proof-tech-corner}
     * [Coin technique de Workfront Proof](workfront-proof/wp-tech-corner/tech-corner.md)
     * Types d’épreuves {#proof-types}
@@ -2692,7 +2693,7 @@ ht-degree: 90%
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
-    * [Nouveautés de la version 22 de l’API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Nouveautés de la version 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de l’API
     * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Nouveautés de l’API version 19](wf-api/api/new-api-version-19.md)
@@ -2771,13 +2772,13 @@ ht-degree: 90%
   * Général {#general}
     * [Général](proofhq-api/general/general.md)
     * [Vue d’ensemble](proofhq-api/general/overview.md)
-    * {hide-from-toc}[Exemples de code](proofhq-api/general/code-samples.md)
+    * {hide-from-toc}[Exemples De Code](proofhq-api/general/code-samples.md)
     * [Questions fréquentes sur l’API SOAP](proofhq-api/general/soap-api-faqs.md)
 * App Builder {#app-builder}
   * [App Builder : index des articles](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Acquisition et installation d’applications à partir d’Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Création d’applications personnalisées pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
-  * {hide-from-toc}[Créer des applications App Builder avec des compétences Claude Code](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
+  * {hide-from-toc}[Créer des applications App Builder avec des compétences en code Claude](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[Document de test masqué](hidden-test.md)
 * {hide-from-toc}[Masquer 2](hidden-test-2.md)
 
