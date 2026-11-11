@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 19%
+source-wordcount: '260'
+ht-degree: 7%
 ---
 # FAQ sur la promotion environnementale
 
@@ -47,9 +47,9 @@ La promotion interdomaines de l’environnement n’est actuellement pas prise e
 
 * Un administrateur Workfront peut localiser la licence de votre entreprise.
 
-  1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon.png) dans le coin supérieur droit d’Adobe Workfront, ou (le cas échéant), cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche et sélectionnez **[!UICONTROL Configuration]** ![icône Configurer](/help/_includes/assets/gear-icon-setup.png).
+  1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Menu principal](/help/_includes/assets/main-menu-icon-left-nav.png) dans le coin supérieur gauche de Workfront, puis cliquez sur l’icône **[!UICONTROL Configuration]** ![Configuration](/help/_includes/assets/gear-icon-setup.png).
   1. Cliquez sur **Système** dans le panneau de gauche.
-  1. Pour afficher votre plan Workfront, sélectionnez **Licences**.
+  1. Pour afficher votre forfait Workfront, sélectionnez **Licences**.
 Votre plan s’affiche dans le coin supérieur droit de la page.
      ![Localiser le plan](assets/locate-plan.png)
 
@@ -74,7 +74,7 @@ Non, le partage n’est actuellement pas pris en charge.
 
 La restauration des packages est disponible pour le package le plus récent, dans les 24 heures suivant l’installation du package.
 
-## Y aura-t-il une option pour ignorer la promotion de composants individuels ? Où se trouvent les options `Use Existing`, `Overwrite` et `Save with a new Name` », peut-`Skip` être ajouté pour que vous puissiez ignorer la promotion de paramètres individuels ?
+## Y aura-t-il une option pour ignorer la promotion de composants individuels ? Où se trouvent les options « `Use Existing`, `Overwrite` et `Save with a new Name` », peut-on ajouter `Skip` pour pouvoir ignorer la promotion de paramètres individuels ?
 
 ### Réponse
 

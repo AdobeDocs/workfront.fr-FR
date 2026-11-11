@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 0%
+source-wordcount: '2214'
+ht-degree: 1%
 ---
 # Programme bêta des fonctionnalités des organisations connectées
 
@@ -88,47 +88,221 @@ La première phase du programme bêta vous permet de connecter les deux instance
 
 |                                   |                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fonctionnalité** | **À quoi cela sert-il** |
+| **Fonctionnalité** | **Fonctions** |
 | **Organisations connectées** | Associe les deux instances Workfront entre les deux organisations. Pendant la phase bêta, Adobe configure la connexion. Une configuration en libre-service est actuellement en cours de développement. |
 | **Formulaires de demande** | La société cliente crée un formulaire de demande, le publie et le partage avec une société de fournisseurs à partir des paramètres de partage du formulaire. |
-| **Entrée de demandes assistée par l’IA** | Le demandeur du client peut utiliser la fonctionnalité de remplissage de formulaire de l’IA pour saisir une invite et joindre des fichiers au lieu de remplir un formulaire long. Le système mappe ce contenu aux champs du formulaire et affiche le mappage pour révision. Le demandeur accepte le résultat et envoie le formulaire. |
+| **Réception de demandes assistée par l’IA** | Le demandeur du client peut utiliser la fonctionnalité de remplissage de formulaire de l’IA pour saisir une invite et joindre des fichiers au lieu de remplir un formulaire long. Le système mappe ce contenu aux champs du formulaire et affiche le mappage pour révision. Le demandeur accepte le résultat et envoie le formulaire. |
 | **Requêtes mises en miroir** | La demande envoyée apparaît dans la zone Demandes de l’entreprise du fournisseur sous la forme d’une copie en lecture seule, y compris les valeurs de champ personnalisé. |
 | **Conversion de demande en projet** | Le fournisseur convertit la demande en projet et sélectionne le portfolio, le programme et le modèle pour lancer le travail. Le nouvel objet dans l’instance du fournisseur est lié à la demande d’origine du client. Les détails du travail réel du côté du fournisseur ne sont pas visibles pour la société requérante. |
 | **Commentaires bidirectionnels** | Les commentaires sur la demande sont visibles des deux côtés et arrivent presque immédiatement, de sorte que les deux parties peuvent s&#39;entendre au même endroit. |
-| **Demande d’acceptation** | Une fois que les deux parties sont d&#39;accord, le fournisseur accepte la demande et le client peut voir qu&#39;elle a été acceptée. |
+| **Acceptation de la demande** | Une fois que les deux parties sont d&#39;accord, le fournisseur accepte la demande et le client peut voir qu&#39;elle a été acceptée. |
 | **Mises à jour de statut rédigées par l’IA** | Lorsqu’un demandeur demande l’état d’un commentaire, le fournisseur peut utiliser des commandes d’IA pour générer rapidement et de manière cohérente un brouillon de réponse. <br> Le brouillon comprend des informations provenant des objets liés à la demande, telles que la date d&#39;achèvement prévue, la condition et les heures consignées par rapport aux heures prévues. <br> Il s’agit d’un résumé des informations les plus importantes, et non d’une exportation champ par champ. Une personne la révise et la modifie avant d’envoyer une réponse au client. |
+
+## Participer au programme Beta
+
+Adressez-vous au responsable de programme de la version bêta d’Adobe pour participer à la version bêta.
+
+### Ce que nous demandons aux participants
+
+* Participez à un appel de commentaires hebdomadaire.
+
+* Réservez environ une heure par semaine pour effectuer des tests pratiques par vous-même. Des sessions de travail en direct sur l’appel sont une option.
+
+* Amener les deux points de vue des partenaires aux réunions, dans la mesure du possible.
+
+* Identifiez les environnements Workfront à connecter et configurez les comptes d’administration pour un petit nombre d’ingénieurs Adobe afin qu’ils puissent valider la connexion.
+
+### Ce que nous voulons apprendre
+
+* La mise en miroir d’un objet et la synchronisation des données sélectionnées uniquement constituent-elles le modèle de partage approprié ? Est-il suffisamment souple pour chaque côté?
+
+* Le séquencement des phases est-il correct ou une fonctionnalité ultérieure doit-elle intervenir plus tôt ?
+
+* Quels points de contact sont absents de la collaboration ?
+
+* Comment les noms de champs et le mappage doivent-ils fonctionner entre les deux instances ?
+
+  Aujourd’hui, le formulaire et la demande appartiennent au client et le fournisseur les voit en lecture seule avec les noms de champ du client.
+
+* De quoi le service informatique a-t-il besoin pour approuver et administrer une connexion ?
 
 ## Workflow de bout en bout
 
-Cette section décrit le workflow pour deux parties impliquées dans cette intégration, une fois que les instances Workfront de leurs organisations respectées ont été connectées.
+Cette section décrit le workflow pour deux parties impliquées dans cette intégration.
 
 Nous utilisons un workflow de client et de fournisseur comme exemples.
 
-### Workflow du client
+Le workflow comprend les étapes suivantes :
 
-En tant que demandeur dans l’organisation du client, vous pouvez effectuer les opérations suivantes :
+1. [Création d’une connexion à une instance](#1-create-an-instance-connection)
+1. [Confirmation de la connexion](#2-acknowledge-the-connection)
+1. [Partager un formulaire de demande avec l’organisation connectée](#3-share-a-request-form-with-the-connected-organization)
+1. [Envoyez une demande](#4-submit-a-request)
+1. [Examinez la demande et créez un projet](#5-review-the-request-and-create-a-project)
+1. [Collaborer dans la conversation intersociétés](#6-collaborate-in-the-cross-company-conversation)
 
-1. Créez ou demandez à un administrateur de créer un formulaire de demande, de le publier et de le partager avec l’organisation du fournisseur connecté.
+### Avant de commencer
 
-2. Ouvrez le formulaire publié à partir de la zone Demandes , saisissez une invite et joignez tous les fichiers.
+* Vous devez être un administrateur système disposant d&#39;un accès complet à la zone **Configuration** dans les deux instances.
+* L&#39;instance requérante a besoin du client unique **GUID** de l&#39;instance de réception.
+* Le formulaire que vous souhaitez partager doit être publié.
 
-3. Examinez la manière dont le contenu est mappé aux champs du formulaire, acceptez et envoyez.
+### &#x200B;1. Création d’une connexion à une instance
 
-### Workflow du fournisseur
+Configurez les éléments suivants dans l’instance requérante (le client) :
 
-En tant que responsable de travail dans l’entreprise du prestataire, procédez comme suit :
+1. Connectez-vous à l’environnement du client et accédez à **Configuration** > **Connexions d’instance**. La page répertorie toutes les connexions et est vide si aucune n’existe encore.
+1. Cliquez sur **Créer une connexion**.
+1. Dans la zone **Créer une connexion**, ajoutez le **GUID de l&#39;instance de réception**. Ce champ est obligatoire.
+1. (Facultatif) Définissez une **Date d’expiration**. La connexion cesse de fonctionner après cette date.
+1. Cliquez sur **Créer une connexion**.
 
-1. Recevez la demande dans votre zone Demandes sous forme de copie en lecture seule.
+   La nouvelle connexion s’affiche dans la liste des connexions avec le statut **En attente**.
+1. Sélectionnez la nouvelle connexion pour afficher ses détails.
 
-2. Discutez de la demande au moyen de commentaires jusqu&#39;à ce que les deux parties soient d&#39;accord, puis acceptez-la.
+   >[!TIP]
+   >
+   >Une connexion en attente ne partage rien. L’instance de réception doit d’abord l’acquitter.
 
-3. Convertissez la demande en projet, en choisissant le portfolio, le programme et le modèle, si nécessaire.
 
-4. Choisissez les champs de projet qui sont mis en miroir dans la demande du client.
+### &#x200B;2. Confirmation de la connexion
 
-5. Répondez aux questions de statut dans les commentaires ou générez une mise à jour du statut du brouillon, révisez-la et publiez-la dans votre demande. Il s’affiche également dans la demande d’origine du client.
+Configurez les éléments suivants dans l’instance de réception (le fournisseur) :
 
-   À partir de ce moment, la demande du côté du fournisseur agit comme une réplique de la demande originale du client, de sorte que les commentaires et les données convenues restent synchronisés.
+1. Connectez-vous à l&#39;instance du fournisseur et accédez au **Menu principal** > **Configuration** > **Connexions d&#39;instance**.
+1. Cliquez sur le nom pour ouvrir la connexion à partir de l’instance de réception. Une bannière affiche le message suivant : **Une instance souhaite se connecter à la vôtre. Sélectionnez au moins un destinataire éligible, puis acquittez la connexion. Rien n&#39;est partagé tant que vous ne l&#39;avez pas fait.**
+1. Sous **Destinataires éligibles**, ouvrez la liste **Groupes de recherche et utilisateurs** et choisissez qui peut recevoir du travail de l’instance à l’origine de la demande. Vous pouvez sélectionner des groupes et des utilisateurs individuels. <!--asking Anna K if this should be teams and users, instead of groups; it's groups in the UI-->
+1. Cliquez sur **Accepter** pour accepter la connexion ou cliquez sur l&#39;une des options suivantes :
+
+   * **Refuser** la connexion.
+   * **Fermez** pour le laisser en attente.
+
+   Un message « Modifications enregistrées » apparaît et le statut de la connexion passe à **Actif**. La liste affiche désormais les destinataires éligibles, la date de création et la date d’expiration.
+
+   >[!TIP]
+   >
+   >**Accepter** reste grisé jusqu&#39;à ce que vous choisissiez au moins un destinataire éligible.
+
+### &#x200B;3. Partager un formulaire de demande avec l’organisation demandeuse
+
+À partir de l’instance Workfront du client :
+
+1. Accédez au **Menu principal** > **Demandes** et cliquez sur **Formulaires de demande**.
+1. Ouvrez le formulaire publié que vous souhaitez partager.
+1. Cliquez sur **Partager**.
+
+   Notez les onglets suivants dans la zone **Partager** :
+
+   * **Partage interne**
+   * **Partage public**
+   * **Organisations connectées**
+1. Ouvrez l’onglet **Organisations connectées**.
+1. Dans le champ **Organisation**, sélectionnez l’instance du fournisseur connecté.
+1. Dans le champ **Utilisateurs et groupes**, choisissez qui, dans cette organisation, peut utiliser le formulaire. Ajoutez des utilisateurs, des utilisatrices et des groupes.
+1. Cliquer sur **Enregistrer**.
+
+Un message **Vos modifications ont bien été enregistrées** confirme le partage. <!--need to submit a UI text change - remove "successfully"-->
+
+### &#x200B;4. Envoyez une demande
+
+En tant qu’utilisateur de l’instance du client, envoyez une requête en procédant comme suit :
+
+1. Connectez-vous à l’instance Workfront du client et accédez à **Menu principal** > **Demandes**.
+
+   La page **Envoyer une nouvelle demande** répertorie les formulaires récents, y compris celui que vous venez de partager.
+
+   Une note en haut affiche **Demande intersociétés : les demandes soumises avec ce formulaire sont visibles pour l&#39;organisation connectée.**
+1. Remplissez le formulaire manuellement ou utilisez **Remplir le formulaire** pour que l’IA le fasse pour vous.
+1. (Facultatif) Pour utiliser Remplir le formulaire, procédez comme suit :
+
+   1. Cliquez sur **Remplir le formulaire**.
+   1. Décrivez votre demande, collez un e-mail associé ou cliquez sur **Joindre des fichiers** pour charger un fichier. L’IA trouve les détails pertinents et les applique au formulaire.
+   1. Cliquez sur **Appliquer au formulaire**. Une barre de progression indique **Remplir le formulaire** pendant la génération des valeurs de champ.
+   1. Pour ignorer l’étape de l’IA, cliquez sur **Ignorer**.
+1. Passez en revue les valeurs générées et modifiez tout ce qui doit être modifié.
+1. Cliquez sur **Soumettre** pour soumettre la demande.
+
+   Un message **Demande envoyée avec succès** s’affiche avec un lien **Afficher votre demande**.
+
+   La nouvelle demande est ajoutée à la liste des demandes avec le nom du formulaire et un statut de **Nouveau**.
+
+   >[!TIP]
+   >
+   >Les réponses de l’IA peuvent être inexactes. Vérifiez toujours deux fois les valeurs renseignées avant d’envoyer.
+
+### &#x200B;5. Examinez la demande et créez un projet
+
+1. Connectez-vous à l&#39;instance Workfront du fournisseur et accédez à **Menu principal** > **Demandes**.
+
+La demande entrante s’affiche dans la liste.
+
+Le **Type** de la requête est marqué comme **Externe : &lt; nom de l&#39;instance du client >**, ce qui le marque comme provenant de l&#39;organisation connectée.
+
+1. Ouvrez la requête. Un badge **Partagé avec : &lt; nom de l’instance du client >** s’affiche en regard du titre et le panneau des commentaires affiche l’avis de **conversation intersociétés** suivant : **Cette discussion est visible pour &lt; nom de l’organisation du client >.**
+1. Vérifiez les informations de la demande et les réponses du formulaire.
+1. Cliquez sur le menu **Plus** à droite du nom de la requête, puis sur **Créer un objet**.
+1. Dans la boîte de dialogue **Créer un objet**, mettez à jour les champs suivants :
+   * **Action** : sélectionnez une action dans le menu. Par exemple, **Créez un seul projet**
+   * **Modèle de projet** : sélectionnez un modèle disponible.
+   * **Propriétaire du projet** : ajoutez un propriétaire de projet.
+   * **Module** : choisissez un produit où l&#39;objet s&#39;affichera. Si vous choisissez **Workflow**, un projet est créé dans l’instance de Workfront du fournisseur.
+   * **Formulaires personnalisés** : si nécessaire, joignez des formulaires personnalisés.
+   * **Portfolio** et **Programme** : ajoutez des portfolios ou des programmes pour le nouveau projet.
+1. Cliquez sur **Créer**.
+
+   La demande dans l&#39;instance du fournisseur est désormais liée au nouveau projet et le statut de la demande passe à **En cours**. L’instance demandeuse du client voit le changement de statut sur sa propre copie de la requête.
+
+### &#x200B;6. Collaborer dans la conversation intersociétés
+
+Les utilisateurs et utilisatrices des deux organisations peuvent commenter leurs requêtes respectives. La bannière **Conversation intersociétés** rappelle que tout ce qui est écrit ici est visible pour l’autre organisation.
+
+Utilisez l’une des méthodes suivantes :
+
+1. Pour demander une mise à jour à partir de l’instance du client :
+
+   1. Ouvrez la requête et accédez au panneau **Commentaires**.
+   1. Cliquez sur **Nouveau commentaire**, saisissez votre message, puis cliquez sur **Envoyer**.
+
+1. Pour mettre à jour la requête de l’instance du fournisseur :
+
+   1. Ouvrez la requête. Le nouveau commentaire est surligné avec un libellé **Nouveau**.
+   1. Cliquez sur **Répondre**, écrivez la réponse, puis cliquez sur **Envoyer**.
+
+1. Pour effectuer un suivi à partir de l’instance du client :
+
+   1. Ouvrez la requête. La réponse du fournisseur apparaît sous le commentaire d&#39;origine.
+   1. Cliquez sur **J&#39;aime** pour l&#39;accuser réception ou sur **Ajouter une réponse** pour poursuivre la discussion.
+
+
+
+
+<!--
+### Client's workflow
+
+As a requestor in the client's organization, you can do the following:  
+
+1. Create or ask an administrator to create a request form, publish it, and share it with the connected provider's organization.
+
+2. Open the published form from the Requests area, enter a prompt, and attach any files.
+
+3. Review how the content maps to the form fields, accept, and submit.
+
+### Provider's workflow
+
+As a work manager in the provider's organization, do the following: 
+
+1. Receive the request in your Requests area as a read-only copy.
+
+2. Discuss the request through comments until both sides are aligned, then accept it.
+
+3. Convert the request into a project, choosing the portfolio, program, and template, if needed.
+
+4. Choose which project fields are mirrored back to the client's request. 
+
+5. Answer status questions in comments, or generate a draft status update, review it, and publish to your request. It will also display on the client's original request. 
+
+    From that point on, the request on the provider's side acts as a replica of the client's original request, so comments and agreed-upon data stay in sync.
+-->
 
 ## Sécurité et gouvernance
 
@@ -138,7 +312,7 @@ L’une des lignes de base que nous voulons que la version bêta établisse est 
 
 Voici les avantages du workflow d’organisation connecté :
 
-* **Pas d’accès entre instances** : aucun utilisateur de l’organisation partenaire n’est nécessaire dans votre instance, il n’y a donc pas de connexions d’invités et aucune licence supplémentaire.
+* **Pas d&#39;accès inter-instances** : aucun utilisateur de l&#39;organisation partenaire n&#39;est nécessaire dans votre instance, il n&#39;y a donc pas de connexions invitées ni de licences supplémentaires.
 
 * **Partage minimum nécessaire** : seules les données configurées pour la synchronisation sont partagées. Le reste reste dans son instance d’origine.
 
@@ -185,7 +359,7 @@ Les phases ci-dessous décrivent notre plan de développement et de publication 
 <td><strong>Phase 4</strong></td>
 <td><ul>
 <li><p>Contexte partagé entre les partenaires</p></li>
-<li><p>Utilisation des <!--by the agency--> Adobe Brand Intelligence avant révision, avec un accès contrôlé par l’équipe</p></li>
+<li><p>Utilisation de Adobe Brand Intelligence <!--by the agency--> avant révision, avec un accès contrôlé par l'équipe</p></li>
 <li><p>Fonctionnalités basées sur le contexte, telles que l’estimation</p></li>
 </ul></td>
 <td>Long terme</td>
@@ -193,33 +367,7 @@ Les phases ci-dessous décrivent notre plan de développement et de publication 
 </tbody>
 </table>
 
-## Participer au programme Beta
 
-Adressez-vous au responsable de programme de la version bêta d’Adobe pour participer à la version bêta.
-
-### Ce que nous demandons aux participants
-
-* Participez à un appel de commentaires hebdomadaire.
-
-* Réservez environ une heure par semaine pour effectuer des tests pratiques par vous-même. Des sessions de travail en direct sur l’appel sont une option.
-
-* Amener les deux points de vue des partenaires aux réunions, dans la mesure du possible.
-
-* Identifiez les environnements Workfront à connecter et configurez les comptes d’administration pour un petit nombre d’ingénieurs Adobe afin qu’ils puissent valider la connexion.
-
-### Ce que nous voulons apprendre
-
-* La mise en miroir d’un objet et la synchronisation des données sélectionnées uniquement constituent-elles le modèle de partage approprié ? Est-il suffisamment souple pour chaque côté?
-
-* Le séquencement des phases est-il correct ou une fonctionnalité ultérieure doit-elle intervenir plus tôt ?
-
-* Quels points de contact sont absents de la collaboration ?
-
-* Comment les noms de champs et le mappage doivent-ils fonctionner entre les deux instances ?
-
-  Aujourd’hui, le formulaire et la demande appartiennent au client et le fournisseur les voit en lecture seule avec les noms de champ du client.
-
-* De quoi le service informatique a-t-il besoin pour approuver et administrer une connexion ?
 
 
 

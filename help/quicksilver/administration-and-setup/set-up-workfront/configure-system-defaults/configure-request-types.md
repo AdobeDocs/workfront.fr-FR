@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 93%
@@ -100,7 +100,7 @@ Pour personnaliser les noms des types de requête, procédez comme suit :
 1. Cliquez sur **[!UICONTROL Préférences du projet]** > **[!UICONTROL Statuts]**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Problèmes]**.
-1. En haut de l’onglet **[!UICONTROL Événements]**, cliquez sur la liste déroulante, sélectionnez un type de requête, puis cliquez sur l’icône **[!UICONTROL Modifier]** qui s’affiche.
+1. En haut de l&#39;onglet **[!UICONTROL Événements]**, cliquez sur la liste déroulante, sélectionnez un type de demande, puis cliquez sur l&#39;icône **[!UICONTROL Modifier]** qui s&#39;affiche.
 
    ![Modifier le nom du type de demande](assets/edit-request-type-name-nwe.png)
 
