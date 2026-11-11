@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 89%
+source-wordcount: '660'
+ht-degree: 85%
 ---
 # Utiliser un statut personnalisé comme statut par défaut pour un groupe
 
@@ -77,16 +77,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 ## Statuts des problèmes
 
-Si le statut personnalisé est un statut de problème, les quatre types de problèmes doivent être activés pour celui-ci (rapport de bug, ordre de modification, problème et requête). Par exemple, dans le statut de problème ci-dessous, le statut Réouvert ne peut pas être utilisé comme statut par défaut, car le type de problème Ordre de modification n’est pas sélectionné :
+Si le statut personnalisé est un statut de problème, les quatre types de problèmes doivent être activés pour celui-ci (rapport de bug, ordre de modification, problème et requête). Par exemple, dans le statut d&#39;événement illustré ci-dessous, le statut Idée ne peut pas être utilisé comme statut par défaut car le type d&#39;événement Modifier l&#39;ordre n&#39;est pas sélectionné :
 
-![Tous les types d&#39;événements activés](assets/all-4-issue-types-enabled.png)
+![Tous les types d&#39;événements activés](assets/new-all-issue-types-enabled.png)
 
 ## Définir un statut personnalisé comme statut par défaut pour un groupe
 
 {{step-1-to-setup}}
 
 1. Dans le panneau de gauche, cliquez sur **Groupes** ![Groupes](assets/groups-icon.png), puis cliquez sur le nom du groupe dans lequel vous souhaitez créer ou personnaliser des statuts.
-1. Dans le panneau de gauche, cliquez sur **Statuts** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+1. Dans le panneau de gauche, cliquez sur **Statuts** ![Icône de statut](assets/status-icon.png).
 1. Ouvrez l’onglet **Projet**, **Tâches**, ou **Problèmes** selon le type de statut que vous souhaitez définir comme statut par défaut.
 1. Cliquez sur **Définir des statuts par défaut** en haut à droite.
 1. Dans la liste déroulante qui s’affiche, en regard du statut que vous souhaitez définir par défaut, sélectionnez le statut par défaut à définir.
@@ -103,7 +103,7 @@ Si le statut personnalisé est un statut de problème, les quatre types de probl
    >Si vous affectez le projet à un autre groupe, le statut du projet se recharge et pourrait changer.
 
    1. Accédez au projet dans lequel vous souhaitez utiliser le statut personnalisé.
-   1. Cliquez sur le menu Plus ![icône Plus](assets/more-icon.png), puis sur **Modifier**.
+   1. Cliquez sur l&#39;icône Plus ![Plus](assets/more-icon.png), puis sur **Modifier**.
    1. Dans la zone **Modifier le projet** qui s’affiche, dans le champ **Groupe** sous **Association de projets**, sélectionnez le groupe auquel le statut personnalisé est associé.
 
    1. Cliquez sur **Enregistrer les modifications**.
@@ -122,4 +122,3 @@ Si vous masquez un statut par défaut (en activant l’option Masquer le statut)
 
 S’il n’existe aucun statut disponible du type équivalent, le type de statut s’affiche comme étant **Masqué** et il n’est pas disponible pour les éléments de travail.
 
-![Aucun statut disponible](assets/when-hide-default-status-no-equivalent.png)

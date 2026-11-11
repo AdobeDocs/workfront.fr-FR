@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: 1068
-ht-degree: 48%
-
+source-wordcount: '1064'
+ht-degree: 47%
 ---
-
 # Créer et modifier des risques sur les projets
 
 <!--Audited: 06/2025-->
@@ -107,20 +105,20 @@ Pour créer ou modifier un risque dans le business case :
 1. Dans la section **Risques**, cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png)
 1. Saisissez ou modifiez les informations suivantes :
 
-   * **Description :** décrire le risque.
+   * **Description :** Décrivez le risque.
 
-   * **Coût potentiel** : saisissez le coût estimé si le risque doit se produire.
+   * **Coût potentiel** : saisissez le coût estimé si le risque devait se produire.
 
    * **Probabilité** : saisissez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
 
-   * **Type :** sélectionnez la catégorie à laquelle le risque appartient.
-   * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
+   * **Type :** Sélectionnez la catégorie à laquelle le risque appartient.
+   * **Plan de réduction des risques** : mettez à jour la description du plan pour réduire les risques.
 
    * **Coût de l&#39;atténuation** : saisissez le coût du plan d&#39;atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
 
    ![Risques](assets/edit-risk.png)
 
-1. (Facultatif) Cliquez sur **Ajouter un autre risque** pour ajouter d’autres risques.
+1. (Facultatif) Cliquez sur **Ajouter un autre risque** pour ajouter d&#39;autres risques.
 1. Cliquer sur **Enregistrer**.
 
 ## Créer et modifier des risques dans la zone Risques
@@ -132,27 +130,25 @@ Vous pouvez créer et modifier des risques dans la section Risques d&#39;un proj
 1. Accédez au projet pour lequel vous souhaitez créer des risques.
 1. Cliquez sur **Risques** dans le panneau de gauche.
 
-   ![Section Risques de la tâche](assets/risks-section-on-project-2022.png)
-
 1. Cliquez sur **Ajouter plus de risques** et créez des risques en modifiant leurs informations en ligne.
 
    Ou
 
    Cliquez sur **Nouveau risque** pour ouvrir la boîte **Nouveau risque**.
 
-   ![Nouvelle catégorie de risque](assets/new-risk-box.png)
+   ![Nouvelle catégorie de risques](assets/new-risk-box.png)
 
-1. (Conditionnel) Si vous ajoutez un risque dans la boîte **Nouveau risque**, saisissez les informations suivantes :
+1. (Conditionnel) Si vous ajoutez un risque dans la zone **Nouveau risque**, saisissez les informations suivantes :
 
    * **Description** : Décrivez le risque. Champ obligatoire.
-   * **Type de risque** : indiquez à quelle catégorie le risque appartient.\
+   * **Type de risque** : indiquez la catégorie à laquelle le risque appartient.\
      Votre équipe d’administration Workfront définit les types de risque disponibles dans votre environnement. Pour plus d’informations sur la définition des types de risque, voir l’article [Modifier et créer des types de risque](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
    * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
-   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
+   * **Coût potentiel** : indiquez le coût estimé en cas de risque.
    * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
-   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
-   * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
+   * **Coût de l&#39;atténuation** : indiquez le coût du plan d&#39;atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
+   * **Plan de réduction des risques** : mettez à jour la description du plan pour réduire les risques.
 
 1. Cliquer sur **Enregistrer**.
 
@@ -174,23 +170,23 @@ Pour modifier les risques :
 
    Ou
 
-   Sélectionnez un ou plusieurs risques, puis cliquez sur l&#39;icône **Modifier** ![Modifier](assets/edit-icon-on-white.png) pour modifier plusieurs risques en même temps.
+   Sélectionnez un ou plusieurs risques, puis cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon-on-white.png) pour modifier plusieurs risques en même temps.
 
    >[!NOTE]
    >
    >Vous appliquez les mêmes informations à tous les risques sélectionnés lorsque vous modifiez plusieurs risques à la fois. Les informations associées à chaque risque avant vos modifications sont remplacées par une modification en bloc.
 
-1. Si vous avez cliqué sur l&#39;icône **Modifier**, la boîte de dialogue **Modifier le risque** ou **Modifier les risques** s&#39;ouvre.
+1. Si vous avez cliqué sur l&#39;icône **Modifier**, la zone **Modifier le risque** ou **Modifier les risques** s&#39;ouvre.
 
    Mettez à jour les champs suivants :
 
    * **Description** : modifiez la description du risque.
    * **Type de risque** : mettez à jour la catégorie à laquelle le risque appartient.
    * **Probabilité** : indiquez la probabilité que le risque se produise sous la forme d’une valeur de pourcentage.
-   * **Coût potentiel** : indiquez le coût estimé si le risque doit se produire.
+   * **Coût potentiel** : indiquez le coût estimé en cas de risque.
    * **Coût réel** : indiquez le coût réel du risque si le risque s&#39;est produit.
-   * **Coût de l’atténuation** : indiquez le coût du plan d’atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
-   * **Plan d’atténuation** : mettez à jour la description du plan pour atténuer le risque.
+   * **Coût de l&#39;atténuation** : indiquez le coût du plan d&#39;atténuation que vous devez mettre en place pour éviter que le risque ne se produise.
+   * **Plan de réduction des risques** : mettez à jour la description du plan pour réduire les risques.
 
 1. Cliquer sur **Enregistrer**.
 1. (Facultatif) Modifiez le **Statut** pour un risque, dans le menu déroulant du **Statut** lors de l’application de la vue **Standard** pour la liste des risques.
