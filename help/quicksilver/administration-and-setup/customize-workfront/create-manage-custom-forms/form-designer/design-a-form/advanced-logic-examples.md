@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 6%
+source-wordcount: '900'
+ht-degree: 5%
 ---
 # Exemples de logique avancée dans les formulaires personnalisés
 
@@ -37,7 +37,7 @@ Les règles logiques vous permettent de personnaliser davantage les champs d’u
 
 Cet article fournit des exemples d’expressions utilisées pour créer une logique avancée sur des champs personnalisés.
 
-Pour plus d’informations sur l’ajout d’une logique à un formulaire personnalisé, voir [Ajouter des règles de logique aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+Pour plus d’informations sur l’ajout d’une logique à un formulaire personnalisé, consultez [Ajouter des règles de logique aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
 ## Conditions d’accès
 
@@ -85,7 +85,7 @@ Expression de validation :
 IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{owner}.{name}," may select X Rush"))
 ```
 
-Lorsqu’une personne qui n’est pas le propriétaire du projet (y compris l’administrateur système) tente de sélectionner **X Rush**, une erreur s’affiche :
+Lorsqu&#39;une personne qui n&#39;est pas le propriétaire du projet (y compris l&#39;administrateur système) tente de sélectionner **X Rush**, une erreur s&#39;affiche :
 
 ![Seule la propriétaire du projet Claire Stevens peut sélectionner X Rush](assets/sla-xrush.png)
 
@@ -153,7 +153,7 @@ IF({DE:DV - Text - Budget}>"10000",
 
 Si la valeur du champ Budget est supérieure à 10 000 $, seuls les utilisateurs disposant d’un rôle de directeur peuvent être sélectionnés dans la recherche interne, même si aucun filtre de rôle n’est activé dans la configuration de la recherche interne.
 
-![Le montant du budget requiert l&#39;approbation du directeur](assets/budget-director.png)
+![Le montant du budget nécessite l&#39;approbation du directeur](assets/budget-director.png)
 
 ### Interdire les valeurs inférieures à 10 jours à compter de la date d’entrée
 
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 L’utilisateur voit des erreurs de validation s’il ne sélectionne pas le nombre correct d’options.
 
 ![Exemples d’erreurs de validation](assets/min-max-selections.png)
+
+### Formule pour déclencher la validation uniquement lorsque le champ est visible
+
+La logique de validation est toujours cochée, même si le champ n’est pas affiché. Si un utilisateur interagit avec un champ contenant une logique de validation et que le champ est ensuite masqué par la logique d’affichage, l’erreur de validation se produit, même si la valeur du champ a été effacée avant que le champ ne soit masqué.
+
+Solution : utilisez la même condition de la règle d’affichage dans la formule de validation pour vous assurer que la validation est déclenchée uniquement lorsque le champ est visible.
+
+Par exemple, vous avez deux champs, A et B.
+Le champ B comporte une règle d&#39;affichage qui le rend visible uniquement lorsque la valeur du champ A est `"show"`.
+
+Le champ B possède également la formule de validation suivante :
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+Pour valider le champ B uniquement lorsqu’il est visible, vous pouvez inclure la condition d’affichage dans la formule de validation :
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+Ainsi, l’erreur de validation n’apparaîtra que lorsque le champ A est défini sur `"show"` et que les autres conditions de validation sont remplies.
+
