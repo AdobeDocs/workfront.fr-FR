@@ -18,16 +18,29 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 2%
+source-wordcount: '1716'
+ht-degree: 3%
 ---
 # Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning
 
 Cet article décrit les fonctionnalités publiées pour Workfront Planning dans la version du premier trimestre 2027.
 
 Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, consultez [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Partager une automatisation de Planning
+
+>[!NOTE]
+>
+>Aperçu : 12 novembre 2026
+>Version rapide de production : 12 novembre 2026
+>Production pour tous : 12 novembre 2026
+>[!BADGE Hors planning]{type=Neutral}
+
+Par défaut, les nouvelles automatisations de Workfront Planning ne sont désormais disponibles que pour leur propriétaire, au lieu d’être partagées automatiquement avec tous les utilisateurs de l’espace de travail. Les propriétaires peuvent choisir qui obtient l’accès en partageant l’automatisation avec d’autres personnes. Vous pouvez accorder à d&#39;autres utilisateurs un niveau d&#39;accès **Gérer**, **Modifier** ou **Exécuter**. Les automatisations existantes restent partagées avec les utilisateurs de leur espace de travail, de sorte que l’accès actuel n’est pas affecté.
+
+Pour plus d&#39;informations, consultez [Configurer les automatisations de Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
 ## Promotion de l’environnement disponible pour Workfront Planning
 
@@ -128,7 +141,7 @@ Chaque type d’enregistrement secondaire affiche uniquement ses propres enregis
 
 Avant cette amélioration, si la connectivité entre espaces de travail était désactivée pour les types d’enregistrements globaux connectés, les espaces de travail secondaires ne pouvaient pas lier leurs propres enregistrements les uns aux autres. Si elle était activée, les utilisateurs pouvaient afficher et lier des enregistrements de l’espace de travail global et de tous les autres espaces de travail secondaires.
 
-Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Afficher le nombre total d’enregistrements dans les vues Tableau, Chronologie et Liste
 
