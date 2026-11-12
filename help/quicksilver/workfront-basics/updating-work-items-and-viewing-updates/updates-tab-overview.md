@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 67%
+source-wordcount: '1391'
+ht-degree: 63%
 ---
 # Vue d’ensemble de la section Mises à jour
 
@@ -154,12 +154,22 @@ La section Mises à jour affiche des informations dans les onglets suivants :
 
   Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **Activité du système** : affiche les mises à jour du système qui sont des messages d’information créés par Workfront pour enregistrer certains événements sur un objet. Par exemple, les modifications du statut, du nom ou des champs personnalisés sont capturées avec des mises à jour du système. Votre administrateur ou administratrice Workfront ou de groupe peut activer les mises à jour système de vos objets. Toutes les réponses apportées aux enregistrements d&#39;activité du système dans l&#39;expérience de commentaires héritée sont renseignées dans l&#39;onglet Activité du système en lecture seule. Pour plus d’informations, consultez la section [Configurer les mises à jour du système](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 * **Tous (lecture seule)** : affiche à la fois les commentaires d’un utilisateur ou d’une utilisatrice et les commentaires d’activité du système. Il s’agit d’un onglet en lecture seule. Vous ne pouvez pas répondre aux commentaires ni taguer d’autres utilisateurs ou utilisatrices dans les commentaires existants dans l’onglet Tous. Pour répondre à un commentaire spécifique, utilisez le lien dans l’onglet Tous vers l’onglet Commentaires. Pour plus d’informations sur la mise à jour des objets, voir [Mettre à jour le travail](../updating-work-items-and-viewing-updates/update-work.md).
 
   >[!NOTE]
   >
   >Les onglets Commentaires et Activité du système sont mis à jour en temps réel. Vous devez actualiser l’onglet Tous pour afficher les mises à jour les plus récentes.
+* **Résumer les commentaires** : le panneau Assistant IA ou Collègue s’ouvre à droite et fournit un résumé généré par l’IA de tout l’historique de mise à jour de l’objet.
+
+  >[!NOTE]
+  >
+  >Vous devez signer le contrat de l’assistant AI ou activer les préférences du collègue et du MCP dans la zone Configuration pour utiliser l’onglet **Résumé des commentaires**. Votre entreprise peut avoir l’assistant AI ou le CX Enterprise Coworker pour Workfront.
+  >
+  >Pour plus d’informations, consultez [Assistant AI dans Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) et [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
 
 ### Similitudes et différences entre les zones Mises à jour de différents objets
 
@@ -192,13 +202,13 @@ Il existe des différences dans l’affichage des commentaires et des mises à j
 
   * Cartes connectées dans la zone Tableaux
 
-    Pour plus d’informations, voir [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+    Pour plus d&#39;informations, consultez [Utilisation de cartes connectées sur les panoramas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Les objets suivants comportent un onglet Historique qui remplace l’onglet Activité du système :
 
   * Enregistrements dans Workfront Planning
 
-    Pour plus d’informations, voir [Présentation de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
+    Pour plus d&#39;informations, consultez [Aperçu de la section Historique](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Les objets suivants n’ont pas d’onglet Tous et l’expérience de l’onglet Commentaires correspond à celle de la plupart des objets :
 
@@ -226,9 +236,9 @@ The following objects don't record system updates:
 * Iterations
 -->
 
-## Mises à jour apparaissant également sur les objets de  supérieur
+## Mises à jour apparaissant également sur les objets de rang supérieur
 
-Les commentaires, les réponses ou les mises à jour système de certains objets apparaissent également dans la section Mises à jour d’objets de  supérieur.
+Les commentaires, les réponses ou les mises à jour système de certains objets apparaissent également dans la section Mises à jour d’objets de rang supérieur.
 
 Par exemple, lorsque vous ajoutez une mise à jour à une tâche, la mise à jour s’affiche dans la section Mises à jour de la tâche et dans la section Mises à jour du projet contenant la tâche.
 
@@ -240,7 +250,7 @@ Le tableau suivant présente les objets dont les commentaires s’affichent éga
  <thead> 
   <tr> 
    <th><strong>Objet où la mise à jour d’origine a été ajoutée</strong> </th> 
-   <th> <p><strong>Objet de  supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
+   <th> <p><strong>Objet de rang supérieur où la mise à jour d’origine apparaît également</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -377,4 +387,4 @@ Le rapport vous permet d’obtenir les informations suivantes :
 * Si la priorité a changé au cours d’un projet
 * Si la personne propriétaire d’un projet a changé.
 
-Pour plus d&#39;informations, voir [Rapport sur la zone Mises à jour avec un rapport Entrée de journal](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Pour plus d&#39;informations, consultez [Rapport sur la zone Mises à jour avec un rapport Entrée de journal](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

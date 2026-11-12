@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 4%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 <span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver les versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 Vous pouvez configurer des règles métier pour les types d’enregistrements Adobe Workfront Planning afin d’indiquer que certains champs sont requis avant qu’une action sur un enregistrement de ce type soit autorisée ou empêchée.
@@ -85,7 +85,7 @@ Ou
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -149,13 +149,13 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    ![Formulaire de configuration des règles métier](assets/business-rule-setup-form.png)
 
-1. Dans la section **Si** du formulaire de configuration des règles métier, sélectionnez les actions que vous souhaitez restreindre ou autoriser en fonction d&#39;une règle spécifique. Choisissez parmi les options suivantes : <!--check UI text-->
+1. Dans la section **Si** du formulaire de configuration des règles métier, sélectionnez les actions que vous souhaitez restreindre ou autoriser en fonction d&#39;une règle spécifique. Faites votre choix parmi les options suivantes : <!--check UI text-->
    * **Modification de l&#39;enregistrement** : les utilisateurs seront autorisés à modifier ou non l&#39;enregistrement, si la condition définie dans cette règle est remplie.
    * **Suppression de l&#39;enregistrement** : les utilisateurs seront autorisés à supprimer ou non l&#39;enregistrement, si la condition définie dans cette règle est remplie.
      <!--add screen shot when UI text is final-->
 1. Dans le champ **Formule**, ajoutez la règle métier. Choisissez un opérateur pour votre règle dans la section **Expressions de formule** du panneau de droite.
 
-   Par exemple, vous pouvez choisir **IF** dans la section **Autres** champs, ou commencer à taper « IF », puis cliquer dessus lorsqu&#39;il s&#39;affiche dans la liste de suggestions.
+   Par exemple, vous pouvez choisir **IF** dans la section **Autres** champs ou commencer à taper « IF », puis cliquer dessus lorsqu’il s’affiche dans la liste de suggestions.
 
    >[!TIP]
    >
@@ -173,7 +173,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
    >Vous pouvez ajouter des champs connectés aux règles métier, mais veillez à utiliser des instructions qui recherchent un tableau plutôt qu’une valeur de champ. Par exemple, au lieu de `ISBLANK`, utilisez `ARRAYLENGTH(field)=0`.
 
 
-   Le champ **Formule** contient des indicateurs lorsqu’un champ ou une expression est erroné.  <!--add screen shot?-->
+   Le champ **Formule** contient des indicateurs lorsqu&#39;un champ ou une expression est erroné.  <!--add screen shot?-->
 
    >[!IMPORTANT]
    >
@@ -184,11 +184,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    Dans la section **Alors** de la règle métier, vous pouvez voir une explication de la fonction de la règle.
 
-1. Cliquez sur **Activer** pour rendre la règle active pour ce type d’enregistrement, puis sur **Enregistrer**.
+1. Cliquez sur **Activer** pour rendre la règle active pour ce type d&#39;enregistrement, puis cliquez sur **Enregistrer**.
 
    Les règles sont appliquées immédiatement après leur activation et tous les utilisateurs et utilisatrices autorisés à modifier ou supprimer des enregistrements dans le type d’enregistrement sélectionné doivent les suivre.
-1. (Facultatif) Cliquez sur le menu **Plus** ![](assets/more-menu.png) au nom de la règle métier dans l’en-tête de page pour ouvrir la zone **Détails de la règle** et mettre à jour les informations sur la règle métier.
-1. (Facultatif et recommandé) Cliquez sur la flèche vers l&#39;arrière à gauche de l&#39;en-tête de la page **Règles métier** pour afficher la page de type d&#39;enregistrement et accéder à une vue de tableau ou ouvrir la page d&#39;un enregistrement, puis essayez de modifier ou de supprimer un enregistrement afin de tester la règle que vous venez de créer.
+1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) au nom de la règle métier dans l’en-tête de la page pour ouvrir la zone **Détails de la règle** et mettre à jour les informations sur la règle métier.
+1. (Facultatif et recommandé) Cliquez sur la flèche vers l&#39;arrière à gauche des **Règles métier** dans l&#39;en-tête de la page pour afficher la page de type d&#39;enregistrement et accéder à une vue de tableau ou ouvrir la page d&#39;un enregistrement, puis essayez de modifier ou de supprimer un enregistrement afin de tester la règle que vous venez de créer.
 
 ## Gestion des règles métier
 
@@ -196,15 +196,15 @@ Vous pouvez modifier, supprimer ou désactiver des règles métier existantes.
 
 La modification d’une règle existante ne modifie pas les enregistrements existants. La règle modifiée s&#39;applique uniquement aux enregistrements existants lorsqu&#39;une personne tente de les modifier ou de les supprimer.
 
-1. Revenez à la page de table **Règles métier** pour le type d’enregistrement.
+1. Revenez à la page de la table **Règles métier** pour le type d’enregistrement.
 1. Recherchez la règle à modifier dans la vue Tableau.
 1. Pointez sur le nom d’une règle active, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l’une des options suivantes :
 
    * **Modifier** : ouvre la page de configuration des règles métier et vous pouvez modifier les informations relatives à la règle métier.
-   * **Désactiver** : permet d’empêcher le déclenchement de la règle, mais en la préservant pour le futur, si nécessaire.
-   * **Supprimer** : toutes les informations relatives à la règle sont supprimées. Les règles supprimées ne peuvent pas être récupérées.
+   * **Désactiver** : cela empêche le déclenchement de la règle, mais la conserve pour le futur, si nécessaire.
+   * **Supprimer** : toutes les informations sur la règle sont supprimées. Les règles supprimées ne peuvent pas être récupérées.
 
-   ![Menu Plus de règle métier développé](assets/business-rule-more-menu-in-table-expanded.png)
+   ![Menu Plus de règles métier développé](assets/business-rule-more-menu-in-table-expanded.png)
 
    Les règles modifiées ou désactivées ne s’appliquent qu’aux enregistrements futurs et ne sont pas appliquées rétroactivement.
 1. (Facultatif et conditionnel) Passez la souris sur le nom d’une règle métier désactivée dans le tableau, puis cliquez sur **Plus** > **Activer** pour activer la règle.

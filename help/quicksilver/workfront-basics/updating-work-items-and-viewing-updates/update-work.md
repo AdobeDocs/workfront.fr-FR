@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '3436'
-ht-degree: 68%
+source-wordcount: '3504'
+ht-degree: 67%
 ---
 # Mettre à jour le travail
 
@@ -189,7 +189,7 @@ Old:
   * Dans un objet Workfront, dans la section Mises à jour (pour les projets, les tâches et les problèmes)
   * Dans la zone Accueil (pour les tâches et les problèmes)
 
-    Pour plus d’informations, voir [&#x200B; Gérer votre travail avec le widget Mes tâches &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+    Pour plus d&#39;informations, voir [Gérer votre travail avec le widget Mon travail](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
   * Dans le panneau Résumé des zones suivantes (pour les tâches, les problèmes et les documents) :
 
     * Une liste des objets
@@ -309,8 +309,8 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >Lorsque vous quittez la section Mises à jour avant de terminer la saisie, un commentaire est envoyé afin de conserver le commentaire sur la page en mode brouillon, même après une déconnexion et une reconnexion. Toutes les images ajoutées au commentaire sont également enregistrées dans le brouillon. Les brouillons sont enregistrés pendant 7 jours, après quoi ils sont éliminés et ne peuvent pas être récupérés. Les commentaires en mode brouillon ne sont visibles que par l’utilisateur ou l’utilisatrice qui les saisit.
 
 1. (Facultatif) Pour annuler ou rétablir une modification, utilisez les raccourcis clavier suivants :
-   * Ctrl + Z (⌘ + z pour Mac) pour annuler une modification
-   * Ctrl + Y (⌘ + y pour Mac) pour rétablir une modification
+   * Ctrl+Z (⌘+z pour Mac) pour annuler une modification
+   * Ctrl+Y (⌘+y pour Mac) pour rétablir une modification
 
 1. (Facultatif) Dans la zone **Identifier des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire ou sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils de texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre mise à jour, afin d’améliorer votre contenu. Pour plus d’informations, voir [Utiliser du texte enrichi dans une mise à jour Workfront](#use-rich-text-in-a-workfront-update) dans cet article.
@@ -345,7 +345,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >* L’horodatage en regard du commentaire correspond à la date du commentaire d’origine, et non à celle de la dernière modification.
    >* Lorsque vous ajoutez un commentaire au nom d’une autre personne (lorsque vous vous connectez avec un autre identifiant en tant qu’administrateur ou administratrice Workfront ou de groupe), vous ne pouvez pas le modifier en cas de connexion en tant l’autre utilisateur ou utilisatrice. Vous ne pouvez modifier le commentaire que si vous vous déconnectez en tant que cet autre utilisateur ou cette autre utilisatrice et que vous vous reconnectez sous votre propre identifiant.
 
-1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d’informations sur la réponse à une mise à jour, voir [&#x200B; Répondre aux mises à jour &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Facultatif) Cliquez sur **Répondre** ou commencez à saisir un commentaire dans la zone **Ajouter une réponse ...** pour répondre à un commentaire existant, puis suivez les étapes 3 à 7 ci-dessus. <!--(**************insure this stays accurate***********)--> Pour plus d&#39;informations sur la réponse à une mise à jour, voir [Répondre aux mises à jour](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 1. (Le cas échéant - Facultatif) Si d’autres personnes ont ajouté des commentaires qui s’affichent en dehors de la zone visible dans la section Mises à jour pendant que vous ajoutiez vos commentaires, cliquez sur **Afficher** à l’intérieur de la **bannière bleue des nouveaux commentaires** en bas de l’écran pour les afficher.
 
@@ -353,7 +353,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
 
    D’autres commentaires s’affichent en bas de l’écran.
 
-1. (Facultatif) Cliquez sur l’icône **J’aime** Icône ![&#x200B; j’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
+1. (Facultatif) Cliquez sur l’icône **J’aime**![Icône J’aime](assets/like-icon.png). L’icône se met à jour avec le nombre de mentions « J’aime ».
 1. (Le cas échéant - Facultatif) Si vous avez inclus des personnes supplémentaires dans votre commentaire, cliquez sur le nombre de membres inclus dans la mise à jour pour afficher une liste des entités avec lesquelles le commentaire que vous avez saisi est partagé.
 
    ![Icônes de membres développées](assets/members-icons-expanded-unshimmed.png)
@@ -382,18 +382,18 @@ L’onglet **Commentaires** est sélectionné par défaut.
 Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajoutant divers éléments, tels que des émoticônes, des liens ou des images.
 
 1. Accédez à la zone **Mises à jour** d’un objet Workfront, ouvrez l’onglet **Commentaires** et commencez à saisir un commentaire.
-1. (Facultatif) Pour ajouter du texte enrichi à votre commentaire, utilisez les attributs de la barre d’outils **Texte enrichi** au fur et à mesure que vous tapez.
+1. (Facultatif) Pour ajouter du texte enrichi à votre commentaire, utilisez les attributs de la barre d&#39;outils **Texte enrichi** au fur et à mesure que vous tapez.
 
-   ![&#x200B; Barre d’outils de texte enrichi &#x200B;](assets/rich-text-toolbar.png)
+   ![Barre d&#39;outils de texte enrichi](assets/rich-text-toolbar.png)
 
    | **Attribut** | **Bouton Barre d’outils** | **Raccourcis clavier Mac** | **Raccourcis clavier Windows** |
    |---|---|---|---|
-   | Gras | ![Icône Gras](assets/mceclip10.png) | ⌘+b | Ctrl + B |
-   | Italique | ![Icône Italique](assets/mceclip9.png) | ⌘+i | Ctrl + I |
+   | Gras | ![Icône en gras](assets/mceclip10.png) | ⌘+b | Ctrl + B |
+   | Italique | ![Icône en italique](assets/mceclip9.png) | ⌘+i | Ctrl + I |
    | Souligner | ![Icône Souligner](assets/mceclip8.png) | ⌘+u | Ctrl + U |
-   | Lien hypertexte | ![icône Lien hypertexte](assets/mceclip7.png) | <br>Pour ouvrir la zone Ajouter des liens : ⌘+K</br> <br>Pour coller un lien sur le texte sélectionné : ⌘+V</br> | <br>Pour ouvrir la zone Ajouter des liens : Ctrl + K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl + V</br> |
-   | Liste à puces | ![Icône Liste à puces](assets/mceclip6.png) | ⌘+Maj+8 | Ctrl + Maj + 8 |
-   | Liste numérotée | ![Icône Liste numérotée](assets/mceclip5.png) | ⌘+Maj+7 | Ctrl + Maj + 7 |
+   | Lien hypertexte | ![Icône Lien hypertexte](assets/mceclip7.png) | <br>Pour ouvrir la zone Ajouter des liens : ⌘+K</br> <br>Pour coller un lien sur le texte sélectionné : ⌘+V</br> | <br>Pour ouvrir la zone Ajouter des liens : Ctrl + K</br> <br>Pour coller un lien sur le texte sélectionné : Ctrl + V</br> |
+   | Liste à puces | ![Icône de liste à puces](assets/mceclip6.png) | ⌘+Maj+8 | Ctrl + Maj + 8 |
+   | Liste numérotée | ![Icône de liste numérotée](assets/mceclip5.png) | ⌘+Maj+7 | Ctrl + Maj + 7 |
 
    <!--| Block Quote | ![Block quote icon](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -417,7 +417,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 
    <!--![Block quote](assets/block-quote-marked-350x144.png)-->
 
-1. (Facultatif) Cliquez sur l’icône **émoji** ![icône émoticône](assets/emoji-icon.png) pour ajouter des émoticônes à votre mise à jour.
+1. (Facultatif) Cliquez sur l’icône **émoji** ![Icône émoji](assets/emoji-icon.png) pour ajouter des émoticônes à votre mise à jour.
 
    >[!NOTE]
    >
@@ -433,7 +433,7 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
    1. Cliquez dans la mise à jour où vous souhaitez insérer un lien.
    1. Dans la barre d’outils **Texte enrichi**, cliquez sur l’icône **Lien hypertexte** ![Icône Lien hypertexte](assets/link-icon.png).
 
-   1. Dans la zone **Créer un lien**, sous **URL**, saisissez ou collez l’URL de la source à lier.
+   1. Dans la zone **Créer un lien**, sous **URL**, saisissez ou collez l’URL de la source à laquelle vous souhaitez créer un lien.
 
    1. Sous **Texte à afficher**, saisissez ou collez le texte du lien.
    1. Cliquer sur **Enregistrer**.
@@ -446,14 +446,14 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
    >
    >* Objectifs
    >* Cartes ad hoc sur les panoramas
-   >* Enregistrements dans Workfront Planning. Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >* Enregistrements dans Workfront Planning. Pour plus d&#39;informations, consultez [Prise en main d&#39;Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    Pour joindre une image à votre mise à jour, effectuez l’une des opérations suivantes :
 
    * Enregistrez l’image sur votre ordinateur, puis faites-la glisser et déposez-la dans la zone Nouveau commentaire.
    * Copiez une capture d’écran depuis votre ordinateur, puis collez-la dans le commentaire.
-   * Cliquez sur l’icône **Ajouter une image** ![Ajouter une montagne d’image avec l’icône représentant un signe plus](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
+   * Cliquez sur l’icône **Ajouter une image** ![Ajoutez une montagne d’image avec l’icône de signe plus](assets/add-image-mountain-with-plus-icon.png) et accédez à l’image sur votre ordinateur.
 
 
    >[!IMPORTANT]
@@ -475,8 +475,8 @@ Vous pouvez enrichir vos commentaires à l’aide de texte enrichi ou en y ajout
 
 1. (Facultatif) Pour afficher une image dans la mise à jour existante, effectuez l’une des opérations suivantes :
 
-   * Cliquez sur l’icône **Aperçu** ![Icône Aperçu](assets/previewimageicon-31x31.png) de la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
-   * Cliquez sur l’icône **Télécharger** ![icône de téléchargement](assets/downloadimageicon.png) de la miniature de l’image pour télécharger l’image.
+   * Cliquez sur l’icône **Aperçu** ![Icône d’aperçu](assets/previewimageicon-31x31.png) sur la miniature de l’image pour ouvrir l’image en taille réelle dans un nouvel onglet du navigateur.
+   * Cliquez sur l’icône **Télécharger** ![Icône de téléchargement](assets/downloadimageicon.png) sur la miniature de l’image pour télécharger l’image.
 
 1. Cliquez sur **Soumettre** pour ajouter votre commentaire.
 
@@ -522,7 +522,7 @@ Vous pouvez copier des informations d’un commentaire existant en effectuant l�
 * [Copier le texte du message](#copy-body-text)
 
 
-![Copiez le commentaire de différentes manières](assets/copy-comment-ways-from-more-menu-on-comment.png)
+![Copier le commentaire de différentes manières](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### Citer la réponse
 
@@ -533,7 +533,7 @@ L’option Citer la réponse copie le commentaire d’origine dans une nouvelle 
 
    Une nouvelle zone de commentaire s’ouvre. La réponse entre guillemets est ensuite incluse dans le nouveau commentaire et marquée comme un bloc de citation.
 
-   ![Commentaires intermédiaires mis en surbrillance dans le devis avant l’envoi](assets/block-quote-highlighted-mid-comment-before-submit.png)
+   ![Commentaire intermédiaire du devis bloqué mis en surbrillance avant l&#39;envoi](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
 
 1. Continuez à ajouter votre mise à jour et cliquez sur **Soumettre** pour ajouter le commentaire.
@@ -625,15 +625,23 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 <div class="preview">
 
-## Épingler les commentaires
+## Épingler les threads de commentaire
 
-Vous pouvez épingler des commentaires de niveau supérieur en haut de l’onglet Commentaires . Vous ne pouvez pas épingler de réponses qui font partie d’un thread.
+Vous pouvez épingler des threads importants en haut de l’onglet Mises à jour afin de les séparer du flux de mise à jour dans une section Threads épinglés .
 
-1. Accédez à un objet qui prend en charge l’épinglage de commentaires, cliquez sur Mises à jour dans le panneau de gauche, puis sur l’onglet **Commentaires**.
+Tenez compte des points suivants lors de l’épinglage de threads :
 
-   Pour plus d’informations, voir [&#x200B; Présentation de l’onglet Mises à jour &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* Vous pouvez épingler des commentaires de niveau supérieur en haut de l’onglet Commentaires . Vous ne pouvez pas épingler de réponses qui font partie d’un thread.
+* Vous pouvez ensuite désépingler les threads.
+* Toute personne disposant des autorisations pour Afficher un objet avec une zone Mises à jour peut épingler ou désépingler un thread.
 
-1. Ajoutez un commentaire ou, à partir d’un commentaire existant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du commentaire, puis cliquez sur **Épingler le thread**. Le commentaire et les réponses existantes sont épinglés en haut de l’onglet Commentaires .
+Pour épingler un fil de commentaires :
+
+1. Accédez à un objet qui comporte une zone **Mises à jour**, cliquez sur **Mises à jour** dans le panneau de gauche, puis cliquez sur l’onglet **Commentaires**.
+
+   Pour plus d&#39;informations, voir la présentation de l&#39;onglet [Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+1. Ajoutez un commentaire ou, à partir d&#39;un commentaire existant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du commentaire, cliquez sur **Épingler le fil**. Le commentaire et les réponses existantes sont épinglés en haut de l’onglet Commentaires pour vous et toutes les personnes pouvant afficher l’objet.
 
    Une nouvelle section **Threads épinglés** est créée en haut de l’onglet **Commentaires**.
 
@@ -645,7 +653,41 @@ Vous pouvez épingler des commentaires de niveau supérieur en haut de l’ongle
 
 </div>
 
+<!--
+<div class="preview">
 
+## Resolve comment threads
+
+To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+
+Consider the following when resolving comments: 
+
+* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
+* Comments that are part of a resolved thread are read-only. 
+* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
+* You can display resolved comments or hide them for yourself.
+* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+
+To resolve comment threads: 
+
+1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+
+   ************add a screen shot***************
+
+   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+
+1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
+1. Click **Resolve**.
+
+   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
+1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+
+</div>
+-->
 
 ## Supprimer un commentaire ou une réponse
 
@@ -694,7 +736,7 @@ La section Mises à jour d’un objet Workfront affiche deux types d’informat
   * Tâche de modèle
   * Carte ad hoc sur un panorama
 
-Pour plus d’informations sur les mises à jour des utilisateurs et du système, ainsi que sur leur affichage dans la section Mises à jour des objets Workfront, voir [Présentation de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Pour plus d&#39;informations sur les mises à jour des utilisateurs et du système, ainsi que sur leur affichage dans la section Mises à jour des objets Workfront, consultez [Aperçu de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--

@@ -19,19 +19,19 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 6%
+source-wordcount: '675'
+ht-degree: 7%
 ---
 
 # Partager un espace d&#39;idées avec d&#39;autres personnes
 
 <!--add to TOC and miniTOC-->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Beta Espace d’idéation**. </span>
 
-<span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
+<span class="preview">Pour plus d&#39;informations, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 
 >[!IMPORTANT]
@@ -40,7 +40,7 @@ ht-degree: 6%
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>Exigences des fournisseurs de cloud</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>NOTE :</b></p>
-   <p>Aucun autre fournisseur de cloud n’est pris en charge</p>
+   <p>Nous ne prenons en charge aucun autre fournisseur de cloud.</p>
    </td> 
   </tr>
 <tr> 
@@ -171,7 +171,7 @@ Or
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -179,20 +179,20 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
 1. Accédez à l’espace Idéation .
 
-   Pour plus d’informations, voir [Création de résumés dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+   Pour plus d&#39;informations, voir [Créer des briefs dans l&#39;espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
 
-1. Cliquez sur **Partager** dans le coin supérieur droit, puis cliquez sur l’icône **Paramètres** ![Icône Paramètres](assets/setting-icon.png) dans le coin supérieur droit de la zone **Partager le document**. <!--should this say "document"?-->
-1. Dans la liste **Qui a accès**, choisissez l’une des options suivantes :
+1. Cliquez sur **Partager** dans le coin supérieur droit, puis sur l&#39;icône **Paramètres** ![Icône Paramètres](assets/setting-icon.png) dans le coin supérieur droit de la zone **Partager le document**. <!--should this say "document"?-->
+1. Dans la liste **Qui a accès**, choisissez l&#39;une des options suivantes :
 
    * **Seules les personnes invitées peuvent y accéder**
 
      Vous devez ajouter des utilisateurs individuels à l&#39;espace Idéation et leur attribuer un niveau d&#39;autorisation.
-   * **Tout le monde peut apporter des commentaires dans &lt; l’environnement Workfront de votre entreprise >**
+   * **Tous les utilisateurs de &lt; l&#39;environnement Workfront de votre entreprise > peuvent apporter des commentaires**
 
      Toute personne de votre organisation disposant d’un niveau d’accès Workflow et Licence Planning peut rechercher et commenter l’idée.
    * **Toute personne disposant du lien peut ajouter des commentaires**
 
-     Toute personne avec laquelle vous partagez un lien vers l’idée peut la commenter, y compris les personnes extérieures à votre organisation.
+     Toute personne avec laquelle vous partagez un lien vers la zone de travail d’idéation peut la commenter, y compris les personnes extérieures à votre organisation.
 
 1. Cliquez sur **Copier le lien** pour générer un lien vers l’idéation et le partager avec d’autres personnes. Le lien est ajouté à votre presse-papiers.
 1. Cliquez sur la flèche vers l’arrière de la zone Paramètres pour revenir au partage.
@@ -200,11 +200,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
    | Autorisation de l’emplacement | Fonctionnalités |
    |---|---|
-   | **Éditeur** | Peut modifier, télécharger et partager l’espace d’idéation |
-   | **Commentateur** | Peut afficher et commenter l’espace d’idéation |
-   | **Visionneuse** | Peut afficher l’espace d’idéation |
+   | **Éditeur** | Peut modifier, télécharger et partager la zone de travail d’idéation. |
+   | **Commentateur** | Peut afficher et commenter la zone de travail d’idéation |
+   | **Visionneuse** | Peut afficher la zone de travail de l’idéation |
 
-1. (Facultatif) Incluez un message dans votre affectation, puis cliquez sur **Inviter**.
+1. (Facultatif) Incluez un message dans votre invitation de partage, puis cliquez sur **Inviter**.
 
    Les utilisateurs invités reçoivent une notification par e-mail concernant leur attribution d’autorisations.
 

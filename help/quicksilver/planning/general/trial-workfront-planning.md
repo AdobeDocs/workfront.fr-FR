@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 4%
 ---
 # Commencer avec la version d’essai gratuite d’Adobe Workfront Planning
@@ -105,7 +105,7 @@ Les dates suivantes sont des dates importantes associées à l’offre d’éval
   Au lancement de l’évaluation, les éléments suivants sont ajoutés à votre instance Workfront :
 
   * Les bannières Workfront Planning continuent de s’afficher pour tous les utilisateurs. Un lien vers ce document est inclus dans les bannières.
-  * La préférence **Vérifier l’accord d’essai** est ajoutée à la zone **Configuration**.
+  * La préférence **Accord d&#39;évaluation** est ajoutée à la zone **Configuration**.
 
   Les scénarios suivants sont possibles :
 
@@ -117,12 +117,12 @@ Les dates suivantes sont des dates importantes associées à l’offre d’éval
 
   * Si votre administrateur Workfront n&#39;a pas accepté l&#39;accord avant cette date, les bannières annonçant les programmes d&#39;évaluation de Planning s&#39;affichent pour tous les utilisateurs, mais Planning n&#39;est pas encore disponible dans le menu principal. Votre administrateur système doit d&#39;abord accepter le contrat avant de pouvoir accéder à Workfront Planning.
 
-* **1er avril 2026** : vous ne pouvez plus vous inscrire à l’évaluation.
+* **1er avril 2026** : vous ne pouvez plus vous inscrire à l&#39;évaluation.
 
   Les éléments suivants sont supprimés de votre instance Workfront :
 
   * Les bannières d’évaluation de la planification Workfront.
-  * La préférence **Accord d’évaluation de révision** est supprimée de la zone **Configuration**.
+  * La préférence **Accord d&#39;évaluation de révision** est supprimée de la zone **Configuration**.
 
 * **1er mai 2026** : la période d’évaluation de Workfront Planning se termine et votre accès à Planning est supprimé. Access restera actif jusqu&#39;au 15 mai 2026.
 
@@ -141,7 +141,7 @@ Lauren wanted this out:
 
 Tous les utilisateurs de votre organisation reçoivent le package Workfront Planning suivant et le niveau d’autorisations pour Workfront Planning au cours de la période d’évaluation :
 
-* **Du 2 mars au 1er mai 2026** :
+* **Entre Le 2 Mars Et Le 1Er Mai 2026** :
 
   Quel que soit votre niveau d’accès à la licence Workfront ou Workflow, lorsque vous acceptez de participer au programme d’évaluation de Workfront Planning, vous recevez une licence Workfront Planning Prime.
 
@@ -151,15 +151,15 @@ Tous les utilisateurs de votre organisation reçoivent le package Workfront Plan
   * Tous les autres utilisateurs disposent des autorisations d’affichage dans la zone Espaces de travail, mais l’administrateur système peut leur accorder des autorisations de gestion des espaces de travail qui s’y affichent.
   * Tous les utilisateurs, y compris l&#39;administrateur système, disposent des autorisations d&#39;affichage sur l&#39;onglet Exemples d&#39;espaces de travail dans la zone Planning.
 
-* **Après le 1er mai 2026:**
+* **Après Le 1Er Mai 2026:**
 
   L’accès au procès restera actif jusqu’au 15 mai 2026. Après le 15 mai, tous les utilisateurs de votre système auront accès à Workfront Planning supprimé et Workfront sécurisera vos données.
 
 ## Informations supplémentaires sur Workfront Planning
 
-Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Pour connaître les bonnes pratiques relatives à l’implémentation de Workfront Planning, consultez [Bonnes pratiques d’Adobe Workfront Planning : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Pour connaître les bonnes pratiques relatives à l’implémentation de Workfront Planning, consultez [Bonnes pratiques d’Adobe Workfront Planning : index d’article](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--
 
@@ -187,12 +187,12 @@ L’essai a commencé et votre organisation a reçu l’accès pour commencer l�
 1. (Conditionnel) Connectez-vous à Adobe Workfront en tant qu’administrateur système.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+   * Suivez la bannière in-app qui contient des informations sur l’**essai de Workfront Planning**
 
-   * Accédez à la zone **Notifications** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
-1. Cliquez sur **Consulter le contrat d’évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
-1. Cliquez sur **Accepter** après avoir consulté le contrat.
-1. (Conditionnel) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
+   * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning.
+1. Cliquez sur **Consulter le contrat d&#39;évaluation**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
+1. Cliquez sur **Accepter**, après avoir consulté le contrat.
+1. (Sous condition) Si vous n’êtes pas administrateur système, suivez la bannière intégrée à l’application qui contient des informations sur l’**évaluation de Workfront Planning**, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
 
@@ -206,13 +206,13 @@ L’essai a commencé et votre organisation a reçu l’accès pour commencer l�
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Suivez la bannière in-app qui contient des informations sur la version d’évaluation de Workfront Planning **&#x200B;**
+   * Suivez la bannière in-app qui contient des informations sur l’**essai de Workfront Planning**
 
-   * Accédez à la zone **Notifications** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’essai de Workfront Planning
+   * Accédez à la zone **Notifications Workfront** dans le coin supérieur droit de l’écran, puis cliquez sur **Toutes les annonces** et recherchez le message du Centre d’annonces concernant l’évaluation de Workfront Planning
 
    * Accédez à **Configuration** > **Système** > **Préférences**.
-1. (Conditionnel) Si vous êtes dans la zone **Configuration**, accédez à la section **Autres préférences**, puis cliquez sur **Consulter le contrat d’évaluation**.
-1. Cliquez sur **Accepter** après avoir consulté le contrat.
+1. (Conditionnel) Si vous êtes dans la zone **Configuration**, accédez à la section **Autres préférences**, puis cliquez sur **Vérifier le contrat d&#39;évaluation**.
+1. Cliquez sur **Accepter**, après avoir consulté le contrat.
 
    Votre entreprise est maintenant inscrite à l’essai de planification de Workfront jusqu’au 1er mai 2026. Access restera actif jusqu&#39;au 15 mai 2026.
 
@@ -220,27 +220,27 @@ L’essai a commencé et votre organisation a reçu l’accès pour commencer l�
 
    * La zone Planning est ajoutée au menu principal pour vous et tous les utilisateurs de votre système et affiche un indicateur **Évaluation**.
    * En tant qu’administrateur système, vous recevez un accès de niveau Gérer à l’onglet **Exemples d’espaces de travail** dans la zone Planification .
-   * Les utilisateurs standard bénéficient d&#39;un accès en affichage à l&#39;onglet **Exemples d&#39;espaces de travail** de Planning et peuvent créer leurs propres espaces de travail, types d&#39;enregistrements, enregistrements, champs et vues et les partager avec d&#39;autres utilisateurs.
-   * Tous les autres utilisateurs reçoivent un accès en lecture seule à l’onglet **Exemples d’espaces de travail** dans la zone Planning et peuvent accéder à d’autres espaces de travail lorsque d’autres personnes les partagent avec eux.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**, puis cliquez sur **En savoir plus**.
+   * Les utilisateurs standard reçoivent un accès en affichage à l&#39;onglet **Exemples d&#39;espaces de travail** dans Planning et peuvent créer leurs propres espaces de travail, types d&#39;enregistrements, enregistrements, champs et vues et les partager avec d&#39;autres utilisateurs.
+   * Tous les autres utilisateurs reçoivent un accès en lecture seule à l’onglet **Exemples d’espaces de travail** dans la zone Planification et peuvent accéder à d’autres espaces de travail lorsque d’autres personnes les partagent avec eux.
+1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système n&#39;a pas encore accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;**essai de Workfront Planning**, puis cliquez sur **En savoir plus**.
 
    Pour en savoir plus sur l’essai de Workfront Planning et sur Workfront Planning, consultez cet article.
-1. (Sous condition) Si vous n&#39;êtes pas administrateur système et que votre administrateur système a accepté l&#39;accord d&#39;évaluation, suivez la bannière in-app qui contient des informations sur l&#39;évaluation de Workfront Planning **&#x200B;**&#x200B;et cliquez sur **Ouvrir l&#39;évaluation**.
+1. (Conditionnel) Si vous n’êtes pas administrateur système et que votre administrateur système a accepté l’accord d’évaluation, suivez la bannière in-app qui contient des informations sur l’**évaluation de Workfront Planning** et cliquez sur **Ouvrir l’évaluation**.
 
    Commencez à explorer l’onglet **Exemples d’espaces de travail** et passez en revue, utilisez ou partagez des espaces de travail partagés avec vous.
 
-Pour plus d’informations sur l’utilisation de Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Pour plus d&#39;informations sur l&#39;utilisation de Workfront Planning, consultez [Prise en main d&#39;Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Pour connaître les bonnes pratiques relatives à l’implémentation de Workfront Planning, consultez [Bonnes pratiques d’Adobe Workfront Planning : index des articles](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Pour connaître les bonnes pratiques relatives à l’implémentation de Workfront Planning, consultez [Bonnes pratiques d’Adobe Workfront Planning : index d’article](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 ## Envoyer des commentaires sur Planning
 
 Pour envoyer des commentaires sur votre expérience avec Workfront Planning, procédez comme suit :
 
 1. Connectez-vous à Workfront et ouvrez n’importe quelle page.
-1. Recherchez le questionnaire court dans le coin inférieur droit d’une page Workfront et répondez aux questions, puis cliquez sur **Suivant**.
+1. Recherchez le questionnaire court dans le coin inférieur droit d&#39;une page Workfront et répondez aux questions, puis cliquez sur **Suivant**.
 
-   ![Enquête d’essai sur la promotion](assets/promo-trial-survey.png)
+   ![Enquête d&#39;essai de promotion](assets/promo-trial-survey.png)
 
 1. Sur la deuxième diapositive, répondez aux questions, puis cliquez sur **Envoyer**.
 
@@ -254,26 +254,26 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
 1. (Conditionnel et obligatoire) En tant qu’administrateur Workfront, signez le contrat d’essai gratuit.
 
    Pour plus d’informations, consultez la section [S’inscrire à l’essai gratuit d’Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) dans cet article.
-1. (Conditionnel) Une fois l’accord d’évaluation signé par un administrateur Workfront, cliquez sur le ![](assets/main-menu-shell.png) de l’icône **Menu principal**, puis sur l’une des options suivantes pour accéder à la zone **Planification** :
+1. (Conditionnel) Une fois l&#39;accord d&#39;évaluation signé par un administrateur Workfront, cliquez sur l&#39;icône **Menu principal** ![Menu principal](assets/main-menu-shell.png), puis cliquez sur l&#39;une des options suivantes pour accéder à la zone **Planification** :
 
-   * **Planification** L’icône affiche un libellé **Évaluation** en regard de celle-ci.
-   * **Projets**, **Demandes**, **Calendriers**, puis cliquez sur **Explorer les calendriers des campagnes**
+   * **Planification**. L’icône affiche un libellé **Évaluation** en regard de celle-ci.
+   * **Projets**, **Demandes**, **Calendriers**, puis cliquez sur **Explorer les calendriers de campagne**
    * **Portfolios**, **Programmes** ou à partir d’un portfolio ou d’un programme, puis cliquez sur **Explorer les hiérarchies personnalisées**.
 
    La zone **Planification** s’ouvre dans l’onglet **Exemples d’espaces de travail**.
 1. Examinez les espaces de travail suivants dans l’onglet **Exemples d’espaces de travail** :
 
-   * **Classifications globales et taxonomies** : contient des exemples de types d’objets Planning qui constituent la base d’un système d’enregistrement marketing.
+   * **Classifications et taxonomies globales** : contient des exemples de types d’objets Planning qui constituent la base d’un système d’enregistrement marketing.
 
-     Tous les types d’enregistrements de cet espace de travail peuvent constituer des blocs de construction de votre structure Workfront Planning. Tous les types d’enregistrements sont globaux et peuvent être ajoutés ou connectés à partir de tous les autres espaces de travail. Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Tous les types d’enregistrements de cet espace de travail peuvent constituer des blocs de construction de votre structure Workfront Planning. Tous les types d’enregistrements sont globaux et peuvent être ajoutés ou connectés à partir de tous les autres espaces de travail. Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-     Pour notre recommandation sur l’utilisation de l’espace de travail des taxonomies mondiales, consultez [&#x200B; Transformer votre première victoire en élan durable : un guide pour une mise à l’échelle gérée &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
+     Pour nos recommandations sur l’utilisation de l’espace de travail des taxonomies mondiales, consultez [Transformer votre première victoire en élan durable : un guide pour une mise à l’échelle gérée](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Exemples d’espaces de travail supplémentaires : les espaces de travail suivants servent d’exemples de ce dont une entreprise type (Fréscopa) pourrait avoir besoin en tant qu’espaces de travail spécifiques, types d’enregistrements, champs et vues pour organiser son organisation et sa structure de travail :
 
-     * **Fréscopa Global Marketing**
+     * **Marketing Global Fréscopa**
      * **Fréscopa Social Marketing**
      * **Fréscopa Media &amp; PR**
-     * **Fréscopa Executive Company Leadership**
+     * **Leadership d&#39;entreprise de Fréscopa**
 
    >[!NOTE]
    >
@@ -283,7 +283,7 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
 
    Pour plus d’informations, voir [Créer des espaces de travail](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   En tant qu’administrateur système, vos nouveaux espaces de travail s’affichent dans les onglets **Tous les espaces de travail** et **Espaces de travail auxquels je participe**.
+   En tant qu’administrateur système, vos nouveaux espaces de travail s’affichent dans les onglets **Tous les espaces de travail** et **Je suis sur**.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
 
 1. Cliquez sur **Créer avec l’IA** pour permettre à l’assistant d’IA de créer un espace de travail pour vous, en fonction de vos spécifications. <!--(**********have they changed the button to Generate or is it Create???*********)-->
 
-   Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+   Pour plus d&#39;informations, consultez [Prise en main d&#39;Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
    >[!IMPORTANT]
    >
@@ -324,23 +324,23 @@ Vous pouvez consulter des exemples d’espaces de travail Planning et leurs obje
      Pour plus d’informations, consultez la section [Partager des espaces de travail](/help/quicksilver/planning/access/share-workspaces.md).
    * Types d’enregistrements
 
-     Pour plus d’informations, voir [Partager les types d’enregistrements](/help/quicksilver/planning/access/share-record-types.md).
+     Pour plus d&#39;informations, voir [Partager les types d&#39;enregistrements](/help/quicksilver/planning/access/share-record-types.md).
    * Vues
 
-     Pour plus d’informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
+     Pour plus d&#39;informations, voir [Partager des vues](/help/quicksilver/planning/access/share-views.md).
 
-   Pour plus d’informations sur l’implémentation de Workfront Planning et la création d’un centre de gouvernance pour celui-ci, consultez la section [Informations supplémentaires sur Workfront Planning](#additional-information-about-workfront-planning) dans cet article.
+   Pour plus d’informations sur la mise en œuvre de Workfront Planning et la création d’un centre de gouvernance pour celui-ci, consultez la section [Informations supplémentaires sur Workfront Planning](#additional-information-about-workfront-planning) dans cet article.
 1. (Facultatif) Pour modifier l’espace de travail que vous avez créé, effectuez l’une des opérations suivantes :
 
    * Ouvrez l’espace de travail et apportez-y des modifications manuellement.
 
      Pour plus d’informations, voir [Modifier les espaces de travail](/help/quicksilver/planning/architecture/edit-workspaces.md).
-   * Cliquez sur **Modifier avec l’IA** en regard du nom de l’espace de travail pour ouvrir l’**Planning Designer** et utilisez l’IA pour apporter d’autres modifications à l’espace de travail.
+   * Cliquez sur **Modifier avec l’IA** en regard du nom de l’espace de travail pour ouvrir **Planning Designer** et utilisez l’IA pour apporter d’autres modifications à l’espace de travail.
 
-     Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-1. (Facultatif) Pour supprimer la zone Planning du **Menu principal** pour les utilisateurs, personnalisez le **Modèles de mise en page** affecté aux utilisateurs et supprimez-le de la zone **Définir le menu principal** du modèle de mise en page.
+     Pour plus d&#39;informations, consultez [Prise en main d&#39;Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+1. (Facultatif) Pour supprimer la zone Planning du **Menu principal** pour les utilisateurs, personnalisez les **Modèles de mise en page** affectés aux utilisateurs et supprimez-les de la zone **Définir le menu principal** du modèle de mise en page.
 
-   Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
    >[!TIP]
    >

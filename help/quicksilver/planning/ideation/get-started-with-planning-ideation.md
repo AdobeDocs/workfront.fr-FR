@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 1%
 ---
 
 # Prise en main de l’espace d’idéation pour Adobe Workfront Planning
@@ -36,7 +36,7 @@ information in this article come from this document, in addition to my notes for
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>\
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Beta Espace d’idéation**. </span>\
 </span>
 
 >[!IMPORTANT]
@@ -45,7 +45,7 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >
 
@@ -74,14 +74,14 @@ Les espaces d’idéation exploitent Adobe Enterprise CX Coworker pour générer
 
 Le calendrier de publication prévu de l’espace d’idéation, qui peut être modifié, comprend les jalons suivants :
 
-* Beta fermée :**lancée en juillet 2026, pour un petit nombre de clients.**
+* **Beta fermée :** lancée en juillet 2026, pour un petit nombre de clients.
 
   Un espace d’idéation est disponible dans l’environnement de production pour les clients participants.
-* **Open Beta :** ciblé pour le 12 novembre 2026. Il s’agit d’une offre de type opt-in, pour laquelle vous devez activer l’option au lieu de la désactiver activement.
+* **Ouvrir Beta :** Objectif pour le 12 novembre 2026. Il s’agit d’une offre de type opt-in, pour laquelle vous devez activer l’option au lieu de la désactiver activement.
 
   Un espace d’idéation est disponible dans les environnements de production, de prévisualisation et de sandbox pour tous les clients qui répondent à toutes les autres exigences.
 
-* **Disponibilité générale :** ciblée pour le 1er février 2027.
+* **Disponibilité générale :** Objectif fixé au 1er février 2027.
 
 ## Exigences du produit
 
@@ -91,35 +91,37 @@ Le calendrier de publication prévu de l’espace d’idéation, qui peut être 
 >
 >Vous n’avez pas besoin d’une connexion distincte pour accéder à l’espace d’idéation. Il est immédiatement disponible si vous pouvez vous connecter à Workfront et si vous disposez également de Workfront Planning.
 >
->Pour plus d&#39;informations sur l&#39;accès requis pour utiliser l&#39;espace d&#39;idéation, voir [Accès requis pour utiliser l&#39;espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>Pour plus d&#39;informations sur l&#39;accès requis pour utiliser l&#39;Espace d&#39;idéation, consultez [Accès requis pour utiliser l&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 Vous pouvez accéder à l’espace d’idéation si votre entreprise et vous avez accès aux éléments suivants :
 
 * Fournisseurs cloud :
 
-  * AWS
+  * Amazon Web Services (AWS)
 
     Les fournisseurs Azure et GCP ne sont pas pris en charge.
 
 * Produits :
 
   * Adobe Workfront avec Workfront Planning
-  * Adobe Enterprise CX Coworker pour Workfront
+  * CX Enterprise Coworker dans Workfront
 
     >[!IMPORTANT]
     >
-    >Actuellement, Adobe CX Enterprise Coworker n’est pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations, mais l’espace d’idéation n’est pas disponible pour les clients Workfront qui ne disposent pas de Coworker.
+    >CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations, mais l’espace d’idéation n’est pas disponible pour les clients Workfront qui ne disposent pas de Coworker.
 
-* Packages Adobe :
+* Packages Adobe : <!--Et wanted the Coworker added to these-->
 
   * Au cours de la version d’Open Beta (à partir du 12 novembre 2026), vous devez disposer des éléments suivants :
 
-    * Un package de workflow Adobe Workfront avec un package Workfront Planning
+    * Package de workflow Adobe Workfront avec package Workfront Planning avec Adobe CX Enterprise Coworker activé.
 
   * Après la mise à jour de la disponibilité générale (prévue pour le 1er février 2027), vous pouvez disposer de l’un des éléments suivants :
 
     * Un package de workflow Adobe Workfront avec un package Workfront Planning
     * Un produit Adobe Workfront Planning autonome
+
+    Adobe CX Enterprise Coworker doit être activé pour les deux packages
 
 
 
@@ -162,7 +164,7 @@ En tant que gestionnaire d&#39;espace de travail, vous pouvez utiliser l&#39;esp
 
 Voici des cas pratiques d’utilisation de l’espace d’idéation :
 
-* **Actualiser une campagne précédente en utilisant les performances historiques**
+* **Actualiser une campagne précédente à l’aide des performances historiques**
 
   * Par exemple, vous pouvez mettre à jour des campagnes existantes pour un nouveau trimestre, une nouvelle saison ou un nouveau moment produit.
   * Il en résulte un « delta brief » basé sur des performances antérieures, décrivant ce qui reste, ce qui change et pourquoi.
@@ -189,6 +191,7 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
 
 Voici quelques-unes des fonctionnalités de Coworker lorsqu’il est utilisé dans l’espace Idéation :
 
+* Effectuez une analyse de simulation pour comparer différents thèmes ou messages de campagne ou tester votre orientation stratégique.
 * Chargement de documents ou d’informations sur les réseaux sociaux
 * Accéder au contenu web pertinent pour le brief que vous êtes en train de créer
 * Définir un objectif de campagne
@@ -200,18 +203,23 @@ Voici quelques-unes des fonctionnalités de Coworker lorsqu’il est utilisé da
 * Collaborez avec plusieurs utilisateurs qui peuvent ajouter des idées, laisser des commentaires sur des éléments de zone de travail spécifiques ou utiliser des pense-bêtes pour des idées de forme libre avant qu’un brief ne soit finalisé
 * Nous recommandons les bonnes pratiques suivantes lors de l’utilisation de Coworker dans l’espace d’idéation :
 
-  * **Soyez précis**. Des descriptions de campagne plus riches produisent des cartes plus pertinentes et mieux ancrées.
+  * **Soyez spécifique**. Des descriptions de campagne plus riches produisent des cartes plus pertinentes et mieux ancrées.
   * **Vérifier avant de finaliser**. Les réponses générées par l’IA pouvant être inexactes, vérifiez toujours **Sources** sur une carte et confirmez-les par rapport aux sources liées avant de finaliser un enregistrement.
-  * **Associez des cartes d’IA à des enregistrements réels**. Effectuez un glisser-déposer des enregistrements réels dans l’espace Idéation .
+  * **Mélanger des cartes d’IA avec des enregistrements réels**. Effectuez un glisser-déposer des enregistrements réels dans l’espace Idéation .
 
 ## Accéder à l’espace d’idéation
 
 Pour accéder à l’Espace idéation :
 
-1. Vérifiez que vous répondez aux exigences du produit, comme décrit dans la section [Exigences du produit](#product-requirements) de cet article.
+1. Vérifiez que vous répondez à la configuration requise décrite dans la section [Configuration requise](#product-requirements) de cet article.
 1. Contactez votre représentant de compte Adobe pour exprimer votre intérêt à participer au Beta fermé ou rejoignez Open Beta, lorsqu’il sera disponible.
 
-   Les administrateurs système ont accès à l’espace d’idéation par défaut et ne peuvent pas le supprimer lorsqu’il est disponible dans Open Beta. Il peut l’activer pour tous les autres utilisateurs.
+   Les administrateurs système ont accès à l’espace d’idéation par défaut et ne peuvent pas le supprimer lorsqu’il est disponible dans Open Beta. Il peut l’activer pour tous les autres utilisateurs dans l’un des environnements suivants :
+
+   * Production
+   * Aperçu
+   * Sandbox personnalisés
+
 1. (Recommandé) Identifiez votre première campagne : une campagne récente à actualiser ou une nouvelle initiative à créer à partir de zéro.
 
 Pour plus d’informations sur l’utilisation de l’espace Idéation , consultez également les articles suivants :
@@ -226,14 +234,14 @@ Après vous être assuré d’avoir accès aux produits, packages, systèmes et 
 
 * Lors de l’ajout manuel d’un nouvel enregistrement dans Workfront Planning
 
-  ![Espace idéation dans Planning](assets/ideation-space-in-planning-new-record.png)
+  ![Espace d&#39;idéation dans Planning](assets/ideation-space-in-planning-new-record.png)
 * Dans le menu principal de Workfront, ouvrez la zone Espace d’idéation .
 
   ![Zone de l&#39;espace d&#39;idéation dans le menu principal](assets/ideation-space-area-icon-in-main-menu.png)
 
 >[!TIP]
 >
->Vous ne pouvez pas supprimer la zone Espace d&#39;idéation du menu Principal à l&#39;aide d&#39;un modèle de mise en page. Pour plus d&#39;informations sur le blocage d&#39;un utilisateur de l&#39;accès à l&#39;Espace d&#39;idéation, voir [Accès nécessaire pour utiliser l&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>Vous ne pouvez pas supprimer la zone Espace d&#39;idéation du menu Principal à l&#39;aide d&#39;un modèle de mise en page. Pour plus d&#39;informations sur le blocage de l&#39;accès d&#39;un utilisateur à l&#39;Espace d&#39;idéation, voir [Accès nécessaire pour utiliser L&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 >
 
 ## Objets générés par l&#39;espace Idéation

@@ -19,17 +19,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '969'
 ht-degree: 3%
 ---
 
-# Accès nécessaire pour utiliser l’espace Idéation
+# Accès nécessaire pour utiliser l’espace d’idéation
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Beta Espace d’idéation**. </span>
 
-<span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
+<span class="preview">Pour plus d&#39;informations, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 
 >[!IMPORTANT]
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >
 
@@ -63,7 +63,7 @@ Lors de l’utilisation de l’espace Idée dans Workfront, vous pouvez tirer pa
 
 Cet article décrit l’accès et les autorisations dont vous devez disposer pour accéder à l’espace d’idéation à partir de Workfront Planning.
 
-Pour obtenir des informations générales sur l’espace d’idée, voir [Prise en main de l’espace d’idée pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+Pour obtenir des informations générales sur l&#39;espace d&#39;idée, consultez [Prise en main de l&#39;espace d&#39;idée pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ## Exigences du produit
 
@@ -71,17 +71,17 @@ Pour obtenir des informations générales sur l’espace d’idée, voir [Prise 
 
 >[!NOTE]
 >
->Vous n’avez pas besoin d’une connexion distincte pour accéder à l’espace d’idéation. Il est immédiatement disponible si vous pouvez vous connecter à Workfront et si vous disposez également de Workfront Planning.
+>Vous n’avez pas besoin d’une connexion distincte pour accéder à l’espace d’idéation. Il est immédiatement disponible si vous pouvez vous connecter à Workfront en même temps que Workfront Planning.
 >
->Pour plus d&#39;informations sur l&#39;accès requis pour utiliser l&#39;espace d&#39;idéation, voir [Accès requis pour utiliser l&#39;espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>Pour plus d&#39;informations sur l&#39;accès requis pour utiliser l&#39;Espace d&#39;idéation, consultez [Accès requis pour utiliser l&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 Vous pouvez accéder à l’espace d’idéation si votre entreprise et vous avez accès aux éléments suivants :
 
 * Fournisseurs cloud :
 
-  * AWS
+  * Amazon Web Services (AWS)
 
-    Les fournisseurs Azure et GCP ne sont pas pris en charge.
+    Les fournisseurs Azure et GCP ne sont pas pris en charge pour l’espace d’idéation.
 
 * Produits :
 
@@ -92,16 +92,20 @@ Vous pouvez accéder à l’espace d’idéation si votre entreprise et vous ave
     >
     >CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations, mais l’espace d’idéation n’est pas disponible pour les clients Workfront qui ne disposent pas de Coworker.
 
-* Packages Adobe :
+* Packages Adobe : <!--Et wanted the Coworker added to these-->
 
   * Au cours de la version d’Open Beta (à partir du 12 novembre 2026), vous devez disposer des éléments suivants :
 
-    * Un package de workflow Adobe Workfront avec un package Workfront Planning
+    * Package de workflow Adobe Workfront avec package Workfront Planning avec Adobe CX Enterprise Coworker activé.
 
   * Après la mise à jour de la disponibilité générale (prévue pour le 1er février 2027), vous pouvez disposer de l’un des éléments suivants :
 
     * Un package de workflow Adobe Workfront avec un package Workfront Planning
     * Un produit Adobe Workfront Planning autonome
+
+    Adobe CX Enterprise Coworker doit être activé pour les deux packages
+
+
 
 
 <!--
@@ -130,9 +134,9 @@ L’accès à l’emplacement est configuré dans Workfront en activant une comb
 
 Les paramètres ci-dessous sont requis pour accéder à l’espace d’idéation dans Workfront :
 
-* Activez les paramètres Préférences Coworker et MCP dans les Préférences système de la <!--check the UI because Becky was going to change it--> Configuration
+* Activez les paramètres des préférences Coworker et MCP dans la zone Préférences système de la Configuration <!--check the UI because Becky was going to change it-->
 
-  Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+  Pour plus d&#39;informations, voir [Configurer les préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
   >[!IMPORTANT]
   >
@@ -153,7 +157,7 @@ Les paramètres ci-dessous sont requis pour accéder à l’espace d’idéation
     >
     > Les administrateurs système ont toujours accès à l’espace d’idéation.
     >
-    >Pour plus d’informations, voir [Créer et modifier des niveaux d’accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+    >Pour plus d&#39;informations, voir [Créer et modifier des niveaux d&#39;accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 
 
@@ -171,7 +175,7 @@ Votre niveau d’accès Workfront doit inclure les types de licence suivants pou
 
 Lorsque vous utilisez l&#39;espace Idéation de Workfront Planning, chaque enregistrement Planning est associé à un brief dans l&#39;espace Idéation.
 
-Les autorisations brèves de l’espace d’idéation sont héritées des autorisations d’enregistrement de Workfront Planning. <!--not sure if this is right, because now you can share the ideation with others??-->
+Les autorisations brèves de l’espace d’idéation sont héritées des autorisations d’enregistrement de Workfront Planning.
 
 Vous devez disposer d&#39;autorisations de niveau Contribution ou supérieur pour un type d&#39;enregistrement dans Planning afin de créer ou de modifier un enregistrement dans l&#39;espace d&#39;idéation.
 
@@ -183,6 +187,8 @@ Le tableau suivant montre le lien entre les autorisations d’enregistrement de 
 |---|---|
 | Autorisations de niveau Contribution ou supérieur à un enregistrement | Peut créer un brief dans l’Espace idéation de l’enregistrement |
 | Afficher les autorisations pour un enregistrement | Peut lire le brief de l’enregistrement dans l’espace Idéation mais ne peut pas le modifier |
+
+Vous pouvez également partager une zone de travail d’idéation avec d’autres personnes. Pour plus d’informations, consultez la section suivante de cet article.
 
 ## Autorisations de l’emplacement
 
@@ -206,7 +212,7 @@ Vous trouverez ci-dessous les autorisations d’espace d’idéation et les fonc
 | Commentateur | Peut afficher et commenter un espace d’idéation |
 | Observateur | Peut afficher un emplacement d’idéation |
 
-Pour plus d&#39;informations sur le partage d&#39;un espace d&#39;idéation, voir [Partager un espace d&#39;idéation](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
+Pour plus d&#39;informations sur le partage d&#39;un espace d&#39;idéation, consultez [Partager un espace d&#39;idéation](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
 <!--
 there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
