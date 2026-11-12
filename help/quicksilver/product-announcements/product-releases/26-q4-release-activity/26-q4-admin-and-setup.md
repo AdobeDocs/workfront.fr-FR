@@ -13,16 +13,16 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: be4623920eb86efac831d92d741cd0a10251eed2
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1797'
 ht-degree: 1%
 ---
 # Améliorations apportées à l’administration pour le quatrième trimestre 2026
 
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du quatrième trimestre 2026. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, voir [présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du quatrième trimestre 2026, consultez la [Présentation de la version du quatrième trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
 ## Afficher l’historique d’emploi d’un utilisateur
 
@@ -38,7 +38,7 @@ L’historique des tâches affiche une vue chronologique de ces détails pour un
 
 Vous pouvez afficher l’historique des tâches de plusieurs utilisateurs ou l’historique complet d’un seul utilisateur. Dans les deux vues, vous pouvez filtrer les résultats, personnaliser l’affichage des colonnes et exporter les données au format CSV ou XLSX.
 
-Pour plus d’informations, voir [Afficher l’historique des tâches de l’utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
+Pour plus d&#39;informations, voir [Afficher l&#39;historique d&#39;emploi de l&#39;utilisateur](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
 
 ## Utiliser l’IA pour générer une localisation personnalisée
 
@@ -50,7 +50,7 @@ Pour plus d’informations, voir [Afficher l’historique des tâches de l’uti
 
 Pour vous aider à gagner du temps dans la traduction de termes et de libellés de champ personnalisés, nous avons ajouté la possibilité de générer des traductions d’IA pour une localisation personnalisée. Désormais, les administrateurs et administratrices de Workfront peuvent utiliser l’IA pour générer des traductions pour du texte personnalisé non traduit, ou renseigner des traductions supplémentaires pour un terme précédemment localisé, puis consulter et ajuster les résultats avant d’enregistrer.
 
-Pour plus d’informations, voir [Configuration de la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+Pour plus d&#39;informations, voir [Configurer la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 <!--
 
@@ -89,7 +89,7 @@ Plusieurs améliorations ont été apportées aux modèles de mise en page :
 * Vous pouvez désormais repositionner les applications personnalisées dans n’importe quel ordre avec les options de menu Workfront par défaut. Cela vous permet de positionner chaque application à l’endroit le plus pertinent. Auparavant, les applications personnalisées étaient toujours les derniers éléments des options du menu principal du modèle de mise en page et ne pouvaient pas être repositionnées.
 * Vous pouvez désormais masquer la page Détails d’un objet dans le panneau de navigation de gauche. Au moins un élément doit être affiché dans le panneau de gauche d’un objet. Si tous les autres éléments sont masqués, vous ne pouvez pas masquer le dernier élément restant.
 
-Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Pour plus d&#39;informations, voir [Personnaliser le menu principal à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) et [Personnaliser le panneau de gauche à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Amélioration de l’expérience de mise à jour des choix de champ dans le concepteur de formulaire personnalisé
 
@@ -101,7 +101,7 @@ Pour plus d’informations, voir [Personnaliser le menu principal à l’aide d�
 
 Lorsque vous utilisez des champs déroulants, des boutons radio et des cases à cocher dans le concepteur de formulaire, vous pouvez désormais ajouter, modifier et supprimer des choix de champ dans une seule boîte de dialogue. Auparavant, vous ajoutiez et modifiiez des choix dans le panneau de droite du concepteur et il n’y avait pas beaucoup d’espace si vous créiez une longue liste de choix.
 
-Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs).
+Pour plus d&#39;informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs).
 
 ## Création et gestion des abonnements aux événements dans l’interface de Workfront
 
@@ -111,7 +111,7 @@ Pour faciliter la création et la gestion des abonnements aux événements de vo
 * Créez des abonnements aux événements, y compris le filtrage par critères que vous spécifiez :
 * Supprimez les abonnements aux événements.
 
-Pour plus d’informations, voir [Configuration des abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
+Pour plus d’informations, consultez la section [Configurer les abonnements aux événements dans Workfront](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md).
 
 ## Ajout d’URL de redirection autorisées pour les intégrations MCP
 
@@ -159,7 +159,7 @@ Vous pouvez désormais définir un niveau d’accès par défaut pour les utilis
 
 Auparavant, Workfront attribuait à l’utilisateur un niveau d’accès Contributeur ou Demandeur .
 
-Pour plus d’informations, voir [Configuration des préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Pour plus d&#39;informations, voir [Configurer les préférences système](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Semaines personnalisées en plus des trimestres personnalisés pour les clients Workfront Planning
 
@@ -173,7 +173,7 @@ Si votre entreprise a acheté un package Planning, en plus d’un package Workfl
 
 Les semaines personnalisées ne sont pas visibles dans Workfront. Ils ne sont visibles que dans la vue chronologique Planification de Workfront.
 
-Pour plus d’informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Pour plus d&#39;informations, voir [Activer les trimestres personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Prise en charge des fichiers volumineux pour les intégrations de documents personnalisés
 
@@ -194,10 +194,11 @@ Pour plus d’informations, voir [Configurer des intégrations de documents](/he
 >Aperçu : 30 juillet 2026
 >Version rapide de production : 13 août 2026
 >Production pour tous : 22 octobre 2026
+>[!BADGE Workflow Ultimate]{type=Informative}
 
 Les administrateurs de groupe peuvent désormais créer, modifier et supprimer les profils professionnels des groupes qu’ils administrent, sans avoir besoin d’un accès d’administrateur système. Cela donne aux entreprises plus de flexibilité pour déléguer la gestion des profils métier au niveau du groupe.
 
-Pour plus d’informations, voir [Afficher et gérer les profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md).
+Pour plus d&#39;informations, voir [Afficher et gérer les profils professionnels](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md).
 
 ## Prise en charge des modèles de disposition pour les vues des listes améliorées
 
@@ -209,9 +210,9 @@ Pour plus d’informations, voir [Afficher et gérer les profils métier](/help/
 
 Les vues des listes améliorées sont désormais prises en charge au niveau du système via un modèle de mise en page. Vous pouvez masquer les vues système existantes, affecter une vue spécifique en tant que vue par défaut et ajouter une vue personnalisée à la liste des vues système.
 
-Les exemples de listes améliorées dans le modèle de mise en page sont **Toutes les demandes** et **Affectations avancées**. Une liste améliorée comporte un libellé « Nouvelle expérience » en regard des vues.
+Les exemples de listes améliorées dans le modèle de mise en page sont **Toutes les requêtes** et **Affectations avancées**. Une liste améliorée comporte un libellé « Nouvelle expérience » en regard des vues.
 
-Pour plus d&#39;informations, voir [Personnaliser des filtres, des vues et des regroupements à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Pour plus d&#39;informations, consultez [Personnaliser des filtres, des vues et des regroupements à l&#39;aide d&#39;un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Modification en masse de champs de recherche externe
 
@@ -227,7 +228,7 @@ Dans les cas où un champ de recherche dépend d’un autre champ de recherche, 
 
 Par exemple, une liste de pays dépend de la sélection effectuée pour une région. Si la région d&#39;un projet est l&#39;Asie et la région d&#39;un autre projet est l&#39;Europe et que vous modifiez en bloc les deux projets, le champ Pays ne sera pas disponible car les régions ne correspondent pas. Si vous modifiez la région pour qu’elle soit la même pour les deux projets, vous pouvez également sélectionner un pays à utiliser pour les deux projets.
 
-Pour plus d’informations sur les champs de recherche externe, voir [Création d’un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields).
+Pour plus d&#39;informations sur les champs de recherche externe, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields).
 
 ## Logique avancée prise en charge dans l’aperçu du créateur de formulaire personnalisé
 
@@ -243,7 +244,7 @@ Auparavant, seules les options d’affichage de base et de logique d’omission 
 
 Notez que ces types de logiques ne sont disponibles que pour les organisations sur les packages Workflow Prime ou Ultimate : affichage avancé, valeur par défaut, mise en forme conditionnelle et modifiabilité.
 
-Pour plus d’informations, consultez les sections [Ajouter des règles de logique aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) et [Organiser et prévisualiser un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Pour plus d’informations, voir [Ajouter des règles de logique aux formulaires et champs personnalisés](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) et [Organiser et prévisualiser un formulaire](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Suivi des modifications pour révision et approbation unifiées
 
@@ -277,7 +278,7 @@ Vous pouvez désormais définir une application personnalisée comme page de des
 
 Les applications personnalisées doivent être créées séparément avant d&#39;être disponibles en tant qu&#39;options de menu principal ou de page de destination.
 
-Pour plus d’informations, voir [Personnalisation de la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) et [Création d’applications personnalisées pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+Pour plus d’informations, voir [Personnaliser la page de destination à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) et [Créer des applications personnalisées pour Workfront avec Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 ## Configuration des champs suivis dans l’historique des modifications
 
@@ -291,7 +292,7 @@ Vous pouvez ajouter des champs dont vous souhaitez effectuer le suivi pour un ty
 
 Auparavant, l’écran de configuration permettant de définir les champs suivis était en lecture seule.
 
-Pour plus d’informations, voir [Configurer les champs à suivre dans l’historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
+Pour plus d&#39;informations, voir [Configurer les champs à suivre dans l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
 ## Accès administratif à l&#39;historique des modifications ajouté aux niveaux d&#39;accès
 
@@ -301,6 +302,6 @@ Pour plus d’informations, voir [Configurer les champs à suivre dans l’histo
 >Version rapide de production : 13 août 2026
 >Production pour tous : 22 octobre 2026
 
-Au niveau d&#39;accès standard, vous pouvez maintenant définir si les utilisateurs disposant de ce niveau doivent avoir accès à la liste Historique des modifications. L’option **Historique des modifications** est disponible dans la section **Autoriser l’accès administratif pour** au niveau de l’accès.
+Au niveau d&#39;accès standard, vous pouvez maintenant définir si les utilisateurs disposant de ce niveau doivent avoir accès à la liste Historique des modifications. L&#39;option **Historique des modifications** est disponible dans la section **Autoriser l&#39;accès administratif pour** au niveau de l&#39;accès.
 
-Pour plus d&#39;informations, consultez [Octroi aux utilisateurs d&#39;un accès administratif à certaines zones](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) et [Affichage et gestion de l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Pour plus d&#39;informations, voir [Accorder aux utilisateurs un accès administratif à certaines zones](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) et [Afficher et gérer l&#39;historique des modifications](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
