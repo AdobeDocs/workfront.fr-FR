@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 52%
+source-wordcount: '205'
+ht-degree: 50%
 ---
 # Informations sur la planification Adobe Workfront : index des articles
 
@@ -48,6 +48,7 @@ Consultez les articles suivants :
 * [Recommandations relatives à l’implémentation d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Commencer avec la version d’essai gratuite d’Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md)
+* [Utilisation de la promotion de l’environnement pour Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md)
 
 
 
