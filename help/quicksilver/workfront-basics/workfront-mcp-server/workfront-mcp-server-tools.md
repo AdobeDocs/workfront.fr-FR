@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 5%
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Cet article répertorie les outils que le serveur MCP [!DNL Adobe Workfront] expose à une plateforme agentic d’IA connectée. La plateforme appelle ces outils en votre nom lorsque vous lui demandez de rechercher, créer, mettre à jour ou supprimer des éléments Workfront.
 
-Pour plus d’informations sur l’utilisation de ces outils par le biais d’une plateforme agentic d’IA, consultez [Utilisation du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). Pour plus d’informations sur la configuration de la connexion, voir [Configuration du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Pour plus d’informations sur l’utilisation de ces outils par le biais d’une plateforme IA agentic, consultez [Utilisation du serveur Adobe Workfront MCP](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md). Pour plus d’informations sur la configuration de la connexion, voir [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ Les tableaux suivants identifient la zone produit à laquelle chaque outil appar
 >[!IMPORTANT]
 >
 >Les ensembles d’outils sont sélectionnés lorsque vous configurez votre connexion au serveur MCP Workfront.
->Pour obtenir des informations et des instructions, voir [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+>Pour obtenir des informations et des instructions, consultez [Configuration du serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
 
 Les ensembles d’outils vous permettent de sélectionner les fonctionnalités Workfront dont votre client d’IA a besoin au lieu d’exposer l’ensemble du catalogue MCP. Cela s’avère utile pour les clients qui chargent d’emblée toutes les définitions d’outils, qui doivent respecter les limites du nombre d’outils ou qui bénéficient d’une liste d’outils plus ciblée.
 
@@ -61,21 +61,21 @@ Exemple :
 https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 ```
 
-Cet exemple illustre les fonctionnalités `core` et `comment-stream`. Le groupe de `core` est automatiquement inclus lorsqu’un sous-ensemble est sélectionné.
+Cet exemple expose les fonctionnalités `core` et `comment-stream`. Le groupe `core` est automatiquement inclus lorsqu&#39;un sous-ensemble est sélectionné.
 
 >[!ENDSHADEBOX]
 
 Les outils disponibles sont les suivants :
 
-* `core` : ensemble d’outils Workfront de base inclus automatiquement lorsque vous sélectionnez un sous-ensemble d’outils.
-* `comment-stream` : outils pour les workflows de commentaires et de discussion.
+* `core` : ensemble d’outils Workfront de base inclus automatiquement lorsque vous sélectionnez un sous-ensemble d’ensembles d’outils.
+* `comment-stream` : outils pour les workflows de commentaires et de discussions.
 * `planning` : outils pour les fonctionnalités de planification de Workfront.
 * `approvals` : outils pour les workflows d’approbation.
 * `reporting` : outils de reporting.
 
 Pour afficher le catalogue autorisé complet, omettez le paramètre ou utilisez `toolsets=all`.
 
-Vous pouvez combiner des groupes facultatifs avec des virgules, comme `toolsets=core,planning,approvals`.
+Vous pouvez combiner des groupes facultatifs avec des virgules, tels que `toolsets=core,planning,approvals`.
 
 La sélection s’applique aux outils, aux ressources et aux modèles de ressources, aux invites et aux applications MCP qui affichent les outils Workfront dans leur interface utilisateur. Les instructions de serveur spécifiques au serveur principal suivent également la configuration de l’ensemble d’outils sélectionné.
 
@@ -88,15 +88,15 @@ Si vous souhaitez que le client d’IA accède à un autre domaine, mettez à jo
 
 Chaque outil des tableaux suivants est classé dans la colonne Action en tant qu’action Lecture ou Écriture :
 
-* **Lecture** : récupère des informations de Workfront sans modifier vos données. Par exemple, la recherche d’un projet, la liste des documents ou l’obtention des détails d’un enregistrement.
+* **Read** : récupère des informations de Workfront sans modifier vos données. Par exemple, la recherche d’un projet, la liste des documents ou l’obtention des détails d’un enregistrement.
 * **Write** : crée, met à jour ou supprime des données Workfront. Par exemple, la création d’un projet, la mise à jour d’un enregistrement ou la suppression d’une vue.
 
 Votre administrateur Workfront contrôle les catégories d’outils que la plateforme agentic d’IA peut utiliser grâce à deux boutons (bascule) dans les Préférences système :
 
-* **Outils MCP en lecture seule** (activé par défaut)
-* **Outils Write MCP** (désactivé par défaut)
+* **Outils MCP en lecture seule** (activés par défaut)
+* **Outils MCP en écriture** (désactivés par défaut)
 
-Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer, demandez à votre administrateur Workfront d’activer les actions d’écriture. Pour plus d’informations, voir [Conditions préalables d’administration](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) dans *Configuration du serveur Adobe Workfront MCP*.
+Si la plateforme agentic d’IA peut rechercher des éléments Workfront, mais ne peut pas les créer, les mettre à jour ni les supprimer, demandez à votre administrateur Workfront d’activer les actions d’écriture. Pour plus d’informations, consultez les [conditions préalables d’administration](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) dans *Configuration du serveur Adobe Workfront MCP*.
 
 ## Outils de validation
 
@@ -108,16 +108,16 @@ Il n’existe actuellement aucune limite de droits sur les outils d’approbatio
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| Charger le document vers ** | `upload_document_ui` | Il vous permet de charger un fichier dans un projet, une tâche, un problème, un programme, un portfolio ou un modèle, et éventuellement dans un dossier. | Write |
+| Charger le document vers Workfront** | `upload_document_ui` | Il vous permet de charger un fichier dans un projet, une tâche, un problème, un programme, un portfolio ou un modèle, et éventuellement dans un dossier. | Write |
 | Rechercher la version du document par nom | `approvals_find_document_version_by_name` | Recherche l’ID de version actuelle d’un document par nom de fichier. Prend en charge les correspondances partielles. | Lire |
 | Obtenir le document par ID de version | `approvals_get_document_by_version_id` | Récupère les détails du document (nom, taille, date de chargement, chargeur) pour un ID de version de document connu. | Lire |
 | Résoudre la portée du document | `approvals_resolve_document_scope` | Développe un projet ou un dossier dans la liste des ID de version de document qu’il contient. Prend en charge les portées de projet, de dossier et de dossier par nom. | Lire |
-| Obtenir des documents par portée | `approvals_get_documents_by_scope` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil répertorie les documents dans un projet ou un dossier. | Lire |
+| Obtenir des documents par portée | `approvals_get_documents_by_scope` | Obsolète. Utiliser `insights_find_workfront_data` à la place. Cet outil répertorie les documents dans un projet ou un dossier. | Lire |
 | Liste des dossiers liés à AEM* | `approvals_list_aem_linked_folders` | Répertorie les dossiers de documents Workfront liés à Adobe Experience Manager. | Lire |
-| Rechercher un document | `approvals_find_document` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil a recherché un document par nom de fichier ou ID de version de document. | Lire |
+| Rechercher un document | `approvals_find_document` | Obsolète. Utiliser `insights_find_workfront_data` à la place. Cet outil a recherché un document par nom de fichier ou ID de version de document. | Lire |
 | Envoi de documents vers un dossier AEM* | `approvals_send_documents_to_aem_folder` | Déplace un ou plusieurs documents Workfront vers un dossier lié à AEM. | Write |
 
-*Pour utiliser ces outils, vous devez disposer d’une intégration native [!DNL Adobe Experience Manager] configurée dans votre instance Workfront. Pour plus d’informations, voir [Présentation des intégrations Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+*Vous devez disposer d’une intégration [!DNL Adobe Experience Manager] native configurée dans votre instance Workfront pour utiliser ces outils. Pour plus d’informations, voir [Présentation des intégrations Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 
 *L’envoi de documents vers un dossier AEM n’est pas encore pris en charge pour les projets sur l’espace de stockage Adobe. La prise en charge est attendue dans une version ultérieure.
@@ -131,15 +131,15 @@ Il n’existe actuellement aucune limite de droits sur les outils d’approbatio
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| Obtenir les informations sur le workflow d’approbation | `approvals_get_approval_info` | Retourne le workflow d&#39;approbation en cours (étapes, participants, statut) pour une version de document. <span class="preview">Pour les validations comportant plusieurs chemins d’accès, il affiche chaque chemin et ses étapes.</span> | Lire |
+| Obtenir les informations sur le workflow d’approbation | `approvals_get_approval_info` | Retourne le workflow d&#39;approbation en cours (étapes, participants, statut) pour une version de document. <span class="preview">Pour les validations comportant plusieurs chemins d’accès, chaque chemin d’accès et ses étapes sont affichés.</span> | Lire |
 | Créer ou mettre à jour un workflow d’approbation | `approvals_create_or_update_approval_workflow` | Crée ou met à jour les étapes d&#39;un workflow d&#39;approbation pour une version de document. <span class="preview">Prend en charge un seul suivi des étapes ou plusieurs chemins de révision parallèles.</span> | Write |
-| Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d’approbation sur un document à partir d’un modèle existant, <span class="preview">y compris des modèles qui définissent plusieurs chemins d’accès parallèles</span>. | Write |
+| Créer une approbation à partir d’un modèle | `approvals_create_approval_from_template` | Crée un workflow d’approbation sur un document à l’aide d’un modèle existant, <span class="preview">y compris des modèles qui définissent plusieurs chemins d’accès parallèles.</span> | Write |
 | Supprimer l’étape d’approbation | `approvals_delete_approval_stage` | Supprime une seule étape d&#39;un workflow d&#39;approbation par nom ou par position. Seules les étapes non démarrées peuvent être supprimées. | Write |
-| <span class="preview">Ajouter un chemin à l’approbation</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Ajoute un nouveau chemin de révision parallèle à un workflow d’approbation existant, de sorte que plusieurs pistes de révision s’exécutent simultanément sur une version de document.</span> | <span class="preview">Write</span> |
-| <span class="preview">Supprimer le chemin de l’approbation</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Supprime un chemin parallèle d’un workflow d’approbation. Le premier chemin ne peut pas être supprimé et les chemins qui contiennent des étapes terminées ou verrouillées sont protégés.</span> | <span class="preview">Write</span> |
-| <span class="preview">Ajouter une étape au chemin d’accès</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Ajoute une étape de révision à la fin d’un chemin spécifique dans un workflow d’approbation parallèle.</span> | <span class="preview">Write</span> |
-| <span class="preview">Supprimer l’étape du chemin</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Supprime une étape non démarrée d’un chemin spécifique dans un workflow d’approbation parallèle. Chaque chemin doit contenir au moins une étape.</span> | <span class="preview">Write</span> |
-| <span class="preview">Réorganiser les étapes dans le chemin</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Modifie l’ordre des étapes dans un chemin d’accès unique d’un workflow d’approbation parallèle.</span> | <span class="preview">Write</span> |
+| <span class="preview">Ajouter un chemin d’accès à l’approbation</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Ajoute un nouveau chemin de révision parallèle à un workflow d’approbation existant, de sorte que plusieurs pistes de révision s’exécutent simultanément sur une version de document.</span> | <span class="preview">Write</span> |
+| <span class="preview">Supprimer le chemin d’accès de l’approbation</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Supprime un chemin parallèle d&#39;un workflow d&#39;approbation. Impossible de supprimer le premier chemin, et les chemins contenant des étapes terminées ou verrouillées sont protégés.</span> | <span class="preview">Write</span> |
+| <span class="preview">Ajouter une étape au chemin d’accès</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Ajoute une étape de révision à la fin d&#39;un chemin spécifique dans un workflow d&#39;approbation parallèle.</span> | <span class="preview">Write</span> |
+| <span class="preview">Supprimer l’étape du chemin</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Supprime une étape non démarrée d&#39;un chemin spécifique dans un workflow d&#39;approbation parallèle. Chaque chemin doit conserver au moins une étape.</span> | <span class="preview">Write</span> |
+| <span class="preview">Réorganiser les étapes dans le chemin</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Change l&#39;ordre des étapes dans un chemin unique d&#39;un workflow d&#39;approbation parallèle.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
@@ -173,12 +173,12 @@ Il n’existe actuellement aucune limite de droits sur les outils d’approbatio
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| Rechercher un projet par nom | `approvals_find_project_by_name` | Supprimé le 13 août 2026. Utilisez `insights_find_id_by_name` à la place. Cet outil a recherché des projets Workfront par correspondance de noms partielle dans le système. | Lire |
-| Obtenir les projets par propriétaire | `approvals_get_projects_by_owner` | Supprimé le 13 août 2026. Utilisez `insights_find_workfront_data` à la place. Cet outil répertorie les projets Workfront dont l’utilisateur appelant était le propriétaire. | Lire |
-| Obtenir l’utilisateur actuel | `approvals_get_current_user` | Supprimé le 13 août 2026. Cet outil a renvoyé l&#39;identité Workfront de l&#39;utilisateur appelant, y compris le nom, l&#39;ID utilisateur, le nom de l&#39;équipe interne et l&#39;ID de l&#39;équipe interne. Pour des fonctionnalités similaires, voir [Obtenir l’utilisateur actuel](#insights-tools) sous les outils Insights. | Lire |
-| Rechercher un utilisateur par nom | `approvals_find_user_by_name` | Obsolète. Utilisez `insights_search_users` à la place. Cet outil recherche l’ID d’un utilisateur Workfront par nom (correspondance approximative ou partielle), puis renvoie le nom, l’ID, l’adresse électronique, le titre et l’URL de l’avatar. | Lire |
-| Rechercher une équipe par nom | `approvals_find_team_by_name` | Obsolète. Utilisez `insights_find_id_by_name` à la place. Cet outil a recherché l’identifiant d’une équipe Workfront par nom (correspondance approximative ou partielle). | Lire |
-| Rechercher des projets | `approvals_find_projects` | Obsolète. Utilisez `insights_find_workfront_data` à la place. Cet outil a recherché des projets Workfront, éventuellement filtrés par nom et/ou limités aux projets détenus par l’utilisateur appelant. | Lire |
+| Rechercher un projet par nom | `approvals_find_project_by_name` | Supprimé le 13 août 2026. Utiliser `insights_find_id_by_name` à la place. Cet outil a recherché des projets Workfront par correspondance de noms partielle dans le système. | Lire |
+| Obtenir les projets par propriétaire | `approvals_get_projects_by_owner` | Supprimé le 13 août 2026. Utiliser `insights_find_workfront_data` à la place. Cet outil répertorie les projets Workfront dont l’utilisateur appelant était le propriétaire. | Lire |
+| Obtenir l’utilisateur actuel | `approvals_get_current_user` | Supprimé le 13 août 2026. Cet outil a renvoyé l&#39;identité Workfront de l&#39;utilisateur appelant, y compris le nom, l&#39;ID utilisateur, le nom de l&#39;équipe interne et l&#39;ID de l&#39;équipe interne. Pour des fonctionnalités similaires, consultez [Obtenir l’utilisateur actuel](#insights-tools) sous les outils Insights. | Lire |
+| Rechercher un utilisateur par nom | `approvals_find_user_by_name` | Obsolète. Utiliser `insights_search_users` à la place. Cet outil recherche l’ID d’un utilisateur Workfront par nom (correspondance approximative ou partielle), puis renvoie le nom, l’ID, l’adresse électronique, le titre et l’URL de l’avatar. | Lire |
+| Rechercher une équipe par nom | `approvals_find_team_by_name` | Obsolète. Utiliser `insights_find_id_by_name` à la place. Cet outil a recherché l’identifiant d’une équipe Workfront par nom (correspondance approximative ou partielle). | Lire |
+| Rechercher des projets | `approvals_find_projects` | Obsolète. Utiliser `insights_find_workfront_data` à la place. Cet outil a recherché des projets Workfront, éventuellement filtrés par nom et/ou limités aux projets détenus par l’utilisateur appelant. | Lire |
 
 ## Outils de planification
 
@@ -296,12 +296,12 @@ Le déplacement redéfinit un élément de travail en place. L’objet conserve 
 >La définition d’un champ Projet dans une mise à jour de champ brut ne déplace pas une tâche ou un événement. Utilisez plutôt la fonctionnalité de déplacement .
 
 * **Déplacer une tâche** : déplace la tâche vers un projet cible, et éventuellement sous une tâche parent cible.
-* **Déplacer un événement** : déplace l’événement (demande) vers un projet cible.
+* **Déplacer un événement** : déplace l’événement (requête) vers un projet cible.
 
 Exemples d’invites :
 
-* « Déplacez la tâche *Maquettes* vers le projet *Reconception de l’application mobile*. »
-* « Déplacez cette requête sous le projet *Lancement du 4e trimestre*. »
+* « Déplacez la tâche *Wireframes* vers le projet *Reconception de l’application mobile*. »
+* « Déplacez cette requête sous le projet *Lancement 4T4*. »
 
 #### Convertir un événement ou une tâche en projet
 
@@ -309,33 +309,33 @@ Exemples d’invites :
 >
 >La conversion génère un nouvel objet . L’élément source est consommé dans le processus.
 
-* **Convertir une tâche en projet** : permet de créer un projet à partir de la tâche. Vous pouvez éventuellement copier les données personnalisées de la tâche et baser le nouveau projet sur un modèle de projet.
-* **Convertir un événement (demande) en projet** : crée un projet à partir de l’événement. Vous avez la possibilité de copier les données personnalisées du problème, de copier ses valeurs de champ natives et d’appliquer un modèle de projet.
-* **Convertir un événement (demande) en tâche** : crée une tâche sur un projet existant à partir de l’événement.
+* **Convertir une tâche en projet** : crée un projet à partir de la tâche. Vous pouvez éventuellement copier les données personnalisées de la tâche et baser le nouveau projet sur un modèle de projet.
+* **Convertir un événement (demande) en projet** : crée un projet à partir de l&#39;événement. Vous avez la possibilité de copier les données personnalisées du problème, de copier ses valeurs de champ natives et d’appliquer un modèle de projet.
+* **Convertir un événement (demande) en tâche** : crée une tâche sur un projet existant à partir de l&#39;événement.
 
 Chaque conversion renvoie l’objet nouvellement créé, ainsi qu’un lien afin que vous puissiez l’ouvrir directement dans Workfront.
 
 Exemples d’invites :
 
-* « Convertissez la tâche *Actualisation du site web* en un projet appelé *Actualisation du site web 2026* à l’aide de notre modèle standard. »
+* « Convertissez la tâche *Actualisation du site Web* en un projet appelé *Actualisation du site Web 2026* à l’aide de notre modèle standard. »
 * « Transformer cette demande en projet et copier ses champs personnalisés. »
 
 #### Définir les tâches antérieures (dépendances)
 
 Vous pouvez définir les prédécesseurs d&#39;une tâche. Les prédécesseurs prennent en charge les types de dépendance suivants, ainsi qu’un délai facultatif :
 
-* **Fin-Début (FS)** : la tâche commence lorsque sa tâche antérieure se termine. (Par Défaut)
-* **Démarrer-Démarrer (SS)** : la tâche démarre au démarrage de la tâche précédente.
+* **Terminer-Démarrer (FS)** : la tâche commence lorsque sa tâche antérieure se termine. (Par Défaut)
+* **Démarrer-Démarrer (SS)** : la tâche commence au démarrage de sa tâche antérieure.
 * **Terminer-Terminer (FF)** : la tâche se termine lorsque sa tâche antérieure se termine.
-* **Début-Fin (SF)** : la tâche se termine au début de sa tâche précédente.
+* **Début-Fin (SF)** : la tâche se termine lorsque sa tâche précédente démarre.
 
 Vous pouvez ajouter un retard (un retard) ou une avance (un retard négatif) dans les jours ouvrés, enchaîner plusieurs prédécesseurs sur une seule tâche et référencer une tâche dans un autre projet.
 
 Exemples d’invites :
 
-* « Faites en sorte que le *développement* commence une fois le *conception* terminé. »
-* « Définissez *QA* pour qu’il commence au moment du lancement de *Development*, avec un décalage de deux jours. »
-* « Ajoutez des #3 de tâches et des #5 de tâches en tant que prédécesseurs de *Launch*. »
+* « Démarrer le *développement* une fois la *conception* terminée. »
+* « Définir *QA* pour qu’il démarre au moment du *démarrage du développement*, avec un décalage de deux jours. »
+* « Ajoutez des #3 de tâche et des #5 de tâche en tant que prédécesseurs de *Launch*. »
 
 ### Commentaires
 
@@ -377,34 +377,52 @@ Les outils Insights récupèrent des informations sur les objets Workfront.
 
 Configuration requise pour le produit : processus Workfront ou planification Workfront.
 
-<span class="preview">Les outils de retour d’informations vous permettent de signaler votre expérience avec le serveur MCP Workfront directement à partir de votre plateforme IA agentic.</span>
+<span class="preview">Les outils de retour d&#39;informations vous permettent de rapporter votre expérience avec le serveur MCP Workfront directement depuis votre plateforme IA agentic.</span>
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
-| <span class="preview">Partager vos commentaires</span> | <span class="preview">`share_feedback`</span> | <span class="preview"> Enregistre le sentiment signalé et ce qui s’est passé au cours de la conversation, afin que les outils de MCP de Workfront puissent être améliorés. Utilisé uniquement lorsque vous demandez explicitement à partager des commentaires (par exemple, « partager des commentaires » ou « signaler un bogue »).</span> | <span class="preview">Write</span> |
+| <span class="preview">Partager vos commentaires</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Enregistre le sentiment signalé et ce qui s’est passé au cours de la conversation, afin d’améliorer les outils de MCP de Workfront. Uniquement utilisé lorsque vous demandez explicitement à partager des commentaires (par exemple, « partager des commentaires » ou « signaler un bogue »).</span> | <span class="preview">Write</span> |
 
 ## Outils de reporting
 
 Configuration requise du produit : tous les clients
 
-Les outils de création de rapports vous permettent de créer et de gérer des tableaux de bord de zone de travail par chat. Décrivez le rapport de votre choix en langage clair, et la plateforme agentic d’IA créera pour vous le tableau de bord et les widgets à l’aide de vos données Workfront.
+### Panneaux
+
+| Titre | Nom de l’outil | Fonctionnement | Action |
+| --- | --- | --- | --- |
+| Obtenir le panorama | `boards_get_board` | Récupère les données du panorama à différents niveaux de détail. | Lire |
+| Obtenir la carte | `boards_get_card` | Récupère une seule carte par ID de panorama et ID de carte. | Lire |
+| Créer une carte | `boards_create_card` | Crée une nouvelle carte sur un panorama dans une colonne donnée. | Write |
+| Mettre à jour la carte | `boards_update_card` | Met à jour une carte, y compris les champs scalaires, les déplacements, l’état d’archivage, les balises, les membres ou sa déconnexion de Workfront. | Write |
+| Carte Connect | `boards_connect_card` | Crée une tâche ou un événement Workfront et l’associe à une carte. | Write |
+| Créer une balise de panorama | `boards_create_board_tag` | Crée une balise dans le catalogue de balises d’un panorama. | Write |
+| Créer un élément de la liste de contrôle | `boards_create_checklist_item` | Ajoute un élément de liste de contrôle ou une sous-tâche à une carte. | Write |
+| Mettre à jour l’élément de la liste de contrôle | `boards_update_checklist_item` | Met à jour le nom, la description, la date d’échéance, le statut ou l’estimation d’un élément de la liste de contrôle. | Write |
+| Supprimer l’élément de la liste de contrôle | `boards_delete_checklist_item` | Supprime un élément de la liste de contrôle de sa carte parent. | Write |
+| Créer une colonne | `boards_create_column` | Ajoute une nouvelle colonne simple à un panorama. | Write |
+| Mettre à jour la colonne | `boards_update_column` | Renomme une colonne du panorama. | Write |
+| Supprimer la colonne | `boards_delete_column` | Supprime une colonne du panorama, en déplaçant les cartes en premier si nécessaire. | Write |
+| Créer un panorama | `boards_create_board` | Crée un nouveau panorama de base, éventuellement dans un espace de travail. | Write |
 
 
 ### Tableaux de bord de la zone de travail
+
+Les outils des tableaux de bord de la zone de travail vous permettent de créer et de gérer des tableaux de bord de la zone de travail par chat. Décrivez le rapport de votre choix en langage clair, et la plateforme agentic d’IA créera pour vous le tableau de bord et les widgets à l’aide de vos données Workfront.
 
 | Titre | Nom de l’outil | Fonctionnement | Action |
 | --- | --- | --- | --- |
 | Liste des tableaux de bord | `reporting_relist_dashboards` | Répertorie les tableaux de bord de création de rapports visibles. Prend en charge les valeurs `view` `"my"`, `"shared"`, `"all"` et `"favorites"`. Renvoie uniquement les métadonnées du tableau de bord, y compris une URL pour ouvrir chaque tableau de bord. | Lire |
 | Obtenir le tableau de bord | `reporting_get_dashboard` | Récupère un tableau de bord de la zone de travail par identifiant, y compris les métadonnées, la disposition, les invites, le filtre et les identifiants de widget. Les données du widget ne sont pas hydratées. | Lire |
-| Obtenir le widget | `reporting_get_widget` | Récupère un shell de widget et sa configuration de contenu aplati. Les références aux champs sont renvoyées sous forme de `{id, label, dataType}` afin qu’elles puissent être réutilisées directement dans les outils de `reporting_update_*_widget`. Les types de contenu pris en charge sont Tableau, KPI et MultiSeries. | Lire |
+| Obtenir le widget | `reporting_get_widget` | Récupère un shell de widget et sa configuration de contenu aplati. Les références aux champs sont renvoyées sous la forme `{id, label, dataType}` afin qu’elles puissent être réutilisées directement dans les outils `reporting_update_*_widget`. Les types de contenu pris en charge sont Tableau, KPI et MultiSeries. | Lire |
 | Créer un tableau de bord | `reporting_create_dashboard` | Crée un tableau de bord de création de rapports vide. Renvoie le tableau de bord créé complet, y compris son identifiant, son titre, sa description, sa devise, son identifiant de créateur, sa date de création et ses collections de widgets, d’invites et de filtres vides. | Write |
-| Update Dashboard | `reporting_update_dashboard` | Met partiellement à jour le titre, la description, la devise, l’invite, le filtre et les paramètres de mise en `ignoreDashboardFilters` et de disposition d’un tableau de bord par widget. Les champs omis restent inchangés et les invites et les filtres sont entièrement remplacés lorsqu&#39;ils sont fournis. | Write |
-| Créer un widget de tableau | `reporting_create_table_widget` | Crée un widget Tableau et sa configuration de rapport sur un tableau de bord. Renvoie le widget créé complet dans la forme `get_widget` aplatie. | Write |
+| Update Dashboard | `reporting_update_dashboard` | Met partiellement à jour le titre, la description, la devise, l’invite, le filtre et les paramètres de mise en page d’un tableau de bord `ignoreDashboardFilters`. Les champs omis restent inchangés et les invites et les filtres sont entièrement remplacés lorsqu&#39;ils sont fournis. | Write |
+| Créer un widget de tableau | `reporting_create_table_widget` | Crée un widget Tableau et sa configuration de rapport sur un tableau de bord. Renvoie le widget créé complet dans la forme aplatie `get_widget`. | Write |
 | Widget de mise à jour de tableau | `reporting_update_table_widget` | Met à jour un widget Tableau existant et sa configuration de rapport. Remplace la configuration du tableau stocké, y compris les colonnes, les intervalles, la limite des lignes, la légende, la description, la condition et les paramètres d&#39;exécution en tant qu&#39;utilisateur. | Write |
-| Créer un widget de KPI | `reporting_create_kpi_widget` | Crée un widget d’indicateur de performance clé et sa configuration de rapport sur un tableau de bord. Renvoie le widget créé complet dans la forme `get_widget` aplatie. | Write |
-| Mettre à jour le widget de KPI | `reporting_update_kpi_widget` | Met à jour un widget de KPI existant et sa configuration de rapport. `fieldId` et `aggregation` sont nécessaires, et le rapport sous-jacent est entièrement remplacé. | Write |
+| Créer un widget de KPI | `reporting_create_kpi_widget` | Crée un widget d’indicateur de performance clé et sa configuration de rapport sur un tableau de bord. Renvoie le widget créé complet dans la forme aplatie `get_widget`. | Write |
+| Mettre à jour le widget de KPI | `reporting_update_kpi_widget` | Met à jour un widget de KPI existant et sa configuration de rapport. `fieldId` et `aggregation` sont requis, et le rapport sous-jacent est entièrement remplacé. | Write |
 | Créer un widget de graphique | `reporting_create_chart_widget` | Crée un widget de graphique et sa configuration de rapport. Les types de graphiques pris en charge sont les types BAR, COLUMN, LINE et PIE, y compris les variantes SIMPLE, MULTI_SERIES et STACKED là où elles sont prises en charge. | Write |
-| Mettre à jour le widget de graphique | `reporting_update_chart_widget` | Met à jour un widget de graphique existant et sa configuration de rapport. `aggregationFieldId`, `aggregationType`, `groupByFields` et `chartType` sont nécessaires et le rapport sous-jacent est entièrement remplacé. | Write |
+| Mettre à jour le widget de graphique | `reporting_update_chart_widget` | Met à jour un widget de graphique existant et sa configuration de rapport. `aggregationFieldId`, `aggregationType`, `groupByFields` et `chartType` sont requis, et le rapport sous-jacent est entièrement remplacé. | Write |
 | Copier le widget | `reporting_copy_widget` | Copie un widget existant dans le même tableau de bord ou dans un autre tableau de bord, dupliquant le widget et sa configuration de rapport. | Write |
 | Copier le tableau de bord | `reporting_copy_dashboard` | Copie un tableau de bord dans un nouveau tableau de bord, y compris ses widgets et ses configurations de rapport. Vous pouvez éventuellement copier uniquement un sous-ensemble de widgets et choisir d’inclure ou non l’invite et le filtre. | Write |
 | Supprimer l&#39;objet | `reporting_delete_object` | Supprime de manière permanente un tableau de bord de création de rapports et tous ses widgets, ou un seul widget. Cette action ne peut pas être annulée. | Write |
@@ -424,8 +442,3 @@ Le serveur Workfront MCP effectue le suivi des intentions des utilisateurs pour 
 Les utilisateurs peuvent désactiver la collecte de données télémétriques en contactant le service clientèle pour déposer une demande.
 
 
-## Outils supplémentaires bientôt disponibles
-
-Nous nous efforçons d’ajouter les outils suivants au serveur MCP Workfront à l’avenir :
-
-* Panneaux

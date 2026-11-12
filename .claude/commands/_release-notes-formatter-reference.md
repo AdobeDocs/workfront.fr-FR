@@ -1,9 +1,8 @@
 ---
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
 # Modèles de référence des notes de mise à jour
 
@@ -98,6 +97,13 @@ The enhancements on this page are available in the Preview environment. This pag
 >Note that for the final release of each quarter ({VV}.{M} this quarter), users on the fast release schedule will receive the release one day early ({Month Day, Year}).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Features that do not follow this schedule display one of the following badges:
+>
+>* [!BADGE Concurrent release]{type=Neutral}
+>   These features are released concurrently to Preview and Production environments due to technical situations, such as the release schedules of other Adobe products that are part of the feature.
+>* [!BADGE Off schedule]{type=Neutral}
+>   These features are released outside of the standard Workfront release schedule.
 
 ## Adobe Workfront enhancements
 
@@ -141,12 +147,12 @@ Chaque section de zone produit H3 contient un tableau HTML. Utilisez cette struc
 
 #### Règles de table
 
-- Cellule caractéristique : balise `<a>` avec `class="MCXref xref" xrefformat="{para}"` suivie d’`<p>` description
-- Le `href` renvoie vers la page de la zone produit (et non vers une ancre spécifique).
-- Cellules de date : enveloppées dans des balises `<p>`
-- Pour les éléments hors planification, ajoutez `<p>[!BADGE Off schedule]{type=Neutral}</p>` après le lien
-- Une `<p></p>` vide après que le lien est acceptable lorsqu’aucun badge n’est nécessaire
-- Veiller à ce que la mise en retrait d’HTML reste cohérente avec les fichiers existants
+- Cellule de fonctionnalité : balise `<a>` avec description `class="MCXref xref" xrefformat="{para}"` suivie de `<p>`
+- Les liens `href` vers la page de la zone produit (ancre non spécifique)
+- Cellules de date : enveloppées dans `<p>` balises
+- Pour les éléments hors planification, ajoutez `<p>[!BADGE Off schedule]{type=Neutral}</p>` comme paragraphe distinct directement sous le paragraphe du lien, avant le paragraphe de description
+- Pour les éléments publiés simultanément en aperçu et en production, ajoutez `<p>[!BADGE Concurrent release]{type=Neutral}</p>` à la même position
+- Vide `<p></p>` après que le lien est acceptable lorsqu’aucun badge n’est nécessaire - Conservez la cohérence de l’indentation HTML avec les fichiers existants
 
 ### Présentation des dernières sections
 
@@ -253,9 +259,9 @@ Description of the look-and-feel change.
 
 ## Incohérences connues à surveiller
 
-1. **Mauvais lien d’aperçu pour le trimestre** — Les pages de la zone produit renvoient parfois à l’aperçu du trimestre précédent (par exemple, `26-q1` au lieu de `26-q2`).
-2. **Les dates de prévisualisation n’indiquent pas la bonne année** — Les tableaux de présentation affichent parfois l’année précédente dans la colonne de prévisualisation (par exemple, « 2025 » au lieu de « 2026 »)
+1. **Mauvais lien d&#39;aperçu** — Les pages de la zone produit renvoient parfois à l&#39;aperçu du trimestre précédent (par exemple, `26-q1` au lieu de `26-q2`)
+2. **Aperçu des dates indiquant une année incorrecte** — Les tableaux d’aperçu affichent parfois l’année précédente dans la colonne Aperçu (par exemple, « 2025 » au lieu de « 2026 »)
 3. **Balises de fermeture `</tr>` manquantes** — Certaines lignes du tableau HTML ne comportent pas de balises de fermeture appropriées
-4. **`content-type: release-notes`** : présent dans les fichiers plus anciens, omis dans les nouvelles pages de la zone produit 26-q2. Suivez le modèle du trimestre en cours.
-5. **Frappe dans le modèle** — Le modèle d&#39;apparence a `relesae` au lieu de `release` ; utilisez toujours l&#39;orthographe correcte
-6. **Lien `<p></p>` après la fonctionnalité manquant** — Certaines lignes du tableau d’aperçu omettent la balise `<p>` vide après la balise `<a>`
+4. **`content-type: release-notes`** - Présent dans les fichiers plus anciens, omis dans les nouvelles pages de la zone produit 26-q2. Suivez le modèle du trimestre en cours.
+5. **Frappe dans le modèle** — Le modèle d&#39;apparence comporte `relesae` au lieu de `release` ; utilisez toujours l&#39;orthographe correcte
+6. **`<p></p>` manquant après le lien de la fonctionnalité** — Certaines lignes du tableau d’aperçu omettent la balise `<p>` vide après la balise `<a>`

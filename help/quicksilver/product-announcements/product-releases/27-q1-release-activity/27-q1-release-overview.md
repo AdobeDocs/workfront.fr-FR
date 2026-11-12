@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 17%
+source-wordcount: '1537'
+ht-degree: 13%
 ---
 
 # Présentation de la version du premier trimestre 2027
@@ -27,13 +27,19 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
 >| <ul><li>2026.11 (12 novembre 2026)</li><li>2026.12 (17 décembre 2026)</li><li>2027.01 (21 janvier 2027)</li></ul> | <ul><li>2027.01 (21 janvier 2027)</li></ul> |
 >
 >Pour plus d’informations sur le processus de publication rapide, voir la section [Activer ou désactiver le processus de publication rapide](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>
+>Les fonctions qui ne respectent pas cette planification affichent l’un des badges suivants :
+>
+>* [!BADGE Version simultanée]{type=Neutral}
+>   Ces fonctionnalités sont publiées simultanément dans les environnements de prévisualisation et de production en raison de situations techniques, telles que les plannings de publication d’autres produits Adobe qui font partie de la fonctionnalité.
+>* [!BADGE Horaire de désactivation]{type=Neutral}
+>   Ces fonctionnalités sont publiées en dehors du planning de publication standard de Workfront.
 
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
 * [Améliorations de l’IA](#ai-enhancements)
 * [Améliorations des documents](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [Améliorations apportées aux projets](#project-enhancements)
 * [Autres améliorations](#other-enhancements)
 
@@ -50,6 +56,16 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Promotion de l’environnement disponible pour Workfront Planning</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Les administrateurs Workfront peuvent désormais promouvoir les espaces de travail Workfront Planning et leurs objets d’un environnement à un autre.</p>
+            </td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">Autorisations pour supprimer un formulaire personnalisé joint</a></p>
                 <p>Lors du partage d’un formulaire personnalisé, vous pouvez désormais définir des autorisations pour les utilisateurs disposant d’un accès de niveau Gérer afin de supprimer le formulaire des objets auxquels il est joint.</p>
             </td>
@@ -63,7 +79,7 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
                 <p>Vous pouvez désormais marquer un champ personnalisé en tant que favori afin qu’il apparaisse en haut des champs disponibles lorsque vous créez des filtres, des vues et des regroupements, ainsi que dans la bibliothèque de champs du concepteur de formulaires.</p>
             </td>
             <td><p>29 Octobre 2026</p></td>
-            <td><p>12 Novembre 2026</p></td>
+            <td><p>17 Décembre 2026</p></td>
             <td><p>21 janvier 2027</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">L’historique des modifications effectue désormais le suivi des objets du tableau de bord Zone de travail</a></p>
-                <p>L’Historique des modifications enregistre désormais les personnes qui ont créé, mis à jour ou supprimé un tableau de bord ou un rapport de zone de travail, ainsi que la date et le contenu des modifications.</p>
                 <p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>L’Historique des modifications enregistre désormais les personnes qui ont créé, mis à jour ou supprimé un tableau de bord ou un rapport de zone de travail, ainsi que la date et le contenu des modifications.</p>
             </td>
             <td><p>29 Octobre 2026</p></td>
             <td><p>29 Octobre 2026</p></td>
@@ -216,9 +232,18 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Résoudre les threads de commentaire</a></p>
+                <p>Vous pouvez désormais résoudre un thread de commentaire pour le masquer du flux de commentaires pour tous les observateurs et l’annuler ultérieurement pour le rétablir.</p>
+            </td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>17 Décembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">Conseils sur le statut indisponible</a></p>
-                <p>Lorsqu’un événement, une tâche ou un statut de projet enregistré n’est pas disponible, un avertissement en explique désormais la raison et affiche le code de statut enregistré.</p>
                 <p>[!BADGE Hors planning]{type=Neutral}</p>
+                <p>Lorsqu’un événement, une tâche ou un statut de projet enregistré n’est pas disponible, un avertissement en explique désormais la raison et affiche le code de statut enregistré.</p>
             </td>
             <td><p>4 novembre 2026</p></td>
             <td><p>4 novembre 2026</p></td>
@@ -320,7 +345,7 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
 ## Notes de mise à jour pour d’autres zones
 
 * [Activité de version d’Adobe Workfront Fusion](https://experienceleague.adobe.com/fr/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Activité de publication d’Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+* [Activité de la version Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 Les éléments suivants n’ont pas été modifiés à ce stade de la publication :
 
@@ -329,6 +354,18 @@ Les éléments suivants n’ont pas été modifiés à ce stade de la publicatio
 * Objectifs
 
 ## Mises à jour de la visionneuse de relecture de bureau
+
+### Version 2.4.0
+
+>[!NOTE]
+>
+>Version de production pour tous les clients : 11 novembre 2026
+
+Le lecteur de vérification pour bureau a été mis à jour de la version 2.3.0 à la version 2.4.0. Cette mise à jour inclut des mises à jour d’outils internes et n’a aucune incidence sur les fonctionnalités de l’utilisateur final.
+
+Cette mise à jour concerne Mac et Windows.
+
+Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ### Version 2.3.0
 
@@ -343,17 +380,47 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour plus d’informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, voir [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
+
+### Espace d’idéation pour Workfront Planning désormais disponible dans Open Beta
+
+>[!NOTE]
+>
+>Aperçu : 12 novembre 2026
+>Version rapide de production : 12 novembre 2026
+>Production pour tous : 12 novembre 2026
+>[!BADGE Version simultanée]{type=Neutral}
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible en tant que programme Beta ouvert. L’espace d’idéation est disponible uniquement pour les clients qui ont acheté un package Workfront Planning en plus d’un package Workflow. Il n’est pas disponible pour les clients qui ont acheté Workfront Planning en tant que produit autonome.
+
+La planification Workfront comprend désormais l’espace d’idéation, un espace collaboratif où les équipes peuvent capturer, organiser, affiner et évaluer les idées avant de les transformer en travail exploitable. L’espace d’idéation permet aux parties prenantes de centraliser le brainstorming, d’aligner les priorités et de déplacer facilement les concepts approuvés dans les workflows de planification.
+
+Le CX Enterprise Coworker vous permet désormais de créer des briefings d’idéation que vous pouvez exporter dans des fichiers ou dans des enregistrements Workfront Planning.
+
+Grâce à l’espace Idéation , vous pouvez :
+
+* Saisissez des idées et collaborez avec vos équipes et vos parties prenantes.
+* Organisez, évaluez et hiérarchisez les idées avec une visibilité sur le processus de réception.
+* Transformer les idées approuvées en enregistrements et en workflows de planification.
+
+Pour plus d&#39;informations, consultez [Prise en main de l&#39;Espace d&#39;idéation pour Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ### Obsolescence des champs de taux de facturation et de coût hérités dans les vues de liste de fonctions
 
 Au fil du temps, nous avons mis en place des fonctionnalités améliorées de gestion des taux et des expériences dédiées aux fonctions qui offrent une approche plus complète et évolutive de la gestion des informations sur les taux. Par conséquent, l’administration des taux se dirige vers ces expériences dédiées plutôt que vers des workflows de gestion basés sur des listes.
 
-Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ou dans les vues de liste des fonctions, y compris les configurations de filtrage/affichage/regroupement (références directes et colonnes calculées du mode texte).
+Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ou dans les vues de liste des fonctions, y compris les configurations de filtre/affichage/regroupement (références directes et colonnes calculées du mode texte).
 
-En remplacement dans les rapports , vous pouvez utiliser le code de mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
+Bien que ces champs soient toujours disponibles jusqu’en janvier, ils peuvent ne pas fonctionner correctement. Les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows afin d’utiliser les expériences de gestion de taux recommandées pour gérer et réviser les taux de fonctions :
+
+* Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
+* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
+
+À titre de remplacement dans les rapports, vous pouvez utiliser le code du mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
 
     «
     displayname=Test
@@ -362,16 +429,9 @@ En remplacement dans les rapports , vous pouvez utiliser le code de mode texte r
     type=iterate
     valueexpression=CONCAT({startDate}, » -  »,{endDate}, »:  »,{value})
     valueformat=HTML
-    « 
+    «
 
-Pour gérer et examiner les taux de fonctions, utilisez les expériences de gestion des taux dédiées :
-
-* Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
-* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
-
-Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows pour utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
-
-Pour plus d’informations sur les taux de fonctions, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Pour plus d&#39;informations sur les taux de fonctions, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 

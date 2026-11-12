@@ -18,16 +18,62 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
+source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 3%
+source-wordcount: '1614'
+ht-degree: 2%
 ---
 # Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning
 
 Cet article décrit les fonctionnalités publiées pour Workfront Planning dans la version du premier trimestre 2027.
 
-Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, consultez [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Promotion de l’environnement disponible pour Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 12 novembre 2026
+>Version rapide de production : 12 novembre 2026
+>Production pour tous : 12 novembre 2026
+>[!BADGE Version simultanée]{type=Neutral}
+
+>[!NOTE]
+>
+>La promotion de l’environnement pour Workfront Planning est disponible uniquement pour les clients qui ont acheté un package Workfront Planning en plus d’un package Workflow. Il n’est pas disponible pour les clients qui ont acheté Workfront Planning en tant que produit autonome.
+
+Les administrateurs Workfront peuvent désormais promouvoir les espaces de travail Workfront Planning et leurs objets d’un environnement à un autre. Vous n’avez donc plus besoin de recréer les configurations manuellement. Cela permet de gagner du temps et de réduire les erreurs qui accompagnent la configuration manuelle.
+
+Les enregistrements, les automatisations et les champs qui n’appartiennent pas aux espaces de travail exportés ne peuvent pas être promus.
+
+Cette fonctionnalité nécessite des packages Prime ou Ultimate Workflow and Planning, une licence Standard et un accès administrateur Workfront.
+
+Pour plus d&#39;informations, consultez [Utilisation de la promotion d&#39;environnement pour Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
+
+## Espace d’idéation pour Workfront Planning désormais disponible dans Open Beta
+
+>[!NOTE]
+>
+>Aperçu : 12 novembre 2026
+>Version rapide de production : 12 novembre 2026
+>Production pour tous : 12 novembre 2026
+>[!BADGE Version simultanée]{type=Neutral}
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible en tant que programme Beta ouvert. L’espace d’idéation est disponible uniquement pour les clients qui ont acheté un package Workfront Planning en plus d’un package Workflow. Il n’est pas disponible pour les clients qui ont acheté Workfront Planning en tant que produit autonome.
+
+La planification Workfront comprend désormais l’espace d’idéation, un espace collaboratif où les équipes peuvent capturer, organiser, affiner et évaluer les idées avant de les transformer en travail exploitable. L’espace d’idéation permet aux parties prenantes de centraliser le brainstorming, d’aligner les priorités et de déplacer facilement les concepts approuvés dans les workflows de planification.
+
+Le CX Enterprise Coworker vous permet désormais de créer des briefings d’idéation que vous pouvez exporter dans des fichiers ou dans des enregistrements Workfront Planning.
+
+Grâce à l’espace Idéation , vous pouvez :
+
+* Saisissez des idées et collaborez avec vos équipes et vos parties prenantes.
+* Organisez, évaluez et hiérarchisez les idées avec une visibilité sur le processus de réception.
+* Transformer les idées approuvées en enregistrements et en workflows de planification.
+
+Pour plus d&#39;informations, consultez [Prise en main de l&#39;Espace d&#39;idéation pour Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
 ## Amélioration de la détection des conflits dans les champs dépendants lors de l’envoi de requêtes
 
@@ -83,7 +129,7 @@ Chaque type d’enregistrement secondaire affiche uniquement ses propres enregis
 
 Avant cette amélioration, si la connectivité entre espaces de travail était désactivée pour les types d’enregistrements globaux connectés, les espaces de travail secondaires ne pouvaient pas lier leurs propres enregistrements les uns aux autres. Si elle était activée, les utilisateurs pouvaient afficher et lier des enregistrements de l’espace de travail global et de tous les autres espaces de travail secondaires.
 
-Pour plus d’informations, voir [&#x200B; Présentation du type d’enregistrement de l’espace de travail croisé &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Afficher le nombre total d’enregistrements dans les vues Tableau, Chronologie et Liste
 
@@ -163,7 +209,7 @@ Nous introduisons des limites sur le nombre de champs de recherche que vous pouv
 
 Vous recevez une erreur lorsque vous essayez de créer ou de modifier un champ de recherche au-delà des deux premières limites. Les types d’enregistrements qui dépassent déjà ces limites ne sont pas affectés par cette modification. Vous pouvez les modifier, mais vous ne pouvez pas ajouter d’autres champs ou valeurs de recherche tant que vous n’êtes pas sous la limite.
 
-Pour plus d&#39;informations, voir Présentation des limites d&#39;objet d&#39;Adobe Workfront Planning [&#128279;](/help/quicksilver/planning/general/limitations-overview.md).
+Pour plus d’informations, voir [Présentation des limitations d’objet Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
 
 ## Les nouveaux champs n’apparaissent désormais que dans l’affichage où vous les créez
 
@@ -191,7 +237,7 @@ Vous pouvez désormais exporter les détails d’un enregistrement depuis n’im
 
 Auparavant, l’option d’exportation n’était disponible que lorsque la vue Tous les champs était sélectionnée.
 
-Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+Pour plus d&#39;informations, voir [Exporter les détails d&#39;un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 <!--
 
@@ -276,7 +322,7 @@ Les responsables Workspace peuvent désormais configurer des règles métier sur
 
 Les règles métier ajoutées dans les espaces de travail globaux s’affichent en lecture seule dans les espaces de travail secondaires où les types d’enregistrements ont été importés. Les règles métier ajoutées dans les espaces de travail secondaires s’affichent en lecture seule dans les espaces de travail principaux où les types d’enregistrements ont été créés à l’origine. Les règles ne sont modifiables que dans les espaces de travail où elles sont créées.
 
-Pour plus d’informations, voir [Configurer des règles métier de type enregistrement](/help/quicksilver/planning/architecture/configure-business-rules.md).
+Pour plus d&#39;informations, voir [Configurer des règles métier de type enregistrement](/help/quicksilver/planning/architecture/configure-business-rules.md).
 
 ## Configurer les paramètres d&#39;invite par défaut pour la fonctionnalité Remplir le formulaire dans les demandes Planning
 
@@ -290,4 +336,4 @@ Vous pouvez désormais personnaliser l’invite que les utilisateurs voient lors
 
 Vous pouvez créer une invite par défaut lors de la création d&#39;un formulaire de demande pour les demandes Planning.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d&#39;informations, voir [Création et gestion d&#39;un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
