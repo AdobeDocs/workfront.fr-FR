@@ -122,7 +122,7 @@ Les sections suivantes contiennent des articles qui décrivent en détail les fo
 
 * [Utiliser le serveur MCP Workfront pour les objets Planning](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md) : le serveur MCP Adobe Workfront vous permet de rechercher, de créer, de mettre à jour et de gérer des éléments Workfront en demandant à une plateforme IA agentic en langage naturel. La plateforme décide des actions Workfront à appeler et gère la conversation avec Workfront pour vous.
 
-* [Configurer les automatisations de la planification Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans la planification Adobe Workfront qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans la planification Workfront lorsqu’ils sont déclenchés à partir d’un enregistrement de la planification.
+* [Configurer les automatisations de la planification Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) : vous pouvez configurer des automatisations dans la planification Adobe Workfront qui, lorsqu’elles sont activées, créent des objets dans Workfront ou des enregistrements dans la planification Workfront lorsqu’ils sont déclenchés à partir d’un enregistrement de la planification.
 
 * [Intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing : index d’article](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md) : vous pouvez gérer les enregistrements de GenStudio for Performance Marketing dans l’espace de travail GenStudio de Workfront Planning.
 
