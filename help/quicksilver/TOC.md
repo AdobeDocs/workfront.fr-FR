@@ -2693,7 +2693,7 @@ ht-degree: 90%
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
-    * [Nouveautés de la version 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de l’API
+    * [Nouveautés de la version 22 de l’API](/help/quicksilver/wf-api/api/new-api-version-22.md)
     * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Nouveautés de l’API version 19](wf-api/api/new-api-version-19.md)
