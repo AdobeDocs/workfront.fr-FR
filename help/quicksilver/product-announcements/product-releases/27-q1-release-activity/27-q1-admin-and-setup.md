@@ -4,17 +4,38 @@ description: Améliorations apportées à l’administrateur du premier trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 5%
+source-wordcount: '554'
+ht-degree: 4%
 ---
 
 # Améliorations apportées à l’administrateur du premier trimestre 2027
 
 Cette page décrit les améliorations apportées par l’administrateur à l’environnement de Prévisualisation avec la version du premier trimestre 2027. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2027, voir [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2027, consultez [Aperçu de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Promotion de l’environnement disponible pour Workfront Planning
+
+>[!NOTE]
+>
+>Aperçu : 12 novembre 2026
+>Version rapide de production : 12 novembre 2026
+>Production pour tous : 12 novembre 2026
+>[!BADGE Version simultanée]{type=Neutral}
+
+>[!NOTE]
+>
+>La promotion de l’environnement pour Workfront Planning est disponible uniquement pour les clients qui ont acheté un package Workfront Planning en plus d’un package Workflow. Il n’est pas disponible pour les clients qui ont acheté Workfront Planning en tant que produit autonome.
+
+Les administrateurs Workfront peuvent désormais promouvoir les espaces de travail Workfront Planning et leurs objets d’un environnement à un autre. Vous n’avez donc plus besoin de recréer les configurations manuellement. Cela permet de gagner du temps et de réduire les erreurs qui accompagnent la configuration manuelle.
+
+Les enregistrements, les automatisations et les champs qui n’appartiennent pas aux espaces de travail exportés ne peuvent pas être promus.
+
+Cette fonctionnalité nécessite des packages Prime ou Ultimate Workflow and Planning, une licence Standard et un accès administrateur Workfront.
+
+Pour plus d&#39;informations, consultez [Utilisation de la promotion d&#39;environnement pour Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Autorisations pour supprimer un formulaire personnalisé joint
 
@@ -33,14 +54,14 @@ Pour plus d’informations, voir [Partager un formulaire personnalisé](/help/qu
 >[!NOTE]
 >
 >Aperçu : 29 octobre 2026
->Version rapide de production : 12 novembre 2026
+>Version rapide de production : 17 décembre 2026
 >Production pour tous : 21 janvier 2027
 
 Vous pouvez désormais marquer un champ personnalisé comme favori, soit dans la liste de champs, soit dans le concepteur de formulaires personnalisés. Lorsque vous travaillez dans certaines listes et certains rapports (listes de projets, de tâches et de problèmes, par exemple) et que vous créez des filtres, des vues et des regroupements, les champs favoris apparaissent en haut de la liste des champs disponibles dans la section Suggestions .
 
 Les champs marqués comme favoris apparaissent également en haut de la bibliothèque de champs dans le concepteur de formulaire.
 
-Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d&#39;informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Valeurs vérifiées sur les champs personnalisés lors de la modification du format
 
@@ -54,7 +75,7 @@ Le système recherche désormais les valeurs incompatibles lorsque vous modifiez
 
 Si les valeurs existantes du champ sont toutes numériques, le système met simplement à jour le format du champ. Cependant, si l’une des valeurs existantes n’est pas numérique, le système affiche un message d’avertissement indiquant que les valeurs incompatibles seront effacées lorsque vous enregistrerez le champ.
 
-Pour plus d’informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Pour plus d&#39;informations, voir [Créer un formulaire personnalisé](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## L’historique des modifications effectue désormais le suivi des objets du tableau de bord Zone de travail
 
