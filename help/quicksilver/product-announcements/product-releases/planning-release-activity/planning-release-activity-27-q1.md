@@ -141,7 +141,7 @@ Chaque type d’enregistrement secondaire affiche uniquement ses propres enregis
 
 Avant cette amélioration, si la connectivité entre espaces de travail était désactivée pour les types d’enregistrements globaux connectés, les espaces de travail secondaires ne pouvaient pas lier leurs propres enregistrements les uns aux autres. Si elle était activée, les utilisateurs pouvaient afficher et lier des enregistrements de l’espace de travail global et de tous les autres espaces de travail secondaires.
 
-Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Afficher le nombre total d’enregistrements dans les vues Tableau, Chronologie et Liste
 
