@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
-ht-degree: 67%
+source-wordcount: '3799'
+ht-degree: 62%
 ---
 # Mettre à jour le travail
 
@@ -297,7 +297,7 @@ You can add updates to the following objects:
 Cet article décrit comment mettre à jour des projets, des tâches ou des événements. La mise à jour de la plupart des autres objets est similaire.
 
 1. Recherchez l’objet auquel vous souhaitez ajouter un commentaire, puis cliquez sur son nom pour ouvrir la page de l’objet.
-1. Cliquez sur Mises à jour dans le panneau de gauche. **&#x200B;**
+1. Cliquez sur Mises à jour dans le panneau de gauche. ****
 L’onglet **Commentaires** est sélectionné par défaut.
 
 1. Commencez à saisir un commentaire dans la zone **Nouveau commentaire**.
@@ -363,7 +363,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >Les noms des deux premières entités mentionnées s’affichent en regard de leurs avatars. Si plus de deux entités sont mentionnées, seul le nom de la première et le nombre d’entités supplémentaires s’affichent.
 
 1. (Facultatif) Cliquez sur le nom d’un commentateur ou d’une commentatrice pour afficher son nom, son rôle et son adresse e-mail dans une zone d’informations. Cliquez à nouveau sur le nom du commentateur ou de la commentatrice dans la zone d’informations pour ouvrir son profil utilisateur.
-1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **&#x200B;**&#x200B;Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
+1. (Facultatif) Cliquez sur l’onglet Activité du système pour afficher les mises à jour consignées par le système. **** Lorsque l’objet ou l’un de ses enfants est mis à jour, Workfront génère une note relative à cette mise à jour et l’affiche dans l’onglet Activité du système.
 
    Pour plus d’informations, consultez [Vue d’ensemble de la section Mises à jour](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -371,7 +371,7 @@ L’onglet **Commentaires** est sélectionné par défaut.
    >
    >Vous ne pouvez pas ajouter de commentaire à une mise à jour système. Cependant, toutes les réponses apportées aux enregistrements d’activité système dans l’expérience de commentaire héritée ont été ajoutées à l’onglet Activité système en lecture seule. L’expérience de commentaire héritée a été supprimée de Workfront le 11 avril 2024.
 
-1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit **&#x200B;**. Il s’agit d’un onglet en lecture seule.
+1. (Facultatif) Cliquez sur l’onglet Tous pour afficher les commentaires d’utilisateur ou d’utilisatrice et les commentaires d’activité du système au même endroit ****. Il s’agit d’un onglet en lecture seule.
 
    >[!TIP]
    >
@@ -653,41 +653,39 @@ Pour épingler un fil de commentaires :
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## Résoudre les threads de commentaire
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+Pour gagner de l’espace et faciliter la navigation dans l’onglet Commentaires, vous pouvez résoudre les threads de commentaire qui les masquent du flux de mises à jour.
 
-Consider the following when resolving comments: 
+Tenez compte des points suivants lors de la résolution des commentaires :
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* Vous pouvez résoudre des fils de commentaires, et non des commentaires individuels. Cette fonctionnalité n’existe que pour le premier commentaire d’un thread.
+* Les commentaires qui font partie d’un thread résolu sont en lecture seule.
+* Vous ne pouvez pas modifier, supprimer, répondre à, aimer ou épingler des commentaires qui font partie d’un thread résolu.
+* Vous pouvez afficher les commentaires résolus ou les masquer.
+* Vous pouvez annuler la résolution de threads, ce qui les ramène au flux de mises à jour avec toutes les fonctionnalités.
 
-To resolve comment threads: 
+Pour résoudre les threads de commentaire :
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. Accédez à un objet qui possède un onglet **Mises à jour**, cliquez sur **Mises à jour** dans le panneau de gauche, puis cliquez sur l’onglet **Commentaires**.
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   Pour plus d&#39;informations, voir la présentation de l&#39;onglet [Mises à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. Dans le commentaire supérieur d&#39;un thread existant, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du commentaire, puis cliquez sur **Résoudre**.
 
-   ************add a screen shot***************
+   ![Menu Commenter plus avec options Épingler et Résoudre](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   La zone **Résoudre le commentaire** s&#39;ouvre pour vous rappeler que le commentaire sera masqué de la zone Mises à jour et que vous ne pouvez plus interagir avec celle-ci.
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. (Facultatif) Sélectionnez le paramètre **Ne plus afficher** si vous ne souhaitez pas que l&#39;avertissement s&#39;affiche chaque fois que vous résolvez les commentaires. Vous ne pouvez pas afficher à nouveau la zone **Résoudre le commentaire** si vous sélectionnez ce paramètre.
+1. Cliquez sur **Résoudre**.
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   Le thread est résolu et tous les commentaires du thread sont masqués dans l&#39;onglet **Mises à jour**.
+1. (Facultatif) Cliquez sur le filtre dans le coin supérieur droit de l’onglet Mises à jour, puis désactivez le paramètre **Masquer les commentaires résolus**. Les threads résolus s’affichent dans l’onglet Mises à jour . Ce paramètre affecte uniquement ce que vous affichez. D’autres utilisateurs peuvent garder les commentaires résolus masqués.
 
 </div>
--->
 
 ## Supprimer un commentaire ou une réponse
 
@@ -700,7 +698,7 @@ Aucun utilisateur ou aucune utilisatrice Workfront (y compris l’administrateur
 1. Accédez au commentaire ou à la réponse à supprimer.
 1. Cliquez sur le menu **Plus** en regard du commentaire ou de la réponse à supprimer, puis cliquez sur **Supprimer**.
 
-   ![Mettre à jour le commentaire de flux Menu Plus](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Menu Commenter plus avec options Épingler et Résoudre](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. Dans le message qui apparaît, cliquez sur **Supprimer**.
 
