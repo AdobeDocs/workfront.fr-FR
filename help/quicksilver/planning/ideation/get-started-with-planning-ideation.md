@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1442'
 ht-degree: 1%
 ---
 
@@ -83,7 +83,7 @@ Le calendrier de publication prévu de l’espace d’idéation, qui peut être 
 
 * **Disponibilité générale :** Objectif fixé au 1er février 2027.
 
-## Exigences du produit
+## Exigences d’éligibilité des produits
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -123,8 +123,11 @@ Vous pouvez accéder à l’espace d’idéation si votre entreprise et vous ave
 
     Adobe CX Enterprise Coworker doit être activé pour les deux packages
 
+* Licence Adobe Workfront :
 
+  * Administrateurs système Workflow and Planning ou utilisateurs sous licence standard
 
+Pour plus d&#39;informations, voir [Accès nécessaire pour utiliser l&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## Audience et cas d’utilisation
+## Accéder à l’espace d’idéation
 
-L’espace Idéation est conçu pour les marketeurs qui sont chargés de définir la stratégie de campagne et de produire les résumés de campagne.
+Pour accéder à l’Espace idéation :
 
-<!--
-Too much: 
+1. Vérifiez que vous répondez à la configuration requise décrite dans la section [Configuration requise](#product-requirements) de cet article.
+1. Contactez votre représentant de compte Adobe pour exprimer votre intérêt à participer au Beta fermé ou rejoignez Open Beta, lorsqu’il sera disponible.
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   Les administrateurs système ont accès à l’espace d’idéation par défaut et ne peuvent pas le supprimer lorsqu’il est disponible dans Open Beta. Il peut l’activer pour tous les autres utilisateurs dans l’un des environnements suivants :
 
-En tant que gestionnaire d&#39;espace de travail, vous pouvez utiliser l&#39;espace de création pour créer des enregistrements dans Workfront Planning en procédant comme suit :
+   * Production
+   * Aperçu
+   * Sandbox personnalisés
 
-* Créez un brief dans l’espace Idéation après l’avoir lancé depuis Planning, lorsque vous commencez à créer ou modifier des enregistrements.
-* Utilisez les invites de l&#39;IA pour rassembler les détails d&#39;autres enregistrements de votre système ou du Web et terminer la création des notes d&#39;idéation.
-* Créez des types d&#39;enregistrements Planning à partir des résumés.
-* Affinez vos résumés d&#39;idées et mettez à jour les types d&#39;enregistrements existants dans Planning.
+1. En tant qu’administrateur système, procédez comme suit :
 
-Voici des cas pratiques d’utilisation de l’espace d’idéation :
+   * Activez le paramètre Outils Coworker et MCP dans vos Préférences système pour permettre l’accès à Coworker pour l’ensemble de l’entreprise.
+   * Désactivez les paramètres suivants pour les utilisateurs disposant d’une licence standard dans leurs niveaux d’accès :
+     * Désactiver le panneau CX Coworker dans Workfront
+     * Désactiver l’espace de conceptualisation
 
-* **Actualiser une campagne précédente à l’aide des performances historiques**
+   Pour plus d’informations sur l’utilisation de l’espace Idéation , consultez également les articles suivants :
 
-  * Par exemple, vous pouvez mettre à jour des campagnes existantes pour un nouveau trimestre, une nouvelle saison ou un nouveau moment produit.
-  * Il en résulte un « delta brief » basé sur des performances antérieures, décrivant ce qui reste, ce qui change et pourquoi.
+   * [Accès nécessaire pour utiliser l’espace Idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idées](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [Créer des briefs dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **Créer une nouvelle campagne à l’aide des performances historiques**
+1. (Recommandé) Identifiez votre première campagne : une campagne récente à actualiser ou une nouvelle initiative à créer à partir de zéro.
 
-  * Par exemple, vous pouvez créer une campagne lors du lancement d’un nouveau produit, segment ou initiative sans historique de campagne direct.
-  * Cela produit un nouveau brief via une idéation guidée, un mix de canaux recommandé et un concept initial ou des instructions de message.
+## Localisation de l’emplacement de l’idéation
+
+Après vous être assuré d’avoir accès aux produits, packages, systèmes et niveaux d’accès appropriés configurés, vous pouvez localiser l’espace d’idéation dans les zones suivantes de Workfront :
+
+* Dans le menu principal de Workfront, ouvrez la zone Espace d’idéation .
+
+  ![Zone de l&#39;espace d&#39;idéation dans le menu principal](assets/ideation-space-area-icon-in-main-menu.png)
+
+* Dans Workfront Planning, lors de l’ajout manuel d’un nouvel enregistrement
+
+  ![Espace d’idéation dans l’ajout d’un nouvel enregistrement](assets/ideation-space-in-planning-new-record.png)
+
+* Dans Workfront Planning, lors de la modification d’un enregistrement existant
+
+  ![Espace d&#39;idéation dans la page Détails de l&#39;enregistrement](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>Vous ne pouvez pas supprimer la zone Espace d&#39;idéation du menu Principal à l&#39;aide d&#39;un modèle de mise en page. Pour plus d&#39;informations sur le blocage de l&#39;accès d&#39;un utilisateur à l&#39;Espace d&#39;idéation, voir [Accès nécessaire pour utiliser L&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
 
 ## Espace d’idéation et Adobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Voici quelques-unes des fonctionnalités de Coworker lorsqu’il est utilisé da
   * **Vérifier avant de finaliser**. Les réponses générées par l’IA pouvant être inexactes, vérifiez toujours **Sources** sur une carte et confirmez-les par rapport aux sources liées avant de finaliser un enregistrement.
   * **Mélanger des cartes d’IA avec des enregistrements réels**. Effectuez un glisser-déposer des enregistrements réels dans l’espace Idéation .
 
-## Accéder à l’espace d’idéation
+## Audience et cas d’utilisation
 
-Pour accéder à l’Espace idéation :
+L’espace Idéation est conçu pour les marketeurs qui sont chargés de définir la stratégie de campagne et de produire les résumés de campagne.
 
-1. Vérifiez que vous répondez à la configuration requise décrite dans la section [Configuration requise](#product-requirements) de cet article.
-1. Contactez votre représentant de compte Adobe pour exprimer votre intérêt à participer au Beta fermé ou rejoignez Open Beta, lorsqu’il sera disponible.
+<!--
+Too much: 
 
-   Les administrateurs système ont accès à l’espace d’idéation par défaut et ne peuvent pas le supprimer lorsqu’il est disponible dans Open Beta. Il peut l’activer pour tous les autres utilisateurs dans l’un des environnements suivants :
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * Production
-   * Aperçu
-   * Sandbox personnalisés
+En tant que gestionnaire d&#39;espace de travail, vous pouvez utiliser l&#39;espace de création pour créer des enregistrements dans Workfront Planning en procédant comme suit :
 
-1. (Recommandé) Identifiez votre première campagne : une campagne récente à actualiser ou une nouvelle initiative à créer à partir de zéro.
+* Créez un brief dans l’espace Idéation après l’avoir lancé depuis Planning, lorsque vous commencez à créer ou modifier des enregistrements.
+* Utilisez les invites de l&#39;IA pour rassembler les détails d&#39;autres enregistrements de votre système ou du Web et terminer la création des notes d&#39;idéation.
+* Créez des types d&#39;enregistrements Planning à partir des résumés.
+* Affinez vos résumés d&#39;idées et mettez à jour les types d&#39;enregistrements existants dans Planning.
 
-Pour plus d’informations sur l’utilisation de l’espace Idéation , consultez également les articles suivants :
+Voici des cas pratiques d’utilisation de l’espace d’idéation :
 
-* [Accès nécessaire pour utiliser l’espace Idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idées](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Créer des briefs dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **Actualiser une campagne précédente à l’aide des performances historiques**
 
-## Localisation de l’emplacement de l’idéation
+  * Par exemple, vous pouvez mettre à jour des campagnes existantes pour un nouveau trimestre, une nouvelle saison ou un nouveau moment produit.
+  * Il en résulte un « delta brief » basé sur des performances antérieures, décrivant ce qui reste, ce qui change et pourquoi.
 
-Après vous être assuré d’avoir accès aux produits, packages, systèmes et niveaux d’accès appropriés configurés, vous pouvez localiser l’espace d’idéation dans les zones suivantes de Workfront :
+* **Créer une nouvelle campagne à l’aide des performances historiques**
 
-* Lors de l’ajout manuel d’un nouvel enregistrement dans Workfront Planning
-
-  ![Espace d&#39;idéation dans Planning](assets/ideation-space-in-planning-new-record.png)
-* Dans le menu principal de Workfront, ouvrez la zone Espace d’idéation .
-
-  ![Zone de l&#39;espace d&#39;idéation dans le menu principal](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->Vous ne pouvez pas supprimer la zone Espace d&#39;idéation du menu Principal à l&#39;aide d&#39;un modèle de mise en page. Pour plus d&#39;informations sur le blocage de l&#39;accès d&#39;un utilisateur à l&#39;Espace d&#39;idéation, voir [Accès nécessaire pour utiliser L&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
+  * Par exemple, vous pouvez créer une campagne lors du lancement d’un nouveau produit, segment ou initiative sans historique de campagne direct.
+  * Cela produit un nouveau brief via une idéation guidée, un mix de canaux recommandé et un concept initial ou des instructions de message.
 
 ## Objets générés par l&#39;espace Idéation
 

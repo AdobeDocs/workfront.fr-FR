@@ -19,17 +19,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '314'
+ht-degree: 3%
 ---
 
 # Espace d’idéation pour Adobe Workfront Planning : index des articles
 
-<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Ideation space Beta**. </span>
+<span class="preview">Les informations de cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de façon générale. Il est disponible uniquement dans le cadre du programme **Beta Espace d’idéation**. </span>
 
-<span class="preview">Pour plus d’informations, voir [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
+<span class="preview">Pour plus d&#39;informations, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).</span>
 
 
 >[!IMPORTANT]
@@ -38,7 +38,7 @@ ht-degree: 5%
 >
 >La fonctionnalité décrite ici n’est pas disponible si votre entreprise a acheté Workfront Planning en tant que produit autonome.
 >
->Pour obtenir des informations générales sur Workfront Planning, voir [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Pour obtenir des informations générales sur Workfront Planning, consultez [Prise en main d’Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 > 
 >
 
@@ -59,9 +59,11 @@ Future - when they make it available in Planning: replace the above with this OR
 
 Adobe Workfront Planning offre désormais une fonctionnalité supplémentaire pour identifier avant de lancer vos campagnes. Tirez parti de la puissance de l’IA pour transformer les données et les entrées directes en plans tangibles et donner aux équipes un point de départ éclairé au lieu d’une page vierge.
 
-* [Prise en main de l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
-* [Accès nécessaire pour utiliser l’espace Idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [Créer des briefs dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [Créer ou modifier des enregistrements Planning à partir de résumés d&#39;espace d&#39;idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [Partager un espace d&#39;idées avec d&#39;autres personnes](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
+Les articles suivants contiennent des informations sur l’espace d’idéation et vous donnent un guide sur ses fonctionnalités :
+
+* Commencez ici, pour une compréhension générale de l’espace d’idéation dans Workfront : [Commencez avec l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* En tant qu&#39;administrateur système, assurez-vous de comprendre comment rendre l&#39;espace d&#39;idée disponible pour votre organisation : [Accès nécessaire pour utiliser l&#39;espace d&#39;idée](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* Lorsque vous êtes prêt à créer votre première stratégie de campagne, découvrez comment créer des briefs à l&#39;aide de l&#39;Espace d&#39;idéation : [Créez des briefs dans l&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* Si vous travaillez à partir de Workfront Planning, découvrez comment créer des enregistrements à l&#39;aide de l&#39;Espace d&#39;idéation : [Créez ou modifiez des enregistrements Planning à partir des résumés d&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* Collaborer avec d&#39;autres sur Espace d&#39;idée : [Partager un Espace d&#39;idée avec d&#39;autres](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 

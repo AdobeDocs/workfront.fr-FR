@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 3%
 ---
 
@@ -177,8 +177,17 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
 1. Connectez-vous à Workfront avec Planning dans lequel Coworker a été activé, puis effectuez l’une des opérations suivantes pour ouvrir l’espace Idéation pour la première fois afin de créer des notes :
 
-   * Accédez au **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Espace d’idéation**
-   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > **Nouvel enregistrement** > **Espace d’idéation de début**
+   * Accédez au **Menu principal** ![Menu principal](assets/main-menu-lines.png) > cliquez sur **Espace d’idéation**
+
+     ![Espace d&#39;idéation dans le menu principal](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur **Nouvel enregistrement** > cliquez sur **Démarrer l’espace d’idéation**
+
+     ![Espace d&#39;idéation dans le nouvel enregistrement](assets/ideation-space-in-planning-new-record.png)
+
+   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur un enregistrement existant > cliquez sur **Ouvrir dans l’espace d’idéation**
+
+     ![Espace d’idéation dans les détails de l’enregistrement](assets/ideation-space-button-in-details-page.png)
 
 1. Lisez le contrat bêta et cliquez sur **Accepter**. Vous devez signer le contrat pour utiliser l&#39;espace d&#39;idéation.
 

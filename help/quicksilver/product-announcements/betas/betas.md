@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 11%
+source-wordcount: '268'
+ht-degree: 7%
 ---
 # Programmes Beta
 
@@ -36,29 +36,31 @@ Les fonctionnalités suivantes sont actuellement disponibles en version bêta :
 
 * Tableau de bord de la zone de travail
 
-  Pour plus d’informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+  Pour plus d&#39;informations, voir [Informations bêta sur les tableaux de bord de la zone de travail](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 * Intégrité du projet
 
-  Pour plus d’informations, voir [&#x200B; Présentation de l’intégrité du projet &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Pour plus d&#39;informations, consultez [Présentation de l&#39;intégrité du projet](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * Le réviseur de contenu Workfront
 
   * Les instructions relatives aux images sont actuellement en version bêta. Le réviseur de contenu utilise les directives de marque que vous configurez dans Workfront pour réviser le contenu et fournir des commentaires aux créateurs de contenu pendant le processus de révision et d’approbation.
   * Des directives relatives à la voix de marque sont disponibles pour une disponibilité générale.
 
-  Pour plus d’informations, voir [Prise en main du réviseur de contenu Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+  Pour plus d’informations, consultez la section [Prise en main du réviseur de contenu Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 * Designer de planification d’Adobe Workfront
 
-  Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+  Utilisez Adobe Planning Designer optimisé par l’IA pour configurer facilement vos espaces de travail et vos structures de données. Planning Designer prend en charge de nombreux éléments, de la création et la configuration des espaces de travail à la définition de champs et de formules, la gestion des enregistrements, la révision de l&#39;historique des modifications et la création de vues personnalisées.
 
-<!--
+  Pour plus d&#39;informations, consultez [Prise en main d&#39;Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-* Ideation space for Adobe Workfront Planning 
+* Espace d’idéation pour Adobe Workfront Planning
 
-    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
--->
+  Fonctionnalité d’idéation stratégique optimisée par l’IA d’Adobe, directement intégrée à Workfront Planning. Il fournit aux équipes marketing un point de départ structuré et fondé sur des données pour la stratégie de campagne, en remplaçant la recherche manuelle et les conjectures par des résumés générés par l’IA, ancrés dans l’historique réel des performances d’une organisation.
+
+  Pour plus d&#39;informations, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+
 
 <!--
 
