@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 13%
 ---
 
@@ -380,7 +380,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -415,6 +415,11 @@ Au fil du temps, nous avons mis en place des fonctionnalités améliorées de ge
 
 Avec la version de janvier 2027, les champs hérités **Facturation par heure** et **Coût par heure** ne seront plus disponibles dans l’API Workfront ou dans les vues de liste des fonctions, y compris les configurations de filtre/affichage/regroupement (références directes et colonnes calculées du mode texte).
 
+Bien que ces champs soient toujours disponibles jusqu’en janvier, ils peuvent ne pas fonctionner correctement. Les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows afin d’utiliser les expériences de gestion de taux recommandées pour gérer et réviser les taux de fonctions :
+
+* Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
+* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
+
 À titre de remplacement dans les rapports, vous pouvez utiliser le code du mode texte recommandé (utilisez `costRates` ou `billingRates` selon les besoins) :
 
     «
@@ -426,20 +431,13 @@ Avec la version de janvier 2027, les champs hérités **Facturation par heure** 
     valueformat=HTML
     «
 
-Pour gérer et examiner les taux de fonctions, utilisez les expériences de gestion des taux dédiées :
-
-* Accédez aux taux de fonctions et gérez-les directement à partir de la page Fonction > Taux .
-* Utilisez les rapports de taux pour examiner, analyser et générer des rapports sur les informations de taux dans les différentes fonctions.
-
-Aucune action n’est requise pour préparer la modification. Cependant, les administrateurs qui affichent actuellement les champs **Facturation par heure** et **Coût par heure** dans les vues Liste des fonctions doivent mettre à jour leurs workflows pour utiliser les expériences de gestion de taux recommandées décrites ci-dessus.
-
 Pour plus d&#39;informations sur les taux de fonctions, voir [Créer et gérer des fonctions](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 <!--
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
