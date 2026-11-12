@@ -4,10 +4,10 @@ description: Améliorations apportées à l’administrateur du premier trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
+source-wordcount: '555'
+ht-degree: 5%
 ---
 
 # Améliorations apportées à l’administrateur du premier trimestre 2027
@@ -20,10 +20,9 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 
 >[!NOTE]
 >
->Aperçu : 12 novembre 2026
->Version rapide de production : 12 novembre 2026
->Production pour tous : 12 novembre 2026
->[!BADGE Version simultanée]{type=Neutral}
+>Mise à jour rapide de Production et Sandbox : 12 novembre 2026
+>Production, aperçu, sandbox pour tous : à communiquer prochainement
+>[!BADGE Hors planning]{type=Neutral}
 
 >[!NOTE]
 >

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1620'
 ht-degree: 2%
 ---
 # Activité de la version du premier trimestre 2027 pour Adobe Workfront Planning
@@ -33,10 +33,9 @@ Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfr
 
 >[!NOTE]
 >
->Aperçu : 12 novembre 2026
->Version rapide de production : 12 novembre 2026
->Production pour tous : 12 novembre 2026
->[!BADGE Version simultanée]{type=Neutral}
+>Mise à jour rapide de Production et Sandbox : 12 novembre 2026
+>Production, aperçu, sandbox pour tous : à communiquer prochainement
+>[!BADGE Hors planning]{type=Neutral}
 
 >[!NOTE]
 >
@@ -129,7 +128,7 @@ Chaque type d’enregistrement secondaire affiche uniquement ses propres enregis
 
 Avant cette amélioration, si la connectivité entre espaces de travail était désactivée pour les types d’enregistrements globaux connectés, les espaces de travail secondaires ne pouvaient pas lier leurs propres enregistrements les uns aux autres. Si elle était activée, les utilisateurs pouvaient afficher et lier des enregistrements de l’espace de travail global et de tous les autres espaces de travail secondaires.
 
-Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Pour plus d&#39;informations, consultez [Présentation du type d&#39;enregistrement de l&#39;espace de travail ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Afficher le nombre total d’enregistrements dans les vues Tableau, Chronologie et Liste
 
