@@ -4,9 +4,9 @@ description: Améliorations apportées à l’administrateur du premier trimestr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
+source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 5%
 ---
 
@@ -21,7 +21,7 @@ Pour obtenir la liste de toutes les modifications disponibles à ce stade du cyc
 >[!NOTE]
 >
 >Mise à jour rapide de Production et Sandbox : 12 novembre 2026
->Production, aperçu, sandbox pour tous : à communiquer prochainement
+>Production, aperçu, sandbox pour tous : 17 décembre 2026
 >[!BADGE Hors planning]{type=Neutral}
 
 >[!NOTE]
