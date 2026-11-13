@@ -18,10 +18,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 3%
+source-wordcount: '2125'
+ht-degree: 2%
 ---
 
 # Créer des briefs dans l’espace Idéation
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -233,6 +233,9 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
    >
    >Vous ne pouvez pas ajouter de fichiers directement au brief. Vous devez d&#39;abord transférer les informations du fichier aux cartes que vous pouvez envoyer au brief.
 
+1. (Facultatif) Cliquez sur l’icône **Conversations** ![Icône Conversations](assets/chats-icon-coworker.png) dans le coin supérieur droit du panneau Collègue, puis cliquez sur **Nouvelle conversation** pour ouvrir une nouvelle invite ou cliquez sur l’une des conversations précédentes de la liste pour revenir à une ancienne.
+
+   Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation d’Adobe CX Enterprise Coworker.
 
 1. Cliquez sur l’icône **Rechercher** ![Icône de recherche](assets/search-icon.png) pour rechercher des éléments dans la zone de travail d’idéation, puis cliquez sur lorsqu’elle s’affiche dans la liste pour y accéder.
 

@@ -10,22 +10,22 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # Compétences Workfront dans CX Enterprise Coworker
 
 >[!IMPORTANT]
 >
->CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, consultez [Aperçu de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Cet article répertorie les compétences actuellement disponibles pour CX Enterprise Coworker dans Workfront.
 
-Les capacités couvertes par ces compétences sont disponibles dans Coworker via l’interface de conversation, et vous n’avez pas besoin d’appeler directement ces compétences. Cependant, si vous souhaitez appeler les compétences directement, vous pouvez le faire dans le panneau Collègue en saisissant une barre oblique `/` en saisissant le nom de la compétence.
+Les capacités couvertes par ces compétences sont disponibles dans Coworker via l’interface de conversation, et vous n’avez pas besoin d’appeler directement ces compétences. Cependant, si vous souhaitez appeler directement les compétences, vous pouvez le faire dans le panneau Collègue en saisissant une barre oblique `/` et en saisissant le nom de la compétence.
 
-Pour obtenir des exemples d’invites, consultez les invites de l’article [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+Pour obtenir des exemples d&#39;invites, consultez les invites de l&#39;article [Utiliser le serveur MCP Adobe Workfront](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 
 ## Compétences en planification Workfront
 
@@ -59,19 +59,27 @@ Cette compétence interroge et gère les objets Workfront Planning tels que :
 * Enregistrements
 * Règles métier
 
-<!--
+### Compétences en espace d’idéation (version bêta)
 
-### Ideation space skills
+>[!NOTE]
+>
+>L’espace d’idéation est actuellement disponible en version bêta en tant que fonctionnalité supplémentaire dans Workfront Planning.
+>
+>Pour plus d&#39;informations sur l&#39;espace d&#39;idéation, consultez [Prise en main de l&#39;espace d&#39;idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+L’espace d’idéation est une fonctionnalité d’idéation stratégique optimisée par l’IA d’Adobe, directement intégrée à Workfront Planning. Il fournit aux équipes marketing un point de départ structuré et fondé sur des données pour la stratégie de campagne, en remplaçant la recherche manuelle et les conjectures par des résumés générés par l’IA, ancrés dans l’historique réel des performances d’une organisation.
 
-* Thing 1
-* Thing 2
-* Other thing
+Coworker dispose de diverses compétences pour travailler avec l’espace Workfront Planning Ideation. Elles couvrent des actions telles que :
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* Idéation de campagne — Réfléchissez et générez des cartes d&#39;idées sur la zone de travail pour les campagnes et d&#39;autres sujets, à l&#39;aide des documents sources ci-joints et d&#39;autres sources. Il s’agit du principal point de départ de l’idéation.
+* Conversation de campagne - Parcourez les idées de campagne de manière conversationnelle dans l’application Espace d’idéation.
+* Résumé de campagne : créez et affinez un résumé de campagne structuré, avec des mécanismes de sécurisation pour qu’il reste complet et bien suivi.
+* Questions/réponses sur le document : posez des questions sur les documents que vous avez joints à votre session d’idéation.
+* Recherche — Ajoutez la recherche pour éclairer votre idéation sur la toile.
+* Invites de démarrage — Recevez des invites suggérées pour lancer ou développer votre idée.
+* Ouvrir la zone de travail — Lancez ou plongez dans une zone de travail Espace d&#39;idéation (utilisée lorsque vous commencez une conversation régulière en dehors de l&#39;application).
 
 ## Compétences Workfront
 

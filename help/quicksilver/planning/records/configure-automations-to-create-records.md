@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2146'
 ht-degree: 5%
 ---
 # Configurer des automatisations d’Adobe Workfront Planning
@@ -59,7 +59,7 @@ Par exemple, vous pouvez créer une automatisation qui prend une campagne Workfr
 
 Cet article décrit comment gérer les automatisations, notamment comment les modifier, les désactiver, les supprimer et les déclencher pour créer des objets et des enregistrements.
 
-Pour plus d&#39;informations sur la création d&#39;enregistrements ou d&#39;objets à l&#39;aide d&#39;une automatisation existante, voir [Création d&#39;objets à l&#39;aide des automatisations d&#39;enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Pour plus d&#39;informations sur la création d&#39;enregistrements ou d&#39;objets à l&#39;aide d&#39;une automatisation existante, consultez [Création d&#39;objets à l&#39;aide des automatisations d&#39;enregistrements Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Conditions d’accès
 
@@ -102,12 +102,14 @@ Ou
    <td role="rowheader"><p>Autorisations d’objet</p></td> 
    <td> <p>Gérez les autorisations sur l’espace de travail et sur le type d’enregistrement dans lequel vous souhaitez créer des automatisations. </p>
    <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés</p>
+   <p>Les créateurs d’automatisation disposent des autorisations de gestion de leurs propres automatisations</p>
+   <p>Vous avez besoin d’autorisations de niveau Modifier ou supérieur sur l’automatisation pour la modifier et d’autorisations d’exécution pour l’exécuter</p>
    </td> 
   </tr>  
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -185,17 +187,17 @@ Vous devez configurer une automatisation pour un type d&#39;enregistrement dans 
 
    La liste des automatisations disponibles pour le type d’enregistrement sélectionné s’ouvre.
 
-1. Cliquez sur **Nouvelle automatisation** dans le coin supérieur droit de l’écran. La boîte de dialogue **Nouvelle automatisation** s’ouvre.
+1. Cliquez sur **Nouvelle automatisation** dans le coin supérieur droit de l’écran. La boîte **Nouvelle automatisation** s’ouvre.
 1. Mettez à jour les champs suivants :
 
-   * Remplacez **Automatisation sans titre** par le texte qui doit apparaître sur le bouton d’automatisation. Les utilisateurs cliqueront sur ce bouton lors de l&#39;utilisation de l&#39;automatisation pour créer un objet Workfront ou un enregistrement Planning.
+   * Remplacez **Automatisation sans titre** par le texte que vous souhaitez afficher sur le bouton d&#39;automatisation. Les utilisateurs cliqueront sur ce bouton lors de l&#39;utilisation de l&#39;automatisation pour créer un objet Workfront ou un enregistrement Planning.
    * **Description** : ajoutez une description pour identifier l’objectif de l’automatisation.
 1. Cliquez sur **Enregistrer**.
 La page d’informations sur l’automatisation s’ouvre.
 
-1. Sur la page de détails de l’automatisation, sélectionnez l’une des options suivantes dans la section **Triggers** :
+1. Sur la page de détails de l&#39;automatisation, sélectionnez l&#39;une des options suivantes dans la section **Triggers** :
 
-   * **Déclencheur** : sélectionnez une action qui déclenchera l’automatisation :
+   * **Déclencher** : sélectionnez une action qui déclenchera l’automatisation :
 
      * Clic sur bouton
      * Modification de la valeur de champ
@@ -206,7 +208,7 @@ La page d’informations sur l’automatisation s’ouvre.
 
    1. Choisissez un champ dans le menu déroulant. Il s’agit de champs associés au type d’enregistrement que vous avez sélectionné.
    1. Poursuivez la définition des conditions du champ sélectionné.
-   1. Cliquez sur **Ajouter une condition** pour ajouter jusqu’à 5 champs et définir leur condition.
+   1. Cliquez sur **Ajouter une condition** pour ajouter jusqu&#39;à 5 champs et définir leur condition.
 
       Vous pouvez ajouter l’un des types de champs suivants :
 
@@ -255,7 +257,7 @@ La page d’informations sur l’automatisation s’ouvre.
 
    * **Créer plusieurs projets** :
      * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
-     * **Champ dont les choix créeront les enregistrements** : choisissez un champ à sélection multiple ou à sélection unique parmi le type d’enregistrement sélectionné. Workfront crée un projet pour chaque choix de champ actuellement sélectionné dans l’enregistrement à partir duquel vous déclenchez l’automatisation.
+     * **Champ dont les choix créeront les enregistrements** : choisissez un champ à sélection multiple ou unique parmi le type d’enregistrement sélectionné. Workfront crée un projet pour chaque choix de champ actuellement sélectionné dans l’enregistrement à partir duquel vous déclenchez l’automatisation.
 
      >[!TIP]
      >
@@ -265,32 +267,32 @@ La page d’informations sur l’automatisation s’ouvre.
      * **Utiliser le même modèle** : sélectionnez cette option pour utiliser le même modèle pour chaque nouveau projet. Si l’option est désélectionnée, sélectionnez un **modèle de projet** pour chaque choix de champ.
      * **Modèle de projet** : si vous avez sélectionné l’option **Utiliser le même modèle**, sélectionnez un modèle de projet que Workfront utilisera pour créer les projets.
 
-   * **Créer un portefeuille** :
+   * **Créer un portfolio** :
      * **Champ connecté où le portfolio est créé** : il s’agit du champ connecté où le nouveau portfolio s’affichera. Champ obligatoire.
      * **Formulaire personnalisé à joindre au nouveau portefeuille** : sélectionnez un formulaire personnalisé à joindre au nouveau portefeuille. Vous devez créer un formulaire personnalisé de portfolio avant de pouvoir le sélectionner.
    * **Créer un programme** :
      * **Champ connecté où le programme est créé** : il s’agit du champ connecté où le nouveau programme s’affichera. Champ obligatoire.
-     * **Portefeuille de programmes** : sélectionnez le portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
+     * **Portefeuille de programmes** : sélectionnez un portefeuille dans lequel le nouveau programme sera ajouté. Champ obligatoire.
      * **Formulaire personnalisé à joindre au nouveau programme** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un groupe** :
-     * **Champ connecté où est créé le groupe** : il s’agit du champ connecté où s’affichera le nouveau groupe. Champ obligatoire.
+     * **Champ connecté où le groupe est créé** : il s’agit du champ connecté où le nouveau groupe s’affichera. Champ obligatoire.
      * **Formulaire personnalisé à joindre au nouveau groupe** : sélectionnez un formulaire personnalisé à joindre au nouveau programme. Vous devez créer un formulaire personnalisé de programme avant de pouvoir le sélectionner.
    * **Créer un enregistrement** :
      * **Type d’enregistrement** : sélectionnez le type d’enregistrement à créer.
 
-       La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants de la sous-section **Paramètres** :
+       La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants dans la sous-section **Paramètres** :
 
-       * **Champ sur le type d’enregistrement connecté où l’enregistrement actif s’affichera** : il s’agit du champ connecté sur le type d’enregistrement sélectionné pour l’action où l’enregistrement actif s’affichera.
+       * **Champ sur le type d&#39;enregistrement connecté où l&#39;enregistrement actif s&#39;affichera** : il s&#39;agit du champ connecté sur le type d&#39;enregistrement sélectionné pour l&#39;action où l&#39;enregistrement actif s&#39;affichera.
 
        Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
 
        Champ obligatoire.
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 Dans la zone **Champs de carte**, mettez à jour les informations suivantes :
+                                                                                 Dans la zone **Mapper les champs**, mettez à jour les informations suivantes :
 
-       * **Transférer depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
-       * **Transférer vers** : sélectionnez des champs du nouvel enregistrement qui seront renseignés avec les informations de l’enregistrement à partir duquel vous exécutez l’automatisation.
+       * **Transfert depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
+       * **Transférer vers** : sélectionnez des champs dans l&#39;enregistrement nouvellement créé qui seront renseignés avec les informations de l&#39;enregistrement à partir duquel vous exécutez l&#39;automatisation.
 
        >[!TIP]
        >
@@ -300,7 +302,7 @@ La page d’informations sur l’automatisation s’ouvre.
 1. (Facultatif et conditionnel) Si vous avez choisi de créer un enregistrement, cliquez sur **Ajouter des champs** pour mapper des champs de recherche supplémentaires d’un enregistrement à un autre.
 1. (Conditionnel) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et le type d’enregistrement sélectionné dans le champ **Type d’enregistrement**, cliquez sur **Ajouter un champ connecté**.
 
-   ![Configuration de l’automatisation pour créer un enregistrement](assets/automation-setup-create-record.png)
+   ![Configuration de l&#39;automatisation pour créer un enregistrement](assets/automation-setup-create-record.png)
 
    Les deux champs suivants sont créés :
 
@@ -314,7 +316,7 @@ La page d’informations sur l’automatisation s’ouvre.
 
 1. (Facultatif) S’il n’existe aucun champ de connexion entre le type d’enregistrement d’origine et l’objet Workfront sélectionné dans la zone Actions, cliquez sur **Ajouter un champ connecté**.
 
-   ![Configuration de l’automatisation pour créer plusieurs projets](assets/automation-setup-create-multiple-projects.png)
+   ![Configuration de l&#39;automatisation pour créer plusieurs projets](assets/automation-setup-create-multiple-projects.png)
 
    Les éléments suivants sont créés :
 
@@ -338,7 +340,7 @@ La page d’informations sur l’automatisation s’ouvre.
 
 1. (Facultatif) Pour afficher, désactiver ou supprimer une automatisation d&#39;une liste d&#39;automatisations, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom d&#39;une automatisation, puis effectuez l&#39;une des opérations suivantes :
 
-   * Pour l’automatisation du changement de la valeur d’un champ, cliquez sur **Afficher** pour afficher les paramètres d’automatisation.
+   * Pour une automatisation de changement de valeur de champ, cliquez sur **Afficher** pour afficher les paramètres d&#39;automatisation.
 
      >[!TIP]
      >
@@ -346,18 +348,94 @@ La page d’informations sur l’automatisation s’ouvre.
 
    * Pour une automatisation par clic sur un bouton, cliquez sur **Modifier** pour mettre à jour les informations suivantes :
 
-     * Le nom de l&#39;automatisation, en cliquant sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l&#39;automatisation, puis **Modifier**.
+     * Le nom de l’automatisation, en cliquant sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’automatisation, puis **Modifier**.
      * Tout champ de l’automatisation, à l’exception du champ **Actions**.
 
      >[!TIP]
      >
      >Vous ne pouvez pas modifier l’action que vous avez initialement sélectionnée pour une automatisation.
 
-   * Cliquez sur **Désactiver** pour supprimer l’automatisation de la vue Tableau de l’enregistrement et empêcher les utilisateurs de l’utiliser pour créer des enregistrements ou des objets.
+   * Cliquez sur **Désactiver** pour supprimer l&#39;automatisation de la vue Tableau de l&#39;enregistrement et empêcher les utilisateurs de l&#39;utiliser pour créer des enregistrements ou des objets.
 
      Les enregistrements créés à l&#39;aide d&#39;une automatisation désactivée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
 
-     Pour le rendre à nouveau disponible, cliquez de nouveau sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
+     Pour le rendre à nouveau disponible, cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Activer**.
    * Cliquez sur **Supprimer** pour supprimer l’automatisation. Impossible de récupérer une automatisation supprimée.
 
      Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
+
+## Partager les automatisations
+
+En tant que créateur d’une automatisation, vous disposez par défaut des autorisations de niveau Gérer pour celle-ci.
+
+En outre, vous pouvez le partager avec d’autres utilisateurs, utilisatrices ou équipes.
+
+Les utilisateurs qui font partie de l’espace de travail n’obtiennent pas d’autorisations pour les automatisations dans l’espace de travail par défaut. Vous devez spécifiquement partager une automatisation avec eux.
+
+1. Accédez au type d’enregistrement dont vous souhaitez partager les automatisations.
+1. Cliquez sur le menu **Plus** à droite du nom du type d&#39;enregistrement, puis cliquez sur **Automatisations**.
+
+   Une liste d’automatisations s’ouvre.
+1. (Conditionnel) Si la liste ne contient aucune automatisation, créez-en une, comme décrit dans la section [Configurer une automatisation dans Workfront Planning](#configure-an-automation-in-workfront-planning) de cet article.
+1. Dans la liste des automatisations, cliquez sur le menu **Plus** à droite du nom de l&#39;automatisation, puis cliquez sur **Partager**.
+1. Dans la zone de partage, commencez à saisir le nom des utilisateurs ou des équipes avec lesquels vous souhaitez partager. <!--checking with Mikayel if the other entities are not available for sharing for automations-->
+1. Faites votre choix parmi les niveaux d’autorisation de partage suivants :
+
+   | Niveau d’autorisation | Actions autorisées |
+   | --- | --- |
+   | **Gérer** | Peut supprimer, modifier, démarrer et afficher l’automatisation |
+   | **Modifier** | Peut modifier, démarrer et afficher l’automatisation |
+   | **Exécuter** | Peut démarrer et afficher l’automatisation |
+
+1. Pour modifier les autorisations d’un utilisateur existant, ouvrez la même boîte de dialogue et sélectionnez un niveau d’autorisation différent dans la liste déroulante en regard de son nom, ou cliquez sur Supprimer pour révoquer tous les accès.
+1. Cliquez sur **Enregistrer** pour enregistrer les modifications de partage.
+
+
+<!--checking this with Mikayel Aleksanyan to be sure-->
+
+
+<!-- 
+original info sent in slack from Mikayel: 
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+
+Feature overview
+
+Previously, newly created automations were automatically shared with everyone in the Workfront Planning workspace. Now, a new automation is available only to its owner by default. The owner must manually share it with other users to grant them access.
+
+This change gives owners control over who can access their automations and what access level each user receives.
+
+What the documentation should cover
+
+1. Default visibility and sharing
+
+* Previously, a newly created automation was available to everyone in its Workfront Planning workspace by default.
+* With the new permission system, a newly created automation is available only to its creator/owner by default.
+* Owners must explicitly share new automations with other users to grant them access; workspace membership alone does not grant access to a new automation.
+* Owners can use the **Share** action to grant access to other users in the same organization. In the automations list, open the automation's **More options (···)** menu next to its name, then select **Share**.
+* Sharing grants access to an automation; it does not transfer ownership.
+
+1. Automation access levels
+
+The sharing dialog offers the following access levels, with these descriptions:
+
+| Access level | Allowed actions |
+| --- | --- |
+| **Manage** | Can delete, edit, start, and view |
+| **Edit** | Can edit, start, and view |
+| **Run** | Can start and view |
+
+The automation creator is listed as **Owner**. **Remove** is an action for removing a user's access, not an access level.
+
+1. How to share and update access
+
+1. In the automations list, open the automation's **More options (···)** menu and select **Share**.
+1. In the **Share [automation name]** dialog, use **Add people** to select the users to share with.
+1. Use the access-level dropdown next to a user to assign **Manage**, **Edit**, or **Run**.
+1. Click **Save** to save the sharing changes.
+
+To change an existing user's access, open the same dialog and select a different access level from the dropdown next to their name. To revoke access, select **Remove**. Click **Save** to save the changes.
+
+1. Existing automations
+
+* At the introduction of the new permission system, existing automations were shared with users in their respective Workfront Planning workspaces to preserve existing access.
+-->

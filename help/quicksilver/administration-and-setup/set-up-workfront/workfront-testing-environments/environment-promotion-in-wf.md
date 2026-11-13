@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 42%
+source-wordcount: '1041'
+ht-degree: 39%
 ---
 # Vue d’ensemble du déplacement d’objets entre les environnements Workfront (promotion environnementale)
 
@@ -49,7 +49,7 @@ Vous pouvez effectuer ce processus dans Workfront en créant un package d’obje
   * [Créer ou modifier un package de promotion environnementale](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
   * [Installer un package de promotion environnementale](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Pour obtenir des instructions sur l’exécution de ce processus par le biais de l’API Workfront, voir [Déplacer des objets entre  [!DNL Workfront]  environnements à l’aide de l’API  [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Pour obtenir des instructions sur l’exécution de ce processus via l’API Workfront, voir [Déplacer des objets entre [!DNL Workfront] environnements à l’aide de l’ [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
 [Regardez une vidéo de démonstration de cette fonctionnalité](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -64,9 +64,8 @@ La fonctionnalité de promotion d’environnement est destinée à fournir la po
 * [Objets de données personnalisées](#custom-data-objects)
 * [Objets d’organisation](#organization-objects)
 * [Autres objets de configuration](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Objets Workfront Planning](#workfront-planning-objects)
+
 
 ### Objets de travail
 
@@ -79,7 +78,7 @@ La fonctionnalité de promotion d’environnement est destinée à fournir la po
 
 | Objet pouvant être promu | Objets liés pouvant être promus inclus |
 | --- | --- |
-| Modèle de mise en page (UITMPL) | Modèle<br>Tableau De Bord<br>Calendrier<br>Section Calendrier<br>Page Externe<br>Rapport<br>Filtrer<br>Regroupement<br>Vue<br>Paramètre<br>Groupe De Mises En Page |
+| Modèle de mise en page (UITMPL) | Modèle De Mise En Page<br>Tableau De Bord<br>Calendrier<br>Section Calendrier<br>Page Externe<br>Rapport<br>Filtre<br>Regroupement<br>Vue<br>Paramètre<br>Groupe |
 | Tableau de bord (PTLTAB) | Tableau de bord<br>Calendrier<br>Section du calendrier<br>Page externe<br>Rapport<br>Filtre<br>Regroupement<br>Vue<br>Paramètre |
 | Calendrier (CALEND) | Calendrier<br>Section du calendrier |
 | Page externe (EXTSEC) | Page externe |
@@ -139,25 +138,24 @@ La fonctionnalité de promotion d’environnement est destinée à fournir la po
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Objets Workfront Planning
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Les objets Workfront Planning sont disponibles uniquement pour les clients qui ont acheté un package Planning en plus d’un package Workfront.
+>
+>La promotion de l’environnement n’est pas disponible pour les clients qui ont acheté Workfront Planning en tant que produit autonome.
 
-| Promotable object | Included promotable linked objects |
+| Objet pouvant être promu | Objets liés pouvant être promus inclus |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| Espaces de travail | Sections de Workspace |
+| Types d’enregistrements | Types d’enregistrements connectés* <br> Champs <br> Vues <br> Hiérarchies <br> Formulaires de demande |
+| Partage de tous les objets | Groupes <br> Équipes <br> Fonctions <br> Utilisateurs <br>Entreprises |
 
+*Seuls les types d’enregistrements connectés appartenant aux espaces de travail importés seront transférés vers l’environnement cible.
+
+Pour plus d&#39;informations, consultez [Utilisation de la promotion d&#39;environnement pour Adobe Workfront Planning](/help/quicksilver/planning/general/planning-environment-promotion.md).
 
 ## Statuts de promotion d’environnement
 
@@ -195,14 +193,14 @@ Ces statuts sont les suivants :
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, voir la section <a href="https://experienceleague.adobe.com/fr/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
+   <td><p>Le package de promotion est automatiquement placé dans ce statut si l’étape ASSEMBLING échoue.</p><p>Pour renvoyer le package à l'étape ASSEMBLAGE, vous devez déclencher à nouveau le processus d'assemblage.</p><p>Pour plus d’informations sur l’assemblage d’un package, consultez la section <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modifier ou assembler un package existant</a> dans l’article Créer ou modifier un package de promotion d’environnement.</td> 
   </tr> 
   </tbody> 
 </table>
 
 ## Ressources
 
-* Pour les questions fréquentes concernant la promotion de l’environnement, voir [FAQ sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-* Pour obtenir des recommandations de dépannage, voir [&#x200B; Dépannage de la promotion de l’environnement &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* Pour les questions fréquentes concernant la promotion de l’environnement, voir [Questions fréquentes sur la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* Pour obtenir des recommandations de dépannage, voir [Dépannage de la promotion de l’environnement](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
 
