@@ -29,7 +29,7 @@ Coworker respecte les contrôles d’accès au niveau de Workfront existants de 
 
 Coworker fait partie de l’écosystème Adobe et ne se limite pas à Workfront.
 
-Pour plus d’informations sur Coworker et ses fonctionnalités, consultez [Présentation du chat Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+Pour plus d’informations sur Coworker et ses fonctionnalités, consultez [Présentation du chat Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/overview).
 
 Pour plus d&#39;informations sur l&#39;utilisation de Coworker dans Workfront, voir [Utiliser CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
