@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '853'
 ht-degree: 2%
 ---
 # Création d’objets à l’aide de l’automatisation des enregistrements Adobe Workfront Planning
@@ -53,11 +53,11 @@ Par exemple, vous pouvez utiliser une automatisation existante qui prend une cam
 
 Cet article décrit comment créer des enregistrements Workfront Planning ou des objets Workfront à l’aide d’une automatisation existante.
 
-Pour plus d’informations sur la création d’automatisations pour un type d’enregistrement, voir [Configurer les automatisations d’Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+Pour plus d&#39;informations sur la création d&#39;automatisations pour un type d&#39;enregistrement, consultez [Configurer les automatisations d&#39;Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
 Une fois que vous avez créé des enregistrements ou des objets Workfront à l’aide des automatisations, ils sont automatiquement liés aux enregistrements à partir desquels vous exécutez l’automatisation.
 
-Pour plus d’informations sur les enregistrements connectés, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
+Pour plus d&#39;informations sur les enregistrements connectés, voir [Présentation des enregistrements connectés](/help/quicksilver/planning/records/connected-records-overview.md).
 
 Vous pouvez créer les éléments suivants à l’aide des automatisations dans Workfront Planning :
 
@@ -110,12 +110,14 @@ Ou
    <p>Gérez les autorisations de l’enregistrement pour lequel vous exécutez l’automatisation.</p>
    <p>Gérez les autorisations sur les objets Workfront (portfolios) pour ajouter des objets enfants (programmes ou projets).</p>
    <p>Les administrateurs système disposent des autorisations de niveau Gérer pour tous les espaces de travail, y compris ceux qu’ils n’ont pas créés</p>
+   <p>Les créateurs d’automatisation disposent des autorisations de gestion de leurs propres automatisations</p>
+   <p>Vous avez besoin d’autorisations de niveau Modifier ou supérieur sur l’automatisation pour la modifier et d’autorisations d’exécution pour l’exécuter</p>
    </td> 
   </tr> 
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -191,13 +193,15 @@ Old:
 
   `[ Name of the record ] Name of the field choice`
 
-  Pour plus d’informations, reportez-vous à la section [Utiliser une automatisation Workfront Planning pour créer un objet ou un enregistrement](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) de cet article.
+  Pour plus d&#39;informations, consultez la section [Utiliser une automatisation Workfront Planning pour créer un objet ou un enregistrement](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) dans cet article.
 
 * Les nouveaux objets ou enregistrements ne remplacent pas les objets ou enregistrements existants dans le même champ. Le déclenchement de la même automatisation plusieurs fois pour le même enregistrement ajoute les nouveaux objets ou enregistrements dans le même champ connecté de l&#39;enregistrement d&#39;origine, en plus de ceux créés précédemment.
 
 * Lorsque votre entreprise utilise l’espace de stockage cloud Workfront et Adobe hérité, les éléments créés automatiquement à partir de Planning sont créés à l’aide de l’espace de stockage par défaut sélectionné par l’administrateur Workfront dans la zone Configuration.
 
-  Pour plus d’informations sur l’activation de l’espace de stockage cloud Adobe dans votre environnement, voir [Activer l’espace de stockage cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+  Pour plus d’informations sur l’activation du stockage dans le cloud Adobe dans votre environnement, consultez [Activer le stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* Vous devez au moins disposer des autorisations d’exécution sur une automatisation pour pouvoir l’exécuter. Pour plus d&#39;informations, voir [Configurer l&#39;automatisation d&#39;Adobe Workfront Planning pour créer des enregistrements](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
@@ -233,7 +237,7 @@ Cette section décrit comment créer des objets à l’aide d’une automatisati
 
      `[ Name of the record ] Name of the field choice`
 
-     Par exemple, si une campagne nommée `Summer breeze` génère un projet à partir d’un champ choisi de `EMEA`, le projet est nommé `[ Summer breeze ] EMEA`.
+     Par exemple, si une campagne nommée `Summer breeze` a généré un projet à partir d’un choix de champ de `EMEA`, le projet est nommé `[ Summer breeze ] EMEA`.
 
    * L’enregistrement à partir duquel vous déclenchez l’automatisation est ajouté au champ connecté des nouveaux enregistrements.
 

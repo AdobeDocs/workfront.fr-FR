@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2366'
 ht-degree: 2%
 ---
 # invites et bonnes pratiques CX Enterprise Coworker
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, voir [&#x200B; Présentation de l’assistant AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est disponible pour ces organisations. Pour plus d’informations, consultez [Aperçu de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Avec CX Enterprise Coworker, vous pouvez utiliser le langage naturel pour interagir avec Workfront Workflow et Workfront Planning.
 
@@ -66,7 +66,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 * Votre administrateur Workfront doit avoir activé l’assistant AI pour votre organisation.
 
-  Pour plus d’informations, consultez [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans la présentation de l’assistant AI.
+  Pour plus d’informations, voir [Conditions préalables pour l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) dans la présentation de l’assistant AI.
 * Votre administrateur Workfront doit avoir activé AI Assistant pour votre niveau d’accès.
 
   Pour plus d’informations, voir [Activer ou désactiver l’assistant IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
@@ -79,7 +79,7 @@ Tenez compte des contraintes suivantes lors de l’utilisation de Coworker :
 
 Certaines actions peuvent être annulées. Par exemple, si un objet est créé, cette création peut être inversée.
 
-Cependant, certaines actions, telles que la suppression d’objet, ne peuvent **pas** être inversées. Nous vous recommandons de garder cela à l’esprit lors de l’exécution d’actions sur vos données par l’intermédiaire de Coworker.
+Cependant, certaines actions, telles que la suppression d&#39;objet, peuvent **ne pas** être inversées. Nous vous recommandons de garder cela à l’esprit lors de l’exécution d’actions sur vos données par l’intermédiaire de Coworker.
 
 ### Contraintes de couverture des données/objets
 
@@ -101,7 +101,7 @@ Cependant, certaines actions, telles que la suppression d’objet, ne peuvent **
 >
 >Ces fonctionnalités d’utilisation générale sont disponibles pour tous les utilisateurs dont l’organisation a enregistré un contrat Adobe AI signé.
 
-Pour connaître les bonnes pratiques et les invites pour ces compétences d&#39;utilisation générale, voir [Invites et bonnes pratiques de l&#39;assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md).
+Pour connaître les bonnes pratiques et les invites pour ces compétences générales, voir [Invites et bonnes pratiques de l&#39;assistant AI](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md).
 
 <!--Follow up with Oznur-->
 
@@ -109,15 +109,15 @@ Pour connaître les bonnes pratiques et les invites pour ces compétences d&#39;
 
 Un collègue peut fournir des instructions ou des informations de référence extraites de la documentation de Workfront.
 
-Pour plus d’informations sur l’extraction d’informations à partir de la documentation de Workfront, voir [Obtenir de l’aide de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
+Pour plus d’informations sur l’extraction d’informations à partir de la documentation de Workfront, consultez [Obtenir de l’aide auprès de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
 Exemple : comment modifier le type de durée d&#39;une tâche ?
 
 ### Résumé des projets, tâches et événements
 
-Un collègue peut résumer un projet, une tâche ou un événement<!--, or documents--> qui a été chargé dans Workfront.
+Mon collègue peut résumer des projets, des tâches ou des événements<!--, or documents--> qui ont été chargés vers Workfront.
 
-Pour plus d’informations sur les résumés de projets, de tâches et de problèmes, voir [Résumer à l’aide de l’assistant AI](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+Pour plus d&#39;informations sur les résumés de projets, de tâches et de problèmes, consultez [Résumer à l&#39;aide de l&#39;assistant AI](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 Exemple : résumez le projet appelé Campagne d’automne 2026.
 
@@ -273,11 +273,11 @@ Tenez compte des points suivants lorsque vous utilisez les approbations de docum
 * Les approbations de contenu doivent être activées pour votre organisation avant de pouvoir utiliser cette fonctionnalité dans Coworker.
 * L’IA ne peut pas approuver ni rejeter au nom des humains. Les décisions reposent sur les utilisateurs, à l’exception du réviseur de l’IA dédiée à Workfront.
 
-  Pour plus d’informations sur le réviseur de l’IA dédiée à Workfront, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+  Pour plus d’informations sur le réviseur de l’IA dédiée à Workfront, consultez [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 * Cette fonctionnalité existe dans Workfront et ne peut pas être utilisée pour interagir avec des outils ou des fournisseurs de documents externes.
 * Pour une expérience optimale, utilisez cette fonctionnalité avec l’expérience Validations unifiées .
 
-  Pour plus d&#39;informations sur les validations unifiées, voir [Présentation des validations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+  Pour plus d&#39;informations sur les approbations unifiées, consultez [Aperçu des approbations unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 Consultez des exemples d’invites pour les approbations de documents et de ressources dans les zones suivantes :
 
@@ -290,12 +290,12 @@ Consultez des exemples d’invites pour les approbations de documents et de ress
 * Ajouter Sarah Chen et Miguel Alvarez en tant qu&#39;approbateurs sur le document actuel.
 * Supprimer Jennifer Otto de cette approbation.
 * Supprimez toute personne qui n’a pas encore pris de décision d’approbation.
-* Ajoutez une nouvelle étape au fichier spring-campaign.pdf appelée « Révision finale ».
-* Ajoutez Mark et Sarah en tant qu’approbateurs et Phil en tant que réviseur pour la deuxième étape de la campagne d’hiver.pdf
-* Pour la campagne d&#39;hiver.pdf, donnez à la première étape une date limite pour aujourd&#39;hui à 17h, et à la revue finale une date limite pour demain à 17h
-* Ajoutez une étape de vérification finale au fichier fall-campaign.png avec une date limite de jeudi à 17h et incluez Jim et Pam en tant qu’approbateurs, ainsi qu’Oscar en tant que réviseur
-* Ajoutez Mark Jones au fichier fall-campaign.png aux première et dernière étapes en tant que réviseur/réviseuse.
-* Créons une validation en plusieurs étapes pour le fichier fall-campaign.png avec 3 étapes, 1 conception 2 rédaction et 3 juridiques. Je n&#39;ai besoin que d&#39;une seule décision pour chaque étape. Ajoutez Mike, Sally, Jane au design, Chris, Richard, Mark à la rédaction et Phil, Tom et Sarah à Legal.
+* Ajoutez une nouvelle étape au spring-campaign.pdf appelée « Révision finale ».
+* Ajoutez Mark et Sarah en tant qu’approbateurs et Phil en tant que réviseur pour la deuxième étape de winter-campaign.pdf
+* Pour le winter-campaign.pdf, donnez à la première étape une date limite pour aujourd&#39;hui à 17h, et à la dernière revue une date limite pour demain à 17h
+* Ajoutez une étape de vérification finale au fall-campaign.png avec une date limite pour jeudi à 17h et incluez Jim et Pam comme approbateurs, ainsi qu’Oscar comme réviseur
+* Ajoutez Mark Jones à fall-campaign.png aux première et dernière étapes en tant que réviseur/réviseuse.
+* Créons une approbation en plusieurs étapes pour le fall-campaign.png avec 3 étapes, 1 conception 2 rédaction et 3 juridiques. Je n&#39;ai besoin que d&#39;une seule décision pour chaque étape. Ajoutez Mike, Sally, Jane au design, Chris, Richard, Mark à la rédaction et Phil, Tom et Sarah à Legal.
 
 #### Rappeler aux parties prenantes qu’une seule ressource est en attente de révision
 
@@ -355,7 +355,7 @@ Consultez des exemples d’invites pour les approbations de documents et de ress
 * Pouvez-vous indiquer qui a modifié ce projet et ce qu’il a changé ?
 * J&#39;ai besoin de voir toutes les mises à jour de ce record la semaine dernière
 
-### Utilisation de System Designer dans Workfront Planning
+### Utilisation de Planning Designer dans Workfront Planning
 
 * [Création et configuration des espaces de travail](#create-and-configure-workspaces)
 * [Définition des types d’enregistrements](#define-record-types)
@@ -386,3 +386,15 @@ Consultez des exemples d’invites pour les approbations de documents et de ress
 * Créez une vue chronologique dans Planning pour afficher le planning de mes campagnes par dates de début et de fin
 * Ajouter une nouvelle vue de tableau à mes initiatives de planification qui filtre uniquement le statut actif
 * Dupliquez ma vue Campagnes actives Planning et modifiez le tri.
+
+### Collègue dans Espace d’idéation pour la planification Workfront (version bêta)
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* Idéation de campagne — Réfléchissez et générez des cartes d&#39;idées sur la zone de travail pour les campagnes et d&#39;autres sujets, à l&#39;aide des documents sources ci-joints et d&#39;autres sources. Il s’agit du principal point de départ de l’idéation.
+* Conversation de campagne - Parcourez les idées de campagne de manière conversationnelle dans l’application Espace d’idéation.
+* Résumé de campagne : créez et affinez un résumé de campagne structuré, avec des mécanismes de sécurisation pour qu’il reste complet et bien suivi.
+* Questions/réponses sur le document : posez des questions sur les documents que vous avez joints à votre session d’idéation.
+* Recherche — Ajoutez la recherche pour éclairer votre idéation sur la toile.
+* Invites de démarrage — Recevez des invites suggérées pour lancer ou développer votre idée.
+* Ouvrir la zone de travail — Lancez ou plongez dans une zone de travail Espace d&#39;idéation (utilisée lorsque vous commencez une conversation régulière en dehors de l&#39;application).
