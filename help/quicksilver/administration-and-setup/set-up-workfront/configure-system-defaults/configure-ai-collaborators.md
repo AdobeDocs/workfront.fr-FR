@@ -17,14 +17,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 4%
+source-wordcount: '1993'
+ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de prévisualisation pour tous les clients et clientes.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l&#39;environnement de prévisualisation pour tous les clients.</span>
 
 Les collaborateurs en IA permettent d’intégrer des agents en IA à vos projets, tâches et problèmes. Vous pouvez configurer un collaborateur d’IA, puis l’affecter comme vous le feriez à un utilisateur.
 
@@ -34,23 +34,19 @@ Les types de collaborateurs IA disponibles sont les suivants :
 
 * Réviseur AI : créez un collaborateur à l’aide de marques ou de Adobe Brand Intelligence, puis affectez-le en tant que réviseur de ressources.
 
-  Pour plus d’informations, voir [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+  Pour plus d’informations, consultez [Prise en main du réviseur de l’IA dédiée à Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Agent de travail : créez un collaborateur <span class="preview">optimisé par Adobe CX Coworker</span> ou connectez un agent à partir d’une plateforme externe prise en charge, puis affectez le collaborateur à une tâche ou à un événement pour terminer les tâches.
+* Agent de travail : créez un collaborateur <span class="preview">optimisé par Adobe CX Coworker,</span> ou connectez un agent à partir d’une plateforme externe prise en charge, puis affectez le collaborateur à une tâche ou à un événement pour terminer les tâches.
 
-  Pour plus d’informations, voir [Utilisation des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Pour plus d&#39;informations, voir [Utiliser des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
-  Pour plus d’informations sur Adobe CX Enterprise Coworker, voir [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
-
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
+  Pour plus d’informations sur Adobe CX Enterprise Coworker, consultez [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Les licences utilisées par les collaborateurs d’IA ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un collaborateur IA, 201 licences sont alors utilisées, mais seules 200 sont facturées.
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">Coordinateur de projet : collaborateur prêt à l&#39;emploi qui surveille le statut du projet et envoie des mises à jour du projet, sans avoir à configurer d&#39;agent externe.</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">Pour plus d&#39;informations, voir [Utiliser le collaborateur du coordinateur de projet](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
 
 
 ## Conditions d’accès
@@ -92,36 +88,34 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
   Pour plus d’informations, consultez [Signature du contrat Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) dans l’article Assistant AI dans Workfront.
 * Vous devez avoir configuré une marque dans Workfront avant de pouvoir l’utiliser pour un réviseur de l’IA.
 
-  Pour obtenir des instructions, voir [Créer et gérer des marques pour l’AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+  Pour obtenir des instructions, consultez [Créer et gérer des marques pour le réviseur de l’IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 * Pour utiliser Adobe Brand Intelligence pour un réviseur d’IA, votre entreprise doit utiliser l’expérience de révision et d’approbation unifiée dans Workfront.
 
-  Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+  Pour plus d&#39;informations, consultez [Prise en main de la révision et de l&#39;approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ### Pour les agents de travail
 
-<span class="preview">Les conditions préalables dépendent de l’origine de l’agent :</span>
+<span class="preview">Les conditions préalables dépendent de l&#39;origine de l&#39;agent :</span>
 
-* <span class="preview">Adobe Native : Adobe CX Coworker doit être activé pour votre organisation. Vous n’avez pas besoin de configurer un agent dans une plateforme externe ou de fournir les informations d’identification de plateforme externe.</span>
+* <span class="preview">Adobe Native : Adobe CX Coworker doit être activé pour votre organisation. Vous n&#39;avez pas besoin de configurer un agent dans une plateforme externe ou de fournir des informations d&#39;identification de plateforme externe.</span>
 * Plateforme externe ou agent personnalisé : configurez l’agent dans la plateforme à laquelle vous prévoyez de vous connecter avant de créer l’agent de travail dans Workfront.
 
 >[!NOTE]
 >
 >Notre objectif est de nous connecter à n&#39;importe quel fournisseur d&#39;agents. Si le fournisseur que vous utilisez n&#39;est pas actuellement compatible avec les agents de travail, veuillez contacter votre équipe de compte pour obtenir de l&#39;aide.
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## Créer un réviseur d’IA
 
 Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfront ou Adobe Brand Intelligence.
 
 * **Marques** : les marques sont créées dans Workfront. Vous pouvez créer des marques dans Workfront en chargeant des fichiers PDF qui contiennent vos directives de marque ou en saisissant manuellement des éléments de marque.
-* **&#x200B;**&#x200B;: lorsqu’un collaborateur d’IA révise une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
+* **Adobe Brand Intelligence** : lorsqu’un collaborateur d’IA examine une ressource à l’aide de Adobe Brand Intelligence, vous pouvez afficher les commentaires du réviseur d’IA dans Frame.io.
 
 
 {{step-1-to-setup}}
 
 1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
-1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l’écran.
+1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l&#39;écran.
 1. Cliquez sur **Réviseur**, puis sur **Continuer**.
 1. Dans le champ Nom du collaborateur, entrez le nom du collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
 1. Choisissez si le collaborateur utilisera une marque ou un Adobe Brand Intelligence pour ses révisions.
@@ -130,19 +124,17 @@ Les réviseurs d’IA peuvent être configurés pour utiliser les marques Workfr
 
 ## Configuration d’un agent de travail
 
-<span class="preview">Les conseils de configuration suivants reflètent la prise en charge native d’Adobe et le modèle de configuration basé sur l’origine qui est toujours en version préliminaire.</span>
+<span class="preview">Les conseils de configuration suivants reflètent la prise en charge native d’Adobe et le modèle de configuration basé sur l’origine qui est toujours en cours de prévisualisation.</span>
 
 Les agents de travail sont des agents que vous pouvez affecter à des tâches ou à des événements dans Workfront. Vous configurez l’agent de travail avec un nom, un niveau d’accès et d’autres détails, puis vous l’affectez à une tâche comme vous le feriez pour un utilisateur.
 
-Les agents de travail étant des agents, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Les agents de travail peuvent être <span class="preview">des agents de travail natifs qui utilisent Coworker</span> ou peuvent provenir d’une plateforme externe prise en charge telle que Copilot Studio, Claude, OpenAI et IBM.
+Les agents de travail étant des agents, leurs actions et capacités sont configurées à l’emplacement où vous configurez vos agents. Les agents de travail peuvent être des <span class="preview">agents de travail natifs qui utilisent Coworker,</span> ou peuvent provenir d&#39;une plateforme externe prise en charge telle que Copilot Studio, Claude, OpenAI et IBM.
 
 >Les agents de travail peuvent être affectés à des tâches ou à des événements.
 
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
-
 Les licences utilisées par les agents de travail ne sont pas facturées. Si votre entreprise dispose de 200 licences Workfront et crée un agent de travail, 201 licences sont alors utilisées, mais seules 200 sont facturées.
 
-Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’un agent pour travailler en tant qu’agent de travail, voir [Bonnes pratiques pour créer un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent).
+Pour obtenir une liste des bonnes pratiques à suivre lors de la création d&#39;un agent pour travailler en tant qu&#39;agent de travail, consultez [Bonnes pratiques pour créer un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent).
 
 * [Configuration d’un agent de travail dans Workfront](#configure-a-work-agent-in-workfront)
 * [Bonnes pratiques relatives à la création d’un agent pour un agent de travail](#best-practices-for-creating-an-agent-for-a-work-agent)
@@ -152,7 +144,7 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
 {{step-1-to-setup}}
 
 1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
-1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l’écran.
+1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l&#39;écran.
 1. Sélectionnez **Agents de travail**, puis cliquez sur **Continuer**.
 1. Dans le champ Nom du collaborateur de l’IA, saisissez un nom pour le collaborateur. Il s’agit du nom qui apparaît dans la liste des délégataires disponibles pour une tâche.
 1. Dans le champ Description du collaborateur de l’IA, saisissez une description de l’objectif du collaborateur ou des actions qu’il effectue.
@@ -163,7 +155,7 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
    >
    >Si vous êtes un administrateur de groupes, ce champ affiche uniquement les groupes pour lesquels vous êtes un administrateur. Les administrateurs et administratrices de groupe doivent sélectionner au moins un groupe.
 
-1. Dans la zone **Choisir l’origine de l’agent**, choisissez si vous souhaitez <span class="preview">utiliser Adobe Native</span>, connecter un agent créé sur une plateforme commune telle que Copilot ou utiliser un agent personnalisé.
+1. Dans la zone **Choisir l&#39;origine de l&#39;agent**, choisissez si vous souhaitez <span class="preview">utiliser Adobe Native</span>, connecter un agent créé sur une plateforme commune telle que Copilot ou utiliser un agent personnalisé.
 1. <span class="preview">(Conditionnel) Si vous sélectionnez Adobe Native, vérifiez qu’Adobe CX Coworker est activé pour votre organisation et que vous souhaitez utiliser l’agent Adobe Native prêt à l’emploi.</span>
 1. (Conditionnel) Si vous utilisez un agent provenant d’une plateforme commune, saisissez les détails d’authentification de la plateforme de l’agent :
 
@@ -171,11 +163,11 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
    |---|---|
    | Copilot Studio | Secret de canal web |
    | Claude Managed Agents | Clé API anthropique<br>ID d’agent<br>ID d’environnement |
-   | Agents OpenAI | Clé API <br>ID de l’agent |
-   | IBM watsonx Orchestrate | URL du service<br>clé API<br> ID de l’agent |
+   | Agents OpenAI | Clé API <br>ID d&#39;agent |
+   | IBM watsonx Orchestrate | URL du service<br>ID de l&#39;agent de la clé API<br> |
 
 1. Cliquez sur **Tester la connexion**. Vous pouvez ainsi savoir si la connexion a été correctement configurée.
-1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer/désactiver les actions que vous souhaitez que le collaborateur effectue.
+1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer les actions que vous souhaitez que le collaborateur effectue.
 
    * Envoyer une notification : l’agent ajoute un commentaire dans le flux de mise à jour, en identifiant l’utilisateur qui a demandé le travail, qui a affecté l’agent ou qui détient le projet.
    * Chargement de documents texte
@@ -185,7 +177,7 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d’u
 
 1. Cliquer sur **Enregistrer**.
 
-Pour plus d’informations sur les agents de travail, y compris sur la manière de les affecter à des tâches, voir [Utiliser des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+Pour plus d&#39;informations sur les agents de travail, y compris sur la manière de les affecter à des tâches, consultez [Utiliser des agents de travail](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 ### Bonnes pratiques relatives à la création d’un agent pour un agent de travail
 
@@ -232,7 +224,7 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez [Migration et obsolescence de la bibliothèque d’agents](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 
 <!--
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## Configuration d’un coordinateur de projet
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+Le coordinateur de projet est un collaborateur prêt à l’emploi qui surveille le statut des projets et contribue à maintenir le travail sur la bonne voie. Contrairement aux agents de travail, le coordinateur de projet ne nécessite pas que vous configuriez un agent externe.
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
+1. Cliquez sur **Nouveau collaborateur** dans le coin supérieur droit de l&#39;écran.
+1. Sélectionnez **Coordinateur de projet**, puis cliquez sur **Continuer**.
+1. Dans le champ **Nom du collaborateur de l&#39;IA**, saisissez un nom pour le coordinateur de projet. Il s’agit du nom qui s’affiche en tant que collaborateur dans votre projet.
+1. (Facultatif) Dans le champ **Description du collaborateur de l&#39;IA**, saisissez une description de ce que fait le coordinateur de projet ou de son objectif.
+1. Dans le champ **Niveau d&#39;accès**, sélectionnez un niveau d&#39;accès pour le coordinateur de projet. Ce niveau d’accès contrôle ce que le collaborateur peut faire dans les projets, de la même manière qu’un niveau d’accès contrôle ce qu’un utilisateur peut faire.
+1. (Facultatif) Dans le champ **Groupes**, sélectionnez les groupes auxquels le coordinateur de projet sera associé.
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >Si vous êtes un administrateur de groupes, ce champ affiche uniquement les groupes pour lesquels vous êtes un administrateur. Les administrateurs et administratrices de groupe doivent sélectionner au moins un groupe.
+
+1. Dans la zone **Actions du coordinateur**, indiquez comment le coordinateur de projet envoie les mises à jour des projets. Le coordinateur de projet doit être autorisé à effectuer ces actions. Un coordinateur de projet peut également commenter le projet et ses tâches.
+
+   Les mises à jour de projet peuvent inclure un résumé de l&#39;avancement, de l&#39;intégrité du projet, des tâches ou approbations en retard ou à risque, ainsi que des champs ou affectations manquants.
+
+   * Dans le champ **Cadence**, indiquez si le coordinateur de projet envoie des mises à jour tous les jours ou toutes les semaines.
+   * (Conditionnel) Si vous avez sélectionné Hebdomadaire, dans le champ **Jour**, sélectionnez le jour de la semaine où les mises à jour sont envoyées.
+   * Dans le champ **Heure**, sélectionnez l’heure d’envoi des mises à jour.
+   * Dans le champ **Fuseau horaire**, sélectionnez le fuseau horaire de l&#39;heure de mise à jour.
+   * Dans le champ **Qui obtient la mise à jour**, indiquez si la mise à jour est envoyée au propriétaire du projet ou aux parties prenantes du projet. La valeur par défaut est le propriétaire du projet.
+
+1. Cliquer sur **Enregistrer**.
+
+Après avoir enregistré le coordinateur de projets, ajoutez le champ **Coordonnateur de projets** à l’en-tête du projet dans les modèles de mise en page que vos utilisateurs utilisent. Les utilisateurs ne peuvent pas affecter un coordinateur de projet à un projet tant que le champ n&#39;est pas disponible dans l&#39;en-tête.
+
+Pour obtenir des instructions, voir [Personnaliser des en-têtes d&#39;objet à l&#39;aide d&#39;un modèle de disposition](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+Pour plus d&#39;informations sur le coordinateur de projets, y compris sur la manière de l&#39;affecter à des projets, consultez [Utiliser le collaborateur du coordinateur de projets](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 </div>
 
@@ -306,4 +305,4 @@ Vous pouvez modifier, copier et supprimer des collaborateurs IA existants.
 
 1. Dans le volet de navigation de gauche, cliquez sur **Collaborateurs AI**.
 1. (Conditionnel) Pour modifier un espace de collaboration, cliquez sur le nom de l&#39;espace de collaboration que vous souhaitez modifier, apportez des modifications dans la fenêtre Modifier l&#39;espace de collaboration, puis cliquez sur **Enregistrer**.
-1. (Conditionnel) Pour supprimer un espace de collaboration, cliquez sur l’icône Supprimer ![icône Supprimer](assets/delete-collaborator-icon.png) dans la ligne de l’espace de collaboration IA que vous souhaitez supprimer, puis cliquez sur **Supprimer**.
+1. (Conditionnel) Pour supprimer un collaborateur, cliquez sur l’icône Supprimer ![icône Supprimer](assets/delete-collaborator-icon.png) dans la ligne du collaborateur d’IA que vous souhaitez supprimer, puis cliquez sur **Supprimer**.

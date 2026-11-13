@@ -16,22 +16,20 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 10%
 ---
 # Collaborateurs IA
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de prévisualisation pour tous les clients et clientes.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l&#39;environnement de prévisualisation pour tous les clients.</span>
 
 Les collaborateurs de l’IA sont des agents d’IA que vous pouvez affecter à des tâches de la même manière que vous affectez une personne. Vous pouvez intégrer des collaborateurs d’IA à vos workflows existants, ce qui permet à votre équipe de se concentrer sur ce qui compte le plus.
 
-Les types de collaborateurs AI disponibles comprennent les réviseurs AI et les agents de travail.<!--<span class="preview">and Project Coordinators.</span>-->
+Les types de collaborateurs AI disponibles comprennent les réviseurs AI, les agents de travail<span class="preview"> et les coordinateurs de projet</span>.
 
-<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
-
-Pour les agents de travail, vous pouvez connecter un agent à partir d’une plateforme externe prise en charge <span class="preview">ou, si votre organisation a activé Adobe CX Coworker, sélectionnez Adobe Native pour utiliser un agent prêt à l’emploi optimisé par Adobe CX Coworker. L’option native d’Adobe ne nécessite pas d’informations d’identification de plateforme externe.</span>
+Pour les agents de travail, vous pouvez connecter un agent à partir d&#39;une plateforme externe prise en charge <span class="preview"> ou, si votre organisation a activé Adobe CX Coworker, sélectionnez Adobe Native pour utiliser un agent prêt à l&#39;emploi optimisé par Adobe CX Coworker. L&#39;option native d&#39;Adobe ne nécessite pas d&#39;informations d&#39;identification de plateforme externe.</span>
 
 ## Collaborateurs en IA au travail
 
@@ -39,4 +37,4 @@ Regardez comment un collaborateur d’IA sélectionne et effectue des tâches da
 
 >[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
 
-Pour plus d’informations sur les collaborateurs AI, voir [Configuration des collaborateurs AI](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+Pour plus d’informations sur les collaborateurs de l’IA, consultez [Configurer des collaborateurs de l’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
