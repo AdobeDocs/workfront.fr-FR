@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '729'
 ht-degree: 88%
-
 ---
-
 # Aligner des objectifs en les connectant dans les Objectifs Adobe Workfront
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ Lorsque toutes les personnes membres de votre organisation ont leurs objectifs a
 
 Il existe deux approches pour connecter les objectifs dans les Objectifs Adobe Workfront :
 
-* Vous pouvez créer un alignement entre les objectifs en liant les objectifs les uns aux autres.
+* Vous pouvez créer un alignement entre les objectifs en liant les objectifs les uns aux autres. Cet article décrit cette approche.
 
-* Vous pouvez aligner manuellement deux objectifs ou convertir les résultats et les activités d’un objectif existant en un autre objectif. Le résultat converti ou l’activité convertie devient l’objectif enfant de l’objectif initial.
+* Vous pouvez également aligner deux objectifs en convertissant les résultats et les activités d’un objectif existant en un autre objectif. Le résultat converti ou l’activité convertie devient l’objectif enfant de l’objectif initial.
+
+  Pour plus d’informations sur l’alignement des objectifs en convertissant les résultats et les activités en objectifs, voir [Aligner des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 >[!IMPORTANT]
 >
 >Un objectif peut avoir un total de 1 000 indicateurs de progression.
 
-Cet article décrit comment aligner des objectifs en les connectant les uns aux autres. Pour plus d’informations sur l’alignement des objectifs en convertissant les résultats et les activités en objectifs, voir [Aligner des objectifs en convertissant les résultats et les activités en objectifs](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Conditions d’accès
 
@@ -214,10 +213,10 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. Cliquez sur **Enregistrer les modifications**.
 
    L’objectif avec lequel vous avez commencé (objectif 2) est désormais l’objectif enfant de l’objectif parent avec lequel vous l’avez aligné (objectif 1).\
-   Les objectifs alignés s’affichent connectés dans la section Alignement des objectifs avec l’objectif 2 comme secondaire à l’objectif 1.
-L’objectif enfant s’affiche dans la section Indicateurs de progression de l’objectif parent lorsque sa progression met à jour la progression de l’objectif parent.
+   Les objectifs alignés s’affichent dans la section Alignement des objectifs, l’objectif 2 venant après l’objectif 1.
+   L’objectif enfant s’affiche dans la section Indicateurs de progression de l’objectif parent lorsque sa progression met à jour la progression de l’objectif parent.
 
-   ![&#x200B; Cartes alignées &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![Cartes alignées](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Facultatif) Pour afficher les objectifs dans la section Alignement des objectifs, accédez à la zone Objectifs de Workfront, puis cliquez sur le bouton **Alignement des objectifs** dans le panneau de gauche. Pour plus d’informations sur la section Alignement des objectifs, voir [Accéder à la section Alignement des objectifs dans les objectifs Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 98410f6d8632eb9842fdbcff88b52f4bc6a87b2e
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
 # Programme bêta des fonctionnalités des organisations connectées
@@ -224,11 +224,13 @@ En tant qu’utilisateur de l’instance du client, envoyez une requête en proc
 
    Un message **Demande envoyée avec succès** s’affiche avec un lien **Afficher votre demande**.
 
-   La nouvelle demande est ajoutée à la liste des demandes avec le nom du formulaire et un statut de **Nouveau**.
+   La nouvelle demande est ajoutée à la liste des demandes avec le nom du formulaire et un statut **Nouveau** à la fois sur l&#39;instance du client et celle du fournisseur.
 
    >[!TIP]
    >
    >Les réponses de l’IA peuvent être inexactes. Vérifiez toujours deux fois les valeurs renseignées avant d’envoyer.
+
+   La demande créée est en lecture seule sur l’instance du fournisseur.
 
 ### &#x200B;5. Examinez la demande et créez un projet
 
@@ -250,7 +252,7 @@ Le **Type** de la requête est marqué comme **Externe : &lt; nom de l&#39;insta
    * **Portfolio** et **Programme** : ajoutez des portfolios ou des programmes pour le nouveau projet.
 1. Cliquez sur **Créer**.
 
-   La demande dans l&#39;instance du fournisseur est désormais liée au nouveau projet et le statut de la demande passe à **En cours**. L’instance demandeuse du client voit le changement de statut sur sa propre copie de la requête.
+   La demande dans l&#39;instance du fournisseur est désormais liée au nouveau projet et le statut de la demande passe à **En cours**, si le projet a le statut En cours. L’instance demandeuse du client voit le changement de statut sur sa propre copie de la requête.
 
 ### &#x200B;6. Collaborer dans la conversation intersociétés
 

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 76%
+source-wordcount: '1673'
+ht-degree: 74%
 ---
 # Créer et modifier des niveaux d’accès personnalisés
 
@@ -115,7 +115,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <li>Contributeur</li>
       <li>Aucun</li>
      </ul> 
-      Pour plus d'informations, consultez <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l'accès à Adobe Workfront Planning</a> 
+      Pour plus d’informations, consultez <a href="/help/quicksilver/planning/access/access-overview.md">Présentation de l’accès à Adobe Workfront Planning</a> 
       <p><b>IMPORTANT</b></p>
       <p>Les licences Planning et les licences Workflow fonctionnent ensemble pour permettre aux utilisateurs d'accéder à Workfront. </p>
       <p>Vous pouvez attribuer à un utilisateur différents niveaux de types de licence entre les types de licence Workflow et Planning, mais la licence Workflow ne peut pas être inférieure à la licence Planning. </p>
@@ -224,7 +224,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
      </tr> 
      <tr> 
       <td role="rowheader">Afficher uniquement les entreprises, les groupes et les équipes auxquels ils appartiennent</td> 
-      <td>Permet aux utilisateurs et utilisatrices d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>REMARQUE </strong> : les utilisateurs disposant de licences de demandeur ou de contributeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
+      <td>Permet aux utilisateurs et utilisatrices d’afficher et de partager des éléments uniquement avec les entreprises, les groupes et les équipes auxquels ils appartiennent.<p><strong>REMARQUE</strong> : les utilisateurs disposant de licences de demandeur ou de contributeur ne peuvent pas afficher les sociétés auxquelles ils n’appartiennent pas, même si cette option est sélectionnée.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ne jamais autoriser que les heures prévues ou les heures réelles soient visibles</td> 
@@ -240,7 +240,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
       <td>
       <p>Sélectionnez ce paramètre pour permettre aux utilisateurs d’accéder au panneau Collègue.</p> 
       <p>Cette option est sélectionnée par défaut.</p>
-      <p>Pour plus d’informations, voir <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Utilisation de CX Enterprise Coworker dans Workfront</a>.</p>
+      <p>Pour plus d'informations, voir <a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">Utiliser CX Enterprise Coworker dans Workfront</a>.</p>
       <p><b>NOTE :</b></p>
       <p>Tous les clients n’ont pas accès à Coworkere.</p>
       </td> 
@@ -248,29 +248,28 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    <tr>
       <td role="rowheader">Autoriser les utilisateurs et utilisatrice à accéder aux Marques</td> 
-      <td>Permet aux utilisateurs d’accéder aux marques GenStudio et de les gérer dans Workfront. Pour plus d’informations, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Octroi de l’accès aux autorisations de marque</a>.</td> 
+      <td>Permet aux utilisateurs d’accéder aux marques GenStudio et de les gérer dans Workfront. Pour plus d'informations, voir <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Accorder l'accès aux autorisations de marque</a>.</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">Désactiver l’espace de conceptualisation</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>Sélectionnez ce paramètre pour permettre aux utilisateurs d’accéder à l’espace d’idéation.</p> 
+      <p>Cette option est sélectionnée par défaut.</p>
+      <p>Pour plus d'informations, voir <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Prise en main de l'espace d'idéation pour Adobe Workfront Planning </a>.</p>
+      <p><b>NOTE :</b></p>
+      <p>L’espace d’idéation est disponible dans Beta uniquement pour les clients qui disposent également d’un package Workfront Planning.</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 
-1. (Facultatif) Pour empêcher les utilisateurs disposant de ce niveau d’accès de voir des champs spécifiques, ajoutez les champs dans la section Ajouter des champs restreints </span>
+1. (Facultatif) Pour empêcher les utilisateurs disposant de ce niveau d&#39;accès de voir des champs spécifiques, ajoutez les champs dans la section Ajouter des champs restreints .</span>
 
    Vous pouvez rechercher des champs natifs et personnalisés dans cette section. Il existe une limite de 20 champs restreints.
 
-   Les champs sont restreints lorsque le niveau d’accès est attribué à un utilisateur en tant que niveau d’accès principal ou par le biais d’un profil d’entreprise. Pour plus d’informations sur les profils métier, voir [Présentation des profils métier](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+   Les champs sont restreints lorsque le niveau d’accès est attribué à un utilisateur en tant que niveau d’accès principal ou par le biais d’un profil d’entreprise. Pour plus d’informations sur les profils professionnels, consultez [Présentation des profils professionnels](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
    Un champ restreint est toujours visible par les utilisateurs du système, mais apparaît comme vide ou affiche S/O au lieu des données réelles.
 
@@ -289,7 +288,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
    Pour plus d’informations, voir [Modifier le profil d’une personne](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Pour plus d’informations sur la manière dont un administrateur Adobe attribue un niveau d’accès d’administrateur système à un utilisateur, consultez la section [Créer des administrateurs système dans Workfront avec Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). dans l’article Gestion des utilisateurs dans le Adobe Admin Console.
+   Pour plus d’informations sur la manière dont un administrateur Adobe attribue un niveau d’accès d’administrateur système à un utilisateur, consultez la section [Créer des administrateurs système dans Workfront avec le Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console). dans l’article Gestion des utilisateurs dans le Adobe Admin Console.
 
 
 <!--
