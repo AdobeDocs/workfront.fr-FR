@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 1%
 ---
 # Présentation de l’espace de stockage dans le cloud Adobe
 
 Le stockage dans le cloud d’Adobe est une solution de stockage dans le cloud qui sert de référentiel central pour les ressources de l’ensemble des produits d’entreprise Adobe. L’intégration de Workfront et Frame.io repose sur le stockage cloud Adobe, ce qui permet une collaboration et une gestion des ressources transparentes entre ces plateformes.
 
-Cette option de stockage permet également des intégrations de gestion des ressources à d’autres produits Adobe, y compris les applications Adobe Creative Cloud. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [&#128279;](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
+Cette option de stockage permet également des intégrations de gestion des ressources à d’autres produits Adobe, y compris les applications Adobe Creative Cloud. Pour plus d’informations, consultez [Présentation des projets Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Principales fonctionnalités
 
@@ -48,17 +48,17 @@ Cette option de stockage permet également des intégrations de gestion des ress
 
 * **Autorisations et accès centralisés** : le stockage dans le cloud Adobe prend en charge les contrôles d’accès au niveau de l’entreprise, en s’intégrant à Adobe IMS (système Identity Management) pour des autorisations utilisateur sécurisées et évolutives.
 
-* **Visibilité de bout en bout des ressources** : Assets stocké dans l’espace de stockage cloud d’Adobe peut être affiché et géré directement dans les applications Workfront, Frame.io et Creative Cloud, fournissant ainsi des métadonnées, un contrôle de version et des journaux d’audit cohérents.
+* **Visibilité de bout en bout des ressources** : Assets stocké dans l’espace de stockage cloud Adobe peut être affiché et géré directement dans les applications Workfront, Frame.io et Creative Cloud, fournissant ainsi des métadonnées, un contrôle de version et des journaux d’audit cohérents.
 
 * **Intégration aux workflows de révision et d’approbation** : le stockage dans le cloud Adobe permet des workflows de révision et d’approbation créatifs en servant de source de vérité pour toutes les ressources, en s’assurant que le suivi des commentaires et des approbations est centralisé.
 
-* **Stockage évolutif et gestion des quotas** : le stockage dans le cloud Adobe offre des options de stockage évolutives et un suivi unifié des quotas sur l’ensemble des produits Adobe.
+* **Gestion évolutive du stockage et des quotas** : le stockage dans le cloud Adobe offre des options de stockage évolutives et un suivi unifié des quotas pour tous les produits Adobe.
 
 ## Intégration aux workflows de révision et d’approbation
 
 L’intégration de Workfront et Frame.io utilise l’espace de stockage cloud d’Adobe pour fournir une expérience de révision et d’approbation unifiée. Cette intégration permet aux coordinateurs de projet de gérer les projets et de planifier le travail dans Workfront, tandis que les créatifs, les spécialistes marketing et les parties prenantes peuvent examiner et approuver les ressources dans Frame.io. Cela permet de s’assurer que toutes les parties prenantes ont accès aux dernières versions des ressources et que les commentaires sont centralisés au même endroit.
 
-Pour plus d’informations sur l’intégration de Workfront et Frame.io, voir [Aperçu de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Pour plus d&#39;informations sur l&#39;intégration de Workfront et Frame.io, consultez [Aperçu de la révision et de l&#39;approbation unifiées](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Différences entre le stockage dans le cloud Adobe et le stockage Workfront hérité
 
@@ -77,7 +77,7 @@ Une fois que vous avez activé le stockage dans le cloud Adobe dans votre enviro
 
 La nouvelle zone Documents est une zone de documents unifiés repensée pour le stockage dans le cloud Adobe.
 
-Cette interface mise à jour simplifie la navigation, améliore la clarté et permet aux équipes de gérer plus facilement les révisions et les approbations dans un environnement unifié. Pour plus d’informations, voir la [présentation de la zone Documents](/help/quicksilver/documents/managing-documents/documents-area.md).
+Cette interface mise à jour simplifie la navigation, améliore la clarté et permet aux équipes de gérer plus facilement les révisions et les approbations dans un environnement unifié. Pour plus d&#39;informations, consultez la présentation de la zone [Documents](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 #### Nouveau modèle d’autorisation de document
 
@@ -87,13 +87,13 @@ Cette interface mise à jour simplifie la navigation, améliore la clarté et pe
 
 Les documents ne peuvent pas être partagés individuellement. Au lieu de cela, le système génère automatiquement un dossier pour chaque tâche ou événement et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers la tâche ou l’événement sont stockés dans ce dossier généré.
 
-Pour plus d’informations sur le nouveau modèle d’autorisation du document, voir [&#x200B; Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Pour plus d’informations sur le nouveau modèle d’autorisation de document, consultez [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Objets liés dans des dossiers
 
 Au niveau du projet, les dossiers générés par le système affichent un objet lié. Le dossier est automatiquement nommé de la même manière que la tâche ou l’événement auquel il appartient. Les dossiers liés permettent au système de déterminer la tâche ou le problème sur lequel le dossier doit s’afficher.
 
-Pour plus d’informations, voir [Fonctionnement des autorisations de document](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Pour plus d&#39;informations, voir [Fonctionnement des autorisations de document](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 #### Adobe Cloud Drive
 
@@ -121,13 +121,13 @@ Dans trois cas spécifiques, vous pouvez convertir un objet de stockage Workfron
 
 Les documents et les dossiers de documents ne passent pas de l’ancien stockage Workfront à l’espace de stockage Adobe dans le cloud pendant aucune de ces conversions.
 
-Pour plus d’informations, voir [Portabilité des objets](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) dans [Déplacement vers Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
+Pour plus d’informations, voir [Portabilité des objets](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) dans [Déplacer vers Workfront sur l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
 ## Activer le stockage dans le cloud d’Adobe
 
 Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
 
-Pour plus d’informations sur l’activation de l’espace de stockage cloud Adobe dans votre environnement, voir [Activer l’espace de stockage cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Pour plus d’informations sur l’activation du stockage dans le cloud Adobe dans votre environnement, consultez [Activer le stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >
@@ -137,9 +137,15 @@ Pour plus d’informations sur l’activation de l’espace de stockage cloud Ad
 
 ## stockage dans le cloud Adobe dans les environnements sandbox
 
-L’espace de stockage dans le cloud d’Adobe est disponible dans [!DNL Workfront] environnements sandbox afin que vous puissiez le tester avant de l’activer en production. Cependant, la visionneuse Frame.io n’étant pas disponible dans le sandbox, l’expérience complète de révision et d’approbation unifiée doit être validée en production.
+L’espace de stockage Adobe dans le cloud est disponible dans [!DNL Workfront] environnements sandbox afin que vous puissiez le tester avant de l’activer en production. Cependant, la visionneuse Frame.io n’étant pas disponible dans le sandbox, l’expérience complète de révision et d’approbation unifiée doit être validée en production.
 
-Si vous disposez d’un sandbox d’actualisation personnalisé, vous devez l’actualiser après la mise à niveau vers une version de Workfront qui prend en charge l’espace de stockage dans le cloud Adobe pour accéder à la fonctionnalité d’espace de stockage dans le sandbox d’Adobe. Pour plus d’informations, voir [Environnement  [!DNL Adobe Workfront]  sandbox d’actualisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+>[!IMPORTANT]
+>
+>Lorsqu’un sandbox est actualisé à partir de la production, aucune donnée d’espace de stockage dans le cloud Adobe n’est copiée dans le sandbox. Les projets de stockage dans le cloud Adobe, leurs documents et les données associées ne sont pas inclus dans l’actualisation. Ce comportement est attendu, et résulte de la manière dont l’espace de stockage dans le cloud Adobe est architecturé. Les projets et documents de stockage Workfront hérités continuent à être copiés dans le sandbox comme d’habitude.
+>
+>Pour tester l’espace de stockage Adobe dans un sandbox, créez des projets d’espace de stockage Adobe et chargez des documents directement dans cet environnement.
+
+Si vous disposez d’un sandbox d’actualisation personnalisé, vous devez l’actualiser après la mise à niveau vers une version de Workfront qui prend en charge l’espace de stockage dans le cloud Adobe pour accéder à la fonctionnalité d’espace de stockage dans le sandbox d’Adobe. Pour plus d&#39;informations, consultez [L&#39;environnement [!DNL Adobe Workfront] Custom Refresh Sandbox](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Considérations
 
