@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 5%
+source-wordcount: '2454'
+ht-degree: 4%
 ---
 # Configurer des automatisations d’Adobe Workfront Planning
 
@@ -237,9 +237,10 @@ La page d’informations sur l’automatisation s’ouvre.
    * **Actions** : sélectionnez l’action que Workfront doit effectuer lors du déclenchement de l’automatisation. Champ obligatoire.
      Sélectionnez l’une des actions suivantes :
 
-     * Création de plusieurs projets
+     * Création d’un projet avec un workflow AEM
      * Créer un seul projet
-     * Créer un projet
+     * Création de plusieurs projets
+     * Création de plusieurs enregistrements
      * Créer un enregistrement
      * Créer un programme
      * Créer un portfolio
@@ -250,6 +251,12 @@ La page d’informations sur l’automatisation s’ouvre.
      >Après avoir enregistré l’automatisation, vous ne pouvez plus modifier l’action sélectionnée dans ce champ.
 
 1. (Conditionnel) Selon l’action sélectionnée, mettez à jour les champs suivants :
+
+   * **Créer un projet avec un workflow AEM** :
+     * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
+     * **Modèle de projet** : sélectionnez un modèle de projet que Workfront utilisera pour créer le projet.
+     * **Créer des dossiers liés** : activez cette option si vous souhaitez créer des dossiers liés pour le projet.
+
 
    * **Créer un seul projet** : <!--replace to the left: Create a single project-->
      * **Champ connecté où le projet est créé** : il s’agit du champ connecté où le nouveau projet s’affichera. Champ obligatoire.
@@ -284,9 +291,38 @@ La page d’informations sur l’automatisation s’ouvre.
 
        * **Champ sur le type d&#39;enregistrement connecté où l&#39;enregistrement actif s&#39;affichera** : il s&#39;agit du champ connecté sur le type d&#39;enregistrement sélectionné pour l&#39;action où l&#39;enregistrement actif s&#39;affichera.
 
-       Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
+         Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
 
-       Champ obligatoire.
+         Champ obligatoire.
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 Dans la zone **Mapper les champs**, mettez à jour les informations suivantes :
+
+       * **Transfert depuis** : sélectionnez les champs à partir du type d’enregistrement pour lequel l’automatisation est créée afin de les mapper aux champs du type d’enregistrement connecté.
+       * **Transférer vers** : sélectionnez des champs dans l&#39;enregistrement nouvellement créé qui seront renseignés avec les informations de l&#39;enregistrement à partir duquel vous exécutez l&#39;automatisation.
+
+       >[!TIP]
+       >
+       >* Les types de champ du type d’enregistrement d’origine doivent correspondre aux types de champ du type d’enregistrement nouvellement créé.
+       >* Si vous choisissez aucun champ, les noms des nouveaux enregistrements seront **Enregistrement sans titre**.
+
+
+   * **Créer plusieurs enregistrements** :
+     * **Type d’enregistrement** : sélectionnez le type d’enregistrement à créer.
+
+       La sous-section **Paramètres** s’affiche. Mettez à jour les champs suivants dans la sous-section **Paramètres** :
+
+       * **Champ sur le type d&#39;enregistrement connecté où l&#39;enregistrement actif s&#39;affichera** : il s&#39;agit du champ connecté sur le type d&#39;enregistrement sélectionné pour l&#39;action où l&#39;enregistrement actif s&#39;affichera.
+
+         Par exemple, si vous créez une automatisation pour que les campagnes connectent les enregistrements de produit à partir de , il s’agit du champ connecté sur le type d’enregistrement de produit à partir duquel les campagnes s’afficheront, une fois les produits créés à l’aide de l’automatisation.
+
+         Champ obligatoire.
+
+       * **Champ dont les choix créeront de nouveaux enregistrements :**
+
+         Il s’agit du champ à partir duquel les nouveaux enregistrements seront créés.
+
+         Par exemple, si un enregistrement Planning comporte un champ qui représente trois régions (Royaume-Uni, UE et États-Unis, par exemple), la sélection de ce champ crée trois enregistrements, un pour chaque option.
 
        <!--submitted a change in functionality and UI text for this - revise??-->
                                                                                  Dans la zone **Mapper les champs**, mettez à jour les informations suivantes :

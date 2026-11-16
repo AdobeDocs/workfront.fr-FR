@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Environnement de sandbox d’actualisation personnalisée [!DNL Adobe Workfront]
+title: Environnement De Sandbox D’Actualisation Personnalisée [!DNL Adobe Workfront]
 description: Le sandbox à actualisation personnalisée est un environnement dans lequel vous pouvez effectuer des tests et travailler en utilisant les données de votre environnement de production. Il est également idéal pour réaliser des formations et déterminer le fonctionnement d’une configuration.
 author: Becky
 feature: System Setup and Administration
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 78%
+source-wordcount: '1917'
+ht-degree: 75%
 ---
 # Environnement de sandbox à actualisation personnalisée [!DNL Adobe Workfront]
 
@@ -109,7 +109,13 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 L’espace de stockage dans le cloud d’Adobe est disponible dans le sandbox d’actualisation personnalisée afin que vous puissiez le tester avant de l’activer en production. Cependant, la visionneuse Frame.io n’étant pas disponible dans les environnements Sandbox, l’expérience complète de révision et d’approbation unifiée doit être validée en production.
 
-Après la mise à niveau vers une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe, vous devez actualiser votre sandbox d’actualisation personnalisée pour accéder à la fonctionnalité d’espace de stockage dans le cloud Adobe dans le sandbox. Une fois l’actualisation terminée, vous pouvez commencer à tester l’espace de stockage Adobe dans le cloud. Pour plus d’informations, voir [Activer l’espace de stockage dans le cloud Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+>[!IMPORTANT]
+>
+>Lorsque vous actualisez le sandbox d’actualisation personnalisée à partir de la production, aucune donnée d’espace de stockage dans le cloud Adobe n’est copiée dans le sandbox. Les projets de stockage dans le cloud Adobe, leurs documents et les données associées ne sont pas inclus dans l’actualisation. Il s’agit d’un comportement attendu. Les projets et documents de stockage Workfront hérités continuent à être copiés dans le sandbox comme d’habitude.
+>
+>Pour tester l’espace de stockage Adobe dans le sandbox d’actualisation personnalisée, créez des projets d’espace de stockage Adobe et chargez des documents directement dans cet environnement.
+
+Après la mise à niveau vers une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe, vous devez actualiser votre sandbox d’actualisation personnalisée pour accéder à la fonctionnalité d’espace de stockage dans le cloud Adobe dans le sandbox. Une fois l’actualisation terminée, vous pouvez commencer à tester l’espace de stockage Adobe dans le cloud. Pour plus d’informations, voir [Activer l’espace de stockage Adobe pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Accéder à la sandbox à actualisation personnalisée à partir de votre environnement de production {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
@@ -121,7 +127,7 @@ En tant qu’administrateur ou administratrice [!DNL Workfront], vous pouvez acc
 
 Pour accéder à votre sandbox à actualisation personnalisée :
 
-1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configuration]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
+1. Cliquez sur l’icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit de [!DNL Adobe Workfront], puis cliquez sur **[!UICONTROL Configurer]** ![Icône des paramètres d’engrenage](assets/gear-icon-settings.png).
 
 1. Cliquez sur **[!UICONTROL Système]** > **[!UICONTROL Préférences]**.
 
@@ -137,7 +143,7 @@ Pour accéder à votre sandbox à actualisation personnalisée :
 
 >[!IMPORTANT]
 >
->Les données Planning dans les tableaux de bord de la zone de travail ne sont visibles que par les administrateurs [!DNL Workfront] dans les environnements Sandbox.
+>Les données Planning dans les tableaux de bord de la zone de travail sont visibles uniquement par les administrateurs [!DNL Workfront] dans les environnements Sandbox.
 
 ## Accéder au sandbox à actualisation personnalisée à l’aide d’une URL {#access-the-custom-refresh-sandbox-using-a-url}
 
@@ -154,7 +160,7 @@ Pour accéder à votre sandbox à actualisation personnalisée à l’aide d’u
 
 1. Accédez à cette URL si vous n’avez qu’un seul sandbox à actualisation personnalisée :
 
-   `https://companyname.sb01.workfront.com` (ancienne URL :`https://cr1.attasksandbox.com/`.)
+   `https://companyname.sb01.workfront.com` (ancienne URL : `https://cr1.attasksandbox.com/`.)
 
    Ou, si vous disposez de deux sandbox à actualisation personnalisée, en plus des URL ci-dessus, vous pouvez également accéder à l’URL suivante pour accéder à votre deuxième sandbox à actualisation personnalisée :
 
@@ -248,7 +254,7 @@ Recalculer les chronologies permet aux personnes gestionnaires de voir comment d
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les chronologies de projet toutes les nuits ou lorsque la portée du projet change, ou les deux.
 
-Pour plus d’informations, voir [Configuration des recalculs de chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Pour plus d&#39;informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 Pour l’environnement de sandbox d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement de sandbox d’actualisation personnalisée. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
@@ -274,5 +280,5 @@ Les règles métier sont délibérément exclues de l’aperçu Workfront et des
 
 L’inclusion de règles métier dans une actualisation remplace ces configurations, ce qui peut perturber les règles que les administrateurs ont intentionnellement configurées dans des environnements hors production.
 
-Si vous devez déplacer des règles métier entre des environnements, utilisez la promotion d’environnement, qui vous permet de transférer de manière sélective des objets de configuration tout en contrôlant la durée et la portée. Pour plus d’informations, voir [Présentation du déplacement d’objets entre des environnements Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Si vous devez déplacer des règles métier entre des environnements, utilisez la promotion d’environnement, qui vous permet de transférer de manière sélective des objets de configuration tout en contrôlant la durée et la portée. Pour plus d’informations, consultez [Aperçu du déplacement d’objets entre des environnements Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 

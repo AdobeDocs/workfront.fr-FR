@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 71%
+source-wordcount: '197'
+ht-degree: 70%
 ---
 # Modèles de mise en page : index des articles
 
@@ -40,7 +40,6 @@ Interface Workfront pour vos utilisateurs.
 Les articles suivants décrivent comment personnaliser l’interface de Workfront à l’aide de modèles de disposition :
 
 * [À propos de la disposition Adobe Workfront par défaut](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [Appliquer une image de marque dans Adobe Workfront à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [Personnaliser le menu principal à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Personnaliser les en-têtes d’objet avec un modèle de mise en page](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [Personnaliser le panneau de gauche à l’aide d’un modèle de mise en page](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)

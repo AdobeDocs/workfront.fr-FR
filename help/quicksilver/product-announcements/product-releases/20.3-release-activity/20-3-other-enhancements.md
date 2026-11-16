@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 100%
 ---
 # Autres améliorations (version 20.3)
@@ -129,7 +129,7 @@ Il existe également un lien Détails sur l’utilisateur ou l’utilisatrice qu
 
 Désormais, vous pouvez utiliser un modèle de mise en page pour modifier les logos de la zone de navigation supérieure et du menu principal pour des groupes, des équipes, des fonctions et des utilisateurs et utilisatrices spécifiques ayant leur propre branding.
 
-Pour plus d’informations, voir [Personnaliser le branding de votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## Les administrateurs et administratrices de groupes peuvent créer et gérer des processus d’approbation.
 

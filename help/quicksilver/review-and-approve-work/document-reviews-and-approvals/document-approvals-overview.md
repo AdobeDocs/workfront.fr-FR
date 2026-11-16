@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # Aperçu de la révision et de l’approbation unifiées
@@ -37,7 +37,7 @@ ht-degree: 0%
 La révision et l’approbation unifiées rassemblent Adobe Workfront et Adobe Frame.io dans une expérience unique et profondément connectée, réduisant ainsi les écarts entre la gestion marketing, la révision créative et la diffusion de contenu.
 Les coordinateurs de projet gèrent le travail dans Workfront pendant que les créatifs, les spécialistes marketing et les parties prenantes examinent et approuvent les ressources dans la visionneuse Frame.io de qualité professionnelle, le tout sans déplacer les fichiers entre des outils déconnectés.
 
-![Diagramme présentant le workflow de révision et d’approbation unifié, avec les coordinateurs de projet gérant le travail dans Workfront et les réviseurs et approbateurs fournissant des commentaires et prenant des décisions dans la visionneuse Frame.io.](assets/Unified-Review-Approvals-Image.png)
+![Diagramme présentant le workflow de révision et d&#39;approbation unifié, avec des coordinateurs de projet gérant le travail dans Workfront et des réviseurs et approbateurs fournissant des commentaires et prenant des décisions dans la visionneuse Frame.io.](assets/Unified-Review-Approvals-Image.png)
 
 <!--
 ## Integration requirements
@@ -57,9 +57,9 @@ Les principaux avantages du stockage dans le cloud d’Adobe sont les suivants :
 * Visibilité complète des ressources sur les applications Workfront, Frame.io et Creative Cloud
 * Stockage évolutif et gestion des quotas pour les besoins de l&#39;entreprise
 
-Pour plus d’informations, consultez [Présentation de l’espace de stockage dans &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Pour plus d’informations, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, voir Présentation des projets Adobe Creative Cloud [&#128279;](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
+Les applications Creative Cloud (Photoshop, Illustrator et InDesign) peuvent également accéder directement aux projets Workfront. Pour plus d’informations, consultez [Présentation des projets Adobe Creative Cloud](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Révision et approbation unifiées
 
@@ -72,7 +72,7 @@ Grâce à la révision et à l’approbation unifiées, vous pouvez :
 * Utiliser les réviseurs d’IA pour automatiser les révisions de conformité de la marque
 * et plus...
 
-Pour plus d’informations, voir [Approbations de documents unifiés : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Pour plus d&#39;informations, voir [Approbations de documents unifiés : index des articles](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### Utilisation de la visionneuse Frame.io
@@ -84,7 +84,7 @@ Utilisez la visionneuse Frame.io pour réviser et approuver des ressources. La v
 * Commentaires horodatés pour les révisions vidéo
 * Accès mobile pour la révision et l&#39;approbation en déplacement avec l&#39;application [Frame.io iOS](https://help.frame.io/en/collections/9679120-ios-app)
 
-Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+Pour plus d&#39;informations, consultez [Prise en main de la révision et de l&#39;approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Limites de révision vidéo
 
@@ -116,7 +116,7 @@ Les logs de tracking des modifications apparaissent dans la zone Configuration d
 
 Les coordinateurs de projet peuvent tirer parti des puissantes fonctionnalités de gestion de projet de Workfront pour planifier, suivre et gérer le travail.
 
-Pour plus d’informations sur la gestion des projets dans Workfront, voir [Projets : index d’article](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Pour plus d’informations sur la gestion des projets dans Workfront, consultez [Projets : index d’article](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Structure appliquée et conventions de nommage
 
@@ -159,7 +159,7 @@ Le tableau suivant montre comment les autorisations Workfront sont mappées aux 
 
 ### Gestion des documents dans Workfront
 
-Les documents chargés vers Workfront sont stockés dans l’espace de stockage cloud d’Adobe et sont accessibles dans Workfront et Frame.io. Lorsque vous téléchargez un document vers une tâche ou un événement dans Workfront, un dossier généré par le système est créé dans l’espace de stockage Adobe dans le cloud et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Pour plus d’informations sur les documents dans Workfront, voir [Présentation de la zone des nouveaux documents](/help/quicksilver/documents/managing-documents/documents-area.md) et [Autorisations d’objet et présentation du niveau d’accès pour le modèle de stockage dans le cloud d’Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Les documents chargés vers Workfront sont stockés dans l’espace de stockage cloud d’Adobe et sont accessibles dans Workfront et Frame.io. Lorsque vous téléchargez un document vers une tâche ou un événement dans Workfront, un dossier généré par le système est créé dans l’espace de stockage Adobe dans le cloud et hérite des autorisations de la tâche ou de l’événement. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Pour plus d’informations sur les documents dans Workfront, consultez [La nouvelle présentation de la zone Documents](/help/quicksilver/documents/managing-documents/documents-area.md) et [la présentation des autorisations d’objet et du niveau d’accès pour le modèle de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 Vous pouvez également accéder à ces mêmes documents à partir de votre bureau Mac ou Windows à l’aide d’Adobe Cloud Drive. Adobe Cloud Drive monte vos projets de stockage dans le cloud Adobe sous la forme d’un lecteur sur votre ordinateur afin que vous puissiez ouvrir et modifier des fichiers dans n’importe quelle application tout en conservant les modifications synchronisées avec Workfront et Frame.io. Pour plus d’informations, consultez [Présentation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
@@ -175,7 +175,7 @@ Les fonctionnalités suivantes du document ne sont pas incluses :
 
 ## Prise en main de la révision et de l’approbation unifiées
 
-Pour commencer à utiliser la révision et l’approbation unifiées, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+Pour commencer à utiliser la révision et l&#39;approbation unifiées, consultez [Prise en main de la révision et de l&#39;approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ## Questions fréquentes
 
@@ -183,7 +183,7 @@ Pour commencer à utiliser la révision et l’approbation unifiées, voir [Pris
 
 +++ Développez pour afficher les questions fréquentes sur la prise en main de la révision et de l’approbation unifiées.
 
-**En quoi consistent la révision et l’approbation unifiées ?**
+**Qu&#39;est-ce que la révision et l&#39;approbation unifiées ?**
 
 La révision et l’approbation unifiées sont une intégration native entre Adobe Workfront et Adobe Frame.io qui réunit la gestion du travail et la révision créative dans un seul système connecté. Les coordinateurs de projet planifient et effectuent le suivi du travail dans Workfront, tandis que les réviseurs et les approbateurs utilisent la visionneuse Frame.io de qualité professionnelle pour fournir des commentaires, marquer les ressources et prendre des décisions d’approbation, sans basculer entre des outils distincts ou déplacer manuellement les fichiers.
 
@@ -191,7 +191,7 @@ La révision et l’approbation sont au centre de chaque opération de contenu. 
 
 L’examen et l’approbation unifiés permettent de résoudre ce problème en remplaçant le patchwork d’outils d’examen déconnectés par un système moderne, une source unique de vérité qui vit là où le travail se fait déjà.
 
-**Quelles sont les exigences à respecter pour utiliser cette intégration ?**
+**Quelles sont les conditions requises pour utiliser cette intégration ?**
 
 Pour utiliser la révision et l’approbation unifiées, les conditions suivantes doivent être remplies :
 
@@ -203,7 +203,7 @@ Pour utiliser la révision et l’approbation unifiées, les conditions suivante
 
 * Vous devez utiliser une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Si votre organisation ne dispose pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe.
 
-**Ai-je besoin d’une licence Frame.io pour utiliser cette intégration ?**
+**Ai-je besoin d&#39;une licence Frame.io pour utiliser cette intégration ?**
 
 Non. La visionneuse Frame.io est automatiquement incluse sans frais supplémentaires pour tous les utilisateurs de Workfront, y compris les utilisateurs externes invités à examiner ou approuver des ressources. Vous n’avez pas besoin d’une licence Frame.io distincte pour réviser et approuver des ressources via Workfront.
 
@@ -215,9 +215,9 @@ Oui. Lorsque la révision et l’approbation unifiées sont activées, la vision
 
 Les clients existants conserveront l’accès à la fonctionnalité de vérification linguistique de Workfront pour tous les projets créés avant l’activation de l’intégration.
 
-**Comment puis-je accéder à la révision et à l’approbation unifiées ?**
+**Comment puis-je accéder à la révision et à l&#39;approbation unifiées ?**
 
-**Que dois-je faire pour obtenir l’accès ?**
+**Que dois-je faire pour obtenir l&#39;accès ?**
 
 Pour accéder à la révision et à l’approbation unifiées, vous devez disposer d’une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe. Toute organisation qui ne dispose pas déjà d’une version prise en charge doit contacter son représentant de compte Adobe. Pour démarrer :
 
@@ -235,7 +235,7 @@ Pour accéder à la révision et à l’approbation unifiées, vous devez dispos
 
 +++ Développez pour afficher les questions fréquentes sur le fonctionnement de la révision et de l’approbation unifiées.
 
-**Comment fonctionne le workflow de révision et d’approbation ?**
+**Comment fonctionne le workflow de révision et d&#39;approbation ?**
 
 Le workflow suit les étapes générales suivantes :
 
@@ -257,9 +257,9 @@ Les approbateurs doivent prendre l&#39;une des décisions suivantes pour faire a
 
 * **Approuver** : la ressource est prête à être utilisée en l’état.
 
-* **Travail nécessaire** : la ressource a besoin d’être modifiée et doit être envoyée à nouveau en tant que nouvelle version pour approbation.
+* **Travail nécessaire** : la ressource nécessite des modifications et doit être envoyée à nouveau en tant que nouvelle version pour approbation.
 
-**Quels types de workflows d’approbation puis-je créer ?**
+**Quels types de workflows d&#39;approbation puis-je créer ?**
 
 * **Approbations à usage unique** : vous pouvez créer une approbation à usage unique directement sur un document d’un projet, d’une tâche ou d’un événement. Vous attribuez des réviseurs et des approbateurs, définissez des échéances et configurez plusieurs étapes si nécessaire. Les rappels par e-mail automatisés sont envoyés 72 heures avant, 24 heures avant et à l’échéance.
 
@@ -269,7 +269,7 @@ Les approbateurs doivent prendre l&#39;une des décisions suivantes pour faire a
 
 Les utilisateurs Workfront externes sont avertis par e-mail lorsqu’une révision ou une approbation leur est affectée. Ils seront invités à créer une connexion Frame.io pour accéder à la visionneuse et participer au processus de révision.
 
-**Comment effectuer le suivi de la progression de la révision et de l’approbation ?**
+**Comment puis-je suivre la progression de la révision et de l&#39;approbation ?**
 
 Les coordinateurs de projet peuvent surveiller toutes les approbations en cours de route de plusieurs manières :
 
@@ -286,7 +286,7 @@ Les coordinateurs de projet peuvent surveiller toutes les approbations en cours 
 
 +++ Développez pour afficher les questions fréquentes sur la révision et l’approbation des ressources et des vidéos.
 
-**Existe-t-il des limites aux révisions vidéo ?**
+**Y a-t-il des limites sur les révisions vidéo ?**
 
 Oui. Les demandes d’épreuves vidéo sont plafonnées à 10 % du nombre total de licences utilisateur payantes Workfront de votre entreprise (standard et light). Cette limite s’applique au niveau de l’organisation.
 
@@ -294,7 +294,7 @@ Les administrateurs de Workfront recevront des notifications in-app lorsque l’
 
 Cette limite ne s’applique pas aux clients Frame.io Enterprise. Si votre entreprise examine régulièrement d’importants volumes de contenu vidéo, contactez votre représentant de compte Adobe pour en savoir plus sur les licences Frame.io Enterprise.
 
-**Un même utilisateur peut-il apparaître à plusieurs étapes d’un workflow d’approbation ?**
+**Un même utilisateur peut-il apparaître à plusieurs étapes d&#39;un workflow d&#39;approbation ?**
 
 Oui. Un utilisateur peut être affecté à plusieurs étapes au sein du même workflow d’approbation.
 
@@ -304,7 +304,7 @@ Oui. Les workflows d’approbation à plusieurs étapes sont pris en charge, ce 
 
 **Puis-je configurer des chemins de révision parallèles dans un workflow d’approbation ?**
 
-Oui. Les workflows d’approbation prennent en charge les chemins parallèles en plus des étapes séquentielles. Chaque chemin d’accès s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Par conséquent, les révisions sur différents chemins d’accès peuvent se produire en même temps. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes dans une seule approbation. Les mêmes options sont disponibles dans les modèles d’approbation. Pour plus d’informations, consultez les sections [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) et [Créer un modèle de processus d’approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Oui. Les workflows d’approbation prennent en charge les chemins parallèles en plus des étapes séquentielles. Chaque chemin d’accès s’exécute indépendamment et contient une ou plusieurs étapes séquentielles. Par conséquent, les révisions sur différents chemins d’accès peuvent se produire en même temps. Vous pouvez configurer jusqu’à 30 chemins et 100 étapes dans une seule approbation. Les mêmes options sont disponibles dans les modèles d’approbation. Pour plus d’informations, voir [Création d’un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) et [Création d’un modèle de processus d’approbation de documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -324,15 +324,15 @@ Yes. When creating or editing an approval template, the timeframe (or "Workdays 
 For both single-stage and multi-stage reviews, automated reminder emails are sent at 72 hours, 24 hours, and on the deadline. However, reaching the deadline does not automatically reject the asset, lock the stage, or advance the workflow. Approvers and reviewers can still make decisions or complete their review after the deadline has passed. In a multi-stage workflow, each stage has its own independent deadline, and stages still advance based on all required decisions being made---not based on the deadline.
 -->
 
-**Les modèles d’approbation peuvent-ils inclure des groupes ou des équipes, ou uniquement des utilisateurs individuels ?**
+**Les modèles d&#39;approbation peuvent-ils inclure des groupes ou des équipes, ou uniquement des utilisateurs individuels ?**
 
 Actuellement, les modèles d’approbation prennent en charge les utilisateurs individuels et les équipes.
 
-**Les approbateurs sont-ils avertis par e-mail lorsqu’ils ont quelque chose à réviser ?**
+**Les approbateurs sont-ils avertis par e-mail lorsqu&#39;ils ont quelque chose à réviser ?**
 
 Oui. Les approbateurs et les réviseurs reçoivent des notifications par e-mail lorsqu’ils sont affectés à une révision ou une approbation. Les e-mails de rappel automatisés sont également envoyés 72 heures avant l’échéance, 24 heures avant l’échéance et à l’échéance elle-même.
 
-Vous pouvez ajouter un message personnalisé à chaque étape d’un workflow d’approbation. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront. Vous pouvez utiliser le même message pour chaque étape ou un message différent par étape et le message peut contenir jusqu’à 500 caractères. Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail. Pour plus d’informations, voir [Créer un processus d’approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Vous pouvez ajouter un message personnalisé à chaque étape d’un workflow d’approbation. Le message s’affiche dans l’e-mail de notification de validation et dans l’onglet Validations de Workfront. Vous pouvez utiliser le même message pour chaque étape ou un message différent par étape et le message peut contenir jusqu’à 500 caractères. Si vous modifiez un message personnalisé après la création du workflow d’approbation, une notification par e-mail mise à jour est envoyée à tous les participants existants. Si vous ajoutez un participant ultérieurement, le message personnalisé est inclus dans sa notification par e-mail. Pour plus d&#39;informations, voir [Créer un workflow d&#39;approbation de document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
@@ -340,7 +340,7 @@ Vous pouvez ajouter un message personnalisé à chaque étape d’un workflow d�
 No. Notification frequency settings such as receiving all comments, only replies to your comments, or daily digest summaries are not currently available for unified review and approval. The system sends email notifications automatically when a user is assigned as a reviewer or approver, and automated reminder emails are sent at 72 hours, 24 hours, and on the deadline. The ability to customize notification messages and frequency is on the product roadmap.
 -->
 
-**Puis-je garder une étape de révision privée des autres participants ?**
+**Puis-je garder une étape de révision privée pour les autres participants ?**
 
 Il n’existe actuellement aucune fonctionnalité d’étape privée. Pour que la révision reste privée pour les autres participants, il est recommandé de créer une copie distincte de la ressource spécifiquement pour ce groupe de révision. Les commentaires ne sont actuellement pas segmentés par groupe de participants dans une seule ressource.
 
@@ -350,7 +350,7 @@ Notez que l’historique des versions, y compris les versions antérieures et ac
 
 Oui. Les commentaires peuvent être marqués comme résolus dans la visionneuse Frame.io.
 
-**Quels outils de balisage et d’annotation sont disponibles dans la visionneuse Frame.io ?**
+**Quels outils de balisage et d&#39;annotation sont disponibles dans la visionneuse Frame.io ?**
 
 La visionneuse Frame.io comprend un ensemble complet d&#39;outils de balisage visuel, notamment le dessin à main levée et les formes standard telles que les cercles, les flèches et les carrés. Dans le cas des ressources vidéo, les commentaires sont horodatés avec une précision d’image exacte. Le retour est donc toujours lié au moment exact dans l’élément et pas seulement à un horodatage général.
 
@@ -360,11 +360,11 @@ Les commentaires et les annotations restent dans la visionneuse Frame.io afin de
 
 Le panneau Commentaires de Workfront affiche un message vous informant lorsque de nouveaux commentaires sont disponibles dans Frame.io.
 
-**Qui peut voir l’indicateur de commentaire Frame.io dans Workfront ?**
+**Qui peut voir l&#39;indicateur de commentaire Frame.io dans Workfront ?**
 
 Seuls les utilisateurs qui pouvaient déjà voir ces commentaires dans Frame.io peuvent voir l’indicateur. Si vous possédez une licence Enterprise Frame.io, vous la voyez pour tout commentaire sur le document. Si vous ne disposez pas d&#39;une licence Entreprise Frame.io, vous ne la verrez qu&#39;une fois qu&#39;une approbation existe pour le document. Les approbations vous permettent également de voir tous les commentaires précédents du document.
 
-**Est-il possible d’ajouter des commentaires sur une version téléchargée d’une ressource (par exemple, un PDF) ?**
+**Est-il possible d&#39;ajouter des commentaires à une version téléchargée d&#39;une ressource (par exemple, un PDF) ?**
 
 Cette fonctionnalité n’est actuellement pas prise en charge, mais elle est fréquemment demandée et est en cours d’examen pour une version ultérieure.
 
@@ -372,7 +372,7 @@ Cette fonctionnalité n’est actuellement pas prise en charge, mais elle est fr
 
 Les options de révision en bloc améliorées seront bientôt disponibles. En attendant, les ressources de différents types de fichiers, tels qu’une vidéo et un document Word, peuvent être incluses ensemble dans une révision de ressources groupée.
 
-**La révision et l’approbation unifiées concernent-elles uniquement les vidéos ou prennent-elles en charge d’autres types de fichiers ?**
+**La révision et l&#39;approbation unifiées concernent-elles uniquement la vidéo ou prennent-elles en charge d&#39;autres types de fichiers ?**
 
 La révision et l’approbation unifiées sont conçues pour tous les types de ressources, et pas seulement pour la vidéo. La visionneuse Frame.io a été considérablement mise à jour pour prendre en charge les images, les documents, les fichiers PDF et d’autres formats de fichiers courants en plus de la vidéo.
 
@@ -382,7 +382,7 @@ Pour obtenir la liste complète des types de fichiers pris en charge, consultez 
 
 Oui. Assets peut être partagé en externe. Les utilisateurs externes sont avertis par e-mail et seront invités à créer une connexion Frame.io pour accéder à la visionneuse et participer à la révision.
 
-**Puis-je joindre des images aux commentaires d’un document dans Workfront ?**
+**Puis-je joindre des images aux commentaires d&#39;un document dans Workfront ?**
 
 Si votre entreprise utilise l’espace de stockage Adobe dans le cadre de la révision et de l’approbation unifiées, vous pouvez joindre des fichiers image directement aux commentaires d’un document. Les images jointes sont stockées dans l’espace de stockage cloud Adobe et tous les formats de fichiers images de type média sont pris en charge.
 
@@ -422,7 +422,7 @@ Yes. When a new version is uploaded, previous approval participants are not auto
 
 +++ Développez pour afficher les questions fréquentes sur la gestion du stockage et des fichiers.
 
-**Qu’est-ce que le stockage dans le cloud d’Adobe et comment est-il lié à cette intégration ?**
+**Qu&#39;est-ce que l&#39;espace de stockage dans le cloud d&#39;Adobe et en quoi est-il lié à cette intégration ?**
 
 Le stockage dans le cloud Adobe est la couche de stockage commune qui connecte Workfront, Frame.io et Adobe Creative Cloud. Assets se trouve au même endroit et est accessible via plusieurs outils sans transfert manuel de fichiers. Les créatifs peuvent travailler sur place et les réviseurs voient toujours la dernière version.
 
@@ -500,7 +500,7 @@ Le tableau ci-dessous montre comment les autorisations Workfront sont mappées a
 
 +++ Développez pour afficher les questions fréquentes sur les intégrations et les fonctionnalités avancées.
 
-**Quel est l’impact sur les intégrations de plug-ins Creative Cloud existantes avec Adobe Express et GenStudio ?**
+**Comment cela affecte-t-il les intégrations de plug-ins Creative Cloud existantes avec Adobe Express et GenStudio ?**
 
 Des intégrations prenant en charge l’expérience de visionneuse Frame.io sont actuellement en cours de développement pour Adobe Express et GenStudio Performance Marketing. Les nouvelles intégrations seront créées sur le même système de révision et d’approbation unifié, de sorte qu’elles exploitent la visionneuse Frame.io pour une expérience de révision cohérente sur les trois produits.
 
@@ -520,7 +520,7 @@ La révision et l’approbation unifiées sont un composant fondamental d’Adob
 
 Au sein de cet écosystème, la révision et l’approbation servent de point de transfert critique entre la création et la diffusion. C’est là que le travail créatif rencontre les commentaires des parties prenantes, que la qualité est validée et que le contenu est autorisé à être publié. Lorsque cette remise est rapide, visible et fiable, elle libère de la vitesse dans l’ensemble de la supply chain de contenu. L’IA peut accélérer la création, l’automatisation peut gérer la distribution, mais un goulot d’étranglement en révision limite les gains des deux côtés. La connexion de Workfront et Frame.io supprime ce goulot d’étranglement.
 
-**Qu’est-ce que la fonctionnalité IA Reviewer ?**
+**Qu&#39;est-ce que la fonction de réviseur d&#39;IA ?**
 
 La révision et l’approbation unifiées comprennent une fonctionnalité d’IA Reviewer qui automatise les contrôles de conformité de la marque dans le cadre du processus de révision. Le réviseur AI peut évaluer les ressources par rapport aux directives de la marque et signaler les problèmes potentiels avant que les réviseurs humains ne soient engagés, ce qui permet aux équipes de détecter les problèmes plus tôt et d’avancer plus rapidement.
 
@@ -532,7 +532,7 @@ Pour plus d’informations sur la configuration et l’utilisation d’AI Review
 
 +++ Développez pour afficher les questions fréquentes sur la disponibilité et le stockage.
 
-**Quand la révision et l’approbation unifiées seront-elles disponibles pour moi ?**
+**Quand la révision et l&#39;approbation unifiées seront-elles disponibles pour moi ?**
 
 La révision et l’approbation unifiées sont maintenant disponibles. Access nécessite une version de Workfront qui prend en charge l’espace de stockage dans le cloud Adobe. Si vous ne disposez pas déjà d’une version prise en charge, contactez votre représentant de compte Adobe pour obtenir des conseils sur le passage à une version.
 
@@ -542,11 +542,11 @@ La révision et l’approbation unifiées sont maintenant disponibles. Access n�
 Until you move to a version of Workfront that supports Adobe cloud storage, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe cloud storage, or multi-stage approval templates---will be available until you are on a supported version and Adobe Professional Services configures the integration for your organization.
 -->
 
-**La mise à niveau vers une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe m’offre-t-elle plus de stockage ?**
+**La mise à niveau vers une version de Workfront prenant en charge l&#39;espace de stockage Adobe me permet-elle d&#39;augmenter mon espace de stockage ?**
 
 Oui. Sur une version de Workfront qui prend en charge le stockage dans le cloud Adobe, chaque utilisateur sous licence reçoit 60 Go de stockage, contre 30 Go dans la version précédente.
 
-**Comment choisir entre le stockage dans le cloud Adobe et le stockage Workfront hérité ?**
+**Comment choisir entre l&#39;espace de stockage dans le cloud d&#39;Adobe et l&#39;ancien espace de stockage Workfront ?**
 
 Le stockage dans le cloud Adobe active l’expérience de la visionneuse Frame.io et est requis pour une révision et une approbation unifiées. Le stockage hérité continue d’utiliser la visionneuse Workfront Proof (ProofHQ) par défaut.
 
@@ -581,6 +581,10 @@ Partiellement. Les workflows d’approbation peuvent être testés dans un envir
 
 Pour limiter l’exposition lors du déploiement, vous pouvez activer la révision et l’approbation unifiées pour un groupe spécifique dans votre environnement de production Workfront. Vous pouvez ainsi exécuter un pilote ciblé avec un plus petit ensemble d’utilisateurs avant d’effectuer un déploiement plus large.
 
+**Pourquoi mes documents et projets d’espace de stockage Adobe dans le cloud n’apparaissent-ils pas dans le sandbox après une actualisation ?**
+
+Il s’agit d’un comportement attendu. Lorsqu’un sandbox est actualisé à partir de la production, aucune donnée d’espace de stockage dans le cloud Adobe n’est copiée dans le sandbox. Les projets de stockage dans le cloud Adobe, leurs documents et les données associées ne sont pas inclus dans l’actualisation. Les projets et documents de stockage Workfront hérités continuent à être copiés dans le sandbox comme d’habitude. Pour tester l’espace de stockage Adobe dans un sandbox, créez des projets d’espace de stockage Adobe et chargez des documents directement dans cet environnement. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
 
@@ -593,7 +597,7 @@ Because the Frame.io viewer experience is not available in the Workfront sandbox
 
 +++ Développez pour afficher les questions fréquentes sur les épreuves interactives et HTML.
 
-**La révision et l’approbation unifiées prennent-elles en charge les épreuves interactives ou les URL HTML ?**
+**La révision et l&#39;approbation unifiées prennent-elles en charge les épreuves interactives ou les URL HTML ?**
 
 Les fichiers Zip HTML sont actuellement pris en charge pour la révision interactive. La prise en charge des URL HTML (révision des URL web en direct) est prévue pour le 3e trimestre.
 
@@ -605,7 +609,7 @@ Consultez les notes de mise à jour de Workfront sur Experience League pour conn
 
 +++ Développez pour afficher les questions fréquentes sur Fusion et l’automatisation.
 
-**Ai-je besoin de Workfront Fusion pour utiliser la révision et l’approbation unifiées ?**
+**Ai-je besoin de Workfront Fusion pour utiliser la révision et l&#39;approbation unifiées ?**
 
 Non. La révision et l’approbation unifiées sont une intégration de produit native qui ne nécessite pas Fusion. Le workflow est directement intégré à Workfront.
 
@@ -613,7 +617,7 @@ Non. La révision et l’approbation unifiées sont une intégration de produit 
 
 Oui. Les actions de fusion pour l’examen et l’approbation unifiés sont actuellement en cours d’élaboration et devraient être disponibles au 3e trimestre. Consultez les notes de mise à jour de Workfront sur Experience League pour connaître les mises à jour dès qu’elles sont disponibles.
 
-**Fusion peut-il être utilisé pour déclencher automatiquement une révision lorsqu’un document est chargé ?**
+**Fusion peut-elle être utilisée pour déclencher automatiquement une révision lorsqu&#39;un document est chargé ?**
 
 Oui. Ce type d’automatisation est possible à l’aide des Webhooks Workfront en combinaison avec Fusion.
 
@@ -623,7 +627,7 @@ L’impact varie en fonction de la conception de chaque workflow. En général :
 
 * **Modifier ou mettre à jour** : les workflows pour lesquels l’action liée à l’épreuve existante a un équivalent direct dans les approbations unifiées peuvent être mis à jour pour utiliser la nouvelle action.
 
-* **Reconstruire** : les workflows pour lesquels les étapes sous-jacentes ont considérablement changé ou pour lesquels de nouvelles fonctionnalités sont disponibles peuvent être reconstruits à partir de zéro.
+* **Reconstruire** : les workflows pour lesquels les étapes sous-jacentes ont considérablement changé ou de nouvelles fonctionnalités existent peuvent devoir être reconstruits à partir de zéro.
 
 Une image plus claire apparaîtra une fois que les API Fusion pour les approbations unifiées seront disponibles. Il est recommandé d’auditer vos workflows Fusion existants et de les évaluer par rapport aux nouvelles fonctionnalités d’approbations unifiées à ce moment-là.
 

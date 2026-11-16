@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 86%
+source-wordcount: '1509'
+ht-degree: 79%
 ---
 # Environnement de prévisualisation de sandbox [!DNL Adobe Workfront]
 
@@ -84,9 +84,21 @@ L’environnement de prévisualisation de sandbox permet également à [!DNL Wor
 
 L’environnement de prévisualisation est idéal pour organiser des formations, tester de nouvelles fonctionnalités et déterminer les fonctions de configuration.
 
+## Stockage dans le cloud Adobe dans le sandbox de prévisualisation
+
+L’espace de stockage cloud d’Adobe est disponible dans la sandbox de prévisualisation afin que vous puissiez le tester avant de l’activer en production. Cependant, la visionneuse Frame.io n’étant pas disponible dans les environnements Sandbox, l’expérience complète de révision et d’approbation unifiée doit être validée en production.
+
 >[!IMPORTANT]
 >
->Les données Planning dans les tableaux de bord de la zone de travail ne sont visibles que par les administrateurs [!DNL Workfront] dans les environnements Sandbox.
+>Lorsque le sandbox de prévisualisation est actualisé à partir de la production, aucune donnée de stockage dans le cloud Adobe n’est copiée dans le sandbox. Les projets de stockage dans le cloud Adobe, leurs documents et les données associées ne sont pas inclus dans l’actualisation. Il s’agit d’un comportement attendu. Les projets et documents de stockage Workfront hérités continuent à être copiés dans le sandbox comme d’habitude.
+>
+>Pour tester l’espace de stockage Adobe dans le sandbox de prévisualisation, créez des projets d’espace de stockage Adobe et chargez des documents directement dans cet environnement.
+
+Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!IMPORTANT]
+>
+>Les données Planning dans les tableaux de bord de la zone de travail sont visibles uniquement par les administrateurs [!DNL Workfront] dans les environnements Sandbox.
 
 >[!NOTE]
 >
@@ -94,7 +106,7 @@ L’environnement de prévisualisation est idéal pour organiser des formations,
 >
 >Le nom de l’environnement auquel vous accédez (Prévisualisation) et la version de lancement du code s’affichent sur la bannière. Cliquez sur **[!UICONTROL Voir les nouveautés]** pour obtenir des informations sur cette version.
 >
->![Bannière d’aperçu](assets/preview-banner-nwe-350x161.png)
+>![Bannière d&#39;aperçu](assets/preview-banner-nwe-350x161.png)
 
 ## Accéder à l’environnement de prévisualisation de sandbox
 
@@ -175,7 +187,7 @@ Pour plus d’informations sur l’authentification unique, voir [Vue d’ensemb
 
 >[!IMPORTANT]
 >
->La procédure décrite dans cette section s’applique uniquement aux organisations qui n’ont pas encore été intégrées à l’[!DNL Adobe Admin Console]. Comme toutes les organisations ont désormais été intégrées à l’[!DNL Adobe Admin Console], aucune action n’est nécessaire.
+>La procédure décrite dans cette section s’applique uniquement aux organisations qui n’ont pas encore été intégrées à [!DNL Adobe Admin Console]. Comme toutes les organisations ont maintenant été intégrées à [!DNL Adobe Admin Console], aucune action n’est nécessaire.
 >
 >Pour une liste des procédures qui diffèrent selon que votre organisation a été intégrée ou non à l’[!DNL Adobe Admin Console], voir [Différences d’administration en fonction de la plateforme ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -196,7 +208,7 @@ Recalculer les chronologies permet aux personnes gestionnaires de voir comment d
 
 En tant qu’administrateur ou administratrice Workfront, vous pouvez configurer le moment où Workfront recalcule automatiquement les chronologies de projet. Workfront peut recalculer les chronologies de projet toutes les nuits ou lorsque la portée du projet change, ou les deux.
 
-Pour plus d’informations, voir [Configuration des recalculs de chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Pour plus d&#39;informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 Pour l’environnement de Prévisualisation, le recalcul nocturne est désactivé et les chronologies de projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour l’environnement de prévisualisation. Pour plus d’informations, voir [Recalculer la chronologie du projet](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
@@ -213,4 +225,4 @@ Pour l’environnement de Prévisualisation, le recalcul nocturne est désactiv�
 
 * Toute interruption de l’environnement de prévisualisation [!DNL Workfront] pendant les week-ends (samedi et dimanche) sera résolue de manière à ce que l’environnement soit opérationnel pendant les heures de bureau le lundi.
 
-* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+* La visionneuse Frame.io n’est pas disponible dans l’environnement Aperçu. L’espace de stockage cloud d’Adobe est disponible afin que vous puissiez le tester dans le sandbox, mais l’expérience complète de révision et d’approbation unifiées doit être validée en production. Pour plus d’informations, voir [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
