@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
+source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
 workflow-type: tm+mt
-source-wordcount: '14776'
+source-wordcount: '14764'
 ht-degree: 90%
 ---
 # Guide Workfront {#using}
@@ -619,10 +619,7 @@ ht-degree: 90%
       * [Modifier les paramètres d’une équipe](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * Personnaliser Adobe Workfront {#customize}
     * [Personnaliser Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Branding personnalisé dans Adobe Workfront {#custom-branding}
-      * [Branding personnalisé](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [Personnaliser le branding de votre instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [Configurer une URL d’aide personnalisée](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [Configurer une URL d’aide personnalisée](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * Modèles de mise en page {#layout-templates}
       * [Modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [Disposition Workfront par défaut](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -638,7 +635,6 @@ ht-degree: 90%
       * [Personnaliser les filtres, les vues et les regroupements](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [Personnaliser la terminologie de l’interface utilisateur](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [Personnaliser la page de destination](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [Personnaliser le branding de Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [Tester un modèle de mise en page](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [Accès administratif pour les modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Affecter des utilisateurs et des utilisatrices à des modèles de mise en page](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
@@ -2693,7 +2689,7 @@ ht-degree: 90%
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
-    * [Nouveautés de la version 22 de l’API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Nouveautés de la version 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de l’API
     * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Nouveautés de l’API version 19](wf-api/api/new-api-version-19.md)

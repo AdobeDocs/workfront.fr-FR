@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1582'
 ht-degree: 93%
 ---
 # Vue d’ensemble de la diffusion des rapports
@@ -58,7 +58,7 @@ Tenez compte des points suivants lors de la planification des rapports pour leur
 
 * Vous pouvez planifier jusqu’à 10 remises répétées de rapports pour n’importe quel rapport donné.
 * Vous ne pouvez planifier la diffusion d’un rapport que si vous qui l’avez créé. Si vous devez envoyer un rapport que vous n’avez pas créé, vous pouvez l’envoyer manuellement.
-* <span class="preview">Dans la Prévisualisation, chaque diffusion de rapport planifiée doit avoir une date de fin définie. Si une diffusion a été précédemment définie sur Jamais, Workfront définit automatiquement la date de fin sur 13 mois à compter de la date d’envoi suivante du rapport.</span>
+* <span class="preview">Dans la prévisualisation, chaque diffusion de rapport planifiée doit avoir une date de fin définie. Si une diffusion a été précédemment définie sur Jamais, Workfront définit automatiquement la date de fin sur 13 mois à compter de la date d&#39;envoi suivante du rapport.</span>
 
 ## Limites d’export
 
@@ -175,13 +175,15 @@ L’horodatage comprend :
 * Heure
 * Fuseau horaire de l’envoi du rapport
 
+<!--
 ### Branding {#branding}
 
-Si votre administrateur ou administratrice Workfront a ajouté un branding personnalisé à votre instance Workfront, les rapports envoyés au format .pdf comprennent également votre logo personnalisé.
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
-Les rapports envoyés dans tous les autres formats ne peuvent pas être personnalisés avec votre logo.
+Reports sent in all other formats cannot be personalized with your logo.
 
-Pour plus d’informations sur le branding de votre instance Workfront, voir l’article [Personnaliser le branding de votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+-->
 
 ### Formatage {#formatting}
 

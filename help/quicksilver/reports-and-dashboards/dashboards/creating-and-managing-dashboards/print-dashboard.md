@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '431'
 ht-degree: 98%
 ---
 # Imprimer un tableau de bord
@@ -95,7 +95,7 @@ Les informations suivantes sont incluses dans le fichier de tableau de bord impr
 * Titres des rapports
 * Date et heure de la dernière génération du rapport
 * Tous les objets du tableau de bord, y compris les vues de liste, les pages web externes, les rapports et les calendriers
-* Le logo de votre société, si votre administration Workfront l’a personnalisé dans votre barre de navigation globale. Pour plus d’informations sur le placement d’une image de marque sur le site Workfront, voir [Appliquer votre image de marque à votre instance Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### Quels sont les éléments qui ne s’affichent pas ? {#what-is-not-displayed}
 
@@ -110,7 +110,7 @@ Les informations suivantes ne sont pas incluses dans le fichier de tableau de bo
 1. Accédez au tableau de bord que vous souhaitez imprimer.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Cliquez sur **Actions du tableau de bord** > **Aperçu avant impression**
+   * Cliquez Sur **Actions Du Tableau De Bord** > **Aperçu De L&#39;Impression**
 
    * Appuyez sur **Ctrl+P** (sous Windows) ou **Commande+P** (sur Mac).
 
