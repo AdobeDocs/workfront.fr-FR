@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 4%
 ---
 # Configurer des automatisations d’Adobe Workfront Planning
@@ -401,6 +401,10 @@ La page d’informations sur l’automatisation s’ouvre.
      Les enregistrements qui ont été créés à l&#39;aide d&#39;une automatisation supprimée restent connectés à l&#39;enregistrement sélectionné à l&#39;origine.
 
 ## Partager les automatisations
+
+>[!NOTE]
+>
+>Cette fonctionnalité a été temporairement supprimée de tous les environnements le 16 novembre 2026 et sera activée à une date ultérieure.
 
 En tant que créateur d’une automatisation, vous disposez par défaut des autorisations de niveau Gérer pour celle-ci.
 
