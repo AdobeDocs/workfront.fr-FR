@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 96%
 ---
 # Mettre à jour votre travail à l’aide du plug-in [!DNL Adobe Workfront]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez mettre à jour votre travail à partir des applications [!DNL Adobe Creative Cloud] suivantes :
 
@@ -115,7 +117,7 @@ Pour publier une mise à jour :
 
 1. Dans la **[!UICONTROL Liste de travail]**, sélectionnez l’élément de travail sur lequel vous devez publier une mise à jour.
 1. Cliquez sur **[!UICONTROL Mettre à jour]** dans la barre de navigation.\
-   ![Mise à jour &#x200B;](assets/photoshop-update-350x295.png)
+   ![Mise à jour de Photoshop](assets/photoshop-update-350x295.png)
 
 1. Cliquez sur **[!UICONTROL Nouvelle mise à jour]**.
 1. Saisissez votre mise à jour.

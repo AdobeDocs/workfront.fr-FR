@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b2e4857478a0604bc83ef570c4e47576e2369907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 90%
@@ -38,6 +38,8 @@ ht-degree: 90%
 # Plug-in [!DNL Adobe Workfront] pour les applications [!DNL Creative Cloud]
 
 <!--Audited: 12/2023-->
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez utiliser le plug-in [!DNL Adobe Workfront] pour [!DNL Creative Cloud] pour :
 
@@ -60,7 +62,7 @@ Pour plus d’informations sur l’utilisation et l’installation du plug-in, v
 * [Installer le plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] .](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [Gérer le travail avec le plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Charger des documents et des épreuves avec le plug-in  [!DNL Adobe Workfront]  pour les applications  [!DNL Creative Cloud] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [Tutoriel vidéo : utiliser  [!DNL Adobe Workfront]  modules externes pour  [!DNL Creative Cloud]](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
+* [Tutoriel vidéo : utiliser les  [!DNL Adobe Workfront] modules externes pour [!DNL Creative Cloud]](https://experienceleague.adobe.com/fr/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [Tutoriel vidéo : création et gestion des packages, déploiement des mises à jour et dépannage des erreurs d’installation](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

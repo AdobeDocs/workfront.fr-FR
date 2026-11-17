@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 93%
 ---
 # Charger des plans de travail [!DNL XD] en tant qu’épreuves sur [!DNL Workfront]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez charger vos plans de travail en tant qu’épreuves directement sur [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
@@ -90,7 +92,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve statique.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** au bas du plug-in.
 1. Sélectionnez les plans de travail que vous souhaitez charger.
@@ -131,7 +133,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Validations d’épreuves dans XD](assets/proof-approvals-xd-350x396.png)
+   ![Validations de BAT dans XD](assets/proof-approvals-xd-350x396.png)
 
 1. Choisissez le format d’export dans le menu déroulant **[!UICONTROL Type de ressource]**.
 
@@ -140,7 +142,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Nommez le PDF.
 
-   ![Options &#x200B;](assets/pdf-options.png)
+   ![Options de PDF](assets/pdf-options.png)
 
 1. Cliquez sur **[!UICONTROL Charger]**.\
    Le document apparaît dans la zone [!UICONTROL Documents] dans le plug-in et l’application de bureau.
@@ -175,7 +177,7 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
    ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve interactive.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
 1. Activez **[!UICONTROL Créer une épreuve]**.
@@ -207,7 +209,7 @@ Vous pouvez créer une épreuve interactive pour vos tableaux de bord à l’aid
 
 1. (Facultatif) Apportez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Validations d’épreuves dans XD](assets/proof-approvals-xd-350x396.png)
+   ![Validations de BAT dans XD](assets/proof-approvals-xd-350x396.png)
 
 1. Dans le menu déroulant **[!UICONTROL Type de ressource]**, sélectionnez le lien que vous venez de créer sous l’onglet **Liens partagés**. Pour plus d’informations, voir [Créer un lien interactif pour votre plan de travail](#create-an-interactive-link-for-your-artboard).\
    ![Liens partagés dans XDS](assets/shared-links-xd-350x870.png)
@@ -229,7 +231,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
    ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous devez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png)dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du plug-in.
 1. Activez **[!UICONTROL Créer une épreuve]**.
@@ -270,7 +272,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Validations d’épreuves dans XD](assets/proof-approvals-xd-350x396.png)
+   ![Validations de BAT dans XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Facultatif) Si vous sélectionnez le type de ressource PDF et que plusieurs plans de travail sont sélectionnés, choisissez si vous souhaitez exporter vos plans de travail en tant que **[!UICONTROL Fichiers PDF uniques]** ou en tant que **[!UICONTROL Plusieurs fichiers PDF]**.
 

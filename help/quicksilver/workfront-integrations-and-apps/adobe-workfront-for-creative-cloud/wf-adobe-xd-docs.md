@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 95%
 ---
 # Charger les plans de travail [!DNL XD] en tant que documents dans [!DNL Workfront]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez télécharger vos plans de travail en tant que documents pour une révision et une approbation rapides ou simplement les stocker dans [!DNL Adobe Workfront].
 
@@ -91,7 +93,7 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
    ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** en bas du plug-in.
 1. Sélectionnez le plan de travail que vous souhaitez charger.
@@ -139,7 +141,7 @@ Pour obtenir des instructions, voir [Installer [!DNL Adobe Workfront for XD]](/h
    ![Icône de menu](assets/menu-350x440.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png)dans la barre de navigation.
 
 1. Cliquez sur le document auquel vous souhaitez ajouter une nouvelle version.
 1. Cliquez sur **[!UICONTROL Nouvelle version]** près du bas du plug-in.

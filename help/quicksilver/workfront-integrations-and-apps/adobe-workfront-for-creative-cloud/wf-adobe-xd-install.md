@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 79%
 ---
 # Installer et ouvrir [!DNL Adobe Workfront for XD]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez installer le plug-in [!DNL Adobe Workfront for XD] depuis Adobe Marketplace. Le plug-in prend en charge les langues suivantes :
 
@@ -93,7 +95,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Si vous êtes un administrateur ou une administratrice [!DNL Adobe Admin Console], vous pouvez inclure le plug-in dans des packages de déploiement [!DNL Creative Cloud]. Pour plus d’informations, voir [Inclure des plug-ins dans votre package](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html).
 
-[Voir un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Regardez un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
 Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent également créer des packages de plug-ins seuls à distribuer aux utilisateurs et utilisatrices. Pour plus d’informations, voir [Créer des packages [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]]  pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md).
 
@@ -115,7 +117,7 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for XD] individuellement 
 
 1. Dans le coin inférieur gauche, cliquez sur l’icône **Plug-ins**.
 
-Fenêtre du plug-in XD ![](assets/xd-plugin-window-350x620.png)
+![Fenêtre du plug-in XD](assets/xd-plugin-window-350x620.png)
 
 1. Dans le **[!UICONTROL panneau des plug-ins]**, recherchez **[!UICONTROL Adobe Workfront for XD]**.
 
@@ -149,7 +151,7 @@ Fenêtre du plug-in XD ![](assets/xd-plugin-window-350x620.png)
 
 ### Résolution des erreurs de connexion
 
-**’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
+**L’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
 
 
 Vous ne pouvez pas utiliser une URL commençant par `experience.adobe.com` pour vous connecter au plug-in.

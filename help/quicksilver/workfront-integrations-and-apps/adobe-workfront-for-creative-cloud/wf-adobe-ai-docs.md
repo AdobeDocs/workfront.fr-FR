@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 94%
 ---
 # Charger des documents depuis [!DNL Illustrator]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez charger vos projets sous forme de documents pour les réviser et les approuver rapidement ou simplement les stocker dans [!DNL Adobe Workfront].
 
@@ -93,7 +95,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** près du bas du plug-in.
 1. (Facultatif) Saisir un commentaire dans la zone **[!UICONTROL Mises à jour]**.

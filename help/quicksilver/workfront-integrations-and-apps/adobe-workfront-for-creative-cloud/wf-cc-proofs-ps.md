@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Charger des épreuves à partir d’Adobe Photoshop
-description: Vous pouvez charger des paramètres prédéfinis de document photo en tant qu’épreuves directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
+description: Vous pouvez charger des paramètres prédéfinis de document photo en tant qu'épreuves directement sur [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 84%
 ---
 # Charger des épreuves à partir d’[!DNL Photoshop]
 
-Vous pouvez charger certains types de paramètres prédéfinis de document Photoshop en tant qu’épreuves directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
+{{cc-plugin-legacy-only}}
+
+Vous pouvez charger certains types de paramètres prédéfinis de document Photoshop en tant que BAT directement vers [!DNL Adobe Workfront] pour une révision et une approbation approfondies.
 
 >[!IMPORTANT]
 >
->Le fichier doit être un paramètre prédéfini de document photo, comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/fr/photoshop/using/create-documents.html).
+>Le fichier doit être un paramètre prédéfini de document photo comme décrit dans [Modèles et paramètres prédéfinis dans Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -95,7 +97,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** au bas du panneau [!DNL Workfront].
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
 1. (Facultatif) Saisissez un nom pour l’épreuve dans la zone de texte **[!UICONTROL Nom de l’épreuve]**.
@@ -121,7 +123,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** au bas du panneau [!DNL Workfront].
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
@@ -138,7 +140,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Ajouter un commentaire pour l’approbation automatisée](assets/add-comment-automated-approval.png)
+   ![Ajouter un commentaire à l&#39;approbation automatisée](assets/add-comment-automated-approval.png)
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
@@ -154,7 +156,7 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous devez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png)dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du panneau [!DNL Workfront].
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.

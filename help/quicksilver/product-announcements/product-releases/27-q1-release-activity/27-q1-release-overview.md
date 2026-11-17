@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 13%
 ---
 
@@ -114,6 +114,16 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Utiliser les playbooks du rédacteur pour créer des agents de travail</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>Vous pouvez désormais utiliser les playbooks du rédacteur pour créer des agents de travail.</p>
+            </td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
         </tr>
         <tr>
             <td>

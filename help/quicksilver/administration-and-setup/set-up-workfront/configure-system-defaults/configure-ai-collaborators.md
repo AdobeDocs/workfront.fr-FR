@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1956'
 ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
@@ -161,10 +161,11 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d&#39
 
    | Platform | Authentification requise |
    |---|---|
-   | Copilot Studio | Secret de canal web |
    | Claude Managed Agents | Clé API anthropique<br>ID d’agent<br>ID d’environnement |
-   | Agents OpenAI | Clé API <br>ID d&#39;agent |
+   | Copilot Studio | Secret de canal web |
    | IBM watsonx Orchestrate | URL du service<br>ID de l&#39;agent de la clé API<br> |
+   | Agents OpenAI | Clé API <br>ID d&#39;agent |
+   | Playbooks du rédacteur | Clé API </br> ID de playbook |
 
 1. Cliquez sur **Tester la connexion**. Vous pouvez ainsi savoir si la connexion a été correctement configurée.
 1. Dans la zone **Une fois le travail du collaborateur terminé, il peut** activer les actions que vous souhaitez que le collaborateur effectue.
@@ -216,42 +217,6 @@ Les bonnes pratiques suivantes peuvent s’avérer utiles lors de la création d
 
 +++
 -->
-+++ Rédacteur
-
-
-
->[!IMPORTANT]
->
->Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
->
->Pour plus d’informations sur l’obsolescence, consultez [Migration et obsolescence de la bibliothèque d’agents](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
-
-
-<!--
-
->[!NOTE]
->
-> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
-
-When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
-
-More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
-
-1. Create a no-code app in Writer AI Studio. 
-1. Add a single Text input field. You can use the default name "Text input."
-1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
-1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
-
-   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
-   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
- 
-1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
-1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
-
--->
-
-+++
 
 <div class="preview">
 
