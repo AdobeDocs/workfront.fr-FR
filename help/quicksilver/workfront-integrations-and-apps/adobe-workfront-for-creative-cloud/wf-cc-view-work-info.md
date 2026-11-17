@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 79%
 ---
 # Afficher les informations sur les éléments de travail à l’aide du plug-in [!DNL Adobe Workfront]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez consulter les informations sur les projets, les tâches, les problèmes et les documents à partir des applications [!DNL Adobe Creative Cloud] suivantes :
 
@@ -98,7 +100,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Détails]** ![Détails](assets/details.png) dans la barre de navigation pour afficher les éléments suivants :
+1. Cliquez sur l’icône **[!UICONTROL Détails]** ![Détails](assets/details.png) dans la barre de navigation pour afficher :
 
    * [!UICONTROL Description]
    * [!UICONTROL Date d’achèvement prévue]
@@ -119,7 +121,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur un document pour l&#39;afficher :
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur un document pour l’afficher :
 
    * [!UICONTROL Description]
    * [!UICONTROL Type de fichier]
@@ -140,7 +142,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
 
 1. Cliquez sur l’icône de flèche dans le coin supérieur droit de la miniature pour ouvrir les détails de l’épreuve dans [!DNL Workfront].
 
@@ -158,7 +160,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation, puis double-cliquez sur une épreuve.
 
 1. Faites défiler jusqu’au bas de l’écran pour afficher le statut actuel de l’épreuve. Pour plus d’informations sur les détails Envoyé, Ouvert, Commentaire, Décision (SOCD), consultez [Vue d’ensemble des détails du document](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
@@ -176,7 +178,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Utilisez l’icône **[!UICONTROL Menu]** pour accéder aux objets parent de l’élément de travail.
 
-1. Cliquez sur l’icône **[!UICONTROL Problème]** ![Icône Problèmes](assets/issues.png) ou **Sous-tâche** icône ![Sous-tâche](assets/subtasks.png).
+1. Cliquez sur l’icône **[!UICONTROL Problème]** ![Icône Problèmes](assets/issues.png) ou **Icône Sous-tâche** ![Icône Sous-tâche](assets/subtasks.png).
 
 1. Sélectionnez la tâche ou l’événement, puis cliquez sur l’icône **[!UICONTROL Détails]** ![Détails](assets/details.png) dans la barre de navigation pour afficher :
 

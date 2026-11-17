@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 73%
 ---
 # Installer et ouvrir [!DNL Adobe Workfront for Photoshop]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] à partir d’[!DNL Adobe Marketplace]. Le plug-in prend en charge les langues suivantes :
 
@@ -79,7 +81,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Si vous êtes un administrateur ou une administratrice [!DNL Adobe Admin Console], vous pouvez inclure le plug-in dans des packages de déploiement [!DNL Creative Cloud]. Pour plus d’informations, voir [Inclure des plug-ins dans votre package](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html).
 
-[Voir un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Regardez un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
 Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent également créer des packages de plug-ins seuls à distribuer aux utilisateurs et utilisatrices. Pour plus d’informations, voir [Créer des packages [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]]  pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md).
 
@@ -90,7 +92,7 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] individuel
 1. Accédez à la [Page d’installation d’Adobe Workfront pour Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) sur Adobe Exchange.
 1. Dans la boîte de dialogue qui apparaît, cliquez sur **Ouvrir l’application de bureau [!DNL Adobe Creative Cloud]**.
 1. Lorsque le gestionnaire des plug-ins [!DNL Adobe Photoshop] est ouvert, cliquez sur **[!UICONTROL Installer]**.
-1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]** et suivez les instructions à l’écran pour terminer l’installation.
+1. Lisez les informations de la boîte de dialogue, puis cliquez sur **[!UICONTROL OK]** et suivez les instructions à l&#39;écran pour terminer l&#39;installation.
 
 1. Pour plus d’informations sur l’ouverture du plug-in, reportez-vous à la section suivante.
 
@@ -102,7 +104,7 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] individuel
 
 1. Dans le menu supérieur, cliquez sur **[!UICONTROL Plug-ins]** > **[!UICONTROL Panneau plug-ins]**.
 
-   ![Panneau Modules externes](assets/plugins-panel-ps.png)
+   ![Panneau de modules externes](assets/plugins-panel-ps.png)
 
 1. Dans le **[!UICONTROL panneau plug-ins]**, choisissez l’onglet **[!UICONTROL Plug-ins]** et recherchez **[!UICONTROL Workfront pour Adobe Photoshop]**.
 
@@ -143,7 +145,7 @@ Vous pouvez installer le plug-in [!DNL Adobe Workfront for Photoshop] individuel
 
 ### Dépannage des erreurs de connexion
 
-**’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
+**L’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
 
 
 Vous ne pouvez pas utiliser une URL commençant par `experience.adobe.com` pour vous connecter au plug-in.
@@ -162,4 +164,4 @@ Pour résoudre ce problème, procédez comme suit :
 
 1. Revenez au plug-in et saisissez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
 
-   Pour [rechercher votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), accédez à Configuration, Informations sur le client.
+   Pour [trouver votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), accédez à Configuration, Informations sur le client.

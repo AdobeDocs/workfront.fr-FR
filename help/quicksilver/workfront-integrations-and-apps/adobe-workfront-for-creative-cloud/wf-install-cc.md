@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 77%
 ---
 # Installer et ouvrir [!DNL Adobe Workfront for design and video]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez installer [!DNL Adobe Workfront for design and video] à partir d’[!DNL Adobe Marketplace]. Ce plug-in prend en charge les applications Creative Cloud suivantes :
 
@@ -104,7 +106,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 Si vous êtes un administrateur ou une administratrice [!DNL Adobe Admin Console], vous pouvez inclure [!DNL Adobe Workfront for design and video] dans des packages de déploiement [!DNL Creative Cloud]. Pour plus d’informations, voir [Inclure des plug-ins dans votre package](https://helpx.adobe.com/fr/enterprise/using/manage-extensions.html).
 
-[Voir un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Regardez un tutoriel vidéo ici](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
 Les administrateurs et administratrices [!DNL Adobe Admin Console] peuvent également créer des packages de plug-ins seuls à distribuer aux utilisateurs et utilisatrices. Pour plus d’informations, voir [Créer des packages [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]]  pour vos utilisateurs et utilisatrices dans  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md).
 
@@ -132,7 +134,7 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-mêm
    >
    >Si vous utilisez Premiere Pro, un projet doit être ouvert pour accéder à ce menu.
 
-   ![Menu &#x200B;](assets/adobe-workfront-menu.png)
+   ![Menu Workfront](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -173,7 +175,7 @@ Vous pouvez installer [!DNL Adobe Workfront for design and video] pour vous-mêm
 
 ### Dépannage des erreurs de connexion
 
-**’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
+**L’erreur « Un problème est survenu » s’affiche lors de la tentative de connexion**
 
 
 Vous ne pouvez pas utiliser une URL commençant par `experience.adobe.com` pour vous connecter au plug-in.
@@ -187,9 +189,9 @@ Pour résoudre ce problème, procédez comme suit :
 
    >[!TIP]
    >
-   >Sur un Mac, accédez au Finder, appuyez sur **Commande + Maj + G**, accédez à `~/Library/Application Support/Workfront`, puis supprimez le dossier **Workfront**.
+   >Sur un Mac, accédez au Finder, appuyez sur **Commande+Maj+G**, accédez à `~/Library/Application Support/Workfront`, puis supprimez le dossier **Workfront**.
 
 
 1. Revenez au plug-in et saisissez votre domaine Workfront. Le domaine doit être `company-name.my.workfront.com` et non `experience.adobe.com`.
 
-   Pour [rechercher votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) , accédez à Configuration, Informations sur le client.
+   Pour [trouver votre domaine Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) , accédez à Configuration, Informations sur le client.

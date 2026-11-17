@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 91%
 ---
 # Charger des épreuves à partir d’[!DNL Illustrator]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez charger vos panoramas d’art en tant qu’épreuves directement sur [!DNL Adobe Workfront] pour un examen et une approbation approfondis.
 
@@ -89,7 +91,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** en bas du plug-in.
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
 1. (Facultatif) Saisissez un nom pour l’épreuve dans la zone de texte **[!UICONTROL Nom de l’épreuve]**.
@@ -115,7 +117,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous souhaitez charger une épreuve.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png) dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouveau fichier]** en bas du plug-in.
 1. Activez le bouton (bascule) **[!UICONTROL Créer une épreuve]**.
@@ -132,7 +134,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. (Facultatif) Saisissez un commentaire dans la zone **[!UICONTROL Mises à jour]**.
 
-   ![Ajouter un commentaire à l’approbation automatisée](assets/add-comment-automated-approval.png)
+   ![Ajouter un commentaire à l&#39;approbation automatisée](assets/add-comment-automated-approval.png)
 
 1. Choisissez le **[!UICONTROL type de ressource]** dans le menu déroulant.
 1. (Facultatif) Sélectionnez **[!UICONTROL Ajouter un fichier externe]** pour ajouter un fichier à partir de votre ordinateur.
@@ -148,12 +150,12 @@ Vous pouvez charger une nouvelle version d’une épreuve. Le plug-in conserve e
    ![Retour à la liste de travail](assets/go-back-to-work-list-350x314.png)
 
 1. Accédez à l’élément de travail dans lequel vous devez charger un document.
-1. Cliquez sur l’icône **[!UICONTROL Document]** ![icône de document](assets/documents.png) dans la barre de navigation.
+1. Cliquez sur l’icône **[!UICONTROL Document]** ![Icône de document](assets/documents.png)dans la barre de navigation.
 
 1. Cliquez sur **[!UICONTROL Nouvelle version]** en bas du plug-in.
 1. Activez l’option **[!UICONTROL Créer une épreuve]**.
 
-1. Dans la section *[!UICONTROL *Approbation d’épreuve]&#x200B;**, choisissez &#x200B;** [!UICONTROL De base] **&#x200B; ou &#x200B;** [!UICONTROL Automatique]**.
+1. Dans la section *[!UICONTROL *Approbation d’épreuve]**, choisissez **[!UICONTROL De base]** ou **[!UICONTROL Automatique]**.
 
 1. Ajoutez des **[!UICONTROL Réviseurs ou réviseuses]** ou un **[!UICONTROL Modèle de workflow]** en fonction du type d’approbation que vous avez sélectionné lors de l’étape 7.
 

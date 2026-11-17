@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 97%
 ---
 # Consigner le temps en utilisant le plug-in [!DNL Adobe Workfront]
+
+{{cc-plugin-legacy-only}}
 
 Vous pouvez consigner le temps consacré aux projets, aux tâches et aux problèmes sur lesquels vous travaillez directement dans l’une des applications [!DNL Adobe Creative Cloud] suivantes :
 
