@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '441'
 ht-degree: 97%
 ---
 # Améliorations apportées à l’application mobile et à l’intégration (version 20.4)
@@ -58,7 +58,7 @@ Workfront s’est associé à MobileIron, une plateforme de gestion des appareil
 
 Avec Workfront for MobileIron, l’équipe d’administration peut restreindre des fonctionnalités telles que le copier/coller et les captures d’écran. Vous pouvez télécharger l’application Workfront for MobileIron à l’adresse [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Pour plus d’informations sur la configuration de l’application, voir [Configurer Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## Créer rapidement une tâche dans l’application mobile Workfront
 
@@ -80,4 +80,4 @@ Lorsque vous êtes dans l’application mobile, vous pouvez demander à l’assi
 
 Ces commandes affichent une liste des différentes questions que vous pouvez poser à l’assistant.
 
-**Remarque : l’assistant virtuel mobile est obsolète depuis avril 2024.**
+**Remarque : l&#39;assistant virtuel mobile est obsolète depuis avril 2024.**

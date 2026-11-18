@@ -1,7 +1,7 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Utilisation de l’application mobile [!DNL Adobe Workfront]
+title: Utiliser l'application mobile [!DNL Adobe Workfront]
 description: Accélérez l’engagement et rationalisez le travail des équipes et des personnes de votre entreprise par le biais de l’application mobile [!DNL Adobe Workfront's], disponible sur tout appareil iOS ou Android.
 author: Lisa
 feature: Get Started with Workfront
@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 98%
 ---
 # Utilisez l’application mobile [!DNL Adobe Workfront] : index des articles
@@ -71,5 +71,4 @@ Pour plus d’informations sur l’application mobile [!DNL Adobe Workfront], co
 * [Partager et télécharger des épreuves dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
 * [Approbations dans l’application mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] pour  [!DNL Mobile Device Management]  (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-* [Configurer  [!DNL Adobe Workfront]  pour  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 
