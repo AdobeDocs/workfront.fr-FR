@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 81%
-
+source-wordcount: '1466'
+ht-degree: 79%
 ---
-
 # Gérer les informations dans la zone Vue d’ensemble des projets
 
 {{highlighted-preview}}
@@ -116,7 +114,7 @@ Old:
 
 1. Accédez au projet dont vous souhaitez afficher la section Vue d’ensemble.
 1. Cliquez sur **Détails du projet** dans le panneau de gauche.
-1. La section **Présentation** doit d’abord s’afficher dans les Détails du projet et doit être développée par défaut
+1. La section **Aperçu** doit d’abord s’afficher dans les Détails du projet et doit être développée par défaut
 
    Ou
 
@@ -126,7 +124,7 @@ Old:
    >
    >Selon la manière dont votre administrateur ou administratrice Workfront a configuré votre modèle de mise en page, la section Vue d’ensemble peut ne pas être répertoriée en premier, auquel cas elle est réduite. Pour plus d’informations, voir [Personnaliser la vue Détails à l’aide d’un modèle de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditionnel) Si un champ spécifique doit être mis à jour pour un projet mais ne s’affiche pas dans cette section, cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) en regard du nom du projet, puis sur **Modifier** pour afficher d’autres champs de projet.
+1. (Conditionnel) Si un champ spécifique doit être mis à jour pour un projet, mais qu’il ne s’affiche pas dans cette section, cliquez sur le menu **Plus** ![Icône Plus](assets/more-icon.png) en regard du nom du projet, puis **Modifier** pour afficher d’autres champs de projet.
 
    Pour plus d’informations sur la modification de projets, voir [Modifier des projets](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -163,7 +161,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Type de condition</td> 
-      <td>Détermine si le responsable définit le statut du projet ou si Workfront le définit. Pour plus d'informations sur le statut du projet, consultez l'article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Présentation du statut du projet et du type de statut</a>.</td> 
+      <td>Détermine si le responsable définit le statut du projet ou si Workfront le définit. Pour plus d'informations sur le statut du projet, consultez l'article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Aperçu du statut du projet et du type de statut</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mode horaire</td> 
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">Programme</td> 
-      <td>Programme associé au portfolio du projet. Vous devez créer le programme afin de pouvoir l’ajouter à un projet. </td> 
+      <td></p>Programme associé au portefeuille du projet. Vous devez créer le programme afin de pouvoir l’ajouter à un projet.</p>
+      <p> Lorsqu’un portefeuille comporte plus de 20 programmes actifs, le champ Programme de l’aperçu d’un projet répertorie uniquement les 20 premiers programmes par ordre alphabétique. La saisie d’une partie d’un nom permet de trouver tout programme actif du portefeuille. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groupe</td> 
@@ -238,7 +237,7 @@ Old:
    | Date de dernière mise à jour | La date et l’heure de la dernière mise à jour du projet. |
    | Dernière mise à jour par | Le nom de l’utilisateur ou de l’utilisatrice qui a effectué la dernière mise à jour du projet. |
    | Modèle |  |
-   | Espace de travail Frame.io | <span class="preview">L’espace de travail Frame.io est hérité du modèle utilisé pour le créer. Vous ne pouvez pas modifier ce champ après la création du projet.</span> |
+   | Espace de travail Frame.io | <span class="preview">L&#39;espace de travail Frame.io est hérité du modèle utilisé pour le créer. Vous ne pouvez pas modifier ce champ après la création du projet.</span> |
 
 
 1. Si votre entreprise a acheté une licence supplémentaire pour le planificateur de scénarios Adobe Workfront et que les informations du projet sont publiées à partir d’une initiative liée, passez en revue les informations suivantes sur l’initiative dans la zone du planificateur de scénarios :

@@ -27,13 +27,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 86%
-
+source-wordcount: '641'
+ht-degree: 84%
 ---
-
 # Niveler les ressources dans le [!UICONTROL Diagramme de Gantt]
 
 <!--Audited: 08/2025-->
@@ -122,6 +120,7 @@ Tenez compte des points suivants lors du nivellement des ressources sur un proje
   ![Mode de nivellement des ressources](assets/resource-leveling-mode-350x177.png)
 
 * En tant que personne propriétaire du projet ou personne affectée à une tâche, vous pouvez définir un délai de nivellement pour une tâche afin d’indiquer qu’il est très probable que la tâche nécessite du temps supplémentaire. Pour plus d’informations sur l’ajout d’un délai de nivellement à une tâche, consultez [Mettre à jour le délai de nivellement d’une tâche](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* Pour garantir des performances optimales, le nivellement des ressources ne fonctionne pas pour les tâches d&#39;une durée supérieure à 1 000 jours.
 
 ## Appliquer un nivellement des ressources au [!UICONTROL Diagramme de Gantt]
 
@@ -153,7 +152,7 @@ Vous pouvez utiliser le [!UICONTROL Diagramme de Gantt] de la liste des tâches 
    >
    >Vos ressources peuvent être surchargées si elles sont affectées à plusieurs tâches qui se produisent au cours de la même période.
 
-1. (Facultatif et conditionnel) Si vous avez désactivé l’option Enregistrement automatique, cliquez sur les icônes **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
+1. (Facultatif et conditionnel) Si vous avez désactivé l’option d’enregistrement automatique, cliquez sur les icônes **[!UICONTROL Annuler]** ou **[!UICONTROL Rétablir]** si vous souhaitez annuler ou dupliquer l’une des modifications.
 
    >[!TIP]
    >

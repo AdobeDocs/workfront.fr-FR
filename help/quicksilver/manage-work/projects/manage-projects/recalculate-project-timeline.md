@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 61%
-
+source-wordcount: '1119'
+ht-degree: 55%
 ---
-
 # Recalculer les chronologies des projets
 
 <!--Audited: 06/2025-->
@@ -115,6 +113,7 @@ Par défaut, les chronologies des projets sont automatiquement recalculées tous
 >[!IMPORTANT]
 >
 >* Si la chronologie d&#39;un projet dépasse 15 ans, le recalcul automatique est désactivé pour ce projet et vous ne pouvez sélectionner qu&#39;un type de mise à jour manuelle. Si vous définissez les dates du projet sur moins de 15 ans, vous devez recalculer manuellement votre chronologie une fois avant qu’elle ne soit calculée automatiquement.
+>* Les chronologies ne sont pas automatiquement recalculées pour les projets dont les tâches ont une durée supérieure à 1 000 jours. Vous devez recalculer manuellement les chronologies de ces projets.
 >* Pour les environnements Sandbox de prévisualisation et d’actualisation personnalisée, le recalcul nocturne est désactivé et les chronologies du projet ne sont pas recalculées automatiquement. Vous devez recalculer manuellement la chronologie du projet pour les environnements de prévisualisation et de sandbox d’actualisation personnalisée.
 >* Si un projet est complexe, le recalcul automatique de la chronologie peut ne pas se produire.
 > Un exemple de projet complexe peut être un projet avec plusieurs dépendances, un grand nombre de tâches, plusieurs prédécesseurs interprojets ou plusieurs indentations de tâches.
@@ -135,7 +134,7 @@ Workfront recalcule les chronologies quotidiennement uniquement pour les projets
 * Ont un statut Actuel.
 * Le type de mise à jour du projet est défini sur Automatique ou Automatique et En cas de modification.
 
-  Pour plus d’informations, voir [Présentation du type de mise à jour de projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Pour plus d&#39;informations, consultez [Aperçu du type de mise à jour du projet](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 * Disposer d’une date de dernière mise à jour au cours des 3 derniers mois. Un administrateur Workfront peut modifier cette fonctionnalité par défaut. Pour plus d’informations, voir [Configurer les nouveaux calculs de chronologie pour les projets](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
@@ -205,7 +204,7 @@ Vous pouvez recalculer la chronologie d’un projet dans Workfront à partir de 
 
    Ou
 
-   Accédez à une liste ou à un rapport de projet et sélectionnez un ou plusieurs projets, puis cliquez sur l’icône **Plus** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste.
+   Accédez à une liste de projets ou à un rapport et sélectionnez un ou plusieurs projets, puis cliquez sur l&#39;icône **Plus** ![Menu Plus](assets/qs-more-menu.png) en haut de la liste.
 
    ![Recalculer la chronologie des expressions avec la liste déroulante finances](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 

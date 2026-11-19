@@ -1,5 +1,5 @@
 ---
-title: Créer des briefs dans l’espace d’idéation
+title: Créer des briefs dans l’espace Idéation
 description: Cet article décrit comment réfléchir et élaborer des stratégies dans l'espace Idéation pour créer des briefs. Vous pouvez exporter les résumés d'idées terminés dans un fichier ou dans Workfront Planning pour créer ou mettre à jour des enregistrements.
 feature: Workfront Planning
 role: User, Admin
@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 2%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -188,6 +188,16 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
    * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur un enregistrement existant > cliquez sur **Ouvrir dans l’espace d’idéation**
 
      ![Espace d’idéation dans les détails de l’enregistrement](assets/ideation-space-button-in-details-page.png)
+
+     >[!IMPORTANT]
+     >
+     >Le point à partir duquel vous lancez l&#39;Espace d&#39;idéation détermine la structure brève. Les scénarios suivants sont possibles :
+     >
+     >* Lorsque vous le lancez à partir du bouton Nouvel enregistrement dans Planning, le brief contient les mêmes champs que le type d&#39;enregistrement de départ.
+     >
+     >* Lorsque vous le lancez à partir d&#39;un enregistrement Planning existant, le brief contient les mêmes champs avec les mêmes valeurs que l&#39;enregistrement.
+     >
+     >* Lorsque vous le lancez à partir du menu principal de Workfront, le brief contient les champs et les informations des fichiers que vous téléchargez sur la zone de travail.
 
 1. Lisez le contrat bêta et cliquez sur **Accepter**. Vous devez signer le contrat pour utiliser l&#39;espace d&#39;idéation.
 
@@ -235,7 +245,7 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
 1. (Facultatif) Cliquez sur l’icône **Conversations** ![Icône Conversations](assets/chats-icon-coworker.png) dans le coin supérieur droit du panneau Collègue, puis cliquez sur **Nouvelle conversation** pour ouvrir une nouvelle invite ou cliquez sur l’une des conversations précédentes de la liste pour revenir à une ancienne.
 
-   Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation d’Adobe CX Enterprise Coworker.
+   Pour plus d’informations sur les conversations, voir [Gérer vos conversations](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) dans la documentation d’Adobe CX Enterprise Coworker.
 
 1. Cliquez sur l’icône **Rechercher** ![Icône de recherche](assets/search-icon.png) pour rechercher des éléments dans la zone de travail d’idéation, puis cliquez sur lorsqu’elle s’affiche dans la liste pour y accéder.
 
@@ -244,10 +254,16 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
    Les informations peuvent être importées depuis Workfront Planning ou le Web.
 
    Vous pouvez également cliquer sur l’icône **Sources** ![Icône Sources](assets/sources-icon.png) dans le coin supérieur droit de l’espace pour afficher une liste de sources pour toutes les cartes de cet espace.
-1. (Facultatif) Cliquez sur **Commentaires** ![Icône de commentaire](assets/comments-icon.png) dans le coin supérieur droit de l’espace, et **@** marquez les autres pour commencer un brainstorming dans l’espace.
+1. (Facultatif) Cliquez sur **Commentaires** ![Icône de commentaire](assets/comments-icon.png) dans le coin supérieur droit de la zone de travail et **@** marquez les autres pour commencer un brainstorming dans l’espace.
 
    Les utilisateurs recevront une notification par e-mail concernant la balise .
+
+   >[!TIP]
+   >
+   >Vous pouvez ajouter des commentaires pour une carte ou un jeu de cartes.
+
 1. (Facultatif) Cliquez sur l’icône **Filtrer** ![Icône Filtrer](assets/filter-comments-icon.png) dans la carte de commentaire pour filtrer les commentaires selon les critères suivants :
+
 
    * Réviseurs
    * Heure à laquelle le commentaire a été ajouté
