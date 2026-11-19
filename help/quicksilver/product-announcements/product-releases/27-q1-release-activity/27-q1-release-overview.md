@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -38,6 +38,7 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations de la méthode Agile](#agile-enhancements)
 * [Améliorations de l’IA](#ai-enhancements)
 * [Améliorations des documents](#documents-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
@@ -100,6 +101,29 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td><p>29 Octobre 2026</p></td>
             <td><p>29 Octobre 2026</p></td>
             <td><p>29 Octobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Améliorations de la méthode Agile
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Mise à jour de l’aspect des champs de modification sur les cartes Agile</a></p>
+                <p>Les champs que vous utilisez pour modifier les cartes agiles ont une apparence mise à jour pour correspondre à d’autres styles dans Workfront.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 Décembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -282,6 +306,15 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
         </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Mise à jour de l’aspect du panneau de résumé pour les tâches, les événements et les documents</a></p>
+                <p>Le panneau Résumé a une apparence mise à jour, avec des informations et des champs organisés dans des onglets distincts.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 Décembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
+        </tr>
 <!--
         <tr>
             <td>
@@ -390,7 +423,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -447,7 +480,7 @@ Pour plus d&#39;informations sur les taux de fonctions, voir [Créer et gérer d
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

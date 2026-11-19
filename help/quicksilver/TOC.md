@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '14759'
+source-wordcount: '14764'
 ht-degree: 90%
 ---
 # Guide Workfront {#using}
@@ -20,6 +20,7 @@ ht-degree: 90%
     * Version Du T1 2027 {#release-27-q1}
       * [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
       * [Améliorations apportées à l’administrateur du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
+      * [Améliorations de l’agilité au premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md)
       * [Améliorations de l’IA pour le premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [Améliorations des documents du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
       * {hide-from-toc}[Améliorations de la gestion financière pour le premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)
@@ -2688,7 +2689,7 @@ ht-degree: 90%
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
-    * [Nouveautés de la version 22 de l’API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Nouveautés de la version 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de l’API
     * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Nouveautés de l’API version 19](wf-api/api/new-api-version-19.md)
