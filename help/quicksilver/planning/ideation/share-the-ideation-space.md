@@ -77,7 +77,7 @@ Tenez compte des points suivants :
 
 * Vous devez disposer des autorisations d’éditeur sur un espace d’idéation pour créer des résumés ou y contribuer, et les exporter vers d’autres applications.
 
-* 
+* &#x200B;
   * Le partage contrôle uniquement les personnes qui peuvent accéder à la zone de travail d’idéation et y collaborer. Les mises à jour des enregistrements ont toujours lieu uniquement lorsque quelqu’un exporte le brief vers Workfront Planning.
 
 ## Conditions d’accès
