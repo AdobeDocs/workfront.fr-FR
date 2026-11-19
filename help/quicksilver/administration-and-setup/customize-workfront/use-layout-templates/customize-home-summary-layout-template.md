@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 55%
@@ -87,7 +87,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
 1. Commencez à travailler sur un modèle de mise en page, comme décrit dans la section [Créer et gérer des modèles de mise en page](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Panneau Résumé**.
+1. Cliquez sur la flèche vers le bas ![Flèche vers le bas](assets/dropdown-arrow.png) sous **Personnaliser ce que voient les utilisateurs**, puis cliquez sur **Panneau de résumé**.
 
 1. Dans la liste qui s’affiche en dessous, cliquez sur le type d’objet pour lequel vous souhaitez personnaliser le panneau Résumé .
 
@@ -99,9 +99,8 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
     <tbody> 
      <tr> 
       <td role="rowheader">Tâches</td> 
-      <td> <p>Dans une liste de tâches, ce paramètre affecte le panneau Résumé qui s’affiche sur le côté droit de la page lorsqu’un utilisateur sélectionne une tâche, puis clique sur l’icône Ouvrir le résumé <img src="assets/summary-panel-icon.png">.</p>
-
-   <p> <img src="assets/summary-area.png"> </p> </td> 
+      <td> <p>Dans une liste de tâches, ce paramètre affecte le panneau Résumé qui s'affiche sur le côté droit de la page lorsqu'un utilisateur sélectionne une tâche, puis clique sur l'icône Ouvrir le résumé <img src="assets/summary-panel-icon.png">.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problèmes</td> 
@@ -118,16 +117,16 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    ![Choisir la catégorie à personnaliser](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Conditionnel) Si le menu déroulant **Bouton Définir l’action principale** s’affiche (si vous sélectionnez **Tâches** ou **Événements** dans la liste de gauche), cliquez sur l’action principale (**Terminé** ou **Statut**) que vous souhaitez rendre disponible pour les utilisateurs dans le panneau Résumé lorsqu’ils affichent une tâche ou un événement.
+1. (Conditionnel) Si le menu déroulant **Définir l&#39;action principale** s&#39;affiche (si vous sélectionnez **Tâches** ou **Événements** dans la liste de gauche), cliquez sur l&#39;action principale (**Terminé** ou **Statut**) que vous souhaitez rendre disponible pour les utilisateurs dans le panneau Résumé lorsqu&#39;ils affichent une tâche ou un événement.
 
-   ![Définir l’action principale](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![Définir l&#39;action principale](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Ajoutez des champs ![Ajouter un élément](assets/add-item-plus-in-circle-blue.png) ou masquer ![Masquer l’élément](assets/close-or-hide---x.png) pour le type d’objet sélectionné.
+1. Ajoutez ![Ajouter un élément](assets/add-item-plus-in-circle-blue.png) ou masquez ![Masquer les champs d&#39;élément](assets/close-or-hide---x.png) pour le type d&#39;objet sélectionné.
 
    ![Ajouter et masquer des champs](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Répétez les étapes 3 à 6 pour personnaliser le panneau Résumé pour tout autre type d’objet.
-1. Cliquez sur **Paramètres globaux**, en bas à gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :
+1. Cliquez sur **Paramètres globaux**, près du coin inférieur gauche, puis activez ou désactivez l’une des options suivantes liées aux objets Adobe Workfront dans le résumé :
 
    <table style="table-layout:auto"> 
     <col> 

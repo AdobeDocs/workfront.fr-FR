@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 51%
+source-wordcount: '427'
+ht-degree: 50%
 ---
 # Mettre à jour des éléments de travail dans l’équilibreur de charge de travail à l’aide du résumé
 
@@ -90,15 +90,19 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 
    Ou
 
-   Cliquez sur **Icône Ouvrir le résumé** ![Icône Ouvrir le résumé](assets/summary-panel-icon.png), puis cliquez sur la barre d’une tâche ou d’un événement pour ouvrir le panneau Résumé.
+   Cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir l’icône du résumé](assets/summary-panel-icon.png), puis cliquez sur la barre d’une tâche ou d’un événement pour ouvrir le panneau du résumé.
 
    Ou
 
-   Cliquez sur le menu **Plus** ![icône Plus](assets/more-icon.png) à droite d’une tâche ou d’un événement, puis cliquez sur **Ouvrir le résumé**.
+   Cliquez sur l&#39;icône ![Plus](assets/more-icon.png) du menu **Plus** située à droite d&#39;une tâche ou d&#39;un événement, puis cliquez sur **Ouvrir le résumé**.
 
    Le panneau Résumé s’ouvre à droite.
 
    ![Panneau Résumé](assets/summary-panel-task-wb-new-comments.png)
+
+   <span class="preview">Dans l&#39;aperçu :
+   ![Panneau Résumé](assets/summary-panel.png)
+   </span>
 
 1. Modifiez un certain nombre de champs pour l’élément de travail, saisissez une mise à jour ou accédez à d’autres zones de Workfront à partir d’ici pour ajouter des documents ou d’autres informations à l’élément de travail.
 
@@ -112,7 +116,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
    >
    >Si votre entreprise utilise l’espace de stockage Adobe pour les documents, vous ne pouvez pas ajouter de documents aux éléments de travail de l’espace de stockage Adobe dans le panneau Résumé .
    >
-   >Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   >Pour plus d&#39;informations, consultez [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Le cas échéant) Si vous avez ouvert l’une des sections de l’élément de travail, cliquez sur le **bouton Précédent** de votre navigateur pour revenir à l’équilibreur de charge de travail.
 1. Cliquez sur l’icône **Fermer** ![Fermer](assets/close-icon.png) dans le coin supérieur droit du résumé pour le fermer.
