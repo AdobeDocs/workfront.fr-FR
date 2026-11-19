@@ -1,7 +1,7 @@
 ---
 content-type: overview
 title: Vue d’ensemble du résumé
-description: Vous pouvez utiliser le panneau Résumé pour réviser et mettre à jour les informations d’élément de travail directement à partir d’une liste de tâches, d’événements, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent des tâches et des événements.
+description: Vous pouvez utiliser le panneau Résumé pour réviser et mettre à jour les informations d'élément de travail directement à partir d'une liste de tâches, d'événements, de documents ou d'autres zones de [!DNL Adobe Workfront] qui affichent des tâches et des événements.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
@@ -17,20 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 83%
+source-wordcount: '947'
+ht-degree: 70%
 ---
 # Vue d’ensemble du [!UICONTROL résumé]
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+{{highlighted-preview}}
 
 Vous pouvez utiliser le panneau [!UICONTROL Résumé] pour réviser et mettre à jour les informations de l’élément de travail directement à partir d’une liste de tâches, de problèmes, de documents ou d’autres zones de [!DNL Adobe Workfront] qui affichent les tâches et les problèmes.
 
@@ -119,13 +113,7 @@ Pour plus d’informations sur l’accès au [!UICONTROL Résumé] des documents
 ## Afficher le panneau [!UICONTROL Résumé] dans une liste de tâches ou de problèmes
 
 1. Accédez à une tâche ou à un problème et sélectionnez un élément dans la liste.
-1. Cliquez sur l’icône **[!UICONTROL Résumé]** ![Résumé dans la nouvelle barre d’outils](assets/qs-summary-in-new-toolbar-small.png)
-
-   ou
-
-   Cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![Ouvrir le résumé avec du texte](assets/open-summary-with-text-nwe.png) dans la section [!UICONTROL Soumis] de la zone [!UICONTROL Demandes].
-
-   Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez ou sélectionnez d’autres tâches ou problèmes et jusqu’à ce que vous le fermiez manuellement.
+1. Cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![Résumé dans la nouvelle barre d’outils](assets/qs-summary-in-new-toolbar-small.png). Une fois le résumé ouvert, il reste ouvert lorsque vous cliquez ou sélectionnez d’autres tâches ou problèmes et jusqu’à ce que vous le fermiez manuellement.
 
    >[!TIP]
    >
@@ -133,15 +121,17 @@ Pour plus d’informations sur l’accès au [!UICONTROL Résumé] des documents
 
    ![Panneau Résumé](assets/summary-panel-for-task-new-comments.png)
 
+   <!--![Summary panel](assets/summary-panel.png)-->
+
 1. (Facultatif) Pour fermer le panneau [!UICONTROL Résumé], effectuez l’une des opérations suivantes :
 
-   * Dans une liste de tâches ou d’événements, cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![icône du panneau Résumé](assets/summary-panel-icon.png)
+   * Dans une liste de tâches ou d’événements, cliquez sur l’icône **[!UICONTROL Ouvrir le résumé]** ![Icône du panneau Résumé](assets/summary-panel-icon.png)
 
      Ou
 
      Cliquez sur l’icône **X** dans le coin supérieur droit du panneau [!UICONTROL Résumé].
 
-   * Dans la section [!UICONTROL Envoyé] de la zone [!UICONTROL Demandes], cliquez sur l’icône **[!UICONTROL Fermer le résumé]** ![Fermer le résumé avec du texte](assets/close-summary-with-text-nwe.png)
+   * Dans la section [!UICONTROL Envoyé] de la zone [!UICONTROL Demandes], cliquez sur l&#39;icône **[!UICONTROL Fermer le résumé]** ![Fermer le résumé avec du texte](assets/close-summary-with-text-nwe.png)
 
      Ou
 
@@ -155,37 +145,58 @@ Lorsque vous faites glisser la bulle dans le panneau Résumé , le Pourcentage d
 
 ![Pourcentage terminé dans le panneau Résumé](assets/summary-overview-percent-complete.png)
 
+<span class="preview">Dans l&#39;aperçu :
+![Pourcentage d&#39;achèvement dans le panneau Résumé](assets/percent-complete.png)
+</span>
+
 ## [!UICONTROL Mises à jour]
 
-Utilisez la section [!UICONTROL Mises à jour] du [!UICONTROL résumé] pour afficher les mises à jour récentes et effectuer des mises à jour sur la tâche ou le problème que vous avez sélectionné. Cliquez sur **[!UICONTROL Tout afficher]** pour accéder directement à l’onglet [!UICONTROL Mises à jour] de la tâche.
+Utilisez l&#39;onglet [!UICONTROL Mises à jour] du [!UICONTROL Résumé] pour afficher les mises à jour récentes et effectuer des mises à jour sur la tâche ou le problème que vous avez sélectionné. Cliquez sur **[!UICONTROL Tout afficher]** pour accéder directement à l’onglet [!UICONTROL Mises à jour] de la tâche.
 
 ![Section Mises à jour dans le panneau Résumé](assets/summary-updates-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+![Met à jour la section dans le panneau Résumé](assets/updates.png)
+</span>
+
 ## [!UICONTROL Documents]
 
-Utilisez la section [!UICONTROL Documents] du [!UICONTROL résumé] pour afficher les documents associés à la tâche sélectionnée ou au problème sélectionné. Cliquez sur la miniature pour ouvrir un aperçu du document. Pour accéder directement à l’onglet [!UICONTROL Documents] sur la tâche ou le problème, cliquez sur le titre **[!UICONTROL Documents]**.
+Utilisez l&#39;onglet [!UICONTROL Documents] du [!UICONTROL Résumé] pour afficher les documents joints à la tâche ou à l&#39;événement que vous avez sélectionné. Cliquez sur la miniature pour ouvrir un aperçu du document. Pour accéder directement à l’onglet [!UICONTROL Documents] sur la tâche ou le problème, cliquez sur le titre **[!UICONTROL Documents]**.
 
 ![Section Documents du panneau Résumé](assets/summary-documents-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+Section ![Documents dans le panneau Résumé](assets/documents.png)
+</span>
+
+
 ## [!UICONTROL Détails]
 
-Utilisez la section [!UICONTROL Détails] du [!UICONTROL résumé] pour afficher les détails généraux de l’élément de travail, effectuer des affectations ou ajouter des dates de début. Cliquez sur **[!UICONTROL Afficher tout]** pour accéder directement à l’onglet [!UICONTROL Détails] de la tâche ou du problème.
-
-
+Utilisez l&#39;onglet [!UICONTROL Détails] du [!UICONTROL Résumé] pour afficher les détails généraux de l&#39;élément de travail, effectuer des affectations ou ajouter des dates de début. Cliquez sur **[!UICONTROL Afficher tout]** pour accéder directement à l’onglet [!UICONTROL Détails] de la tâche ou du problème.
 
 ![Section Détails du panneau Résumé](assets/summary-details-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+![Section Détails du panneau Résumé](assets/details.png)
+</span>
+
 ## [!UICONTROL Sous-tâches]
 
-Cette section n’est disponible que pour les tâches. Utilisez la section [!UICONTROL Sous-tâches] du [!UICONTROL résumé] pour afficher les sous-tâches avec les statuts [!UICONTROL Nouvelle], [!UICONTROL En cours], et [!UICONTROL Fermée] de la tâche que vous avez sélectionnée. Cliquez sur le menu déroulant **[!UICONTROL Statut]** pour passer d’un statut à un autre. Pour accéder directement à l’onglet [!UICONTROL Sous-tâches] de la tâche, cliquez sur le titre **[!UICONTROL Sous-tâches]**.
+Cette section n’est disponible que pour les tâches. Utilisez l’onglet [!UICONTROL Sous-tâches] du [!UICONTROL Résumé] pour afficher [!UICONTROL Nouvelles], [!UICONTROL En cours] et [!UICONTROL Clôturées] sous-tâches de la tâche que vous avez sélectionnée. Cliquez sur le menu déroulant **[!UICONTROL Statut]** pour passer d’un statut à un autre. Pour accéder directement à l’onglet [!UICONTROL Sous-tâches] de la tâche, cliquez sur le titre **[!UICONTROL Sous-tâches]**.
 
 Si vous n’avez ajouté aucune sous-tâche à la tâche, cliquez sur **[!UICONTROL Ajoutez-en une ici]** pour accéder directement à l’onglet [!UICONTROL Sous-tâches] de la tâche.
 
 ![Section Sous-tâches du panneau Résumé](assets/summary-subtasks-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+
+![Section Sous-tâches du panneau Résumé](assets/subtask.png)
+
+</span>
+
 ## [!UICONTROL Heures]
 
-Utilisez la section [!UICONTROL Heures] du [!UICONTROL résumé] pour consigner des heures sur la tâche sélectionnée ou le problème sélectionné. Cliquez sur **[!UICONTROL Consigner les heures]** et saisissez vos heures. Pour accéder directement à l’onglet Heures de la tâche ou du problème, cliquez sur le titre **[!UICONTROL Heures]**.
+Utilisez l’onglet [!UICONTROL Heures] du [!UICONTROL Résumé] pour consigner les heures de la tâche ou de l’événement que vous avez sélectionné. Cliquez sur **[!UICONTROL Consigner les heures]** et saisissez vos heures. Pour accéder directement à l’onglet Heures de la tâche ou du problème, cliquez sur le titre **[!UICONTROL Heures]**.
 
 Le nombre d’heures dans le [!UICONTROL résumé] affiche les heures que vous consignez. Les autres utilisateurs et utilisatrices auront un nombre total d’heures différent dans le [!UICONTROL Résumé] selon les heures qu’ils consignent pour la tâche.
 
@@ -193,10 +204,20 @@ S’il n’y a pas de nombre d’[!UICONTROL heures] prévues sur la tâche ou l
 
 ![Section Heures du panneau Résumé](assets/summary-hours-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+
+![Section Heures du panneau Résumé](assets/hours.png)
+
+</span>
+
 ## Approbations
 
-Utilisez la section [!UICONTROL Approbations] du [!UICONTROL résumé] pour afficher les approbations jointes à la tâche sélectionnée ou au problème sélectionné. Si vous n’avez ajouté aucune approbation, sélectionnez une approbation existante dans le menu déroulant ou cliquez sur **[!UICONTROL Créer un processus d’approbation à utilisation unique]** pour accéder directement à l’onglet [!UICONTROL Approbations] de la tâche ou du problème.
+Utilisez l&#39;onglet [!UICONTROL Approbations] du [!UICONTROL Résumé] pour afficher les approbations jointes à la tâche ou à l&#39;événement que vous avez sélectionné. Si vous n’avez ajouté aucune approbation, sélectionnez une approbation existante dans le menu déroulant ou cliquez sur **[!UICONTROL Créer un processus d’approbation à utilisation unique]** pour accéder directement à l’onglet [!UICONTROL Approbations] de la tâche ou du problème.
 
 Pour accéder directement à l’onglet [!UICONTROL Approbations] de la tâche ou du problème, cliquez sur le titre **[!UICONTROL Approbations]**.
 
 ![Section Approbations du panneau Résumé](assets/summary-approvals-section.png)
+
+<span class="preview">Dans l&#39;aperçu :
+![Section Approbations dans le panneau Résumé](assets/approval.png)
+</span>

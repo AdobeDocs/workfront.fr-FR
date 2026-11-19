@@ -27,24 +27,24 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 28%
 ---
 # La zone Documents
 
 Dans la zone Documents, vous pouvez organiser, gérer et afficher les métadonnées des documents chargés dans Adobe Workfront. Vous pouvez également voir le statut de décision de l’épreuve.
 
-Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre organisation dépend du stockage Workfront hérité ou du stockage dans le cloud Adobe. Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront comporte actuellement deux versions de la zone Documents : la zone des documents hérités et la zone des nouveaux documents. La version utilisée par votre organisation dépend du stockage Workfront hérité ou du stockage dans le cloud Adobe. Pour plus d’informations sur ces types de stockage, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zone des documents hérités
 
 Il existe deux types de zones Documents. Les fonctionnalités sont les mêmes pour les deux :
 
-* **Zone Documents dans un programme, un portfolio, un modèle, un projet, une tâche ou un événement :** répertorie tous les documents auxquels vous avez accès pour un projet, une tâche ou un événement spécifique. Pour accéder à cette zone, cliquez sur **Documents** ![icône Documents](assets/document-icon-12x14.png) dans le panneau de gauche lors de l’affichage d’un projet, d’une tâche ou d’un événement.
+* **Zone Documents dans un programme, un portfolio, un modèle, un projet, une tâche ou un événement :** Répertorie tous les documents auxquels vous avez accès pour un projet, une tâche ou un événement spécifique. Pour accéder à cette zone, cliquez sur **Documents** ![icône Documents](assets/document-icon-12x14.png) dans le panneau de gauche lors de l’affichage d’un projet, d’une tâche ou d’un événement.
 
-* **Zone Documents générale :** répertorie tous les documents auxquels vous avez accès dans Workfront. Pour accéder à cette zone, cliquez sur **Documents** ![icône Documents](assets/document-icon.png) dans le menu principal ![icône du menu principal](assets/main-menu-icon.png).
+* **Zone Documents générale :** répertorie tous les documents auxquels vous avez accès dans Workfront. Pour accéder à cette zone, cliquez sur **Documents** ![Icône Documents](assets/document-icon.png) dans l&#39;icône du Menu principal ![Icône du Menu principal](assets/main-menu-icon.png).
 
 Pour plus d’informations sur le chargement de documents vers Workfront, voir [Ajouter des documents à Adobe Workfront à partir de votre système de fichiers](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -64,7 +64,12 @@ Si la relecture est configurée pour le document, la section Détails contient d
 
 Vous pouvez cliquer sur l’en-tête Détails pour accéder à la zone Détails du document complète lorsque vous avez besoin de toutes les informations sur un document.
 
-![Zone Documents](assets/documents-area-v2-350x199.png)
+![Zone des documents](assets/documents-area-v2-350x199.png)
+
+<span class="preview">Dans l&#39;aperçu :
+![Panneau de résumé de la zone Documents](assets/legacy-document-summary.png)
+</span>
+
 
 Pour plus d’informations sur le résumé, voir [Vue d’ensemble du résumé des documents](../../documents/managing-documents/summary-for-documents.md).
 
@@ -92,21 +97,21 @@ La page Détails du document fournit une version plus complète des Détails du 
 
 La nouvelle zone Documents n’est disponible que si votre organisation se trouve dans l’espace de stockage cloud d’Adobe. Pour plus d’informations sur l’espace de stockage dans le cloud Adobe, consultez [Présentation de l’espace de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-![zone nouveaux documents](assets/new-doc-area.png)
+![zone des nouveaux documents](assets/new-doc-area.png)
 
 ### Utilisation du panneau de résumé
 
 Lorsque vous sélectionnez un document dans la zone des documents, vous pouvez utiliser le panneau Résumé à droite pour afficher des détails sur le document, ajouter et modifier des formulaires personnalisés joints, créer et gérer des workflows d’approbation, afficher des versions du document, etc.
 
-![Panneau Résumé avec les détails du document ouvert](assets/new-doc-details.png)
+![Panneau de résumé avec les détails du document ouvert](assets/new-doc-details.png)
 
 #### Vérifier et approuver avec Frame.io
 
 Vous pouvez réviser et approuver des documents dans la nouvelle zone Documents à l&#39;aide de la visionneuse Frame.io.
 
-Pour plus d’informations, voir [Prise en main de la révision et de l’approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+Pour plus d&#39;informations, consultez [Prise en main de la révision et de l&#39;approbation unifiées](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-![panel de synthèse ouvert à l&#39;examen et aux approbations](assets/new-doc-approvals.png)
+![panneau de synthèse ouvert à la révision et aux approbations](assets/new-doc-approvals.png)
 
 #### Gestion des versions
 
@@ -114,7 +119,7 @@ Vous pouvez charger de nouvelles versions d’un document dans la zone des nouve
 
 Vous pouvez également lancer un nouveau workflow d’approbation pour une version spécifique d’un document.
 
-![panneau de résumé ouvert à l’onglet versions](assets/new-doc-versions.png)
+![panneau de résumé ouvert à l&#39;onglet versions](assets/new-doc-versions.png)
 
 #### Afficher l’historique des documents
 
@@ -125,11 +130,11 @@ Vous pouvez afficher l&#39;historique d&#39;un document dans la zone des nouveau
 * Quand les workflows d’approbation ont été lancés pour le document
 * Et plus encore
 
-![panneau de résumé ouvert à l’onglet historique](assets/new-doc-history.png)
+![panneau de résumé ouvert à l&#39;onglet historique](assets/new-doc-history.png)
 
 ### Dossiers au niveau du système pour les autorisations de document
 
-Workfront crée automatiquement un dossier au niveau du système lorsque le premier document est chargé sur une tâche ou un événement. Ces dossiers héritent des autorisations de la tâche ou de l’événement et sont visibles dans la zone des documents au niveau du projet. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Il s’agit de la principale méthode de gestion des autorisations pour les documents dans la nouvelle zone Documents. Pour plus d’informations, voir [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Workfront crée automatiquement un dossier au niveau du système lorsque le premier document est chargé sur une tâche ou un événement. Ces dossiers héritent des autorisations de la tâche ou de l’événement et sont visibles dans la zone des documents au niveau du projet. Tous les documents chargés vers cette tâche ou cet événement sont stockés dans ce dossier et y héritent des autorisations. Il s’agit de la principale méthode de gestion des autorisations pour les documents dans la nouvelle zone Documents. Pour plus d’informations, consultez [Présentation des autorisations d’objet et des niveaux d’accès pour le modèle de stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ### Accès aux documents depuis votre bureau
 

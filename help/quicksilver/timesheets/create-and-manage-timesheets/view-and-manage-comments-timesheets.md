@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 89%
-
+source-wordcount: '831'
+ht-degree: 87%
 ---
-
 # Afficher et gérer les commentaires sur une feuille de temps
 
 <!-- Audited: April, 2024-->
@@ -112,7 +110,7 @@ Vous pouvez faire des commentaires généraux sur la feuille de temps. L’ajout
 
    >[!TIP]
    >
-   >Le paramètre **Privé à ma société** n’est disponible que lorsque votre profil Workfront est associé à une société.
+   >Le paramètre **Privé à ma société** n&#39;est disponible que lorsque votre profil Workfront est associé à une société.
 
 1. Saisissez votre commentaire, puis cliquez sur **Soumettre**.
 
@@ -175,7 +173,7 @@ Vous ne pouvez commenter que les tâches et les problèmes d’une feuille de te
 
 1. Accédez à la feuille de temps dans laquelle vous souhaitez ajouter un commentaire, puis cliquez sur [!UICONTROL **Feuille de temps**] dans le panneau de gauche.
 1. Cliquez sur la ligne d’une tâche ou d’un problème, puis cliquez sur [!UICONTROL **Ouvrir le résumé**].
-1. Commencez à saisir une mise à jour dans la zone [!UICONTROL **Mises à jour**] du panneau Résumé, puis cliquez sur [!UICONTROL **Soumettre**].
+1. Commencez à saisir une mise à jour dans l’onglet [!UICONTROL **Mises à jour**] du panneau Résumé, puis cliquez sur [!UICONTROL **Envoyer**].
 La mise à jour s’affiche dans la section Mises à jour de la tâche et du problème.
 1. (Facultatif) Cliquez sur [!UICONTROL **Fermer le résumé**] pour fermer le panneau du résumé.
 

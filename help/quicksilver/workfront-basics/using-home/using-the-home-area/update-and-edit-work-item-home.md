@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '818'
+ht-degree: 28%
 ---
 # Mettre à jour ou modifier un élément de travail dans la zone [!UICONTROL Accueil]
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -125,9 +127,9 @@ Vous pouvez modifier des éléments de travail dans les widgets suivants de la z
 
 ## Ajouter un commentaire à un élément de travail dans le widget Mes tâches
 
-Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL &#x200B; Mon travail &#x200B;] :
+Vous pouvez fournir des mises à jour sur n’importe quel élément de travail dans le widget [!UICONTROL Mon travail] :
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget [!UICONTROL **Mon travail**].
 
 1. Recherchez l’élément de travail à mettre à jour dans le widget [!UICONTROL **Mon travail**].
@@ -136,15 +138,15 @@ Vous pouvez fournir des mises à jour sur n’importe quel élément de travail 
    ![Ajouter une mise à jour sur le widget](assets/add-update-on-widget.png)
 
 1. Commencez à saisir votre commentaire.
-1. (Facultatif) Dans la zone **Identifier des personnes ou des équipes**, commencez à saisir le nom ou l’adresse e-mail d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. (Facultatif) Dans la zone **Identifier des personnes ou des équipes**, commencez à saisir le nom ou l’adresse électronique d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre commentaire, afin d’améliorer votre contenu.
-1. Cliquez sur **Envoyer** pour ajouter le commentaire à l’élément de travail.
+1. Cliquez sur **Envoyer** pour ajouter le commentaire à l&#39;élément de travail.
 
    >[!IMPORTANT]
    >
    >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-   Pour plus d’informations sur l’ajout de mises à jour, voir [Tâche de mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Pour plus d&#39;informations sur l&#39;ajout de mises à jour, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## Ajout d’un commentaire à un élément du widget Mentions
@@ -158,27 +160,25 @@ Vous pouvez fournir des mises à jour sur n’importe quel élément de travail 
    ![Répondre au commentaire](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Commencez à saisir votre commentaire.
-1. (Facultatif) Dans la zone **Baliser les personnes**, commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
+1. (Facultatif) Dans la zone **Identifier les personnes**, commencez à saisir le nom d’un utilisateur ou d’une équipe que vous souhaitez inclure dans ce commentaire, puis sélectionnez-le lorsqu’il s’affiche dans la liste.
 1. (Facultatif) Utilisez les options de la barre d’outils Texte enrichi pour mettre en forme votre texte, ajouter des émoticônes, des liens ou des images à votre commentaire, afin d’améliorer votre contenu.
-1. Cliquez sur **Envoyer** pour ajouter le commentaire à l’élément de travail.
+1. Cliquez sur **Envoyer** pour ajouter le commentaire à l&#39;élément de travail.
 
    >[!IMPORTANT]
    >
    >Vous ne pouvez modifier votre commentaire qu’au cours des 15 minutes suivant son envoi. Pour modifier un commentaire, cliquez sur le menu **Plus** dans le coin supérieur droit du commentaire, puis cliquez sur **Modifier**.
 
-   Pour plus d’informations sur l’ajout de mises à jour, voir [Tâche de mise à jour](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Pour plus d&#39;informations sur l&#39;ajout de mises à jour, voir [Mettre à jour le travail](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Modifier un élément de travail
 
 Vous pouvez modifier n’importe quel champ de n’importe quel élément de travail que vous avez le droit de modifier.
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
+1. Cliquez sur l&#39;icône **[!UICONTROL Menu principal]** ![Icône du Menu principal](assets/main-menu-icon.png) dans le coin supérieur droit, ou sur l&#39;icône **Menu principal** ![Icône des lignes du Menu principal](assets/lines-main-menu.png) dans le coin supérieur gauche, si disponible, puis cliquez sur **[!UICONTROL Accueil]**.
 1. (Conditionnel) Cliquez sur **Personnaliser** pour ajouter le widget **Mon travail**.
 
 1. Pointez sur l’élément de travail, puis cliquez sur l’icône **Résumé**.
-   ![Ouvrir le résumé](assets/open-summary-new-home.png)
+   ![Ouvrir Le Résumé](assets/open-summary-new-home.png)
 
-1. Dans le panneau Résumé , passez la souris sur le champ à modifier.
-Si vous avez le droit de modifier le champ, celui-ci est mis en évidence lorsque vous pointez dessus.
-1. Cliquez sur le champ à modifier, puis effectuez la mise à jour souhaitée.
+1. Dans le panneau Résumé , cliquez sur le champ à modifier, puis effectuez la mise à jour souhaitée.
 1. Cliquez en dehors du champ pour enregistrer vos modifications.

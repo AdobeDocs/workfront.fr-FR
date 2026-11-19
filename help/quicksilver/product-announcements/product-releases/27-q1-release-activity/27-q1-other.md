@@ -4,17 +4,32 @@ description: Autres améliorations apportées au cours de la période de publica
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 3%
 ---
 
 # Autres améliorations au cours du premier trimestre de 2027
 
 Cette page décrit les améliorations apportées à l’environnement Aperçu de la version du premier trimestre 2027. Ces améliorations seront rendues disponibles comme indiqué, dans l’environnement de production.
 
-Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication de la version du premier trimestre 2027, voir [Présentation de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+Pour obtenir la liste de toutes les modifications disponibles à ce stade du cycle de publication du premier trimestre 2027, consultez [Aperçu de la version du premier trimestre 2027](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md).
+
+## Mise à jour de l’aspect du panneau de résumé pour les tâches, les événements et les documents
+
+>[!NOTE]
+>
+>Aperçu : 19 novembre 2026
+>Version rapide de production : 17 décembre 2026
+>Production pour tous : 21 janvier 2027
+
+Le panneau Résumé pour les tâches, les événements et les documents a une apparence mise à jour pour correspondre à d’autres styles dans Workfront. Les informations et les champs sont désormais organisés dans des onglets distincts dans le panneau Résumé .
+
+Pour plus d’informations, voir :
+
+* [Vue d’ensemble du résumé](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+* [Résumé de la vue d’ensemble des documents](/help/quicksilver/documents/managing-documents/summary-for-documents.md)
 
 <!--
 
@@ -42,7 +57,7 @@ For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigat
 
 La vue améliorée affiche désormais le nombre total d’éléments et le nombre est automatiquement mis à jour lorsque vous appliquez des filtres, recherchez ou modifiez la vue. Le nombre d’éléments reflète toujours l’ensemble des résultats filtrés en fonction de vos autorisations.
 
-Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Meilleure visibilité des résultats de recherche rapide dans les listes améliorées
 
@@ -56,7 +71,7 @@ Lorsque vous utilisez la recherche rapide dans une liste améliorée pour trouve
 
 Avant cette amélioration, tous les éléments étaient affichés avec ceux qui correspondent aux résultats de recherche mis en surbrillance.
 
-Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 
@@ -91,7 +106,7 @@ Les modifications suivantes ont été apportées aux listes améliorées :
 * Vous pouvez désormais développer ou réduire tous les regroupements dans une liste améliorée à l’aide de l’icône de flèche en haut de la première colonne. Auparavant, vous pouviez uniquement développer ou réduire tous les groupes dans les paramètres de regroupement.
 * Lors de la création d&#39;une vue, il n&#39;est plus nécessaire de sélectionner un type de vue si un seul type est disponible.
 
-Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Plusieurs écrans mis à jour vers des listes améliorées
 
@@ -122,7 +137,7 @@ Les mises à jour incluent les éléments suivants pour une partie ou la totalit
 >
 >Toutes les mises à jour ne sont pas disponibles sur toutes les listes.
 
-Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Afficher ou masquer des heures dans la vue Semaine du rapport de calendrier
 
@@ -134,4 +149,4 @@ Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quic
 
 Vous pouvez désormais afficher ou masquer les heures de la journée dans la vue Semaine d’un rapport de calendrier. Masquez les heures pour une vue plus simple et rationalisée de votre semaine, ou affichez-les lorsque vous souhaitez une échelle d’heures de la journée. Utilisez le bouton (bascule) dans le coin supérieur droit du calendrier pour basculer entre les deux.
 
-Pour plus d’informations, voir [Affichage des rapports de calendrier et des détails sur les événements](/help/quicksilver/reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md).
+Pour plus d&#39;informations, consultez [Affichage des rapports de calendrier et des détails des événements](/help/quicksilver/reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md).

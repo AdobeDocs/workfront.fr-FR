@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
+source-wordcount: '4301'
 ht-degree: 72%
-
 ---
-
 # Enregistrer des heures
 
 <!--Audited: 5/2025-->
@@ -92,7 +90,7 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 * Les feuilles de temps comprennent le total des heures pour toutes les dates consignées. Les week-ends sont toujours inclus, même lorsque les calculs de chronologie ont été configurés pour les exclure (comme décrit dans la section [Configurer les préférences du projet à l’échelle du système](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Le nombre maximal d’éléments affichés dans une feuille de temps est de 45. Si plus de 45 éléments coïncident avec la période de la feuille de temps, seuls les éléments les plus récemment mis à jour s’affichent.
 * Les entrées d’heures correspondant aux enregistrements de facturation sont grisées et ne peuvent pas être modifiées dans la feuille de temps. Pour plus d’informations, voir [Créer des enregistrements de facturation](../../manage-work/projects/project-finances/create-billing-records.md).
-* Les tâches personnelles ne s’affichent pas par défaut sur la feuille de temps. Les tâches personnelles ne s’affichent dans la feuille de temps que lorsque leurs heures ont été consignées. Après avoir consigné les heures passées sur une tâche personnelle, vous pouvez épingler la tâche sur la feuille de temps. Celle-ci restera sur la feuille de temps aussi longtemps qu’elle sera épinglée. Pour plus d’informations, voir [Création d’éléments de travail et de projets à partir de la zone Accueil](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Les tâches personnelles ne s’affichent pas par défaut sur la feuille de temps. Les tâches personnelles ne s’affichent dans la feuille de temps que lorsque leurs heures ont été consignées. Après avoir consigné les heures passées sur une tâche personnelle, vous pouvez épingler la tâche sur la feuille de temps. Celle-ci restera sur la feuille de temps aussi longtemps qu’elle sera épinglée. Pour plus d&#39;informations, voir [Créer des éléments de travail et des projets à partir de la zone d&#39;Accueil](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Enregistrer des heures {#log-time-section}
 
@@ -132,7 +130,7 @@ Pour consigner les heures sur une feuille de temps, procédez comme suit :
 Votre feuille de temps actuelle s’affiche par défaut.
 ![Feuille de temps](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Facultatif) Cliquez sur l’icône **plein écran** ![icône plein écran](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, puis cliquez sur l’icône **quitter-plein écran** ![Quitter-plein écran](assets/exit-full-screen.png) pour revenir à la feuille de temps.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Plein écran](assets/full-screen.png) pour afficher la feuille de temps en mode plein écran, puis cliquez sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen.png) pour revenir à la feuille de temps.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -169,7 +167,7 @@ Votre feuille de temps actuelle s’affiche par défaut.
 
    <!--(ensure this stays accurate)-->
 
-1. (Facultatif) Cliquez sur les icônes **Réduire** ![Icône Réduire](assets/collapse-icon.png) ou **Développer** ![Icône Développer](assets/expand-icon.png) en regard du nom du projet pour afficher ou masquer la liste des tâches et des événements du projet.
+1. (Facultatif) Cliquez sur les icônes **Réduire** ![Réduire](assets/collapse-icon.png) ou **Développer** ![Développer](assets/expand-icon.png) en regard du nom du projet pour afficher ou masquer la liste des tâches et des problèmes du projet.
 
 
    >[!TIP]
@@ -183,7 +181,7 @@ Votre feuille de temps actuelle s’affiche par défaut.
    >     * Maj+Option+Touche Bas pour les ordinateurs Mac
 
 
-1. (Facultatif) Pour épingler manuellement un élément qui s’affiche automatiquement sur la feuille de temps, passez la souris sur le nom de l’élément, puis cliquez sur l’icône **épingle** ![icône Épingler](assets/empty-pin-icon.png).
+1. (Facultatif) Pour épingler manuellement un élément qui s’affiche automatiquement sur la feuille de temps, survolez son nom avec la souris, puis cliquez sur l’icône **Épingler** ![Icône Épingler](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -191,11 +189,11 @@ Votre feuille de temps actuelle s’affiche par défaut.
    >   * Option+P pour les ordinateurs Windows et Mac
 
 
-1. (Facultatif) Cliquez sur l’icône de recherche ![icône de recherche](assets/search-icon.png) et commencez à saisir un mot-clé pour rechercher un projet, une tâche ou un événement sur la feuille de temps.
+1. (Facultatif) Cliquez sur l’icône de recherche ![Icône de recherche](assets/search-icon.png) et commencez à saisir un mot-clé pour rechercher un projet, une tâche ou un événement sur la feuille de temps.
 
-1. (Le cas échéant) Si l’administrateur ou l’administratrice Workfront ou de groupe a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. La fonction qui vous a été affectée pour l’élément de travail s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences en matière de feuilles de temps et d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Le cas échéant) Si l’administrateur ou l’administratrice Workfront ou de groupe a activé le paramètre **Affecter manuellement des fonctions aux entrées d’heure**, sélectionnez une fonction dans le menu déroulant. Le rôle qui vous a été affecté pour l’élément de travail s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d’informations sur ce paramètre, consultez l’article [Configurer les préférences en matière de feuilles de temps et d’heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   ![Consigner les heures de travail pour plusieurs fonctions dans la feuille de temps](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
+   ![Consigner les heures de travail pour plusieurs rôles dans la feuille de temps](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
 
 1. (Facultatif) Cliquez sur l’icône **+** pour ajouter une autre ligne, puis sélectionnez un nouveau type d’heure dans le menu déroulant de la colonne [!UICONTROL Type d’heure] pour consigner les heures d’un type d’heure différent.
@@ -209,7 +207,7 @@ Votre feuille de temps actuelle s’affiche par défaut.
    >   * Ctrl+Option+Touche « + » pour les ordinateurs Windows
    >   * Cmd+Option+Touche « + » pour les ordinateurs Mac
 
-   Les types d’heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l’utilisateur, comme décrit dans la section [&#x200B; Définir les types d’heures et la disponibilité &#x200B;](define-hour-types-and-availability.md).
+   Les types d&#39;heures sont disponibles en fonction de ce qui a été défini au niveau du système, du projet et de l&#39;utilisateur, comme décrit dans [Définir les types d&#39;heures et la disponibilité](define-hour-types-and-availability.md).
 
    Le type d’heure ne peut pas être modifié après la clôture d’une feuille de temps.
 
@@ -219,7 +217,7 @@ Votre feuille de temps actuelle s’affiche par défaut.
    >
    >Pensez à ajouter une nouvelle ligne pour l’élément de travail pour lequel vous souhaitez consigner des heures supplémentaires et à sélectionner un nouveau type d’heure, si vous souhaitez conserver le type d’heure désactivé associé aux heures consignées précédemment.
 
-1. Cliquez sur l’icône **supprimer** ![Icône Supprimer](assets/delete.png) en regard de la fonction pour la supprimer. Toutes les heures consignées pour la fonction sont également supprimées.
+1. Cliquez sur l’icône **supprimer** ![Icône Supprimer](assets/delete.png) à côté de la fonction pour la supprimer. Toutes les heures consignées pour le rôle sont également supprimées.
 
    >[!TIP]
    >
@@ -282,7 +280,13 @@ Votre feuille de temps actuelle s’affiche par défaut.
 
    ![summary-panel-for-task-opened-in-timesheet](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   Votre mise à jour s’affiche dans la zone Mises à jour de l’élément de travail associé à l’heure consignée.
+   <span class="preview">Dans l&#39;aperçu :
+
+   ![summary-panel-for-task-opened-in-timesheet](assets/summary-timesheet.png)
+
+   </span>
+
+   Votre mise à jour s’affiche dans l’onglet Mises à jour de l’élément de travail associé à l’heure consignée.
 
    >[!TIP]
    >
@@ -356,12 +360,12 @@ En outre, pour consigner les heures consacrées à un élément dans le widget M
 
 1. Accédez à la zone **Accueil**.
 1. Ajoutez le widget **Mon travail** à votre page d’accueil.
-1. (Facultatif) Sélectionnez une tâche, un événement ou une demande dans une liste, puis cliquez sur **Y travailler**.
-1. Pointez sur la tâche ou le problème pour lequel vous souhaitez enregistrer le temps, puis cliquez sur l’icône **Consigner le temps** ![Consigner le temps](assets/log-time-icon-in-new-home.png) à droite des informations sur la tâche.
+1. (Facultatif) Sélectionnez une tâche, un événement ou une demande dans une liste, puis cliquez sur **Travailler dessus**.
+1. Pointez sur la tâche ou le problème pour lequel vous souhaitez enregistrer le temps, puis cliquez sur l’icône **Enregistrer le temps** ![Enregistrer le temps](assets/log-time-icon-in-new-home.png) à droite des informations sur la tâche.
 
    La zone **Consigner le temps** s’affiche.
 
-   ![Consigner la zone de temps pour une tâche sur l’Accueil](assets/log-time-ui-for-task-from-new-home.png)
+   ![Consigner la zone de temps pour une tâche sur l&#39;Accueil](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Indiquez les informations suivantes :
 
@@ -377,7 +381,7 @@ En outre, pour consigner les heures consacrées à un élément dans le widget M
 
    L’heure consignée s’affiche dans la section Heures de l’objet et dans votre feuille de temps.
 
-   Le champ **Total des heures** de la zone Consigner le temps affiche toutes les heures consignées pour le projet, la tâche ou l’événement par tous les utilisateurs.
+   Le champ **Total des heures** dans la zone Consigner le temps affiche toutes les heures consignées pour le projet, la tâche ou l&#39;événement par tous les utilisateurs.
 
 <!--
 #### Log time on a work item from the legacy Home area
@@ -406,7 +410,7 @@ Vous pouvez consigner les heures passées sur un projet, une tâche ou un probl�
 
 Pour consigner les heures dans la section Mises à jour d&#39;un projet, d&#39;une tâche ou d&#39;un problème, vous devez disposer des éléments suivants :
 
-* L’accès et les autorisations appropriés, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article. Si votre niveau d&#39;accès est Léger et que vous enregistrez du temps sur un projet, vous devez également disposer d&#39;autorisations de niveau Contributeur ou supérieur pour le projet avec un accès aux heures de journal. Pour plus d’informations sur l’octroi des autorisations sur les projets, voir [Partager un projet](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* L’accès et les autorisations appropriés, comme décrit dans la section [Exigences d’accès](#access-requirements) de cet article. Si votre niveau d&#39;accès est Léger et que vous enregistrez du temps sur un projet, vous devez également disposer d&#39;autorisations de niveau Contributeur ou supérieur pour le projet avec un accès aux heures de journal. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, consultez [Partager un projet](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 * Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets sous [!UICONTROL **Feuille de temps et heures**]> [!UICONTROL **Préférences**] dans la zone Système, si vous souhaitez consigner les heures directement dans un projet.
 
@@ -426,7 +430,7 @@ Pour consigner les heures dans la section Mises à jour d&#39;un projet, d&#39;u
    >   
    >   Le nombre d&#39;heures comprises dans une journée est indiqué dans le coin supérieur droit de la zone Saisir les jours.
 
-   ![Zone Enregistrer l’heure d’une tâche dans la zone Mises à jour](assets/log-time-box-in-updates-stream.png)
+   ![Consigner la zone de temps pour une tâche dans la zone Mises à jour](assets/log-time-box-in-updates-stream.png)
 
 1. Indiquez les informations suivantes :
 
@@ -442,7 +446,7 @@ Pour consigner les heures dans la section Mises à jour d&#39;un projet, d&#39;u
 
    L’heure consignée s’affiche dans la section Heures de l’objet et dans votre feuille de temps.
 
-   Le champ **Total des heures** de la zone Consigner le temps affiche toutes les heures consignées pour le projet, la tâche ou l’événement par tous les utilisateurs.
+   Le champ **Total des heures** dans la zone Consigner le temps affiche toutes les heures consignées pour le projet, la tâche ou l&#39;événement par tous les utilisateurs.
 
 #### Section Heures{#hours-section}
 
@@ -452,7 +456,7 @@ Ou
 
 Vous devez disposer de tous les éléments suivants :
 
-* Une licence Standard ou Plan avec un accès administratif aux Feuilles de temps et heures, ou une licence light avec un accès en modification aux projets. Pour plus d’informations sur l’octroi d’un accès administratif aux feuilles de temps et heures, voir [Octroi aux utilisateurs d’un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). L’accès administratif aux feuilles de temps et heures n’est pas disponible pour les licences light.
+* Une licence Standard ou Plan avec un accès administratif aux Feuilles de temps et heures, ou une licence light avec un accès en modification aux projets. Pour plus d&#39;informations sur l&#39;octroi d&#39;un accès administratif aux feuilles de temps et heures, voir [Accorder aux utilisateurs un accès administratif à certaines zones](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). L’accès administratif aux feuilles de temps et heures n’est pas disponible pour les licences light.
 * L&#39;autorisation Contribuer ou une autorisation supérieure pour le projet avec accès à la consignation des heures. Pour plus d&#39;informations sur l&#39;octroi d&#39;autorisations sur les projets, voir [Partager un projet dans Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * Votre administrateur ou administratrice de Workfront doit activer le paramètre Consigner les heures directement sur les projets dans la section Feuille de temps et heures > Préférences de la zone Configuration, si vous souhaitez consigner les heures directement sur un projet. **&#x200B;**&#x200B;Pour plus d&#39;informations sur la possibilité pour les utilisateurs et utilisatrices de consigner des heures directement dans des projets, voir [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -464,7 +468,7 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
 
    La zone **Consigner le temps** s’affiche.
 
-   ![Consigner le temps dans la section Heures d’une tâche](assets/log-time-box-in-hours-section-on-task.png)
+   ![Consigner le temps dans la section Heures d&#39;une tâche](assets/log-time-box-in-hours-section-on-task.png)
 
 1. Indiquez les informations suivantes :
 
@@ -478,14 +482,14 @@ Pour consigner les heures dans la section Heures d&#39;un projet, d&#39;une tâc
      Pour plus d&#39;informations sur la configuration des types d&#39;heures, voir [Définir les types d&#39;heures et la disponibilité](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Fonction** : (conditionnel) si votre administrateur ou administratrice Workfront ou de groupes a activé le paramètre **Affecter manuellement des fonctions aux entrées d&#39;heure**, sélectionnez une **Fonction** dans le menu déroulant. Le rôle spécifié lors de votre affectation à l’objet s’affiche par défaut. Si aucun rôle ne vous est attribué sur l’objet, votre rôle principal s’affiche par défaut. Pour plus d&#39;informations sur ce paramètre, voir l&#39;article [Configurer les préférences en matière de feuilles de temps et d&#39;heures](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Calendrier hebdomadaire** : saisissez le nombre d’heures consacrées au projet, à la tâche ou à l’événement.
-   * **Note** : ajoutez une note pour expliquer à quoi servent les heures. Elle est enregistrée sous la forme d&#39;une note **heure** ou d&#39;une description **heure**.
+   * **Le calendrier hebdomadaire** : saisissez le nombre d&#39;heures allouées au projet, à la tâche ou à l&#39;événement.
+   * **Remarque** : ajoutez une note pour expliquer à quoi servent les heures. Ceci est enregistré sous la forme d&#39;une note de **heure** ou d&#39;une description de **heure**.
 
 1. Cliquez sur **Consigner des heures**.
 
    L’heure consignée s’affiche dans la section Heures de l’objet et dans votre feuille de temps.
 
-   Le champ **Total des heures** de la zone Consigner le temps affiche toutes les heures consignées pour le projet, la tâche ou l’événement par tous les utilisateurs.
+   Le champ **Total des heures** dans la zone Consigner le temps affiche toutes les heures consignées pour le projet, la tâche ou l&#39;événement par tous les utilisateurs.
 
 ### Panneau Résumé
 
@@ -511,7 +515,7 @@ Pour plus d’informations, voir [Adobe Workfront pour Android](/help/quicksilv
 >* Vous ne pouvez pas modifier les entrées d&#39;heures qui appartiennent à une feuille de temps fermée. Vous devez d’abord rouvrir la feuille de temps, puis modifier les informations de saisie des heures.
 >* Lorsque vous modifiez le type d&#39;heures d&#39;un type qui n&#39;est pas comptabilisé comme revenu à un autre type qui est comptabilisé comme revenu, les finances du projet sont également modifiées. Le fait de passer d&#39;un type qui compte comme revenu à un type qui ne compte pas comme revenu met également à jour les finances du projet.
 >
->Pour plus d’informations, voir [Gérer les types d’heures](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>Pour plus d&#39;informations, voir [Gérer les types d&#39;heures](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 >
 
 Vous pouvez modifier les heures consignées dans les zones suivantes :
@@ -536,7 +540,7 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
   * Description de la saisie d&#39;heures.
 
 
-  ![Zone d’édition des heures du projet](assets/edit-hour-box-project-hour-type.png)
+  ![Zone de modification de l&#39;heure du projet](assets/edit-hour-box-project-hour-type.png)
 
 * Lorsque vous modifiez des heures générales :
 
@@ -550,7 +554,7 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![Zone d&#39;édition des heures générales](assets/edit-hour-box-general-overhead-hour-type.png)
+![Zone de modification des heures générales](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * Lorsque vous modifiez un mélange d’heures générales et d’heures spécifiques à un projet, en bloc :
@@ -566,7 +570,7 @@ Selon le type d’entrées d’heures que vous modifiez, les champs suivants peu
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![Zone d’édition d’heures mixtes](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Zone d&#39;édition d&#39;heures mixtes](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 
@@ -574,7 +578,7 @@ Pour modifier les types d&#39;heures dans un rapport ou une liste d&#39;heures :
 1. Cliquez sur la case à gauche d’une ou de plusieurs entrées d’heure pour les sélectionner.
 1. Cliquez sur l’icône **Modifier** ![Modifier](assets/edit-icon.png) en haut de la liste.
 
-   La boîte de dialogue **Modifier l’heure** ou **Modifier les heures** s’ouvre.
+   La zone de texte **Modifier l’heure** ou **Modifier les heures** s’ouvre.
 1. Mettez à jour l’un des champs disponibles suivants :
 
    * Heures. Champ obligatoire.

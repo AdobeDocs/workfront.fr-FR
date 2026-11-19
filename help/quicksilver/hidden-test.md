@@ -10,19 +10,21 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 02c20015be69f0f6c2bcd915eccb37ea4fbb50fe
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 49%
 ---
 # Test caché
 
 Fichier masqué utilisé pour tester les heures de publication dans un référentiel plus volumineux.
 
+19 novembre
+
 Contactez Bob s’il y a des problèmes.
 
 
-Logo ![](assets/adobe-logo-old.png)
+![Logo Adobe](assets/adobe-logo-old.png)
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
@@ -255,7 +257,7 @@ Développez pour afficher les exigences d’accès aux fonctionnalités de cet a
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 

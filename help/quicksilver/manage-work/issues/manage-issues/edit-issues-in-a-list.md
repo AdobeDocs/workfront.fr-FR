@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '910'
 ht-degree: 77%
-
 ---
-
 # Modifier les problèmes dans une liste
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Tenez compte des points suivants lors de la modification de problèmes dans une 
 * Vous pouvez modifier n’importe quel champ de problème qui s’affiche dans la liste et que vous pouvez à mettre à jour.
 * Vous pouvez modifier un problème dans les listes suivantes :
 
-   * Section Problèmes d’un projet ou d’une tâche
-   * Rapport de problème
+  * Section Problèmes d’un projet ou d’une tâche
+  * Rapport de problème
 
 Pour modifier en ligne un problème, procédez comme suit :
 
@@ -151,12 +149,12 @@ Pour modifier en ligne un problème, procédez comme suit :
 1. Accédez à une liste de problèmes dans un projet ou une tâche.
 1. Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez l’événement dans la liste, puis cliquez sur l’icône **Modifier** ![Modifier](assets/qs-edit-icon.png) dans la barre d’outils.
+   * Sélectionnez l’événement dans la liste, puis cliquez sur l’icône **Modifier** ![Icône Modifier](assets/qs-edit-icon.png) dans la barre d’outils.
    * Cliquez sur le nom de l&#39;événement, puis sur **Modifier**.
 
      L&#39;une de ces actions ouvre la boîte **Modifier l&#39;événement**.
 
-     Pour plus d&#39;informations sur la modification des événements dans la zone **Modifier l&#39;événement**, voir [Modifier les événements](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Pour plus d’informations sur la modification des problèmes dans la zone **Modifier le problème**, voir [Modifier les problèmes](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Modifier des problèmes à l’aide du résumé
 
@@ -176,14 +174,27 @@ Vous pouvez modifier un événement dans une liste à l’aide du panneau Résum
 
    | Icône | Action |
    |---|---|
-   | Documents* ![icône Documents](assets/documents-icon-in-summary.png) | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents au problème. |
-   | Détails ![icône Détails](assets/details-icon-in-summary.png) | Cliquez pour mettre à jour les informations sur le problème. |
+   | Documents* ![Icône Documents](assets/documents-icon-in-summary.png) | Cliquez sur **Cliquez ici pour ajouter** pour ajouter des documents au problème. |
+   | Icône Détails ![Détails](assets/details-icon-in-summary.png) | Cliquez pour mettre à jour les informations sur le problème. |
    | Heures ![Consigner le temps](assets/log-time-icon-in-summary.png) | Cliquez pour consigner des heures. |
-   | Validations ![icône Validations](assets/approvals-icon-in-summary.png) | Cliquez pour ajouter les approbations de problèmes. |
+   | Icône Approbations ![Approbations](assets/approvals-icon-in-summary.png) | Cliquez pour ajouter les approbations de problèmes. |
 
-   *Si votre entreprise utilise l’espace de stockage Adobe pour les documents, vous ne pouvez pas ajouter de documents aux problèmes d’espace de stockage Adobe dans le panneau Résumé .
+<!--
+uncomment for prod
 
-   Pour plus d’informations, voir [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*Si votre entreprise utilise l’espace de stockage Adobe pour les documents, vous ne pouvez pas ajouter de documents aux problèmes d’espace de stockage Adobe dans le panneau Résumé .
+
+Pour plus d&#39;informations, consultez [Présentation de la gestion des documents pour les projets et les objets associés](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 
 1. (Facultatif) Cliquez à nouveau sur l’icône **Ouvrir le Résumé**, ou sur l’**Icône X** dans le coin supérieur droit du résumé pour fermer le panneau et modifier le problème en ligne.

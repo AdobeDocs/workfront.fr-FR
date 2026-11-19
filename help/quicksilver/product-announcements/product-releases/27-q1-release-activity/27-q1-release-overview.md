@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 13%
 ---
 
@@ -38,6 +38,7 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
 ## Améliorations apportées à Adobe Workfront
 
 * [Améliorations apportées aux administrateurs et administratrices](#administrator-enhancements)
+* [Améliorations de la méthode Agile](#agile-enhancements)
 * [Améliorations de l’IA](#ai-enhancements)
 * [Améliorations des documents](#documents-enhancements)
 * [Améliorations apportées aux projets](#project-enhancements)
@@ -100,6 +101,29 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td><p>29 Octobre 2026</p></td>
             <td><p>29 Octobre 2026</p></td>
             <td><p>29 Octobre 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Améliorations de la méthode Agile
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Fonctionnalité</strong>
+            </td>
+            <td><strong>Aperçu</strong></td>
+            <td><strong>Version rapide</strong></td>
+            <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">Mise à jour de l’aspect des champs de modification sur les cartes Agile</a></p>
+                <p>Les champs que vous utilisez pour modifier les cartes agiles ont une apparence mise à jour pour correspondre à d’autres styles dans Workfront.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 Décembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
         </tr>
     </tbody>
 </table>
@@ -281,6 +305,15 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Mise à jour de l’aspect du panneau de résumé pour les tâches, les événements et les documents</a></p>
+                <p>Le panneau Résumé a une apparence mise à jour, avec des informations et des champs organisés dans des onglets distincts.</p>
+            </td>
+            <td><p>19 novembre 2026</p></td>
+            <td><p>17 Décembre 2026</p></td>
+            <td><p>21 janvier 2027</p></td>
         </tr>
 <!--
         <tr>

@@ -31,10 +31,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 41%
+source-wordcount: '759'
+ht-degree: 39%
 ---
 # Résumé de la vue d’ensemble des documents
 
@@ -84,7 +84,7 @@ Pour plus de détails sur les informations contenues dans ce tableau, consultez 
 
 ## Résumé des documents dans l’expérience des documents hérités
 
-Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, voir [Différences entre le stockage Workfront hérité et le stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Si votre organisation utilise un stockage Workfront hérité, la zone des documents hérités s’affiche lorsque vous accédez aux documents dans Workfront. Pour plus d’informations sur le stockage Workfront hérité, consultez [Différences entre le stockage Workfront hérité et le stockage dans le cloud Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Ouvrez la vue Résumé dans l’expérience des documents hérités
 
@@ -92,11 +92,15 @@ Si votre organisation utilise un stockage Workfront hérité, la zone des docume
 
 1. Sur la page **Documents**, sélectionnez un document dans la liste.
 
-1. Dans le coin supérieur droit de la page, cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir le résumé](assets/qs-summary-in-new-toolbar-small.png). Le panneau latéral **Résumé du document** s’ouvre.
+1. Dans le coin supérieur droit de la page, cliquez sur l’icône **Ouvrir le résumé** ![Ouvrir l’icône de résumé](assets/qs-summary-in-new-toolbar-small.png). Le panneau latéral **Résumé du document** s’ouvre.
 
    ![Détails du résumé](assets/document-summary-panel.png)
 
-   Après avoir ouvert le résumé, il reste ouvert sur cette page (même si vous cliquez sur d’autres documents) jusqu’à ce que vous le fermiez manuellement.
+<span class="preview">Dans l&#39;aperçu :
+![Détails du résumé](assets/document-details-summary-legacy.png)
+</span>
+
+Après avoir ouvert le résumé, il reste ouvert sur cette page (même si vous cliquez sur d’autres documents) jusqu’à ce que vous le fermiez manuellement.
 
 
 ### Détails
@@ -110,7 +114,11 @@ Utilisez la section Détails pour afficher des informations de vue d’ensemble 
 
 Développez la section Présentation pour afficher ou télécharger une miniature d’image, ouvrir une épreuve, mettre à jour la description de base, extraire le document, etc.
 
-![Présentation du résumé du document](assets/details-section.png)
+![Aperçu du résumé du document](assets/details-section.png)
+
+<span class="preview">Dans l&#39;aperçu :
+![Détails du résumé](assets/document-details-summary-legacy.png)
+</span>
 
 #### Formulaires personnalisés {#custom-forms}
 
@@ -118,11 +126,19 @@ Utilisez la section Formulaires personnalisés pour ajouter, modifier ou affiche
 
 ![Ajouter un formulaire personnalisé dans le résumé du document](assets/custom-forms-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+![Ajouter un formulaire personnalisé dans le résumé du document](assets/custom-form-summary-legacy.png)
+</span>
+
 ### Mises à jour
 
 Utilisez la section Mises à jour pour afficher une mise à jour effectuée par une personne sur le document ou l’épreuve. Le résumé présente les 2 premiers commentaires. Pour plus d’informations sur les mises à jour, voir [Commentaire sur une épreuve](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Section Mises à jour du panneau Résumé](assets/updates-section.png)
+
+<span class="preview">Dans l&#39;aperçu :
+![Met à jour la section dans le panneau Résumé](assets/updates-summary-legacy.png)
+</span>
 
 ### Approbations
 
@@ -135,9 +151,13 @@ Les approbations d’épreuves doivent être ajoutées dans le workflow des épr
 
 ![Approbations du résumé du document](assets/approvals-section.png)
 
+<span class="preview">Dans l&#39;aperçu :
+![Approbations du résumé du document](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### Versions
 
-Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur l’icône Plus ![icône Plus](assets/more-icon.png) pour effectuer les opérations suivantes :
+Utilisez la section Versions pour afficher le nombre de versions créées pour un document spécifique. Cliquez sur l’icône Plus ![Icône Plus](assets/more-icon.png) pour effectuer les opérations suivantes :
 
 * Ouvrez un BAT.
 * Téléchargez une épreuve ou un document.
@@ -145,7 +165,11 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 * Accédez aux Détails du document.
 * Supprimer une épreuve ou un document.
 
-![Versions récapitulatives du document](assets/versions-section.png)
+![Versions du résumé du document](assets/versions-section.png)
+
+<span class="preview">Dans l&#39;aperçu :
+![Versions récapitulatives du document](assets/document-versions-summary-legacy.png)
+</span>
 
 ## Résumé des documents dans la nouvelle expérience de documents
 
@@ -186,7 +210,7 @@ Utilisez la section Versions pour afficher le nombre de versions créées pour u
 * Partager la version
 * Supprimer la version
 
-![Versions récapitulatives du document dans une nouvelle expérience de documents](assets/summary-versions.png)
+![Versions du résumé du document dans les nouvelles expériences de documents](assets/summary-versions.png)
 
 ### Historique
 
