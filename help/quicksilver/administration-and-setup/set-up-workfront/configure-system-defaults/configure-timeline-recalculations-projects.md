@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 90%
+source-wordcount: '487'
+ht-degree: 84%
 ---
 # Configurer les recalculs de chronologies pour les projets
 
@@ -67,6 +67,11 @@ Pour plus d’informations, voir [Conditions d’accès requises dans la documen
 ## Configurer des recalculs automatiques
 
 En tant qu’administrateur ou administratrice [!DNL Adobe Workfront], vous pouvez configurer quand [!DNL Workfront] recalcule automatiquement les chronologies du projet. [!DNL Workfront] peut recalculer les chronologies du projet chaque nuit ou lorsque l’étendue du projet change, ou les deux.
+
+>[!NOTE]
+>
+>Pour garantir des performances optimales, les chronologies ne sont pas automatiquement recalculées pour les projets dont les tâches ont une durée de plus de 1 000 jours. Vous devez recalculer manuellement les chronologies de ces projets.
+
 
 {{step-1-to-setup}}
 

@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 1%
+source-wordcount: '1540'
+ht-degree: 2%
 ---
 
 # Prise en main de l’espace d’idéation pour Adobe Workfront Planning
@@ -174,7 +174,16 @@ Pour accéder à l’Espace idéation :
 
 ## Localisation de l’emplacement de l’idéation
 
-Après vous être assuré d’avoir accès aux produits, packages, systèmes et niveaux d’accès appropriés configurés, vous pouvez localiser l’espace d’idéation dans les zones suivantes de Workfront :
+Après vous être assuré d&#39;avoir accès aux produits, aux packages, au système et au niveau d&#39;accès appropriés configurés, vous pouvez localiser l&#39;espace d&#39;idéation dans plusieurs zones de Workfront et de Workfront Planning.
+
+>[!TIP]
+>
+>Vous ne pouvez pas supprimer la zone Espace d&#39;idéation du menu Principal à l&#39;aide d&#39;un modèle de mise en page.
+>
+>Pour plus d&#39;informations sur le blocage de l&#39;accès d&#39;un utilisateur à l&#39;Espace d&#39;idéation, voir [Accès nécessaire pour utiliser L&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
+>
+
+Accédez à l’espace Idéation dans les zones suivantes de Workfront :
 
 * Dans le menu principal de Workfront, ouvrez la zone Espace d’idéation .
 
@@ -188,11 +197,16 @@ Après vous être assuré d’avoir accès aux produits, packages, systèmes et 
 
   ![Espace d&#39;idéation dans la page Détails de l&#39;enregistrement](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>Le point à partir duquel vous lancez l&#39;Espace d&#39;idéation détermine la structure brève. Les scénarios suivants sont possibles :
+>
+>* Lorsque vous le lancez à partir du bouton Nouvel enregistrement dans Planning, le brief contient les mêmes champs que le type d&#39;enregistrement de départ.
+>
+>* Lorsque vous le lancez à partir d&#39;un enregistrement Planning existant, le brief contient les mêmes champs avec les mêmes valeurs que l&#39;enregistrement.
+>
+>* Lorsque vous le lancez à partir du menu principal de Workfront, le brief contient les champs et les informations des fichiers que vous téléchargez sur la zone de travail.
 
->[!TIP]
->
->Vous ne pouvez pas supprimer la zone Espace d&#39;idéation du menu Principal à l&#39;aide d&#39;un modèle de mise en page. Pour plus d&#39;informations sur le blocage de l&#39;accès d&#39;un utilisateur à l&#39;Espace d&#39;idéation, voir [Accès nécessaire pour utiliser L&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
->
 
 ## Espace d’idéation et Adobe CX Enterprise Coworker
 

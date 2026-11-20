@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 7%
 ---
 
@@ -76,6 +76,9 @@ Tenez compte des points suivants :
 * Les créateurs d’idées disposent toujours des autorisations d’éditeur sur leurs propres idées.
 
 * Vous devez disposer des autorisations d’éditeur sur un espace d’idéation pour créer des résumés ou y contribuer, et les exporter vers d’autres applications.
+
+* &#x200B;
+  * Le partage contrôle uniquement les personnes qui peuvent accéder à la zone de travail d’idéation et y collaborer. Les mises à jour des enregistrements ont toujours lieu uniquement lorsque quelqu’un exporte le brief vers Workfront Planning.
 
 ## Conditions d’accès
 

@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1161'
 ht-degree: 4%
 ---
 
@@ -167,10 +167,12 @@ Pour plus d’informations sur les exigences d’accès à Workfront, consultez 
 ## Considérations relatives à l&#39;utilisation de l&#39;espace Idéation pour créer ou modifier des enregistrements Planning
 
 * Vous devez lancer l&#39;Espace d&#39;idéation à partir de Workfront Planning pour pouvoir créer ou modifier un enregistrement Planning. L&#39;accès à l&#39;espace d&#39;idéation à partir du menu principal de Workfront ne connecte pas un résumé d&#39;idéation à un enregistrement Planning.
+* Lorsque vous lancez l&#39;Espace d&#39;idées à partir d&#39;un enregistrement, Workfront utilise la structure et les informations de l&#39;enregistrement pour créer et mettre à jour les champs du brief.
 * Pour utiliser l&#39;espace Idéation afin de créer ou modifier des enregistrements, vous devez disposer d&#39;un espace de travail et d&#39;un type d&#39;enregistrement dans Workfront Planning.
 * Les nouveaux enregistrements commencent toujours par le contenu de l’espace réservé, quelle que soit la manière dont vous les créez.
 * Lorsque vous supprimez un enregistrement Planning lié à un brief d’idéation, le brief reste dans l’espace Idéation et son espace associé n’est pas supprimé.
-* La synchronisation des informations se produit uniquement de l’espace Idéation vers Workfront Planning. Il n’existe aucune synchronisation inversée ou automatique d’un enregistrement Planning vers le résumé de l’espace d’idéation. <!--this might change after beta?-->
+* La synchronisation se produit uniquement de l’espace Idéation à Workfront Planning. Il n’existe aucune synchronisation inversée ou automatique d’un enregistrement Planning vers un brief d’idéation.
+* L&#39;exportation vers Workfront Planning remplace toutes les données de champ existantes dans l&#39;enregistrement Planning connecté.
 * Les scénarios suivants existent lorsque des champs sont créés, modifiés ou supprimés dans Workfront Planning :
 
   * De nouveaux champs créés sur les enregistrements liés aux résumés d&#39;idéation sont ajoutés quotidiennement au résumé. Les nouveaux champs apparaissent vides dans le brief de l’idéation.
@@ -208,9 +210,15 @@ Pour plus d’informations sur les exigences d’accès à Workfront, consultez 
 
    * L’enregistrement est créé immédiatement avec un nom d’espace réservé.
 
+   * Le brief de l’idéation est créé avec un nom d’espace réservé. Les champs de résumé d’idéation sont identiques aux champs du type d’enregistrement de départ.
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. (Facultatif) Pointez sur la balise **Workfront Planning** dans le coin supérieur droit de la zone de travail Espace d’idéation pour afficher le nom du type d’enregistrement, l’espace de travail pour lequel vous créez un enregistrement et le numéro de version du brief que vous êtes en train de créer.
+
+   ![Espace de travail de planification Workfront et balise d’information sur le type d’enregistrement dans la zone de travail](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. Ajoutez une invite dans la boîte de dialogue **Collègue**, puis appuyez sur Entrée.
 
@@ -253,9 +261,12 @@ Vous ne pouvez pas modifier en masse les enregistrements dans l’espace Idéati
 
    S&#39;il n&#39;y a pas d&#39;idéation, cela crée un espace d&#39;idéation et un brief.
 
+   Le brief d’idéation contient les mêmes champs que l’enregistrement de départ. Les valeurs des champs sont renseignées à partir de l’enregistrement dans le brief.
+
    >[!TIP]
    >
    >Vous ne pouvez pas modifier les enregistrements en masse à l’aide de l’espace Idéation .
+
 1. Poursuivez la modification du brief comme décrit dans la section [Création d’enregistrements à l’aide de l’espace d’idéation](#create-records-using-the-ideation-space) de cet article.
 
    <!-- 
