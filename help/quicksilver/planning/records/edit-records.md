@@ -30,22 +30,22 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 25%
 ---
 # Modifier des enregistrements
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
-
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Vous pouvez modifier les informations d&#39;enregistrement dans Adobe Workfront Planning en modifiant les valeurs des champs associés aux enregistrements.
+Vous pouvez modifier les informations d’enregistrement dans la planification Adobe Workfront en modifiant les valeurs des champs associés aux enregistrements.
 
 Vous devez créer des types d’enregistrements avant de pouvoir commencer à créer et modifier des enregistrements.
 
@@ -94,7 +94,7 @@ Ou
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -173,9 +173,9 @@ Old:
   * Champs système (Créé par, Date de création, Dernière modification par, Date de dernière modification, Date d’approbation, Approuvé par , ID d’enregistrement)
 * Si les enregistrements que vous affichez sont liés à d&#39;autres enregistrements, les nouvelles informations des enregistrements que vous modifiez sont répercutées sur les enregistrements liés dans tous les espaces de travail où cet enregistrement est lié.
 * Vous ne pouvez pas modifier les enregistrements en masse. <!--this will probably change-->
-* Les URL sont reconnues en tant que liens dans des types de champ de texte d’une seule ligne uniquement lorsqu’elles commencent par ce qui suit : http://, https://, ftp:// ou www. .
-* Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
-* Vous pouvez modifier l’ordre des champs dans la page de détails d’un enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Les URL sont reconnues en tant que liens dans des types de champ de texte d’une seule ligne uniquement lorsqu’elles commencent par ce qui suit : http://, https://, ftp:// ou <www>. .
+* Vous pouvez ajouter une image de couverture à chaque enregistrement. L’image est unique pour chaque enregistrement et ne s’applique pas à tous les enregistrements en même temps. Pour plus d&#39;informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* Vous pouvez modifier l’ordre des champs dans la page de détails d’un enregistrement. Pour plus d&#39;informations, voir [Gérer la mise en page de la page d&#39;enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Vous pouvez modifier les dates de début et de fin d&#39;un enregistrement en redimensionnant ou en repositionnant les enregistrements dans les vues Chronologie et Calendrier.
 
   Vous ne pouvez pas redimensionner ou repositionner des enregistrements lorsque les dates de début et de fin que vous avez choisies pour l&#39;enregistrement sont en lecture seule. Par exemple, vous ne pouvez pas redimensionner ou repositionner l&#39;enregistrement dans une vue chronologique et calendrier lors de l&#39;utilisation de champs de recherche ou de formule pour les dates de début et de fin d&#39;un enregistrement. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
@@ -236,7 +236,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. Cliquez dans la ligne d’un enregistrement pour commencer à modifier les informations sur l’enregistrement intégré.
 
-   ![Modifier le champ de paragraphe d’enregistrement avec la vue Tableau de formatage](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![Modifier le champ de paragraphe d&#39;enregistrement en mode Tableau de formatage](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -254,7 +254,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    * Ajouter une liste à puces
    * Ajouter une liste numérotée
 
-   ![Barre d’outils de texte enrichi dans le champ de paragraphe](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![Barre d’outils de texte enrichi sur le champ de paragraphe](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. Appuyez sur **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. Un indicateur **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue Tableau pour indiquer que les modifications ont été enregistrées.
@@ -302,7 +302,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 1. (Facultatif) Utilisez les raccourcis clavier suivants pour annuler ou rétablir la modification ou la copie et le collage des informations d’enregistrement :
 
    * Ctrl + Z (⌘ + Z pour Mac) pour annuler une modification
-   * Ctrl+Maj+Z (⌘+Maj+Z pour Mac) pour rétablir une modification
+   * Ctrl + Maj + Z (⌘ + Maj + Z pour Mac) pour rétablir une modification
 
    >[!TIP]
    >
@@ -310,12 +310,12 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite du nom de l’enregistrement et choisissez l’une des options suivantes :
 
-   * **Afficher** ou **Ouvrir dans un nouvel onglet** : permet d’ouvrir la page de l’enregistrement.
+   * **Afficher** ou **Ouvrir dans un nouvel onglet** : la page d’enregistrement s’ouvre.
    * **Copier le lien** : pour copier un lien vers la page de l’enregistrement.
    * **Modifier la miniature** : pour ajouter une miniature à un enregistrement.
      Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
-   * **Dupliquer** : crée un doublon identique de l’enregistrement.
-   * **Insérer l’enregistrement ci-dessus/ Insérer l’enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. Cela n’est pas possible dans l’environnement de Prévisualisation.
+   * **Dupliquer** : cela crée un doublon identique de l’enregistrement.
+   * **Insérer un enregistrement ci-dessus/ Insérer un enregistrement ci-dessous** : ajoute une nouvelle ligne afin que vous puissiez ajouter un nouvel enregistrement. Cela n’est pas possible dans l’environnement de Prévisualisation.
    * **Supprimer** : pour supprimer l’enregistrement. Les enregistrements supprimés sont enregistrés dans la zone Récemment supprimés pendant 30 jours au maximum.
 
 
@@ -341,7 +341,7 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 ### Modifier un enregistrement dans la vue Calendrier d’un type d’enregistrement
 
-1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+1. Ouvrez la page de type d’enregistrement dans une vue Calendrier. Pour plus d&#39;informations, consultez [Gérer la vue Calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. (Conditionnel) Pointez sur les extrémités de la barre d’un enregistrement dans la vue Calendrier, puis cliquez sur ses marges, faites-les glisser et déposez-les vers une autre date. Cette opération met automatiquement à jour la date de début ou de fin de l’enregistrement.
 
    ![Barre à gauche de la vue Calendrier à redimensionner](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
@@ -372,13 +372,13 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    Ou
 
-   Dans la vue Tableau, cliquez sur l’icône **Ouvrir les détails** ![Icône Ouvrir les détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
+   Dans la vue du tableau, cliquez sur l’icône **Ouvrir les détails** ![Ouvrir l’icône des détails dans le champ du nom du tableau](assets/open-details-icon-in-table-name-field.png) dans la première colonne. L’aperçu de l’enregistrement s’ouvre dans la vue.
 
-   ![Zone Détails](assets/details-box.png)
+   ![Zone de détails](assets/details-box.png)
 
-1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
+1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l&#39;enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
-   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez Présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d&#39;informations, consultez [Présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Commencez à modifier les informations du champ dans l’aperçu de l’enregistrement.
 
@@ -389,12 +389,12 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    >  * Champs de recherche d&#39;autres enregistrements créés en connectant des types d&#39;enregistrements. Pour plus d’informations, consultez la section [Connecter des types d’enregistrements](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification et Formule
 
-1. <span class="preview">(Facultatif) Cliquez sur le cercle de couleur à gauche du nom d’enregistrement pour modifier la couleur d’enregistrement. </span>
-   <span class="preview">Des couleurs sont automatiquement attribuées aux enregistrements lors de leur création. Cliquez sur **Nuancier** ou **Personnalisé** pour sélectionner une nouvelle couleur.</span>
+1. (Facultatif) Cliquez sur le cercle de couleur à gauche du nom d’enregistrement pour modifier la couleur d’enregistrement.
+Les enregistrements sont automatiquement affectés de couleurs lors de leur création. Cliquez sur **Nuanciers** ou **Personnalisés** pour sélectionner une nouvelle couleur.
 
-1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Facultatif) Cliquez sur **Ajouter une couverture** pour ajouter une image de couverture à l’enregistrement. Pour plus d&#39;informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une image miniature. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facultatif) Pointez sur l’icône de miniature, puis cliquez sur **Plus** ![Menu Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une image de miniature. Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 
@@ -404,11 +404,11 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    Lorsque le paramètre est désactivé, les avatars et les noms sont répertoriés dans la zone des indicateurs en temps réel, et les champs en cours d’édition ne sont pas mis en surbrillance.
 
-   ![Zone d’aperçu d’enregistrement développé des indicateurs en temps réel](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Zone d&#39;aperçu d&#39;enregistrement développé de l&#39;indicateur en temps réel](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Facultatif) Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l’enregistrement](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Exporter** ![Icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) pour exporter les détails de l&#39;enregistrement. Pour plus d&#39;informations, voir [Exporter les détails d&#39;un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une icône d’un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
+1. (Facultatif) Cliquez sur l’icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une icône de nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l’aperçu de l’enregistrement pour ouvrir la page de l’enregistrement dans un nouvel onglet. Poursuivez la modification de l’enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de la page de l’enregistrement](#edit-a-record-from-the-records-page) de cet article.
 
 ### Modifier un enregistrement à partir de la page de l’enregistrement
 
@@ -424,17 +424,17 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
 1. Utilisez l’une des méthodes suivantes :
 
-   * Depuis n&#39;importe quel affichage, accédez à l&#39;aperçu de l&#39;enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans un affichage](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Icône Ouvrir les détails dans un nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l&#39;aperçu de l&#39;enregistrement pour ouvrir la page de l&#39;enregistrement dans un nouvel onglet.
+   * Depuis n&#39;importe quel affichage, accédez à l&#39;aperçu de l&#39;enregistrement, comme décrit dans la section [Modifier un enregistrement à partir de l&#39;aperçu de l&#39;enregistrement dans un affichage](#edit-a-record-from-the-records-preview-in-a-view) de cet article, puis cliquez sur l&#39;icône **Ouvrir dans un nouvel onglet** ![Ouvrir les détails dans une icône de nouvel onglet](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> dans le coin supérieur droit de l&#39;aperçu de l&#39;enregistrement pour ouvrir la page de l&#39;enregistrement dans un nouvel onglet.
 
-   * Dans la vue **Tableau**, pointez sur le nom d’un enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur **Affichage**
+   * Dans la vue **Tableau**, passez la souris sur le nom d&#39;un enregistrement, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur **Affichage**
 
-     ![Menu contextuel pour la ligne d’enregistrement](assets/contextual-menu-for-record-row.png)
+     ![Menu contextuel pour la ligne d&#39;enregistrement](assets/contextual-menu-for-record-row.png)
 
      La page de l’enregistrement s’ouvre.
 
      ![Page de détails](assets/details-page.png)
 
-1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l’enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
+1. (Facultatif) Cliquez sur le menu **Plus** à droite du titre de l&#39;enregistrement, puis cliquez sur **Renommer**. Cette action met à jour le champ qui s’affiche en tant que titre de l’enregistrement.
 
    Le titre de l’enregistrement est le champ principal de l’enregistrement lorsqu’il est affiché dans une vue Tableau. Pour plus d’informations, consultez la section [Gérer la vue en tableau](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -448,8 +448,8 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    >  * Champs des types suivants : Créé par, Date de création, Dernière modification par, Date de dernière modification et Formule
 
 1. (Facultatif) Cliquez sur l’icône d’information située à droite de n’importe quel champ qui l’affiche pour afficher la description d’un champ.
-1. <span class="preview">(Facultatif) Cliquez sur le cercle de couleur à gauche du nom d’enregistrement pour modifier la couleur d’enregistrement. </span>
-   <span class="preview">Des couleurs sont automatiquement attribuées aux enregistrements lors de leur création. Cliquez sur **Nuancier** ou **Personnalisé** pour sélectionner une nouvelle couleur.</span>
+1. (Facultatif) Cliquez sur le cercle de couleur à gauche du nom d’enregistrement pour modifier la couleur d’enregistrement.
+Les enregistrements sont automatiquement affectés de couleurs lors de leur création. Cliquez sur **Nuanciers** ou **Personnalisés** pour sélectionner une nouvelle couleur.
 
    ![Zone du sélecteur de couleurs pour la zone des détails de l’enregistrement](assets/color-picker-box-for-record-color-in-details-page.png)
 
@@ -457,32 +457,32 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
 
    Ou
 
-   Pointez sur l’image de couverture existante, puis cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png) > **Télécharger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
+   Pointez sur l’image de couverture existante, puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) > **Charger** pour ajouter une nouvelle image de couverture pour l’enregistrement.
 
-   Pour plus d’informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+   Pour plus d&#39;informations, voir [Ajouter une image de couverture à un enregistrement](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facultatif) Pointez sur une miniature existante, ou sur l’icône **miniature** ![Icône Enregistrer la miniature sur la page de détails](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le menu **Plus** ![Menu Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature à l’enregistrement.
+1. (Facultatif) Pointez sur une miniature existante ou sur l’**icône de miniature** ![Icône d’enregistrement de miniature sur la page de détails](assets/record-thumbnail-icon-on-details-page.png), puis cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) > **Modifier la miniature** pour ajouter une miniature à l’enregistrement.
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront enregistre automatiquement vos modifications.
 
-1. (Facultatif) Cliquez sur l’**indicateur en temps réel** ![icône d’indicateur en temps réel](assets/real-time-indicator-icon.png) dans le coin supérieur droit de la page de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres personnes en temps réel.
+1. (Facultatif) Cliquez sur l’icône **indicateur en temps réel** ![indicateur en temps réel](assets/real-time-indicator-icon.png) dans le coin supérieur droit de la page de l’enregistrement, puis activez le paramètre **Afficher les collaborateurs** pour mettre en surbrillance les champs modifiés par d’autres utilisateurs en temps réel.
 
    Les noms et avatars de tous les utilisateurs accédant à l’enregistrement en même temps s’affichent dans cette zone.
 
    Lorsque le paramètre est désactivé, les avatars et les noms sont répertoriés dans la zone des indicateurs en temps réel, et les champs en cours d’édition ne sont pas mis en surbrillance.
 
-   ![Zone d’aperçu d’enregistrement développé des indicateurs en temps réel](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Zone d&#39;aperçu d&#39;enregistrement développé de l&#39;indicateur en temps réel](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Facultatif) Cliquez sur le menu **Exporter** ![icône Exporter dans la page des détails de l’enregistrement](assets/export-icon-in-record-details-page.png) pour exporter les détails de l’enregistrement. Pour plus d’informations, voir [Exporter les détails d’un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatif) Cliquez sur le menu **Exporter** ![Icône Exporter dans la page des détails de l&#39;enregistrement](assets/export-icon-in-record-details-page.png) pour exporter les détails de l&#39;enregistrement. Pour plus d&#39;informations, voir [Exporter les détails d&#39;un enregistrement](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Modifier un enregistrement à partir d&#39;un objet Workfront dans la section Planning
 
 Après avoir connecté des enregistrements à des objets Workfront, vous pouvez modifier les enregistrements Workfront Planning dans Workfront à partir de la section Planning de l’objet.
 
-Pour plus d’informations, voir [Gérer les connexions d’enregistrement à partir d’objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Pour plus d&#39;informations, voir [Gérer les connexions d&#39;enregistrement à partir d&#39;objets Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Modifier les paramètres de champ à sélection unique ou multiple lors de la mise à jour de leurs valeurs
 
@@ -506,7 +506,7 @@ Pour ajouter un nouveau choix à un champ de sélection existant lors de la modi
 1. Accédez à une page de type d’enregistrement et ouvrez la vue Tableau .
 1. Ajoutez le champ à sélection unique ou multiple auquel vous souhaitez ajouter un choix en mode Tableau sous la forme d’une nouvelle colonne. Pour plus d’informations, consultez [Créer des champs](/help/quicksilver/planning/fields/create-fields.md).
 1. Commencez à modifier le champ en ligne en double-cliquant sur la cellule du champ.
-1. Saisissez le nom du choix à ajouter, puis cliquez sur **Ajouter un choix**.
+1. Saisissez le nom du choix que vous souhaitez ajouter, puis cliquez sur **Ajouter un choix**.
 
    ![Ajouter un choix dans un champ à sélection unique en mode Tableau](assets/add-choice-in-table-view-for-single-select-field.png)
 
