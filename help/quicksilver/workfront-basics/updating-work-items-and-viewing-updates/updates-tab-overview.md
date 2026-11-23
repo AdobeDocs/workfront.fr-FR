@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 62%
+source-wordcount: '1464'
+ht-degree: 60%
 ---
 # Vue d’ensemble de la section Mises à jour
 
@@ -350,6 +350,8 @@ Tenez compte des points suivants lors de l’affichage des mises à jour pour le
   * Histoires
   * Feuilles de temps
   * Itérations
+
+* La section Mises à jour d&#39;une équipe affiche les mises à jour effectuées par n&#39;importe quel membre de l&#39;équipe, y compris les mises à jour de projets auxquels l&#39;équipe n&#39;est pas associée. Les mises à jour ne sont pas filtrées par les projets ou autres objets auxquels l&#39;équipe est associée. Pour afficher les mises à jour d’un projet spécifique, accédez à la section Mises à jour de ce projet.
 
 * L’onglet Mises à jour système de la zone Mises à jour pour les utilisateurs est renseigné par les mises à jour d’autres objets. Voici des mises à jour qui s’affichent dans l’onglet Mises à jour système du profil de l’utilisateur, lorsque ces champs sont suivis dans la zone Flux de mises à jour de la configuration :
 
