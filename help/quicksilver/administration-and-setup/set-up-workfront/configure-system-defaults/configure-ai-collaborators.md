@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 3%
 ---
 # Configuration des collaborateurs d’IA
@@ -156,7 +156,12 @@ Pour obtenir une liste des bonnes pratiques à suivre lors de la création d&#39
    >Si vous êtes un administrateur de groupes, ce champ affiche uniquement les groupes pour lesquels vous êtes un administrateur. Les administrateurs et administratrices de groupe doivent sélectionner au moins un groupe.
 
 1. Dans la zone **Choisir l&#39;origine de l&#39;agent**, choisissez si vous souhaitez <span class="preview">utiliser Adobe Native</span>, connecter un agent créé sur une plateforme commune telle que Copilot ou utiliser un agent personnalisé.
-1. <span class="preview">(Conditionnel) Si vous sélectionnez Adobe Native, vérifiez qu’Adobe CX Coworker est activé pour votre organisation et que vous souhaitez utiliser l’agent Adobe Native prêt à l’emploi.</span>
+1. <span class="preview">(Conditionnel) Si vous sélectionnez Adobe Native, sélectionnez le collaborateur que vous souhaitez utiliser : le collaborateur CX Enterprise Coworker ou un collaborateur IA préconfiguré, tel que le coordinateur d’entrée. Pour plus d’informations sur les collaborateurs préconfigurés, y compris des descriptions, voir [Configurer des collaborateurs d’IA préconfigurés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Après l’activation d’un collaborateur d’IA préconfiguré, l’approvisionnement prend environ 30 secondes. Une double flèche s&#39;affiche jusqu&#39;à ce que le collaborateur soit prêt.</span>
+
 1. (Conditionnel) Si vous utilisez un agent provenant d’une plateforme commune, saisissez les détails d’authentification de la plateforme de l’agent :
 
    | Platform | Authentification requise |

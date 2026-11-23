@@ -16,18 +16,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1249'
 ht-degree: 3%
 ---
 # Utiliser des agents de travail
 
-<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Elle est disponible uniquement dans l’environnement de prévisualisation pour tous les clients et clientes.</span>
+<span class="preview">Les informations mises en surbrillance sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles de manière générale. Il est disponible uniquement dans l&#39;environnement de prévisualisation pour tous les clients.</span>
 
 Les agents de travail sont des collaborateurs de l’IA qui peuvent être affectés directement à des tâches, des événements et des demandes Workfront. Comme les autres collaborateurs de l’IA, les agents de travail sont configurés dans la zone Configuration et affectés à des tâches comme un utilisateur.
 
-<span class="preview">Vous pouvez utiliser un agent de travail natif Adobe prêt à l’emploi et optimisé par Adobe CX Coworker</span> ou un agent de travail connecté à une plateforme externe. Les fonctionnalités disponibles et les exigences de configuration dépendent de l’origine de l’agent.
+<span class="preview">Vous pouvez utiliser un agent de travail natif Adobe prêt à l&#39;emploi, tel que le collaborateur CX Enterprise Coworker ou un collaborateur IA préconfiguré comme le coordinateur d&#39;admission (pour plus d&#39;informations, voir [Configurer des collaborateurs AI préconfigurés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)),</span> ou un agent de travail connecté à une plateforme externe. Les fonctionnalités disponibles et les exigences de configuration dépendent de l’origine de l’agent.
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -35,7 +35,7 @@ Les agents de travail sont des collaborateurs de l’IA qui peuvent être affect
 >
 >Writer a abandonné l&#39;utilisation des agents. Les agents de travail configurés à l’aide des agents Writer ne fonctionneront plus après le 9 octobre. 2026.
 >
->Pour plus d’informations sur l’obsolescence, consultez la section [&#x200B; Migration et obsolescence de la bibliothèque d’agents &#x200B;](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
+>Pour plus d’informations sur l’obsolescence, consultez [Migration et obsolescence de la bibliothèque d’agents](https://support.writer.com/articles/8335689949-migrating-no-code-agents) dans la documentation du rédacteur.
 
 Pour plus d’informations et d’instructions sur la création d’un agent de travail dans Workfront, consultez [Configurer un agent de travail](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) dans l’article Configuration des collaborateurs de l’IA.
 
@@ -145,7 +145,7 @@ Les agents de travail sont affectés à des tâches, des événements ou des dem
 
 Lorsque vous recherchez un agent de travail dans la liste des cessionnaires disponibles, le nom de l&#39;agent de travail est un prénom uniquement.
 
-Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) et [Gérer les demandes de travail et d’équipe](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+Pour obtenir des instructions, voir [Affecter des tâches](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) et [Gérer le travail et les demandes de l&#39;équipe](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >
