@@ -3,9 +3,9 @@ user-guide-title: Guide Workfront
 user-guide-description: Utilisez les documents, tutoriels et autres ressources pour apprendre à mettre en œuvre et utiliser Adobe Workfront efficacement dans votre organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14768'
 ht-degree: 90%
 ---
 # Guide Workfront {#using}
@@ -502,6 +502,7 @@ ht-degree: 90%
       * [Créer et modifier des règles métier](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configurer la localisation personnalisée](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [Configuration des collaborateurs d’IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+      * [Configuration des collaborateurs d’IA préconfigurés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)
       * [Collaborateurs IA](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
     * Configurer les préférences des plannings et des feuilles de temps {#configure-timesheets-schedules}
       * [Configurer les préférences des plannings et des feuilles de temps](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
@@ -2689,7 +2690,7 @@ ht-degree: 90%
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux JWT](wf-api/api/oauth-app-jwt-flow.md)
     * [Configurer et utiliser les applications OAuth 2 personnalisées de votre organisation à l’aide du flux PKCE](wf-api/api/oauth-app-pkce-flow.md)
     * [Obsolescence d’API-Internal](wf-api/api/deprecation-api-internal.md)
-    * [Nouveautés de la version 22 de l’API](/help/quicksilver/wf-api/api/new-api-version-22.md)
+    * [Nouveautés de la version 22](/help/quicksilver/wf-api/api/new-api-version-22.md) de l’API
     * [Nouveautés de l’API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md)
     * [Nouveautés de l’API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
     * [Nouveautés de l’API version 19](wf-api/api/new-api-version-19.md)
