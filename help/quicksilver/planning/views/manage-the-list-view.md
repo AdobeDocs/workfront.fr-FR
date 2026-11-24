@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 1%
 ---
 
@@ -34,9 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles en général. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver les versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -52,7 +52,7 @@ Vous pouvez afficher les objets dans la vue Liste dans Adobe Workfront Planning 
 
 Cet article décrit comment naviguer dans une vue de liste, la créer ou la modifier dans Workfront Planning.
 
-Pour plus d’informations sur les autres vues disponibles dans Workfront Planning, voir [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
+Pour plus d’informations sur toutes les autres vues disponibles dans Workfront Planning, consultez [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Conditions d’accès
 
@@ -104,7 +104,7 @@ Ou
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -122,14 +122,14 @@ Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exig
 
   * Vous ne pouvez pas créer ou modifier des vues de liste supplémentaires pour les formulaires de demande Planning. Workfront crée une vue Liste pour les formulaires de demande. <!--this will change-->
 
-    Pour plus d’informations sur les formulaires de demande, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Pour plus d&#39;informations sur les formulaires de demande, voir [Créer et gérer un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Selon l’emplacement d’affichage, toutes les vues de liste ne comportent pas tous les éléments décrits dans cet article.
 
 ## Gestion d’une vue de liste {#manage-a-list-view}
 
 Les vues Liste Workfront Planning sont similaires aux listes améliorées de Workfront. La plupart des éléments des vues améliorées existent également dans les vues Liste de Workfront Planning.
 
-Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Removed - more direct steps below: 
@@ -165,21 +165,29 @@ Removed - more direct steps below:
 
    >[!TIP]
    >
-   ><span class="preview">Le nombre d’éléments dans la liste s’affiche à gauche de la zone de recherche rapide dans le coin supérieur droit de la liste. Le nombre reflète le nombre d’éléments affichés avec des filtres appliqués à la liste. Les éléments que vous n’êtes pas autorisé à consulter ne sont pas comptabilisés. </span>
+   ><span class="preview">Le nombre d&#39;éléments dans la liste s&#39;affiche à gauche de la zone de recherche rapide dans le coin supérieur droit de la liste. Le nombre reflète le nombre d’éléments affichés avec des filtres appliqués à la liste. Les éléments que vous n’êtes pas autorisé à consulter ne sont pas comptabilisés. </span>
 
 
 1. (Conditionnel) Si disponible, effectuez l’une des opérations suivantes pour modifier la vue Liste :
 
    1. Développez le menu des vues déroulantes dans le coin supérieur gauche de la liste pour sélectionner une autre vue, ou cliquez sur **Nouvelle vue** et créez-en une autre.
 
+      Les vues s’affichent dans l’une des sections suivantes :
+
+      * **Vues du système**, créées par Workfront.
+      * **Vues partagées**, partagées avec vous par d&#39;autres personnes.
+      * **Mes vues**, créées par vous.
+
       >[!TIP]
       >
       >Les vues sont partagées dans l’ensemble du système. Si vous créez une vue Projets pour un type d’enregistrement, vous pouvez l’afficher sur d’autres types d’enregistrement qui affichent les projets connectés.
 
-   1. Passez la souris sur le nom d&#39;une vue existante et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis sur l&#39;une des options suivantes :
-      * **Renommer**, pour donner un nouveau nom à la vue
-      * **Partager**, pour partager la vue avec d&#39;autres personnes
+   1. Passez la souris sur le nom d&#39;une vue existante et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png), puis cliquez sur l&#39;un des éléments suivants :
+      * **Renommer** pour donner un nouveau nom à la vue
+      * **Partager**, pour partager la vue avec d&#39;autres personnes. Lorsqu&#39;une personne partage une vue avec vous, elle s&#39;affiche dans la zone **Vues partagées** du menu déroulant des vues.
       * **Supprimer**, pour supprimer la vue.
+      * **Copier avec préférences** <span class="preview"><!--or **Copy with my changes**</span>-->, pour copier l&#39;affichage avec les modifications que vous avez apportées au lieu de copier l&#39;affichage d&#39;origine qui a été partagé avec vous. Cette option est disponible uniquement sur les vues système et les vues partagées.
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -187,39 +195,53 @@ Removed - more direct steps below:
       >
       >* Vous ne pouvez pas modifier les vues système.
       >
-      >* Vous pouvez réinitialiser un affichage partagé avec vous et pour lequel vous disposez uniquement d&#39;autorisations d&#39;affichage, après l&#39;avoir modifié pour restaurer ses préférences d&#39;origine, ou vous pouvez le copier avec vos modifications et partager la copie. Pour plus d’informations, voir [Utilisation de listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+      >* Vous pouvez réinitialiser un affichage partagé avec vous et pour lequel vous disposez uniquement d&#39;autorisations d&#39;affichage, après l&#39;avoir modifié pour restaurer ses préférences d&#39;origine, ou vous pouvez le copier avec vos modifications et partager la copie. Pour plus d&#39;informations, voir [Utiliser des listes améliorées](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-   1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) pour ajouter un filtre à la vue. Les résultats sont immédiatement filtrés dans la liste. Vous ne pouvez pas enregistrer ni nommer les filtres. Les filtres sont mémorisés lorsque vous accéderez à la page ultérieurement et ils font partie des vues partagées.
+   1. Cliquez sur l’icône **Filtre** ![Icône Filtre](assets/filter-icon.png) pour ajouter un filtre à la vue. Les résultats sont immédiatement filtrés dans la liste. Vous ne pouvez pas enregistrer ni nommer les filtres. Les filtres sont mémorisés lorsque vous accédez à la page ultérieurement et ils font partie des vues partagées.
 
       >[!TIP]
       >
-      >Pour appliquer un filtre personnalisé, sélectionnez l’une des options suivantes pour une valeur de champ :
+      >* Pour appliquer un filtre personnalisé, sélectionnez l’une des options suivantes pour une valeur de champ :
       >
-      >* **Moi (utilisateur connecté)** pour faire référence à l’utilisateur connecté dans les champs qui font référence aux utilisateurs.
+      >   * **Me (utilisateur connecté)** pour faire référence à l&#39;utilisateur connecté dans les champs faisant référence aux utilisateurs.
       >
-      >* **Mes équipes** ou **Mon équipe interne** pour faire référence à vos équipes dans les champs qui font référence aux équipes.
+      >   * **Mes équipes** ou **Mon équipe interne** pour faire référence à vos équipes dans les champs faisant référence aux équipes.
       >
-      >* **Mes groupes** ou **Mon groupe principal** pour faire référence à vos groupes dans les champs qui font référence à des groupes.
+      >   * **Mes groupes** ou **Mon groupe principal** pour faire référence à vos groupes dans les champs faisant référence à des groupes.
       >
-      >* **Ma société** pour faire référence à votre société dans les champs qui font référence à des sociétés.
+      >   * **Ma société** pour faire référence à votre société dans les champs qui font référence à des sociétés.
       > 
-      >* **Mes rôles** ou **Mon rôle principal** pour faire référence à vos fonctions dans des champs qui font référence à des rôles.
+      >   * **Mes rôles** ou **Mon rôle principal** pour faire référence à vos fonctions dans les champs faisant référence à des rôles.
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
-   1. Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour sélectionner les colonnes à afficher ou à masquer dans la vue.
+   1. Cliquez sur l’icône **Colonnes** ![Icône Colonnes](assets/columns-icon.png) pour sélectionner les colonnes à afficher ou à masquer dans l’affichage.
    1. Pointez sur le nom d’une colonne, puis cliquez sur la flèche vers le bas située à gauche du nom de la colonne, puis cliquez sur l’une des options suivantes :
-      * **Renommer**, pour ajouter un **libellé personnalisé** pour la colonne. Le nom du champ d’origine dans Workfront ne change pas.
-      * **Trier**, pour trier la liste en fonction du champ sélectionné. Une icône de tri indiquant le sens du tri est ajoutée à l’en-tête de colonne.
+      * **Renommer** pour ajouter un **libellé personnalisé** pour la colonne. Le nom du champ d’origine dans Workfront ne change pas.
+      * **Trier**, pour trier la liste selon le champ sélectionné. Une icône de tri indiquant le sens du tri est ajoutée à l’en-tête de colonne.
    1. Cliquez sur l’en-tête d’une colonne, puis faites-la glisser et déposez-la à un autre emplacement de la liste.
 
       Impossible de déplacer la première colonne.
    1. Cliquez sur l’icône **+** dans le coin supérieur droit de la liste pour ajouter ou supprimer des colonnes dans la liste, puis cliquez sur **Enregistrer**.
 
-      Le **Gestionnaire de colonnes** s’ouvre.
+      Le **gestionnaire de colonnes** s’ouvre.
 
       Vous ne pouvez ajouter que des champs existants à la vue Liste.
       Vous ne pouvez pas supprimer le champ principal dans la vue Liste qui s’affiche dans la première colonne.
 
-   1. Cliquez sur l’icône **Formater les cellules** ![Icône Formater les cellules](assets/format-cells-icon.png). La boîte **Format** s’ouvre. <!--change the name of the box when they update it-->
+   1. Cliquez sur l’icône **Formater les cellules** ![Formater les cellules](assets/format-cells-icon.png). La zone **Format** s&#39;ouvre. <!--change the name of the box when they update it-->
       Procédez comme suit :
 
       1. Cliquez sur **Ajouter une condition**.
@@ -235,27 +257,27 @@ Removed - more direct steps below:
          >
          >Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle. Les champs comparés doivent être du même type.
 
-      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.
+      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **If** pour ajouter d’autres conditions à la même règle.
 
          >[!TIP]
          >
          >Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.
 
-      1. Cliquez sur le connecteur **Ou** entre les conditions pour passer à **Et** et indiquer que plusieurs conditions doivent être remplies en même temps. **Or** est le connecteur par défaut.
-      1. Sur la ligne **Format**, sélectionnez un champ pour indiquer la colonne à mettre en forme. <!--edit this area, if it changes names??-->
-      1. (Facultatif) Cliquez sur l’icône **cercle de couleur** ![icône de cercle de couleur](assets/color-circle.png) en regard du champ sélectionné pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan d’une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte d’une cellule.
-      1. Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour mettre en forme le texte dans une cellule :
+      1. Cliquez sur le connecteur **Or** entre les conditions pour passer à **And** et indiquer que plusieurs conditions doivent être remplies en même temps. **Ou** est le connecteur par défaut.
+      1. Dans la ligne **Format**, sélectionnez un champ pour indiquer la colonne qui sera formatée. <!--edit this area, if it changes names??-->
+      1. (Facultatif) Cliquez sur l’icône **cercle de couleur** ![icône de cercle de couleur](assets/color-circle.png) en regard du champ sélectionné, pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan dans une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte dans une cellule.
+      1. Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour formater le texte dans une cellule :
          * Gras
          * Italiques
 
       1. Activez le paramètre **Appliquer à la ligne** pour appliquer la mise en forme à l’ensemble de la ligne du champ qui répond aux conditions.
-      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ, puis répétez les étapes ci-dessus.
+      1. (Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ et répétez les étapes ci-dessus.
       1. (Facultatif) Cliquez sur **Effacer tout** pour supprimer toute mise en forme.
       1. Cliquez en dehors de la zone **Format** pour la fermer.
 
          Vous revenez alors à la vue Liste.
          La mise en forme est appliquée immédiatement à la vue Liste.
-         Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
+         Un point bleu se trouve en regard de l’icône **Formater les cellules** pour indiquer que la vue a une mise en forme spéciale appliquée.
 
    1. (Facultatif) Cliquez sur l’icône **Regroupement** ![Icône de regroupement](assets/grouping-icon.png) pour regrouper les éléments de la liste par un champ commun. Sélectionnez l’une des options ou utilisez la barre de recherche pour rechercher un champ.
 
@@ -274,9 +296,9 @@ Removed - more direct steps below:
 
    Les éléments qui correspondent à votre terme de recherche sont mis en surbrillance dans la liste.
 
-   <span class="preview">La liste est filtrée afin d’afficher uniquement les éléments qui correspondent à la recherche. </span>
+   <span class="preview">La liste est filtrée pour afficher uniquement les éléments qui correspondent à la recherche. </span>
 
-1. (Facultatif et conditionnel) Pour ajouter d’autres éléments à la liste et les connecter automatiquement à l’enregistrement sélectionné, effectuez l’une des opérations suivantes dans la page <!--change projects to items here when more items will display in the Glist--> connectée des projets :
+1. (Facultatif et conditionnel) Dans la page connectée des projets <!--change projects to items here when more items will display in the Glist-->, pour ajouter d&#39;autres éléments à la liste et les connecter automatiquement à l&#39;enregistrement sélectionné, effectuez l&#39;une des opérations suivantes :
 
    * Cliquez sur **Connecter des enregistrements** dans le coin supérieur droit de la liste pour ajouter des éléments existants.
    * Cliquez sur **Nouvelle ligne** au bas de la liste pour ajouter de nouveaux éléments.
@@ -287,11 +309,11 @@ Removed - more direct steps below:
 
 1. (Conditionnel) Pour sélectionner des champs de type, utilisez les flèches de votre clavier pour parcourir la liste des options, puis appuyez sur la barre d’espace pour sélectionner le bon choix.
 
-   Utilisez la ligne **Rechercher** dans certains types de champ pour trouver l’option appropriée.
+   Utilisez la ligne **Rechercher** dans certains types de champs pour trouver l&#39;option appropriée.
 
    Vous pouvez ajouter de nouvelles options directement à partir de la cellule du champ si aucun résultat n’est trouvé. Cette fonctionnalité peut ne pas être disponible sur toutes les listes.
 
-1. Pointez sur le nom d’un élément dans la liste, cliquez sur le menu **Plus** [Plus](assets/more-menu.png), puis sur **Affichage** pour ouvrir l’élément dans un autre onglet
+1. Pointez sur le nom d’un élément dans la liste, cliquez sur le menu **Plus** [Plus](assets/more-menu.png) et cliquez sur **Afficher** pour ouvrir l’élément dans un autre onglet
 
    Ou
 
@@ -300,16 +322,16 @@ Removed - more direct steps below:
    Selon la zone à partir de laquelle vous accédez à la vue Liste, cliquez sur l’une des options suivantes :
 
    * **Supprimer** pour supprimer l’élément. La suppression d’un projet le déconnecte de l’enregistrement et le déplace vers la Corbeille de Workfront. Les administrateurs et administratrices de Workfront peuvent récupérer les projets supprimés jusqu’à 30 jours après leur suppression. La suppression d’un formulaire ne supprime pas les demandes ou les enregistrements créés lors de l’envoi du formulaire.
-   * **Déconnecter** dans la page de connexion des projets, pour déconnecter un projet de l’enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif.
+   * **Déconnecter** dans la page de connexion des projets, pour déconnecter un projet de l&#39;enregistrement. La déconnexion d’un projet supprime cet enregistrement et toutes les valeurs de ses champs de recherche de l’enregistrement actif.
 
-     ![Barre d’actions dans la vue Liste des pages Enregistrements connectés](assets/actions-bar-connected-records-page-list-view.png)
+     ![Barre d&#39;actions dans la vue Liste des enregistrements connectés](assets/actions-bar-connected-records-page-list-view.png)
 
    * **Modifier le formulaire** : ouvre un formulaire de demande Planning et vous permet de le modifier.
    * **Dépublier** : dépublie un formulaire de demande. Le formulaire est supprimé de la zone des Demandes et les utilisateurs et utilisatrices ne peuvent plus ajouter de demandes à ce type d’enregistrement.
-   * **Partager** : ouvre la zone de partage d’un formulaire de demande que vous pouvez partager avec d’autres personnes.
+   * **Partager** : ouvre la boîte Partage d&#39;un formulaire de demande que vous pouvez partager avec d&#39;autres utilisateurs.
    * **Copier le lien** : copie un lien vers un formulaire de demande Planning afin que vous puissiez le partager avec d&#39;autres utilisateurs. Si le formulaire est partagé publiquement, vous pouvez partager le lien avec des personnes en dehors de Workfront Planning.
 
-     ![Barre Actions de la liste des requêtes Planning](assets/actions-bar-in-inake-forms-list.png)
+     ![Barre d&#39;actions dans la liste des demandes Planning](assets/actions-bar-in-inake-forms-list.png)
 
 
 

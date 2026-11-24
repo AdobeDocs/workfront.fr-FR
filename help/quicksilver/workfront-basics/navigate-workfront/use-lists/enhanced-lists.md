@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 2%
 ---
 # Utiliser les listes améliorées
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 Des listes améliorées sont disponibles dans certaines parties d’Adobe Workfront. Ces listes utilisent un format de tableau pour afficher les éléments de liste et leur aspect est différent de celui des listes standard. La gestion des vues est également améliorée, notamment le filtrage, le regroupement, la gestion des colonnes et la recherche.
 
-Pour plus d’informations sur les listes standard, voir [Prise en main des listes dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Pour plus d&#39;informations sur les listes standard, consultez [Prise en main des listes dans Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 >[!NOTE]
 >
@@ -87,9 +87,9 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Liste des emplacements | Configuration > Emplacements |
 | Liste des traductions | Configuration > Localisation |
 | Listes des intégrations | <ul><li>Configuration > Documents > Intégration SharePoint</li><li>Configuration > Documents > Intégration personnalisée</li><li>Configuration > Documents > Experience Manager Assets</li></ul> |
-| <span class="preview">Liste des modèles de disposition</span> | <span class="preview">Configuration > Interface > Modèles De Mise En Page</span> |
-| <span class="preview">Liste des notifications d’événement</span> | <ul><li><span class="preview">Configuration > E-mail > Notifications > Notifications d’événement</span></li><li><span class="preview">Page Détails du groupe > Notifications d’événement</span></li></ul> |
-| Liste des rapports | Menu principal > Rapports (l’option **Utiliser des dossiers partageables** doit être activée) |
+| <span class="preview">Liste des modèles de mise en page</span> | <span class="preview">Configuration > Interface > Modèles De Disposition</span> |
+| <span class="preview">Liste des notifications d’événement</span> | <ul><li><span class="preview">Configuration > E-Mail > Notifications > Notifications D’Événement</span></li><li><span class="preview">Page Détails du groupe > Notifications d’événement</span></li></ul> |
+| Liste des rapports | Menu principal > Rapports (**Les dossiers partageables** doivent être activés) |
 | Listes de rubriques de file d’attente, de groupes de rubriques et de règles de routage | <ul><li>Projet ou modèle > Rubriques de file d&#39;attente</li><li>Projet ou modèle > Groupes de sujets</li><li>Projet ou modèle > Règles de transmission</li></ul> |
 | Liste des instantanés | Projet > Instantanés |
 | Liste des ressources pour la facturation | Projet > Ressource pour la facturation |
@@ -98,8 +98,15 @@ Vous trouverez ci-dessous certains types de listes d’objets Workfront qui util
 | Vue Toutes les versions d’un document | Projet > Documents > Détails du document > Toutes les versions |
 | Vue Administration des forums | Panoramas > Vue Administration |
 | Documents sur l’espace de stockage dans le cloud d’Adobe | Projet, tâche, événement, portefeuille, programme, modèle, tâche de modèle > Documents |
-| Listes de plans et d’initiatives de scénario | Menu principal > Scénarios |
+| Listes des plans de scénario <!--and initiatives--> | Menu principal > Scénarios |
 | Listes d’objectifs et d’indicateurs de progression | <ul><li>Menu principal > Objectifs</li><li>Menu principal > Objectifs > Indicateurs de progression</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -121,7 +128,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
 
    OU
 
-1. Cliquez sur **Nouvelle ligne** au bas de la liste. Cette option ajoute une nouvelle ligne au tableau. Double-cliquez dans une cellule pour y saisir des informations. Chaque cellule représente un champ pour l’élément de liste. Les champs doivent exister avant de les voir dans la liste.
+1. Cliquez sur **Nouvelle ligne** en bas de la liste. Cette option ajoute une nouvelle ligne au tableau. Double-cliquez dans une cellule pour y saisir des informations. Chaque cellule représente un champ pour l’élément de liste. Les champs doivent exister avant de les voir dans la liste.
 
    Les listes améliorées prennent en charge les types de champs suivants :
 
@@ -148,7 +155,7 @@ Selon la liste améliorée que vous consultez, effectuez l’une des opérations
    >
    >Notez que toutes les listes ne prennent pas en charge tous les types de champ.
 
-![&#x200B; Exemple de liste améliorée &#x200B;](assets/glist-exchange-rates.png)
+![Exemple de liste améliorée](assets/glist-exchange-rates.png)
 
 ## Modifier les éléments intégrés
 
@@ -186,15 +193,15 @@ Vous pouvez utiliser la barre d’actions d’une liste améliorée pour modifie
 
    Si aucune action n’est disponible pour l’élément sélectionné, la barre d’actions indique « Aucune action disponible ».
 
-   ![&#x200B; Exemple de barre d’actions &#x200B;](assets/glist-action-bar-statuses.png)
+   ![Exemple de barre d&#39;actions](assets/glist-action-bar-statuses.png)
 
-1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur le menu **Plus** ![icône de menu Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
+1. Pointez sur le champ principal d’un élément de liste, puis cliquez sur l’icône de menu **Plus** ![Plus](assets/more-icon.png) pour afficher des actions supplémentaires. Certaines actions peuvent être spécifiques à cette liste.
 
    >[!TIP]
    >
    >Le champ principal s’affiche dans la première colonne de la liste.
 
-   ![Exemple de menu Plus](assets/glist-more-menu-priorities.png)
+   ![Exemple de menu supplémentaire](assets/glist-more-menu-priorities.png)
 
 ## Personnaliser les colonnes
 
@@ -208,7 +215,7 @@ Selon les objets que vous consultez dans une liste améliorée, vous pouvez masq
 
    Vous pouvez rechercher une colonne dans la zone de recherche.
 
-1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png) et déplacez une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
+1. Pour réorganiser les colonnes, cliquez sur l’icône **Faire glisser** ![Faire glisser l’icône](assets/drag-icon.png) et déplacer une colonne vers l’emplacement souhaité. Le déplacement de colonnes modifie automatiquement la liste.
 
    >[!NOTE]
    >
@@ -216,9 +223,9 @@ Selon les objets que vous consultez dans une liste améliorée, vous pouvez masq
    >
    >L’icône en regard d’un nom de champ affiche le type de champ, tel que du texte ou un champ de date.
 
-   Un indicateur s’affiche sur le bouton **Colonnes** lorsque des colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.
+   Un indicateur s’affiche sur le bouton **Colonnes** lorsque les colonnes sont masquées. L’indicateur n’apparaît pas lorsque vous réorganisez les colonnes.
 
-   ![Indicateur des colonnes masquées](assets/glist-columns-hidden-indicator.png)
+   ![Indicateur de colonnes masquées](assets/glist-columns-hidden-indicator.png)
 
    Certaines listes vous permettent également de faire glisser les colonnes elles-mêmes dans l’ordre souhaité.
 
@@ -228,7 +235,7 @@ Certaines colonnes vous permettent d’enregistrer un nom personnalisé pour le 
 
 1. Pointez sur la colonne, puis cliquez sur la flèche vers le bas et sélectionnez **Renommer**.
 
-   ![Sélectionnez Renommer sur la colonne](assets/glist-rename-or-sort-column.png)
+   ![Sélectionner Renommer sur la colonne](assets/glist-rename-or-sort-column.png)
 
 1. Dans la boîte de dialogue **Renommer**, saisissez le nom de la colonne dans le champ **Libellé personnalisé**, puis cliquez sur **Enregistrer**.
 
@@ -250,7 +257,7 @@ Pour ajouter et supprimer des colonnes :
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. (Facultatif) Pour réorganiser les colonnes, passez le curseur sur le nom d’une colonne dans la section **Sélectionné** et cliquez sur l’icône **Faire glisser** ![Icône Faire glisser](assets/drag-icon.png). Déplacez les colonnes verticalement pour les placer dans l’ordre.
+1. (Facultatif) Pour réorganiser les colonnes, passez la souris sur un nom de colonne dans la section **Sélectionné** et cliquez sur l’icône **Faire glisser** ![Faire glisser](assets/drag-icon.png). Déplacez les colonnes verticalement pour les placer dans l’ordre.
 1. Cliquer sur **Enregistrer**.
 
    ![Gestionnaire de colonnes](assets/glist-column-manager.png)
@@ -304,11 +311,11 @@ Pour modifier l&#39;ordre des lignes :
 
 Les éléments suivants sont des composants d’une liste améliorée :
 
-* **Vue** : définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis
-* **Filtres** : limite la quantité d’informations affichées dans la liste.
+* **Affichage** : définit les colonnes, filtres et regroupements de la liste avec des paramètres prédéfinis
+* **Filtres** : limite la quantité d&#39;informations affichées dans la liste
 * **Regroupements** : organisez les éléments de la liste en fonction de champs communs
-* **Trier** : organise les éléments d’une liste selon l’ordre que vous avez identifié pour un champ donné
-* **Recherche** : recherche rapide d’un élément à l’aide d’un mot-clé de recherche.
+* **Trier** : organise les éléments d&#39;une liste selon l&#39;ordre que vous avez identifié pour un champ donné
+* **Rechercher** : recherche rapide un élément à l’aide d’un mot-clé de recherche
 
 ### Application et création de vues
 
@@ -318,16 +325,16 @@ Les éléments suivants sont des composants d’une liste améliorée :
 
 Pour appliquer ou créer une vue :
 
-1. Cliquez sur le menu déroulant **Vues** et sélectionnez une vue existante pour l’appliquer à la liste
+1. Cliquez sur la liste déroulante **Vues** et sélectionnez une vue existante à appliquer à la liste
 
    OU
 
    Cliquez sur **Nouvelle vue** pour en créer une.
 
 1. (Conditionnel) Pour ajouter une nouvelle vue, saisissez un nom pour la vue, puis cliquez sur **Créer**.
-1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d’informations, voir [&#x200B; Personnaliser les colonnes d’une liste améliorée &#x200B;](#customize-columns-in-an-enhanced-list).
-1. (Facultatif) Filtrez la liste. Pour plus d’informations, voir [&#x200B; Filtrer les éléments dans une liste améliorée &#x200B;](#filter-items-in-an-enhanced-list).
-1. (Facultatif) Regroupez les éléments de la liste. Pour plus d’informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
+1. (Facultatif) Masquez, affichez ou réorganisez les colonnes. Pour plus d&#39;informations, voir [Personnaliser les colonnes dans une liste améliorée](#customize-columns-in-an-enhanced-list).
+1. (Facultatif) Filtrez la liste. Pour plus d&#39;informations, voir [Filtrer les éléments dans une liste améliorée](#filter-items-in-an-enhanced-list).
+1. (Facultatif) Regroupez les éléments de la liste. Pour plus d&#39;informations, voir [Regrouper des éléments dans une liste améliorée](#group-items-in-an-enhanced-list).
 
    Les modifications apportées aux vues sont enregistrées automatiquement. La prochaine fois que vous appliquerez cette vue, les paramètres de colonne et de filtre resteront tels que vous les avez définis.
 
@@ -339,30 +346,30 @@ Pour appliquer ou créer une vue :
 
 Dans la liste déroulante **Vues**, vous pouvez voir trois catégories de vues :
 
-* **Vues système** : vues que l&#39;administrateur système vous a affectées. Vous ne pouvez pas partager de vues système.
+* **Vues du système** : vues que l&#39;administrateur système vous a affectées. Vous ne pouvez pas partager de vues système.
 * **Vues partagées** : vues qui ont été partagées avec vous par d&#39;autres utilisateurs.
-* **Mes vues** : vues que vous avez créées et que vous pouvez partager avec d’autres utilisateurs. Vous pouvez partager des vues avec d’autres utilisateurs, équipes ou groupes.
+* **Mes vues** : vues que vous avez créées et que vous pouvez partager avec d&#39;autres utilisateurs. Vous pouvez partager des vues avec d’autres utilisateurs, équipes ou groupes.
 
 Lorsque vous partagez une vue, tous les éléments de vue (colonnes, filtres et regroupements) sont inclus.
 
 Pour partager une vue :
 
-1. Dans la liste déroulante **Vues**, pointez sur la vue de **Mes vues** que vous souhaitez partager, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Partager**.
+1. Dans la liste déroulante **Vues**, passez la souris sur la vue dans **Mes vues** que vous souhaitez partager, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Partager**.
 1. Dans la boîte de dialogue Partager, saisissez les noms des utilisateurs, des équipes, des groupes, des sociétés ou des fonctions avec lesquels vous souhaitez partager la vue, puis sélectionnez-les dans la liste lorsqu’ils apparaissent.
 
    Vous pouvez accorder les autorisations suivantes aux destinataires :
 
-   * **Affichage** : les utilisateurs et utilisatrices peuvent appliquer l’affichage à la liste, mais pas le partager.
+   * **Affichage** : les utilisateurs peuvent appliquer l&#39;affichage à la liste, mais ne peuvent pas le partager.
 
-     Lorsque les utilisateurs disposant d’un accès en lecture seule mettent à jour la vue, ces modifications sont enregistrées dans leurs préférences personnelles. Un point bleu sur le nom de la vue (dans le **Vues partagées** de l’utilisateur) indique que des mises à jour personnelles sont appliquées à la vue.
+     Lorsque les utilisateurs disposant d’un accès en lecture seule mettent à jour la vue, ces modifications sont enregistrées dans leurs préférences personnelles. Un point bleu sur le nom de la vue (dans les **Vues partagées** de l&#39;utilisateur) indique que des mises à jour personnelles sont appliquées à la vue.
 
-   * **Gérer** : les utilisateurs et utilisatrices peuvent renommer, partager ou supprimer la vue, et modifier ses éléments.
+   * **Gérer** : les utilisateurs peuvent renommer, partager ou supprimer la vue, et modifier ses éléments.
 
      Lorsque les utilisateurs disposant d&#39;un accès de niveau Gérer apportent des modifications à la vue, tous les utilisateurs qui ont la vue partagée avec eux verront ces mises à jour lorsque la vue sera appliquée à la liste.
 
 1. Cliquez sur **Enregistrer**.
 
-   Si vous partagez une vue avec un utilisateur, puis supprimez cet accès, la vue est supprimée de la **Vues partagées** de l&#39;utilisateur. Si la vue partagée est appliquée à la liste lorsque l’accès de l’utilisateur est supprimé, la vue système par défaut est appliquée.
+   Si vous partagez une vue avec un utilisateur et que vous supprimez ensuite cet accès, la vue est supprimée des **vues partagées** de l&#39;utilisateur. Si la vue partagée est appliquée à la liste lorsque l’accès de l’utilisateur est supprimé, la vue système par défaut est appliquée.
 
 ### Copier une vue
 
@@ -372,15 +379,15 @@ Pour partager une vue :
 
 Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisation de la modifier, vous pouvez la copier et l’enregistrer sous un nouveau nom. Vous devez d&#39;abord apporter des modifications à la vue avant de pouvoir la copier.
 
-1. Dans la liste déroulante Vues, pointez sur la vue dans **Vues partagées** dont vous avez modifié les paramètres et que vous souhaitez copier, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Copier avec les préférences**.
+1. Dans la liste déroulante Vues, pointez sur la vue dans **Vues partagées** dont vous avez modifié les paramètres et que vous souhaitez copier, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis sur **Copier avec préférences** <!--<span class="preview">or **Copy with my changes**</span>-->.
 
-   Une nouvelle vue est créée automatiquement. Le nom de la vue copiée suit le modèle suivant : `Original view name (copy)`et il s&#39;affiche dans la section **Mes vues** des vues.
+   Une nouvelle vue est créée automatiquement. Le nom de la vue copiée suit le modèle suivant : `Original view name (copy)` et il s’affiche dans la section **Mes vues** des vues.
 
    Vous êtes le propriétaire de cette vue et vous pouvez la renommer, la modifier, la partager ou la supprimer. Si le propriétaire de la vue d’origine supprime votre accès partagé à cette vue, vous avez toujours accès à la vue que vous avez créée en copiant la vue d’origine partagée.
 
    >[!NOTE]
    >
-   >L’option **Copier avec les préférences** n’est disponible que lorsque vous avez apporté des modifications à une vue qui a été partagée avec vous.
+   >L&#39;option **Copier avec des préférences** <!--<span class="preview">or **Copy with my changes**</span>--> n&#39;est disponible que lorsque vous avez apporté des modifications à une vue qui a été partagée avec vous.
 
 ### Réinitialisation d’une vue
 
@@ -390,7 +397,7 @@ Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisati
 
 Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisation de la modifier et que vous la mettez à jour, vous pouvez la réinitialiser à la vue d’origine.
 
-1. Dans la liste déroulante **Vues**, passez le curseur sur la vue dans **Vues partagées** à réinitialiser, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Réinitialiser aux valeurs par défaut**.
+1. Dans la liste déroulante **Vues**, passez le curseur sur la vue dans **Vues partagées** que vous souhaitez réinitialiser, cliquez sur le menu **Plus** ![Plus](assets/more-icon.png), puis cliquez sur **Réinitialiser aux valeurs par défaut**.
 
    Les éléments d’affichage (colonnes, filtres et regroupements) sont réinitialisés à leurs paramètres d’origine qui ont été partagés avec vous.
 
@@ -398,7 +405,7 @@ Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisati
    >
    >L&#39;option **Réinitialiser aux valeurs par défaut** n&#39;est disponible que lorsque vous avez apporté des modifications à une vue partagée avec vous.
 
-   ![Copier et réinitialiser des options d’affichage](assets/glist-copy-view-shared-with-you.png)
+   ![Copier et réinitialiser des options d&#39;affichage](assets/glist-copy-view-shared-with-you.png)
 
 ### Appliquer une mise en forme conditionnelle dans une vue
 
@@ -408,7 +415,7 @@ Lorsqu’une vue est partagée avec vous et que vous n’avez pas l’autorisati
 
 La mise en forme conditionnelle permet de mettre en évidence des informations importantes dans la vue en fonction de critères communs.
 
-1. Cliquez sur l’icône **Formater les cellules** ![Icône Formater les cellules](assets/format-cells-icon.png). La boîte **Format** s’ouvre.
+1. Cliquez sur l’icône **Formater les cellules** ![Formater les cellules](assets/format-cells-icon.png). La zone **Format** s&#39;ouvre.
 
 1. Cliquez sur **Ajouter une condition**.
 1. Dans la ligne **If**, sélectionnez un champ, choisissez une valeur de champ et ajoutez un modificateur. Les modificateurs changent en fonction du type de champ choisi.
@@ -423,28 +430,28 @@ La mise en forme conditionnelle permet de mettre en évidence des informations i
    >
    >Seuls les champs visibles dans la vue Liste sont disponibles pour la mise en forme conditionnelle. Les champs comparés doivent être du même type.
 
-1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **Si** pour ajouter d’autres conditions à la même règle.
+1. (Facultatif) Cliquez sur **Ajouter une condition** dans la ligne **If** pour ajouter d’autres conditions à la même règle.
 
    >[!TIP]
    >
    >Vous pouvez ajouter jusqu’à 10 conditions dans une règle de conditionnement et vous pouvez avoir jusqu’à 20 règles pour un champ.
 
-1. Cliquez sur le connecteur **Ou** entre les conditions pour passer à **Et** et indiquer que plusieurs conditions doivent être remplies en même temps. **Or** est le connecteur par défaut.
-1. Sur la ligne **Format**, sélectionnez un champ pour indiquer la colonne à mettre en forme.
-1. (Facultatif) Cliquez sur l’icône **cercle de couleurs** ![icône de format de couleur](assets/color-format-icon.png) en regard du champ sélectionné pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan d’une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte d’une cellule.
-1. Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour mettre en forme le texte dans une cellule :
+1. Cliquez sur le connecteur **Or** entre les conditions pour passer à **And** et indiquer que plusieurs conditions doivent être remplies en même temps. **Ou** est le connecteur par défaut.
+1. Dans la ligne **Format**, sélectionnez un champ pour indiquer la colonne qui sera formatée.
+1. (Facultatif) Cliquez sur l’icône **cercle de couleur** ![icône de format de couleur](assets/color-format-icon.png) à côté du champ sélectionné, pour le développer et choisir une autre couleur dans la zone **Remplissage de cellule** pour modifier la couleur de l’arrière-plan dans une cellule ou sélectionnez une couleur dans la zone **Couleur du texte** pour modifier la couleur du texte dans une cellule.
+1. Cliquez sur l’icône **Format de texte** ![Icône Format de texte](assets/text-format-icon.png) et sélectionnez l’une des options suivantes pour formater le texte dans une cellule :
    * Gras
    * Italiques
 
 1. Activez le paramètre **Appliquer à la ligne** pour appliquer la mise en forme à l’ensemble de la ligne du champ qui répond aux conditions.
 
-1. (Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ, puis répétez les étapes ci-dessus.
+1. (Facultatif) Cliquez sur **Ajouter une condition** dans la zone **Format** pour ajouter une autre règle pour un autre champ et répétez les étapes ci-dessus.
 1. (Facultatif) Cliquez sur **Effacer tout** pour supprimer toute mise en forme.
 1. Cliquez en dehors de la zone **Format** pour la fermer.
 
    Vous revenez alors à la vue Liste.
    La mise en forme est appliquée immédiatement à la vue Liste.
-   Un point bleu est placé en regard de l’icône **Formater les cellules** pour indiquer qu’une mise en forme spéciale est appliquée à la vue.
+   Un point bleu se trouve en regard de l’icône **Formater les cellules** pour indiquer que la vue a une mise en forme spéciale appliquée.
 
 ### Filtrer les éléments dans une liste améliorée
 
@@ -458,9 +465,29 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
 1. Dans la zone Filtre, cliquez sur **Ajouter une condition**.
 1. Sélectionnez un champ en fonction duquel effectuer le filtrage.
 1. Sélectionnez un modificateur de filtre, tel que « Est l’un des », « N’est aucun des », « Est avant » ou « Est après ». Les options des modificateurs sont différentes selon le type de champ en fonction duquel vous effectuez le filtrage.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. Sélectionnez la ou les valeurs du champ. Selon le type de champ en fonction duquel vous effectuez le filtrage, vous pouvez être invité à sélectionner l’élément dans une liste, à le rechercher ou à utiliser un calendrier pour sélectionner une période.
 
-   ![Filtrer dans des listes améliorées](assets/glist-filter-with-options.png)
+   ![Filtrer dans les listes améliorées](assets/glist-filter-with-options.png)
 
    Le filtre est automatiquement appliqué à la liste.
 
@@ -468,23 +495,23 @@ Les filtres vous aident à réduire la quantité d’informations que vous affic
    >
    >Pour appliquer un filtre personnalisé, sélectionnez l’une des options suivantes pour une valeur de champ :
    >
-   >* **Moi (utilisateur connecté)** pour faire référence à l’utilisateur connecté dans les champs qui font référence aux utilisateurs.
+   >* **Me (utilisateur connecté)** pour faire référence à l&#39;utilisateur connecté dans des champs faisant référence à des utilisateurs.
    >
-   >* **Mes équipes** ou **Mon équipe interne** pour faire référence à vos équipes dans les champs qui font référence aux équipes.
+   >* **Mes équipes** ou **Mon équipe interne** pour faire référence à vos équipes dans les champs faisant référence aux équipes.
    >
-   >* **Mes groupes** ou **Mon groupe principal** pour faire référence à vos groupes dans les champs qui font référence à des groupes.
+   >* **Mes groupes** ou **Mon groupe principal** pour faire référence à vos groupes dans les champs faisant référence à des groupes.
    >
    >* **Ma société** pour faire référence à votre société dans les champs qui font référence à des sociétés.
    > 
-   >* **Mes rôles** ou **Mon rôle principal** pour faire référence à vos fonctions dans des champs qui font référence à des rôles.
+   >* **Mes rôles** ou **Mon rôle principal** pour faire référence à vos fonctions dans les champs faisant référence à des rôles.
 
 1. Cliquez sur **Ajouter une condition** pour ajouter une autre condition au filtre.
 
    Vous pouvez joindre plusieurs filtres à l’aide d’un connecteur ET ou OU.
 
-1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtre** pour modifier les options de filtre ou effacer tous les filtres.
+1. Lorsque le filtre est appliqué, vous pouvez ouvrir à nouveau les options **Filtrer** pour modifier les options de filtre ou effacer tous les filtres.
 
-   Un indicateur apparaît sur le bouton **Filtrer** lorsqu&#39;un filtre est appliqué à la liste.
+   Un indicateur s’affiche sur le bouton **Filtrer** lorsqu’un filtre est appliqué à la liste.
 
    ![Indicateur de filtre appliqué](assets/glist-filter-applied-indicator.png)
 
@@ -503,14 +530,14 @@ Workfront fournit un nombre limité de regroupements prédéfinis que vous ne po
 
    ![Sélectionner un regroupement](assets/glist-grouping-choose-a-group-by.png)
 
-1. Cliquez sur **Tout réduire** pour afficher la liste avec tous les regroupements réduits. L’option par défaut consiste à afficher la liste avec tous les regroupements développés.<!--Delete this line at January release-->
+1. Cliquez sur **Réduire tout** pour afficher la liste avec tous les regroupements réduits. L&#39;option par défaut consiste à afficher la liste avec tous les regroupements développés.<!--Delete this line at January release-->
 1. Lorsque le regroupement est appliqué, vous pouvez ouvrir à nouveau les options Regroupement pour réduire ou développer tous les regroupements à la fois, modifier le regroupement pour les regrouper selon un autre champ ou effacer tous les regroupements.
 
    ![Regroupement dans des listes améliorées](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    Un indicateur apparaît sur le bouton **Regroupement** lorsqu&#39;un regroupement est appliqué à la liste.
 
-   ![Indicateur de groupement appliqué](assets/glist-grouping-applied-indicator.png)
+   ![Indicateur de regroupement appliqué](assets/glist-grouping-applied-indicator.png)
 
    <span class="preview">Pour réduire ou développer tous les regroupements de la liste, cliquez sur la flèche en regard du premier en-tête de colonne.</span>
 
@@ -548,11 +575,11 @@ Pour trier des colonnes individuelles :
 >
 >Toutes les listes améliorées ne comportent pas tous les éléments décrits dans cette section.
 
-1. Saisissez un mot-clé à utiliser pour la recherche dans la zone **Rechercher** située dans le coin supérieur droit de la liste.
+1. Saisissez un mot-clé à utiliser pour la recherche dans la zone **Rechercher** dans le coin supérieur droit de la liste.
 
    Dans l’environnement de production, les résultats sont mis en surbrillance dans la liste au fur et à mesure que vous tapez.
 
-   <span class="preview">Dans l’environnement Aperçu , la liste est filtrée afin d’afficher uniquement les éléments qui correspondent aux critères de recherche. Le nombre total d’enregistrements à gauche de la zone de recherche rapide est remplacé par le nombre d’éléments trouvés.</span>
+   <span class="preview">Dans l&#39;environnement Aperçu, la liste est filtrée pour n&#39;afficher que les éléments qui correspondent aux critères de recherche. Le nombre total d&#39;enregistrements à gauche de la zone de recherche rapide est remplacé par le nombre d&#39;éléments trouvés.</span>
 
    ![Terme de recherche mis en surbrillance](assets/glist-search-highlighted.png)
 

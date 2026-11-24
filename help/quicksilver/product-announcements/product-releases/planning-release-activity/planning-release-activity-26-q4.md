@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3412'
 ht-degree: 2%
 ---
 # Activité de mise à jour du quatrième trimestre 2026 pour Adobe Workfront Planning
 
 Cet article décrit les nouvelles fonctionnalités de Workfront Planning de la version du quatrième trimestre 2026.
 
-Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, voir [Activité de version d’Adobe Workfront Planning : index des articles](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Pour obtenir la liste de toutes les fonctionnalités publiées pour Adobe Workfront Planning, consultez [Activité de version d’Adobe Workfront Planning : index d’article](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Importer un grand nombre d’enregistrements à l’aide de CX Enterprise Coworker
 
@@ -41,7 +41,7 @@ CX Coworker peut désormais importer 10 000 enregistrements ou plus à partir de
 
 Vous pouvez utiliser la fonctionnalité existante pour joindre des fichiers dans Coworker afin de prévisualiser et importer des enregistrements à l’aide de la même sortie structurée, de sorte que les résultats restent cohérents pour les fichiers de n’importe quelle taille.
 
-Pour plus d’informations, voir [Utilisation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
+Pour plus d&#39;informations, voir [Utiliser CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md).
 
 <!--
 
@@ -71,7 +71,7 @@ For information, see [Enable an Adobe Workfront Planning workspace to GenStudio 
 
 Workfront Planning prend désormais en charge les types d’activation Image créative dynamique et Vidéo créative dynamique pour les objets Meta Dynamic Creative. Ces options sont disponibles dans le champ type de l’enregistrement Activations , ce qui permet de débloquer les activations d’objets Dynamic Creative de Meta.
 
-Pour plus d’informations, voir [Prise en main de l’intégration d’Adobe Workfront Planning et d’Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+Pour plus d&#39;informations, consultez [Prise en main de l&#39;intégration d&#39;Adobe Workfront Planning et d&#39;Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 <!--
 
@@ -197,7 +197,7 @@ Les autorisations au niveau du champ sont appliquées de manière cohérente sur
 
 Les utilisateurs sans accès ne voient pas les champs restreints, tandis que les administrateurs peuvent configurer des autorisations sans restructurer d’enregistrements ni créer d’espaces de travail distincts.
 
-Pour plus d’informations, voir [Partager des champs de planification Workfront](/help/quicksilver/planning/access/share-fields.md).
+Pour plus d&#39;informations, voir [Partager les champs de planification Workfront](/help/quicksilver/planning/access/share-fields.md).
 
 ## Partage d’une requête Planning
 
@@ -211,7 +211,7 @@ Vous pouvez désormais partager une demande Planning avec d’autres personnes �
 
 Vous pouvez accorder à d’autres l’une des autorisations suivantes à la requête : Afficher, Contribuer ou Gérer.
 
-Pour plus d&#39;informations, voir [Partage des enregistrements Planning](/help/quicksilver/planning/requests/share-requests.md).
+Pour plus d&#39;informations, voir [Partager des enregistrements Planning](/help/quicksilver/planning/requests/share-requests.md).
 
 ## Configurer les approbations en plusieurs étapes pour les demandes Planning
 
@@ -223,7 +223,7 @@ Pour plus d&#39;informations, voir [Partage des enregistrements Planning](/help/
 
 Les administrateurs Workspace peuvent désormais créer des processus d’approbation à une ou plusieurs étapes pour chaque formulaire de demande Planning, en affectant un ou plusieurs approbateurs ou équipes à chaque étape et en réutilisant les modèles d’approbation existants afin d’accélérer la configuration. Les demandes avancent automatiquement une fois que tous les approbateurs requis d’une étape l’ont approuvée, et chaque approbateur est averti lorsqu’une demande atteint son étape. Les demandeurs et les approbateurs peuvent suivre à quelle étape une demande en est et voir quelles approbations sont toujours en attente.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d&#39;informations, voir [Création et gestion d&#39;un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Améliorations de l’affichage de la logique et de la modification des champs dans les formulaires de demandes Planning
 
@@ -237,7 +237,7 @@ Vous pouvez désormais créer une logique d’affichage avancée dans les formul
 
 En outre, vous pouvez désormais modifier les options d’un champ directement à partir du formulaire de demande. Par exemple, pour les types de champs sélectionnés, vous pouvez mettre à jour les choix de champ, leur ordre et leur valeur par défaut à partir du formulaire de requête. Auparavant, cette fonctionnalité n’était pas disponible.
 
-Pour plus d’informations, voir [Créer un formulaire de demande](/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d&#39;informations, voir [Créer un formulaire de demande](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Configuration des autorisations par défaut pour les demandeurs dans les formulaires de demande Planning
 
@@ -251,7 +251,7 @@ Les administrateurs de Workfront et de l’espace de travail peuvent désormais 
 
 Les demandeurs peuvent obtenir les autorisations suivantes pour une demande qu’ils ont soumise : Afficher, Contribuer ou Gérer. Les utilisateurs et utilisatrices peuvent commenter, modifier, partager ou afficher une demande, et les fonctionnalités qui ne sont pas partagées avec eux sont grisées lors de l’affichage de la zone de partage d’une demande.
 
-Pour plus d’informations, voir [Création et gestion d’un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Pour plus d&#39;informations, voir [Création et gestion d&#39;un formulaire de demande dans Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Le remplissage de formulaire par l’IA extrait les données des enregistrements référencés avec un lien
 
@@ -262,7 +262,7 @@ Pour plus d’informations, voir [Création et gestion d’un formulaire de dema
 
 Le remplissage de formulaire AI peut désormais récupérer les données de champ directement à partir d&#39;un enregistrement Planning référencé par son lien et les utiliser comme contexte lors du remplissage d&#39;un formulaire. Il suffit de coller l’URL directe de l’enregistrement dans l’invite, et ses détails seront extraits automatiquement pour suggérer des valeurs de formulaire.
 
-Pour plus d’informations, consultez [Utilisation du remplissage de formulaire optimisé par l’IA pour remplir une demande à l’aide d’invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Pour plus d&#39;informations, consultez [Utilisation du remplissage de formulaire optimisé par l&#39;IA pour remplir une demande à l&#39;aide d&#39;invites ou de documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 ## CX Enterprise Coworker disponible dans Workfront Planning
 
@@ -284,7 +284,7 @@ Collègue remplace actuellement l’assistant d’IA en tant que moyen plus puis
 >
 >CX Enterprise Coworker n’est actuellement pas disponible pour les organisations des secteurs de la santé, de la finance ou de certains autres secteurs qui disposent de données sensibles. AI Assistant est toujours disponible pour ces organisations.
 
-Pour plus d’informations, voir [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Pour plus d’informations, consultez [Présentation de CX Enterprise Coworker dans Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Icône de l’assistant AI supprimée de la zone d’aperçu des Détails de l’enregistrement en vue du lancement de CX Enterprise Coworker
 
@@ -317,7 +317,7 @@ Les enregistrements peuvent désormais être dupliqués même lorsqu’il existe
 
 La boîte de dialogue de résolution des conflits de connexion a été mise à jour pour refléter ce nouveau comportement et fournir une plus grande flexibilité lors de la gestion des enregistrements connectés.
 
-Pour plus d’informations, voir [Dupliquer des enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+Pour plus d&#39;informations, voir [Dupliquer les enregistrements](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Gérer la visibilité des miniatures et des couleurs des enregistrements à partir de la colonne du champ principal dans la vue Tableau
 
@@ -351,14 +351,14 @@ Vous pouvez créer une condition pour votre règle métier qui fait référence 
 
 Vous ne pouvez pas ajouter de règles métier aux types d’enregistrements globaux.
 
-Pour plus d’informations, voir [Configurer des règles métier de type enregistrement](/help/quicksilver/planning/architecture/configure-business-rules.md).
+Pour plus d&#39;informations, voir [Configurer des règles métier de type enregistrement](/help/quicksilver/planning/architecture/configure-business-rules.md).
 
 >[!NOTE]
 >
 >Avec cette mise à jour, les options de menu suivantes du menu Plus d’un type d’enregistrement ont également été mises à jour :
 >
->* **Créer des formulaires de demande** et **Gérer les formulaires de demande** est devenu **Formulaires de demande**
->* **Gérer les automatisations** est devenu **Automatisations**
+>* **La création de formulaires de demande** et **la gestion des formulaires de demande** ont été remplacées par **des formulaires de demande**
+>* **Gérer les automatisations** a été remplacé par **Automatisations**
 
 ## Semaines personnalisées pour la vue Chronologie
 
@@ -374,7 +374,7 @@ Vous pouvez personnaliser les libellés des semaines qui sont visibles dans la v
 
 Les semaines personnalisées ne sont pas visibles dans Workfront. Ils ne sont visibles que dans la vue chronologique Planification de Workfront.
 
-Pour plus d’informations, voir [Activer les trimestres et les semaines personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Pour plus d&#39;informations, voir [Activer les trimestres et semaines personnalisés](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Filtres pour les champs d’enregistrement connectés
 
@@ -390,7 +390,7 @@ Seuls les enregistrements qui répondent à vos critères de filtrage s&#39;affi
 
 Pour cette fonctionnalité, nous avons ajouté une nouvelle option Règles de filtrage des enregistrements dans l&#39;onglet Nouvelle connexion lors de la connexion des types d&#39;enregistrements.
 
-Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+Pour plus d&#39;informations, voir [Gérer les connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Réduire et développer tous les regroupements dans la vue chronologique
 
@@ -418,7 +418,7 @@ Le panneau de gauche du regroupement dans l’affichage Couloir peut désormais 
 
 Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Amélioration des performances du calendrier pour les jeux d’enregistrements volumineux dans la vue Semaine
+## Amélioration des performances avec le chargement incrémentiel des données dans la vue Calendrier
 
 >[!NOTE]
 >
@@ -428,7 +428,7 @@ Pour plus d’informations, consultez [Gérer la vue chronologique](/help/quicks
 
 La vue Semaine du calendrier affiche désormais uniquement les 1 000 premiers enregistrements sur la période hebdomadaire visible. S’il existe d’autres enregistrements, le message suivant s’affiche au bas du calendrier pour indiquer que d’autres enregistrements sont disponibles : « Il existe d’autres enregistrements. Charger plus. »
 
-Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Pour plus d&#39;informations, consultez [Gérer la vue Calendrier](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Mise à jour des en-têtes de colonne pour les champs d’enregistrement connectés dépendants
 
@@ -440,7 +440,7 @@ Pour plus d’informations, voir [&#x200B; Gérer la vue Calendrier &#x200B;](/h
 
 Nous avons apporté des améliorations visuelles aux en-têtes de colonne pour un champ d’enregistrement connecté dépendant dans la vue Tableau.
 
-Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+Pour plus d&#39;informations, voir [Gérer les connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Améliorations de la vue Tableau lors du glisser-déposer de plusieurs lignes
 
@@ -480,14 +480,14 @@ Pour plus d’informations, voir [Soumettre des demandes Adobe Workfront Plannin
 
 Nous publions une nouvelle compétence, l’architecte de solution Workfront Planning, qui apporte des conseils agentiques et de bonnes pratiques pour Workfront Planning directement dans Claude :
 
-* **Configurer** nouveaux espaces de travail Planning aux spécifications, avec le serveur MCP Workfront exécutant le programme d’installation dans votre environnement.
-* **Audit** configurations existantes pour les antimodèles à grande échelle.
+* **Configurez** de nouveaux espaces de travail Planning selon les spécifications, le serveur MCP Workfront exécutant le programme d’installation dans votre environnement.
+* **Audit** des configurations existantes pour les antimodèles à grande échelle.
 * **Vérifiez l’utilisation** par rapport aux limites recommandées (enregistrements, connexions, profondeur de hiérarchie).
 * **Posez des questions** sur Planning à tout moment.
 
 Au-delà de la configuration initiale, la compétence soutient la gouvernance continue en capturant la dérive de configuration avant qu&#39;elle ne provoque des frictions, en signalant les limites avant qu&#39;elles ne deviennent des bloqueurs, en appliquant des normes cohérentes dans chaque espace de travail, indépendamment de qui le configure et en donnant des réponses précises à toute personne de l&#39;équipe sans attendre un spécialiste. Ensemble, ils couvrent tout le cycle de vie de la configuration correcte d’un espace de travail et de son maintien à mesure que l’utilisation augmente.
 
-Pour plus d’informations, voir [Compétences disponibles pour une installation directe](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
+Pour plus d&#39;informations, voir [Compétences disponibles pour l&#39;installation directe](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
 
 ## Glisser-déposer des lignes en mode Tableau
 
@@ -521,7 +521,7 @@ Les fonctionnalités suivantes sont incluses dans cette mise à jour :
 * Nous avons modifié la façon dont vous ajoutez des champs de recherche aux connexions
 
 
-Pour plus d’informations, voir [Gestion des connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+Pour plus d&#39;informations, voir [Gérer les connexions dépendantes](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Afficher un nouvel indicateur de commentaire pour un enregistrement en mode Tableau
 
@@ -572,4 +572,4 @@ Pour cela, nous avons déplacé l’option Planning Designer dans la section Con
 
 Le lancement de Planning Designer sans accord Beta accepté vous invite désormais à l’accepter avant l’ouverture du créateur d’espace de travail.
 
-Pour plus d’informations, voir [Prise en main d’Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+Pour plus d&#39;informations, consultez [Prise en main d&#39;Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
