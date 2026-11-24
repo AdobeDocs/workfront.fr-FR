@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1718'
 ht-degree: 12%
 ---
 
@@ -142,11 +142,12 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Configurer le collaborateur IA préconfiguré du coordinateur d’entrée</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>Les administrateurs peuvent désormais configurer le Coordinateur d’entrée, un collaborateur d’IA préconfiguré, en tant qu’agent de travail qui vérifie les problèmes à la recherche d’informations manquantes, peu claires ou incohérentes.</p>
             </td>
-            <td><p>22 Novembre 2026</p></td>
-            <td><p>17 Décembre 2026</p></td>
-            <td><p>21 janvier 2027</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -161,11 +162,12 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agents de travail : prise en charge native d’Adobe</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
                 <p>Vous pouvez désormais créer un agent de travail qui utilise le collaborateur CX Enterprise Coworker, un agent CX Enterprise Coworker optimisé par Adobe Agent Orchestrator, sans configurer de plateforme externe ni saisir d’informations d’identification externes.</p>
             </td>
-            <td><p>29 Octobre 2026</p></td>
             <td><p>12 Novembre 2026</p></td>
-            <td><p>21 janvier 2027</p></td>
+            <td><p>12 Novembre 2026</p></td>
+            <td><p>12 Novembre 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +434,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -489,7 +491,7 @@ Pour plus d&#39;informations sur les taux de fonctions, voir [Créer et gérer d
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
