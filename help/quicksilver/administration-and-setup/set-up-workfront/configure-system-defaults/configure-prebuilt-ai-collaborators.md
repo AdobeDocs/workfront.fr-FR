@@ -6,9 +6,9 @@ description: En tant qu’administrateur Adobe Workfront, vous pouvez configurer
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '377'
 ht-degree: 8%
 ---
 # Configuration des collaborateurs d’IA préconfigurés
@@ -71,6 +71,10 @@ Pour plus d’informations, consultez [Présentation de CX Enterprise Coworker d
 ### Coordinateur d’admission {#intake-coordinator}
 
 Le coordinateur d’admission vérifie les détails, les formulaires personnalisés et les pièces jointes des demandes pour rechercher des informations manquantes, peu claires ou incohérentes. Il publie des commentaires ou apporte des modifications avec l’approbation de l’utilisateur.
+
+>[!NOTE]
+>
+>Vous pouvez affecter le coordinateur d&#39;entrée à une règle de transmission lors de la création de la règle, mais vous ne pouvez pas l&#39;affecter ultérieurement.
 
 <!--
 ### Context Carrier {#context-carrier}
