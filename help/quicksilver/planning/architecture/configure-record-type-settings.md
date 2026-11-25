@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 11%
+source-wordcount: '499'
+ht-degree: 10%
 ---
 # Configurer la zone Paramètres d’un type d’enregistrement
 
@@ -53,7 +53,7 @@ Selon les fonctionnalités que vous souhaitez définir pour un type d’enregist
 
 * Les modifier
 
-  Pour plus d’informations, voir [Modifier les types d’enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
+  Pour plus d&#39;informations, voir [Modifier les types d&#39;enregistrements](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 * Configuration de la page Paramètres d’un type d’enregistrement.
 
@@ -118,7 +118,7 @@ Ou
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++    
 
@@ -200,7 +200,7 @@ Vous pouvez définir des fonctionnalités inter-espaces de travail pour un type 
 
    * Pointez sur la carte d’un type d’enregistrement et cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) dans le coin supérieur droit de la carte de type d’enregistrement, puis cliquez sur **Paramètres**
 
-     ![Autres options de menu de la carte de type d’enregistrement](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+     ![Autres options de menu de la carte de type d&#39;enregistrement](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
      Ou
 
@@ -208,14 +208,23 @@ Vous pouvez définir des fonctionnalités inter-espaces de travail pour un type 
 
    <!--update screen shot at prod??-->
 
-   ![Paramètres de plusieurs espaces de travail sur la page Paramètres](assets/settings-page-cross-workspace-settings.png)
+   ![Paramètres de l’espace de travail croisé sur la page Paramètres](assets/settings-page-cross-workspace-settings.png)
 
 1. La section **Paramètres de l’espace de travail croisé** est sélectionnée par défaut.
 1. Activez ou désactivez l’un des paramètres suivants :
 
    * **Autoriser l&#39;ajout de ce type d&#39;enregistrement à d&#39;autres espaces de travail** pour indiquer qu&#39;il s&#39;agit d&#39;un type d&#39;enregistrement global
-   * **Autoriser la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** pour indiquer qu&#39;il s&#39;agit d&#39;un type d&#39;enregistrement connectable.
+   * **Autorisez la connexion à ce type d&#39;enregistrement dans d&#39;autres espaces de travail** pour indiquer qu&#39;il s&#39;agit d&#39;un type d&#39;enregistrement connectable.
 
    Les paramètres sont désactivés par défaut.
 
-   Pour plus d’informations, voir [Configuration des fonctionnalités de l’espace de travail croisé pour les types d’enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+   Pour plus d&#39;informations, consultez [Configurer les fonctionnalités de l&#39;espace de travail croisé pour les types d&#39;enregistrements](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## Configuration des autorisations par défaut pour un type d’enregistrement
+
+Vous pouvez définir des autorisations d’enregistrement pour tous les enregistrements d’un type d’enregistrement en configurant les valeurs par défaut au niveau du type d’enregistrement.
+
+Tous les nouveaux enregistrements recevront les autorisations que vous avez définies dans la zone Paramètres du type d’enregistrement par défaut.
+
+Pour plus d&#39;informations, voir [Définir des autorisations par défaut pour les enregistrements](/help/quicksilver/planning/access/set-default-record-permissions.md).

@@ -4,15 +4,13 @@ content-type: reference
 description: Découvrez comment utiliser le coordinateur de projet, un collaborateur IA prêt à l’emploi qui surveille le statut des projets et assure le suivi des tâches en retard.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 8%
 
 ---
 # Utiliser le collaborateur du coordinateur de projet
-
-{{highlighted-preview-article-level}}
 
 Le coordinateur de projet est un collaborateur IA prêt à l’emploi qui surveille votre projet et informe les parties prenantes des informations de statut importantes.
 
