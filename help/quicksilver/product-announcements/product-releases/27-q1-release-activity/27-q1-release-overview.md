@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 12%
 ---
 
@@ -191,6 +191,17 @@ Les améliorations apportées à cette page sont disponibles dans l’environnem
             <td><strong>Aperçu</strong></td>
             <td><strong>Version rapide</strong></td>
             <td><strong>Tous les trimestres</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Nouvelles fonctionnalités d’Adobe Cloud Drive v1.2.0</a></p>
+                <p>[!BADGE Concurrent release]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0 introduit le chargement direct, la mise en pause et la reprise de la synchronisation, l’historique des versions, la gestion du stockage local, l’activité de synchronisation et l’ouverture dans Workfront.</p>
+            </td>
+            <td><p>25 novembre 2026</p></td>
+            <td><p>25 novembre 2026</p></td>
+            <td><p>25 novembre 2026</p></td>
         </tr>
 <!--
         <tr>
@@ -434,7 +445,7 @@ Le lecteur de vérification pour bureau a été mis à jour vers la version 2.3.
 
 * Mise à jour du framework sous-jacent (Electron) vers la dernière version, qui fonctionne sur Chrome version 156, pour des améliorations de performances et de sécurité.
 
-Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/fr/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Pour obtenir des informations sur le téléchargement et la mise à jour du lecteur de vérification pour bureau, consultez [Mise à jour du lecteur de vérification pour bureau](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annonces
 
@@ -491,7 +502,7 @@ Pour plus d&#39;informations sur les taux de fonctions, voir [Créer et gérer d
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=fr).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 

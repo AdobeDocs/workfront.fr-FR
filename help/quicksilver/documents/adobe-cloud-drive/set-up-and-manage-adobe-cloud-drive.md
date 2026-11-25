@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 2%
 ---
 # Configurer et gérer Adobe Cloud Drive pour votre organisation
@@ -75,25 +75,25 @@ Lorsque vous accédez à **Utilisateurs** > **Rôles**, deux rôles sont associ�
 | **Membre** | Tous les utilisateurs de l’organisation | Contient le commutateur de fonctionnalités Adobe Cloud Drive au niveau de l’organisation. Activé par défaut. |
 | **utilisateur ACD** | Personne, par défaut | Accorde un accès individuel lorsque le commutateur au niveau de l’organisation est désactivé. |
 
-![&#x200B; Rôles dans Admin Console &#x200B;](assets/admin-console-roles.png)
+![Rôles dans Admin Console](assets/admin-console-roles.png)
 
 ### Contrôles d’accès
 
-**Contrôle 1 : contrôle des capacités au niveau de l&#39;organisation (dans le rôle Membre)**
+**Contrôle 1 : contrôle des fonctionnalités au niveau de l&#39;organisation (dans le rôle Membre)**
 
-Le rôle **Membre** est automatiquement attribué à chaque utilisateur de votre organisation. Ce rôle comprend un commutateur de fonctionnalités **Adobe Cloud Drive**. Lorsque cette option est activée, chaque utilisateur disposant d’une licence Workflow Ultimate peut accéder à Adobe Cloud Drive. Lorsqu’il est désactivé, aucun utilisateur ne peut accéder à Adobe Cloud Drive, quelle que soit sa licence.
+Le rôle **Membre** est automatiquement attribué à chaque utilisateur de votre organisation. Ce rôle inclut un commutateur de fonctionnalités **Adobe Cloud Drive**. Lorsque cette option est activée, chaque utilisateur disposant d’une licence Workflow Ultimate peut accéder à Adobe Cloud Drive. Lorsqu’il est désactivé, aucun utilisateur ne peut accéder à Adobe Cloud Drive, quelle que soit sa licence.
 
 Cette option est activée par défaut lorsqu’Adobe active Adobe Cloud Drive pour votre organisation.
 
 **Contrôle 2 : rôle utilisateur ACD**
 
-Le rôle **utilisateur ACD** n’est pertinent que lorsque le bouton au niveau de l’organisation est désactivé. Si vous désactivez le commutateur au niveau de l&#39;organisation pour exécuter un pilote contrôlé, vous pouvez toujours accorder l&#39;accès à des utilisateurs spécifiques en les ajoutant au rôle **utilisateur ACD**. Les utilisateurs et utilisatrices bénéficiant de ce rôle peuvent accéder à Adobe Cloud Drive même lorsque le bouton au niveau de l’organisation est désactivé. Si le commutateur au niveau de l’organisation est activé, le rôle **utilisateur ACD** n’a aucun effet.
+Le rôle **utilisateur ACD** n’est pertinent que lorsque le commutateur au niveau de l’organisation est désactivé. Si vous désactivez le commutateur au niveau de l&#39;organisation pour exécuter un pilote contrôlé, vous pouvez toujours accorder l&#39;accès à des utilisateurs spécifiques en les ajoutant au rôle **utilisateur ACD**. Les utilisateurs et utilisatrices bénéficiant de ce rôle peuvent accéder à Adobe Cloud Drive même lorsque le bouton au niveau de l’organisation est désactivé. Si le changement au niveau de l’organisation est activé, le rôle **utilisateur ACD** n’a aucun effet.
 
 **Exigence sous-jacente : licence Workflow Ultimate**
 
 Adobe Cloud Drive n’est disponible que sur le package Workflow Ultimate. Les options de rôle ne sont disponibles dans aucun autre package.
 
-La licence du package Workflow Ultimate peut être de n’importe quel type : Standard, Léger ou Contributeur. Pour plus d’informations sur les licences, voir [&#x200B; Présentation des licences &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+La licence du package Workflow Ultimate peut être de n’importe quel type : Standard, Léger ou Contributeur. Pour plus d&#39;informations sur les licences, consultez [Présentation des licences](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Le tableau suivant montre l&#39;interaction de ces contrôles :
 
@@ -116,7 +116,7 @@ Vérifiez les points suivants avant de commencer :
 
   >[!NOTE]
   >
-  >Un utilisateur dont l’accès est activé mais qui n’a accès à aucun projet Workfront voit un lecteur monté vide après la connexion. Ceci est attendu. L’accès aux projets Workfront est géré séparément dans Workfront. Pour plus d’informations, voir [Partager un projet](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+  >Un utilisateur dont l’accès est activé mais qui n’a accès à aucun projet Workfront voit un lecteur monté vide après la connexion. Ceci est attendu. L’accès aux projets Workfront est géré séparément dans Workfront. Pour plus d&#39;informations, voir [Partager un projet](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
   >
   >En outre, les droits Creative Cloud doivent se trouver dans la même organisation IMS que Workfront pour que les projets apparaissent dans le lecteur.
 
@@ -128,23 +128,23 @@ L’accès à Adobe Cloud Drive est configuré dans Adobe Admin Console. Sélect
 
 Lorsqu’Adobe active Adobe Cloud Drive pour votre organisation, le commutateur de fonctionnalités au niveau de l’organisation est activé par défaut et tous les utilisateurs y ont immédiatement accès. Suivez cette procédure pour confirmer que le commutateur est activé avant de déployer l’application.
 
-1. Connectez-vous à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+1. Se connecter à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Cliquez sur **Utilisateurs** dans la barre de navigation supérieure.
 1. Cliquez sur **Rôles** dans le panneau de gauche.
 1. Cliquez sur **Membre** dans la liste des rôles.
-1. Dans le panneau **Membre** qui s’ouvre à droite, confirmez que **Adobe Cloud Drive** apparaît sous **Autorisations** et que son bouton est activé.
+1. Dans le panneau **Membre** qui s’ouvre à droite, confirmez que **Adobe Cloud Drive** apparaît sous **Autorisations** et que son commutateur est activé.
 
-   ![Panneau des détails du rôle de membre avec Adobe Cloud Drive activé](assets/member-permissions.png)
+   ![Panneau des détails des rôles de membre avec Adobe Cloud Drive activé](assets/member-permissions.png)
 
    >[!NOTE]
    >
-   >Si Adobe Cloud Drive n’apparaît pas sous les **autorisations** du rôle **Membre**, Adobe Cloud Drive peut ne pas encore être activé pour votre organisation. Contactez l’assistance Adobe pour confirmer.
+   >Si Adobe Cloud Drive n’apparaît pas sous les **autorisations** du rôle **Membre**, Adobe Cloud Drive pourrait ne pas encore être activé pour votre organisation. Contactez l’assistance Adobe pour confirmer.
 
 1. Cliquez sur **Enregistrer** si vous avez apporté des modifications.
 
 ### Option B : activer l’accès pour un groupe spécifique d’utilisateurs
 
-Utilisez cette option lorsque vous souhaitez limiter l’accès à un ensemble défini d’utilisateurs, par exemple pendant un pilote avant un déploiement plus large. Cela implique de désactiver le commutateur au niveau de l&#39;organisation, puis d&#39;ajouter vos utilisateurs pilotes au rôle **utilisateur ACD**.
+Utilisez cette option lorsque vous souhaitez limiter l’accès à un ensemble défini d’utilisateurs, par exemple pendant un pilote avant un déploiement plus large. Cela implique de désactiver le commutateur au niveau de l&#39;organisation, puis d&#39;ajouter vos utilisateurs pilotes au rôle **Utilisateur ACD**.
 
 >[!IMPORTANT]
 >
@@ -152,7 +152,7 @@ Utilisez cette option lorsque vous souhaitez limiter l’accès à un ensemble d
 
 Pour désactiver la fonctionnalité au niveau de l’organisation :
 
-1. Connectez-vous à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+1. Se connecter à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Cliquez sur **Utilisateurs** dans la barre de navigation supérieure, puis sur **Rôles** dans le panneau de gauche.
 1. Cliquez sur **Membre** dans la liste des rôles.
 1. Dans le panneau **Membre**, localisez **Adobe Cloud Drive** sous **Autorisations** et désactivez-le.
@@ -161,11 +161,11 @@ Pour désactiver la fonctionnalité au niveau de l’organisation :
 Pour ajouter des utilisateurs pilotes au rôle utilisateur ACD, procédez comme suit :
 
 1. Dans le panneau de gauche, cliquez sur **Rôles** pour revenir à la liste des rôles.
-1. Cliquez sur **utilisateur ACD** dans la liste des rôles.
+1. Cliquez sur **ACD user** dans la liste des rôles.
 
-   ![Panneau des détails de l’utilisateur ACD](assets/acd-user-panel.png)
+   ![Panneau des détails de l&#39;utilisateur ACD](assets/acd-user-panel.png)
 
-1. Cliquez sur **Ajouter des utilisateurs**.
+1. Cliquez Sur **Ajouter Des Utilisateurs**.
 1. Saisissez l’adresse e-mail de chaque utilisateur pilote.
 1. Cliquer sur **Enregistrer**.
 
@@ -173,7 +173,7 @@ Pour ajouter des utilisateurs pilotes au rôle utilisateur ACD, procédez comme 
 
    >[!TIP]
    >
-   >Pour étendre l’accès au fil du temps, revenez au rôle **utilisateur ACD** et ajoutez des utilisateurs selon les besoins. Lorsque vous êtes prêt pour un déploiement complet, réactivez le bouton (bascule) au niveau de l’organisation dans le rôle **Membre**. Une fois que le commutateur au niveau de l’organisation est activé, le rôle **utilisateur ACD** n’a aucun effet et n’a pas besoin d’être conservé.
+   >Pour étendre l’accès au fil du temps, revenez au rôle **Utilisateur ACD** et ajoutez des utilisateurs si nécessaire. Lorsque vous êtes prêt pour un déploiement complet, réactivez le basculement au niveau de l’organisation dans le rôle **Membre**. Une fois le changement au niveau de l’organisation activé, le rôle **utilisateur ACD** n’a aucun effet et n’a pas besoin d’être conservé.
 
 ## Déploiement de l’application Adobe Cloud Drive
 
@@ -189,14 +189,14 @@ Utilisez cette méthode lorsque votre entreprise utilise des outils de déploiem
 
 Pour créer le package dans le Adobe Admin Console :
 
-1. Connectez-vous à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+1. Se connecter à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Cliquez sur **Packages** dans la barre de navigation supérieure.
 1. Cliquez sur **Packages prégénérés** dans le panneau de gauche.
 1. Cliquez sur l’onglet **Modèles**.
 
    Adobe Cloud Drive apparaît deux fois dans la liste des modèles : une fois pour macOS et une fois pour Windows.
 
-   ![Modèles de package pré-générés](assets/pre-generated-packages.png)
+   ![Modèles de package prégénérés](assets/pre-generated-packages.png)
 
 1. Recherchez la ligne **Adobe Cloud Drive** correspondant à votre plateforme cible, puis cliquez sur l’icône de détails sur cette ligne.
 
@@ -206,38 +206,46 @@ Pour créer le package dans le Adobe Admin Console :
 
 1. Cliquez sur **Personnaliser**.
 
-   L’assistant de personnalisation du package s’ouvre, avec quatre étapes : **Configurer**, **Choisir les applications**, **Options** et **Finaliser**.
+   L’assistant de personnalisation du package s’ouvre, avec quatre étapes : **Configurer**, **Choisir des applications**, **Options** et **Finaliser**.
 
-1. À l’étape **Configurer**, sélectionnez l’architecture de vos machines cibles, puis confirmez le paramètre de langue et cliquez sur **Suivant**.
+1. À l’étape **Configurer**, sélectionnez l’architecture de vos ordinateurs cibles, puis confirmez le paramètre de langue et cliquez sur **Suivant**.
 
    * **macOS :** choisissez **macOS (Intel)** ou **macOS (Apple Silicon)**.
-   * **Windows :** choisissez **Windows (64 bits)** ou **Windows (ARM)**.
+   * **Windows :** Choisissez **Windows (64 bits)** ou **Windows (ARM)**.
 
-   ![Étape Configurer dans l’assistant de package](assets/configure-step-in-wizard.png)
+   ![Étape Configurer dans l&#39;assistant de package](assets/configure-step-in-wizard.png)
 
 1. À l’étape **Choisir des applications**, vérifiez qu’Adobe Cloud Drive est sélectionné avec la version souhaitée.
 
    Adobe Cloud Drive est présélectionné avec la dernière version disponible. Pour utiliser une ancienne version, cliquez sur **Autres versions** et sélectionnez **Anciennes versions**.
 
-   ![Étape Choisir des applications dans l’assistant de package](assets/choose-apps-step-in-wizard.png)
+   ![Étape Choisir des applications dans l&#39;assistant de package](assets/choose-apps-step-in-wizard.png)
 
 1. Cliquez sur **Suivant**.
-1. À l’étape **Options**, cliquez sur **Suivant** sans sélectionner d’options.
+1. À l’étape **Options**, cliquez sur **Désactiver la mise à jour pour les utilisateurs finaux** pour empêcher les utilisateurs de mettre eux-mêmes à jour l’application, ou cliquez sur **Suivant** sans sélectionner d’options.
 
-   Ces paramètres s’appliquent aux applications de bureau Creative Cloud et ne s’appliquent pas à Adobe Cloud Drive.
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
 
-   ![Étapes Options de l’assistant de package](assets/options-step-in-wizard.png)
+   >[!NOTE]
+   >
+   >Pour empêcher les utilisateurs finaux de mettre eux-mêmes à jour l&#39;application, sélectionnez **Désactiver la mise à jour pour les utilisateurs finaux** à l&#39;étape **Options**. Les autres paramètres de cette étape s’appliquent aux applications de bureau Creative Cloud et ne s’appliquent pas à Adobe Cloud Drive.
+
+   ![Étapes d’options dans l’assistant de package](assets/options-step-in-wizard.png)
 
 1. À l’étape **Finaliser**, saisissez un nom pour le package et sélectionnez **Package plat**.
-1. Vérifiez le résumé, puis cliquez sur **Créer un package**.
+1. Vérifiez le résumé et cliquez sur **Créer un package**.
 
-   ![Étape Finalize dans l&#39;assistant de package](assets/finalize-step-in-wizard.png)
+   ![Finaliser l’étape dans l’assistant de package](assets/finalize-step-in-wizard.png)
 
-   L’assistant se ferme. Votre nouveau package apparaît en haut de la liste des packages avec un statut **Préparation** pendant sa création. Une fois prêt, le statut passe à **À jour** et un lien de téléchargement s’affiche.
+   L’assistant se ferme. Votre nouveau package apparaît en haut de la liste des packages avec un statut **Préparation** pendant sa création. Une fois prêt, le statut passe à **À jour** et un lien de téléchargement s&#39;affiche.
 
-   ![Statut du package en préparation](assets/package-is-preparing.png)
+   ![Package au statut Préparation](assets/package-is-preparing.png)
 
 1. Cliquez sur **Télécharger** et enregistrez le fichier de package à l’emplacement de votre choix.
+
+   >[!NOTE]
+   >
+   >Le lien de téléchargement de package et l’utilitaire de téléchargement expirent 3 jours après la création du package. Toutefois, le fichier .pkg ou .zip téléchargé n’expire pas et peut être utilisé pour une installation ultérieure.
 
 ### Méthode B : Téléchargement direct en libre-service à partir de la distribution logicielle
 
@@ -247,7 +255,7 @@ Avant de commencer, vérifiez les points suivants :
 
 * L’accès est activé pour les utilisateurs dans le Adobe Admin Console.
 * Les utilisateurs ont été avertis de l’URL de distribution logicielle et des instructions de connexion.
-* La connectivité réseau aux points d’entrée requis a été vérifiée. Pour plus d’informations, consultez [Configuration réseau requise](#network-requirements) dans cet article.
+* La connectivité réseau aux points d’entrée requis a été vérifiée. Pour plus d’informations, voir [Configuration réseau requise](#network-requirements) dans cet article.
 
 Pour auto-installer Adobe Cloud Drive :
 
@@ -259,9 +267,9 @@ Pour auto-installer Adobe Cloud Drive :
    >Les utilisateurs doivent disposer d’un accès à Adobe Cloud Drive activé dans Adobe Admin Console pour afficher le programme d’installation d’Adobe Cloud Drive. Les utilisateurs sans accès ne verront pas le programme d’installation répertorié.
 
 1. L’utilisateur se connecte avec son Enterprise ID ou Federated ID. Le programme d’installation d’Adobe Cloud Drive apparaît dans l’onglet **Workfront** de la Distribution logicielle.
-1. L’utilisateur télécharge le programme d’installation de sa plateforme et suit les étapes d’installation décrites dans [Installation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md).
+1. L’utilisateur télécharge le programme d’installation de sa plateforme et suit les étapes d’installation décrites dans la section [Installer Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md).
 
-   ![Programmes d’installation Adobe Cloud Drive pour Workfront](assets/wf-downloads.png)
+   ![Programmes d’installation d’Adobe Cloud Drive pour Workfront](assets/wf-downloads.png)
 
 Après le déploiement, effectuez cette vérification sur un appareil de test :
 
@@ -287,27 +295,27 @@ Si le commutateur au niveau de l’organisation est activé, aucune action Adobe
 
 Si le commutateur au niveau de l’organisation est désactivé :
 
-1. Connectez-vous à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+1. Se connecter à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Cliquez sur **Utilisateurs** dans la barre de navigation supérieure, puis sur **Rôles** dans le panneau de gauche.
-1. Cliquez sur **utilisateur ACD** dans la liste des rôles.
+1. Cliquez sur **ACD user** dans la liste des rôles.
 1. Cliquez sur **Ajouter des utilisateurs**, saisissez l’adresse e-mail de l’utilisateur, puis cliquez sur **Enregistrer**.
 
 ### Supprimer un utilisateur
 
-Si le commutateur au niveau de l’organisation est activé, tout utilisateur sous licence a accès à Adobe Cloud Drive. Pour supprimer l’accès d’un utilisateur spécifique sans supprimer sa licence Workfront, désactivez le bouton au niveau de l’organisation et ajoutez tous les autres utilisateurs au rôle **utilisateur ACD**, en excluant l’utilisateur que vous souhaitez bloquer.
+Si le commutateur au niveau de l’organisation est activé, tout utilisateur sous licence a accès à Adobe Cloud Drive. Pour supprimer l’accès d’un utilisateur spécifique sans supprimer sa licence Workfront, désactivez le bouton au niveau de l’organisation et ajoutez tous les autres utilisateurs au rôle **Utilisateur ACD**, à l’exclusion de l’utilisateur que vous souhaitez bloquer.
 
-Si le commutateur au niveau de l’organisation est désactivé et que l’utilisateur possède le rôle **utilisateur ACD** :
+Si le commutateur au niveau de l’organisation est désactivé et que l’utilisateur possède le rôle **Utilisateur ACD** :
 
-1. Connectez-vous à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
+1. Se connecter à [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 1. Cliquez sur **Utilisateurs** dans la barre de navigation supérieure, puis sur **Rôles** dans le panneau de gauche.
-1. Cliquez sur **utilisateur ACD** dans la liste des rôles.
-1. Sélectionnez l’utilisateur et cliquez sur **Supprimer**.
+1. Cliquez sur **ACD user** dans la liste des rôles.
+1. Sélectionnez l&#39;utilisateur et cliquez sur **Supprimer**.
 
 L&#39;utilisateur perd immédiatement l&#39;accès au lecteur monté. Les fichiers stockés dans Workfront ne sont pas supprimés. Le cache local de l’utilisateur reste sur son appareil jusqu’à la désinstallation de l’application.
 
 >[!IMPORTANT]
 >
->La suppression d’un utilisateur du rôle **utilisateur ACD** ne le supprime pas de Workfront ni d’aucun projet Workfront. Gérez l’accès aux projets Workfront séparément.
+>La suppression d’un utilisateur du rôle **Utilisateur ACD** ne le supprime pas de Workfront ni d’aucun projet Workfront. Gérez l’accès aux projets Workfront séparément.
 
 ## Gérer l’accès aux projets Workfront
 
@@ -317,7 +325,7 @@ Pour plus d’informations sur la gestion de l’accès aux projets, voir [Gére
 
 ## Configuration réseau requise
 
-Adobe Cloud Drive nécessite un accès HTTPS sortant (port 443) à un ensemble de points d’entrée Adobe. Aucune règle de pare-feu entrant n’est requise. Pour obtenir la liste des points d’entrée, voir [Points d’entrée réseau &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
+Adobe Cloud Drive nécessite un accès HTTPS sortant (port 443) à un ensemble de points d’entrée Adobe. Aucune règle de pare-feu entrant n’est requise. Pour obtenir la liste des points d’entrée, voir [Points d’entrée réseau Adobe](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html).
 
 Adobe Cloud Drive lit la configuration du proxy au niveau du système sur macOS et Windows. Les proxys authentifiés sont pris en charge.
 
@@ -345,11 +353,11 @@ Le dossier racine de chaque projet Workfront est en lecture seule dans la vue Bu
 
 ## Résolution des problèmes courants
 
-Pour connaître les étapes de dépannage de l’utilisateur final, voir [&#x200B; Dépannage d’Adobe Cloud Drive &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). Les problèmes répertoriés ci-dessous sont spécifiques aux administrateurs.
+Pour connaître les étapes de dépannage de l’utilisateur final, consultez [Dépannage d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md). Les problèmes répertoriés ci-dessous sont spécifiques aux administrateurs.
 
 ### L’utilisateur ne trouve pas le programme d’installation d’Adobe Cloud Drive dans la distribution logicielle.
 
-**Cause :** l’accès à Adobe Cloud Drive n’est pas activé pour l’utilisateur dans Adobe Admin Console.
+**Cause :** l&#39;accès à Adobe Cloud Drive n&#39;est pas activé pour l&#39;utilisateur dans Adobe Admin Console.
 
 **Résolution :**
 
@@ -357,13 +365,13 @@ Pour connaître les étapes de dépannage de l’utilisateur final, voir [&#x200
 1. Recherchez l’utilisateur et cliquez sur son nom.
 1. Cliquez sur l’onglet **Rôles** et vérifiez si Adobe Cloud Drive est activé.
 
-**Cause :** toutes les applications Creative Cloud sont configurées dans une organisation IMS différente de Workfront.
+**Cause :** Toutes les applications Creative Cloud sont configurées dans une organisation IMS différente de Workfront.
 
-**Résolution :** aucune résolution actuellement disponible.
+**Résolution :** Aucune résolution actuellement disponible.
 
 ### L&#39;utilisateur a installé l&#39;application et s&#39;est connecté, mais ne voit aucun dossier dans le lecteur
 
-**Cause :** l’utilisateur ne dispose d’aucune autorisation sur les projets Workfront.
+**Cause :** L&#39;utilisateur ne dispose d&#39;aucune autorisation sur les projets Workfront.
 
 **Résolution :**
 
@@ -374,34 +382,34 @@ Pour connaître les étapes de dépannage de l’utilisateur final, voir [&#x200
 
 ### Impossible de se connecter à Adobe Cloud Drive
 
-**Cause :** le compte Adobe Admin Console de l’utilisateur est inactif ou son identité n’est pas configurée correctement.
+**Cause :** Le compte Adobe Admin Console de l&#39;utilisateur est inactif ou son identité n&#39;est pas configurée correctement.
 
 **Résolution :**
 
 1. Dans le Adobe Admin Console, cliquez sur **Utilisateurs** et recherchez l’utilisateur.
-1. Vérifiez que le statut du compte de l’utilisateur est **Actif**.
+1. Vérifiez que le statut du compte de l&#39;utilisateur est **Actif**.
 1. Vérifiez que le domaine de l’e-mail de l’utilisateur est un domaine revendiqué dans votre annuaire Admin Console.
 1. Si votre organisation utilise la connexion unique, vérifiez que le compte de l’utilisateur est actif dans votre fournisseur d’identité.
 1. Demandez à l&#39;utilisateur d&#39;essayer de se reconnecter.
 
 ### Les fichiers ne se synchronisent pas après l’enregistrement de l’utilisateur
 
-**Cause :** le fichier n&#39;a pas été enregistré explicitement ou un problème de connectivité réseau est survenu.
+**Cause :** Le fichier n&#39;a pas été enregistré explicitement ou un problème de connectivité réseau est survenu.
 
 **Résolution :**
 
 1. Vérifiez auprès de l’utilisateur qu’il a enregistré le fichier à l’aide de **Fichier** > **Enregistrer** dans l’application. La fermeture d’une application ou l’enregistrement automatique ne déclenche pas la synchronisation.
-1. Vérifiez que l’utilisateur dispose d’un accès Internet et peut accéder à `*.adobe.com` et `*.workfront.com`.
+1. Vérifiez que l&#39;utilisateur a accès à Internet et peut atteindre `*.adobe.com` et `*.workfront.com`.
 1. Demandez à l’utilisateur de vérifier l’icône d’Adobe Cloud Drive dans la barre de menus (macOS) ou dans la barre d’état système (Windows) pour trouver un indicateur d’erreur.
 1. En cas d’erreur, demandez à l’utilisateur de quitter Adobe Cloud Drive, de le relancer et d’enregistrer à nouveau le fichier.
 1. Si le problème persiste, collectez le journal de l’application :
 
    * **macOS:** `~/Library/Logs/Adobe/AdobeCloudDrive/`
-   * **Windows:** `C:\Users\<username>\AppData\Local\Temp\Adobe\AdobeCloudDrive\`
+   * **Windows :** `C:\Users\<username>\AppData\Local\Temp\Adobe\AdobeCloudDrive\`
 
 ### Une copie en conflit d’un fichier s’est affichée dans le dossier du projet
 
-**Cause :** deux utilisateurs ont enregistré des modifications dans le même fichier avant la synchronisation de l’une ou l’autre des versions sur le cloud. Adobe Cloud Drive a conservé automatiquement les deux versions.
+**Cause :** deux utilisateurs ont enregistré des modifications dans le même fichier avant que l&#39;une ou l&#39;autre des versions ne soit synchronisée dans le cloud. Adobe Cloud Drive a conservé automatiquement les deux versions.
 
 La copie en conflit utilise le format de dénomination suivant : `filename (Conflicted copy from device_name on date_time).extension`
 Par exemple : `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-06-15-10-45-19).docx`
@@ -418,16 +426,16 @@ Par exemple : `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-
 
 ### L’utilisateur ne peut pas créer de dossier ou de fichier dans le projet
 
-**Cause A :** l’utilisateur tente de créer un dossier ou un fichier au niveau racine du projet. Les dossiers racine du projet sont actuellement en lecture seule dans Adobe Cloud Drive. Les dossiers de niveau racine représentent des projets Workfront, qui sont créés et gérés dans Workfront.
+**Cause A :** L&#39;utilisateur tente de créer un dossier ou un fichier au niveau racine du projet. Les dossiers racine du projet sont actuellement en lecture seule dans Adobe Cloud Drive. Les dossiers de niveau racine représentent des projets Workfront, qui sont créés et gérés dans Workfront.
 
 **Résolution :**
 
 1. Demandez à l’utilisateur d’accéder à n’importe quel sous-dossier existant du projet et d’y créer le fichier ou le dossier.
 1. Si l’utilisateur a besoin d’un nouveau dossier de niveau supérieur dans le projet, demandez-lui d’abord de le créer dans Workfront. Il apparaît ensuite dans Adobe Cloud Drive.
 
-**Cause B :** l’utilisateur ne dispose pas des autorisations de modification sur le projet Workfront.
+**Cause B :** L’utilisateur ne dispose pas des autorisations de modification sur le projet Workfront.
 
 **Résolution :**
 
-1. Dans Workfront, vérifiez les autorisations de l’utilisateur pour le projet (**Affichage**, **Contribution** ou **Gestion**).
-1. Mettez à jour les autorisations de l’utilisateur sur **Contribuer** ou **Gérer** s’il doit créer ou modifier des fichiers.
+1. Dans Workfront, vérifiez les autorisations de l&#39;utilisateur pour le projet (**Afficher**, **Contribuer** ou **Gérer**).
+1. Mettez à jour les autorisations de l&#39;utilisateur sur **Contribuer** ou **Gérer** s&#39;il doit créer ou modifier des fichiers.

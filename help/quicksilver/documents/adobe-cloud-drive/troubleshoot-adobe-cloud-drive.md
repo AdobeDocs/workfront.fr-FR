@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Résolution des problèmes liés à Adobe Cloud Drive
 
 Cet article décrit les limites d’Adobe Cloud Drive, les considérations de performances à garder à l’esprit et les solutions aux problèmes courants que vous pouvez rencontrer.
 
-Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Utilisation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md).
+Pour plus d&#39;informations sur l&#39;utilisation d&#39;Adobe Cloud Drive, voir [Utiliser Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md).
 
 ## Limites
 
@@ -44,18 +44,18 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 
 * Les noms de fichiers ne peuvent pas dépasser 255 caractères sur une plateforme.
 * Le chemin d’accès complet au fichier (tous les noms de dossier plus le nom de fichier) ne peut pas dépasser 1 024 caractères. Les fichiers dont le chemin d’accès dépasse cette limite n’apparaissent pas dans Adobe Cloud Drive, même s’ils sont visibles dans l’interface web de Workfront.
-* Si une erreur **Chemin d’accès complet trop long** s’affiche sur un fichier, raccourcissez les noms de dossier ou réduisez la profondeur d’imbrication des dossiers pour que le chemin d’accès respecte la limite.
+* Si vous constatez une erreur **Chemin d’accès complet trop long** sur un fichier, raccourcissez les noms de dossier ou réduisez la profondeur d’imbrication des dossiers pour que le chemin d’accès respecte la limite.
 
 ### Stockage
 
 * Les fichiers enregistrés dans Adobe Cloud Drive localement utilisent l’espace disque sur votre appareil.
 * Les fichiers cloud uniquement n’utilisent pas le stockage local.
-* Supprimez l’accès hors connexion aux fichiers dont vous n’avez plus besoin. Pour plus d’informations, voir [Supprimer l’accès hors ligne pour libérer de l’espace](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space) dans [Utiliser Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md).
+* Supprimez l’accès hors connexion aux fichiers dont vous n’avez plus besoin. Pour plus d’informations, consultez [Supprimer l’accès hors ligne pour libérer de l’espace](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space) dans [Utiliser Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md).
 
 ## Considérations relatives aux performances
 
-* **Taille du fichier :** le temps de synchronisation dépend de la taille du fichier. Les fichiers volumineux prennent généralement plus de temps.
-* **Vitesse du réseau :** des connexions plus rapides offrent de meilleures performances de synchronisation. La synchronisation reprend automatiquement après une interruption.
+* **Taille du fichier :** Le temps de synchronisation dépend de la taille du fichier. Les fichiers volumineux prennent généralement plus de temps.
+* **Vitesse du réseau :** Des connexions plus rapides offrent de meilleures performances de synchronisation. La synchronisation reprend automatiquement après une interruption.
 * **Premier accès :** les fichiers sont téléchargés à la demande la première fois que vous y accédez. L’accès ultérieur est plus rapide car le fichier est mis en cache localement.
 
 ## Problèmes courants
@@ -68,12 +68,12 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 * L&#39;installation ne s&#39;est pas terminée correctement.
 * Votre organisation ne dispose pas d’une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe.
 
-**Solutions:**
+**Solutions :**
 
-* Vérifiez qu’Adobe Cloud Drive est installé. Cochez **Applications** (Mac) ou **Programmes** (Windows).
+* Vérifiez qu’Adobe Cloud Drive est installé. Vérifiez **Applications** (Mac) ou **Programmes** (Windows).
 * Lancez Adobe Cloud Drive manuellement.
 * Contactez votre administrateur Workfront pour confirmer que votre organisation utilise une version de Workfront prenant en charge l’espace de stockage dans le cloud Adobe.
-* Réinstallez Adobe Cloud Drive si nécessaire. Pour plus d’informations, voir [Installation d’Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md).
+* Réinstallez Adobe Cloud Drive si nécessaire. Pour plus d&#39;informations, voir [Installer Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md).
 
 ### L’icône Adobe Cloud Drive n’est pas visible dans la barre de menus ou dans la barre des tâches
 
@@ -81,10 +81,10 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 
 * La barre de menus (Mac) ou la barre d’état système (Windows) ne dispose pas de suffisamment d’espace pour afficher l’icône.
 
-**Solutions:**
+**Solutions :**
 
-* **Mac:** Maintenez la touche Cmd enfoncée et faites glisser les icônes de barre de menus existantes pour les réorganiser ou les supprimer, créant ainsi de l’espace pour l’icône Adobe Cloud Drive.
-* **Windows :** cliquez sur la flèche vers le haut (**Afficher les icônes masquées**) de la barre des tâches pour rechercher l’icône Adobe Cloud Drive, puis faites-la glisser vers la zone visible.
+* **Mac:** Maintenez le Cmd enfoncé et faites glisser les icônes de barre de menus existantes pour les réorganiser ou les supprimer, créant ainsi de l’espace pour l’icône Adobe Cloud Drive.
+* **Windows :** Cliquez sur la flèche vers le haut (**Afficher les icônes masquées**) de la barre des tâches pour rechercher l’icône Adobe Cloud Drive, puis faites-la glisser vers la zone visible.
 
 ### Les projets ne s’affichent pas ou certains projets sont manquants
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 * La synchronisation n&#39;est pas terminée.
 * Vous avez un problème de connectivité réseau.
 
-**Solutions:**
+**Solutions :**
 
 * Vérifiez l’accès à votre projet dans l’interface web de Workfront.
 * Vérifiez votre connexion réseau.
@@ -108,7 +108,7 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 * Erreur de synchronisation sur le fichier ou le dossier.
 * Espace disque insuffisant.
 
-**Solutions:**
+**Solutions :**
 
 * Vérifiez votre connexion Internet.
 * Vérifiez que vous disposez de suffisamment d’espace disque.
@@ -124,7 +124,7 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 * L&#39;application requise pour ouvrir le fichier n&#39;est pas installée.
 * Le fichier est corrompu.
 
-**Solutions:**
+**Solutions :**
 
 * Vérifiez l’indicateur de statut du fichier.
 * Vérifiez que l’application requise est installée.
@@ -139,7 +139,7 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 * Votre connexion réseau est lente.
 * De nombreux fichiers se synchronisent en même temps.
 
-**Solutions:**
+**Solutions :**
 
 * Soyez patient avec les fichiers volumineux. La synchronisation peut être reprise, de sorte qu’elle reprend là où elle s’était arrêtée après une interruption.
 * Vérifiez la vitesse de votre réseau.
@@ -148,9 +148,9 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 
 ### Les fichiers hors ligne prennent trop d’espace
 
-**Solutions:**
+**Solutions :**
 
-* Cliquez avec le bouton droit sur les fichiers hors ligne et sélectionnez **Libérer de l’espace**.
+* Cliquez avec le bouton droit sur les fichiers hors ligne et sélectionnez **Libérer de l&#39;espace**.
 * Vérifiez régulièrement votre espace disque.
 * Conservez les fichiers volumineux auxquels vous accédez rarement en mode cloud uniquement.
 
@@ -161,21 +161,56 @@ Pour plus d’informations sur l’utilisation d’Adobe Cloud Drive, voir [Util
 * Vous tentez de créer, renommer ou supprimer un dossier de projet. Les dossiers de projet sont en lecture seule au niveau supérieur.
 * Le projet est en lecture seule pour vous. Vous ne pouvez donc pas créer, modifier ni supprimer des fichiers ou des dossiers à l’intérieur de celui-ci.
 
-**Solutions:**
+**Solutions :**
 
 * Pour créer, renommer ou supprimer un projet, utilisez l’interface web de Workfront.
 * Demandez au propriétaire du projet de partager le projet avec vous avec un accès en modification.
+
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### L’option Charger dans le cloud n’est pas disponible
+
+**Causes possibles :**
+
+* Sur Mac, l’assistant de recherche de Cloud Drive d’Adobe n’est pas activé.
+
+**Solutions :**
+
+* Sur Mac, accédez à **Paramètres système** > **Général** > **Éléments de connexion et extensions** et assurez-vous que l’assistant Adobe Cloud Drive Finder est activé.
+
+### Les chargements à partir de l’appli de bureau, des documents ou des téléchargements échouent avec une erreur d’autorisation (Mac)
+
+**Causes possibles :**
+
+* Adobe Cloud Drive n’est pas autorisé à accéder aux dossiers Bureau, Documents ou Téléchargements.
+* Les autorisations d’accès aux dossiers requises sont désactivées dans les paramètres de macOS.
+
+**Solutions :**
+
+1. Accédez à **Paramètres système** > **Confidentialité et sécurité** > **Fichiers et dossiers**.
+1. Accordez l’accès à Adobe Cloud Drive aux dossiers pertinents.
+1. Relancez le chargement.
+
+### Plusieurs processus de synchronisation du Finder apparaissent (Mac)
+
+**Causes possibles :**
+
+* macOS peut afficher deux ou trois processus de synchronisation de l’outil de recherche de lecteurs cloud Adobe dans Activity Monitor dans le cadre d’un fonctionnement normal.
+
+**Solutions :**
+
+* Aucune action n’est requise. Le comportement attendu est de disposer de deux à trois processus de synchronisation de l’outil de recherche Adobe Cloud Drive en cours d’exécution.
 
 ## Obtenir de l’aide
 
 Pour toute question sur les licences, les problèmes d’accès aux projets ou la configuration spécifique à une organisation, contactez votre administrateur Workfront.
 
-Pour partager des journaux avec la prise en charge d’Adobe, suivez les étapes de la section [Exécution de l’outil de collecte de journaux d’Adobe](https://helpx.adobe.com/fr/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
+Pour partager des journaux avec la prise en charge d’Adobe, suivez les étapes de la section [Exécution de l’outil de collecte de journaux d’Adobe](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html).
 
 ## Bonnes pratiques
 
 * **Planifier le travail hors ligne.** Téléchargez des fichiers avant de voyager ou de travailler dans des zones où la connectivité est faible.
-* **Statut de synchronisation du moniteur.** Vérifiez les indicateurs de fichier avant de fermer les applications.
+* **État de la synchronisation du moniteur.** Vérifiez les indicateurs de fichier avant de fermer les applications.
 * **Suivez la structure de dossiers du projet.** Organisez les fichiers dans des dossiers de projet comme le souhaite le propriétaire du projet.
-* **Utiliser des noms de fichier descriptifs.** Aidez les membres de votre équipe à trouver ce dont ils ont besoin.
+* **Utilisez des noms de fichier descriptifs.** Aidez les membres de votre équipe à trouver ce dont ils ont besoin.
 * **Évitez de créer des doublons.** Ne faites pas de copies inutiles de fichiers.
