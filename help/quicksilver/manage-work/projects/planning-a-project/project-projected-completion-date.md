@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 69%
-
+source-wordcount: '885'
+ht-degree: 65%
 ---
-
 # Vue d’ensemble de la date d’achèvement prévue pour les projets, les tâches et les problèmes
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ Les critères utilisés pour déterminer la date d&#39;achèvement prévisionnel
 
 * **Tâches :** la date d’achèvement prévisionnelle pour les tâches est déterminée sur la base des critères suivants :
 
-   * **Mises à jour de l’avancement effectuées sur la tâche par la personne désignée pour la tâche :** les mises à jour de l’avancement incluent les modifications du pourcentage terminé et les modifications du statut de la tâche.
-   * **Date d’engagement :** si la personne cessionnaire de la tâche spécifie une date d’engagement, la date d’achèvement prévisionnelle est modifiée pour correspondre à la date d’engagement.
+  * **Les mises à jour de progression effectuées sur la tâche par la personne désignée :** Les mises à jour de progression incluent les modifications du pourcentage d&#39;achèvement et les modifications du statut de la tâche.
+  * **Date d’engagement :** si la personne cessionnaire de la tâche spécifie une date d’engagement, la date d’achèvement prévisionnelle est modifiée pour correspondre à la date d’engagement. Cela ne modifie pas la date d&#39;achèvement prévue pour l&#39;événement.
 
-     Pour plus d’informations sur les dates d’engagement, consultez l’article [Présentation des dates d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+    Pour plus d’informations sur les dates d’engagement, consultez l’article [Présentation des dates d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Tâches antérieures :** en l&#39;absence de retard pour les tâches antérieures, la date d&#39;achèvement prévisionnelle doit correspondre à la date d&#39;achèvement prévue. Au fur et à mesure des retards, les tâches dépendantes affichent une date d’achèvement prévisionnelle de plus en plus ultérieure à la date d’achèvement prévue.
+  * **Prédécesseurs :** En l&#39;absence de retard sur les tâches antérieures, la date d&#39;achèvement prévisionnelle doit correspondre à la date d&#39;achèvement prévue. Au fur et à mesure des retards, les tâches dépendantes affichent une date d’achèvement prévisionnelle de plus en plus ultérieure à la date d’achèvement prévue.
 
-     Pour plus d’informations sur la date d’achèvement prévue des tâches, voir [Vue d’ensemble de date d’achèvement prévue de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+    Pour plus d’informations sur la date d’achèvement prévue des tâches, voir [Vue d’ensemble de date d’achèvement prévue de la tâche](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ Les critères utilisés pour déterminer la date d&#39;achèvement prévisionnel
 
 * **Problèmes :** la date d’achèvement prévisionnelle du problème est initialement définie pour correspondre à la date d’achèvement prévue du problème.
 
-  Si la personne cessionnaire du problème spécifie une date d’engagement, la date d’achèvement prévisionnelle et la date d’achèvement prévue sont modifiées pour correspondre à la date d’engagement.
+  Si la personne désignée à l&#39;événement spécifie une date d&#39;engagement, la date d&#39;achèvement prévisionnelle change pour correspondre à la date d&#39;engagement. Cela ne modifie pas la date d&#39;achèvement prévue pour l&#39;événement.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   Pour plus d’informations sur les dates d’engagement, voir l’article [Vue d’ensemble de la date d’engagement](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -141,12 +141,12 @@ Pour créer un rapport de problème qui inclut la date d’achèvement prévisio
 1. Sélectionnez l’onglet **Colonnes (Vue)**.
 1. Cliquez sur **Ajouter une colonne**, et commencez à saisir la **Date d’achèvement prévisionnelle** dans le champ **Afficher dans cette colonne :**.
 
-1. Sélectionnez-le lorsqu’il apparaît dans la liste, sous l’objet **Problème**.
+1. Sélectionnez-le lorsqu&#39;il apparaît dans la liste, sous l&#39;objet **Problème**.
 1. Cliquez sur **Enregistrer + Fermer**.
 
-   ![Date d&#39;achèvement prévue de l&#39;événement dans la colonne du rapport](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+   ![Date d&#39;achèvement prévue de l&#39;événement dans la colonne de rapport](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
 
 
-   La colonne **Date d’achèvement prévue** du rapport est renseignée.
+   La colonne **Date d&#39;achèvement prévisionnelle** du rapport est renseignée.
 
 

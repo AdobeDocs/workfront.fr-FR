@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
-ht-degree: 97%
-
+source-wordcount: '438'
+ht-degree: 90%
 ---
-
 # Interactions entre la date d’engagement et la date d’achèvement prévue
 
 <!--
@@ -73,7 +71,8 @@ La personne cessionnaire qui travaille sur la tâche ou le problème peut mettre
 >
 >Seules les personnes cessionnaires peuvent mettre à jour la date d’engagement d’une tâche ou d’un problème.
 
-Lorsque la personne cessionnaire modifie la date d’engagement, la date d’achèvement prévue n’est pas automatiquement modifiée. L’inverse est également vrai : la modification de la date d’achèvement prévue ne modifie pas la date d’engagement.
+
+La personne affectée à la tâche ou à l&#39;événement qui modifie la date d&#39;engagement ne modifie pas automatiquement la date d&#39;achèvement prévue. L’inverse est également vrai : la modification de la date d’achèvement prévue ne modifie pas la date d’engagement. La date d’achèvement prévisionnelle change également lorsque la personne désignée met à jour la date d’engagement.
 
 Lorsque la date d’engagement change, la personne propriétaire du projet est informée par une notification in-app Workfront que cette modification s’est produite.
 

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '328'
 ht-degree: 3%
 ---
 
@@ -62,6 +62,7 @@ Adobe Workfront Planning offre désormais une fonctionnalité supplémentaire po
 Les articles suivants contiennent des informations sur l’espace d’idéation et vous donnent un guide sur ses fonctionnalités :
 
 * Commencez ici, pour une compréhension générale de l’espace d’idéation dans Workfront : [Commencez avec l’espace d’idéation pour Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* Mises à jour actuelles des fonctionnalités pour l’espace d’idéation : [Espace d’idéation pour l’activité de publication Adobe Workfront Planning](/help/quicksilver/planning/ideation/ideation-space-release-notes.md)
 * En tant qu&#39;administrateur système, assurez-vous de comprendre comment rendre l&#39;espace d&#39;idée disponible pour votre organisation : [Accès nécessaire pour utiliser l&#39;espace d&#39;idée](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * Lorsque vous êtes prêt à créer votre première stratégie de campagne, découvrez comment créer des briefs à l&#39;aide de l&#39;Espace d&#39;idéation : [Créez des briefs dans l&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * Si vous travaillez à partir de Workfront Planning, découvrez comment créer des enregistrements à l&#39;aide de l&#39;Espace d&#39;idéation : [Créez ou modifiez des enregistrements Planning à partir des résumés d&#39;Espace d&#39;idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
