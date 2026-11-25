@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 2%
@@ -439,3 +439,4 @@ Par exemple : `project_brief (Conflicted copy from jsmith's MacBook Pro on 2026-
 
 1. Dans Workfront, vérifiez les autorisations de l&#39;utilisateur pour le projet (**Afficher**, **Contribuer** ou **Gérer**).
 1. Mettez à jour les autorisations de l&#39;utilisateur sur **Contribuer** ou **Gérer** s&#39;il doit créer ou modifier des fichiers.
+

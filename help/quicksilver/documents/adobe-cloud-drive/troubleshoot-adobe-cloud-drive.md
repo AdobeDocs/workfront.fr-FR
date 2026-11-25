@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -214,3 +214,4 @@ Pour partager des journaux avec la prise en charge d’Adobe, suivez les étapes
 * **Suivez la structure de dossiers du projet.** Organisez les fichiers dans des dossiers de projet comme le souhaite le propriétaire du projet.
 * **Utilisez des noms de fichier descriptifs.** Aidez les membres de votre équipe à trouver ce dont ils ont besoin.
 * **Évitez de créer des doublons.** Ne faites pas de copies inutiles de fichiers.
+
