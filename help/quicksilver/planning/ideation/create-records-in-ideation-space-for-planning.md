@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 4%
 ---
 
@@ -200,6 +200,11 @@ Pour plus d’informations sur les exigences d’accès à Workfront, consultez 
 
    ![Nouvelle boîte d&#39;enregistrement avec le bouton Ouvrir l&#39;espace d&#39;idéation](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >Vous pouvez également accéder à l’Espace d’idéation pour créer des enregistrements à partir du menu principal de Workfront. Pour plus d&#39;informations, voir [Créer des briefs dans l&#39;espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+
+
 1. Lisez le contrat bêta et cliquez sur **Accepter**. Vous devez signer le contrat pour utiliser l&#39;espace d&#39;idéation.
 
    Les événements suivants se produisent :
@@ -216,6 +221,7 @@ Pour plus d’informations sur les exigences d’accès à Workfront, consultez 
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (Facultatif) Cliquez sur l’icône **Accueil** ![Icône Accueil de l’espace d’idéation](assets/ideation-space-home-icon.png) dans le coin supérieur gauche de la zone de travail pour ouvrir la zone **Accueil de l’espace d’idéation** et accéder à une autre zone de travail.
 1. (Facultatif) Pointez sur la balise **Workfront Planning** dans le coin supérieur droit de la zone de travail Espace d’idéation pour afficher le nom du type d’enregistrement, l’espace de travail pour lequel vous créez un enregistrement et le numéro de version du brief que vous êtes en train de créer.
 
    ![Espace de travail de planification Workfront et balise d’information sur le type d’enregistrement dans la zone de travail](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)

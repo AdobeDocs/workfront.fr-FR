@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 2%
 ---
 
@@ -179,15 +179,23 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
 
    * Accédez au **Menu principal** ![Menu principal](assets/main-menu-lines.png) > cliquez sur **Espace d’idéation**
 
+     La zone Accueil de l’espace d’idéation **1 s’ouvre.**
+
      ![Espace d&#39;idéation dans le menu principal](assets/ideation-space-area-icon-in-main-menu.png)
 
    * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur **Nouvel enregistrement** > cliquez sur **Démarrer l’espace d’idéation**
+
+     Une nouvelle zone de travail immédiatement connectée à un nouvel enregistrement s’ouvre.
 
      ![Espace d&#39;idéation dans le nouvel enregistrement](assets/ideation-space-in-planning-new-record.png)
 
    * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur un enregistrement existant > cliquez sur **Ouvrir dans l’espace d’idéation**
 
+     La zone de travail connectée à l’enregistrement sélectionné s’ouvre.
+
      ![Espace d’idéation dans les détails de l’enregistrement](assets/ideation-space-button-in-details-page.png)
+
+     Pour plus d&#39;informations sur la création d&#39;enregistrements Planning à l&#39;aide de l&#39;espace Idéation, consultez [Créer des enregistrements Planning à partir de résumés d&#39;espace Idéation](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Vous pouvez créer des résumés pour créer ou modifier des enregistrements Pla
      >* Lorsque vous le lancez à partir du menu principal de Workfront, le brief contient les champs et les informations des fichiers que vous téléchargez sur la zone de travail.
 
 1. Lisez le contrat bêta et cliquez sur **Accepter**. Vous devez signer le contrat pour utiliser l&#39;espace d&#39;idéation.
+1. (Conditionnel) Si vous avez accédé à l&#39;Espace d&#39;idéation à partir du **Menu principal** et que vous avez ouvert la zone **Accueil de l&#39;Espace d&#39;idéation**, effectuez l&#39;une des opérations suivantes pour ouvrir une zone de travail d&#39;idéation :
 
-   La zone de travail Idée s’ouvre et une nouvelle idéation est intitulée par défaut selon le format suivant :
+   * Cliquez sur une zone de travail récemment ouverte en haut de la page pour l’ouvrir
+   * Cliquez sur **Lancer une nouvelle zone de travail** pour ouvrir une nouvelle zone de travail et commencer à créer un brief d’idéation
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     La zone de travail Espace d’idéation s’ouvre et la nouvelle idéation porte automatiquement le titre suivant :
 
-   Pour plus d&#39;informations sur la création d&#39;enregistrements à l&#39;aide de l&#39;Espace d&#39;idée, consultez [Créer des enregistrements Planning à partir de résumés d&#39;Espace d&#39;idée](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+     `Untitled ideation - Month date, year at time`
 
-1. (Conditionnel) Pour ouvrir un brief existant dans l’espace Idéation , connectez-vous à Workfront avec Planning dans lequel Coworker a été activé, puis effectuez l’une des opérations suivantes :
+     ![Zone de travail d&#39;idéation vide avec résumés et collègues réduits au minimum](assets/empty-ideation-space-with-brief-minimized.png)
+   * Recherchez les zones de travail existantes dans le coin supérieur droit de la liste **Toutes les zones de travail**, puis cliquez dessus lorsqu&#39;elles apparaissent dans la liste
 
-   * Accédez à **Menu principal** ![Menu principal](assets/main-menu-lines.png) > **Planification** > cliquez sur un espace de travail > cliquez sur un type d’enregistrement > cliquez sur un enregistrement existant > **Ouvrir dans l’espace d’idéation**
+     ![Zone d&#39;accueil de l&#39;espace d&#39;idéation](assets/ideation-space-home-area.png)
 
-     Le nom de l’idéation correspond au nom de l’enregistrement.
+     >[!TIP]
+     >
+     >Toutes les zones de travail de la zone d&#39;Accueil de l&#39;Espace de l&#39;idéation ne sont pas connectées aux enregistrements Planning.
+
+1. (Facultatif) Dans la zone **Toutes les zones de travail**, effectuez l’une des opérations suivantes :
+
+   * Cliquez sur **Actualiser** ![Icône Actualiser](assets/refresh-icon.png) pour renouveler la liste de toutes les zones de travail disponibles.
+   * Cliquez sur l’icône **carte** ![Carte](assets/card-icon.png) pour afficher les zones de travail disponibles sous forme de cartes.
+   * Cliquez sur l’icône de **liste** ![icône de liste](assets/list-icon.png) pour afficher les zones de travail disponibles dans une vue de liste.
+1. (Facultatif) Dans une zone de travail ouverte, cliquez sur l’icône **Accueil** ![Icône Accueil de l’espace d’idéation](assets/ideation-space-home-icon.png) dans la zone supérieure gauche de l’écran pour revenir à la zone **Accueil de l’espace d’idéation**.
+
+   >[!TIP]
+   >
+   >L&#39;icône Espace d&#39;idéation icône Accueil ![Espace d&#39;idéation icône Accueil](assets/ideation-space-home-icon.png) est disponible dans n&#39;importe quelle zone de travail, même lorsque vous l&#39;avez ouverte à partir de Workfront Planning.
 
 1. (Recommandé) Cliquez sur le nom de l’idéation pour le modifier, si vous l’avez ouverte pour la première fois.
 
-1. (Conditionnel et facultatif) Pour ouvrir un autre espace d&#39;idéation existant, cliquez sur le menu déroulant à droite du nom de l&#39;idéation, recherchez-le par nom, puis cliquez sur l&#39;idéation lorsqu&#39;elle s&#39;affiche dans la liste.
+1. (Conditionnel et facultatif) Pour ouvrir une autre zone de travail existante, cliquez sur le menu déroulant à droite du nom de l’idéation, recherchez-la par nom, puis cliquez sur l’idéation lorsqu’elle s’affiche dans la liste.
 
-   L’**Espace d’idéation** s’ouvre et Coworker s’ouvre à droite.
 1. Utilisez l’invite du collègue pour décrire le type de brief que vous souhaitez créer.
 
    Par exemple, tapez « Créer une campagne de rentrée pour les élèves de la maternelle à la 12e année pour le mois d’août, pour les parents et les enseignants aux États-Unis ».  Pour que le résumé soit aussi complet que possible, indiquez autant d’informations que vous disposez sur le type de campagne, le calendrier, les parties prenantes, les points de contrôle des approbations et d’autres détails.

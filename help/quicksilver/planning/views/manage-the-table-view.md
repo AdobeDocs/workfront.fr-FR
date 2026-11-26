@@ -28,18 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
-ht-degree: 36%
+source-wordcount: '4376'
+ht-degree: 35%
 ---
 # Gérer la vue de tableau
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles pour tous. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
+<span class="preview">Les informations mises en évidence sur cette page font référence à des fonctionnalités qui ne sont pas encore disponibles en général. Elle est disponible uniquement dans l’environnement de Prévisualisation pour tous les clients. Une fois la version à prévisualiser, les mêmes fonctionnalités sont également disponibles tous les mois dans l’environnement de production pour les clients qui ont activé les versions rapides. </span>
 
-<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activation ou désactivation des versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Pour plus d’informations sur les versions rapides, voir [Activer ou désactiver les versions rapides pour votre organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 
@@ -54,7 +54,7 @@ Cet article décrit les informations suivantes :
 * [Créer ou modifier des colonnes et des lignes dans une vue Tableau](#manage-a-table-view)
 * [Activer les indicateurs de présence en temps réel pour la vue Tableau](#enable-the-real-time-presence-indicator)
 
-Pour plus d’informations sur l’exportation de la vue Tableau vers un fichier Excel ou CSV, voir [&#x200B; Exporter des enregistrements de la vue Tableau &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Pour plus d&#39;informations sur l&#39;exportation de la vue Tableau vers un fichier Excel ou CSV, consultez [Exporter des enregistrements de la vue Tableau](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Conditions d’accès
 
@@ -105,7 +105,7 @@ Ou
 </tbody> 
 </table>
 
-Pour plus d’informations sur les exigences d’accès à Workfront, voir [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Pour plus d’informations sur les exigences d’accès à Workfront, consultez [Exigences d’accès dans la documentation de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -214,7 +214,7 @@ Pour gérer une vue tableau :
    * Moyen
    * Grand
 
-1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou sur la touche Échap du clavier pour quitter le plein écran.
+1. (Facultatif) Cliquez sur l’icône **Plein écran** ![Icône Ouvrir le plein écran](assets/open-full-screen-icon.png) pour ouvrir l’affichage en plein écran, puis sur l’icône **Quitter le plein écran** ![Icône Quitter le plein écran](assets/exit-full-screen-icon.png) ou utilisez la touche Échap du clavier pour quitter le plein écran.
 
 1. Mettez à jour les éléments de vues suivants, comme décrit dans les sous-sections ci-dessous :
    * [Colonnes (ou champs)](#add-columns-or-fields)
@@ -244,9 +244,9 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Dans l’environnement de production , les nouveaux champs ajoutés sont visibles depuis toutes les vues.
 
-   <span class="preview">Dans l’environnement de Prévisualisation, les nouveaux champs ajoutés sont ajoutés en tant que champs masqués dans tous les modes, à l’exception de l’affichage dans lequel vous les ajoutez. </span>
+   <span class="preview">Dans l&#39;environnement Aperçu, les nouveaux champs ajoutés sont ajoutés sous forme de champs masqués dans tous les affichages, à l&#39;exception de l&#39;affichage dans lequel vous les ajoutez. </span>
 
-1. (Facultatif) Cliquez sur l’icône **Champs** ![icône Champs](assets/fields-icon.png) dans la barre d’outils, recherchez un champ, puis désélectionnez le bouton (bascule) situé à droite du nom du champ pour le masquer.
+1. (Facultatif) Cliquez sur l’icône **Champs** ![Icône Champs](assets/fields-icon.png) de la barre d’outils, recherchez un champ, puis désélectionnez le bouton (bascule) situé à droite du nom du champ pour le masquer.
 
 1. Effectuez l’une des opérations suivantes pour réorganiser les colonnes du tableau :
 
@@ -256,7 +256,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
      <!--update the screen shot without Thumbnail at Production release-->
 
-     ![Barre d’outils du mode Tableau des champs développée](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Barre d&#39;outils de la vue Tableau des champs développée](assets/fields-setting-table-view-toolbar-expanded.png)
 
      >[!TIP]
      >
@@ -270,18 +270,18 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
 1. (Facultatif) Pointez sur un nom de champ dans l’en-tête de colonne d’un champ qui ne s’affiche pas dans la première colonne du tableau, cliquez sur la flèche pointant vers le bas à droite du nom du champ, puis sur **Définir comme champ principal**.
 
-   ![Définir comme champ principal en mode Tableau](assets/set-as-primary-field-option-table-view.png)
+   ![Définir comme option de champ principal en mode Tableau](assets/set-as-primary-field-option-table-view.png)
 
 
 1. Cliquez sur **Définir le champ** pour confirmer.
 
    Le champ devient champ principal, ce qui signifie qu’il s’affiche en tant que première colonne de la vue du tableau. Le champ principal précédent est déplacé dans la deuxième colonne.
 
-   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la présentation des champs de Principal [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Les champs de Principal deviennent le titre de l&#39;enregistrement et s&#39;affichent dans la zone d&#39;en-tête de la page de l&#39;enregistrement et partout où les enregistrements s&#39;affichent. Par exemple, le titre de l’enregistrement s’affiche dans les champs connectés et toutes les vues. Pour plus d’informations sur les champs principaux, consultez la [présentation des champs de Principal](/help/quicksilver/planning/fields/primary-field-overview.md).
 
    >[!TIP]
    >
-   >Cliquez sur l’icône **informations** ![Icône Informations](assets/info-icon.png) située à droite du nom du champ dans une colonne pour afficher sa **Description**.
+   >Cliquez sur l’icône **information** ![Icône Informations](assets/info-icon.png) à droite du nom du champ dans une colonne pour afficher sa **Description**.
 
 1. Cliquez sur les lignes de séparation des colonnes et déposez-les à l’endroit souhaité pour augmenter la largeur des colonnes.
 
@@ -293,20 +293,20 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
    Ou
 
-   Cliquez sur **Champs** dans la barre d’outils du tableau, puis désélectionnez le bouton (bascule) associé aux champs (ou colonnes) à masquer. La boîte de dialogue **Visibilité et ordre des champs** s’affiche.
+   Cliquez sur **Champs** dans la barre d’outils du tableau et désélectionnez le bouton (bascule) associé aux champs (ou colonnes) à masquer. La boîte de dialogue **Visibilité et ordre des champs** s’affiche.
 
    >[!TIP]
    >
    >Le nombre de champs masqués s’affiche à gauche de l’icône Champs dans la barre d’outils.
    >
-   >Par défaut, les champs masqués ne s’affichent pas dans la zone d’aperçu **Détails** de l’enregistrement. Tous les champs s’affichent dans la page Détails de l’enregistrement. Pour plus d’informations, voir [Gérer la mise en page des enregistrements](/help/quicksilver/planning/records/manage-the-record-page.md).
+   >Par défaut, les champs masqués ne s’affichent pas dans la zone d’aperçu **Détails** de l’enregistrement. Tous les champs s’affichent dans la page Détails de l’enregistrement. Pour plus d&#39;informations, voir [Gérer la mise en page de la page d&#39;enregistrement](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 1. Cliquez sur l’icône **Champs** et activez le bouton (bascule) associé aux champs que vous souhaitez afficher dans les colonnes du tableau. Tous les champs s’affichent par défaut.
 
 1. Procédez comme suit pour trouver rapidement les enregistrements correspondant à un mot-clé :
 
-   1. Dans la zone **Rechercher** ![icône Rechercher](assets/search-icon.png) commencez à saisir un mot-clé associé à n’importe quel champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance. <span class="preview"> Le nombre total d’enregistrements affichés à gauche de la zone de recherche est remplacé par le nombre d’enregistrements trouvés dans la recherche. Le tableau est filtré pour n’afficher que les éléments correspondant à la recherche. </span>
+   1. Dans la zone **Rechercher** ![Icône Rechercher](assets/search-icon.png), commencez à saisir un mot-clé associé à un champ d’un enregistrement qui s’affiche à l’écran. Le nombre de correspondances correctes s’affiche à côté de l’élément de recherche et le champ correspondant est mis en surbrillance. <span class="preview">Le nombre total d&#39;enregistrements affichés à gauche de la zone de recherche est remplacé par le nombre d&#39;enregistrements trouvés dans la recherche. Le tableau est filtré pour n’afficher que les éléments correspondant à la recherche. </span>
 
       ![Zone de recherche avec le contour bleu des résultats en mode Tableau](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -316,7 +316,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
       >[!TIP]
       >
-      ><span class="preview">La recherche rapide fonctionne pour tous les enregistrements, et pas seulement pour ceux qui s’affichent dans la vue actuelle. D’autres enregistrements se chargent au fur et à mesure que vous faites défiler l’écran. </span>
+      ><span class="preview">La recherche rapide fonctionne pour tous les enregistrements, et pas seulement ceux qui s&#39;affichent dans la vue actuelle. D’autres enregistrements se chargent au fur et à mesure que vous faites défiler l’écran. </span>
 
 
    1. Appuyez sur la touche **Entrée** de votre clavier pour passer au champ suivant.
@@ -328,27 +328,27 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
 
 1. (Conditionnel) Selon les types de champs que vous consultez, effectuez l’une des opérations suivantes :
 
-   * Pour les champs de nombre, de devise, de pourcentage et de formule formatés en tant que types de champ, développez le menu déroulant agrégateur au bas des colonnes et sélectionnez l’une des options suivantes :
+   * Pour les champs de nombre, de devise, de pourcentage et de formule formatés en tant que l’un de ces types de champs, développez le menu déroulant de l’agrégateur au bas des colonnes <!--<span class="preview">or at the bottom of a grouping</span>--> et sélectionnez l’une des options suivantes :
 
      * **SUM** : affiche le total de toutes les cellules de la colonne.
-     * **MIN** : affiche la valeur la plus basse parmi toutes les cellules de la colonne.
-     * **&#x200B;**&#x200B;: affiche la valeur la plus élevée de toutes les cellules de la colonne.
+     * **MIN** : affiche la valeur la plus basse de toutes les cellules de la colonne.
+     * **MAX** : affiche la valeur la plus élevée de toutes les cellules de la colonne.
      * **AVG** : affiche la valeur moyenne de toutes les cellules de la colonne.
      * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
 
    * Pour les champs de date, développez le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
 
      * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
-     * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
-     * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
+     * **EMPTY** : affiche le nombre de champs qui n&#39;ont pas de valeurs.
+     * **NOT EMPTY** : affiche un nombre de champs qui ont des valeurs.
      * **MIN** : affiche la date la plus proche.
-     * **&#x200B;**&#x200B;: affiche la date la plus récente.
+     * **MAX** : affiche la date la plus récente.
 
    * Pour le texte, sélectionnez, booléen, les champs Personnes développent le menu déroulant de l’agrégateur au bas des colonnes, puis sélectionnez l’une des options suivantes :
 
      * **NONE** : les valeurs de la colonne ne sont pas agrégées. Il s’agit de l’option par défaut.
-     * **EMPTY** : affiche le nombre de champs qui n’ont pas de valeurs.
-     * **NOT EMPTY** : affiche le nombre de champs qui ont des valeurs.
+     * **EMPTY** : affiche le nombre de champs qui n&#39;ont pas de valeurs.
+     * **NOT EMPTY** : affiche un nombre de champs qui ont des valeurs.
 
    Tenez compte des points suivants lorsque vous utilisez des agrégateurs :
 
@@ -362,6 +362,7 @@ Vous pouvez ajouter jusqu’à 500 champs (ou colonnes) dans une vue tableau.
      * Dernière modification par
      * ID de l’enregistrement
    * Les champs de formule et les champs de recherche ont des agrégateurs qui correspondent à leur format de champ.
+   * Les agrégateurs affichent les résultats lors du calcul de tous les enregistrements chargés à l’écran, et pas de tous les enregistrements disponibles.
 
 
 
@@ -395,10 +396,10 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 Les lignes d’une vue de tableau affichent des enregistrements individuels du type d’enregistrement sélectionné. L’ajout de lignes est identique à la création d’enregistrements.
 
-Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement. <span class="preview">Seules 500 lignes s’affichent par défaut. Charge plus importante en faisant défiler la page.</span>
-<span class="preview">Le nombre total d’enregistrements s’affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau.</span>
+Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d’enregistrement. <span class="preview">Seules 500 lignes s&#39;affichent par défaut. Charge plus importante en faisant défiler la page.</span>
+<span class="preview">Le nombre total d&#39;enregistrements s&#39;affiche à gauche de la zone de recherche rapide, dans le coin supérieur droit du tableau.</span>
 
-1. Accédez à une page de type d’enregistrement et sélectionnez une vue de tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
+1. Accédez à une page de type enregistrement et sélectionnez une vue de tableau, ou cliquez sur **+ Vue** pour ajouter une nouvelle vue, puis choisissez **Table**.
 
 1. Commencez à ajouter des enregistrements (ou lignes), comme décrit dans l’article [Créer des enregistrements](/help/quicksilver/planning/records/create-records.md).
 
@@ -410,10 +411,10 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    >
    >Lorsqu&#39;un enregistrement contient des commentaires non lus, un indicateur **Nouveau commentaire** s&#39;affiche dans le coin supérieur droit du champ principal de l&#39;enregistrement.
    >
-   >![Icône Nouveau commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
+   >![Nouvelle icône de commentaire en mode Tableau](assets/new-comment-icon-in-table-view-highlighted.png)
 
 
-1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
+1. (Facultatif) Sélectionnez un ou plusieurs enregistrements ou lignes, puis faites glisser et déposez l’icône **handle** ![Icône Handle](assets/handle-icon.png) à gauche de l’enregistrement pour réorganiser les lignes.
 
    >[!NOTE]
    >
@@ -424,13 +425,13 @@ Vous pouvez avoir jusqu’à 50 000 enregistrements (ou lignes) pour un type d�
    >Dans la ligne de glisser-déposer, un indicateur numérique affiche le nombre d’enregistrements sélectionnés, le cas échéant.
 
 1. (Facultatif) Cliquez sur le menu **Plus** ![Plus](assets/more-menu.png) à droite de l’enregistrement, puis cliquez sur **Modifier la miniature** pour modifier la miniature.
-1. Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
+1. Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton (bascule) du champ **Miniature** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
    Pour plus d’informations, voir [Ajouter une miniature à un enregistrement](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 1. Pointez sur l’en-tête du champ principal, puis sélectionnez le bouton bascule du champ **Couleur** pour l’afficher à gauche du champ principal. Il est désélectionné par défaut.
 
-1. (Facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l&#39;enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.
+1. (Facultatif et conditionnel) Si vous avez activé le paramètre **Couleur**, cliquez sur la barre de couleurs située à gauche du champ principal de l’enregistrement et sélectionnez une couleur dans les onglets **Nuancier** ou **Personnalisé**, puis cliquez en dehors de la zone pour la fermer. La couleur est appliquée immédiatement.
 
 ![Zone du sélecteur de couleurs pour le codage des couleurs d’enregistrement](assets/color-picker-for-record-color-coding.png)
 
@@ -535,7 +536,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 
    * Choisissez une valeur pour le champ sélectionné.
 
-   ![Affichage du tableau de l’interface utilisateur des filtres](assets/filter-ui-table-view.png)
+   ![Vue du tableau de l’interface utilisateur du filtre](assets/filter-ui-table-view.png)
 
    Il n’y a pas de limite au nombre de conditions de filtrage que vous pouvez ajouter.
 
@@ -543,7 +544,7 @@ Pour ajouter un filtre à une vue en tableau, procédez comme suit :
 1. Cliquez sur les opérateurs suivants pour indiquer comment les conditions de filtrage sont liées et doivent être appliquées :
 
    * **AND** : toutes les conditions spécifiées doivent être remplies.
-   * **OR** : l’une des conditions spécifiées doit être remplie. Il s’agit de l’option par défaut.
+   * **OR** : l&#39;une des conditions spécifiées doit être remplie. Il s’agit de l’option par défaut.
 
    1. (Facultatif) Ajoutez des opérateurs **AND** ou **OR** supplémentaires entre plusieurs regroupements de conditions.
 
@@ -589,9 +590,9 @@ Pour trier les enregistrements, procédez comme suit :
 
    Ou
 
-   Pointez sur le nom d’une colonne dans la vue Tableau, cliquez sur la flèche pointant vers le bas à droite du nom de l’en-tête de colonne, puis cliquez sur **Trier**.
+   Pointez sur le nom d&#39;une colonne dans la vue Tableau, cliquez sur la flèche vers le bas à droite du nom de l&#39;en-tête de colonne, puis cliquez sur **Trier**.
 
-1. (Conditionnel) Si vous cliquez sur **Trier** en haut du tableau, la zone **Trier les enregistrements par** s’ouvre. Cliquez sur l&#39;un des champs proposés ou cliquez sur **Choisir un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
+1. (Conditionnel) Si vous cliquez sur **Trier** en haut du tableau, la zone **Trier les enregistrements par** s’ouvre. Cliquez sur l&#39;un des champs suggérés ou sur **Choisissez un autre champ** et recherchez un autre champ, puis cliquez dessus lorsqu&#39;il s&#39;affiche dans la liste.
 
    Le tri est appliqué automatiquement à la vue en tableau et les enregistrements s’affichent triés selon les critères que vous avez sélectionnés.
 
@@ -619,7 +620,7 @@ Pour trier les enregistrements, procédez comme suit :
      * Sélectionné en premier
      * Désélectionné en premier
 
-   Le champ est ajouté sous forme de sélection de tri dans l’icône **Trier** en haut du tableau.
+   Le champ est ajouté comme sélection de tri dans l’icône **Trier** en haut du tableau.
 
 1. (Facultatif) Dans la zone **Trier les enregistrements par**, cliquez sur l’icône **x** en regard d’un champ de tri pour supprimer le tri.
 
@@ -668,7 +669,7 @@ Pour ajouter un regroupement :
 1. Créez une vue de tableau pour un type d’enregistrement, comme décrit dans l’article [Gérer les vues d’enregistrement](/help/quicksilver/planning/views/manage-record-views.md).
 1. Cliquez sur **Regroupement** dans le coin supérieur droit de la vue de tableau.
 
-   ![Regroupement de la vue Tableau de l’interface utilisateur avec des champs liés](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Regroupement de la vue du tableau de l’interface utilisateur avec des champs liés](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Cliquez sur l’un des champs proposés ou cliquez sur **Choisir un autre champ**, recherchez un autre champ, puis cliquez dessus lorsqu’il s’affiche dans la liste.
 
@@ -688,12 +689,12 @@ Pour ajouter un regroupement :
 
    ![Regroupement appliqué en mode Tableau](assets/grouping-applied-in-table-view.png)
 
-1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l’icône **x** à droite d’un champ sélectionné pour le regroupement afin de supprimer le regroupement.
+1. (Facultatif) Dans la zone **Regrouper les enregistrements par**, cliquez sur l&#39;icône **x** à droite d&#39;un champ sélectionné pour le regroupement pour supprimer le regroupement.
 
 1. Cliquez en dehors de la zone **Regrouper les enregistrements par** pour la fermer.
 1. (Facultatif) Cliquez sur **+ Nouvel enregistrement** à la fin de tout regroupement pour ajouter de nouveaux enregistrements, puis actualisez votre page pour ajouter le nouvel enregistrement au regroupement approprié.
 
-1. Pour développer ou réduire des regroupements, cliquez sur l’icône **Regroupement**, puis sur **Tout développer** ou **Tout réduire**. Cette action développe tous les regroupements et sous-regroupements dans la vue Tableau.
+1. Pour développer ou réduire des regroupements, cliquez sur l&#39;icône **Regroupement**, puis **Développer tout** ou **Réduire tout**. Cette action développe tous les regroupements et sous-regroupements dans la vue Tableau.
 
    ![Développer et réduire tous les boutons en mode Tableau de zone de regroupement](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
@@ -712,11 +713,11 @@ Pour ajouter un regroupement :
 
 ### Ajouter des couleurs de ligne
 
-1. (Facultatif) Cliquez sur **Couleurs des lignes** pour définir des conditions et configurer différentes couleurs pour les lignes du tableau.
+1. (Facultatif) Cliquez sur **Couleurs de ligne** pour définir des conditions et configurer différentes couleurs pour les lignes du tableau.
 
-1. Cliquez sur **Ajouter une couleur**, puis recherchez un champ et sélectionnez-le lorsqu’il s’affiche dans la liste. Il s’agit du champ dont vous souhaitez définir la couleur d’une ligne ou du champ de Principal.
+1. Cliquez sur **Ajouter une couleur**, puis recherchez un champ et sélectionnez-le lorsqu&#39;il s&#39;affiche dans la liste. Il s’agit du champ dont vous souhaitez définir la couleur d’une ligne ou du champ de Principal.
 
-   Par exemple, pour afficher les campagnes avec le statut Actif en vert, sélectionnez **Statut**, puis choisissez un modificateur et une valeur pour le champ.
+   Par exemple, pour afficher les campagnes avec un statut Actif en vert, sélectionnez **Statut**, puis choisissez un modificateur et une valeur pour le champ.
 
 1. Cliquez sur le menu déroulant du sélecteur de couleurs dans le coin supérieur gauche de la condition que vous avez sélectionnée, pour sélectionner la couleur de la condition, puis cliquez en dehors de la zone du sélecteur de couleurs pour la fermer.
 
@@ -726,11 +727,11 @@ Pour ajouter un regroupement :
 
    Ou
 
-   Cliquez sur **Ajouter une couleur** pour ajouter un nouveau jeu de conditions et identifier une nouvelle couleur.
+   Cliquez sur **Ajouter une couleur** pour ajouter un nouvel ensemble de conditions et identifier une nouvelle couleur.
 
    Par exemple, vous pouvez afficher les campagnes au statut Planning en jaune en définissant un nouveau jeu de conditions.
 
-   ![Zone Couleurs de ligne avec couleurs personnalisées au statut Actif et Planification](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+   ![Zone des couleurs de ligne avec des couleurs personnalisées au statut Actif et Planification](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
 
    >[!TIP]
    >
@@ -762,17 +763,17 @@ Lorsque vous affichez la vue Tableau, vous pouvez également voir quel champ un 
 1. (Conditionnel) Si d’autres utilisateurs modifient les enregistrements du type sélectionné en même temps, leurs avatars s’affichent dans le coin supérieur droit de la vue.
 1. Cliquez sur le menu déroulant à côté des avatars, puis activez le paramètre **Afficher les collaborateurs**. Le paramètre est activé par défaut.
 
-   ![Bouton bascule Afficher les collaborateurs sélectionné](assets/show-collaborators-toggle-selected.png)
+   ![Afficher le bouton bascule des collaborateurs sélectionnés](assets/show-collaborators-toggle-selected.png)
 
    >[!TIP]
    >
-   >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** dans n’importe quel mode. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.
+   >Vous pouvez sélectionner le bouton bascule **Afficher les collaborateurs** depuis n’importe quel affichage. Le champ actuellement modifié par d’autres utilisateurs est uniquement indiqué dans la vue Tableau.
 
 1. (Conditionnel) Ouvrez une vue de tableau, et le champ qu’une autre personne modifie activement est mis en surbrillance dans la couleur correspondant au contour de son avatar dans la vue de tableau.
 
    Si la couleur de surbrillance de l&#39;avatar est grise, l&#39;utilisateur a arrêté de modifier activement l&#39;enregistrement il y a plus de 30 secondes.
 
-   ![Champ de tableau des indicateurs en temps réel et connexion à l’avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Champ de tableau d&#39;indicateurs en temps réel et connexion d&#39;avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 

@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 2%
 ---
 
@@ -169,6 +169,11 @@ Pour accéder à l’Espace idéation :
    * [Accès nécessaire pour utiliser l’espace Idéation](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [Créer des enregistrements Planning à partir de résumés d&#39;espace d&#39;idées](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [Créer des briefs dans l’espace Idéation](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Acceptez le contrat Beta.
+
+   Il s’agit d’une exigence pendant le programme bêta. Vous ne pouvez pas utiliser l’espace d’idéation sans accepter les conditions du programme bêta.
+
+   Lors de l’acceptation du contrat, vous le faites pour votre utilisateur et non pour l’organisation. Chaque utilisateur doit accepter le contrat individuellement.
 
 1. (Recommandé) Identifiez votre première campagne : une campagne récente à actualiser ou une nouvelle initiative à créer à partir de zéro.
 

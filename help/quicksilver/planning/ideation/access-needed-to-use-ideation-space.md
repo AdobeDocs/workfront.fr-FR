@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1017'
 ht-degree: 3%
 ---
 
@@ -159,6 +159,9 @@ Les paramètres ci-dessous sont requis pour accéder à l’espace d’idéation
     >
     >Pour plus d&#39;informations, voir [Créer et modifier des niveaux d&#39;accès personnalisés](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
+* Accepter le contrat Beta
+
+  Il s’agit d’une exigence pendant le programme bêta. Vous ne pouvez pas utiliser l’espace d’idéation sans accepter les conditions du programme bêta. Lors de l’acceptation du contrat, vous le faites pour votre utilisateur et non pour l’organisation. Chaque utilisateur doit accepter le contrat individuellement.
 
 
 ## Exigences de licence

@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 25%
@@ -261,7 +261,13 @@ Pour plus d’informations, voir [Créer des enregistrements](/help/quicksilver/
    * Ajouter une liste à puces
    * Ajouter une liste numérotée
 
+   <!--update screen shot at release of new rich test box and move it below the next step-->
+
    ![Barre d’outils de texte enrichi sur le champ de paragraphe](assets/rich-text-toolbar-on-paragraph-field.png)
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Expand** icon ![Expand icon](assets/expand-icon.png) in the upper-right corner of the rich-text editing box to enlarge it, add your changes, then click **Save**.</span>
+    -->
 
 1. (facultatif) Double-cliquez sur un champ d’enregistrement connecté pour ajouter des enregistrements ou des objets connectés à un autre enregistrement. Pour plus d’informations, consultez [Connecter des enregistrements](/help/quicksilver/planning/records/connect-records.md).
 1. Appuyez sur **Entrée** sur votre clavier ou cliquez en dehors d’une ligne pour enregistrer vos modifications. Les modifications sont enregistrées automatiquement. Un indicateur **Enregistré** s’affiche brièvement dans le coin supérieur droit de la vue Tableau pour indiquer que les modifications ont été enregistrées.
